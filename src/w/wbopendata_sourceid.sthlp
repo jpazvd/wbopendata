@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -63,6 +63,7 @@
 {synopt:{opt 87}}  {help wbopendata_sourceid##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
 {synopt:{opt 88}}  {help wbopendata_sourceid##sourceid_88:Food Prices for Nutrition}{p_end}
 {synopt:{opt 89}}  {help wbopendata_sourceid##sourceid_89:Identification for Development (ID4D) Data}{p_end}
+{synopt:{opt 91}}  {help wbopendata_sourceid##sourceid_91:PEFA_CRPFM}{p_end}
 {synoptline}
 
 
@@ -859,7 +860,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.GDP.PUSE.KO.PP:EG.GDP.PUSE.KO.PP{marker EG.GDP.PUSE.KO.PP}}}GDP per unit of energy use (PPP $ per kg of oil equivalent){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.GDP.PUSE.KO.PP.KD:EG.GDP.PUSE.KO.PP.KD{marker EG.GDP.PUSE.KO.PP.KD}}}GDP per unit of energy use (constant 2017 PPP $ per kg of oil equivalent){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.GDP.PUSE.KO.PP.KD:EG.GDP.PUSE.KO.PP.KD{marker EG.GDP.PUSE.KO.PP.KD}}}GDP per unit of energy use (constant 2021 PPP $ per kg of oil equivalent){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.IMP.CONS.ZS:EG.IMP.CONS.ZS{marker EG.IMP.CONS.ZS}}}Energy imports, net (% of energy use){p_end}
 
@@ -867,7 +868,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.USE.COMM.FO.ZS:EG.USE.COMM.FO.ZS{marker EG.USE.COMM.FO.ZS}}}Fossil fuel energy consumption (% of total){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD{marker EG.USE.COMM.GD.PP.KD}}}Energy use (kg of oil equivalent) per $1,000 GDP (constant 2017 PPP){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD{marker EG.USE.COMM.GD.PP.KD}}}Energy use (kg of oil equivalent) per $1,000 GDP (constant 2021 PPP){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_EG.USE.CRNW.ZS:EG.USE.CRNW.ZS{marker EG.USE.CRNW.ZS}}}Combustible renewables and waste (% of total energy){p_end}
 
@@ -893,7 +894,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.PP.GD:EN.ATM.CO2E.PP.GD{marker EN.ATM.CO2E.PP.GD}}}CO2 emissions (kg per PPP $ of GDP){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD{marker EN.ATM.CO2E.PP.GD.KD}}}CO2 emissions (kg per 2017 PPP $ of GDP){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD{marker EN.ATM.CO2E.PP.GD.KD}}}CO2 emissions (kg per 2021 PPP $ of GDP){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_EN.ATM.CO2E.SF.KT:EN.ATM.CO2E.SF.KT{marker EN.ATM.CO2E.SF.KT}}}CO2 emissions from solid fuel consumption (kt){p_end}
 
@@ -1529,7 +1530,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.PP.CD:NE.CON.PRVT.PP.CD{marker NE.CON.PRVT.PP.CD}}}Households and NPISHs Final consumption expenditure, PPP (current international $){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.PP.KD:NE.CON.PRVT.PP.KD{marker NE.CON.PRVT.PP.KD}}}Households and NPISHs Final consumption expenditure, PPP (constant 2017 international $){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.PP.KD:NE.CON.PRVT.PP.KD{marker NE.CON.PRVT.PP.KD}}}Households and NPISHs Final consumption expenditure, PPP (constant 2021 international $){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NE.CON.PRVT.ZS:NE.CON.PRVT.ZS{marker NE.CON.PRVT.ZS}}}Households and NPISHs final consumption expenditure (% of GDP){p_end}
 
@@ -1793,7 +1794,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.MKTP.PP.CD:NY.GDP.MKTP.PP.CD{marker NY.GDP.MKTP.PP.CD}}}GDP, PPP (current international $){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.MKTP.PP.KD:NY.GDP.MKTP.PP.KD{marker NY.GDP.MKTP.PP.KD}}}GDP, PPP (constant 2017 international $){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.MKTP.PP.KD:NY.GDP.MKTP.PP.KD{marker NY.GDP.MKTP.PP.KD}}}GDP, PPP (constant 2021 international $){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.NGAS.RT.ZS:NY.GDP.NGAS.RT.ZS{marker NY.GDP.NGAS.RT.ZS}}}Natural gas rents (% of GDP){p_end}
 
@@ -1809,7 +1810,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.PCAP.PP.CD:NY.GDP.PCAP.PP.CD{marker NY.GDP.PCAP.PP.CD}}}GDP per capita, PPP (current international $){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.PCAP.PP.KD:NY.GDP.PCAP.PP.KD{marker NY.GDP.PCAP.PP.KD}}}GDP per capita, PPP (constant 2017 international $){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.PCAP.PP.KD:NY.GDP.PCAP.PP.KD{marker NY.GDP.PCAP.PP.KD}}}GDP per capita, PPP (constant 2021 international $){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GDP.PETR.RT.ZS:NY.GDP.PETR.RT.ZS{marker NY.GDP.PETR.RT.ZS}}}Oil rents (% of GDP){p_end}
 
@@ -1839,7 +1840,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.MKTP.PP.CD:NY.GNP.MKTP.PP.CD{marker NY.GNP.MKTP.PP.CD}}}GNI, PPP (current international $){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.MKTP.PP.KD:NY.GNP.MKTP.PP.KD{marker NY.GNP.MKTP.PP.KD}}}GNI, PPP (constant 2017 international $){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.MKTP.PP.KD:NY.GNP.MKTP.PP.KD{marker NY.GNP.MKTP.PP.KD}}}GNI, PPP (constant 2021 international $){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.PCAP.CD:NY.GNP.PCAP.CD{marker NY.GNP.PCAP.CD}}}GNI per capita, Atlas method (current US$){p_end}
 
@@ -1853,7 +1854,7 @@
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.PCAP.PP.CD:NY.GNP.PCAP.PP.CD{marker NY.GNP.PCAP.PP.CD}}}GNI per capita, PPP (current international $){p_end}
 
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.PCAP.PP.KD:NY.GNP.PCAP.PP.KD{marker NY.GNP.PCAP.PP.KD}}}GNI per capita, PPP (constant 2017 international $){p_end}
+{synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNP.PCAP.PP.KD:NY.GNP.PCAP.PP.KD{marker NY.GNP.PCAP.PP.KD}}}GNI per capita, PPP (constant 2021 international $){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_NY.GNS.ICTR.CD:NY.GNS.ICTR.CD{marker NY.GNS.ICTR.CD}}}Gross savings (current US$){p_end}
 
@@ -2184,38 +2185,6 @@
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.UNER.LO.MA.ZS:SE.SEC.UNER.LO.MA.ZS{marker SE.SEC.UNER.LO.MA.ZS}}}Adolescents out of school, male (% of male lower secondary school age){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.SEC.UNER.LO.ZS:SE.SEC.UNER.LO.ZS{marker SE.SEC.UNER.LO.ZS}}}Adolescents out of school (% of lower secondary school age){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.BA.FE.ZS:SE.TER.CUAT.BA.FE.ZS{marker SE.TER.CUAT.BA.FE.ZS}}}Educational attainment, at least Bachelor's or equivalent, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.BA.MA.ZS:SE.TER.CUAT.BA.MA.ZS{marker SE.TER.CUAT.BA.MA.ZS}}}Educational attainment, at least Bachelor's or equivalent, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.BA.ZS:SE.TER.CUAT.BA.ZS{marker SE.TER.CUAT.BA.ZS}}}Educational attainment, at least Bachelor's or equivalent, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.DO.FE.ZS:SE.TER.CUAT.DO.FE.ZS{marker SE.TER.CUAT.DO.FE.ZS}}}Educational attainment, Doctoral or equivalent, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.DO.MA.ZS:SE.TER.CUAT.DO.MA.ZS{marker SE.TER.CUAT.DO.MA.ZS}}}Educational attainment, Doctoral or equivalent, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.DO.ZS:SE.TER.CUAT.DO.ZS{marker SE.TER.CUAT.DO.ZS}}}Educational attainment, Doctoral or equivalent, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.MS.FE.ZS:SE.TER.CUAT.MS.FE.ZS{marker SE.TER.CUAT.MS.FE.ZS}}}Educational attainment, at least Master's or equivalent, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.MS.MA.ZS:SE.TER.CUAT.MS.MA.ZS{marker SE.TER.CUAT.MS.MA.ZS}}}Educational attainment, at least Master's or equivalent, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.MS.ZS:SE.TER.CUAT.MS.ZS{marker SE.TER.CUAT.MS.ZS}}}Educational attainment, at least Master's or equivalent, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.ST.FE.ZS:SE.TER.CUAT.ST.FE.ZS{marker SE.TER.CUAT.ST.FE.ZS}}}Educational attainment, at least completed short-cycle tertiary, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.ST.MA.ZS:SE.TER.CUAT.ST.MA.ZS{marker SE.TER.CUAT.ST.MA.ZS}}}Educational attainment, at least completed short-cycle tertiary, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.CUAT.ST.ZS:SE.TER.CUAT.ST.ZS{marker SE.TER.CUAT.ST.ZS}}}Educational attainment, at least completed short-cycle tertiary, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.ENRL.TC.ZS:SE.TER.ENRL.TC.ZS{marker SE.TER.ENRL.TC.ZS}}}Pupil-teacher ratio, tertiary{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.ENRR:SE.TER.ENRR{marker SE.TER.ENRR}}}School enrollment, tertiary (% gross){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.ENRR.FE:SE.TER.ENRR.FE{marker SE.TER.ENRR.FE}}}School enrollment, tertiary, female (% gross){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators02##sourceid_SE.TER.ENRR.MA:SE.TER.ENRR.MA{marker SE.TER.ENRR.MA}}}School enrollment, tertiary, male (% gross){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators02##sourceid_per_allsp.adq_pop_tot:per_allsp.adq_pop_tot{marker per_allsp.adq_pop_tot}}}Adequacy of social protection and labor programs (% of total welfare of beneficiary households){p_end}
 
@@ -15708,22 +15677,6 @@
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_SE.SEC.ENRR.UP.FE:SE.SEC.ENRR.UP.FE{marker SE.SEC.ENRR.UP.FE}}}Gross enrolment ratio, upper secondary, female (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators12##sourceid_SE.SEC.ENRR.UP.MA:SE.SEC.ENRR.UP.MA{marker SE.SEC.ENRR.UP.MA}}}Gross enrolment ratio, upper secondary, male (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_SE.TER.CMPL.FE.ZS:SE.TER.CMPL.FE.ZS{marker SE.TER.CMPL.FE.ZS}}}Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, female (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_SE.TER.CMPL.MA.ZS:SE.TER.CMPL.MA.ZS{marker SE.TER.CMPL.MA.ZS}}}Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, male (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_SE.TER.CMPL.ZS:SE.TER.CMPL.ZS{marker SE.TER.CMPL.ZS}}}Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, both sexes (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_SE.TER.ENRL:SE.TER.ENRL{marker SE.TER.ENRL}}}Enrolment in tertiary education, all programmes, both sexes (number){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_SE.TER.ENRL.FE:SE.TER.ENRL.FE{marker SE.TER.ENRL.FE}}}Enrolment in tertiary education, all programmes, female (number){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_SE.TER.GRAD.AG.ZS:SE.TER.GRAD.AG.ZS{marker SE.TER.GRAD.AG.ZS}}}Percentage of graduates from tertiary education graduating from Agriculture, Forestry, Fisheries and Veterinary programmes, both sexes (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_SE.TER.GRAD.ED.ZS:SE.TER.GRAD.ED.ZS{marker SE.TER.GRAD.ED.ZS}}}Percentage of graduates from tertiary education graduating from Education programmes, both sexes (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators12##sourceid_SE.TER.GRAD.EN.ZS:SE.TER.GRAD.EN.ZS{marker SE.TER.GRAD.EN.ZS}}}Percentage of graduates from tertiary education graduating from Engineering, Manufacturing and Construction programmes, both sexes (%){p_end}
 {synoptline}
 
 {marker sourceid_13}
@@ -16002,26 +15955,6 @@
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SE.SEC.ENRL.FE.VO.ZS:SE.SEC.ENRL.FE.VO.ZS{marker SE.SEC.ENRL.FE.VO.ZS}}}Vocational and Technical enrolment (% of total secondary enrolment), female{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators14##sourceid_SE.SEC.ENRL.MA.VO.ZS:SE.SEC.ENRL.MA.VO.ZS{marker SE.SEC.ENRL.MA.VO.ZS}}}Share of male students in secondary education enrolled in vocational programmes (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SE.TER.GRAD.FE.AG.ZS:SE.TER.GRAD.FE.AG.ZS{marker SE.TER.GRAD.FE.AG.ZS}}}Female share of graduates in Agriculture, Forestry, Fisheries and Veterinary programmes, tertiary (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SE.TER.GRAD.FE.ED.ZS:SE.TER.GRAD.FE.ED.ZS{marker SE.TER.GRAD.FE.ED.ZS}}}Female share of graduates in Education programmes, tertiary (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SE.TER.GRAD.FE.EN.ZS:SE.TER.GRAD.FE.EN.ZS{marker SE.TER.GRAD.FE.EN.ZS}}}Female share of graduates in Engineering, Manufacturing and Construction programmes, tertiary (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SE.TER.GRAD.FE.HL.ZS:SE.TER.GRAD.FE.HL.ZS{marker SE.TER.GRAD.FE.HL.ZS}}}Female share of graduates in Health and Welfare programmes, tertiary (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SE.TER.GRAD.FE.HU.ZS:SE.TER.GRAD.FE.HU.ZS{marker SE.TER.GRAD.FE.HU.ZS}}}Female share of graduates in Arts and Humanities programmes, tertiary (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SE.TER.GRAD.FE.OT.ZS:SE.TER.GRAD.FE.OT.ZS{marker SE.TER.GRAD.FE.OT.ZS}}}Female share of graduates in unknown or unspecified fields, tertiary (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SE.TER.GRAD.FE.SC.ZS:SE.TER.GRAD.FE.SC.ZS{marker SE.TER.GRAD.FE.SC.ZS}}}Female share of graduates in Natural Sciences, Mathematics and Statistics programmes, tertiary (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SE.TER.GRAD.FE.SI.ZS:SE.TER.GRAD.FE.SI.ZS{marker SE.TER.GRAD.FE.SI.ZS}}}Female share of graduates from Science, Technology, Engineering and Mathematics (STEM) programmes, tertiary (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SE.TER.GRAD.FE.SS.ZS:SE.TER.GRAD.FE.SS.ZS{marker SE.TER.GRAD.FE.SS.ZS}}}Female share of graduates in Social Sciences, Journalism and Information programmes, tertiary (%){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators14##sourceid_SE.TER.GRAD.FE.SV.ZS:SE.TER.GRAD.FE.SV.ZS{marker SE.TER.GRAD.FE.SV.ZS}}}Female share of graduates in Services programmes, tertiary (%){p_end}
 {synoptline}
 
 {marker sourceid_15}
@@ -32926,20 +32859,6 @@
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_SE.SCHL.PRM:SE.SCHL.PRM{marker SE.SCHL.PRM}}}Number of schools at Primary Level{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators45##sourceid_SE.SCHL.SRSEC:SE.SCHL.SRSEC{marker SE.SCHL.SRSEC}}}Number of schools at Senior Secondary level{p_end}
-
-{synopt:{help wbopendata_sourceid_indicators45##sourceid_SE.SRSEC.NENR.ZS:SE.SRSEC.NENR.ZS{marker SE.SRSEC.NENR.ZS}}}Net Enrollment Ratio: Senior Secondary (in %){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators45##sourceid_SE.STUD.JRSEC:SE.STUD.JRSEC{marker SE.STUD.JRSEC}}}Number of Student: Junior Secondary Level (in number of people, 2009 data only){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators45##sourceid_SE.STUD.PRM:SE.STUD.PRM{marker SE.STUD.PRM}}}Number of Student: Primary Level (in number of people, 2009 data only){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators45##sourceid_SE.STUD.SRSEC:SE.STUD.SRSEC{marker SE.STUD.SRSEC}}}Number of Student: Senior Secondary Level (in number of people, 2009 data only){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators45##sourceid_SE.TCHR.JRSEC:SE.TCHR.JRSEC{marker SE.TCHR.JRSEC}}}Number of Teacher: Junior Secondary Level (in number of people, 2009 data only){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators45##sourceid_SE.TCHR.PRM:SE.TCHR.PRM{marker SE.TCHR.PRM}}}Number of Teacher: Primary Level (in number of people, 2009 data only){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators45##sourceid_SE.TCHR.SRSEC:SE.TCHR.SRSEC{marker SE.TCHR.SRSEC}}}Number of Teacher: Senior Secondary Level (in number of people, 2009 data only){p_end}
 {synoptline}
 
 {marker sourceid_46}
@@ -34255,10 +34174,6 @@
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.SEC.UNER.MA:SE.SEC.UNER.MA{marker SE.SEC.UNER.MA}}}Children out of school, secondary, male{p_end}
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.SEC.UNER.MA.ZS:SE.SEC.UNER.MA.ZS{marker SE.SEC.UNER.MA.ZS}}}Children out of school, secondary, male (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.SEC.UNER.ZS:SE.SEC.UNER.ZS{marker SE.SEC.UNER.ZS}}}Children out of school, secondary (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_sourceid_indicators57##sourceid_SE.TER.ENRL.FE.ZS:SE.TER.ENRL.FE.ZS{marker SE.TER.ENRL.FE.ZS}}}Percentage of students in tertiary education who are female (%){p_end}
 
 {synopt:{help wbopendata_sourceid_indicators57##sourceid_allsa.bi_q1:allsa.bi_q1{marker allsa.bi_q1}}}Benefit incidence of social safety net programs to poorest quintile (% of total safety net benefits){p_end}
 
@@ -40815,4 +40730,97 @@
 {synopt:{help wbopendata_sourceid_indicators89##sourceid_ID.OWN.TOTL.ZS:ID.OWN.TOTL.ZS{marker ID.OWN.TOTL.ZS}}}ID ownership (% age 15+){p_end}
 {synoptline}
 
-{right:(as of 18may2024)}
+{marker sourceid_91}
+{p 40 20 2}(Go up to {it:{help wbopendata_sourceid##sourceid_91:Source}} or {it:{help wbopendata_sourceid_indicators91##:TOC}}){p_end}
+{synoptset 40 tabbed}{...}
+{synopthdr:91 PEFA_CRPFM}
+{synoptline}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-1:CRPFM-1{marker CRPFM-1}}}Budget alignment with climate change strategies{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-1.1:CRPFM-1.1{marker CRPFM-1.1}}}Budget alignment with climate change strategies{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-10:CRPFM-10{marker CRPFM-10}}}Compliance of climate-related expenditure{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-10.1:CRPFM-10.1{marker CRPFM-10.1}}}Effectiveness of the systems of controls{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-10.2:CRPFM-10.2{marker CRPFM-10.2}}}Compliance of transactions{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-11:CRPFM-11{marker CRPFM-11}}}Climate-responsive fiscal decentralization{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-11.1:CRPFM-11.1{marker CRPFM-11.1}}}Climate-responsive fiscal decentralization arrangements{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-11.2:CRPFM-11.2{marker CRPFM-11.2}}}Climate-responsive fiscal transfers{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-11.3:CRPFM-11.3{marker CRPFM-11.3}}}Climate-responsive PFM arrangements applied by subnational governments{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-12:CRPFM-12{marker CRPFM-12}}}Climate related performance information{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-12.1:CRPFM-12.1{marker CRPFM-12.1}}}Climate related information in performance plans{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-12.2:CRPFM-12.2{marker CRPFM-12.2}}}Climate  related  information  in  performance reports{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-13:CRPFM-13{marker CRPFM-13}}}Climate-related evaluation{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-13.1:CRPFM-13.1{marker CRPFM-13.1}}}Climate-related evaluation of expenditure{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-13.2:CRPFM-13.2{marker CRPFM-13.2}}}Climate-related evaluation of taxes{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-14:CRPFM-14{marker CRPFM-14}}}Expenditure  outturn for climate activities{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-14.1:CRPFM-14.1{marker CRPFM-14.1}}}Aggregate climate related-expenditure outturn{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-14.2:CRPFM-14.2{marker CRPFM-14.2}}}Climate-related expenditure composition outturn{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-2:CRPFM-2{marker CRPFM-2}}}Tracking climate-related expenditure{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-2.1:CRPFM-2.1{marker CRPFM-2.1}}}Tracking climate-related expenditure{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-3:CRPFM-3{marker CRPFM-3}}}Climate-responsive budget circular{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-3.1:CRPFM-3.1{marker CRPFM-3.1}}}Climate-responsive budget circular{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-4:CRPFM-4{marker CRPFM-4}}}Legislative scrutiny{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-4.1:CRPFM-4.1{marker CRPFM-4.1}}}Legislative scrutiny of budget{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-4.2:CRPFM-4.2{marker CRPFM-4.2}}}Legislative scrutiny of audit and evaluation reports{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-5:CRPFM-5{marker CRPFM-5}}}Climate-responsive public investment management{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-5.1:CRPFM-5.1{marker CRPFM-5.1}}}Climate-responsive  provisions in regulatory framework for public investment management{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-5.2:CRPFM-5.2{marker CRPFM-5.2}}}Climate-responsive provisions for project appraisal{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-5.3:CRPFM-5.3{marker CRPFM-5.3}}}Climate-responsive provisions for project selection{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-5.4:CRPFM-5.4{marker CRPFM-5.4}}}Reporting from entities in charge of implementation{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-6:CRPFM-6{marker CRPFM-6}}}Climate-responsive non-financial asset management{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-6.1:CRPFM-6.1{marker CRPFM-6.1}}}Climate-responsive non-financial asset management{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-7:CRPFM-7{marker CRPFM-7}}}Climate-related liabilities{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-7.1:CRPFM-7.1{marker CRPFM-7.1}}}Fiscal risks arising from climate-related contingent liabilities{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-7.2:CRPFM-7.2{marker CRPFM-7.2}}}Climate-related debt and guarantees{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-8:CRPFM-8{marker CRPFM-8}}}Climate-responsive public procurement{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-8.1:CRPFM-8.1{marker CRPFM-8.1}}}Climate-responsive public procurement framework{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-8.2:CRPFM-8.2{marker CRPFM-8.2}}}Climate-responsive public procurement operations{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-8.3:CRPFM-8.3{marker CRPFM-8.3}}}Climate-responsive public procurement monitoring{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-8.4:CRPFM-8.4{marker CRPFM-8.4}}}Climate-responsive public procurement reporting{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-9:CRPFM-9{marker CRPFM-9}}}Climate-responsive tax administration{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-9.1:CRPFM-9.1{marker CRPFM-9.1}}}Climate-related tax management, audit, and investigation{p_end}
+
+{synopt:{help wbopendata_sourceid_indicators91##sourceid_CRPFM-9.2:CRPFM-9.2{marker CRPFM-9.2}}}Climate-related tax arrears{p_end}
+{synoptline}
+
+{right:(as of 02jul2024)}

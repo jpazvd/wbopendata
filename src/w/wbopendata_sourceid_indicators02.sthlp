@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -63,6 +63,7 @@
 {synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
 {synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
 {synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
+{synopt:{opt 91}}  {help wbopendata_sourceid_indicators91##sourceid_91:PEFA_CRPFM}{p_end}
 
 
 {marker sourceid_02}
@@ -115,7 +116,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Agricultural land refers to the share of land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), tempora{p_end}
 
@@ -128,7 +129,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Agricultural land refers to the share of land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), tempora{p_end}
 
@@ -167,7 +168,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily fallow. Land abandoned{p_end}
 
@@ -206,7 +207,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the total rural land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
@@ -219,7 +220,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the percentage of total land where the rural land elevation is 5 meters or less.{p_end}
 
@@ -232,7 +233,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the total urban land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
@@ -245,7 +246,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the percentage of total land where the urban land elevation is 5 meters or less.{p_end}
 
@@ -258,7 +259,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Land area below 5m is the percentage of total land where the elevation is 5 meters or less.{p_end}
 
@@ -271,7 +272,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
 
@@ -284,7 +285,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
 
@@ -297,7 +298,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Agricultural irrigated land refers to agricultural areas purposely provided with water, including land irrigated by controlled flooding.{p_end}
 
@@ -310,7 +311,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Average precipitation is the long-term average in depth (over space and time) of annual precipitation in the country. Precipitation is defined as any kind of water that falls from clouds as a liquid or a solid.{p_end}
 
@@ -323,7 +324,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Land area is a country's total area, excluding area under inland water bodies, national claims to continental shelf, and exclusive economic zones. In most cases the definition of inland water bodies includes major rivers and lakes.{p_end}
 
@@ -466,7 +467,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Communications, computer, information, and other services cover international telecommunications; computer data; news-related service transactions between residents and nonresidents; construction services; royalties and license fees; miscellan{p_end}
 
@@ -531,7 +532,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Services refer to economic output of intangible commodities that may be produced, transferred, and consumed at the same time. Data are in current U.S. dollars.{p_end}
 
@@ -544,7 +545,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}14 Science and Technology{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Charges for the use of intellectual property are payments and receipts between residents and nonresidents for the authorized use of proprietary rights (such as patents, trademarks, copyrights, industrial processes and designs including trade s{p_end}
 
@@ -570,7 +571,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Transport covers all transport services (sea, air, land, internal waterway, pipeline, space and electricity transmission) performed by residents of one economy for those of another and involving the carriage of passengers, the movement of good{p_end}
 
@@ -583,7 +584,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Travel covers goods and services acquired from an economy by travelers for their own use during visits of less than one year in that economy for either business or personal purposes. Travel includes local transport (i.e., transport within the{p_end}
 
@@ -635,7 +636,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Personal remittances comprise personal transfers and compensation of employees. Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfer{p_end}
 
@@ -648,7 +649,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Current account balance is the sum of net exports of goods and services, net primary income, and net secondary income. Data are in current U.S. dollars.{p_end}
 
@@ -700,7 +701,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Net trade in goods and services is derived by offsetting imports of goods and services against exports of goods and services. Exports and imports of goods and services comprise all transactions involving a change of ownership of goods and serv{p_end}
 
@@ -713,7 +714,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Net trade in goods is the difference between exports and imports of goods. Trade in services is not included. Data are in current U.S. dollars.{p_end}
 
@@ -739,7 +740,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Foreign direct investment are the net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital{p_end}
 
@@ -752,7 +753,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Portfolio investment covers transactions in equity securities and debt securities. Data are in current U.S. dollars.{p_end}
 
@@ -804,7 +805,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Grants are defined as legally binding commitments that obligate a specific value of funds available for disbursement for which there is no repayment requirement. Data are in current U.S. dollars.{p_end}
 
@@ -817,7 +818,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
 {synopt:{opt Source Notes}}Technical cooperation grants include free-standing technical cooperation grants, which are intended to finance the transfer of technical and managerial skills or of technology for the purpose of building up general national capacity without re{p_end}
 
@@ -830,7 +831,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Information and communication technology service exports include computer and communications services (telecommunications and postal and courier services) and information services (computer data and news-related service transactions). Data are{p_end}
 
@@ -843,7 +844,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Information and communication technology service exports include computer and communications services (telecommunications and postal and courier services) and information services (computer data and news-related service transactions).{p_end}
 
@@ -856,7 +857,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Communications, computer, information, and other services cover international telecommunications; computer data; news-related service transactions between residents and nonresidents; construction services; royalties and license fees; miscellan{p_end}
 
@@ -882,7 +883,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Exports of goods and services comprise all transactions between residents of a country and the rest of the world involving a change of ownership from residents to nonresidents of general merchandise, net exports of goods under merchanting, non{p_end}
 
@@ -895,7 +896,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Insurance and financial services cover various types of insurance provided to nonresidents by resident insurance enterprises and vice versa, and financial intermediary and auxiliary services (except those of insurance enterprises and pension f{p_end}
 
@@ -908,7 +909,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Goods exports refer to all movable goods (including nonmonetary gold and net exports of goods under merchanting) involved in a change of ownership from residents to nonresidents. Data are in current U.S. dollars.{p_end}
 
@@ -921,7 +922,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Services refer to economic output of intangible commodities that may be produced, transferred, and consumed at the same time. Data are in current U.S. dollars.{p_end}
 
@@ -947,7 +948,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Exports of goods, services and primary income is the sum of goods exports, service exports and primary income receipts. Data are in current U.S. dollars.{p_end}
 
@@ -960,7 +961,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Transport covers all transport services (sea, air, land, internal waterway, pipeline, space and electricity transmission) performed by residents of one economy for those of another and involving the carriage of passengers, the movement of good{p_end}
 
@@ -999,7 +1000,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Foreign direct investment are the net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital{p_end}
 
@@ -1012,7 +1013,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Portfolio equity includes net inflows from equity securities other than those recorded as direct investment and including shares, stocks, depository receipts (American or global), and direct purchases of shares in local stock markets by foreig{p_end}
 
@@ -1038,7 +1039,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfers thus include all current transfers between resident and nonresident individual{p_end}
 
@@ -1051,7 +1052,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Personal remittances comprise personal transfers and compensation of employees. Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfer{p_end}
 
@@ -1064,7 +1065,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Personal remittances comprise personal transfers and compensation of employees. Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfer{p_end}
 
@@ -1738,7 +1739,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-{p_end}
 
@@ -1829,7 +1830,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Total reserves includes gold.{p_end}
 
@@ -1920,7 +1921,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. This cal{p_end}
 
@@ -1933,7 +1934,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. This cal{p_end}
 
@@ -1959,7 +1960,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Bonds are securities issued with a fixed rate of interest for a period of more than one year. They include net flows through cross-border public and publicly guaranteed and private nonguaranteed bond issues. Data are in current U.S. dollars.{p_end}
 
@@ -2600,7 +2601,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
@@ -2665,7 +2666,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) per capita consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), b{p_end}
 
@@ -2964,7 +2965,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Gas refers to natural gas but excludes natural gas liquids.{p_end}
 
@@ -3003,7 +3004,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Renewable electricity is the share of electrity generated by renewable power plants in total electricity generated by all types of plants.{p_end}
 
@@ -3016,7 +3017,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
@@ -3029,7 +3030,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
@@ -3064,13 +3065,13 @@
 
 {synoptline}
 {marker sourceid_EG.GDP.PUSE.KO.PP.KD}
-{synopt:{bf:{help wbopendata_sourceid##EG.GDP.PUSE.KO.PP.KD:EG.GDP.PUSE.KO.PP.KD} - GDP per unit of energy use (constant 2017 PPP $ per kg of oil equivalent)}}
+{synopt:{bf:{help wbopendata_sourceid##EG.GDP.PUSE.KO.PP.KD:EG.GDP.PUSE.KO.PP.KD} - GDP per unit of energy use (constant 2021 PPP $ per kg of oil equivalent)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
 {synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to 2017 constant international dollars using purchasing power parity rates. An international dollar has the sam{p_end}
+{synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to 2021 constant international dollars using purchasing power parity rates. An international dollar has the sam{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
@@ -3116,11 +3117,11 @@
 
 {synoptline}
 {marker sourceid_EG.USE.COMM.GD.PP.KD}
-{synopt:{bf:{help wbopendata_sourceid##EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD} - Energy use (kg of oil equivalent) per $1,000 GDP (constant 2017 PPP)}}
+{synopt:{bf:{help wbopendata_sourceid##EG.USE.COMM.GD.PP.KD:EG.USE.COMM.GD.PP.KD} - Energy use (kg of oil equivalent) per $1,000 GDP (constant 2021 PPP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Energy use per PPP GDP is the kilogram of oil equivalent of energy use per constant PPP GDP. Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stoc{p_end}
 
@@ -3159,7 +3160,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international tr{p_end}
 
@@ -3198,7 +3199,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions from liquid fuel consumption refer mainly to emissions from use of natural gas as an energy source.{p_end}
 
@@ -3211,7 +3212,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
@@ -3237,7 +3238,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions from liquid fuel consumption refer mainly to emissions from use of petroleum-derived fuels as an energy source.{p_end}
 
@@ -3263,7 +3264,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
@@ -3285,7 +3286,7 @@
 
 {synoptline}
 {marker sourceid_EN.ATM.CO2E.PP.GD.KD}
-{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD} - CO2 emissions (kg per 2017 PPP $ of GDP)}}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD} - CO2 emissions (kg per 2021 PPP $ of GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -3302,7 +3303,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions from solid fuel consumption refer mainly to emissions from use of coal as an energy source.{p_end}
 
@@ -3328,7 +3329,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Other greenhouse gas emissions are by-product emissions of hydrofluorocarbons, perfluorocarbons, and sulfur hexafluoride.{p_end}
 
@@ -3341,7 +3342,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Other greenhouse gas emissions are by-product emissions of hydrofluorocarbons, perfluorocarbons, and sulfur hexafluoride. Each year of data shows the percentage change to that year from 1990.{p_end}
 
@@ -3419,7 +3420,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Methane emissions from energy processes are emissions from the production, handling, transmission, and combustion of fossil fuels and biofuels.{p_end}
 
@@ -3432,7 +3433,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Methane emissions from energy processes are emissions from the production, handling, transmission, and combustion of fossil fuels and biofuels.{p_end}
 
@@ -3445,7 +3446,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Methane emissions are those stemming from human activities such as agriculture and from industrial methane production.{p_end}
 
@@ -3458,7 +3459,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Methane emissions are those stemming from human activities such as agriculture and from industrial methane production. Each year of data shows the percentage change to that year from 1990.{p_end}
 
@@ -3484,7 +3485,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
@@ -3497,7 +3498,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Nitrous oxide emissions from energy processes are emissions produced by the combustion of fossil fuels and biofuels.{p_end}
 
@@ -3510,7 +3511,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Nitrous oxide emissions from energy processes are emissions produced by the combustion of fossil fuels and biofuels.{p_end}
 
@@ -3536,7 +3537,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Nitrous oxide emissions are emissions from agricultural biomass burning, industrial activities, and livestock management. Each year of data shows the percentage change to that year from 1990.{p_end}
 
@@ -3562,7 +3563,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of{p_end}
 
@@ -3653,7 +3654,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Disaster risk reduction progress score is an average of self-assessment scores, ranging from 1 to 5, submitted by countries under Priority 1 of the Hyogo Framework National Progress Reports. The Hyogo Framework is a global blueprint for disast{p_end}
 
@@ -3679,7 +3680,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Droughts, floods and extreme temperatures is the annual average percentage of the population that is affected by natural disasters classified as either droughts, floods, or extreme temperature events. A drought is an extended period of time ch{p_end}
 
@@ -3809,7 +3810,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Rural population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
@@ -3835,7 +3836,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Population below 5m is the percentage of the total population living in areas where the elevation is 5 meters or less.{p_end}
 
@@ -3848,7 +3849,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}11 Poverty{p_end}
 
 {synopt:{opt Source Notes}}Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improve{p_end}
 
@@ -3900,7 +3901,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Population in urban agglomerations of more than one million is the percentage of a country's population living in metropolitan areas that in 2018 had a population of more than one million people.{p_end}
 
@@ -3926,7 +3927,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Fuel prices refer to the pump prices of the most widely sold grade of gasoline. Prices have been converted from the local currency to U.S. dollars.{p_end}
 
@@ -4043,7 +4044,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
@@ -4095,7 +4096,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Terrestrial protected areas are totally or partially protected areas of at least 1,000 hectares that are designated by national authorities as scientific reserves with limited public access, national parks, natural monuments, nature reserves o{p_end}
 
@@ -4108,7 +4109,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the{p_end}
 
@@ -4238,7 +4239,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Total reserves comprise holdings of monetary gold, special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities. The gold component of these reserves is valued at y{p_end}
 
@@ -4277,7 +4278,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Total reserves minus gold comprise special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities. Gold holdings are excluded. Data are in current U.S. dollars.{p_end}
 
@@ -4697,7 +4698,7 @@
 
 {synopt:{opt Source Notes}}Gross domestic expenditures on research and development (R&amp;D), expressed as a percent of GDP. They include both capital and current expenditures in the four main sectors: Business enterprise, Government, Higher education and Private non-pr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed November 27, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -4992,7 +4993,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Customs and other import duties are all levies collected on goods that are entering the country or services delivered by nonresidents to residents. They include levies imposed for revenue or protection purposes and determined on a specific or{p_end}
 
@@ -5252,7 +5253,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}Expense is cash payments for operating activities of the government in providing goods and services. It includes compensation of employees (such as wages and salaries), interest and subsidies, grants, social benefits, and other expenses such a{p_end}
 
@@ -5423,7 +5424,7 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}New businesses registered are the number of new limited liability corporations (or its equivalent) registered in the calendar year.{p_end}
+{synopt:{opt Source Notes}}New business density is defined as the number of newly registered companies with limited liability{p_end}
 
 {synopt:{opt Source Organization}}World Bank's Entrepreneurship Database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}).{p_end}
 
@@ -5447,7 +5448,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Depth of credit information index measures rules affecting the scope, accessibility, and quality of credit information available through public or private credit registries. The index ranges from 0 to 8, with higher values indicating the avail{p_end}
 
@@ -5460,7 +5461,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Private credit bureau coverage reports the number of individuals or firms listed by a private credit bureau with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the adul{p_end}
 
@@ -5551,7 +5552,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
@@ -5564,7 +5565,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
@@ -5577,7 +5578,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
@@ -5590,7 +5591,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
@@ -5694,7 +5695,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Firms with female top manager refers to the percentage of firms in the private sector who have females as top managers. Top manager refers to the highest ranking manager or CEO of the establishment. This person may be the owner if he/she works{p_end}
 
@@ -5759,7 +5760,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Average losses due to electrical outages, as percentage of total annual sales. The value represents average losses for all firms which reported outages (please see indicator IC.ELC.OUTG.ZS).{p_end}
 
@@ -5837,7 +5838,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
@@ -5850,7 +5851,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
@@ -5863,7 +5864,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
@@ -5889,7 +5890,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Strength of legal rights index measures the degree to which collateral and bankruptcy laws protect the rights of borrowers and lenders and thus facilitate lending. The index ranges from 0 to 12, with higher scores indicating that these laws ar{p_end}
 
@@ -6058,7 +6059,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Time to prepare and pay taxes is the time, in hours per year, it takes to prepare, file, and pay (or withhold) three major types of taxes: the corporate income tax, the value added or sales tax, and labor taxes, including payroll taxes and soc{p_end}
 
@@ -6149,7 +6150,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}Total tax rate measures the amount of taxes and mandatory contributions payable by businesses after accounting for allowable deductions and exemptions as a share of commercial profits. Taxes withheld (such as personal income tax) or collected{p_end}
 
@@ -6188,7 +6189,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Investment in energy projects with private participation  refers to commitments to  infrastructure projects in energy (electricity and natural gas: generation, transmission and distribution) that have reached financial closure and directly or{p_end}
 
@@ -6214,7 +6215,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Investment  in transport projects with private participation refers to commitments to  infrastructure projects in transport that have reached financial closure and directly or indirectly serve the public. Movable assets and small projects are{p_end}
 
@@ -6227,7 +6228,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Investment in water and sanitation projects with private participation refers to commitments to  infrastructure projects in water and sanitation that have reached financial closure and directly or indirectly serve the public. Movable assets, i{p_end}
 
@@ -7007,7 +7008,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Lead time to export is the median time (the value for 50 percent of shipments) from shipment point to port of loading. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10 percent of{p_end}
 
@@ -7072,7 +7073,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
@@ -7111,7 +7112,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
@@ -7215,7 +7216,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}Arms transfers cover the supply of military weapons through sales, aid, gifts, and those made through manufacturing licenses. Data cover major conventional weapons such as aircraft, armored vehicles, artillery, radar systems, missiles, and shi{p_end}
 
@@ -7419,7 +7420,7 @@
 
 {synoptline}
 {marker sourceid_NE.CON.PRVT.PP.KD}
-{synopt:{bf:{help wbopendata_sourceid##NE.CON.PRVT.PP.KD:NE.CON.PRVT.PP.KD} - Households and NPISHs Final consumption expenditure, PPP (constant 2017 international $)}}
+{synopt:{bf:{help wbopendata_sourceid##NE.CON.PRVT.PP.KD:NE.CON.PRVT.PP.KD} - Households and NPISHs Final consumption expenditure, PPP (constant 2021 international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -7631,7 +7632,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other servic{p_end}
 
@@ -7644,7 +7645,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Annual growth rate of exports of goods and services based on constant local currency. Aggregates are based on constant 2015 prices, expressed in U.S. dollars. Exports of goods and services represent the value of all goods and other market serv{p_end}
 
@@ -7670,7 +7671,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other servic{p_end}
 
@@ -7930,7 +7931,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other serv{p_end}
 
@@ -7943,7 +7944,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Annual growth rate of imports of goods and services based on constant local currency. Aggregates are based on constant 2015 prices, expressed in U.S. dollars. Imports of goods and services represent the value of all goods and other market serv{p_end}
 
@@ -7982,7 +7983,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}External balance on goods and services (formerly resource balance) equals exports of goods and services minus imports of goods and services (previously nonfactor services). Data are in current U.S. dollars.{p_end}
 
@@ -8021,7 +8022,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}External balance on goods and services (formerly resource balance) equals exports of goods and services minus imports of goods and services (previously nonfactor services).{p_end}
 
@@ -8034,7 +8035,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Trade is the sum of exports and imports of goods and services measured as a share of gross domestic product.{p_end}
 
@@ -8502,7 +8503,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Education expenditure refers to the current operating expenditures in education, including wages and salaries and excluding capital investments in buildings and equipment.{p_end}
 
@@ -8515,7 +8516,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Education expenditure refers to the current operating expenditures in education, including wages and salaries and excluding capital investments in buildings and equipment.{p_end}
 
@@ -8567,7 +8568,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth.{p_end}
 
@@ -8606,7 +8607,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
 
@@ -8619,7 +8620,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
 
@@ -8632,7 +8633,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime (capped at 25 years). It covers coal, crude oil, and natural gas.{p_end}
 
@@ -8645,7 +8646,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime (capped at 25 years). It covers coal, crude oil, and natural gas.{p_end}
 
@@ -8684,7 +8685,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Natural resource depletion is the sum of net forest depletion, energy depletion, and mineral depletion. Net forest depletion is unit resource rents times the excess of roundwood harvest over natural growth. Energy depletion is the ratio of the{p_end}
 
@@ -8697,7 +8698,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Gross savings are the difference between gross national income and public and private consumption, plus net current transfers.{p_end}
 
@@ -8723,7 +8724,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Net national savings are equal to gross national savings less the value of consumption of fixed capital.{p_end}
 
@@ -8814,7 +8815,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide and particulate emissions damage.{p_end}
 
@@ -8853,7 +8854,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide. This series excludes particulate emissions damage.{p_end}
 
@@ -9035,7 +9036,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Mineral rents are the difference between the value of production for a stock of minerals at world prices and their total costs of production. Minerals included in the calculation are tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite{p_end}
 
@@ -9135,7 +9136,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDP.MKTP.PP.KD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDP.MKTP.PP.KD:NY.GDP.MKTP.PP.KD} - GDP, PPP (constant 2017 international $)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDP.MKTP.PP.KD:NY.GDP.MKTP.PP.KD} - GDP, PPP (constant 2021 international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -9239,7 +9240,7 @@
 
 {synoptline}
 {marker sourceid_NY.GDP.PCAP.PP.KD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GDP.PCAP.PP.KD:NY.GDP.PCAP.PP.KD} - GDP per capita, PPP (constant 2017 international $)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GDP.PCAP.PP.KD:NY.GDP.PCAP.PP.KD} - GDP per capita, PPP (constant 2021 international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -9269,7 +9270,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Total natural resources rents are the sum of oil rents, natural gas rents, coal rents (hard and soft), mineral rents, and forest rents.{p_end}
 
@@ -9347,7 +9348,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abr{p_end}
 
@@ -9434,7 +9435,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNP.MKTP.PP.KD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNP.MKTP.PP.KD:NY.GNP.MKTP.PP.KD} - GNI, PPP (constant 2017 international $)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNP.MKTP.PP.KD:NY.GNP.MKTP.PP.KD} - GNI, PPP (constant 2021 international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -9525,7 +9526,7 @@
 
 {synoptline}
 {marker sourceid_NY.GNP.PCAP.PP.KD}
-{synopt:{bf:{help wbopendata_sourceid##NY.GNP.PCAP.PP.KD:NY.GNP.PCAP.PP.KD} - GNI per capita, PPP (constant 2017 international $)}}
+{synopt:{bf:{help wbopendata_sourceid##NY.GNP.PCAP.PP.KD:NY.GNP.PCAP.PP.KD} - GNI per capita, PPP (constant 2021 international $)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -10040,7 +10041,7 @@
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10049,11 +10050,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}15 Social Development{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gender parity index for youth literacy rate is the ratio of females to males ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10062,11 +10063,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10079,7 +10080,7 @@
 
 {synopt:{opt Source Notes}}Youth literacy rate is the percentage of people ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10088,11 +10089,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10101,11 +10102,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10118,7 +10119,7 @@
 
 {synopt:{opt Source Notes}}Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10131,7 +10132,7 @@
 
 {synopt:{opt Source Notes}}Duration of compulsory education is the number of years that children are legally obliged to attend school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10140,7 +10141,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}15 Social Development{p_end}
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary education is the ratio of girls to boys enrolled at primary level in public and private schools.{p_end}
 
@@ -10153,7 +10154,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary and secondary education is the ratio of girls to boys enrolled at primary and secondary levels in public and private schools.{p_end}
 
@@ -10166,7 +10167,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}15 Social Development{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in secondary education is the ratio of girls to boys enrolled at secondary level in public and private schools.{p_end}
 
@@ -10179,11 +10180,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}15 Social Development{p_end}
 
 {synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in tertiary education is the ratio of women to men enrolled at tertiary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10306,7 +10307,7 @@
 
 {synopt:{opt Source Notes}}Preprimary duration refers to the number of grades (years) in preprimary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10371,7 +10372,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in preprimary education are the percentage of preprimary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10384,7 +10385,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in preprimary education are the percentage of preprimary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10397,7 +10398,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in preprimary education are the percentage of preprimary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10410,7 +10411,7 @@
 
 {synopt:{opt Source Notes}}Primary school starting age is the age at which students would enter primary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progressed through the s{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10419,11 +10420,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10436,7 +10437,7 @@
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10445,11 +10446,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
 {synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10462,7 +10463,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10471,11 +10472,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10484,11 +10485,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed primary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10501,7 +10502,7 @@
 
 {synopt:{opt Source Notes}}Primary duration refers to the number of grades (years) in primary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10514,7 +10515,7 @@
 
 {synopt:{opt Source Notes}}Primary education pupils is the total number of pupils enrolled at primary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10523,7 +10524,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Female pupils as a percentage of total pupils at primary level include enrollments in public and private schools.{p_end}
 
@@ -10553,7 +10554,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and ma{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10566,7 +10567,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and ma{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10579,7 +10580,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and ma{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10588,7 +10589,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Gross intake ratio in first grade of primary education is the number of new entrants in the first grade of primary education regardless of age, expressed as a percentage of the population of the official primary entrance age.{p_end}
 
@@ -10601,7 +10602,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Gross intake ratio in first grade of primary education is the number of new entrants in the first grade of primary education regardless of age, expressed as a percentage of the population of the official primary entrance age.{p_end}
 
@@ -10748,7 +10749,7 @@
 
 {synopt:{opt Source Notes}}Private enrollment refers to pupils or students enrolled in institutions that are not operated by a public authority but controlled and managed, whether for profit or not, by a private body such as a nongovernmental organization, religious bod{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10761,7 +10762,7 @@
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10774,7 +10775,7 @@
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10787,7 +10788,7 @@
 
 {synopt:{opt Source Notes}}Persistence to grade 5 (percentage of cohort reaching grade 5) is the share of children enrolled in the first grade of primary school who eventually reach grade 5. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10800,7 +10801,7 @@
 
 {synopt:{opt Source Notes}}Persistence to last grade of primary is the percentage of children enrolled in the first grade of primary school who eventually reach the last grade of primary education. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10809,11 +10810,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Persistence to last grade of primary is the percentage of children enrolled in the first grade of primary school who eventually reach the last grade of primary education. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10826,7 +10827,7 @@
 
 {synopt:{opt Source Notes}}Persistence to last grade of primary is the percentage of children enrolled in the first grade of primary school who eventually reach the last grade of primary education. The estimate is based on the reconstructed cohort method.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10878,7 +10879,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in primary education are the percentage of primary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10891,7 +10892,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in primary education are the percentage of primary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10904,7 +10905,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in primary education are the percentage of primary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10917,7 +10918,7 @@
 
 {synopt:{opt Source Notes}}Primary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10930,7 +10931,7 @@
 
 {synopt:{opt Source Notes}}Female teachers as a percentage of total primary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10952,7 +10953,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Adjusted net enrollment is the number of pupils of the school-age group for primary education, enrolled either in primary or secondary education, expressed as a percentage of the total population in that age group.{p_end}
 
@@ -10982,7 +10983,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -10995,7 +10996,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11008,7 +11009,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the percentage of primary-school-age children who are not enrolled in primary or secondary school. Children in the official primary age group that are in preprimary education should be considered out of school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11017,11 +11018,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Children out of school are the number of primary-school-age children not enrolled in primary or secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11034,7 +11035,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the percentage of primary-school-age children who are not enrolled in primary or secondary school. Children in the official primary age group that are in preprimary education should be considered out of school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11047,7 +11048,7 @@
 
 {synopt:{opt Source Notes}}Children out of school are the percentage of primary-school-age children who are not enrolled in primary or secondary school. Children in the official primary age group that are in preprimary education should be considered out of school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11060,7 +11061,7 @@
 
 {synopt:{opt Source Notes}}Lower secondary school starting age is the age at which students would enter lower secondary education, assuming they had started at the official entrance age for the lowest level of education, had studied full-time throughout and had progress{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11073,7 +11074,7 @@
 
 {synopt:{opt Source Notes}}Lower secondary education completion rate is measured as the gross intake ratio to the last grade of lower secondary education (general and pre-vocational). It is calculated as the number of new entrants in the last grade of lower secondary ed{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11086,7 +11087,7 @@
 
 {synopt:{opt Source Notes}}Lower secondary education completion rate is measured as the gross intake ratio to the last grade of lower secondary education (general and pre-vocational). It is calculated as the number of new entrants in the last grade of lower secondary ed{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11099,7 +11100,7 @@
 
 {synopt:{opt Source Notes}}Lower secondary education completion rate is measured as the gross intake ratio to the last grade of lower secondary education (general and pre-vocational). It is calculated as the number of new entrants in the last grade of lower secondary ed{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11112,7 +11113,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11125,7 +11126,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11134,11 +11135,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed lower secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11151,7 +11152,7 @@
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11160,11 +11161,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11173,11 +11174,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed post-secondary non-tertiary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11186,11 +11187,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11199,11 +11200,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11212,11 +11213,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed upper secondary education.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11229,7 +11230,7 @@
 
 {synopt:{opt Source Notes}}Secondary duration refers to the number of grades (years) in secondary school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11242,7 +11243,7 @@
 
 {synopt:{opt Source Notes}}Secondary education pupils is the total number of pupils enrolled at secondary level in public and private schools.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11251,7 +11252,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Female pupils as a percentage of total pupils at secondary level includes enrollments in public and private schools.{p_end}
 
@@ -11277,7 +11278,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Secondary general pupils are the number of secondary students enrolled in general education programs, including teacher training.{p_end}
 
@@ -11359,7 +11360,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11372,7 +11373,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11385,7 +11386,7 @@
 
 {synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that beg{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11407,7 +11408,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Secondary education completes the provision of basic education that began at the primary{p_end}
 
@@ -11420,7 +11421,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Secondary education completes the provision of basic education that began at the primary{p_end}
 
@@ -11437,7 +11438,7 @@
 
 {synopt:{opt Source Notes}}Private enrollment refers to pupils or students enrolled in institutions that are not operated by a public authority but controlled and managed, whether for profit or not, by a private body such as a nongovernmental organization, religious bod{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11459,7 +11460,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Progression to secondary school refers to the number of new entrants to the first grade of secondary school in a given year as a percentage of the number of students enrolled in the final grade of primary school in the previous year (minus the{p_end}
 
@@ -11489,7 +11490,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in secondary education are the percentage of secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11502,7 +11503,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in lower secondary education are the percentage of lower secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11515,7 +11516,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in lower secondary education are the percentage of lower secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11528,7 +11529,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in lower secondary education are the percentage of lower secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11541,7 +11542,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in secondary education are the percentage of secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11554,7 +11555,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in upper secondary education are the percentage of upper secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11567,7 +11568,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in upper secondary education are the percentage of upper secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11580,7 +11581,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in upper secondary education are the percentage of upper secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11593,7 +11594,7 @@
 
 {synopt:{opt Source Notes}}Trained teachers in secondary education are the percentage of secondary school teachers who have received the minimum organized teacher training (pre-service or in-service) required for teaching in a given country.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11606,7 +11607,7 @@
 
 {synopt:{opt Source Notes}}Secondary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11619,7 +11620,7 @@
 
 {synopt:{opt Source Notes}}Secondary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11628,11 +11629,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}17 Gender{p_end}
 
 {synopt:{opt Source Notes}}Female teachers as a percentage of total secondary education teachers includes full-time and part-time teachers.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11645,7 +11646,7 @@
 
 {synopt:{opt Source Notes}}Adolescents out of school are the percentage of lower secondary school age adolescents who are not enrolled in school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11658,7 +11659,7 @@
 
 {synopt:{opt Source Notes}}Adolescents out of school are the percentage of lower secondary school age adolescents who are not enrolled in school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -11671,215 +11672,7 @@
 
 {synopt:{opt Source Notes}}Adolescents out of school are the percentage of lower secondary school age adolescents who are not enrolled in school.{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.CUAT.BA.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.CUAT.BA.FE.ZS:SE.TER.CUAT.BA.FE.ZS} - Educational attainment, at least Bachelor's or equivalent, population 25+, female (%) (cumulative)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.CUAT.BA.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.CUAT.BA.MA.ZS:SE.TER.CUAT.BA.MA.ZS} - Educational attainment, at least Bachelor's or equivalent, population 25+, male (%) (cumulative)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.CUAT.BA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.CUAT.BA.ZS:SE.TER.CUAT.BA.ZS} - Educational attainment, at least Bachelor's or equivalent, population 25+, total (%) (cumulative)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Bachelor's or equivalent.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.CUAT.DO.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.CUAT.DO.FE.ZS:SE.TER.CUAT.DO.FE.ZS} - Educational attainment, Doctoral or equivalent, population 25+, female (%) (cumulative)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.CUAT.DO.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.CUAT.DO.MA.ZS:SE.TER.CUAT.DO.MA.ZS} - Educational attainment, Doctoral or equivalent, population 25+, male (%) (cumulative)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.CUAT.DO.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.CUAT.DO.ZS:SE.TER.CUAT.DO.ZS} - Educational attainment, Doctoral or equivalent, population 25+, total (%) (cumulative)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Doctoral or equivalent.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.CUAT.MS.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.CUAT.MS.FE.ZS:SE.TER.CUAT.MS.FE.ZS} - Educational attainment, at least Master's or equivalent, population 25+, female (%) (cumulative)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.CUAT.MS.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.CUAT.MS.MA.ZS:SE.TER.CUAT.MS.MA.ZS} - Educational attainment, at least Master's or equivalent, population 25+, male (%) (cumulative)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.CUAT.MS.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.CUAT.MS.ZS:SE.TER.CUAT.MS.ZS} - Educational attainment, at least Master's or equivalent, population 25+, total (%) (cumulative)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed Master's or equivalent.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.CUAT.ST.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.CUAT.ST.FE.ZS:SE.TER.CUAT.ST.FE.ZS} - Educational attainment, at least completed short-cycle tertiary, population 25+, female (%) (cumulative)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.CUAT.ST.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.CUAT.ST.MA.ZS:SE.TER.CUAT.ST.MA.ZS} - Educational attainment, at least completed short-cycle tertiary, population 25+, male (%) (cumulative)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.CUAT.ST.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.CUAT.ST.ZS:SE.TER.CUAT.ST.ZS} - Educational attainment, at least completed short-cycle tertiary, population 25+, total (%) (cumulative)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}The percentage of population ages 25 and over that attained or completed short-cycle tertiary education.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.ENRL.TC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.ENRL.TC.ZS:SE.TER.ENRL.TC.ZS} - Pupil-teacher ratio, tertiary}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Tertiary school pupil-teacher ratio is the average number of pupils per teacher in tertiary school.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics ({browse "http://uis.unesco.org/"}). Data as of February 2020.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.ENRR}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.ENRR:SE.TER.ENRR} - School enrollment, tertiary (% gross)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualificatio{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.ENRR.FE}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.ENRR.FE:SE.TER.ENRR.FE} - School enrollment, tertiary, female (% gross)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}17 Gender{p_end}
-
-{synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualificatio{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.TER.ENRR.MA}
-{synopt:{bf:{help wbopendata_sourceid##SE.TER.ENRR.MA:SE.TER.ENRR.MA} - School enrollment, tertiary, male (% gross)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}04 Education{p_end}
-
-{synopt:{opt Source Notes}}Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualificatio{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed September 19, 2023. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
 
 
 {synoptline}
@@ -12234,4 +12027,4 @@
 
 
 
-{right:(as of 18may2024)}
+{right:(as of 02jul2024)}
