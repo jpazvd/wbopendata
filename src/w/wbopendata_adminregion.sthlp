@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Administrative Region  (as of 18may2024)}
+{title:Administrative Region  (as of 02jul2024)}
 
 {marker EAP}
 {p 20 20 2}(Go up to {it:{help wbopendata##adminregion:Administrative Region }}){p_end}
@@ -21,7 +21,6 @@
 {synopt:{opt FSM}}  Micronesia, Fed Sts {p_end}
 {synopt:{opt MNG}}  Mongolia {p_end}
 {synopt:{opt MMR}}  Myanmar {p_end}
-{synopt:{opt PLW}}  Palau {p_end}
 {synopt:{opt PNG}}  Papua New Guinea {p_end}
 {synopt:{opt PHL}}  Philippines {p_end}
 {synopt:{opt WSM}}  Samoa {p_end}
@@ -43,7 +42,6 @@
 {synopt:{opt AZE}}  Azerbaijan {p_end}
 {synopt:{opt BLR}}  Belarus {p_end}
 {synopt:{opt BIH}}  Bosnia and Herzegovina {p_end}
-{synopt:{opt BGR}}  Bulgaria {p_end}
 {synopt:{opt GEO}}  Georgia {p_end}
 {synopt:{opt KAZ}}  Kazakhstan {p_end}
 {synopt:{opt XKX}}  Kosovo {p_end}
@@ -51,7 +49,6 @@
 {synopt:{opt MDA}}  Moldova {p_end}
 {synopt:{opt MNE}}  Montenegro {p_end}
 {synopt:{opt MKD}}  North Macedonia {p_end}
-{synopt:{opt RUS}}  Russian Federation {p_end}
 {synopt:{opt SRB}}  Serbia {p_end}
 {synopt:{opt TJK}}  Tajikistan {p_end}
 {synopt:{opt TUR}}  Turkiye {p_end}
