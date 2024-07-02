@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Region  (as of 18may2024)}
+{title:Region  (as of 02jul2024)}
 
 {marker EAS}
 {p 20 20 2}(Go up to {it:{help wbopendata##region:Region }}){p_end}
