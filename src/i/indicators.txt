@@ -2562,6 +2562,49 @@ CPTOTNSXN - CPI Price, nominal
 CPTOTSAXMZGY - CPI Price, % y-o-y, median weighted, seas. adj.
 CPTOTSAXN - CPI Price, nominal, seas. adj.
 CPTOTSAXNZGY - CPI Price, % y-o-y, nominal, seas. adj.
+CRPFM-1 - Budget alignment with climate change strategies
+CRPFM-1.1 - Budget alignment with climate change strategies
+CRPFM-10 - Compliance of climate-related expenditure
+CRPFM-10.1 - Effectiveness of the systems of controls
+CRPFM-10.2 - Compliance of transactions
+CRPFM-11 - Climate-responsive fiscal decentralization
+CRPFM-11.1 - Climate-responsive fiscal decentralization arrangements
+CRPFM-11.2 - Climate-responsive fiscal transfers
+CRPFM-11.3 - Climate-responsive PFM arrangements applied by subnational governments
+CRPFM-12 - Climate related performance information
+CRPFM-12.1 - Climate related information in performance plans
+CRPFM-12.2 - Climate  related  information  in  performance reports
+CRPFM-13 - Climate-related evaluation
+CRPFM-13.1 - Climate-related evaluation of expenditure
+CRPFM-13.2 - Climate-related evaluation of taxes
+CRPFM-14 - Expenditure  outturn for climate activities
+CRPFM-14.1 - Aggregate climate related-expenditure outturn
+CRPFM-14.2 - Climate-related expenditure composition outturn
+CRPFM-2 - Tracking climate-related expenditure
+CRPFM-2.1 - Tracking climate-related expenditure
+CRPFM-3 - Climate-responsive budget circular
+CRPFM-3.1 - Climate-responsive budget circular
+CRPFM-4 - Legislative scrutiny
+CRPFM-4.1 - Legislative scrutiny of budget
+CRPFM-4.2 - Legislative scrutiny of audit and evaluation reports
+CRPFM-5 - Climate-responsive public investment management
+CRPFM-5.1 - Climate-responsive  provisions in regulatory framework for public investment management
+CRPFM-5.2 - Climate-responsive provisions for project appraisal
+CRPFM-5.3 - Climate-responsive provisions for project selection
+CRPFM-5.4 - Reporting from entities in charge of implementation
+CRPFM-6 - Climate-responsive non-financial asset management
+CRPFM-6.1 - Climate-responsive non-financial asset management
+CRPFM-7 - Climate-related liabilities
+CRPFM-7.1 - Fiscal risks arising from climate-related contingent liabilities
+CRPFM-7.2 - Climate-related debt and guarantees
+CRPFM-8 - Climate-responsive public procurement
+CRPFM-8.1 - Climate-responsive public procurement framework
+CRPFM-8.2 - Climate-responsive public procurement operations
+CRPFM-8.3 - Climate-responsive public procurement monitoring
+CRPFM-8.4 - Climate-responsive public procurement reporting
+CRPFM-9 - Climate-responsive tax administration
+CRPFM-9.1 - Climate-related tax management, audit, and investigation
+CRPFM-9.2 - Climate-related tax arrears
 CoCA - Cost of an energy sufficient diet
 CoCA_fexp - Affordability of an energy sufficient diet: ratio of cost to food expenditures
 CoCA_headcount - Percent of the population who cannot afford sufficient calories
@@ -6155,7 +6198,7 @@ EG.FEC.RNEW.ZS - Renewable energy consumption (% of total final energy consumpti
 EG.GDP.PUSE.KO.87 - GDP per unit of energy use (1987 US$ per kg of oil equivalent)
 EG.GDP.PUSE.KO.KD - GDP per unit of energy use (2000 US$ per kg of oil equivalent)
 EG.GDP.PUSE.KO.PP - GDP per unit of energy use (PPP $ per kg of oil equivalent)
-EG.GDP.PUSE.KO.PP.KD - GDP per unit of energy use (constant 2017 PPP $ per kg of oil equivalent)
+EG.GDP.PUSE.KO.PP.KD - GDP per unit of energy use (constant 2021 PPP $ per kg of oil equivalent)
 EG.IMP.CONS.ZS - Energy imports, net (% of energy use)
 EG.IMP.TOTL.KT.OE - Energy imports (kt of oil equivalent)
 EG.NSF.ACCS.RU.ZS - Access to non-solid fuel, rural (% of rural population)
@@ -6163,7 +6206,7 @@ EG.NSF.ACCS.UR.ZS - Access to non-solid fuel, urban (% of urban population)
 EG.NSF.ACCS.ZS - Access to non-solid fuel (% of population)
 EG.USE.COMM.CL.ZS - Alternative and nuclear energy (% of total energy use)
 EG.USE.COMM.FO.ZS - Fossil fuel energy consumption (% of total)
-EG.USE.COMM.GD.PP.KD - Energy use (kg of oil equivalent) per $1,000 GDP (constant 2017 PPP)
+EG.USE.COMM.GD.PP.KD - Energy use (kg of oil equivalent) per $1,000 GDP (constant 2021 PPP)
 EG.USE.COMM.KT.OE - Energy use (kt of oil equivalent)
 EG.USE.CRNW.KT.OE - Combustible renewables and waste (metric tons of oil equivalent)
 EG.USE.CRNW.ZS - Combustible renewables and waste (% of total energy)
@@ -6191,7 +6234,7 @@ EN.ATM.CO2E.LF.KT - CO2 emissions from liquid fuel consumption (kt)
 EN.ATM.CO2E.LF.ZS - CO2 emissions from liquid fuel consumption (% of total)
 EN.ATM.CO2E.PC - CO2 emissions (metric tons per capita)
 EN.ATM.CO2E.PP.GD - CO2 emissions (kg per PPP $ of GDP)
-EN.ATM.CO2E.PP.GD.KD - CO2 emissions (kg per 2017 PPP $ of GDP)
+EN.ATM.CO2E.PP.GD.KD - CO2 emissions (kg per 2021 PPP $ of GDP)
 EN.ATM.CO2E.SF.KT - CO2 emissions from solid fuel consumption (kt)
 EN.ATM.CO2E.SF.ZS - CO2 emissions from solid fuel consumption (% of total)
 EN.ATM.GHGO.KT.CE - Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)
@@ -10591,7 +10634,7 @@ NE.CON.PRVT.PC.ZG - Private consumption per capita growth (annual %)
 NE.CON.PRVT.PC.ZS - Private consumption per capita (constant 1995 US$)
 NE.CON.PRVT.POP.ZG - Private consumption per capita growth (annual %)
 NE.CON.PRVT.PP.CD - Households and NPISHs Final consumption expenditure, PPP (current international $)
-NE.CON.PRVT.PP.KD - Households and NPISHs Final consumption expenditure, PPP (constant 2017 international $)
+NE.CON.PRVT.PP.KD - Households and NPISHs Final consumption expenditure, PPP (constant 2021 international $)
 NE.CON.PRVT.ZS - Households and NPISHs final consumption expenditure (% of GDP)
 NE.CON.PVPC.KD - Private consumption per capita (1987 USD)
 NE.CON.TETC.CD - Final consumption expenditure, etc. (current US$)
@@ -10973,7 +11016,7 @@ NY.GDP.MKTP.KN - GDP (constant LCU)
 NY.GDP.MKTP.KN.87 - GDP at market prices (constant 1987 LCU)
 NY.GDP.MKTP.KN.87.ZG - GDP growth (annual %)
 NY.GDP.MKTP.PP.CD - GDP, PPP (current international $)
-NY.GDP.MKTP.PP.KD - GDP, PPP (constant 2017 international $)
+NY.GDP.MKTP.PP.KD - GDP, PPP (constant 2021 international $)
 NY.GDP.MKTP.PP.KD.87 - GDP, PPP (constant 1987 international $)
 NY.GDP.MKTP.XD - GDP deflator (1987=100,Index)
 NY.GDP.MKTP.XU.E - GDP deflator, end period (base year varies by country)
@@ -10985,7 +11028,7 @@ NY.GDP.PCAP.KD - GDP per capita (constant 2015 US$)
 NY.GDP.PCAP.KD.ZG - GDP per capita growth (annual %)
 NY.GDP.PCAP.KN - GDP per capita (constant LCU)
 NY.GDP.PCAP.PP.CD - GDP per capita, PPP (current international $)
-NY.GDP.PCAP.PP.KD - GDP per capita, PPP (constant 2017 international $)
+NY.GDP.PCAP.PP.KD - GDP per capita, PPP (constant 2021 international $)
 NY.GDP.PCAP.PP.KD.87 - GDP per capita, PPP (constant 1987 international $)
 NY.GDP.PCAP.PP.KD.ZG - GDP per capita, PPP annual growth (%)
 NY.GDP.PETR.RT.ZS - Oil rents (% of GDP)
@@ -11027,7 +11070,7 @@ NY.GNP.MKTP.KN.87 - GNP at market prices (constant 1987 LCU)
 NY.GNP.MKTP.KN.87.ZG - GNP growth (annual %)
 NY.GNP.MKTP.PC.CD - GNI per capita (US$)
 NY.GNP.MKTP.PP.CD - GNI, PPP (current international $)
-NY.GNP.MKTP.PP.KD - GNI, PPP (constant 2017 international $)
+NY.GNP.MKTP.PP.KD - GNI, PPP (constant 2021 international $)
 NY.GNP.MKTP.PP.KD.87 - GNP, PPP (constant 1987 international $)
 NY.GNP.PCAP.CD - GNI per capita, Atlas method (current US$)
 NY.GNP.PCAP.CD.AT - GNP per capita (Atlas method) (US$,curr. pr.)
@@ -11038,7 +11081,7 @@ NY.GNP.PCAP.KD.ZG - GNI per capita growth (annual %)
 NY.GNP.PCAP.KN - GNI per capita (constant LCU)
 NY.GNP.PCAP.KN.87 - GNP per capita (constant 1987 LCU)
 NY.GNP.PCAP.PP.CD - GNI per capita, PPP (current international $)
-NY.GNP.PCAP.PP.KD - GNI per capita, PPP (constant 2017 international $)
+NY.GNP.PCAP.PP.KD - GNI per capita, PPP (constant 2021 international $)
 NY.GNP.PCAP.PP.KD.87 - GNP per capita, PPP (constant 1987 international $)
 NY.GNP.PCAP.ZG - GNP per capita growth (annual %)
 NY.GNP.PCAT.CD - Gross national product per capita (USD, Atlas meth.)
@@ -15897,49 +15940,6 @@ SE.SEC.UNER.LO.MA.ZS - Adolescents out of school, male (% of male lower secondar
 SE.SEC.UNER.LO.ZS - Adolescents out of school (% of lower secondary school age)
 SE.SEC.UNER.MA - Children out of school, secondary, male
 SE.SEC.UNER.MA.ZS - Children out of school, secondary, male (% of relevant age group)
-SE.SEC.UNER.ZS - Children out of school, secondary (% of relevant age group)
-SE.SRSEC.NENR.ZS - Net Enrollment Ratio: Senior Secondary (in %)
-SE.STUD.JRSEC - Number of Student: Junior Secondary Level (in number of people, 2009 data only)
-SE.STUD.PRM - Number of Student: Primary Level (in number of people, 2009 data only)
-SE.STUD.SRSEC - Number of Student: Senior Secondary Level (in number of people, 2009 data only)
-SE.TCHR.JRSEC - Number of Teacher: Junior Secondary Level (in number of people, 2009 data only)
-SE.TCHR.PRM - Number of Teacher: Primary Level (in number of people, 2009 data only)
-SE.TCHR.SRSEC - Number of Teacher: Senior Secondary Level (in number of people, 2009 data only)
-SE.TER.CMPL.FE.ZS - Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, female (%)
-SE.TER.CMPL.MA.ZS - Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, male (%)
-SE.TER.CMPL.ZS - Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, both sexes (%)
-SE.TER.CUAT.BA.FE.ZS - Educational attainment, at least Bachelor's or equivalent, population 25+, female (%) (cumulative)
-SE.TER.CUAT.BA.MA.ZS - Educational attainment, at least Bachelor's or equivalent, population 25+, male (%) (cumulative)
-SE.TER.CUAT.BA.ZS - Educational attainment, at least Bachelor's or equivalent, population 25+, total (%) (cumulative)
-SE.TER.CUAT.DO.FE.ZS - Educational attainment, Doctoral or equivalent, population 25+, female (%) (cumulative)
-SE.TER.CUAT.DO.MA.ZS - Educational attainment, Doctoral or equivalent, population 25+, male (%) (cumulative)
-SE.TER.CUAT.DO.ZS - Educational attainment, Doctoral or equivalent, population 25+, total (%) (cumulative)
-SE.TER.CUAT.MS.FE.ZS - Educational attainment, at least Master's or equivalent, population 25+, female (%) (cumulative)
-SE.TER.CUAT.MS.MA.ZS - Educational attainment, at least Master's or equivalent, population 25+, male (%) (cumulative)
-SE.TER.CUAT.MS.ZS - Educational attainment, at least Master's or equivalent, population 25+, total (%) (cumulative)
-SE.TER.CUAT.ST.FE.ZS - Educational attainment, at least completed short-cycle tertiary, population 25+, female (%) (cumulative)
-SE.TER.CUAT.ST.MA.ZS - Educational attainment, at least completed short-cycle tertiary, population 25+, male (%) (cumulative)
-SE.TER.CUAT.ST.ZS - Educational attainment, at least completed short-cycle tertiary, population 25+, total (%) (cumulative)
-SE.TER.ENRL - Enrolment in tertiary education, all programmes, both sexes (number)
-SE.TER.ENRL.FE - Enrolment in tertiary education, all programmes, female (number)
-SE.TER.ENRL.FE.ZS - Percentage of students in tertiary education who are female (%)
-SE.TER.ENRL.TC.ZS - Pupil-teacher ratio, tertiary
-SE.TER.ENRR - School enrollment, tertiary (% gross)
-SE.TER.ENRR.FE - School enrollment, tertiary, female (% gross)
-SE.TER.ENRR.MA - School enrollment, tertiary, male (% gross)
-SE.TER.GRAD.AG.ZS - Percentage of graduates from tertiary education graduating from Agriculture, Forestry, Fisheries and Veterinary programmes, both sexes (%)
-SE.TER.GRAD.ED.ZS - Percentage of graduates from tertiary education graduating from Education programmes, both sexes (%)
-SE.TER.GRAD.EN.ZS - Percentage of graduates from tertiary education graduating from Engineering, Manufacturing and Construction programmes, both sexes (%)
-SE.TER.GRAD.FE.AG.ZS - Female share of graduates in Agriculture, Forestry, Fisheries and Veterinary programmes, tertiary (%)
-SE.TER.GRAD.FE.ED.ZS - Female share of graduates in Education programmes, tertiary (%)
-SE.TER.GRAD.FE.EN.ZS - Female share of graduates in Engineering, Manufacturing and Construction programmes, tertiary (%)
-SE.TER.GRAD.FE.HL.ZS - Female share of graduates in Health and Welfare programmes, tertiary (%)
-SE.TER.GRAD.FE.HU.ZS - Female share of graduates in Arts and Humanities programmes, tertiary (%)
-SE.TER.GRAD.FE.OT.ZS - Female share of graduates in unknown or unspecified fields, tertiary (%)
-SE.TER.GRAD.FE.SC.ZS - Female share of graduates in Natural Sciences, Mathematics and Statistics programmes, tertiary (%)
-SE.TER.GRAD.FE.SI.ZS - Female share of graduates from Science, Technology, Engineering and Mathematics (STEM) programmes, tertiary (%)
-SE.TER.GRAD.FE.SS.ZS - Female share of graduates in Social Sciences, Journalism and Information programmes, tertiary (%)
-SE.TER.GRAD.FE.SV.ZS - Female share of graduates in Services programmes, tertiary (%)
 SH.DTH.0509 - Number of deaths ages 5-9 years
 SH.DTH.0514 - Number of deaths ages 5-14 years
 SH.DTH.1014 - Number of deaths ages 10-14 years
