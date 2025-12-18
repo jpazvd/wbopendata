@@ -207,19 +207,19 @@ program define _api_read_indicators, rclass
 	cap: findfile `file1' , `path'
 			
 	if _rc == 0 {
-		copy `file1tmp'  `r(fn)' , replace
+		copy `file1tmp'  "`r(fn)'" , replace
 	}
 	else {
-		copy `file1tmp' `file1'
+		copy `file1tmp' "`file1'"
 	}
 	
 	cap: findfile `file2' , `path'
 			
 	if _rc == 0 {
-		copy `file2tmp'  `r(fn)' , replace
+		copy `file2tmp'  "`r(fn)'" , replace
 	}
 	else {
-		copy `file2tmp' `file2'
+		copy `file2tmp' "`file2'"
 	}
 
 	return local file1 "`file1'"

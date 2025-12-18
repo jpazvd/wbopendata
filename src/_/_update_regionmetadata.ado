@@ -380,10 +380,10 @@ quietly {
 					
 			cap: findfile _`variable'.ado, `path'
 			if _rc == 0 {
-				copy  `tmp`variable''  `r(fn)' , replace
+				copy  `tmp`variable''  "`r(fn)'" , replace
 			}
 			else {
-				copy `tmp`variable'' _`variable'.ado
+				copy `tmp`variable'' "_`variable'.ado"
 			}
 			
 		}
@@ -426,10 +426,10 @@ quietly {
 			cap: findfile `country' , `path'
 					
 			if _rc == 0 {
-				copy `tmpCTRYtmp'  `r(fn)' , replace
+				copy `tmpCTRYtmp'  "`r(fn)'" , replace
 			}
 			else {
-				copy `tmpCTRYtmp' `indicator'
+				copy `tmpCTRYtmp' "`indicator'"
 			}
 			
 			noi di in smcl in g "{bf: Processing region list... COMPLETED!}"
@@ -528,10 +528,10 @@ quietly {
 			
 			cap: findfile wbopendata_`variable'.sthlp , `path'
 			if _rc == 0 {
-				copy `help`variable''  `r(fn)' , replace
+				copy `help`variable''  "`r(fn)'" , replace
 			}
 			else {
-				copy `help`variable'' wbopendata_`variable'.sthlp
+				copy `help`variable'' "wbopendata_`variable'.sthlp"
 			}
 			
 			noi di in g in smcl "	See {bf:{help wbopendata##`variable':`title'}}"

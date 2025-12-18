@@ -135,10 +135,10 @@ if ("`noindlist'" == "") {
 	cap: findfile `indicator' , `path'
 			
 	if _rc == 0 {
-		copy `tmp1tmp'  `r(fn)' , replace
+		copy `tmp1tmp'  "`r(fn)'" , replace
 	}
 	else {
-		copy `tmp1tmp' `indicator'
+		copy `tmp1tmp' "`indicator'"
 	}
 	
 *noi gen length = length(sourcenote)
@@ -271,10 +271,10 @@ if ("`nosthlp1'" == "") {
 		cap: findfile wbopendata_`variable'.sthlp , `path'
 		
 		if _rc == 0 {
-			copy `help`variable''  `r(fn)' , replace
+			copy `help`variable''  "`r(fn)'" , replace
 		}
 		else {
-			copy `help`variable'' wbopendata_`variable'.sthlp
+			copy `help`variable'' "wbopendata_`variable'.sthlp"
 		}
 				
 		noi di in g in smcl "	See {bf:{help wbopendata_`variable'##`variable':`title'}}"
@@ -498,10 +498,10 @@ if ("`nosthlp2'" == "") {
 			cap: findfile wbopendata_`variable'_indicators`tc0'.sthlp , `path'
 			
 			if _rc == 0 {
-				copy `help`variable'`tc0''  `r(fn)' , replace
+				copy `help`variable'`tc0''  "`r(fn)'" , replace
 			}
 			else {
-				copy `help`variable'`tc0'' wbopendata_`variable'_indicators`tc0'.sthlp
+				copy `help`variable'`tc0'' "wbopendata_`variable'_indicators`tc0'.sthlp"
 			}
 					
 			********************************************
