@@ -277,7 +277,7 @@ local indicator `indicators'
 			}
 			
 			tempvar tmp
-			egen `tmp' = rowmiss(`name'_)
+			egen `tmp' = rowmiss(`name')
 			keep if `tmp' == 0
 			sort countryname countrycode `time'
 			bysort countryname countrycode : keep if _n==_N
