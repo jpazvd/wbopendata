@@ -414,7 +414,7 @@ syntax , 								///
 		file close `out'
 		
 		findfile _parameters.ado, `path'
-		copy `out2'  `r(fn)' , replace
+		copy `out2'  "`r(fn)'" , replace
 	
 	}
 	
@@ -652,7 +652,7 @@ syntax , 								///
 			file close `out'
 
 			findfile _parameters.ado, `path'
-			copy `out2'  `r(fn)' , replace
+			copy `out2'  "`r(fn)'" , replace
 
 			
 			noi di in smcl ""

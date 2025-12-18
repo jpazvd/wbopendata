@@ -338,7 +338,7 @@ quietly {
 			******************************************************
 			
 			findfile _`variable'.ado, `path'
-			copy  `tmp`variable''  `r(fn)' , replace
+			copy  `tmp`variable''  "`r(fn)'" , replace
 
 		}
 		*/
