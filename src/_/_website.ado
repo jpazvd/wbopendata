@@ -139,9 +139,9 @@ program define _website, rclass
 
 	}
 
-	di ""
-	di in smcl `"`text'"'
-	di ""
+	cap noi di ""
+	cap noi di in smcl `"`text'"'
+	cap noi di ""
 	
 	return local text = `"`text'"'
 	

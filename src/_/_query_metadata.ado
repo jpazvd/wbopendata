@@ -70,10 +70,14 @@ version 9.0
 		local topic3 ""
 	}
 		
-	qui _website, text("`source'")
-    local source = r(text) 
-	qui _website, text("`note'")
-    local note = r(text)
+	cap qui _website, text("`source'")
+	if (_rc == 0) {
+		local source = r(text) 
+	}
+	cap qui _website, text("`note'")
+	if (_rc == 0) {
+		local note = r(text)
+	}
 
 	*---------------------------------------------------------------------------
 	*** Display results
