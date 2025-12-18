@@ -78,6 +78,13 @@ local indicator `indicators'
 			exit 198
 		}
 	
+	* match and indicators can not be selected at the same time
+		if ("`match'" != "") & ("`indicator'" != "") {
+			noi di  as err "{p 4 4 2}Error: The {bf:match} option cannot be used with the {bf:indicators} option. The {bf:match} option is used to retrieve country metadata only and does not download indicator data.{p_end}"
+			noi di  as err "{p 4 4 2}Please use either {bf:match} alone for country metadata, or {bf:indicators} without {bf:match} to download indicator data.{p_end}"
+			exit 198
+		}
+	
 		set checksum off
 	
 	* update : update query / does not triger the download of any data
