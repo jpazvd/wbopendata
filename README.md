@@ -155,8 +155,7 @@ Special thanks to all contributors who have helped improve wbopendata through bu
 
 **João Pedro Azevedo**  
 [World Bank](https://www.worldbank.org/) | [UNICEF](https://www.unicef.org/)  
-[jazevedo@worldbank.org](mailto:jazevedo@worldbank.org)  
-[World Bank Staff page](http://www.worldbank.org/en/about/people/j/joao-pedro-azevedo)  
+[jpazvd.github.io](https://jpazvd.github.io/)  
 [Twitter](https://twitter.com/jpazvd)  
 
 ## License
