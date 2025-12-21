@@ -59,10 +59,15 @@ wbopendata, match(countrycode) full
 
 ## Documentation
 
-- **[FAQ](doc/FAQ.md)** - Frequently asked questions and troubleshooting
-- **[Examples](doc/examples/)** - Basic and advanced usage examples
-- **[Help File](doc/wbopendata.md)** - Full documentation
-- **[Stata Help](src/w/wbopendata.sthlp)** - Type `help wbopendata` in Stata
+| Document | Description |
+|----------|-------------|
+| **[FAQ](doc/FAQ.md)** | Frequently asked questions and troubleshooting |
+| **[Examples](doc/examples/)** | Basic and advanced usage examples |
+| **[Help File](doc/wbopendata.md)** | Full documentation with code output |
+| **[Test Protocol](qa/test_protocol.md)** | Testing checklist for contributors |
+| **[Improvement Plan](doc/plans/IMPROVEMENT_PLAN.md)** | Future development roadmap |
+
+> 💡 **Tip:** In Stata, type `help wbopendata` for built-in documentation.
 
 ## Parameters
 

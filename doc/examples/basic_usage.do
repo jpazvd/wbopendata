@@ -3,6 +3,9 @@
 * Version: 17.1
 * Date: December 2025
 * Author: João Pedro Azevedo
+*
+* Documentation: https://github.com/jpazvd/wbopendata
+* See also: advanced_usage.do, ../FAQ.md
 *******************************************************************************/
 
 clear all

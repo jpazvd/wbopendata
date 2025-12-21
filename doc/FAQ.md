@@ -1,5 +1,9 @@
 # Frequently Asked Questions (FAQ)
 
+[← Back to README](../README.md) | [Examples](examples/) | [Test Protocol](../qa/test_protocol.md)
+
+---
+
 This FAQ is compiled from [GitHub Issues](https://github.com/jpazvd/wbopendata/issues) and common user questions.
 
 ---

@@ -1,5 +1,9 @@
 # Issue Resolution Plan
 
+[← Back to README](../../README.md) | [FAQ](../FAQ.md) | [Improvement Plan](IMPROVEMENT_PLAN.md)
+
+---
+
 ## Overview
 
 This document tracks the resolution of open GitHub issues for `wbopendata`.
