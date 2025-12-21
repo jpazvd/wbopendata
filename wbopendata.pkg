@@ -1,7 +1,7 @@
-v 17.0
+v 17.1
 d 'WBOPENDATA'
 d 
-d Distribution-Date: 24Jan2023
+d Distribution-Date: 21Dec2025
 d License: MIT
 d 
 F src/c/country.txt
