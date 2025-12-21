@@ -62,6 +62,9 @@
 !/doc/*.md
 !/doc/*.log
 !/doc/*.png
+!/doc/**/*.md
+!/doc/**/*.log
+!/doc/**/*.png
 
 # csv files in selected input folders
 !qa/*.csv
