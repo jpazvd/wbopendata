@@ -1,15 +1,16 @@
 # wbopendata Examples
 
-[← Back to README](../../README.md) | [FAQ](../FAQ.md) | [Test Protocol](../../qa/test_protocol.md)
+[← Back to README](../../README.md) | [Examples Gallery](../examples_gallery.md) | [FAQ](../FAQ.md)
 
 ---
 
-## Available Examples
+## Available Resources
 
-| File | Description | Level |
-|------|-------------|-------|
-| [basic_usage.do](basic_usage.do) | Getting started with wbopendata | Beginner |
-| [advanced_usage.do](advanced_usage.do) | Panel data, visualizations, batch downloads | Intermediate |
+| Resource | Description |
+|----------|-------------|
+| **[Examples Gallery](../examples_gallery.md)** | Visual guide with code snippets and embedded figures |
+| [basic_usage.do](basic_usage.do) | Runnable Stata code - beginner level |
+| [advanced_usage.do](advanced_usage.do) | Runnable Stata code - intermediate level |
 
 ---
 
