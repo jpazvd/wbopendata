@@ -1,7 +1,7 @@
-v 16.2.2
+v 17.0
 d 'WBOPENDATA'
 d 
-d Distribution-Date: 28Jun2020
+d Distribution-Date: 24Jan2023
 d License: MIT
 d 
 F src/c/country.txt
@@ -30,6 +30,7 @@ F src/_/_query_metadata.ado
 F src/_/_tknz.ado
 F src/_/_update_countrymetadata.ado
 F src/_/_update_indicators.ado
+F src/_/_update_regionmetadata.ado
 F src/_/_update_wbopendata.ado
 F src/_/_wbod_tmpfile1.ado
 F src/_/_wbod_tmpfile2.ado
