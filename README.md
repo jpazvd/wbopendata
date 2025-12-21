@@ -62,7 +62,8 @@ wbopendata, match(countrycode) full
 | Document | Description |
 |----------|-------------|
 | **[FAQ](doc/FAQ.md)** | Frequently asked questions and troubleshooting |
-| **[Examples](doc/examples/)** | Basic and advanced usage examples |
+| **[Examples Gallery](doc/examples_gallery.md)** | Code snippets with embedded figures |
+| **[Do File Examples](doc/examples/)** | Runnable Stata code files |
 | **[Help File](doc/wbopendata.md)** | Full documentation with code output |
 | **[Test Protocol](qa/test_protocol.md)** | Testing checklist for contributors |
 | **[Improvement Plan](doc/plans/IMPROVEMENT_PLAN.md)** | Future development roadmap |
@@ -109,6 +110,8 @@ The terms of use of the APIs is governed by the [World Bank Terms and Conditions
 
 
 ## Examples
+
+**[📊 Examples Gallery](doc/examples_gallery.md)** - Visual guide with code snippets and output figures
 
 **[Basic Usage Examples](doc/examples/basic_usage.do)** - Getting started with wbopendata
 
