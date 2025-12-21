@@ -1,6 +1,12 @@
 ﻿# WBOPENDATA: Stata module to access World Bank databases
 
+[![GitHub release](https://img.shields.io/github/v/release/jpazvd/wbopendata)](https://github.com/jpazvd/wbopendata/releases)
+[![SSC install](https://img.shields.io/badge/SSC-install-blue)](https://ideas.repec.org/c/boc/bocode/s457234.html)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub issues](https://img.shields.io/github/issues/jpazvd/wbopendata)](https://github.com/jpazvd/wbopendata/issues)
+
 ## Description
+
 
 wbopendata allows Stata users to download over 17,000 indicators from the World Bank databases, including: Development Africa Development Indicators; Doing Business; Education Statistics; Enterprise Surveys; Global Development Finance;
     Gender Statistics; Health Nutrition and Population Statistics; International Development Association - Results Measurement
@@ -23,15 +29,44 @@ wbopendata draws from the main World Bank collections of development indicators,
 
 The access to this databases is made possible by the World Bank's Open Data Initiative which provide open full access to [World Bank databases](http://data.worldbank.org/).
 
-### Parameters
+## Installation
 
-- country(string): Countries and Regions Abbreviations and acronyms. If solely specified, this option will return all the WDI indicators (1,076 series) for a single country or region (no multiple country selection allowed in this case). If this option is selected jointly with a specific indicator, the output is a series for a specific country or region, or multiple countries or region. When selecting multiple countries please use the three letters code, separated by a semicolon (;), with no spaces.
+### From SSC (Recommended)
+```stata
+ssc install wbopendata, replace
+```
+
+### From GitHub (Latest Development Version)
+```stata
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main/src/") replace
+```
+
+## Quick Start
+
+```stata
+* Download GDP for all countries
+wbopendata, indicator(NY.GDP.MKTP.CD) clear
+
+* Download multiple indicators for specific countries
+wbopendata, indicator(NY.GDP.MKTP.CD;SP.POP.TOTL) country(USA;BRA;CHN) clear long
+
+* Download by topic (e.g., Education)
+wbopendata, topics(4) clear
+
+* Get country metadata
+wbopendata, match(countrycode) full
+```
+
+## Parameters
+
+- **country(string)**: Countries and Regions Abbreviations and acronyms. If solely specified, this option will return all the WDI indicators (1,076 series) for a single country or region (no multiple country selection allowed in this case). If this option is selected jointly with a specific indicator, the output is a series for a specific country or region, or multiple countries or region. When selecting multiple countries please use the three letters code, separated by a semicolon (;), with no spaces.
 
 
-- topics(numlist): Topic List 21 topic lists are curently supported and include Agriculture & Rural Development; Aid Effectiveness; Economy & Growth; Education; Energy & Mining; Environment; Financial Sector; Health; Infrastructure; Social Protection & Labor; Poverty; Private Sector; Public Sector; Science & Technology; Social Development; Urban Development; Gender; Millenium development goals; Climate Change; External Debt; and, Trade (only one topic collection can be requested at the time).
+- **topics(numlist)**: Topic List 21 topic lists are curently supported and include Agriculture & Rural Development; Aid Effectiveness; Economy & Growth; Education; Energy & Mining; Environment; Financial Sector; Health; Infrastructure; Social Protection & Labor; Poverty; Private Sector; Public Sector; Science & Technology; Social Development; Urban Development; Gender; Millenium development goals; Climate Change; External Debt; and, Trade (only one topic collection can be requested at the time).
 
 
-- indicator(string): Indicators List list of indicator codes (All series). When selecting multiple indicators please use semicolon (;), to separate differenet indicatos.
+- **indicator(string)**: Indicators List list of indicator codes (All series). When selecting multiple indicators please use semicolon (;), to separate differenet indicatos.
+
 
 ## Disclaimer
 
@@ -77,11 +112,42 @@ This module should be installed from within Stata by typing "ssc install wbopend
 #### Keywords:
 Indicators; WDI; API; Open Data
 
-## Author: 
+## Contributing
 
-  **João Pedro Azevedo**  
-  [jazevedo@worldbank.org](mailto:jazevedo@worldbank.org)  
-  World Bank  
-  [World Bank Staff page](http://www.worldbank.org/en/about/people/j/joao-pedro-azevedo)  
-  [Twitter](https://twitter.com/jpazvd)  
+Contributions, bug reports, and feature requests are welcome! Please feel free to:
+- Open an [issue](https://github.com/jpazvd/wbopendata/issues) for bug reports or suggestions
+- Submit a pull request with improvements
 
+## Acknowledgments
+
+Special thanks to all contributors who have helped improve wbopendata through bug reports, feature suggestions, and feedback:
+
+**Bug Reports & Fixes:**
+[@dianagold](https://github.com/dianagold),
+[@claradaia](https://github.com/claradaia),
+[@SylWeber](https://github.com/SylWeber),
+[@cuannzy](https://github.com/cuannzy),
+[@oliverfiala](https://github.com/oliverfiala),
+[@KarstenKohler](https://github.com/KarstenKohler),
+[@ckrf](https://github.com/ckrf),
+[@flxflks](https://github.com/flxflks),
+[@Koko-Clovis](https://github.com/Koko-Clovis)
+
+**Feature Requests & Suggestions:**
+[@santoshceft](https://github.com/santoshceft),
+[@Shijie-Shi](https://github.com/Shijie-Shi),
+[@JavierParada](https://github.com/JavierParada),
+[@yukinko-iwasaki](https://github.com/yukinko-iwasaki),
+[@tenaciouslyantediluvian](https://github.com/tenaciouslyantediluvian)
+
+## Author
+
+**João Pedro Azevedo**  
+[jazevedo@worldbank.org](mailto:jazevedo@worldbank.org)  
+World Bank  
+[World Bank Staff page](http://www.worldbank.org/en/about/people/j/joao-pedro-azevedo)  
+[Twitter](https://twitter.com/jpazvd)  
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
