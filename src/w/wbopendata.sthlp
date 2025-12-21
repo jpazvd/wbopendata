@@ -1,9 +1,9 @@
 {smcl}
 {hline}
-{* 8Jul2020 }{...}
+{* 21Dec2025 }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
-{right: {bf:version 16.3}}
+{right: {bf:version 17.1}}
 {hline}
 
 {title:Title}
@@ -522,6 +522,12 @@ S426302, Boston College Department of Economics, revised 17 Oct 2006.{p_end}
 	and Ana Florina Pirlea.{p_end}
     {p 4 4 2}The author would like to thanks comments received from Minh Cong Nguyen, John Luke Gallup, Aart C. Kraay, Amer Hasan, Johan Mistiaen, Roy Shuji Katayama, Dean Mitchell Jolliffe, Nobuo Yoshida,
     Manohar Sharma, Gabriel Demombynes, Paolo Verme, Elizaveta Perova, Kit Baum, Kerry Kammire, Derek Wagner, Neil Fantom and Loiuse J. Cord. The usual disclaimer applies.{p_end}
+
+{p 4 4 2}{bf:Community Contributors:} The following users have contributed valuable bug reports, feature suggestions, and feedback that helped improve wbopendata:{p_end}
+    {p 8 8 2}{it:Bug Reports & Fixes:} dianagold, claradaia, SylWeber, cuannzy, oliverfiala, KarstenKohler, ckrf, flxflks, Koko-Clovis, tenaciouslyantediluvian{p_end}
+    {p 8 8 2}{it:Feature Suggestions:} santoshceft, Shijie-Shi, JavierParada, yukinko-iwasaki{p_end}
+    {p 4 4 2}Thank you all for helping make wbopendata better!{p_end}
+
     {p 4 4 2}I would like to dedicate this ado file to Dr Richard Sperling, who asked us to support intelligent and well 
     thought out public policies that help those in society who are less fortunate than we are. {browse "www.stata.com/statalist/archive/2011-02/msg00062.html"}{p_end}
     {p 4 4 2}{cmd:wbopendata} uses the Stata user written command {cmd:_pecats} produced by J. Scott Long and Jeremy Freese, and {cmd:tknz} written by David C. Elliott and 
