@@ -1,7 +1,8 @@
 *******************************************************************************
 * wbopendata             
-*! v 17.0  	 24Jan2023               by Joao Pedro Azevedo
-* 	Create region metadata
+*! v 17.1  	 21Dec2025               by Joao Pedro Azevedo
+* 	Bug fixes: #33 (latest option), #35 (country metadata), #45 (URL errors), 
+*   #46 (varlist), #51 (match documentation). Contributors acknowledged.
 *******************************************************************************
 
 program def wbopendata, rclass
