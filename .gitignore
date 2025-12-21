@@ -65,12 +65,12 @@
 !/doc/**/*.md
 !/doc/**/*.log
 !/doc/**/*.png
+!/doc/**/*.do
 
-# csv files in selected input folders
-!qa/*.csv
-
-# txt files in selected input folders
-!qa/*.txt
+# QA test files
+!/qa/*.txt
+!/qa/*.md
+!/qa/*.do
 
 #######################
 # Include all the files with passwords or tokens here. All files named
