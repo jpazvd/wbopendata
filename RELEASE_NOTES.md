@@ -10,6 +10,20 @@
 
 This release focuses on community-driven bug fixes, comprehensive documentation improvements, and repository professionalization. Special thanks to our community contributors who reported issues and helped improve the package.
 
+### 📊 Updated Metadata (December 2025)
+
+| Metric | Value |
+|--------|-------|
+| **Total Indicators** | 20,147 |
+| **Data Sources** | 51 |
+| **Topic Categories** | 21 |
+| **Countries & Regions** | 296 |
+| **Time Coverage** | 1960–present |
+
+**New Data Sources Added:**
+- Source 92: Disability Data Hub (DDH) — 1,333 indicators
+- Source 93: FPN Datahub Archive — 42 indicators
+
 ---
 
 ### 🐛 Bug Fixes
