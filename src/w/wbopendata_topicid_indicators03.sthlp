@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -281,9 +281,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Trade in services is the sum of service exports and imports divided by the value of GDP, all in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Total trade in services includes services provided by residents to non-residents plus services provided by non-residents to residents. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -296,7 +296,7 @@
 
 {synopt:{opt Source Notes}}Communications, computer, information, and other services cover international telecommunications; computer data; news-related service transactions between residents and nonresidents; construction services; royalties and license fees; miscellan{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -307,9 +307,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Primary income payments refer to employee compensation paid to nonresident workers and investment income (payments on direct investment, portfolio investment, other investments). Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Primary income payments refer to employee compensation paid to nonresident workers and investment income (payments on direct investment, portfolio investment, other investments).This indicator is expressed in current prices, meaning no adjustm{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -320,9 +320,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Imports of goods and services comprise all transactions between residents of a country and the rest of the world involving a change of ownership from nonresidents to residents of general merchandise, nonmonetary gold, and services. Data are in{p_end}
+{synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -335,7 +335,7 @@
 
 {synopt:{opt Source Notes}}Insurance and financial services cover various types of insurance provided to nonresidents by resident insurance enterprises and vice versa, and financial intermediary and auxiliary services (except those of insurance enterprises and pension f{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -346,9 +346,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Goods imports refer to all movable goods (including nonmonetary gold) involved in a change of ownership from nonresidents to residents. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Imports of goods occur when there are changes in the economic ownership of goods from non-residents to residents of the compiling economy, irrespective of physical movement of goods across national borders. This indicator is expressed in curre{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -359,9 +359,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Services refer to economic output of intangible commodities that may be produced, transferred, and consumed at the same time. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Imports of services are services provided by non-residents to residents. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This indicator is expressed in United States do{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -372,9 +372,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Charges for the use of intellectual property are payments and receipts between residents and nonresidents for the authorized use of proprietary rights (such as patents, trademarks, copyrights, industrial processes and designs including trade s{p_end}
+{synopt:{opt Source Notes}}Charges for the use of proprietary rights (such as patents, trademarks, copyrights, industrial processes and designs including trade secrets, franchises), and charges for licenses to reproduce or distribute (or both) intellectual property embo{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -385,9 +385,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Imports of goods, services and primary income is the sum of goods imports, service imports and primary income payments. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -398,9 +398,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Transport covers all transport services (sea, air, land, internal waterway, pipeline, space and electricity transmission) performed by residents of one economy for those of another and involving the carriage of passengers, the movement of good{p_end}
+{synopt:{opt Source Notes}}Transport services covers the process of carriage of people and objects from one location to another as well as related supporting and auxiliary services. Also included are postal and courier services. This indicator is expressed as a percenta{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -411,9 +411,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Travel covers goods and services acquired from an economy by travelers for their own use during visits of less than one year in that economy for either business or personal purposes. Travel includes local transport (i.e., transport within the{p_end}
+{synopt:{opt Source Notes}}Travel services cover goods and services for own use or to give away acquired from an economy by nonresidents during visits to that economy, or acquired from other economies by residents during visits to these other economies. This indicator i{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -426,7 +426,7 @@
 
 {synopt:{opt Source Notes}}Foreign direct investment refers to direct investment equity flows in an economy. It is the sum of equity capital, reinvestment of earnings, and other capital. Direct investment is a category of cross-border investment associated with a reside{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments database, supplemented by data from the United Nations Conference on Trade and Development and official national sources.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments database, International Monetary Fund (IMF), note: International Monetary Fund, Balance of Payments database, supplemented by data from the United Nations Conference on Trade and Development and official national sources.;{p_end}
 
 
 {synoptline}
@@ -439,7 +439,7 @@
 
 {synopt:{opt Source Notes}}Foreign direct investment refers to direct investment equity flows in an economy. It is the sum of equity capital, reinvestment of earnings, and other capital. Direct investment is a category of cross-border investment associated with a reside{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments database, supplemented by data from the United Nations Conference on Trade and Development and official national sources.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments database, International Monetary Fund (IMF), note: International Monetary Fund, Balance of Payments database, supplemented by data from the United Nations Conference on Trade and Development and official national sources.;{p_end}
 
 
 {synoptline}
@@ -450,9 +450,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Secondary income refers to transfers recorded in the balance of payments whenever an economy provides or receives goods, services, income, or financial items without a quid pro quo. All transfers not considered to be capital are current. Data{p_end}
+{synopt:{opt Source Notes}}Secondary income refers to transfers recorded in the balance of payments whenever an economy provides or receives goods, services, income, or financial items without a quid pro quo. All transfers not considered to be capital are current. This{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -465,7 +465,7 @@
 
 {synopt:{opt Source Notes}}Personal remittances comprise personal transfers and compensation of employees. Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfer{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on IMF balance of payments data.{p_end}
+{synopt:{opt Source Organization}}IMF balance of payments data, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -476,9 +476,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Current account balance is the sum of net exports of goods and services, net primary income, and net secondary income. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Balance of current transactions (transactions in goods and services, earned income and transfer income) between residents and non-residents. The term current account balance is used in the external accounts and is expressed from the perspectiv{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -489,9 +489,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Current account balance is the sum of net exports of goods and services, net primary income, and net secondary income.{p_end}
+{synopt:{opt Source Notes}}Balance of current transactions (transactions in goods and services, earned income and transfer income) between residents and non-residents. The term current account balance is used in the external accounts and is expressed from the perspectiv{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -504,7 +504,7 @@
 
 {synopt:{opt Source Notes}}The net financial account shows net acquisition and disposal of financial assets and liabilities. It measures how net lending to or borrowing from nonresidents is financed, and is conceptually equal to the sum of the balances on the current an{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -515,9 +515,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Net primary income refers to receipts and payments of employee compensation paid to nonresident workers and investment income (receipts and payments on direct investment, portfolio investment, other investments, and receipts on reserve assets){p_end}
+{synopt:{opt Source Notes}}Net primary income includes the net labor income and net property and entrepreneurial income components of the SNA. Labor income covers compensation of employees paid to nonresident workers. Property and entrepreneurial income covers investmen{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -528,9 +528,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Net trade in goods and services is derived by offsetting imports of goods and services against exports of goods and services. Exports and imports of goods and services comprise all transactions involving a change of ownership of goods and serv{p_end}
+{synopt:{opt Source Notes}}The balance of international trade in goods and services is the difference between the exports and imports of goods and services. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes o{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -541,9 +541,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Net trade in goods is the difference between exports and imports of goods. Trade in services is not included. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}The balance of international trade in goods is the difference between the exports and imports of goods. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This indicator i{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -556,7 +556,7 @@
 
 {synopt:{opt Source Notes}}Net errors and omissions constitute a residual category needed to ensure that accounts in the balance of payments statement sum to zero. Net errors and omissions are derived as the balance on the financial account minus the balances on the cur{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -567,9 +567,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Foreign direct investment are the net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital{p_end}
+{synopt:{opt Source Notes}}Foreign direct investment is a category of cross-border investment associated with a resident in one economy having control or a significant degree of influence on the management of an enterprise that is resident in another economy. Ownership{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -606,9 +606,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Portfolio investment covers transactions in equity securities and debt securities. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Portfolio investment includes cross-border flows and positions involving debt or equity securities, other than those included in direct investment or reserve assets. This indicator is expressed in current prices, meaning no adjustment has been{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -619,9 +619,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Reserves and related items is the net change in a country's holdings of international reserves resulting from transactions on the current, capital, and financial accounts. Reserve assets are those external assets that are readily available to{p_end}
+{synopt:{opt Source Notes}}Reserves and related items is the net change in a country's holdings of international reserves resulting from transactions on the current, capital, and financial accounts. Reserve assets are external assets, including monetary gold, that are r{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -632,9 +632,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Secondary income refers to transfers recorded in the balance of payments whenever an economy provides or receives goods, services, income, or financial items without a quid pro quo. All transfers not considered to be capital are current. Data{p_end}
+{synopt:{opt Source Notes}}Net secondary income (from abroad) comprises transfers of income between residents of the reporting country and the rest of the world that carry no provisions for repayment. Net secondary income is equal to the unrequited transfers of income f{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -647,7 +647,7 @@
 
 {synopt:{opt Source Notes}}Net capital account records acquisitions and disposals of nonproduced nonfinancial assets, such as land sold to embassies and sales of leases and licenses, as well as capital transfers, including government debt forgiveness. The use of the ter{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -658,9 +658,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Grants are defined as legally binding commitments that obligate a specific value of funds available for disbursement for which there is no repayment requirement. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Grants are transfers made in cash, goods or services for which no repayment is required.  For ODA reporting purposes, they also include forgiveness of non-military debt, support to non-governmental organisations, certain interest subsidies, an{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics, and OECD.{p_end}
+{synopt:{opt Source Organization}}DAC2A: Aid (ODA) disbursements to countries and regions, Organisation for Economic Co-operation and Development (OECD), uri: DSD_DAC2@DF_DAC2A, note: Development Assistance Committee of the Organisation for Economic Co-operation and Developmen{p_end}
 
 
 {synoptline}
@@ -673,7 +673,7 @@
 
 {synopt:{opt Source Notes}}Technical cooperation grants include free-standing technical cooperation grants, which are intended to finance the transfer of technical and managerial skills or of technology for the purpose of building up general national capacity without re{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics, and OECD.{p_end}
+{synopt:{opt Source Organization}}DAC2A: Aid (ODA) disbursements to countries and regions, Organisation for Economic Co-operation and Development (OECD), uri: DSD_DAC2@DF_DAC2A, note: Development Assistance Committee of the Organisation for Economic Co-operation and Developmen{p_end}
 
 
 {synoptline}
@@ -686,7 +686,7 @@
 
 {synopt:{opt Source Notes}}Information and communication technology service exports include computer and communications services (telecommunications and postal and courier services) and information services (computer data and news-related service transactions). Data are{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -699,7 +699,7 @@
 
 {synopt:{opt Source Notes}}Information and communication technology service exports include computer and communications services (telecommunications and postal and courier services) and information services (computer data and news-related service transactions).{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -712,7 +712,7 @@
 
 {synopt:{opt Source Notes}}Communications, computer, information, and other services cover international telecommunications; computer data; news-related service transactions between residents and nonresidents; construction services; royalties and license fees; miscellan{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -723,9 +723,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Primary income receipts refer to employee compensation paid to resident workers working abroad and investment income (receipts on direct investment, portfolio investment, other investments, and receipts on reserve assets). Data are in current{p_end}
+{synopt:{opt Source Notes}}Primary income receipts refer to employee compensation paid to resident workers working abroad and investment income (receipts on direct investment, portfolio investment, other investments, and receipts on reserve assets). This indicator is ex{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -736,9 +736,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods and services comprise all transactions between residents of a country and the rest of the world involving a change of ownership from residents to nonresidents of general merchandise, net exports of goods under merchanting, non{p_end}
+{synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -764,7 +764,7 @@
 
 {synopt:{opt Source Notes}}Insurance and financial services cover various types of insurance provided to nonresidents by resident insurance enterprises and vice versa, and financial intermediary and auxiliary services (except those of insurance enterprises and pension f{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -775,9 +775,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Goods exports refer to all movable goods (including nonmonetary gold and net exports of goods under merchanting) involved in a change of ownership from residents to nonresidents. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Exports of goods occur when there are changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. This indicator is expressed in curre{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -788,9 +788,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Services refer to economic output of intangible commodities that may be produced, transferred, and consumed at the same time. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Exports of services are services provided by residents to non-residents. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This indicator is expressed in United States do{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -801,9 +801,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Charges for the use of intellectual property are payments and receipts between residents and nonresidents for the authorized use of proprietary rights (such as patents, trademarks, copyrights, industrial processes and designs including trade s{p_end}
+{synopt:{opt Source Notes}}Charges for the use of proprietary rights (such as patents, trademarks, copyrights, industrial processes and designs including trade secrets, franchises), and charges for licenses to reproduce or distribute (or both) intellectual property embo{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -814,9 +814,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods, services and primary income is the sum of goods exports, service exports and primary income receipts. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -827,9 +827,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Transport covers all transport services (sea, air, land, internal waterway, pipeline, space and electricity transmission) performed by residents of one economy for those of another and involving the carriage of passengers, the movement of good{p_end}
+{synopt:{opt Source Notes}}Transport services covers the process of carriage of people and objects from one location to another as well as related supporting and auxiliary services. Also included are postal and courier services. This indicator is expressed as a percenta{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -840,9 +840,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Travel covers goods and services acquired from an economy by travelers for their own use during visits of less than one year in that economy for either business or personal purposes. Travel includes local transport (i.e., transport within the{p_end}
+{synopt:{opt Source Notes}}Travel services cover goods and services for own use or to give away acquired from an economy by nonresidents during visits to that economy, or acquired from other economies by residents during visits to these other economies. This indicator i{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -855,7 +855,7 @@
 
 {synopt:{opt Source Notes}}Foreign direct investment refers to direct investment equity flows in the reporting economy. It is the sum of equity capital, reinvestment of earnings, and other capital. Direct investment is a category of cross-border investment associated wi{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments database, supplemented by data from the United Nations Conference on Trade and Development and official national sources.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments database, International Monetary Fund (IMF), note: International Monetary Fund, Balance of Payments database, supplemented by data from the United Nations Conference on Trade and Development and official national sources.;{p_end}
 
 
 {synoptline}
@@ -868,7 +868,7 @@
 
 {synopt:{opt Source Notes}}Foreign direct investment are the net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and Balance of Payments databases, World Bank, International Debt Statistics, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics and Balance of Payments databases, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -894,7 +894,7 @@
 
 {synopt:{opt Source Notes}}Portfolio equity includes net inflows from equity securities other than those recorded as direct investment and including shares, stocks, depository receipts (American or global), and direct purchases of shares in local stock markets by foreig{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments database, and World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments database, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -905,9 +905,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Secondary income refers to transfers recorded in the balance of payments whenever an economy provides or receives goods, services, income, or financial items without a quid pro quo. All transfers not considered to be capital are current. Data{p_end}
+{synopt:{opt Source Notes}}Secondary income refers to transfers recorded in the balance of payments whenever an economy provides or receives goods, services, income, or financial items without a quid pro quo. All transfers not considered to be capital are current. This{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -918,9 +918,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfers thus include all current transfers between resident and nonresident individual{p_end}
+{synopt:{opt Source Notes}}Personal transfers are current transfers, in cash or in kind, received by resident households from non-resident households. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over ti{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -933,7 +933,7 @@
 
 {synopt:{opt Source Notes}}Personal remittances comprise personal transfers and compensation of employees. Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfer{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on IMF balance of payments data.{p_end}
+{synopt:{opt Source Organization}}IMF balance of payments data, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -946,7 +946,7 @@
 
 {synopt:{opt Source Notes}}Personal remittances comprise personal transfers and compensation of employees. Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfer{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on IMF balance of payments data, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -959,7 +959,7 @@
 
 {synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -985,7 +985,7 @@
 
 {synopt:{opt Source Notes}}Total external debt stocks to gross national income. Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -998,7 +998,7 @@
 
 {synopt:{opt Source Notes}}Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Total reserves includes gold.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}World Development Indicators, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1009,9 +1009,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Short-term external debt is defined as debt that has an original maturity of one year or less. Available data permit no distinction between public and private nonguaranteed short-term debt.{p_end}
+{synopt:{opt Source Notes}}Short-term external debt is defined as debt that has an original maturity of one year or less. Available data permit no distinction between public and private nonguaranteed short-term debt. Exports of goods, services and primary income is the{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -1024,7 +1024,7 @@
 
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. This cal{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/debt-statistics"}{p_end}
 
 
 {synoptline}
@@ -1035,9 +1035,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. This cal{p_end}
+{synopt:{opt Source Notes}}Present value of external debt to exports of goods, services and income. Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nongua{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/debt-statistics"}{p_end}
 
 
 {synoptline}
@@ -1048,9 +1048,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. This cal{p_end}
+{synopt:{opt Source Notes}}Present value of external debt to gross national income. Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-ter{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/debt-statistics"}{p_end}
 
 
 {synoptline}
@@ -1167,7 +1167,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -1180,7 +1180,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
 
 
 {synoptline}
@@ -1193,7 +1193,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) per capita consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), b{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
 
 
 {synoptline}
@@ -1206,7 +1206,7 @@
 
 {synopt:{opt Source Notes}}Total debt service to exports of goods, services and primary income. Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repa{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -1219,7 +1219,7 @@
 
 {synopt:{opt Source Notes}}Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -1230,9 +1230,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Total reserves comprise holdings of monetary gold, special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities. The gold component of these reserves is valued at y{p_end}
+{synopt:{opt Source Notes}}Reserve assets are external assets, including monetary gold, that are readily available to and controlled by monetary authorities for meeting balance of payments financing needs, for intervention in exchange markets to affect the currency exch{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -1243,9 +1243,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Total reserves minus gold comprise special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities. Gold holdings are excluded. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}This series includes external assets (excluding monetary gold) that are readily available to and controlled by monetary authorities for meeting balance of payments financing needs, for intervention in exchange markets to affect the currency ex{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -1256,9 +1256,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Inflation as measured by the consumer price index reflects the annual percentage change in the cost to the average consumer of acquiring a basket of goods and services that may be fixed or changed at specified intervals, such as yearly. The La{p_end}
+{synopt:{opt Source Notes}}Inflation as measured by the consumer price index reflects the annual percentage change in the cost to the average consumer of acquiring a basket of goods and services that may be fixed or changed at specified intervals, such as yearly. This i{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -1271,7 +1271,7 @@
 
 {synopt:{opt Source Notes}}Debt is the entire stock of direct government fixed-term contractual obligations to others outstanding on a particular date. It includes domestic and foreign liabilities such as currency and money deposits, securities other than shares, and lo{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -1282,9 +1282,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Revenue is cash receipts from taxes, social contributions, and other revenues such as fines, fees, rent, and income from property or sales. Grants are also considered as revenue but are excluded here.{p_end}
+{synopt:{opt Source Notes}}Revenue is an increase in net worth resulting from a transaction. Grants are excluded from this figure. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of good{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -1295,9 +1295,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Expense is cash payments for operating activities of the government in providing goods and services. It includes compensation of employees (such as wages and salaries), interest and subsidies, grants, social benefits, and other expenses such a{p_end}
+{synopt:{opt Source Notes}}Expense is a decrease in net worth resulting from a transaction. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of goods and services in an economic territory{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -1308,9 +1308,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}Final consumption expenditure is expenditure on goods and services by resident institutional units for the direct satisfaction of human needs or wants, whether individual or collective. General government FCE includes all government current ex{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1321,9 +1321,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}Final consumption expenditure is expenditure on goods and services by resident institutional units for the direct satisfaction of human needs or wants, whether individual or collective. General government FCE includes all government current ex{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1334,9 +1334,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}Final consumption expenditure is expenditure on goods and services by resident institutional units for the direct satisfaction of human needs or wants, whether individual or collective. General government FCE includes all government current ex{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1347,9 +1347,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Annual percentage growth of general government final consumption expenditure based on constant local currency. Aggregates are based on constant 2015 prices, expressed in U.S. dollars. General government final consumption expenditure (general g{p_end}
+{synopt:{opt Source Notes}}Final consumption expenditure is expenditure on goods and services by resident institutional units for the direct satisfaction of human needs or wants, whether individual or collective. General government FCE includes all government current ex{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1360,9 +1360,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}Final consumption expenditure is expenditure on goods and services by resident institutional units for the direct satisfaction of human needs or wants, whether individual or collective. General government FCE includes all government current ex{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1373,9 +1373,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}General government final consumption expenditure (formerly general government consumption) includes all government current expenditures for purchases of goods and services (including compensation of employees). It also includes most expenditur{p_end}
+{synopt:{opt Source Notes}}Final consumption expenditure is expenditure on goods and services by resident institutional units for the direct satisfaction of human needs or wants, whether individual or collective. General government FCE includes all government current ex{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1464,9 +1464,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Household and NPISHs final consumption expenditure (formerly private consumption) is the market value of all goods and services, including durable products (such as cars, washing machines, and home computers), purchased by households. It exclu{p_end}
+{synopt:{opt Source Notes}}This field includes expenditure on goods and services by the Household and NPISH sector for the direct satisfaction of human needs or wants, whether individual or collective. This indicator is expressed in current prices, meaning no adjustment{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1477,9 +1477,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Household and NPISHs final consumption expenditure (formerly private consumption) is the market value of all goods and services, including durable products (such as cars, washing machines, and home computers), purchased by households. It exclu{p_end}
+{synopt:{opt Source Notes}}This field includes expenditure on goods and services by the Household and NPISH sector for the direct satisfaction of human needs or wants, whether individual or collective. This indicator is expressed in current prices, meaning no adjustment{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1490,9 +1490,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Household final consumption expenditure (formerly private consumption) is the market value of all goods and services, including durable products (such as cars, washing machines, and home computers), purchased by households. It excludes purchas{p_end}
+{synopt:{opt Source Notes}}This field includes expenditure on goods and services by the Household and NPISH sector for the direct satisfaction of human needs or wants, whether individual or collective. This series has been linked to produce a consistent time series to c{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on World Bank national accounts data archives, OECD National Accounts, and the IMF WEO database.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1503,9 +1503,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Household and NPISHs final consumption expenditure (formerly private consumption) is the market value of all goods and services, including durable products (such as cars, washing machines, and home computers), purchased by households. It exclu{p_end}
+{synopt:{opt Source Notes}}This field includes expenditure on goods and services by the Household and NPISH sector for the direct satisfaction of human needs or wants, whether individual or collective. This indicator is expressed in constant prices, meaning the series h{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1516,9 +1516,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Annual percentage growth of household and NPISHs final consumption expenditure based on constant local currency. Aggregates are based on constant 2015 prices, expressed in U.S. dollars. Household and NPISHs final consumption expenditure (forme{p_end}
+{synopt:{opt Source Notes}}This field includes expenditure on goods and services by the Household and NPISH sector for the direct satisfaction of human needs or wants, whether individual or collective. This indicator denotes the percentage change over each previous year{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1529,9 +1529,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Household and NPISHs final consumption expenditure (formerly private consumption) is the market value of all goods and services, including durable products (such as cars, washing machines, and home computers), purchased by households. It exclu{p_end}
+{synopt:{opt Source Notes}}This field includes expenditure on goods and services by the Household and NPISH sector for the direct satisfaction of human needs or wants, whether individual or collective. This indicator is expressed in constant prices, meaning the series h{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1542,9 +1542,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Household final consumption expenditure per capita (private consumption per capita) is calculated using private consumption in constant 2015 prices and World Bank population estimates. Household final consumption expenditure is the market valu{p_end}
+{synopt:{opt Source Notes}}This field includes expenditure on goods and services by the Household and NPISH sector for the direct satisfaction of human needs or wants, whether individual or collective. The core indicator has been divided by the general population to ach{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1555,9 +1555,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Annual percentage growth of household final consumption expenditure per capita, which is calculated using household final consumption expenditure in constant 2010 prices and World Bank population estimates. Household final consumption expendit{p_end}
+{synopt:{opt Source Notes}}This field includes expenditure on goods and services by the Household and NPISH sector for the direct satisfaction of human needs or wants, whether individual or collective. The core indicator has been divided by the general population to ach{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1568,9 +1568,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}This indicator provides values for households and NPISHs final consumption expenditure expressed in current international dollars converted by purchasing power parity (PPP) conversion factor.{p_end}
+{synopt:{opt Source Notes}}This indicator provides values for final consumption expenditure expressed in current international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based compari{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -1581,9 +1581,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Household final consumption expenditure (formerly private consumption) is the market value of all goods and services, including durable products (such as cars, washing machines, and home computers), purchased by households. It excludes purchas{p_end}
+{synopt:{opt Source Notes}}This indicator provides values for final consumption expenditure expressed in constant international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based compar{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -1594,9 +1594,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Household final consumption expenditure (formerly private consumption) is the market value of all goods and services, including durable products (such as cars, washing machines, and home computers), purchased by households. It excludes purchas{p_end}
+{synopt:{opt Source Notes}}This field includes expenditure on goods and services by the Household and NPISH sector for the direct satisfaction of human needs or wants, whether individual or collective. This indicator is expressed as a percentage of Gross Domestic Produc{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1685,9 +1685,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Final consumption expenditure (formerly total consumption) is the sum of household final consumption expenditure (private consumption) and general government final consumption expenditure (general government consumption). Data are in current U{p_end}
+{synopt:{opt Source Notes}}Final consumption expenditure is expenditure on goods and services by resident institutional units for the direct satisfaction of human needs or wants, whether individual or collective. Final consumption expenditure can be measured for househo{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1698,9 +1698,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Final consumption expenditure (formerly total consumption) is the sum of household final consumption expenditure (private consumption) and general government final consumption expenditure (general government consumption). Data are in current l{p_end}
+{synopt:{opt Source Notes}}Final consumption expenditure is expenditure on goods and services by resident institutional units for the direct satisfaction of human needs or wants, whether individual or collective. Final consumption expenditure can be measured for househo{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1711,9 +1711,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Final consumption expenditure (formerly total consumption) is the sum of household final consumption expenditure (formerly private consumption) and general government final consumption expenditure (formerly general government consumption). Dat{p_end}
+{synopt:{opt Source Notes}}Final consumption expenditure is expenditure on goods and services by resident institutional units for the direct satisfaction of human needs or wants, whether individual or collective. Final consumption expenditure can be measured for househo{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1724,9 +1724,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Average annual growth of final consumption expenditure based on constant local currency. Aggregates are based on constant 2015 prices, expressed in U.S. dollars. Final consumption expenditure (formerly total consumption) is the sum of househol{p_end}
+{synopt:{opt Source Notes}}Final consumption expenditure is expenditure on goods and services by resident institutional units for the direct satisfaction of human needs or wants, whether individual or collective. Final consumption expenditure can be measured for househo{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1737,9 +1737,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Final consumption expenditure (formerly total consumption) is the sum of household final consumption expenditure (formerly private consumption) and general government final consumption expenditure (formerly general government consumption). Dat{p_end}
+{synopt:{opt Source Notes}}Final consumption expenditure is expenditure on goods and services by resident institutional units for the direct satisfaction of human needs or wants, whether individual or collective. Final consumption expenditure can be measured for househo{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1750,9 +1750,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Final consumption expenditure (formerly total consumption) is the sum of household final consumption expenditure (private consumption) and general government final consumption expenditure (general government consumption). This estimate include{p_end}
+{synopt:{opt Source Notes}}Final consumption expenditure is expenditure on goods and services by resident institutional units for the direct satisfaction of human needs or wants, whether individual or collective. Final consumption expenditure can be measured for househo{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1763,9 +1763,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross national expenditure (formerly domestic absorption) is the sum of household final consumption expenditure (formerly private consumption), general government final consumption expenditure (formerly general government consumption), and gro{p_end}
+{synopt:{opt Source Notes}}Gross national expenditure is the sum of household final consumption expenditure, general government final consumption expenditure, and gross capital formation. A deflator is the ratio of an indicator in current prices over the same series in{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1776,9 +1776,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross national expenditure (formerly domestic absorption) is the sum of household final consumption expenditure (formerly private consumption), general government final consumption expenditure (formerly general government consumption), and gro{p_end}
+{synopt:{opt Source Notes}}Gross national expenditure is the sum of household final consumption expenditure, general government final consumption expenditure, and gross capital formation. This indicator is expressed in current prices, meaning no adjustment has been made{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1789,9 +1789,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross national expenditure (formerly domestic absorption) is the sum of household final consumption expenditure (formerly private consumption), general government final consumption expenditure (formerly general government consumption), and gro{p_end}
+{synopt:{opt Source Notes}}Gross national expenditure is the sum of household final consumption expenditure, general government final consumption expenditure, and gross capital formation. This indicator is expressed in current prices, meaning no adjustment has been made{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1802,9 +1802,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross national expenditure (formerly domestic absorption) is the sum of household final consumption expenditure (formerly private consumption), general government final consumption expenditure (formerly general government consumption), and gro{p_end}
+{synopt:{opt Source Notes}}Gross national expenditure is the sum of household final consumption expenditure, general government final consumption expenditure, and gross capital formation. This indicator is expressed in constant prices, meaning the series has been adjust{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1815,9 +1815,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross national expenditure (formerly domestic absorption) is the sum of household final consumption expenditure (formerly private consumption), general government final consumption expenditure (formerly general government consumption), and gro{p_end}
+{synopt:{opt Source Notes}}Gross national expenditure is the sum of household final consumption expenditure, general government final consumption expenditure, and gross capital formation. This indicator is expressed in constant prices, meaning the series has been adjust{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1828,9 +1828,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross national expenditure (formerly domestic absorption) is the sum of household final consumption expenditure (formerly private consumption), general government final consumption expenditure (formerly general government consumption), and gro{p_end}
+{synopt:{opt Source Notes}}Gross national expenditure is the sum of household final consumption expenditure, general government final consumption expenditure, and gross capital formation. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1841,9 +1841,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other servic{p_end}
+{synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1854,9 +1854,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other servic{p_end}
+{synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1867,9 +1867,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other servic{p_end}
+{synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1880,9 +1880,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Annual growth rate of exports of goods and services based on constant local currency. Aggregates are based on constant 2015 prices, expressed in U.S. dollars. Exports of goods and services represent the value of all goods and other market serv{p_end}
+{synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1893,9 +1893,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other servic{p_end}
+{synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1906,9 +1906,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other servic{p_end}
+{synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1919,9 +1919,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Private investment covers gross outlays by the private sector (including private nonprofit agencies) on additions to its fixed domestic assets.{p_end}
+{synopt:{opt Source Notes}}Private investment covers outlays by the private sector (including private nonprofit agencies) on additions to its fixed domestic assets. Gross fixed capital formation includes acquisitions less disposals of fixed assets during the accounting{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1932,9 +1932,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Private investment covers gross outlays by the private sector (including private nonprofit agencies) on additions to its fixed domestic assets.{p_end}
+{synopt:{opt Source Notes}}Private investment covers outlays by the private sector (including private nonprofit agencies) on additions to its fixed domestic assets. Gross fixed capital formation includes acquisitions less disposals of fixed assets during the accounting{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1945,9 +1945,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross fixed capital formation (formerly gross domestic fixed investment) includes land improvements (fences, ditches, drains, and so on); plant, machinery, and equipment purchases; and the construction of roads, railways, and the like, includi{p_end}
+{synopt:{opt Source Notes}}Gross fixed capital formation includes acquisitions less disposals of fixed assets during the accounting period, including certain specified expenditures on services that add to the value of non-produced assets. This indicator is expressed in{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1958,9 +1958,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross fixed capital formation (formerly gross domestic fixed investment) includes land improvements (fences, ditches, drains, and so on); plant, machinery, and equipment purchases; and the construction of roads, railways, and the like, includi{p_end}
+{synopt:{opt Source Notes}}Gross fixed capital formation includes acquisitions less disposals of fixed assets during the accounting period, including certain specified expenditures on services that add to the value of non-produced assets. This indicator is expressed in{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1971,9 +1971,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross fixed capital formation (formerly gross domestic fixed investment) includes land improvements (fences, ditches, drains, and so on); plant, machinery, and equipment purchases; and the construction of roads, railways, and the like, includi{p_end}
+{synopt:{opt Source Notes}}Gross fixed capital formation includes acquisitions less disposals of fixed assets during the accounting period, including certain specified expenditures on services that add to the value of non-produced assets. This indicator is expressed in{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1984,9 +1984,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Average annual growth of gross fixed capital formation based on constant local currency. Aggregates are based on constant 2015 prices, expressed in U.S. dollars. Gross fixed capital formation (formerly gross domestic fixed investment) includes{p_end}
+{synopt:{opt Source Notes}}Gross fixed capital formation includes acquisitions less disposals of fixed assets during the accounting period, including certain specified expenditures on services that add to the value of non-produced assets. This indicator denotes the perc{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1997,9 +1997,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross fixed capital formation (formerly gross domestic fixed investment) includes land improvements (fences, ditches, drains, and so on); plant, machinery, and equipment purchases; and the construction of roads, railways, and the like, includi{p_end}
+{synopt:{opt Source Notes}}Gross fixed capital formation includes acquisitions less disposals of fixed assets during the accounting period, including certain specified expenditures on services that add to the value of non-produced assets. This indicator is expressed in{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2010,9 +2010,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross fixed capital formation (formerly gross domestic fixed investment) includes land improvements (fences, ditches, drains, and so on); plant, machinery, and equipment purchases; and the construction of roads, railways, and the like, includi{p_end}
+{synopt:{opt Source Notes}}Gross fixed capital formation includes acquisitions less disposals of fixed assets during the accounting period, including certain specified expenditures on services that add to the value of non-produced assets. This indicator is expressed as{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2023,9 +2023,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Inventories are stocks of goods held by firms to meet temporary or unexpected fluctuations in production or sales, and work in progress. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Changes in inventories is the value of entries into inventories less the value of withdrawals and less the value of any recurrent losses of goods held in inventories during the accounting period.This indicator is expressed in current prices, m{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2036,9 +2036,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Inventories are stocks of goods held by firms to meet temporary or unexpected fluctuations in production or sales, and work in progress. Data are in current local currency.{p_end}
+{synopt:{opt Source Notes}}Changes in inventories is the value of entries into inventories less the value of withdrawals and less the value of any recurrent losses of goods held in inventories during the accounting period.This indicator is expressed in current prices, m{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2049,9 +2049,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Inventories are stocks of goods held by firms to meet temporary or unexpected fluctuations in production or sales, and work in progress. Data are in constant local currency.{p_end}
+{synopt:{opt Source Notes}}Changes in inventories is the value of entries into inventories less the value of withdrawals and less the value of any recurrent losses of goods held in inventories during the accounting period.This indicator is expressed in constant prices,{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2062,9 +2062,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross capital formation (formerly gross domestic investment) consists of outlays on additions to the fixed assets of the economy plus net changes in the level of inventories. Fixed assets include land improvements (fences, ditches, drains, and{p_end}
+{synopt:{opt Source Notes}}Gross capital formation includes acquisitions less disposals of produced assets for purposes of fixed capital formation, inventories or valuables. This indicator is expressed in current prices, meaning no adjustment has been made to account fo{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2075,9 +2075,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross capital formation (formerly gross domestic investment) consists of outlays on additions to the fixed assets of the economy plus net changes in the level of inventories. Fixed assets include land improvements (fences, ditches, drains, and{p_end}
+{synopt:{opt Source Notes}}Gross capital formation includes acquisitions less disposals of produced assets for purposes of fixed capital formation, inventories or valuables. This indicator is expressed in current prices, meaning no adjustment has been made to account fo{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2088,9 +2088,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross capital formation (formerly gross domestic investment) consists of outlays on additions to the fixed assets of the economy plus net changes in the level of inventories. Fixed assets include land improvements (fences, ditches, drains, and{p_end}
+{synopt:{opt Source Notes}}Gross capital formation includes acquisitions less disposals of produced assets for purposes of fixed capital formation, inventories or valuables. This indicator is expressed in constant prices, meaning the series has been adjusted to account{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2101,9 +2101,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Annual growth rate of gross capital formation based on constant local currency. Aggregates are based on constant 2015 prices, expressed in U.S. dollars. Gross capital formation (formerly gross domestic investment) consists of outlays on additi{p_end}
+{synopt:{opt Source Notes}}Gross capital formation includes acquisitions less disposals of produced assets for purposes of fixed capital formation, inventories or valuables. This indicator denotes the percentage change over each previous year of the constant price (base{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2114,9 +2114,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross capital formation (formerly gross domestic investment) consists of outlays on additions to the fixed assets of the economy plus net changes in the level of inventories. Fixed assets include land improvements (fences, ditches, drains, and{p_end}
+{synopt:{opt Source Notes}}Gross capital formation includes acquisitions less disposals of produced assets for purposes of fixed capital formation, inventories or valuables. This indicator is expressed in constant prices, meaning the series has been adjusted to account{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2127,9 +2127,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross capital formation (formerly gross domestic investment) consists of outlays on additions to the fixed assets of the economy plus net changes in the level of inventories. Fixed assets include land improvements (fences, ditches, drains, and{p_end}
+{synopt:{opt Source Notes}}Gross capital formation includes acquisitions less disposals of produced assets for purposes of fixed capital formation, inventories or valuables. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total i{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2140,9 +2140,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other serv{p_end}
+{synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2153,9 +2153,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other serv{p_end}
+{synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2166,9 +2166,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other serv{p_end}
+{synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2179,9 +2179,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Annual growth rate of imports of goods and services based on constant local currency. Aggregates are based on constant 2015 prices, expressed in U.S. dollars. Imports of goods and services represent the value of all goods and other market serv{p_end}
+{synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2192,9 +2192,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other serv{p_end}
+{synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2205,9 +2205,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other serv{p_end}
+{synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2218,9 +2218,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}External balance on goods and services (formerly resource balance) equals exports of goods and services minus imports of goods and services (previously nonfactor services). Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}The balance of international trade in goods and services is the difference between the exports and imports of goods and services. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes o{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2231,9 +2231,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}External balance on goods and services (formerly resource balance) equals exports of goods and services minus imports of goods and services (previously nonfactor services). Data are in current local currency.{p_end}
+{synopt:{opt Source Notes}}The balance of international trade in goods and services is the difference between the exports and imports of goods and services. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes o{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2244,9 +2244,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}External balance on goods and services (formerly resource balance) equals exports of goods and services minus imports of goods and services (previously nonfactor services). Data are in constant local currency.{p_end}
+{synopt:{opt Source Notes}}The balance of international trade in goods and services is the difference between the exports and imports of goods and services. This indicator is expressed in constant prices, meaning the series has been adjusted to account for price changes{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2257,9 +2257,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}External balance on goods and services (formerly resource balance) equals exports of goods and services minus imports of goods and services (previously nonfactor services).{p_end}
+{synopt:{opt Source Notes}}The balance of international trade in goods and services is the difference between the exports and imports of goods and services. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned thro{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2270,9 +2270,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Trade is the sum of exports and imports of goods and services measured as a share of gross domestic product.{p_end}
+{synopt:{opt Source Notes}}Trade is the sum of exports and imports of goods and services. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of goods and services in an economic territory d{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2283,9 +2283,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Value added per worker is a measure of labor productivity—value added per unit of input. Value added denotes the net output of a sector after adding up all outputs and subtracting intermediate inputs. Data are in constant 2015 U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC (Rev. 4) divisions 01-03 and includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting o{p_end}
 
-{synopt:{opt Source Organization}}Derived using World Bank national accounts data and OECD National Accounts data files, and employment data from International Labour Organization, ILOSTAT database.{p_end}
+{synopt:{opt Source Organization}}World Development Indicators database, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2296,9 +2296,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC divisions 1-3 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs a{p_end}
+{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC (Rev. 4) divisions 01-03 and includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting o{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2309,9 +2309,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC divisions 1-3 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs a{p_end}
+{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC (Rev. 4) divisions 01-03 and includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting o{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2322,9 +2322,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC divisions 01-03 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs{p_end}
+{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC (Rev. 4) divisions 01-03 and includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting o{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2335,9 +2335,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Annual growth rate for agricultural, forestry, and fishing value added based on constant local currency. Aggregates are based on constant 2015 prices, expressed in U.S. dollars. Agriculture corresponds to ISIC divisions 01-03 and includes fore{p_end}
+{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC (Rev. 4) divisions 01-03 and includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting o{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2348,9 +2348,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC divisions 1-3 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs a{p_end}
+{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC (Rev. 4) divisions 01-03 and includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting o{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2361,9 +2361,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC divisions 1-3 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs a{p_end}
+{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC (Rev. 4) divisions 01-03 and includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting o{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2374,9 +2374,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Financial intermediation services indirectly measured (FISIM) is an indirect measure of the value of financial intermediation services (i.e. output) provided but for which financial institutions do not charge explicitly as compared to explicit{p_end}
+{synopt:{opt Source Notes}}Financial intermediation services which are implicitly charged in the form of either the difference between a reference rate and the interest rate actually paid to depositors, or the difference between the interest rate charged to borrowers an{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2387,9 +2387,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Financial intermediation services indirectly measured (FISIM) is an indirect measure of the value of financial intermediation services (i.e. output) provided but for which financial institutions do not charge explicitly as compared to explicit{p_end}
+{synopt:{opt Source Notes}}Financial intermediation services which are implicitly charged in the form of either the difference between a reference rate and the interest rate actually paid to depositors, or the difference between the interest rate charged to borrowers an{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2400,9 +2400,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Value added per worker is a measure of labor productivity—value added per unit of input. Value added denotes the net output of a sector after adding up all outputs and subtracting intermediate inputs. Data are in constant 2015 U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Industry (including construction) corresponds to ISIC (Rev.4) divisions 05-43. It is comprised of mining, manufacturing, construction, electricity, water, and gas industries. Value added is the contribution to the economy by a producer or an i{p_end}
 
-{synopt:{opt Source Organization}}Derived using World Bank national accounts data and OECD National Accounts data files, and employment data from International Labour Organization, ILOSTAT database.{p_end}
+{synopt:{opt Source Organization}}World Development Indicators database, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2413,9 +2413,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Manufacturing refers to industries belonging to ISIC divisions 15-37. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fab{p_end}
+{synopt:{opt Source Notes}}Manufacturing includes industries classified in ISIC (Rev. 3) major division C and is defined as the physical or chemical tranformation of materials or components into new products. Value added is the contribution to the economy by a producer{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2426,9 +2426,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Manufacturing refers to industries belonging to ISIC divisions 15-37. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fab{p_end}
+{synopt:{opt Source Notes}}Manufacturing includes industries classified in ISIC (Rev. 3) major division C and is defined as the physical or chemical tranformation of materials or components into new products. Value added is the contribution to the economy by a producer{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2439,9 +2439,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Manufacturing refers to industries belonging to ISIC divisions 10-33. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fab{p_end}
+{synopt:{opt Source Notes}}Manufacturing includes industries classified in ISIC (Rev. 3) major division C and is defined as the physical or chemical tranformation of materials or components into new products. Value added is the contribution to the economy by a producer{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2452,9 +2452,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Annual growth rate for manufacturing value added based on constant local currency. Aggregates are based on constant 2015 prices, expressed in U.S. dollars. Manufacturing refers to industries belonging to ISIC divisions 10-33. Value added is th{p_end}
+{synopt:{opt Source Notes}}Manufacturing includes industries classified in ISIC (Rev. 3) major division C and is defined as the physical or chemical tranformation of materials or components into new products. Value added is the contribution to the economy by a producer{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2465,9 +2465,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Manufacturing refers to industries belonging to ISIC divisions 15-37. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fab{p_end}
+{synopt:{opt Source Notes}}Manufacturing includes industries classified in ISIC (Rev. 3) major division C and is defined as the physical or chemical tranformation of materials or components into new products. Value added is the contribution to the economy by a producer{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2478,9 +2478,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Manufacturing refers to industries belonging to ISIC divisions 15-37. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fab{p_end}
+{synopt:{opt Source Notes}}Manufacturing includes industries classified in ISIC (Rev. 3) major division C and is defined as the physical or chemical tranformation of materials or components into new products. Value added is the contribution to the economy by a producer{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2491,9 +2491,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Industry (including construction) corresponds to ISIC divisions 05-43 and includes manufacturing (ISIC divisions 10-33). It comprises value added in mining, manufacturing (also reported as a separate subgroup), construction, electricity, water{p_end}
+{synopt:{opt Source Notes}}Industry (including construction) corresponds to ISIC (Rev.4) divisions 05-43. It is comprised of mining, manufacturing, construction, electricity, water, and gas industries. Value added is the contribution to the economy by a producer or an i{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2504,9 +2504,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Industry (including construction) corresponds to ISIC divisions 05-43 and includes manufacturing (ISIC divisions 10-33). It comprises value added in mining, manufacturing (also reported as a separate subgroup), construction, electricity, water{p_end}
+{synopt:{opt Source Notes}}Industry (including construction) corresponds to ISIC (Rev.4) divisions 05-43. It is comprised of mining, manufacturing, construction, electricity, water, and gas industries. Value added is the contribution to the economy by a producer or an i{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2517,9 +2517,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Industry (including construction) corresponds to ISIC divisions 05-43 and includes manufacturing (ISIC divisions 10-33). It comprises value added in mining, manufacturing (also reported as a separate subgroup), construction, electricity, water{p_end}
+{synopt:{opt Source Notes}}Industry (including construction) corresponds to ISIC (Rev.4) divisions 05-43. It is comprised of mining, manufacturing, construction, electricity, water, and gas industries. Value added is the contribution to the economy by a producer or an i{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2530,9 +2530,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Annual growth rate for industrial (including construction) value added based on constant local currency. Aggregates are based on constant 2015 prices, expressed in  U.S. dollars. Industry corresponds to ISIC divisions 05-43 and includes manufa{p_end}
+{synopt:{opt Source Notes}}Industry (including construction) corresponds to ISIC (Rev.4) divisions 05-43. It is comprised of mining, manufacturing, construction, electricity, water, and gas industries. Value added is the contribution to the economy by a producer or an i{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2543,9 +2543,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Industry (including construction) corresponds to ISIC divisions 05-43 and includes manufacturing (ISIC divisions 10-33). It comprises value added in mining, manufacturing (also reported as a separate subgroup), construction, electricity, water{p_end}
+{synopt:{opt Source Notes}}Industry (including construction) corresponds to ISIC (Rev.4) divisions 05-43. It is comprised of mining, manufacturing, construction, electricity, water, and gas industries. Value added is the contribution to the economy by a producer or an i{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2556,9 +2556,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Industry (including construction) corresponds to ISIC divisions 05-43 and includes manufacturing (ISIC divisions 10-33). It comprises value added in mining, manufacturing (also reported as a separate subgroup), construction, electricity, water{p_end}
+{synopt:{opt Source Notes}}Industry (including construction) corresponds to ISIC (Rev.4) divisions 05-43. It is comprised of mining, manufacturing, construction, electricity, water, and gas industries. Value added is the contribution to the economy by a producer or an i{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2569,9 +2569,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Value added in manufacturing is the sum of gross output less the value of intermediate inputs used in production for industries classified in ISIC major division D. Chemicals correspond to ISIC division 24.{p_end}
+{synopt:{opt Source Notes}}Manufacturing of chemicals and chemical prodcuts includes industries classified in ISIC (Rev. 3) division 24. Value added is the contribution to the economy by a producer or an industry or an institutional sector, which is estimated by the tot{p_end}
 
-{synopt:{opt Source Organization}}United Nations Industrial Development Organization, International Yearbook of Industrial Statistics.{p_end}
+{synopt:{opt Source Organization}}International Yearbook of Industrial Statistics, UN Industrial Development Organization (UNIDO){p_end}
 
 
 {synoptline}
@@ -2582,9 +2582,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Value added in manufacturing is the sum of gross output less the value of intermediate inputs used in production for industries classified in ISIC major division D. Food, beverages, and tobacco correspond to ISIC divisions 15 and 16.{p_end}
+{synopt:{opt Source Notes}}Manufacturing of food, beverages, and tobacco includes industries classified in ISIC (Rev. 3) divisions 15 and 16. Value added is the contribution to the economy by a producer or an industry or an institutional sector, which is estimated by th{p_end}
 
-{synopt:{opt Source Organization}}United Nations Industrial Development Organization, International Yearbook of Industrial Statistics.{p_end}
+{synopt:{opt Source Organization}}International Yearbook of Industrial Statistics, UN Industrial Development Organization (UNIDO){p_end}
 
 
 {synoptline}
@@ -2595,9 +2595,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Value added in manufacturing is the sum of gross output less the value of intermediate inputs used in production for industries classified in ISIC major division D. Machinery and transport equipment correspond to ISIC divisions 29, 30, 32, 34,{p_end}
+{synopt:{opt Source Notes}}Machinery and transport equipment manufacturing includes industries classified in ISIC (Rev. 3) divisions 29-35. Value added is the contribution to the economy by a producer or an industry or an institutional sector, which is estimated by the{p_end}
 
-{synopt:{opt Source Organization}}United Nations Industrial Development Organization, International Yearbook of Industrial Statistics.{p_end}
+{synopt:{opt Source Organization}}International Yearbook of Industrial Statistics, UN Industrial Development Organization (UNIDO){p_end}
 
 
 {synoptline}
@@ -2608,9 +2608,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Value added in manufacturing is the sum of gross output less the value of intermediate inputs used in production for industries classified in ISIC major division D. Other manufacturing, a residual, covers wood and related products (ISIC divisi{p_end}
+{synopt:{opt Source Notes}}Other manufacturing, a residual, covers wood and related products (ISIC Rev. 3 division 20), paper and related products (ISIC Rev. 3 divisions 21 and 22), petroleum and related products (ISIC Rev. 3 division 23), basic metals and mineral produ{p_end}
 
-{synopt:{opt Source Organization}}United Nations Industrial Development Organization, International Yearbook of Industrial Statistics.{p_end}
+{synopt:{opt Source Organization}}International Yearbook of Industrial Statistics, UN Industrial Development Organization (UNIDO){p_end}
 
 
 {synoptline}
@@ -2623,7 +2623,7 @@
 
 {synopt:{opt Source Notes}}The proportion of medium and high-tech industry value added in total value added of manufacturing{p_end}
 
-{synopt:{opt Source Organization}}United Nations Industrial Development Organization (UNIDO), Competitive Industrial Performance (CIP) database{p_end}
+{synopt:{opt Source Organization}}Competitive Industrial Performance (CIP) database, UN Industrial Development Organization (UNIDO){p_end}
 
 
 {synoptline}
@@ -2634,9 +2634,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Value added in manufacturing is the sum of gross output less the value of intermediate inputs used in production for industries classified in ISIC major division D. Textiles and clothing correspond to ISIC divisions 17-19.{p_end}
+{synopt:{opt Source Notes}}Textiles and clothing refers to industries in ISIC (rev. 3) divisions 17-19 and includes manufacturing of textiles, apparel, dying of fur, and tanning of leather. Value added is the contribution to the economy by a producer or an industry or a{p_end}
 
-{synopt:{opt Source Organization}}United Nations Industrial Development Organization, International Yearbook of Industrial Statistics.{p_end}
+{synopt:{opt Source Organization}}International Yearbook of Industrial Statistics, UN Industrial Development Organization (UNIDO){p_end}
 
 
 {synoptline}
@@ -2647,9 +2647,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Value added per worker is a measure of labor productivity—value added per unit of input. Value added denotes the net output of a sector after adding up all outputs and subtracting intermediate inputs. Data are in constant 2015 U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Services industries correspond to ISIC (Rev. 4) divisions 45-99 and includes wholesale and retail trade, repair of motor vehicles, hotels and retaurants, transport, storage and communication, financial intermediation, real estate, renting and{p_end}
 
-{synopt:{opt Source Organization}}Derived using World Bank national accounts data and OECD National Accounts data files, and employment data from International Labour Organization, ILOSTAT database.{p_end}
+{synopt:{opt Source Organization}}World Development Indicators database, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2738,9 +2738,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Services correspond to ISIC divisions 50-99. They include value added in wholesale and retail trade (including hotels and restaurants), transport, and government, financial, professional, and personal services such as education, health care, a{p_end}
+{synopt:{opt Source Notes}}Services industries correspond to ISIC (Rev. 4) divisions 45-99 and includes wholesale and retail trade, repair of motor vehicles, hotels and retaurants, transport, storage and communication, financial intermediation, real estate, renting and{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2751,9 +2751,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Services correspond to ISIC divisions 50-99. They include value added in wholesale and retail trade (including hotels and restaurants), transport, and government, financial, professional, and personal services such as education, health care, a{p_end}
+{synopt:{opt Source Notes}}Services industries correspond to ISIC (Rev. 4) divisions 45-99 and includes wholesale and retail trade, repair of motor vehicles, hotels and retaurants, transport, storage and communication, financial intermediation, real estate, renting and{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2764,9 +2764,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Services correspond to ISIC divisions 45-99. They include value added in wholesale and retail trade (including hotels and restaurants), transport, and government, financial, professional, and personal services such as education, health care, a{p_end}
+{synopt:{opt Source Notes}}Services industries correspond to ISIC (Rev. 4) divisions 45-99 and includes wholesale and retail trade, repair of motor vehicles, hotels and retaurants, transport, storage and communication, financial intermediation, real estate, renting and{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2777,9 +2777,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Annual growth rate for value added in services based on constant local currency. Aggregates are based on constant 2015 prices, expressed in U.S. dollars. Services correspond to ISIC divisions 45-99. They include value added in wholesale and re{p_end}
+{synopt:{opt Source Notes}}Services industries correspond to ISIC (Rev. 4) divisions 45-99 and includes wholesale and retail trade, repair of motor vehicles, hotels and retaurants, transport, storage and communication, financial intermediation, real estate, renting and{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2790,9 +2790,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Services correspond to ISIC divisions 50-99. They include value added in wholesale and retail trade (including hotels and restaurants), transport, and government, financial, professional, and personal services such as education, health care, a{p_end}
+{synopt:{opt Source Notes}}Services industries correspond to ISIC (Rev. 4) divisions 45-99 and includes wholesale and retail trade, repair of motor vehicles, hotels and retaurants, transport, storage and communication, financial intermediation, real estate, renting and{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2803,9 +2803,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Services correspond to ISIC divisions 50-99 and they include value added in wholesale and retail trade (including hotels and restaurants), transport, and government, financial, professional, and personal services such as education, health care{p_end}
+{synopt:{opt Source Notes}}Services industries correspond to ISIC (Rev. 4) divisions 45-99 and includes wholesale and retail trade, repair of motor vehicles, hotels and retaurants, transport, storage and communication, financial intermediation, real estate, renting and{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -2816,9 +2816,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Education expenditure refers to the current operating expenditures in education, including wages and salaries and excluding capital investments in buildings and equipment.{p_end}
+{synopt:{opt Source Notes}}Education expenditure refers to the current operating expenditures in education, including wages and salaries and excluding capital investments in buildings and equipment. This indicator is expressed in current prices, meaning no adjustment ha{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using data from the United Nations Statistics Division's Statistical Yearbook, and the UNESCO Institute for Statistics online database.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2829,9 +2829,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Education expenditure refers to the current operating expenditures in education, including wages and salaries and excluding capital investments in buildings and equipment.{p_end}
+{synopt:{opt Source Notes}}Education expenditure refers to the current operating expenditures in education, including wages and salaries and excluding capital investments in buildings and equipment. This indicator is expressed as a percentage of Gross National Income (G{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using data from the United Nations Statistics Division's Statistical Yearbook, and the UNESCO Institute for Statistics online database.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2842,9 +2842,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$40 per ton of CO2 (the unit damage in 2017 US dollars for CO2 emitted in 2020) times the number of tons of CO2 emitted.{p_end}
+{synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$40 per ton of CO2 (the unit damage in 2017 US dollars for CO2 emitted in 2020) times the number of tons of CO2 emitted. This{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2855,9 +2855,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$40 per ton of CO2 (the unit damage in 2017 US dollars for CO2 emitted in 2020) times the number of tons of CO2 emitted.{p_end}
+{synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$40 per ton of CO2 (the unit damage in 2017 US dollars for CO2 emitted in 2020) times the number of tons of CO2 emitted. This{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2868,9 +2868,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth.{p_end}
+{synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes o{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2881,9 +2881,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth.{p_end}
+{synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth. This indicator is expressed as a percentage of Gross National Income (GNI) which is the total income earned by al{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2894,9 +2894,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Consumption of fixed capital represents the replacement value of capital used up in the process of production.{p_end}
+{synopt:{opt Source Notes}}Consumption of fixed capital represents the replacement value of capital used up in the process of production. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time.  This ind{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using data from the United Nations Statistics Division's National Accounts Statistics.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2907,9 +2907,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Consumption of fixed capital represents the replacement value of capital used up in the process of production.{p_end}
+{synopt:{opt Source Notes}}Consumption of fixed capital represents the replacement value of capital used up in the process of production. This indicator is expressed as a percentage of Gross National Income (GNI) which is the total income earned by all residents within{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using data from the United Nations Statistics Division's National Accounts Statistics.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2920,9 +2920,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
+{synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate. This indicator is expr{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2933,9 +2933,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
+{synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate. This indicator is expr{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2946,9 +2946,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime (capped at 25 years). It covers coal, crude oil, and natural gas.{p_end}
+{synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime (capped at 25 years). It covers coal, crude oil, and natural gas. This indicator is expressed in current prices, meaning no adjustmen{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2959,9 +2959,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime (capped at 25 years). It covers coal, crude oil, and natural gas.{p_end}
+{synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime (capped at 25 years). It covers coal, crude oil, and natural gas. This indicator is expressed as a percentage of Gross National Incom{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2974,7 +2974,7 @@
 
 {synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in{p_end}
 
-{synopt:{opt Source Organization}}Data on health impacts from exposure to ambient PM2.5 pollution and household air pollution are from the Global Burden of Disease 2013 study. Data are provided by the Institute for Health Metrics and Evaluation at the University of Washington.{p_end}
+{synopt:{opt Source Organization}}Global Burden of Disease 2013 study, Institute for Health Metrics and Evaluation (IHME){p_end}
 
 
 {synoptline}
@@ -2987,7 +2987,7 @@
 
 {synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in{p_end}
 
-{synopt:{opt Source Organization}}Data on health impacts from exposure to ambient PM2.5 pollution and household air pollution are from the Global Burden of Disease 2013 study. Data are provided by the Institute for Health Metrics and Evaluation at the University of Washington.{p_end}
+{synopt:{opt Source Organization}}Global Burden of Disease 2013 study, Institute for Health Metrics and Evaluation (IHME){p_end}
 
 
 {synoptline}
@@ -3000,7 +3000,7 @@
 
 {synopt:{opt Source Notes}}Natural resource depletion is the sum of net forest depletion, energy depletion, and mineral depletion. Net forest depletion is unit resource rents times the excess of roundwood harvest over natural growth. Energy depletion is the ratio of the{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -3011,9 +3011,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross savings are the difference between gross national income and public and private consumption, plus net current transfers.{p_end}
+{synopt:{opt Source Notes}}Gross savings are the difference between gross national income and public and private consumption, plus net current transfers. This indicator is expressed as a percentage of Gross National Income (GNI) which is the total income earned by all r{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3024,9 +3024,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Net national savings are equal to gross national savings less the value of consumption of fixed capital.{p_end}
+{synopt:{opt Source Notes}}Net national savings are equal to gross national savings less the value of consumption of fixed capital. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time.  This indicator{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -3037,9 +3037,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Net national savings are equal to gross national savings less the value of consumption of fixed capital.{p_end}
+{synopt:{opt Source Notes}}Net national savings are equal to gross national savings less the value of consumption of fixed capital. This indicator is expressed as a percentage of Gross National Income (GNI) which is the total income earned by all residents within an eco{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -3050,9 +3050,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Adjusted net national income is GNI minus consumption of fixed capital and natural resources depletion.{p_end}
+{synopt:{opt Source Notes}}Adjusted net national income is GNI minus consumption of fixed capital and natural resources depletion. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time.  This indicator{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -3063,9 +3063,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Adjusted net national income is GNI minus consumption of fixed capital and natural resources depletion.{p_end}
+{synopt:{opt Source Notes}}Adjusted net national income is GNI minus consumption of fixed capital and natural resources depletion. This indicator is expressed in constant prices, meaning the series has been adjusted to account for price changes over time. The reference{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -3076,9 +3076,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Adjusted net national income is GNI minus consumption of fixed capital and natural resources depletion.{p_end}
+{synopt:{opt Source Notes}}Adjusted net national income is GNI minus consumption of fixed capital and natural resources depletion. This indicator denotes the percentage change over each previous year of the constant price (base year 2015) series in United States dollars{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -3089,9 +3089,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Adjusted net national income is GNI minus consumption of fixed capital and natural resources depletion.{p_end}
+{synopt:{opt Source Notes}}Adjusted net national income is GNI minus consumption of fixed capital and natural resources depletion. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time.  This indicator{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -3102,9 +3102,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Adjusted net national income is GNI minus consumption of fixed capital and natural resources depletion.{p_end}
+{synopt:{opt Source Notes}}Adjusted net national income is GNI minus consumption of fixed capital and natural resources depletion. The core indicator has been divided by the general population to achieve a per capita estimate. This indicator is expressed in constant pri{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -3115,9 +3115,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Adjusted net national income is GNI minus consumption of fixed capital and natural resources depletion.{p_end}
+{synopt:{opt Source Notes}}Adjusted net national income is GNI minus consumption of fixed capital and natural resources depletion. The core indicator has been divided by the general population to achieve a per capita estimate. This indicator denotes the percentage chang{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -3128,9 +3128,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide and particulate emissions damage.{p_end}
+{synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide and particulate emissions damage. This indicator is expressed in current{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -3141,9 +3141,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide and particulate emissions damage.{p_end}
+{synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide and particulate emissions damage. This indicator is expressed as a percen{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -3154,9 +3154,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide. This series excludes particulate emissions damage.{p_end}
+{synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide. This series excludes particulate emissions damage. This indicator is exp{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -3167,9 +3167,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide. This series excludes particulate emissions damage.{p_end}
+{synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide. This series excludes particulate emissions damage. This indicator is exp{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -3180,9 +3180,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Exports as a capacity to import equals the current price value of exports of goods and services deflated by the import price index. Data are in constant local currency.{p_end}
+{synopt:{opt Source Notes}}Exports as a capacity to import equals the current price value of exports of goods and services deflated by the import price index. This indicator is expressed in constant prices, meaning the series has been adjusted to account for price chang{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3195,7 +3195,7 @@
 
 {synopt:{opt Source Notes}}Inflation as measured by the annual growth rate of the GDP implicit deflator shows the rate of price change in the economy as a whole. The GDP implicit deflator is the ratio of GDP in current local currency to GDP in constant local currency.{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3206,9 +3206,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}The GDP implicit deflator is the ratio of GDP in current local currency to GDP in constant local currency. The base year varies by country.{p_end}
+{synopt:{opt Source Notes}}The GDP implicit deflator is the ratio of GDP in current local currency to GDP in constant local currency. The base year varies by country. This indicator is expressed as a ratio (a÷b).{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3219,9 +3219,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Discrepancy in expenditure estimate of GDP is the discrepancy included in final consumption expenditure, etc. (total consumption, etc.). This discrepancy is included to ensure that GDP from the expenditure side equals GDP measured by the incom{p_end}
+{synopt:{opt Source Notes}}Although the SNA ensures there is perfect consistency between the three measures of GDP, this is a conceptual consistency that in general does not emerge naturally from data compilations. This is because of the wide disparity of data sources t{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3232,9 +3232,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}A statistical discrepancy usually arises when the GDP components are estimated independently by industrial origin and by expenditure categories. This item represents the discrepancy in the use of resources (i.e., the estimate of GDP by expendi{p_end}
+{synopt:{opt Source Notes}}Although the SNA ensures there is perfect consistency between the three measures of GDP, this is a conceptual consistency that in general does not emerge naturally from data compilations. This is because of the wide disparity of data sources t{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3245,9 +3245,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross value added at basic prices (formerly GDP at factor cost) is derived as the sum of the value added in the agriculture, industry and services sectors. If the value added of these sectors is calculated at purchaser values, gross value adde{p_end}
+{synopt:{opt Source Notes}}Gross value added at basic prices reflects the price of products receivable by the producer exclusive of taxes payable on products and inclusive of subsidies receivable on products, less intermediate consumption valued at purchasers' prices. T{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3258,9 +3258,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross value added at basic prices (formerly GDP at factor cost) is derived as the sum of the value added in the agriculture, industry and services sectors. If the value added of these sectors is calculated at purchaser values, gross value adde{p_end}
+{synopt:{opt Source Notes}}Gross value added at basic prices reflects the price of products receivable by the producer exclusive of taxes payable on products and inclusive of subsidies receivable on products, less intermediate consumption valued at purchasers' prices. T{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3271,9 +3271,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross value added at basic prices (formerly GDP at factor cost) is derived as the sum of the value added in the agriculture, industry and services sectors. If the value added of these sectors is calculated at purchaser values, gross value adde{p_end}
+{synopt:{opt Source Notes}}Gross value added at basic prices reflects the price of products receivable by the producer exclusive of taxes payable on products and inclusive of subsidies receivable on products, less intermediate consumption valued at purchasers' prices. T{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3284,9 +3284,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross value added at basic prices (formerly GDP at factor cost) is derived as the sum of the value added in the agriculture, industry and services sectors. If the value added of these sectors is calculated at purchaser values, gross value adde{p_end}
+{synopt:{opt Source Notes}}Gross value added at basic prices reflects the price of products receivable by the producer exclusive of taxes payable on products and inclusive of subsidies receivable on products, less intermediate consumption valued at purchasers' prices. T{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3297,9 +3297,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreci{p_end}
+{synopt:{opt Source Notes}}Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3310,9 +3310,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreci{p_end}
+{synopt:{opt Source Notes}}Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3323,9 +3323,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated as{p_end}
+{synopt:{opt Source Notes}}Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on World Bank national accounts data archives, OECD National Accounts, and the IMF WEO database.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -3336,9 +3336,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreci{p_end}
+{synopt:{opt Source Notes}}Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3349,9 +3349,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Annual percentage growth rate of GDP at market prices based on constant local currency. Aggregates are based on constant 2015 prices, expressed in U.S. dollars. GDP is the sum of gross value added by all resident producers in the economy plus{p_end}
+{synopt:{opt Source Notes}}Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3362,9 +3362,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated as{p_end}
+{synopt:{opt Source Notes}}Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3375,9 +3375,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}This indicator provides values for gross domestic product (GDP) expressed in current international dollars, converted by purchasing power parity (PPP) conversion factor.{p_end}
+{synopt:{opt Source Notes}}This indicator provides values for gross domestic product (GDP) expressed in current international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based comparis{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -3388,9 +3388,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar has in the United States. GDP is the sum of gross value{p_end}
+{synopt:{opt Source Notes}}This indicator provides values for gross domestic product (GDP) expressed in constant international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based compari{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -3401,9 +3401,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GDP per capita is gross domestic product divided by midyear population. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It i{p_end}
+{synopt:{opt Source Notes}}Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3414,9 +3414,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GDP per capita is gross domestic product divided by midyear population. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It i{p_end}
+{synopt:{opt Source Notes}}Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3427,9 +3427,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GDP per capita is gross domestic product divided by midyear population. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It i{p_end}
+{synopt:{opt Source Notes}}Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3440,9 +3440,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Annual percentage growth rate of GDP per capita based on constant local currency. GDP per capita is gross domestic product divided by midyear population. GDP at purchaser's prices is the sum of gross value added by all resident producers in th{p_end}
+{synopt:{opt Source Notes}}Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3453,9 +3453,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GDP per capita is gross domestic product divided by midyear population. GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value{p_end}
+{synopt:{opt Source Notes}}Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3466,9 +3466,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}This indicator provides per capita values for gross domestic product (GDP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor.{p_end}
+{synopt:{opt Source Notes}}This indicator provides values for gross domestic product (GDP) expressed in current international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based comparis{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -3479,9 +3479,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GDP per capita based on purchasing power parity (PPP). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar{p_end}
+{synopt:{opt Source Notes}}This indicator provides values for gross domestic product (GDP) expressed in constant international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based compari{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -3492,9 +3492,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross domestic savings are calculated as GDP less final consumption expenditure (total consumption). Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Gross domestic savings are calculated as GDP less final consumption expenditure (total consumption). This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This indicator is e{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3505,9 +3505,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross domestic savings are calculated as GDP less final consumption expenditure (total consumption). Data are in current local currency.{p_end}
+{synopt:{opt Source Notes}}Gross domestic savings are calculated as GDP less final consumption expenditure (total consumption). This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This series is expr{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3518,9 +3518,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross domestic savings are calculated as GDP less final consumption expenditure (total consumption).{p_end}
+{synopt:{opt Source Notes}}Gross domestic savings are calculated as GDP less final consumption expenditure (total consumption). This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of goods a{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3531,9 +3531,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross domestic income is derived as the sum of GDP and the terms of trade adjustment. Data are in constant local currency.{p_end}
+{synopt:{opt Source Notes}}Real gross domestic income (real GDI) measures the purchasing power of the total incomes generated by domestic production. It is a concept that exists in real terms only. When the terms of trade change there may be a significant divergence bet{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3544,9 +3544,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abr{p_end}
+{synopt:{opt Source Notes}}Gross national income is the total income earned by all residents within an economic territory during an accounting period. It is equal to gross domestic product plus earned income receivable from abroad minus earned income payable abroad. Thi{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3557,9 +3557,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abr{p_end}
+{synopt:{opt Source Notes}}Gross national income is the total income earned by all residents within an economic territory during an accounting period. It is equal to gross domestic product plus earned income receivable from abroad minus earned income payable abroad. Thi{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3570,9 +3570,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abr{p_end}
+{synopt:{opt Source Notes}}Gross national income is the total income earned by all residents within an economic territory during an accounting period. It is equal to gross domestic product plus earned income receivable from abroad minus earned income payable abroad. Thi{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3583,9 +3583,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abr{p_end}
+{synopt:{opt Source Notes}}Gross national income is the total income earned by all residents within an economic territory during an accounting period. It is equal to gross domestic product plus earned income receivable from abroad minus earned income payable abroad. Thi{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on World Bank national accounts data archives, OECD National Accounts, and the IMF WEO database.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -3596,9 +3596,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abr{p_end}
+{synopt:{opt Source Notes}}Gross national income is the total income earned by all residents within an economic territory during an accounting period. It is equal to gross domestic product plus earned income receivable from abroad minus earned income payable abroad. Thi{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3609,9 +3609,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abr{p_end}
+{synopt:{opt Source Notes}}Gross national income is the total income earned by all residents within an economic territory during an accounting period. It is equal to gross domestic product plus earned income receivable from abroad minus earned income payable abroad. Thi{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3622,9 +3622,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abr{p_end}
+{synopt:{opt Source Notes}}Gross national income is the total income earned by all residents within an economic territory during an accounting period. It is equal to gross domestic product plus earned income receivable from abroad minus earned income payable abroad. Thi{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3635,9 +3635,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}This indicator provides values for gross national income (GNI. Formerly GNP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor.{p_end}
+{synopt:{opt Source Notes}}This indicator provides values for gross national income (GNI) expressed in current international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based compariso{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -3648,9 +3648,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}PPP GNI (formerly PPP GNP) is gross national income (GNI) converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GNI as a U.S. dollar has in the United States. Gross n{p_end}
+{synopt:{opt Source Notes}}This indicator provides values for gross national income (GNI) expressed in constant international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based comparis{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -3661,9 +3661,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GNI per capita (formerly GNP per capita) is the gross national income, converted to U.S. dollars using the World Bank Atlas method, divided by the midyear population. GNI is the sum of value added by all resident producers plus any product tax{p_end}
+{synopt:{opt Source Notes}}Gross national income is the total income earned by all residents within an economic territory during an accounting period. It is equal to gross domestic product plus earned income receivable from abroad minus earned income payable abroad. Thi{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3674,9 +3674,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GNI per capita is gross national income divided by midyear population. GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of{p_end}
+{synopt:{opt Source Notes}}Gross national income is the total income earned by all residents within an economic territory during an accounting period. It is equal to gross domestic product plus earned income receivable from abroad minus earned income payable abroad. The{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3687,9 +3687,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GNI per capita is gross national income divided by midyear population. GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of{p_end}
+{synopt:{opt Source Notes}}Gross national income is the total income earned by all residents within an economic territory during an accounting period. It is equal to gross domestic product plus earned income receivable from abroad minus earned income payable abroad. The{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3700,9 +3700,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Annual percentage growth rate of GNI per capita based on constant local currency. Aggregates are based on constant 2010 U.S. dollars. GNI per capita is gross national income divided by midyear population. GNI (formerly GNP) is the sum of value{p_end}
+{synopt:{opt Source Notes}}Gross national income is the total income earned by all residents within an economic territory during an accounting period. It is equal to gross domestic product plus earned income receivable from abroad minus earned income payable abroad. The{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3713,9 +3713,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GNI per capita is gross national income divided by midyear population. GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of{p_end}
+{synopt:{opt Source Notes}}Gross national income is the total income earned by all residents within an economic territory during an accounting period. It is equal to gross domestic product plus earned income receivable from abroad minus earned income payable abroad. The{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3726,9 +3726,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}This indicator provides per capita values for gross national income (GNI. Formerly GNP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor.{p_end}
+{synopt:{opt Source Notes}}This indicator provides values for gross national income (GNI) per person expressed in current international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-base{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -3739,9 +3739,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}GNI per capita based on purchasing power parity (PPP). PPP GNI is gross national income (GNI) converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GNI as a U.S. doll{p_end}
+{synopt:{opt Source Notes}}This indicator provides values for gross national income (GNI) per person expressed in constant international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-bas{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -3752,9 +3752,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross savings are calculated as gross national income less total consumption, plus net transfers. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Savings is an amount that represent the part of disposable income (adjusted for the{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3765,9 +3765,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross savings are calculated as gross national income less total consumption, plus net transfers. Data are in current local currency.{p_end}
+{synopt:{opt Source Notes}}Savings is an amount that represent the part of disposable income (adjusted for the{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3778,9 +3778,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross savings are calculated as gross national income less total consumption, plus net transfers.{p_end}
+{synopt:{opt Source Notes}}Savings is an amount that represent the part of disposable income (adjusted for the{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3791,9 +3791,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Gross savings are calculated as gross national income less total consumption, plus net transfers.{p_end}
+{synopt:{opt Source Notes}}Savings is an amount that represent the part of disposable income (adjusted for the{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3819,7 +3819,7 @@
 
 {synopt:{opt Source Notes}}Net primary income includes the net labor income and net property and entrepreneurial income components of the SNA. Labor income covers compensation of employees paid to nonresident workers. Property and entrepreneurial income covers investmen{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3832,7 +3832,7 @@
 
 {synopt:{opt Source Notes}}Net primary income includes the net labor income and net property and entrepreneurial income components of the SNA. Labor income covers compensation of employees paid to nonresident workers. Property and entrepreneurial income covers investmen{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3845,7 +3845,7 @@
 
 {synopt:{opt Source Notes}}Net primary income includes the net labor income and net property and entrepreneurial income components of the SNA. Labor income covers compensation of employees paid to nonresident workers. Property and entrepreneurial income covers investmen{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3856,9 +3856,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Taxes less subsidies on products (net indirect taxes) are the sum of product taxes less subsidies. Product taxes are those taxes payable by producers that relate to the production, sale, purchase or use of the goods and services. Subsidies are{p_end}
+{synopt:{opt Source Notes}}Taxes less subsidies on production includes taxes payable less subsidies receivable on goods or services produced as outputs including other taxes or subsidies on production such as those payable on the labour, machinery, buildings or other as{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3869,9 +3869,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Taxes less subsidies on products (net indirect taxes) are the sum of product taxes less subsidies. Product taxes are those taxes payable by producers that relate to the production, sale, purchase or use of the goods and services. Subsidies are{p_end}
+{synopt:{opt Source Notes}}Taxes less subsidies on production includes taxes payable less subsidies receivable on goods or services produced as outputs including other taxes or subsidies on production such as those payable on the labour, machinery, buildings or other as{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3882,9 +3882,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Taxes less subsidies on products (net indirect taxes) are the sum of product taxes less subsidies. Product taxes are those taxes payable by producers that relate to the production, sale, purchase or use of the goods and services. Subsidies are{p_end}
+{synopt:{opt Source Notes}}Taxes less subsidies on production includes taxes payable less subsidies receivable on goods or services produced as outputs including other taxes or subsidies on production such as those payable on the labour, machinery, buildings or other as{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3897,7 +3897,7 @@
 
 {synopt:{opt Source Notes}}Net secondary income (from abroad) comprises transfers of income between residents of the reporting country and the rest of the world that carry no provisions for repayment. Net secondary income is equal to the unrequited transfers of income f{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3910,7 +3910,7 @@
 
 {synopt:{opt Source Notes}}Net secondary income (from abroad) comprises transfers of income between residents of the reporting country and the rest of the world that carry no provisions for repayment. Net secondary income is equal to the unrequited transfers of income f{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3921,9 +3921,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Net secondary income comprises transfers of income between residents of the reporting country and the rest of the world that carry no provisions for repayment. Net current transfers from abroad is equal to the unrequited transfers of income fr{p_end}
+{synopt:{opt Source Notes}}Net secondary income (from abroad) comprises transfers of income between residents of the reporting country and the rest of the world that carry no provisions for repayment. Net secondary income is equal to the unrequited transfers of income f{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3934,9 +3934,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}The terms of trade effect equals capacity to import less exports of goods and services in constant prices. Data are in constant local currency.{p_end}
+{synopt:{opt Source Notes}}The terms of trade adjustment is equal to the capacity to import (current price value of exports of goods and services deflated by the import price index) less exports of goods and services in constant prices. This indicator is expressed in co{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -3947,9 +3947,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}The DEC alternative conversion factor is the underlying annual exchange rate used for the World Bank Atlas method. As a rule, it is the official exchange rate reported in the IMF's International Financial Statistics (line rf). Exceptions arise{p_end}
+{synopt:{opt Source Notes}}The DEC alternative conversion factor is the underlying annual exchange rate (the price of one country’s currency in relation to another country's currency) used for the World Bank Atlas method. As a rule, it is the official exchange rate re{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics, supplemented by World Bank staff estimates.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -3960,9 +3960,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Purchasing power parity (PPP) conversion factor is a spatial price deflator and currency converter that controls for price level differences between countries, thereby allowing volume comparisons of gross domestic product (GDP) and its expendi{p_end}
+{synopt:{opt Source Notes}}The purchasing power parity (PPP) conversion factor is a currency conversion factor and a spatial price deflator. PPPs convert different currencies to a common currency and, in the process of conversion, equalize their purchasing power by elim{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} publisher: International Comparison Program, type: International statistical program, date accessed: May 30, 2024, date published: Ma{p_end}
 
 
 {synoptline}
@@ -3986,9 +3986,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Price level ratio is the ratio of a purchasing power parity (PPP) conversion factor to an exchange rate. It provides a measure of the differences in price levels between countries by indicating the number of units of the common currency needed{p_end}
+{synopt:{opt Source Notes}}The price level ratio, or price level index, is the ratio of a purchasing power parity (PPP) conversion factor to the corresponding market exchange rate between two countries. For this series the base country is the United States. It provides{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
+{synopt:{opt Source Organization}}World Development Indicators, World Bank (WB), uri: {browse "https://databank.worldbank.org/source/world-development-indicators,"} publisher: World Development Indicators, type: International database{p_end}
 
 
 {synoptline}
@@ -3999,9 +3999,9 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Purchasing power parity (PPP) conversion factor is a spatial price deflator and currency converter that controls for price level differences between countries, thereby allowing volume comparisons of gross domestic product (GDP) and its expendi{p_end}
+{synopt:{opt Source Notes}}The purchasing power parity (PPP) conversion factor is a currency conversion factor and a spatial price deflator. They convert different currencies to a common currency and, in the process of conversion, equalize their purchasing power by elim{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program, World Bank | World Development Indicators database, World Bank | Eurostat-OECD PPP Programme.{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} publisher: International Comparison Program, type: International statistical program, date accessed: May 30, 2024, date published: Ma{p_end}
 
 
 {synoptline}
@@ -4018,4 +4018,4 @@
 
 
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Administrative Region  (as of 02jul2024)}
+{title:Administrative Region  (as of 21dec2025)}
 
 {marker EAP}
 {p 20 20 2}(Go up to {it:{help wbopendata##adminregion:Administrative Region }}){p_end}
@@ -66,7 +66,6 @@
 {synopt:{opt BOL}}  Bolivia {p_end}
 {synopt:{opt BRA}}  Brazil {p_end}
 {synopt:{opt COL}}  Colombia {p_end}
-{synopt:{opt CRI}}  Costa Rica {p_end}
 {synopt:{opt CUB}}  Cuba {p_end}
 {synopt:{opt DMA}}  Dominica {p_end}
 {synopt:{opt DOM}}  Dominican Republic {p_end}
@@ -88,8 +87,9 @@
 {marker MNA}
 {p 20 20 2}(Go up to {it:{help wbopendata##adminregion:Administrative Region }}){p_end}
 {synoptset 33 tabbed}{...}
-{synopthdr:Middle East and North Africa (excluding high income) (MNA)}
+{synopthdr:Middle East, North Africa, Afghanistan and Pakistan (excluding high income) (MNA)}
 {synoptline}
+{synopt:{opt AFG}}  Afghanistan {p_end}
 {synopt:{opt DZA}}  Algeria {p_end}
 {synopt:{opt DJI}}  Djibouti {p_end}
 {synopt:{opt EGY}}  Egypt, Arab Rep {p_end}
@@ -99,6 +99,7 @@
 {synopt:{opt LBN}}  Lebanon {p_end}
 {synopt:{opt LBY}}  Libya {p_end}
 {synopt:{opt MAR}}  Morocco {p_end}
+{synopt:{opt PAK}}  Pakistan {p_end}
 {synopt:{opt SYR}}  Syrian Arab Republic {p_end}
 {synopt:{opt TUN}}  Tunisia {p_end}
 {synopt:{opt PSE}}  West Bank and Gaza {p_end}
@@ -109,13 +110,11 @@
 {synoptset 33 tabbed}{...}
 {synopthdr:South Asia (excluding high income) (SAS)}
 {synoptline}
-{synopt:{opt AFG}}  Afghanistan {p_end}
 {synopt:{opt BGD}}  Bangladesh {p_end}
 {synopt:{opt BTN}}  Bhutan {p_end}
 {synopt:{opt IND}}  India {p_end}
 {synopt:{opt MDV}}  Maldives {p_end}
 {synopt:{opt NPL}}  Nepal {p_end}
-{synopt:{opt PAK}}  Pakistan {p_end}
 {synopt:{opt LKA}}  Sri Lanka {p_end}
 
 {marker SSA}
@@ -139,7 +138,6 @@
 {synopt:{opt GNQ}}  Equatorial Guinea {p_end}
 {synopt:{opt ERI}}  Eritrea {p_end}
 {synopt:{opt SWZ}}  Eswatini {p_end}
-{synopt:{opt ETH}}  Ethiopia {p_end}
 {synopt:{opt GAB}}  Gabon {p_end}
 {synopt:{opt GMB}}  Gambia, The {p_end}
 {synopt:{opt GHA}}  Ghana {p_end}
@@ -161,7 +159,7 @@
 {synopt:{opt STP}}  Sao Tome and Principe {p_end}
 {synopt:{opt SEN}}  Senegal {p_end}
 {synopt:{opt SLE}}  Sierra Leone {p_end}
-{synopt:{opt SOM}}  Somalia {p_end}
+{synopt:{opt SOM}}  Somalia, Fed Rep {p_end}
 {synopt:{opt ZAF}}  South Africa {p_end}
 {synopt:{opt SSD}}  South Sudan {p_end}
 {synopt:{opt SDN}}  Sudan {p_end}

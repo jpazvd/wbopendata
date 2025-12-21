@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -17,14 +17,13 @@
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
 {synopt:{opt 14}}  {help wbopendata_sourceid_indicators14##sourceid_14:Gender Statistics}{p_end}
 {synopt:{opt 15}}  {help wbopendata_sourceid_indicators15##sourceid_15:Global Economic Monitor}{p_end}
-{synopt:{opt 16}}  {help wbopendata_sourceid_indicators16##sourceid_16:Health Nutrition and Population Statistics}{p_end}
 {synopt:{opt 18}}  {help wbopendata_sourceid_indicators18##sourceid_18:IDA Results Measurement System}{p_end}
 {synopt:{opt 19}}  {help wbopendata_sourceid_indicators19##sourceid_19:Millennium Development Goals}{p_end}
 {synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
-{synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
+{synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Findex database}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
 {synopt:{opt 32}}  {help wbopendata_sourceid_indicators32##sourceid_32:Global Financial Development}{p_end}
@@ -37,7 +36,6 @@
 {synopt:{opt 43}}  {help wbopendata_sourceid_indicators43##sourceid_43:Adjusted Net Savings}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
 {synopt:{opt 60}}  {help wbopendata_sourceid_indicators60##sourceid_60:Economic Fitness}{p_end}
@@ -46,8 +44,6 @@
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
-{synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
-{synopt:{opt 68}}  {help wbopendata_sourceid_indicators68##sourceid_68:PEFA 2016}{p_end}
 {synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
 {synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
 {synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
@@ -58,12 +54,13 @@
 {synopt:{opt 80}}  {help wbopendata_sourceid_indicators80##sourceid_80:Gender Disaggregated Labor Database (GDLD)}{p_end}
 {synopt:{opt 81}}  {help wbopendata_sourceid_indicators81##sourceid_81:International Debt Statistics: DSSI}{p_end}
 {synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
-{synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
 {synopt:{opt 86}}  {help wbopendata_sourceid_indicators86##sourceid_86:Global Jobs Indicators Database (JOIN)}{p_end}
 {synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
 {synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
 {synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
 {synopt:{opt 91}}  {help wbopendata_sourceid_indicators91##sourceid_91:PEFA_CRPFM}{p_end}
+{synopt:{opt 92}}  {help wbopendata_sourceid_indicators92##sourceid_92:Disability Data Hub (DDH)}{p_end}
+{synopt:{opt 93}}  {help wbopendata_sourceid_indicators93##sourceid_93:FPN Datahub Archive}{p_end}
 
 
 {marker sourceid_81}
@@ -116,7 +113,7 @@
 
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Primary income on foreign direct investment covers payments of direct investment income (debit side), which consist of income on equity (dividends, branch profits, and reinvested earnings) and income on the intercompany debt (interest). Data a{p_end}
 
@@ -2521,7 +2518,7 @@
 
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Debt forgiveness grants data cover both debt cancelled by agreement between debtor and creditor and a reduction in the net present value of non-ODA debt achieved by concessional rescheduling or refinancing. The  data are on a disbursement basi{p_end}
 
@@ -3159,6 +3156,18 @@
 
 
 {synoptline}
+{marker sourceid_DT.DOD.VPPG.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.DOD.VPPG.CD:DT.DOD.VPPG.CD} - External debt stocks, variable rate public and publicly guaranteed debt (PPG) (DOD, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
 {marker sourceid_DT.DOD.VTOT.CD}
 {synopt:{bf:{help wbopendata_sourceid##DT.DOD.VTOT.CD:DT.DOD.VTOT.CD} - External debt stocks, variable rate (DOD, current US$)}}
 
@@ -3525,7 +3534,7 @@
 
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Total interest payments to gross national income.{p_end}
 
@@ -3569,6 +3578,18 @@
 {synopt:{opt Source Notes}}IMF charges cover interest payments with respect to all uses of IMF resources, excluding those resulting from drawings in the reserve tranche. Data are in current U.S. dollars.{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.INT.DIMF.US.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DIMF.US.CD:DT.INT.DIMF.US.CD} - IMF credit, charges (INT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -3621,6 +3642,18 @@
 {synopt:{opt Source Notes}}Public and publicly guaranteed long-term debt are aggregated. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.INT.DSDR.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.DSDR.CD:DT.INT.DSDR.CD} - IMF SDR allocations, charges (INT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -4238,6 +4271,30 @@
 {synopt:{opt Source Notes}}Public sector debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from manufacturers, expor{p_end}
 
 {synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.INT.VPPG.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.VPPG.CD:DT.INT.VPPG.CD} - Interest payments on variable rate external debt, public and publicly guaranteed (PPG) (INT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_DT.INT.VTOT.CD}
+{synopt:{bf:{help wbopendata_sourceid##DT.INT.VTOT.CD:DT.INT.VTOT.CD} - Interest payments on variable rate external debt, long-term (INT, current US$)}}
+
+{synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
+
+
+{synopt:{opt Source Notes}}{p_end}
+
+{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -6849,4 +6906,4 @@
 
 
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

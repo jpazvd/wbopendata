@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -47,9 +47,9 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Agricultural land refers to the share of land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), tempora{p_end}
+{synopt:{opt Source Notes}}Agricultural land refers to the land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadow{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -62,7 +62,7 @@
 
 {synopt:{opt Source Notes}}Agricultural land refers to the share of land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), tempora{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -75,7 +75,7 @@
 
 {synopt:{opt Source Notes}}Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily fallow. Land abandoned{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and website, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -88,7 +88,7 @@
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the total rural land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
@@ -101,7 +101,7 @@
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the percentage of total land where the rural land elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
@@ -114,7 +114,7 @@
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the total urban land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
@@ -127,7 +127,7 @@
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the percentage of total land where the urban land elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
@@ -140,7 +140,7 @@
 
 {synopt:{opt Source Notes}}Land area below 5m is the percentage of total land where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
@@ -151,9 +151,9 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
+{synopt:{opt Source Notes}}data/RL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAOSTAT, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://www.fao.org/faostat/en/"}{p_end}
 
 
 {synoptline}
@@ -164,9 +164,9 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
+{synopt:{opt Source Notes}}data/RL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAOSTAT, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://www.fao.org/faostat/en/"}{p_end}
 
 
 {synoptline}
@@ -177,9 +177,9 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Agricultural irrigated land refers to agricultural areas purposely provided with water, including land irrigated by controlled flooding.{p_end}
+{synopt:{opt Source Notes}}data/RL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://www.fao.org/faostat/en/"}{p_end}
 
 
 {synoptline}
@@ -192,7 +192,7 @@
 
 {synopt:{opt Source Notes}}Average precipitation is the long-term average in depth (over space and time) of annual precipitation in the country. Precipitation is defined as any kind of water that falls from clouds as a liquid or a solid.{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAOSTAT, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -203,9 +203,9 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Cereal yield, measured as kilograms per hectare of harvested land, includes wheat, rice, maize, barley, oats, rye, millet, sorghum, buckwheat, and mixed grains. Production data on cereals relate to crops harvested for dry grain only. Cereal cr{p_end}
+{synopt:{opt Source Notes}}data/QCL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://www.fao.org/faostat/en/"}{p_end}
 
 
 {synoptline}
@@ -218,7 +218,7 @@
 
 {synopt:{opt Source Notes}}Foreign direct investment are the net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and Balance of Payments databases, World Bank, International Debt Statistics, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics and Balance of Payments databases, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -231,7 +231,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity is the percentage of population with access to electricity. Electrification data are collected from industry, national surveys and international sources.{p_end}
 
-{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
+{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads,"} note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
 
 
 {synoptline}
@@ -242,9 +242,9 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Coal refers to all coal and brown coal, both primary (including hard coal and lignite-brown coal) and derived fuels (including patent fuel, coke oven coke, gas coke, coke{p_end}
+{synopt:{opt Source Notes}}The share of electricity production from coal sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Coal refers to all coal and brown coal, both primary (including hard coal and ligni{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -255,9 +255,9 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Hydropower refers to electricity produced by hydroelectric power plants.{p_end}
+{synopt:{opt Source Notes}}The share of electricity production from hydroelectric sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Hydropower refers to electricity produced by hydroelectric power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -268,9 +268,9 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Gas refers to natural gas but excludes natural gas liquids.{p_end}
+{synopt:{opt Source Notes}}The share of electricity production from natural gas sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Gas refers to natural gas but excludes natural gas liquids.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -281,9 +281,9 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Nuclear power refers to electricity produced by nuclear power plants.{p_end}
+{synopt:{opt Source Notes}}The share of electricity production from nuclear sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Nuclear power refers to electricity produced by nuclear power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -294,9 +294,9 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products.{p_end}
+{synopt:{opt Source Notes}}The share of electricity production from oil sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -309,7 +309,7 @@
 
 {synopt:{opt Source Notes}}Renewable electricity is the share of electrity generated by renewable power plants in total electricity generated by all types of plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2018 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -320,9 +320,9 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
+{synopt:{opt Source Notes}}Electricity production from renewable sources in kilowatt-hour (kWh), excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -333,9 +333,9 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
+{synopt:{opt Source Notes}}The share of electricity production from renewable sources of total electricity production. Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -348,7 +348,7 @@
 
 {synopt:{opt Source Notes}}Renewable energy consumption is the share of renewables energy in total final energy consumption.{p_end}
 
-{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -361,7 +361,7 @@
 
 {synopt:{opt Source Notes}}Energy use per PPP GDP is the kilogram of oil equivalent of energy use per constant PPP GDP. Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stoc{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -374,7 +374,7 @@
 
 {synopt:{opt Source Notes}}Electric power consumption measures the production of power plants and combined heat and power plants less transmission, distribution, and transformation losses and own use by heat and power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -387,14 +387,14 @@
 
 {synopt:{opt Source Notes}}Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international tr{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.EG.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.EG.ZS:EN.ATM.CO2E.EG.ZS} - CO2 intensity (kg per kg of oil equivalent energy use)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -407,7 +407,7 @@
 {marker topicid_EN.ATM.CO2E.GF.KT}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.GF.KT:EN.ATM.CO2E.GF.KT} - CO2 emissions from gaseous fuel consumption (kt)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -420,7 +420,7 @@
 {marker topicid_EN.ATM.CO2E.GF.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.GF.ZS:EN.ATM.CO2E.GF.ZS} - CO2 emissions from gaseous fuel consumption (% of total)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -431,9 +431,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.KD.GD}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD} - CO2 emissions (kg per 2015 US$ of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD} - CO2 emissions (kg per 2010 US$ of GDP)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -446,7 +446,7 @@
 {marker topicid_EN.ATM.CO2E.KT}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KT:EN.ATM.CO2E.KT} - CO2 emissions (kt)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -459,7 +459,7 @@
 {marker topicid_EN.ATM.CO2E.LF.KT}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.LF.KT:EN.ATM.CO2E.LF.KT} - CO2 emissions from liquid fuel consumption (kt)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -472,7 +472,7 @@
 {marker topicid_EN.ATM.CO2E.LF.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.LF.ZS:EN.ATM.CO2E.LF.ZS} - CO2 emissions from liquid fuel consumption (% of total)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -485,7 +485,7 @@
 {marker topicid_EN.ATM.CO2E.PC}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PC:EN.ATM.CO2E.PC} - CO2 emissions (metric tons per capita)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -498,7 +498,7 @@
 {marker topicid_EN.ATM.CO2E.PP.GD}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD:EN.ATM.CO2E.PP.GD} - CO2 emissions (kg per PPP $ of GDP)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -509,9 +509,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.PP.GD.KD}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD} - CO2 emissions (kg per 2021 PPP $ of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD} - CO2 emissions (kg per 2011 PPP $ of GDP)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -524,7 +524,7 @@
 {marker topicid_EN.ATM.CO2E.SF.KT}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.SF.KT:EN.ATM.CO2E.SF.KT} - CO2 emissions from solid fuel consumption (kt)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -537,7 +537,7 @@
 {marker topicid_EN.ATM.CO2E.SF.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.SF.ZS:EN.ATM.CO2E.SF.ZS} - CO2 emissions from solid fuel consumption (% of total)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -550,7 +550,7 @@
 {marker topicid_EN.ATM.GHGO.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGO.KT.CE:EN.ATM.GHGO.KT.CE} - Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -563,7 +563,7 @@
 {marker topicid_EN.ATM.GHGO.ZG}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGO.ZG:EN.ATM.GHGO.ZG} - Other greenhouse gas emissions (% change from 1990)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -576,7 +576,7 @@
 {marker topicid_EN.ATM.GHGT.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGT.KT.CE:EN.ATM.GHGT.KT.CE} - Total greenhouse gas emissions (kt of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -589,7 +589,7 @@
 {marker topicid_EN.ATM.GHGT.ZG}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGT.ZG:EN.ATM.GHGT.ZG} - Total greenhouse gas emissions (% change from 1990)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -602,7 +602,7 @@
 {marker topicid_EN.ATM.HFCG.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.HFCG.KT.CE:EN.ATM.HFCG.KT.CE} - HFC gas emissions (thousand metric tons of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -615,7 +615,7 @@
 {marker topicid_EN.ATM.METH.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.KT.CE:EN.ATM.METH.KT.CE} - Methane emissions (kt of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -628,7 +628,7 @@
 {marker topicid_EN.ATM.METH.ZG}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.ZG:EN.ATM.METH.ZG} - Methane emissions (% change from 1990)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -641,7 +641,7 @@
 {marker topicid_EN.ATM.NOXE.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.KT.CE:EN.ATM.NOXE.KT.CE} - Nitrous oxide emissions (thousand metric tons of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -654,7 +654,7 @@
 {marker topicid_EN.ATM.NOXE.ZG}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.ZG:EN.ATM.NOXE.ZG} - Nitrous oxide emissions (% change from 1990)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -667,7 +667,7 @@
 {marker topicid_EN.ATM.PFCG.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.PFCG.KT.CE:EN.ATM.PFCG.KT.CE} - PFC gas emissions (thousand metric tons of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -680,7 +680,7 @@
 {marker topicid_EN.ATM.SF6G.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.SF6G.KT.CE:EN.ATM.SF6G.KT.CE} - SF6 gas emissions (thousand metric tons of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -699,14 +699,14 @@
 
 {synopt:{opt Source Notes}}Disaster risk reduction progress score is an average of self-assessment scores, ranging from 1 to 5, submitted by countries under Priority 1 of the Hyogo Framework National Progress Reports. The Hyogo Framework is a global blueprint for disast{p_end}
 
-{synopt:{opt Source Organization}}(UNISDR, 2009-2011 Progress Reports, {browse "http://www.preventionweb.net/english/hyogo)"}.{p_end}
+{synopt:{opt Source Organization}}2009-2011 Progress Reports, UN Office for Disaster Risk Reduction (UNDRR), uri: {browse "http://www.preventionweb.net/english/hyogo"}{p_end}
 
 
 {synoptline}
 {marker topicid_EN.CLC.GHGR.MT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.CLC.GHGR.MT.CE:EN.CLC.GHGR.MT.CE} - GHG net emissions/removals by LUCF (Mt of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -725,7 +725,7 @@
 
 {synopt:{opt Source Notes}}Droughts, floods and extreme temperatures is the annual average percentage of the population that is affected by natural disasters classified as either droughts, floods, or extreme temperature events. A drought is an extended period of time ch{p_end}
 
-{synopt:{opt Source Organization}}EM-DAT: The OFDA/CRED International Disaster Database: {browse "www.emdat.be,"} Université Catholique de Louvain, Brussels (Belgium), World Bank.{p_end}
+{synopt:{opt Source Organization}}EM-DAT The International Disaster Database, Centre for Research on the Epidemiology of Disasters (CRED) - Université Catholique de Louvain, uri: {browse "https://www.emdat.be/"}{p_end}
 
 
 {synoptline}
@@ -738,7 +738,7 @@
 
 {synopt:{opt Source Notes}}Rural population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702,"} publisher: NASA Ear{p_end}
 
 
 {synoptline}
@@ -751,7 +751,7 @@
 
 {synopt:{opt Source Notes}}Urban population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702,"} publisher: NASA Ear{p_end}
 
 
 {synoptline}
@@ -764,7 +764,7 @@
 
 {synopt:{opt Source Notes}}Population below 5m is the percentage of the total population living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702,"} publisher: NASA Ear{p_end}
 
 
 {synoptline}
@@ -777,7 +777,7 @@
 
 {synopt:{opt Source Notes}}Population in urban agglomerations of more than one million is the percentage of a country's population living in metropolitan areas that in 2018 had a population of more than one million people.{p_end}
 
-{synopt:{opt Source Organization}}United Nations, World Urbanization Prospects.{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} publisher: UN Population Division, date published: 2018{p_end}
 
 
 {synoptline}
@@ -790,7 +790,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -803,7 +803,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -816,7 +816,7 @@
 
 {synopt:{opt Source Notes}}Terrestrial protected areas are totally or partially protected areas of at least 1,000 hectares that are designated by national authorities as scientific reserves with limited public access, national parks, natural monuments, nature reserves o{p_end}
 
-{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, acad{p_end}
+{synopt:{opt Source Organization}}Protected Planet: The World Database on Protected Areas (WDPA) and World Database on Other Effective Area-based Conservation Measures (WD-OECM), UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), uri: {browse "https://www.protec"}{p_end}
 
 
 {synoptline}
@@ -829,7 +829,7 @@
 
 {synopt:{opt Source Notes}}Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the{p_end}
 
-{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, acad{p_end}
+{synopt:{opt Source Organization}}Protected Planet: The World Database on Protected Areas (WDPA) and World Database on Other Effective Area-based Conservation Measures (WD-OECM), UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), uri: {browse "https://www.protec"}{p_end}
 
 
 {synoptline}
@@ -842,14 +842,14 @@
 
 {synopt:{opt Source Notes}}Terrestrial protected areas are totally or partially protected areas of at least 1,000 hectares that are designated by national authorities as scientific reserves with limited public access, national parks, natural monuments, nature reserves o{p_end}
 
-{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, acad{p_end}
+{synopt:{opt Source Organization}}Protected Planet: The World Database on Protected Areas (WDPA) and World Database on Other Effective Area-based Conservation Measures (WD-OECM), UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), uri: {browse "https://www.protec"}{p_end}
 
 
 {synoptline}
 {marker topicid_IC.BUS.EASE.XQ}
-{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - Ease of doing business rank (1=most business-friendly regulations)}}
+{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - Ease of doing business index (1=most business-friendly regulations)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
@@ -866,9 +866,9 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}The public sector management and institutions cluster includes property rights and rule-based governance, quality of budgetary and financial management, efficiency of revenue mobilization, quality of public administration, and transparency, ac{p_end}
+{synopt:{opt Source Notes}}The Country Policy and Institutional Assessment (CPIA) measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistanc{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -892,35 +892,9 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC divisions 1-3 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs a{p_end}
+{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC (Rev. 4) divisions 01-03 and includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting o{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.ENR.PRSC.FM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.ENR.PRSC.FM.ZS:SE.ENR.PRSC.FM.ZS} - School enrollment, primary and secondary (gross), gender parity index (GPI)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}19 Climate Change{p_end}
-
-{synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary and secondary education is the ratio of girls to boys enrolled at primary and secondary levels in public and private schools.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.PRM.CMPT.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.PRM.CMPT.ZS:SE.PRM.CMPT.ZS} - Primary completion rate, total (% of relevant age group)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}19 Climate Change{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -933,7 +907,7 @@
 
 {synopt:{opt Source Notes}}Under-five mortality rate is the probability per 1,000 that a newborn baby will die before reaching age five, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org,"} publisher: UNICEF, WHO, World Bank, United Nations Population Division;{p_end}
 
 
 {synoptline}
@@ -944,9 +918,9 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Annual population growth rate for year t is the exponential rate of growth of midyear population from year t-1 to t, expressed as a percentage . Population is based on the de facto definition of population, which counts all residents regardles{p_end}
+{synopt:{opt Source Notes}}Annual population growth rate for year t is the exponential rate of growth of midyear population from year t-1 to t, expressed as a percentage. Population is based on the de facto definition of population, which counts all residents regardless{p_end}
 
-{synopt:{opt Source Organization}}Derived from total population. Population source: (1) United Nations Population Division. World Population Prospects: 2022 Revision; (2) Statistical databases and publications from national statistical offices; (3) Eurostat: Demographic Statis{p_end}
+{synopt:{opt Source Organization}}World Population Prospects, United Nations (UN), note: Derived from total population, publisher: UN Population Division;{p_end}
 
 
 {synoptline}
@@ -959,7 +933,7 @@
 
 {synopt:{opt Source Notes}}Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are midyear estimates.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision; (2) Statistical databases and publications from national statistical offices; (3) Eurostat: Demographic Statistics; (4) United Nations Statistics Division. Popu{p_end}
+{synopt:{opt Source Organization}}World Population Prospects, United Nations (UN), uri: {browse "https://population.un.org/wpp/,"} publisher: UN Population Division;{p_end}
 
 
 {synoptline}
@@ -970,9 +944,9 @@
 
 {synopt:{opt Topics}}19 Climate Change{p_end}
 
-{synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. It is calculated using World Bank population estimates and urban ratios from the United Nations World Urbanization Prospects.{p_end}
+{synopt:{opt Source Notes}}Annual urban population growth rate for year t is the exponential rate of growth of midyear urban population from year t-1 to t, expressed as a percentage. Urban population refers to people living in urban areas as defined by national statisti{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects: 2018 Revision.{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
 
 
 {synoptline}
@@ -985,7 +959,7 @@
 
 {synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. It is calculated using World Bank population estimates and urban ratios from the United Nations World Urbanization Prospects. Aggregation of ur{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects: 2018 Revision.{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
 
 
 {synoptline}
@@ -998,8 +972,8 @@
 
 {synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. The data are collected and smoothed by United Nations Population Division.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Urbanization Prospects: 2018 Revision.{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Population Division{p_end}
 
 
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Lending Type  (as of 02jul2024)}
+{title:Lending Type  (as of 21dec2025)}
 
 {marker IBD}
 {p 20 20 2}(Go up to {it:{help wbopendata##lendingtype:Lending Type }}){p_end}
@@ -67,7 +67,6 @@
 {synopt:{opt SYC}}  Seychelles {p_end}
 {synopt:{opt ZAF}}  South Africa {p_end}
 {synopt:{opt KNA}}  St Kitts and Nevis {p_end}
-{synopt:{opt SUR}}  Suriname {p_end}
 {synopt:{opt THA}}  Thailand {p_end}
 {synopt:{opt TTO}}  Trinidad and Tobago {p_end}
 {synopt:{opt TUN}}  Tunisia {p_end}
@@ -87,6 +86,7 @@
 {synopt:{opt CPV}}  Cabo Verde {p_end}
 {synopt:{opt CMR}}  Cameroon {p_end}
 {synopt:{opt COG}}  Congo, Rep {p_end}
+{synopt:{opt CIV}}  Cote d'Ivoire {p_end}
 {synopt:{opt DMA}}  Dominica {p_end}
 {synopt:{opt SWZ}}  Eswatini {p_end}
 {synopt:{opt FJI}}  Fiji {p_end}
@@ -97,6 +97,7 @@
 {synopt:{opt PNG}}  Papua New Guinea {p_end}
 {synopt:{opt LCA}}  St Lucia {p_end}
 {synopt:{opt VCT}}  St Vincent and the Grenadines {p_end}
+{synopt:{opt SUR}}  Suriname {p_end}
 {synopt:{opt TLS}}  Timor-Leste {p_end}
 {synopt:{opt UZB}}  Uzbekistan {p_end}
 {synopt:{opt ZWE}}  Zimbabwe {p_end}
@@ -117,7 +118,6 @@
 {synopt:{opt TCD}}  Chad {p_end}
 {synopt:{opt COM}}  Comoros {p_end}
 {synopt:{opt COD}}  Congo, Dem Rep {p_end}
-{synopt:{opt CIV}}  Cote d'Ivoire {p_end}
 {synopt:{opt DJI}}  Djibouti {p_end}
 {synopt:{opt ERI}}  Eritrea {p_end}
 {synopt:{opt ETH}}  Ethiopia {p_end}
@@ -152,7 +152,7 @@
 {synopt:{opt SEN}}  Senegal {p_end}
 {synopt:{opt SLE}}  Sierra Leone {p_end}
 {synopt:{opt SLB}}  Solomon Islands {p_end}
-{synopt:{opt SOM}}  Somalia {p_end}
+{synopt:{opt SOM}}  Somalia, Fed Rep {p_end}
 {synopt:{opt SSD}}  South Sudan {p_end}
 {synopt:{opt LKA}}  Sri Lanka {p_end}
 {synopt:{opt SDN}}  Sudan {p_end}
@@ -226,7 +226,7 @@
 {synopt:{opt NOR}}  Norway {p_end}
 {synopt:{opt OMN}}  Oman {p_end}
 {synopt:{opt PRT}}  Portugal {p_end}
-{synopt:{opt PRI}}  Puerto Rico {p_end}
+{synopt:{opt PRI}}  Puerto Rico (US) {p_end}
 {synopt:{opt QAT}}  Qatar {p_end}
 {synopt:{opt SMR}}  San Marino {p_end}
 {synopt:{opt SAU}}  Saudi Arabia {p_end}

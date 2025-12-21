@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -43,7 +43,7 @@
 {marker topicid_AG.AGR.TRAC.NO}
 {synopt:{bf:{help wbopendata_topicid##AG.AGR.TRAC.NO:AG.AGR.TRAC.NO} - Agricultural machinery, tractors}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
@@ -60,9 +60,9 @@
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Fertilizer consumption measures the quantity of plant nutrients used per unit of arable land. Fertilizer products cover nitrogenous, potash, and phosphate fertilizers (including ground rock phosphate). Traditional nutrients--animal and plant m{p_end}
+{synopt:{opt Source Notes}}Fertilizer consumption measures the quantity of plant nutrients and is calculated as production plus imports minus exports. Fertilizer products cover nitrogenous, potash, and phosphate fertilizers (including ground rock phosphate). Traditional{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -75,7 +75,7 @@
 
 {synopt:{opt Source Notes}}Fertilizer consumption measures the quantity of plant nutrients used per unit of arable land. Fertilizer products cover nitrogenous, potash, and phosphate fertilizers (including ground rock phosphate). Traditional nutrients--animal and plant m{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -86,9 +86,9 @@
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Agricultural land refers to the share of land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), tempora{p_end}
+{synopt:{opt Source Notes}}Agricultural land refers to the land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadow{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -101,7 +101,7 @@
 
 {synopt:{opt Source Notes}}Agricultural land refers to the share of land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), tempora{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -114,7 +114,7 @@
 
 {synopt:{opt Source Notes}}Arable land (in hectares) includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily fallow. L{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -127,7 +127,7 @@
 
 {synopt:{opt Source Notes}}Arable land (hectares per person) includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily f{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -140,7 +140,7 @@
 
 {synopt:{opt Source Notes}}Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily fallow. Land abandoned{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and website, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -151,9 +151,9 @@
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Land under cereal production refers to harvested area, although some countries report only sown or cultivated area. Cereals include wheat, rice, maize, barley, oats, rye, millet, sorghum, buckwheat, and mixed grains. Production data on cereals{p_end}
+{synopt:{opt Source Notes}}data/QCL, note: Item code F1717, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://www.fao.org/faostat/en/"}{p_end}
 
 
 {synoptline}
@@ -166,7 +166,7 @@
 
 {synopt:{opt Source Notes}}Permanent cropland is land cultivated with crops that occupy the land for long periods and need not be replanted after each harvest, such as cocoa, coffee, and rubber. This category includes land under flowering shrubs, fruit trees, nut trees,{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -179,7 +179,7 @@
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the total rural land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
@@ -192,7 +192,7 @@
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the percentage of total land where the rural land elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
@@ -203,9 +203,9 @@
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
+{synopt:{opt Source Notes}}data/RL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAOSTAT, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://www.fao.org/faostat/en/"}{p_end}
 
 
 {synoptline}
@@ -216,9 +216,9 @@
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
+{synopt:{opt Source Notes}}data/RL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAOSTAT, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://www.fao.org/faostat/en/"}{p_end}
 
 
 {synoptline}
@@ -229,9 +229,9 @@
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Agricultural irrigated land refers to agricultural areas purposely provided with water, including land irrigated by controlled flooding.{p_end}
+{synopt:{opt Source Notes}}data/RL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://www.fao.org/faostat/en/"}{p_end}
 
 
 {synoptline}
@@ -244,7 +244,7 @@
 
 {synopt:{opt Source Notes}}Average precipitation is the long-term average in depth (over space and time) of annual precipitation in the country. Precipitation is defined as any kind of water that falls from clouds as a liquid or a solid.{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAOSTAT, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -255,9 +255,9 @@
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Land area is a country's total area, excluding area under inland water bodies, national claims to continental shelf, and exclusive economic zones. In most cases the definition of inland water bodies includes major rivers and lakes.{p_end}
+{synopt:{opt Source Notes}}data/RL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAOSTAT, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://www.fao.org/faostat/en/"}{p_end}
 
 
 {synoptline}
@@ -270,14 +270,14 @@
 
 {synopt:{opt Source Notes}}Rural land area in square kilometers, derived from urban extent grids which distinguish urban and rural areas based on a combination of population counts (persons), settlement points, and the presence of Nighttime Lights. Areas are defined as{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 2, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
 {marker topicid_AG.LND.TRAC.ZS}
 {synopt:{bf:{help wbopendata_topicid##AG.LND.TRAC.ZS:AG.LND.TRAC.ZS} - Agricultural machinery, tractors per 100 sq. km of arable land}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
@@ -294,9 +294,9 @@
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Production data on cereals relate to crops harvested for dry grain only. Cereal crops harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded.{p_end}
+{synopt:{opt Source Notes}}data/QCL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://www.fao.org/faostat/en/"}{p_end}
 
 
 {synoptline}
@@ -309,7 +309,7 @@
 
 {synopt:{opt Source Notes}}Crop production index shows agricultural production for each year relative to the base period 2014-2016. It includes all crops except fodder crops. Regional and income group aggregates for the FAO's production indexes are calculated from the u{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -322,7 +322,7 @@
 
 {synopt:{opt Source Notes}}Food production index covers food crops that are considered edible and that contain nutrients. Coffee and tea are excluded because, although edible, they have no nutritive value.{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -335,7 +335,7 @@
 
 {synopt:{opt Source Notes}}Livestock production index includes meat and milk from all sources, dairy products such as cheese, and eggs, honey, raw silk, wool, and hides and skins.{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -348,7 +348,7 @@
 
 {synopt:{opt Source Notes}}Surface area is a country's total area, including areas under inland bodies of water and some coastal waterways.{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -359,9 +359,9 @@
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Cereal yield, measured as kilograms per hectare of harvested land, includes wheat, rice, maize, barley, oats, rye, millet, sorghum, buckwheat, and mixed grains. Production data on cereals relate to crops harvested for dry grain only. Cereal cr{p_end}
+{synopt:{opt Source Notes}}data/QCL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://www.fao.org/faostat/en/"}{p_end}
 
 
 {synoptline}
@@ -387,7 +387,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity, rural is the percentage of rural population with access to electricity.{p_end}
 
-{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
+{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads,"} note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
 
 
 {synoptline}
@@ -420,7 +420,7 @@
 {marker topicid_EN.ATM.METH.AG.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.AG.KT.CE:EN.ATM.METH.AG.KT.CE} - Agricultural methane emissions (thousand metric tons of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
@@ -433,7 +433,7 @@
 {marker topicid_EN.ATM.METH.AG.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.AG.ZS:EN.ATM.METH.AG.ZS} - Agricultural methane emissions (% of total)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
@@ -446,7 +446,7 @@
 {marker topicid_EN.ATM.NOXE.AG.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.AG.KT.CE:EN.ATM.NOXE.AG.KT.CE} - Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
@@ -459,7 +459,7 @@
 {marker topicid_EN.ATM.NOXE.AG.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.AG.ZS:EN.ATM.NOXE.AG.ZS} - Agricultural nitrous oxide emissions (% of total)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
@@ -478,7 +478,7 @@
 
 {synopt:{opt Source Notes}}Rural population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702,"} publisher: NASA Ear{p_end}
 
 
 {synoptline}
@@ -491,7 +491,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -502,9 +502,9 @@
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC divisions 1-3 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs a{p_end}
+{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC (Rev. 4) divisions 01-03 and includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting o{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -515,9 +515,9 @@
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC divisions 1-3 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs a{p_end}
+{synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC (Rev. 4) divisions 01-03 and includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting o{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -530,7 +530,7 @@
 
 {synopt:{opt Source Notes}}Rural population refers to people living in rural areas as defined by national statistical offices. It is calculated as the difference between total population and urban population. Aggregation of urban and rural population may not add up to t{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects: 2018 Revision.{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
 
 
 {synoptline}
@@ -541,9 +541,9 @@
 
 {synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Rural population refers to people living in rural areas as defined by national statistical offices. It is calculated as the difference between total population and urban population.{p_end}
+{synopt:{opt Source Notes}}Annual rural population growth rate for year t is the exponential rate of growth of midyear rural population from year t-1 to t, expressed as a percentage. Rural population refers to people living in rural areas as defined by national statisti{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects: 2018 Revision.{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
 
 
 {synoptline}
@@ -556,8 +556,8 @@
 
 {synopt:{opt Source Notes}}Rural population refers to people living in rural areas as defined by national statistical offices. It is calculated as the difference between total population and urban population.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects: 2018 Revision.{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
 
 
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

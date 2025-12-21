@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -47,9 +47,9 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Imports of goods, services and primary income is the sum of goods imports, service imports and primary income payments. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -60,9 +60,9 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Current account balance is the sum of net exports of goods and services, net primary income, and net secondary income. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Balance of current transactions (transactions in goods and services, earned income and transfer income) between residents and non-residents. The term current account balance is used in the external accounts and is expressed from the perspectiv{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -86,9 +86,9 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Grants are defined as legally binding commitments that obligate a specific value of funds available for disbursement for which there is no repayment requirement. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Grants are transfers made in cash, goods or services for which no repayment is required.  For ODA reporting purposes, they also include forgiveness of non-military debt, support to non-governmental organisations, certain interest subsidies, an{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics, and OECD.{p_end}
+{synopt:{opt Source Organization}}DAC2A: Aid (ODA) disbursements to countries and regions, Organisation for Economic Co-operation and Development (OECD), uri: DSD_DAC2@DF_DAC2A, note: Development Assistance Committee of the Organisation for Economic Co-operation and Developmen{p_end}
 
 
 {synoptline}
@@ -114,7 +114,7 @@
 
 {synopt:{opt Source Notes}}Technical cooperation grants include free-standing technical cooperation grants, which are intended to finance the transfer of technical and managerial skills or of technology for the purpose of building up general national capacity without re{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics, and OECD.{p_end}
+{synopt:{opt Source Organization}}DAC2A: Aid (ODA) disbursements to countries and regions, Organisation for Economic Co-operation and Development (OECD), uri: DSD_DAC2@DF_DAC2A, note: Development Assistance Committee of the Organisation for Economic Co-operation and Developmen{p_end}
 
 
 {synoptline}
@@ -125,9 +125,9 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods, services and primary income is the sum of goods exports, service exports and primary income receipts. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -153,7 +153,7 @@
 
 {synopt:{opt Source Notes}}Foreign direct investment refers to direct investment equity flows in the reporting economy. It is the sum of equity capital, reinvestment of earnings, and other capital. Direct investment is a category of cross-border investment associated wi{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments database, supplemented by data from the United Nations Conference on Trade and Development and official national sources.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments database, International Monetary Fund (IMF), note: International Monetary Fund, Balance of Payments database, supplemented by data from the United Nations Conference on Trade and Development and official national sources.;{p_end}
 
 
 {synoptline}
@@ -192,7 +192,7 @@
 
 {synopt:{opt Source Notes}}Portfolio equity includes net inflows from equity securities other than those recorded as direct investment and including shares, stocks, depository receipts (American or global), and direct purchases of shares in local stock markets by foreig{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments database, and World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments database, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -205,7 +205,7 @@
 
 {synopt:{opt Source Notes}}Personal remittances comprise personal transfers and compensation of employees. Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfer{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on IMF balance of payments data.{p_end}
+{synopt:{opt Source Organization}}IMF balance of payments data, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -964,7 +964,7 @@
 
 {synoptline}
 {marker topicid_DT.AXA.DPPG.CD}
-{synopt:{bf:{help wbopendata_topicid##DT.AXA.DPPG.CD:DT.AXA.DPPG.CD} - Principal arrears, long-term DOD (US$)}}
+{synopt:{bf:{help wbopendata_topicid##DT.AXA.DPPG.CD:DT.AXA.DPPG.CD} - Principal arrears, public and publicly guaranteed (current US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -2220,7 +2220,7 @@
 
 {synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -2259,7 +2259,7 @@
 
 {synopt:{opt Source Notes}}Total external debt stocks to gross national income. Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -2298,7 +2298,7 @@
 
 {synopt:{opt Source Notes}}Use of IMF Credit: Data related to the operations of the IMF are provided by the IMF Treasurer’s Department. They are converted from special drawing rights into dollars using end-of-period exchange rates for stocks and average-over-the-perio{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -2311,7 +2311,7 @@
 
 {synopt:{opt Source Notes}}Long-term debt is debt that has an original or extended maturity of more than one year. It has three components: public, publicly guaranteed, and private nonguaranteed debt. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -2337,7 +2337,7 @@
 
 {synopt:{opt Source Notes}}Private nonguaranteed external debt comprises long-term external obligations of private debtors that are not guaranteed for repayment by a public entity. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -2350,7 +2350,7 @@
 
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt comprises long-term external obligations of public debtors, including the national government,  Public Corporations, State Owned Enterprises, Development Banks and Other Mixed Enterprises, political subdivis{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -2376,7 +2376,7 @@
 
 {synopt:{opt Source Notes}}Short-term external debt is defined as debt that has an original maturity of one year or less. Available data permit no distinction between public and private nonguaranteed short-term debt. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -2389,7 +2389,7 @@
 
 {synopt:{opt Source Notes}}Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Total reserves includes gold.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}World Development Indicators, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2400,9 +2400,9 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Short-term external debt is defined as debt that has an original maturity of one year or less. Available data permit no distinction between public and private nonguaranteed short-term debt.{p_end}
+{synopt:{opt Source Notes}}Short-term external debt is defined as debt that has an original maturity of one year or less. Available data permit no distinction between public and private nonguaranteed short-term debt. Exports of goods, services and primary income is the{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -2415,7 +2415,7 @@
 
 {synopt:{opt Source Notes}}Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -2441,7 +2441,7 @@
 
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 35 percent or more. Data are in cur{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -2454,7 +2454,7 @@
 
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt outstanding from the International Development Association (IDA) is concessional. Concessional debt is defined as loans with an original grant element of 35 percent or more. The grant element of a loan is th{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -2610,7 +2610,7 @@
 
 {synopt:{opt Source Notes}}IBRD loans and IDA credits are public and publicly guaranteed debt extended by the World Bank Group. The International Bank for Reconstruction and Development (IBRD) lends at market rates. Credits from the International Development Association{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -3013,7 +3013,7 @@
 
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. This cal{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/debt-statistics"}{p_end}
 
 
 {synoptline}
@@ -3024,9 +3024,9 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. This cal{p_end}
+{synopt:{opt Source Notes}}Present value of external debt to exports of goods, services and income. Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nongua{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/debt-statistics"}{p_end}
 
 
 {synoptline}
@@ -3037,9 +3037,9 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. This cal{p_end}
+{synopt:{opt Source Notes}}Present value of external debt to gross national income. Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-ter{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/debt-statistics"}{p_end}
 
 
 {synoptline}
@@ -4019,7 +4019,7 @@
 
 {synoptline}
 {marker topicid_DT.IXA.DPPG.CD}
-{synopt:{bf:{help wbopendata_topicid##DT.IXA.DPPG.CD:DT.IXA.DPPG.CD} - Interest arrears, long-term DOD (US$)}}
+{synopt:{bf:{help wbopendata_topicid##DT.IXA.DPPG.CD:DT.IXA.DPPG.CD} - Interest arrears, public and publicly guaranteed (current US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -4170,7 +4170,7 @@
 
 {synopt:{opt Source Notes}}Bilateral debt includes loans from governments and their agencies (including central banks), loans from autonomous bodies, and direct loans from official export credit agencies. Net flows (or net lending or net disbursements) received by the b{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -4300,7 +4300,7 @@
 
 {synopt:{opt Source Notes}}Bonds are securities issued with a fixed rate of interest for a period of more than one year. They include net flows through cross-border public and publicly guaranteed and private nonguaranteed bond issues. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -4378,7 +4378,7 @@
 
 {synopt:{opt Source Notes}}Private nonguaranteed external debt is an external obligation of a private debtor that is not guaranteed for repayment by a public entity. Net flows (or net lending or net disbursements) received by the borrower during the year are disbursemen{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/debt-statistics"}{p_end}
 
 
 {synoptline}
@@ -4417,7 +4417,7 @@
 
 {synopt:{opt Source Notes}}Net financial flows received by the borrower during the year are disbursements of loans and credits less repayments of principal. IMF is the International Monetary Fund, which provides concessional lending through the Poverty Reduction and Gro{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -4430,7 +4430,7 @@
 
 {synopt:{opt Source Notes}}Net financial flows received by the borrower during the year are disbursements of loans and credits less repayments of principal. IMF is the International Monetary Fund, which provides nonconcessional lending through the credit it provides to{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -4443,7 +4443,7 @@
 
 {synopt:{opt Source Notes}}Net financial flows received by the borrower during the year are disbursements of loans and credits less repayments of principal. IBRD is the International Bank for Reconstruction and Development, the founding and largest member of the World B{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -4456,7 +4456,7 @@
 
 {synopt:{opt Source Notes}}Net financial flows received by the borrower during the year are disbursements of loans and credits less repayments of principal. IDA is the International Development Association, the concessional loan window of the World Bank Group. Data are{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -4469,7 +4469,7 @@
 
 {synopt:{opt Source Notes}}Public and publicly guaranteed multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -4599,7 +4599,7 @@
 
 {synopt:{opt Source Notes}}Net financial flows received by the borrower during the year are disbursements of loans and credits less repayments of principal. Others is a residual category in the World Bank's Debtor Reporting System. It includes such institutions as the C{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -4625,7 +4625,7 @@
 
 {synopt:{opt Source Notes}}Nonguaranteed long-term debt privately placed from the International Finance Corporation (IFC). Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Data are in{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -4638,7 +4638,7 @@
 
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from official creditors includes loans from international organizations (multilateral loans) and loans from governments (bilateral loans). Loans from international organization include loans and credits from{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -4703,7 +4703,7 @@
 
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from bonds that are either publicly issued or privately placed. Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Data are{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -4768,7 +4768,7 @@
 
 {synopt:{opt Source Notes}}Public and publicly guaranteed commercial bank loans from private banks and other private financial institutions. Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repaym{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -4831,9 +4831,9 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Commercial bank and other lending includes net commercial bank lending (public and publicly guaranteed and private nonguaranteed) and other private credits. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Commercial bank and other lending includes net commercial bank lending (public and publicly guaranteed and private non- guaranteed) and other private credits. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/debt-statistics"}{p_end}
 
 
 {synoptline}
@@ -4846,7 +4846,7 @@
 
 {synopt:{opt Source Notes}}Nonguaranteed long-term debt from bonds that are privately placed. Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/debt-statistics,"} note: https://www.worldbank.org/en/programs/debt-statistics{p_end}
 
 
 {synoptline}
@@ -4859,7 +4859,7 @@
 
 {synopt:{opt Source Notes}}Nonguaranteed long-term commercial bank loans from private banks and other private financial institutions. Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. D{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/debt-statistics,"} note: https://www.worldbank.org/en/programs/debt-statistics{p_end}
 
 
 {synoptline}
@@ -4872,7 +4872,7 @@
 
 {synopt:{opt Source Notes}}Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Net flows (or net lending or net disbursements) received by t{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -4950,7 +4950,7 @@
 
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt from private creditors include bonds that are either publicly issued or privately placed; commercial bank loans from private banks and other private financial institutions; and other private credits from man{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -5015,7 +5015,7 @@
 
 {synopt:{opt Source Notes}}Net financial flows received by the borrower during the year are disbursements of loans and credits less repayments of principal. Concessional financial flows cover disbursements made through concessional lending facilities. Regional developme{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), note: {browse "https://www.worldbank.org/en/programs/debt-statistics"}{p_end}
 
 
 {synoptline}
@@ -5028,7 +5028,7 @@
 
 {synopt:{opt Source Notes}}Net financial flows received by the borrower during the year are disbursements of loans and credits less repayments of principal. Nonconcessional financial flows cover all disbursements except those made through concessional lending facilities{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/debt-statistics"}{p_end}
 
 
 {synoptline}
@@ -5782,7 +5782,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -5795,7 +5795,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
 
 
 {synoptline}
@@ -5808,7 +5808,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) per capita consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), b{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
 
 
 {synoptline}
@@ -5951,7 +5951,7 @@
 
 {synopt:{opt Source Notes}}Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF. Data are in current U.S.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -5964,7 +5964,7 @@
 
 {synopt:{opt Source Notes}}Total debt service to exports of goods, services and primary income. Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repa{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -5977,7 +5977,7 @@
 
 {synopt:{opt Source Notes}}Total debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term debt, interest paid on short-term debt, and repayments (repurchases and charges) to the IMF.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -6016,7 +6016,7 @@
 
 {synopt:{opt Source Notes}}IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. IMF charges cover interest payments with respect to all uses of IMF res{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -6068,7 +6068,7 @@
 
 {synopt:{opt Source Notes}}Debt service, the sum of principal repayments and interest actually paid in currency, goods, or services, is expressed as a percentage of exports of goods and services--all transactions between residents of a country and the rest of the world{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -6081,7 +6081,7 @@
 
 {synopt:{opt Source Notes}}Public and publicly guaranteed debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term obligations of public debtors and long-term private obligations guaranteed by a public entit{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -6092,9 +6092,9 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term obligations of public debtors and long-term private obligations guaranteed by a public entit{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt service to gross national income. Public and publicly guaranteed debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term obligations of public{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/debt-statistics"}{p_end}
 
 
 {synoptline}
@@ -6105,9 +6105,9 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Public and publicly guaranteed debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term obligations of public debtors and long-term private obligations guaranteed by a public entit{p_end}
+{synopt:{opt Source Notes}}Public and publicly guaranteed debt service to exports of goods, services, and income. Public and publicly guaranteed debt service is the sum of principal repayments and interest actually paid in currency, goods, or services on long-term oblig{p_end}
 
-{synopt:{opt Source Organization}}World Bank.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/debt-statistics"}{p_end}
 
 
 {synoptline}
@@ -6146,7 +6146,7 @@
 
 {synopt:{opt Source Notes}}Public and publicly guaranteed multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -6185,7 +6185,7 @@
 
 {synopt:{opt Source Notes}}Multilateral debt service is the repayment of principal and interest to the World Bank, regional development banks, and other multilateral agencies. public and publicly guaranteed debt service is the sum of principal repayments and interest ac{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -6703,9 +6703,9 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Total reserves comprise holdings of monetary gold, special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities. The gold component of these reserves is valued at y{p_end}
+{synopt:{opt Source Notes}}Reserve assets are external assets, including monetary gold, that are readily available to and controlled by monetary authorities for meeting balance of payments financing needs, for intervention in exchange markets to affect the currency exch{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -6716,9 +6716,9 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}International reserves to total external debt stocks.{p_end}
+{synopt:{opt Source Notes}}Reserve assets are external assets, including monetary gold, that are readily available to and controlled by monetary authorities for meeting balance of payments financing needs, for intervention in exchange markets to affect the currency exch{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -6729,9 +6729,9 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}Total reserves comprise holdings of monetary gold, special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities. The gold component of these reserves is valued at y{p_end}
+{synopt:{opt Source Notes}}Reserve assets are external assets, including monetary gold, that are readily available to and controlled by monetary authorities for meeting balance of payments financing needs, for intervention in exchange markets to affect the currency exch{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -6742,10 +6742,10 @@
 
 {synopt:{opt Topics}}20 External Debt{p_end}
 
-{synopt:{opt Source Notes}}GNI (formerly GNP) is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output plus net receipts of primary income (compensation of employees and property income) from abr{p_end}
+{synopt:{opt Source Notes}}Gross national income is the total income earned by all residents within an economic territory during an accounting period. It is equal to gross domestic product plus earned income receivable from abroad minus earned income payable abroad. Thi{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

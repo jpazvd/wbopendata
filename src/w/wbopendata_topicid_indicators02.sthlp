@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -47,9 +47,9 @@
 
 {synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
-{synopt:{opt Source Notes}}Grants are defined as legally binding commitments that obligate a specific value of funds available for disbursement for which there is no repayment requirement. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Grants are transfers made in cash, goods or services for which no repayment is required.  For ODA reporting purposes, they also include forgiveness of non-military debt, support to non-governmental organisations, certain interest subsidies, an{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics, and OECD.{p_end}
+{synopt:{opt Source Organization}}DAC2A: Aid (ODA) disbursements to countries and regions, Organisation for Economic Co-operation and Development (OECD), uri: DSD_DAC2@DF_DAC2A, note: Development Assistance Committee of the Organisation for Economic Co-operation and Developmen{p_end}
 
 
 {synoptline}
@@ -62,7 +62,7 @@
 
 {synopt:{opt Source Notes}}Technical cooperation grants include free-standing technical cooperation grants, which are intended to finance the transfer of technical and managerial skills or of technology for the purpose of building up general national capacity without re{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics, and OECD.{p_end}
+{synopt:{opt Source Organization}}DAC2A: Aid (ODA) disbursements to countries and regions, Organisation for Economic Co-operation and Development (OECD), uri: DSD_DAC2@DF_DAC2A, note: Development Assistance Committee of the Organisation for Economic Co-operation and Developmen{p_end}
 
 
 {synoptline}
@@ -75,7 +75,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -88,7 +88,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -101,7 +101,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -114,7 +114,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -127,7 +127,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -140,7 +140,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -153,7 +153,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -166,7 +166,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -179,7 +179,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -192,7 +192,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -205,7 +205,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -218,7 +218,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -231,7 +231,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -244,7 +244,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -257,7 +257,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -270,7 +270,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -283,7 +283,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -296,7 +296,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -309,7 +309,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -322,7 +322,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -335,7 +335,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -348,7 +348,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -361,7 +361,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -374,7 +374,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -387,7 +387,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -400,7 +400,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -413,7 +413,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -426,7 +426,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -439,7 +439,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -452,7 +452,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -465,7 +465,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -504,7 +504,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -517,7 +517,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -530,7 +530,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -543,7 +543,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -556,7 +556,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -569,7 +569,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -582,7 +582,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -595,7 +595,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -608,7 +608,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -621,7 +621,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -634,7 +634,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -647,7 +647,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -660,7 +660,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -673,7 +673,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -686,7 +686,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -699,7 +699,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -712,7 +712,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -725,7 +725,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -738,12 +738,12 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
 {marker topicid_DT.ODA.ALLD.KD}
-{synopt:{bf:{help wbopendata_topicid##DT.ODA.ALLD.KD:DT.ODA.ALLD.KD} - Net official development assistance and official aid received (constant 2021 US$)}}
+{synopt:{bf:{help wbopendata_topicid##DT.ODA.ALLD.KD:DT.ODA.ALLD.KD} - Net official development assistance and official aid received (constant 2023 US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -751,7 +751,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -764,12 +764,12 @@
 
 {synopt:{opt Source Notes}}Net official aid refers to aid flows (net of repayments) from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Unio{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
 {marker topicid_DT.ODA.OATL.KD}
-{synopt:{bf:{help wbopendata_topicid##DT.ODA.OATL.KD:DT.ODA.OATL.KD} - Net official aid received (constant 2021 US$)}}
+{synopt:{bf:{help wbopendata_topicid##DT.ODA.OATL.KD:DT.ODA.OATL.KD} - Net official aid received (constant 2023 US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -777,7 +777,7 @@
 
 {synopt:{opt Source Notes}}Net official aid refers to aid flows (net of repayments) from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Unio{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -790,7 +790,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -803,7 +803,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
 
 
 {synoptline}
@@ -816,12 +816,12 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
 
 
 {synoptline}
 {marker topicid_DT.ODA.ODAT.KD}
-{synopt:{bf:{help wbopendata_topicid##DT.ODA.ODAT.KD:DT.ODA.ODAT.KD} - Net official development assistance received (constant 2021 US$)}}
+{synopt:{bf:{help wbopendata_topicid##DT.ODA.ODAT.KD:DT.ODA.ODAT.KD} - Net official development assistance received (constant 2023 US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -829,7 +829,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
 
 
 {synoptline}
@@ -842,7 +842,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
 
 
 {synoptline}
@@ -855,7 +855,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) per capita consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), b{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
 
 
 {synoptline}
@@ -868,33 +868,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
-
-
-{synoptline}
-{marker topicid_SE.ENR.PRSC.FM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.ENR.PRSC.FM.ZS:SE.ENR.PRSC.FM.ZS} - School enrollment, primary and secondary (gross), gender parity index (GPI)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
-
-{synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary and secondary education is the ratio of girls to boys enrolled at primary and secondary levels in public and private schools.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.PRM.CMPT.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.PRM.CMPT.ZS:SE.PRM.CMPT.ZS} - Primary completion rate, total (% of relevant age group)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
-
-{synopt:{opt Source Notes}}Primary completion rate, or gross intake ratio to the last grade of primary education, is the number of new entrants (enrollments minus repeaters) in the last grade of primary education, regardless of age, divided by the population at the entr{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
 
 
 {synoptline}
@@ -907,7 +881,7 @@
 
 {synopt:{opt Source Notes}}Under-five mortality rate is the probability per 1,000 that a newborn baby will die before reaching age five, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org,"} publisher: UNICEF, WHO, World Bank, United Nations Population Division;{p_end}
 
 
 {synoptline}
@@ -920,8 +894,8 @@
 
 {synopt:{opt Source Notes}}Net migration is the net total of migrants during the period, that is, the number of immigrants minus the number of emigrants, including both citizens and noncitizens.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
+{synopt:{opt Source Organization}}World Population Prospects, United Nations (UN), publisher: UN Population Division{p_end}
 
 
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

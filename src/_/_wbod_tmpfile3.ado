@@ -1,4 +1,4 @@
-*! _wbod_tmpfile3 <2 Jul 2024 : 12:10:46>                 by João Pedro Azevedo
+*! _wbod_tmpfile3 <21 Dec 2025 : 11:49:18>                 by João Pedro Azevedo
 *                 auto generated and updated using _update_countrymetadata.ado 
   
  program define _wbod_tmpfile3 
@@ -47,7 +47,7 @@
          cap: replace lendingtype = "LNX"     if `match' == "CHI"  
          cap: replace lendingtype = "IBD"     if `match' == "CHL"  
          cap: replace lendingtype = "IBD"     if `match' == "CHN"  
-         cap: replace lendingtype = "IDX"     if `match' == "CIV"  
+         cap: replace lendingtype = "IDB"     if `match' == "CIV"  
          cap: replace lendingtype = "IDB"     if `match' == "CMR"  
          cap: replace lendingtype = "IDX"     if `match' == "COD"  
          cap: replace lendingtype = "IDB"     if `match' == "COG"  
@@ -189,7 +189,7 @@
          cap: replace lendingtype = "IBD"     if `match' == "SRB"  
          cap: replace lendingtype = "IDX"     if `match' == "SSD"  
          cap: replace lendingtype = "IDX"     if `match' == "STP"  
-         cap: replace lendingtype = "IBD"     if `match' == "SUR"  
+         cap: replace lendingtype = "IDB"     if `match' == "SUR"  
          cap: replace lendingtype = "LNX"     if `match' == "SVK"  
          cap: replace lendingtype = "LNX"     if `match' == "SVN"  
          cap: replace lendingtype = "LNX"     if `match' == "SWE"  
@@ -291,7 +291,7 @@
          cap: replace lendingtype_iso2 = "XX"     if `match' == "CHI"  
          cap: replace lendingtype_iso2 = "XF"     if `match' == "CHL"  
          cap: replace lendingtype_iso2 = "XF"     if `match' == "CHN"  
-         cap: replace lendingtype_iso2 = "XI"     if `match' == "CIV"  
+         cap: replace lendingtype_iso2 = "XH"     if `match' == "CIV"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "CLA"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "CME"  
          cap: replace lendingtype_iso2 = "XH"     if `match' == "CMR"  
@@ -488,7 +488,7 @@
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "SSF"  
          cap: replace lendingtype_iso2 = "Aggregates"     if `match' == "SST"  
          cap: replace lendingtype_iso2 = "XI"     if `match' == "STP"  
-         cap: replace lendingtype_iso2 = "XF"     if `match' == "SUR"  
+         cap: replace lendingtype_iso2 = "XH"     if `match' == "SUR"  
          cap: replace lendingtype_iso2 = "XX"     if `match' == "SVK"  
          cap: replace lendingtype_iso2 = "XX"     if `match' == "SVN"  
          cap: replace lendingtype_iso2 = "XX"     if `match' == "SWE"  
@@ -586,7 +586,7 @@
          cap: replace lendingtypename = "Not classified"     if `match' == "CHI"  
          cap: replace lendingtypename = "IBRD"     if `match' == "CHL"  
          cap: replace lendingtypename = "IBRD"     if `match' == "CHN"  
-         cap: replace lendingtypename = "IDA"     if `match' == "CIV"  
+         cap: replace lendingtypename = "Blend"     if `match' == "CIV"  
          cap: replace lendingtypename = "Blend"     if `match' == "CMR"  
          cap: replace lendingtypename = "IDA"     if `match' == "COD"  
          cap: replace lendingtypename = "Blend"     if `match' == "COG"  
@@ -728,7 +728,7 @@
          cap: replace lendingtypename = "IBRD"     if `match' == "SRB"  
          cap: replace lendingtypename = "IDA"     if `match' == "SSD"  
          cap: replace lendingtypename = "IDA"     if `match' == "STP"  
-         cap: replace lendingtypename = "IBRD"     if `match' == "SUR"  
+         cap: replace lendingtypename = "Blend"     if `match' == "SUR"  
          cap: replace lendingtypename = "Not classified"     if `match' == "SVK"  
          cap: replace lendingtypename = "Not classified"     if `match' == "SVN"  
          cap: replace lendingtypename = "Not classified"     if `match' == "SWE"  

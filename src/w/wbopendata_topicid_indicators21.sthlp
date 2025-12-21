@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -47,9 +47,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Trade in services is the sum of service exports and imports divided by the value of GDP, all in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Total trade in services includes services provided by residents to non-residents plus services provided by non-residents to residents. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -62,7 +62,7 @@
 
 {synopt:{opt Source Notes}}Communications, computer, information, and other services cover international telecommunications; computer data; news-related service transactions between residents and nonresidents; construction services; royalties and license fees; miscellan{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -73,9 +73,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Imports of goods and services comprise all transactions between residents of a country and the rest of the world involving a change of ownership from nonresidents to residents of general merchandise, nonmonetary gold, and services. Data are in{p_end}
+{synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -88,7 +88,7 @@
 
 {synopt:{opt Source Notes}}Insurance and financial services cover various types of insurance provided to nonresidents by resident insurance enterprises and vice versa, and financial intermediary and auxiliary services (except those of insurance enterprises and pension f{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -99,9 +99,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Goods imports refer to all movable goods (including nonmonetary gold) involved in a change of ownership from nonresidents to residents. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Imports of goods occur when there are changes in the economic ownership of goods from non-residents to residents of the compiling economy, irrespective of physical movement of goods across national borders. This indicator is expressed in curre{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -112,9 +112,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Services refer to economic output of intangible commodities that may be produced, transferred, and consumed at the same time. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Imports of services are services provided by non-residents to residents. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This indicator is expressed in United States do{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -125,9 +125,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Imports of goods, services and primary income is the sum of goods imports, service imports and primary income payments. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -138,9 +138,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Transport covers all transport services (sea, air, land, internal waterway, pipeline, space and electricity transmission) performed by residents of one economy for those of another and involving the carriage of passengers, the movement of good{p_end}
+{synopt:{opt Source Notes}}Transport services covers the process of carriage of people and objects from one location to another as well as related supporting and auxiliary services. Also included are postal and courier services. This indicator is expressed as a percenta{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -151,9 +151,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Travel covers goods and services acquired from an economy by travelers for their own use during visits of less than one year in that economy for either business or personal purposes. Travel includes local transport (i.e., transport within the{p_end}
+{synopt:{opt Source Notes}}Travel services cover goods and services for own use or to give away acquired from an economy by nonresidents during visits to that economy, or acquired from other economies by residents during visits to these other economies. This indicator i{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -164,9 +164,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Net trade in goods and services is derived by offsetting imports of goods and services against exports of goods and services. Exports and imports of goods and services comprise all transactions involving a change of ownership of goods and serv{p_end}
+{synopt:{opt Source Notes}}The balance of international trade in goods and services is the difference between the exports and imports of goods and services. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes o{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -177,9 +177,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Net trade in goods is the difference between exports and imports of goods. Trade in services is not included. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}The balance of international trade in goods is the difference between the exports and imports of goods. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This indicator i{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -192,7 +192,7 @@
 
 {synopt:{opt Source Notes}}Information and communication technology service exports include computer and communications services (telecommunications and postal and courier services) and information services (computer data and news-related service transactions). Data are{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -205,7 +205,7 @@
 
 {synopt:{opt Source Notes}}Information and communication technology service exports include computer and communications services (telecommunications and postal and courier services) and information services (computer data and news-related service transactions).{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -218,7 +218,7 @@
 
 {synopt:{opt Source Notes}}Communications, computer, information, and other services cover international telecommunications; computer data; news-related service transactions between residents and nonresidents; construction services; royalties and license fees; miscellan{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -229,9 +229,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods and services comprise all transactions between residents of a country and the rest of the world involving a change of ownership from residents to nonresidents of general merchandise, net exports of goods under merchanting, non{p_end}
+{synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -244,7 +244,7 @@
 
 {synopt:{opt Source Notes}}Insurance and financial services cover various types of insurance provided to nonresidents by resident insurance enterprises and vice versa, and financial intermediary and auxiliary services (except those of insurance enterprises and pension f{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -255,9 +255,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Goods exports refer to all movable goods (including nonmonetary gold and net exports of goods under merchanting) involved in a change of ownership from residents to nonresidents. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Exports of goods occur when there are changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. This indicator is expressed in curre{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -268,9 +268,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Services refer to economic output of intangible commodities that may be produced, transferred, and consumed at the same time. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Exports of services are services provided by residents to non-residents. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This indicator is expressed in United States do{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -281,9 +281,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods, services and primary income is the sum of goods exports, service exports and primary income receipts. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -294,9 +294,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Transport covers all transport services (sea, air, land, internal waterway, pipeline, space and electricity transmission) performed by residents of one economy for those of another and involving the carriage of passengers, the movement of good{p_end}
+{synopt:{opt Source Notes}}Transport services covers the process of carriage of people and objects from one location to another as well as related supporting and auxiliary services. Also included are postal and courier services. This indicator is expressed as a percenta{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -307,9 +307,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Travel covers goods and services acquired from an economy by travelers for their own use during visits of less than one year in that economy for either business or personal purposes. Travel includes local transport (i.e., transport within the{p_end}
+{synopt:{opt Source Notes}}Travel services cover goods and services for own use or to give away acquired from an economy by nonresidents during visits to that economy, or acquired from other economies by residents during visits to these other economies. This indicator i{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -320,9 +320,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Net energy imports are estimated as energy use less production, both measured in oil equivalents. A negative value indicates that the country is a net exporter. Energy use refers to use of primary energy before transformation to other end-use{p_end}
+{synopt:{opt Source Notes}}Net energy imports are estimated as gross imports less gross exports, both measured in tons of oil equivalents (toe). A negative value indicates that the country is a net exporter. Energy use refers to use of primary energy before transformati{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -333,9 +333,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Taxes on exports are all levies on goods being transported out of the country or services being delivered to nonresidents by residents. Rebates on exported goods that are repayments of previously paid general consumption taxes, excise taxes, o{p_end}
+{synopt:{opt Source Notes}}Export taxes are taxes on goods or services that become payable to government when the goods leave the economic territory or when the services are delivered to non-residents. This indicator is expressed as a percentage of tax revenue which inc{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -346,9 +346,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Customs and other import duties are all levies collected on goods that are entering the country or services delivered by nonresidents to residents. They include levies imposed for revenue or protection purposes and determined on a specific or{p_end}
+{synopt:{opt Source Notes}}Taxes and duties on imports are taxes on goods and services that become payable at the moment when goods enter the economic territory or when services are delivered by non-resident producers to residents. This indicator is expressed as a perce{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -359,9 +359,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Average time to clear exports through customs is the average number of days to clear direct exports through customs.{p_end}
+{synopt:{opt Source Notes}}Average number of days to clear direct exports through customs.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data,"} note: All surveys were administered using the Enterprise Surveys methodology as outlined in the Methodology page which can be found from www.enterprisesurveys{p_end}
 
 
 {synoptline}
@@ -381,7 +381,7 @@
 {marker topicid_IC.EXP.CSBC.CD}
 {synopt:{bf:{help wbopendata_topicid##IC.EXP.CSBC.CD:IC.EXP.CSBC.CD} - Cost to export, border compliance (US$)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
@@ -394,7 +394,7 @@
 {marker topicid_IC.EXP.CSDC.CD}
 {synopt:{bf:{help wbopendata_topicid##IC.EXP.CSDC.CD:IC.EXP.CSDC.CD} - Cost to export, documentary compliance (US$)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
@@ -433,7 +433,7 @@
 {marker topicid_IC.EXP.TMBC}
 {synopt:{bf:{help wbopendata_topicid##IC.EXP.TMBC:IC.EXP.TMBC} - Time to export, border compliance (hours)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
@@ -446,7 +446,7 @@
 {marker topicid_IC.EXP.TMDC}
 {synopt:{bf:{help wbopendata_topicid##IC.EXP.TMDC:IC.EXP.TMDC} - Time to export, documentary compliance (hours)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
@@ -472,7 +472,7 @@
 {marker topicid_IC.IMP.CSBC.CD}
 {synopt:{bf:{help wbopendata_topicid##IC.IMP.CSBC.CD:IC.IMP.CSBC.CD} - Cost to import, border compliance (US$)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
@@ -485,7 +485,7 @@
 {marker topicid_IC.IMP.CSDC.CD}
 {synopt:{bf:{help wbopendata_topicid##IC.IMP.CSDC.CD:IC.IMP.CSDC.CD} - Cost to import, documentary compliance (US$)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
@@ -524,7 +524,7 @@
 {marker topicid_IC.IMP.TMBC}
 {synopt:{bf:{help wbopendata_topicid##IC.IMP.TMBC:IC.IMP.TMBC} - Time to import, border compliance (hours)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
@@ -537,7 +537,7 @@
 {marker topicid_IC.IMP.TMDC}
 {synopt:{bf:{help wbopendata_topicid##IC.IMP.TMDC:IC.IMP.TMDC} - Time to import, documentary compliance (hours)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
@@ -556,7 +556,7 @@
 
 {synopt:{opt Source Notes}}Lead time to export is the median time (the value for 50 percent of shipments) from shipment point to port of loading. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10 percent of{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}Logistic Performance Index Surveys, World Bank (WB), uri: {browse "https://lpi.worldbank.org/,"} note: Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and It{p_end}
 
 
 {synoptline}
@@ -569,7 +569,7 @@
 
 {synopt:{opt Source Notes}}Lead time to import is the median time (the value for 50 percent of shipments) from port of discharge to arrival at the consignee. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}Logistic Performance Index Surveys, World Bank (WB), uri: {browse "https://lpi.worldbank.org/,"} note: Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and It{p_end}
 
 
 {synoptline}
@@ -582,7 +582,7 @@
 
 {synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
+{synopt:{opt Source Organization}}Connecting to Compete - Logistics Performance Index (LPI), World Bank (WB), uri: {browse "https://lpi.worldbank.org"}{p_end}
 
 
 {synoptline}
@@ -595,7 +595,7 @@
 
 {synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
+{synopt:{opt Source Organization}}Connecting to Compete - Logistics Performance Index (LPI), World Bank (WB), uri: {browse "https://lpi.worldbank.org"}{p_end}
 
 
 {synoptline}
@@ -608,7 +608,7 @@
 
 {synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
+{synopt:{opt Source Organization}}Connecting to Compete - Logistics Performance Index (LPI), World Bank (WB), uri: {browse "https://lpi.worldbank.org"}{p_end}
 
 
 {synoptline}
@@ -621,7 +621,7 @@
 
 {synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
+{synopt:{opt Source Organization}}Connecting to Compete - Logistics Performance Index (LPI), World Bank (WB), uri: {browse "https://lpi.worldbank.org"}{p_end}
 
 
 {synoptline}
@@ -634,7 +634,7 @@
 
 {synopt:{opt Source Notes}}The Logistics Performance Index overall score reflects perceptions of a country's logistics based on the efficiency of customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competitively priced sh{p_end}
 
-{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
+{synopt:{opt Source Organization}}Connecting to Compete - Logistics Performance Index (LPI), World Bank (WB), uri: {browse "https://lpi.worldbank.org"}{p_end}
 
 
 {synoptline}
@@ -647,7 +647,7 @@
 
 {synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
+{synopt:{opt Source Organization}}Connecting to Compete - Logistics Performance Index (LPI), World Bank (WB), uri: {browse "https://lpi.worldbank.org"}{p_end}
 
 
 {synoptline}
@@ -660,7 +660,7 @@
 
 {synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
+{synopt:{opt Source Organization}}Connecting to Compete - Logistics Performance Index (LPI), World Bank (WB), uri: {browse "https://lpi.worldbank.org"}{p_end}
 
 
 {synoptline}
@@ -671,9 +671,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Arms transfers cover the supply of military weapons through sales, aid, gifts, and those made through manufacturing licenses. Data cover major conventional weapons such as aircraft, armored vehicles, artillery, radar systems, missiles, and shi{p_end}
+{synopt:{opt Source Notes}}Arms transfers (imports) cover the volume of transfers of major arms through sales and gifts, and those made through manufacturing licenses. Data cover major conventional weapons such as aircraft, armored vehicles, artillery, radar systems, mi{p_end}
 
-{synopt:{opt Source Organization}}Stockholm International Peace Research Institute (SIPRI), Arms Transfers Programme ({browse "http://portal.sipri.org/publications/pages/transfer/splash"}).{p_end}
+{synopt:{opt Source Organization}}Arms Transfers Programme, Stockholm International Peace Research Institute (SIPRI), uri: {browse "https://armstransfers.sipri.org/ArmsTransfer/"}{p_end}
 
 
 {synoptline}
@@ -684,9 +684,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Arms transfers cover the supply of military weapons through sales, aid, gifts, and those made through manufacturing licenses. Data cover major conventional weapons such as aircraft, armored vehicles, artillery, radar systems, missiles, and shi{p_end}
+{synopt:{opt Source Notes}}Arms transfers (exports) cover the volume of transfers of major arms through sales and gifts, and those made through manufacturing licenses. Data cover major conventional weapons such as aircraft, armored vehicles, artillery, radar systems, mi{p_end}
 
-{synopt:{opt Source Organization}}Stockholm International Peace Research Institute (SIPRI), Arms Transfers Programme ({browse "http://portal.sipri.org/publications/pages/transfer/splash"}).{p_end}
+{synopt:{opt Source Organization}}Arms Transfers Programme, Stockholm International Peace Research Institute (SIPRI), uri: {browse "https://armstransfers.sipri.org/ArmsTransfer/"}{p_end}
 
 
 {synoptline}
@@ -697,9 +697,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other servic{p_end}
+{synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -710,9 +710,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other servic{p_end}
+{synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -723,9 +723,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Annual growth rate of exports of goods and services based on constant local currency. Aggregates are based on constant 2015 prices, expressed in U.S. dollars. Exports of goods and services represent the value of all goods and other market serv{p_end}
+{synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -736,9 +736,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other servic{p_end}
+{synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -749,9 +749,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other serv{p_end}
+{synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -762,9 +762,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other serv{p_end}
+{synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -775,9 +775,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Annual growth rate of imports of goods and services based on constant local currency. Aggregates are based on constant 2015 prices, expressed in U.S. dollars. Imports of goods and services represent the value of all goods and other market serv{p_end}
+{synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -788,9 +788,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other serv{p_end}
+{synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -801,9 +801,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}External balance on goods and services (formerly resource balance) equals exports of goods and services minus imports of goods and services (previously nonfactor services). Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}The balance of international trade in goods and services is the difference between the exports and imports of goods and services. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes o{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -814,9 +814,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}External balance on goods and services (formerly resource balance) equals exports of goods and services minus imports of goods and services (previously nonfactor services).{p_end}
+{synopt:{opt Source Notes}}The balance of international trade in goods and services is the difference between the exports and imports of goods and services. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned thro{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -827,9 +827,9 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Trade is the sum of exports and imports of goods and services measured as a share of gross domestic product.{p_end}
+{synopt:{opt Source Notes}}Trade is the sum of exports and imports of goods and services. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of goods and services in an economic territory d{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -840,10 +840,10 @@
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
-{synopt:{opt Source Notes}}Exports as a capacity to import equals the current price value of exports of goods and services deflated by the import price index. Data are in constant local currency.{p_end}
+{synopt:{opt Source Notes}}Exports as a capacity to import equals the current price value of exports of goods and services deflated by the import price index. This indicator is expressed in constant prices, meaning the series has been adjusted to account for price chang{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data, and OECD National Accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

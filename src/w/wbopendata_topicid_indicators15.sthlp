@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40,71 +40,6 @@
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:15 Social Development}}}
 {synoptline}
-{marker topicid_SE.ADT.1524.LT.FM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.ADT.1524.LT.FM.ZS:SE.ADT.1524.LT.FM.ZS} - Literacy rate, youth (ages 15-24), gender parity index (GPI)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}15 Social Development{p_end}
-
-{synopt:{opt Source Notes}}Gender parity index for youth literacy rate is the ratio of females to males ages 15-24 who can both read and write with understanding a short simple statement about their everyday life.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.ENR.PRIM.FM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.ENR.PRIM.FM.ZS:SE.ENR.PRIM.FM.ZS} - School enrollment, primary (gross), gender parity index (GPI)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}15 Social Development{p_end}
-
-{synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary education is the ratio of girls to boys enrolled at primary level in public and private schools.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.ENR.PRSC.FM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.ENR.PRSC.FM.ZS:SE.ENR.PRSC.FM.ZS} - School enrollment, primary and secondary (gross), gender parity index (GPI)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}15 Social Development{p_end}
-
-{synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in primary and secondary education is the ratio of girls to boys enrolled at primary and secondary levels in public and private schools.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.ENR.SECO.FM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.ENR.SECO.FM.ZS:SE.ENR.SECO.FM.ZS} - School enrollment, secondary (gross), gender parity index (GPI)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}15 Social Development{p_end}
-
-{synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in secondary education is the ratio of girls to boys enrolled at secondary level in public and private schools.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed October 24, 2022. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
-{marker topicid_SE.ENR.TERT.FM.ZS}
-{synopt:{bf:{help wbopendata_topicid##SE.ENR.TERT.FM.ZS:SE.ENR.TERT.FM.ZS} - School enrollment, tertiary (gross), gender parity index (GPI)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}15 Social Development{p_end}
-
-{synopt:{opt Source Notes}}Gender parity index for gross enrollment ratio in tertiary education is the ratio of women to men enrolled at tertiary level in public and private schools.{p_end}
-
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
-
-
-{synoptline}
 {marker topicid_SP.DYN.LE00.FE.IN}
 {synopt:{bf:{help wbopendata_topicid##SP.DYN.LE00.FE.IN:SP.DYN.LE00.FE.IN} - Life expectancy at birth, female (years)}}
 
@@ -114,7 +49,7 @@
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision; (2) Statistical databases and publications from national statistical offices; (3) Eurostat: Demographic Statistics.{p_end}
+{synopt:{opt Source Organization}}World Population Prospects, United Nations (UN), publisher: UN Population Division;{p_end}
 
 
 {synoptline}
@@ -127,8 +62,8 @@
 
 {synopt:{opt Source Notes}}Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.{p_end}
 
-{synopt:{opt Source Organization}}(1) United Nations Population Division. World Population Prospects: 2022 Revision; (2) Statistical databases and publications from national statistical offices; (3) Eurostat: Demographic Statistics.{p_end}
+{synopt:{opt Source Organization}}World Population Prospects, United Nations (UN), publisher: UN Population Division;{p_end}
 
 
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

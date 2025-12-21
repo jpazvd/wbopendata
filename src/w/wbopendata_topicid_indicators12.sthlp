@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -47,9 +47,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Trade in services is the sum of service exports and imports divided by the value of GDP, all in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Total trade in services includes services provided by residents to non-residents plus services provided by non-residents to residents. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -62,7 +62,7 @@
 
 {synopt:{opt Source Notes}}Insurance and financial services cover various types of insurance provided to nonresidents by resident insurance enterprises and vice versa, and financial intermediary and auxiliary services (except those of insurance enterprises and pension f{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -75,7 +75,7 @@
 
 {synopt:{opt Source Notes}}Insurance and financial services cover various types of insurance provided to nonresidents by resident insurance enterprises and vice versa, and financial intermediary and auxiliary services (except those of insurance enterprises and pension f{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -88,14 +88,14 @@
 
 {synopt:{opt Source Notes}}Domestic credit to private sector refers to financial resources provided to the private sector by financial corporations, such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
 {marker topicid_IC.BUS.DFRN.XQ}
-{synopt:{bf:{help wbopendata_topicid##IC.BUS.DFRN.XQ:IC.BUS.DFRN.XQ} - Ease of doing business score (0 = lowest performance to 100 = best performance)}}
+{synopt:{bf:{help wbopendata_topicid##IC.BUS.DFRN.XQ:IC.BUS.DFRN.XQ} - Distance to frontier score (0=lowest performance to 100=frontier)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -108,7 +108,7 @@
 {marker topicid_IC.BUS.DISC.XQ}
 {synopt:{bf:{help wbopendata_topicid##IC.BUS.DISC.XQ:IC.BUS.DISC.XQ} - Business extent of disclosure index (0=less disclosure to 10=more disclosure)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -119,9 +119,9 @@
 
 {synoptline}
 {marker topicid_IC.BUS.EASE.XQ}
-{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - Ease of doing business rank (1=most business-friendly regulations)}}
+{synopt:{bf:{help wbopendata_topicid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - Ease of doing business index (1=most business-friendly regulations)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -138,9 +138,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}New business density is defined as the number of newly registered companies with limited liability{p_end}
+{synopt:{opt Source Notes}}The number of newly registered firms with limited liability per 1,000 working-age people (ages 15-64) per calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}Entrepreneurship Database, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/entrepreneurship"}{p_end}
 
 
 {synoptline}
@@ -153,14 +153,14 @@
 
 {synopt:{opt Source Notes}}New businesses registered are the number of new limited liability corporations (or its equivalent) registered in the calendar year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank's Entrepreneurship Database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}).{p_end}
+{synopt:{opt Source Organization}}Entrepreneurship Database, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/entrepreneurship"}{p_end}
 
 
 {synoptline}
 {marker topicid_IC.CRD.INFO.XQ}
 {synopt:{bf:{help wbopendata_topicid##IC.CRD.INFO.XQ:IC.CRD.INFO.XQ} - Depth of credit information index (0=low to 8=high)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -173,7 +173,7 @@
 {marker topicid_IC.CRD.PRVT.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.CRD.PRVT.ZS:IC.CRD.PRVT.ZS} - Private credit bureau coverage (% of adults)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -186,7 +186,7 @@
 {marker topicid_IC.CRD.PUBL.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.CRD.PUBL.ZS:IC.CRD.PUBL.ZS} - Public credit registry coverage (% of adults)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -203,9 +203,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Average time to clear exports through customs is the average number of days to clear direct exports through customs.{p_end}
+{synopt:{opt Source Notes}}Average number of days to clear direct exports through customs.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data,"} note: All surveys were administered using the Enterprise Surveys methodology as outlined in the Methodology page which can be found from www.enterprisesurveys{p_end}
 
 
 {synoptline}
@@ -216,22 +216,22 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}The average wait, in days, experienced to obtain an electrical connection from the day an establishment applies for it to the day it receives the service.{p_end}
+{synopt:{opt Source Notes}}Average wait, in days, experienced to obtain electrical connection from the day this establishment applied for it to the day it received the service.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data"}{p_end}
 
 
 {synoptline}
 {marker topicid_IC.ELC.OUTG}
 {synopt:{bf:{help wbopendata_topicid##IC.ELC.OUTG:IC.ELC.OUTG} - Power outages in firms in a typical month (number)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Power outages are the average number of power outages that establishments experience in a typical month.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "http://www.enterprisesurveys.org/"}{p_end}
 
 
 {synoptline}
@@ -242,16 +242,16 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Percent of firms experiencing electrical outages during the previous fiscal year.{p_end}
+{synopt:{opt Source Notes}}Percentage of firms that experienced power outages over the last complete fiscal year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data"}{p_end}
 
 
 {synoptline}
 {marker topicid_IC.ELC.TIME}
 {synopt:{bf:{help wbopendata_topicid##IC.ELC.TIME:IC.ELC.TIME} - Time required to get electricity (days)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -329,7 +329,7 @@
 {marker topicid_IC.EXP.CSBC.CD}
 {synopt:{bf:{help wbopendata_topicid##IC.EXP.CSBC.CD:IC.EXP.CSBC.CD} - Cost to export, border compliance (US$)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -342,7 +342,7 @@
 {marker topicid_IC.EXP.CSDC.CD}
 {synopt:{bf:{help wbopendata_topicid##IC.EXP.CSDC.CD:IC.EXP.CSDC.CD} - Cost to export, documentary compliance (US$)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -381,7 +381,7 @@
 {marker topicid_IC.EXP.TMBC}
 {synopt:{bf:{help wbopendata_topicid##IC.EXP.TMBC:IC.EXP.TMBC} - Time to export, border compliance (hours)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -394,7 +394,7 @@
 {marker topicid_IC.EXP.TMDC}
 {synopt:{bf:{help wbopendata_topicid##IC.EXP.TMDC:IC.EXP.TMDC} - Time to export, documentary compliance (hours)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -411,9 +411,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Firms using banks to finance working capital are the percentage of firms using bank loans to finance working capital.{p_end}
+{synopt:{opt Source Notes}}Percentage of firms using bank loans to finance working capital.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data"}{p_end}
 
 
 {synoptline}
@@ -424,9 +424,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Firms using banks to finance investment are the percentage of firms using banks to finance investments.{p_end}
+{synopt:{opt Source Notes}}Percentage of firms using banks to finance purchases of fixed assets.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data"}{p_end}
 
 
 {synoptline}
@@ -437,9 +437,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Bribery incidence is the percentage of firms experiencing at least one bribe payment request across 6 public transactions dealing with utilities access, permits, licenses, and taxes.{p_end}
+{synopt:{opt Source Notes}}The percent of firms experiencing at least one bribe payment request across 6 public transactions dealing with utilities access, permits, licenses, and taxes.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data"}{p_end}
 
 
 {synoptline}
@@ -450,9 +450,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Firms competing against unregistered firms are the percentage of firms competing against unregistered or informal firms.{p_end}
+{synopt:{opt Source Notes}}Percentage of firms competing against unregistered or informal firms.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data"}{p_end}
 
 
 {synoptline}
@@ -463,22 +463,22 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Informal payments to public officials are the percentage of firms expected to make informal payments to public officials to get things done with regard to customs, taxes, licenses, regulations, services, and the like.{p_end}
+{synopt:{opt Source Notes}}Percentage of establishments that consider that firms with characteristics similar to theirs are making informal payments or giving gifts to public officials to get things done” with regard to customs, taxes, licenses, regulations, services{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data"}{p_end}
 
 
 {synoptline}
 {marker topicid_IC.FRM.CRIM.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.FRM.CRIM.ZS:IC.FRM.CRIM.ZS} - Losses due to theft and vandalism (% of annual sales for affected firms)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Average losses as a result of theft, robbery, vandalism or arson that occurred on the establishment’s premises calculated as a percentage of annual sales. The value represents the average losses for all firms which reported losses (please se{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}){p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "http://www.enterprisesurveys.org/"}{p_end}
 
 
 {synoptline}
@@ -489,9 +489,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Time required to obtain operating license is the average wait to obtain an operating license from the day the establishment applied for it to the day it was granted.{p_end}
+{synopt:{opt Source Notes}}The average wait, in days, to obtain an operating license, from the day of the application to the day it was granted.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data"}{p_end}
 
 
 {synoptline}
@@ -502,9 +502,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Firms with female top manager refers to the percentage of firms in the private sector who have females as top managers. Top manager refers to the highest ranking manager or CEO of the establishment. This person may be the owner if he/she works{p_end}
+{synopt:{opt Source Notes}}Percentage of firms with females as the top manager.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data"}{p_end}
 
 
 {synoptline}
@@ -515,9 +515,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Firms with female participation in ownership are the percentage of firms with a woman among the principal owners.{p_end}
+{synopt:{opt Source Notes}}Percentage of firms with females among the owners.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data"}{p_end}
 
 
 {synoptline}
@@ -528,22 +528,22 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Firms formally registered when operations started are the percentage of firms formally registered when they started operations in the country.{p_end}
+{synopt:{opt Source Notes}}Percentage of firms formally registered when they started operations in the country.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data"}{p_end}
 
 
 {synoptline}
 {marker topicid_IC.FRM.INFM.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.FRM.INFM.ZS:IC.FRM.INFM.ZS} - Firms that do not report all sales for tax purposes (% of firms)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Firms that do not report all sales for tax purposes are the percentage of firms that expressed that a typical firm reports less than 100 percent of sales for tax purposes; such firms are termed informal firms.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "http://www.enterprisesurveys.org/"}{p_end}
 
 
 {synoptline}
@@ -567,9 +567,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Percent of firms that were visited or required to meet with tax officials.{p_end}
+{synopt:{opt Source Notes}}Percentage of firms that were visited or inspected by tax officials or were required to meet with them over the last year.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data"}{p_end}
 
 
 {synoptline}
@@ -580,35 +580,35 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Average losses due to electrical outages, as percentage of total annual sales. The value represents average losses for all firms which reported outages (please see indicator IC.ELC.OUTG.ZS).{p_end}
+{synopt:{opt Source Notes}}Losses due to electrical outages, as percentage of total annual sales. The value represents average losses for all firms which reported outages (please see indicator IC.ELC.OUTG.ZS).{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data"}{p_end}
 
 
 {synoptline}
 {marker topicid_IC.FRM.RSDV.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.FRM.RSDV.ZS:IC.FRM.RSDV.ZS} - Firms that spend on R&amp;D (% of firms)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Percent of firms that spend on research and development.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "http://www.enterprisesurveys.org/"}{p_end}
 
 
 {synoptline}
 {marker topicid_IC.FRM.THEV.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.FRM.THEV.ZS:IC.FRM.THEV.ZS} - Firms experiencing losses due to theft and vandalism (% of firms)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Percent of firms experiencing losses due to theft, robbery, vandalism or arson that occurred on the establishment's premises.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "http://www.enterprisesurveys.org/"}{p_end}
 
 
 {synoptline}
@@ -632,9 +632,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Firms offering formal training are the percentage of firms offering formal training programs for their permanent, full-time employees.{p_end}
+{synopt:{opt Source Notes}}Percentage of firms offering formal training programs for its permanent, full-time employees.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data"}{p_end}
 
 
 {synoptline}
@@ -645,9 +645,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Time spent dealing with the requirements of government regulations is the proportion of senior management's time, in a typical week, that is spent dealing with the requirements imposed by government regulations (e.g., taxes, customs, labor reg{p_end}
+{synopt:{opt Source Notes}}Average percentage of senior management’s time that is spent in a typical week dealing with requirements imposed by government regulations (eg. Taxes, customs, labor regulations, licensing and registration), including dealings with officials{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data"}{p_end}
 
 
 {synoptline}
@@ -667,7 +667,7 @@
 {marker topicid_IC.IMP.CSBC.CD}
 {synopt:{bf:{help wbopendata_topicid##IC.IMP.CSBC.CD:IC.IMP.CSBC.CD} - Cost to import, border compliance (US$)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -680,7 +680,7 @@
 {marker topicid_IC.IMP.CSDC.CD}
 {synopt:{bf:{help wbopendata_topicid##IC.IMP.CSDC.CD:IC.IMP.CSDC.CD} - Cost to import, documentary compliance (US$)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -719,7 +719,7 @@
 {marker topicid_IC.IMP.TMBC}
 {synopt:{bf:{help wbopendata_topicid##IC.IMP.TMBC:IC.IMP.TMBC} - Time to import, border compliance (hours)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -732,7 +732,7 @@
 {marker topicid_IC.IMP.TMDC}
 {synopt:{bf:{help wbopendata_topicid##IC.IMP.TMDC:IC.IMP.TMDC} - Time to import, documentary compliance (hours)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -745,7 +745,7 @@
 {marker topicid_IC.ISV.DURS}
 {synopt:{bf:{help wbopendata_topicid##IC.ISV.DURS:IC.ISV.DURS} - Time to resolve insolvency (years)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -758,7 +758,7 @@
 {marker topicid_IC.LGL.CRED.XQ}
 {synopt:{bf:{help wbopendata_topicid##IC.LGL.CRED.XQ:IC.LGL.CRED.XQ} - Strength of legal rights index (0=weak to 12=strong)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -771,7 +771,7 @@
 {marker topicid_IC.LGL.DURS}
 {synopt:{bf:{help wbopendata_topicid##IC.LGL.DURS:IC.LGL.DURS} - Time required to enforce a contract (days)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -784,7 +784,7 @@
 {marker topicid_IC.PRP.DURS}
 {synopt:{bf:{help wbopendata_topicid##IC.PRP.DURS:IC.PRP.DURS} - Time required to register property (days)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -797,7 +797,7 @@
 {marker topicid_IC.PRP.PROC}
 {synopt:{bf:{help wbopendata_topicid##IC.PRP.PROC:IC.PRP.PROC} - Procedures to register property (number)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -810,7 +810,7 @@
 {marker topicid_IC.REG.COST.PC.FE.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.REG.COST.PC.FE.ZS:IC.REG.COST.PC.FE.ZS} - Cost of business start-up procedures, female (% of GNI per capita)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -823,7 +823,7 @@
 {marker topicid_IC.REG.COST.PC.MA.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.REG.COST.PC.MA.ZS:IC.REG.COST.PC.MA.ZS} - Cost of business start-up procedures, male (% of GNI per capita)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -836,7 +836,7 @@
 {marker topicid_IC.REG.COST.PC.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.REG.COST.PC.ZS:IC.REG.COST.PC.ZS} - Cost of business start-up procedures (% of GNI per capita)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -849,7 +849,7 @@
 {marker topicid_IC.REG.DURS}
 {synopt:{bf:{help wbopendata_topicid##IC.REG.DURS:IC.REG.DURS} - Time required to start a business (days)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -862,7 +862,7 @@
 {marker topicid_IC.REG.DURS.FE}
 {synopt:{bf:{help wbopendata_topicid##IC.REG.DURS.FE:IC.REG.DURS.FE} - Time required to start a business, female (days)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -875,7 +875,7 @@
 {marker topicid_IC.REG.DURS.MA}
 {synopt:{bf:{help wbopendata_topicid##IC.REG.DURS.MA:IC.REG.DURS.MA} - Time required to start a business, male (days)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -888,7 +888,7 @@
 {marker topicid_IC.REG.PROC}
 {synopt:{bf:{help wbopendata_topicid##IC.REG.PROC:IC.REG.PROC} - Start-up procedures to register a business (number)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -901,7 +901,7 @@
 {marker topicid_IC.REG.PROC.FE}
 {synopt:{bf:{help wbopendata_topicid##IC.REG.PROC.FE:IC.REG.PROC.FE} - Start-up procedures to register a business, female (number)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -914,7 +914,7 @@
 {marker topicid_IC.REG.PROC.MA}
 {synopt:{bf:{help wbopendata_topicid##IC.REG.PROC.MA:IC.REG.PROC.MA} - Start-up procedures to register a business, male (number)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -927,7 +927,7 @@
 {marker topicid_IC.TAX.DURS}
 {synopt:{bf:{help wbopendata_topicid##IC.TAX.DURS:IC.TAX.DURS} - Time to prepare and pay taxes (hours)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -944,16 +944,16 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Firms expected to give gifts in meetings with tax officials is the percentage of firms that answered positively to the question was a gift or informal payment expected or requested during a meeting with tax officials?{p_end}
+{synopt:{opt Source Notes}}Percentage of firms expected to give gifts or informal payments during meetings with tax officials.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data"}{p_end}
 
 
 {synoptline}
 {marker topicid_IC.TAX.LABR.CP.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.TAX.LABR.CP.ZS:IC.TAX.LABR.CP.ZS} - Labor tax and contributions (% of commercial profits)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -970,16 +970,16 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Average number of visits or required meetings with tax officials during the year. The value represents the average number of visits for all firms which reported being visited or required to meet with tax officials (please see indicator IC.FRM.{p_end}
+{synopt:{opt Source Notes}}Average number of visits or required meetings with tax officials.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data"}{p_end}
 
 
 {synoptline}
 {marker topicid_IC.TAX.OTHR.CP.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.TAX.OTHR.CP.ZS:IC.TAX.OTHR.CP.ZS} - Other taxes payable by businesses (% of commercial profits)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -992,7 +992,7 @@
 {marker topicid_IC.TAX.PAYM}
 {synopt:{bf:{help wbopendata_topicid##IC.TAX.PAYM:IC.TAX.PAYM} - Tax payments (number)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -1005,7 +1005,7 @@
 {marker topicid_IC.TAX.PRFT.CP.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.TAX.PRFT.CP.ZS:IC.TAX.PRFT.CP.ZS} - Profit tax (% of commercial profits)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -1016,9 +1016,9 @@
 
 {synoptline}
 {marker topicid_IC.TAX.TOTL.CP.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.TAX.TOTL.CP.ZS:IC.TAX.TOTL.CP.ZS} - Total tax and contribution rate (% of profit)}}
+{synopt:{bf:{help wbopendata_topicid##IC.TAX.TOTL.CP.ZS:IC.TAX.TOTL.CP.ZS} - Total tax rate (% of commercial profits)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -1061,7 +1061,7 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Number of female directors is the number of female individuals who conduct the affairs of newly registered limited liability companies in the calendar year.{p_end}
+{synopt:{opt Source Notes}}Number of male directors is the number of female individuals who conduct the affairs of newly registered limited liability companies in the calendar year.{p_end}
 
 {synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}). Downloaded on November 29, 2023.{p_end}
 
@@ -1113,7 +1113,7 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Number of female business owners is the number of male individuals that own at least one share of a limited liability company that was newly registered in the calendar  year.{p_end}
+{synopt:{opt Source Notes}}Number of male business owners is the number of male individuals that own at least one share of a limited liability company that was newly registered in the calendar  year.{p_end}
 
 {synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}). Downloaded on November 29, 2023.{p_end}
 
@@ -1126,7 +1126,7 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Share of female business is the proportion of male newly registered limited liability company owners out of the total number of newly registered limited liability company owners in the economy in the calendar year.{p_end}
+{synopt:{opt Source Notes}}Share of male business is the proportion of male newly registered limited liability company owners out of the total number of newly registered limited liability company owners in the economy in the calendar year.{p_end}
 
 {synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}). Downloaded on November 29, 2023.{p_end}
 
@@ -1178,7 +1178,7 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Share of female sole proprietors is the proportion of male newly registered sole proprietors out of the total number of newly registered sole proprietors in the economy in the calendar year. A sole proprietorship is a business entity owned and{p_end}
+{synopt:{opt Source Notes}}Share of male sole proprietors is the proportion of male newly registered sole proprietors out of the total number of newly registered sole proprietors in the economy in the calendar year. A sole proprietorship is a business entity owned and m{p_end}
 
 {synopt:{opt Source Organization}}World Bank's Entrepreneurship Survey and database ({browse "https://www.worldbank.org/en/programs/entrepreneurship"}). Downloaded on November 29, 2023.{p_end}
 
@@ -1187,7 +1187,7 @@
 {marker topicid_IC.WRH.DURS}
 {synopt:{bf:{help wbopendata_topicid##IC.WRH.DURS:IC.WRH.DURS} - Time required to build a warehouse (days)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -1200,7 +1200,7 @@
 {marker topicid_IC.WRH.PROC}
 {synopt:{bf:{help wbopendata_topicid##IC.WRH.PROC:IC.WRH.PROC} - Procedures to build a warehouse (number)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
@@ -1217,9 +1217,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Investment in energy projects with private participation  refers to commitments to  infrastructure projects in energy (electricity and natural gas: generation, transmission and distribution) that have reached financial closure and directly or{p_end}
+{synopt:{opt Source Notes}}The Private Participation in Infrastructure (PPI) Database records contractual arrangements for public infrastructure projects in low- and middle-income countries (as classified by the World Bank) that have reached financial closure, in which{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Private Participation in Infrastructure Project Database ({browse "http://ppi.worldbank.org"}).{p_end}
+{synopt:{opt Source Organization}}Private Participation in Infrastructure Project Database, World Bank (WB), uri: {browse "https://ppi.worldbank.org/en/ppidata"}{p_end}
 
 
 {synoptline}
@@ -1243,9 +1243,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Investment  in transport projects with private participation refers to commitments to  infrastructure projects in transport that have reached financial closure and directly or indirectly serve the public. Movable assets and small projects are{p_end}
+{synopt:{opt Source Notes}}The Private Participation In Infrastructure (PPI) Database records contractual arrangements for public infrastructure projects in low- and middle-income countries (as classified by the World Bank) that have reached financial closure, in which{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Private Participation in Infrastructure Project Database ({browse "http://ppi.worldbank.org"}).{p_end}
+{synopt:{opt Source Organization}}Private Participation in Infrastructure Project Database, World Bank (WB), uri: {browse "https://ppi.worldbank.org/en/ppidata"}{p_end}
 
 
 {synoptline}
@@ -1256,9 +1256,9 @@
 
 {synopt:{opt Topics}}12 Private Sector{p_end}
 
-{synopt:{opt Source Notes}}Investment in water and sanitation projects with private participation refers to commitments to  infrastructure projects in water and sanitation that have reached financial closure and directly or indirectly serve the public. Movable assets, i{p_end}
+{synopt:{opt Source Notes}}The Private Participation in Infrastructure (PPI) Database records contractual arrangements for public infrastructure projects in low- and middle-income countries (as classified by the World Bank) that have reached financial closure, in which{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Private Participation in Infrastructure Project Database ({browse "http://ppi.worldbank.org"}).{p_end}
+{synopt:{opt Source Organization}}Private Participation in Infrastructure Project Database, World Bank (WB), uri: {browse "https://ppi.worldbank.org/en/ppidata"}{p_end}
 
 
 {synoptline}
@@ -1284,7 +1284,7 @@
 
 {synopt:{opt Source Notes}}Lead time to export is the median time (the value for 50 percent of shipments) from shipment point to port of loading. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10 percent of{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}Logistic Performance Index Surveys, World Bank (WB), uri: {browse "https://lpi.worldbank.org/,"} note: Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and It{p_end}
 
 
 {synoptline}
@@ -1297,7 +1297,7 @@
 
 {synopt:{opt Source Notes}}Lead time to import is the median time (the value for 50 percent of shipments) from port of discharge to arrival at the consignee. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10{p_end}
 
-{synopt:{opt Source Organization}}World Bank and Turku School of Economics, Logistic Performance Index Surveys. Data are available online at : {browse "http://www.worldbank.org/lpi"}. Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global{p_end}
+{synopt:{opt Source Organization}}Logistic Performance Index Surveys, World Bank (WB), uri: {browse "https://lpi.worldbank.org/,"} note: Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and It{p_end}
 
 
 {synoptline}
@@ -1310,7 +1310,7 @@
 
 {synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
+{synopt:{opt Source Organization}}Connecting to Compete - Logistics Performance Index (LPI), World Bank (WB), uri: {browse "https://lpi.worldbank.org"}{p_end}
 
 
 {synoptline}
@@ -1323,7 +1323,7 @@
 
 {synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
+{synopt:{opt Source Organization}}Connecting to Compete - Logistics Performance Index (LPI), World Bank (WB), uri: {browse "https://lpi.worldbank.org"}{p_end}
 
 
 {synoptline}
@@ -1336,7 +1336,7 @@
 
 {synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
+{synopt:{opt Source Organization}}Connecting to Compete - Logistics Performance Index (LPI), World Bank (WB), uri: {browse "https://lpi.worldbank.org"}{p_end}
 
 
 {synoptline}
@@ -1349,7 +1349,7 @@
 
 {synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
+{synopt:{opt Source Organization}}Connecting to Compete - Logistics Performance Index (LPI), World Bank (WB), uri: {browse "https://lpi.worldbank.org"}{p_end}
 
 
 {synoptline}
@@ -1362,7 +1362,7 @@
 
 {synopt:{opt Source Notes}}The Logistics Performance Index overall score reflects perceptions of a country's logistics based on the efficiency of customs clearance process, quality of trade- and transport-related infrastructure, ease of arranging competitively priced sh{p_end}
 
-{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
+{synopt:{opt Source Organization}}Connecting to Compete - Logistics Performance Index (LPI), World Bank (WB), uri: {browse "https://lpi.worldbank.org"}{p_end}
 
 
 {synoptline}
@@ -1375,7 +1375,7 @@
 
 {synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
+{synopt:{opt Source Organization}}Connecting to Compete - Logistics Performance Index (LPI), World Bank (WB), uri: {browse "https://lpi.worldbank.org"}{p_end}
 
 
 {synoptline}
@@ -1388,8 +1388,8 @@
 
 {synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
-{synopt:{opt Source Organization}}Data are available online at: {browse "https://lpi.worldbank.org/"}. Summary results are published in World Bank (2023): Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and Its Indicators.{p_end}
+{synopt:{opt Source Organization}}Connecting to Compete - Logistics Performance Index (LPI), World Bank (WB), uri: {browse "https://lpi.worldbank.org"}{p_end}
 
 
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
