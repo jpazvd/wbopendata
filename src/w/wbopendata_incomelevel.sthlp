@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Income Level  (as of 02jul2024)}
+{title:Income Level  (as of 21dec2025)}
 
 {marker HIC}
 {p 20 20 2}(Go up to {it:{help wbopendata##incomelevel:Income Level }}){p_end}
@@ -27,6 +27,7 @@
 {synopt:{opt CYM}}  Cayman Islands {p_end}
 {synopt:{opt CHI}}  Channel Islands {p_end}
 {synopt:{opt CHL}}  Chile {p_end}
+{synopt:{opt CRI}}  Costa Rica {p_end}
 {synopt:{opt HRV}}  Croatia {p_end}
 {synopt:{opt CUW}}  Curacao {p_end}
 {synopt:{opt CYP}}  Cyprus {p_end}
@@ -71,7 +72,7 @@
 {synopt:{opt PAN}}  Panama {p_end}
 {synopt:{opt POL}}  Poland {p_end}
 {synopt:{opt PRT}}  Portugal {p_end}
-{synopt:{opt PRI}}  Puerto Rico {p_end}
+{synopt:{opt PRI}}  Puerto Rico (US) {p_end}
 {synopt:{opt QAT}}  Qatar {p_end}
 {synopt:{opt ROU}}  Romania {p_end}
 {synopt:{opt RUS}}  Russian Federation {p_end}
@@ -100,6 +101,7 @@
 {synoptset 33 tabbed}{...}
 {synopthdr:Not classified (INX)}
 {synoptline}
+{synopt:{opt ETH}}  Ethiopia {p_end}
 {synopt:{opt VEN}}  Venezuela, RB {p_end}
 
 {marker LIC}
@@ -114,7 +116,6 @@
 {synopt:{opt TCD}}  Chad {p_end}
 {synopt:{opt COD}}  Congo, Dem Rep {p_end}
 {synopt:{opt ERI}}  Eritrea {p_end}
-{synopt:{opt ETH}}  Ethiopia {p_end}
 {synopt:{opt GMB}}  Gambia, The {p_end}
 {synopt:{opt GNB}}  Guinea-Bissau {p_end}
 {synopt:{opt PRK}}  Korea, Dem People's Rep {p_end}
@@ -126,7 +127,7 @@
 {synopt:{opt NER}}  Niger {p_end}
 {synopt:{opt RWA}}  Rwanda {p_end}
 {synopt:{opt SLE}}  Sierra Leone {p_end}
-{synopt:{opt SOM}}  Somalia {p_end}
+{synopt:{opt SOM}}  Somalia, Fed Rep {p_end}
 {synopt:{opt SSD}}  South Sudan {p_end}
 {synopt:{opt SDN}}  Sudan {p_end}
 {synopt:{opt SYR}}  Syrian Arab Republic {p_end}
@@ -144,7 +145,6 @@
 {synopt:{opt BEN}}  Benin {p_end}
 {synopt:{opt BTN}}  Bhutan {p_end}
 {synopt:{opt BOL}}  Bolivia {p_end}
-{synopt:{opt CPV}}  Cabo Verde {p_end}
 {synopt:{opt KHM}}  Cambodia {p_end}
 {synopt:{opt CMR}}  Cameroon {p_end}
 {synopt:{opt COM}}  Comoros {p_end}
@@ -169,13 +169,13 @@
 {synopt:{opt FSM}}  Micronesia, Fed Sts {p_end}
 {synopt:{opt MAR}}  Morocco {p_end}
 {synopt:{opt MMR}}  Myanmar {p_end}
+{synopt:{opt NAM}}  Namibia {p_end}
 {synopt:{opt NPL}}  Nepal {p_end}
 {synopt:{opt NIC}}  Nicaragua {p_end}
 {synopt:{opt NGA}}  Nigeria {p_end}
 {synopt:{opt PAK}}  Pakistan {p_end}
 {synopt:{opt PNG}}  Papua New Guinea {p_end}
 {synopt:{opt PHL}}  Philippines {p_end}
-{synopt:{opt WSM}}  Samoa {p_end}
 {synopt:{opt STP}}  Sao Tome and Principe {p_end}
 {synopt:{opt SEN}}  Senegal {p_end}
 {synopt:{opt SLB}}  Solomon Islands {p_end}
@@ -243,12 +243,12 @@
 {synopt:{opt LIC}}  Low income {p_end}
 {synopt:{opt LMC}}  Lower middle income {p_end}
 {synopt:{opt MDE}}  Middle East (developing only) {p_end}
-{synopt:{opt MEA}}  Middle East and North Africa {p_end}
-{synopt:{opt BMN}}  Middle East and North Africa (IBRD-only countries) {p_end}
-{synopt:{opt TMN}}  Middle East and North Africa (IDA and IBRD countries) {p_end}
-{synopt:{opt DMN}}  Middle East and North Africa (IDA-eligible countries) {p_end}
 {synopt:{opt CME}}  Middle East and North Africa (IFC classification) {p_end}
-{synopt:{opt MNA}}  Middle East and North Africa (excluding high income) {p_end}
+{synopt:{opt MEA}}  Middle East, North Africa, Afghanistan and Pakistan {p_end}
+{synopt:{opt BMN}}  Middle East, North Africa, Afghanistan and Pakistan (IBRD only) {p_end}
+{synopt:{opt TMN}}  Middle East, North Africa, Afghanistan and Pakistan (IDA and IBRD) {p_end}
+{synopt:{opt DMN}}  Middle East, North Africa, Afghanistan and Pakistan (IDA total) {p_end}
+{synopt:{opt MNA}}  Middle East, North Africa, Afghanistan and Pakistan (excluding high income) {p_end}
 {synopt:{opt MIC}}  Middle income {p_end}
 {synopt:{opt NRS}}  Non-resource rich Sub-Saharan Africa countries {p_end}
 {synopt:{opt NAF}}  North Africa {p_end}
@@ -291,9 +291,9 @@
 {synopt:{opt BIH}}  Bosnia and Herzegovina {p_end}
 {synopt:{opt BWA}}  Botswana {p_end}
 {synopt:{opt BRA}}  Brazil {p_end}
+{synopt:{opt CPV}}  Cabo Verde {p_end}
 {synopt:{opt CHN}}  China {p_end}
 {synopt:{opt COL}}  Colombia {p_end}
-{synopt:{opt CRI}}  Costa Rica {p_end}
 {synopt:{opt CUB}}  Cuba {p_end}
 {synopt:{opt DMA}}  Dominica {p_end}
 {synopt:{opt DOM}}  Dominican Republic {p_end}
@@ -320,10 +320,10 @@
 {synopt:{opt MDA}}  Moldova {p_end}
 {synopt:{opt MNG}}  Mongolia {p_end}
 {synopt:{opt MNE}}  Montenegro {p_end}
-{synopt:{opt NAM}}  Namibia {p_end}
 {synopt:{opt MKD}}  North Macedonia {p_end}
 {synopt:{opt PRY}}  Paraguay {p_end}
 {synopt:{opt PER}}  Peru {p_end}
+{synopt:{opt WSM}}  Samoa {p_end}
 {synopt:{opt SRB}}  Serbia {p_end}
 {synopt:{opt ZAF}}  South Africa {p_end}
 {synopt:{opt LCA}}  St Lucia {p_end}

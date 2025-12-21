@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -47,9 +47,9 @@
 
 {synopt:{opt Topics}}14 Science and Technology{p_end}
 
-{synopt:{opt Source Notes}}Charges for the use of intellectual property are payments and receipts between residents and nonresidents for the authorized use of proprietary rights (such as patents, trademarks, copyrights, industrial processes and designs including trade s{p_end}
+{synopt:{opt Source Notes}}Charges for the use of proprietary rights (such as patents, trademarks, copyrights, industrial processes and designs including trade secrets, franchises), and charges for licenses to reproduce or distribute (or both) intellectual property embo{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -60,9 +60,9 @@
 
 {synopt:{opt Topics}}14 Science and Technology{p_end}
 
-{synopt:{opt Source Notes}}Charges for the use of intellectual property are payments and receipts between residents and nonresidents for the authorized use of proprietary rights (such as patents, trademarks, copyrights, industrial processes and designs including trade s{p_end}
+{synopt:{opt Source Notes}}Charges for the use of proprietary rights (such as patents, trademarks, copyrights, industrial processes and designs including trade secrets, franchises), and charges for licenses to reproduce or distribute (or both) intellectual property embo{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -75,7 +75,7 @@
 
 {synopt:{opt Source Notes}}Gross domestic expenditures on research and development (R&amp;D), expressed as a percent of GDP. They include both capital and current expenditures in the four main sectors: Business enterprise, Government, Higher education and Private non-pr{p_end}
 
-{synopt:{opt Source Organization}}UNESCO Institute for Statistics (UIS). UIS.Stat Bulk Data Download Service. Accessed April 24, 2024. {browse "https://apiportal.uis.unesco.org/bdds"}.{p_end}
+{synopt:{opt Source Organization}}Stat Bulk Data Download Service, UN Educational, Scientific and Cultural Organization (UNESCO), uri: {browse "https://databrowser.uis.unesco.org/resources/bulk,"} publisher: UNESCO Institute for Statistics (UIS), date accessed: 2025-03-26, date published{p_end}
 
 
 {synoptline}
@@ -86,9 +86,9 @@
 
 {synopt:{opt Topics}}14 Science and Technology{p_end}
 
-{synopt:{opt Source Notes}}Scientific and technical journal articles refer to the number of scientific and engineering articles published in the following fields: physics, biology, chemistry, mathematics, clinical medicine, biomedical research, engineering and technolog{p_end}
+{synopt:{opt Source Notes}}Article counts refer to publications from a selection of conference proceedings and peer-reviewed journals from Scopus in science and engineering fields, according to the National Center for Science and Engineering Statistics Taxonomy of Disci{p_end}
 
-{synopt:{opt Source Organization}}National Science Foundation, Science and Engineering Indicators.{p_end}
+{synopt:{opt Source Organization}}Science and Engineering Indicators, National Science Foundation (NSF), uri: {browse "https://ncses.nsf.gov/indicators"}{p_end}
 
 
 {synoptline}
@@ -101,7 +101,7 @@
 
 {synopt:{opt Source Notes}}Patent applications are worldwide patent applications filed through the Patent Cooperation Treaty procedure or with a national patent office for exclusive rights for an invention--a product or process that provides a new way of doing something{p_end}
 
-{synopt:{opt Source Organization}}World Intellectual Property Organization (WIPO), WIPO Patent Report: Statistics on Worldwide Patent Activity. The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
+{synopt:{opt Source Organization}}WIPO Patent Report: Statistics on Worldwide Patent Activity, World Intellectual Property Organization (WIPO), note: The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
 
 
 {synoptline}
@@ -114,7 +114,7 @@
 
 {synopt:{opt Source Notes}}Patent applications are worldwide patent applications filed through the Patent Cooperation Treaty procedure or with a national patent office for exclusive rights for an invention--a product or process that provides a new way of doing something{p_end}
 
-{synopt:{opt Source Organization}}World Intellectual Property Organization (WIPO), WIPO Patent Report: Statistics on Worldwide Patent Activity. The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
+{synopt:{opt Source Organization}}WIPO Patent Report: Statistics on Worldwide Patent Activity, World Intellectual Property Organization (WIPO), note: The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
 
 
 {synoptline}
@@ -157,4 +157,4 @@
 
 
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

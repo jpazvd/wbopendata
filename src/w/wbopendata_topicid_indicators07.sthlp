@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -49,7 +49,7 @@
 
 {synopt:{opt Source Notes}}Foreign direct investment refers to direct investment equity flows in an economy. It is the sum of equity capital, reinvestment of earnings, and other capital. Direct investment is a category of cross-border investment associated with a reside{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments database, supplemented by data from the United Nations Conference on Trade and Development and official national sources.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments database, International Monetary Fund (IMF), note: International Monetary Fund, Balance of Payments database, supplemented by data from the United Nations Conference on Trade and Development and official national sources.;{p_end}
 
 
 {synoptline}
@@ -62,7 +62,7 @@
 
 {synopt:{opt Source Notes}}Foreign direct investment refers to direct investment equity flows in an economy. It is the sum of equity capital, reinvestment of earnings, and other capital. Direct investment is a category of cross-border investment associated with a reside{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments database, supplemented by data from the United Nations Conference on Trade and Development and official national sources.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments database, International Monetary Fund (IMF), note: International Monetary Fund, Balance of Payments database, supplemented by data from the United Nations Conference on Trade and Development and official national sources.;{p_end}
 
 
 {synoptline}
@@ -75,7 +75,7 @@
 
 {synopt:{opt Source Notes}}Personal remittances comprise personal transfers and compensation of employees. Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfer{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on IMF balance of payments data.{p_end}
+{synopt:{opt Source Organization}}IMF balance of payments data, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -86,9 +86,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Foreign direct investment are the net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital{p_end}
+{synopt:{opt Source Notes}}Foreign direct investment is a category of cross-border investment associated with a resident in one economy having control or a significant degree of influence on the management of an enterprise that is resident in another economy. Ownership{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -99,9 +99,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Portfolio investment covers transactions in equity securities and debt securities. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}Portfolio investment includes cross-border flows and positions involving debt or equity securities, other than those included in direct investment or reserve assets. This indicator is expressed in current prices, meaning no adjustment has been{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -114,7 +114,7 @@
 
 {synopt:{opt Source Notes}}Foreign direct investment refers to direct investment equity flows in the reporting economy. It is the sum of equity capital, reinvestment of earnings, and other capital. Direct investment is a category of cross-border investment associated wi{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments database, supplemented by data from the United Nations Conference on Trade and Development and official national sources.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments database, International Monetary Fund (IMF), note: International Monetary Fund, Balance of Payments database, supplemented by data from the United Nations Conference on Trade and Development and official national sources.;{p_end}
 
 
 {synoptline}
@@ -127,7 +127,7 @@
 
 {synopt:{opt Source Notes}}Foreign direct investment are the net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and Balance of Payments databases, World Bank, International Debt Statistics, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics and Balance of Payments databases, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -153,7 +153,7 @@
 
 {synopt:{opt Source Notes}}Portfolio equity includes net inflows from equity securities other than those recorded as direct investment and including shares, stocks, depository receipts (American or global), and direct purchases of shares in local stock markets by foreig{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments database, and World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments database, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -164,9 +164,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfers thus include all current transfers between resident and nonresident individual{p_end}
+{synopt:{opt Source Notes}}Personal transfers are current transfers, in cash or in kind, received by resident households from non-resident households. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over ti{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -179,7 +179,7 @@
 
 {synopt:{opt Source Notes}}Personal remittances comprise personal transfers and compensation of employees. Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfer{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on IMF balance of payments data.{p_end}
+{synopt:{opt Source Organization}}IMF balance of payments data, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -192,7 +192,7 @@
 
 {synopt:{opt Source Notes}}Personal remittances comprise personal transfers and compensation of employees. Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfer{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on IMF balance of payments data, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -203,9 +203,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}S&amp;P Global Equity Indices measure the U.S. dollar price change in the stock markets covered by the S&amp;P/IFCI and S&amp;P/Frontier BMI country indices.{p_end}
+{synopt:{opt Source Notes}}overview{p_end}
 
-{synopt:{opt Source Organization}}Standard &amp; Poor's, Global Stock Markets Factbook and supplemental S&amp;P data.{p_end}
+{synopt:{opt Source Organization}}S&amp;P Global BMI, S&amp;P Dow Jones Indices, uri: {browse "https://www.spglobal.com/spdji/en/index-family/equity/global-equity/sp-global-bmi/"}{p_end}
 
 
 {synoptline}
@@ -218,7 +218,7 @@
 
 {synopt:{opt Source Notes}}Market capitalization (also known as market value) is the share price times the number of shares outstanding (including their several classes) for listed domestic companies. Investment funds, unit trusts, and companies whose only business goal{p_end}
 
-{synopt:{opt Source Organization}}World Federation of Exchanges database.{p_end}
+{synopt:{opt Source Organization}}World Federation of Exchanges database, World Federation of Exchanges (WFE){p_end}
 
 
 {synoptline}
@@ -231,7 +231,7 @@
 
 {synopt:{opt Source Notes}}Market capitalization (also known as market value) is the share price times the number of shares outstanding (including their several classes) for listed domestic companies. Investment funds, unit trusts, and companies whose only business goal{p_end}
 
-{synopt:{opt Source Organization}}World Federation of Exchanges database.{p_end}
+{synopt:{opt Source Organization}}World Federation of Exchanges database, World Federation of Exchanges (WFE){p_end}
 
 
 {synoptline}
@@ -244,7 +244,7 @@
 
 {synopt:{opt Source Notes}}Listed domestic companies, including foreign companies which are exclusively listed, are those which have shares listed on an exchange at the end of the year. Investment funds, unit trusts, and companies whose only business goal is to hold sha{p_end}
 
-{synopt:{opt Source Organization}}World Federation of Exchanges database.{p_end}
+{synopt:{opt Source Organization}}World Federation of Exchanges database, World Federation of Exchanges (WFE){p_end}
 
 
 {synoptline}
@@ -257,7 +257,7 @@
 
 {synopt:{opt Source Notes}}The value of shares traded is the total number of shares traded, both domestic and foreign, multiplied by their respective matching prices. Figures are single counted (only one side of the transaction is considered). Companies admitted to list{p_end}
 
-{synopt:{opt Source Organization}}World Federation of Exchanges database.{p_end}
+{synopt:{opt Source Organization}}World Federation of Exchanges database, World Federation of Exchanges (WFE){p_end}
 
 
 {synoptline}
@@ -270,7 +270,7 @@
 
 {synopt:{opt Source Notes}}The value of shares traded is the total number of shares traded, both domestic and foreign, multiplied by their respective matching prices. Figures are single counted (only one side of the transaction is considered). Companies admitted to list{p_end}
 
-{synopt:{opt Source Organization}}World Federation of Exchanges database.{p_end}
+{synopt:{opt Source Organization}}World Federation of Exchanges database, World Federation of Exchanges (WFE){p_end}
 
 
 {synoptline}
@@ -283,7 +283,7 @@
 
 {synopt:{opt Source Notes}}Turnover ratio is the value of domestic shares traded divided by their market capitalization. The value is annualized by multiplying the monthly average by 12.{p_end}
 
-{synopt:{opt Source Organization}}World Federation of Exchanges database.{p_end}
+{synopt:{opt Source Organization}}World Federation of Exchanges database, World Federation of Exchanges (WFE){p_end}
 
 
 {synoptline}
@@ -296,7 +296,7 @@
 
 {synopt:{opt Source Notes}}Bonds are securities issued with a fixed rate of interest for a period of more than one year. They include net flows through cross-border public and publicly guaranteed and private nonguaranteed bond issues. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -333,9 +333,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Bank nonperforming loans to total gross loans are the value of nonperforming loans divided by the total value of the loan portfolio (including nonperforming loans before the deduction of specific loan-loss provisions). The loan amount recorded{p_end}
+{synopt:{opt Source Notes}}The indicator measures the proportion of a deposit taker’s loan portfolio that is impaired or at risk of default. It is calculated as the ratio of non-performing loans (NPLs) to total gross loans, where NPLs are defined as loans that are pas{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Financial Soundness Indicators.{p_end}
+{synopt:{opt Source Organization}}Financial Soundness Indicators, International Monetary Fund (IMF), uri: {browse "https://data.imf.org/en/datasets/IMF:EXTERNAL_DATASET_CARDS/IMF.STA:LFSI"}{p_end}
 
 
 {synoptline}
@@ -346,9 +346,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Automated teller machines are computerized telecommunications devices that provide clients of a financial institution with access to financial transactions in a public place.{p_end}
+{synopt:{opt Source Notes}}Automated teller machines (ATMs) are electromechanical devices which enable customers of financial institutions to perform financial transactions such as cash withdrawals, balance inquiries, deposits, transfer of funds, and obtaining account i{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Financial Access Survey.{p_end}
+{synopt:{opt Source Organization}}Financial Access Survey, International Monetary Fund (IMF), uri: {browse "https://data.imf.org/?sk=E5DCAB7E-A5CA-4892-A6EA-598B5463A34C"}{p_end}
 
 
 {synoptline}
@@ -359,9 +359,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Bank capital to assets is the ratio of bank capital and reserves to total assets. Capital and reserves include funds contributed by owners, retained earnings, general and special reserves, provisions, and valuation adjustments. Capital include{p_end}
+{synopt:{opt Source Notes}}The indicator is a measure of capital adequacy that evaluates the financial strength of deposit takers by comparing Tier 1 capital to total assets. Tier 1 capital, often referred to as core capital, includes the most stable and readily availab{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Financial Soundness Indicators.{p_end}
+{synopt:{opt Source Organization}}Financial Soundness Indicators, International Monetary Fund (IMF), uri: {browse "https://data.imf.org/en/datasets/IMF:EXTERNAL_DATASET_CARDS/IMF.STA:LFSI"}{p_end}
 
 
 {synoptline}
@@ -374,7 +374,7 @@
 
 {synopt:{opt Source Notes}}Commercial bank branches are retail locations of resident commercial banks and other resident banks that function as commercial banks that provide financial services to customers and are physically separated from the main office but not organi{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Financial Access Survey.{p_end}
+{synopt:{opt Source Organization}}Financial Access Survey, International Monetary Fund (IMF), uri: {browse "https://data.imf.org/en/datasets/IMF.STA:FAS"}{p_end}
 
 
 {synoptline}
@@ -385,9 +385,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Borrowers from commercial banks are the reported number of resident customers that are nonfinancial corporations (public and private) and households who obtained loans from commercial banks and other banks functioning as commercial banks. For{p_end}
+{synopt:{opt Source Notes}}Borrowers from commercial banks are the reported number of resident customers that are nonfinancial corporations (public and private) and households who obtained loans from commercial banks and other banks functioning as commercial banks.{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Financial Access Survey.{p_end}
+{synopt:{opt Source Organization}}Financial Access Survey, International Monetary Fund (IMF), uri: {browse "https://data.imf.org/en/datasets/IMF.STA:FAS"}{p_end}
 
 
 {synoptline}
@@ -398,9 +398,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Depositors with commercial banks are the reported number of deposit account holders at commercial banks and other resident banks functioning as commercial banks that are resident nonfinancial corporations (public and private) and households. F{p_end}
+{synopt:{opt Source Notes}}Depositors with commercial banks are the reported number of deposit account holders, including both resident non-financial corporations (both public and private) and individuals from the household sector, at commercial banks within the reporti{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Financial Access Survey.{p_end}
+{synopt:{opt Source Organization}}Financial Access Survey, International Monetary Fund (IMF), uri: {browse "https://data.imf.org/en/datasets/IMF.STA:FAS"}{p_end}
 
 
 {synoptline}
@@ -426,7 +426,7 @@
 
 {synopt:{opt Source Notes}}Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans, purchases of nonequity securiti{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -439,7 +439,7 @@
 
 {synopt:{opt Source Notes}}Ratio of bank liquid reserves to bank assets is the ratio of domestic currency holdings and deposits with the monetary authorities to claims on other governments, nonfinancial public enterprises, the private sector, and other banking instituti{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -450,9 +450,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Total reserves comprise holdings of monetary gold, special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities. The gold component of these reserves is valued at y{p_end}
+{synopt:{opt Source Notes}}Reserve assets are external assets, including monetary gold, that are readily available to and controlled by monetary authorities for meeting balance of payments financing needs, for intervention in exchange markets to affect the currency exch{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -463,9 +463,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}International reserves to total external debt stocks.{p_end}
+{synopt:{opt Source Notes}}Reserve assets are external assets, including monetary gold, that are readily available to and controlled by monetary authorities for meeting balance of payments financing needs, for intervention in exchange markets to affect the currency exch{p_end}
 
-{synopt:{opt Source Organization}}World Bank, International Debt Statistics.{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB){p_end}
 
 
 {synoptline}
@@ -476,9 +476,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Total reserves comprise holdings of monetary gold, special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities. The gold component of these reserves is valued at y{p_end}
+{synopt:{opt Source Notes}}Reserve assets are external assets, including monetary gold, that are readily available to and controlled by monetary authorities for meeting balance of payments financing needs, for intervention in exchange markets to affect the currency exch{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -489,9 +489,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Total reserves minus gold comprise special drawing rights, reserves of IMF members held by the IMF, and holdings of foreign exchange under the control of monetary authorities. Gold holdings are excluded. Data are in current U.S. dollars.{p_end}
+{synopt:{opt Source Notes}}This series includes external assets (excluding monetary gold) that are readily available to and controlled by monetary authorities for meeting balance of payments financing needs, for intervention in exchange markets to affect the currency ex{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -502,9 +502,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Claims on central government (IFS line 32AN..ZK) include loans to central government institutions net of deposits.{p_end}
+{synopt:{opt Source Notes}}Claims on central government include loans to central government institutions net of deposits. Broad money is the sum of all liquid financial instruments held by money-holding sectors that are widely accepted in an economy as a medium of excha{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -515,9 +515,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Claims on other sectors of the domestic economy (IFS line 32S..ZK) include gross credit from the financial system to households, nonprofit institutions serving households, nonfinancial corporations, state and local governments, and social secu{p_end}
+{synopt:{opt Source Notes}}Claims on other sectors of the domestic economy include gross credit from the financial system to households, nonprofit institutions serving households, nonfinancial corporations, state and local governments, and social security funds. Broad m{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -528,9 +528,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Net domestic credit is the sum of net claims on the central government and claims on other sectors of the domestic economy (IFS line 32). Data are in current local currency.{p_end}
+{synopt:{opt Source Notes}}Net domestic credit is the sum of net claims on the central government and claims on other sectors of the domestic economy. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over ti{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -567,9 +567,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Net foreign assets are the sum of foreign assets held by monetary authorities and deposit money banks, less their foreign liabilities. Data are in current local currency.{p_end}
+{synopt:{opt Source Notes}}Net foreign assets are the sum of foreign assets held by monetary authorities and deposit money banks, less their foreign liabilities. This indicator is expressed in current prices, meaning no adjustment has been made to account for price chan{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -582,7 +582,7 @@
 
 {synopt:{opt Source Notes}}Domestic credit to private sector refers to financial resources provided to the private sector, such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish a claim for repayment. Fo{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -606,9 +606,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Claims on private sector (IFS line 32D..ZK or 32D..ZF) include gross credit from the financial system to individuals, enterprises, nonfinancial public entities not included under net domestic credit, and financial institutions not included els{p_end}
+{synopt:{opt Source Notes}}Claims on private sector include gross credit from the financial system to individuals, enterprises, nonfinancial public entities not included under net domestic credit, and financial institutions not included elsewhere. Broad money is the sum{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -619,9 +619,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Broad money (IFS line 35L..ZK) is the sum of currency outside banks; demand deposits other than those of the central government; the time, savings, and foreign currency deposits of resident sectors other than the central government; bank and t{p_end}
+{synopt:{opt Source Notes}}Broad money is the sum of all liquid financial instruments held by money-holding sectors that are widely accepted in an economy as a medium of exchange, plus those that can be converted into a medium of exchange at short notice at, or close to{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -632,9 +632,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Broad money (IFS line 35L..ZK) is the sum of currency outside banks; demand deposits other than those of the central government; the time, savings, and foreign currency deposits of resident sectors other than the central government; bank and t{p_end}
+{synopt:{opt Source Notes}}Broad money is the sum of all liquid financial instruments held by money-holding sectors that are widely accepted in an economy as a medium of exchange, plus those that can be converted into a medium of exchange at short notice at, or close to{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -645,9 +645,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Broad money (IFS line 35L..ZK) is the sum of currency outside banks; demand deposits other than those of the central government; the time, savings, and foreign currency deposits of resident sectors other than the central government; bank and t{p_end}
+{synopt:{opt Source Notes}}Broad money is the sum of all liquid financial instruments held by money-holding sectors that are widely accepted in an economy as a medium of exchange, plus those that can be converted into a medium of exchange at short notice at, or close to{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -658,9 +658,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Broad money (IFS line 35L..ZK) is the sum of currency outside banks; demand deposits other than those of the central government; the time, savings, and foreign currency deposits of resident sectors other than the central government; bank and t{p_end}
+{synopt:{opt Source Notes}}Broad money is the sum of all liquid financial instruments held by money-holding sectors that are widely accepted in an economy as a medium of exchange, plus those that can be converted into a medium of exchange at short notice at, or close to{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -671,9 +671,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Consumer price index reflects changes in the cost to the average consumer of acquiring a basket of goods and services that may be fixed or changed at specified intervals, such as yearly. The Laspeyres formula is generally used. Data are period{p_end}
+{synopt:{opt Source Notes}}Index of the prices of consumption goods and services, as compared to a certain reference period (2010=100).{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -684,9 +684,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Inflation as measured by the consumer price index reflects the annual percentage change in the cost to the average consumer of acquiring a basket of goods and services that may be fixed or changed at specified intervals, such as yearly. The La{p_end}
+{synopt:{opt Source Notes}}Inflation as measured by the consumer price index reflects the annual percentage change in the cost to the average consumer of acquiring a basket of goods and services that may be fixed or changed at specified intervals, such as yearly. This i{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -697,9 +697,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Wholesale price index refers to a mix of agricultural and industrial goods at various stages of production and distribution, including import duties. The Laspeyres formula is generally used.{p_end}
+{synopt:{opt Source Notes}}Index of prices of a mix of agricultural and industrial goods at various stages of production and distribution, including import duties, as compared to a certain reference period (2010=100).{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -710,9 +710,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Deposit interest rate is the rate paid by commercial or similar banks for demand, time, or savings deposits. The terms and conditions attached to these rates differ by country, however, limiting their comparability.{p_end}
+{synopt:{opt Source Notes}}Deposit interest rate is the rate paid by commercial or similar banks for demand, time, or savings deposits. The terms and conditions attached to these rates differ by country, however, limiting their comparability. This indicator is expressed{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -725,7 +725,7 @@
 
 {synopt:{opt Source Notes}}Lending rate is the bank rate that usually meets the short- and medium-term financing needs of the private sector. This rate is normally differentiated according to creditworthiness of borrowers and objectives of financing. The terms and condi{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -738,7 +738,7 @@
 
 {synopt:{opt Source Notes}}Interest rate spread is the interest rate charged by banks on loans to private sector customers minus the interest rate paid by commercial or similar banks for demand, time, or savings deposits. The terms and conditions attached to these rates{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -749,9 +749,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Real interest rate is the lending interest rate adjusted for inflation as measured by the GDP deflator. The terms and conditions attached to lending rates differ by country, however, limiting their comparability.{p_end}
+{synopt:{opt Source Notes}}An interest rate is the amount charged, expressed as a percentage of the principal over a period of time, by the owners of certain kinds of financial assets for putting the financial assets at the disposal of another institutional unit. The re{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files using World Bank data on the GDP deflator.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -764,7 +764,7 @@
 
 {synopt:{opt Source Notes}}Risk premium on lending is the interest rate charged by banks on loans to private sector customers minus the risk free treasury bill interest rate at which short-term government securities are issued or traded in the market. In some countries{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics database.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -775,9 +775,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Claims on central government (IFS line 52AN or 32AN) include loans to central government institutions net of deposits.{p_end}
+{synopt:{opt Source Notes}}Claims on central government include loans to central government institutions net of deposits. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of goods and ser{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -788,9 +788,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Claims on other sectors of the domestic economy (IFS line 52S or 32S) include gross credit from the financial system to households, nonprofit institutions serving households, nonfinancial corporations, state and local governments, and social s{p_end}
+{synopt:{opt Source Notes}}Claims on other sectors of the domestic economy include gross credit from the financial system to households, nonprofit institutions serving households, nonfinancial corporations, state and local governments, and social security funds. This in{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -803,7 +803,7 @@
 
 {synopt:{opt Source Notes}}Domestic credit provided by the financial sector includes all credit to various sectors on a gross basis, with the exception of credit to the central government, which is net. The financial sector includes monetary authorities and deposit mone{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -816,7 +816,7 @@
 
 {synopt:{opt Source Notes}}Domestic credit to private sector refers to financial resources provided to the private sector by financial corporations, such as through loans, purchases of nonequity securities, and trade credits and other accounts receivable, that establish{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -829,7 +829,7 @@
 
 {synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
 
-{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
+{synopt:{opt Source Organization}}Global Findex Database, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/globalfindex"}{p_end}
 
 
 {synoptline}
@@ -842,7 +842,7 @@
 
 {synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
 
-{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
+{synopt:{opt Source Organization}}Global Findex Database, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/globalfindex"}{p_end}
 
 
 {synoptline}
@@ -855,7 +855,7 @@
 
 {synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
 
-{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
+{synopt:{opt Source Organization}}Global Findex Database, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/globalfindex"}{p_end}
 
 
 {synoptline}
@@ -868,7 +868,7 @@
 
 {synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
 
-{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
+{synopt:{opt Source Organization}}Global Findex Database, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/globalfindex"}{p_end}
 
 
 {synoptline}
@@ -881,7 +881,7 @@
 
 {synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
 
-{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
+{synopt:{opt Source Organization}}Global Findex Database, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/globalfindex"}{p_end}
 
 
 {synoptline}
@@ -894,7 +894,7 @@
 
 {synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
 
-{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
+{synopt:{opt Source Organization}}Global Findex Database, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/globalfindex"}{p_end}
 
 
 {synoptline}
@@ -907,7 +907,7 @@
 
 {synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
 
-{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
+{synopt:{opt Source Organization}}Global Findex Database, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/globalfindex"}{p_end}
 
 
 {synoptline}
@@ -920,7 +920,7 @@
 
 {synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
 
-{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
+{synopt:{opt Source Organization}}Global Findex Database, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/globalfindex"}{p_end}
 
 
 {synoptline}
@@ -933,7 +933,7 @@
 
 {synopt:{opt Source Notes}}Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months{p_end}
 
-{synopt:{opt Source Organization}}Global Findex Database, World Bank ({browse "https://www.worldbank.org/en/publication/globalfindex"}).{p_end}
+{synopt:{opt Source Organization}}Global Findex Database, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/globalfindex"}{p_end}
 
 
 {synoptline}
@@ -2240,7 +2240,7 @@
 {marker topicid_IC.CRD.INFO.XQ}
 {synopt:{bf:{help wbopendata_topicid##IC.CRD.INFO.XQ:IC.CRD.INFO.XQ} - Depth of credit information index (0=low to 8=high)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2253,7 +2253,7 @@
 {marker topicid_IC.CRD.PRVT.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.CRD.PRVT.ZS:IC.CRD.PRVT.ZS} - Private credit bureau coverage (% of adults)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2266,7 +2266,7 @@
 {marker topicid_IC.CRD.PUBL.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.CRD.PUBL.ZS:IC.CRD.PUBL.ZS} - Public credit registry coverage (% of adults)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2279,7 +2279,7 @@
 {marker topicid_IC.LGL.CRED.XQ}
 {synopt:{bf:{help wbopendata_topicid##IC.LGL.CRED.XQ:IC.LGL.CRED.XQ} - Strength of legal rights index (0=weak to 12=strong)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
@@ -2296,9 +2296,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Inflation as measured by the annual growth rate of the GDP implicit deflator shows the rate of price change in the economy as a whole. This series has been linked to produce a consistent time series to counteract breaks in series over time due{p_end}
+{synopt:{opt Source Notes}}Inflation as measured by the annual growth rate of the GDP implicit deflator shows the rate of price change in the economy as a whole. The GDP implicit deflator is the ratio of GDP in current local currency to GDP in constant local currency. T{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on World Bank national accounts data archives, OECD National Accounts, and the IMF WEO database.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2309,9 +2309,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}The GDP implicit deflator is calculated as the ratio of GDP in current local currency to GDP in constant local currency. This series has been linked to produce a consistent time series to counteract breaks in series over time due to changes in{p_end}
+{synopt:{opt Source Notes}}The GDP implicit deflator is the ratio of GDP in current local currency to GDP in constant local currency. The base year varies by country. This series has been linked to produce a consistent time series to counteract breaks in series over tim{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on World Bank national accounts data archives, OECD National Accounts, and the IMF WEO database.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -2322,9 +2322,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}The DEC alternative conversion factor is the underlying annual exchange rate used for the World Bank Atlas method. As a rule, it is the official exchange rate reported in the IMF's International Financial Statistics (line rf). Exceptions arise{p_end}
+{synopt:{opt Source Notes}}The DEC alternative conversion factor is the underlying annual exchange rate (the price of one country’s currency in relation to another country's currency) used for the World Bank Atlas method. As a rule, it is the official exchange rate re{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics, supplemented by World Bank staff estimates.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -2335,22 +2335,9 @@
 
 {synopt:{opt Topics}}07 Financial Sector{p_end}
 
-{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. It is calculated as an annual average based on monthly averages (local currency units re{p_end}
+{synopt:{opt Source Notes}}Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This indicator represents the ratio of Local Currency Units relative to United States do{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
-
-
-{synoptline}
-{marker topicid_PX.REX.REER}
-{synopt:{bf:{help wbopendata_topicid##PX.REX.REER:PX.REX.REER} - Real effective exchange rate index (2010 = 100)}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}07 Financial Sector{p_end}
-
-{synopt:{opt Source Notes}}Real effective exchange rate is the nominal effective exchange rate (a measure of the value of a currency against a weighted average of several foreign currencies) divided by a price deflator or index of costs.{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
+{synopt:{opt Source Organization}}International Financial Statistics database, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -2363,8 +2350,8 @@
 
 {synopt:{opt Source Notes}}Net migration is the net total of migrants during the period, that is, the number of immigrants minus the number of emigrants, including both citizens and noncitizens.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects: 2022 Revision.{p_end}
+{synopt:{opt Source Organization}}World Population Prospects, United Nations (UN), publisher: UN Population Division{p_end}
 
 
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

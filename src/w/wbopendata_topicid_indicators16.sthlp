@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -49,7 +49,7 @@
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the total urban land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
@@ -62,7 +62,7 @@
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the percentage of total land where the urban land elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
@@ -73,9 +73,9 @@
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
-{synopt:{opt Source Notes}}Urban land area in square kilometers, based on a combination of population counts (persons), settlement points, and the presence of Nighttime Lights. Areas are defined as urban where contiguous lighted cells from the Nighttime Lights or approx{p_end}
+{synopt:{opt Source Notes}}Urban land area in square kilometers, based on a combination of population counts (persons), settlement points, and the presence of nighttime lights. Areas are defined as urban where contiguous lighted cells from the nighttime lights or approx{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 2, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
@@ -88,7 +88,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity, urban is the percentage of urban population with access to electricity.{p_end}
 
-{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
+{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads,"} note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
 
 
 {synoptline}
@@ -114,7 +114,7 @@
 
 {synopt:{opt Source Notes}}Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of{p_end}
 
-{synopt:{opt Source Organization}}Global Burden of Disease Collaborative Network. 2021. Global Burden of Disease Study 2019 (GBD 2019) Air Pollution Exposure Estimates 1990-2019. Seattle, United States of America: Institute for Health Metrics and Evaluation (IHME). {browse "https://doi"}{p_end}
+{synopt:{opt Source Organization}}Global Burden of Disease Study 2021 (GBD 2021) Air Pollution Exposure Estimates 1990-2021, Institute for Health Metrics and Evaluation (IHME), uri: {browse "https://ghdx.healthdata.org/record/ihme-data/gbd-2021-air-pollution-exposure-estimates-1990-202"}{p_end}
 
 
 {synoptline}
@@ -127,7 +127,7 @@
 
 {synopt:{opt Source Notes}}Percent of population exposed to ambient concentrations of PM2.5 that exceed the WHO guideline value is defined as the portion of a country’s population living in places where mean annual concentrations of PM2.5 are greater than 10 microgram{p_end}
 
-{synopt:{opt Source Organization}}Brauer, M. et al. 2017, for the Global Burden of Disease Study 2017.{p_end}
+{synopt:{opt Source Organization}}Global Burden of Disease Study 2017 (GBD 2017), Institute for Health Metrics and Evaluation (IHME), uri: {browse "https://ghdx.healthdata.org/gbd-2017,"} publisher: Institute for Health Metrics and Evaluation (IHME), date published: 202112{p_end}
 
 
 {synoptline}
@@ -140,7 +140,7 @@
 
 {synopt:{opt Source Notes}}Population density is midyear population divided by land area in square kilometers. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship--except for refugees not per{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization and World Bank population estimates.{p_end}
+{synopt:{opt Source Organization}}FAO population estimates, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO);{p_end}
 
 
 {synoptline}
@@ -153,7 +153,7 @@
 
 {synopt:{opt Source Notes}}Urban population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702,"} publisher: NASA Ear{p_end}
 
 
 {synoptline}
@@ -166,7 +166,7 @@
 
 {synopt:{opt Source Notes}}Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improve{p_end}
 
-{synopt:{opt Source Organization}}United Nations Human Settlements Programme (UN-HABITAT){p_end}
+{synopt:{opt Source Organization}}Urban Indicators Database, UN Human Settlements Programme (UN-Habitat), uri: {browse "https://data.unhabitat.org/"}{p_end}
 
 
 {synoptline}
@@ -179,7 +179,7 @@
 
 {synopt:{opt Source Notes}}Population in largest city is the urban population living in the country's largest metropolitan area.{p_end}
 
-{synopt:{opt Source Organization}}United Nations, World Urbanization Prospects.{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} publisher: UN Population Division, date published: 2018{p_end}
 
 
 {synoptline}
@@ -192,7 +192,7 @@
 
 {synopt:{opt Source Notes}}Population in largest city is the percentage of a country's urban population living in that country's largest metropolitan area.{p_end}
 
-{synopt:{opt Source Organization}}United Nations, World Urbanization Prospects.{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} publisher: UN Population Division, date published: 2018{p_end}
 
 
 {synoptline}
@@ -205,7 +205,7 @@
 
 {synopt:{opt Source Notes}}Population in urban agglomerations of more than one million is the country's population living in metropolitan areas that in 2018 had a population of more than one million people.{p_end}
 
-{synopt:{opt Source Organization}}United Nations, World Urbanization Prospects.{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} publisher: UN Population Division, date published: 2018{p_end}
 
 
 {synoptline}
@@ -218,14 +218,14 @@
 
 {synopt:{opt Source Notes}}Population in urban agglomerations of more than one million is the percentage of a country's population living in metropolitan areas that in 2018 had a population of more than one million people.{p_end}
 
-{synopt:{opt Source Organization}}United Nations, World Urbanization Prospects.{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} publisher: UN Population Division, date published: 2018{p_end}
 
 
 {synoptline}
 {marker topicid_EP.PMP.DESL.CD}
 {synopt:{bf:{help wbopendata_topicid##EP.PMP.DESL.CD:EP.PMP.DESL.CD} - Pump price for diesel fuel (US$ per liter)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -238,7 +238,7 @@
 {marker topicid_EP.PMP.SGAS.CD}
 {synopt:{bf:{help wbopendata_topicid##EP.PMP.SGAS.CD:EP.PMP.SGAS.CD} - Pump price for gasoline (US$ per liter)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
@@ -294,9 +294,9 @@
 
 {synopt:{opt Topics}}16 Urban Development{p_end}
 
-{synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. It is calculated using World Bank population estimates and urban ratios from the United Nations World Urbanization Prospects.{p_end}
+{synopt:{opt Source Notes}}Annual urban population growth rate for year t is the exponential rate of growth of midyear urban population from year t-1 to t, expressed as a percentage. Urban population refers to people living in urban areas as defined by national statisti{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects: 2018 Revision.{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
 
 
 {synoptline}
@@ -309,7 +309,7 @@
 
 {synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. It is calculated using World Bank population estimates and urban ratios from the United Nations World Urbanization Prospects. Aggregation of ur{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects: 2018 Revision.{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
 
 
 {synoptline}
@@ -322,8 +322,8 @@
 
 {synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. The data are collected and smoothed by United Nations Population Division.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Urbanization Prospects: 2018 Revision.{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Population Division{p_end}
 
 
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

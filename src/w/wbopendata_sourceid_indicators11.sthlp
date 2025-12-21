@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -17,14 +17,13 @@
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
 {synopt:{opt 14}}  {help wbopendata_sourceid_indicators14##sourceid_14:Gender Statistics}{p_end}
 {synopt:{opt 15}}  {help wbopendata_sourceid_indicators15##sourceid_15:Global Economic Monitor}{p_end}
-{synopt:{opt 16}}  {help wbopendata_sourceid_indicators16##sourceid_16:Health Nutrition and Population Statistics}{p_end}
 {synopt:{opt 18}}  {help wbopendata_sourceid_indicators18##sourceid_18:IDA Results Measurement System}{p_end}
 {synopt:{opt 19}}  {help wbopendata_sourceid_indicators19##sourceid_19:Millennium Development Goals}{p_end}
 {synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
-{synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
+{synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Findex database}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
 {synopt:{opt 32}}  {help wbopendata_sourceid_indicators32##sourceid_32:Global Financial Development}{p_end}
@@ -37,7 +36,6 @@
 {synopt:{opt 43}}  {help wbopendata_sourceid_indicators43##sourceid_43:Adjusted Net Savings}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
 {synopt:{opt 60}}  {help wbopendata_sourceid_indicators60##sourceid_60:Economic Fitness}{p_end}
@@ -46,8 +44,6 @@
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
-{synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
-{synopt:{opt 68}}  {help wbopendata_sourceid_indicators68##sourceid_68:PEFA 2016}{p_end}
 {synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
 {synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
 {synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
@@ -58,12 +54,13 @@
 {synopt:{opt 80}}  {help wbopendata_sourceid_indicators80##sourceid_80:Gender Disaggregated Labor Database (GDLD)}{p_end}
 {synopt:{opt 81}}  {help wbopendata_sourceid_indicators81##sourceid_81:International Debt Statistics: DSSI}{p_end}
 {synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
-{synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
 {synopt:{opt 86}}  {help wbopendata_sourceid_indicators86##sourceid_86:Global Jobs Indicators Database (JOIN)}{p_end}
 {synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
 {synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
 {synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
 {synopt:{opt 91}}  {help wbopendata_sourceid_indicators91##sourceid_91:PEFA_CRPFM}{p_end}
+{synopt:{opt 92}}  {help wbopendata_sourceid_indicators92##sourceid_92:Disability Data Hub (DDH)}{p_end}
+{synopt:{opt 93}}  {help wbopendata_sourceid_indicators93##sourceid_93:FPN Datahub Archive}{p_end}
 
 
 {marker sourceid_11}
@@ -4889,18 +4886,6 @@
 
 
 {synoptline}
-{marker sourceid_IC.CUS.DURS.IM}
-{synopt:{bf:{help wbopendata_sourceid##IC.CUS.DURS.IM:IC.CUS.DURS.IM} - Average time to clear imports from customs (days)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Average time to clear imports through customs is the average number of days to clear imports through customs.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, Enterprise Surveys ({browse "http://www.enterprisesurveys.org/"}).{p_end}
-
-
-{synoptline}
 {marker sourceid_IC.DMKT.BRK.ZS}
 {synopt:{bf:{help wbopendata_sourceid##IC.DMKT.BRK.ZS:IC.DMKT.BRK.ZS} - Products shipped to supply domestic markets lost due to breakage or spoilage (%)}}
 
@@ -5865,7 +5850,7 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Paved roads are those surfaced with crushed stone (macadam) and hydrocarbon binder or bituminized agents, with concrete, or with cobblestones, as a percentage of all the country's roads, measured in length.{p_end}
 
@@ -5917,7 +5902,7 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Passenger cars refer to road motor vehicles, other than two-wheelers, intended for the carriage of passengers and designed to seat no more than nine people (including the driver).{p_end}
 
@@ -5930,7 +5915,7 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Vehicles per kilometer of road include cars, buses, and freight vehicles but do not include two-wheelers. Roads refer to motorways, highways, main or national roads, secondary or regional roads, and other roads. A motorway is a road specially{p_end}
 
@@ -7975,221 +7960,5 @@
 {synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
 
 
-{synoptline}
-{marker sourceid_PRT.PDCL.IND1.IDX}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND1.IDX:PRT.PDCL.IND1.IDX} - PDI-1 Country with operational national development strategies (rating)}}
 
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Country's national development strategy is linked to medium-term expenditure framework and reflected in annual budgets.  The degree to which governments take the lead in co-ordinating aid-funded activities is the subject of a specific commitme{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_PRT.PDCL.IND10A.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND10A.ALLD.ZS:PRT.PDCL.IND10A.ALLD.ZS} - PDI-10a Donor missions co-ordinated (percent)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Encourage shared analysis on field missions work including diagnostic reviews that are joint.  Donor co-ordinated missions focuses only on the proportion of (i) missions undertaken jointly by two or more donors, or (ii) missions undertaken by{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_PRT.PDCL.IND10B.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND10B.ALLD.ZS:PRT.PDCL.IND10B.ALLD.ZS} - PDI-10b Country-analysis co-ordinated (percent)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Encourage shared analysis on country analytic work including diagnostic reviews that are joint.  (i) Country analytic work undertaken by one or more donors jointly; (ii) Country analytic work undertaken by one donor on behalf of another donor{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_PRT.PDCL.IND11.IDX}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND11.IDX:PRT.PDCL.IND11.IDX} - PDI-11 Existence of a monitorable performance assessment framework (rating)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Transparent and monitorable performance assessment frameworks to assess progress against (a) national development strategies and (b) sector programmes.  Categorical where A assigned a value of 1; B assigned a value of 2; C assigned a value of{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_PRT.PDCL.IND12.IDX}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND12.IDX:PRT.PDCL.IND12.IDX} - PDI-12 Existence of a mutual accountability review (rating)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}The concept of mutual accountability is an important innovation of the Paris Declaration.  It develops the idea that aid is more effective when both donors and partner governments are accountable to their respective publics for the use of reso{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_PRT.PDCL.IND2A.IDX}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND2A.IDX:PRT.PDCL.IND2A.IDX} - PDI-2a Country financial management systems reliability (rating)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}This rating is the World Bank's annual Country Policy and Institutional Assessment ratings (CPIA sub-component 13) for the quality of budgetary and financial management.  This scale runs from 1 to 5 with 1 the worst and 5 the best.  The focus{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_PRT.PDCL.IND2B.IDX}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND2B.IDX:PRT.PDCL.IND2B.IDX} - PDI-2b Country procurement systems reliability (rating)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}The focus is on the degree to which existing systems adhere to broadly accepted good practices or there is a reform programme in place to promote improved practices. Reliable procurement systems are based on the common benchmarking and assessm{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_PRT.PDCL.IND3.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND3.ALLD.ZS:PRT.PDCL.IND3.ALLD.ZS} - PDI-3 Government budget estimates comprehensive and realistic (percent)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}The objective of this indicator is to improve transparency and accountability by encouraging partner countries and donors to accurately record aid as much as possible in the national budget, thereby allowing scrutiny by parliaments.  Aid flows{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_PRT.PDCL.IND4.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND4.ALLD.ZS:PRT.PDCL.IND4.ALLD.ZS} - PDI-4 Technical assistance aligned and co-ordinated with country programmes (percent)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Donor capacity-development support provided through co-ordinated programmes are consistent with country's development strategies.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monitoring the Paris Declaration for each r{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_PRT.PDCL.IND5A.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND5A.ALLD.ZS:PRT.PDCL.IND5A.ALLD.ZS} - PDI-5a Aid for government sectors uses country public finanacial management systems (percent)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Donors and aid flows that use country's public financial management systems that either (a) adhere to broadly good practices or (b) have a reform programme in place to achieve these.  Indicators 3 to 12 (but not Indictor 8) are drawn from the{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_PRT.PDCL.IND5B.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND5B.ALLD.ZS:PRT.PDCL.IND5B.ALLD.ZS} - PDI-5b Aid for government sectors uses country procurement systems (percent)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Donors and aid flows that use country's procurement systems that either (a) adhere to broadly good practices or (b) have a reform programme in place to achieve these.  Indicators 3 to 12 (but not Indictor 8) are drawn from the Survey on Monito{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_PRT.PDCL.IND6.ALLD.NUM}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND6.ALLD.NUM:PRT.PDCL.IND6.ALLD.NUM} - PDI-6 Project implementation units parallel to country structures (number)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Indicator 6 is a count of parallel project implementation units (PIUs), where{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_PRT.PDCL.IND7.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND7.ALLD.ZS:PRT.PDCL.IND7.ALLD.ZS} - PDI-7 Aid disbursements on schedule and recorded by government (percent)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Aid disbursements on schedule and recorded by government.  The objective is two-fold.  First and foremost, it is to encourage disbursements of funds within the year they are scheduled.  Second, it is to encourage accurate recording of disburse{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_PRT.PDCL.IND8.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND8.ALLD.ZS:PRT.PDCL.IND8.ALLD.ZS} - PDI-8 Bilateral aid that is untied (percent)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Tied aid is aid provided on the condition that the recipient uses it to purchase goods and services from suppliers based in the donor country. The target for this indicator is to increase untied aid over time.{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_PRT.PDCL.IND9.ALLD.ZS}
-{synopt:{bf:{help wbopendata_sourceid##PRT.PDCL.IND9.ALLD.ZS:PRT.PDCL.IND9.ALLD.ZS} - PDI-9 Aid provided in the framework of programme-based appproaches (%)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Aid provided in the framework of programme-based approaches (PBAs) are a way of engaging in development co-operation based on the principles of co-ordinated support for  a locally owned programme of development, such as a national development{p_end}
-
-{synopt:{opt Source Organization}}Organization for Economic Co-operation and Development ({browse "www.oecd.org/dac/effectiveness/monitoring"}).{p_end}
-
-
-{synoptline}
-{marker sourceid_PX.MUV.TOTL}
-{synopt:{bf:{help wbopendata_sourceid##PX.MUV.TOTL:PX.MUV.TOTL} - Manufactures value index}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Manufactures unit value index is a weighted unit value index of exports of manufactures by industrial countries.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, IECAP{p_end}
-
-
-{synoptline}
-{marker sourceid_PX.MUV.TOTL.XU}
-{synopt:{bf:{help wbopendata_sourceid##PX.MUV.TOTL.XU:PX.MUV.TOTL.XU} - Manufactured exports unit value (MUV) index (% change)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Manufactures unit value index (percentage change) is calculated as the annual percentage change of a weighted unit value index of exports of manufactures by industrial countries.{p_end}
-
-{synopt:{opt Source Organization}}World Bank, IECAP.{p_end}
-
-
-{synoptline}
-{marker sourceid_PX.REC.REER}
-{synopt:{bf:{help wbopendata_sourceid##PX.REC.REER:PX.REC.REER} - Real effective exchange rate index (line rec, 2005 = 100)}}
-
-{synopt:{opt Source}}11 Africa Development Indicators{p_end}
-
-
-{synopt:{opt Source Notes}}Real effective exchange rate is the nominal effective exchange rate (a measure of the value of a currency against a weighted average of several foreign currencies) divided by a price deflator or index of costs. This indicator corresponds to th{p_end}
-
-{synopt:{opt Source Organization}}International Monetary Fund, International Financial Statistics.{p_end}
-
-
-
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

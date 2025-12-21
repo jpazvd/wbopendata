@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1440,8 +1440,8 @@
 
 {synopt:{opt Source Notes}}Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improve{p_end}
 
-{synopt:{opt Source Organization}}United Nations Human Settlements Programme (UN-HABITAT){p_end}
+{synopt:{opt Source Organization}}Urban Indicators Database, UN Human Settlements Programme (UN-Habitat), uri: {browse "https://data.unhabitat.org/"}{p_end}
 
 
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

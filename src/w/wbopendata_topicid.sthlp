@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -236,11 +236,11 @@
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ALLD.CD:DT.ODA.ALLD.CD{marker DT.ODA.ALLD.CD}}}Net official development assistance and official aid received (current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ALLD.KD:DT.ODA.ALLD.KD{marker DT.ODA.ALLD.KD}}}Net official development assistance and official aid received (constant 2021 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ALLD.KD:DT.ODA.ALLD.KD{marker DT.ODA.ALLD.KD}}}Net official development assistance and official aid received (constant 2023 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.OATL.CD:DT.ODA.OATL.CD{marker DT.ODA.OATL.CD}}}Net official aid received (current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.OATL.KD:DT.ODA.OATL.KD{marker DT.ODA.OATL.KD}}}Net official aid received (constant 2021 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.OATL.KD:DT.ODA.OATL.KD{marker DT.ODA.OATL.KD}}}Net official aid received (constant 2023 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ODAT.CD:DT.ODA.ODAT.CD{marker DT.ODA.ODAT.CD}}}Net official development assistance received (current US$){p_end}
 
@@ -248,17 +248,13 @@
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ODAT.GN.ZS:DT.ODA.ODAT.GN.ZS{marker DT.ODA.ODAT.GN.ZS}}}Net ODA received (% of GNI){p_end}
 
-{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ODAT.KD:DT.ODA.ODAT.KD{marker DT.ODA.ODAT.KD}}}Net official development assistance received (constant 2021 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ODAT.KD:DT.ODA.ODAT.KD{marker DT.ODA.ODAT.KD}}}Net official development assistance received (constant 2023 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ODAT.MP.ZS:DT.ODA.ODAT.MP.ZS{marker DT.ODA.ODAT.MP.ZS}}}Net ODA received (% of imports of goods, services and primary income){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ODAT.PC.ZS:DT.ODA.ODAT.PC.ZS{marker DT.ODA.ODAT.PC.ZS}}}Net ODA received per capita (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_DT.ODA.ODAT.XP.ZS:DT.ODA.ODAT.XP.ZS{marker DT.ODA.ODAT.XP.ZS}}}Net ODA received (% of central government expense){p_end}
-
-{synopt:{help wbopendata_topicid_indicators02##topicid_SE.ENR.PRSC.FM.ZS:SE.ENR.PRSC.FM.ZS{marker SE.ENR.PRSC.FM.ZS}}}School enrollment, primary and secondary (gross), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators02##topicid_SE.PRM.CMPT.ZS:SE.PRM.CMPT.ZS{marker SE.PRM.CMPT.ZS}}}Primary completion rate, total (% of relevant age group){p_end}
 
 {synopt:{help wbopendata_topicid_indicators02##topicid_SH.DYN.MORT:SH.DYN.MORT{marker SH.DYN.MORT}}}Mortality rate, under-5 (per 1,000 live births){p_end}
 
@@ -1650,390 +1646,6 @@
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_LO.TIMSS.SCI8.MA:LO.TIMSS.SCI8.MA{marker LO.TIMSS.SCI8.MA}}}TIMSS: Mean performance on the science scale for eighth grade students, male{p_end}
 
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL5:SABER.GRVT.GOAL5{marker SABER.GRVT.GOAL5}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 5: Encouraging innovation by providers{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL5.LVL1:SABER.GRVT.GOAL5.LVL1{marker SABER.GRVT.GOAL5.LVL1}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 1: Teacher standards{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL5.LVL2:SABER.GRVT.GOAL5.LVL2{marker SABER.GRVT.GOAL5.LVL2}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 2: Appointment and deployment of teachers{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL5.LVL3:SABER.GRVT.GOAL5.LVL3{marker SABER.GRVT.GOAL5.LVL3}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 3: Teacher salaries{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL5.LVL4:SABER.GRVT.GOAL5.LVL4{marker SABER.GRVT.GOAL5.LVL4}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 4: Teacher dismissal{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL5.LVL5:SABER.GRVT.GOAL5.LVL5{marker SABER.GRVT.GOAL5.LVL5}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 5: Curriculum delivery{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL5.LVL6:SABER.GRVT.GOAL5.LVL6{marker SABER.GRVT.GOAL5.LVL6}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 6: Classroom resourcing{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL5.LVL7:SABER.GRVT.GOAL5.LVL7{marker SABER.GRVT.GOAL5.LVL7}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 5 Lever 7: Budget autonomy{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL6:SABER.GRVT.GOAL6{marker SABER.GRVT.GOAL6}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 6: Holding schools accountable{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL6.LVL1:SABER.GRVT.GOAL6.LVL1{marker SABER.GRVT.GOAL6.LVL1}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 1: Student standards{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL6.LVL2:SABER.GRVT.GOAL6.LVL2{marker SABER.GRVT.GOAL6.LVL2}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 2: Student assessment{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL6.LVL3:SABER.GRVT.GOAL6.LVL3{marker SABER.GRVT.GOAL6.LVL3}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 3: Financial reporting{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL6.LVL4:SABER.GRVT.GOAL6.LVL4{marker SABER.GRVT.GOAL6.LVL4}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 4: Inspection{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL6.LVL5:SABER.GRVT.GOAL6.LVL5{marker SABER.GRVT.GOAL6.LVL5}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 5: Improvement planning{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL6.LVL6:SABER.GRVT.GOAL6.LVL6{marker SABER.GRVT.GOAL6.LVL6}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 6 Lever 6: Sanctions and rewards{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL7:SABER.GRVT.GOAL7{marker SABER.GRVT.GOAL7}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 7: Empowering all parents, students, and communities{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL7.LVL1:SABER.GRVT.GOAL7.LVL1{marker SABER.GRVT.GOAL7.LVL1}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 7 Lever 1: Information{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL7.LVL2:SABER.GRVT.GOAL7.LVL2{marker SABER.GRVT.GOAL7.LVL2}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 7 Lever 2: Voice{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL7.LVL3:SABER.GRVT.GOAL7.LVL3{marker SABER.GRVT.GOAL7.LVL3}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 7 Lever 3: Selection{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL7.LVL4:SABER.GRVT.GOAL7.LVL4{marker SABER.GRVT.GOAL7.LVL4}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 7 Lever 4: Contributions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL8:SABER.GRVT.GOAL8{marker SABER.GRVT.GOAL8}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 8: Promoting diversity of supply{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL8.LVL1:SABER.GRVT.GOAL8.LVL1{marker SABER.GRVT.GOAL8.LVL1}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 1: Ownership{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL8.LVL2:SABER.GRVT.GOAL8.LVL2{marker SABER.GRVT.GOAL8.LVL2}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 2: Certification standards{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL8.LVL3:SABER.GRVT.GOAL8.LVL3{marker SABER.GRVT.GOAL8.LVL3}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 3: Market entry information{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL8.LVL4:SABER.GRVT.GOAL8.LVL4{marker SABER.GRVT.GOAL8.LVL4}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 4: Regulatory fees{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL8.LVL5:SABER.GRVT.GOAL8.LVL5{marker SABER.GRVT.GOAL8.LVL5}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 5: Funding{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL8.LVL6:SABER.GRVT.GOAL8.LVL6{marker SABER.GRVT.GOAL8.LVL6}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 6: Incentives{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.GRVT.GOAL8.LVL7:SABER.GRVT.GOAL8.LVL7{marker SABER.GRVT.GOAL8.LVL7}}}SABER: (Engaging the Private Sector, Government funded) Policy Goal 8 Lever 7: Planning{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.TER.GOAL1:SABER.TER.GOAL1{marker SABER.TER.GOAL1}}}SABER: (Tertiary Education) Policy Goal 1: Vision for Tertiary Education{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.TER.GOAL1.LVL1:SABER.TER.GOAL1.LVL1{marker SABER.TER.GOAL1.LVL1}}}SABER: (Tertiary Education) Policy Goal 1 Lever 1: Clear vision{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.TER.GOAL2:SABER.TER.GOAL2{marker SABER.TER.GOAL2}}}SABER: (Tertiary Education) Policy Goal 2: Regulatory Framework for Tertiary Education{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.TER.GOAL2.LVL1:SABER.TER.GOAL2.LVL1{marker SABER.TER.GOAL2.LVL1}}}SABER: (Tertiary Education) Policy Goal 2 Lever 1: Steering the system{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.TER.GOAL3:SABER.TER.GOAL3{marker SABER.TER.GOAL3}}}SABER: (Tertiary Education) Policy Goal 3: Governance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.TER.GOAL3.LVL1:SABER.TER.GOAL3.LVL1{marker SABER.TER.GOAL3.LVL1}}}SABER: (Tertiary Education) Policy Goal 3 Lever 1: Articulation{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.TER.GOAL3.LVL2:SABER.TER.GOAL3.LVL2{marker SABER.TER.GOAL3.LVL2}}}SABER: (Tertiary Education) Policy Goal 3 Lever 2: Institutional autonomy{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.TER.GOAL4:SABER.TER.GOAL4{marker SABER.TER.GOAL4}}}SABER: (Tertiary Education) Policy Goal 4: Finance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.TER.GOAL4.LVL1:SABER.TER.GOAL4.LVL1{marker SABER.TER.GOAL4.LVL1}}}SABER: (Tertiary Education) Policy Goal 4 Lever 1: Coverage of resource allocation{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.TER.GOAL4.LVL2:SABER.TER.GOAL4.LVL2{marker SABER.TER.GOAL4.LVL2}}}SABER: (Tertiary Education) Policy Goal 4 Lever 2: Resource allocation{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.TER.GOAL4.LVL3:SABER.TER.GOAL4.LVL3{marker SABER.TER.GOAL4.LVL3}}}SABER: (Tertiary Education) Policy Goal 4 Lever 3: Resource utilization (Equity){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.TER.GOAL5:SABER.TER.GOAL5{marker SABER.TER.GOAL5}}}SABER: (Tertiary Education) Policy Goal 5: Quality Assurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.TER.GOAL5.LVL1:SABER.TER.GOAL5.LVL1{marker SABER.TER.GOAL5.LVL1}}}SABER: (Tertiary Education) Policy Goal 5 Lever 1: Accreditation and Institutional Quality Standards{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.TER.GOAL6:SABER.TER.GOAL6{marker SABER.TER.GOAL6}}}SABER: (Tertiary Education) Policy Goal 6: The Relevance of Tertiary Education for Economic and Social Needs{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.TER.GOAL6.LVL1:SABER.TER.GOAL6.LVL1{marker SABER.TER.GOAL6.LVL1}}}SABER: (Tertiary Education) Policy Goal 6 Lever 1: Economic Development{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.TER.GOAL6.LVL2:SABER.TER.GOAL6.LVL2{marker SABER.TER.GOAL6.LVL2}}}SABER: (Tertiary Education) Policy Goal 6 Lever 2: Fostering RDI and Innovation{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SABER.TER.GOAL6.LVL3:SABER.TER.GOAL6.LVL3{marker SABER.TER.GOAL6.LVL3}}}SABER: (Tertiary Education) Policy Goal 6 Lever 3: Fostering Social and Cultural Development and Environmental Protection and Sustainability{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.ADT.1524.LT.FE.ZS:SE.ADT.1524.LT.FE.ZS{marker SE.ADT.1524.LT.FE.ZS}}}Literacy rate, youth female (% of females ages 15-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.ADT.1524.LT.FM.ZS:SE.ADT.1524.LT.FM.ZS{marker SE.ADT.1524.LT.FM.ZS}}}Literacy rate, youth (ages 15-24), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.ADT.1524.LT.MA.ZS:SE.ADT.1524.LT.MA.ZS{marker SE.ADT.1524.LT.MA.ZS}}}Literacy rate, youth male (% of males ages 15-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.ADT.1524.LT.ZS:SE.ADT.1524.LT.ZS{marker SE.ADT.1524.LT.ZS}}}Literacy rate, youth total (% of people ages 15-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.ADT.LITR.FE.ZS:SE.ADT.LITR.FE.ZS{marker SE.ADT.LITR.FE.ZS}}}Literacy rate, adult female (% of females ages 15 and above){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.ADT.LITR.MA.ZS:SE.ADT.LITR.MA.ZS{marker SE.ADT.LITR.MA.ZS}}}Literacy rate, adult male (% of males ages 15 and above){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.ADT.LITR.ZS:SE.ADT.LITR.ZS{marker SE.ADT.LITR.ZS}}}Literacy rate, adult total (% of people ages 15 and above){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.COM.DURS:SE.COM.DURS{marker SE.COM.DURS}}}Compulsory education, duration (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.ENR.PRIM.FM.ZS:SE.ENR.PRIM.FM.ZS{marker SE.ENR.PRIM.FM.ZS}}}School enrollment, primary (gross), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.ENR.PRSC.FM.ZS:SE.ENR.PRSC.FM.ZS{marker SE.ENR.PRSC.FM.ZS}}}School enrollment, primary and secondary (gross), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.ENR.SECO.FM.ZS:SE.ENR.SECO.FM.ZS{marker SE.ENR.SECO.FM.ZS}}}School enrollment, secondary (gross), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.ENR.TERT.FM.ZS:SE.ENR.TERT.FM.ZS{marker SE.ENR.TERT.FM.ZS}}}School enrollment, tertiary (gross), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.LPV.PRIM.BMP.FE:SE.LPV.PRIM.BMP.FE{marker SE.LPV.PRIM.BMP.FE}}}Female pupils below minimum reading proficiency at end of primary (%). Low GAML threshold{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.LPV.PRIM.BMP.MA:SE.LPV.PRIM.BMP.MA{marker SE.LPV.PRIM.BMP.MA}}}Male pupils below minimum reading proficiency at end of primary (%). Low GAML threshold{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.LPV.PRIM.FE:SE.LPV.PRIM.FE{marker SE.LPV.PRIM.FE}}}Learning poverty: Share of Female Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.LPV.PRIM.MA:SE.LPV.PRIM.MA{marker SE.LPV.PRIM.MA}}}Learning poverty: Share of Male Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.LPV.PRIM.OOS.FE:SE.LPV.PRIM.OOS.FE{marker SE.LPV.PRIM.OOS.FE}}}Female primary school age children out-of-school (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.LPV.PRIM.OOS.MA:SE.LPV.PRIM.OOS.MA{marker SE.LPV.PRIM.OOS.MA}}}Male primary school age children out-of-school (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.DURS:SE.PRE.DURS{marker SE.PRE.DURS}}}Preprimary education, duration (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.ENRL:SE.PRE.ENRL{marker SE.PRE.ENRL}}}Enrolment in pre-primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.ENRL.FE:SE.PRE.ENRL.FE{marker SE.PRE.ENRL.FE}}}Enrolment in pre-primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.ENRL.TC.ZS:SE.PRE.ENRL.TC.ZS{marker SE.PRE.ENRL.TC.ZS}}}Pupil-teacher ratio, preprimary{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.ENRR:SE.PRE.ENRR{marker SE.PRE.ENRR}}}School enrollment, preprimary (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.ENRR.FE:SE.PRE.ENRR.FE{marker SE.PRE.ENRR.FE}}}School enrollment, preprimary, female (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.ENRR.MA:SE.PRE.ENRR.MA{marker SE.PRE.ENRR.MA}}}School enrollment, preprimary, male (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.PRIV.ZS:SE.PRE.PRIV.ZS{marker SE.PRE.PRIV.ZS}}}Percentage of enrolment in pre-primary education in private institutions (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.TCAQ.FE.ZS:SE.PRE.TCAQ.FE.ZS{marker SE.PRE.TCAQ.FE.ZS}}}Trained teachers in preprimary education, female (% of female teachers){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.TCAQ.MA.ZS:SE.PRE.TCAQ.MA.ZS{marker SE.PRE.TCAQ.MA.ZS}}}Trained teachers in preprimary education, male (% of male teachers){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.TCAQ.ZS:SE.PRE.TCAQ.ZS{marker SE.PRE.TCAQ.ZS}}}Trained teachers in preprimary education (% of total teachers){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.TCHR:SE.PRE.TCHR{marker SE.PRE.TCHR}}}Teachers in pre-primary education, both sexes (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.TCHR.FE:SE.PRE.TCHR.FE{marker SE.PRE.TCHR.FE}}}Teachers in pre-primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRE.TCHR.FE.ZS:SE.PRE.TCHR.FE.ZS{marker SE.PRE.TCHR.FE.ZS}}}Percentage of teachers in pre-primary education who are female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.AGES:SE.PRM.AGES{marker SE.PRM.AGES}}}Primary school starting age (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CMPL.FE.ZS:SE.PRM.CMPL.FE.ZS{marker SE.PRM.CMPL.FE.ZS}}}Gross graduation ratio, primary, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CMPL.MA.ZS:SE.PRM.CMPL.MA.ZS{marker SE.PRM.CMPL.MA.ZS}}}Gross graduation ratio, primary, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CMPL.ZS:SE.PRM.CMPL.ZS{marker SE.PRM.CMPL.ZS}}}Gross graduation ratio, primary, total (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CMPT.FE.ZS:SE.PRM.CMPT.FE.ZS{marker SE.PRM.CMPT.FE.ZS}}}Primary completion rate, female (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CMPT.MA.ZS:SE.PRM.CMPT.MA.ZS{marker SE.PRM.CMPT.MA.ZS}}}Primary completion rate, male (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CMPT.ZS:SE.PRM.CMPT.ZS{marker SE.PRM.CMPT.ZS}}}Primary completion rate, total (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CUAT.FE.ZS:SE.PRM.CUAT.FE.ZS{marker SE.PRM.CUAT.FE.ZS}}}Educational attainment, at least completed primary, population 25+ years, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CUAT.MA.ZS:SE.PRM.CUAT.MA.ZS{marker SE.PRM.CUAT.MA.ZS}}}Educational attainment, at least completed primary, population 25+ years, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.CUAT.ZS:SE.PRM.CUAT.ZS{marker SE.PRM.CUAT.ZS}}}Educational attainment, at least completed primary, population 25+ years, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.DURS:SE.PRM.DURS{marker SE.PRM.DURS}}}Primary education, duration (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.ENRL:SE.PRM.ENRL{marker SE.PRM.ENRL}}}Primary education, pupils{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.ENRL.FE:SE.PRM.ENRL.FE{marker SE.PRM.ENRL.FE}}}Enrolment in primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.ENRL.FE.ZS:SE.PRM.ENRL.FE.ZS{marker SE.PRM.ENRL.FE.ZS}}}Primary education, pupils (% female){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.ENRL.TC.ZS:SE.PRM.ENRL.TC.ZS{marker SE.PRM.ENRL.TC.ZS}}}Pupil-teacher ratio, primary{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.ENRR:SE.PRM.ENRR{marker SE.PRM.ENRR}}}School enrollment, primary (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.ENRR.FE:SE.PRM.ENRR.FE{marker SE.PRM.ENRR.FE}}}School enrollment, primary, female (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.ENRR.MA:SE.PRM.ENRR.MA{marker SE.PRM.ENRR.MA}}}School enrollment, primary, male (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.GINT.FE.ZS:SE.PRM.GINT.FE.ZS{marker SE.PRM.GINT.FE.ZS}}}Gross intake ratio in first grade of primary education, female (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.GINT.MA.ZS:SE.PRM.GINT.MA.ZS{marker SE.PRM.GINT.MA.ZS}}}Gross intake ratio in first grade of primary education, male (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.GINT.ZS:SE.PRM.GINT.ZS{marker SE.PRM.GINT.ZS}}}Gross intake ratio in first grade of primary education, total (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.NENR:SE.PRM.NENR{marker SE.PRM.NENR}}}School enrollment, primary (% net){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.NENR.FE:SE.PRM.NENR.FE{marker SE.PRM.NENR.FE}}}School enrollment, primary, female (% net){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.NENR.MA:SE.PRM.NENR.MA{marker SE.PRM.NENR.MA}}}School enrollment, primary, male (% net){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.NINT.FE.ZS:SE.PRM.NINT.FE.ZS{marker SE.PRM.NINT.FE.ZS}}}Net intake rate in grade 1, female (% of official school-age population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.NINT.MA.ZS:SE.PRM.NINT.MA.ZS{marker SE.PRM.NINT.MA.ZS}}}Net intake rate in grade 1, male (% of official school-age population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.NINT.ZS:SE.PRM.NINT.ZS{marker SE.PRM.NINT.ZS}}}Net intake rate in grade 1 (% of official school-age population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.OENR.FE.ZS:SE.PRM.OENR.FE.ZS{marker SE.PRM.OENR.FE.ZS}}}Over-age students, primary, female (% of female enrollment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.OENR.MA.ZS:SE.PRM.OENR.MA.ZS{marker SE.PRM.OENR.MA.ZS}}}Over-age students, primary, male (% of male enrollment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.OENR.ZS:SE.PRM.OENR.ZS{marker SE.PRM.OENR.ZS}}}Over-age students, primary (% of enrollment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.PRIV.ZS:SE.PRM.PRIV.ZS{marker SE.PRM.PRIV.ZS}}}School enrollment, primary, private (% of total primary){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.PRS5.FE.ZS:SE.PRM.PRS5.FE.ZS{marker SE.PRM.PRS5.FE.ZS}}}Persistence to grade 5, female (% of cohort){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.PRS5.MA.ZS:SE.PRM.PRS5.MA.ZS{marker SE.PRM.PRS5.MA.ZS}}}Persistence to grade 5, male (% of cohort){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.PRS5.ZS:SE.PRM.PRS5.ZS{marker SE.PRM.PRS5.ZS}}}Persistence to grade 5, total (% of cohort){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.PRSL.FE.ZS:SE.PRM.PRSL.FE.ZS{marker SE.PRM.PRSL.FE.ZS}}}Persistence to last grade of primary, female (% of cohort){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.PRSL.MA.ZS:SE.PRM.PRSL.MA.ZS{marker SE.PRM.PRSL.MA.ZS}}}Persistence to last grade of primary, male (% of cohort){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.PRSL.ZS:SE.PRM.PRSL.ZS{marker SE.PRM.PRSL.ZS}}}Persistence to last grade of primary, total (% of cohort){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.REPT.FE.ZS:SE.PRM.REPT.FE.ZS{marker SE.PRM.REPT.FE.ZS}}}Repeaters, primary, female (% of female enrollment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.REPT.MA.ZS:SE.PRM.REPT.MA.ZS{marker SE.PRM.REPT.MA.ZS}}}Repeaters, primary, male (% of male enrollment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.REPT.ZS:SE.PRM.REPT.ZS{marker SE.PRM.REPT.ZS}}}Repeaters, primary, total (% of total enrollment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.TCAQ.FE.ZS:SE.PRM.TCAQ.FE.ZS{marker SE.PRM.TCAQ.FE.ZS}}}Trained teachers in primary education, female (% of female teachers){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.TCAQ.MA.ZS:SE.PRM.TCAQ.MA.ZS{marker SE.PRM.TCAQ.MA.ZS}}}Trained teachers in primary education, male (% of male teachers){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.TCAQ.ZS:SE.PRM.TCAQ.ZS{marker SE.PRM.TCAQ.ZS}}}Trained teachers in primary education (% of total teachers){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.TCHR:SE.PRM.TCHR{marker SE.PRM.TCHR}}}Primary education, teachers{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.TCHR.FE:SE.PRM.TCHR.FE{marker SE.PRM.TCHR.FE}}}Teachers in primary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.TCHR.FE.ZS:SE.PRM.TCHR.FE.ZS{marker SE.PRM.TCHR.FE.ZS}}}Primary education, teachers (% female){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.TENR:SE.PRM.TENR{marker SE.PRM.TENR}}}Adjusted net enrollment rate, primary (% of primary school age children){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.TENR.FE:SE.PRM.TENR.FE{marker SE.PRM.TENR.FE}}}Adjusted net enrollment rate, primary, female (% of primary school age children){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.TENR.MA:SE.PRM.TENR.MA{marker SE.PRM.TENR.MA}}}Adjusted net enrollment rate, primary, male (% of primary school age children){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.UNER:SE.PRM.UNER{marker SE.PRM.UNER}}}Children out of school, primary{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.UNER.FE:SE.PRM.UNER.FE{marker SE.PRM.UNER.FE}}}Children out of school, primary, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.UNER.FE.ZS:SE.PRM.UNER.FE.ZS{marker SE.PRM.UNER.FE.ZS}}}Children out of school, female (% of female primary school age){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.UNER.MA:SE.PRM.UNER.MA{marker SE.PRM.UNER.MA}}}Children out of school, primary, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.UNER.MA.ZS:SE.PRM.UNER.MA.ZS{marker SE.PRM.UNER.MA.ZS}}}Children out of school, male (% of male primary school age){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.PRM.UNER.ZS:SE.PRM.UNER.ZS{marker SE.PRM.UNER.ZS}}}Children out of school (% of primary school age){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.AGES:SE.SEC.AGES{marker SE.SEC.AGES}}}Lower secondary school starting age (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.CMPT.LO.FE.ZS:SE.SEC.CMPT.LO.FE.ZS{marker SE.SEC.CMPT.LO.FE.ZS}}}Lower secondary completion rate, female (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.CMPT.LO.MA.ZS:SE.SEC.CMPT.LO.MA.ZS{marker SE.SEC.CMPT.LO.MA.ZS}}}Lower secondary completion rate, male (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.CMPT.LO.ZS:SE.SEC.CMPT.LO.ZS{marker SE.SEC.CMPT.LO.ZS}}}Lower secondary completion rate, total (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.CUAT.LO.FE.ZS:SE.SEC.CUAT.LO.FE.ZS{marker SE.SEC.CUAT.LO.FE.ZS}}}Educational attainment, at least completed lower secondary, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.CUAT.LO.MA.ZS:SE.SEC.CUAT.LO.MA.ZS{marker SE.SEC.CUAT.LO.MA.ZS}}}Educational attainment, at least completed lower secondary, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.CUAT.LO.ZS:SE.SEC.CUAT.LO.ZS{marker SE.SEC.CUAT.LO.ZS}}}Educational attainment, at least completed lower secondary, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.CUAT.PO.FE.ZS:SE.SEC.CUAT.PO.FE.ZS{marker SE.SEC.CUAT.PO.FE.ZS}}}Educational attainment, at least completed post-secondary, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.CUAT.PO.MA.ZS:SE.SEC.CUAT.PO.MA.ZS{marker SE.SEC.CUAT.PO.MA.ZS}}}Educational attainment, at least completed post-secondary, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.CUAT.PO.ZS:SE.SEC.CUAT.PO.ZS{marker SE.SEC.CUAT.PO.ZS}}}Educational attainment, at least completed post-secondary, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.CUAT.UP.FE.ZS:SE.SEC.CUAT.UP.FE.ZS{marker SE.SEC.CUAT.UP.FE.ZS}}}Educational attainment, at least completed upper secondary, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.CUAT.UP.MA.ZS:SE.SEC.CUAT.UP.MA.ZS{marker SE.SEC.CUAT.UP.MA.ZS}}}Educational attainment, at least completed upper secondary, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.CUAT.UP.ZS:SE.SEC.CUAT.UP.ZS{marker SE.SEC.CUAT.UP.ZS}}}Educational attainment, at least completed upper secondary, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.DURS:SE.SEC.DURS{marker SE.SEC.DURS}}}Secondary education, duration (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.DURS.LO:SE.SEC.DURS.LO{marker SE.SEC.DURS.LO}}}Theoretical duration of lower secondary education (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.DURS.UP:SE.SEC.DURS.UP{marker SE.SEC.DURS.UP}}}Theoretical duration of upper secondary education (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL:SE.SEC.ENRL{marker SE.SEC.ENRL}}}Secondary education, pupils{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.FE:SE.SEC.ENRL.FE{marker SE.SEC.ENRL.FE}}}Enrolment in secondary education, female (number){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.FE.VO.ZS:SE.SEC.ENRL.FE.VO.ZS{marker SE.SEC.ENRL.FE.VO.ZS}}}Vocational and Technical enrolment (% of total secondary enrolment), female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.FE.ZS:SE.SEC.ENRL.FE.ZS{marker SE.SEC.ENRL.FE.ZS}}}Secondary education, pupils (% female){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.GC:SE.SEC.ENRL.GC{marker SE.SEC.ENRL.GC}}}Secondary education, general pupils{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.GC.FE.ZS:SE.SEC.ENRL.GC.FE.ZS{marker SE.SEC.ENRL.GC.FE.ZS}}}Secondary education, general pupils (% female){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.LO.TC.ZS:SE.SEC.ENRL.LO.TC.ZS{marker SE.SEC.ENRL.LO.TC.ZS}}}Pupil-teacher ratio, lower secondary{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.MA.VO.ZS:SE.SEC.ENRL.MA.VO.ZS{marker SE.SEC.ENRL.MA.VO.ZS}}}Share of male students in secondary education enrolled in vocational programmes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.TC.ZS:SE.SEC.ENRL.TC.ZS{marker SE.SEC.ENRL.TC.ZS}}}Pupil-teacher ratio, secondary{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.UP.TC.ZS:SE.SEC.ENRL.UP.TC.ZS{marker SE.SEC.ENRL.UP.TC.ZS}}}Pupil-teacher ratio, upper secondary{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.VO:SE.SEC.ENRL.VO{marker SE.SEC.ENRL.VO}}}Secondary education, vocational pupils{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.VO.FE.ZS:SE.SEC.ENRL.VO.FE.ZS{marker SE.SEC.ENRL.VO.FE.ZS}}}Secondary education, vocational pupils (% female){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRL.VO.ZS:SE.SEC.ENRL.VO.ZS{marker SE.SEC.ENRL.VO.ZS}}}Share of all students in secondary education enrolled in vocational programmes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRR:SE.SEC.ENRR{marker SE.SEC.ENRR}}}School enrollment, secondary (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRR.FE:SE.SEC.ENRR.FE{marker SE.SEC.ENRR.FE}}}School enrollment, secondary, female (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRR.LO:SE.SEC.ENRR.LO{marker SE.SEC.ENRR.LO}}}Gross enrolment ratio, lower secondary, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRR.LO.FE:SE.SEC.ENRR.LO.FE{marker SE.SEC.ENRR.LO.FE}}}Gross enrolment ratio, lower secondary, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRR.LO.MA:SE.SEC.ENRR.LO.MA{marker SE.SEC.ENRR.LO.MA}}}Gross enrolment ratio, lower secondary, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRR.MA:SE.SEC.ENRR.MA{marker SE.SEC.ENRR.MA}}}School enrollment, secondary, male (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRR.UP:SE.SEC.ENRR.UP{marker SE.SEC.ENRR.UP}}}Gross enrolment ratio, upper secondary, both sexes (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRR.UP.FE:SE.SEC.ENRR.UP.FE{marker SE.SEC.ENRR.UP.FE}}}Gross enrolment ratio, upper secondary, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.ENRR.UP.MA:SE.SEC.ENRR.UP.MA{marker SE.SEC.ENRR.UP.MA}}}Gross enrolment ratio, upper secondary, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.NENR:SE.SEC.NENR{marker SE.SEC.NENR}}}School enrollment, secondary (% net){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.NENR.FE:SE.SEC.NENR.FE{marker SE.SEC.NENR.FE}}}School enrollment, secondary, female (% net){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.NENR.MA:SE.SEC.NENR.MA{marker SE.SEC.NENR.MA}}}School enrollment, secondary, male (% net){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.PRIV.ZS:SE.SEC.PRIV.ZS{marker SE.SEC.PRIV.ZS}}}School enrollment, secondary, private (% of total secondary){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.PROG.FE.ZS:SE.SEC.PROG.FE.ZS{marker SE.SEC.PROG.FE.ZS}}}Progression to secondary school, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.PROG.MA.ZS:SE.SEC.PROG.MA.ZS{marker SE.SEC.PROG.MA.ZS}}}Progression to secondary school, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.PROG.ZS:SE.SEC.PROG.ZS{marker SE.SEC.PROG.ZS}}}Progression to secondary school (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.TCAQ.FE.ZS:SE.SEC.TCAQ.FE.ZS{marker SE.SEC.TCAQ.FE.ZS}}}Trained teachers in secondary education, female (% of female teachers){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.TCAQ.LO.FE.ZS:SE.SEC.TCAQ.LO.FE.ZS{marker SE.SEC.TCAQ.LO.FE.ZS}}}Trained teachers in lower secondary education, female (% of female teachers){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.TCAQ.LO.MA.ZS:SE.SEC.TCAQ.LO.MA.ZS{marker SE.SEC.TCAQ.LO.MA.ZS}}}Trained teachers in lower secondary education, male (% of male teachers){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.TCAQ.LO.ZS:SE.SEC.TCAQ.LO.ZS{marker SE.SEC.TCAQ.LO.ZS}}}Trained teachers in lower secondary education (% of total teachers){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.TCAQ.MA.ZS:SE.SEC.TCAQ.MA.ZS{marker SE.SEC.TCAQ.MA.ZS}}}Trained teachers in secondary education, male (% of male teachers){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.TCAQ.UP.FE.ZS:SE.SEC.TCAQ.UP.FE.ZS{marker SE.SEC.TCAQ.UP.FE.ZS}}}Trained teachers in upper secondary education, female (% of female teachers){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.TCAQ.UP.MA.ZS:SE.SEC.TCAQ.UP.MA.ZS{marker SE.SEC.TCAQ.UP.MA.ZS}}}Trained teachers in upper secondary education, male (% of male teachers){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.TCAQ.UP.ZS:SE.SEC.TCAQ.UP.ZS{marker SE.SEC.TCAQ.UP.ZS}}}Trained teachers in upper secondary education (% of total teachers){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.TCAQ.ZS:SE.SEC.TCAQ.ZS{marker SE.SEC.TCAQ.ZS}}}Trained teachers in secondary education (% of total teachers){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.TCHR:SE.SEC.TCHR{marker SE.SEC.TCHR}}}Secondary education, teachers{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.TCHR.FE:SE.SEC.TCHR.FE{marker SE.SEC.TCHR.FE}}}Secondary education, teachers, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.TCHR.FE.ZS:SE.SEC.TCHR.FE.ZS{marker SE.SEC.TCHR.FE.ZS}}}Secondary education, teachers (% female){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.UNER.LO.FE.ZS:SE.SEC.UNER.LO.FE.ZS{marker SE.SEC.UNER.LO.FE.ZS}}}Adolescents out of school, female (% of female lower secondary school age){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.UNER.LO.MA.ZS:SE.SEC.UNER.LO.MA.ZS{marker SE.SEC.UNER.LO.MA.ZS}}}Adolescents out of school, male (% of male lower secondary school age){p_end}
-
-{synopt:{help wbopendata_topicid_indicators04##topicid_SE.SEC.UNER.LO.ZS:SE.SEC.UNER.LO.ZS{marker SE.SEC.UNER.LO.ZS}}}Adolescents out of school (% of lower secondary school age){p_end}
-
 {synopt:{help wbopendata_topicid_indicators04##topicid_SH.DTH.0509:SH.DTH.0509{marker SH.DTH.0509}}}Number of deaths ages 5-9 years{p_end}
 
 {synopt:{help wbopendata_topicid_indicators04##topicid_SH.DTH.1014:SH.DTH.1014{marker SH.DTH.1014}}}Number of deaths ages 10-14 years{p_end}
@@ -2069,7 +1681,7 @@
 {synopthdr:05 Energy and Mining}
 {synoptline}
 
-{synopt:{help wbopendata_topicid_indicators05##topicid_EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD{marker EG.EGY.PRIM.PP.KD}}}Energy intensity level of primary energy (MJ/$2017 PPP GDP){p_end}
+{synopt:{help wbopendata_topicid_indicators05##topicid_EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD{marker EG.EGY.PRIM.PP.KD}}}Energy intensity level of primary energy (MJ/$2021 PPP GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators05##topicid_EG.ELC.ACCS.RU.ZS:EG.ELC.ACCS.RU.ZS{marker EG.ELC.ACCS.RU.ZS}}}Access to electricity, rural (% of rural population){p_end}
 
@@ -2210,7 +1822,7 @@
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EG.CFT.ACCS.ZS:EG.CFT.ACCS.ZS{marker EG.CFT.ACCS.ZS}}}Access to clean fuels and technologies for cooking (% of population){p_end}
 
-{synopt:{help wbopendata_topicid_indicators06##topicid_EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD{marker EG.EGY.PRIM.PP.KD}}}Energy intensity level of primary energy (MJ/$2017 PPP GDP){p_end}
+{synopt:{help wbopendata_topicid_indicators06##topicid_EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD{marker EG.EGY.PRIM.PP.KD}}}Energy intensity level of primary energy (MJ/$2021 PPP GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EG.ELC.ACCS.ZS:EG.ELC.ACCS.ZS{marker EG.ELC.ACCS.ZS}}}Access to electricity (% of population){p_end}
 
@@ -2232,7 +1844,7 @@
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.GF.ZS:EN.ATM.CO2E.GF.ZS{marker EN.ATM.CO2E.GF.ZS}}}CO2 emissions from gaseous fuel consumption (% of total){p_end}
 
-{synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD{marker EN.ATM.CO2E.KD.GD}}}CO2 emissions (kg per 2015 US$ of GDP){p_end}
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD{marker EN.ATM.CO2E.KD.GD}}}CO2 emissions (kg per 2010 US$ of GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.KT:EN.ATM.CO2E.KT{marker EN.ATM.CO2E.KT}}}CO2 emissions (kt){p_end}
 
@@ -2244,7 +1856,7 @@
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.PP.GD:EN.ATM.CO2E.PP.GD{marker EN.ATM.CO2E.PP.GD}}}CO2 emissions (kg per PPP $ of GDP){p_end}
 
-{synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD{marker EN.ATM.CO2E.PP.GD.KD}}}CO2 emissions (kg per 2021 PPP $ of GDP){p_end}
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD{marker EN.ATM.CO2E.PP.GD.KD}}}CO2 emissions (kg per 2011 PPP $ of GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.ATM.CO2E.SF.KT:EN.ATM.CO2E.SF.KT{marker EN.ATM.CO2E.SF.KT}}}CO2 emissions from solid fuel consumption (kt){p_end}
 
@@ -2321,6 +1933,92 @@
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.CO2.TRAN.ZS:EN.CO2.TRAN.ZS{marker EN.CO2.TRAN.ZS}}}CO2 emissions from transport (% of total fuel combustion){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.FSH.THRD.NO:EN.FSH.THRD.NO{marker EN.FSH.THRD.NO}}}Fish species, threatened{p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.ALL.LU.MT.CE.AR5:EN.GHG.ALL.LU.MT.CE.AR5{marker EN.GHG.ALL.LU.MT.CE.AR5}}}Total greenhouse gas emissions including LULUCF (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.ALL.MT.CE.AR5:EN.GHG.ALL.MT.CE.AR5{marker EN.GHG.ALL.MT.CE.AR5}}}Total greenhouse gas emissions excluding LULUCF (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.ALL.PC.CE.AR5:EN.GHG.ALL.PC.CE.AR5{marker EN.GHG.ALL.PC.CE.AR5}}}Total greenhouse gas emissions excluding LULUCF per capita (t CO2e/capita){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CH4.AG.MT.CE.AR5:EN.GHG.CH4.AG.MT.CE.AR5{marker EN.GHG.CH4.AG.MT.CE.AR5}}}Methane (CH4) emissions from Agriculture (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CH4.BU.MT.CE.AR5:EN.GHG.CH4.BU.MT.CE.AR5{marker EN.GHG.CH4.BU.MT.CE.AR5}}}Methane (CH4) emissions from Building (Energy) (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CH4.FE.MT.CE.AR5:EN.GHG.CH4.FE.MT.CE.AR5{marker EN.GHG.CH4.FE.MT.CE.AR5}}}Methane (CH4) emissions from Fugitive Emissions (Energy) (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CH4.IC.MT.CE.AR5:EN.GHG.CH4.IC.MT.CE.AR5{marker EN.GHG.CH4.IC.MT.CE.AR5}}}Methane (CH4) emissions from Industrial Combustion (Energy) (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CH4.IP.MT.CE.AR5:EN.GHG.CH4.IP.MT.CE.AR5{marker EN.GHG.CH4.IP.MT.CE.AR5}}}Methane (CH4) emissions from Industrial Processes (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CH4.MT.CE.AR5:EN.GHG.CH4.MT.CE.AR5{marker EN.GHG.CH4.MT.CE.AR5}}}Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CH4.PI.MT.CE.AR5:EN.GHG.CH4.PI.MT.CE.AR5{marker EN.GHG.CH4.PI.MT.CE.AR5}}}Methane (CH4) emissions from Power Industry (Energy) (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CH4.TR.MT.CE.AR5:EN.GHG.CH4.TR.MT.CE.AR5{marker EN.GHG.CH4.TR.MT.CE.AR5}}}Methane (CH4) emissions from Transport (Energy) (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CH4.WA.MT.CE.AR5:EN.GHG.CH4.WA.MT.CE.AR5{marker EN.GHG.CH4.WA.MT.CE.AR5}}}Methane (CH4) emissions from Waste (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CH4.ZG.AR5:EN.GHG.CH4.ZG.AR5{marker EN.GHG.CH4.ZG.AR5}}}Methane (CH4) emissions (total) excluding LULUCF (% change from 1990){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.AG.MT.CE.AR5:EN.GHG.CO2.AG.MT.CE.AR5{marker EN.GHG.CO2.AG.MT.CE.AR5}}}Carbon dioxide (CO2) emissions from Agriculture (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.BU.MT.CE.AR5:EN.GHG.CO2.BU.MT.CE.AR5{marker EN.GHG.CO2.BU.MT.CE.AR5}}}Carbon dioxide (CO2) emissions from Building (Energy) (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.FE.MT.CE.AR5:EN.GHG.CO2.FE.MT.CE.AR5{marker EN.GHG.CO2.FE.MT.CE.AR5}}}Carbon dioxide (CO2) emissions from Fugitive Emissions (Energy) (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.IC.MT.CE.AR5:EN.GHG.CO2.IC.MT.CE.AR5{marker EN.GHG.CO2.IC.MT.CE.AR5}}}Carbon dioxide (CO2) emissions from Industrial Combustion (Energy) (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.IP.MT.CE.AR5:EN.GHG.CO2.IP.MT.CE.AR5{marker EN.GHG.CO2.IP.MT.CE.AR5}}}Carbon dioxide (CO2) emissions from Industrial Processes (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.LU.DF.MT.CE.AR5:EN.GHG.CO2.LU.DF.MT.CE.AR5{marker EN.GHG.CO2.LU.DF.MT.CE.AR5}}}Carbon dioxide (CO2) net fluxes from LULUCF - Deforestation (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.LU.FL.MT.CE.AR5:EN.GHG.CO2.LU.FL.MT.CE.AR5{marker EN.GHG.CO2.LU.FL.MT.CE.AR5}}}Carbon dioxide (CO2) net fluxes from LULUCF - Forest Land (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.LU.MT.CE.AR5:EN.GHG.CO2.LU.MT.CE.AR5{marker EN.GHG.CO2.LU.MT.CE.AR5}}}Carbon dioxide (CO2) net fluxes from LULUCF - Total excluding non-tropical fires (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.LU.OL.MT.CE.AR5:EN.GHG.CO2.LU.OL.MT.CE.AR5{marker EN.GHG.CO2.LU.OL.MT.CE.AR5}}}Carbon dioxide (CO2) net fluxes from LULUCF - Other Land (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.LU.OS.MT.CE.AR5:EN.GHG.CO2.LU.OS.MT.CE.AR5{marker EN.GHG.CO2.LU.OS.MT.CE.AR5}}}Carbon dioxide (CO2) net fluxes from LULUCF - Organic Soil (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.MT.CE.AR5:EN.GHG.CO2.MT.CE.AR5{marker EN.GHG.CO2.MT.CE.AR5}}}Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.PC.CE.AR5:EN.GHG.CO2.PC.CE.AR5{marker EN.GHG.CO2.PC.CE.AR5}}}Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.PI.MT.CE.AR5:EN.GHG.CO2.PI.MT.CE.AR5{marker EN.GHG.CO2.PI.MT.CE.AR5}}}Carbon dioxide (CO2) emissions from Power Industry (Energy) (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.RT.GDP.KD:EN.GHG.CO2.RT.GDP.KD{marker EN.GHG.CO2.RT.GDP.KD}}}Carbon intensity of GDP (kg CO2e per constant 2015 US$ of GDP){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.RT.GDP.PP.KD:EN.GHG.CO2.RT.GDP.PP.KD{marker EN.GHG.CO2.RT.GDP.PP.KD}}}Carbon intensity of GDP (kg CO2e per 2021 PPP $ of GDP){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.TR.MT.CE.AR5:EN.GHG.CO2.TR.MT.CE.AR5{marker EN.GHG.CO2.TR.MT.CE.AR5}}}Carbon dioxide (CO2) emissions from Transport (Energy) (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.WA.MT.CE.AR5:EN.GHG.CO2.WA.MT.CE.AR5{marker EN.GHG.CO2.WA.MT.CE.AR5}}}Carbon dioxide (CO2) emissions from Waste (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.CO2.ZG.AR5:EN.GHG.CO2.ZG.AR5{marker EN.GHG.CO2.ZG.AR5}}}Carbon dioxide (CO2) emissions (total) excluding LULUCF (% change from 1990){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.FGAS.IP.MT.CE.AR5:EN.GHG.FGAS.IP.MT.CE.AR5{marker EN.GHG.FGAS.IP.MT.CE.AR5}}}F-gases emissions from Industrial Processes (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.N2O.AG.MT.CE.AR5:EN.GHG.N2O.AG.MT.CE.AR5{marker EN.GHG.N2O.AG.MT.CE.AR5}}}Nitrous oxide (N2O) emissions from Agriculture (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.N2O.BU.MT.CE.AR5:EN.GHG.N2O.BU.MT.CE.AR5{marker EN.GHG.N2O.BU.MT.CE.AR5}}}Nitrous oxide (N2O) emissions from Building (Energy) (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.N2O.FE.MT.CE.AR5:EN.GHG.N2O.FE.MT.CE.AR5{marker EN.GHG.N2O.FE.MT.CE.AR5}}}Nitrous oxide (N2O) emissions from Fugitive Emissions (Energy) (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.N2O.IC.MT.CE.AR5:EN.GHG.N2O.IC.MT.CE.AR5{marker EN.GHG.N2O.IC.MT.CE.AR5}}}Nitrous oxide (N2O) emissions from Industrial Combustion (Energy) (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.N2O.IP.MT.CE.AR5:EN.GHG.N2O.IP.MT.CE.AR5{marker EN.GHG.N2O.IP.MT.CE.AR5}}}Nitrous oxide (N2O) emissions from Industrial Processes (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.N2O.MT.CE.AR5:EN.GHG.N2O.MT.CE.AR5{marker EN.GHG.N2O.MT.CE.AR5}}}Nitrous oxide (N2O) emissions (total) excluding LULUCF (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.N2O.PI.MT.CE.AR5:EN.GHG.N2O.PI.MT.CE.AR5{marker EN.GHG.N2O.PI.MT.CE.AR5}}}Nitrous oxide (N2O) emissions from Power Industry (Energy) (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.N2O.TR.MT.CE.AR5:EN.GHG.N2O.TR.MT.CE.AR5{marker EN.GHG.N2O.TR.MT.CE.AR5}}}Nitrous oxide (N2O) emissions from Transport (Energy) (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.N2O.WA.MT.CE.AR5:EN.GHG.N2O.WA.MT.CE.AR5{marker EN.GHG.N2O.WA.MT.CE.AR5}}}Nitrous oxide (N2O) emissions from Waste (Mt CO2e){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.N2O.ZG.AR5:EN.GHG.N2O.ZG.AR5{marker EN.GHG.N2O.ZG.AR5}}}Nitrous oxide (N2O) emissions (total) excluding LULUCF (% change from 1990){p_end}
+
+{synopt:{help wbopendata_topicid_indicators06##topicid_EN.GHG.TOT.ZG.AR5:EN.GHG.TOT.ZG.AR5{marker EN.GHG.TOT.ZG.AR5}}}Total greenhouse gas emissions excluding LULUCF (% change from 1990){p_end}
 
 {synopt:{help wbopendata_topicid_indicators06##topicid_EN.HPT.THRD.NO:EN.HPT.THRD.NO{marker EN.HPT.THRD.NO}}}Plant species (higher), threatened{p_end}
 
@@ -2779,8 +2477,6 @@
 
 {synopt:{help wbopendata_topicid_indicators07##topicid_PA.NUS.FCRF:PA.NUS.FCRF{marker PA.NUS.FCRF}}}Official exchange rate (LCU per US$, period average){p_end}
 
-{synopt:{help wbopendata_topicid_indicators07##topicid_PX.REX.REER:PX.REX.REER{marker PX.REX.REER}}}Real effective exchange rate index (2010 = 100){p_end}
-
 {synopt:{help wbopendata_topicid_indicators07##topicid_SM.POP.NETM:SM.POP.NETM{marker SM.POP.NETM}}}Net migration{p_end}
 {synoptline}
 
@@ -3095,6 +2791,10 @@
 
 {synopt:{help wbopendata_topicid_indicators09##topicid_IT.NET.SECR.P6:IT.NET.SECR.P6{marker IT.NET.SECR.P6}}}Secure Internet servers (per 1 million people){p_end}
 
+{synopt:{help wbopendata_topicid_indicators09##topicid_IT.NET.USER.FE.ZS:IT.NET.USER.FE.ZS{marker IT.NET.USER.FE.ZS}}}Individuals using the Internet, female (% of female population){p_end}
+
+{synopt:{help wbopendata_topicid_indicators09##topicid_IT.NET.USER.MA.ZS:IT.NET.USER.MA.ZS{marker IT.NET.USER.MA.ZS}}}Individuals using the Internet, male (% of male population){p_end}
+
 {synopt:{help wbopendata_topicid_indicators09##topicid_IT.NET.USER.P2:IT.NET.USER.P2{marker IT.NET.USER.P2}}}Internet users (per 100 people){p_end}
 
 {synopt:{help wbopendata_topicid_indicators09##topicid_IT.NET.USER.ZS:IT.NET.USER.ZS{marker IT.NET.USER.ZS}}}Individuals using the Internet (% of population){p_end}
@@ -3294,8 +2994,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.adq_ep_tot:per_allsp.adq_ep_tot{marker per_allsp.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.adq_pop_preT_tot:per_allsp.adq_pop_preT_tot{marker per_allsp.adq_pop_preT_tot}}}Adequacy of benefits (%) -All Social Protection and Labor (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.adq_pop_rur:per_allsp.adq_pop_rur{marker per_allsp.adq_pop_rur}}}Adequacy of benefits (%) -All Social Protection and Labor -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.adq_pop_tot:per_allsp.adq_pop_tot{marker per_allsp.adq_pop_tot}}}Adequacy of social protection and labor programs (% of total welfare of beneficiary households){p_end}
@@ -3494,8 +3192,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.cov_ep_tot:per_allsp.cov_ep_tot{marker per_allsp.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) -All Social Protection and Labor{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.cov_pop_preT_tot:per_allsp.cov_pop_preT_tot{marker per_allsp.cov_pop_preT_tot}}}Coverage (%) -All Social Protection and Labor (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.cov_pop_rur:per_allsp.cov_pop_rur{marker per_allsp.cov_pop_rur}}}Coverage (%) -All Social Protection and Labor -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_allsp.cov_pop_tot:per_allsp.cov_pop_tot{marker per_allsp.cov_pop_tot}}}Coverage of social protection and labor programs (% of population){p_end}
@@ -3568,8 +3264,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.adq_ep_tot:per_lm_ac.adq_ep_tot{marker per_lm_ac.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.adq_pop_preT_tot:per_lm_ac.adq_pop_preT_tot{marker per_lm_ac.adq_pop_preT_tot}}}Adequacy of benefits (%) - Active Labor Market (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.adq_pop_rur:per_lm_ac.adq_pop_rur{marker per_lm_ac.adq_pop_rur}}}Adequacy of benefits (%) - Active Labor Market -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.adq_pop_tot:per_lm_ac.adq_pop_tot{marker per_lm_ac.adq_pop_tot}}}Adequacy of benefits (%) - Active Labor Market{p_end}
@@ -3619,8 +3313,6 @@
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.avt_ep_preT_tot:per_lm_ac.avt_ep_preT_tot{marker per_lm_ac.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Active Labor Market  (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.avt_ep_tot:per_lm_ac.avt_ep_tot{marker per_lm_ac.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Active Labor Market{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.avt_pop_preT_tot:per_lm_ac.avt_pop_preT_tot{marker per_lm_ac.avt_pop_preT_tot}}}Average per capita transfer - Active Labor Market (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.avt_pop_rur:per_lm_ac.avt_pop_rur{marker per_lm_ac.avt_pop_rur}}}Average per capita transfer - Active Labor Market -rural{p_end}
 
@@ -3768,8 +3460,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.cov_ep_tot:per_lm_ac.cov_ep_tot{marker per_lm_ac.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Active Labor Market{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.cov_pop_preT_tot:per_lm_ac.cov_pop_preT_tot{marker per_lm_ac.cov_pop_preT_tot}}}Coverage (%) - Active Labor Market (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.cov_pop_rur:per_lm_ac.cov_pop_rur{marker per_lm_ac.cov_pop_rur}}}Coverage (%) - Active Labor Market -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_ac.cov_pop_tot:per_lm_ac.cov_pop_tot{marker per_lm_ac.cov_pop_tot}}}Coverage (%) - Active Labor Market{p_end}
@@ -3842,8 +3532,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.adq_ep_tot:per_lm_alllm.adq_ep_tot{marker per_lm_alllm.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - All Labor Market{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.adq_pop_preT_tot:per_lm_alllm.adq_pop_preT_tot{marker per_lm_alllm.adq_pop_preT_tot}}}Adequacy of benefits (%) - All Labor Market (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.adq_pop_rur:per_lm_alllm.adq_pop_rur{marker per_lm_alllm.adq_pop_rur}}}Adequacy of benefits (%) - All Labor Market -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.adq_pop_tot:per_lm_alllm.adq_pop_tot{marker per_lm_alllm.adq_pop_tot}}}Adequacy of unemployment benefits and ALMP (% of total welfare of beneficiary households){p_end}
@@ -3893,8 +3581,6 @@
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.avt_ep_preT_tot:per_lm_alllm.avt_ep_preT_tot{marker per_lm_alllm.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Labor Market  (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.avt_ep_tot:per_lm_alllm.avt_ep_tot{marker per_lm_alllm.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Labor Market{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.avt_pop_preT_tot:per_lm_alllm.avt_pop_preT_tot{marker per_lm_alllm.avt_pop_preT_tot}}}Average per capita transfer - All Labor Market (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.avt_pop_rur:per_lm_alllm.avt_pop_rur{marker per_lm_alllm.avt_pop_rur}}}Average per capita transfer - All Labor Market -rural{p_end}
 
@@ -4042,8 +3728,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.cov_ep_tot:per_lm_alllm.cov_ep_tot{marker per_lm_alllm.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - All Labor Market{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.cov_pop_preT_tot:per_lm_alllm.cov_pop_preT_tot{marker per_lm_alllm.cov_pop_preT_tot}}}Coverage (%) - All Labor Market (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.cov_pop_rur:per_lm_alllm.cov_pop_rur{marker per_lm_alllm.cov_pop_rur}}}Coverage (%) - All Labor Market -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_lm_alllm.cov_pop_tot:per_lm_alllm.cov_pop_tot{marker per_lm_alllm.cov_pop_tot}}}Coverage of unemployment benefits and ALMP (% of population){p_end}
@@ -4148,83 +3832,9 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_nprog.overlap_q1_urb:per_nprog.overlap_q1_urb{marker per_nprog.overlap_q1_urb}}}Population in the 1st quintile (poorest) not receiving Social Protection (%) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog1_ep_preT_tot:per_numprog1_ep_preT_tot{marker per_numprog1_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving only 1 program (%, preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog1_ep_tot:per_numprog1_ep_tot{marker per_numprog1_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving only 1 program (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog1_pop_rur:per_numprog1_pop_rur{marker per_numprog1_pop_rur}}}Population receiving only 1 program (%) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog1_pop_tot:per_numprog1_pop_tot{marker per_numprog1_pop_tot}}}Population receiving only 1 program (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog1_pop_urb:per_numprog1_pop_urb{marker per_numprog1_pop_urb}}}Population receiving only 1 program (%) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog1_q1_preT_tot:per_numprog1_q1_preT_tot{marker per_numprog1_q1_preT_tot}}}Population in the 1st quintile (poorest) receiving 1 program (%, preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog1_q1_rur:per_numprog1_q1_rur{marker per_numprog1_q1_rur}}}Population in the 1st quintile (poorest) receiving 1 program (%) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog1_q1_tot:per_numprog1_q1_tot{marker per_numprog1_q1_tot}}}Population in the 1st quintile (poorest) receiving 1 program (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog1_q1_urb:per_numprog1_q1_urb{marker per_numprog1_q1_urb}}}Population in the 1st quintile (poorest) receiving 1 program (%) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog2_ep_preT_tot:per_numprog2_ep_preT_tot{marker per_numprog2_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving 2 programs (%, preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog2_ep_tot:per_numprog2_ep_tot{marker per_numprog2_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving 2 programs (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog2_pop_rur:per_numprog2_pop_rur{marker per_numprog2_pop_rur}}}Population receiving 2 programs (%) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog2_pop_tot:per_numprog2_pop_tot{marker per_numprog2_pop_tot}}}Population receiving 2 programs (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog2_pop_urb:per_numprog2_pop_urb{marker per_numprog2_pop_urb}}}Population receiving 2 programs (%) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog2_q1_preT_tot:per_numprog2_q1_preT_tot{marker per_numprog2_q1_preT_tot}}}Population in the 1st quintile (poorest) receiving 2 programs (%, preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog2_q1_rur:per_numprog2_q1_rur{marker per_numprog2_q1_rur}}}Population in the 1st quintile (poorest) receiving 2 programs (%) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog2_q1_tot:per_numprog2_q1_tot{marker per_numprog2_q1_tot}}}Population in the 1st quintile (poorest) receiving 2 programs (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog2_q1_urb:per_numprog2_q1_urb{marker per_numprog2_q1_urb}}}Population in the 1st quintile (poorest) receiving 2 programs (%) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog3_ep_preT_tot:per_numprog3_ep_preT_tot{marker per_numprog3_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving 3 programs (%, preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog3_ep_tot:per_numprog3_ep_tot{marker per_numprog3_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving 3 programs (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog3_pop_rur:per_numprog3_pop_rur{marker per_numprog3_pop_rur}}}Population receiving 3 programs (%) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog3_pop_tot:per_numprog3_pop_tot{marker per_numprog3_pop_tot}}}Population receiving 3 programs (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog3_pop_urb:per_numprog3_pop_urb{marker per_numprog3_pop_urb}}}Population receiving 3 programs (%) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog3_q1_preT_tot:per_numprog3_q1_preT_tot{marker per_numprog3_q1_preT_tot}}}Population in the 1st quintile (poorest) receiving 3 programs (%, preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog3_q1_rur:per_numprog3_q1_rur{marker per_numprog3_q1_rur}}}Population in the 1st quintile (poorest) receiving 3 programs (%) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog3_q1_tot:per_numprog3_q1_tot{marker per_numprog3_q1_tot}}}Population in the 1st quintile (poorest) receiving 3 programs (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog3_q1_urb:per_numprog3_q1_urb{marker per_numprog3_q1_urb}}}Population in the 1st quintile (poorest) receiving 3 programs (%) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog4_ep_preT_tot:per_numprog4_ep_preT_tot{marker per_numprog4_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving 4 or more programs (%, preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog4_ep_tot:per_numprog4_ep_tot{marker per_numprog4_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving 4 or more programs (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog4_pop_rur:per_numprog4_pop_rur{marker per_numprog4_pop_rur}}}Population receiving 4 or more programs (%) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog4_pop_tot:per_numprog4_pop_tot{marker per_numprog4_pop_tot}}}Population receiving 4 or more programs (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog4_pop_urb:per_numprog4_pop_urb{marker per_numprog4_pop_urb}}}Population receiving 4 or more programs (%) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog4_q1_preT_tot:per_numprog4_q1_preT_tot{marker per_numprog4_q1_preT_tot}}}Population in the 1st quintile (poorest) receiving 4 or more programs (%, preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog4_q1_rur:per_numprog4_q1_rur{marker per_numprog4_q1_rur}}}Population in the 1st quintile (poorest) receiving 4 or more programs (%) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog4_q1_tot:per_numprog4_q1_tot{marker per_numprog4_q1_tot}}}Population in the 1st quintile (poorest) receiving 4 or more programs (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_numprog4_q1_urb:per_numprog4_q1_urb{marker per_numprog4_q1_urb}}}Population in the 1st quintile (poorest) receiving 4 or more programs (%) -urban{p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.adq_ep_preT_tot:per_pr_dp.adq_ep_preT_tot{marker per_pr_dp.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.adq_ep_tot:per_pr_dp.adq_ep_tot{marker per_pr_dp.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.adq_pop_preT_tot:per_pr_dp.adq_pop_preT_tot{marker per_pr_dp.adq_pop_preT_tot}}}Adequacy of benefits (%) - Domestic Private Transfers (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.adq_pop_rur:per_pr_dp.adq_pop_rur{marker per_pr_dp.adq_pop_rur}}}Adequacy of benefits (%) - Domestic Private Transfers -rural{p_end}
 
@@ -4275,8 +3885,6 @@
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.avt_ep_preT_tot:per_pr_dp.avt_ep_preT_tot{marker per_pr_dp.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Domestic Private Transfers (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.avt_ep_tot:per_pr_dp.avt_ep_tot{marker per_pr_dp.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Domestic Private Transfers{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.avt_pop_preT_tot:per_pr_dp.avt_pop_preT_tot{marker per_pr_dp.avt_pop_preT_tot}}}Average per capita transfer - Domestic Private Transfers (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.avt_pop_rur:per_pr_dp.avt_pop_rur{marker per_pr_dp.avt_pop_rur}}}Average per capita transfer - Domestic Private Transfers -rural{p_end}
 
@@ -4424,8 +4032,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.cov_ep_tot:per_pr_dp.cov_ep_tot{marker per_pr_dp.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Domestic Private Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.cov_pop_preT_tot:per_pr_dp.cov_pop_preT_tot{marker per_pr_dp.cov_pop_preT_tot}}}Coverage (%) - Domestic Private Transfers (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.cov_pop_rur:per_pr_dp.cov_pop_rur{marker per_pr_dp.cov_pop_rur}}}Coverage (%) - Domestic Private Transfers -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_dp.cov_pop_tot:per_pr_dp.cov_pop_tot{marker per_pr_dp.cov_pop_tot}}}Coverage (%) - Domestic Private Transfers{p_end}
@@ -4498,8 +4104,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.adq_ep_tot:per_pr_ip.adq_ep_tot{marker per_pr_ip.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.adq_pop_preT_tot:per_pr_ip.adq_pop_preT_tot{marker per_pr_ip.adq_pop_preT_tot}}}Adequacy of benefits (%) - International Private Transfers (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.adq_pop_rur:per_pr_ip.adq_pop_rur{marker per_pr_ip.adq_pop_rur}}}Adequacy of benefits (%) - International Private Transfers -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.adq_pop_tot:per_pr_ip.adq_pop_tot{marker per_pr_ip.adq_pop_tot}}}Adequacy of benefits (%) - International Private Transfers{p_end}
@@ -4549,8 +4153,6 @@
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.avt_ep_preT_tot:per_pr_ip.avt_ep_preT_tot{marker per_pr_ip.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - International Private Transfers (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.avt_ep_tot:per_pr_ip.avt_ep_tot{marker per_pr_ip.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - International Private Transfers{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.avt_pop_preT_tot:per_pr_ip.avt_pop_preT_tot{marker per_pr_ip.avt_pop_preT_tot}}}Average per capita transfer - International Private Transfers (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.avt_pop_rur:per_pr_ip.avt_pop_rur{marker per_pr_ip.avt_pop_rur}}}Average per capita transfer - International Private Transfers -rural{p_end}
 
@@ -4698,8 +4300,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.cov_ep_tot:per_pr_ip.cov_ep_tot{marker per_pr_ip.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - International Private Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.cov_pop_preT_tot:per_pr_ip.cov_pop_preT_tot{marker per_pr_ip.cov_pop_preT_tot}}}Coverage (%) - International Private Transfers (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.cov_pop_rur:per_pr_ip.cov_pop_rur{marker per_pr_ip.cov_pop_rur}}}Coverage (%) - International Private Transfers -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_pr_ip.cov_pop_tot:per_pr_ip.cov_pop_tot{marker per_pr_ip.cov_pop_tot}}}Coverage (%) - International Private Transfers{p_end}
@@ -4772,8 +4372,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.adq_ep_tot:per_sa_allsa.adq_ep_tot{marker per_sa_allsa.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.adq_pop_preT_tot:per_sa_allsa.adq_pop_preT_tot{marker per_sa_allsa.adq_pop_preT_tot}}}Adequacy of benefits (%) - All Social Assistance (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.adq_pop_rur:per_sa_allsa.adq_pop_rur{marker per_sa_allsa.adq_pop_rur}}}Adequacy of benefits (%) - All Social Assistance -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.adq_pop_tot:per_sa_allsa.adq_pop_tot{marker per_sa_allsa.adq_pop_tot}}}Adequacy of social safety net programs (% of total welfare of beneficiary households){p_end}
@@ -4823,8 +4421,6 @@
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.avt_ep_preT_tot:per_sa_allsa.avt_ep_preT_tot{marker per_sa_allsa.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Social Assistance  (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.avt_ep_tot:per_sa_allsa.avt_ep_tot{marker per_sa_allsa.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Social Assistance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.avt_pop_preT_tot:per_sa_allsa.avt_pop_preT_tot{marker per_sa_allsa.avt_pop_preT_tot}}}Average per capita transfer - All Social Assistance (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.avt_pop_rur:per_sa_allsa.avt_pop_rur{marker per_sa_allsa.avt_pop_rur}}}Average per capita transfer - All Social Assistance -rural{p_end}
 
@@ -4972,8 +4568,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.cov_ep_tot:per_sa_allsa.cov_ep_tot{marker per_sa_allsa.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - All Social Assistance{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.cov_pop_preT_tot:per_sa_allsa.cov_pop_preT_tot{marker per_sa_allsa.cov_pop_preT_tot}}}Coverage (%) - All Social Assistance (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.cov_pop_rur:per_sa_allsa.cov_pop_rur{marker per_sa_allsa.cov_pop_rur}}}Coverage (%) - All Social Assistance -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa.cov_pop_tot:per_sa_allsa.cov_pop_tot{marker per_sa_allsa.cov_pop_tot}}}Coverage of social safety net programs (% of population){p_end}
@@ -5042,285 +4636,277 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_allsa_p1_urb:per_sa_allsa_p1_urb{marker per_sa_allsa_p1_urb}}}Poverty Gap reduction (%) -  All Social Assistance - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_ep_preT_tot:per_sa_ct.adq_ep_preT_tot{marker per_sa_ct.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_ep_preT_tot:per_sa_ct.adq_ep_preT_tot{marker per_sa_ct.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Unconditional Cash Transfers  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_ep_tot:per_sa_ct.adq_ep_tot{marker per_sa_ct.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_ep_tot:per_sa_ct.adq_ep_tot{marker per_sa_ct.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_pop_preT_tot:per_sa_ct.adq_pop_preT_tot{marker per_sa_ct.adq_pop_preT_tot}}}Adequacy of benefits (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_pop_rur:per_sa_ct.adq_pop_rur{marker per_sa_ct.adq_pop_rur}}}Adequacy of benefits (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_pop_rur:per_sa_ct.adq_pop_rur{marker per_sa_ct.adq_pop_rur}}}Adequacy of benefits (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_pop_tot:per_sa_ct.adq_pop_tot{marker per_sa_ct.adq_pop_tot}}}Adequacy of benefits (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_pop_tot:per_sa_ct.adq_pop_tot{marker per_sa_ct.adq_pop_tot}}}Adequacy of benefits (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_pop_urb:per_sa_ct.adq_pop_urb{marker per_sa_ct.adq_pop_urb}}}Adequacy of benefits (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_pop_urb:per_sa_ct.adq_pop_urb{marker per_sa_ct.adq_pop_urb}}}Adequacy of benefits (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q1_preT_tot:per_sa_ct.adq_q1_preT_tot{marker per_sa_ct.adq_q1_preT_tot}}}Adequacy of benefits in 1st quintile (poorest) (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q1_preT_tot:per_sa_ct.adq_q1_preT_tot{marker per_sa_ct.adq_q1_preT_tot}}}Adequacy of benefits in 1st quintile (poorest) (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q1_rur:per_sa_ct.adq_q1_rur{marker per_sa_ct.adq_q1_rur}}}Adequacy of benefits in 1st quintile (poorest) (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q1_rur:per_sa_ct.adq_q1_rur{marker per_sa_ct.adq_q1_rur}}}Adequacy of benefits in 1st quintile (poorest) (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q1_tot:per_sa_ct.adq_q1_tot{marker per_sa_ct.adq_q1_tot}}}Adequacy of benefits in 1st quintile (poorest) (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q1_tot:per_sa_ct.adq_q1_tot{marker per_sa_ct.adq_q1_tot}}}Adequacy of benefits in 1st quintile (poorest) (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q1_urb:per_sa_ct.adq_q1_urb{marker per_sa_ct.adq_q1_urb}}}Adequacy of benefits in 1st quintile (poorest) (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q1_urb:per_sa_ct.adq_q1_urb{marker per_sa_ct.adq_q1_urb}}}Adequacy of benefits in 1st quintile (poorest) (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q2_preT_tot:per_sa_ct.adq_q2_preT_tot{marker per_sa_ct.adq_q2_preT_tot}}}Adequacy of benefits in 2nd quintile (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q2_preT_tot:per_sa_ct.adq_q2_preT_tot{marker per_sa_ct.adq_q2_preT_tot}}}Adequacy of benefits in 2nd quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q2_rur:per_sa_ct.adq_q2_rur{marker per_sa_ct.adq_q2_rur}}}Adequacy of benefits in 2nd quintile (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q2_rur:per_sa_ct.adq_q2_rur{marker per_sa_ct.adq_q2_rur}}}Adequacy of benefits in 2nd quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q2_tot:per_sa_ct.adq_q2_tot{marker per_sa_ct.adq_q2_tot}}}Adequacy of benefits in 2nd quintile (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q2_tot:per_sa_ct.adq_q2_tot{marker per_sa_ct.adq_q2_tot}}}Adequacy of benefits in 2nd quintile (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q2_urb:per_sa_ct.adq_q2_urb{marker per_sa_ct.adq_q2_urb}}}Adequacy of benefits in 2nd quintile (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q2_urb:per_sa_ct.adq_q2_urb{marker per_sa_ct.adq_q2_urb}}}Adequacy of benefits in 2nd quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q3_preT_tot:per_sa_ct.adq_q3_preT_tot{marker per_sa_ct.adq_q3_preT_tot}}}Adequacy of benefits in 3rd quintile (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q3_preT_tot:per_sa_ct.adq_q3_preT_tot{marker per_sa_ct.adq_q3_preT_tot}}}Adequacy of benefits in 3rd quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q3_rur:per_sa_ct.adq_q3_rur{marker per_sa_ct.adq_q3_rur}}}Adequacy of benefits in 3rd quintile (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q3_rur:per_sa_ct.adq_q3_rur{marker per_sa_ct.adq_q3_rur}}}Adequacy of benefits in 3rd quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q3_tot:per_sa_ct.adq_q3_tot{marker per_sa_ct.adq_q3_tot}}}Adequacy of benefits in 3rd quintile (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q3_tot:per_sa_ct.adq_q3_tot{marker per_sa_ct.adq_q3_tot}}}Adequacy of benefits in 3rd quintile (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q3_urb:per_sa_ct.adq_q3_urb{marker per_sa_ct.adq_q3_urb}}}Adequacy of benefits in 3rd quintile (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q3_urb:per_sa_ct.adq_q3_urb{marker per_sa_ct.adq_q3_urb}}}Adequacy of benefits in 3rd quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q4_preT_tot:per_sa_ct.adq_q4_preT_tot{marker per_sa_ct.adq_q4_preT_tot}}}Adequacy of benefits in 4th quintile (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q4_preT_tot:per_sa_ct.adq_q4_preT_tot{marker per_sa_ct.adq_q4_preT_tot}}}Adequacy of benefits in 4th quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q4_rur:per_sa_ct.adq_q4_rur{marker per_sa_ct.adq_q4_rur}}}Adequacy of benefits in 4th quintile (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q4_rur:per_sa_ct.adq_q4_rur{marker per_sa_ct.adq_q4_rur}}}Adequacy of benefits in 4th quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q4_tot:per_sa_ct.adq_q4_tot{marker per_sa_ct.adq_q4_tot}}}Adequacy of benefits in 4th quintile (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q4_tot:per_sa_ct.adq_q4_tot{marker per_sa_ct.adq_q4_tot}}}Adequacy of benefits in 4th quintile (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q4_urb:per_sa_ct.adq_q4_urb{marker per_sa_ct.adq_q4_urb}}}Adequacy of benefits in 4th quintile (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q4_urb:per_sa_ct.adq_q4_urb{marker per_sa_ct.adq_q4_urb}}}Adequacy of benefits in 4th quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q5_preT_tot:per_sa_ct.adq_q5_preT_tot{marker per_sa_ct.adq_q5_preT_tot}}}Adequacy of benefits in 5th quintile (richest) (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q5_preT_tot:per_sa_ct.adq_q5_preT_tot{marker per_sa_ct.adq_q5_preT_tot}}}Adequacy of benefits in 5th quintile (richest) (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q5_rur:per_sa_ct.adq_q5_rur{marker per_sa_ct.adq_q5_rur}}}Adequacy of benefits in 5th quintile (richest) (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q5_rur:per_sa_ct.adq_q5_rur{marker per_sa_ct.adq_q5_rur}}}Adequacy of benefits in 5th quintile (richest) (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q5_tot:per_sa_ct.adq_q5_tot{marker per_sa_ct.adq_q5_tot}}}Adequacy of benefits in 5th quintile (richest) (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q5_tot:per_sa_ct.adq_q5_tot{marker per_sa_ct.adq_q5_tot}}}Adequacy of benefits in 5th quintile (richest) (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q5_urb:per_sa_ct.adq_q5_urb{marker per_sa_ct.adq_q5_urb}}}Adequacy of benefits in 5th quintile (richest) (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.adq_q5_urb:per_sa_ct.adq_q5_urb{marker per_sa_ct.adq_q5_urb}}}Adequacy of benefits in 5th quintile (richest) (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_ep_preT_tot:per_sa_ct.avt_ep_preT_tot{marker per_sa_ct.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Unconditional Cash Transfers  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_ep_preT_tot:per_sa_ct.avt_ep_preT_tot{marker per_sa_ct.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Cash Transfer  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_ep_tot:per_sa_ct.avt_ep_tot{marker per_sa_ct.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_ep_tot:per_sa_ct.avt_ep_tot{marker per_sa_ct.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_pop_rur:per_sa_ct.avt_pop_rur{marker per_sa_ct.avt_pop_rur}}}Average per capita transfer - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_pop_preT_tot:per_sa_ct.avt_pop_preT_tot{marker per_sa_ct.avt_pop_preT_tot}}}Average per capita transfer - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_pop_tot:per_sa_ct.avt_pop_tot{marker per_sa_ct.avt_pop_tot}}}Average per capita transfer - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_pop_rur:per_sa_ct.avt_pop_rur{marker per_sa_ct.avt_pop_rur}}}Average per capita transfer - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_pop_urb:per_sa_ct.avt_pop_urb{marker per_sa_ct.avt_pop_urb}}}Average per capita transfer - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_pop_tot:per_sa_ct.avt_pop_tot{marker per_sa_ct.avt_pop_tot}}}Average per capita transfer - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q1_preT_tot:per_sa_ct.avt_q1_preT_tot{marker per_sa_ct.avt_q1_preT_tot}}}Average per capita transfer held by 1st quintile (poorest) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_pop_urb:per_sa_ct.avt_pop_urb{marker per_sa_ct.avt_pop_urb}}}Average per capita transfer - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q1_rur:per_sa_ct.avt_q1_rur{marker per_sa_ct.avt_q1_rur}}}Average per capita transfer held by 1st quintile (poorest) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q1_preT_tot:per_sa_ct.avt_q1_preT_tot{marker per_sa_ct.avt_q1_preT_tot}}}Average per capita transfer held by 1st quintile (poorest) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q1_tot:per_sa_ct.avt_q1_tot{marker per_sa_ct.avt_q1_tot}}}Average per capita transfer held by 1st quintile (poorest) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q1_rur:per_sa_ct.avt_q1_rur{marker per_sa_ct.avt_q1_rur}}}Average per capita transfer held by 1st quintile (poorest) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q1_urb:per_sa_ct.avt_q1_urb{marker per_sa_ct.avt_q1_urb}}}Average per capita transfer held by 1st quintile (poorest) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q1_tot:per_sa_ct.avt_q1_tot{marker per_sa_ct.avt_q1_tot}}}Average per capita transfer held by 1st quintile (poorest) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q2_preT_tot:per_sa_ct.avt_q2_preT_tot{marker per_sa_ct.avt_q2_preT_tot}}}Average per capita transfer held by 2nd quintile - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q1_urb:per_sa_ct.avt_q1_urb{marker per_sa_ct.avt_q1_urb}}}Average per capita transfer held by 1st quintile (poorest) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q2_rur:per_sa_ct.avt_q2_rur{marker per_sa_ct.avt_q2_rur}}}Average per capita transfer held by 2nd quintile - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q2_preT_tot:per_sa_ct.avt_q2_preT_tot{marker per_sa_ct.avt_q2_preT_tot}}}Average per capita transfer held by 2nd quintile - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q2_tot:per_sa_ct.avt_q2_tot{marker per_sa_ct.avt_q2_tot}}}Average per capita transfer held by 2nd quintile - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q2_rur:per_sa_ct.avt_q2_rur{marker per_sa_ct.avt_q2_rur}}}Average per capita transfer held by 2nd quintile - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q2_urb:per_sa_ct.avt_q2_urb{marker per_sa_ct.avt_q2_urb}}}Average per capita transfer held by 2nd quintile - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q2_tot:per_sa_ct.avt_q2_tot{marker per_sa_ct.avt_q2_tot}}}Average per capita transfer held by 2nd quintile - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q3_preT_tot:per_sa_ct.avt_q3_preT_tot{marker per_sa_ct.avt_q3_preT_tot}}}Average per capita transfer held by 3rd quintile - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q2_urb:per_sa_ct.avt_q2_urb{marker per_sa_ct.avt_q2_urb}}}Average per capita transfer held by 2nd quintile - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q3_rur:per_sa_ct.avt_q3_rur{marker per_sa_ct.avt_q3_rur}}}Average per capita transfer held by 3rd quintile - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q3_preT_tot:per_sa_ct.avt_q3_preT_tot{marker per_sa_ct.avt_q3_preT_tot}}}Average per capita transfer held by 3rd quintile - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q3_tot:per_sa_ct.avt_q3_tot{marker per_sa_ct.avt_q3_tot}}}Average per capita transfer held by 3rd quintile - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q3_rur:per_sa_ct.avt_q3_rur{marker per_sa_ct.avt_q3_rur}}}Average per capita transfer held by 3rd quintile - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q3_urb:per_sa_ct.avt_q3_urb{marker per_sa_ct.avt_q3_urb}}}Average per capita transfer held by 3rd quintile - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q3_tot:per_sa_ct.avt_q3_tot{marker per_sa_ct.avt_q3_tot}}}Average per capita transfer held by 3rd quintile - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q4_preT_tot:per_sa_ct.avt_q4_preT_tot{marker per_sa_ct.avt_q4_preT_tot}}}Average per capita transfer held by 4th quintile - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q3_urb:per_sa_ct.avt_q3_urb{marker per_sa_ct.avt_q3_urb}}}Average per capita transfer held by 3rd quintile - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q4_rur:per_sa_ct.avt_q4_rur{marker per_sa_ct.avt_q4_rur}}}Average per capita transfer held by 4th quintile - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q4_preT_tot:per_sa_ct.avt_q4_preT_tot{marker per_sa_ct.avt_q4_preT_tot}}}Average per capita transfer held by 4th quintile - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q4_tot:per_sa_ct.avt_q4_tot{marker per_sa_ct.avt_q4_tot}}}Average per capita transfer held by 4th quintile - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q4_rur:per_sa_ct.avt_q4_rur{marker per_sa_ct.avt_q4_rur}}}Average per capita transfer held by 4th quintile - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q4_urb:per_sa_ct.avt_q4_urb{marker per_sa_ct.avt_q4_urb}}}Average per capita transfer held by 4th quintile - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q4_tot:per_sa_ct.avt_q4_tot{marker per_sa_ct.avt_q4_tot}}}Average per capita transfer held by 4th quintile - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q5_preT_tot:per_sa_ct.avt_q5_preT_tot{marker per_sa_ct.avt_q5_preT_tot}}}Average per capita transfer held by 5th quintile (richest) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q4_urb:per_sa_ct.avt_q4_urb{marker per_sa_ct.avt_q4_urb}}}Average per capita transfer held by 4th quintile - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q5_rur:per_sa_ct.avt_q5_rur{marker per_sa_ct.avt_q5_rur}}}Average per capita transfer held by 5th quintile (richest) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q5_preT_tot:per_sa_ct.avt_q5_preT_tot{marker per_sa_ct.avt_q5_preT_tot}}}Average per capita transfer held by 5th quintile (richest) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q5_tot:per_sa_ct.avt_q5_tot{marker per_sa_ct.avt_q5_tot}}}Average per capita transfer held by 5th quintile (richest) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q5_rur:per_sa_ct.avt_q5_rur{marker per_sa_ct.avt_q5_rur}}}Average per capita transfer held by 5th quintile (richest) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q5_urb:per_sa_ct.avt_q5_urb{marker per_sa_ct.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q5_tot:per_sa_ct.avt_q5_tot{marker per_sa_ct.avt_q5_tot}}}Average per capita transfer held by 5th quintile (richest) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_ep_preT_tot:per_sa_ct.ben_ep_preT_tot{marker per_sa_ct.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Unconditional Cash Transfers  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.avt_q5_urb:per_sa_ct.avt_q5_urb{marker per_sa_ct.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_ep_tot:per_sa_ct.ben_ep_tot{marker per_sa_ct.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_ep_preT_tot:per_sa_ct.ben_ep_preT_tot{marker per_sa_ct.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q1_preT_tot:per_sa_ct.ben_q1_preT_tot{marker per_sa_ct.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_ep_tot:per_sa_ct.ben_ep_tot{marker per_sa_ct.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q1_rur:per_sa_ct.ben_q1_rur{marker per_sa_ct.ben_q1_rur}}}Benefits incidence in 1st quintile (poorest) (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q1_preT_tot:per_sa_ct.ben_q1_preT_tot{marker per_sa_ct.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q1_tot:per_sa_ct.ben_q1_tot{marker per_sa_ct.ben_q1_tot}}}Benefits incidence in 1st quintile (poorest) (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q1_rur:per_sa_ct.ben_q1_rur{marker per_sa_ct.ben_q1_rur}}}Benefits incidence in 1st quintile (poorest) (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q1_urb:per_sa_ct.ben_q1_urb{marker per_sa_ct.ben_q1_urb}}}Benefits incidence in 1st quintile (poorest) (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q1_tot:per_sa_ct.ben_q1_tot{marker per_sa_ct.ben_q1_tot}}}Benefits incidence in 1st quintile (poorest) (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q2_preT_tot:per_sa_ct.ben_q2_preT_tot{marker per_sa_ct.ben_q2_preT_tot}}}Benefits incidence in 2nd quintile (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q1_urb:per_sa_ct.ben_q1_urb{marker per_sa_ct.ben_q1_urb}}}Benefits incidence in 1st quintile (poorest) (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q2_rur:per_sa_ct.ben_q2_rur{marker per_sa_ct.ben_q2_rur}}}Benefits incidence in 2nd quintile (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q2_preT_tot:per_sa_ct.ben_q2_preT_tot{marker per_sa_ct.ben_q2_preT_tot}}}Benefits incidence in 2nd quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q2_tot:per_sa_ct.ben_q2_tot{marker per_sa_ct.ben_q2_tot}}}Benefits incidence in 2nd quintile (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q2_rur:per_sa_ct.ben_q2_rur{marker per_sa_ct.ben_q2_rur}}}Benefits incidence in 2nd quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q2_urb:per_sa_ct.ben_q2_urb{marker per_sa_ct.ben_q2_urb}}}Benefits incidence in 2nd quintile (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q2_tot:per_sa_ct.ben_q2_tot{marker per_sa_ct.ben_q2_tot}}}Benefits incidence in 2nd quintile (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q3_preT_tot:per_sa_ct.ben_q3_preT_tot{marker per_sa_ct.ben_q3_preT_tot}}}Benefits incidence in 3rd quintile (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q2_urb:per_sa_ct.ben_q2_urb{marker per_sa_ct.ben_q2_urb}}}Benefits incidence in 2nd quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q3_rur:per_sa_ct.ben_q3_rur{marker per_sa_ct.ben_q3_rur}}}Benefits incidence in 3rd quintile (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q3_preT_tot:per_sa_ct.ben_q3_preT_tot{marker per_sa_ct.ben_q3_preT_tot}}}Benefits incidence in 3rd quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q3_tot:per_sa_ct.ben_q3_tot{marker per_sa_ct.ben_q3_tot}}}Benefits incidence in 3rd quintile (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q3_rur:per_sa_ct.ben_q3_rur{marker per_sa_ct.ben_q3_rur}}}Benefits incidence in 3rd quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q3_urb:per_sa_ct.ben_q3_urb{marker per_sa_ct.ben_q3_urb}}}Benefits incidence in 3rd quintile (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q3_tot:per_sa_ct.ben_q3_tot{marker per_sa_ct.ben_q3_tot}}}Benefits incidence in 3rd quintile (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q4_preT_tot:per_sa_ct.ben_q4_preT_tot{marker per_sa_ct.ben_q4_preT_tot}}}Benefits incidence in 4th quintile (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q3_urb:per_sa_ct.ben_q3_urb{marker per_sa_ct.ben_q3_urb}}}Benefits incidence in 3rd quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q4_rur:per_sa_ct.ben_q4_rur{marker per_sa_ct.ben_q4_rur}}}Benefits incidence in 4th quintile (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q4_preT_tot:per_sa_ct.ben_q4_preT_tot{marker per_sa_ct.ben_q4_preT_tot}}}Benefits incidence in 4th quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q4_tot:per_sa_ct.ben_q4_tot{marker per_sa_ct.ben_q4_tot}}}Benefits incidence in 4th quintile (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q4_rur:per_sa_ct.ben_q4_rur{marker per_sa_ct.ben_q4_rur}}}Benefits incidence in 4th quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q4_urb:per_sa_ct.ben_q4_urb{marker per_sa_ct.ben_q4_urb}}}Benefits incidence in 4th quintile (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q4_tot:per_sa_ct.ben_q4_tot{marker per_sa_ct.ben_q4_tot}}}Benefits incidence in 4th quintile (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q5_preT_tot:per_sa_ct.ben_q5_preT_tot{marker per_sa_ct.ben_q5_preT_tot}}}Benefits incidence in 5th quintile (richest) (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q4_urb:per_sa_ct.ben_q4_urb{marker per_sa_ct.ben_q4_urb}}}Benefits incidence in 4th quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q5_rur:per_sa_ct.ben_q5_rur{marker per_sa_ct.ben_q5_rur}}}Benefits incidence in 5th quintile (richest) (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q5_preT_tot:per_sa_ct.ben_q5_preT_tot{marker per_sa_ct.ben_q5_preT_tot}}}Benefits incidence in 5th quintile (richest) (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q5_tot:per_sa_ct.ben_q5_tot{marker per_sa_ct.ben_q5_tot}}}Benefits incidence in 5th quintile (richest) (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q5_rur:per_sa_ct.ben_q5_rur{marker per_sa_ct.ben_q5_rur}}}Benefits incidence in 5th quintile (richest) (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q5_urb:per_sa_ct.ben_q5_urb{marker per_sa_ct.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q5_tot:per_sa_ct.ben_q5_tot{marker per_sa_ct.ben_q5_tot}}}Benefits incidence in 5th quintile (richest) (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_ep_preT_tot:per_sa_ct.bry_ep_preT_tot{marker per_sa_ct.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Unconditional Cash Transfers  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.ben_q5_urb:per_sa_ct.ben_q5_urb{marker per_sa_ct.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_ep_tot:per_sa_ct.bry_ep_tot{marker per_sa_ct.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_ep_preT_tot:per_sa_ct.bry_ep_preT_tot{marker per_sa_ct.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q1_preT_tot:per_sa_ct.bry_q1_preT_tot{marker per_sa_ct.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_ep_tot:per_sa_ct.bry_ep_tot{marker per_sa_ct.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q1_rur:per_sa_ct.bry_q1_rur{marker per_sa_ct.bry_q1_rur}}}Beneficiary incidence in 1st quintile (poorest) (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q1_preT_tot:per_sa_ct.bry_q1_preT_tot{marker per_sa_ct.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q1_tot:per_sa_ct.bry_q1_tot{marker per_sa_ct.bry_q1_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q1_rur:per_sa_ct.bry_q1_rur{marker per_sa_ct.bry_q1_rur}}}Beneficiary incidence in 1st quintile (poorest) (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q1_urb:per_sa_ct.bry_q1_urb{marker per_sa_ct.bry_q1_urb}}}Beneficiary incidence in 1st quintile (poorest) (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q1_tot:per_sa_ct.bry_q1_tot{marker per_sa_ct.bry_q1_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q2_preT_tot:per_sa_ct.bry_q2_preT_tot{marker per_sa_ct.bry_q2_preT_tot}}}Beneficiary incidence in 2nd quintile (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q1_urb:per_sa_ct.bry_q1_urb{marker per_sa_ct.bry_q1_urb}}}Beneficiary incidence in 1st quintile (poorest) (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q2_rur:per_sa_ct.bry_q2_rur{marker per_sa_ct.bry_q2_rur}}}Beneficiary incidence in 2nd quintile (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q2_preT_tot:per_sa_ct.bry_q2_preT_tot{marker per_sa_ct.bry_q2_preT_tot}}}Beneficiary incidence in 2nd quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q2_tot:per_sa_ct.bry_q2_tot{marker per_sa_ct.bry_q2_tot}}}Beneficiary incidence in 2nd quintile (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q2_rur:per_sa_ct.bry_q2_rur{marker per_sa_ct.bry_q2_rur}}}Beneficiary incidence in 2nd quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q2_urb:per_sa_ct.bry_q2_urb{marker per_sa_ct.bry_q2_urb}}}Beneficiary incidence in 2nd quintile (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q2_tot:per_sa_ct.bry_q2_tot{marker per_sa_ct.bry_q2_tot}}}Beneficiary incidence in 2nd quintile (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q3_preT_tot:per_sa_ct.bry_q3_preT_tot{marker per_sa_ct.bry_q3_preT_tot}}}Beneficiary incidence in 3rd quintile (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q2_urb:per_sa_ct.bry_q2_urb{marker per_sa_ct.bry_q2_urb}}}Beneficiary incidence in 2nd quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q3_rur:per_sa_ct.bry_q3_rur{marker per_sa_ct.bry_q3_rur}}}Beneficiary incidence in 3rd quintile (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q3_preT_tot:per_sa_ct.bry_q3_preT_tot{marker per_sa_ct.bry_q3_preT_tot}}}Beneficiary incidence in 3rd quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q3_tot:per_sa_ct.bry_q3_tot{marker per_sa_ct.bry_q3_tot}}}Beneficiary incidence in 3rd quintile (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q3_rur:per_sa_ct.bry_q3_rur{marker per_sa_ct.bry_q3_rur}}}Beneficiary incidence in 3rd quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q3_urb:per_sa_ct.bry_q3_urb{marker per_sa_ct.bry_q3_urb}}}Beneficiary incidence in 3rd quintile (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q3_tot:per_sa_ct.bry_q3_tot{marker per_sa_ct.bry_q3_tot}}}Beneficiary incidence in 3rd quintile (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q4_preT_tot:per_sa_ct.bry_q4_preT_tot{marker per_sa_ct.bry_q4_preT_tot}}}Beneficiary incidence in 4th quintile (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q3_urb:per_sa_ct.bry_q3_urb{marker per_sa_ct.bry_q3_urb}}}Beneficiary incidence in 3rd quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q4_rur:per_sa_ct.bry_q4_rur{marker per_sa_ct.bry_q4_rur}}}Beneficiary incidence in 4th quintile (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q4_preT_tot:per_sa_ct.bry_q4_preT_tot{marker per_sa_ct.bry_q4_preT_tot}}}Beneficiary incidence in 4th quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q4_tot:per_sa_ct.bry_q4_tot{marker per_sa_ct.bry_q4_tot}}}Beneficiary incidence in 4th quintile (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q4_rur:per_sa_ct.bry_q4_rur{marker per_sa_ct.bry_q4_rur}}}Beneficiary incidence in 4th quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q4_urb:per_sa_ct.bry_q4_urb{marker per_sa_ct.bry_q4_urb}}}Beneficiary incidence in 4th quintile (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q4_tot:per_sa_ct.bry_q4_tot{marker per_sa_ct.bry_q4_tot}}}Beneficiary incidence in 4th quintile (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q5_preT_tot:per_sa_ct.bry_q5_preT_tot{marker per_sa_ct.bry_q5_preT_tot}}}Beneficiary incidence in 5th quintile (richest) (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q4_urb:per_sa_ct.bry_q4_urb{marker per_sa_ct.bry_q4_urb}}}Beneficiary incidence in 4th quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q5_rur:per_sa_ct.bry_q5_rur{marker per_sa_ct.bry_q5_rur}}}Beneficiary incidence in 5th quintile (richest) (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q5_preT_tot:per_sa_ct.bry_q5_preT_tot{marker per_sa_ct.bry_q5_preT_tot}}}Beneficiary incidence in 5th quintile (richest) (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q5_tot:per_sa_ct.bry_q5_tot{marker per_sa_ct.bry_q5_tot}}}Beneficiary incidence in 5th quintile (richest) (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q5_rur:per_sa_ct.bry_q5_rur{marker per_sa_ct.bry_q5_rur}}}Beneficiary incidence in 5th quintile (richest) (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q5_urb:per_sa_ct.bry_q5_urb{marker per_sa_ct.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q5_tot:per_sa_ct.bry_q5_tot{marker per_sa_ct.bry_q5_tot}}}Beneficiary incidence in 5th quintile (richest) (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cba_ep_tot:per_sa_ct.cba_ep_tot{marker per_sa_ct.cba_ep_tot}}}Benefit-cost ratio -  Unconditional Cash Transfers -extreme poor (&lt;$2.15 a day){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.bry_q5_urb:per_sa_ct.bry_q5_urb{marker per_sa_ct.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cba_q1_rur:per_sa_ct.cba_q1_rur{marker per_sa_ct.cba_q1_rur}}}Benefit-cost ratio -  Unconditional Cash Transfers -1st quintile (poorest) -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cba_ep_tot:per_sa_ct.cba_ep_tot{marker per_sa_ct.cba_ep_tot}}}Benefit-cost ratio -  Cash Transfer -extreme poor (&lt;$2.15 a day){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cba_q1_tot:per_sa_ct.cba_q1_tot{marker per_sa_ct.cba_q1_tot}}}Benefit-cost ratio -  Unconditional Cash Transfers -1st quintile (poorest){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cba_q1_rur:per_sa_ct.cba_q1_rur{marker per_sa_ct.cba_q1_rur}}}Benefit-cost ratio -  Cash Transfer -1st quintile (poorest) -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cba_q1_urb:per_sa_ct.cba_q1_urb{marker per_sa_ct.cba_q1_urb}}}Benefit-cost ratio -  Unconditional Cash Transfers - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cba_q1_tot:per_sa_ct.cba_q1_tot{marker per_sa_ct.cba_q1_tot}}}Benefit-cost ratio -  Cash Transfer -1st quintile (poorest){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_ep_preT_tot:per_sa_ct.cov_ep_preT_tot{marker per_sa_ct.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Unconditional Cash Transfers  (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cba_q1_urb:per_sa_ct.cba_q1_urb{marker per_sa_ct.cba_q1_urb}}}Benefit-cost ratio -  Cash Transfer - 1st quintile (poorest) -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_ep_tot:per_sa_ct.cov_ep_tot{marker per_sa_ct.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_ep_preT_tot:per_sa_ct.cov_ep_preT_tot{marker per_sa_ct.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer  (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_pop_rur:per_sa_ct.cov_pop_rur{marker per_sa_ct.cov_pop_rur}}}Coverage (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_ep_tot:per_sa_ct.cov_ep_tot{marker per_sa_ct.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_pop_tot:per_sa_ct.cov_pop_tot{marker per_sa_ct.cov_pop_tot}}}Coverage (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_pop_preT_tot:per_sa_ct.cov_pop_preT_tot{marker per_sa_ct.cov_pop_preT_tot}}}Coverage (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_pop_urb:per_sa_ct.cov_pop_urb{marker per_sa_ct.cov_pop_urb}}}Coverage (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_pop_rur:per_sa_ct.cov_pop_rur{marker per_sa_ct.cov_pop_rur}}}Coverage (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q1_preT_tot:per_sa_ct.cov_q1_preT_tot{marker per_sa_ct.cov_q1_preT_tot}}}Coverage in 1st quintile (poorest) (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_pop_tot:per_sa_ct.cov_pop_tot{marker per_sa_ct.cov_pop_tot}}}Coverage (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q1_rur:per_sa_ct.cov_q1_rur{marker per_sa_ct.cov_q1_rur}}}Coverage in 1st quintile (poorest) (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_pop_urb:per_sa_ct.cov_pop_urb{marker per_sa_ct.cov_pop_urb}}}Coverage (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q1_tot:per_sa_ct.cov_q1_tot{marker per_sa_ct.cov_q1_tot}}}Coverage in 1st quintile (poorest) (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q1_preT_tot:per_sa_ct.cov_q1_preT_tot{marker per_sa_ct.cov_q1_preT_tot}}}Coverage in 1st quintile (poorest) (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q1_urb:per_sa_ct.cov_q1_urb{marker per_sa_ct.cov_q1_urb}}}Coverage in 1st quintile (poorest) (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q1_rur:per_sa_ct.cov_q1_rur{marker per_sa_ct.cov_q1_rur}}}Coverage in 1st quintile (poorest) (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q2_preT_tot:per_sa_ct.cov_q2_preT_tot{marker per_sa_ct.cov_q2_preT_tot}}}Coverage in 2nd quintile (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q1_tot:per_sa_ct.cov_q1_tot{marker per_sa_ct.cov_q1_tot}}}Coverage in 1st quintile (poorest) (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q2_rur:per_sa_ct.cov_q2_rur{marker per_sa_ct.cov_q2_rur}}}Coverage in 2nd quintile (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q1_urb:per_sa_ct.cov_q1_urb{marker per_sa_ct.cov_q1_urb}}}Coverage in 1st quintile (poorest) (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q2_tot:per_sa_ct.cov_q2_tot{marker per_sa_ct.cov_q2_tot}}}Coverage in 2nd quintile (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q2_preT_tot:per_sa_ct.cov_q2_preT_tot{marker per_sa_ct.cov_q2_preT_tot}}}Coverage in 2nd quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q2_urb:per_sa_ct.cov_q2_urb{marker per_sa_ct.cov_q2_urb}}}Coverage in 2nd quintile (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q2_rur:per_sa_ct.cov_q2_rur{marker per_sa_ct.cov_q2_rur}}}Coverage in 2nd quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q3_preT_tot:per_sa_ct.cov_q3_preT_tot{marker per_sa_ct.cov_q3_preT_tot}}}Coverage in 3rd quintile (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q2_tot:per_sa_ct.cov_q2_tot{marker per_sa_ct.cov_q2_tot}}}Coverage in 2nd quintile (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q3_rur:per_sa_ct.cov_q3_rur{marker per_sa_ct.cov_q3_rur}}}Coverage in 3rd quintile (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q2_urb:per_sa_ct.cov_q2_urb{marker per_sa_ct.cov_q2_urb}}}Coverage in 2nd quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q3_tot:per_sa_ct.cov_q3_tot{marker per_sa_ct.cov_q3_tot}}}Coverage in 3rd quintile (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q3_preT_tot:per_sa_ct.cov_q3_preT_tot{marker per_sa_ct.cov_q3_preT_tot}}}Coverage in 3rd quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q3_urb:per_sa_ct.cov_q3_urb{marker per_sa_ct.cov_q3_urb}}}Coverage in 3rd quintile (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q3_rur:per_sa_ct.cov_q3_rur{marker per_sa_ct.cov_q3_rur}}}Coverage in 3rd quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q4_preT_tot:per_sa_ct.cov_q4_preT_tot{marker per_sa_ct.cov_q4_preT_tot}}}Coverage in 4th quintile (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q3_tot:per_sa_ct.cov_q3_tot{marker per_sa_ct.cov_q3_tot}}}Coverage in 3rd quintile (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q4_rur:per_sa_ct.cov_q4_rur{marker per_sa_ct.cov_q4_rur}}}Coverage in 4th quintile (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q3_urb:per_sa_ct.cov_q3_urb{marker per_sa_ct.cov_q3_urb}}}Coverage in 3rd quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q4_tot:per_sa_ct.cov_q4_tot{marker per_sa_ct.cov_q4_tot}}}Coverage in 4th quintile (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q4_preT_tot:per_sa_ct.cov_q4_preT_tot{marker per_sa_ct.cov_q4_preT_tot}}}Coverage in 4th quintile (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q4_urb:per_sa_ct.cov_q4_urb{marker per_sa_ct.cov_q4_urb}}}Coverage in 4th quintile (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q4_rur:per_sa_ct.cov_q4_rur{marker per_sa_ct.cov_q4_rur}}}Coverage in 4th quintile (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q5_preT_tot:per_sa_ct.cov_q5_preT_tot{marker per_sa_ct.cov_q5_preT_tot}}}Coverage in 5th quintile (richest) (%) - Unconditional Cash Transfers (preT){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q4_tot:per_sa_ct.cov_q4_tot{marker per_sa_ct.cov_q4_tot}}}Coverage in 4th quintile (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q5_rur:per_sa_ct.cov_q5_rur{marker per_sa_ct.cov_q5_rur}}}Coverage in 5th quintile (richest) (%) - Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q4_urb:per_sa_ct.cov_q4_urb{marker per_sa_ct.cov_q4_urb}}}Coverage in 4th quintile (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q5_tot:per_sa_ct.cov_q5_tot{marker per_sa_ct.cov_q5_tot}}}Coverage in 5th quintile (richest) (%) - Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q5_preT_tot:per_sa_ct.cov_q5_preT_tot{marker per_sa_ct.cov_q5_preT_tot}}}Coverage in 5th quintile (richest) (%) - Cash Transfer (preT){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q5_urb:per_sa_ct.cov_q5_urb{marker per_sa_ct.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) - Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q5_rur:per_sa_ct.cov_q5_rur{marker per_sa_ct.cov_q5_rur}}}Coverage in 5th quintile (richest) (%) - Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_gini_rur:per_sa_ct_gini_rur{marker per_sa_ct_gini_rur}}}Gini inequality index reduction (%) -  Unconditional Cash Transfers -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q5_tot:per_sa_ct.cov_q5_tot{marker per_sa_ct.cov_q5_tot}}}Coverage in 5th quintile (richest) (%) - Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_gini_tot:per_sa_ct_gini_tot{marker per_sa_ct_gini_tot}}}Gini inequality index reduction (%) -  Unconditional Cash Transfers{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct.cov_q5_urb:per_sa_ct.cov_q5_urb{marker per_sa_ct.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) - Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_gini_urb:per_sa_ct_gini_urb{marker per_sa_ct_gini_urb}}}Gini inequality index reduction (%) -  Unconditional Cash Transfers -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_gini_rur:per_sa_ct_gini_rur{marker per_sa_ct_gini_rur}}}Gini inequality index reduction (%) -  Cash Transfer -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p0_ep_tot:per_sa_ct_p0_ep_tot{marker per_sa_ct_p0_ep_tot}}}Poverty Headcount reduction (%) -  Unconditional Cash Transfers -extreme poor (&lt;$2.15 a day){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_gini_tot:per_sa_ct_gini_tot{marker per_sa_ct_gini_tot}}}Gini inequality index reduction (%) -  Cash Transfer{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p0_rur:per_sa_ct_p0_rur{marker per_sa_ct_p0_rur}}}Poverty Headcount reduction (%) -  Unconditional Cash Transfers -1st quintile (poorest) -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_gini_urb:per_sa_ct_gini_urb{marker per_sa_ct_gini_urb}}}Gini inequality index reduction (%) -  Cash Transfer -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p0_tot:per_sa_ct_p0_tot{marker per_sa_ct_p0_tot}}}Poverty Headcount reduction (%) -  Unconditional Cash Transfers -1st quintile (poorest){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p0_ep_tot:per_sa_ct_p0_ep_tot{marker per_sa_ct_p0_ep_tot}}}Poverty Headcount reduction (%) -  Cash Transfer -extreme poor (&lt;$2.15 a day){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p0_urb:per_sa_ct_p0_urb{marker per_sa_ct_p0_urb}}}Poverty Headcount reduction (%) -  Unconditional Cash Transfers - 1st quintile (poorest) -urban{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p0_rur:per_sa_ct_p0_rur{marker per_sa_ct_p0_rur}}}Poverty Headcount reduction (%) -  Cash Transfer -1st quintile (poorest) -rural{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p1_ep_tot:per_sa_ct_p1_ep_tot{marker per_sa_ct_p1_ep_tot}}}Poverty Gap reduction (%) -  Unconditional Cash Transfers -extreme poor (&lt;$2.15 a day){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p0_tot:per_sa_ct_p0_tot{marker per_sa_ct_p0_tot}}}Poverty Headcount reduction (%) -  Cash Transfer -1st quintile (poorest){p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p1_rur:per_sa_ct_p1_rur{marker per_sa_ct_p1_rur}}}Poverty Gap reduction (%) -  Unconditional Cash Transfers -1st quintile (poorest) -rural{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p0_urb:per_sa_ct_p0_urb{marker per_sa_ct_p0_urb}}}Poverty Headcount reduction (%) -  Cash Transfer - 1st quintile (poorest) -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p1_tot:per_sa_ct_p1_tot{marker per_sa_ct_p1_tot}}}Poverty Gap reduction (%) -  Unconditional Cash Transfers -1st quintile (poorest){p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p1_ep_tot:per_sa_ct_p1_ep_tot{marker per_sa_ct_p1_ep_tot}}}Poverty Gap reduction (%) -  Cash Transfer -extreme poor (&lt;$2.15 a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p1_rur:per_sa_ct_p1_rur{marker per_sa_ct_p1_rur}}}Poverty Gap reduction (%) -  Cash Transfer -1st quintile (poorest) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p1_tot:per_sa_ct_p1_tot{marker per_sa_ct_p1_tot}}}Poverty Gap reduction (%) -  Cash Transfer -1st quintile (poorest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p1_urb:per_sa_ct_p1_urb{marker per_sa_ct_p1_urb}}}Poverty Gap reduction (%) -  Cash Transfer - 1st quintile (poorest) -urban{p_end}
+{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ct_p1_urb:per_sa_ct_p1_urb{marker per_sa_ct_p1_urb}}}Poverty Gap reduction (%) -  Unconditional Cash Transfers - 1st quintile (poorest) -urban{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.adq_ep_preT_tot:per_sa_ik.adq_ep_preT_tot{marker per_sa_ik.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - In-Kind (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.adq_ep_tot:per_sa_ik.adq_ep_tot{marker per_sa_ik.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - In-Kind{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.adq_pop_preT_tot:per_sa_ik.adq_pop_preT_tot{marker per_sa_ik.adq_pop_preT_tot}}}Adequacy of benefits (%) - In-Kind (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.adq_pop_rur:per_sa_ik.adq_pop_rur{marker per_sa_ik.adq_pop_rur}}}Adequacy of benefits (%) - In-Kind -rural{p_end}
 
@@ -5371,8 +4957,6 @@
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.avt_ep_preT_tot:per_sa_ik.avt_ep_preT_tot{marker per_sa_ik.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - In-Kind (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.avt_ep_tot:per_sa_ik.avt_ep_tot{marker per_sa_ik.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - In-Kind{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.avt_pop_preT_tot:per_sa_ik.avt_pop_preT_tot{marker per_sa_ik.avt_pop_preT_tot}}}Average per capita transfer - In-Kind (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.avt_pop_rur:per_sa_ik.avt_pop_rur{marker per_sa_ik.avt_pop_rur}}}Average per capita transfer - In-Kind -rural{p_end}
 
@@ -5520,8 +5104,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.cov_ep_tot:per_sa_ik.cov_ep_tot{marker per_sa_ik.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - In-Kind{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.cov_pop_preT_tot:per_sa_ik.cov_pop_preT_tot{marker per_sa_ik.cov_pop_preT_tot}}}Coverage (%) - In-Kind (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.cov_pop_rur:per_sa_ik.cov_pop_rur{marker per_sa_ik.cov_pop_rur}}}Coverage (%) - In-Kind -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_ik.cov_pop_tot:per_sa_ik.cov_pop_tot{marker per_sa_ik.cov_pop_tot}}}Coverage (%) - In-Kind{p_end}
@@ -5594,8 +5176,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.adq_ep_tot:per_sa_pw.adq_ep_tot{marker per_sa_pw.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Public Works{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.adq_pop_preT_tot:per_sa_pw.adq_pop_preT_tot{marker per_sa_pw.adq_pop_preT_tot}}}Adequacy of benefits (%) - Public Works (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.adq_pop_rur:per_sa_pw.adq_pop_rur{marker per_sa_pw.adq_pop_rur}}}Adequacy of benefits (%) - Public Works -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.adq_pop_tot:per_sa_pw.adq_pop_tot{marker per_sa_pw.adq_pop_tot}}}Adequacy of benefits (%) - Public Works{p_end}
@@ -5645,8 +5225,6 @@
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.avt_ep_preT_tot:per_sa_pw.avt_ep_preT_tot{marker per_sa_pw.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Public Works (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.avt_ep_tot:per_sa_pw.avt_ep_tot{marker per_sa_pw.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Public Works{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.avt_pop_preT_tot:per_sa_pw.avt_pop_preT_tot{marker per_sa_pw.avt_pop_preT_tot}}}Average per capita transfer - Public Works (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.avt_pop_rur:per_sa_pw.avt_pop_rur{marker per_sa_pw.avt_pop_rur}}}Average per capita transfer - Public Works -rural{p_end}
 
@@ -5794,8 +5372,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.cov_ep_tot:per_sa_pw.cov_ep_tot{marker per_sa_pw.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Public Works{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.cov_pop_preT_tot:per_sa_pw.cov_pop_preT_tot{marker per_sa_pw.cov_pop_preT_tot}}}Coverage (%) - Public Works (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.cov_pop_rur:per_sa_pw.cov_pop_rur{marker per_sa_pw.cov_pop_rur}}}Coverage (%) - Public Works -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_pw.cov_pop_tot:per_sa_pw.cov_pop_tot{marker per_sa_pw.cov_pop_tot}}}Coverage (%) - Public Works{p_end}
@@ -5868,8 +5444,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.adq_ep_tot:per_sa_sf.adq_ep_tot{marker per_sa_sf.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - School Feeding{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.adq_pop_preT_tot:per_sa_sf.adq_pop_preT_tot{marker per_sa_sf.adq_pop_preT_tot}}}Adequacy of benefits (%) - School Feeding (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.adq_pop_rur:per_sa_sf.adq_pop_rur{marker per_sa_sf.adq_pop_rur}}}Adequacy of benefits (%) - School Feeding -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.adq_pop_tot:per_sa_sf.adq_pop_tot{marker per_sa_sf.adq_pop_tot}}}Adequacy of benefits (%) - School Feeding{p_end}
@@ -5919,8 +5493,6 @@
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.avt_ep_preT_tot:per_sa_sf.avt_ep_preT_tot{marker per_sa_sf.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - School Feeding (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.avt_ep_tot:per_sa_sf.avt_ep_tot{marker per_sa_sf.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - School Feeding{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.avt_pop_preT_tot:per_sa_sf.avt_pop_preT_tot{marker per_sa_sf.avt_pop_preT_tot}}}Average per capita transfer - School Feeding (preT){p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.avt_pop_rur:per_sa_sf.avt_pop_rur{marker per_sa_sf.avt_pop_rur}}}Average per capita transfer - School Feeding -rural{p_end}
 
@@ -6068,8 +5640,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cov_ep_tot:per_sa_sf.cov_ep_tot{marker per_sa_sf.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - School Feeding{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cov_pop_preT_tot:per_sa_sf.cov_pop_preT_tot{marker per_sa_sf.cov_pop_preT_tot}}}Coverage (%) - School Feeding (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cov_pop_rur:per_sa_sf.cov_pop_rur{marker per_sa_sf.cov_pop_rur}}}Coverage (%) - School Feeding -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sf.cov_pop_tot:per_sa_sf.cov_pop_tot{marker per_sa_sf.cov_pop_tot}}}Coverage (%) - School Feeding{p_end}
@@ -6142,8 +5712,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.adq_ep_tot:per_sa_sp.adq_ep_tot{marker per_sa_sp.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Social Pensions{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.adq_pop_preT_tot:per_sa_sp.adq_pop_preT_tot{marker per_sa_sp.adq_pop_preT_tot}}}Adequacy of benefits (%) - Social Pensions (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.adq_pop_rur:per_sa_sp.adq_pop_rur{marker per_sa_sp.adq_pop_rur}}}Adequacy of benefits (%) - Social Pensions -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.adq_pop_tot:per_sa_sp.adq_pop_tot{marker per_sa_sp.adq_pop_tot}}}Adequacy of benefits (%) - Social Pensions{p_end}
@@ -6194,8 +5762,6 @@
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_ep_tot:per_sa_sp.avt_ep_tot{marker per_sa_sp.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Social Pensions{p_end}
 
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_pop_preT_tot:per_sa_sp.avt_pop_preT_tot{marker per_sa_sp.avt_pop_preT_tot}}}Average per capita transfer - Social Pensions (preT){p_end}
-
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_pop_rur:per_sa_sp.avt_pop_rur{marker per_sa_sp.avt_pop_rur}}}Average per capita transfer - Social Pensions -rural{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_pop_tot:per_sa_sp.avt_pop_tot{marker per_sa_sp.avt_pop_tot}}}Average per capita transfer - Social Pensions{p_end}
@@ -6225,812 +5791,6 @@
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_q3_tot:per_sa_sp.avt_q3_tot{marker per_sa_sp.avt_q3_tot}}}Average per capita transfer held by 3rd quintile - Social Pensions{p_end}
 
 {synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_q3_urb:per_sa_sp.avt_q3_urb{marker per_sa_sp.avt_q3_urb}}}Average per capita transfer held by 3rd quintile - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_q4_preT_tot:per_sa_sp.avt_q4_preT_tot{marker per_sa_sp.avt_q4_preT_tot}}}Average per capita transfer held by 4th quintile - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_q4_rur:per_sa_sp.avt_q4_rur{marker per_sa_sp.avt_q4_rur}}}Average per capita transfer held by 4th quintile - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_q4_tot:per_sa_sp.avt_q4_tot{marker per_sa_sp.avt_q4_tot}}}Average per capita transfer held by 4th quintile - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_q4_urb:per_sa_sp.avt_q4_urb{marker per_sa_sp.avt_q4_urb}}}Average per capita transfer held by 4th quintile - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_q5_preT_tot:per_sa_sp.avt_q5_preT_tot{marker per_sa_sp.avt_q5_preT_tot}}}Average per capita transfer held by 5th quintile (richest) - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_q5_rur:per_sa_sp.avt_q5_rur{marker per_sa_sp.avt_q5_rur}}}Average per capita transfer held by 5th quintile (richest) - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_q5_tot:per_sa_sp.avt_q5_tot{marker per_sa_sp.avt_q5_tot}}}Average per capita transfer held by 5th quintile (richest) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.avt_q5_urb:per_sa_sp.avt_q5_urb{marker per_sa_sp.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_ep_preT_tot:per_sa_sp.ben_ep_preT_tot{marker per_sa_sp.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Social Pensions  (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_ep_tot:per_sa_sp.ben_ep_tot{marker per_sa_sp.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q1_preT_tot:per_sa_sp.ben_q1_preT_tot{marker per_sa_sp.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q1_rur:per_sa_sp.ben_q1_rur{marker per_sa_sp.ben_q1_rur}}}Benefits incidence in 1st quintile (poorest) (%) - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q1_tot:per_sa_sp.ben_q1_tot{marker per_sa_sp.ben_q1_tot}}}Benefits incidence in 1st quintile (poorest) (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q1_urb:per_sa_sp.ben_q1_urb{marker per_sa_sp.ben_q1_urb}}}Benefits incidence in 1st quintile (poorest) (%) - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q2_preT_tot:per_sa_sp.ben_q2_preT_tot{marker per_sa_sp.ben_q2_preT_tot}}}Benefits incidence in 2nd quintile (%) - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q2_rur:per_sa_sp.ben_q2_rur{marker per_sa_sp.ben_q2_rur}}}Benefits incidence in 2nd quintile (%) - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q2_tot:per_sa_sp.ben_q2_tot{marker per_sa_sp.ben_q2_tot}}}Benefits incidence in 2nd quintile (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q2_urb:per_sa_sp.ben_q2_urb{marker per_sa_sp.ben_q2_urb}}}Benefits incidence in 2nd quintile (%) - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q3_preT_tot:per_sa_sp.ben_q3_preT_tot{marker per_sa_sp.ben_q3_preT_tot}}}Benefits incidence in 3rd quintile (%) - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q3_rur:per_sa_sp.ben_q3_rur{marker per_sa_sp.ben_q3_rur}}}Benefits incidence in 3rd quintile (%) - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q3_tot:per_sa_sp.ben_q3_tot{marker per_sa_sp.ben_q3_tot}}}Benefits incidence in 3rd quintile (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q3_urb:per_sa_sp.ben_q3_urb{marker per_sa_sp.ben_q3_urb}}}Benefits incidence in 3rd quintile (%) - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q4_preT_tot:per_sa_sp.ben_q4_preT_tot{marker per_sa_sp.ben_q4_preT_tot}}}Benefits incidence in 4th quintile (%) - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q4_rur:per_sa_sp.ben_q4_rur{marker per_sa_sp.ben_q4_rur}}}Benefits incidence in 4th quintile (%) - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q4_tot:per_sa_sp.ben_q4_tot{marker per_sa_sp.ben_q4_tot}}}Benefits incidence in 4th quintile (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q4_urb:per_sa_sp.ben_q4_urb{marker per_sa_sp.ben_q4_urb}}}Benefits incidence in 4th quintile (%) - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q5_preT_tot:per_sa_sp.ben_q5_preT_tot{marker per_sa_sp.ben_q5_preT_tot}}}Benefits incidence in 5th quintile (richest) (%) - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q5_rur:per_sa_sp.ben_q5_rur{marker per_sa_sp.ben_q5_rur}}}Benefits incidence in 5th quintile (richest) (%) - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q5_tot:per_sa_sp.ben_q5_tot{marker per_sa_sp.ben_q5_tot}}}Benefits incidence in 5th quintile (richest) (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.ben_q5_urb:per_sa_sp.ben_q5_urb{marker per_sa_sp.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_ep_preT_tot:per_sa_sp.bry_ep_preT_tot{marker per_sa_sp.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Social Pensions  (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_ep_tot:per_sa_sp.bry_ep_tot{marker per_sa_sp.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q1_preT_tot:per_sa_sp.bry_q1_preT_tot{marker per_sa_sp.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q1_rur:per_sa_sp.bry_q1_rur{marker per_sa_sp.bry_q1_rur}}}Beneficiary incidence in 1st quintile (poorest) (%) - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q1_tot:per_sa_sp.bry_q1_tot{marker per_sa_sp.bry_q1_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q1_urb:per_sa_sp.bry_q1_urb{marker per_sa_sp.bry_q1_urb}}}Beneficiary incidence in 1st quintile (poorest) (%) - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q2_preT_tot:per_sa_sp.bry_q2_preT_tot{marker per_sa_sp.bry_q2_preT_tot}}}Beneficiary incidence in 2nd quintile (%) - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q2_rur:per_sa_sp.bry_q2_rur{marker per_sa_sp.bry_q2_rur}}}Beneficiary incidence in 2nd quintile (%) - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q2_tot:per_sa_sp.bry_q2_tot{marker per_sa_sp.bry_q2_tot}}}Beneficiary incidence in 2nd quintile (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q2_urb:per_sa_sp.bry_q2_urb{marker per_sa_sp.bry_q2_urb}}}Beneficiary incidence in 2nd quintile (%) - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q3_preT_tot:per_sa_sp.bry_q3_preT_tot{marker per_sa_sp.bry_q3_preT_tot}}}Beneficiary incidence in 3rd quintile (%) - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q3_rur:per_sa_sp.bry_q3_rur{marker per_sa_sp.bry_q3_rur}}}Beneficiary incidence in 3rd quintile (%) - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q3_tot:per_sa_sp.bry_q3_tot{marker per_sa_sp.bry_q3_tot}}}Beneficiary incidence in 3rd quintile (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q3_urb:per_sa_sp.bry_q3_urb{marker per_sa_sp.bry_q3_urb}}}Beneficiary incidence in 3rd quintile (%) - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q4_preT_tot:per_sa_sp.bry_q4_preT_tot{marker per_sa_sp.bry_q4_preT_tot}}}Beneficiary incidence in 4th quintile (%) - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q4_rur:per_sa_sp.bry_q4_rur{marker per_sa_sp.bry_q4_rur}}}Beneficiary incidence in 4th quintile (%) - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q4_tot:per_sa_sp.bry_q4_tot{marker per_sa_sp.bry_q4_tot}}}Beneficiary incidence in 4th quintile (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q4_urb:per_sa_sp.bry_q4_urb{marker per_sa_sp.bry_q4_urb}}}Beneficiary incidence in 4th quintile (%) - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q5_preT_tot:per_sa_sp.bry_q5_preT_tot{marker per_sa_sp.bry_q5_preT_tot}}}Beneficiary incidence in 5th quintile (richest) (%) - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q5_rur:per_sa_sp.bry_q5_rur{marker per_sa_sp.bry_q5_rur}}}Beneficiary incidence in 5th quintile (richest) (%) - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q5_tot:per_sa_sp.bry_q5_tot{marker per_sa_sp.bry_q5_tot}}}Beneficiary incidence in 5th quintile (richest) (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.bry_q5_urb:per_sa_sp.bry_q5_urb{marker per_sa_sp.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cba_ep_tot:per_sa_sp.cba_ep_tot{marker per_sa_sp.cba_ep_tot}}}Benefit-cost ratio -  Social Pension -extreme poor (&lt;$2.15 a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cba_q1_rur:per_sa_sp.cba_q1_rur{marker per_sa_sp.cba_q1_rur}}}Benefit-cost ratio -  Social Pension -1st quintile (poorest) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cba_q1_tot:per_sa_sp.cba_q1_tot{marker per_sa_sp.cba_q1_tot}}}Benefit-cost ratio -  Social Pension -1st quintile (poorest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cba_q1_urb:per_sa_sp.cba_q1_urb{marker per_sa_sp.cba_q1_urb}}}Benefit-cost ratio -  Social Pension - 1st quintile (poorest) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_ep_preT_tot:per_sa_sp.cov_ep_preT_tot{marker per_sa_sp.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Social Pensions  (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_ep_tot:per_sa_sp.cov_ep_tot{marker per_sa_sp.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_pop_preT_tot:per_sa_sp.cov_pop_preT_tot{marker per_sa_sp.cov_pop_preT_tot}}}Coverage (%) - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_pop_rur:per_sa_sp.cov_pop_rur{marker per_sa_sp.cov_pop_rur}}}Coverage (%) - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_pop_tot:per_sa_sp.cov_pop_tot{marker per_sa_sp.cov_pop_tot}}}Coverage (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_pop_urb:per_sa_sp.cov_pop_urb{marker per_sa_sp.cov_pop_urb}}}Coverage (%) - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q1_preT_tot:per_sa_sp.cov_q1_preT_tot{marker per_sa_sp.cov_q1_preT_tot}}}Coverage in 1st quintile (poorest) (%) - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q1_rur:per_sa_sp.cov_q1_rur{marker per_sa_sp.cov_q1_rur}}}Coverage in 1st quintile (poorest) (%) - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q1_tot:per_sa_sp.cov_q1_tot{marker per_sa_sp.cov_q1_tot}}}Coverage in 1st quintile (poorest) (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q1_urb:per_sa_sp.cov_q1_urb{marker per_sa_sp.cov_q1_urb}}}Coverage in 1st quintile (poorest) (%) - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q2_preT_tot:per_sa_sp.cov_q2_preT_tot{marker per_sa_sp.cov_q2_preT_tot}}}Coverage in 2nd quintile (%) - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q2_rur:per_sa_sp.cov_q2_rur{marker per_sa_sp.cov_q2_rur}}}Coverage in 2nd quintile (%) - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q2_tot:per_sa_sp.cov_q2_tot{marker per_sa_sp.cov_q2_tot}}}Coverage in 2nd quintile (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q2_urb:per_sa_sp.cov_q2_urb{marker per_sa_sp.cov_q2_urb}}}Coverage in 2nd quintile (%) - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q3_preT_tot:per_sa_sp.cov_q3_preT_tot{marker per_sa_sp.cov_q3_preT_tot}}}Coverage in 3rd quintile (%) - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q3_rur:per_sa_sp.cov_q3_rur{marker per_sa_sp.cov_q3_rur}}}Coverage in 3rd quintile (%) - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q3_tot:per_sa_sp.cov_q3_tot{marker per_sa_sp.cov_q3_tot}}}Coverage in 3rd quintile (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q3_urb:per_sa_sp.cov_q3_urb{marker per_sa_sp.cov_q3_urb}}}Coverage in 3rd quintile (%) - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q4_preT_tot:per_sa_sp.cov_q4_preT_tot{marker per_sa_sp.cov_q4_preT_tot}}}Coverage in 4th quintile (%) - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q4_rur:per_sa_sp.cov_q4_rur{marker per_sa_sp.cov_q4_rur}}}Coverage in 4th quintile (%) - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q4_tot:per_sa_sp.cov_q4_tot{marker per_sa_sp.cov_q4_tot}}}Coverage in 4th quintile (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q4_urb:per_sa_sp.cov_q4_urb{marker per_sa_sp.cov_q4_urb}}}Coverage in 4th quintile (%) - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q5_preT_tot:per_sa_sp.cov_q5_preT_tot{marker per_sa_sp.cov_q5_preT_tot}}}Coverage in 5th quintile (richest) (%) - Social Pensions (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q5_rur:per_sa_sp.cov_q5_rur{marker per_sa_sp.cov_q5_rur}}}Coverage in 5th quintile (richest) (%) - Social Pensions -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q5_tot:per_sa_sp.cov_q5_tot{marker per_sa_sp.cov_q5_tot}}}Coverage in 5th quintile (richest) (%) - Social Pensions{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp.cov_q5_urb:per_sa_sp.cov_q5_urb{marker per_sa_sp.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) - Social Pensions -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_gini_rur:per_sa_sp_gini_rur{marker per_sa_sp_gini_rur}}}Gini inequality index reduction (%) -  Social Pension-rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_gini_tot:per_sa_sp_gini_tot{marker per_sa_sp_gini_tot}}}Gini inequality index reduction (%) -  Social Pension{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_gini_urb:per_sa_sp_gini_urb{marker per_sa_sp_gini_urb}}}Gini inequality index reduction (%) -  Social Pension -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p0_ep_tot:per_sa_sp_p0_ep_tot{marker per_sa_sp_p0_ep_tot}}}Poverty Headcount reduction (%) -  Social Pension -extreme poor (&lt;$2.15 a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p0_rur:per_sa_sp_p0_rur{marker per_sa_sp_p0_rur}}}Poverty Headcount reduction (%) -  Social Pension -1st quintile (poorest) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p0_tot:per_sa_sp_p0_tot{marker per_sa_sp_p0_tot}}}Poverty Headcount reduction (%) -  Social Pension -1st quintile (poorest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p0_urb:per_sa_sp_p0_urb{marker per_sa_sp_p0_urb}}}Poverty Headcount reduction (%) -  Social Pension - 1st quintile (poorest) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p1_ep_tot:per_sa_sp_p1_ep_tot{marker per_sa_sp_p1_ep_tot}}}Poverty Gap reduction (%) -  Social Pension -extreme poor (&lt;$2.15 a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p1_rur:per_sa_sp_p1_rur{marker per_sa_sp_p1_rur}}}Poverty Gap reduction (%) -  Social Pension -1st quintile (poorest) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p1_tot:per_sa_sp_p1_tot{marker per_sa_sp_p1_tot}}}Poverty Gap reduction (%) -  Social Pension -1st quintile (poorest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sa_sp_p1_urb:per_sa_sp_p1_urb{marker per_sa_sp_p1_urb}}}Poverty Gap reduction (%) -  Social Pension - 1st quintile (poorest) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saonl.overlap_ep_preT_tot:per_saonl.overlap_ep_preT_tot{marker per_saonl.overlap_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) only receiving All Social Assistance (%, preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saonl.overlap_ep_tot:per_saonl.overlap_ep_tot{marker per_saonl.overlap_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) only receiving All Social Assistance (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saonl.overlap_pop_rur:per_saonl.overlap_pop_rur{marker per_saonl.overlap_pop_rur}}}Population only receiving All Social Assistance (%) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saonl.overlap_pop_tot:per_saonl.overlap_pop_tot{marker per_saonl.overlap_pop_tot}}}Population only receiving All Social Assistance (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saonl.overlap_pop_urb:per_saonl.overlap_pop_urb{marker per_saonl.overlap_pop_urb}}}Population only receiving All Social Assistance (%) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saonl.overlap_q1_preT_tot:per_saonl.overlap_q1_preT_tot{marker per_saonl.overlap_q1_preT_tot}}}Population in the 1st quintile (poorest) only receiving All Social Assistance (%, preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saonl.overlap_q1_rur:per_saonl.overlap_q1_rur{marker per_saonl.overlap_q1_rur}}}Population in the 1st quintile (poorest) only receiving All Social Assistance (%) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saonl.overlap_q1_tot:per_saonl.overlap_q1_tot{marker per_saonl.overlap_q1_tot}}}Population in the 1st quintile (poorest) only receiving All Social Assistance (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saonl.overlap_q1_urb:per_saonl.overlap_q1_urb{marker per_saonl.overlap_q1_urb}}}Population in the 1st quintile (poorest) only receiving All Social Assistance (%) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saoth.overlap_ep_preT_tot:per_saoth.overlap_ep_preT_tot{marker per_saoth.overlap_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving Social Assistance and Other (%, preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saoth.overlap_ep_tot:per_saoth.overlap_ep_tot{marker per_saoth.overlap_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving Social Assistance and Other (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saoth.overlap_pop_rur:per_saoth.overlap_pop_rur{marker per_saoth.overlap_pop_rur}}}Population receiving Social Assistance and Other (%) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saoth.overlap_pop_tot:per_saoth.overlap_pop_tot{marker per_saoth.overlap_pop_tot}}}Population receiving Social Assistance and Other (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saoth.overlap_pop_urb:per_saoth.overlap_pop_urb{marker per_saoth.overlap_pop_urb}}}Population receiving Social Assistance and Other (%) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saoth.overlap_q1_preT_tot:per_saoth.overlap_q1_preT_tot{marker per_saoth.overlap_q1_preT_tot}}}Population in the 1st quintile (poorest) receiving Social Assistance and Other (%, preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saoth.overlap_q1_rur:per_saoth.overlap_q1_rur{marker per_saoth.overlap_q1_rur}}}Population in the 1st quintile (poorest) receiving Social Assistance and Other (%) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saoth.overlap_q1_tot:per_saoth.overlap_q1_tot{marker per_saoth.overlap_q1_tot}}}Population in the 1st quintile (poorest) receiving Social Assistance and Other (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_saoth.overlap_q1_urb:per_saoth.overlap_q1_urb{marker per_saoth.overlap_q1_urb}}}Population in the 1st quintile (poorest) receiving Social Assistance and Other (%) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_ep_preT_tot:per_si_allsi.adq_ep_preT_tot{marker per_si_allsi.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance  (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_ep_tot:per_si_allsi.adq_ep_tot{marker per_si_allsi.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_pop_preT_tot:per_si_allsi.adq_pop_preT_tot{marker per_si_allsi.adq_pop_preT_tot}}}Adequacy of benefits (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_pop_rur:per_si_allsi.adq_pop_rur{marker per_si_allsi.adq_pop_rur}}}Adequacy of benefits (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_pop_tot:per_si_allsi.adq_pop_tot{marker per_si_allsi.adq_pop_tot}}}Adequacy of social insurance programs (% of total welfare of beneficiary households){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_pop_urb:per_si_allsi.adq_pop_urb{marker per_si_allsi.adq_pop_urb}}}Adequacy of benefits (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q1_preT_tot:per_si_allsi.adq_q1_preT_tot{marker per_si_allsi.adq_q1_preT_tot}}}Adequacy of benefits in 1st quintile (poorest) (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q1_rur:per_si_allsi.adq_q1_rur{marker per_si_allsi.adq_q1_rur}}}Adequacy of benefits in 1st quintile (poorest) (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q1_tot:per_si_allsi.adq_q1_tot{marker per_si_allsi.adq_q1_tot}}}Adequacy of benefits in 1st quintile (poorest) (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q1_urb:per_si_allsi.adq_q1_urb{marker per_si_allsi.adq_q1_urb}}}Adequacy of benefits in 1st quintile (poorest) (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q2_preT_tot:per_si_allsi.adq_q2_preT_tot{marker per_si_allsi.adq_q2_preT_tot}}}Adequacy of benefits in 2nd quintile (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q2_rur:per_si_allsi.adq_q2_rur{marker per_si_allsi.adq_q2_rur}}}Adequacy of benefits in 2nd quintile (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q2_tot:per_si_allsi.adq_q2_tot{marker per_si_allsi.adq_q2_tot}}}Adequacy of benefits in 2nd quintile (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q2_urb:per_si_allsi.adq_q2_urb{marker per_si_allsi.adq_q2_urb}}}Adequacy of benefits in 2nd quintile (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q3_preT_tot:per_si_allsi.adq_q3_preT_tot{marker per_si_allsi.adq_q3_preT_tot}}}Adequacy of benefits in 3rd quintile (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q3_rur:per_si_allsi.adq_q3_rur{marker per_si_allsi.adq_q3_rur}}}Adequacy of benefits in 3rd quintile (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q3_tot:per_si_allsi.adq_q3_tot{marker per_si_allsi.adq_q3_tot}}}Adequacy of benefits in 3rd quintile (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q3_urb:per_si_allsi.adq_q3_urb{marker per_si_allsi.adq_q3_urb}}}Adequacy of benefits in 3rd quintile (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q4_preT_tot:per_si_allsi.adq_q4_preT_tot{marker per_si_allsi.adq_q4_preT_tot}}}Adequacy of benefits in 4th quintile (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q4_rur:per_si_allsi.adq_q4_rur{marker per_si_allsi.adq_q4_rur}}}Adequacy of benefits in 4th quintile (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q4_tot:per_si_allsi.adq_q4_tot{marker per_si_allsi.adq_q4_tot}}}Adequacy of benefits in 4th quintile (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q4_urb:per_si_allsi.adq_q4_urb{marker per_si_allsi.adq_q4_urb}}}Adequacy of benefits in 4th quintile (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q5_preT_tot:per_si_allsi.adq_q5_preT_tot{marker per_si_allsi.adq_q5_preT_tot}}}Adequacy of benefits in 5th quintile (richest) (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q5_rur:per_si_allsi.adq_q5_rur{marker per_si_allsi.adq_q5_rur}}}Adequacy of benefits in 5th quintile (richest) (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q5_tot:per_si_allsi.adq_q5_tot{marker per_si_allsi.adq_q5_tot}}}Adequacy of benefits in 5th quintile (richest) (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.adq_q5_urb:per_si_allsi.adq_q5_urb{marker per_si_allsi.adq_q5_urb}}}Adequacy of benefits in 5th quintile (richest) (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_ep_preT_tot:per_si_allsi.avt_ep_preT_tot{marker per_si_allsi.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Social Insurance  (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_ep_tot:per_si_allsi.avt_ep_tot{marker per_si_allsi.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_pop_preT_tot:per_si_allsi.avt_pop_preT_tot{marker per_si_allsi.avt_pop_preT_tot}}}Average per capita transfer - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_pop_rur:per_si_allsi.avt_pop_rur{marker per_si_allsi.avt_pop_rur}}}Average per capita transfer - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_pop_tot:per_si_allsi.avt_pop_tot{marker per_si_allsi.avt_pop_tot}}}Average per capita transfer - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_pop_urb:per_si_allsi.avt_pop_urb{marker per_si_allsi.avt_pop_urb}}}Average per capita transfer - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q1_preT_tot:per_si_allsi.avt_q1_preT_tot{marker per_si_allsi.avt_q1_preT_tot}}}Average per capita transfer held by 1st quintile (poorest) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q1_rur:per_si_allsi.avt_q1_rur{marker per_si_allsi.avt_q1_rur}}}Average per capita transfer held by 1st quintile (poorest) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q1_tot:per_si_allsi.avt_q1_tot{marker per_si_allsi.avt_q1_tot}}}Average per capita transfer held by 1st quintile (poorest) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q1_urb:per_si_allsi.avt_q1_urb{marker per_si_allsi.avt_q1_urb}}}Average per capita transfer held by 1st quintile (poorest) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q2_preT_tot:per_si_allsi.avt_q2_preT_tot{marker per_si_allsi.avt_q2_preT_tot}}}Average per capita transfer held by 2nd quintile - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q2_rur:per_si_allsi.avt_q2_rur{marker per_si_allsi.avt_q2_rur}}}Average per capita transfer held by 2nd quintile - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q2_tot:per_si_allsi.avt_q2_tot{marker per_si_allsi.avt_q2_tot}}}Average per capita transfer held by 2nd quintile - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q2_urb:per_si_allsi.avt_q2_urb{marker per_si_allsi.avt_q2_urb}}}Average per capita transfer held by 2nd quintile - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q3_preT_tot:per_si_allsi.avt_q3_preT_tot{marker per_si_allsi.avt_q3_preT_tot}}}Average per capita transfer held by 3rd quintile - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q3_rur:per_si_allsi.avt_q3_rur{marker per_si_allsi.avt_q3_rur}}}Average per capita transfer held by 3rd quintile - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q3_tot:per_si_allsi.avt_q3_tot{marker per_si_allsi.avt_q3_tot}}}Average per capita transfer held by 3rd quintile - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q3_urb:per_si_allsi.avt_q3_urb{marker per_si_allsi.avt_q3_urb}}}Average per capita transfer held by 3rd quintile - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q4_preT_tot:per_si_allsi.avt_q4_preT_tot{marker per_si_allsi.avt_q4_preT_tot}}}Average per capita transfer held by 4th quintile - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q4_rur:per_si_allsi.avt_q4_rur{marker per_si_allsi.avt_q4_rur}}}Average per capita transfer held by 4th quintile - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q4_tot:per_si_allsi.avt_q4_tot{marker per_si_allsi.avt_q4_tot}}}Average per capita transfer held by 4th quintile - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q4_urb:per_si_allsi.avt_q4_urb{marker per_si_allsi.avt_q4_urb}}}Average per capita transfer held by 4th quintile - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q5_preT_tot:per_si_allsi.avt_q5_preT_tot{marker per_si_allsi.avt_q5_preT_tot}}}Average per capita transfer held by 5th quintile (richest) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q5_rur:per_si_allsi.avt_q5_rur{marker per_si_allsi.avt_q5_rur}}}Average per capita transfer held by 5th quintile (richest) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q5_tot:per_si_allsi.avt_q5_tot{marker per_si_allsi.avt_q5_tot}}}Average per capita transfer held by 5th quintile (richest) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.avt_q5_urb:per_si_allsi.avt_q5_urb{marker per_si_allsi.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_ep_preT_tot:per_si_allsi.ben_ep_preT_tot{marker per_si_allsi.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance  (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_ep_tot:per_si_allsi.ben_ep_tot{marker per_si_allsi.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q1_preT_tot:per_si_allsi.ben_q1_preT_tot{marker per_si_allsi.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q1_rur:per_si_allsi.ben_q1_rur{marker per_si_allsi.ben_q1_rur}}}Benefits incidence in 1st quintile (poorest) (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q1_tot:per_si_allsi.ben_q1_tot{marker per_si_allsi.ben_q1_tot}}}Benefit incidence of social insurance programs to poorest quintile (% of total social insurance benefits){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q1_urb:per_si_allsi.ben_q1_urb{marker per_si_allsi.ben_q1_urb}}}Benefits incidence in 1st quintile (poorest) (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q2_preT_tot:per_si_allsi.ben_q2_preT_tot{marker per_si_allsi.ben_q2_preT_tot}}}Benefits incidence in 2nd quintile (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q2_rur:per_si_allsi.ben_q2_rur{marker per_si_allsi.ben_q2_rur}}}Benefits incidence in 2nd quintile (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q2_tot:per_si_allsi.ben_q2_tot{marker per_si_allsi.ben_q2_tot}}}Benefits incidence in 2nd quintile (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q2_urb:per_si_allsi.ben_q2_urb{marker per_si_allsi.ben_q2_urb}}}Benefits incidence in 2nd quintile (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q3_preT_tot:per_si_allsi.ben_q3_preT_tot{marker per_si_allsi.ben_q3_preT_tot}}}Benefits incidence in 3rd quintile (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q3_rur:per_si_allsi.ben_q3_rur{marker per_si_allsi.ben_q3_rur}}}Benefits incidence in 3rd quintile (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q3_tot:per_si_allsi.ben_q3_tot{marker per_si_allsi.ben_q3_tot}}}Benefits incidence in 3rd quintile (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q3_urb:per_si_allsi.ben_q3_urb{marker per_si_allsi.ben_q3_urb}}}Benefits incidence in 3rd quintile (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q4_preT_tot:per_si_allsi.ben_q4_preT_tot{marker per_si_allsi.ben_q4_preT_tot}}}Benefits incidence in 4th quintile (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q4_rur:per_si_allsi.ben_q4_rur{marker per_si_allsi.ben_q4_rur}}}Benefits incidence in 4th quintile (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q4_tot:per_si_allsi.ben_q4_tot{marker per_si_allsi.ben_q4_tot}}}Benefits incidence in 4th quintile (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q4_urb:per_si_allsi.ben_q4_urb{marker per_si_allsi.ben_q4_urb}}}Benefits incidence in 4th quintile (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q5_preT_tot:per_si_allsi.ben_q5_preT_tot{marker per_si_allsi.ben_q5_preT_tot}}}Benefits incidence in 5th quintile (richest) (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q5_rur:per_si_allsi.ben_q5_rur{marker per_si_allsi.ben_q5_rur}}}Benefits incidence in 5th quintile (richest) (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q5_tot:per_si_allsi.ben_q5_tot{marker per_si_allsi.ben_q5_tot}}}Benefits incidence in 5th quintile (richest) (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.ben_q5_urb:per_si_allsi.ben_q5_urb{marker per_si_allsi.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_ep_preT_tot:per_si_allsi.bry_ep_preT_tot{marker per_si_allsi.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance  (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_ep_tot:per_si_allsi.bry_ep_tot{marker per_si_allsi.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q1_preT_tot:per_si_allsi.bry_q1_preT_tot{marker per_si_allsi.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q1_rur:per_si_allsi.bry_q1_rur{marker per_si_allsi.bry_q1_rur}}}Beneficiary incidence in 1st quintile (poorest) (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q1_tot:per_si_allsi.bry_q1_tot{marker per_si_allsi.bry_q1_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q1_urb:per_si_allsi.bry_q1_urb{marker per_si_allsi.bry_q1_urb}}}Beneficiary incidence in 1st quintile (poorest) (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q2_preT_tot:per_si_allsi.bry_q2_preT_tot{marker per_si_allsi.bry_q2_preT_tot}}}Beneficiary incidence in 2nd quintile (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q2_rur:per_si_allsi.bry_q2_rur{marker per_si_allsi.bry_q2_rur}}}Beneficiary incidence in 2nd quintile (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q2_tot:per_si_allsi.bry_q2_tot{marker per_si_allsi.bry_q2_tot}}}Beneficiary incidence in 2nd quintile (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q2_urb:per_si_allsi.bry_q2_urb{marker per_si_allsi.bry_q2_urb}}}Beneficiary incidence in 2nd quintile (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q3_preT_tot:per_si_allsi.bry_q3_preT_tot{marker per_si_allsi.bry_q3_preT_tot}}}Beneficiary incidence in 3rd quintile (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q3_rur:per_si_allsi.bry_q3_rur{marker per_si_allsi.bry_q3_rur}}}Beneficiary incidence in 3rd quintile (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q3_tot:per_si_allsi.bry_q3_tot{marker per_si_allsi.bry_q3_tot}}}Beneficiary incidence in 3rd quintile (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q3_urb:per_si_allsi.bry_q3_urb{marker per_si_allsi.bry_q3_urb}}}Beneficiary incidence in 3rd quintile (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q4_preT_tot:per_si_allsi.bry_q4_preT_tot{marker per_si_allsi.bry_q4_preT_tot}}}Beneficiary incidence in 4th quintile (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q4_rur:per_si_allsi.bry_q4_rur{marker per_si_allsi.bry_q4_rur}}}Beneficiary incidence in 4th quintile (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q4_tot:per_si_allsi.bry_q4_tot{marker per_si_allsi.bry_q4_tot}}}Beneficiary incidence in 4th quintile (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q4_urb:per_si_allsi.bry_q4_urb{marker per_si_allsi.bry_q4_urb}}}Beneficiary incidence in 4th quintile (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q5_preT_tot:per_si_allsi.bry_q5_preT_tot{marker per_si_allsi.bry_q5_preT_tot}}}Beneficiary incidence in 5th quintile (richest) (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q5_rur:per_si_allsi.bry_q5_rur{marker per_si_allsi.bry_q5_rur}}}Beneficiary incidence in 5th quintile (richest) (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q5_tot:per_si_allsi.bry_q5_tot{marker per_si_allsi.bry_q5_tot}}}Beneficiary incidence in 5th quintile (richest) (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.bry_q5_urb:per_si_allsi.bry_q5_urb{marker per_si_allsi.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cba_ep_tot:per_si_allsi.cba_ep_tot{marker per_si_allsi.cba_ep_tot}}}Benefit-cost ratio -  All Social Insurance -extreme poor (&lt;$2.15 a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cba_q1_rur:per_si_allsi.cba_q1_rur{marker per_si_allsi.cba_q1_rur}}}Benefit-cost ratio -  All Social Insurance -1st quintile (poorest) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cba_q1_tot:per_si_allsi.cba_q1_tot{marker per_si_allsi.cba_q1_tot}}}Benefit-cost ratio -  All Social Insurance -1st quintile (poorest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cba_q1_urb:per_si_allsi.cba_q1_urb{marker per_si_allsi.cba_q1_urb}}}Benefit-cost ratio -  All Social Insurance - 1st quintile (poorest) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_ep_preT_tot:per_si_allsi.cov_ep_preT_tot{marker per_si_allsi.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance  (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_ep_tot:per_si_allsi.cov_ep_tot{marker per_si_allsi.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_pop_preT_tot:per_si_allsi.cov_pop_preT_tot{marker per_si_allsi.cov_pop_preT_tot}}}Coverage (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_pop_rur:per_si_allsi.cov_pop_rur{marker per_si_allsi.cov_pop_rur}}}Coverage (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_pop_tot:per_si_allsi.cov_pop_tot{marker per_si_allsi.cov_pop_tot}}}Coverage of social insurance programs (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_pop_urb:per_si_allsi.cov_pop_urb{marker per_si_allsi.cov_pop_urb}}}Coverage (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q1_preT_tot:per_si_allsi.cov_q1_preT_tot{marker per_si_allsi.cov_q1_preT_tot}}}Coverage in 1st quintile (poorest) (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q1_rur:per_si_allsi.cov_q1_rur{marker per_si_allsi.cov_q1_rur}}}Coverage in 1st quintile (poorest) (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q1_tot:per_si_allsi.cov_q1_tot{marker per_si_allsi.cov_q1_tot}}}Coverage of social insurance programs in poorest quintile (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q1_urb:per_si_allsi.cov_q1_urb{marker per_si_allsi.cov_q1_urb}}}Coverage in 1st quintile (poorest) (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q2_preT_tot:per_si_allsi.cov_q2_preT_tot{marker per_si_allsi.cov_q2_preT_tot}}}Coverage in 2nd quintile (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q2_rur:per_si_allsi.cov_q2_rur{marker per_si_allsi.cov_q2_rur}}}Coverage in 2nd quintile (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q2_tot:per_si_allsi.cov_q2_tot{marker per_si_allsi.cov_q2_tot}}}Coverage of social insurance programs in 2nd quintile (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q2_urb:per_si_allsi.cov_q2_urb{marker per_si_allsi.cov_q2_urb}}}Coverage in 2nd quintile (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q3_preT_tot:per_si_allsi.cov_q3_preT_tot{marker per_si_allsi.cov_q3_preT_tot}}}Coverage in 3rd quintile (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q3_rur:per_si_allsi.cov_q3_rur{marker per_si_allsi.cov_q3_rur}}}Coverage in 3rd quintile (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q3_tot:per_si_allsi.cov_q3_tot{marker per_si_allsi.cov_q3_tot}}}Coverage of social insurance programs in 3rd quintile (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q3_urb:per_si_allsi.cov_q3_urb{marker per_si_allsi.cov_q3_urb}}}Coverage in 3rd quintile (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q4_preT_tot:per_si_allsi.cov_q4_preT_tot{marker per_si_allsi.cov_q4_preT_tot}}}Coverage in 4th quintile (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q4_rur:per_si_allsi.cov_q4_rur{marker per_si_allsi.cov_q4_rur}}}Coverage in 4th quintile (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q4_tot:per_si_allsi.cov_q4_tot{marker per_si_allsi.cov_q4_tot}}}Coverage of social insurance programs in 4th quintile (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q4_urb:per_si_allsi.cov_q4_urb{marker per_si_allsi.cov_q4_urb}}}Coverage in 4th quintile (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q5_preT_tot:per_si_allsi.cov_q5_preT_tot{marker per_si_allsi.cov_q5_preT_tot}}}Coverage in 5th quintile (richest) (%) - All Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q5_rur:per_si_allsi.cov_q5_rur{marker per_si_allsi.cov_q5_rur}}}Coverage in 5th quintile (richest) (%) - All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q5_tot:per_si_allsi.cov_q5_tot{marker per_si_allsi.cov_q5_tot}}}Coverage of social insurance programs in richest quintile (% of population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi.cov_q5_urb:per_si_allsi.cov_q5_urb{marker per_si_allsi.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) - All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_gini_rur:per_si_allsi_gini_rur{marker per_si_allsi_gini_rur}}}Gini inequality index reduction (%) -  All Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_gini_tot:per_si_allsi_gini_tot{marker per_si_allsi_gini_tot}}}Gini inequality index reduction (%) -  All Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_gini_urb:per_si_allsi_gini_urb{marker per_si_allsi_gini_urb}}}Gini inequality index reduction (%) -  All Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p0_ep_tot:per_si_allsi_p0_ep_tot{marker per_si_allsi_p0_ep_tot}}}Poverty Headcount reduction (%) -  All Social Insurance -extreme poor (&lt;$2.15 a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p0_rur:per_si_allsi_p0_rur{marker per_si_allsi_p0_rur}}}Poverty Headcount reduction (%) -  All Social Insurance -1st quintile (poorest) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p0_tot:per_si_allsi_p0_tot{marker per_si_allsi_p0_tot}}}Poverty Headcount reduction (%) -  All Social Insurance -1st quintile (poorest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p0_urb:per_si_allsi_p0_urb{marker per_si_allsi_p0_urb}}}Poverty Headcount reduction (%) -  All Social Insurance - 1st quintile (poorest) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p1_ep_tot:per_si_allsi_p1_ep_tot{marker per_si_allsi_p1_ep_tot}}}Poverty Gap reduction (%) -  All Social Insurance -extreme poor (&lt;$2.15 a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p1_rur:per_si_allsi_p1_rur{marker per_si_allsi_p1_rur}}}Poverty Gap reduction (%) -  All Social Insurance -1st quintile (poorest) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p1_tot:per_si_allsi_p1_tot{marker per_si_allsi_p1_tot}}}Poverty Gap reduction (%) -  All Social Insurance -1st quintile (poorest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_allsi_p1_urb:per_si_allsi_p1_urb{marker per_si_allsi_p1_urb}}}Poverty Gap reduction (%) -  All Social Insurance - 1st quintile (poorest) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_ep_preT_tot:per_si_ss.adq_ep_preT_tot{marker per_si_ss.adq_ep_preT_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance  (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_ep_tot:per_si_ss.adq_ep_tot{marker per_si_ss.adq_ep_tot}}}Adequacy of benefits in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_pop_preT_tot:per_si_ss.adq_pop_preT_tot{marker per_si_ss.adq_pop_preT_tot}}}Adequacy of benefits (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_pop_rur:per_si_ss.adq_pop_rur{marker per_si_ss.adq_pop_rur}}}Adequacy of benefits (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_pop_tot:per_si_ss.adq_pop_tot{marker per_si_ss.adq_pop_tot}}}Adequacy of benefits (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_pop_urb:per_si_ss.adq_pop_urb{marker per_si_ss.adq_pop_urb}}}Adequacy of benefits (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q1_preT_tot:per_si_ss.adq_q1_preT_tot{marker per_si_ss.adq_q1_preT_tot}}}Adequacy of benefits in 1st quintile (poorest) (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q1_rur:per_si_ss.adq_q1_rur{marker per_si_ss.adq_q1_rur}}}Adequacy of benefits in 1st quintile (poorest) (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q1_tot:per_si_ss.adq_q1_tot{marker per_si_ss.adq_q1_tot}}}Adequacy of benefits in 1st quintile (poorest) (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q1_urb:per_si_ss.adq_q1_urb{marker per_si_ss.adq_q1_urb}}}Adequacy of benefits in 1st quintile (poorest) (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q2_preT_tot:per_si_ss.adq_q2_preT_tot{marker per_si_ss.adq_q2_preT_tot}}}Adequacy of benefits in 2nd quintile (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q2_rur:per_si_ss.adq_q2_rur{marker per_si_ss.adq_q2_rur}}}Adequacy of benefits in 2nd quintile (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q2_tot:per_si_ss.adq_q2_tot{marker per_si_ss.adq_q2_tot}}}Adequacy of benefits in 2nd quintile (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q2_urb:per_si_ss.adq_q2_urb{marker per_si_ss.adq_q2_urb}}}Adequacy of benefits in 2nd quintile (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q3_preT_tot:per_si_ss.adq_q3_preT_tot{marker per_si_ss.adq_q3_preT_tot}}}Adequacy of benefits in 3rd quintile (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q3_rur:per_si_ss.adq_q3_rur{marker per_si_ss.adq_q3_rur}}}Adequacy of benefits in 3rd quintile (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q3_tot:per_si_ss.adq_q3_tot{marker per_si_ss.adq_q3_tot}}}Adequacy of benefits in 3rd quintile (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q3_urb:per_si_ss.adq_q3_urb{marker per_si_ss.adq_q3_urb}}}Adequacy of benefits in 3rd quintile (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q4_preT_tot:per_si_ss.adq_q4_preT_tot{marker per_si_ss.adq_q4_preT_tot}}}Adequacy of benefits in 4th quintile (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q4_rur:per_si_ss.adq_q4_rur{marker per_si_ss.adq_q4_rur}}}Adequacy of benefits in 4th quintile (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q4_tot:per_si_ss.adq_q4_tot{marker per_si_ss.adq_q4_tot}}}Adequacy of benefits in 4th quintile (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q4_urb:per_si_ss.adq_q4_urb{marker per_si_ss.adq_q4_urb}}}Adequacy of benefits in 4th quintile (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q5_preT_tot:per_si_ss.adq_q5_preT_tot{marker per_si_ss.adq_q5_preT_tot}}}Adequacy of benefits in 5th quintile (richest) (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q5_rur:per_si_ss.adq_q5_rur{marker per_si_ss.adq_q5_rur}}}Adequacy of benefits in 5th quintile (richest) (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q5_tot:per_si_ss.adq_q5_tot{marker per_si_ss.adq_q5_tot}}}Adequacy of benefits in 5th quintile (richest) (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.adq_q5_urb:per_si_ss.adq_q5_urb{marker per_si_ss.adq_q5_urb}}}Adequacy of benefits in 5th quintile (richest) (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_ep_preT_tot:per_si_ss.avt_ep_preT_tot{marker per_si_ss.avt_ep_preT_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Other Social Insurance  (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_ep_tot:per_si_ss.avt_ep_tot{marker per_si_ss.avt_ep_tot}}}Average per capita transfer held by extreme poor (&lt;$2.15 a day) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_pop_preT_tot:per_si_ss.avt_pop_preT_tot{marker per_si_ss.avt_pop_preT_tot}}}Average per capita transfer - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_pop_rur:per_si_ss.avt_pop_rur{marker per_si_ss.avt_pop_rur}}}Average per capita transfer - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_pop_tot:per_si_ss.avt_pop_tot{marker per_si_ss.avt_pop_tot}}}Average per capita transfer - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_pop_urb:per_si_ss.avt_pop_urb{marker per_si_ss.avt_pop_urb}}}Average per capita transfer - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q1_preT_tot:per_si_ss.avt_q1_preT_tot{marker per_si_ss.avt_q1_preT_tot}}}Average per capita transfer held by 1st quintile (poorest) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q1_rur:per_si_ss.avt_q1_rur{marker per_si_ss.avt_q1_rur}}}Average per capita transfer held by 1st quintile (poorest) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q1_tot:per_si_ss.avt_q1_tot{marker per_si_ss.avt_q1_tot}}}Average per capita transfer held by 1st quintile (poorest) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q1_urb:per_si_ss.avt_q1_urb{marker per_si_ss.avt_q1_urb}}}Average per capita transfer held by 1st quintile (poorest) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q2_preT_tot:per_si_ss.avt_q2_preT_tot{marker per_si_ss.avt_q2_preT_tot}}}Average per capita transfer held by 2nd quintile - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q2_rur:per_si_ss.avt_q2_rur{marker per_si_ss.avt_q2_rur}}}Average per capita transfer held by 2nd quintile - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q2_tot:per_si_ss.avt_q2_tot{marker per_si_ss.avt_q2_tot}}}Average per capita transfer held by 2nd quintile - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q2_urb:per_si_ss.avt_q2_urb{marker per_si_ss.avt_q2_urb}}}Average per capita transfer held by 2nd quintile - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q3_preT_tot:per_si_ss.avt_q3_preT_tot{marker per_si_ss.avt_q3_preT_tot}}}Average per capita transfer held by 3rd quintile - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q3_rur:per_si_ss.avt_q3_rur{marker per_si_ss.avt_q3_rur}}}Average per capita transfer held by 3rd quintile - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q3_tot:per_si_ss.avt_q3_tot{marker per_si_ss.avt_q3_tot}}}Average per capita transfer held by 3rd quintile - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q3_urb:per_si_ss.avt_q3_urb{marker per_si_ss.avt_q3_urb}}}Average per capita transfer held by 3rd quintile - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q4_preT_tot:per_si_ss.avt_q4_preT_tot{marker per_si_ss.avt_q4_preT_tot}}}Average per capita transfer held by 4th quintile - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q4_rur:per_si_ss.avt_q4_rur{marker per_si_ss.avt_q4_rur}}}Average per capita transfer held by 4th quintile - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q4_tot:per_si_ss.avt_q4_tot{marker per_si_ss.avt_q4_tot}}}Average per capita transfer held by 4th quintile - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q4_urb:per_si_ss.avt_q4_urb{marker per_si_ss.avt_q4_urb}}}Average per capita transfer held by 4th quintile - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q5_preT_tot:per_si_ss.avt_q5_preT_tot{marker per_si_ss.avt_q5_preT_tot}}}Average per capita transfer held by 5th quintile (richest) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q5_rur:per_si_ss.avt_q5_rur{marker per_si_ss.avt_q5_rur}}}Average per capita transfer held by 5th quintile (richest) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q5_tot:per_si_ss.avt_q5_tot{marker per_si_ss.avt_q5_tot}}}Average per capita transfer held by 5th quintile (richest) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.avt_q5_urb:per_si_ss.avt_q5_urb{marker per_si_ss.avt_q5_urb}}}Average per capita transfer held by 5th quintile (richest) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_ep_preT_tot:per_si_ss.ben_ep_preT_tot{marker per_si_ss.ben_ep_preT_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance  (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_ep_tot:per_si_ss.ben_ep_tot{marker per_si_ss.ben_ep_tot}}}Benefits incidence in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q1_preT_tot:per_si_ss.ben_q1_preT_tot{marker per_si_ss.ben_q1_preT_tot}}}Benefits incidence in 1st quintile (poorest) (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q1_rur:per_si_ss.ben_q1_rur{marker per_si_ss.ben_q1_rur}}}Benefits incidence in 1st quintile (poorest) (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q1_tot:per_si_ss.ben_q1_tot{marker per_si_ss.ben_q1_tot}}}Benefits incidence in 1st quintile (poorest) (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q1_urb:per_si_ss.ben_q1_urb{marker per_si_ss.ben_q1_urb}}}Benefits incidence in 1st quintile (poorest) (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q2_preT_tot:per_si_ss.ben_q2_preT_tot{marker per_si_ss.ben_q2_preT_tot}}}Benefits incidence in 2nd quintile (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q2_rur:per_si_ss.ben_q2_rur{marker per_si_ss.ben_q2_rur}}}Benefits incidence in 2nd quintile (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q2_tot:per_si_ss.ben_q2_tot{marker per_si_ss.ben_q2_tot}}}Benefits incidence in 2nd quintile (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q2_urb:per_si_ss.ben_q2_urb{marker per_si_ss.ben_q2_urb}}}Benefits incidence in 2nd quintile (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q3_preT_tot:per_si_ss.ben_q3_preT_tot{marker per_si_ss.ben_q3_preT_tot}}}Benefits incidence in 3rd quintile (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q3_rur:per_si_ss.ben_q3_rur{marker per_si_ss.ben_q3_rur}}}Benefits incidence in 3rd quintile (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q3_tot:per_si_ss.ben_q3_tot{marker per_si_ss.ben_q3_tot}}}Benefits incidence in 3rd quintile (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q3_urb:per_si_ss.ben_q3_urb{marker per_si_ss.ben_q3_urb}}}Benefits incidence in 3rd quintile (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q4_preT_tot:per_si_ss.ben_q4_preT_tot{marker per_si_ss.ben_q4_preT_tot}}}Benefits incidence in 4th quintile (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q4_rur:per_si_ss.ben_q4_rur{marker per_si_ss.ben_q4_rur}}}Benefits incidence in 4th quintile (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q4_tot:per_si_ss.ben_q4_tot{marker per_si_ss.ben_q4_tot}}}Benefits incidence in 4th quintile (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q4_urb:per_si_ss.ben_q4_urb{marker per_si_ss.ben_q4_urb}}}Benefits incidence in 4th quintile (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q5_preT_tot:per_si_ss.ben_q5_preT_tot{marker per_si_ss.ben_q5_preT_tot}}}Benefits incidence in 5th quintile (richest) (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q5_rur:per_si_ss.ben_q5_rur{marker per_si_ss.ben_q5_rur}}}Benefits incidence in 5th quintile (richest) (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q5_tot:per_si_ss.ben_q5_tot{marker per_si_ss.ben_q5_tot}}}Benefits incidence in 5th quintile (richest) (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.ben_q5_urb:per_si_ss.ben_q5_urb{marker per_si_ss.ben_q5_urb}}}Benefits incidence in 5th quintile (richest) (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_ep_preT_tot:per_si_ss.bry_ep_preT_tot{marker per_si_ss.bry_ep_preT_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance  (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_ep_tot:per_si_ss.bry_ep_tot{marker per_si_ss.bry_ep_tot}}}Beneficiary incidence in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q1_preT_tot:per_si_ss.bry_q1_preT_tot{marker per_si_ss.bry_q1_preT_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q1_rur:per_si_ss.bry_q1_rur{marker per_si_ss.bry_q1_rur}}}Beneficiary incidence in 1st quintile (poorest) (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q1_tot:per_si_ss.bry_q1_tot{marker per_si_ss.bry_q1_tot}}}Beneficiary incidence in 1st quintile (poorest) (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q1_urb:per_si_ss.bry_q1_urb{marker per_si_ss.bry_q1_urb}}}Beneficiary incidence in 1st quintile (poorest) (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q2_preT_tot:per_si_ss.bry_q2_preT_tot{marker per_si_ss.bry_q2_preT_tot}}}Beneficiary incidence in 2nd quintile (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q2_rur:per_si_ss.bry_q2_rur{marker per_si_ss.bry_q2_rur}}}Beneficiary incidence in 2nd quintile (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q2_tot:per_si_ss.bry_q2_tot{marker per_si_ss.bry_q2_tot}}}Beneficiary incidence in 2nd quintile (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q2_urb:per_si_ss.bry_q2_urb{marker per_si_ss.bry_q2_urb}}}Beneficiary incidence in 2nd quintile (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q3_preT_tot:per_si_ss.bry_q3_preT_tot{marker per_si_ss.bry_q3_preT_tot}}}Beneficiary incidence in 3rd quintile (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q3_rur:per_si_ss.bry_q3_rur{marker per_si_ss.bry_q3_rur}}}Beneficiary incidence in 3rd quintile (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q3_tot:per_si_ss.bry_q3_tot{marker per_si_ss.bry_q3_tot}}}Beneficiary incidence in 3rd quintile (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q3_urb:per_si_ss.bry_q3_urb{marker per_si_ss.bry_q3_urb}}}Beneficiary incidence in 3rd quintile (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q4_preT_tot:per_si_ss.bry_q4_preT_tot{marker per_si_ss.bry_q4_preT_tot}}}Beneficiary incidence in 4th quintile (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q4_rur:per_si_ss.bry_q4_rur{marker per_si_ss.bry_q4_rur}}}Beneficiary incidence in 4th quintile (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q4_tot:per_si_ss.bry_q4_tot{marker per_si_ss.bry_q4_tot}}}Beneficiary incidence in 4th quintile (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q4_urb:per_si_ss.bry_q4_urb{marker per_si_ss.bry_q4_urb}}}Beneficiary incidence in 4th quintile (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q5_preT_tot:per_si_ss.bry_q5_preT_tot{marker per_si_ss.bry_q5_preT_tot}}}Beneficiary incidence in 5th quintile (richest) (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q5_rur:per_si_ss.bry_q5_rur{marker per_si_ss.bry_q5_rur}}}Beneficiary incidence in 5th quintile (richest) (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q5_tot:per_si_ss.bry_q5_tot{marker per_si_ss.bry_q5_tot}}}Beneficiary incidence in 5th quintile (richest) (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.bry_q5_urb:per_si_ss.bry_q5_urb{marker per_si_ss.bry_q5_urb}}}Beneficiary incidence in 5th quintile (richest) (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cba_ep_tot:per_si_ss.cba_ep_tot{marker per_si_ss.cba_ep_tot}}}Benefit-cost ratio -  Other Social Insurance -extreme poor (&lt;$2.15 a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cba_q1_rur:per_si_ss.cba_q1_rur{marker per_si_ss.cba_q1_rur}}}Benefit-cost ratio -  Other Social Insurance -1st quintile (poorest) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cba_q1_tot:per_si_ss.cba_q1_tot{marker per_si_ss.cba_q1_tot}}}Benefit-cost ratio -  Other Social Insurance -1st quintile (poorest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cba_q1_urb:per_si_ss.cba_q1_urb{marker per_si_ss.cba_q1_urb}}}Benefit-cost ratio -  Other Social Insurance - 1st quintile (poorest) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_ep_preT_tot:per_si_ss.cov_ep_preT_tot{marker per_si_ss.cov_ep_preT_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance  (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_ep_tot:per_si_ss.cov_ep_tot{marker per_si_ss.cov_ep_tot}}}Coverage in extreme poor (&lt;$2.15 a day) (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_pop_preT_tot:per_si_ss.cov_pop_preT_tot{marker per_si_ss.cov_pop_preT_tot}}}Coverage (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_pop_rur:per_si_ss.cov_pop_rur{marker per_si_ss.cov_pop_rur}}}Coverage (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_pop_tot:per_si_ss.cov_pop_tot{marker per_si_ss.cov_pop_tot}}}Coverage (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_pop_urb:per_si_ss.cov_pop_urb{marker per_si_ss.cov_pop_urb}}}Coverage (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q1_preT_tot:per_si_ss.cov_q1_preT_tot{marker per_si_ss.cov_q1_preT_tot}}}Coverage in 1st quintile (poorest) (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q1_rur:per_si_ss.cov_q1_rur{marker per_si_ss.cov_q1_rur}}}Coverage in 1st quintile (poorest) (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q1_tot:per_si_ss.cov_q1_tot{marker per_si_ss.cov_q1_tot}}}Coverage in 1st quintile (poorest) (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q1_urb:per_si_ss.cov_q1_urb{marker per_si_ss.cov_q1_urb}}}Coverage in 1st quintile (poorest) (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q2_preT_tot:per_si_ss.cov_q2_preT_tot{marker per_si_ss.cov_q2_preT_tot}}}Coverage in 2nd quintile (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q2_rur:per_si_ss.cov_q2_rur{marker per_si_ss.cov_q2_rur}}}Coverage in 2nd quintile (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q2_tot:per_si_ss.cov_q2_tot{marker per_si_ss.cov_q2_tot}}}Coverage in 2nd quintile (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q2_urb:per_si_ss.cov_q2_urb{marker per_si_ss.cov_q2_urb}}}Coverage in 2nd quintile (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q3_preT_tot:per_si_ss.cov_q3_preT_tot{marker per_si_ss.cov_q3_preT_tot}}}Coverage in 3rd quintile (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q3_rur:per_si_ss.cov_q3_rur{marker per_si_ss.cov_q3_rur}}}Coverage in 3rd quintile (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q3_tot:per_si_ss.cov_q3_tot{marker per_si_ss.cov_q3_tot}}}Coverage in 3rd quintile (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q3_urb:per_si_ss.cov_q3_urb{marker per_si_ss.cov_q3_urb}}}Coverage in 3rd quintile (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q4_preT_tot:per_si_ss.cov_q4_preT_tot{marker per_si_ss.cov_q4_preT_tot}}}Coverage in 4th quintile (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q4_rur:per_si_ss.cov_q4_rur{marker per_si_ss.cov_q4_rur}}}Coverage in 4th quintile (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q4_tot:per_si_ss.cov_q4_tot{marker per_si_ss.cov_q4_tot}}}Coverage in 4th quintile (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q4_urb:per_si_ss.cov_q4_urb{marker per_si_ss.cov_q4_urb}}}Coverage in 4th quintile (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q5_preT_tot:per_si_ss.cov_q5_preT_tot{marker per_si_ss.cov_q5_preT_tot}}}Coverage in 5th quintile (richest) (%) - Other Social Insurance (preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q5_rur:per_si_ss.cov_q5_rur{marker per_si_ss.cov_q5_rur}}}Coverage in 5th quintile (richest) (%) - Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q5_tot:per_si_ss.cov_q5_tot{marker per_si_ss.cov_q5_tot}}}Coverage in 5th quintile (richest) (%) - Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss.cov_q5_urb:per_si_ss.cov_q5_urb{marker per_si_ss.cov_q5_urb}}}Coverage in 5th quintile (richest) (%) - Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_gini_rur:per_si_ss_gini_rur{marker per_si_ss_gini_rur}}}Gini inequality index reduction (%) -  Other Social Insurance -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_gini_tot:per_si_ss_gini_tot{marker per_si_ss_gini_tot}}}Gini inequality index reduction (%) -  Other Social Insurance{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_gini_urb:per_si_ss_gini_urb{marker per_si_ss_gini_urb}}}Gini inequality index reduction (%) -  Other Social Insurance -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p0_ep_tot:per_si_ss_p0_ep_tot{marker per_si_ss_p0_ep_tot}}}Poverty Headcount reduction (%) -  Other Social Insurance -extreme poor (&lt;$2.15 a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p0_rur:per_si_ss_p0_rur{marker per_si_ss_p0_rur}}}Poverty Headcount reduction (%) -  Other Social Insurance -1st quintile (poorest) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p0_tot:per_si_ss_p0_tot{marker per_si_ss_p0_tot}}}Poverty Headcount reduction (%) -  Other Social Insurance -1st quintile (poorest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p0_urb:per_si_ss_p0_urb{marker per_si_ss_p0_urb}}}Poverty Headcount reduction (%) -  Other Social Insurance - 1st quintile (poorest) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p1_ep_tot:per_si_ss_p1_ep_tot{marker per_si_ss_p1_ep_tot}}}Poverty Gap reduction (%) -  Other Social Insurance -extreme poor (&lt;$2.15 a day){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p1_rur:per_si_ss_p1_rur{marker per_si_ss_p1_rur}}}Poverty Gap reduction (%) -  Other Social Insurance -1st quintile (poorest) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p1_tot:per_si_ss_p1_tot{marker per_si_ss_p1_tot}}}Poverty Gap reduction (%) -  Other Social Insurance -1st quintile (poorest){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_si_ss_p1_urb:per_si_ss_p1_urb{marker per_si_ss_p1_urb}}}Poverty Gap reduction (%) -  Other Social Insurance - 1st quintile (poorest) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_silm.overlap_ep_preT_tot:per_silm.overlap_ep_preT_tot{marker per_silm.overlap_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving All Social Insurance and Labor Market (%, preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_silm.overlap_ep_tot:per_silm.overlap_ep_tot{marker per_silm.overlap_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) receiving All Social Insurance and Labor Market (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_silm.overlap_pop_rur:per_silm.overlap_pop_rur{marker per_silm.overlap_pop_rur}}}Population receiving All Social Insurance and Labor Market (%) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_silm.overlap_pop_tot:per_silm.overlap_pop_tot{marker per_silm.overlap_pop_tot}}}Population receiving All Social Insurance and Labor Market (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_silm.overlap_pop_urb:per_silm.overlap_pop_urb{marker per_silm.overlap_pop_urb}}}Population receiving All Social Insurance and Labor Market (%) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_silm.overlap_q1_preT_tot:per_silm.overlap_q1_preT_tot{marker per_silm.overlap_q1_preT_tot}}}Population in the 1st quintile (poorest) receiving All Social Insurance and Labor Market (%, preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_silm.overlap_q1_rur:per_silm.overlap_q1_rur{marker per_silm.overlap_q1_rur}}}Population in the 1st quintile (poorest) receiving All Social Insurance and Labor Market (%) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_silm.overlap_q1_tot:per_silm.overlap_q1_tot{marker per_silm.overlap_q1_tot}}}Population in the 1st quintile (poorest) receiving All Social Insurance and Labor Market (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_silm.overlap_q1_urb:per_silm.overlap_q1_urb{marker per_silm.overlap_q1_urb}}}Population in the 1st quintile (poorest) receiving All Social Insurance and Labor Market (%) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sionl.overlap_ep_preT_tot:per_sionl.overlap_ep_preT_tot{marker per_sionl.overlap_ep_preT_tot}}}Population in extreme poor (&lt;$2.15 a day) only receiving All Social Insurance (%, preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sionl.overlap_ep_tot:per_sionl.overlap_ep_tot{marker per_sionl.overlap_ep_tot}}}Population in extreme poor (&lt;$2.15 a day) only receiving All Social Insurance (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sionl.overlap_pop_rur:per_sionl.overlap_pop_rur{marker per_sionl.overlap_pop_rur}}}Population only receiving All Social Insurance (%) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sionl.overlap_pop_tot:per_sionl.overlap_pop_tot{marker per_sionl.overlap_pop_tot}}}Population only receiving All Social Insurance (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sionl.overlap_pop_urb:per_sionl.overlap_pop_urb{marker per_sionl.overlap_pop_urb}}}Population only receiving All Social Insurance (%) -urban{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sionl.overlap_q1_preT_tot:per_sionl.overlap_q1_preT_tot{marker per_sionl.overlap_q1_preT_tot}}}Population in the 1st quintile (poorest) only receiving All Social Insurance (%, preT){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sionl.overlap_q1_rur:per_sionl.overlap_q1_rur{marker per_sionl.overlap_q1_rur}}}Population in the 1st quintile (poorest) only receiving All Social Insurance (%) -rural{p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sionl.overlap_q1_tot:per_sionl.overlap_q1_tot{marker per_sionl.overlap_q1_tot}}}Population in the 1st quintile (poorest) only receiving All Social Insurance (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators10##topicid_per_sionl.overlap_q1_urb:per_sionl.overlap_q1_urb{marker per_sionl.overlap_q1_urb}}}Population in the 1st quintile (poorest) only receiving All Social Insurance (%) -urban{p_end}
 {synoptline}
 
 {marker topicid_11}
@@ -7270,11 +6030,11 @@
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_FS.AST.PRVT.GD.ZS:FS.AST.PRVT.GD.ZS{marker FS.AST.PRVT.GD.ZS}}}Domestic credit to private sector (% of GDP){p_end}
 
-{synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.DFRN.XQ:IC.BUS.DFRN.XQ{marker IC.BUS.DFRN.XQ}}}Ease of doing business score (0 = lowest performance to 100 = best performance){p_end}
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.DFRN.XQ:IC.BUS.DFRN.XQ{marker IC.BUS.DFRN.XQ}}}Distance to frontier score (0=lowest performance to 100=frontier){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.DISC.XQ:IC.BUS.DISC.XQ{marker IC.BUS.DISC.XQ}}}Business extent of disclosure index (0=less disclosure to 10=more disclosure){p_end}
 
-{synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Ease of doing business rank (1=most business-friendly regulations){p_end}
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Ease of doing business index (1=most business-friendly regulations){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.BUS.NDNS.ZS:IC.BUS.NDNS.ZS{marker IC.BUS.NDNS.ZS}}}New business density (new registrations per 1,000 people ages 15-64){p_end}
 
@@ -7412,7 +6172,7 @@
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.TAX.PRFT.CP.ZS:IC.TAX.PRFT.CP.ZS{marker IC.TAX.PRFT.CP.ZS}}}Profit tax (% of commercial profits){p_end}
 
-{synopt:{help wbopendata_topicid_indicators12##topicid_IC.TAX.TOTL.CP.ZS:IC.TAX.TOTL.CP.ZS{marker IC.TAX.TOTL.CP.ZS}}}Total tax and contribution rate (% of profit){p_end}
+{synopt:{help wbopendata_topicid_indicators12##topicid_IC.TAX.TOTL.CP.ZS:IC.TAX.TOTL.CP.ZS{marker IC.TAX.TOTL.CP.ZS}}}Total tax rate (% of commercial profits){p_end}
 
 {synopt:{help wbopendata_topicid_indicators12##topicid_IC.WEF.LLCD.FE:IC.WEF.LLCD.FE{marker IC.WEF.LLCD.FE}}}Number of female directors{p_end}
 
@@ -7621,7 +6381,7 @@
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_IC.TAX.PAYM:IC.TAX.PAYM{marker IC.TAX.PAYM}}}Tax payments (number){p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_IC.TAX.TOTL.CP.ZS:IC.TAX.TOTL.CP.ZS{marker IC.TAX.TOTL.CP.ZS}}}Total tax and contribution rate (% of profit){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_IC.TAX.TOTL.CP.ZS:IC.TAX.TOTL.CP.ZS{marker IC.TAX.TOTL.CP.ZS}}}Total tax rate (% of commercial profits){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_IQ.CPA.BREG.XQ:IQ.CPA.BREG.XQ{marker IQ.CPA.BREG.XQ}}}CPIA business regulatory environment rating (1=low to 6=high){p_end}
 
@@ -7667,7 +6427,7 @@
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SCI.MTHD:IQ.SCI.MTHD{marker IQ.SCI.MTHD}}}Methodology assessment of statistical capacity (scale 0 - 100){p_end}
 
-{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SCI.OVRL:IQ.SCI.OVRL{marker IQ.SCI.OVRL}}}Statistical Capacity Score (Overall Average) (scale 0 - 100){p_end}
+{synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SCI.OVRL:IQ.SCI.OVRL{marker IQ.SCI.OVRL}}}Overall level of statistical capacity (scale 0 - 100){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_IQ.SCI.PRDC:IQ.SCI.PRDC{marker IQ.SCI.PRDC}}}Periodicity and timeliness assessment of statistical capacity (scale 0 - 100){p_end}
 
@@ -7700,42 +6460,6 @@
 {synopt:{help wbopendata_topicid_indicators13##topicid_MS.MIL.XPND.ZS:MS.MIL.XPND.ZS{marker MS.MIL.XPND.ZS}}}Military expenditure (% of general government expenditure){p_end}
 
 {synopt:{help wbopendata_topicid_indicators13##topicid_MS.MIL.XPRT.KD:MS.MIL.XPRT.KD{marker MS.MIL.XPRT.KD}}}Arms exports (SIPRI trend indicator values){p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_PV.EST:PV.EST{marker PV.EST}}}Political Stability and Absence of Violence/Terrorism: Estimate{p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_PV.NO.SRC:PV.NO.SRC{marker PV.NO.SRC}}}Political Stability and Absence of Violence/Terrorism: Number of Sources{p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_PV.PER.RNK:PV.PER.RNK{marker PV.PER.RNK}}}Political Stability and Absence of Violence/Terrorism: Percentile Rank{p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_PV.PER.RNK.LOWER:PV.PER.RNK.LOWER{marker PV.PER.RNK.LOWER}}}Political Stability and Absence of Violence/Terrorism: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_PV.PER.RNK.UPPER:PV.PER.RNK.UPPER{marker PV.PER.RNK.UPPER}}}Political Stability and Absence of Violence/Terrorism: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_PV.STD.ERR:PV.STD.ERR{marker PV.STD.ERR}}}Political Stability and Absence of Violence/Terrorism: Standard Error{p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_RL.EST:RL.EST{marker RL.EST}}}Rule of Law: Estimate{p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_RL.NO.SRC:RL.NO.SRC{marker RL.NO.SRC}}}Rule of Law: Number of Sources{p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_RL.PER.RNK:RL.PER.RNK{marker RL.PER.RNK}}}Rule of Law: Percentile Rank{p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_RL.PER.RNK.LOWER:RL.PER.RNK.LOWER{marker RL.PER.RNK.LOWER}}}Rule of Law: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_RL.PER.RNK.UPPER:RL.PER.RNK.UPPER{marker RL.PER.RNK.UPPER}}}Rule of Law: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_RL.STD.ERR:RL.STD.ERR{marker RL.STD.ERR}}}Rule of Law: Standard Error{p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_RQ.EST:RQ.EST{marker RQ.EST}}}Regulatory Quality: Estimate{p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_RQ.NO.SRC:RQ.NO.SRC{marker RQ.NO.SRC}}}Regulatory Quality: Number of Sources{p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_RQ.PER.RNK:RQ.PER.RNK{marker RQ.PER.RNK}}}Regulatory Quality: Percentile Rank{p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_RQ.PER.RNK.LOWER:RQ.PER.RNK.LOWER{marker RQ.PER.RNK.LOWER}}}Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence Interval{p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_RQ.PER.RNK.UPPER:RQ.PER.RNK.UPPER{marker RQ.PER.RNK.UPPER}}}Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval{p_end}
-
-{synopt:{help wbopendata_topicid_indicators13##topicid_RQ.STD.ERR:RQ.STD.ERR{marker RQ.STD.ERR}}}Regulatory Quality: Standard Error{p_end}
 {synoptline}
 
 {marker topicid_14}
@@ -7768,16 +6492,6 @@
 {synoptset 40 tabbed}{...}
 {synopthdr:15 Social Development}
 {synoptline}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SE.ADT.1524.LT.FM.ZS:SE.ADT.1524.LT.FM.ZS{marker SE.ADT.1524.LT.FM.ZS}}}Literacy rate, youth (ages 15-24), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SE.ENR.PRIM.FM.ZS:SE.ENR.PRIM.FM.ZS{marker SE.ENR.PRIM.FM.ZS}}}School enrollment, primary (gross), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SE.ENR.PRSC.FM.ZS:SE.ENR.PRSC.FM.ZS{marker SE.ENR.PRSC.FM.ZS}}}School enrollment, primary and secondary (gross), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SE.ENR.SECO.FM.ZS:SE.ENR.SECO.FM.ZS{marker SE.ENR.SECO.FM.ZS}}}School enrollment, secondary (gross), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators15##topicid_SE.ENR.TERT.FM.ZS:SE.ENR.TERT.FM.ZS{marker SE.ENR.TERT.FM.ZS}}}School enrollment, tertiary (gross), gender parity index (GPI){p_end}
 
 {synopt:{help wbopendata_topicid_indicators15##topicid_SP.DYN.LE00.FE.IN:SP.DYN.LE00.FE.IN{marker SP.DYN.LE00.FE.IN}}}Life expectancy at birth, female (years){p_end}
 
@@ -7845,124 +6559,6 @@
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_IC.FRM.FEMO.ZS:IC.FRM.FEMO.ZS{marker IC.FRM.FEMO.ZS}}}Firms with female participation in ownership (% of firms){p_end}
 
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.ADT.1524.LT.FE.ZS:SE.ADT.1524.LT.FE.ZS{marker SE.ADT.1524.LT.FE.ZS}}}Literacy rate, youth female (% of females ages 15-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.ADT.1524.LT.FM.ZS:SE.ADT.1524.LT.FM.ZS{marker SE.ADT.1524.LT.FM.ZS}}}Literacy rate, youth (ages 15-24), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.ADT.1524.LT.MA.ZS:SE.ADT.1524.LT.MA.ZS{marker SE.ADT.1524.LT.MA.ZS}}}Literacy rate, youth male (% of males ages 15-24){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.ADT.LITR.FE.ZS:SE.ADT.LITR.FE.ZS{marker SE.ADT.LITR.FE.ZS}}}Literacy rate, adult female (% of females ages 15 and above){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.ADT.LITR.MA.ZS:SE.ADT.LITR.MA.ZS{marker SE.ADT.LITR.MA.ZS}}}Literacy rate, adult male (% of males ages 15 and above){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.ENR.PRIM.FM.ZS:SE.ENR.PRIM.FM.ZS{marker SE.ENR.PRIM.FM.ZS}}}School enrollment, primary (gross), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.ENR.PRSC.FM.ZS:SE.ENR.PRSC.FM.ZS{marker SE.ENR.PRSC.FM.ZS}}}School enrollment, primary and secondary (gross), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.ENR.SECO.FM.ZS:SE.ENR.SECO.FM.ZS{marker SE.ENR.SECO.FM.ZS}}}School enrollment, secondary (gross), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.ENR.TERT.FM.ZS:SE.ENR.TERT.FM.ZS{marker SE.ENR.TERT.FM.ZS}}}School enrollment, tertiary (gross), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRE.ENRR.FE:SE.PRE.ENRR.FE{marker SE.PRE.ENRR.FE}}}School enrollment, preprimary, female (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRE.ENRR.MA:SE.PRE.ENRR.MA{marker SE.PRE.ENRR.MA}}}School enrollment, preprimary, male (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.CMPT.FE.ZS:SE.PRM.CMPT.FE.ZS{marker SE.PRM.CMPT.FE.ZS}}}Primary completion rate, female (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.CMPT.MA.ZS:SE.PRM.CMPT.MA.ZS{marker SE.PRM.CMPT.MA.ZS}}}Primary completion rate, male (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.CUAT.FE.ZS:SE.PRM.CUAT.FE.ZS{marker SE.PRM.CUAT.FE.ZS}}}Educational attainment, at least completed primary, population 25+ years, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.CUAT.MA.ZS:SE.PRM.CUAT.MA.ZS{marker SE.PRM.CUAT.MA.ZS}}}Educational attainment, at least completed primary, population 25+ years, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.CUAT.ZS:SE.PRM.CUAT.ZS{marker SE.PRM.CUAT.ZS}}}Educational attainment, at least completed primary, population 25+ years, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.ENRL.FE.ZS:SE.PRM.ENRL.FE.ZS{marker SE.PRM.ENRL.FE.ZS}}}Primary education, pupils (% female){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.ENRR.FE:SE.PRM.ENRR.FE{marker SE.PRM.ENRR.FE}}}School enrollment, primary, female (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.ENRR.MA:SE.PRM.ENRR.MA{marker SE.PRM.ENRR.MA}}}School enrollment, primary, male (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.GINT.FE.ZS:SE.PRM.GINT.FE.ZS{marker SE.PRM.GINT.FE.ZS}}}Gross intake ratio in first grade of primary education, female (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.GINT.MA.ZS:SE.PRM.GINT.MA.ZS{marker SE.PRM.GINT.MA.ZS}}}Gross intake ratio in first grade of primary education, male (% of relevant age group){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.NENR.FE:SE.PRM.NENR.FE{marker SE.PRM.NENR.FE}}}School enrollment, primary, female (% net){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.NENR.MA:SE.PRM.NENR.MA{marker SE.PRM.NENR.MA}}}School enrollment, primary, male (% net){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.NINT.FE.ZS:SE.PRM.NINT.FE.ZS{marker SE.PRM.NINT.FE.ZS}}}Net intake rate in grade 1, female (% of official school-age population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.NINT.MA.ZS:SE.PRM.NINT.MA.ZS{marker SE.PRM.NINT.MA.ZS}}}Net intake rate in grade 1, male (% of official school-age population){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.PRS5.FE.ZS:SE.PRM.PRS5.FE.ZS{marker SE.PRM.PRS5.FE.ZS}}}Persistence to grade 5, female (% of cohort){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.PRS5.MA.ZS:SE.PRM.PRS5.MA.ZS{marker SE.PRM.PRS5.MA.ZS}}}Persistence to grade 5, male (% of cohort){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.PRSL.FE.ZS:SE.PRM.PRSL.FE.ZS{marker SE.PRM.PRSL.FE.ZS}}}Persistence to last grade of primary, female (% of cohort){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.PRSL.MA.ZS:SE.PRM.PRSL.MA.ZS{marker SE.PRM.PRSL.MA.ZS}}}Persistence to last grade of primary, male (% of cohort){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.REPT.FE.ZS:SE.PRM.REPT.FE.ZS{marker SE.PRM.REPT.FE.ZS}}}Repeaters, primary, female (% of female enrollment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.REPT.MA.ZS:SE.PRM.REPT.MA.ZS{marker SE.PRM.REPT.MA.ZS}}}Repeaters, primary, male (% of male enrollment){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.TCAQ.FE.ZS:SE.PRM.TCAQ.FE.ZS{marker SE.PRM.TCAQ.FE.ZS}}}Trained teachers in primary education, female (% of female teachers){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.TCAQ.MA.ZS:SE.PRM.TCAQ.MA.ZS{marker SE.PRM.TCAQ.MA.ZS}}}Trained teachers in primary education, male (% of male teachers){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.TCHR.FE.ZS:SE.PRM.TCHR.FE.ZS{marker SE.PRM.TCHR.FE.ZS}}}Primary education, teachers (% female){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.TENR.FE:SE.PRM.TENR.FE{marker SE.PRM.TENR.FE}}}Adjusted net enrollment rate, primary, female (% of primary school age children){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.TENR.MA:SE.PRM.TENR.MA{marker SE.PRM.TENR.MA}}}Adjusted net enrollment rate, primary, male (% of primary school age children){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.UNER.FE:SE.PRM.UNER.FE{marker SE.PRM.UNER.FE}}}Children out of school, primary, female{p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.PRM.UNER.MA:SE.PRM.UNER.MA{marker SE.PRM.UNER.MA}}}Children out of school, primary, male{p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SCH.LIFE.FE:SE.SCH.LIFE.FE{marker SE.SCH.LIFE.FE}}}School life expectancy, primary to tertiary, female (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SCH.LIFE.MA:SE.SCH.LIFE.MA{marker SE.SCH.LIFE.MA}}}School life expectancy, primary to tertiary, male (years){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.CUAT.LO.FE.ZS:SE.SEC.CUAT.LO.FE.ZS{marker SE.SEC.CUAT.LO.FE.ZS}}}Educational attainment, at least completed lower secondary, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.CUAT.LO.MA.ZS:SE.SEC.CUAT.LO.MA.ZS{marker SE.SEC.CUAT.LO.MA.ZS}}}Educational attainment, at least completed lower secondary, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.CUAT.LO.ZS:SE.SEC.CUAT.LO.ZS{marker SE.SEC.CUAT.LO.ZS}}}Educational attainment, at least completed lower secondary, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.CUAT.PO.FE.ZS:SE.SEC.CUAT.PO.FE.ZS{marker SE.SEC.CUAT.PO.FE.ZS}}}Educational attainment, at least completed post-secondary, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.CUAT.PO.MA.ZS:SE.SEC.CUAT.PO.MA.ZS{marker SE.SEC.CUAT.PO.MA.ZS}}}Educational attainment, at least completed post-secondary, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.CUAT.PO.ZS:SE.SEC.CUAT.PO.ZS{marker SE.SEC.CUAT.PO.ZS}}}Educational attainment, at least completed post-secondary, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.CUAT.UP.FE.ZS:SE.SEC.CUAT.UP.FE.ZS{marker SE.SEC.CUAT.UP.FE.ZS}}}Educational attainment, at least completed upper secondary, population 25+, female (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.CUAT.UP.MA.ZS:SE.SEC.CUAT.UP.MA.ZS{marker SE.SEC.CUAT.UP.MA.ZS}}}Educational attainment, at least completed upper secondary, population 25+, male (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.CUAT.UP.ZS:SE.SEC.CUAT.UP.ZS{marker SE.SEC.CUAT.UP.ZS}}}Educational attainment, at least completed upper secondary, population 25+, total (%) (cumulative){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.ENRL.FE.ZS:SE.SEC.ENRL.FE.ZS{marker SE.SEC.ENRL.FE.ZS}}}Secondary education, pupils (% female){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.ENRL.GC.FE.ZS:SE.SEC.ENRL.GC.FE.ZS{marker SE.SEC.ENRL.GC.FE.ZS}}}Secondary education, general pupils (% female){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.ENRL.VO.FE.ZS:SE.SEC.ENRL.VO.FE.ZS{marker SE.SEC.ENRL.VO.FE.ZS}}}Secondary education, vocational pupils (% female){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.ENRR.FE:SE.SEC.ENRR.FE{marker SE.SEC.ENRR.FE}}}School enrollment, secondary, female (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.ENRR.MA:SE.SEC.ENRR.MA{marker SE.SEC.ENRR.MA}}}School enrollment, secondary, male (% gross){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.NENR.FE:SE.SEC.NENR.FE{marker SE.SEC.NENR.FE}}}School enrollment, secondary, female (% net){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.NENR.MA:SE.SEC.NENR.MA{marker SE.SEC.NENR.MA}}}School enrollment, secondary, male (% net){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.PROG.FE.ZS:SE.SEC.PROG.FE.ZS{marker SE.SEC.PROG.FE.ZS}}}Progression to secondary school, female (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.PROG.MA.ZS:SE.SEC.PROG.MA.ZS{marker SE.SEC.PROG.MA.ZS}}}Progression to secondary school, male (%){p_end}
-
-{synopt:{help wbopendata_topicid_indicators17##topicid_SE.SEC.TCHR.FE.ZS:SE.SEC.TCHR.FE.ZS{marker SE.SEC.TCHR.FE.ZS}}}Secondary education, teachers (% female){p_end}
-
 {synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.AMRT.FE:SP.DYN.AMRT.FE{marker SP.DYN.AMRT.FE}}}Mortality rate, adult, female (per 1,000 female adults){p_end}
 
 {synopt:{help wbopendata_topicid_indicators17##topicid_SP.DYN.AMRT.MA:SP.DYN.AMRT.MA{marker SP.DYN.AMRT.MA}}}Mortality rate, adult, male (per 1,000 male adults){p_end}
@@ -8020,7 +6616,7 @@
 
 {synopt:{help wbopendata_topicid_indicators18##topicid_DC.ODA.TOTL.GN.ZS:DC.ODA.TOTL.GN.ZS{marker DC.ODA.TOTL.GN.ZS}}}Net ODA provided, total (% of GNI){p_end}
 
-{synopt:{help wbopendata_topicid_indicators18##topicid_DC.ODA.TOTL.KD:DC.ODA.TOTL.KD{marker DC.ODA.TOTL.KD}}}Net ODA provided, total (constant 2021 US$){p_end}
+{synopt:{help wbopendata_topicid_indicators18##topicid_DC.ODA.TOTL.KD:DC.ODA.TOTL.KD{marker DC.ODA.TOTL.KD}}}Net ODA provided, total (constant 2023 US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators18##topicid_DC.ODA.UNTD.CD:DC.ODA.UNTD.CD{marker DC.ODA.UNTD.CD}}}Bilateral ODA commitments that is untied (current US$){p_end}
 
@@ -8103,7 +6699,7 @@
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.GF.ZS:EN.ATM.CO2E.GF.ZS{marker EN.ATM.CO2E.GF.ZS}}}CO2 emissions from gaseous fuel consumption (% of total){p_end}
 
-{synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD{marker EN.ATM.CO2E.KD.GD}}}CO2 emissions (kg per 2015 US$ of GDP){p_end}
+{synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD{marker EN.ATM.CO2E.KD.GD}}}CO2 emissions (kg per 2010 US$ of GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.KT:EN.ATM.CO2E.KT{marker EN.ATM.CO2E.KT}}}CO2 emissions (kt){p_end}
 
@@ -8115,7 +6711,7 @@
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.PP.GD:EN.ATM.CO2E.PP.GD{marker EN.ATM.CO2E.PP.GD}}}CO2 emissions (kg per PPP $ of GDP){p_end}
 
-{synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD{marker EN.ATM.CO2E.PP.GD.KD}}}CO2 emissions (kg per 2021 PPP $ of GDP){p_end}
+{synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD{marker EN.ATM.CO2E.PP.GD.KD}}}CO2 emissions (kg per 2011 PPP $ of GDP){p_end}
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_EN.ATM.CO2E.SF.KT:EN.ATM.CO2E.SF.KT{marker EN.ATM.CO2E.SF.KT}}}CO2 emissions from solid fuel consumption (kt){p_end}
 
@@ -8167,17 +6763,13 @@
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_ER.PTD.TOTL.ZS:ER.PTD.TOTL.ZS{marker ER.PTD.TOTL.ZS}}}Terrestrial and marine protected areas (% of total territorial area){p_end}
 
-{synopt:{help wbopendata_topicid_indicators19##topicid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Ease of doing business rank (1=most business-friendly regulations){p_end}
+{synopt:{help wbopendata_topicid_indicators19##topicid_IC.BUS.EASE.XQ:IC.BUS.EASE.XQ{marker IC.BUS.EASE.XQ}}}Ease of doing business index (1=most business-friendly regulations){p_end}
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_IQ.CPA.PUBS.XQ:IQ.CPA.PUBS.XQ{marker IQ.CPA.PUBS.XQ}}}CPIA public sector management and institutions cluster average (1=low to 6=high){p_end}
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_IS.ROD.PAVE.ZS:IS.ROD.PAVE.ZS{marker IS.ROD.PAVE.ZS}}}Roads, paved (% of total roads){p_end}
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_NV.AGR.TOTL.ZS:NV.AGR.TOTL.ZS{marker NV.AGR.TOTL.ZS}}}Agriculture, forestry, and fishing, value added (% of GDP){p_end}
-
-{synopt:{help wbopendata_topicid_indicators19##topicid_SE.ENR.PRSC.FM.ZS:SE.ENR.PRSC.FM.ZS{marker SE.ENR.PRSC.FM.ZS}}}School enrollment, primary and secondary (gross), gender parity index (GPI){p_end}
-
-{synopt:{help wbopendata_topicid_indicators19##topicid_SE.PRM.CMPT.ZS:SE.PRM.CMPT.ZS{marker SE.PRM.CMPT.ZS}}}Primary completion rate, total (% of relevant age group){p_end}
 
 {synopt:{help wbopendata_topicid_indicators19##topicid_SH.DYN.MORT:SH.DYN.MORT{marker SH.DYN.MORT}}}Mortality rate, under-5 (per 1,000 live births){p_end}
 
@@ -8340,7 +6932,7 @@
 
 {synopt:{help wbopendata_topicid_indicators20##topicid_DT.AMT.PRVT.PS.CD:DT.AMT.PRVT.PS.CD{marker DT.AMT.PRVT.PS.CD}}}PS, private creditors (AMT, current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators20##topicid_DT.AXA.DPPG.CD:DT.AXA.DPPG.CD{marker DT.AXA.DPPG.CD}}}Principal arrears, long-term DOD (US$){p_end}
+{synopt:{help wbopendata_topicid_indicators20##topicid_DT.AXA.DPPG.CD:DT.AXA.DPPG.CD{marker DT.AXA.DPPG.CD}}}Principal arrears, public and publicly guaranteed (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators20##topicid_DT.AXA.OFFT.CD:DT.AXA.OFFT.CD{marker DT.AXA.OFFT.CD}}}Principal arrears, official creditors (current US$){p_end}
 
@@ -8810,7 +7402,7 @@
 
 {synopt:{help wbopendata_topicid_indicators20##topicid_DT.INT.PRVT.PS.CD:DT.INT.PRVT.PS.CD{marker DT.INT.PRVT.PS.CD}}}PS, private creditors (INT, current US$){p_end}
 
-{synopt:{help wbopendata_topicid_indicators20##topicid_DT.IXA.DPPG.CD:DT.IXA.DPPG.CD{marker DT.IXA.DPPG.CD}}}Interest arrears, long-term DOD (US$){p_end}
+{synopt:{help wbopendata_topicid_indicators20##topicid_DT.IXA.DPPG.CD:DT.IXA.DPPG.CD{marker DT.IXA.DPPG.CD}}}Interest arrears, public and publicly guaranteed (current US$){p_end}
 
 {synopt:{help wbopendata_topicid_indicators20##topicid_DT.IXA.DPPG.CD.CG:DT.IXA.DPPG.CD.CG{marker DT.IXA.DPPG.CD.CG}}}Net change in interest arrears (current US$){p_end}
 
@@ -9368,6 +7960,20 @@
 {synopthdr:topicID}
 {synoptline}
 
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_AG.LND.CREL.HA:AG.LND.CREL.HA{marker AG.LND.CREL.HA}}}Land under cereal production (hectares){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_AG.LND.FRST.K2:AG.LND.FRST.K2{marker AG.LND.FRST.K2}}}Forest area (sq. km){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_AG.LND.FRST.ZS:AG.LND.FRST.ZS{marker AG.LND.FRST.ZS}}}Forest area (% of land area){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_AG.LND.IRIG.AG.ZS:AG.LND.IRIG.AG.ZS{marker AG.LND.IRIG.AG.ZS}}}Agricultural irrigated land (% of total agricultural land){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_AG.LND.TOTL.K2:AG.LND.TOTL.K2{marker AG.LND.TOTL.K2}}}Land area (sq. km){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_AG.PRD.CREL.MT:AG.PRD.CREL.MT{marker AG.PRD.CREL.MT}}}Cereal production (metric tons){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_AG.YLD.CREL.KG:AG.YLD.CREL.KG{marker AG.YLD.CREL.KG}}}Cereal yield (kg per hectare){p_end}
+
 {synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.AG.NTR.TOHA:CC.AG.NTR.TOHA{marker CC.AG.NTR.TOHA}}}Nitrogen application (tons per ha){p_end}
 
 {synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.CUF.STUN:CC.CUF.STUN{marker CC.CUF.STUN}}}Children under 5 years of age who are stunted (% of total){p_end}
@@ -9639,6 +8245,14 @@
 {synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.PUN.TOTL:CC.PUN.TOTL{marker CC.PUN.TOTL}}}Prevalence of undernourishment (3-year average) (% of total){p_end}
 
 {synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CC.RIC.PECA:CC.RIC.PECA{marker CC.RIC.PECA}}}Rice supply quantity (g/capita/day){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_CM.MKT.INDX.ZG:CM.MKT.INDX.ZG{marker CM.MKT.INDX.ZG}}}S&amp;P Global Equity Indices (annual % change){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_IS.AIR.DPRT:IS.AIR.DPRT{marker IS.AIR.DPRT}}}Air transport, registered carrier departures worldwide{p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_IS.AIR.GOOD.MT.K1:IS.AIR.GOOD.MT.K1{marker IS.AIR.GOOD.MT.K1}}}Air transport, freight (million ton-km){p_end}
+
+{synopt:{help wbopendata_topicid_indicatorstopicID##topicid_IS.AIR.PSGR:IS.AIR.PSGR{marker IS.AIR.PSGR}}}Air transport, passengers carried{p_end}
 {synoptline}
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

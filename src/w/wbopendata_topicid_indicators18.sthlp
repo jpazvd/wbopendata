@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -101,7 +101,7 @@
 
 {synopt:{opt Source Notes}}Net Official development assistance (ODA) comprises grants or loans to developing countries and territories on the OECD/DAC list of aid recipients that are undertaken by the official sector with promotion of economic development and welfare as{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
 
 
 {synoptline}
@@ -114,7 +114,7 @@
 
 {synopt:{opt Source Notes}}Net Official development assistance (ODA) comprises grants or loans to developing countries and territories on the OECD/DAC list of aid recipients that are undertaken by the official sector with promotion of economic development and welfare as{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
 
 
 {synoptline}
@@ -127,7 +127,7 @@
 
 {synopt:{opt Source Notes}}Net Official development assistance (ODA) comprises grants or loans to developing countries and territories on the OECD/DAC list of aid recipients that are undertaken by the official sector with promotion of economic development and welfare as{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
 
 
 {synoptline}
@@ -140,12 +140,12 @@
 
 {synopt:{opt Source Notes}}Net Official development assistance (ODA) comprises grants or loans to developing countries and territories on the OECD/DAC list of aid recipients that are undertaken by the official sector with promotion of economic development and welfare as{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
 
 
 {synoptline}
 {marker topicid_DC.ODA.TOTL.KD}
-{synopt:{bf:{help wbopendata_topicid##DC.ODA.TOTL.KD:DC.ODA.TOTL.KD} - Net ODA provided, total (constant 2021 US$)}}
+{synopt:{bf:{help wbopendata_topicid##DC.ODA.TOTL.KD:DC.ODA.TOTL.KD} - Net ODA provided, total (constant 2023 US$)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -153,7 +153,7 @@
 
 {synopt:{opt Source Notes}}Net Official development assistance (ODA) comprises grants or loans to developing countries and territories on the OECD/DAC list of aid recipients that are undertaken by the official sector with promotion of economic development and welfare as{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development, Geographical Distribution of Financial Flows to Developing Countries, Development Co-operation Report, and International Development Statistics dat{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
 
 
 {synoptline}
@@ -248,4 +248,4 @@
 
 
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

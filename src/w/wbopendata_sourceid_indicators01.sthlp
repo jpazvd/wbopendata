@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -17,14 +17,13 @@
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
 {synopt:{opt 14}}  {help wbopendata_sourceid_indicators14##sourceid_14:Gender Statistics}{p_end}
 {synopt:{opt 15}}  {help wbopendata_sourceid_indicators15##sourceid_15:Global Economic Monitor}{p_end}
-{synopt:{opt 16}}  {help wbopendata_sourceid_indicators16##sourceid_16:Health Nutrition and Population Statistics}{p_end}
 {synopt:{opt 18}}  {help wbopendata_sourceid_indicators18##sourceid_18:IDA Results Measurement System}{p_end}
 {synopt:{opt 19}}  {help wbopendata_sourceid_indicators19##sourceid_19:Millennium Development Goals}{p_end}
 {synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
-{synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
+{synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Findex database}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
 {synopt:{opt 32}}  {help wbopendata_sourceid_indicators32##sourceid_32:Global Financial Development}{p_end}
@@ -37,7 +36,6 @@
 {synopt:{opt 43}}  {help wbopendata_sourceid_indicators43##sourceid_43:Adjusted Net Savings}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
 {synopt:{opt 60}}  {help wbopendata_sourceid_indicators60##sourceid_60:Economic Fitness}{p_end}
@@ -46,8 +44,6 @@
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
-{synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
-{synopt:{opt 68}}  {help wbopendata_sourceid_indicators68##sourceid_68:PEFA 2016}{p_end}
 {synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
 {synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
 {synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
@@ -58,12 +54,13 @@
 {synopt:{opt 80}}  {help wbopendata_sourceid_indicators80##sourceid_80:Gender Disaggregated Labor Database (GDLD)}{p_end}
 {synopt:{opt 81}}  {help wbopendata_sourceid_indicators81##sourceid_81:International Debt Statistics: DSSI}{p_end}
 {synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
-{synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
 {synopt:{opt 86}}  {help wbopendata_sourceid_indicators86##sourceid_86:Global Jobs Indicators Database (JOIN)}{p_end}
 {synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
 {synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
 {synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
 {synopt:{opt 91}}  {help wbopendata_sourceid_indicators91##sourceid_91:PEFA_CRPFM}{p_end}
+{synopt:{opt 92}}  {help wbopendata_sourceid_indicators92##sourceid_92:Disability Data Hub (DDH)}{p_end}
+{synopt:{opt 93}}  {help wbopendata_sourceid_indicators93##sourceid_93:FPN Datahub Archive}{p_end}
 
 
 {marker sourceid_01}
@@ -1595,389 +1592,5 @@
 {synopt:{opt Source Organization}}{p_end}
 
 
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.DFRN.DB0614}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.DFRN.DB0614:PROT.MINOR.INV.DFRN.DB0614} - Protecting minority investors (DB06-14 methodology) - Score}}
 
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for protecting minority investors benchmarks economies with respect to the regulatory best practice on the indicator set. The score is indicated on a scale from 0 to 100, where 0 represents the worst regulatory performance and 100 th{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.DFRN.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.DFRN.DB1519:PROT.MINOR.INV.DFRN.DB1519} - Protecting minority investors (DB15-20 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for protecting minority investors benchmarks economies with respect to the regulatory best practice on the indicator set. The score is indicated on a scale from 0 to 100, where 0 represents the worst regulatory performance and 100 th{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB0614}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB0614:PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB0614} - Protecting minority investors: Ease of shareholder suits index (0-10) (DB06-14 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The ease of shareholder suits index measures how likely plaintiffs are to access internal corporate evidence. It has six components: (i) whether shareholders owning 10% of the company’s share capital have the right to inspect the Buyer-Selle{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB1519:PROT.MINOR.INV.EASE.SHARE.LGL.XD.010.DB1519} - Protecting minority investors: Ease of shareholder suits index (0-10) (DB15-20 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The ease of shareholder suits index measures how likely plaintiffs are to access internal corporate evidence and recover legal expenses. It has six components: (i) whether shareholders owning 10% of the company’s share capital have the right{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.EASE.SSI.XD.0010.DB0614.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EASE.SSI.XD.0010.DB0614.DFRN:PROT.MINOR.INV.EASE.SSI.XD.0010.DB0614.DFRN} - Protecting minority investors: Ease of shareholder suits index (0-10) (DB06-14 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for ease of shareholder suits index benchmarks economies with respect to the regulatory best practice on the indicator. The score is indicated on a scale from 0 to 100, where 0 represents the worst regulatory performance and 100 the{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.EASE.SSI.XD.0010.DB1519.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EASE.SSI.XD.0010.DB1519.DFRN:PROT.MINOR.INV.EASE.SSI.XD.0010.DB1519.DFRN} - Protecting minority investors: Ease of shareholder suits index (0-10) (DB15-20 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for ease of shareholder suits index benchmarks economies with respect to the regulatory best practice on the indicator. The score is indicated on a scale from 0 to 100, where 0 represents the worst regulatory performance and 100 the{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.EXT.BUS.DISC.010.XD}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.BUS.DISC.010.XD:PROT.MINOR.INV.EXT.BUS.DISC.010.XD} - Protecting minority investors: Extent of disclosure index (0-10)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The extent of disclosure index measures the approval and disclosure requirements of related-party transactions. It has five components: (i) whether it is the managing director alone, the board of directors, or the general meeting of shareholde{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519:PROT.MINOR.INV.EXT.CORP.TRANP.XD.0010.DB1519} - Protecting minority investors: Extent of corporate transparency index (0-7) (DB15-20 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The extent of corporate transparency index measures the level of information that companies must share regarding their board members, senior executives, annual meetings and audits. This index has seven components: (i) whether Buyer must disclo{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.EXT.CORP.TRANS.XD.010.DB1519.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.CORP.TRANS.XD.010.DB1519.DFRN:PROT.MINOR.INV.EXT.CORP.TRANS.XD.010.DB1519.DFRN} - Protecting minority investors: Extent of corporate transparency index (0-7) (DB15-20 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for extent of corporate transparency index benchmarks economies with respect to the regulatory best practice on the indicator. The score is indicated on a scale from 0 to 100, where 0 represents the worst regulatory performance and 1{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.EXT.DIR.LBL.010.XD.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.DIR.LBL.010.XD.DFRN:PROT.MINOR.INV.EXT.DIR.LBL.010.XD.DFRN} - Protecting minority investors: Extent of director liability index (0-10) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for extent of director liability index benchmarks economies with respect to the regulatory best practice on the indicator. The score is indicated on a scale from 0 to 100, where 0 represents the worst regulatory performance and 100 t{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.EXT.DISC.010.XD.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.DISC.010.XD.DFRN:PROT.MINOR.INV.EXT.DISC.010.XD.DFRN} - Protecting minority investors: Extent of disclosure index (0-10) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for extent of disclosure index benchmarks economies with respect to the regulatory best practice on the indicator. The score is indicated on a scale from 0 to 100, where 0 represents the worst regulatory performance and 100 the best{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519:PROT.MINOR.INV.EXT.OWNR.CONT.XD.0100.DB1519} - Protecting minority investors: Extent of ownership and control index (0-7) (DB15-20 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The extent of ownership and control index measures the rules governing the structure and change in control of companies. This index has seven components: (i) whether the same individual cannot be appointed CEO and chairperson of the board of d{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN:PROT.MINOR.INV.EXT.OWNR.CONTL.010.XD.DFRN} - Protecting minority investors: Extent of ownership and control index (0-7) (DB15-20 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for extent of ownership and control index benchmarks economies with respect to the regulatory best practice on the indicator. The score is indicated on a scale from 0 to 100, where 0 represents the worst regulatory performance and 10{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519:PROT.MINOR.INV.EXT.SHARE.RTS.XD.010.DB1519} - Protecting minority investors: Extent of shareholder rights index (0-6) (DB15-20 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The extent of shareholder rights index measures the role of shareholders in key corporate decisions. It has six components: (i) whether the sale of 51% of Buyer’s assets requires shareholder approval; (ii) whether shareholders representing 1{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.EXT.SHRHLD.RGT.XD.0010.DB1519.DRFN}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.EXT.SHRHLD.RGT.XD.0010.DB1519.DRFN:PROT.MINOR.INV.EXT.SHRHLD.RGT.XD.0010.DB1519.DRFN} - Protecting minority investors: Extent of shareholder rights index (0-6) (DB15-20 methodology) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for extent of shareholder rights index benchmarks economies with respect to the regulatory best practice on the indicator. The score is indicated on a scale from 0 to 100, where 0 represents the worst regulatory performance and 100 t{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.IC.PRIN.EXT.DIR.LGL.010.XD}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.IC.PRIN.EXT.DIR.LGL.010.XD:PROT.MINOR.INV.IC.PRIN.EXT.DIR.LGL.010.XD} - Protecting minority investors: Extent of director liability index (0-10)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The extent of director liability index measures when board members can be held liable for harm caused by related-party transactions and what sanctions are available. It has seven components: (i) whether shareholders can sue directly or derivat{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.IC.PRIN.MINOR.RK}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.IC.PRIN.MINOR.RK:PROT.MINOR.INV.IC.PRIN.MINOR.RK} - Rank: Protecting minority investors (1=most business-friendly regulations)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The ranking of economies on the strength of minority shareholder protections is determined by sorting their scores for protecting minority investors.{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.STRENG.INV.PROT.XD.010.DB0614}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.STRENG.INV.PROT.XD.010.DB0614:PROT.MINOR.INV.STRENG.INV.PROT.XD.010.DB0614} - Protecting minority investors: Strength of investor protection index (0-10) (DB06-14 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The strength of investor protection index is the sum of the extent of disclosure index, extent of director liability index and ease of shareholder suits index. The index is computed based on the methodology in the DB06-14 studies.{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614}
-{synopt:{bf:{help wbopendata_sourceid##PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614:PROT.MINOR.INV.STRENG.MIN.INV.PROT.XD.010.DB0614} - Protecting minority investors: Strength of minority investor protection index (0-50) (DB15-20 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The strength of minority investor protection index is the sum of the extent of disclosure index, extent of director liability index, ease of shareholder suits index, extent of shareholder rights index, extent of ownership and control index and{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_RESLV.ISV.COPR.03.XD.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.COPR.03.XD.DB1519:RESLV.ISV.COPR.03.XD.DB1519} - Resolving insolvency: Commencement of proceedings index (0-3) (DB15-20 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The commencement of proceedings index has three components: (i) whether debtors can initiate both liquidation and reorganization proceedings; (ii) whether creditors can initiate both liquidation and reorganization proceedings; and (iii) what s{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_RESLV.ISV.COST.ZS}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.COST.ZS:RESLV.ISV.COST.ZS} - Resolving insolvency: Cost (% of estate)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The cost to resolve insolvency is the cost of the proceedings is recorded as a percentage of the value of the debtor’s estate, including court fees and government levies, fees of insolvency administrators, auctioneers, assessors and lawyers,{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_RESLV.ISV.CPI.04.XD.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.CPI.04.XD.DB1519:RESLV.ISV.CPI.04.XD.DB1519} - Resolving insolvency: Creditor participation index (0-4) (DB15-20 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The creditor participation index has four components: (i) whether creditors appoint the insolvency representative or approve, ratify or reject the appointment of the insolvency representative; (ii) Whether creditors are required to approve the{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_RESLV.ISV.DB1519.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.DB1519.DFRN:RESLV.ISV.DB1519.DFRN} - Resolving insolvency - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for resolving insolvency is the simple average of the scores for each of the component indicators: the recovery rate of insolvency proceedings involving domestic entities, as well as the strength of the legal framework applicable to{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_RESLV.ISV.DFRN.RCOV.RT}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.DFRN.RCOV.RT:RESLV.ISV.DFRN.RCOV.RT} - Resolving insolvency: Recovery rate (cents on the dollar) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for recovery rate benchmarks economies with respect to the regulatory best practice on the indicator. The score is indicated on a scale from 0 to 100, where 0 represents the worst regulatory performance and 100 the best regulatory pe{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_RESLV.ISV.DURS.YR}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.DURS.YR:RESLV.ISV.DURS.YR} - Resolving insolvency: Time (years)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_RESLV.ISV.MGDA.XD.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.MGDA.XD.DB1519:RESLV.ISV.MGDA.XD.DB1519} - Resolving insolvency: Management of debtor's assets index (0-6) (DB15-20 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The management of debtor's assets index has six components: (i) whether the debtor (or an insolvency representative on its behalf) can continue performing contracts essential to the debtor’s survival; (ii) whether the debtor (or an insolvenc{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_RESLV.ISV.OTCM}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.OTCM:RESLV.ISV.OTCM} - Resolving insolvency: Outcome (0 as piecemeal sale and 1 as going concern)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}Outcome records whether the case study company emerges from the proceedings as a going concern (1) or its assets are sold piecemeal (0). If the business continues operating, 100% of the company value is preserved. If the assets are sold piecem{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_RESLV.ISV.RCOV.RT}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.RCOV.RT:RESLV.ISV.RCOV.RT} - Resolving insolvency: Recovery rate (cents on the dollar)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The recovery rate is recorded as cents on the dollar recovered by secured creditors through judicial reorganization, liquidation or debt enforcement (foreclosure or receivership) proceedings. The calculation takes into account the outcome: whe{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_RESLV.ISV.RCOV.RT.016.DB1519.DFRN}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.RCOV.RT.016.DB1519.DFRN:RESLV.ISV.RCOV.RT.016.DB1519.DFRN} - Resolving insolvency: Strength of insolvency framework index (0-16) - Score}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The score for strength of insolvency framework index benchmarks economies with respect to the regulatory best practice on the indicator. The score is indicated on a scale from 0 to 100, where 0 represents the worst regulatory performance and 1{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_RESLV.ISV.RK.DB19}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.RK.DB19:RESLV.ISV.RK.DB19} - Rank: Resolving insolvency (1=most business-friendly regulations)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The ranking of economies on the ease of resolving insolvency is determined by sorting their scores for resolving insolvency.{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_RESLV.ISV.ROPC.03.XD.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.ROPC.03.XD.DB1519:RESLV.ISV.ROPC.03.XD.DB1519} - Reorganization proceedings index (0-3) (DB15-20 methodology)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The reorganization proceedings index has three components: (i) whether the reorganization plan is voted on only by the creditors whose rights are modified or affected by the plan; (ii) whether creditors entitled to vote on the plan are divided{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_RESLV.ISV.SOIF.06.DB1519}
-{synopt:{bf:{help wbopendata_sourceid##RESLV.ISV.SOIF.06.DB1519:RESLV.ISV.SOIF.06.DB1519} - Resolving insolvency: Strength of insolvency framework index (0-16)}}
-
-{synopt:{opt Source}}01 Doing Business{p_end}
-
-
-{synopt:{opt Source Notes}}The strength of insolvency framework index measures the legal framework applicable to judicial liquidation and reorganization proceedings and the extent to which best insolvency practices have been implemented in each economy covered by the Do{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

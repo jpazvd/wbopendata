@@ -2,7 +2,7 @@
 
 {marker indicators}{...}
 {p 20 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-{title:Region  (as of 02jul2024)}
+{title:Region  (as of 21dec2025)}
 
 {marker EAS}
 {p 20 20 2}(Go up to {it:{help wbopendata##region:Region }}){p_end}
@@ -146,7 +146,7 @@
 {synopt:{opt PAN}}  Panama {p_end}
 {synopt:{opt PRY}}  Paraguay {p_end}
 {synopt:{opt PER}}  Peru {p_end}
-{synopt:{opt PRI}}  Puerto Rico {p_end}
+{synopt:{opt PRI}}  Puerto Rico (US) {p_end}
 {synopt:{opt SXM}}  Sint Maarten (Dutch part) {p_end}
 {synopt:{opt KNA}}  St Kitts and Nevis {p_end}
 {synopt:{opt LCA}}  St Lucia {p_end}
@@ -162,8 +162,9 @@
 {marker MEA}
 {p 20 20 2}(Go up to {it:{help wbopendata##region:Region }}){p_end}
 {synoptset 33 tabbed}{...}
-{synopthdr:Middle East and North Africa (MEA)}
+{synopthdr:Middle East, North Africa, Afghanistan and Pakistan (MEA)}
 {synoptline}
+{synopt:{opt AFG}}  Afghanistan {p_end}
 {synopt:{opt DZA}}  Algeria {p_end}
 {synopt:{opt BHR}}  Bahrain {p_end}
 {synopt:{opt DJI}}  Djibouti {p_end}
@@ -178,6 +179,7 @@
 {synopt:{opt MLT}}  Malta {p_end}
 {synopt:{opt MAR}}  Morocco {p_end}
 {synopt:{opt OMN}}  Oman {p_end}
+{synopt:{opt PAK}}  Pakistan {p_end}
 {synopt:{opt QAT}}  Qatar {p_end}
 {synopt:{opt SAU}}  Saudi Arabia {p_end}
 {synopt:{opt SYR}}  Syrian Arab Republic {p_end}
@@ -238,12 +240,12 @@
 {synopt:{opt LIC}}  Low income {p_end}
 {synopt:{opt LMC}}  Lower middle income {p_end}
 {synopt:{opt MDE}}  Middle East (developing only) {p_end}
-{synopt:{opt MEA}}  Middle East and North Africa {p_end}
-{synopt:{opt BMN}}  Middle East and North Africa (IBRD-only countries) {p_end}
-{synopt:{opt TMN}}  Middle East and North Africa (IDA and IBRD countries) {p_end}
-{synopt:{opt DMN}}  Middle East and North Africa (IDA-eligible countries) {p_end}
 {synopt:{opt CME}}  Middle East and North Africa (IFC classification) {p_end}
-{synopt:{opt MNA}}  Middle East and North Africa (excluding high income) {p_end}
+{synopt:{opt MEA}}  Middle East, North Africa, Afghanistan and Pakistan {p_end}
+{synopt:{opt BMN}}  Middle East, North Africa, Afghanistan and Pakistan (IBRD only) {p_end}
+{synopt:{opt TMN}}  Middle East, North Africa, Afghanistan and Pakistan (IDA and IBRD) {p_end}
+{synopt:{opt DMN}}  Middle East, North Africa, Afghanistan and Pakistan (IDA total) {p_end}
+{synopt:{opt MNA}}  Middle East, North Africa, Afghanistan and Pakistan (excluding high income) {p_end}
 {synopt:{opt MIC}}  Middle income {p_end}
 {synopt:{opt NRS}}  Non-resource rich Sub-Saharan Africa countries {p_end}
 {synopt:{opt NAF}}  North Africa {p_end}
@@ -285,13 +287,11 @@
 {synoptset 33 tabbed}{...}
 {synopthdr:South Asia (SAS)}
 {synoptline}
-{synopt:{opt AFG}}  Afghanistan {p_end}
 {synopt:{opt BGD}}  Bangladesh {p_end}
 {synopt:{opt BTN}}  Bhutan {p_end}
 {synopt:{opt IND}}  India {p_end}
 {synopt:{opt MDV}}  Maldives {p_end}
 {synopt:{opt NPL}}  Nepal {p_end}
-{synopt:{opt PAK}}  Pakistan {p_end}
 {synopt:{opt LKA}}  Sri Lanka {p_end}
 
 {marker SSF}
@@ -338,7 +338,7 @@
 {synopt:{opt SEN}}  Senegal {p_end}
 {synopt:{opt SYC}}  Seychelles {p_end}
 {synopt:{opt SLE}}  Sierra Leone {p_end}
-{synopt:{opt SOM}}  Somalia {p_end}
+{synopt:{opt SOM}}  Somalia, Fed Rep {p_end}
 {synopt:{opt ZAF}}  South Africa {p_end}
 {synopt:{opt SSD}}  South Sudan {p_end}
 {synopt:{opt SDN}}  Sudan {p_end}

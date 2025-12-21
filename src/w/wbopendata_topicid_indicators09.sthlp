@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -49,7 +49,7 @@
 
 {synopt:{opt Source Notes}}Information and communication technology service exports include computer and communications services (telecommunications and postal and courier services) and information services (computer data and news-related service transactions). Data are{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -62,7 +62,7 @@
 
 {synopt:{opt Source Notes}}Information and communication technology service exports include computer and communications services (telecommunications and postal and courier services) and information services (computer data and news-related service transactions).{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Balance of Payments Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Balance of Payments Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -73,9 +73,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Coal refers to all coal and brown coal, both primary (including hard coal and lignite-brown coal) and derived fuels (including patent fuel, coke oven coke, gas coke, coke{p_end}
+{synopt:{opt Source Notes}}The share of electricity production from coal sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Coal refers to all coal and brown coal, both primary (including hard coal and ligni{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -86,9 +86,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Hydropower refers to electricity produced by hydroelectric power plants.{p_end}
+{synopt:{opt Source Notes}}The share of electricity production from hydroelectric sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Hydropower refers to electricity produced by hydroelectric power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -99,9 +99,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Electric power transmission and distribution losses include losses in transmission between sources of supply and points of distribution and in the distribution to consumers, including pilferage.{p_end}
+{synopt:{opt Source Notes}}Electric power transmission and distribution losses include losses in transmission between sources of supply and points of distribution and in the distribution to consumers, including pilferage. The losses are expressed as a share of the total{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2018 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -112,9 +112,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Gas refers to natural gas but excludes natural gas liquids.{p_end}
+{synopt:{opt Source Notes}}The share of electricity production from natural gas sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Gas refers to natural gas but excludes natural gas liquids.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -125,9 +125,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Nuclear power refers to electricity produced by nuclear power plants.{p_end}
+{synopt:{opt Source Notes}}The share of electricity production from nuclear sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Nuclear power refers to electricity produced by nuclear power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -138,9 +138,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products.{p_end}
+{synopt:{opt Source Notes}}The share of electricity production from oil sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -153,7 +153,7 @@
 
 {synopt:{opt Source Notes}}Electric power consumption measures the production of power plants and combined heat and power plants less transmission, distribution, and transformation losses and own use by heat and power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -166,7 +166,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -179,7 +179,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -192,7 +192,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -205,7 +205,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -218,7 +218,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -231,7 +231,7 @@
 
 {synopt:{opt Source Notes}}Renewable internal freshwater resources flows refer to internal renewable resources (internal river flows and groundwater from rainfall) in the country.{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -244,7 +244,7 @@
 
 {synopt:{opt Source Notes}}Renewable internal freshwater resources flows refer to internal renewable resources (internal river flows and groundwater from rainfall) in the country. Renewable internal freshwater resources per capita are calculated using the World Bank's p{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -294,9 +294,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Investment in energy projects with private participation  refers to commitments to  infrastructure projects in energy (electricity and natural gas: generation, transmission and distribution) that have reached financial closure and directly or{p_end}
+{synopt:{opt Source Notes}}The Private Participation in Infrastructure (PPI) Database records contractual arrangements for public infrastructure projects in low- and middle-income countries (as classified by the World Bank) that have reached financial closure, in which{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Private Participation in Infrastructure Project Database ({browse "http://ppi.worldbank.org"}).{p_end}
+{synopt:{opt Source Organization}}Private Participation in Infrastructure Project Database, World Bank (WB), uri: {browse "https://ppi.worldbank.org/en/ppidata"}{p_end}
 
 
 {synoptline}
@@ -307,9 +307,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Investment in ICT projects with private participation refers to commitments to projects in ICT backbone infrastructure (including land based and submarine cables) that have reached financial closure and directly or indirectly serve the public.{p_end}
+{synopt:{opt Source Notes}}The Private Participation in Infrastructure (PPI) Database records contractual arrangements for public infrastructure projects in low- and middle-income countries (as classified by the World Bank) that have reached financial closure, in which{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Private Participation in Infrastructure Project Database ({browse "http://ppi.worldbank.org"}).{p_end}
+{synopt:{opt Source Organization}}Private Participation in Infrastructure Project Database, World Bank (WB), uri: {browse "http://ppi.worldbank.org"}{p_end}
 
 
 {synoptline}
@@ -333,9 +333,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Investment  in transport projects with private participation refers to commitments to  infrastructure projects in transport that have reached financial closure and directly or indirectly serve the public. Movable assets and small projects are{p_end}
+{synopt:{opt Source Notes}}The Private Participation In Infrastructure (PPI) Database records contractual arrangements for public infrastructure projects in low- and middle-income countries (as classified by the World Bank) that have reached financial closure, in which{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Private Participation in Infrastructure Project Database ({browse "http://ppi.worldbank.org"}).{p_end}
+{synopt:{opt Source Organization}}Private Participation in Infrastructure Project Database, World Bank (WB), uri: {browse "https://ppi.worldbank.org/en/ppidata"}{p_end}
 
 
 {synoptline}
@@ -346,9 +346,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Investment in water and sanitation projects with private participation refers to commitments to  infrastructure projects in water and sanitation that have reached financial closure and directly or indirectly serve the public. Movable assets, i{p_end}
+{synopt:{opt Source Notes}}The Private Participation in Infrastructure (PPI) Database records contractual arrangements for public infrastructure projects in low- and middle-income countries (as classified by the World Bank) that have reached financial closure, in which{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Private Participation in Infrastructure Project Database ({browse "http://ppi.worldbank.org"}).{p_end}
+{synopt:{opt Source Organization}}Private Participation in Infrastructure Project Database, World Bank (WB), uri: {browse "https://ppi.worldbank.org/en/ppidata"}{p_end}
 
 
 {synoptline}
@@ -359,9 +359,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Public Private Partnerships in energy (current US$)  refers to commitments to  infrastructure projects in energy (electricity and natural gas transmission and distribution) that have reached financial closure and directly or indirectly serve t{p_end}
+{synopt:{opt Source Notes}}The Private Participation In Infrastructure (PPI) Database records contractual arrangements for public infrastructure projects in low- and middle-income countries (as classified by the World Bank) that have reached financial closure, in which{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Private Participation in Infrastructure Project Database ({browse "http://ppi.worldbank.org"}).{p_end}
+{synopt:{opt Source Organization}}Private Participation in Infrastructure Project Database, World Bank (WB), uri: {browse "https://ppi.worldbank.org/en/ppidata"}{p_end}
 
 
 {synoptline}
@@ -372,9 +372,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Public Private Partnerships in ICT (current US$) refers to commitments to projects in ICT backbone infrastructure (including land based and submarine cables) that have reached financial closure and directly or indirectly serve the public. Mova{p_end}
+{synopt:{opt Source Notes}}The Private Participation in Infrastructure (PPI) Database records contractual arrangements for public infrastructure projects in low- and middle-income countries (as classified by the World Bank) that have reached financial closure, in which{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Private Participation in Infrastructure Project Database ({browse "http://ppi.worldbank.org"}).{p_end}
+{synopt:{opt Source Organization}}Private Participation in Infrastructure Project Database, World Bank (WB), uri: {browse "https://ppi.worldbank.org/en/ppidata"}{p_end}
 
 
 {synoptline}
@@ -398,9 +398,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Public Private Partnerships in transport (current US$) refers to commitments to  infrastructure projects in transport that have reached financial closure and directly or indirectly serve the public. Movable assets and small projects are exclud{p_end}
+{synopt:{opt Source Notes}}The Private Participation In Infrastructure (PPI) Database records contractual arrangements for public infrastructure projects in low- and middle-income countries (as classified by the World Bank) that have reached financial closure, in which{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Private Participation in Infrastructure Project Database ({browse "http://ppi.worldbank.org"}).{p_end}
+{synopt:{opt Source Organization}}Private Participation in Infrastructure Project Database, World Bank (WB), uri: {browse "https://ppi.worldbank.org/en/ppidata"}{p_end}
 
 
 {synoptline}
@@ -411,9 +411,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Public Private Partnerships in water and sanitation (current US$) refers to commitments to  infrastructure projects in water and sanitation that have reached financial closure and directly or indirectly serve the public. Movable assets, incine{p_end}
+{synopt:{opt Source Notes}}The Private Participation in Infrastructure (PPI) Database records contractual arrangements for public infrastructure projects in low- and middle-income countries (as classified by the World Bank) that have reached financial closure, in which{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Private Participation in Infrastructure Project Database ({browse "http://ppi.worldbank.org"}).{p_end}
+{synopt:{opt Source Organization}}Private Participation in Infrastructure Project Database, World Bank (WB), uri: {browse "https://ppi.worldbank.org/en/ppidata"}{p_end}
 
 
 {synoptline}
@@ -424,9 +424,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Industrial design applications are applications to register an industrial design with a national or regional Intellectual Property (IP) offices and designations received by relevant offices through the Hague System. Industrial designs are appl{p_end}
+{synopt:{opt Source Notes}}Industrial design applications are applications to register an industrial design with a national or regional Intellectual Property (IP) offices and designations received by relevant offices through the Hague System. Non-resident application re{p_end}
 
-{synopt:{opt Source Organization}}World Intellectual Property Organization (WIPO), Statistics Database at {browse "www.wipo.int/ipstats/"}. The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
+{synopt:{opt Source Organization}}Statistics Database, World Intellectual Property Organization (WIPO), uri: {browse "www.wipo.int/ipstats/,"} note: The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
 
 
 {synoptline}
@@ -437,9 +437,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Industrial design applications are applications to register an industrial design with a national or regional Intellectual Property (IP) offices and designations received by relevant offices through the Hague System. Industrial designs are appl{p_end}
+{synopt:{opt Source Notes}}Industrial design applications are applications to register an industrial design with a national or regional Intellectual Property (IP) offices and designations received by relevant offices through the Hague System.  A resident application ref{p_end}
 
-{synopt:{opt Source Organization}}World Intellectual Property Organization (WIPO), Statistics Database at {browse "www.wipo.int/ipstats/"}. The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
+{synopt:{opt Source Organization}}Statistics Database, World Intellectual Property Organization (WIPO), uri: {browse "www.wipo.int/ipstats/,"} note: The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
 
 
 {synoptline}
@@ -450,9 +450,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Trademark applications filed are applications to register a trademark with a national or regional Intellectual Property (IP) offices and designations received by relevant offices through the Madrid System. A trademark is a distinctive sign whi{p_end}
+{synopt:{opt Source Notes}}A trademark is a sign capable of distinguishing the goods or services of one enterprise from those of other enterprises. Trademarks are protected by intellectual property rights. Non-resident application refers to an application filed with the{p_end}
 
-{synopt:{opt Source Organization}}World Intellectual Property Organization (WIPO), Statistics Database at {browse "www.wipo.int/ipstats/"}. The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
+{synopt:{opt Source Organization}}Statistics Database, World Intellectual Property Organization (WIPO), uri: {browse "www.wipo.int/ipstats/,"} note: The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
 
 
 {synoptline}
@@ -463,9 +463,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Trademark applications filed are applications to register a trademark with a national or regional Intellectual Property (IP) offices and designations received by relevant offices through the Madrid System. A trademark is a distinctive sign whi{p_end}
+{synopt:{opt Source Notes}}A trademark is a sign capable of distinguishing the goods or services of one enterprise from those of other enterprises. Trademarks are protected by intellectual property rights. A resident application refers to an application filed with the I{p_end}
 
-{synopt:{opt Source Organization}}World Intellectual Property Organization (WIPO), Statistics Database at {browse "www.wipo.int/ipstats/"}. The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
+{synopt:{opt Source Organization}}Statistics Database, World Intellectual Property Organization (WIPO), uri: {browse "www.wipo.int/ipstats/,"} note: The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
 
 
 {synoptline}
@@ -491,7 +491,7 @@
 
 {synopt:{opt Source Notes}}Registered carrier departures worldwide are domestic takeoffs and takeoffs abroad of air carriers registered in the country.{p_end}
 
-{synopt:{opt Source Organization}}International Civil Aviation Organization, Civil Aviation Statistics of the World and ICAO staff estimates.{p_end}
+{synopt:{opt Source Organization}}Civil Aviation Statistics of the World, International Civil Aviation Organization (ICAO), uri: {browse "https://data.icao.int/newdataplus/"}{p_end}
 
 
 {synoptline}
@@ -504,7 +504,7 @@
 
 {synopt:{opt Source Notes}}Air freight is the volume of freight, express, and diplomatic bags carried on each flight stage (operation of an aircraft from takeoff to its next landing), measured in metric tons times kilometers traveled.{p_end}
 
-{synopt:{opt Source Organization}}International Civil Aviation Organization, Civil Aviation Statistics of the World and ICAO staff estimates.{p_end}
+{synopt:{opt Source Organization}}Civil Aviation Statistics of the World, International Civil Aviation Organization (ICAO), uri: {browse "https://data.icao.int/newdataplus/"}{p_end}
 
 
 {synoptline}
@@ -515,9 +515,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Air passengers carried include both domestic and international aircraft passengers of air carriers registered in the country.{p_end}
+{synopt:{opt Source Notes}}Air carrier data per country refers to passengers carried by airlines registered in that country regardless of the origin or destination of the passengers.{p_end}
 
-{synopt:{opt Source Organization}}International Civil Aviation Organization, Civil Aviation Statistics of the World and ICAO staff estimates.{p_end}
+{synopt:{opt Source Organization}}Civil Aviation Statistics of the World, International Civil Aviation Organization (ICAO), uri: {browse "https://data.icao.int/newdataplus/"}{p_end}
 
 
 {synoptline}
@@ -595,7 +595,7 @@
 
 {synopt:{opt Source Notes}}Goods transported by railway are the volume of goods transported by railway, measured in metric tons times kilometers traveled.{p_end}
 
-{synopt:{opt Source Organization}}Internation Union of Railways (UIC), OECD Statistics{p_end}
+{synopt:{opt Source Organization}}Railisa Database (UIC), International Union of Railways (UIC), uri: {browse "https://uic-stats.uic.org/select/;"}{p_end}
 
 
 {synoptline}
@@ -608,7 +608,7 @@
 
 {synopt:{opt Source Notes}}Passengers carried by railway are the number of passengers transported by rail multiplied by kilometers traveled.{p_end}
 
-{synopt:{opt Source Organization}}Internation Union of Railways (UIC Railisa Database), OECD Statistics{p_end}
+{synopt:{opt Source Organization}}Railisa Database (UIC), International Union of Railways (UIC), uri: {browse "https://uic-stats.uic.org/select/;"}{p_end}
 
 
 {synoptline}
@@ -619,9 +619,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}Rail lines are the length of railway route available for train service, irrespective of the number of parallel tracks.{p_end}
+{synopt:{opt Source Notes}}The total length of rail line in the country operated for passenger transport, goods transport, or both.{p_end}
 
-{synopt:{opt Source Organization}}Internation Union of Railways (UIC){p_end}
+{synopt:{opt Source Organization}}Railisa Database, International Union of Railways (UIC), uri: {browse "https://uic-stats.uic.org/"}{p_end}
 
 
 {synoptline}
@@ -634,7 +634,7 @@
 
 {synopt:{opt Source Notes}}The Liner Shipping Connectivity Index captures how well countries are connected to global shipping networks. It is computed by the United Nations Conference on Trade and Development (UNCTAD) based on five components of the maritime transport s{p_end}
 
-{synopt:{opt Source Organization}}United Nations Conference on Trade and Development, Review of Maritime Transport 2010.{p_end}
+{synopt:{opt Source Organization}}Review of Maritime Transport 2010., UN Conference on Trade and Development (UNCTAD){p_end}
 
 
 {synoptline}
@@ -647,7 +647,7 @@
 
 {synopt:{opt Source Notes}}Port container traffic measures the flow of containers from land to sea transport modes, and vice versa, in twenty-foot equivalent units (TEUs), a standard-size container. Data refer to coastal shipping as well as international journeys. Trans{p_end}
 
-{synopt:{opt Source Organization}}UNCTAD ({browse "http://unctad.org/en/Pages/statistics.aspx"}){p_end}
+{synopt:{opt Source Organization}}UN Conference on Trade and Development (UNCTAD), uri: {browse "http://unctad.org/en/Pages/statistics.aspx"}{p_end}
 
 
 {synoptline}
@@ -699,7 +699,7 @@
 
 {synopt:{opt Source Notes}}Mobile cellular telephone subscriptions are subscriptions to a public mobile telephone service that provide access to the PSTN using cellular technology. The indicator includes (and is split into) the number of postpaid subscriptions, and the{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union (ITU) World Telecommunication/ICT Indicators Database{p_end}
+{synopt:{opt Source Organization}}World Telecommunication/ICT Indicators Database, International Telecommunication Union (ITU){p_end}
 
 
 {synoptline}
@@ -712,7 +712,7 @@
 
 {synopt:{opt Source Notes}}Mobile cellular telephone subscriptions are subscriptions to a public mobile telephone service that provide access to the PSTN using cellular technology. The indicator includes (and is split into) the number of postpaid subscriptions, and the{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union (ITU) World Telecommunication/ICT Indicators Database{p_end}
+{synopt:{opt Source Organization}}World Telecommunication/ICT Indicators Database, International Telecommunication Union (ITU){p_end}
 
 
 {synoptline}
@@ -738,7 +738,7 @@
 
 {synopt:{opt Source Notes}}Fixed telephone subscriptions refers to the sum of active number of analogue fixed telephone lines, voice-over-IP (VoIP) subscriptions, fixed wireless local loop (WLL) subscriptions, ISDN voice-channel equivalents and fixed public payphones.{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union (ITU) World Telecommunication/ICT Indicators Database{p_end}
+{synopt:{opt Source Organization}}World Telecommunication/ICT Indicators Database, International Telecommunication Union (ITU){p_end}
 
 
 {synoptline}
@@ -751,7 +751,7 @@
 
 {synopt:{opt Source Notes}}Fixed telephone subscriptions refers to the sum of active number of analogue fixed telephone lines, voice-over-IP (VoIP) subscriptions, fixed wireless local loop (WLL) subscriptions, ISDN voice-channel equivalents and fixed public payphones.{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union (ITU) World Telecommunication/ICT Indicators Database{p_end}
+{synopt:{opt Source Organization}}World Telecommunication/ICT Indicators Database, International Telecommunication Union (ITU){p_end}
 
 
 {synoptline}
@@ -764,7 +764,7 @@
 
 {synopt:{opt Source Notes}}Fixed broadband subscriptions refers to fixed subscriptions to high-speed access to the public Internet (a TCP/IP connection), at downstream speeds equal to, or greater than, 256 kbit/s. This includes cable modem, DSL, fiber-to-the-home/buildi{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union (ITU) World Telecommunication/ICT Indicators Database{p_end}
+{synopt:{opt Source Organization}}World Telecommunication/ICT Indicators Database, International Telecommunication Union (ITU){p_end}
 
 
 {synoptline}
@@ -777,7 +777,7 @@
 
 {synopt:{opt Source Notes}}Fixed broadband subscriptions refers to fixed subscriptions to high-speed access to the public Internet (a TCP/IP connection), at downstream speeds equal to, or greater than, 256 kbit/s. This includes cable modem, DSL, fiber-to-the-home/buildi{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union (ITU) World Telecommunication/ICT Indicators Database{p_end}
+{synopt:{opt Source Organization}}World Telecommunication/ICT Indicators Database, International Telecommunication Union (ITU){p_end}
 
 
 {synoptline}
@@ -814,9 +814,9 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}The number of distinct, publicly-trusted TLS/SSL certificates found in the Netcraft Secure Server Survey.{p_end}
+{synopt:{opt Source Notes}}The number of distinct, publicly-trusted TLS/SSL certificates found in the Netcraft Secure Server Survey (by hosting country).{p_end}
 
-{synopt:{opt Source Organization}}Netcraft ({browse "http://www.netcraft.com/"}){p_end}
+{synopt:{opt Source Organization}}Secure Server Survey, Netcraft, uri: {browse "http://www.netcraft.com/"}{p_end}
 
 
 {synoptline}
@@ -827,9 +827,35 @@
 
 {synopt:{opt Topics}}09 Infrastructure{p_end}
 
-{synopt:{opt Source Notes}}The number of distinct, publicly-trusted TLS/SSL certificates found in the Netcraft Secure Server Survey.{p_end}
+{synopt:{opt Source Notes}}The number of distinct, publicly-trusted TLS/SSL certificates found in the Netcraft Secure Server Survey (by hosting country), per 1 million people.{p_end}
 
-{synopt:{opt Source Organization}}Netcraft ({browse "http://www.netcraft.com/"}) and World Bank population estimates.{p_end}
+{synopt:{opt Source Organization}}Secure Server Survey, Netcraft, uri: {browse "http://www.netcraft.com/;"}{p_end}
+
+
+{synoptline}
+{marker topicid_IT.NET.USER.FE.ZS}
+{synopt:{bf:{help wbopendata_topicid##IT.NET.USER.FE.ZS:IT.NET.USER.FE.ZS} - Individuals using the Internet, female (% of female population)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}09 Infrastructure{p_end}
+
+{synopt:{opt Source Notes}}This indicator refers to female individuals who have used the Internet (from any location) in the last 3 months. The Internet can be used via a computer, mobile phone, personal digital assistant, games machine, digital TV etc.{p_end}
+
+{synopt:{opt Source Organization}}World Telecommunication/ICT Indicators Database, International Telecommunication Union (ITU){p_end}
+
+
+{synoptline}
+{marker topicid_IT.NET.USER.MA.ZS}
+{synopt:{bf:{help wbopendata_topicid##IT.NET.USER.MA.ZS:IT.NET.USER.MA.ZS} - Individuals using the Internet, male (% of male population)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}09 Infrastructure{p_end}
+
+{synopt:{opt Source Notes}}This indicator refers to male individuals who have used the Internet (from any location) in the last 3 months. The Internet can be used via a computer, mobile phone, personal digital assistant, games machine, digital TV etc.{p_end}
+
+{synopt:{opt Source Organization}}World Telecommunication/ICT Indicators Database, International Telecommunication Union (ITU){p_end}
 
 
 {synoptline}
@@ -855,7 +881,7 @@
 
 {synopt:{opt Source Notes}}Internet users are individuals who have used the Internet (from any location) in the last 3 months. The Internet can be used via a computer, mobile phone, personal digital assistant, games machine, digital TV etc.{p_end}
 
-{synopt:{opt Source Organization}}International Telecommunication Union (ITU) World Telecommunication/ICT Indicators Database{p_end}
+{synopt:{opt Source Organization}}World Telecommunication/ICT Indicators Database, International Telecommunication Union (ITU), uri: {browse "https://datahub.itu.int/"}{p_end}
 
 
 {synoptline}
@@ -963,4 +989,4 @@
 
 
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

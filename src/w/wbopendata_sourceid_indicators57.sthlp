@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -17,14 +17,13 @@
 {synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
 {synopt:{opt 14}}  {help wbopendata_sourceid_indicators14##sourceid_14:Gender Statistics}{p_end}
 {synopt:{opt 15}}  {help wbopendata_sourceid_indicators15##sourceid_15:Global Economic Monitor}{p_end}
-{synopt:{opt 16}}  {help wbopendata_sourceid_indicators16##sourceid_16:Health Nutrition and Population Statistics}{p_end}
 {synopt:{opt 18}}  {help wbopendata_sourceid_indicators18##sourceid_18:IDA Results Measurement System}{p_end}
 {synopt:{opt 19}}  {help wbopendata_sourceid_indicators19##sourceid_19:Millennium Development Goals}{p_end}
 {synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
 {synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
 {synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
 {synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
-{synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
+{synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Findex database}{p_end}
 {synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
 {synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
 {synopt:{opt 32}}  {help wbopendata_sourceid_indicators32##sourceid_32:Global Financial Development}{p_end}
@@ -37,7 +36,6 @@
 {synopt:{opt 43}}  {help wbopendata_sourceid_indicators43##sourceid_43:Adjusted Net Savings}{p_end}
 {synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
 {synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
 {synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
 {synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
 {synopt:{opt 60}}  {help wbopendata_sourceid_indicators60##sourceid_60:Economic Fitness}{p_end}
@@ -46,8 +44,6 @@
 {synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
 {synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
 {synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
-{synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
-{synopt:{opt 68}}  {help wbopendata_sourceid_indicators68##sourceid_68:PEFA 2016}{p_end}
 {synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
 {synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
 {synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
@@ -58,12 +54,13 @@
 {synopt:{opt 80}}  {help wbopendata_sourceid_indicators80##sourceid_80:Gender Disaggregated Labor Database (GDLD)}{p_end}
 {synopt:{opt 81}}  {help wbopendata_sourceid_indicators81##sourceid_81:International Debt Statistics: DSSI}{p_end}
 {synopt:{opt 82}}  {help wbopendata_sourceid_indicators82##sourceid_82:Global Public Procurement}{p_end}
-{synopt:{opt 84}}  {help wbopendata_sourceid_indicators84##sourceid_84:Education Policy}{p_end}
 {synopt:{opt 86}}  {help wbopendata_sourceid_indicators86##sourceid_86:Global Jobs Indicators Database (JOIN)}{p_end}
 {synopt:{opt 87}}  {help wbopendata_sourceid_indicators87##sourceid_87:Country Climate and Development Report (CCDR)}{p_end}
 {synopt:{opt 88}}  {help wbopendata_sourceid_indicators88##sourceid_88:Food Prices for Nutrition}{p_end}
 {synopt:{opt 89}}  {help wbopendata_sourceid_indicators89##sourceid_89:Identification for Development (ID4D) Data}{p_end}
 {synopt:{opt 91}}  {help wbopendata_sourceid_indicators91##sourceid_91:PEFA_CRPFM}{p_end}
+{synopt:{opt 92}}  {help wbopendata_sourceid_indicators92##sourceid_92:Disability Data Hub (DDH)}{p_end}
+{synopt:{opt 93}}  {help wbopendata_sourceid_indicators93##sourceid_93:FPN Datahub Archive}{p_end}
 
 
 {marker sourceid_57}
@@ -71,6 +68,19 @@
 
 {synoptset 25 tabbed}{...}
 {syntab:{title:{bf:57 WDI Database Archives}}}
+{synoptline}
+{marker sourceid_AG.AGR.TRAC.NO}
+{synopt:{bf:{help wbopendata_sourceid##AG.AGR.TRAC.NO:AG.AGR.TRAC.NO} - Agricultural machinery, tractors}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+
+{synopt:{opt Source Notes}}Agricultural machinery refers to the number of wheel and crawler tractors (excluding garden tractors) in use in agriculture at the end of the calendar year specified or during the first quarter of the following year.{p_end}
+
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+
+
 {synoptline}
 {marker sourceid_AG.CON.FERT.MT}
 {synopt:{bf:{help wbopendata_sourceid##AG.CON.FERT.MT:AG.CON.FERT.MT} - Fertilizer consumption (metric tons)}}
@@ -165,6 +175,19 @@
 {synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_AG.LND.TRAC.ZS}
+{synopt:{bf:{help wbopendata_sourceid##AG.LND.TRAC.ZS:AG.LND.TRAC.ZS} - Agricultural machinery, tractors per 100 sq. km of arable land}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+
+{synopt:{opt Source Notes}}Agricultural machinery refers to the number of wheel and crawler tractors (excluding garden tractors) in use in agriculture at the end of the calendar year specified or during the first quarter of the following year. Arable land includes land{p_end}
+
+{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
 
 
 {synoptline}
@@ -1153,7 +1176,7 @@
 
 {synoptline}
 {marker sourceid_DT.AXA.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.AXA.DPPG.CD:DT.AXA.DPPG.CD} - Principal arrears, long-term DOD (US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.AXA.DPPG.CD:DT.AXA.DPPG.CD} - Principal arrears, public and publicly guaranteed (current US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1262,7 +1285,7 @@
 
 {synoptline}
 {marker sourceid_DT.IXA.DPPG.CD}
-{synopt:{bf:{help wbopendata_sourceid##DT.IXA.DPPG.CD:DT.IXA.DPPG.CD} - Interest arrears, long-term DOD (US$)}}
+{synopt:{bf:{help wbopendata_sourceid##DT.IXA.DPPG.CD:DT.IXA.DPPG.CD} - Interest arrears, public and publicly guaranteed (current US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -1700,7 +1723,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Access to non-solid fuel, rural is the percentage of rural population with access to non-solid fuel.{p_end}
 
@@ -1713,7 +1736,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Access to non-solid fuel, urban is the percentage of urban population with access to non-solid fuel.{p_end}
 
@@ -1782,6 +1805,19 @@
 
 
 {synoptline}
+{marker sourceid_EN.ATM.CO2E.EG.ZS}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.EG.ZS:EN.ATM.CO2E.EG.ZS} - CO2 intensity (kg per kg of oil equivalent energy use)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}19 Climate Change{p_end}
+
+{synopt:{opt Source Notes}}Carbon dioxide emissions from solid fuel consumption refer mainly to emissions from use of coal as an energy source.{p_end}
+
+{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+
+
+{synoptline}
 {marker sourceid_EN.ATM.CO2E.GDP}
 {synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.GDP:EN.ATM.CO2E.GDP} - CO2 emissions, industrial (kg per 1987 US$ of GDP)}}
 
@@ -1791,6 +1827,32 @@
 {synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.CO2E.GF.KT}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.GF.KT:EN.ATM.CO2E.GF.KT} - CO2 emissions from gaseous fuel consumption (kt)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Carbon dioxide emissions from liquid fuel consumption refer mainly to emissions from use of natural gas as an energy source.{p_end}
+
+{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.CO2E.GF.ZS}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.GF.ZS:EN.ATM.CO2E.GF.ZS} - CO2 emissions from gaseous fuel consumption (% of total)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Carbon dioxide emissions from liquid fuel consumption refer mainly to emissions from use of natural gas as an energy source.{p_end}
+
+{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
 
 
 {synoptline}
@@ -1806,6 +1868,253 @@
 
 
 {synoptline}
+{marker sourceid_EN.ATM.CO2E.KD.GD}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD} - CO2 emissions (kg per 2010 US$ of GDP)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}19 Climate Change{p_end}
+
+{synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
+
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions. See NY.GDP.MKTP.KD for the denominator's source.{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.CO2E.KT}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.KT:EN.ATM.CO2E.KT} - CO2 emissions (kt)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
+
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.CO2E.LF.KT}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.LF.KT:EN.ATM.CO2E.LF.KT} - CO2 emissions from liquid fuel consumption (kt)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
+
+{synopt:{opt Source Notes}}Carbon dioxide emissions from liquid fuel consumption refer mainly to emissions from use of petroleum-derived fuels as an energy source.{p_end}
+
+{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.CO2E.LF.ZS}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.LF.ZS:EN.ATM.CO2E.LF.ZS} - CO2 emissions from liquid fuel consumption (% of total)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Carbon dioxide emissions from liquid fuel consumption refer mainly to emissions from use of petroleum-derived fuels as an energy source.{p_end}
+
+{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.CO2E.PC}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.PC:EN.ATM.CO2E.PC} - CO2 emissions (metric tons per capita)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
+
+{synopt:{opt Source Organization}}Emissions data are sourced from Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.CO2E.PP.GD}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.PP.GD:EN.ATM.CO2E.PP.GD} - CO2 emissions (kg per PPP $ of GDP)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}19 Climate Change{p_end}
+
+{synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
+
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions. See NY.GDP.MKTP.PP.CD for the denominator's source.{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.CO2E.PP.GD.KD}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD} - CO2 emissions (kg per 2011 PPP $ of GDP)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
+
+{synopt:{opt Source Organization}}Climate Watch. 2020. GHG Emissions. Washington, DC: World Resources Institute. Available at: https://www.climatewatchdata.org/ghg-emissions. See NY.GDP.MKTP.PP.KD for the denominator's source.{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.CO2E.SF.KT}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.SF.KT:EN.ATM.CO2E.SF.KT} - CO2 emissions from solid fuel consumption (kt)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}19 Climate Change{p_end}
+
+{synopt:{opt Source Notes}}Carbon dioxide emissions from solid fuel consumption refer mainly to emissions from use of coal as an energy source.{p_end}
+
+{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.CO2E.SF.ZS}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.CO2E.SF.ZS:EN.ATM.CO2E.SF.ZS} - CO2 emissions from solid fuel consumption (% of total)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}19 Climate Change{p_end}
+
+{synopt:{opt Source Notes}}Carbon dioxide emissions from solid fuel consumption refer mainly to emissions from use of coal as an energy source.{p_end}
+
+{synopt:{opt Source Organization}}Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, Tennessee, United States.{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.GHGO.KT.CE}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.GHGO.KT.CE:EN.ATM.GHGO.KT.CE} - Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Other greenhouse gas emissions are by-product emissions of hydrofluorocarbons, perfluorocarbons, and sulfur hexafluoride.{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.GHGO.ZG}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.GHGO.ZG:EN.ATM.GHGO.ZG} - Other greenhouse gas emissions (% change from 1990)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}19 Climate Change{p_end}
+
+{synopt:{opt Source Notes}}Other greenhouse gas emissions are by-product emissions of hydrofluorocarbons, perfluorocarbons, and sulfur hexafluoride. Each year of data shows the percentage change to that year from 1990.{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.GHGT.KT.CE}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.GHGT.KT.CE:EN.ATM.GHGT.KT.CE} - Total greenhouse gas emissions (kt of CO2 equivalent)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Total greenhouse gas emissions in kt of CO2 equivalent are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and savanna burning) but including other biomass burning (such as forest fires, post-bu{p_end}
+
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.GHGT.ZG}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.GHGT.ZG:EN.ATM.GHGT.ZG} - Total greenhouse gas emissions (% change from 1990)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}19 Climate Change{p_end}
+
+{synopt:{opt Source Notes}}Total greenhouse gas emissions are composed of CO2 totals excluding short-cycle biomass burning (such as agricultural waste burning and savanna burning) but including other biomass burning (such as forest fires, post-burn decay, peat fires and{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.HFCG.KT.CE}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.HFCG.KT.CE:EN.ATM.HFCG.KT.CE} - HFC gas emissions (thousand metric tons of CO2 equivalent)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}19 Climate Change{p_end}
+
+{synopt:{opt Source Notes}}Hydrofluorocarbons, used as a replacement for chlorofluorocarbons, are used mainly in refrigeration and semiconductor manufacturing.{p_end}
+
+{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.METH.AG.KT.CE}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.METH.AG.KT.CE:EN.ATM.METH.AG.KT.CE} - Agricultural methane emissions (thousand metric tons of CO2 equivalent)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Agricultural methane emissions are emissions from animals, animal waste, rice production, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
+
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.METH.AG.ZS}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.METH.AG.ZS:EN.ATM.METH.AG.ZS} - Agricultural methane emissions (% of total)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Agricultural methane emissions are emissions from animals, animal waste, rice production, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.METH.EG.KT.CE}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.METH.EG.KT.CE:EN.ATM.METH.EG.KT.CE} - Methane emissions in energy sector (thousand metric tons of CO2 equivalent)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
+
+{synopt:{opt Source Notes}}Methane emissions from energy processes are emissions from the production, handling, transmission, and combustion of fossil fuels and biofuels.{p_end}
+
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.METH.EG.ZS}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.METH.EG.ZS:EN.ATM.METH.EG.ZS} - Energy related methane emissions (% of total)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
+
+{synopt:{opt Source Notes}}Methane emissions from energy processes are emissions from the production, handling, transmission, and combustion of fossil fuels and biofuels.{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.METH.KT.CE}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.METH.KT.CE:EN.ATM.METH.KT.CE} - Methane emissions (kt of CO2 equivalent)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Methane emissions are those stemming from human activities such as agriculture and from industrial methane production.{p_end}
+
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
+
+
+{synoptline}
 {marker sourceid_EN.ATM.METH.PC}
 {synopt:{bf:{help wbopendata_sourceid##EN.ATM.METH.PC:EN.ATM.METH.PC} - Methane emissions (kt of CO2 equivalent per capita)}}
 
@@ -1815,6 +2124,71 @@
 {synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.METH.ZG}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.METH.ZG:EN.ATM.METH.ZG} - Methane emissions (% change from 1990)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}19 Climate Change{p_end}
+
+{synopt:{opt Source Notes}}Methane emissions are those stemming from human activities such as agriculture and from industrial methane production. Each year of data shows the percentage change to that year from 1990.{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.NOXE.AG.KT.CE}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.NOXE.AG.KT.CE:EN.ATM.NOXE.AG.KT.CE} - Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+
+{synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
+
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.NOXE.AG.ZS}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.NOXE.AG.ZS:EN.ATM.NOXE.AG.ZS} - Agricultural nitrous oxide emissions (% of total)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+
+{synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.NOXE.EG.KT.CE}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.NOXE.EG.KT.CE:EN.ATM.NOXE.EG.KT.CE} - Nitrous oxide emissions in energy sector (thousand metric tons of CO2 equivalent)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Nitrous oxide emissions from energy processes are emissions produced by the combustion of fossil fuels and biofuels.{p_end}
+
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.NOXE.EG.ZS}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.NOXE.EG.ZS:EN.ATM.NOXE.EG.ZS} - Nitrous oxide emissions in energy sector (% of total)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
+
+{synopt:{opt Source Notes}}Nitrous oxide emissions from energy processes are emissions produced by the combustion of fossil fuels and biofuels.{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
 
 
 {synoptline}
@@ -1842,6 +2216,19 @@
 
 
 {synoptline}
+{marker sourceid_EN.ATM.NOXE.KT.CE}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.NOXE.KT.CE:EN.ATM.NOXE.KT.CE} - Nitrous oxide emissions (thousand metric tons of CO2 equivalent)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Nitrous oxide emissions are emissions from agricultural biomass burning, industrial activities, and livestock management.{p_end}
+
+{synopt:{opt Source Organization}}Climate Watch Historical GHG Emissions (1990-2020). 2023. Washington, DC: World Resources Institute. Available online at: https://www.climatewatchdata.org/ghg-emissions{p_end}
+
+
+{synoptline}
 {marker sourceid_EN.ATM.NOXE.MT.CE}
 {synopt:{bf:{help wbopendata_sourceid##EN.ATM.NOXE.MT.CE:EN.ATM.NOXE.MT.CE} - Nitrous oxide emissions (metric tons of CO2 equivalent)}}
 
@@ -1866,6 +2253,32 @@
 
 
 {synoptline}
+{marker sourceid_EN.ATM.NOXE.ZG}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.NOXE.ZG:EN.ATM.NOXE.ZG} - Nitrous oxide emissions (% change from 1990)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}19 Climate Change{p_end}
+
+{synopt:{opt Source Notes}}Nitrous oxide emissions are emissions from agricultural biomass burning, industrial activities, and livestock management. Each year of data shows the percentage change to that year from 1990.{p_end}
+
+{synopt:{opt Source Organization}}World Bank staff estimates from original source: European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}.{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.PFCG.KT.CE}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.PFCG.KT.CE:EN.ATM.PFCG.KT.CE} - PFC gas emissions (thousand metric tons of CO2 equivalent)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Perfluorocarbons, used as a replacement for chlorofluorocarbons in manufacturing semiconductors, are a byproduct of aluminum smelting and uranium enrichment.{p_end}
+
+{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
+
+
+{synoptline}
 {marker sourceid_EN.ATM.PM10.MC.M3}
 {synopt:{bf:{help wbopendata_sourceid##EN.ATM.PM10.MC.M3:EN.ATM.PM10.MC.M3} - PM10, country level (micrograms per cubic meter)}}
 
@@ -1875,6 +2288,19 @@
 {synopt:{opt Source Notes}}Particulate matter concentrations refer to fine suspended particulates less than 10 microns in diameter (PM10) that are capable of penetrating deep into the respiratory tract and causing significant health damage. Data for countries and aggreg{p_end}
 
 {synopt:{opt Source Organization}}Kiran Dev Pandey, David Wheeler, Bart Ostro, Uwe Deichmann, Kirk Hamilton, and Katherine Bolt. Ambient Particulate Matter Concentrations in Residential and Pollution Hotspot Areas of World Cities: New Estimates Based on the Global Model of Amb{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.ATM.SF6G.KT.CE}
+{synopt:{bf:{help wbopendata_sourceid##EN.ATM.SF6G.KT.CE:EN.ATM.SF6G.KT.CE} - SF6 gas emissions (thousand metric tons of CO2 equivalent)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Sulfur hexafluoride is used largely to insulate high-voltage electric power equipment.{p_end}
+
+{synopt:{opt Source Organization}}European Commission, Joint Research Centre (JRC)/Netherlands Environmental Assessment Agency (PBL). Emission Database for Global Atmospheric Research (EDGAR): {browse "http://edgar.jrc.ec.europa.eu/"}{p_end}
 
 
 {synoptline}
@@ -1890,6 +2316,19 @@
 
 
 {synoptline}
+{marker sourceid_EN.CLC.GHGR.MT.CE}
+{synopt:{bf:{help wbopendata_sourceid##EN.CLC.GHGR.MT.CE:EN.CLC.GHGR.MT.CE} - GHG net emissions/removals by LUCF (Mt of CO2 equivalent)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}GHG net emissions/removals by LUCF refers to changes in atmospheric levels of all greenhouse gases attributable to forest and land-use change activities, including but not limited to (1) emissions and removals of CO2 from decreases or increase{p_end}
+
+{synopt:{opt Source Organization}}United Nations Framework Convention on Climate Change.{p_end}
+
+
+{synoptline}
 {marker sourceid_EN.CO2.BLDG.MT}
 {synopt:{bf:{help wbopendata_sourceid##EN.CO2.BLDG.MT:EN.CO2.BLDG.MT} - CO2 emissions from residential buildings and commercial and public services (million metric tons)}}
 
@@ -1899,6 +2338,19 @@
 {synopt:{opt Source Notes}}CO2 emissions from residential buildings and commercial and public services contains all emissions from fuel combustion in households. This corresponds to IPCC Source/Sink Category 1 A 4 b. Commercial and public services includes emissions fro{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.CO2.BLDG.ZS}
+{synopt:{bf:{help wbopendata_sourceid##EN.CO2.BLDG.ZS:EN.CO2.BLDG.ZS} - CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}CO2 emissions from residential buildings and commercial and public services contains all emissions from fuel combustion in households. This corresponds to IPCC Source/Sink Category 1 A 4 b. Commercial and public services includes emissions fro{p_end}
+
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -1914,6 +2366,19 @@
 
 
 {synoptline}
+{marker sourceid_EN.CO2.ETOT.ZS}
+{synopt:{bf:{help wbopendata_sourceid##EN.CO2.ETOT.ZS:EN.CO2.ETOT.ZS} - CO2 emissions from electricity and heat production, total (% of total fuel combustion)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}CO2 emissions from electricity and heat production is the sum of three IEA categories of CO2 emissions: (1) Main Activity Producer Electricity and Heat which contains the sum of emissions from main activity producer electricity generation, com{p_end}
+
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+
+
+{synoptline}
 {marker sourceid_EN.CO2.MANF.MT}
 {synopt:{bf:{help wbopendata_sourceid##EN.CO2.MANF.MT:EN.CO2.MANF.MT} - CO2 emissions from manufacturing industries and construction (million metric tons)}}
 
@@ -1923,6 +2388,19 @@
 {synopt:{opt Source Notes}}CO2 emissions from manufacturing industries and construction contains the emissions from combustion of fuels in industry. The IPCC Source/Sink Category 1 A 2 includes these emissions. However, in the 1996 IPCC Guidelines, the IPCC category als{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.CO2.MANF.ZS}
+{synopt:{bf:{help wbopendata_sourceid##EN.CO2.MANF.ZS:EN.CO2.MANF.ZS} - CO2 emissions from manufacturing industries and construction (% of total fuel combustion)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}CO2 emissions from manufacturing industries and construction contains the emissions from combustion of fuels in industry. The IPCC Source/Sink Category 1 A 2 includes these emissions. However, in the 1996 IPCC Guidelines, the IPCC category als{p_end}
+
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -1938,6 +2416,19 @@
 
 
 {synoptline}
+{marker sourceid_EN.CO2.OTHX.ZS}
+{synopt:{bf:{help wbopendata_sourceid##EN.CO2.OTHX.ZS:EN.CO2.OTHX.ZS} - CO2 emissions from other sectors, excluding residential buildings and commercial and public services (% of total fuel combustion)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}CO2 emissions from other sectors, less residential buildings and commercial and public services, contains the emissions from commercial/institutional activities, residential, agriculture/forestry, fishing and other emissions not specified else{p_end}
+
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+
+
+{synoptline}
 {marker sourceid_EN.CO2.TRAN.MT}
 {synopt:{bf:{help wbopendata_sourceid##EN.CO2.TRAN.MT:EN.CO2.TRAN.MT} - CO2 emissions from transport (million metric tons)}}
 
@@ -1947,6 +2438,19 @@
 {synopt:{opt Source Notes}}CO2 emissions from transport contains emissions from the combustion of fuel for all transport activity, regardless of the sector, except for international marine bunkers and international aviation. This includes domestic aviation, domestic nav{p_end}
 
 {synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (http://www.iea.org/stats/index.asp), subject to {browse "https://www.iea.org/t&amp;c/termsandconditions/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_EN.CO2.TRAN.ZS}
+{synopt:{bf:{help wbopendata_sourceid##EN.CO2.TRAN.ZS:EN.CO2.TRAN.ZS} - CO2 emissions from transport (% of total fuel combustion)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}CO2 emissions from transport contains emissions from the combustion of fuel for all transport activity, regardless of the sector, except for international marine bunkers and international aviation. This includes domestic aviation, domestic nav{p_end}
+
+{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
 
 
 {synoptline}
@@ -2130,18 +2634,6 @@
 
 
 {synoptline}
-{marker sourceid_EN.ROD.TRAF}
-{synopt:{bf:{help wbopendata_sourceid##EN.ROD.TRAF:EN.ROD.TRAF} - Road traffic (vehicles per km)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
 {marker sourceid_EN.RUR.DNST.TOTL}
 {synopt:{bf:{help wbopendata_sourceid##EN.RUR.DNST.TOTL:EN.RUR.DNST.TOTL} - Population density, rural (people per sq km)}}
 
@@ -2178,39 +2670,29 @@
 
 
 {synoptline}
-{marker sourceid_EN.TRN.ACCT.VEH.ZS}
-{synopt:{bf:{help wbopendata_sourceid##EN.TRN.ACCT.VEH.ZS:EN.TRN.ACCT.VEH.ZS} - Traffic accidents (injured or killed per 1,000 vehicles)}}
+{marker sourceid_EP.PMP.DESL.CD}
+{synopt:{bf:{help wbopendata_sourceid##EP.PMP.DESL.CD:EP.PMP.DESL.CD} - Pump price for diesel fuel (US$ per liter)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Fuel prices refer to the pump prices of the most widely sold grade of diesel fuel. Prices have been converted from the local currency to U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}German Agency for International Cooperation (GIZ).{p_end}
 
 
 {synoptline}
-{marker sourceid_EN.TRN.NVEH.1K}
-{synopt:{bf:{help wbopendata_sourceid##EN.TRN.NVEH.1K:EN.TRN.NVEH.1K} - Vehicles (per 1,000 people)}}
+{marker sourceid_EP.PMP.SGAS.CD}
+{synopt:{bf:{help wbopendata_sourceid##EP.PMP.SGAS.CD:EP.PMP.SGAS.CD} - Pump price for gasoline (US$ per liter)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
-{synopt:{opt Source Notes}}{p_end}
+{synopt:{opt Source Notes}}Fuel prices refer to the pump prices of the most widely sold grade of gasoline. Prices have been converted from the local currency to U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_EN.TRN.NVEH.KM}
-{synopt:{bf:{help wbopendata_sourceid##EN.TRN.NVEH.KM:EN.TRN.NVEH.KM} - Vehicles (per km of road)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
+{synopt:{opt Source Organization}}German Agency for International Cooperation (GIZ).{p_end}
 
 
 {synoptline}
@@ -3993,6 +4475,45 @@
 
 
 {synoptline}
+{marker sourceid_IC.BUS.DFRN.XQ}
+{synopt:{bf:{help wbopendata_sourceid##IC.BUS.DFRN.XQ:IC.BUS.DFRN.XQ} - Distance to frontier score (0=lowest performance to 100=frontier)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}The ease of doing business scores benchmark economies with respect to regulatory best practice, showing the proximity to the best regulatory performance on each Doing Business indicator. An economy’s score is indicated on a scale from 0 to 1{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.BUS.DISC.XQ}
+{synopt:{bf:{help wbopendata_sourceid##IC.BUS.DISC.XQ:IC.BUS.DISC.XQ} - Business extent of disclosure index (0=less disclosure to 10=more disclosure)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Disclosure index measures the extent to which investors are protected through disclosure of ownership and financial information. The index ranges from 0 to 10, with higher values indicating more disclosure.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.BUS.EASE.XQ}
+{synopt:{bf:{help wbopendata_sourceid##IC.BUS.EASE.XQ:IC.BUS.EASE.XQ} - Ease of doing business index (1=most business-friendly regulations)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. The ranking of economies is determined by sorting the aggregate ease of doing business scores. A high ranking (a low numerical rank) means that the regulato{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
 {marker sourceid_IC.BUS.NREG.ZS}
 {synopt:{bf:{help wbopendata_sourceid##IC.BUS.NREG.ZS:IC.BUS.NREG.ZS} - Business entry rate (new registrations as % of total)}}
 
@@ -4017,6 +4538,19 @@
 
 
 {synoptline}
+{marker sourceid_IC.CRD.INFO.XQ}
+{synopt:{bf:{help wbopendata_sourceid##IC.CRD.INFO.XQ:IC.CRD.INFO.XQ} - Depth of credit information index (0=low to 8=high)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}07 Financial Sector{p_end}
+
+{synopt:{opt Source Notes}}Depth of credit information index measures rules affecting the scope, accessibility, and quality of credit information available through public or private credit registries. The index ranges from 0 to 8, with higher values indicating the avail{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
 {marker sourceid_IC.CRD.PRVT.P3}
 {synopt:{bf:{help wbopendata_sourceid##IC.CRD.PRVT.P3:IC.CRD.PRVT.P3} - Private credit bureau coverage (borrowers per 1,000 adults)}}
 
@@ -4026,6 +4560,19 @@
 {synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.CRD.PRVT.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.CRD.PRVT.ZS:IC.CRD.PRVT.ZS} - Private credit bureau coverage (% of adults)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Private credit bureau coverage reports the number of individuals or firms listed by a private credit bureau with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the adul{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -4041,6 +4588,32 @@
 
 
 {synoptline}
+{marker sourceid_IC.CRD.PUBL.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.CRD.PUBL.ZS:IC.CRD.PUBL.ZS} - Public credit registry coverage (% of adults)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Public credit registry coverage reports the number of individuals and firms listed in a public credit registry with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the a{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.ELC.OUTG}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.OUTG:IC.ELC.OUTG} - Power outages in firms in a typical month (number)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Power outages are the average number of power outages that establishments experience in a typical month.{p_end}
+
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "http://www.enterprisesurveys.org/"}{p_end}
+
+
+{synoptline}
 {marker sourceid_IC.ELC.OUTG.DY}
 {synopt:{bf:{help wbopendata_sourceid##IC.ELC.OUTG.DY:IC.ELC.OUTG.DY} - Electrical outages (days)}}
 
@@ -4050,6 +4623,19 @@
 {synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.ELC.TIME}
+{synopt:{bf:{help wbopendata_sourceid##IC.ELC.TIME:IC.ELC.TIME} - Time required to get electricity (days)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
+
+{synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -4070,11 +4656,37 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Cost measures the fees levied on a 20-foot container in U.S. dollars. All the fees associated with completing the procedures to export or import the goods are included. These include costs for documents, administrative fees for customs clearan{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.EXP.CSBC.CD}
+{synopt:{bf:{help wbopendata_sourceid##IC.EXP.CSBC.CD:IC.EXP.CSBC.CD} - Cost to export, border compliance (US$)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}21 Trade{p_end}
+
+{synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.EXP.CSDC.CD}
+{synopt:{bf:{help wbopendata_sourceid##IC.EXP.CSDC.CD:IC.EXP.CSDC.CD} - Cost to export, documentary compliance (US$)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}21 Trade{p_end}
+
+{synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -4083,7 +4695,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}All documents required per shipment to export goods are recorded. It is assumed that the contract has already been agreed upon and signed by both parties. Documents required for clearance by government ministries, customs authorities, port and{p_end}
 
@@ -4104,16 +4716,120 @@
 
 
 {synoptline}
-{marker sourceid_IC.IMP.COST.CD}
-{synopt:{bf:{help wbopendata_sourceid##IC.IMP.COST.CD:IC.IMP.COST.CD} - Cost to import (US$ per container)}}
+{marker sourceid_IC.EXP.TMBC}
+{synopt:{bf:{help wbopendata_sourceid##IC.EXP.TMBC:IC.EXP.TMBC} - Time to export, border compliance (hours)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.EXP.TMDC}
+{synopt:{bf:{help wbopendata_sourceid##IC.EXP.TMDC:IC.EXP.TMDC} - Time to export, documentary compliance (hours)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}21 Trade{p_end}
 
+{synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.FRM.CRIM.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.CRIM.ZS:IC.FRM.CRIM.ZS} - Losses due to theft and vandalism (% of annual sales for affected firms)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Average losses as a result of theft, robbery, vandalism or arson that occurred on the establishment’s premises calculated as a percentage of annual sales. The value represents the average losses for all firms which reported losses (please se{p_end}
+
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "http://www.enterprisesurveys.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.FRM.INFM.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.INFM.ZS:IC.FRM.INFM.ZS} - Firms that do not report all sales for tax purposes (% of firms)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Firms that do not report all sales for tax purposes are the percentage of firms that expressed that a typical firm reports less than 100 percent of sales for tax purposes; such firms are termed informal firms.{p_end}
+
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "http://www.enterprisesurveys.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.FRM.RSDV.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.RSDV.ZS:IC.FRM.RSDV.ZS} - Firms that spend on R&amp;D (% of firms)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Percent of firms that spend on research and development.{p_end}
+
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "http://www.enterprisesurveys.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.FRM.THEV.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.FRM.THEV.ZS:IC.FRM.THEV.ZS} - Firms experiencing losses due to theft and vandalism (% of firms)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Percent of firms experiencing losses due to theft, robbery, vandalism or arson that occurred on the establishment's premises.{p_end}
+
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "http://www.enterprisesurveys.org/"}{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.IMP.COST.CD}
+{synopt:{bf:{help wbopendata_sourceid##IC.IMP.COST.CD:IC.IMP.COST.CD} - Cost to import (US$ per container)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
 {synopt:{opt Source Notes}}Cost measures the fees levied on a 20-foot container in U.S. dollars. All the fees associated with completing the procedures to export or import the goods are included. These include costs for documents, administrative fees for customs clearan{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.IMP.CSBC.CD}
+{synopt:{bf:{help wbopendata_sourceid##IC.IMP.CSBC.CD:IC.IMP.CSBC.CD} - Cost to import, border compliance (US$)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}21 Trade{p_end}
+
+{synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.IMP.CSDC.CD}
+{synopt:{bf:{help wbopendata_sourceid##IC.IMP.CSDC.CD:IC.IMP.CSDC.CD} - Cost to import, documentary compliance (US$)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -4140,6 +4856,71 @@
 {synopt:{opt Source Notes}}Time to import is the time necessary to comply with all procedures required to import goods. Time is recorded in calendar days. The time calculation for a procedure starts from the moment it is initiated and runs until it is completed. If a pr{p_end}
 
 {synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.IMP.TMBC}
+{synopt:{bf:{help wbopendata_sourceid##IC.IMP.TMBC:IC.IMP.TMBC} - Time to import, border compliance (hours)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.IMP.TMDC}
+{synopt:{bf:{help wbopendata_sourceid##IC.IMP.TMDC:IC.IMP.TMDC} - Time to import, documentary compliance (hours)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.ISV.DURS}
+{synopt:{bf:{help wbopendata_sourceid##IC.ISV.DURS:IC.ISV.DURS} - Time to resolve insolvency (years)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Time to resolve insolvency is the number of years from the filing for insolvency in court until the resolution of distressed assets.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.LGL.CRED.XQ}
+{synopt:{bf:{help wbopendata_sourceid##IC.LGL.CRED.XQ:IC.LGL.CRED.XQ} - Strength of legal rights index (0=weak to 12=strong)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Strength of legal rights index measures the degree to which collateral and bankruptcy laws protect the rights of borrowers and lenders and thus facilitate lending. The index ranges from 0 to 12, with higher scores indicating that these laws ar{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.LGL.DURS}
+{synopt:{bf:{help wbopendata_sourceid##IC.LGL.DURS:IC.LGL.DURS} - Time required to enforce a contract (days)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Time required to enforce a contract is the number of calendar days from the filing of the lawsuit in court until the final determination and, in appropriate cases, payment.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
 
 
 {synoptline}
@@ -4179,6 +4960,149 @@
 
 
 {synoptline}
+{marker sourceid_IC.PRP.DURS}
+{synopt:{bf:{help wbopendata_sourceid##IC.PRP.DURS:IC.PRP.DURS} - Time required to register property (days)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Time required to register property is the number of calendar days needed for businesses to secure rights to property.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.PRP.PROC}
+{synopt:{bf:{help wbopendata_sourceid##IC.PRP.PROC:IC.PRP.PROC} - Procedures to register property (number)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Number of procedures to register property is the number of procedures required for a businesses to secure rights to property.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.REG.COST.PC.FE.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.COST.PC.FE.ZS:IC.REG.COST.PC.FE.ZS} - Cost of business start-up procedures, female (% of GNI per capita)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Cost to register a business is normalized by presenting it as a percentage of gross national income (GNI) per capita.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.REG.COST.PC.MA.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.COST.PC.MA.ZS:IC.REG.COST.PC.MA.ZS} - Cost of business start-up procedures, male (% of GNI per capita)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Cost to register a business is normalized by presenting it as a percentage of gross national income (GNI) per capita.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.REG.COST.PC.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.COST.PC.ZS:IC.REG.COST.PC.ZS} - Cost of business start-up procedures (% of GNI per capita)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Cost to register a business is normalized by presenting it as a percentage of gross national income (GNI) per capita.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.REG.DURS}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.DURS:IC.REG.DURS} - Time required to start a business (days)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Time required to start a business is the number of calendar days needed to complete the procedures to legally operate a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.REG.DURS.FE}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.DURS.FE:IC.REG.DURS.FE} - Time required to start a business, female (days)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Time required to start a business is the number of calendar days needed to complete the procedures to legally operate a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.REG.DURS.MA}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.DURS.MA:IC.REG.DURS.MA} - Time required to start a business, male (days)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Time required to start a business is the number of calendar days needed to complete the procedures to legally operate a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.REG.PROC}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.PROC:IC.REG.PROC} - Start-up procedures to register a business (number)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.REG.PROC.FE}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.PROC.FE:IC.REG.PROC.FE} - Start-up procedures to register a business, female (number)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.REG.PROC.MA}
+{synopt:{bf:{help wbopendata_sourceid##IC.REG.PROC.MA:IC.REG.PROC.MA} - Start-up procedures to register a business, male (number)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
 {marker sourceid_IC.SME.EMPL.ZS}
 {synopt:{bf:{help wbopendata_sourceid##IC.SME.EMPL.ZS:IC.SME.EMPL.ZS} - MSME employment (% of total employment)}}
 
@@ -4215,6 +5139,84 @@
 
 
 {synoptline}
+{marker sourceid_IC.TAX.DURS}
+{synopt:{bf:{help wbopendata_sourceid##IC.TAX.DURS:IC.TAX.DURS} - Time to prepare and pay taxes (hours)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}Time to prepare and pay taxes is the time, in hours per year, it takes to prepare, file, and pay (or withhold) three major types of taxes: the corporate income tax, the value added or sales tax, and labor taxes, including payroll taxes and soc{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.TAX.LABR.CP.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.TAX.LABR.CP.ZS:IC.TAX.LABR.CP.ZS} - Labor tax and contributions (% of commercial profits)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Labor tax and contributions is the amount of taxes and mandatory contributions on labor paid by the business.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.TAX.OTHR.CP.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.TAX.OTHR.CP.ZS:IC.TAX.OTHR.CP.ZS} - Other taxes payable by businesses (% of commercial profits)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Other taxes payable by businesses include the amounts paid for property taxes, turnover taxes, and other small taxes such as municipal fees and vehicle and fuel taxes.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.TAX.PAYM}
+{synopt:{bf:{help wbopendata_sourceid##IC.TAX.PAYM:IC.TAX.PAYM} - Tax payments (number)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Tax payments by businesses are the total number of taxes paid by businesses, including electronic filing. The tax is counted as paid once a year even if payments are more frequent.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.TAX.PRFT.CP.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.TAX.PRFT.CP.ZS:IC.TAX.PRFT.CP.ZS} - Profit tax (% of commercial profits)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Profit tax is the amount of taxes on profits paid by the business.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.TAX.TOTL.CP.ZS}
+{synopt:{bf:{help wbopendata_sourceid##IC.TAX.TOTL.CP.ZS:IC.TAX.TOTL.CP.ZS} - Total tax rate (% of commercial profits)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Total tax rate measures the amount of taxes and mandatory contributions payable by businesses after accounting for allowable deductions and exemptions as a share of commercial profits. Taxes withheld (such as personal income tax) or collected{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
 {marker sourceid_IC.TAX.TOTL.GP.ZS}
 {synopt:{bf:{help wbopendata_sourceid##IC.TAX.TOTL.GP.ZS:IC.TAX.TOTL.GP.ZS} - Total tax payable by businesses (% of gross profit)}}
 
@@ -4227,12 +5229,38 @@
 
 
 {synoptline}
+{marker sourceid_IC.WRH.DURS}
+{synopt:{bf:{help wbopendata_sourceid##IC.WRH.DURS:IC.WRH.DURS} - Time required to build a warehouse (days)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Time required to build a warehouse is the number of calendar days needed to complete the required procedures for building a warehouse. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
+{marker sourceid_IC.WRH.PROC}
+{synopt:{bf:{help wbopendata_sourceid##IC.WRH.PROC:IC.WRH.PROC} - Procedures to build a warehouse (number)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}12 Private Sector{p_end}
+
+{synopt:{opt Source Notes}}Number of procedures to build a warehouse is the number of interactions of a company's employees or managers with external parties, including government agency staff, public inspectors, notaries, land registry and cadastre staff, and technical{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+
+
+{synoptline}
 {marker sourceid_IE.PPI.TELE.CD}
 {synopt:{bf:{help wbopendata_sourceid##IE.PPI.TELE.CD:IE.PPI.TELE.CD} - Investment in telecoms with private participation (current US$)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Investment  in telecom projects with private participation refers to commitments to infrastructure projects in telecommunications that have reached financial closure and directly or indirectly serve the public. Movable assets and small project{p_end}
 
@@ -4325,6 +5353,58 @@
 {synopt:{opt Source Notes}}{p_end}
 
 {synopt:{opt Source Organization}}{p_end}
+
+
+{synoptline}
+{marker sourceid_IQ.SCI.MTHD}
+{synopt:{bf:{help wbopendata_sourceid##IQ.SCI.MTHD:IQ.SCI.MTHD} - Methodology assessment of statistical capacity (scale 0 - 100)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The methodology indicator measures a country’s ability to adhere to internationally recommended standards and methods. The methodology score is calculated as the weighted average of 10 underlying indicator scores. The final methodology score{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Bulletin Board on Statistical Capacity ({browse "http://bbsc.worldbank.org"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IQ.SCI.OVRL}
+{synopt:{bf:{help wbopendata_sourceid##IQ.SCI.OVRL:IQ.SCI.OVRL} - Overall level of statistical capacity (scale 0 - 100)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The Statistical Capacity Indicator is a composite score assessing the capacity of a country’s statistical system. It is based on a diagnostic framework assessing the following areas: methodology; data sources; and periodicity and timeliness.{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Bulletin Board on Statistical Capacity ({browse "http://bbsc.worldbank.org"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IQ.SCI.PRDC}
+{synopt:{bf:{help wbopendata_sourceid##IQ.SCI.PRDC:IQ.SCI.PRDC} - Periodicity and timeliness assessment of statistical capacity (scale 0 - 100)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The periodicity and timeliness indicator assesses the availability and periodicity of key socioeconomic indicators. It measures the extent to which data are made accessible to users through transformation of source data into timely statistical{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Bulletin Board on Statistical Capacity ({browse "http://bbsc.worldbank.org"}).{p_end}
+
+
+{synoptline}
+{marker sourceid_IQ.SCI.SRCE}
+{synopt:{bf:{help wbopendata_sourceid##IQ.SCI.SRCE:IQ.SCI.SRCE} - Source data assessment of statistical capacity (scale 0 - 100)}}
+
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
+
+{synopt:{opt Topics}}13 Public Sector{p_end}
+
+{synopt:{opt Source Notes}}The source data indicator reflects whether a country conducts data collection activities in line with internationally recommended periodicity, and whether data from administrative systems are available. The source data score is calculated as t{p_end}
+
+{synopt:{opt Source Organization}}World Bank, Bulletin Board on Statistical Capacity ({browse "http://bbsc.worldbank.org"}).{p_end}
 
 
 {synoptline}
@@ -4438,18 +5518,6 @@
 
 
 {synoptline}
-{marker sourceid_IS.ROD.NORM.XD}
-{synopt:{bf:{help wbopendata_sourceid##IS.ROD.NORM.XD:IS.ROD.NORM.XD} - Roads, normalized index (100 = expected total length)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
 {marker sourceid_IS.ROD.SGAS.KT}
 {synopt:{bf:{help wbopendata_sourceid##IS.ROD.SGAS.KT:IS.ROD.SGAS.KT} - Road sector gasoline fuel consumption (kt of oil equivalent)}}
 
@@ -4471,18 +5539,6 @@
 {synopt:{opt Source Notes}}Gasoline is light hydrocarbon oil use in internal combustion engine such as motor vehicles, excluding aircraft.{p_end}
 
 {synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
-
-
-{synoptline}
-{marker sourceid_IS.ROD.TRAF}
-{synopt:{bf:{help wbopendata_sourceid##IS.ROD.TRAF:IS.ROD.TRAF} - Road traffic (million vehicle-km)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
 
 
 {synoptline}
@@ -4572,18 +5628,6 @@
 {synoptline}
 {marker sourceid_IS.RRS.TRFF.PF}
 {synopt:{bf:{help wbopendata_sourceid##IS.RRS.TRFF.PF:IS.RRS.TRFF.PF} - Ratio of rail passenger tariffs to freight tariffs}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_IS.VEH.2CYL.P3}
-{synopt:{bf:{help wbopendata_sourceid##IS.VEH.2CYL.P3:IS.VEH.2CYL.P3} - Two-wheelers (per 1,000 people)}}
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
@@ -7064,462 +8108,6 @@
 
 
 {synoptline}
-{marker sourceid_SE.ADT.1524.IL.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.ADT.1524.IL.FE.ZS:SE.ADT.1524.IL.FE.ZS} - Illiteracy rate, youth female (% of females ages 15-24)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.ADT.1524.IL.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.ADT.1524.IL.MA.ZS:SE.ADT.1524.IL.MA.ZS} - Illiteracy rate, youth male (% of males ages 15-24)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.ADT.1524.IL.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.ADT.1524.IL.ZS:SE.ADT.1524.IL.ZS} - Illiteracy rate, youth total (% of people ages 15-24)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.ADT.ILIT.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.ADT.ILIT.FE.ZS:SE.ADT.ILIT.FE.ZS} - Illiteracy rate, adult female (% of females ages 15 and above)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.ADT.ILIT.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.ADT.ILIT.MA.ZS:SE.ADT.ILIT.MA.ZS} - Illiteracy rate, adult male (% of males ages 15 and above)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.ADT.ILIT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.ADT.ILIT.ZS:SE.ADT.ILIT.ZS} - Illiteracy rate, adult total (% of people ages 15 and above)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.ENR.PRIM.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.ENR.PRIM.ZS:SE.ENR.PRIM.ZS} - School Enroll. Ratio, primary school (%)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.ENR.SECO.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.ENR.SECO.ZS:SE.ENR.SECO.ZS} - School Enroll. Ratio, secondary school (%)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.PRM.AGEE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.AGEE.ZS:SE.PRM.AGEE.ZS} - Age efficiency, primary (net enrollment as % of gross)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.PRM.CMPR.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.CMPR.FE.ZS:SE.PRM.CMPR.FE.ZS} - Primary completion rate, female (% of relevant age group, DHS/MICS)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Primary completion rate. Female is the total number of female students of any age in the last grade of primary school, minus the number of female repeaters in that grade, divided by the number of female children of official graduation age.{p_end}
-
-{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
-
-
-{synoptline}
-{marker sourceid_SE.PRM.CMPR.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.CMPR.MA.ZS:SE.PRM.CMPR.MA.ZS} - Primary completion rate, male (% of relevant age group, DHS/MICS)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Primary completion rate. Male is the total number of male students of any age in the last grade of primary school, minus the number of male repeaters in that grade, divided by the number of male children of official graduation age.{p_end}
-
-{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
-
-
-{synoptline}
-{marker sourceid_SE.PRM.CMPR.Q1.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.CMPR.Q1.ZS:SE.PRM.CMPR.Q1.ZS} - Primary completion rate, poorest quintile (% of relevant age group, DHS/MICS)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Primary completion rate. Quintile 1 (lowest) is the total number of quintile 1 students of any age in the last grade of primary school, minus the number of quintile 1 repeaters in that grade, divided by the number of quintile 1 children of off{p_end}
-
-{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
-
-
-{synoptline}
-{marker sourceid_SE.PRM.CMPR.Q5.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.CMPR.Q5.ZS:SE.PRM.CMPR.Q5.ZS} - Primary completion rate, richest quintile (% of relevant age group, DHS/MICS)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Primary completion rate. Quintile 5 (highest) is the total number of quintile 5 students of any age in the last grade of primary school, minus the number of quintile 5 repeaters in that grade, divided by the number of quintile 5 children of of{p_end}
-
-{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
-
-
-{synoptline}
-{marker sourceid_SE.PRM.CMPR.RU.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.CMPR.RU.ZS:SE.PRM.CMPR.RU.ZS} - Primary completion rate, rural (% of relevant age group, DHS/MICS)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Primary completion rate. Rural is the total number of rural students of any age in the last grade of primary school, minus the number of rural repeaters in that grade, divided by the number of rural children of official graduation age.{p_end}
-
-{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
-
-
-{synoptline}
-{marker sourceid_SE.PRM.CMPR.UR.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.CMPR.UR.ZS:SE.PRM.CMPR.UR.ZS} - Primary completion rate, urban (% of relevant age group, DHS/MICS)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Primary completion rate. Urban is the total number of urban students of any age in the last grade of primary school, minus the number of urban repeaters in that grade, divided by the number of urban children of official graduation age.{p_end}
-
-{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
-
-
-{synoptline}
-{marker sourceid_SE.PRM.ENNR.FE}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.ENNR.FE:SE.PRM.ENNR.FE} - Primary Schl. Enroll. Ratio, Female}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.PRM.ENRR.MF}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.ENRR.MF:SE.PRM.ENRR.MF} - School Enroll. Ratio, primary (%)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.PRM.PRS4.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.PRS4.FE.ZS:SE.PRM.PRS4.FE.ZS} - Persistence to grade 4, female (% of cohort)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.PRM.PRS4.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.PRS4.MA.ZS:SE.PRM.PRS4.MA.ZS} - Persistence to grade 4, male (% of cohort)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.PRM.PRS4.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.PRS4.ZS:SE.PRM.PRS4.ZS} - Persistence to grade 4, total (% of cohort)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.PRM.PTRA}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.PTRA:SE.PRM.PTRA} - Primary school pupil-teacher ratio}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.PRM.UNER.Q1.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.UNER.Q1.ZS:SE.PRM.UNER.Q1.ZS} - Children out of school, primary, poorest quintile (% of relevant age group, DHS/MICS)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 1 (lowest) is the number of quintile 1 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 1 children of t{p_end}
-
-{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
-
-
-{synoptline}
-{marker sourceid_SE.PRM.UNER.Q5.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.PRM.UNER.Q5.ZS:SE.PRM.UNER.Q5.ZS} - Children out of school, primary, richest quintile (% of relevant age group, DHS/MICS)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Proportion of out-of-school. Primary. Quintile 5 (highest) is the number of quintile 5 children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of quintile 5 children of{p_end}
-
-{synopt:{opt Source Organization}}World Bank EdStats database ({browse "http://datatopics.worldbank.org/education/"}){p_end}
-
-
-{synoptline}
-{marker sourceid_SE.SCH.EFIC.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.SCH.EFIC.ZS:SE.SCH.EFIC.ZS} - Education coefficient of efficiency (ideal years to graduate as % of actual)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.SEC.AGEE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.AGEE.ZS:SE.SEC.AGEE.ZS} - Age efficiency, secondary (net enrollment as % of gross)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.SEC.ENRR.MF}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.ENRR.MF:SE.SEC.ENRR.MF} - School Enroll. Ratio, secondary (%)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.SEC.REPT.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.REPT.FE.ZS:SE.SEC.REPT.FE.ZS} - Repeaters, secondary, female (% of female enrollment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Repeaters in secondary school are the number of students enrolled in the same grade as in the previous year, as a percentage of all students enrolled in secondary school.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.SEC.REPT.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.REPT.MA.ZS:SE.SEC.REPT.MA.ZS} - Repeaters, secondary, male (% of male enrollment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Repeaters in secondary school are the number of students enrolled in the same grade as in the previous year, as a percentage of all students enrolled in secondary school.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.SEC.REPT.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.REPT.ZS:SE.SEC.REPT.ZS} - Repeaters, secondary, total (% of total enrollment)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}Repeaters in secondary school are the number of students enrolled in the same grade as in the previous year, as a percentage of all students enrolled in secondary school.{p_end}
-
-{synopt:{opt Source Organization}}United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.SEC.TCHR.GC}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.TCHR.GC:SE.SEC.TCHR.GC} - Secondary education, general teachers}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.SEC.TCHR.GC.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.TCHR.GC.FE.ZS:SE.SEC.TCHR.GC.FE.ZS} - Secondary education, general teachers (% female)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.SEC.TCHR.VO}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.TCHR.VO:SE.SEC.TCHR.VO} - Secondary education, vocational teachers}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.SEC.TCHR.VO.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.TCHR.VO.FE.ZS:SE.SEC.TCHR.VO.FE.ZS} - Secondary education, vocational teachers (% female)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.SEC.UNER}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.UNER:SE.SEC.UNER} - Children out of school, secondary}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.SEC.UNER.FE}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.UNER.FE:SE.SEC.UNER.FE} - Children out of school, secondary, female}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.SEC.UNER.FE.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.UNER.FE.ZS:SE.SEC.UNER.FE.ZS} - Children out of school, secondary, female (% of relevant age group)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.SEC.UNER.MA}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.UNER.MA:SE.SEC.UNER.MA} - Children out of school, secondary, male}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
-{marker sourceid_SE.SEC.UNER.MA.ZS}
-{synopt:{bf:{help wbopendata_sourceid##SE.SEC.UNER.MA.ZS:SE.SEC.UNER.MA.ZS} - Children out of school, secondary, male (% of relevant age group)}}
-
-{synopt:{opt Source}}57 WDI Database Archives{p_end}
-
-
-{synopt:{opt Source Notes}}{p_end}
-
-{synopt:{opt Source Organization}}{p_end}
-
-
-{synoptline}
 {marker sourceid_allsa.bi_q1}
 {synopt:{bf:{help wbopendata_sourceid##allsa.bi_q1:allsa.bi_q1} - Benefit incidence of social safety net programs to poorest quintile (% of total safety net benefits)}}
 
@@ -7664,4 +8252,4 @@
 
 
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

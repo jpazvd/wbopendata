@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -49,7 +49,7 @@
 
 {synopt:{opt Source Notes}}Agricultural land refers to the share of land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), tempora{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -62,7 +62,7 @@
 
 {synopt:{opt Source Notes}}Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily fallow. Land abandoned{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and website, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -75,7 +75,7 @@
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the total rural land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
@@ -88,7 +88,7 @@
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the percentage of total land where the rural land elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
@@ -101,7 +101,7 @@
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the total urban land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
@@ -114,7 +114,7 @@
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the percentage of total land where the urban land elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
@@ -127,7 +127,7 @@
 
 {synopt:{opt Source Notes}}Land area below 5m is the percentage of total land where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
@@ -138,9 +138,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
+{synopt:{opt Source Notes}}data/RL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAOSTAT, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://www.fao.org/faostat/en/"}{p_end}
 
 
 {synoptline}
@@ -151,9 +151,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
+{synopt:{opt Source Notes}}data/RL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAOSTAT, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://www.fao.org/faostat/en/"}{p_end}
 
 
 {synoptline}
@@ -166,7 +166,7 @@
 
 {synopt:{opt Source Notes}}Average precipitation is the long-term average in depth (over space and time) of annual precipitation in the country. Precipitation is defined as any kind of water that falls from clouds as a liquid or a solid.{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAOSTAT, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -177,9 +177,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Land area is a country's total area, excluding area under inland water bodies, national claims to continental shelf, and exclusive economic zones. In most cases the definition of inland water bodies includes major rivers and lakes.{p_end}
+{synopt:{opt Source Notes}}data/RL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAOSTAT, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://www.fao.org/faostat/en/"}{p_end}
 
 
 {synoptline}
@@ -192,7 +192,7 @@
 
 {synopt:{opt Source Notes}}Rural land area in square kilometers, derived from urban extent grids which distinguish urban and rural areas based on a combination of population counts (persons), settlement points, and the presence of Nighttime Lights. Areas are defined as{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 2, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
@@ -203,9 +203,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Urban land area in square kilometers, based on a combination of population counts (persons), settlement points, and the presence of Nighttime Lights. Areas are defined as urban where contiguous lighted cells from the Nighttime Lights or approx{p_end}
+{synopt:{opt Source Notes}}Urban land area in square kilometers, based on a combination of population counts (persons), settlement points, and the presence of nighttime lights. Areas are defined as urban where contiguous lighted cells from the nighttime lights or approx{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network (CIESIN)/Columbia University. 2013. Urban-Rural Population and Land Area Estimates Version 2. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). {browse "http://sedac.ciesi"}{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 2, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://www.earthdata.nasa.gov/data/catalog/sedac-cies"}{p_end}
 
 
 {synoptline}
@@ -218,7 +218,7 @@
 
 {synopt:{opt Source Notes}}Surface area is a country's total area, including areas under inland bodies of water and some coastal waterways.{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, electronic files and web site.{p_end}
+{synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -244,7 +244,7 @@
 
 {synopt:{opt Source Notes}}Access to clean fuels and technologies for cooking, rural is the proportion of rural population primarily using clean cooking fuels and technologies for cooking. Under WHO guidelines, kerosene is excluded from clean cooking fuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
+{synopt:{opt Source Organization}}Tracking SDG 7: The Energy Progress Report, International Energy Agency (IEA), note: License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO);{p_end}
 
 
 {synoptline}
@@ -257,7 +257,7 @@
 
 {synopt:{opt Source Notes}}Access to clean fuels and technologies for cooking, urban is the proportion of urban population primarily using clean cooking fuels and technologies for cooking. Under WHO guidelines, kerosene is excluded from clean cooking fuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
+{synopt:{opt Source Organization}}Tracking SDG 7: The Energy Progress Report, International Energy Agency (IEA), note: License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO);{p_end}
 
 
 {synoptline}
@@ -270,12 +270,12 @@
 
 {synopt:{opt Source Notes}}Access to clean fuels and technologies for cooking is the proportion of total population primarily using clean cooking fuels and technologies for cooking. Under WHO guidelines, kerosene is excluded from clean cooking fuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
+{synopt:{opt Source Organization}}Tracking SDG 7: The Energy Progress Report, International Energy Agency (IEA), International Renewable Energy Agency (IRENA), United Nations Statistical Division (UNSD), World Bank, World Health Organization (WHO), uri: {browse "https://trackingsdg7.es"}{p_end}
 
 
 {synoptline}
 {marker topicid_EG.EGY.PRIM.PP.KD}
-{synopt:{bf:{help wbopendata_topicid##EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD} - Energy intensity level of primary energy (MJ/$2017 PPP GDP)}}
+{synopt:{bf:{help wbopendata_topicid##EG.EGY.PRIM.PP.KD:EG.EGY.PRIM.PP.KD} - Energy intensity level of primary energy (MJ/$2021 PPP GDP)}}
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
@@ -283,7 +283,7 @@
 
 {synopt:{opt Source Notes}}Energy intensity level of primary energy is the ratio between energy supply and gross domestic product measured at purchasing power parity. Energy intensity is an indication of how much energy is used to produce one unit of economic output. Lo{p_end}
 
-{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
+{synopt:{opt Source Organization}}Tracking SDG 7: The Energy Progress Report, International Energy Agency (IEA), note: License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO);{p_end}
 
 
 {synoptline}
@@ -296,7 +296,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity is the percentage of population with access to electricity. Electrification data are collected from industry, national surveys and international sources.{p_end}
 
-{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
+{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads,"} note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
 
 
 {synoptline}
@@ -307,9 +307,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products. Gas refers to natural gas but excludes natural gas liquids. Coal refers to all coal and brown coal, both primary (includin{p_end}
+{synopt:{opt Source Notes}}The share of electricity production from oil. gas and coal sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products. Gas refers to natural{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -322,7 +322,7 @@
 
 {synopt:{opt Source Notes}}Renewable electricity is the share of electrity generated by renewable power plants in total electricity generated by all types of plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2018 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -333,9 +333,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
+{synopt:{opt Source Notes}}Electricity production from renewable sources in kilowatt-hour (kWh), excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -346,9 +346,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
+{synopt:{opt Source Notes}}The share of electricity production from renewable sources of total electricity production. Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA Statistics © OECD/IEA 2014 (https://www.iea.org/data-and-statistics), subject to {browse "https://www.iea.org/terms/"}{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -361,7 +361,7 @@
 
 {synopt:{opt Source Notes}}Renewable energy consumption is the share of renewables energy in total final energy consumption.{p_end}
 
-{synopt:{opt Source Organization}}IEA, IRENA, UNSD, World Bank, WHO. 2023. Tracking SDG 7: The Energy Progress Report. World Bank, Washington DC. © World Bank. License: Creative Commons Attribution—NonCommercial 3.0 IGO (CC BY-NC 3.0 IGO).{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -381,7 +381,7 @@
 {marker topicid_EN.ATM.CO2E.EG.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.EG.ZS:EN.ATM.CO2E.EG.ZS} - CO2 intensity (kg per kg of oil equivalent energy use)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -394,7 +394,7 @@
 {marker topicid_EN.ATM.CO2E.GF.KT}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.GF.KT:EN.ATM.CO2E.GF.KT} - CO2 emissions from gaseous fuel consumption (kt)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -407,7 +407,7 @@
 {marker topicid_EN.ATM.CO2E.GF.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.GF.ZS:EN.ATM.CO2E.GF.ZS} - CO2 emissions from gaseous fuel consumption (% of total)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -418,9 +418,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.KD.GD}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD} - CO2 emissions (kg per 2015 US$ of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KD.GD:EN.ATM.CO2E.KD.GD} - CO2 emissions (kg per 2010 US$ of GDP)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -433,7 +433,7 @@
 {marker topicid_EN.ATM.CO2E.KT}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.KT:EN.ATM.CO2E.KT} - CO2 emissions (kt)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -446,7 +446,7 @@
 {marker topicid_EN.ATM.CO2E.LF.KT}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.LF.KT:EN.ATM.CO2E.LF.KT} - CO2 emissions from liquid fuel consumption (kt)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -459,7 +459,7 @@
 {marker topicid_EN.ATM.CO2E.LF.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.LF.ZS:EN.ATM.CO2E.LF.ZS} - CO2 emissions from liquid fuel consumption (% of total)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -472,7 +472,7 @@
 {marker topicid_EN.ATM.CO2E.PC}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PC:EN.ATM.CO2E.PC} - CO2 emissions (metric tons per capita)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -485,7 +485,7 @@
 {marker topicid_EN.ATM.CO2E.PP.GD}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD:EN.ATM.CO2E.PP.GD} - CO2 emissions (kg per PPP $ of GDP)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -496,9 +496,9 @@
 
 {synoptline}
 {marker topicid_EN.ATM.CO2E.PP.GD.KD}
-{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD} - CO2 emissions (kg per 2021 PPP $ of GDP)}}
+{synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.PP.GD.KD:EN.ATM.CO2E.PP.GD.KD} - CO2 emissions (kg per 2011 PPP $ of GDP)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -511,7 +511,7 @@
 {marker topicid_EN.ATM.CO2E.SF.KT}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.SF.KT:EN.ATM.CO2E.SF.KT} - CO2 emissions from solid fuel consumption (kt)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -524,7 +524,7 @@
 {marker topicid_EN.ATM.CO2E.SF.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.CO2E.SF.ZS:EN.ATM.CO2E.SF.ZS} - CO2 emissions from solid fuel consumption (% of total)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -537,7 +537,7 @@
 {marker topicid_EN.ATM.GHGO.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGO.KT.CE:EN.ATM.GHGO.KT.CE} - Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -550,7 +550,7 @@
 {marker topicid_EN.ATM.GHGO.ZG}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGO.ZG:EN.ATM.GHGO.ZG} - Other greenhouse gas emissions (% change from 1990)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -563,7 +563,7 @@
 {marker topicid_EN.ATM.GHGT.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGT.KT.CE:EN.ATM.GHGT.KT.CE} - Total greenhouse gas emissions (kt of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -576,7 +576,7 @@
 {marker topicid_EN.ATM.GHGT.ZG}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.GHGT.ZG:EN.ATM.GHGT.ZG} - Total greenhouse gas emissions (% change from 1990)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -589,7 +589,7 @@
 {marker topicid_EN.ATM.HFCG.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.HFCG.KT.CE:EN.ATM.HFCG.KT.CE} - HFC gas emissions (thousand metric tons of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -602,7 +602,7 @@
 {marker topicid_EN.ATM.METH.AG.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.AG.KT.CE:EN.ATM.METH.AG.KT.CE} - Agricultural methane emissions (thousand metric tons of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -615,7 +615,7 @@
 {marker topicid_EN.ATM.METH.AG.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.AG.ZS:EN.ATM.METH.AG.ZS} - Agricultural methane emissions (% of total)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -628,7 +628,7 @@
 {marker topicid_EN.ATM.METH.EG.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.EG.KT.CE:EN.ATM.METH.EG.KT.CE} - Methane emissions in energy sector (thousand metric tons of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -641,7 +641,7 @@
 {marker topicid_EN.ATM.METH.EG.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.EG.ZS:EN.ATM.METH.EG.ZS} - Energy related methane emissions (% of total)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -667,7 +667,7 @@
 {marker topicid_EN.ATM.METH.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.KT.CE:EN.ATM.METH.KT.CE} - Methane emissions (kt of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -680,7 +680,7 @@
 {marker topicid_EN.ATM.METH.ZG}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.METH.ZG:EN.ATM.METH.ZG} - Methane emissions (% change from 1990)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -693,7 +693,7 @@
 {marker topicid_EN.ATM.NOXE.AG.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.AG.KT.CE:EN.ATM.NOXE.AG.KT.CE} - Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -706,7 +706,7 @@
 {marker topicid_EN.ATM.NOXE.AG.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.AG.ZS:EN.ATM.NOXE.AG.ZS} - Agricultural nitrous oxide emissions (% of total)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -719,7 +719,7 @@
 {marker topicid_EN.ATM.NOXE.EG.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.EG.KT.CE:EN.ATM.NOXE.EG.KT.CE} - Nitrous oxide emissions in energy sector (thousand metric tons of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -732,7 +732,7 @@
 {marker topicid_EN.ATM.NOXE.EG.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.EG.ZS:EN.ATM.NOXE.EG.ZS} - Nitrous oxide emissions in energy sector (% of total)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -758,7 +758,7 @@
 {marker topicid_EN.ATM.NOXE.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.KT.CE:EN.ATM.NOXE.KT.CE} - Nitrous oxide emissions (thousand metric tons of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -771,7 +771,7 @@
 {marker topicid_EN.ATM.NOXE.ZG}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.NOXE.ZG:EN.ATM.NOXE.ZG} - Nitrous oxide emissions (% change from 1990)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -784,7 +784,7 @@
 {marker topicid_EN.ATM.PFCG.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.PFCG.KT.CE:EN.ATM.PFCG.KT.CE} - PFC gas emissions (thousand metric tons of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -803,7 +803,7 @@
 
 {synopt:{opt Source Notes}}Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of{p_end}
 
-{synopt:{opt Source Organization}}Global Burden of Disease Collaborative Network. 2021. Global Burden of Disease Study 2019 (GBD 2019) Air Pollution Exposure Estimates 1990-2019. Seattle, United States of America: Institute for Health Metrics and Evaluation (IHME). {browse "https://doi"}{p_end}
+{synopt:{opt Source Organization}}Global Burden of Disease Study 2021 (GBD 2021) Air Pollution Exposure Estimates 1990-2021, Institute for Health Metrics and Evaluation (IHME), uri: {browse "https://ghdx.healthdata.org/record/ihme-data/gbd-2021-air-pollution-exposure-estimates-1990-202"}{p_end}
 
 
 {synoptline}
@@ -816,7 +816,7 @@
 
 {synopt:{opt Source Notes}}Percent of population exposed to ambient concentrations of PM2.5 that exceed the World Health Organization (WHO) Interim Target 1 (IT-1) is defined as the portion of a country’s population living in places where mean annual concentrations of{p_end}
 
-{synopt:{opt Source Organization}}Brauer, M. et al. 2017, for the Global Burden of Disease Study 2017.{p_end}
+{synopt:{opt Source Organization}}Global Burden of Disease Study 2017 (GBD 2017), Institute for Health Metrics and Evaluation (IHME), uri: {browse "https://ghdx.healthdata.org/gbd-2017,"} publisher: Institute for Health Metrics and Evaluation (IHME), date published: 202112{p_end}
 
 
 {synoptline}
@@ -842,7 +842,7 @@
 
 {synopt:{opt Source Notes}}Percent of population exposed to ambient concentrations of PM2.5 that exceed the World Health Organization (WHO) Interim Target 3 (IT-3) is defined as the portion of a country’s population living in places where mean annual concentrations of{p_end}
 
-{synopt:{opt Source Organization}}Brauer, M. et al. 2017, for the Global Burden of Disease Study 2017.{p_end}
+{synopt:{opt Source Organization}}Global Burden of Disease Study 2017 (GBD 2017), Institute for Health Metrics and Evaluation (IHME), uri: {browse "https://ghdx.healthdata.org/gbd-2017,"} publisher: Institute for Health Metrics and Evaluation (IHME), date published: 202112{p_end}
 
 
 {synoptline}
@@ -855,14 +855,14 @@
 
 {synopt:{opt Source Notes}}Percent of population exposed to ambient concentrations of PM2.5 that exceed the WHO guideline value is defined as the portion of a country’s population living in places where mean annual concentrations of PM2.5 are greater than 10 microgram{p_end}
 
-{synopt:{opt Source Organization}}Brauer, M. et al. 2017, for the Global Burden of Disease Study 2017.{p_end}
+{synopt:{opt Source Organization}}Global Burden of Disease Study 2017 (GBD 2017), Institute for Health Metrics and Evaluation (IHME), uri: {browse "https://ghdx.healthdata.org/gbd-2017,"} publisher: Institute for Health Metrics and Evaluation (IHME), date published: 202112{p_end}
 
 
 {synoptline}
 {marker topicid_EN.ATM.SF6G.KT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.ATM.SF6G.KT.CE:EN.ATM.SF6G.KT.CE} - SF6 gas emissions (thousand metric tons of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -881,7 +881,7 @@
 
 {synopt:{opt Source Notes}}Birds are listed for countries included within their breeding or wintering ranges. Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminate, out of danger, or insufficiently known.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Environmental Program and the World Conservation Monitoring Centre, and International Union for Conservation of Nature, Red List of Threatened Species.{p_end}
+{synopt:{opt Source Organization}}The IUCN Red List of Threatened Species, UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), uri: {browse "https://www.iucnredlist.org/;"}{p_end}
 
 
 {synoptline}
@@ -894,14 +894,14 @@
 
 {synopt:{opt Source Notes}}Disaster risk reduction progress score is an average of self-assessment scores, ranging from 1 to 5, submitted by countries under Priority 1 of the Hyogo Framework National Progress Reports. The Hyogo Framework is a global blueprint for disast{p_end}
 
-{synopt:{opt Source Organization}}(UNISDR, 2009-2011 Progress Reports, {browse "http://www.preventionweb.net/english/hyogo)"}.{p_end}
+{synopt:{opt Source Organization}}2009-2011 Progress Reports, UN Office for Disaster Risk Reduction (UNDRR), uri: {browse "http://www.preventionweb.net/english/hyogo"}{p_end}
 
 
 {synoptline}
 {marker topicid_EN.CLC.GHGR.MT.CE}
 {synopt:{bf:{help wbopendata_topicid##EN.CLC.GHGR.MT.CE:EN.CLC.GHGR.MT.CE} - GHG net emissions/removals by LUCF (Mt of CO2 equivalent)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -920,14 +920,14 @@
 
 {synopt:{opt Source Notes}}Droughts, floods and extreme temperatures is the annual average percentage of the population that is affected by natural disasters classified as either droughts, floods, or extreme temperature events. A drought is an extended period of time ch{p_end}
 
-{synopt:{opt Source Organization}}EM-DAT: The OFDA/CRED International Disaster Database: {browse "www.emdat.be,"} Université Catholique de Louvain, Brussels (Belgium), World Bank.{p_end}
+{synopt:{opt Source Organization}}EM-DAT The International Disaster Database, Centre for Research on the Epidemiology of Disasters (CRED) - Université Catholique de Louvain, uri: {browse "https://www.emdat.be/"}{p_end}
 
 
 {synoptline}
 {marker topicid_EN.CO2.BLDG.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.CO2.BLDG.ZS:EN.CO2.BLDG.ZS} - CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -940,7 +940,7 @@
 {marker topicid_EN.CO2.ETOT.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.CO2.ETOT.ZS:EN.CO2.ETOT.ZS} - CO2 emissions from electricity and heat production, total (% of total fuel combustion)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -953,7 +953,7 @@
 {marker topicid_EN.CO2.MANF.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.CO2.MANF.ZS:EN.CO2.MANF.ZS} - CO2 emissions from manufacturing industries and construction (% of total fuel combustion)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -966,7 +966,7 @@
 {marker topicid_EN.CO2.OTHX.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.CO2.OTHX.ZS:EN.CO2.OTHX.ZS} - CO2 emissions from other sectors, excluding residential buildings and commercial and public services (% of total fuel combustion)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -979,7 +979,7 @@
 {marker topicid_EN.CO2.TRAN.ZS}
 {synopt:{bf:{help wbopendata_topicid##EN.CO2.TRAN.ZS:EN.CO2.TRAN.ZS} - CO2 emissions from transport (% of total fuel combustion)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
@@ -998,7 +998,566 @@
 
 {synopt:{opt Source Notes}}Fish species are based on Froese, R. and Pauly, D. (eds). 2008. Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminate, out of danger, or insufficiently known.{p_end}
 
-{synopt:{opt Source Organization}}Froese, R. and Pauly, D. (eds). 2008. FishBase database, {browse "www.fishbase.org"}.{p_end}
+{synopt:{opt Source Organization}}FishBase database, Froese, R. and Pauly, D. (eds)., uri: {browse "https://www.fishbase.org/,"} date published: 2008{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.ALL.LU.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.ALL.LU.MT.CE.AR5:EN.GHG.ALL.LU.MT.CE.AR5} - Total greenhouse gas emissions including LULUCF (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of the six greenhouse gases (GHG) covered by the Kyoto Protocol (carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), and sulphurhexafluoride (SF6)) from th{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.ALL.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.ALL.MT.CE.AR5:EN.GHG.ALL.MT.CE.AR5} - Total greenhouse gas emissions excluding LULUCF (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of the six greenhouse gases (GHG) covered by the Kyoto Protocol (carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), and sulphurhexafluoride (SF6)) from th{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.ALL.PC.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.ALL.PC.CE.AR5:EN.GHG.ALL.PC.CE.AR5} - Total greenhouse gas emissions excluding LULUCF per capita (t CO2e/capita)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Total annual emissions of the six greenhouse gases (GHG) covered by the Kyoto Protocol (carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), and sulphurhexafluoride (SF6)) from the energ{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CH4.AG.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CH4.AG.MT.CE.AR5:EN.GHG.CH4.AG.MT.CE.AR5} - Methane (CH4) emissions from Agriculture (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from the agricultural sector. This includes emissions from livestock (IPCC 2006 codes 3.A.1 (enteric fermentation, 3.a.2 (manure management) and crops{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CH4.BU.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CH4.BU.MT.CE.AR5:EN.GHG.CH4.BU.MT.CE.AR5} - Methane (CH4) emissions from Building (Energy) (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from the building sector (subsector of the energy sector) including IPCC 2006 codes 1.A.4 Residential and other sectors, 1.A.5 Non-Specified. The meas{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CH4.FE.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CH4.FE.MT.CE.AR5:EN.GHG.CH4.FE.MT.CE.AR5} - Methane (CH4) emissions from Fugitive Emissions (Energy) (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from fugitive emissions (subsector of the energy sector) including IPCC 2006 codes 1.A.1.bc Petroleum Refining - Manufacture of Solid Fuels and Other{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CH4.IC.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CH4.IC.MT.CE.AR5:EN.GHG.CH4.IC.MT.CE.AR5} - Methane (CH4) emissions from Industrial Combustion (Energy) (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from industrial combustion (subsector of the energy sector) including IPCC 2006 code 1.A.2 Manufacturing Industries and Construction. The measure is s{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CH4.IP.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CH4.IP.MT.CE.AR5:EN.GHG.CH4.IP.MT.CE.AR5} - Methane (CH4) emissions from Industrial Processes (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from industrial processes including IPCC 2006 codes 2.A.1 Cement production, 2.A.2 Lime production, 2.A.3 Glass Production, 2.A.4 Other Process Uses o{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CH4.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CH4.MT.CE.AR5:EN.GHG.CH4.MT.CE.AR5} - Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding LULUCF.. The measure is standardized to carbon dioxide equivalent values using{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CH4.PI.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CH4.PI.MT.CE.AR5:EN.GHG.CH4.PI.MT.CE.AR5} - Methane (CH4) emissions from Power Industry (Energy) (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from electricity and heat generation (subsector of the energy sector) including IPCC 2006 code 1.A.1.a. The measure is standardized to carbon dioxide{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CH4.TR.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CH4.TR.MT.CE.AR5:EN.GHG.CH4.TR.MT.CE.AR5} - Methane (CH4) emissions from Transport (Energy) (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from the transportation sector (subsector of the energy sector) including IPCC 2006 codes 1.A.3.a Civil Aviation, 1.A.3.b_noRES Road Transportation no{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CH4.WA.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CH4.WA.MT.CE.AR5:EN.GHG.CH4.WA.MT.CE.AR5} - Methane (CH4) emissions from Waste (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from the waste sector. This includes emissions from solid waste (IPCC 2006 codes 4.A Solid Waste Disposal, 4.B Biological Treatment of Solid Waste, 4.{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CH4.ZG.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CH4.ZG.AR5:EN.GHG.CH4.ZG.AR5} - Methane (CH4) emissions (total) excluding LULUCF (% change from 1990)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Change of emissions (as %) of current year with respect to emissions in baseline year 1990 emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding LULUCF..{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.AG.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.AG.MT.CE.AR5:EN.GHG.CO2.AG.MT.CE.AR5} - Carbon dioxide (CO2) emissions from Agriculture (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the agricultural sector. This includes emissions from livestock (IPCC 2006 codes 3.A.1 (enteric fermentation, 3.a.2 (manure management) an{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.BU.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.BU.MT.CE.AR5:EN.GHG.CO2.BU.MT.CE.AR5} - Carbon dioxide (CO2) emissions from Building (Energy) (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the building sector (subsector of the energy sector) including IPCC 2006 codes 1.A.4 Residential and other sectors, 1.A.5 Non-Specified. T{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.FE.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.FE.MT.CE.AR5:EN.GHG.CO2.FE.MT.CE.AR5} - Carbon dioxide (CO2) emissions from Fugitive Emissions (Energy) (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from fugitive emissions (subsector of the energy sector) including IPCC 2006 codes 1.A.1.bc Petroleum Refining - Manufacture of Solid Fuels and{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.IC.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.IC.MT.CE.AR5:EN.GHG.CO2.IC.MT.CE.AR5} - Carbon dioxide (CO2) emissions from Industrial Combustion (Energy) (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from industrial combustion (subsector of the energy sector) including IPCC 2006 code 1.A.2 Manufacturing Industries and Construction. The measu{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.IP.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.IP.MT.CE.AR5:EN.GHG.CO2.IP.MT.CE.AR5} - Carbon dioxide (CO2) emissions from Industrial Processes (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from industrial processes including IPCC 2006 codes 2.A.1 Cement production, 2.A.2 Lime production, 2.A.3 Glass Production, 2.A.4 Other Process{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.LU.DF.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.LU.DF.MT.CE.AR5:EN.GHG.CO2.LU.DF.MT.CE.AR5} - Carbon dioxide (CO2) net fluxes from LULUCF - Deforestation (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Net flux of carbon dioxide (CO2) in the category Deforestation.{p_end}
+
+{synopt:{opt Source Organization}}Carbon fluxes from land 2000–2020: bringing clarity on countries’ reporting, uri: {browse "https://doi.org/10.5194/essd-14-4643-2022,"} note: Data available from {browse "https://doi.org/10.5281/zenodo.7190605,"} publisher: Earth System Science Data (ESSD){p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.LU.FL.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.LU.FL.MT.CE.AR5:EN.GHG.CO2.LU.FL.MT.CE.AR5} - Carbon dioxide (CO2) net fluxes from LULUCF - Forest Land (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Net flux of carbon dioxide (CO2) in the category Forest land.{p_end}
+
+{synopt:{opt Source Organization}}Carbon fluxes from land 2000–2020: bringing clarity on countries’ reporting, uri: {browse "https://doi.org/10.5194/essd-14-4643-2022,"} note: Data available from {browse "https://doi.org/10.5281/zenodo.7190605,"} publisher: Earth System Science Data (ESSD){p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.LU.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.LU.MT.CE.AR5:EN.GHG.CO2.LU.MT.CE.AR5} - Carbon dioxide (CO2) net fluxes from LULUCF - Total excluding non-tropical fires (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Net flux of carbon dioxide (CO2) from Land Use, Land Use Change and Forestry LULUCF, excluding non-ropical fires at the country level.{p_end}
+
+{synopt:{opt Source Organization}}Carbon fluxes from land 2000–2020: bringing clarity on countries’ reporting, uri: {browse "https://doi.org/10.5194/essd-14-4643-2022,"} note: Data available from {browse "https://doi.org/10.5281/zenodo.7190605,"} publisher: Earth System Science Data (ESSD){p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.LU.OL.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.LU.OL.MT.CE.AR5:EN.GHG.CO2.LU.OL.MT.CE.AR5} - Carbon dioxide (CO2) net fluxes from LULUCF - Other Land (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Net flux of carbon dioxide (CO2) in the category Other land.{p_end}
+
+{synopt:{opt Source Organization}}Carbon fluxes from land 2000–2020: bringing clarity on countries’ reporting, uri: {browse "https://doi.org/10.5194/essd-14-4643-2022,"} note: Data available from {browse "https://doi.org/10.5281/zenodo.7190605,"} publisher: Earth System Science Data (ESSD){p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.LU.OS.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.LU.OS.MT.CE.AR5:EN.GHG.CO2.LU.OS.MT.CE.AR5} - Carbon dioxide (CO2) net fluxes from LULUCF - Organic Soil (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Net flux of carbon dioxide (CO2) in the category Organic soil.{p_end}
+
+{synopt:{opt Source Organization}}Carbon fluxes from land 2000–2020: bringing clarity on countries’ reporting, uri: {browse "https://doi.org/10.5194/essd-14-4643-2022,"} note: Data available from {browse "https://doi.org/10.5281/zenodo.7190605,"} publisher: Earth System Science Data (ESSD){p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.MT.CE.AR5:EN.GHG.CO2.MT.CE.AR5} - Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding LULUCF.. The measure is standardized to carbon dioxide equivalent values{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.PC.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.PC.CE.AR5:EN.GHG.CO2.PC.CE.AR5} - Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Total annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding LULUCF, standardized to carbon dioxide equivalent values divided by the economy{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.PI.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.PI.MT.CE.AR5:EN.GHG.CO2.PI.MT.CE.AR5} - Carbon dioxide (CO2) emissions from Power Industry (Energy) (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from electricity and heat generation (subsector of the energy sector) including IPCC 2006 code 1.A.1.a. The measure is standardized to carbon d{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.RT.GDP.KD}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.RT.GDP.KD:EN.GHG.CO2.RT.GDP.KD} - Carbon intensity of GDP (kg CO2e per constant 2015 US$ of GDP)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding LULUCF divided by the GDP in constant 2021 US$.{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.RT.GDP.PP.KD}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.RT.GDP.PP.KD:EN.GHG.CO2.RT.GDP.PP.KD} - Carbon intensity of GDP (kg CO2e per 2021 PPP $ of GDP)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding LULUCF divided by the GDP in 2021 PPP $.{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.TR.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.TR.MT.CE.AR5:EN.GHG.CO2.TR.MT.CE.AR5} - Carbon dioxide (CO2) emissions from Transport (Energy) (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the transportation sector (subsector of the energy sector) including IPCC 2006 codes 1.A.3.a Civil Aviation, 1.A.3.b_noRES Road Transporta{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.WA.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.WA.MT.CE.AR5:EN.GHG.CO2.WA.MT.CE.AR5} - Carbon dioxide (CO2) emissions from Waste (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the waste sector. This includes emissions from solid waste (IPCC 2006 codes 4.A Solid Waste Disposal, 4.B Biological Treatment of Solid Wa{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.CO2.ZG.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.CO2.ZG.AR5:EN.GHG.CO2.ZG.AR5} - Carbon dioxide (CO2) emissions (total) excluding LULUCF (% change from 1990)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Change of emissions (as %) of current year with respect to emissions in baseline year 1990 emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding L{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.FGAS.IP.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.FGAS.IP.MT.CE.AR5:EN.GHG.FGAS.IP.MT.CE.AR5} - F-gases emissions from Industrial Processes (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of fluorinated gases (hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), and sulphurhexafluoride (SF6)), from industrial processes including IPCC 2006 codes 2.B Chemical Industry, 2.C Metal Industry, 2.E Electron{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.N2O.AG.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.N2O.AG.MT.CE.AR5:EN.GHG.N2O.AG.MT.CE.AR5} - Nitrous oxide (N2O) emissions from Agriculture (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from the agricultural sector. This includes emissions from livestock (IPCC 2006 codes 3.A.1 (enteric fermentation, 3.a.2 (manure management) and{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.N2O.BU.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.N2O.BU.MT.CE.AR5:EN.GHG.N2O.BU.MT.CE.AR5} - Nitrous oxide (N2O) emissions from Building (Energy) (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from the building sector (subsector of the energy sector) including IPCC 2006 codes 1.A.4 Residential and other sectors, 1.A.5 Non-Specified. Th{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.N2O.FE.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.N2O.FE.MT.CE.AR5:EN.GHG.N2O.FE.MT.CE.AR5} - Nitrous oxide (N2O) emissions from Fugitive Emissions (Energy) (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from fugitive emissions (subsector of the energy sector) including IPCC 2006 codes 1.A.1.bc Petroleum Refining - Manufacture of Solid Fuels and{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.N2O.IC.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.N2O.IC.MT.CE.AR5:EN.GHG.N2O.IC.MT.CE.AR5} - Nitrous oxide (N2O) emissions from Industrial Combustion (Energy) (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from industrial combustion (subsector of the energy sector) including IPCC 2006 code 1.A.2 Manufacturing Industries and Construction. The measur{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.N2O.IP.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.N2O.IP.MT.CE.AR5:EN.GHG.N2O.IP.MT.CE.AR5} - Nitrous oxide (N2O) emissions from Industrial Processes (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from industrial processes including IPCC 2006 codes 2.A.1 Cement production, 2.A.2 Lime production, 2.A.3 Glass Production, 2.A.4 Other Process{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.N2O.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.N2O.MT.CE.AR5:EN.GHG.N2O.MT.CE.AR5} - Nitrous oxide (N2O) emissions (total) excluding LULUCF (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding LULUCF.. The measure is standardized to carbon dioxide equivalent values{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.N2O.PI.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.N2O.PI.MT.CE.AR5:EN.GHG.N2O.PI.MT.CE.AR5} - Nitrous oxide (N2O) emissions from Power Industry (Energy) (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from electricity and heat generation (subsector of the energy sector) including IPCC 2006 code 1.A.1.a. The measure is standardized to carbon di{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.N2O.TR.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.N2O.TR.MT.CE.AR5:EN.GHG.N2O.TR.MT.CE.AR5} - Nitrous oxide (N2O) emissions from Transport (Energy) (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from the transportation sector (subsector of the energy sector) including IPCC 2006 codes 1.A.3.a Civil Aviation, 1.A.3.b_noRES Road Transportat{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.N2O.WA.MT.CE.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.N2O.WA.MT.CE.AR5:EN.GHG.N2O.WA.MT.CE.AR5} - Nitrous oxide (N2O) emissions from Waste (Mt CO2e)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from the waste sector. This includes emissions from solid waste (IPCC 2006 codes 4.A Solid Waste Disposal, 4.B Biological Treatment of Solid Was{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.N2O.ZG.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.N2O.ZG.AR5:EN.GHG.N2O.ZG.AR5} - Nitrous oxide (N2O) emissions (total) excluding LULUCF (% change from 1990)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Change of emissions (as %) of current year with respect to emissions in baseline year 1990 emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding LU{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+
+
+{synoptline}
+{marker topicid_EN.GHG.TOT.ZG.AR5}
+{synopt:{bf:{help wbopendata_topicid##EN.GHG.TOT.ZG.AR5:EN.GHG.TOT.ZG.AR5} - Total greenhouse gas emissions excluding LULUCF (% change from 1990)}}
+
+{synopt:{opt Source}}02 World Development Indicators{p_end}
+
+{synopt:{opt Topics}}06 Environment{p_end}
+
+{synopt:{opt Source Notes}}Change of emissions (as %) of current year with respect to emissions in baseline year 1990 emissions of the six greenhouse gases (GHG) covered by the Kyoto Protocol (carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), hydrofluorocarbons{p_end}
+
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -1011,7 +1570,7 @@
 
 {synopt:{opt Source Notes}}Higher plants are native vascular plant species. Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminate, out of danger, or insufficiently known.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Environmental Program and the World Conservation Monitoring Centre, and International Union for Conservation of Nature, Red List of Threatened Species.{p_end}
+{synopt:{opt Source Organization}}The IUCN Red List of Threatened Species, UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), uri: {browse "https://www.iucnredlist.org/;"}{p_end}
 
 
 {synoptline}
@@ -1024,7 +1583,7 @@
 
 {synopt:{opt Source Notes}}Mammal species are mammals excluding whales and porpoises. Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminate, out of danger, or insufficiently known.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Environmental Program and the World Conservation Monitoring Centre, and International Union for Conservation of Nature, Red List of Threatened Species.{p_end}
+{synopt:{opt Source Organization}}The IUCN Red List of Threatened Species, UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), uri: {browse "https://www.iucnredlist.org/;"}{p_end}
 
 
 {synoptline}
@@ -1037,7 +1596,7 @@
 
 {synopt:{opt Source Notes}}Rural population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702,"} publisher: NASA Ear{p_end}
 
 
 {synoptline}
@@ -1050,7 +1609,7 @@
 
 {synopt:{opt Source Notes}}Urban population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702,"} publisher: NASA Ear{p_end}
 
 
 {synoptline}
@@ -1063,7 +1622,7 @@
 
 {synopt:{opt Source Notes}}Population below 5m is the percentage of the total population living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Center for International Earth Science Information Network - CIESIN - Columbia University, and CUNY Institute for Demographic Research - CIDR - City University of New York. 2021. Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Lan{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702,"} publisher: NASA Ear{p_end}
 
 
 {synoptline}
@@ -1076,7 +1635,7 @@
 
 {synopt:{opt Source Notes}}Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improve{p_end}
 
-{synopt:{opt Source Organization}}United Nations Human Settlements Programme (UN-HABITAT){p_end}
+{synopt:{opt Source Organization}}Urban Indicators Database, UN Human Settlements Programme (UN-Habitat), uri: {browse "https://data.unhabitat.org/"}{p_end}
 
 
 {synoptline}
@@ -1089,7 +1648,7 @@
 
 {synopt:{opt Source Notes}}Aquaculture is understood to mean the farming of aquatic organisms including fish, molluscs, crustaceans and aquatic plants. Aquaculture production specifically refers to output from aquaculture activities, which are designated for final harve{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization.{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization., Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -1102,7 +1661,7 @@
 
 {synopt:{opt Source Notes}}Capture fisheries production measures the volume of fish catches landed by a country for all commercial, industrial, recreational and subsistence purposes.{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization.{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization., Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -1115,7 +1674,7 @@
 
 {synopt:{opt Source Notes}}Total fisheries production measures the volume of aquatic species caught by a country for all commercial, industrial, recreational and subsistence purposes. The harvest from mariculture, aquaculture and other kinds of fish farming is also incl{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization.{p_end}
+{synopt:{opt Source Organization}}Food and Agriculture Organization., Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 
 {synoptline}
@@ -1128,7 +1687,7 @@
 
 {synopt:{opt Source Notes}}Water productivity is calculated as GDP in constant prices divided by annual total water withdrawal.{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO);{p_end}
 
 
 {synoptline}
@@ -1141,7 +1700,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -1154,7 +1713,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -1167,7 +1726,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -1180,7 +1739,7 @@
 
 {synopt:{opt Source Notes}}The level of water stress: freshwater withdrawal as a proportion of available freshwater resources is the ratio between total freshwater withdrawn by all major sectors and total renewable freshwater resources, after taking into account environ{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -1193,7 +1752,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -1206,7 +1765,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -1219,7 +1778,7 @@
 
 {synopt:{opt Source Notes}}Renewable internal freshwater resources flows refer to internal renewable resources (internal river flows and groundwater from rainfall) in the country.{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -1232,7 +1791,7 @@
 
 {synopt:{opt Source Notes}}Renewable internal freshwater resources flows refer to internal renewable resources (internal river flows and groundwater from rainfall) in the country. Renewable internal freshwater resources per capita are calculated using the World Bank's p{p_end}
 
-{synopt:{opt Source Organization}}Food and Agriculture Organization, AQUASTAT data.{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -1245,7 +1804,7 @@
 
 {synopt:{opt Source Notes}}Terrestrial protected areas are totally or partially protected areas of at least 1,000 hectares that are designated by national authorities as scientific reserves with limited public access, national parks, natural monuments, nature reserves o{p_end}
 
-{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, acad{p_end}
+{synopt:{opt Source Organization}}Protected Planet: The World Database on Protected Areas (WDPA) and World Database on Other Effective Area-based Conservation Measures (WD-OECM), UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), uri: {browse "https://www.protec"}{p_end}
 
 
 {synoptline}
@@ -1258,7 +1817,7 @@
 
 {synopt:{opt Source Notes}}Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the{p_end}
 
-{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, acad{p_end}
+{synopt:{opt Source Organization}}Protected Planet: The World Database on Protected Areas (WDPA) and World Database on Other Effective Area-based Conservation Measures (WD-OECM), UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), uri: {browse "https://www.protec"}{p_end}
 
 
 {synoptline}
@@ -1271,7 +1830,7 @@
 
 {synopt:{opt Source Notes}}Terrestrial protected areas are totally or partially protected areas of at least 1,000 hectares that are designated by national authorities as scientific reserves with limited public access, national parks, natural monuments, nature reserves o{p_end}
 
-{synopt:{opt Source Organization}}World Database on Protected Areas (WDPA) where the compilation and management is carried out by United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC) in collaboration with governments, non-governmental organizations, acad{p_end}
+{synopt:{opt Source Organization}}Protected Planet: The World Database on Protected Areas (WDPA) and World Database on Other Effective Area-based Conservation Measures (WD-OECM), UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), uri: {browse "https://www.protec"}{p_end}
 
 
 {synoptline}
@@ -1282,9 +1841,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Education expenditure refers to the current operating expenditures in education, including wages and salaries and excluding capital investments in buildings and equipment.{p_end}
+{synopt:{opt Source Notes}}Education expenditure refers to the current operating expenditures in education, including wages and salaries and excluding capital investments in buildings and equipment. This indicator is expressed in current prices, meaning no adjustment ha{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using data from the United Nations Statistics Division's Statistical Yearbook, and the UNESCO Institute for Statistics online database.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1295,9 +1854,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Education expenditure refers to the current operating expenditures in education, including wages and salaries and excluding capital investments in buildings and equipment.{p_end}
+{synopt:{opt Source Notes}}Education expenditure refers to the current operating expenditures in education, including wages and salaries and excluding capital investments in buildings and equipment. This indicator is expressed as a percentage of Gross National Income (G{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using data from the United Nations Statistics Division's Statistical Yearbook, and the UNESCO Institute for Statistics online database.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1308,9 +1867,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$40 per ton of CO2 (the unit damage in 2017 US dollars for CO2 emitted in 2020) times the number of tons of CO2 emitted.{p_end}
+{synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$40 per ton of CO2 (the unit damage in 2017 US dollars for CO2 emitted in 2020) times the number of tons of CO2 emitted. This{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1321,9 +1880,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$40 per ton of CO2 (the unit damage in 2017 US dollars for CO2 emitted in 2020) times the number of tons of CO2 emitted.{p_end}
+{synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$40 per ton of CO2 (the unit damage in 2017 US dollars for CO2 emitted in 2020) times the number of tons of CO2 emitted. This{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1334,9 +1893,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth.{p_end}
+{synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes o{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1347,9 +1906,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth.{p_end}
+{synopt:{opt Source Notes}}Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth. This indicator is expressed as a percentage of Gross National Income (GNI) which is the total income earned by al{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1360,9 +1919,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Consumption of fixed capital represents the replacement value of capital used up in the process of production.{p_end}
+{synopt:{opt Source Notes}}Consumption of fixed capital represents the replacement value of capital used up in the process of production. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time.  This ind{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using data from the United Nations Statistics Division's National Accounts Statistics.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1373,9 +1932,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Consumption of fixed capital represents the replacement value of capital used up in the process of production.{p_end}
+{synopt:{opt Source Notes}}Consumption of fixed capital represents the replacement value of capital used up in the process of production. This indicator is expressed as a percentage of Gross National Income (GNI) which is the total income earned by all residents within{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates using data from the United Nations Statistics Division's National Accounts Statistics.{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1386,9 +1945,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
+{synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate. This indicator is expr{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1399,9 +1958,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate.{p_end}
+{synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate. This indicator is expr{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1412,9 +1971,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime (capped at 25 years). It covers coal, crude oil, and natural gas.{p_end}
+{synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime (capped at 25 years). It covers coal, crude oil, and natural gas. This indicator is expressed in current prices, meaning no adjustmen{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1425,9 +1984,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime (capped at 25 years). It covers coal, crude oil, and natural gas.{p_end}
+{synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime (capped at 25 years). It covers coal, crude oil, and natural gas. This indicator is expressed as a percentage of Gross National Incom{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1440,7 +1999,7 @@
 
 {synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in{p_end}
 
-{synopt:{opt Source Organization}}Data on health impacts from exposure to ambient PM2.5 pollution and household air pollution are from the Global Burden of Disease 2013 study. Data are provided by the Institute for Health Metrics and Evaluation at the University of Washington.{p_end}
+{synopt:{opt Source Organization}}Global Burden of Disease 2013 study, Institute for Health Metrics and Evaluation (IHME){p_end}
 
 
 {synoptline}
@@ -1453,7 +2012,7 @@
 
 {synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in{p_end}
 
-{synopt:{opt Source Organization}}Data on health impacts from exposure to ambient PM2.5 pollution and household air pollution are from the Global Burden of Disease 2013 study. Data are provided by the Institute for Health Metrics and Evaluation at the University of Washington.{p_end}
+{synopt:{opt Source Organization}}Global Burden of Disease 2013 study, Institute for Health Metrics and Evaluation (IHME){p_end}
 
 
 {synoptline}
@@ -1464,9 +2023,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Gross savings are the difference between gross national income and public and private consumption, plus net current transfers.{p_end}
+{synopt:{opt Source Notes}}Gross savings are the difference between gross national income and public and private consumption, plus net current transfers. This indicator is expressed as a percentage of Gross National Income (GNI) which is the total income earned by all r{p_end}
 
-{synopt:{opt Source Organization}}World Bank national accounts data files.{p_end}
+{synopt:{opt Source Organization}}Country official statistics, National Statistical Organizations and/or Central Banks;{p_end}
 
 
 {synoptline}
@@ -1477,9 +2036,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Net national savings are equal to gross national savings less the value of consumption of fixed capital.{p_end}
+{synopt:{opt Source Notes}}Net national savings are equal to gross national savings less the value of consumption of fixed capital. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time.  This indicator{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1490,9 +2049,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Net national savings are equal to gross national savings less the value of consumption of fixed capital.{p_end}
+{synopt:{opt Source Notes}}Net national savings are equal to gross national savings less the value of consumption of fixed capital. This indicator is expressed as a percentage of Gross National Income (GNI) which is the total income earned by all residents within an eco{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1503,9 +2062,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide and particulate emissions damage.{p_end}
+{synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide and particulate emissions damage. This indicator is expressed in current{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1516,9 +2075,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide and particulate emissions damage.{p_end}
+{synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide and particulate emissions damage. This indicator is expressed as a percen{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1529,9 +2088,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide. This series excludes particulate emissions damage.{p_end}
+{synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide. This series excludes particulate emissions damage. This indicator is exp{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1542,9 +2101,9 @@
 
 {synopt:{opt Topics}}06 Environment{p_end}
 
-{synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide. This series excludes particulate emissions damage.{p_end}
+{synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide. This series excludes particulate emissions damage. This indicator is exp{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods in World Bank's The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium (2011).{p_end}
+{synopt:{opt Source Organization}}Staff estimates, World Bank (WB);{p_end}
 
 
 {synoptline}
@@ -1557,7 +2116,7 @@
 
 {synopt:{opt Source Notes}}Coal rents are the difference between the value of both hard and soft coal production at world prices and their total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
+{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data,"} note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
 
 
 {synoptline}
@@ -1570,7 +2129,7 @@
 
 {synopt:{opt Source Notes}}Forest rents are roundwood harvest times the product of regional prices and a regional rental rate.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
+{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data,"} note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
 
 
 {synoptline}
@@ -1583,7 +2142,7 @@
 
 {synopt:{opt Source Notes}}Mineral rents are the difference between the value of production for a stock of minerals at world prices and their total costs of production. Minerals included in the calculation are tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
+{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data,"} note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
 
 
 {synoptline}
@@ -1596,7 +2155,7 @@
 
 {synopt:{opt Source Notes}}Natural gas rents are the difference between the value of natural gas production at regional prices and total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
+{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data,"} note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
 
 
 {synoptline}
@@ -1609,7 +2168,7 @@
 
 {synopt:{opt Source Notes}}Oil rents are the difference between the value of crude oil production at regional prices and total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
+{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data,"} note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
 
 
 {synoptline}
@@ -1622,8 +2181,8 @@
 
 {synopt:{opt Source Notes}}Total natural resources rents are the sum of oil rents, natural gas rents, coal rents (hard and soft), mineral rents, and forest rents.{p_end}
 
-{synopt:{opt Source Organization}}World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of Nations.{p_end}
+{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data,"} note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
 
 
 
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}

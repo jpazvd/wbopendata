@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -47,9 +47,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests. Estimate gives t{p_end}
+{synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -60,9 +60,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests. Number of source{p_end}
+{synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -73,9 +73,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.  Percentile rank{p_end}
+{synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -86,9 +86,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.  Percentile rank{p_end}
+{synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -99,9 +99,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.  Percentile rank{p_end}
+{synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -112,9 +112,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Control of Corruption captures perceptions of the extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as capture of the state by elites and private interests.   Standard error{p_end}
+{synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -140,7 +140,7 @@
 
 {synopt:{opt Source Notes}}Net acquisition of government financial assets includes domestic and foreign financial claims, SDRs, and gold bullion held by monetary authorities as a reserve asset. The net acquisition of financial assets should be offset by the net incurren{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -153,7 +153,7 @@
 
 {synopt:{opt Source Notes}}Net acquisition of government financial assets includes domestic and foreign financial claims, SDRs, and gold bullion held by monetary authorities as a reserve asset. The net acquisition of financial assets should be offset by the net incurren{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -166,7 +166,7 @@
 
 {synopt:{opt Source Notes}}Debt is the entire stock of direct government fixed-term contractual obligations to others outstanding on a particular date. It includes domestic and foreign liabilities such as currency and money deposits, securities other than shares, and lo{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -179,7 +179,7 @@
 
 {synopt:{opt Source Notes}}Debt is the entire stock of direct government fixed-term contractual obligations to others outstanding on a particular date. It includes domestic and foreign liabilities such as currency and money deposits, securities other than shares, and lo{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -192,7 +192,7 @@
 
 {synopt:{opt Source Notes}}Net incurrence of government liabilities includes foreign financing (obtained from nonresidents) and domestic financing (obtained from residents), or the means by which a government provides financial resources to cover a budget deficit or all{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -205,7 +205,7 @@
 
 {synopt:{opt Source Notes}}Net incurrence of government liabilities includes foreign financing (obtained from nonresidents) and domestic financing (obtained from residents), or the means by which a government provides financial resources to cover a budget deficit or all{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -218,7 +218,7 @@
 
 {synopt:{opt Source Notes}}Net investment in government nonfinancial assets includes fixed assets, inventories, valuables, and nonproduced assets. Nonfinancial assets are stores of value and provide benefits either through their use in the production of goods and servic{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -231,7 +231,7 @@
 
 {synopt:{opt Source Notes}}Net investment in government nonfinancial assets includes fixed assets, inventories, valuables, and nonproduced assets. Nonfinancial assets are stores of value and provide benefits either through their use in the production of goods and servic{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -244,7 +244,7 @@
 
 {synopt:{opt Source Notes}}Net lending (+) / net borrowing (–) equals government revenue minus expense, minus net investment in nonfinancial assets. It is also equal to the net result of transactions in financial assets and liabilities. Net lending/net borrowing is{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -257,7 +257,7 @@
 
 {synopt:{opt Source Notes}}Net lending (+) / net borrowing (–) equals government revenue minus expense, minus net investment in nonfinancial assets. It is also equal to the net result of transactions in financial assets and liabilities. Net lending/net borrowing is{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -268,9 +268,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Grants and other revenue include grants from other foreign governments, international organizations, and other government units; interest; dividends; rent; requited, nonrepayable receipts for public purposes (such as fines, administrative fees{p_end}
+{synopt:{opt Source Notes}}Grants are transfers receivable by government units, from other resident or nonresident government units or international organizations, that do not meet the defi nition of a tax, subsidy, or social contribution. Other revenue is all revenue r{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -281,9 +281,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Grants and other revenue include grants from other foreign governments, international organizations, and other government units; interest; dividends; rent; requited, nonrepayable receipts for public purposes (such as fines, administrative fees{p_end}
+{synopt:{opt Source Notes}}Grants are transfers receivable by government units, from other resident or nonresident government units or international organizations, that do not meet the defi nition of a tax, subsidy, or social contribution. Other revenue is all revenue r{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -294,9 +294,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Social contributions include social security contributions by employees, employers, and self-employed individuals, and other contributions whose source cannot be determined. They also include actual or imputed contributions to social insurance{p_end}
+{synopt:{opt Source Notes}}Social contributions are actual or imputed contributions payable to social insurance schemes to{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -307,9 +307,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Social contributions include social security contributions by employees, employers, and self-employed individuals, and other contributions whose source cannot be determined. They also include actual or imputed contributions to social insurance{p_end}
+{synopt:{opt Source Notes}}Social contributions are actual or imputed contributions payable to social insurance schemes to{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -320,9 +320,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Revenue is cash receipts from taxes, social contributions, and other revenues such as fines, fees, rent, and income from property or sales. Grants are also considered as revenue but are excluded here.{p_end}
+{synopt:{opt Source Notes}}Revenue is an increase in net worth resulting from a transaction. Grants are excluded from this figure. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This series is e{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -333,9 +333,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Revenue is cash receipts from taxes, social contributions, and other revenues such as fines, fees, rent, and income from property or sales. Grants are also considered as revenue but are excluded here.{p_end}
+{synopt:{opt Source Notes}}Revenue is an increase in net worth resulting from a transaction. Grants are excluded from this figure. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of good{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -346,9 +346,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Taxes on exports are all levies on goods being transported out of the country or services being delivered to nonresidents by residents. Rebates on exported goods that are repayments of previously paid general consumption taxes, excise taxes, o{p_end}
+{synopt:{opt Source Notes}}Export taxes are taxes on goods or services that become payable to government when the goods leave the economic territory or when the services are delivered to non-residents. This indicator is expressed in current prices, meaning no adjustment{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -359,9 +359,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Taxes on exports are all levies on goods being transported out of the country or services being delivered to nonresidents by residents. Rebates on exported goods that are repayments of previously paid general consumption taxes, excise taxes, o{p_end}
+{synopt:{opt Source Notes}}Export taxes are taxes on goods or services that become payable to government when the goods leave the economic territory or when the services are delivered to non-residents. This indicator is expressed as a percentage of tax revenue which inc{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -372,9 +372,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Taxes on goods and services include general sales and turnover or value added taxes, selective excises on goods, selective taxes on services, taxes on the use of goods or property, taxes on extraction and production of minerals, and profits of{p_end}
+{synopt:{opt Source Notes}}General taxes on goods and services are taxes levied on the production, leasing, delivery, sale, purchase or other change of ownership of a wide range of goods and the provision of a wide range of services. This indicator is expressed in curre{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -385,9 +385,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Taxes on goods and services include general sales and turnover or value added taxes, selective excises on goods, selective taxes on services, taxes on the use of goods or property, taxes on extraction and production of minerals, and profits of{p_end}
+{synopt:{opt Source Notes}}General taxes on goods and services are taxes levied on the production, leasing, delivery, sale, purchase or other change of ownership of a wide range of goods and the provision of a wide range of services. This indicator is expressed as a per{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -398,9 +398,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Taxes on goods and services include general sales and turnover or value added taxes, selective excises on goods, selective taxes on services, taxes on the use of goods or property, taxes on extraction and production of minerals, and profits of{p_end}
+{synopt:{opt Source Notes}}General taxes on goods and services are taxes levied on the production, leasing, delivery, sale, purchase or other change of ownership of a wide range of goods and the provision of a wide range of services. This indicator is expressed as a per{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files, and World Bank and OECD value added estimates.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -411,9 +411,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Customs and other import duties are all levies collected on goods that are entering the country or services delivered by nonresidents to residents. They include levies imposed for revenue or protection purposes and determined on a specific or{p_end}
+{synopt:{opt Source Notes}}Taxes and duties on imports are taxes on goods and services that become payable at the moment when goods enter the economic territory or when services are delivered by non-resident producers to residents. This indicator is expressed in current{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -424,9 +424,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Customs and other import duties are all levies collected on goods that are entering the country or services delivered by nonresidents to residents. They include levies imposed for revenue or protection purposes and determined on a specific or{p_end}
+{synopt:{opt Source Notes}}Taxes and duties on imports are taxes on goods and services that become payable at the moment when goods enter the economic territory or when services are delivered by non-resident producers to residents. This indicator is expressed as a perce{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -437,9 +437,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Taxes on international trade include import duties, export duties, profits of export or import monopolies, exchange profits, and exchange taxes.{p_end}
+{synopt:{opt Source Notes}}Taxes on international trade are taxes that become payable when goods cross the national or customs frontiers of the economic territory or when transactions in services exchange between residents and non-residents. This indicator is expressed{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -450,9 +450,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Taxes on international trade include import duties, export duties, profits of export or import monopolies, exchange profits, and exchange taxes.{p_end}
+{synopt:{opt Source Notes}}Taxes on international trade are taxes that become payable when goods cross the national or customs frontiers of the economic territory or when transactions in services exchange between residents and non-residents. This indicator is expressed{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -463,9 +463,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Other taxes include employer payroll or labor taxes, taxes on property, and taxes not allocable to other categories, such as penalties for late payment or nonpayment of taxes.{p_end}
+{synopt:{opt Source Notes}}Other taxes include employer payroll or labor taxes, taxes on property, and taxes not allocable to other categories, such as penalties for late payment or nonpayment of taxes. This indicator is expressed in current prices, meaning no adjustmen{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -476,9 +476,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Other taxes include employer payroll or labor taxes, taxes on property, and taxes not allocable to other categories, such as penalties for late payment or nonpayment of taxes.{p_end}
+{synopt:{opt Source Notes}}Other taxes include employer payroll or labor taxes, taxes on property, and taxes not allocable to other categories, such as penalties for late payment or nonpayment of taxes. This indicator is expressed as a percentage of revenue which includ{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -489,9 +489,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Tax revenue refers to compulsory transfers to the central government for public purposes. Certain compulsory transfers such as fines, penalties, and most social security contributions are excluded. Refunds and corrections of erroneously collec{p_end}
+{synopt:{opt Source Notes}}Taxes are compulsory, unrequited payments, in cash or in kind, made by institutional{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -502,9 +502,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Tax revenue refers to compulsory transfers to the central government for public purposes. Certain compulsory transfers such as fines, penalties, and most social security contributions are excluded. Refunds and corrections of erroneously collec{p_end}
+{synopt:{opt Source Notes}}Taxes are compulsory, unrequited payments, in cash or in kind, made by institutional{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -515,9 +515,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Taxes on income, profits, and capital gains are levied on the actual or presumptive net income of individuals, on the profits of corporations and enterprises, and on capital gains, whether realized or not, on land, securities, and other assets{p_end}
+{synopt:{opt Source Notes}}Taxes on income, profits, and capital gains are taxes payable on the actual or presumed incomes, profits and capital gains. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over ti{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -528,9 +528,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Taxes on income, profits, and capital gains are levied on the actual or presumptive net income of individuals, on the profits of corporations and enterprises, and on capital gains, whether realized or not, on land, securities, and other assets{p_end}
+{synopt:{opt Source Notes}}Taxes on income, profits, and capital gains are taxes payable on the actual or presumed incomes, profits and capital gains. This indicator is expressed as a percentage of revenue which includes all transactions that add to the amount of econom{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -541,9 +541,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Taxes on income, profits, and capital gains are levied on the actual or presumptive net income of individuals, on the profits of corporations and enterprises, and on capital gains, whether realized or not, on land, securities, and other assets{p_end}
+{synopt:{opt Source Notes}}Taxes on income, profits, and capital gains are taxes payable on the actual or presumed incomes, profits and capital gains. This indicator is expressed as a percentage of total taxes which includes all compulsory, unrequited payments, in cash{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -554,9 +554,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Compensation of employees consists of all payments in cash, as well as in kind (such as food and housing), to employees in return for services rendered, and government contributions to social insurance schemes such as social security and pensi{p_end}
+{synopt:{opt Source Notes}}Compensation of employees is defined as the total remuneration, in cash or in kind, payable by an enterprise to an employee in return for work done by the latter during the accounting period. This indicator is expressed in current prices, mean{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -567,9 +567,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Compensation of employees consists of all payments in cash, as well as in kind (such as food and housing), to employees in return for services rendered, and government contributions to social insurance schemes such as social security and pensi{p_end}
+{synopt:{opt Source Notes}}Compensation of employees is defined as the total remuneration, in cash or in kind, payable by an enterprise to an employee in return for work done by the latter during the accounting period. This indicator is expressed as percentage of total{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -580,9 +580,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Goods and services include all government payments in exchange for goods and services used for the production of market and nonmarket goods and services. Own-account capital formation is excluded.{p_end}
+{synopt:{opt Source Notes}}Goods and services include all government payments in exchange for goods and services used for the production of market and nonmarket goods and services. Use of goods and services for account capital formation is excluded. This indicator is ex{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -593,9 +593,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Goods and services include all government payments in exchange for goods and services used for the production of market and nonmarket goods and services. Own-account capital formation is excluded.{p_end}
+{synopt:{opt Source Notes}}Goods and services include all government payments in exchange for goods and services used for the production of market and nonmarket goods and services. Use of goods and services for own account capital formation is excluded. This indicator i{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -606,9 +606,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Interest payments include interest payments on government debt--including long-term bonds, long-term loans, and other debt instruments--to domestic and foreign residents.{p_end}
+{synopt:{opt Source Notes}}Interest payments include interest payments on government debt (including long-term bonds, long-term loans, and other debt instruments) to domestic and foreign residents. This indicator is expressed in current prices, meaning no adjustment has{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -619,9 +619,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Interest payments include interest payments on government debt--including long-term bonds, long-term loans, and other debt instruments--to domestic and foreign residents.{p_end}
+{synopt:{opt Source Notes}}Interest payments include interest payments on government debt (including long-term bonds, long-term loans, and other debt instruments) to domestic and foreign residents. This indicator is expressed as a percentage of revenue which includes al{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -632,9 +632,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Interest payments include interest payments on government debt--including long-term bonds, long-term loans, and other debt instruments--to domestic and foreign residents.{p_end}
+{synopt:{opt Source Notes}}Interest payments include interest payments on government debt (including long-term bonds, long-term loans, and other debt instruments) to domestic and foreign residents. This indicator is expressed as percentage of total expenses which is any{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -645,9 +645,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Other expense is spending on dividends, rent, and other miscellaneous expenses, including provision for consumption of fixed capital.{p_end}
+{synopt:{opt Source Notes}}Other expense is spending on dividends, rent, and other miscellaneous expenses, including provision for consumption of fixed capital. This indicator is expressed in current prices, meaning no adjustment has been made to account for price chang{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -658,9 +658,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Other expense is spending on dividends, rent, and other miscellaneous expenses, including provision for consumption of fixed capital.{p_end}
+{synopt:{opt Source Notes}}Other expense is spending on dividends, rent, and other miscellaneous expenses, including provision for consumption of fixed capital. This indicator is expressed as percentage of total expenses which is any decrease in net worth resulting from{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -671,9 +671,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Expense is cash payments for operating activities of the government in providing goods and services. It includes compensation of employees (such as wages and salaries), interest and subsidies, grants, social benefits, and other expenses such a{p_end}
+{synopt:{opt Source Notes}}Expense is a decrease in net worth resulting from a transaction. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This series is expressed in local currency units.{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -684,9 +684,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Expense is cash payments for operating activities of the government in providing goods and services. It includes compensation of employees (such as wages and salaries), interest and subsidies, grants, social benefits, and other expenses such a{p_end}
+{synopt:{opt Source Notes}}Expense is a decrease in net worth resulting from a transaction. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of goods and services in an economic territory{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files, and World Bank and OECD GDP estimates.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF);{p_end}
 
 
 {synoptline}
@@ -697,9 +697,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Subsidies, grants, and other social benefits include all unrequited, nonrepayable transfers on current account to private and public enterprises; grants to foreign governments, international organizations, and other government units; and socia{p_end}
+{synopt:{opt Source Notes}}Subsidies are current unrequited payments that government units, including nonresident government units, make to enterprises on the basis of the levels of their production activities or the quantities or values of the goods or services that th{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -710,9 +710,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Subsidies, grants, and other social benefits include all unrequited, nonrepayable transfers on current account to private and public enterprises; grants to foreign governments, international organizations, and other government units; and socia{p_end}
+{synopt:{opt Source Notes}}Subsidies are current unrequited payments that government units, including nonresident government units, make to enterprises on the basis of the levels of their production activities or the quantities or values of the goods or services that th{p_end}
 
-{synopt:{opt Source Organization}}International Monetary Fund, Government Finance Statistics Yearbook and data files.{p_end}
+{synopt:{opt Source Organization}}Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF){p_end}
 
 
 {synoptline}
@@ -723,9 +723,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+{synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org"}{p_end}
 
 
 {synoptline}
@@ -736,9 +736,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+{synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -749,9 +749,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+{synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -762,9 +762,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+{synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -775,9 +775,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+{synopt:{opt Source Notes}}Good governance is essential for development. It helps countries improve economic growth, build human capital, and strengthen social cohesion. Empirical evidence shows a strong causal relationship between better governance and better developme{p_end}
 
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -788,9 +788,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Government Effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credib{p_end}
+{synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -803,7 +803,7 @@
 
 {synopt:{opt Source Notes}}Primary government expenditures as a proportion of original approved budget measures the extent to which aggregate budget expenditure outturn reflects the amount originally approved, as defined in government budget documentation and fiscal rep{p_end}
 
-{synopt:{opt Source Organization}}Public Expenditure and Financial Accountability (PEFA). Ministry of Finance (MoF).{p_end}
+{synopt:{opt Source Organization}}Public Expenditure and Financial Accountability (PEFA), World Bank (WB), uri: {browse "https://www.pefa.org/node/5239,"} note: The raw data collected in order to calculate this indicator are the initially Approved and Executed Budgets. Budget Laws of co{p_end}
 
 
 {synoptline}
@@ -927,7 +927,7 @@
 {marker topicid_IC.CRD.PUBL.ZS}
 {synopt:{bf:{help wbopendata_topicid##IC.CRD.PUBL.ZS:IC.CRD.PUBL.ZS} - Public credit registry coverage (% of adults)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -940,7 +940,7 @@
 {marker topicid_IC.LGL.CRED.XQ}
 {synopt:{bf:{help wbopendata_topicid##IC.LGL.CRED.XQ:IC.LGL.CRED.XQ} - Strength of legal rights index (0=weak to 12=strong)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -953,7 +953,7 @@
 {marker topicid_IC.TAX.DURS}
 {synopt:{bf:{help wbopendata_topicid##IC.TAX.DURS:IC.TAX.DURS} - Time to prepare and pay taxes (hours)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -966,7 +966,7 @@
 {marker topicid_IC.TAX.PAYM}
 {synopt:{bf:{help wbopendata_topicid##IC.TAX.PAYM:IC.TAX.PAYM} - Tax payments (number)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -977,9 +977,9 @@
 
 {synoptline}
 {marker topicid_IC.TAX.TOTL.CP.ZS}
-{synopt:{bf:{help wbopendata_topicid##IC.TAX.TOTL.CP.ZS:IC.TAX.TOTL.CP.ZS} - Total tax and contribution rate (% of profit)}}
+{synopt:{bf:{help wbopendata_topicid##IC.TAX.TOTL.CP.ZS:IC.TAX.TOTL.CP.ZS} - Total tax rate (% of commercial profits)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -996,9 +996,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Business regulatory environment assesses the extent to which the legal, regulatory, and policy environments help or hinder private businesses in investing, creating jobs, and becoming more productive.{p_end}
+{synopt:{opt Source Notes}}The CPIA measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistance. The outcome of the exercise yields both an{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1009,9 +1009,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Debt policy assesses whether the debt management strategy is conducive to minimizing budgetary risks and ensuring long-term debt sustainability.{p_end}
+{synopt:{opt Source Notes}}The Country Policy and Institutional Assessment (CPIA) measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistanc{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1022,9 +1022,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}The economic management cluster includes macroeconomic management, fiscal policy, and debt policy.{p_end}
+{synopt:{opt Source Notes}}The Country Policy and Institutional Assessment (CPIA) measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistanc{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1035,9 +1035,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Policy and institutions for environmental sustainability assess the extent to which environmental policies foster the protection and sustainable use of natural resources and the management of pollution.{p_end}
+{synopt:{opt Source Notes}}The Country Policy and Institutional Assessment (CPIA) measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistanc{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1048,9 +1048,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Quality of budgetary and financial management assesses the extent to which there is a comprehensive and credible budget linked to policy priorities, effective financial management systems, and timely and accurate accounting and fiscal reportin{p_end}
+{synopt:{opt Source Notes}}The CPIA measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistance. The outcome of the exercise yields both an{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1061,9 +1061,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Financial sector assesses the structure of the financial sector and the policies and regulations that affect it.{p_end}
+{synopt:{opt Source Notes}}The CPIA measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistance. The outcome of the exercise yields both an{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "http://www.worldbank.org/ida"}{p_end}
 
 
 {synoptline}
@@ -1074,9 +1074,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Fiscal policy assesses the short- and medium-term sustainability of fiscal policy (taking into account monetary and exchange rate policy and the sustainability of the public debt) and its impact on growth.{p_end}
+{synopt:{opt Source Notes}}The CPIA measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistance. The outcome of the exercise yields both an{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1087,9 +1087,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Gender equality assesses the extent to which the country has installed institutions and programs to enforce laws and policies that promote equal access for men and women in education, health, the economy, and protection under law.{p_end}
+{synopt:{opt Source Notes}}The CPIA measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistance. The outcome of the exercise yields both an{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1100,9 +1100,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Building human resources assesses the national policies and public and private sector service delivery that affect the access to and quality of health and education services, including prevention and treatment of HIV/AIDS, tuberculosis, and ma{p_end}
+{synopt:{opt Source Notes}}The CPIA measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistance. The outcome of the exercise yields both an{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1113,9 +1113,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}IDA Resource Allocation Index is obtained by calculating the average score for each cluster and then by averaging those scores. For each of 16 criteria countries are rated on a scale of 1 (low) to 6 (high).{p_end}
+{synopt:{opt Source Notes}}The CPIA measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistance. The outcome of the exercise yields both an{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1126,9 +1126,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Macroeconomic management assesses the monetary, exchange rate, and aggregate demand policy framework.{p_end}
+{synopt:{opt Source Notes}}The CPIA measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistance. The outcome of the exercise yields both an{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1139,9 +1139,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Quality of public administration assesses the extent to which civilian central government staff is structured to design and implement government policy and deliver services effectively.{p_end}
+{synopt:{opt Source Notes}}The CPIA measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistance. The outcome of the exercise yields both an{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1154,7 +1154,7 @@
 
 {synopt:{opt Source Notes}}Equity of public resource use assesses the extent to which the pattern of public expenditures and revenue collection affects the poor and is consistent with national poverty reduction priorities.{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1165,9 +1165,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Property rights and rule-based governance assess the extent to which private economic activity is facilitated by an effective legal system and rule-based governance structure in which property and contract rights are reliably respected and enf{p_end}
+{synopt:{opt Source Notes}}The Country Policy and Institutional Assessment (CPIA) measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistanc{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1178,9 +1178,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Social protection and labor assess government policies in social protection and labor market regulations that reduce the risk of becoming poor, assist those who are poor to better manage further risks, and ensure a minimal level of welfare to{p_end}
+{synopt:{opt Source Notes}}The Country Policy and Institutional Assessment (CPIA) measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistanc{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1191,9 +1191,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}The public sector management and institutions cluster includes property rights and rule-based governance, quality of budgetary and financial management, efficiency of revenue mobilization, quality of public administration, and transparency, ac{p_end}
+{synopt:{opt Source Notes}}The Country Policy and Institutional Assessment (CPIA) measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistanc{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1204,9 +1204,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Efficiency of revenue mobilization assesses the overall pattern of revenue mobilization--not only the de facto tax structure, but also revenue from all sources as actually collected.{p_end}
+{synopt:{opt Source Notes}}The Country Policy and Institutional Assessment (CPIA) measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistanc{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1217,9 +1217,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}The policies for social inclusion and equity cluster includes gender equality, equity of public resource use, building human resources, social protection and labor, and policies and institutions for environmental sustainability.{p_end}
+{synopt:{opt Source Notes}}The Country Policy and Institutional Assessment (CPIA) measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistanc{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1230,9 +1230,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}The structural policies cluster includes trade, financial sector, and business regulatory environment.{p_end}
+{synopt:{opt Source Notes}}The Country Policy and Institutional Assessment (CPIA) measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistanc{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
@@ -1245,7 +1245,7 @@
 
 {synopt:{opt Source Notes}}Trade assesses how the policy framework fosters trade in goods.{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "http://www.worldbank.org/ida"}{p_end}
 
 
 {synoptline}
@@ -1256,16 +1256,16 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Transparency, accountability, and corruption in the public sector assess the extent to which the executive can be held accountable for its use of funds and for the results of its actions by the electorate and by the legislature and judiciary,{p_end}
+{synopt:{opt Source Notes}}The Country Policy and Institutional Assessment (CPIA) measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistanc{p_end}
 
-{synopt:{opt Source Organization}}World Bank Group, CPIA database ({browse "http://www.worldbank.org/ida"}).{p_end}
+{synopt:{opt Source Organization}}CPIA database, World Bank Group (WBG), uri: {browse "https://datacatalog.worldbank.org/int/search/dataset/0038988"}{p_end}
 
 
 {synoptline}
 {marker topicid_IQ.SCI.MTHD}
 {synopt:{bf:{help wbopendata_topicid##IQ.SCI.MTHD:IQ.SCI.MTHD} - Methodology assessment of statistical capacity (scale 0 - 100)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1276,9 +1276,9 @@
 
 {synoptline}
 {marker topicid_IQ.SCI.OVRL}
-{synopt:{bf:{help wbopendata_topicid##IQ.SCI.OVRL:IQ.SCI.OVRL} - Statistical Capacity Score (Overall Average) (scale 0 - 100)}}
+{synopt:{bf:{help wbopendata_topicid##IQ.SCI.OVRL:IQ.SCI.OVRL} - Overall level of statistical capacity (scale 0 - 100)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1291,7 +1291,7 @@
 {marker topicid_IQ.SCI.PRDC}
 {synopt:{bf:{help wbopendata_topicid##IQ.SCI.PRDC:IQ.SCI.PRDC} - Periodicity and timeliness assessment of statistical capacity (scale 0 - 100)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1304,7 +1304,7 @@
 {marker topicid_IQ.SCI.SRCE}
 {synopt:{bf:{help wbopendata_topicid##IQ.SCI.SRCE:IQ.SCI.SRCE} - Source data assessment of statistical capacity (scale 0 - 100)}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
+{synopt:{opt Source}}57 WDI Database Archives{p_end}
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
@@ -1321,9 +1321,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}The SPI overall score is a composite score measuing country performance across five pillars: data use, data services, data products, data sources, and data infrastructure.  The new Statistical Performance Indicators (SPI) will replace the Stat{p_end}
+{synopt:{opt Source Notes}}The SPI overall score is a composite score measuring country performance across five pillars: data use, data services, data products, data sources, and data infrastructure.  The new Statistical Performance Indicators (SPI) will replace the Sta{p_end}
 
-{synopt:{opt Source Organization}}Statistical Performance Indicators, The World Bank ({browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}){p_end}
+{synopt:{opt Source Organization}}Statistical Performance Indicators, World Bank (WB), uri: {browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}{p_end}
 
 
 {synoptline}
@@ -1336,7 +1336,7 @@
 
 {synopt:{opt Source Notes}}The data use overall score is a composite score measuring the demand side of the statistical system.  The data use  pillar is segmented by five types of users: (i) the legislature, (ii) the executive branch, (iii) civil society (including sub-{p_end}
 
-{synopt:{opt Source Organization}}Statistical Performance Indicators, The World Bank ({browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}){p_end}
+{synopt:{opt Source Organization}}Statistical Performance Indicators, World Bank (WB), uri: {browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}{p_end}
 
 
 {synoptline}
@@ -1349,7 +1349,7 @@
 
 {synopt:{opt Source Notes}}The data services pillar overall score is a composite indicator based on four dimensions of data services: (i) the quality of data releases, (ii) the richness and openness of online access, (iii) the effectiveness of advisory and analytical se{p_end}
 
-{synopt:{opt Source Organization}}Statistical Performance Indicators, The World Bank ({browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}){p_end}
+{synopt:{opt Source Organization}}Statistical Performance Indicators, World Bank (WB), uri: {browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}{p_end}
 
 
 {synoptline}
@@ -1362,7 +1362,7 @@
 
 {synopt:{opt Source Notes}}The data products overall score is a composite score measureing whether the country is able to produce relevant indicators, primarily related to SDGs.  The data products (internal process) pillar is segmented by four topics and organized into{p_end}
 
-{synopt:{opt Source Organization}}Statistical Performance Indicators, The World Bank ({browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}){p_end}
+{synopt:{opt Source Organization}}Statistical Performance Indicators, World Bank (WB), uri: {browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}{p_end}
 
 
 {synoptline}
@@ -1375,7 +1375,7 @@
 
 {synopt:{opt Source Notes}}The data sources overall score is a composity measure of whether countries have data available from the following sources: Censuses and surveys, administrative data, geospatial data, and private sector/citizen generated data.  The data sources{p_end}
 
-{synopt:{opt Source Organization}}Statistical Performance Indicators, The World Bank ({browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}){p_end}
+{synopt:{opt Source Organization}}Statistical Performance Indicators, World Bank (WB), uri: {browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}{p_end}
 
 
 {synoptline}
@@ -1388,7 +1388,7 @@
 
 {synopt:{opt Source Notes}}The data infrastructure  pillar  overall score measures the hard and soft infrastructure segments, itemizing essential cross cutting requirements for an effective statistical system.  The segments are: (i) legislation and governance covering t{p_end}
 
-{synopt:{opt Source Organization}}Statistical Performance Indicators, The World Bank ({browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}){p_end}
+{synopt:{opt Source Organization}}Statistical Performance Indicators, World Bank (WB), uri: {browse "https://datacatalog.worldbank.org/dataset/statistical-performance-indicators"}{p_end}
 
 
 {synoptline}
@@ -1399,9 +1399,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Arms transfers cover the supply of military weapons through sales, aid, gifts, and those made through manufacturing licenses. Data cover major conventional weapons such as aircraft, armored vehicles, artillery, radar systems, missiles, and shi{p_end}
+{synopt:{opt Source Notes}}Arms transfers (imports) cover the volume of transfers of major arms through sales and gifts, and those made through manufacturing licenses. Data cover major conventional weapons such as aircraft, armored vehicles, artillery, radar systems, mi{p_end}
 
-{synopt:{opt Source Organization}}Stockholm International Peace Research Institute (SIPRI), Arms Transfers Programme ({browse "http://portal.sipri.org/publications/pages/transfer/splash"}).{p_end}
+{synopt:{opt Source Organization}}Arms Transfers Programme, Stockholm International Peace Research Institute (SIPRI), uri: {browse "https://armstransfers.sipri.org/ArmsTransfer/"}{p_end}
 
 
 {synoptline}
@@ -1414,7 +1414,7 @@
 
 {synopt:{opt Source Notes}}Armed forces personnel are active duty military personnel, including paramilitary forces if the training, organization, equipment, and control suggest they may be used to support or replace regular military forces.{p_end}
 
-{synopt:{opt Source Organization}}International Institute for Strategic Studies, The Military Balance.{p_end}
+{synopt:{opt Source Organization}}The Military Balance, International Institute for Strategic Studies{p_end}
 
 
 {synoptline}
@@ -1427,7 +1427,7 @@
 
 {synopt:{opt Source Notes}}Armed forces personnel are active duty military personnel, including paramilitary forces if the training, organization, equipment, and control suggest they may be used to support or replace regular military forces. Labor force comprises all pe{p_end}
 
-{synopt:{opt Source Organization}}International Institute for Strategic Studies, The Military Balance.{p_end}
+{synopt:{opt Source Organization}}The Military Balance, International Institute for Strategic Studies{p_end}
 
 
 {synoptline}
@@ -1438,9 +1438,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Military expenditures data from SIPRI are derived from the NATO definition, which includes all current and capital expenditures on the armed forces, including peacekeeping forces; defense ministries and other government agencies engaged in def{p_end}
+{synopt:{opt Source Notes}}Military spending USD, in current prices (converted at the exchange rate for the given year){p_end}
 
-{synopt:{opt Source Organization}}Stockholm International Peace Research Institute (SIPRI), Yearbook: Armaments, Disarmament and International Security.{p_end}
+{synopt:{opt Source Organization}}SIPRI Military Expenditure Database, Stockholm International Peace Research Institute (SIPRI), uri: {browse "https://www.sipri.org/databases"}{p_end}
 
 
 {synoptline}
@@ -1451,9 +1451,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Military expenditures data from SIPRI are derived from the NATO definition, which includes all current and capital expenditures on the armed forces, including peacekeeping forces; defense ministries and other government agencies engaged in def{p_end}
+{synopt:{opt Source Notes}}Military expenditure in local currency at current prices (by calendar year){p_end}
 
-{synopt:{opt Source Organization}}Stockholm International Peace Research Institute (SIPRI), Yearbook: Armaments, Disarmament and International Security.{p_end}
+{synopt:{opt Source Organization}}SIPRI Military Expenditure Database, Stockholm International Peace Research Institute (SIPRI), uri: {browse "https://www.sipri.org/databases"}{p_end}
 
 
 {synoptline}
@@ -1464,9 +1464,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Military expenditures data from SIPRI are derived from the NATO definition, which includes all current and capital expenditures on the armed forces, including peacekeeping forces; defense ministries and other government agencies engaged in def{p_end}
+{synopt:{opt Source Notes}}Military expenditure by country as percentage of gross domestic product{p_end}
 
-{synopt:{opt Source Organization}}Stockholm International Peace Research Institute (SIPRI), Yearbook: Armaments, Disarmament and International Security.{p_end}
+{synopt:{opt Source Organization}}SIPRI Military Expenditure Database, Stockholm International Peace Research Institute (SIPRI), uri: {browse "https://www.sipri.org/databases"}{p_end}
 
 
 {synoptline}
@@ -1477,9 +1477,9 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Military expenditures data from SIPRI are derived from the NATO definition, which includes all current and capital expenditures on the armed forces, including peacekeeping forces; defense ministries and other government agencies engaged in def{p_end}
+{synopt:{opt Source Notes}}Military expenditure expressed as a percentage of general government expenditure{p_end}
 
-{synopt:{opt Source Organization}}Stockholm International Peace Research Institute (SIPRI), Yearbook: Armaments, Disarmament and International Security.{p_end}
+{synopt:{opt Source Organization}}SIPRI Military Expenditure Database, Stockholm International Peace Research Institute (SIPRI), uri: {browse "https://www.sipri.org/databases"}{p_end}
 
 
 {synoptline}
@@ -1490,244 +1490,10 @@
 
 {synopt:{opt Topics}}13 Public Sector{p_end}
 
-{synopt:{opt Source Notes}}Arms transfers cover the supply of military weapons through sales, aid, gifts, and those made through manufacturing licenses. Data cover major conventional weapons such as aircraft, armored vehicles, artillery, radar systems, missiles, and shi{p_end}
+{synopt:{opt Source Notes}}Arms transfers (exports) cover the volume of transfers of major arms through sales and gifts, and those made through manufacturing licenses. Data cover major conventional weapons such as aircraft, armored vehicles, artillery, radar systems, mi{p_end}
 
-{synopt:{opt Source Organization}}Stockholm International Peace Research Institute (SIPRI), Arms Transfers Programme ({browse "http://portal.sipri.org/publications/pages/transfer/splash"}).{p_end}
+{synopt:{opt Source Organization}}Arms Transfers Programme, Stockholm International Peace Research Institute (SIPRI), uri: {browse "https://armstransfers.sipri.org/ArmsTransfer/"}{p_end}
 
 
-{synoptline}
-{marker topicid_PV.EST}
-{synopt:{bf:{help wbopendata_topicid##PV.EST:PV.EST} - Political Stability and Absence of Violence/Terrorism: Estimate}}
 
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism. Estimate gives the country's score on the aggregate indicator, in{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-{synoptline}
-{marker topicid_PV.NO.SRC}
-{synopt:{bf:{help wbopendata_topicid##PV.NO.SRC:PV.NO.SRC} - Political Stability and Absence of Violence/Terrorism: Number of Sources}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.   Number of sources indicates the number of underlying data sourc{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-{synoptline}
-{marker topicid_PV.PER.RNK}
-{synopt:{bf:{help wbopendata_topicid##PV.PER.RNK:PV.PER.RNK} - Political Stability and Absence of Violence/Terrorism: Percentile Rank}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Percentile rank indicates the country's rank among all countries{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-{synoptline}
-{marker topicid_PV.PER.RNK.LOWER}
-{synopt:{bf:{help wbopendata_topicid##PV.PER.RNK.LOWER:PV.PER.RNK.LOWER} - Political Stability and Absence of Violence/Terrorism: Percentile Rank, Lower Bound of 90% Confidence Interval}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Percentile rank indicates the country's rank among all countries{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-{synoptline}
-{marker topicid_PV.PER.RNK.UPPER}
-{synopt:{bf:{help wbopendata_topicid##PV.PER.RNK.UPPER:PV.PER.RNK.UPPER} - Political Stability and Absence of Violence/Terrorism: Percentile Rank, Upper Bound of 90% Confidence Interval}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Percentile rank indicates the country's rank among all countries{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-{synoptline}
-{marker topicid_PV.STD.ERR}
-{synopt:{bf:{help wbopendata_topicid##PV.STD.ERR:PV.STD.ERR} - Political Stability and Absence of Violence/Terrorism: Standard Error}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Political Stability and Absence of Violence/Terrorism measures perceptions of the likelihood of political instability and/or politically-motivated violence, including terrorism.  Standard error indicates the precision of the estimate of govern{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-{synoptline}
-{marker topicid_RL.EST}
-{synopt:{bf:{help wbopendata_topicid##RL.EST:RL.EST} - Rule of Law: Estimate}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-{synoptline}
-{marker topicid_RL.NO.SRC}
-{synopt:{bf:{help wbopendata_topicid##RL.NO.SRC:RL.NO.SRC} - Rule of Law: Number of Sources}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-{synoptline}
-{marker topicid_RL.PER.RNK}
-{synopt:{bf:{help wbopendata_topicid##RL.PER.RNK:RL.PER.RNK} - Rule of Law: Percentile Rank}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-{synoptline}
-{marker topicid_RL.PER.RNK.LOWER}
-{synopt:{bf:{help wbopendata_topicid##RL.PER.RNK.LOWER:RL.PER.RNK.LOWER} - Rule of Law: Percentile Rank, Lower Bound of 90% Confidence Interval}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-{synoptline}
-{marker topicid_RL.PER.RNK.UPPER}
-{synopt:{bf:{help wbopendata_topicid##RL.PER.RNK.UPPER:RL.PER.RNK.UPPER} - Rule of Law: Percentile Rank, Upper Bound of 90% Confidence Interval}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-{synoptline}
-{marker topicid_RL.STD.ERR}
-{synopt:{bf:{help wbopendata_topicid##RL.STD.ERR:RL.STD.ERR} - Rule of Law: Standard Error}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Rule of Law captures perceptions of the extent to which agents have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, property rights, the police, and the courts, as well as the likelihood{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-{synoptline}
-{marker topicid_RQ.EST}
-{synopt:{bf:{help wbopendata_topicid##RQ.EST:RQ.EST} - Regulatory Quality: Estimate}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Estimate gives the country's score on the aggregate indicato{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-{synoptline}
-{marker topicid_RQ.NO.SRC}
-{synopt:{bf:{help wbopendata_topicid##RQ.NO.SRC:RQ.NO.SRC} - Regulatory Quality: Number of Sources}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. umber of sources indicates the number of underlying data sou{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-{synoptline}
-{marker topicid_RQ.PER.RNK}
-{synopt:{bf:{help wbopendata_topicid##RQ.PER.RNK:RQ.PER.RNK} - Regulatory Quality: Percentile Rank}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-{synoptline}
-{marker topicid_RQ.PER.RNK.LOWER}
-{synopt:{bf:{help wbopendata_topicid##RQ.PER.RNK.LOWER:RQ.PER.RNK.LOWER} - Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence Interval}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-{synoptline}
-{marker topicid_RQ.PER.RNK.UPPER}
-{synopt:{bf:{help wbopendata_topicid##RQ.PER.RNK.UPPER:RQ.PER.RNK.UPPER} - Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Percentile rank indicates the country's rank among all count{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-{synoptline}
-{marker topicid_RQ.STD.ERR}
-{synopt:{bf:{help wbopendata_topicid##RQ.STD.ERR:RQ.STD.ERR} - Regulatory Quality: Standard Error}}
-
-{synopt:{opt Source}}02 World Development Indicators{p_end}
-
-{synopt:{opt Topics}}13 Public Sector{p_end}
-
-{synopt:{opt Source Notes}}Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development. Standard error indicates the precision of the estimate of go{p_end}
-
-{synopt:{opt Source Organization}}Detailed documentation of the WGI, interactive tools for exploring the data, and full access to the underlying source data available at {browse "www.govindicators.org"}. The WGI are produced by Daniel Kaufmann (Natural Resource Governance Institute and B{p_end}
-
-
-
-{right:(as of 02jul2024)}
+{right:(as of 21dec2025)}
