@@ -57,6 +57,13 @@ wbopendata, topics(4) clear
 wbopendata, match(countrycode) full
 ```
 
+## Documentation
+
+- **[FAQ](doc/FAQ.md)** - Frequently asked questions and troubleshooting
+- **[Examples](doc/examples/)** - Basic and advanced usage examples
+- **[Help File](doc/wbopendata.md)** - Full documentation
+- **[Stata Help](src/w/wbopendata.sthlp)** - Type `help wbopendata` in Stata
+
 ## Parameters
 
 - **country(string)**: Countries and Regions Abbreviations and acronyms. If solely specified, this option will return all the WDI indicators (1,076 series) for a single country or region (no multiple country selection allowed in this case). If this option is selected jointly with a specific indicator, the output is a series for a specific country or region, or multiple countries or region. When selecting multiple countries please use the three letters code, separated by a semicolon (;), with no spaces.
@@ -97,6 +104,10 @@ The terms of use of the APIs is governed by the [World Bank Terms and Conditions
 
 
 ## Examples
+
+**[Basic Usage Examples](doc/examples/basic_usage.do)** - Getting started with wbopendata
+
+**[Advanced Usage Examples](doc/examples/advanced_usage.do)** - Panel data, visualizations, and more
 
 **[Examples of code and output](doc/wbopendata.md)**
 
