@@ -63,6 +63,7 @@ qa/             # Quality assurance materials
 
 We thank the following contributors for their bug reports and suggestions:
 
+- **@ckrf** — Country metadata fixes ([PR #44](https://github.com/jpazvd/wbopendata/pull/44)) 🆕
 - **@lucaslindoso** — Issues #33, #35, #45, #46
 - **@daniel-klein** — Issue #51
 - **@randrescastaneda** — Extensive testing and feedback
@@ -93,9 +94,22 @@ net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendat
 
 ---
 
+### 🔀 Merged Pull Requests
+
+- Country metadata fixes by @ckrf in [#44](https://github.com/jpazvd/wbopendata/pull/44)
+- v17 by @jpazvd in [#50](https://github.com/jpazvd/wbopendata/pull/50)
+- update 20240702 by @jpazvd in [#52](https://github.com/jpazvd/wbopendata/pull/52)
+- Develop by @jpazvd in [#53](https://github.com/jpazvd/wbopendata/pull/53)
+
+### 🌟 New Contributors
+
+- **@ckrf** made their first contribution in [#44](https://github.com/jpazvd/wbopendata/pull/44)
+
+---
+
 ### Full Changelog
 
-**Compare:** [v17.0...v17.1](https://github.com/jpazvd/wbopendata/compare/v17.0...v17.1)
+**Compare:** [v16.3...v17.1](https://github.com/jpazvd/wbopendata/compare/v16.3...v17.1)
 
 ---
 
