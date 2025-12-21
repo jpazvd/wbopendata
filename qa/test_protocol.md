@@ -1,5 +1,9 @@
 # wbopendata Test Protocol
 
+[← Back to README](../README.md) | [FAQ](../doc/FAQ.md) | [Examples](../doc/examples/)
+
+---
+
 ## Overview
 
 This document outlines the testing protocol for validating `wbopendata` functionality before releases.

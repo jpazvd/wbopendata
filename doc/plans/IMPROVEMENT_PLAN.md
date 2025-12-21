@@ -1,8 +1,12 @@
 # wbopendata Improvement Plan
 
+[← Back to README](../../README.md) | [FAQ](../FAQ.md) | [Issue Resolution](ISSUE_RESOLUTION_PLAN.md)
+
+---
+
 ## Overview
 
-This improvement plan draws insights from the recently developed [`unicefData`](C:/GitHub/others/unicefData) Stata package. The goal is to modernize `wbopendata` while maintaining backward compatibility with the 13+ years of existing user workflows.
+This improvement plan draws insights from the recently developed [`unicefData`](https://github.com/jpazvd/unicefData) Stata package. The goal is to modernize `wbopendata` while maintaining backward compatibility with the 13+ years of existing user workflows.
 
 **Document Created:** December 21, 2025  
 **Current wbopendata Version:** 17.0  
