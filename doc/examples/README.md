@@ -59,7 +59,19 @@ do basic_usage.do
 
 * Run advanced examples
 do advanced_usage.do
+
+* Run all examples and save logs to output/
+do run_examples.do
 ```
+
+---
+
+## Output Logs
+
+Pre-generated log files from running the examples are available in the [output/](output/) directory:
+
+- [basic_usage_log.txt](output/basic_usage_log.txt) - Output from basic examples
+- [advanced_usage_log.txt](output/advanced_usage_log.txt) - Output from advanced examples
 
 ---
 
