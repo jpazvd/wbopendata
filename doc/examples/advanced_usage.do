@@ -54,7 +54,8 @@ twoway (scatter sp_dyn_le00_in ny_gnp_pcap_pp_cd if ny_gnp_pcap_pp_cd < 150000, 
        title("Life Expectancy vs. GNI per capita (2022)") ///
        ytitle("Life Expectancy at Birth (years)") ///
        xtitle("GNI per capita, PPP (current international $)") ///
-       legend(off)
+       legend(off) \
+       note("Source: World Bank Open Data (wbopendata Stata package). Data: World Bank, UN, UNESCO. Variable codes: SP.DYN.LE00.IN, NY.GNP.PCAP.PP.CD")
 graph export "output/figures/life_exp_vs_gni.png", width(1200) replace
 
 *===============================================================================
@@ -73,7 +74,8 @@ collapse (sum) sp_pop_totl, by(regionname year)
 graph bar sp_pop_totl if year==2022, over(regionname, sort(1) descending label(angle(45) labsize(small))) ///
     title("World Population by Region (2022)") ///
     ytitle("Population") ///
-    blabel(bar, format(%12.0fc) size(vsmall))
+    blabel(bar, format(%12.0fc) size(vsmall)) \
+    note("Source: World Bank Open Data (wbopendata Stata package). Data: World Bank. Variable code: SP.POP.TOTL")
 graph export "output/figures/population_by_region.png", width(1200) replace
 
 *===============================================================================
@@ -89,7 +91,8 @@ twoway (connected fp_cpi_totl_zg year if countrycode=="ARG", lcolor(blue) mcolor
        (connected fp_cpi_totl_zg year if countrycode=="VEN", lcolor(green) mcolor(green)), ///
        title("Inflation Rates") ///
        ytitle("Inflation, consumer prices (annual %)") xtitle("Year") ///
-       legend(label(1 "Argentina") label(2 "Turkey") label(3 "Venezuela") rows(1))
+       legend(label(1 "Argentina") label(2 "Turkey") label(3 "Venezuela") rows(1)) \
+       note("Source: World Bank Open Data (wbopendata Stata package). Data: IMF, World Bank. Variable code: FP.CPI.TOTL.ZG")
 graph export "output/figures/inflation_rates.png", width(1200) replace
 
 *===============================================================================
@@ -105,10 +108,20 @@ wbopendata, match(countrycode) full
 merge 1:m countrycode using `mortality', nogen
 
 * Box plot by income level with high-resolution export
-graph box sh_dyn_mort, over(incomelevelname, label(angle(15) labsize(small))) ///
+* Order income groups for sensible display
+label define incomeorder 1 "Low income" 2 "Lower middle income" 3 "Upper middle income" 4 "High income"
+gen income_order = .
+replace income_order = 1 if incomelevelname == "Low income"
+replace income_order = 2 if incomelevelname == "Lower middle income"
+replace income_order = 3 if incomelevelname == "Upper middle income"
+replace income_order = 4 if incomelevelname == "High income"
+
+graph box sh_dyn_mort, over(income_order, label(valuelabel angle(15) labsize(small))) ///
     title("Under-5 Mortality Rate by Income Group") ///
-    ytitle("Mortality rate, under-5 (per 1,000 live births)")
+    ytitle("Mortality rate, under-5 (per 1,000 live births)") ///
+    note("Source: World Bank Open Data (wbopendata Stata package). Data: UNICEF, World Bank, UN IGME. Variable code: SH.DYN.MORT")
 graph export "output/figures/mortality_by_income.png", width(1200) replace
+
 
 *===============================================================================
 * EXAMPLE 6: Using return values
