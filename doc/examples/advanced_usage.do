@@ -1,6 +1,6 @@
 /*******************************************************************************
 * wbopendata: Advanced Usage Examples
-* Version: 17.1
+* Version: 17.2
 * Date: December 2025
 * Author: João Pedro Azevedo
 *
@@ -222,6 +222,96 @@ capture mkdir "output/data"
 format *SI_POV* %5.1f
 export excel countryname *SI_POV* using "output/data/poverty_table.xlsx", ///
     firstrow(varlabels) replace
+
+*===============================================================================
+* EXAMPLE 11: Using linewrap for graph-ready metadata titles
+*===============================================================================
+
+* Download multiple indicators with linewrap option for graph-ready titles
+* The linewrap() option wraps metadata text at specified character width
+* Returns r(name1_stack), r(description1_stack), etc. for use in graph titles
+wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest ///
+    linewrap(name description note) maxlength(40 160)
+
+* View wrapped metadata in return list
+return list
+
+* Create scatter plot using wrapped indicator names as axis titles
+* Use description_stack for note and note_stack for source attribution
+* NOTE: Use compound quotes to preserve the stacked format when assigning to locals
+local xtit `"`r(name1_stack)'"'
+local ytit `"`r(name2_stack)'"'
+local desc1 `"`r(description1_stack)'"'
+local desc2 `"`r(description2_stack)'"'
+local note1 `"`r(note1_stack)'"'
+local note2 `"`r(note2_stack)'"'
+
+twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///
+    xtitle(`xtit', size(small)) ///
+    ytitle(`ytit', size(small)) ///
+    title("Poverty and Child Mortality (Latest Available Year)") ///
+    note("Description:" `desc1' `desc2' "" ///
+         "Source:" `note1' `note2', size(vsmall))
+capture mkdir "output/figures"
+graph export "output/figures/poverty_mortality_scatter.png", width(1200) replace
+
+
+*===============================================================================
+* EXAMPLE 12: Multiple maxlength values for different field widths
+*===============================================================================
+
+* Download multiple indicators
+wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest linewrap(name) maxlength(40)
+
+* Get wrapped titles and clean source citations
+local xtit `"`r(name1_stack)'"'
+local ytit `"`r(name2_stack)'"'
+
+* sourcecite gives clean org names:
+* r(sourcecite1) = "World Bank"
+* r(sourcecite2) = "UN Inter-agency Group for Child Mortality Estimation"
+
+twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///
+    xtitle(`xtit', size(small)) ///
+    ytitle(`ytit', size(small)) ///
+    title("Poverty and Child Mortality (Latest Available Year)") ///
+    note("Sources: `r(sourcecite1)'; `r(sourcecite2)'", size(vsmall))
+
+*===============================================================================
+* EXAMPLE 12: Multiple maxlength values for different field widths
+*===============================================================================
+
+* Use different character widths for different fields
+* maxlength(40 100 80) with linewrap(name description note) means:
+*   - name: 40 characters per line (short for axis titles)
+*   - description: 100 characters per line (longer for notes)
+*   - note: 80 characters per line (medium for footnotes)
+wbopendata, indicator(NY.GDP.PCAP.CD) clear long latest ///
+    linewrap(name description note) maxlength(40 100 80)
+
+return list
+
+* The name wraps at 40 chars (good for graph titles)
+di as text "Name (40 chars):"
+di `"`r(name1_stack)'"'
+
+* The description wraps at 100 chars (good for subtitles/notes)
+di as text "Description (100 chars):"
+di `"`r(description1_stack)'"'
+
+* The note wraps at 80 chars (medium width)
+di as text "Note (80 chars):"
+di `"`r(note1_stack)'"'
+
+* If fewer maxlength values than fields, last value is used for remaining fields
+wbopendata, indicator(SP.POP.TOTL) clear long latest ///
+    linewrap(name description note source) maxlength(45 90)
+*   - name: 45 characters
+*   - description: 90 characters
+*   - note: 90 characters (uses last value)
+*   - source: 90 characters (uses last value)
+
+return list
 
 *===============================================================================
 * End of advanced examples
