@@ -29,9 +29,9 @@ list countrycode countryname yr2020 yr2021 yr2022 in 1/10
 * GDP, Population, and Primary enrollment rate
 wbopendata, indicator(NY.GDP.MKTP.CD;SP.POP.TOTL;SE.PRM.ENRR) clear long
 
-* View structure
+* View structure - variables are named with lowercase and underscores
 describe
-tab indicatorcode
+sum ny_gdp_mktp_cd sp_pop_totl se_prm_enrr
 
 *===============================================================================
 * EXAMPLE 3: Download for specific countries
@@ -46,14 +46,16 @@ twoway (line ny_gdp_pcap_cd year if countrycode=="BRA", lcolor(green)) ///
        (line ny_gdp_pcap_cd year if countrycode=="IND", lcolor(orange)), ///
        legend(label(1 "Brazil") label(2 "China") label(3 "India")) ///
        title("GDP per capita") ytitle("USD") xtitle("Year")
+graph export "output/gdp_per_capita_brics.png", replace
 
 *===============================================================================
 * EXAMPLE 4: Download by topic
 *===============================================================================
 
-* All Education indicators (Topic 4)
-wbopendata, topics(4) clear long
-tab indicatorcode, sort
+* All Education indicators (Topic 4) - use wide format to see indicator codes
+wbopendata, topics(4) clear
+describe, short
+list indicatorcode indicatorname in 1/5
 
 *===============================================================================
 * EXAMPLE 5: Get latest available value only
