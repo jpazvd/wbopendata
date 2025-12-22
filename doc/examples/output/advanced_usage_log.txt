@@ -1,0 +1,103 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  advanced
+       log:  C:/GitHub/myados/wbopendata/doc/examples/output/advanced_usage_log.txt
+  log type:  text
+ opened on:  21 Dec 2025, 19:14:44
+r; t=0.00 19:14:44
+
+. 
+. capture noisily do "`basepath'/advanced_usage.do"
+
+. /*******************************************************************************
+> * wbopendata: Advanced Usage Examples
+> * Version: 17.1
+> * Date: December 2025
+> * Author: João Pedro Azevedo
+> *
+> * Documentation: https://github.com/jpazvd/wbopendata
+> * See also: basic_usage.do, ../FAQ.md
+> *******************************************************************************/
+. 
+. clear all
+r; t=0.03 19:14:44
+
+. set more off
+r; t=0.00 19:14:44
+
+. 
+. *===============================================================================
+. * EXAMPLE 1: Create panel dataset with multiple indicators
+. *===============================================================================
+. 
+. * Download key development indicators
+. wbopendata, indicator(NY.GDP.PCAP.CD;SP.DYN.LE00.IN;SE.ADT.LITR.ZS) ///
+>     country(BRA;CHN;IND;USA;DEU;JPN) year(2000:2022) clear long
+
+    Metadata for indicator NY.GDP.PCAP.CD
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Name: GDP per capita (current US$)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Collection: 2 World Development Indicators
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Description: Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be
+    measured in three different ways: using either the expenditure approach, the income approach, or the production approach. The core indicator has been divided by the general
+    population to achieve a per capita estimate.This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This
+    indicator is expressed in United States dollars.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Note: Country official statistics, National Statistical Organizations and or Central Banks;
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Topic(s):  ; 3 Economy and Growth
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+    Metadata for indicator SP.DYN.LE00.IN
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Name: Life expectancy at birth, total (years)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Collection: 2 World Development Indicators
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Description: Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the
+    same throughout its life.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Note: World Population Prospects, United Nations (UN), uri: UN Population Division;
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Topic(s):  ; 8 Health
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+    Metadata for indicator SE.ADT.LITR.ZS
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Name: Literacy rate, adult total (% of people ages 15 and above)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Collection: 2 World Development Indicators
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Description: Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday
+    life.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Note: Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: {browse unknown function https:"} databrowser.uis.unesco.org resources, note: The data are
+    obtained through the UIS API.  Detailed documentation is available at: {browse "https:"} api.uis.unesco.org api public documentation , publisher: UNESCO Institute for
+    Statistics ()
+
+    Sorry... No metadata available for NY.GDP.PCAP.CD;SP.DYN.LE00.IN;SE.ADT.LITR.ZS.
+
+r; t=4.06 19:14:48
+
+. 
+. * Reshape to have one row per country-year with all indicators as columns
+. reshape wide @, i(countrycode year) j(indicatorcode) string
+variable indicatorcode not found
+    Data are already wide.
+r(111); t=0.00 19:14:48
+
+end of do-file
+r; t=4.10 19:14:48
+
+. 
+. log close advanced
+      name:  advanced
+       log:  C:/GitHub/myados/wbopendata/doc/examples/output/advanced_usage_log.txt
+  log type:  text
+ closed on:  21 Dec 2025, 19:14:48
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
