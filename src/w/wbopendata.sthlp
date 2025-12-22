@@ -3,7 +3,7 @@
 {* 22Dec2025 }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
-{right: {bf:version 17.2}}
+{right: {bf:version 17.4}}
 {hline}
 
 {title:Title}
@@ -135,7 +135,10 @@ RAM to complete this operation.{p_end}
 
 {synopt:{opt clear}} replace data in memory.{p_end}
 
-{synopt:{opt latest}} keep only the latest available value of a single indicator (it only work if the data in the long format).{p_end}
+{synopt:{opt latest}} keep only the latest available value of a single indicator (requires {opt long} format). 
+With multiple indicators, keeps observations where all indicators are non-missing. 
+Returns {cmd:r(latest)} with a formatted subtitle string (e.g., "Latest Available Year, 186 Countries (avg year 2019.6)"), 
+{cmd:r(latest_ncountries)} with the country count, and {cmd:r(latest_avgyear)} with the average year.{p_end}
 
 {synopt:{opt nometadata}} omits the display of the metadata information from the series. Metadata information is only available when downloading specific series (indicator option). The metadata available include information on the name of the series, the source, a detailed description 
 of the indicator, and the organization responsible for compiling this indicator.{p_end}
@@ -525,6 +528,18 @@ the last value is used for remaining fields.{p_end}
 .     twoway scatter sh_dyn_mort si_pov_dday, ///
            xtitle(`xtit') ytitle(`ytit') ///
            note("Sources: `r(sourcecite1)'; `r(sourcecite2)'")
+
+{p 4 4 2}Use dynamic subtitle showing country count and average year:{p_end}
+
+{cmd}
+.     wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest ///
+          linewrap(name description) maxlength(40 180)
+.     local subtitle "`r(latest)'"
+.     twoway scatter sh_dyn_mort si_pov_dday, ///
+           title("Poverty and Child Mortality") ///
+           subtitle("`subtitle'") ///
+           note("Sources: `r(sourcecite1)'; `r(sourcecite2)'")
+.     * subtitle displays: "Latest Available Year, 186 Countries (avg year 2019.6)"
 
 {marker disclaimer}{...}
 {title:Disclaimer}
