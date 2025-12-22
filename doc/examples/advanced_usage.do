@@ -54,7 +54,7 @@ twoway (scatter sp_dyn_le00_in ny_gnp_pcap_pp_cd if ny_gnp_pcap_pp_cd < 150000, 
        title("Life Expectancy vs. GNI per capita (2022)") ///
        ytitle("Life Expectancy at Birth (years)") ///
        xtitle("GNI per capita, PPP (current international $)") ///
-       legend(off) \
+       legend(off) ///
        note("Source: World Bank Open Data (wbopendata Stata package). Data: World Bank, UN, UNESCO. Variable codes: SP.DYN.LE00.IN, NY.GNP.PCAP.PP.CD")
 graph export "output/figures/life_exp_vs_gni.png", width(1200) replace
 
