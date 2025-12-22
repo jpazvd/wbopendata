@@ -15,17 +15,15 @@ set more off
 * EXAMPLE 1: Create panel dataset with multiple indicators
 *===============================================================================
 
-* Download key development indicators
+* Download key development indicators (long format creates separate columns)
 wbopendata, indicator(NY.GDP.PCAP.CD;SP.DYN.LE00.IN;SE.ADT.LITR.ZS) ///
     country(BRA;CHN;IND;USA;DEU;JPN) year(2000:2022) clear long
 
-* Reshape to have one row per country-year with all indicators as columns
-reshape wide @, i(countrycode year) j(indicatorcode) string
-
-* Rename for clarity
-rename *NY_GDP_PCAP_CD* gdp_pcap
-rename *SP_DYN_LE00_IN* life_exp
-rename *SE_ADT_LITR_ZS* literacy
+* Variables are already in columns with lowercase names
+describe
+rename ny_gdp_pcap_cd gdp_pcap
+rename sp_dyn_le00_in life_exp
+rename se_adt_litr_zs literacy
 
 * Panel setup
 encode countrycode, gen(country_id)
@@ -52,6 +50,7 @@ twoway (scatter sp_dyn_le00_in ny_gnp_pcap_pp_cd, msize(small) mcolor(blue%50)) 
        ytitle("Life Expectancy at Birth (years)") ///
        xtitle("GNI per capita, PPP (current international $)") ///
        legend(off)
+graph export "output/life_exp_vs_gni.png", replace
 
 *===============================================================================
 * EXAMPLE 3: Regional aggregation
@@ -70,6 +69,7 @@ graph bar sp_pop_totl if year==2022, over(regionname, sort(1) descending label(a
     title("World Population by Region (2022)") ///
     ytitle("Population") ///
     blabel(bar, format(%12.0fc))
+graph export "output/population_by_region.png", replace
 
 *===============================================================================
 * EXAMPLE 4: Time series analysis
@@ -85,6 +85,7 @@ twoway (connected fp_cpi_totl_zg year if countrycode=="ARG") ///
        title("Inflation Rates") ///
        ytitle("Inflation, consumer prices (annual %)") ///
        legend(label(1 "Argentina") label(2 "Turkey") label(3 "Venezuela"))
+graph export "output/inflation_rates.png", replace
 
 *===============================================================================
 * EXAMPLE 5: Income group comparison
@@ -102,6 +103,7 @@ merge 1:m countrycode using `mortality', nogen
 graph box sh_dyn_mort, over(incomelevelname) ///
     title("Under-5 Mortality Rate by Income Group") ///
     ytitle("Mortality rate, under-5 (per 1,000 live births)")
+graph export "output/mortality_by_income.png", replace
 
 *===============================================================================
 * EXAMPLE 6: Using return values
