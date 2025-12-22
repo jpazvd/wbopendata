@@ -41,9 +41,9 @@ xtreg life_exp gdp_pcap, fe
 * EXAMPLE 2: Cross-country comparison with visualization
 *===============================================================================
 
-* Download HDI-related indicators
-wbopendata, indicator(SP.DYN.LE00.IN;SE.XPD.TOTL.GD.ZS;NY.GNP.PCAP.PP.CD) ///
-    clear long latest
+* Download HDI-related indicators for specific year (not latest) to ensure consistent naming
+wbopendata, indicator(SP.DYN.LE00.IN;NY.GNP.PCAP.PP.CD) ///
+    year(2022) clear long
 
 * Keep only individual countries
 drop if regionname == "Aggregates"
@@ -51,7 +51,7 @@ drop if regionname == "Aggregates"
 * Create scatter plot with high-resolution export
 twoway (scatter sp_dyn_le00_in ny_gnp_pcap_pp_cd if ny_gnp_pcap_pp_cd < 150000, msize(small) mcolor(blue%50)) ///
        (lfit sp_dyn_le00_in ny_gnp_pcap_pp_cd if ny_gnp_pcap_pp_cd < 150000, lcolor(red) lwidth(medium)), ///
-       title("Life Expectancy vs. GNI per capita") ///
+       title("Life Expectancy vs. GNI per capita (2022)") ///
        ytitle("Life Expectancy at Birth (years)") ///
        xtitle("GNI per capita, PPP (current international $)") ///
        legend(off)
