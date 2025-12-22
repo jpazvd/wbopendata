@@ -1,4 +1,7 @@
 *******************************************************************************
+*! v 16.4  	 22Dec2024        	   by Joao Pedro Azevedo                      *  
+*		add linewrap() option for graph-ready text
+*******************************************************************************
 *! v 16.3  	 8Jul2020        	   by Joao Pedro Azevedo                      *  
 *		change API end point to HTTPS
 *******************************************************************************
@@ -7,7 +10,7 @@ program def _query_metadata, rclass
 
 version 9.0
 
-    syntax , INDICATOR(string)
+    syntax , INDICATOR(string) [LINEWrap(string) MAXLength(integer 50)]
 
     quietly {
 
@@ -70,13 +73,44 @@ version 9.0
 		local topic3 ""
 	}
 		
-	cap qui _website, text("`source'")
+	* Initialize URL collection
+	local nurls = 0
+	
+	cap qui _website, text(`"`source'"')
 	if (_rc == 0) {
-		local source = r(text) 
+		local source = r(text)
+		* Collect URLs from source/description
+		if (r(nurls) > 0) {
+			forvalues u = 1/`=r(nurls)' {
+				local nurls = `nurls' + 1
+				local url`nurls' "`r(url`u')'"
+			}
+		}
 	}
-	cap qui _website, text("`note'")
+	cap qui _website, text(`"`note'"')
 	if (_rc == 0) {
 		local note = r(text)
+		* Collect URLs from note (with deduplication against existing URLs)
+		if (r(nurls) > 0) {
+			forvalues u = 1/`=r(nurls)' {
+				local thisurl "`r(url`u')'"
+				local isdupe = 0
+				* Check against already collected URLs
+				if (`nurls' > 0) {
+					forvalues v = 1/`nurls' {
+						if ("`url`v''" == "`thisurl'") {
+							local isdupe = 1
+							continue, break
+						}
+					}
+				}
+				* Only add if not duplicate
+				if (`isdupe' == 0) {
+					local nurls = `nurls' + 1
+					local url`nurls' "`thisurl'"
+				}
+			}
+		}
 	}
 
 	*---------------------------------------------------------------------------
@@ -88,14 +122,15 @@ version 9.0
 	noi di in smcl  "{hline}"
 	noi di in smcl  "{p 4 4 4}{opt Collection}: `collection'{p_end}"
 	noi di in smcl  "{hline}"
-	noi di in smcl  "{p 4 4 4}{opt Description}: `source'{p_end}"
+	noi di in smcl  `"{p 4 4 4}{opt Description}: `source'{p_end}"'
 	noi di in smcl  "{hline}"
-	noi di in smcl  "{p 4 4 4}{opt Note}: `note'{p_end}"
+	noi di in smcl  `"{p 4 4 4}{opt Note}: `note'{p_end}"'
 
     *noi _website, text(`"`note'"')  short(link)
 	noi di in smcl  "{hline}"
 	noi di in smcl  "{p 4 4 4}{opt Topic(s)}: `topic1' `topic2' `topic3'{p_end}"
 	noi di in smcl  "{hline}"
+	
 	noi di ""
 	noi di ""
 	
@@ -104,6 +139,21 @@ version 9.0
 	return local source         "`collection'"
     return local varlabel       "`name'"
     return local indicator      "`indicator'"
+	return local description    "`source'"
+	return local note           "`note'"
+	return local topic1         "`topic1'"
+	return local topic2         "`topic2'"
+	return local topic3         "`topic3'"
+	return local name           "`name'"
+	return local collection     "`collection'"
+	
+	* Return URLs
+	return scalar nurls = `nurls'
+	if (`nurls' > 0) {
+		forvalues u = 1/`nurls' {
+			return local url`u' "`url`u''"
+		}
+	}
 	
 }
 

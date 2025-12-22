@@ -1,12 +1,12 @@
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
       name:  basic
-       log:  C:/GitHub/myados/wbopendata/doc/examples/output/basic_usage_log.txt
+       log:  C:\GitHub\myados\wbopendata\doc\examples\output/logs/basic_usage_log.txt
   log type:  text
- opened on:  21 Dec 2025, 19:14:36
-r; t=0.00 19:14:36
+ opened on:  21 Dec 2025, 22:04:39
+r; t=0.02 22:04:39
 
 . 
-. capture noisily do "`basepath'/basic_usage.do"
+. capture noisily do "basic_usage.do"
 
 . /*******************************************************************************
 > * wbopendata: Basic Usage Examples
@@ -16,13 +16,20 @@ r; t=0.00 19:14:36
 > *
 > * Documentation: https://github.com/jpazvd/wbopendata
 > * See also: advanced_usage.do, ../FAQ.md
+> *
+> * Output: Graphs saved to output/figures/, logs to output/logs/
 > *******************************************************************************/
 . 
 . clear all
-r; t=0.02 19:14:36
+r; t=0.04 22:04:39
 
 . set more off
-r; t=0.00 19:14:36
+r; t=0.00 22:04:39
+
+. 
+. * Set graph scheme for consistent styling
+. set scheme s2color
+r; t=0.02 22:04:39
 
 . 
 . *===============================================================================
@@ -48,7 +55,7 @@ r; t=0.00 19:14:36
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-r; t=1.31 19:14:37
+r; t=1.39 22:04:41
 
 . 
 . * View the data
@@ -56,17 +63,17 @@ r; t=1.31 19:14:37
 
 Contains data from C:\Users\JPAZEV~1\AppData\Local\Temp\ST_1a08_000001.tmp
  Observations:           266                  
-    Variables:            77                  21 Dec 2025 19:14
+    Variables:            77                  21 Dec 2025 22:04
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Variable      Storage   Display    Value
     name         type    format    label      Variable label
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 countrycode     str3    %9s                   Country Code
-countryname     str75   %75s                  Country Name
+countryname     str73   %73s                  Country Name
 region          str3    %9s                   Region Code
-regionname      str51   %51s                  Region Name
+regionname      str28   %28s                  Region Name
 adminregion     str3    %9s                   Administrative Region Code
-adminregionname str75   %75s                  Administrative Region Name
+adminregionname str52   %52s                  Administrative Region Name
 incomelevel     str3    %9s                   Income Level Code
 incomelevelname str19   %19s                  Income Level Name
 lendingtype     str3    %9s                   Lending Type Code
@@ -141,7 +148,7 @@ yr2024          double  %10.0g                2024
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Sorted by: 
      Note: Dataset has changed since last saved.
-r; t=0.02 19:14:37
+r; t=0.02 22:04:41
 
 . list countrycode countryname yr2020 yr2021 yr2022 in 1/10
 
@@ -160,7 +167,7 @@ r; t=0.02 19:14:37
   9. |      ARE          United Arab Emirates   3.572e+11   4.224e+11   5.114e+11 |
  10. |      ARG                     Argentina   3.857e+11   4.866e+11   6.340e+11 |
      +----------------------------------------------------------------------------+
-r; t=0.01 19:14:37
+r; t=0.00 22:04:41
 
 . 
 . *===============================================================================
@@ -217,25 +224,25 @@ r; t=0.01 19:14:37
 
     Sorry... No metadata available for NY.GDP.MKTP.CD;SP.POP.TOTL;SE.PRM.ENRR.
 
-r; t=7.03 19:14:44
+r; t=7.16 22:04:48
 
 . 
-. * View structure
+. * View structure - variables are named with lowercase and underscores
 . describe
 
 Contains data from C:\Users\JPAZEV~1\AppData\Local\Temp\ST_1a08_000001.tmp
  Observations:        17,290                  
-    Variables:            14                  21 Dec 2025 19:14
+    Variables:            14                  21 Dec 2025 22:04
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Variable      Storage   Display    Value
     name         type    format    label      Variable label
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 countrycode     str3    %9s                   Country Code
-countryname     str75   %75s                  Country Name
+countryname     str73   %73s                  Country Name
 region          str3    %9s                   Region Code
-regionname      str51   %51s                  Region Name
+regionname      str28   %28s                  Region Name
 adminregion     str3    %9s                   Administrative Region Code
-adminregionname str75   %75s                  Administrative Region Name
+adminregionname str52   %52s                  Administrative Region Name
 incomelevel     str3    %9s                   Income Level Code
 incomelevelname str19   %19s                  Income Level Name
 lendingtype     str3    %9s                   Lending Type Code
@@ -247,19 +254,621 @@ se_prm_enrr     float   %9.0g                 SE.PRM.ENRR
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Sorted by: countrycode  year
      Note: Dataset has changed since last saved.
-r; t=0.00 19:14:44
+r; t=0.00 22:04:48
 
-. tab indicatorcode
-variable indicatorcode not found
-r(111); t=0.00 19:14:44
+. sum ny_gdp_mktp_cd sp_pop_totl se_prm_enrr
 
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+ny_gdp_mkt~d |     14,561    1.23e+12    5.70e+12    2585956   1.11e+14
+ sp_pop_totl |     17,195    2.18e+08    7.14e+08       2715   8.14e+09
+ se_prm_enrr |      9,012    95.80223    21.30292    6.88723   214.6426
+r; t=0.00 22:04:48
+
+. 
+. *===============================================================================
+. * EXAMPLE 3: Download for specific countries
+. *===============================================================================
+. 
+. * BRICS countries - GDP per capita
+. wbopendata, indicator(NY.GDP.PCAP.CD) country(BRA;RUS;IND;CHN;ZAF) clear long
+
+    Metadata for indicator NY.GDP.PCAP.CD
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Name: GDP per capita (current US$)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Collection: 2 World Development Indicators
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Description: Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be
+    measured in three different ways: using either the expenditure approach, the income approach, or the production approach. The core indicator has been divided by the general
+    population to achieve a per capita estimate.This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This
+    indicator is expressed in United States dollars.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Note: Country official statistics, National Statistical Organizations and or Central Banks;
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Topic(s):  ; 3 Economy and Growth
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+r; t=1.71 22:04:50
+
+. 
+. * Simple line graph with high-resolution export
+. twoway (line ny_gdp_pcap_cd year if countrycode=="BRA", lcolor(green) lwidth(medium)) ///
+>        (line ny_gdp_pcap_cd year if countrycode=="CHN", lcolor(red) lwidth(medium)) ///
+>        (line ny_gdp_pcap_cd year if countrycode=="IND", lcolor(orange) lwidth(medium)), ///
+>        legend(label(1 "Brazil") label(2 "China") label(3 "India") rows(1)) ///
+>        title("GDP per capita") ytitle("USD") xtitle("Year") ///
+>        note("Source: World Bank Open Data (wbopendata Stata package). Data: World Bank. Variable code: NY.GDP.PCAP.CD")
+r; t=9.98 22:05:00
+
+. graph export "output/figures/gdp_per_capita_brics.png", width(1200) replace
+file output/figures/gdp_per_capita_brics.png saved as PNG format
+r; t=0.24 22:05:00
+
+. 
+. *===============================================================================
+. * EXAMPLE 4: Download by topic
+. *===============================================================================
+. 
+. * All Education indicators (Topic 4) - use wide format to see indicator codes
+. wbopendata, topics(4) clear
+r; t=6.84 22:05:07
+
+. describe, short
+
+Contains data
+ Observations:        43,624                  
+    Variables:            77                  
+Sorted by: 
+     Note: Dataset has changed since last saved.
+r; t=0.00 22:05:07
+
+. list indicatorcode indicatorname in 1/5
+
+     +-------------------------------------------------------------------------------------------+
+     |     indicatorcode                                                           indicatorname |
+     |-------------------------------------------------------------------------------------------|
+  1. | SP.POP.1564.TO.ZS                           Population ages 15-64 (% of total population) |
+  2. | SP.POP.0014.TO.ZS                            Population ages 0-14 (% of total population) |
+  3. |    SL.UEM.TOTL.ZS     Unemployment, total (% of total labor force) (modeled ILO estimate) |
+  4. | SL.UEM.TOTL.MA.ZS       Unemployment, male (% of male labor force) (modeled ILO estimate) |
+  5. | SL.UEM.TOTL.FE.ZS   Unemployment, female (% of female labor force) (modeled ILO estimate) |
+     +-------------------------------------------------------------------------------------------+
+r; t=0.00 22:05:07
+
+. 
+. *===============================================================================
+. * EXAMPLE 5: Get latest available value only
+. *===============================================================================
+. 
+. * Latest poverty headcount ratio
+. wbopendata, indicator(SI.POV.DDAY) clear long latest
+
+    Metadata for indicator SI.POV.DDAY
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Name: Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Collection: 2 World Development Indicators
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Description: Poverty headcount ratio at $3.00 a day is the percentage of the population living on less than $3.00 a day at 2021 purchasing power adjusted prices. As a result
+    of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Note: World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country
+    departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see {browse unknown function
+    http:"} pip.worldbank.org., World Bank ()
+
+    Sorry... No metadata available for SI.POV.DDAY.
+
+r; t=2.01 22:05:09
+
+. 
+. * List countries with data
+. list countrycode countryname year si_pov_dday if si_pov_dday != .
+
+     +-----------------------------------------------------------------------+
+     | count~de                                countryname   year   si_pov~y |
+     |-----------------------------------------------------------------------|
+  1. |      ALB                                    Albania   2020         .3 |
+  2. |      DZA                                    Algeria   2011          0 |
+  3. |      AGO                                     Angola   2018       39.3 |
+  4. |      ARG                                  Argentina   2024          1 |
+  5. |      ARM                                    Armenia   2023        1.9 |
+     |-----------------------------------------------------------------------|
+  6. |      AUS                                  Australia   2020          1 |
+  7. |      AUT                                    Austria   2023         .5 |
+  8. |      AZE                                 Azerbaijan   2005          0 |
+  9. |      BGD                                 Bangladesh   2022        5.9 |
+ 10. |      BRB                                   Barbados   2016        1.7 |
+     |-----------------------------------------------------------------------|
+ 11. |      BLR                                    Belarus   2020          0 |
+ 12. |      BEL                                    Belgium   2023         .1 |
+ 13. |      BLZ                                     Belize   2018          1 |
+ 14. |      BEN                                      Benin   2021       27.2 |
+ 15. |      BTN                                     Bhutan   2022          0 |
+     |-----------------------------------------------------------------------|
+ 16. |      BOL                                    Bolivia   2023        2.8 |
+ 17. |      BIH                     Bosnia and Herzegovina   2011         .2 |
+ 18. |      BWA                                   Botswana   2015       21.4 |
+ 19. |      BRA                                     Brazil   2023        3.8 |
+ 20. |      BGR                                   Bulgaria   2023          1 |
+     |-----------------------------------------------------------------------|
+ 21. |      BFA                               Burkina Faso   2021       42.1 |
+ 22. |      BDI                                    Burundi   2020       74.2 |
+ 23. |      CPV                                 Cabo Verde   2015       14.6 |
+ 24. |      CMR                                   Cameroon   2021       26.7 |
+ 25. |      CAN                                     Canada   2021         .2 |
+     |-----------------------------------------------------------------------|
+ 26. |      CAF                   Central African Republic   2021       71.6 |
+ 27. |      TCD                                       Chad   2022       39.5 |
+ 28. |      CHL                                      Chile   2022         .5 |
+ 29. |      CHN                                      China   2022          0 |
+ 30. |      COL                                   Colombia   2023        7.7 |
+     |-----------------------------------------------------------------------|
+ 31. |      COM                                    Comoros   2014       31.4 |
+ 32. |      COD                             Congo, Dem Rep   2020       85.3 |
+ 33. |      COG                                 Congo, Rep   2011       39.2 |
+ 34. |      CRI                                 Costa Rica   2024        1.3 |
+ 35. |      CIV                              Cote d'Ivoire   2021       20.9 |
+     |-----------------------------------------------------------------------|
+ 36. |      HRV                                    Croatia   2023         .3 |
+ 37. |      CYP                                     Cyprus   2023          0 |
+ 38. |      CZE                                    Czechia   2023          0 |
+ 39. |      DNK                                    Denmark   2023         .4 |
+ 40. |      DJI                                   Djibouti   2017       25.4 |
+     |-----------------------------------------------------------------------|
+ 41. |      DOM                         Dominican Republic   2024         .8 |
+ 42. |      EAS                      East Asia and Pacific   2024          2 |
+ 43. |      ECU                                    Ecuador   2024        7.3 |
+ 44. |      EGY                            Egypt, Arab Rep   2021        1.4 |
+ 45. |      SLV                                El Salvador   2023        4.6 |
+     |-----------------------------------------------------------------------|
+ 46. |      GNQ                          Equatorial Guinea   2022        8.8 |
+ 47. |      EST                                    Estonia   2023         .3 |
+ 48. |      SWZ                                   Eswatini   2016       44.5 |
+ 49. |      ETH                                   Ethiopia   2021       38.6 |
+ 50. |      ECS                    Europe and Central Asia   2024         .5 |
+     |-----------------------------------------------------------------------|
+ 51. |      FJI                                       Fiji   2019        4.7 |
+ 52. |      FIN                                    Finland   2023         .2 |
+ 53. |      FCS   Fragile and conflict affected situations   2024       41.7 |
+ 54. |      FRA                                     France   2023         .1 |
+ 55. |      GAB                                      Gabon   2017        3.8 |
+     |-----------------------------------------------------------------------|
+ 56. |      GMB                                Gambia, The   2020         22 |
+ 57. |      GEO                                    Georgia   2024        4.2 |
+ 58. |      DEU                                    Germany   2020         .2 |
+ 59. |      GHA                                      Ghana   2016         39 |
+ 60. |      GRC                                     Greece   2023         .6 |
+     |-----------------------------------------------------------------------|
+ 61. |      GRD                                    Grenada   2018         .8 |
+ 62. |      GTM                                  Guatemala   2023        9.7 |
+ 63. |      GIN                                     Guinea   2018       11.7 |
+ 64. |      GNB                              Guinea-Bissau   2021       39.9 |
+ 65. |      GUY                                     Guyana   1998         13 |
+     |-----------------------------------------------------------------------|
+ 66. |      HTI                                      Haiti   2012       40.4 |
+ 67. |      HIC                                High income   2024         .5 |
+ 68. |      HND                                   Honduras   2024       15.7 |
+ 69. |      HUN                                    Hungary   2017         .9 |
+ 70. |      IDA                                  IDA total   2024         35 |
+     |-----------------------------------------------------------------------|
+ 71. |      ISL                                    Iceland   2019         .1 |
+ 72. |      IND                                      India   2022        5.3 |
+ 73. |      IDN                                  Indonesia   2024        5.4 |
+ 74. |      IRN                          Iran, Islamic Rep   2023        2.5 |
+ 75. |      IRQ                                       Iraq   2023         .5 |
+     |-----------------------------------------------------------------------|
+ 76. |      IRL                                    Ireland   2023         .1 |
+ 77. |      ISR                                     Israel   2021         .7 |
+ 78. |      ITA                                      Italy   2023         .9 |
+ 79. |      JAM                                    Jamaica   2021        1.4 |
+ 80. |      JPN                                      Japan   2020        1.2 |
+     |-----------------------------------------------------------------------|
+ 81. |      JOR                                     Jordan   2010         .1 |
+ 82. |      KAZ                                 Kazakhstan   2021          0 |
+ 83. |      KEN                                      Kenya   2022       46.9 |
+ 84. |      KIR                                   Kiribati   2019        6.1 |
+ 85. |      KOR                                 Korea, Rep   2021         .2 |
+     |-----------------------------------------------------------------------|
+ 86. |      XKX                                     Kosovo   2022         10 |
+ 87. |      KGZ                            Kyrgyz Republic   2023        2.7 |
+ 88. |      LAO                                    Lao PDR   2018       15.7 |
+ 89. |      LCN                Latin America and Caribbean   2024        4.5 |
+ 90. |      LVA                                     Latvia   2023         .4 |
+     |-----------------------------------------------------------------------|
+ 91. |      LBN                                    Lebanon   2022        5.9 |
+ 92. |      LSO                                    Lesotho   2017       41.9 |
+ 93. |      LBR                                    Liberia   2016       33.6 |
+ 94. |      LTU                                  Lithuania   2023        1.1 |
+ 95. |      LMY                      Low and middle income   2024         12 |
+     |-----------------------------------------------------------------------|
+ 96. |      LIC                                 Low income   2023       56.3 |
+ 97. |      LMC                        Lower middle income   2024         12 |
+ 98. |      LUX                                 Luxembourg   2023         .1 |
+ 99. |      MDG                                 Madagascar   2021       69.2 |
+100. |      MWI                                     Malawi   2019       75.4 |
+     |-----------------------------------------------------------------------|
+101. |      MYS                                   Malaysia   2021          0 |
+102. |      MDV                                   Maldives   2019          0 |
+103. |      MLI                                       Mali   2021       36.1 |
+104. |      MLT                                      Malta   2022         .1 |
+105. |      MHL                           Marshall Islands   2019        2.1 |
+     |-----------------------------------------------------------------------|
+106. |      MRT                                 Mauritania   2019       10.2 |
+107. |      MUS                                  Mauritius   2017         .5 |
+108. |      MEX                                     Mexico   2022        2.3 |
+109. |      FSM                        Micronesia, Fed Sts   2013       26.1 |
+110. |      MEA               Middle East and North Africa   2019       11.4 |
+     |-----------------------------------------------------------------------|
+111. |      MDA                                    Moldova   2023         .1 |
+112. |      MNG                                   Mongolia   2022         .4 |
+113. |      MNE                                 Montenegro   2021        2.5 |
+114. |      MAR                                    Morocco   2013        3.7 |
+115. |      MOZ                                 Mozambique   2022       81.4 |
+     |-----------------------------------------------------------------------|
+116. |      MMR                                    Myanmar   2017       10.3 |
+117. |      NAM                                    Namibia   2015       22.9 |
+118. |      NRU                                      Nauru   2012        9.7 |
+119. |      NPL                                      Nepal   2022        2.4 |
+120. |      NLD                                Netherlands   2021         .1 |
+     |-----------------------------------------------------------------------|
+121. |      NIC                                  Nicaragua   2014        6.6 |
+122. |      NER                                      Niger   2021       60.5 |
+123. |      NGA                                    Nigeria   2022       41.8 |
+124. |      NAC                              North America   2024          1 |
+125. |      MKD                            North Macedonia   2019        3.9 |
+     |-----------------------------------------------------------------------|
+126. |      NOR                                     Norway   2023         .2 |
+127. |      PAK                                   Pakistan   2018       16.5 |
+128. |      PAN                                     Panama   2024        3.1 |
+129. |      PNG                           Papua New Guinea   2009       52.2 |
+130. |      PRY                                   Paraguay   2024        2.1 |
+     |-----------------------------------------------------------------------|
+131. |      PER                                       Peru   2024        5.1 |
+132. |      PHL                                Philippines   2023        5.3 |
+133. |      POL                                     Poland   2023         .2 |
+134. |      PRT                                   Portugal   2023         .4 |
+135. |      QAT                                      Qatar   2017          0 |
+     |-----------------------------------------------------------------------|
+136. |      ROU                                    Romania   2023         .7 |
+137. |      RUS                         Russian Federation   2023         .1 |
+138. |      RWA                                     Rwanda   2023       38.6 |
+139. |      WSM                                      Samoa   2013        4.5 |
+140. |      STP                      Sao Tome and Principe   2017         13 |
+     |-----------------------------------------------------------------------|
+141. |      SEN                                    Senegal   2021       17.9 |
+142. |      SRB                                     Serbia   2022          2 |
+143. |      SYC                                 Seychelles   2018         .7 |
+144. |      SLE                               Sierra Leone   2018       41.5 |
+145. |      SVK                            Slovak Republic   2023         .5 |
+     |-----------------------------------------------------------------------|
+146. |      SVN                                   Slovenia   2023          0 |
+147. |      SLB                            Solomon Islands   2012       40.3 |
+148. |      ZAF                               South Africa   2014       31.2 |
+149. |      SAS                                 South Asia   2024        3.8 |
+150. |      SSD                                South Sudan   2016       76.5 |
+     |-----------------------------------------------------------------------|
+151. |      ESP                                      Spain   2023         .8 |
+152. |      LKA                                  Sri Lanka   2019        2.7 |
+153. |      LCA                                   St Lucia   2015         .1 |
+154. |      SSF                         Sub-Saharan Africa   2024         46 |
+155. |      SDN                                      Sudan   2014       10.1 |
+     |-----------------------------------------------------------------------|
+156. |      SUR                                   Suriname   2022        2.2 |
+157. |      SWE                                     Sweden   2023         .8 |
+158. |      CHE                                Switzerland   2022         .2 |
+159. |      SYR                       Syrian Arab Republic   2022       16.5 |
+160. |      TJK                                 Tajikistan   2024        6.1 |
+     |-----------------------------------------------------------------------|
+161. |      TZA                                   Tanzania   2018       51.3 |
+162. |      THA                                   Thailand   2023          0 |
+163. |      TLS                                Timor-Leste   2014       43.9 |
+164. |      TGO                                       Togo   2021       34.4 |
+165. |      TON                                      Tonga   2021         .4 |
+     |-----------------------------------------------------------------------|
+166. |      TTO                        Trinidad and Tobago   1992        3.2 |
+167. |      TUN                                    Tunisia   2021         .7 |
+168. |      TUR                                    Turkiye   2022         .5 |
+169. |      TKM                               Turkmenistan   1998       35.1 |
+170. |      TUV                                     Tuvalu   2010          9 |
+     |-----------------------------------------------------------------------|
+171. |      UGA                                     Uganda   2019       59.8 |
+172. |      UKR                                    Ukraine   2020          0 |
+173. |      ARE                       United Arab Emirates   2018          0 |
+174. |      GBR                             United Kingdom   2021         .5 |
+175. |      USA                              United States   2023        1.2 |
+     |-----------------------------------------------------------------------|
+176. |      UMC                        Upper middle income   2024        2.1 |
+177. |      URY                                    Uruguay   2024         .2 |
+178. |      UZB                                 Uzbekistan   2024        2.7 |
+179. |      VUT                                    Vanuatu   2019       19.5 |
+180. |      VEN                              Venezuela, RB   2006        9.7 |
+     |-----------------------------------------------------------------------|
+181. |      VNM                                   Viet Nam   2022        1.6 |
+182. |      PSE                         West Bank and Gaza   2023        2.1 |
+183. |      WLD                                      World   2024       10.3 |
+184. |      YEM                                 Yemen, Rep   2014       33.3 |
+185. |      ZMB                                     Zambia   2022       71.7 |
+     |-----------------------------------------------------------------------|
+186. |      ZWE                                   Zimbabwe   2019       49.2 |
+     +-----------------------------------------------------------------------+
+r; t=0.00 22:05:09
+
+. 
+. *===============================================================================
+. * EXAMPLE 6: Specify year range
+. *===============================================================================
+. 
+. * Life expectancy 2000-2020
+. wbopendata, indicator(SP.DYN.LE00.IN) year(2000:2020) clear long
+
+    Metadata for indicator SP.DYN.LE00.IN
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Name: Life expectancy at birth, total (years)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Collection: 2 World Development Indicators
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Description: Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the
+    same throughout its life.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Note: World Population Prospects, United Nations (UN), uri: UN Population Division;
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Topic(s):  ; 8 Health
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+r; t=1.36 22:05:10
+
+. 
+. summarize sp_dyn_le00_in
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+sp_dyn_le0~n |      5,565    70.21551    8.698495     14.665     86.151
+r; t=0.00 22:05:10
+
+. table year, stat(mean sp_dyn_le00_in) stat(sd sp_dyn_le00_in)
+
+----------------------------------------
+        |      Mean   Standard deviation
+--------+-------------------------------
+Year    |                               
+  2000  |  67.15818             9.417923
+  2001  |  67.49926             9.412114
+  2002  |  67.79066             9.329878
+  2003  |  68.11843             9.213057
+  2004  |  68.45288             9.160837
+  2005  |  68.77843             9.038687
+  2006  |  69.13134             8.904608
+  2007  |  69.45659             8.749879
+  2008  |  69.76662             8.645741
+  2009  |  69.98067             9.058213
+  2010  |  70.39748             8.535197
+  2011  |  70.72958             8.527978
+  2012  |  71.08049              8.14933
+  2013  |  71.38179             8.031043
+  2014  |  71.54925             8.196573
+  2015  |  71.75436             8.014006
+  2016  |   71.9895             7.960665
+  2017  |   72.1565             7.977641
+  2018  |  72.51347             7.549511
+  2019  |  72.69539             7.747485
+  2020  |  72.14487              7.22641
+  Total |  70.21551             8.698495
+----------------------------------------
+r; t=0.40 22:05:11
+
+. 
+. *===============================================================================
+. * EXAMPLE 7: Add country metadata (match option)
+. *===============================================================================
+. 
+. * First create a dataset with country codes
+. clear
+r; t=0.02 22:05:11
+
+. input str3 countrycode value
+
+     country~e      value
+  1. "USA" 100
+  2. "BRA" 50
+  3. "CHN" 75
+  4. "IND" 60
+  5. end
+r; t=0.00 22:05:11
+
+. 
+. * Add country attributes
+. wbopendata, match(countrycode) full
+r; t=0.01 22:05:11
+
+. 
+. * View added variables
+. describe
+
+Contains data
+ Observations:             4                  
+    Variables:            16                  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Variable      Storage   Display    Value
+    name         type    format    label      Variable label
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+countrycode     str3    %9s                   
+countryname     str13   %13s                  Country Name
+countrycode_i~2 str2    %9s                   Country Code (ISO 2 digits)
+region          str3    %9s                   Region Code
+region_iso2     str2    %9s                   Region Code (ISO 2 digits)
+regionname      str27   %27s                  Region Name
+adminregion     str3    %9s                   Administrative Region Code
+adminregion_i~2 str2    %9s                   Administrative Region Code (ISO 2 digits)
+adminregionname str51   %51s                  Administrative Region Name
+incomelevel     str3    %9s                   Income Level Code
+incomelevel_i~2 str2    %9s                   Income Level Code (ISO 2 digits)
+incomelevelname str19   %19s                  Income Level Name
+lendingtype     str3    %9s                   Lending Type Code
+lendingtype_i~2 str2    %9s                   Lending Type Code (ISO 2 digits)
+lendingtypename str14   %14s                  Lending Type Name
+value           float   %9.0g                 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sorted by: 
+     Note: Dataset has changed since last saved.
+r; t=0.00 22:05:11
+
+. list
+
+     +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  1. | count~de |   countryname | countr~2 | region | region~2 |                  regionname | adminr~n | adminr~2 |                                     adminregionname | income~l |
+     |      USA | United States |       US |    NAC |       XU |               North America |          |          |                                                     |      HIC |
+     |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+     |        income~2         |             incomelevelname         |         lendi~pe         |         lendin~2         |         lendingtypen~e         |         value         |
+     |              XD         |                 High income         |              LNX         |               XX         |         Not classified         |           100         |
+     +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+     +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  2. | count~de |   countryname | countr~2 | region | region~2 |                  regionname | adminr~n | adminr~2 |                                     adminregionname | income~l |
+     |      BRA |        Brazil |       BR |    LCN |       ZJ | Latin America and Caribbean |      LAC |       XJ | Latin America and Caribbean (excluding high income) |      UMC |
+     |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+     |        income~2         |             incomelevelname         |         lendi~pe         |         lendin~2         |         lendingtypen~e         |         value         |
+     |              XT         |         Upper middle income         |              IBD         |               XF         |                   IBRD         |            50         |
+     +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+     +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  3. | count~de |   countryname | countr~2 | region | region~2 |                  regionname | adminr~n | adminr~2 |                                     adminregionname | income~l |
+     |      CHN |         China |       CN |    EAS |       Z4 |       East Asia and Pacific |      EAP |       4E |       East Asia and Pacific (excluding high income) |      UMC |
+     |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+     |        income~2         |             incomelevelname         |         lendi~pe         |         lendin~2         |         lendingtypen~e         |         value         |
+     |              XT         |         Upper middle income         |              IBD         |               XF         |                   IBRD         |            75         |
+     +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+     +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  4. | count~de |   countryname | countr~2 | region | region~2 |                  regionname | adminr~n | adminr~2 |                                     adminregionname | income~l |
+     |      IND |         India |       IN |    SAS |       8S |                  South Asia |      SAS |       8S |                  South Asia (excluding high income) |      LMC |
+     |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+     |        income~2         |             incomelevelname         |         lendi~pe         |         lendin~2         |         lendingtypen~e         |         value         |
+     |              XN         |         Lower middle income         |              IBD         |               XF         |                   IBRD         |            60         |
+     +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+r; t=0.00 22:05:11
+
+. 
+. *===============================================================================
+. * EXAMPLE 8: Suppress metadata display
+. *===============================================================================
+. 
+. * Download without showing metadata in results window
+. wbopendata, indicator(SP.POP.TOTL) clear nometadata
+r; t=0.52 22:05:11
+
+. 
+. *===============================================================================
+. * EXAMPLE 9: Filter countries vs aggregates
+. *===============================================================================
+. 
+. wbopendata, indicator(SP.POP.TOTL) clear long
+
+    Metadata for indicator SP.POP.TOTL
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Name: Population, total
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Collection: 2 World Development Indicators
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Description: Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are
+    midyear estimates.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Note: World Population Prospects, United Nations (UN), uri: {browse https:"} population.un.org wpp , publisher: UN Population Division;{p_end}" invalid name
+
+    Sorry... No metadata available for SP.POP.TOTL.
+
+r; t=3.19 22:05:14
+
+. 
+. * Keep only individual countries (drop regional aggregates)
+. tab regionname
+
+                 Region Name |      Freq.     Percent        Cum.
+-----------------------------+-----------------------------------
+                  Aggregates |      3,185       18.42       18.42
+       East Asia and Pacific |      2,405       13.91       32.33
+     Europe and Central Asia |      3,770       21.80       54.14
+ Latin America and Caribbean |      2,730       15.79       69.92
+Middle East and North Africa |      1,365        7.89       77.82
+               North America |        195        1.13       78.95
+                  South Asia |        520        3.01       81.95
+          Sub-Saharan Africa |      3,120       18.05      100.00
+-----------------------------+-----------------------------------
+                       Total |     17,290      100.00
+r; t=0.00 22:05:14
+
+. keep if regionname != "Aggregates"
+(3,185 observations deleted)
+r; t=0.00 22:05:14
+
+. 
+. * Alternative: keep only countries with a non-empty region
+. * drop if region == ""
+. 
+. *===============================================================================
+. * EXAMPLE 10: Export to different formats
+. *===============================================================================
+. 
+. wbopendata, indicator(NY.GDP.MKTP.CD) clear long
+
+    Metadata for indicator NY.GDP.MKTP.CD
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Name: GDP (current US$)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Collection: 2 World Development Indicators
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Description: Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be
+    measured in three different ways: using either the expenditure approach, the income approach, or the production approach. This indicator is expressed in current prices,
+    meaning no adjustment has been made to account for price changes over time. This indicator is expressed in United States dollars.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Note: Country official statistics, National Statistical Organizations and or Central Banks;
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Topic(s):  ; 3 Economy and Growth
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+r; t=2.98 22:05:17
+
+. 
+. * Export to CSV (saved in output/data/)
+. capture mkdir "output/data"
+r; t=0.00 22:05:17
+
+. export delimited using "output/data/gdp_data.csv", replace
+file output/data/gdp_data.csv saved
+r; t=0.09 22:05:17
+
+. 
+. * Export to Excel
+. export excel using "output/data/gdp_data.xlsx", firstrow(variables) replace
+file output/data/gdp_data.xlsx saved
+r; t=0.75 22:05:18
+
+. 
+. * Save as Stata format
+. save "output/data/gdp_data.dta", replace
+file output/data/gdp_data.dta saved
+r; t=0.02 22:05:18
+
+. 
+. *===============================================================================
+. * End of examples
+. *===============================================================================
+. 
+. di as text "All examples completed successfully!"
+All examples completed successfully!
+r; t=0.00 22:05:18
+
+. 
 end of do-file
-r; t=8.40 19:14:44
+r; t=38.85 22:05:18
 
 . 
 . log close basic
       name:  basic
-       log:  C:/GitHub/myados/wbopendata/doc/examples/output/basic_usage_log.txt
+       log:  C:\GitHub\myados\wbopendata\doc\examples\output/logs/basic_usage_log.txt
   log type:  text
- closed on:  21 Dec 2025, 19:14:44
+ closed on:  21 Dec 2025, 22:05:18
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

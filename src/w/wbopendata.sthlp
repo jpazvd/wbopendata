@@ -530,8 +530,8 @@ S426302, Boston College Department of Economics, revised 17 Oct 2006.{p_end}
 
     {p 4 4 2}I would like to dedicate this ado file to Dr Richard Sperling, who asked us to support intelligent and well 
     thought out public policies that help those in society who are less fortunate than we are. {browse "www.stata.com/statalist/archive/2011-02/msg00062.html"}{p_end}
-    {p 4 4 2}{cmd:wbopendata} uses the Stata user written command {cmd:_pecats} produced by J. Scott Long and Jeremy Freese, and {cmd:tknz} written by David C. Elliott and 
-    Nick Cox.{p_end} 
+    {p 4 4 2}{cmd:wbopendata} uses the Stata user written command {cmd:_pecats} produced by J. Scott Long and Jeremy Freese, {cmd:tknz} written by David C. Elliott and 
+    Nick Cox, and {cmd:_linewrap} (based on {cmd:linewrap} v2.1 by Mead Over & João Pedro Azevedo) for formatting graph footnotes in example files.{p_end} 
        
 {title:Author}
 

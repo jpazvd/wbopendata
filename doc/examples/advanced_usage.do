@@ -49,13 +49,16 @@ wbopendata, indicator(SP.DYN.LE00.IN;NY.GNP.PCAP.PP.CD) ///
 drop if regionname == "Aggregates"
 
 * Create scatter plot with high-resolution export
+_linewrap, maxlength(90) longstring("Source: World Bank Open Data (wbopendata Stata package). Data: World Bank, UN, UNESCO. Variable codes: SP.DYN.LE00.IN, NY.GNP.PCAP.PP.CD")
+local note1 `r(line1)'
+local note2 `r(line2)'
 twoway (scatter sp_dyn_le00_in ny_gnp_pcap_pp_cd if ny_gnp_pcap_pp_cd < 150000, msize(small) mcolor(blue%50)) ///
        (lfit sp_dyn_le00_in ny_gnp_pcap_pp_cd if ny_gnp_pcap_pp_cd < 150000, lcolor(red) lwidth(medium)), ///
        title("Life Expectancy vs. GNI per capita (2022)") ///
        ytitle("Life Expectancy at Birth (years)") ///
        xtitle("GNI per capita, PPP (current international $)") ///
        legend(off) ///
-       note("Source: World Bank Open Data (wbopendata Stata package). Data: World Bank, UN, UNESCO. Variable codes: SP.DYN.LE00.IN, NY.GNP.PCAP.PP.CD")
+       note("`note1'" "`note2'")
 graph export "output/figures/life_exp_vs_gni.png", width(1200) replace
 
 *===============================================================================
@@ -71,11 +74,14 @@ drop if regionname == "Aggregates"
 collapse (sum) sp_pop_totl, by(regionname year)
 
 * Create bar chart with high-resolution export
+_linewrap, maxlength(90) longstring("Source: World Bank Open Data (wbopendata Stata package). Data: World Bank. Variable code: SP.POP.TOTL")
+local note1 `r(line1)'
+local note2 `r(line2)'
 graph bar sp_pop_totl if year==2022, over(regionname, sort(1) descending label(angle(45) labsize(small))) ///
     title("World Population by Region (2022)") ///
     ytitle("Population") ///
-    blabel(bar, format(%12.0fc) size(vsmall)) \
-    note("Source: World Bank Open Data (wbopendata Stata package). Data: World Bank. Variable code: SP.POP.TOTL")
+    blabel(bar, format(%12.0fc) size(vsmall)) ///
+    note("`note1'" "`note2'")
 graph export "output/figures/population_by_region.png", width(1200) replace
 
 *===============================================================================
@@ -86,13 +92,16 @@ wbopendata, indicator(FP.CPI.TOTL.ZG) country(ARG;VEN;TUR;ZWE) ///
     year(2000:2023) clear long
 
 * Time series plot with high-resolution export
+_linewrap, maxlength(90) longstring("Source: World Bank Open Data (wbopendata Stata package). Data: IMF, World Bank. Variable code: FP.CPI.TOTL.ZG")
+local note1 `r(line1)'
+local note2 `r(line2)'
 twoway (connected fp_cpi_totl_zg year if countrycode=="ARG", lcolor(blue) mcolor(blue)) ///
        (connected fp_cpi_totl_zg year if countrycode=="TUR", lcolor(red) mcolor(red)) ///
        (connected fp_cpi_totl_zg year if countrycode=="VEN", lcolor(green) mcolor(green)), ///
        title("Inflation Rates") ///
        ytitle("Inflation, consumer prices (annual %)") xtitle("Year") ///
-       legend(label(1 "Argentina") label(2 "Turkey") label(3 "Venezuela") rows(1)) \
-       note("Source: World Bank Open Data (wbopendata Stata package). Data: IMF, World Bank. Variable code: FP.CPI.TOTL.ZG")
+       legend(label(1 "Argentina") label(2 "Turkey") label(3 "Venezuela") rows(1)) ///
+       note("`note1'" "`note2'")
 graph export "output/figures/inflation_rates.png", width(1200) replace
 
 *===============================================================================
@@ -117,10 +126,13 @@ replace income_order = 4 if incomelevelname == "High income"
 label define incomeorder 1 "Low income" 2 "Lower middle income" 3 "Upper middle income" 4 "High income"
 label values income_order incomeorder
 
+_linewrap, maxlength(90) longstring("Source: World Bank Open Data (wbopendata Stata package). Data: UNICEF, World Bank, UN IGME. Variable code: SH.DYN.MORT")
+local note1 `r(line1)'
+local note2 `r(line2)'
 graph box sh_dyn_mort, over(income_order, label(angle(15) labsize(small))) ///
     title("Under-5 Mortality Rate by Income Group") ///
     ytitle("Mortality rate, under-5 (per 1,000 live births)") ///
-    note("Source: World Bank Open Data (wbopendata Stata package). Data: UNICEF, World Bank, UN IGME. Variable code: SH.DYN.MORT")
+    note("`note1'" "`note2'")
 graph export "output/figures/mortality_by_income.png", width(1200) replace
 
 
