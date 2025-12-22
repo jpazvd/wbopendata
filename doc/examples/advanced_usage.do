@@ -277,6 +277,10 @@ twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///
     title("Poverty and Child Mortality (Latest Available Year)") ///
     note("Sources: `r(sourcecite1)'; `r(sourcecite2)'", size(vsmall))
 
+capture mkdir "output/figures"
+graph export "output/figures/poverty_mortality_scatter-v2.png", width(1200) replace
+
+
 *===============================================================================
 * EXAMPLE 12: Multiple maxlength values for different field widths
 *===============================================================================
@@ -286,10 +290,52 @@ twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///
 *   - name: 40 characters per line (short for axis titles)
 *   - description: 100 characters per line (longer for notes)
 *   - note: 80 characters per line (medium for footnotes)
-wbopendata, indicator(NY.GDP.PCAP.CD) clear long latest ///
+
+wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest ///
     linewrap(name description note) maxlength(40 100 80)
 
 return list
+
+
+local K : word count `r(name)'
+
+forvalues k = 1/`K' {
+
+    di as txt "{hline 110}"
+    di as res "Indicator: " as txt "`r(indicator`k')'"
+    di as txt "{hline 110}"
+
+    di as txt "Name:"
+    local nlines : word count `r(name`k'_stack)'
+    forvalues i = 1/`nlines' {
+        local line : word `i' of `r(name`k'_stack)'
+        di as res `"`line'"'
+    }
+    di as txt ""
+
+    di as txt "Description:"
+    local dlines : word count `r(description`k'_stack)'
+    forvalues i = 1/`dlines' {
+        local line : word `i' of `r(description`k'_stack)'
+        di as res `"`line'"'
+    }
+    di as txt ""
+
+    di as txt "Note:"
+    * Wrapped (as you have now):
+    local llines : word count `r(note`k'_stack)'
+    forvalues i = 1/`llines' {
+        local line : word `i' of `r(note`k'_stack)'
+        di as res `"`line'"'
+    }
+
+    * OR clickable (uncomment instead of wrapped):
+    * di in smcl `"`r(note`k')'"'
+}
+
+di as txt "{hline 110}"
+
+
 
 * The name wraps at 40 chars (good for graph titles)
 di as text "Name (40 chars):"
@@ -303,6 +349,10 @@ di `"`r(description1_stack)'"'
 di as text "Note (80 chars):"
 di `"`r(note1_stack)'"'
 
+*===============================================================================
+* EXAMPLE 13: Multiple maxlength values for different field widths
+*===============================================================================
+
 * If fewer maxlength values than fields, last value is used for remaining fields
 wbopendata, indicator(SP.POP.TOTL) clear long latest ///
     linewrap(name description note source) maxlength(45 90)
@@ -312,6 +362,111 @@ wbopendata, indicator(SP.POP.TOTL) clear long latest ///
 *   - source: 90 characters (uses last value)
 
 return list
+
+
+*===============================================================================
+* EXAMPLE 14: Multiple maxlength values for different field widths
+*===============================================================================
+
+wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest ///
+    linewrap(name description) maxlength(40 80)
+
+local xtit `r(name1_stack)'
+local ytit `r(name2_stack)'
+local d1   `r(description1_stack)'
+local d2   `r(description2_stack)'
+local src1 "`r(sourcecite1)'"
+local src2 "`r(sourcecite2)'"
+
+set trace on
+ 
+* Grab the stacked description lists
+local d1 `r(description1_stack)'
+local d2 `r(description2_stack)'
+
+* Short sources (single line)
+local src1 "World Bank (PIP)"
+local src2 "UN IGME (childmortality.org)"
+
+* Start note stringlist
+local note_lines `"Definitions:" "X (SI.POV.DDAY):"'
+
+* Append X description lines (clean)
+foreach s of local d1 {
+    local t : subinstr local s `"""' "", all
+    local note_lines `"`note_lines' "`t'""'
+}
+
+* Add Y header
+local note_lines `"`note_lines' "Y (SH.DYN.MORT):""'
+
+* Append Y description lines (clean)
+foreach s of local d2 {
+    local t : subinstr local s `"""' "", all
+    local note_lines `"`note_lines' "`t'""'
+}
+
+* Blank line + sources (kept as ONE element)
+local note_lines `"`note_lines' " " "Sources: `src1'; `src2'""'
+
+twoway ///
+ (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///
+ xtitle("`r(name1)'", size(small)) ///
+ ytitle("`r(name2)'", size(small)) ///
+ title("Poverty and Child Mortality (Latest Available Year)") ///
+ note(`note_lines')
+
+
+capture mkdir "output/figures"
+graph export "output/figures/poverty_mortality_scatter-v3.png", width(1200) replace
+
+
+*===============================================================================
+* EXAMPLE 15: Graph metadata with linewrap and dynamic subtitle
+*===============================================================================
+* Demonstrates using linewrap for wrapped metadata and r(latest_subtitle) for
+* dynamic subtitle showing country count and average year
+
+wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest ///
+    linewrap(name description note) maxlength(40 180 180)
+
+* Store all returns with compound quotes for multi-line text
+local name1 `"`r(name1_stack)'"'
+local name2 `"`r(name2_stack)'"'
+local desc1 `"`r(description1_stack)'"'
+local desc2 `"`r(description2_stack)'"'
+local src1 "`r(sourcecite1)'"
+local src2 "`r(sourcecite2)'"
+local subtitle "`r(latest_subtitle)'"
+
+* Option A: caption for descriptions, note for sources (one line)
+twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///
+    xtitle(`name1', size(small)) ///
+    ytitle(`name2', size(small)) ///
+    title("Poverty and Child Mortality", size(medium)) ///
+    subtitle("`subtitle'", size(small)) ///
+    caption("{bf:Indicator Descriptions:}" ///
+            "{bf:X-axis:} " `desc1' ///
+            "{bf:Y-axis:} " `desc2', size(vsmall) span) ///
+    note("Sources: `src1'; `src2'", size(vsmall))
+
+graph export "output/figures/poverty_mortality_optionA.png", width(1200) replace
+
+* Option D: caption for descriptions, note for separate sources per indicator
+twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///
+    xtitle(`name1', size(small)) ///
+    ytitle(`name2', size(small)) ///
+    title("Poverty and Child Mortality", size(medium)) ///
+    subtitle("`subtitle'", size(small)) ///
+    caption("{bf:Definitions:}" ///
+            "{bf:X-axis:} " `desc1' ///
+            "{bf:Y-axis:} " `desc2', size(vsmall) span) ///
+    note("{bf:Data Sources:}" ///
+         "{bf:X (Poverty):} `src1'" ///
+         "{bf:Y (Mortality):} `src2'", size(vsmall))
+
+graph export "output/figures/poverty_mortality_optionD.png", width(1200) replace
+
 
 *===============================================================================
 * End of advanced examples
