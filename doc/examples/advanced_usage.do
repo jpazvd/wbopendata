@@ -109,14 +109,15 @@ merge 1:m countrycode using `mortality', nogen
 
 * Box plot by income level with high-resolution export
 * Order income groups for sensible display
-label define incomeorder 1 "Low income" 2 "Lower middle income" 3 "Upper middle income" 4 "High income"
 gen income_order = .
 replace income_order = 1 if incomelevelname == "Low income"
 replace income_order = 2 if incomelevelname == "Lower middle income"
 replace income_order = 3 if incomelevelname == "Upper middle income"
 replace income_order = 4 if incomelevelname == "High income"
+label define incomeorder 1 "Low income" 2 "Lower middle income" 3 "Upper middle income" 4 "High income"
+label values income_order incomeorder
 
-graph box sh_dyn_mort, over(income_order, label(valuelabel angle(15) labsize(small))) ///
+graph box sh_dyn_mort, over(income_order, label(angle(15) labsize(small))) ///
     title("Under-5 Mortality Rate by Income Group") ///
     ytitle("Mortality rate, under-5 (per 1,000 live births)") ///
     note("Source: World Bank Open Data (wbopendata Stata package). Data: UNICEF, World Bank, UN IGME. Variable code: SH.DYN.MORT")
