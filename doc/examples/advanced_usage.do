@@ -131,9 +131,9 @@ clear
 tempfile master
 save `master', emptyok
 
-* Loop through topics of interest
+* Loop through topics of interest (using year instead of latest - topics doesn't support latest)
 foreach topic in 1 4 8 {
-    wbopendata, topics(`topic') clear long latest
+    wbopendata, topics(`topic') year(2022) clear long
     gen topic_id = `topic'
     append using `master'
     save `master', replace
@@ -186,7 +186,7 @@ wbopendata, indicator(`indicator_list') clear long
 *===============================================================================
 
 wbopendata, indicator(SI.POV.DDAY;SI.POV.LMIC;SI.POV.UMIC) ///
-    country(BRA;CHN;IND;NGA;ETH) clear long latest
+    country(BRA;CHN;IND;NGA;ETH) year(2015:2022) clear long
 
 * Reshape for table format
 reshape wide @, i(countrycode countryname) j(indicatorcode) string
