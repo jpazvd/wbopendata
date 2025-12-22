@@ -5,8 +5,8 @@
 ---
 
 This document shows actual output from running the example do-files. For the complete logs, see:
-- [basic_usage_log.txt](output/basic_usage_log.txt)
-- [advanced_usage_log.txt](output/advanced_usage_log.txt)
+- [basic_usage_log.txt](output/logs/basic_usage_log.txt)
+- [advanced_usage_log.txt](output/logs/advanced_usage_log.txt)
 
 ---
 
@@ -116,7 +116,7 @@ wbopendata, indicator(NY.GDP.PCAP.CD) country(BRA;RUS;IND;CHN;ZAF) clear long
 
 **Graph Output:**
 
-![GDP per capita - BRICS](output/gdp_per_capita_brics.png)
+![GDP per capita - BRICS](output/figures/gdp_per_capita_brics.png)
 
 *Graph shows GDP per capita trends for Brazil, China, and India.*
 
@@ -189,7 +189,7 @@ twoway (scatter sp_dyn_le00_in ny_gnp_pcap_pp_cd, msize(small) mcolor(blue%50)) 
 
 **Graph Output:**
 
-![Life Expectancy vs GNI](output/life_exp_vs_gni.png)
+![Life Expectancy vs GNI](output/figures/life_exp_vs_gni.png)
 
 ---
 
@@ -207,7 +207,7 @@ graph bar sp_pop_totl if year==2022, over(regionname, sort(1) descending) ///
 
 **Graph Output:**
 
-![Population by Region](output/population_by_region.png)
+![Population by Region](output/figures/population_by_region.png)
 
 ---
 
@@ -227,7 +227,7 @@ twoway (connected fp_cpi_totl_zg year if countrycode=="ARG") ///
 
 **Graph Output:**
 
-![Inflation Rates](output/inflation_rates.png)
+![Inflation Rates](output/figures/inflation_rates.png)
 
 ---
 
@@ -243,7 +243,7 @@ graph box sh_dyn_mort, over(incomelevelname) ///
 
 **Graph Output:**
 
-![Mortality by Income](output/mortality_by_income.png)
+![Mortality by Income](output/figures/mortality_by_income.png)
 
 ---
 

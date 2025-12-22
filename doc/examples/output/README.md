@@ -1,23 +1,44 @@
 # Output Directory
 
-This directory contains log files and graphs from running the example do-files.
+This directory contains all outputs from running the example do-files.
+
+## Directory Structure
+
+```
+output/
+├── figures/          # PNG graphs (high-resolution, 1200px width)
+│   ├── gdp_per_capita_brics.png
+│   ├── life_exp_vs_gni.png
+│   ├── population_by_region.png
+│   ├── inflation_rates.png
+│   └── mortality_by_income.png
+├── logs/             # Stata log files (text format)
+│   ├── basic_usage_log.txt
+│   └── advanced_usage_log.txt
+├── data/             # Exported datasets
+│   ├── gdp_data.csv
+│   ├── gdp_data.xlsx
+│   ├── gdp_data.dta
+│   └── poverty_table.xlsx
+└── README.md         # This file
+```
+
+## Generated Figures
+
+| File | Description | Example |
+|------|-------------|---------|
+| `gdp_per_capita_brics.png` | GDP per capita trends | Brazil, China, India |
+| `life_exp_vs_gni.png` | Life expectancy vs GNI scatter | Cross-country comparison |
+| `population_by_region.png` | Population by region bar chart | 2022 data |
+| `inflation_rates.png` | Inflation time series | Argentina, Turkey, Venezuela |
+| `mortality_by_income.png` | Under-5 mortality box plot | By income group |
 
 ## Log Files
 
-| File | Description |
-|------|-------------|
-| `basic_usage_log.txt` | Output from `basic_usage.do` |
-| `advanced_usage_log.txt` | Output from `advanced_usage.do` |
-
-## Generated Graphs
-
-| File | Description |
-|------|-------------|
-| `gdp_per_capita_brics.png` | GDP per capita - Brazil, China, India |
-| `life_exp_vs_gni.png` | Life expectancy vs GNI scatter plot |
-| `population_by_region.png` | World population by region bar chart |
-| `inflation_rates.png` | Inflation rates time series |
-| `mortality_by_income.png` | Under-5 mortality by income group |
+| File | Source | Description |
+|------|--------|-------------|
+| `basic_usage_log.txt` | `basic_usage.do` | 10 basic examples |
+| `advanced_usage_log.txt` | `advanced_usage.do` | 10 advanced examples |
 
 ## Regenerating Outputs
 

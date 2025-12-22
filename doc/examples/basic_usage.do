@@ -6,10 +6,15 @@
 *
 * Documentation: https://github.com/jpazvd/wbopendata
 * See also: advanced_usage.do, ../FAQ.md
+*
+* Output: Graphs saved to output/figures/, logs to output/logs/
 *******************************************************************************/
 
 clear all
 set more off
+
+* Set graph scheme for consistent styling
+set scheme s2color
 
 *===============================================================================
 * EXAMPLE 1: Download a single indicator for all countries
@@ -40,13 +45,13 @@ sum ny_gdp_mktp_cd sp_pop_totl se_prm_enrr
 * BRICS countries - GDP per capita
 wbopendata, indicator(NY.GDP.PCAP.CD) country(BRA;RUS;IND;CHN;ZAF) clear long
 
-* Simple line graph
-twoway (line ny_gdp_pcap_cd year if countrycode=="BRA", lcolor(green)) ///
-       (line ny_gdp_pcap_cd year if countrycode=="CHN", lcolor(red)) ///
-       (line ny_gdp_pcap_cd year if countrycode=="IND", lcolor(orange)), ///
-       legend(label(1 "Brazil") label(2 "China") label(3 "India")) ///
+* Simple line graph with high-resolution export
+twoway (line ny_gdp_pcap_cd year if countrycode=="BRA", lcolor(green) lwidth(medium)) ///
+       (line ny_gdp_pcap_cd year if countrycode=="CHN", lcolor(red) lwidth(medium)) ///
+       (line ny_gdp_pcap_cd year if countrycode=="IND", lcolor(orange) lwidth(medium)), ///
+       legend(label(1 "Brazil") label(2 "China") label(3 "India") rows(1)) ///
        title("GDP per capita") ytitle("USD") xtitle("Year")
-graph export "output/gdp_per_capita_brics.png", replace
+graph export "output/figures/gdp_per_capita_brics.png", width(1200) replace
 
 *===============================================================================
 * EXAMPLE 4: Download by topic
@@ -123,14 +128,15 @@ keep if regionname != "Aggregates"
 
 wbopendata, indicator(NY.GDP.MKTP.CD) clear long
 
-* Export to CSV
-export delimited using "gdp_data.csv", replace
+* Export to CSV (saved in output/data/)
+capture mkdir "output/data"
+export delimited using "output/data/gdp_data.csv", replace
 
 * Export to Excel
-export excel using "gdp_data.xlsx", firstrow(variables) replace
+export excel using "output/data/gdp_data.xlsx", firstrow(variables) replace
 
 * Save as Stata format
-save "gdp_data.dta", replace
+save "output/data/gdp_data.dta", replace
 
 *===============================================================================
 * End of examples
