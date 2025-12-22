@@ -49,13 +49,13 @@ ssc install wbopendata, replace
 
 ### From GitHub (Latest Version - v17.1)
 ```stata
-net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main/src/") replace
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main/") replace
 ```
 
 ### From GitHub (Specific Release)
 ```stata
 * Install v17.1 specifically
-net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v17.1/src/") replace
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v17.1/") replace
 ```
 
 ## Quick Start
