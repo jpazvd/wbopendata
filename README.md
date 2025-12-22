@@ -47,9 +47,15 @@ The access to this databases is made possible by the World Bank's Open Data Init
 ssc install wbopendata, replace
 ```
 
-### From GitHub (Latest Development Version)
+### From GitHub (Latest Version - v17.1)
 ```stata
 net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main/src/") replace
+```
+
+### From GitHub (Specific Release)
+```stata
+* Install v17.1 specifically
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v17.1/src/") replace
 ```
 
 ## Quick Start
