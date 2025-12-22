@@ -412,11 +412,21 @@ version 9.0
 				}
 			}
 			else {
-				* Single indicator: simple latest per country
-				sort countrycode year
-				qui bysort countrycode : keep if _n==_N
+					* Single indicator: simple latest per country
+					sort countrycode year
+					qui bysort countrycode : keep if _n==_N
+				}
 			}
-		}
+			
+			* Compute macro when latest option is selected
+			qui count
+			local _latest_ncountries = r(N)
+			qui sum year, meanonly
+			local _latest_avgyear = string(r(mean), "%9.1f")
+			local _latest "Latest Available Year, `_latest_ncountries' Countries (avg year `_latest_avgyear')"
+			return local latest "`_latest'"
+			return local latest_ncountries "`_latest_ncountries'"
+			return local latest_avgyear "`_latest_avgyear'"
 	
 **********************************************************************************
 	
