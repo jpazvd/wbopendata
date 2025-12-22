@@ -169,3 +169,5 @@ Special thanks to all contributors who have helped improve wbopendata through bu
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+do "C:/GitHub/myados/wbopendata/doc/examples/run_examples.do"

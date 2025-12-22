@@ -6,10 +6,15 @@
 *
 * Documentation: https://github.com/jpazvd/wbopendata
 * See also: basic_usage.do, ../FAQ.md
+*
+* Output: Graphs saved to output/figures/, logs to output/logs/
 *******************************************************************************/
 
 clear all
 set more off
+
+* Set graph scheme for consistent styling
+set scheme s2color
 
 *===============================================================================
 * EXAMPLE 1: Create panel dataset with multiple indicators
@@ -43,14 +48,14 @@ wbopendata, indicator(SP.DYN.LE00.IN;SE.XPD.TOTL.GD.ZS;NY.GNP.PCAP.PP.CD) ///
 * Keep only individual countries
 drop if regionname == "Aggregates"
 
-* Create scatter plot
-twoway (scatter sp_dyn_le00_in ny_gnp_pcap_pp_cd, msize(small) mcolor(blue%50)) ///
-       (lfit sp_dyn_le00_in ny_gnp_pcap_pp_cd, lcolor(red)), ///
+* Create scatter plot with high-resolution export
+twoway (scatter sp_dyn_le00_in ny_gnp_pcap_pp_cd if ny_gnp_pcap_pp_cd < 150000, msize(small) mcolor(blue%50)) ///
+       (lfit sp_dyn_le00_in ny_gnp_pcap_pp_cd if ny_gnp_pcap_pp_cd < 150000, lcolor(red) lwidth(medium)), ///
        title("Life Expectancy vs. GNI per capita") ///
        ytitle("Life Expectancy at Birth (years)") ///
        xtitle("GNI per capita, PPP (current international $)") ///
        legend(off)
-graph export "output/life_exp_vs_gni.png", replace
+graph export "output/figures/life_exp_vs_gni.png", width(1200) replace
 
 *===============================================================================
 * EXAMPLE 3: Regional aggregation
@@ -64,12 +69,12 @@ drop if regionname == "Aggregates"
 * Collapse by region
 collapse (sum) sp_pop_totl, by(regionname year)
 
-* Create bar chart
-graph bar sp_pop_totl if year==2022, over(regionname, sort(1) descending label(angle(45))) ///
+* Create bar chart with high-resolution export
+graph bar sp_pop_totl if year==2022, over(regionname, sort(1) descending label(angle(45) labsize(small))) ///
     title("World Population by Region (2022)") ///
     ytitle("Population") ///
-    blabel(bar, format(%12.0fc))
-graph export "output/population_by_region.png", replace
+    blabel(bar, format(%12.0fc) size(vsmall))
+graph export "output/figures/population_by_region.png", width(1200) replace
 
 *===============================================================================
 * EXAMPLE 4: Time series analysis
@@ -78,14 +83,14 @@ graph export "output/population_by_region.png", replace
 wbopendata, indicator(FP.CPI.TOTL.ZG) country(ARG;VEN;TUR;ZWE) ///
     year(2000:2023) clear long
 
-* Time series plot
-twoway (connected fp_cpi_totl_zg year if countrycode=="ARG") ///
-       (connected fp_cpi_totl_zg year if countrycode=="TUR") ///
-       (connected fp_cpi_totl_zg year if countrycode=="VEN"), ///
+* Time series plot with high-resolution export
+twoway (connected fp_cpi_totl_zg year if countrycode=="ARG", lcolor(blue) mcolor(blue)) ///
+       (connected fp_cpi_totl_zg year if countrycode=="TUR", lcolor(red) mcolor(red)) ///
+       (connected fp_cpi_totl_zg year if countrycode=="VEN", lcolor(green) mcolor(green)), ///
        title("Inflation Rates") ///
-       ytitle("Inflation, consumer prices (annual %)") ///
-       legend(label(1 "Argentina") label(2 "Turkey") label(3 "Venezuela"))
-graph export "output/inflation_rates.png", replace
+       ytitle("Inflation, consumer prices (annual %)") xtitle("Year") ///
+       legend(label(1 "Argentina") label(2 "Turkey") label(3 "Venezuela") rows(1))
+graph export "output/figures/inflation_rates.png", width(1200) replace
 
 *===============================================================================
 * EXAMPLE 5: Income group comparison
@@ -99,11 +104,11 @@ save `mortality'
 wbopendata, match(countrycode) full
 merge 1:m countrycode using `mortality', nogen
 
-* Box plot by income level
-graph box sh_dyn_mort, over(incomelevelname) ///
+* Box plot by income level with high-resolution export
+graph box sh_dyn_mort, over(incomelevelname, label(angle(15) labsize(small))) ///
     title("Under-5 Mortality Rate by Income Group") ///
     ytitle("Mortality rate, under-5 (per 1,000 live births)")
-graph export "output/mortality_by_income.png", replace
+graph export "output/figures/mortality_by_income.png", width(1200) replace
 
 *===============================================================================
 * EXAMPLE 6: Using return values
@@ -186,9 +191,10 @@ wbopendata, indicator(SI.POV.DDAY;SI.POV.LMIC;SI.POV.UMIC) ///
 * Reshape for table format
 reshape wide @, i(countrycode countryname) j(indicatorcode) string
 
-* Format and export
+* Format and export to output/data/
+capture mkdir "output/data"
 format *SI_POV* %5.1f
-export excel countryname *SI_POV* using "poverty_table.xlsx", ///
+export excel countryname *SI_POV* using "output/data/poverty_table.xlsx", ///
     firstrow(varlabels) replace
 
 *===============================================================================
