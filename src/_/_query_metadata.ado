@@ -1,4 +1,13 @@
 *******************************************************************************
+*! v 16.7  	 22Dec2024        	   by Joao Pedro Azevedo                      *  
+*		add sourcecite return for clean graph source attribution
+*******************************************************************************
+*! v 16.6  	 22Dec2024        	   by Joao Pedro Azevedo                      *  
+*		support multiple maxlength values for different fields
+*******************************************************************************
+*! v 16.5  	 22Dec2024        	   by Joao Pedro Azevedo                      *  
+*		implement linewrap() option for graph-ready text wrapping
+*******************************************************************************
 *! v 16.4  	 22Dec2024        	   by Joao Pedro Azevedo                      *  
 *		add linewrap() option for graph-ready text
 *******************************************************************************
@@ -10,7 +19,16 @@ program def _query_metadata, rclass
 
 version 9.0
 
-    syntax , INDICATOR(string) [LINEWrap(string) MAXLength(integer 50)]
+    syntax , INDICATOR(string) [LINEWrap(string) MAXLength(string) LINEWRAPFormat(string)]
+	
+	* linewrap() accepts: name description note source topic all
+	* maxlength() specifies character width(s) for wrapping
+	*   - Single value (e.g., maxlength(50)): applies to all fields
+	*   - Multiple values (e.g., maxlength(40 100 80)): applies in order to linewrap fields
+	*   - Default: 50
+	* linewrapformat() accepts: stack (default) | all | lines | newline
+	*   stack = only return _stack format ("line1" "line2") for title()
+	*   all = return all formats (_stack, _newline, _nlines, _line1, etc.)
 
     quietly {
 
@@ -112,6 +130,40 @@ version 9.0
 			}
 		}
 	}
+	
+	*---------------------------------------------------------------------------
+	*** Extract clean source citation for graph attribution
+	* The note field typically contains: "Organization Name, details..." or "Organization Name (abbrev), ..."
+	* We extract just the organization name (up to first comma, semicolon, or opening paren with abbrev)
+	local sourcecite ""
+	if (`"`note'"' != "" & `"`note'"' != ".") {
+		local sourcecite `"`note'"'
+		* Find position of first delimiter (comma, semicolon, or " uri:")
+		local pos_comma = strpos(`"`sourcecite'"', ",")
+		local pos_semi = strpos(`"`sourcecite'"', ";")
+		local pos_uri = strpos(`"`sourcecite'"', " uri:")
+		local pos_note = strpos(`"`sourcecite'"', " note:")
+		
+		* Find the earliest delimiter
+		local cutpos = 0
+		foreach p in pos_comma pos_semi pos_uri pos_note {
+			if (``p'' > 0) {
+				if (`cutpos' == 0 | ``p'' < `cutpos') {
+					local cutpos = ``p''
+				}
+			}
+		}
+		
+		* Extract up to the delimiter, or take first 80 chars if no delimiter found
+		if (`cutpos' > 1) {
+			local sourcecite = substr(`"`sourcecite'"', 1, `cutpos' - 1)
+		}
+		else if (strlen(`"`sourcecite'"') > 80) {
+			local sourcecite = substr(`"`sourcecite'"', 1, 80)
+		}
+		* Trim whitespace
+		local sourcecite = trim(`"`sourcecite'"')
+	}
 
 	*---------------------------------------------------------------------------
 	*** Display results
@@ -135,12 +187,153 @@ version 9.0
 	noi di ""
 	
 	*---------------------------------------------------------------------------
+	*** Linewrap processing for graph-ready text
+	if ("`linewrap'" != "") {
+		* Parse linewrap option - accepts: name description note source topic all
+		local wrap_name = 0
+		local wrap_description = 0
+		local wrap_note = 0
+		local wrap_source = 0
+		local wrap_topic = 0
+		
+		* Build ordered list of fields to wrap (for maxlength matching)
+		local wrap_fields ""
+		local wrap_count = 0
+		
+		* Check for "all" or specific fields
+		if (strpos(lower("`linewrap'"), "all") > 0) {
+			local wrap_name = 1
+			local wrap_description = 1
+			local wrap_note = 1
+			local wrap_source = 1
+			local wrap_topic = 1
+			local wrap_fields "name description note source topic"
+			local wrap_count = 5
+		}
+		else {
+			* Parse in order they appear in linewrap()
+			foreach fld in name description note source topic {
+				if (strpos(lower("`linewrap'"), "`fld'") > 0) {
+					local wrap_`fld' = 1
+					local wrap_fields "`wrap_fields' `fld'"
+					local wrap_count = `wrap_count' + 1
+				}
+			}
+			local wrap_fields = trim("`wrap_fields'")
+		}
+		
+		* Parse maxlength values (can be single or multiple)
+		* Default to 50 if not specified
+		if ("`maxlength'" == "") local maxlength "50"
+		local maxlen_count : word count `maxlength'
+		
+		* Assign maxlength to each field
+		local fld_idx = 0
+		foreach fld in `wrap_fields' {
+			local fld_idx = `fld_idx' + 1
+			if (`fld_idx' <= `maxlen_count') {
+				local maxlen_`fld' = word("`maxlength'", `fld_idx')
+			}
+			else {
+				* Use last specified value for remaining fields
+				local maxlen_`fld' = word("`maxlength'", `maxlen_count')
+			}
+		}
+		
+		* Default linewrapformat to "stack" if not specified
+		if ("`linewrapformat'" == "") local linewrapformat "stack"
+		local lwf_all = (strpos(lower("`linewrapformat'"), "all") > 0)
+		
+		* Wrap name
+		if (`wrap_name' == 1) {
+			local ml = cond("`maxlen_name'" != "", `maxlen_name', 50)
+			cap _metadata_linewrap, text(`"`name'"') maxlength(`ml') prefix(name)
+			if (_rc == 0) {
+				return local name_stack `"`r(name_stack)'"'
+				if (`lwf_all' == 1) {
+					return scalar name_nlines = r(name_nlines)
+					return local name_newline `"`r(name_newline)'"'
+					forvalues i = 1/`=r(name_nlines)' {
+						return local name_line`i' `"`r(name_line`i')'"'
+					}
+				}
+			}
+		}
+		
+		* Wrap description
+		if (`wrap_description' == 1) {
+			local ml = cond("`maxlen_description'" != "", `maxlen_description', 50)
+			cap _metadata_linewrap, text(`"`source'"') maxlength(`ml') prefix(description)
+			if (_rc == 0) {
+				return local description_stack `"`r(description_stack)'"'
+				if (`lwf_all' == 1) {
+					return scalar description_nlines = r(description_nlines)
+					return local description_newline `"`r(description_newline)'"'
+					forvalues i = 1/`=r(description_nlines)' {
+						return local description_line`i' `"`r(description_line`i')'"'
+					}
+				}
+			}
+		}
+		
+		* Wrap note
+		if (`wrap_note' == 1) {
+			local ml = cond("`maxlen_note'" != "", `maxlen_note', 50)
+			cap _metadata_linewrap, text(`"`note'"') maxlength(`ml') prefix(note)
+			if (_rc == 0) {
+				return local note_stack `"`r(note_stack)'"'
+				if (`lwf_all' == 1) {
+					return scalar note_nlines = r(note_nlines)
+					return local note_newline `"`r(note_newline)'"'
+					forvalues i = 1/`=r(note_nlines)' {
+						return local note_line`i' `"`r(note_line`i')'"'
+					}
+				}
+			}
+		}
+		
+		* Wrap source
+		if (`wrap_source' == 1) {
+			local ml = cond("`maxlen_source'" != "", `maxlen_source', 50)
+			cap _metadata_linewrap, text(`"`source'"') maxlength(`ml') prefix(source)
+			if (_rc == 0) {
+				return local source_stack `"`r(source_stack)'"'
+				if (`lwf_all' == 1) {
+					return scalar source_nlines = r(source_nlines)
+					return local source_newline `"`r(source_newline)'"'
+					forvalues i = 1/`=r(source_nlines)' {
+						return local source_line`i' `"`r(source_line`i')'"'
+					}
+				}
+			}
+		}
+		
+		* Wrap topics
+		if (`wrap_topic' == 1) {
+			local ml = cond("`maxlen_topic'" != "", `maxlen_topic', 50)
+			local topictext "`topic1'`topic2'`topic3'"
+			cap _metadata_linewrap, text(`"`topictext'"') maxlength(`ml') prefix(topic)
+			if (_rc == 0) {
+				return local topic_stack `"`r(topic_stack)'"'
+				if (`lwf_all' == 1) {
+					return scalar topic_nlines = r(topic_nlines)
+					return local topic_newline `"`r(topic_newline)'"'
+					forvalues i = 1/`=r(topic_nlines)' {
+						return local topic_line`i' `"`r(topic_line`i')'"'
+					}
+				}
+			}
+		}
+	}
+	
+	*---------------------------------------------------------------------------
 	*** return list
 	return local source         "`collection'"
     return local varlabel       "`name'"
     return local indicator      "`indicator'"
 	return local description    "`source'"
 	return local note           "`note'"
+	return local sourcecite     `"`sourcecite'"'
 	return local topic1         "`topic1'"
 	return local topic2         "`topic2'"
 	return local topic3         "`topic3'"

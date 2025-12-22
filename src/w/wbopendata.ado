@@ -1,5 +1,14 @@
 *******************************************************************************
 * wbopendata             
+*! v 17.4  	 22Dec2025               by Joao Pedro Azevedo
+*   Add sourcecite return for clean graph source attribution
+*******************************************************************************
+*! v 17.3  	 22Dec2025               by Joao Pedro Azevedo
+*   Support multiple maxlength values: maxlength(40 100 80) linewrap(name description note)
+*******************************************************************************
+*! v 17.2  	 22Dec2025               by Joao Pedro Azevedo
+*   Add linewrap(), maxlength(), linewrapformat() options for graph-ready text
+*******************************************************************************
 *! v 17.1  	 21Dec2025               by Joao Pedro Azevedo
 * 	Bug fixes: #33 (latest option), #35 (country metadata), #45 (URL errors), 
 *   #46 (varlist), #51 (match documentation). Contributors acknowledged.
@@ -38,6 +47,9 @@ version 9.0
 						 CTRYLIST					///
 						 MATCH(string)				///
 						 VERBOSE					///
+						 LINEWrap(string)			///
+						 MAXLength(string)			///
+						 LINEWRAPFormat(string)		///
 		                 ]
 
 	* Handle plural option name - syntax creates `indicators' but code uses `indicator'
@@ -86,6 +98,7 @@ version 9.0
 						local meta_name ""
 						local meta_description ""
 						local meta_note ""
+						local meta_sourcecite ""
 						local meta_topic1 ""
 						local meta_topic2 ""
 						local meta_topic3 ""
@@ -95,7 +108,13 @@ version 9.0
 						local meta_nurls 0
 
 						if ("`nometadata'" == "") & ("`indicator'" != "") {
-							cap: noi _query_metadata  , indicator("``i''")                  /*  Metadata   */
+							local lw_opts ""
+							if ("`linewrap'" != "") {
+								local ml_opt = cond("`maxlength'" != "", `"maxlength(`maxlength')"', "maxlength(50)")
+								local lw_opts `"linewrap(`linewrap') `ml_opt'"'
+							}
+							if ("`linewrapformat'" != "") local lw_opts `"`lw_opts' linewrapformat(`linewrapformat')"'
+							cap: noi _query_metadata  , indicator("``i''") `lw_opts'                  /*  Metadata   */
 							local qm1rc = _rc
 							if (`qm1rc' != 0) {
 								noi di ""
@@ -111,6 +130,7 @@ version 9.0
 								local meta_name        "`r(name)'"
 								local meta_description "`r(description)'"
 								local meta_note        "`r(note)'"
+								local meta_sourcecite  `"`r(sourcecite)'"'
 								local meta_topic1      "`r(topic1)'"
 								local meta_topic2      "`r(topic2)'"
 								local meta_topic3      "`r(topic3)'"
@@ -123,6 +143,14 @@ version 9.0
 									forvalues u = 1/`meta_nurls' {
 										local meta_url`u' "`r(url`u')'"
 									}
+								}
+								* Capture linewrap returns
+								if ("`linewrap'" != "") {
+									local meta_name_stack `"`r(name_stack)'"'
+									local meta_description_stack `"`r(description_stack)'"'
+									local meta_note_stack `"`r(note_stack)'"'
+									local meta_source_stack `"`r(source_stack)'"'
+									local meta_topic_stack `"`r(topic_stack)'"'
 								}
 							}
 						}
@@ -138,6 +166,7 @@ version 9.0
 						return local name`f'       "`meta_name'"
 						return local description`f' "`meta_description'"
 						return local note`f'       "`meta_note'"
+						return local sourcecite`f' `"`meta_sourcecite'"'
 						return local topic1_`f'    "`meta_topic1'"
 						return local topic2_`f'    "`meta_topic2'"
 						return local topic3_`f'    "`meta_topic3'"
@@ -147,6 +176,24 @@ version 9.0
 						if (`meta_nurls' > 0) {
 							forvalues u = 1/`meta_nurls' {
 								return local url`u'_`f' "`meta_url`u''"
+							}
+						}
+						* Return linewrap results for this indicator
+						if ("`linewrap'" != "") {
+							if (`"`meta_name_stack'"' != "") {
+								return local name`f'_stack `"`meta_name_stack'"'
+							}
+							if (`"`meta_description_stack'"' != "") {
+								return local description`f'_stack `"`meta_description_stack'"'
+							}
+							if (`"`meta_note_stack'"' != "") {
+								return local note`f'_stack `"`meta_note_stack'"'
+							}
+							if (`"`meta_source_stack'"' != "") {
+								return local source`f'_stack `"`meta_source_stack'"'
+							}
+							if (`"`meta_topic_stack'"' != "") {
+								return local topic`f'_stack `"`meta_topic_stack'"'
 							}
 						}
 					
@@ -190,6 +237,7 @@ version 9.0
 					local meta_name ""
 					local meta_description ""
 					local meta_note ""
+					local meta_sourcecite ""
 					local meta_topic1 ""
 					local meta_topic2 ""
 					local meta_topic3 ""
@@ -200,7 +248,13 @@ version 9.0
 
 
 					if ("`nometadata'" == "") & ("`indicator'" != "") {
-						cap: noi _query_metadata  , indicator("`indicator'")                  /*  Metadata   */
+						local lw_opts ""
+						if ("`linewrap'" != "") {
+							local ml_opt = cond("`maxlength'" != "", `"maxlength(`maxlength')"', "maxlength(50)")
+							local lw_opts `"linewrap(`linewrap') `ml_opt'"'
+						}
+						if ("`linewrapformat'" != "") local lw_opts `"`lw_opts' linewrapformat(`linewrapformat')"'
+						cap: noi _query_metadata  , indicator("`indicator'") `lw_opts'                  /*  Metadata   */
 						local qm2rc = _rc
 						if (`qm2rc' != 0) {
 							noi di ""
@@ -215,6 +269,7 @@ version 9.0
 							local meta_name        "`r(name)'"
 							local meta_description "`r(description)'"
 							local meta_note        "`r(note)'"
+							local meta_sourcecite  `"`r(sourcecite)'"'
 							local meta_topic1      "`r(topic1)'"
 							local meta_topic2      "`r(topic2)'"
 							local meta_topic3      "`r(topic3)'"
@@ -227,6 +282,14 @@ version 9.0
 								forvalues u = 1/`meta_nurls' {
 									local meta_url`u' "`r(url`u')'"
 								}
+							}
+							* Capture linewrap returns
+							if ("`linewrap'" != "") {
+								local meta_name_stack `"`r(name_stack)'"'
+								local meta_description_stack `"`r(description_stack)'"'
+								local meta_note_stack `"`r(note_stack)'"'
+								local meta_source_stack `"`r(source_stack)'"'
+								local meta_topic_stack `"`r(topic_stack)'"'
 							}
 						}
 					}
@@ -245,6 +308,7 @@ version 9.0
 				return local name1       "`meta_name'"
 				return local description1 "`meta_description'"
 				return local note1       "`meta_note'"
+				return local sourcecite1 `"`meta_sourcecite'"'
 				return local topic1_1    "`meta_topic1'"
 				return local topic2_1    "`meta_topic2'"
 				return local topic3_1    "`meta_topic3'"
@@ -253,6 +317,24 @@ version 9.0
 				if (`meta_nurls' > 0) {
 					forvalues u = 1/`meta_nurls' {
 						return local url`u'_1 "`meta_url`u''"
+					}
+				}
+				* Return linewrap results
+				if ("`linewrap'" != "") {
+					if (`"`meta_name_stack'"' != "") {
+						return local name1_stack `"`meta_name_stack'"'
+					}
+					if (`"`meta_description_stack'"' != "") {
+						return local description1_stack `"`meta_description_stack'"'
+					}
+					if (`"`meta_note_stack'"' != "") {
+						return local note1_stack `"`meta_note_stack'"'
+					}
+					if (`"`meta_source_stack'"' != "") {
+						return local source1_stack `"`meta_source_stack'"'
+					}
+					if (`"`meta_topic_stack'"' != "") {
+						return local topic1_stack `"`meta_topic_stack'"'
 					}
 				}
 
