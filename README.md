@@ -58,6 +58,15 @@ net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendat
 net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v17.4/src") replace
 ```
 
+### From Local Clone
+```stata
+* Windows
+net install wbopendata, from("C:/GitHub/myados/wbopendata/src") replace
+
+* Mac/Linux
+net install wbopendata, from("/Users/username/GitHub/wbopendata/src") replace
+```
+
 ## Quick Start
 
 ```stata
