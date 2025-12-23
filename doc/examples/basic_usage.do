@@ -6,10 +6,15 @@
 *
 * Documentation: https://github.com/jpazvd/wbopendata
 * See also: advanced_usage.do, ../FAQ.md
+*
+* Output: Graphs saved to output/figures/, logs to output/logs/
 *******************************************************************************/
 
 clear all
 set more off
+
+* Set graph scheme for consistent styling
+set scheme s2color
 
 *===============================================================================
 * EXAMPLE 1: Download a single indicator for all countries
@@ -29,9 +34,9 @@ list countrycode countryname yr2020 yr2021 yr2022 in 1/10
 * GDP, Population, and Primary enrollment rate
 wbopendata, indicator(NY.GDP.MKTP.CD;SP.POP.TOTL;SE.PRM.ENRR) clear long
 
-* View structure
+* View structure - variables are named with lowercase and underscores
 describe
-tab indicatorcode
+sum ny_gdp_mktp_cd sp_pop_totl se_prm_enrr
 
 *===============================================================================
 * EXAMPLE 3: Download for specific countries
@@ -40,20 +45,24 @@ tab indicatorcode
 * BRICS countries - GDP per capita
 wbopendata, indicator(NY.GDP.PCAP.CD) country(BRA;RUS;IND;CHN;ZAF) clear long
 
-* Simple line graph
-twoway (line ny_gdp_pcap_cd year if countrycode=="BRA", lcolor(green)) ///
-       (line ny_gdp_pcap_cd year if countrycode=="CHN", lcolor(red)) ///
-       (line ny_gdp_pcap_cd year if countrycode=="IND", lcolor(orange)), ///
-       legend(label(1 "Brazil") label(2 "China") label(3 "India")) ///
+* Simple line graph with high-resolution export
+twoway (line ny_gdp_pcap_cd year if countrycode=="BRA", lcolor(green) lwidth(medium)) ///
+       (line ny_gdp_pcap_cd year if countrycode=="CHN", lcolor(red) lwidth(medium)) ///
+       (line ny_gdp_pcap_cd year if countrycode=="IND", lcolor(orange) lwidth(medium)), ///
+       legend(label(1 "Brazil") label(2 "China") label(3 "India") rows(1)) ///
        title("GDP per capita") ytitle("USD") xtitle("Year")
+_linewrap, maxlength(90) longstring("Source: World Bank Open Data (wbopendata Stata package). Data: World Bank. Variable code: NY.GDP.PCAP.CD")
+graph note "`r(line1)'" "`r(line2)'"
+graph export "output/figures/gdp_per_capita_brics.png", width(1200) replace
 
 *===============================================================================
 * EXAMPLE 4: Download by topic
 *===============================================================================
 
-* All Education indicators (Topic 4)
-wbopendata, topics(4) clear long
-tab indicatorcode, sort
+* All Education indicators (Topic 4) - use wide format to see indicator codes
+wbopendata, topics(4) clear
+describe, short
+list indicatorcode indicatorname in 1/5
 
 *===============================================================================
 * EXAMPLE 5: Get latest available value only
@@ -121,14 +130,15 @@ keep if regionname != "Aggregates"
 
 wbopendata, indicator(NY.GDP.MKTP.CD) clear long
 
-* Export to CSV
-export delimited using "gdp_data.csv", replace
+* Export to CSV (saved in output/data/)
+capture mkdir "output/data"
+export delimited using "output/data/gdp_data.csv", replace
 
 * Export to Excel
-export excel using "gdp_data.xlsx", firstrow(variables) replace
+export excel using "output/data/gdp_data.xlsx", firstrow(variables) replace
 
 * Save as Stata format
-save "gdp_data.dta", replace
+save "output/data/gdp_data.dta", replace
 
 *===============================================================================
 * End of examples

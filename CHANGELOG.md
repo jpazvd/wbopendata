@@ -5,6 +5,39 @@ All notable changes to `wbopendata` will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [17.4] - 2025-12-22
+
+### Added
+- New return values for `latest` option: `r(latest)`, `r(latest_ncountries)`, `r(latest_avgyear)`
+- Dynamic subtitle string for graphs (e.g., "Latest Available Year, 186 Countries (avg year 2019.6)")
+- `r(sourcecite#)` returns with clean organization names for graph source attribution
+- Example 15 in advanced_usage.do demonstrating linewrap with dynamic subtitle
+
+### Changed
+- Documentation updated with new return values and examples
+
+## [17.3] - 2025-12-22
+
+### Added
+- Support for multiple `maxlength()` values: `maxlength(40 100 80) linewrap(name description note)`
+- Each field can have its own character limit for line wrapping
+
+## [17.2] - 2025-12-22
+
+### Added
+- `linewrap()` option for graph-ready text formatting
+- `maxlength()` option to control line wrap width
+- `linewrapformat()` option for output format control (stack/all)
+
+## [17.1] - 2025-12-21
+
+### Fixed
+- Issue #33: `latest` option now correctly handles multiple indicators
+- Issue #35: Country metadata matching improvements
+- Issue #45: URL parsing errors in metadata
+- Issue #46: Variable list handling
+- Issue #51: Documentation for `match()` option
+
 ## [17.0] - 2023-01-24
 
 ### Added

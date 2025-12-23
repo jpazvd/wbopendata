@@ -1,0 +1,81 @@
+-------------------------------------------------------------------------------
+      name:  basic
+       log:  C:\GitHub\myados\wbopendata\doc\examples\output/logs/basic_usage_l
+> og.txt
+  log type:  text
+ opened on:  22 Dec 2025, 19:09:24
+r; t=0.05 19:09:24
+
+. 
+. capture noisily do "basic_usage.do"
+
+. /****************************************************************************
+> ***
+> * wbopendata: Basic Usage Examples
+> * Version: 17.1
+> * Date: December 2025
+> * Author: João Pedro Azevedo
+> *
+> * Documentation: https://github.com/jpazvd/wbopendata
+> * See also: advanced_usage.do, ../FAQ.md
+> *
+> * Output: Graphs saved to output/figures/, logs to output/logs/
+> *****************************************************************************
+> **/
+. 
+. clear all
+r; t=0.02 19:09:24
+
+. set more off
+r; t=0.00 19:09:24
+
+. 
+. * Set graph scheme for consistent styling
+. set scheme s2color
+r; t=0.04 19:09:24
+
+. 
+. *============================================================================
+> ===
+. * EXAMPLE 1: Download a single indicator for all countries
+. *============================================================================
+> ===
+. 
+. * GDP (current US$) for all countries, wide format
+. wbopendata, indicator(NY.GDP.MKTP.CD) clear
+
+    Metadata for indicator NY.GDP.MKTP.CD
+-------------------------------------------------------------------------------
+    Name: GDP (current US$)
+-------------------------------------------------------------------------------
+    Collection: 2 World Development Indicators
+-------------------------------------------------------------------------------
+    Description: Gross domestic product is the total income earned through
+    the production of goods and services in an economic territory during an
+    accounting period. It can be measured in three different ways: using
+    either the expenditure approach, the income approach, or the production
+    approach. This indicator is expressed in current prices, meaning no
+    adjustment has been made to account for price changes over time. This
+    indicator is expressed in United States dollars.
+-------------------------------------------------------------------------------
+    Note: Country official statistics, National Statistical Organizations
+    and or Central Banks;
+-------------------------------------------------------------------------------
+    Topic(s):  ; 3 Economy and Growth
+-------------------------------------------------------------------------------
+
+
+variable year not found
+r(111); t=10.21 19:09:34
+
+end of do-file
+r; t=10.30 19:09:34
+
+. 
+. log close basic
+      name:  basic
+       log:  C:\GitHub\myados\wbopendata\doc\examples\output/logs/basic_usage_l
+> og.txt
+  log type:  text
+ closed on:  22 Dec 2025, 19:09:34
+-------------------------------------------------------------------------------

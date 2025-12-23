@@ -1,7 +1,6 @@
-v 17.1
+v 17.4
 d Materials by João Pedro Azevedo
-d World Bank
-d jazevedo@worldbank.org
-d http://www.worldbank.org/en/about/people/j/joao-pedro-azevedo
+d World Bank|UNICEF
+jpazvd.github.io 
  
 p wbopendata

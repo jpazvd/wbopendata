@@ -1,7 +1,9 @@
 *******************************************************************************
 * _website                                                                   *
-*! v 15.2   24Mar2019				by João Pedro Azevedo
-*		initial commit
+*! v 15.5   22Dec2024				by João Pedro Azevedo
+*		fix URL parsing for "http:  domain" patterns (spaces after colon)
+*		return r(url1), r(url2), ... r(nurls) extracted from {browse} tags
+*		refactored: single source of truth - URLs extracted from final SMCL
 
 /*******************************************************************************/
 
@@ -14,29 +16,53 @@ program define _website, rclass
                  ,                   		///
                          text(string)		///
 						[ short(string)	]
-						 
-			
+	
+	* Pre-process: fix URLs that got split (e.g., "http:  pip.worldbank.org" -> "http://pip.worldbank.org")
+	* This handles cases where API returns URLs with spaces after the colon
+	local text = ustrregexra(`"`text'"', "http:\s+([a-zA-Z0-9])", "http://$1")
+	local text = ustrregexra(`"`text'"', "https:\s+([a-zA-Z0-9])", "https://$1")
+	
+	* Also handle "http: //" pattern (space before slashes)
+	local text = ustrregexra(`"`text'"', "http:\s*//", "http://")
+	local text = ustrregexra(`"`text'"', "https:\s*//", "https://")
+					 
 	local cword	= wordcount(`"`text'"')	
 	
 	if ("`short'" != "") {
 		local short ":`short'"
 	}
-
+	
+	* Store all original words first to avoid parsing issues after substitution
+	* Note: Do NOT use compound quotes around `text' here - it treats entire string as one word
+	forvalues i = 1/`cword' {
+		local origword`i' : word `i' of `text'
+	}
 		
 	local wc = 1
 	while `wc' <= `cword' {
 	
-		local word = word(`"`text'"',`wc')
+		local word `"`origword`wc''"'
 		
 		if strmatch("`word'","http*")==1 {
-		
-			local replaceword = subinstr("`word'","http",`"{browse "http"',.)
 			
-			local replaceword  `"`replaceword'"}"'
-
+			* Strip ALL trailing punctuation (handles cases like "url.,")
+			local urlpart "`word'"
+			local trailpunct ""
+			local lastchar = substr("`urlpart'", -1, 1)
+			while inlist("`lastchar'", ",", ".", ";", ":", ")", "]") & length("`urlpart'") > 10 {
+				local trailpunct "`lastchar'`trailpunct'"
+				local urlpart = substr("`urlpart'", 1, length("`urlpart'")-1)
+				local lastchar = substr("`urlpart'", -1, 1)
+			}
+			
+			if ("`trailpunct'" != "") {
+				local replaceword `"{browse "`urlpart'"}"'
+				local replaceword `"`replaceword'`trailpunct'"'
+			}
+			else {
+				local replaceword `"{browse "`word'"}"'
+			}
 			local k 1
-		
-*			local text = subinstr(`"`text'"',`"`word'"',`"`replaceword'"',.)
 		
 		}
 		if strmatch("`word'","*http*")==1 & ("`k'" != "1") {
@@ -45,15 +71,10 @@ program define _website, rclass
 			local c2 = substr("`word'",-2,2)
 			
 			if "`c1'" == "(" & "`c2'" == ")." {
-	
-				local replaceword = subinstr("`word'","(http",`"({browse "http"',.)
-				
-				local replaceword  = subinstr(`"`replaceword'"',`")."',`""})."',.)
-
+				* Extract URL from (url).
+				local urlpart = substr("`word'", 2, length("`word'")-3)
+				local replaceword `"({browse "`urlpart'"})."'
 				local k 1
-
-*				local text = subinstr(`"`text'"',`"`word'"',`"`replaceword'"',.)
-			
 			}
 			
 		}
@@ -63,27 +84,33 @@ program define _website, rclass
 			local c2 = substr("`word'",-1,1)
 			
 			if "`c1'" == "(" & "`c2'" == ")" {
-	
-				local replaceword = subinstr("`word'","(http",`"({browse "http"',.)
-				
-				local replaceword  = subinstr(`"`replaceword'"',`")"',`""})"',.)
-
+				* Extract URL from (url)
+				local urlpart = substr("`word'", 2, length("`word'")-2)
+				local replaceword `"({browse "`urlpart'"})"'
 				local k 1
-
-*				local text = subinstr(`"`text'"',`"`word'"',`"`replaceword'"',.)
-			
 			}
 			
 		}
 		if strmatch("`word'","www.*")==1 & ("`k'" != "1") {
-		
-			local replaceword = subinstr("`word'","www.",`"{browse "www."',.)
 			
-			local replaceword  `"`replaceword'"}"'
-
+			* Strip ALL trailing punctuation (handles cases like "url.,")
+			local urlpart "`word'"
+			local trailpunct ""
+			local lastchar = substr("`urlpart'", -1, 1)
+			while inlist("`lastchar'", ",", ".", ";", ":", ")", "]") & length("`urlpart'") > 5 {
+				local trailpunct "`lastchar'`trailpunct'"
+				local urlpart = substr("`urlpart'", 1, length("`urlpart'")-1)
+				local lastchar = substr("`urlpart'", -1, 1)
+			}
+			
+			if ("`trailpunct'" != "") {
+				local replaceword `"{browse "http://`urlpart'"}"'
+				local replaceword `"`replaceword'`trailpunct'"'
+			}
+			else {
+				local replaceword `"{browse "http://`word'"}"'
+			}
 			local k 1
-
-*			local text = subinstr(`"`text'"',`"`word'"',`"`replaceword'"',.)
 		
 		}
 		if strmatch("`word'","*www.*")==1 & ("`k'" != "1") {
@@ -92,15 +119,10 @@ program define _website, rclass
 			local c2 = substr("`word'",-2,2)
 			
 			if "`c1'" == "(" & "`c2'" == ")." {
-	
-				local replaceword = subinstr("`word'","(www.",`"({browse "www."',.)
-				
-				local replaceword  = subinstr(`"`replaceword'"',`")."',`""})."',.)
-				
+				* Extract URL from (url).
+				local urlpart = substr("`word'", 2, length("`word'")-3)
+				local replaceword `"({browse "http://`urlpart'"})."'
 				local k 1
-
-*				local text = subinstr(`"`text'"',`"`word'"',`"`replaceword'"',.)
-			
 			}
 		}
 		if strmatch("`word'","*www.*")==1 & ("`k'" != "1") {
@@ -109,26 +131,21 @@ program define _website, rclass
 			local c2 = substr("`word'",-1,1)
 			
 			if "`c1'" == "(" & "`c2'" == ")" {
-	
-				local replaceword = subinstr("`word'","(www.",`"({browse "www."',.)
-				
-				local replaceword  = subinstr(`"`replaceword'"',`")"',`""})"',.)
-				
+				* Extract URL from (url)
+				local urlpart = substr("`word'", 2, length("`word'")-2)
+				local replaceword `"({browse "http://`urlpart'"})"'
 				local k 1
-
-*				local text = subinstr(`"`text'"',`"`word'"',`"`replaceword'"',.)
-			
 			}
 		}
 		
-		if (substr(`"`replaceword'"',-3,3)== `"."}"' ) & ("`k'"=="1") {
-			local replaceword  = subinstr(`"`replaceword'"',`"."}"',`""}."',.)
+		* Apply short option if specified
+		if ("`k'"=="1") & ("`short'" != "") {
+			* Replace closing with short label
+			local replaceword = subinstr(`"`replaceword'"', `""}"', `"" `short'}"', .)
 		}
 		
 		if ("`k'"=="1") {
-			local replaceword  = subinstr(`"`replaceword'"',`""}"',`""`short'}"',.)
 			local text = subinstr(`"`text'"',`"`word'"',`"`replaceword'"',.)
-			local wc = `wc' + 1
 			local k = .
 		}
 		if ("`k'"=="") {
@@ -144,6 +161,47 @@ program define _website, rclass
 	cap noi di ""
 	
 	return local text = `"`text'"'
+	
+	*---------------------------------------------------------------------------
+	* Extract URLs from {browse "url"} tags - SINGLE SOURCE OF TRUTH
+	* This ensures returned URLs exactly match what is displayed as clickable
+	* Only unique URLs are returned (deduplicated)
+	*---------------------------------------------------------------------------
+	local nurls = 0
+	local urllist ""
+	local tmptext `"`text'"'
+	
+	* Loop while we find {browse "..."} patterns
+	while ustrregexm(`"`tmptext'"', `"\{browse "([^"]+)"\}"') {
+		local thisurl = ustrregexs(1)
+		* Remove the matched {browse} to find next one
+		local tmptext = ustrregexrf(`"`tmptext'"', `"\{browse "[^"]+"\}"', "")
+		
+		* Check if URL already exists (deduplicate)
+		local isdupe = 0
+		if (`nurls' > 0) {
+			forvalues u = 1/`nurls' {
+				if ("`url`u''" == "`thisurl'") {
+					local isdupe = 1
+					continue, break
+				}
+			}
+		}
+		
+		* Only add if not a duplicate
+		if (`isdupe' == 0) {
+			local nurls = `nurls' + 1
+			local url`nurls' "`thisurl'"
+		}
+	}
+	
+	* Return unique URLs found
+	return scalar nurls = `nurls'
+	if (`nurls' > 0) {
+		forvalues u = 1/`nurls' {
+			return local url`u' "`url`u''"
+		}
+	}
 	
 end
 
