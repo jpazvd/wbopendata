@@ -47,15 +47,15 @@ The access to this databases is made possible by the World Bank's Open Data Init
 ssc install wbopendata, replace
 ```
 
-### From GitHub (Latest Version - v17.1)
+### From GitHub (Latest Version - v17.4)
 ```stata
-net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main/") replace
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main/src") replace
 ```
 
 ### From GitHub (Specific Release)
 ```stata
-* Install v17.1 specifically
-net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v17.1/") replace
+* Install v17.4 specifically
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v17.4/src") replace
 ```
 
 ## Quick Start
@@ -72,6 +72,9 @@ wbopendata, topics(4) clear
 
 * Get country metadata
 wbopendata, match(countrycode) full
+
+* NEW in v17.4: Graph-ready metadata with linewrap
+wbopendata, indicator(SP.DYN.LE00.IN) clear linewrap(name description note) maxlength(50)
 ```
 
 ## Documentation
@@ -186,5 +189,3 @@ Special thanks to all contributors who have helped improve wbopendata through bu
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-do "C:/GitHub/myados/wbopendata/doc/examples/run_examples.do"
