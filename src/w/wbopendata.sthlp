@@ -1,9 +1,9 @@
 {smcl}
 {hline}
-{* 21Dec2025 }{...}
+{* 22Dec2025 }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
-{right: {bf:version 17.1}}
+{right: {bf:version 17.4}}
 {hline}
 
 {title:Title}
@@ -42,6 +42,9 @@
 {synopt :{opt match(varname)}} merge {help wbopendata##attributes:country attributes} into an existing dataset containing WDI (3 digit) countrycodes. Cannot be used with the data download options.{p_end}
 {synopt :{opt projection}} World Bank {help wbopendata_sourceid_indicators40##sourceid_40:population estimates and projections} (HPP) .{p_end}
 {synopt :{opt metadataoffline}} download all indicator metadata informaiton and generates 71 sthlp files in your local machine.{p_end}
+{synopt :{opt linewrap(fields)}} wrap metadata text for graph titles. Fields: name, description, note, source, topic, or all.{p_end}
+{synopt :{opt maxlength(# [# ...])}} maximum characters per line for linewrap. Single value (default 50) or multiple values matching linewrap field order.{p_end}
+{synopt :{opt linewrapformat(fmt)}} output format: stack (default) or all.{p_end}
 {synoptline}
 {p 4 6 2}
 {cmd:wbopendata} requires a connection to the internet and supports the Stata dialogue function ({dialog wbopendata}).{p_end}
@@ -132,7 +135,10 @@ RAM to complete this operation.{p_end}
 
 {synopt:{opt clear}} replace data in memory.{p_end}
 
-{synopt:{opt latest}} keep only the latest available value of a single indicator (it only work if the data in the long format).{p_end}
+{synopt:{opt latest}} keep only the latest available value of a single indicator (requires {opt long} format). 
+With multiple indicators, keeps observations where all indicators are non-missing. 
+Returns {cmd:r(latest)} with a formatted subtitle string (e.g., "Latest Available Year, 186 Countries (avg year 2019.6)"), 
+{cmd:r(latest_ncountries)} with the country count, and {cmd:r(latest_avgyear)} with the average year.{p_end}
 
 {synopt:{opt nometadata}} omits the display of the metadata information from the series. Metadata information is only available when downloading specific series (indicator option). The metadata available include information on the name of the series, the source, a detailed description 
 of the indicator, and the organization responsible for compiling this indicator.{p_end}
@@ -161,6 +167,26 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {synopt :{opt projection}} World Bank staff {help wbopendata_sourceid_indicators40##sourceid_40:population projection estimates} using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end} 
 
 {synopt :{opt metadataoffline}} refresh all metadata information, and generate a local copy of all indicators metadata organized by topics and source. This option creates 71 new help files in your local machine with approximately 15mb of documentation.{p_end}
+
+{synopt :{opt linewrap(fields)}} wrap metadata text for use in graph titles and notes. This option processes the specified metadata fields and returns wrapped versions suitable for Stata graphs. Available fields:{p_end}
+{p 8 12 2}- {opt name}: indicator name{p_end}
+{p 8 12 2}- {opt description}: indicator description{p_end}
+{p 8 12 2}- {opt note}: source notes{p_end}
+{p 8 12 2}- {opt source}: source information{p_end}
+{p 8 12 2}- {opt topic}: topic classification{p_end}
+{p 8 12 2}- {opt all}: all fields{p_end}
+{p 8 8 2}Returns {cmd:r({it:field}1_stack)} in the format {cmd:\"line1\" \"line2\"} for use with {cmd:title()}.{p_end}
+{p 8 8 2}Also returns {cmd:r(sourcecite1)}, {cmd:r(sourcecite2)}, etc. with clean organization names for graph source attribution.{p_end}
+
+{synopt :{opt maxlength(# [# ...])}} maximum number of characters per line when using {opt linewrap()}. 
+Can be a single value (default 50) applied to all fields, or multiple values applied in order to fields 
+specified in {opt linewrap()}. For example, {cmd:maxlength(40 100 80) linewrap(name description note)} 
+sets name to 40 chars, description to 100 chars, and note to 80 chars. If fewer values than fields,
+the last value is used for remaining fields.{p_end}
+
+{synopt :{opt linewrapformat(fmt)}} controls output format for linewrap. Options:{p_end}
+{p 8 12 2}- {opt stack}: (default) returns only {cmd:_stack} format for {cmd:title()}{p_end}
+{p 8 12 2}- {opt all}: returns all formats ({cmd:_stack}, {cmd:_newline}, {cmd:_nlines}, {cmd:_line1}, etc.){p_end}
 	
 {marker attributes}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -473,6 +499,48 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {txt}      ({stata "wbopendata_examples example05":click to run})
 
+{pstd}{ul:{bf:Example 6: Using linewrap for graph titles}}{p_end}
+
+{p 4 4 2}Download indicator with linewrap option to create graph-ready titles:{p_end}
+
+{cmd}
+.     wbopendata, indicator(SI.POV.DDAY) clear long linewrap(name) maxlength(45)
+.     return list
+.     * Use wrapped title in graph
+.     twoway line si_pov_dday year if countrycode == "BRA", ///
+           title(`r(name1_stack)') ///
+           subtitle("Brazil") ///
+           ytitle("% of population")
+
+{p 4 4 2}Use different maxlength values for different fields:{p_end}
+
+{cmd}
+.     wbopendata, indicator(SI.POV.DDAY) clear long ///
+          linewrap(name description note) maxlength(40 100 80)
+.     * name wraps at 40 chars, description at 100, note at 80
+
+{p 4 4 2}Use sourcecite for clean source attribution with multiple indicators:{p_end}
+
+{cmd}
+.     wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest linewrap(name)
+.     local xtit `"`r(name1_stack)'"'
+.     local ytit `"`r(name2_stack)'"'
+.     twoway scatter sh_dyn_mort si_pov_dday, ///
+           xtitle(`xtit') ytitle(`ytit') ///
+           note("Sources: `r(sourcecite1)'; `r(sourcecite2)'")
+
+{p 4 4 2}Use dynamic subtitle showing country count and average year:{p_end}
+
+{cmd}
+.     wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest ///
+          linewrap(name description) maxlength(40 180)
+.     local subtitle "`r(latest)'"
+.     twoway scatter sh_dyn_mort si_pov_dday, ///
+           title("Poverty and Child Mortality") ///
+           subtitle("`subtitle'") ///
+           note("Sources: `r(sourcecite1)'; `r(sourcecite2)'")
+.     * subtitle displays: "Latest Available Year, 186 Countries (avg year 2019.6)"
+
 {marker disclaimer}{...}
 {title:Disclaimer}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -530,8 +598,8 @@ S426302, Boston College Department of Economics, revised 17 Oct 2006.{p_end}
 
     {p 4 4 2}I would like to dedicate this ado file to Dr Richard Sperling, who asked us to support intelligent and well 
     thought out public policies that help those in society who are less fortunate than we are. {browse "www.stata.com/statalist/archive/2011-02/msg00062.html"}{p_end}
-    {p 4 4 2}{cmd:wbopendata} uses the Stata user written command {cmd:_pecats} produced by J. Scott Long and Jeremy Freese, and {cmd:tknz} written by David C. Elliott and 
-    Nick Cox.{p_end} 
+    {p 4 4 2}{cmd:wbopendata} uses the Stata user written command {cmd:_pecats} produced by J. Scott Long and Jeremy Freese, {cmd:tknz} written by David C. Elliott and 
+    Nick Cox, and {cmd:_linewrap} (based on {cmd:linewrap} v2.1 by Mead Over & Joao Pedro Azevedo) for formatting graph footnotes in example files.{p_end} 
        
 {title:Author}
 

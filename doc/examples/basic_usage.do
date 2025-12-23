@@ -50,8 +50,9 @@ twoway (line ny_gdp_pcap_cd year if countrycode=="BRA", lcolor(green) lwidth(med
        (line ny_gdp_pcap_cd year if countrycode=="CHN", lcolor(red) lwidth(medium)) ///
        (line ny_gdp_pcap_cd year if countrycode=="IND", lcolor(orange) lwidth(medium)), ///
        legend(label(1 "Brazil") label(2 "China") label(3 "India") rows(1)) ///
-       title("GDP per capita") ytitle("USD") xtitle("Year") ///
-       note("Source: World Bank Open Data (wbopendata Stata package). Data: World Bank. Variable code: NY.GDP.PCAP.CD")
+       title("GDP per capita") ytitle("USD") xtitle("Year")
+_linewrap, maxlength(90) longstring("Source: World Bank Open Data (wbopendata Stata package). Data: World Bank. Variable code: NY.GDP.PCAP.CD")
+graph note "`r(line1)'" "`r(line2)'"
 graph export "output/figures/gdp_per_capita_brics.png", width(1200) replace
 
 *===============================================================================
