@@ -1,6 +1,8 @@
 # Issue Resolution Plan
 
-[← Back to README](../../README.md) | [FAQ](../FAQ.md) | [Improvement Plan](IMPROVEMENT_PLAN.md)
+[← Back to README](../../README.md) | [FAQ](../FAQ.md) | [**📍 ROADMAP**](ROADMAP.md)
+
+> ⚠️ **ARCHIVED**: Issue tracking has been consolidated into [ROADMAP.md](ROADMAP.md). See that file for current status.
 
 ---
 
@@ -9,7 +11,8 @@
 This document tracks the resolution of open GitHub issues for `wbopendata`.
 
 **Branch:** `fix/issues-and-docs`  
-**Created:** December 21, 2025
+**Created:** December 21, 2025  
+**Archived:** December 23, 2025
 
 ---
 
