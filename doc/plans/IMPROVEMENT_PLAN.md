@@ -1,6 +1,8 @@
 # wbopendata Improvement Plan
 
-[← Back to README](../../README.md) | [FAQ](../FAQ.md) | [Issue Resolution](ISSUE_RESOLUTION_PLAN.md)
+[← Back to README](../../README.md) | [FAQ](../FAQ.md) | [**📍 ROADMAP**](ROADMAP.md)
+
+> ⚠️ **ARCHIVED**: This document has been consolidated into [ROADMAP.md](ROADMAP.md). See that file for the current development plan.
 
 ---
 
@@ -9,7 +11,8 @@
 This improvement plan draws insights from the recently developed [`unicefData`](https://github.com/jpazvd/unicefData) Stata package. The goal is to modernize `wbopendata` while maintaining backward compatibility with the 13+ years of existing user workflows.
 
 **Document Created:** December 21, 2025  
-**Current wbopendata Version:** 17.0  
+**Archived:** December 23, 2025  
+**Current wbopendata Version:** 17.4  
 **Reference Implementation:** unicefData v1.5.1
 
 ---

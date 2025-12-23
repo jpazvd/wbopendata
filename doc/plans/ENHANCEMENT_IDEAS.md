@@ -1,5 +1,11 @@
 # wbopendata Enhancement Ideas and Roadmap
 
+[← Back to README](../../README.md) | [**📍 ROADMAP**](ROADMAP.md)
+
+> ⚠️ **ARCHIVED**: This document has been consolidated into [ROADMAP.md](ROADMAP.md). See that file for the current development plan.
+
+---
+
 Based on analysis of Stata packages in `C:\ado\plus`, this document outlines potential improvements and new features for `wbopendata`.
 
 ## Executive Summary
