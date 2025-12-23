@@ -226,14 +226,9 @@ return matrix data = ...
 
 ## 📚 Related Documents
 
-| Document | Description | Status |
-|----------|-------------|--------|
-| [STATA_ADO_BEST_PRACTICES.md](STATA_ADO_BEST_PRACTICES.md) | Coding standards | Reference |
-
-### Archived
-- [ENHANCEMENT_IDEAS.md](_archive/ENHANCEMENT_IDEAS.md) — Detailed feature proposals
-- [IMPROVEMENT_PLAN.md](_archive/IMPROVEMENT_PLAN.md) — Original improvement plan  
-- [ISSUE_RESOLUTION_PLAN.md](_archive/ISSUE_RESOLUTION_PLAN.md) — Issue tracking history
+| Document | Description |
+|----------|-------------|
+| [STATA_ADO_BEST_PRACTICES.md](STATA_ADO_BEST_PRACTICES.md) | Coding standards reference |
 
 ---
 
