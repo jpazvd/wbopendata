@@ -66,6 +66,7 @@
 !/doc/**/*.log
 !/doc/**/*.png
 !/doc/**/*.do
+!/doc/**/*.txt
 
 # QA test files
 !/qa/*.txt
