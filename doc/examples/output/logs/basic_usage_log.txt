@@ -1,14 +1,16 @@
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
       name:  basic
-       log:  C:/GitHub/myados/wbopendata/doc/examples/output/basic_usage_log.txt
+       log:  C:\GitHub\myados\wbopendata\doc\examples\output/logs/basic_usage_l
+> og.txt
   log type:  text
- opened on:  21 Dec 2025, 19:14:36
-r; t=0.00 19:14:36
+ opened on:  22 Dec 2025, 19:09:24
+r; t=0.05 19:09:24
 
 . 
-. capture noisily do "`basepath'/basic_usage.do"
+. capture noisily do "basic_usage.do"
 
-. /*******************************************************************************
+. /****************************************************************************
+> ***
 > * wbopendata: Basic Usage Examples
 > * Version: 17.1
 > * Date: December 2025
@@ -16,250 +18,64 @@ r; t=0.00 19:14:36
 > *
 > * Documentation: https://github.com/jpazvd/wbopendata
 > * See also: advanced_usage.do, ../FAQ.md
-> *******************************************************************************/
+> *
+> * Output: Graphs saved to output/figures/, logs to output/logs/
+> *****************************************************************************
+> **/
 . 
 . clear all
-r; t=0.02 19:14:36
+r; t=0.02 19:09:24
 
 . set more off
-r; t=0.00 19:14:36
+r; t=0.00 19:09:24
 
 . 
-. *===============================================================================
+. * Set graph scheme for consistent styling
+. set scheme s2color
+r; t=0.04 19:09:24
+
+. 
+. *============================================================================
+> ===
 . * EXAMPLE 1: Download a single indicator for all countries
-. *===============================================================================
+. *============================================================================
+> ===
 . 
 . * GDP (current US$) for all countries, wide format
 . wbopendata, indicator(NY.GDP.MKTP.CD) clear
 
     Metadata for indicator NY.GDP.MKTP.CD
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Name: GDP (current US$)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Collection: 2 World Development Indicators
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Description: Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be
-    measured in three different ways: using either the expenditure approach, the income approach, or the production approach. This indicator is expressed in current prices,
-    meaning no adjustment has been made to account for price changes over time. This indicator is expressed in United States dollars.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Note: Country official statistics, National Statistical Organizations and or Central Banks;
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+    Description: Gross domestic product is the total income earned through
+    the production of goods and services in an economic territory during an
+    accounting period. It can be measured in three different ways: using
+    either the expenditure approach, the income approach, or the production
+    approach. This indicator is expressed in current prices, meaning no
+    adjustment has been made to account for price changes over time. This
+    indicator is expressed in United States dollars.
+-------------------------------------------------------------------------------
+    Note: Country official statistics, National Statistical Organizations
+    and or Central Banks;
+-------------------------------------------------------------------------------
     Topic(s):  ; 3 Economy and Growth
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 
-r; t=1.31 19:14:37
-
-. 
-. * View the data
-. describe
-
-Contains data from C:\Users\JPAZEV~1\AppData\Local\Temp\ST_1a08_000001.tmp
- Observations:           266                  
-    Variables:            77                  21 Dec 2025 19:14
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Variable      Storage   Display    Value
-    name         type    format    label      Variable label
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-countrycode     str3    %9s                   Country Code
-countryname     str75   %75s                  Country Name
-region          str3    %9s                   Region Code
-regionname      str51   %51s                  Region Name
-adminregion     str3    %9s                   Administrative Region Code
-adminregionname str75   %75s                  Administrative Region Name
-incomelevel     str3    %9s                   Income Level Code
-incomelevelname str19   %19s                  Income Level Name
-lendingtype     str3    %9s                   Lending Type Code
-lendingtypename str14   %14s                  Lending Type Name
-indicatorname   str17   %17s                  Indicator Name
-indicatorcode   str14   %14s                  Indicator Code
-yr1960          double  %10.0g                1960
-yr1961          double  %10.0g                1961
-yr1962          double  %10.0g                1962
-yr1963          double  %10.0g                1963
-yr1964          double  %10.0g                1964
-yr1965          double  %10.0g                1965
-yr1966          double  %10.0g                1966
-yr1967          double  %10.0g                1967
-yr1968          double  %10.0g                1968
-yr1969          double  %10.0g                1969
-yr1970          double  %10.0g                1970
-yr1971          double  %10.0g                1971
-yr1972          double  %10.0g                1972
-yr1973          double  %10.0g                1973
-yr1974          double  %10.0g                1974
-yr1975          double  %10.0g                1975
-yr1976          double  %10.0g                1976
-yr1977          double  %10.0g                1977
-yr1978          double  %10.0g                1978
-yr1979          double  %10.0g                1979
-yr1980          double  %10.0g                1980
-yr1981          double  %10.0g                1981
-yr1982          double  %10.0g                1982
-yr1983          double  %10.0g                1983
-yr1984          double  %10.0g                1984
-yr1985          double  %10.0g                1985
-yr1986          double  %10.0g                1986
-yr1987          double  %10.0g                1987
-yr1988          double  %10.0g                1988
-yr1989          double  %10.0g                1989
-yr1990          double  %10.0g                1990
-yr1991          double  %10.0g                1991
-yr1992          double  %10.0g                1992
-yr1993          double  %10.0g                1993
-yr1994          double  %10.0g                1994
-yr1995          double  %10.0g                1995
-yr1996          double  %10.0g                1996
-yr1997          double  %10.0g                1997
-yr1998          double  %10.0g                1998
-yr1999          double  %10.0g                1999
-yr2000          double  %10.0g                2000
-yr2001          double  %10.0g                2001
-yr2002          double  %10.0g                2002
-yr2003          double  %10.0g                2003
-yr2004          double  %10.0g                2004
-yr2005          double  %10.0g                2005
-yr2006          double  %10.0g                2006
-yr2007          double  %10.0g                2007
-yr2008          double  %10.0g                2008
-yr2009          double  %10.0g                2009
-yr2010          double  %10.0g                2010
-yr2011          double  %10.0g                2011
-yr2012          double  %10.0g                2012
-yr2013          double  %10.0g                2013
-yr2014          double  %10.0g                2014
-yr2015          double  %10.0g                2015
-yr2016          double  %10.0g                2016
-yr2017          double  %10.0g                2017
-yr2018          double  %10.0g                2018
-yr2019          double  %10.0g                2019
-yr2020          double  %10.0g                2020
-yr2021          double  %10.0g                2021
-yr2022          double  %10.0g                2022
-yr2023          double  %10.0g                2023
-yr2024          double  %10.0g                2024
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Sorted by: 
-     Note: Dataset has changed since last saved.
-r; t=0.02 19:14:37
-
-. list countrycode countryname yr2020 yr2021 yr2022 in 1/10
-
-     +----------------------------------------------------------------------------+
-     | count~de                   countryname      yr2020      yr2021      yr2022 |
-     |----------------------------------------------------------------------------|
-  1. |      ABW                         Aruba   2.471e+09   2.881e+09   3.324e+09 |
-  2. |      AFE   Africa Eastern and Southern   9.386e+11   1.114e+12   1.229e+12 |
-  3. |      AFG                   Afghanistan   1.996e+10   1.426e+10   1.450e+10 |
-  4. |      AFW    Africa Western and Central   9.638e+11   1.027e+12   1.064e+12 |
-  5. |      AGO                        Angola   5.885e+10   7.956e+10   1.312e+11 |
-     |----------------------------------------------------------------------------|
-  6. |      ALB                       Albania   1.524e+10   1.803e+10   1.902e+10 |
-  7. |      AND                       Andorra   2.891e+09   3.325e+09   3.381e+09 |
-  8. |      ARB                    Arab World   2.604e+12   3.085e+12   3.747e+12 |
-  9. |      ARE          United Arab Emirates   3.572e+11   4.224e+11   5.114e+11 |
- 10. |      ARG                     Argentina   3.857e+11   4.866e+11   6.340e+11 |
-     +----------------------------------------------------------------------------+
-r; t=0.01 19:14:37
-
-. 
-. *===============================================================================
-. * EXAMPLE 2: Download multiple indicators
-. *===============================================================================
-. 
-. * GDP, Population, and Primary enrollment rate
-. wbopendata, indicator(NY.GDP.MKTP.CD;SP.POP.TOTL;SE.PRM.ENRR) clear long
-
-    Metadata for indicator NY.GDP.MKTP.CD
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Name: GDP (current US$)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Collection: 2 World Development Indicators
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Description: Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be
-    measured in three different ways: using either the expenditure approach, the income approach, or the production approach. This indicator is expressed in current prices,
-    meaning no adjustment has been made to account for price changes over time. This indicator is expressed in United States dollars.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Note: Country official statistics, National Statistical Organizations and or Central Banks;
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Topic(s):  ; 3 Economy and Growth
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-    Metadata for indicator SP.POP.TOTL
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Name: Population, total
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Collection: 2 World Development Indicators
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Description: Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are
-    midyear estimates.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Note: World Population Prospects, United Nations (UN), uri: {browse https:"} population.un.org wpp , publisher: UN Population Division;{p_end}" invalid name
-
-    Sorry... No metadata available for NY.GDP.MKTP.CD;SP.POP.TOTL;SE.PRM.ENRR.
-
-
-    Metadata for indicator SE.PRM.ENRR
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Name: School enrollment, primary (% gross)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Collection: 2 World Development Indicators
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Description: Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of
-    education shown. Primary education provides children with basic reading, writing, and mathematics skills along with an elementary understanding of such subjects as history,
-    geography, natural science, social science, art, and music.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Note: Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: {browse unknown function https:"} databrowser.uis.unesco.org resources, note: The data are
-    obtained through the UIS API.  Detailed documentation is available at: {browse "https:"} api.uis.unesco.org api public documentation , publisher: UNESCO Institute for
-    Statistics ()
-
-    Sorry... No metadata available for NY.GDP.MKTP.CD;SP.POP.TOTL;SE.PRM.ENRR.
-
-r; t=7.03 19:14:44
-
-. 
-. * View structure
-. describe
-
-Contains data from C:\Users\JPAZEV~1\AppData\Local\Temp\ST_1a08_000001.tmp
- Observations:        17,290                  
-    Variables:            14                  21 Dec 2025 19:14
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Variable      Storage   Display    Value
-    name         type    format    label      Variable label
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-countrycode     str3    %9s                   Country Code
-countryname     str75   %75s                  Country Name
-region          str3    %9s                   Region Code
-regionname      str51   %51s                  Region Name
-adminregion     str3    %9s                   Administrative Region Code
-adminregionname str75   %75s                  Administrative Region Name
-incomelevel     str3    %9s                   Income Level Code
-incomelevelname str19   %19s                  Income Level Name
-lendingtype     str3    %9s                   Lending Type Code
-lendingtypename str14   %14s                  Lending Type Name
-year            int     %9.0g                 Year
-ny_gdp_mktp_cd  double  %10.0g                NY.GDP.MKTP.CD
-sp_pop_totl     double  %10.0g                SP.POP.TOTL
-se_prm_enrr     float   %9.0g                 SE.PRM.ENRR
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Sorted by: countrycode  year
-     Note: Dataset has changed since last saved.
-r; t=0.00 19:14:44
-
-. tab indicatorcode
-variable indicatorcode not found
-r(111); t=0.00 19:14:44
+variable year not found
+r(111); t=10.21 19:09:34
 
 end of do-file
-r; t=8.40 19:14:44
+r; t=10.30 19:09:34
 
 . 
 . log close basic
       name:  basic
-       log:  C:/GitHub/myados/wbopendata/doc/examples/output/basic_usage_log.txt
+       log:  C:\GitHub\myados\wbopendata\doc\examples\output/logs/basic_usage_l
+> og.txt
   log type:  text
- closed on:  21 Dec 2025, 19:14:44
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ closed on:  22 Dec 2025, 19:09:34
+-------------------------------------------------------------------------------

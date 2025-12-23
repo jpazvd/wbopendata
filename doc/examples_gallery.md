@@ -6,9 +6,9 @@
 
 This gallery showcases `wbopendata` capabilities with the exact code used to generate the output figures.
 
-**Version**: 17.1 | **Last Updated**: December 2025
+**Version**: 17.4 | **Last Updated**: December 2025
 
-> **Note**: Some examples require user-written commands (`spmap`, `alorenz`, `linewrap`). Install them with:
+> **Note**: Some examples require user-written commands (`spmap`, `alorenz`). Install them with:
 > ```stata
 > ssc install spmap
 > ssc install alorenz
@@ -18,13 +18,235 @@ This gallery showcases `wbopendata` capabilities with the exact code used to gen
 
 ## Table of Contents
 
-1. [Example 7: World Map - Mobile Phone Coverage](#example-7-world-map---mobile-phone-coverage)
-2. [Example 8: Poverty vs. Income (Single Country Highlight)](#example-8-poverty-vs-income-single-country-highlight)
-3. [Example 9: Regional Poverty Reduction Episodes](#example-9-regional-poverty-reduction-episodes)
-4. [Example 10: MDG Progress Tracking](#example-10-mdg-progress-tracking)
-5. [Example 11: Poverty vs. Income (Regional Aggregates)](#example-11-poverty-vs-income-regional-aggregates)
+### New in v17.4: Graph Metadata Features
+1. [Graph Metadata with linewrap()](#graph-metadata-with-linewrap)
+2. [Dynamic Subtitle with r(latest)](#dynamic-subtitle-with-rlatest)
+3. [Layout Option A: Caption + Note](#layout-option-a-caption--note)
+4. [Layout Option D: Separate Sources](#layout-option-d-separate-sources)
+5. [Layout Option F: Compact Sources](#layout-option-f-compact-sources)
+6. [Layout Option G: All-in-Caption](#layout-option-g-all-in-caption)
+
+### Classic Examples
+7. [World Map - Mobile Phone Coverage](#example-7-world-map---mobile-phone-coverage)
+8. [Poverty vs. Income (Single Country Highlight)](#example-8-poverty-vs-income-single-country-highlight)
+9. [Regional Poverty Reduction Episodes](#example-9-regional-poverty-reduction-episodes)
+10. [MDG Progress Tracking](#example-10-mdg-progress-tracking)
+11. [Poverty vs. Income (Regional Aggregates)](#example-11-poverty-vs-income-regional-aggregates)
 
 ---
+
+# New in v17.4: Graph Metadata Features
+
+These examples demonstrate the new `linewrap()`, `maxlength()`, `r(latest)`, and `r(sourcecite#)` features for creating publication-ready graphs with automatic metadata formatting.
+
+---
+
+## Graph Metadata with linewrap()
+
+The `linewrap()` option wraps long metadata text for graph titles, captions, and notes. Use `maxlength()` to control characters per line.
+
+### Key Returns
+
+| Return | Description |
+|--------|-------------|
+| `r(name#_stack)` | Wrapped indicator name for `title()` |
+| `r(description#_stack)` | Wrapped description for `caption()` |
+| `r(sourcecite#)` | Clean organization name (e.g., "World Bank (WB)") |
+| `r(latest)` | Dynamic subtitle: "Latest Available Year, N Countries (avg year XXXX.X)" |
+| `r(latest_ncountries)` | Number of countries |
+| `r(latest_avgyear)` | Average year of data |
+
+### Basic Usage
+
+```stata
+* Download with linewrap - different maxlength for each field
+wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest ///
+    linewrap(name description note) maxlength(40 180 180)
+
+* Access wrapped returns
+local name1 `"`r(name1_stack)'"'      // Wrapped name for titles
+local desc1 `"`r(description1_stack)'"' // Wrapped description
+local src1 "`r(sourcecite1)'"          // Clean source: "World Bank (WB)"
+```
+
+---
+
+## Dynamic Subtitle with r(latest)
+
+When using the `latest` option, wbopendata returns `r(latest)` with a formatted subtitle showing the number of countries and average year.
+
+### Code
+
+```stata
+wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest ///
+    linewrap(name description) maxlength(40 180)
+
+* Get dynamic subtitle
+local subtitle "`r(latest)'"
+di "`subtitle'"
+// Output: "Latest Available Year, 186 Countries (avg year 2019.6)"
+
+* Use in graph
+twoway scatter sh_dyn_mort si_pov_dday, ///
+    title("Poverty and Child Mortality") ///
+    subtitle("`subtitle'")
+```
+
+### Available Returns
+
+```stata
+return list
+// r(latest)            : "Latest Available Year, 186 Countries (avg year 2019.6)"
+// r(latest_ncountries) : "186"
+// r(latest_avgyear)    : "2019.6"
+```
+
+---
+
+## Layout Option A: Caption + Note
+
+**Best for**: Separating indicator definitions from data sources
+
+- **Caption**: Indicator descriptions (definitions)
+- **Note**: Data sources on one line
+
+### Code
+
+```stata
+wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest ///
+    linewrap(name description note) maxlength(40 180 180)
+
+* Store returns
+local name1 `"`r(name1_stack)'"'
+local name2 `"`r(name2_stack)'"'
+local desc1 `"`r(description1_stack)'"'
+local desc2 `"`r(description2_stack)'"'
+local src1 "`r(sourcecite1)'"
+local src2 "`r(sourcecite2)'"
+local subtitle "`r(latest)'"
+
+twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///
+    xtitle(`name1', size(small)) ///
+    ytitle(`name2', size(small)) ///
+    title("Poverty and Child Mortality", size(medium)) ///
+    subtitle("`subtitle'", size(small)) ///
+    caption("{bf:Indicator Descriptions:}" ///
+            "{bf:X-axis:} " `desc1' ///
+            "{bf:Y-axis:} " `desc2', size(vsmall) span) ///
+    note("Sources: `src1'; `src2'", size(vsmall))
+```
+
+### Output
+
+![Option A: Caption + Note](examples/output/figures/test_optionA_140.png)
+
+*Option A: Definitions in caption, sources in note (one line)*
+
+---
+
+## Layout Option D: Separate Sources
+
+**Best for**: Clear attribution when sources differ between X and Y variables
+
+- **Caption**: Indicator descriptions
+- **Note**: Sources labeled separately for X and Y
+
+### Code
+
+```stata
+twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///
+    xtitle(`name1', size(small)) ///
+    ytitle(`name2', size(small)) ///
+    title("Poverty and Child Mortality", size(medium)) ///
+    subtitle("`subtitle'", size(small)) ///
+    caption("{bf:Definitions:}" ///
+            "{bf:X-axis:} " `desc1' ///
+            "{bf:Y-axis:} " `desc2', size(vsmall) span) ///
+    note("{bf:Data Sources:}" ///
+         "{bf:X (Poverty):} `src1'" ///
+         "{bf:Y (Mortality):} `src2'", size(vsmall))
+```
+
+### Output
+
+![Option D: Separate Sources](examples/output/figures/test_optionD_140.png)
+
+*Option D: Sources clearly labeled for each axis*
+
+---
+
+## Layout Option F: Compact Sources
+
+**Best for**: Space-constrained figures where sources fit on one line
+
+- **Caption**: Indicator descriptions (spans full width)
+- **Note**: Both sources on a single line
+
+### Code
+
+```stata
+twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///
+    xtitle(`name1', size(small)) ///
+    ytitle(`name2', size(small)) ///
+    title("Poverty and Child Mortality", size(medium)) ///
+    subtitle("`subtitle'", size(small)) ///
+    caption("{bf:Definitions:}" ///
+            "{bf:X-axis:} " `desc1' ///
+            "{bf:Y-axis:} " `desc2', size(vsmall) span) ///
+    note("{bf:Data Sources:}  X: `src1';  Y: `src2'", size(vsmall) span)
+```
+
+### Output
+
+![Option F: Compact Sources](examples/output/figures/test_optionF_140.png)
+
+*Option F: Sources on one line with span for full width*
+
+---
+
+## Layout Option G: All-in-Caption
+
+**Best for**: Self-contained figures with all metadata in one location
+
+- **Caption**: Everything - descriptions AND sources
+- **Note**: Empty (or for other annotations)
+
+### Code
+
+```stata
+twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///
+    xtitle(`name1', size(small)) ///
+    ytitle(`name2', size(small)) ///
+    title("Poverty and Child Mortality", size(medium)) ///
+    subtitle("`subtitle'", size(small)) ///
+    caption("{bf:Definitions:}" ///
+            "{bf:X-axis:} " `desc1' ///
+            "{bf:Y-axis:} " `desc2' "" ///
+            "{bf:Data Sources:}" ///
+            "{bf:X (Poverty):} `src1'" ///
+            "{bf:Y (Mortality):} `src2'", size(vsmall) span)
+```
+
+### Output
+
+![Option G: All-in-Caption](examples/output/figures/test_optionG_140.png)
+
+*Option G: Definitions and sources all in caption*
+
+---
+
+## Layout Comparison Summary
+
+| Layout | Caption | Note | Best For |
+|--------|---------|------|----------|
+| **A** | Definitions | Sources (1 line) | Standard publications |
+| **D** | Definitions | Sources (labeled X/Y) | Different data sources |
+| **F** | Definitions | Sources (compact) | Space-constrained |
+| **G** | Everything | Empty | Self-contained figures |
+
+---
+
+# Classic Examples
 
 ## Example 7: World Map - Mobile Phone Coverage
 
@@ -265,13 +487,27 @@ See the complete [wbopendata.md](wbopendata.md) documentation or the runnable [d
 ### Prerequisites
 
 ```stata
-* Install required user-written commands
+* Ensure wbopendata is updated to v17.4+
+which wbopendata
+
+* Install optional user-written commands for advanced examples
 ssc install spmap      // for choropleth maps
 ssc install alorenz    // for Lorenz curves
-* linewrap may need to be obtained separately
+```
 
-* Ensure world shapefiles are available
-* world-c.dta and world-d.dta are included with wbopendata
+### Quick Start with New Features
+
+```stata
+* Basic linewrap usage
+wbopendata, indicator(SI.POV.DDAY) clear long latest linewrap(name) maxlength(45)
+di `"`r(name1_stack)'"'
+
+* Multiple maxlengths for different fields
+wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest ///
+    linewrap(name description note) maxlength(40 180 180)
+
+* Access all returns
+return list
 ```
 
 ### From Command Line
@@ -280,6 +516,9 @@ ssc install alorenz    // for Lorenz curves
 * Run all examples
 do "doc/examples/basic_usage.do"
 do "doc/examples/advanced_usage.do"
+
+* Run graph metadata examples specifically
+do "doc/examples/output/test_options_AD_140.do"
 ```
 
 ---
@@ -290,6 +529,7 @@ do "doc/examples/advanced_usage.do"
 - [Do File Examples](examples/) - Runnable Stata code
 - [Full Documentation](wbopendata.md) - Complete code output log
 - [README](../README.md) - Main documentation
+- [CHANGELOG](../CHANGELOG.md) - Version history
 
 ---
 
