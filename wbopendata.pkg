@@ -23,6 +23,8 @@ F src/w/world-d.dta
 F src/_/_api_read.ado
 F src/_/_api_read_indicators.ado
 F src/_/_countrymetadata.ado
+F src/_/_linewrap.ado
+F src/_/_metadata_linewrap.ado
 F src/_/_parameters.ado
 F src/_/_query.ado
 F src/_/_query_indicators.ado
