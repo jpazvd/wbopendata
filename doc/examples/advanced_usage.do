@@ -378,7 +378,6 @@ local d2   `r(description2_stack)'
 local src1 "`r(sourcecite1)'"
 local src2 "`r(sourcecite2)'"
 
-set trace on
  
 * Grab the stacked description lists
 local d1 `r(description1_stack)'
