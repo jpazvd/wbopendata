@@ -228,10 +228,12 @@ return matrix data = ...
 
 | Document | Description | Status |
 |----------|-------------|--------|
-| [ENHANCEMENT_IDEAS.md](ENHANCEMENT_IDEAS.md) | Detailed feature proposals | Archive |
-| [IMPROVEMENT_PLAN.md](IMPROVEMENT_PLAN.md) | Original improvement plan | Archive |
-| [ISSUE_RESOLUTION_PLAN.md](ISSUE_RESOLUTION_PLAN.md) | Issue tracking | Archive |
 | [STATA_ADO_BEST_PRACTICES.md](STATA_ADO_BEST_PRACTICES.md) | Coding standards | Reference |
+
+### Archived
+- [ENHANCEMENT_IDEAS.md](_archive/ENHANCEMENT_IDEAS.md) — Detailed feature proposals
+- [IMPROVEMENT_PLAN.md](_archive/IMPROVEMENT_PLAN.md) — Original improvement plan  
+- [ISSUE_RESOLUTION_PLAN.md](_archive/ISSUE_RESOLUTION_PLAN.md) — Issue tracking history
 
 ---
 
