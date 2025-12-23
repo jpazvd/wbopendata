@@ -416,7 +416,6 @@ version 9.0
 					sort countrycode year
 					qui bysort countrycode : keep if _n==_N
 				}
-			}
 			
 			* Compute macro when latest option is selected
 			qui count
@@ -427,6 +426,7 @@ version 9.0
 			return local latest "`_latest'"
 			return local latest_ncountries "`_latest_ncountries'"
 			return local latest_avgyear "`_latest_avgyear'"
+			}
 	
 **********************************************************************************
 	
