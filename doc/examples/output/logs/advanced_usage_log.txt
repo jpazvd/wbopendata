@@ -1,16 +1,18 @@
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
       name:  advanced
-       log:  C:\GitHub\myados\wbopendata\doc\examples\output/logs/advanced_usage_log.txt
+       log:  C:\GitHub\myados\wbopendata\doc\examples\output/logs/advanced_usag
+> e_log.txt
   log type:  text
- opened on:  21 Dec 2025, 22:05:18
-r; t=0.02 22:05:18
+ opened on:  22 Dec 2025, 19:09:34
+r; t=0.06 19:09:34
 
 . 
 . capture noisily do "advanced_usage.do"
 
-. /*******************************************************************************
+. /****************************************************************************
+> ***
 > * wbopendata: Advanced Usage Examples
-> * Version: 17.1
+> * Version: 17.2
 > * Date: December 2025
 > * Author: João Pedro Azevedo
 > *
@@ -18,90 +20,107 @@ r; t=0.02 22:05:18
 > * See also: basic_usage.do, ../FAQ.md
 > *
 > * Output: Graphs saved to output/figures/, logs to output/logs/
-> *******************************************************************************/
+> *****************************************************************************
+> **/
 . 
 . clear all
-r; t=0.23 22:05:18
+r; t=0.26 19:09:34
 
 . set more off
-r; t=0.00 22:05:18
+r; t=0.00 19:09:34
 
 . 
 . * Set graph scheme for consistent styling
 . set scheme s2color
-r; t=0.00 22:05:18
+r; t=0.00 19:09:34
 
 . 
-. *===============================================================================
+. *============================================================================
+> ===
 . * EXAMPLE 1: Create panel dataset with multiple indicators
-. *===============================================================================
+. *============================================================================
+> ===
 . 
 . * Download key development indicators (long format creates separate columns)
 . wbopendata, indicator(NY.GDP.PCAP.CD;SP.DYN.LE00.IN;SE.ADT.LITR.ZS) ///
 >     country(BRA;CHN;IND;USA;DEU;JPN) year(2000:2022) clear long
 
     Metadata for indicator NY.GDP.PCAP.CD
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Name: GDP per capita (current US$)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Collection: 2 World Development Indicators
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Description: Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be
-    measured in three different ways: using either the expenditure approach, the income approach, or the production approach. The core indicator has been divided by the general
-    population to achieve a per capita estimate.This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This
-    indicator is expressed in United States dollars.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Note: Country official statistics, National Statistical Organizations and or Central Banks;
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+    Description: Gross domestic product is the total income earned through
+    the production of goods and services in an economic territory during an
+    accounting period. It can be measured in three different ways: using
+    either the expenditure approach, the income approach, or the production
+    approach. The core indicator has been divided by the general population
+    to achieve a per capita estimate.This indicator is expressed in current
+    prices, meaning no adjustment has been made to account for price
+    changes over time. This indicator is expressed in United States
+    dollars.
+-------------------------------------------------------------------------------
+    Note: Country official statistics, National Statistical Organizations
+    and or Central Banks;
+-------------------------------------------------------------------------------
     Topic(s):  ; 3 Economy and Growth
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 
 
     Metadata for indicator SP.DYN.LE00.IN
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Name: Life expectancy at birth, total (years)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Collection: 2 World Development Indicators
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Description: Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the
-    same throughout its life.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Note: World Population Prospects, United Nations (UN), uri: UN Population Division;
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+    Description: Life expectancy at birth indicates the number of years a
+    newborn infant would live if prevailing patterns of mortality at the
+    time of its birth were to stay the same throughout its life.
+-------------------------------------------------------------------------------
+    Note: World Population Prospects, United Nations (UN), uri: UN
+    Population Division;
+-------------------------------------------------------------------------------
     Topic(s):  ; 8 Health
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 
 
     Metadata for indicator SE.ADT.LITR.ZS
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Name: Literacy rate, adult total (% of people ages 15 and above)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Collection: 2 World Development Indicators
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Description: Adult literacy rate is the percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday
-    life.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Note: Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: {browse unknown function https:"} databrowser.uis.unesco.org resources, note: The data are
-    obtained through the UIS API.  Detailed documentation is available at: {browse "https:"} api.uis.unesco.org api public documentation , publisher: UNESCO Institute for
-    Statistics ()
+-------------------------------------------------------------------------------
+    Description: Adult literacy rate is the percentage of people ages 15
+    and above who can both read and write with understanding a short simple
+    statement about their everyday life.
+-------------------------------------------------------------------------------
+    Note: Data API, UN Educational, Scientific and Cultural Organization
+    (UNESCO), uri: https://databrowser.uis.unesco.org resources, note: The
+    data are obtained through the UIS API.  Detailed documentation is
+    available at: https://api.uis.unesco.org api public documentation ,
+    publisher: UNESCO Institute for Statistics (UIS), type: Excel (bulk
+    file), date accessed: 2025-09-22, date published: 2025-09
+-------------------------------------------------------------------------------
+    Topic(s): 4 Education
+-------------------------------------------------------------------------------
 
-    Sorry... No metadata available for NY.GDP.PCAP.CD;SP.DYN.LE00.IN;SE.ADT.LITR.ZS.
 
-r; t=2.90 22:05:21
+r; t=7.26 19:09:42
 
 . 
 . * Variables are already in columns with lowercase names
 . describe
 
-Contains data from C:\Users\JPAZEV~1\AppData\Local\Temp\ST_1a08_000001.tmp
+Contains data from C:\Users\JPAZEV~1\AppData\Local\Temp\ST_a61c_000001.tmp
  Observations:           138                  
-    Variables:            14                  21 Dec 2025 22:05
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Variables:            14                  22 Dec 2025 19:09
+-------------------------------------------------------------------------------
 Variable      Storage   Display    Value
     name         type    format    label      Variable label
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 countrycode     str3    %9s                   Country Code
 countryname     str13   %13s                  Country Name
 region          str3    %9s                   Region Code
@@ -116,31 +135,31 @@ year            int     %9.0g                 Year
 ny_gdp_pcap_cd  float   %9.0g                 NY.GDP.PCAP.CD
 sp_dyn_le00_in  float   %9.0g                 SP.DYN.LE00.IN
 se_adt_litr_zs  float   %9.0g                 SE.ADT.LITR.ZS
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 Sorted by: countrycode  year
      Note: Dataset has changed since last saved.
-r; t=0.00 22:05:21
+r; t=0.00 19:09:42
 
 . rename ny_gdp_pcap_cd gdp_pcap
-r; t=0.05 22:05:21
+r; t=0.13 19:09:42
 
 . rename sp_dyn_le00_in life_exp
-r; t=0.00 22:05:21
+r; t=0.00 19:09:42
 
 . rename se_adt_litr_zs literacy
-r; t=0.00 22:05:21
+r; t=0.00 19:09:42
 
 . 
 . * Panel setup
 . encode countrycode, gen(country_id)
-r; t=0.00 22:05:21
+r; t=0.00 19:09:42
 
 . xtset country_id year
 
 Panel variable: country_id (strongly balanced)
  Time variable: year, 2000 to 2022
          Delta: 1 unit
-r; t=0.04 22:05:21
+r; t=0.13 19:09:42
 
 . 
 . * Panel regression
@@ -168,310 +187,269 @@ corr(u_i, Xb) = 0.4733                          Prob > F          =     0.0000
          rho |  .86561928   (fraction of variance due to u_i)
 ------------------------------------------------------------------------------
 F test that all u_i=0: F(5, 131) = 114.97                    Prob > F = 0.0000
-r; t=1.21 22:05:23
+r; t=3.33 19:09:45
 
 . 
-. *===============================================================================
+. *============================================================================
+> ===
 . * EXAMPLE 2: Cross-country comparison with visualization
-. *===============================================================================
+. *============================================================================
+> ===
 . 
-. * Download HDI-related indicators for specific year (not latest) to ensure consistent naming
+. * Download HDI-related indicators for specific year (not latest) to ensure co
+> nsistent naming
 . wbopendata, indicator(SP.DYN.LE00.IN;NY.GNP.PCAP.PP.CD) ///
 >     year(2022) clear long
 
     Metadata for indicator SP.DYN.LE00.IN
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Name: Life expectancy at birth, total (years)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Collection: 2 World Development Indicators
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Description: Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the
-    same throughout its life.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Note: World Population Prospects, United Nations (UN), uri: UN Population Division;
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+    Description: Life expectancy at birth indicates the number of years a
+    newborn infant would live if prevailing patterns of mortality at the
+    time of its birth were to stay the same throughout its life.
+-------------------------------------------------------------------------------
+    Note: World Population Prospects, United Nations (UN), uri: UN
+    Population Division;
+-------------------------------------------------------------------------------
     Topic(s):  ; 8 Health
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 
 
     Metadata for indicator NY.GNP.PCAP.PP.CD
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Name: GNI per capita, PPP (current international $)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Collection: 2 World Development Indicators
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Description: This indicator provides values for gross national income (GNI) per person expressed in current international dollars, converted by purchasing power parities
-    (PPPs). PPPs account for the different price levels across countries and thus PPP-based comparisons of economic output are more appropriate for comparing the output of
-    economies and the average material well-being of their inhabitants than exchange-rate based comparisons.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+    Description: This indicator provides values for gross national income
+    (GNI) per person expressed in current international dollars, converted
+    by purchasing power parities (PPPs). PPPs account for the different
+    price levels across countries and thus PPP-based comparisons of
+    economic output are more appropriate for comparing the output of
+    economies and the average material well-being of their inhabitants than
+    exchange-rate based comparisons.
+-------------------------------------------------------------------------------
     Note: .
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Topic(s):
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 
-r; t=1.47 22:05:24
+r; t=4.15 19:09:49
 
 . 
 . * Keep only individual countries
 . drop if regionname == "Aggregates"
 (49 observations deleted)
-r; t=0.00 22:05:24
+r; t=0.00 19:09:49
 
 . 
 . * Create scatter plot with high-resolution export
-. twoway (scatter sp_dyn_le00_in ny_gnp_pcap_pp_cd if ny_gnp_pcap_pp_cd < 150000, msize(small) mcolor(blue%50)) ///
->        (lfit sp_dyn_le00_in ny_gnp_pcap_pp_cd if ny_gnp_pcap_pp_cd < 150000, lcolor(red) lwidth(medium)), ///
+. _linewrap, maxlength(90) longstring("Source: World Bank Open Data (wbopendata
+>  Stata package). Data: World Bank, UN, UNESCO. Variable codes: SP.DYN.LE00.IN
+> , NY.GNP.PCAP.PP.CD")
+r; t=0.04 19:09:49
+
+. local note1 `r(line1)'
+r; t=0.00 19:09:49
+
+. local note2 `r(line2)'
+r; t=0.00 19:09:49
+
+. twoway (scatter sp_dyn_le00_in ny_gnp_pcap_pp_cd if ny_gnp_pcap_pp_cd < 15000
+> 0, msize(small) mcolor(blue%50)) ///
+>        (lfit sp_dyn_le00_in ny_gnp_pcap_pp_cd if ny_gnp_pcap_pp_cd < 150000, 
+> lcolor(red) lwidth(medium)), ///
 >        title("Life Expectancy vs. GNI per capita (2022)") ///
 >        ytitle("Life Expectancy at Birth (years)") ///
 >        xtitle("GNI per capita, PPP (current international $)") ///
 >        legend(off) ///
->        note("Source: World Bank Open Data (wbopendata Stata package). Data: World Bank, UN, UNESCO. Variable codes: SP.DYN.LE00.IN, NY.GNP.PCAP.PP.CD")
-r; t=1.25 22:05:25
+>        note("`note1'" "`note2'")
+r; t=20.33 19:10:10
 
 . graph export "output/figures/life_exp_vs_gni.png", width(1200) replace
 file output/figures/life_exp_vs_gni.png saved as PNG format
-r; t=0.23 22:05:26
+r; t=0.18 19:10:10
 
 . 
-. *===============================================================================
+. *============================================================================
+> ===
 . * EXAMPLE 3: Regional aggregation
-. *===============================================================================
+. *============================================================================
+> ===
 . 
 . wbopendata, indicator(SP.POP.TOTL) year(2020:2022) clear long
 
     Metadata for indicator SP.POP.TOTL
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Name: Population, total
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Collection: 2 World Development Indicators
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Description: Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are
-    midyear estimates.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Note: World Population Prospects, United Nations (UN), uri: {browse https:"} population.un.org wpp , publisher: UN Population Division;{p_end}" invalid name
+-------------------------------------------------------------------------------
+    Description: Total population is based on the de facto definition of
+    population, which counts all residents regardless of legal status or
+    citizenship. The values shown are midyear estimates.
+-------------------------------------------------------------------------------
+    Note: World Population Prospects, United Nations (UN), uri: 
+    https://population.un.org wpp , publisher: UN Population Division;
+-------------------------------------------------------------------------------
+    Topic(s):
+-------------------------------------------------------------------------------
 
-    Sorry... No metadata available for SP.POP.TOTL.
 
-r; t=0.62 22:05:26
+r; t=5.15 19:10:15
 
 . 
 . * Keep only countries (not aggregates)
 . drop if regionname == "Aggregates"
 (147 observations deleted)
-r; t=0.00 22:05:26
+r; t=0.00 19:10:15
 
 . 
 . * Collapse by region
 . collapse (sum) sp_pop_totl, by(regionname year)
-r; t=0.03 22:05:26
+r; t=0.06 19:10:15
 
 . 
 . * Create bar chart with high-resolution export
-. graph bar sp_pop_totl if year==2022, over(regionname, sort(1) descending label(angle(45) labsize(small))) ///
+. _linewrap, maxlength(90) longstring("Source: World Bank Open Data (wbopendata
+>  Stata package). Data: World Bank. Variable code: SP.POP.TOTL")
+r; t=0.00 19:10:15
+
+. local note1 `r(line1)'
+r; t=0.00 19:10:15
+
+. local note2 `r(line2)'
+r; t=0.00 19:10:15
+
+. graph bar sp_pop_totl if year==2022, over(regionname, sort(1) descending labe
+> l(angle(45) labsize(small))) ///
 >     title("World Population by Region (2022)") ///
 >     ytitle("Population") ///
 >     blabel(bar, format(%12.0fc) size(vsmall)) ///
->     note("Source: World Bank Open Data (wbopendata Stata package). Data: World Bank. Variable code: SP.POP.TOTL")
-r; t=1.82 22:05:28
+>     note("`note1'" "`note2'")
+r; t=2.27 19:10:17
 
 . graph export "output/figures/population_by_region.png", width(1200) replace
 file output/figures/population_by_region.png saved as PNG format
-r; t=0.23 22:05:28
+r; t=0.19 19:10:18
 
 . 
-. *===============================================================================
+. *============================================================================
+> ===
 . * EXAMPLE 4: Time series analysis
-. *===============================================================================
+. *============================================================================
+> ===
 . 
 . wbopendata, indicator(FP.CPI.TOTL.ZG) country(ARG;VEN;TUR;ZWE) ///
 >     year(2000:2023) clear long
 
     Metadata for indicator FP.CPI.TOTL.ZG
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Name: Inflation, consumer prices (annual %)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Collection: 2 World Development Indicators
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Description: Inflation as measured by the consumer price index reflects the annual percentage change in the cost to the average consumer of acquiring a basket of goods and
-    services that may be fixed or changed at specified intervals, such as yearly. This indicator denotes the percentage change over each previous year of the constant price (base
+-------------------------------------------------------------------------------
+    Description: Inflation as measured by the consumer price index reflects
+    the annual percentage change in the cost to the average consumer of
+    acquiring a basket of goods and services that may be fixed or changed
+    at specified intervals, such as yearly. This indicator denotes the
+    percentage change over each previous year of the constant price (base
     year 2015) series in United States dollars.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Note: International Financial Statistics database, International Monetary Fund (IMF)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+    Note: International Financial Statistics database, International
+    Monetary Fund (IMF)
+-------------------------------------------------------------------------------
     Topic(s): 3 Economy and Growth ; 7 Financial Sector
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 
-r; t=0.96 22:05:29
+r; t=1.78 19:10:19
 
 . 
 . * Time series plot with high-resolution export
-. twoway (connected fp_cpi_totl_zg year if countrycode=="ARG", lcolor(blue) mcolor(blue)) ///
->        (connected fp_cpi_totl_zg year if countrycode=="TUR", lcolor(red) mcolor(red)) ///
->        (connected fp_cpi_totl_zg year if countrycode=="VEN", lcolor(green) mcolor(green)), ///
+. _linewrap, maxlength(90) longstring("Source: World Bank Open Data (wbopendata
+>  Stata package). Data: IMF, World Bank. Variable code: FP.CPI.TOTL.ZG")
+r; t=0.00 19:10:19
+
+. local note1 `r(line1)'
+r; t=0.00 19:10:19
+
+. local note2 `r(line2)'
+r; t=0.00 19:10:19
+
+. twoway (connected fp_cpi_totl_zg year if countrycode=="ARG", lcolor(blue) mco
+> lor(blue)) ///
+>        (connected fp_cpi_totl_zg year if countrycode=="TUR", lcolor(red) mcol
+> or(red)) ///
+>        (connected fp_cpi_totl_zg year if countrycode=="VEN", lcolor(green) mc
+> olor(green)), ///
 >        title("Inflation Rates") ///
 >        ytitle("Inflation, consumer prices (annual %)") xtitle("Year") ///
->        legend(label(1 "Argentina") label(2 "Turkey") label(3 "Venezuela") rows(1)) ///
->        note("Source: World Bank Open Data (wbopendata Stata package). Data: IMF, World Bank. Variable code: FP.CPI.TOTL.ZG")
-r; t=0.92 22:05:30
+>        legend(label(1 "Argentina") label(2 "Turkey") label(3 "Venezuela") row
+> s(1)) ///
+>        note("`note1'" "`note2'")
+r; t=0.85 19:10:20
 
 . graph export "output/figures/inflation_rates.png", width(1200) replace
 file output/figures/inflation_rates.png saved as PNG format
-r; t=0.24 22:05:30
+r; t=0.17 19:10:20
 
 . 
-. *===============================================================================
+. *============================================================================
+> ===
 . * EXAMPLE 5: Income group comparison
-. *===============================================================================
+. *============================================================================
+> ===
 . 
 . wbopendata, indicator(SH.DYN.MORT) clear long latest
 
     Metadata for indicator SH.DYN.MORT
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Name: Mortality rate, under-5 (per 1,000 live births)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
     Collection: 2 World Development Indicators
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Description: Under-five mortality rate is the probability per 1,000 that a newborn baby will die before reaching age five, if subject to age-specific mortality rates of the
-    specified year.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Note: UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse www.childmortality.org invalid name
+-------------------------------------------------------------------------------
+    Description: Under-five mortality rate is the probability per 1,000
+    that a newborn baby will die before reaching age five, if subject to
+    age-specific mortality rates of the specified year.
+-------------------------------------------------------------------------------
+    Note: UN Inter-agency Group for Child Mortality Estimation, UN
+    Children's Fund (UNICEF), uri: http://www.childmortality.org,
+    publisher: UNICEF, WHO, World Bank, United Nations Population Division;
+-------------------------------------------------------------------------------
+    Topic(s):
+-------------------------------------------------------------------------------
 
-    Sorry... No metadata available for SH.DYN.MORT.
 
-r; t=2.10 22:05:32
+r; t=3.75 19:10:24
 
 . 
 . * Add full country metadata
 . tempfile mortality
-r; t=0.00 22:05:32
+r; t=0.00 19:10:24
 
 . save `mortality'
-file C:\Users\JPAZEV~1\AppData\Local\Temp\ST_1a08_000001.tmp saved as .dta format
-r; t=0.00 22:05:32
+file C:\Users\JPAZEV~1\AppData\Local\Temp\ST_a61c_000001.tmp saved as .dta
+    format
+r; t=0.00 19:10:24
 
 . wbopendata, match(countrycode) full
-r; t=0.07 22:05:33
-
-. merge 1:m countrycode using `mortality', nogen
-
-    Result                      Number of obs
-    -----------------------------------------
-    Not matched                             0
-    Matched                               244  
-    -----------------------------------------
-r; t=0.03 22:05:33
-
-. 
-. * Box plot by income level with high-resolution export
-. * Order income groups for sensible display
-. gen income_order = .
-(244 missing values generated)
-r; t=0.00 22:05:33
-
-. replace income_order = 1 if incomelevelname == "Low income"
-(26 real changes made)
-r; t=0.00 22:05:33
-
-. replace income_order = 2 if incomelevelname == "Lower middle income"
-(51 real changes made)
-r; t=0.00 22:05:33
-
-. replace income_order = 3 if incomelevelname == "Upper middle income"
-(54 real changes made)
-r; t=0.00 22:05:33
-
-. replace income_order = 4 if incomelevelname == "High income"
-(64 real changes made)
-r; t=0.00 22:05:33
-
-. label define incomeorder 1 "Low income" 2 "Lower middle income" 3 "Upper middle income" 4 "High income"
-r; t=0.00 22:05:33
-
-. label values income_order incomeorder
-r; t=0.00 22:05:33
-
-. 
-. graph box sh_dyn_mort, over(income_order, label(angle(15) labsize(small))) ///
->     title("Under-5 Mortality Rate by Income Group") ///
->     ytitle("Mortality rate, under-5 (per 1,000 live births)") ///
->     note("Source: World Bank Open Data (wbopendata Stata package). Data: UNICEF, World Bank, UN IGME. Variable code: SH.DYN.MORT")
-r; t=1.04 22:05:34
-
-. graph export "output/figures/mortality_by_income.png", width(1200) replace
-file output/figures/mortality_by_income.png saved as PNG format
-r; t=0.21 22:05:34
-
-. 
-. 
-. *===============================================================================
-. * EXAMPLE 6: Using return values
-. *===============================================================================
-. 
-. wbopendata, indicator(NY.GDP.MKTP.CD) clear nometadata
-r; t=0.52 22:05:34
-
-. 
-. * Access return values
-. return list
-
-macros:
-               r(name) : "ny_gdp_mktp_cd"
-          r(indicator) : "NY.GDP.MKTP.CD"
-              r(time1) : "year"
-         r(indicator1) : "NY.GDP.MKTP.CD"
-           r(varname1) : "ny_gdp_mktp_cd"
-r; t=0.00 22:05:34
-
-. di "Indicator: `r(indicator1)'"
-Indicator: NY.GDP.MKTP.CD
-r; t=0.00 22:05:34
-
-. di "Label: `r(varlabel1)'"
-Label: 
-r; t=0.00 22:05:34
-
-. di "Countries: `r(N_country)'"
-Countries: 
-r; t=0.00 22:05:34
-
-. 
-. *===============================================================================
-. * EXAMPLE 7: Batch download multiple topics
-. *===============================================================================
-. 
-. * Create empty dataset to append results
-. clear
-r; t=0.00 22:05:34
-
-. tempfile master
-r; t=0.00 22:05:34
-
-. save `master', emptyok
-(dataset contains 0 observations)
-file C:\Users\JPAZEV~1\AppData\Local\Temp\ST_1a08_000002.tmp saved as .dta format
-r; t=0.00 22:05:34
-
-. 
-. * Loop through topics of interest (using year instead of latest - topics doesn't support latest)
-. foreach topic in 1 4 8 {
-  2.     wbopendata, topics(`topic') year(2022) clear long
-  3.     gen topic_id = `topic'
-  4.     append using `master'
-  5.     save `master', replace
-  6. }
-year option can only be used for the selection of specific indicators. Please try again.
-r(198); t=0.00 22:05:34
+option full not allowed
+r(198); t=0.00 19:10:24
 
 end of do-file
-r; t=16.24 22:05:34
+r; t=50.11 19:10:24
 
 . 
 . log close advanced
       name:  advanced
-       log:  C:\GitHub\myados\wbopendata\doc\examples\output/logs/advanced_usage_log.txt
+       log:  C:\GitHub\myados\wbopendata\doc\examples\output/logs/advanced_usag
+> e_log.txt
   log type:  text
- closed on:  21 Dec 2025, 22:05:34
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ closed on:  22 Dec 2025, 19:10:24
+-------------------------------------------------------------------------------
