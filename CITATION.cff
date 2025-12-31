@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+type: software
+title: "WBOPENDATA: Stata module to access World Bank databases"
+message: >-
+  If you use this software, please cite it using the metadata from this file.
+authors:
+  - family-names: Azevedo
+    given-names: "João Pedro"
+    orcid: "https://orcid.org/0000-0003-3347-7066"
+    affiliation: "World Bank | UNICEF"
+    website: "https://jpazvd.github.io"
+repository-code: "https://github.com/jpazvd/wbopendata"
+repository: "https://ideas.repec.org/c/boc/bocode/s457234.html"
+url: "https://jpazvd.github.io/wbopendata"
+keywords:
+  - "Stata"
+  - "World Bank"
+  - "development indicators"
+  - "open data"
+  - "WDI"
+license: MIT
+version: 17.4
+date-released: "2025-12-22"  # Latest release date (v17.4)
+date-created: "2011"
+contact:
+  - family-names: Azevedo
+    given-names: "João Pedro"
+    website: "https://jpazvd.github.io"
+references:
+  - authors:
+      - family-names: Azevedo
+        given-names: "João Pedro"
+    title: "The World Bank Open Data Initiative"
+    url: "http://data.worldbank.org/"
+    type: website
