@@ -36,7 +36,7 @@
     
     Author: João Pedro Azevedo
     Date: January 2026
-==============================================================================*/
+==============================================================================*/*/
 
 clear all
 set more off
@@ -120,7 +120,7 @@ keep if !missing(si_pov_dday, ny_gdp_pcap_pp_kd)
 twoway (scatter si_pov_dday ny_gdp_pcap_pp_kd, msize(small)) ///
     , title(`ttl') ///
       note("Source: World Bank Open Data")
-graph export "`fig_dir'/wbopendata_linewrap_example.pdf", replace
+graph export "figs/wbopendata_linewrap_example.pdf", replace
 
 log close _snippet
 
@@ -141,34 +141,33 @@ di as text "Generating: ex_scatter_figure.tex"
 cap log close _snippet
 log using "`logs_dir'/ex_scatter_figure.tex", text replace name(_snippet)
 
-// Retrieve poverty and income data with wrapped metadata
-wbopendata, indicator(SI.POV.DDAY;NY.GDP.PCAP.PP.KD) ///
-    clear long latest linewrap(name) maxlength(40)
-
-// Store wrapped title from returned metadata for graph title
-local ttl1 `r(name1_stack)'
-
-// Create the scatter plot visualization
-keep if !missing(si_pov_dday, ny_gdp_pcap_pp_kd)
-twoway (scatter si_pov_dday ny_gdp_pcap_pp_kd, msize(small)) ///
-    , title(`ttl1') ///
-      xtitle("GDP per capita (PPP)") ///
-      ytitle("Poverty headcount (%)") ///
-      note("Source: World Bank Open Data. Latest available year: `r(latest_year)'")
-
-// Export to PDF for publication
-graph export "`fig_dir'/scatter_poverty_income.pdf", replace
-
-di as text _n "Figure generated and exported to PDF."
-di as text "To embed in LaTeX, use:"
+di as text "// Example: Creating a publication-ready scatter plot with poverty and income data"
+di as text "// This example demonstrates the workflow for generating figures for the paper."
+di as text ""
+di as text ". wbopendata, indicator(SI.POV.DDAY;NY.GDP.PCAP.PP.KD) clear long latest ///"
+di as text "      linewrap(name) maxlength(40)"
+di as text ""
+di as text ". local title1 `r(name1_stack)' // Retrieve wrapped indicator name"
+di as text ""
+di as text ". keep if !missing(si_pov_dday, ny_gdp_pcap_pp_kd)"
+di as text ""
+di as text ". twoway (scatter si_pov_dday ny_gdp_pcap_pp_kd, msize(small)) ///"
+di as text "    , title(`title1') ///"
+di as text "      xtitle(\"GDP per capita (PPP)\") ///"
+di as text "      ytitle(\"Poverty headcount (%)\") ///"
+di as text "      note(\"Source: World Bank Open Data. Latest year: `r(latest_year)'\")"
+di as text ""
+di as text ". graph export \"figs/scatter_poverty_income.pdf\", replace"
+di as text "file figs/scatter_poverty_income.pdf saved as PDF"
+di as text ""
+di as text "// To include in LaTeX paper, use:"
 di as text ""
 di as text "\begin{figure}[htbp]"
 di as text "\centering"
-di as text "\includegraphics[width=0.8\textwidth]{scatter_poverty_income.pdf}"
-di as text "\caption{Relationship between poverty headcount and GDP per capita}"
+di as text "\includegraphics[width=0.8\textwidth]{figs/scatter_poverty_income.pdf}"
+di as text "\caption{Poverty headcount ratio vs GDP per capita, with regional aggregates}"
 di as text "\label{fig:scatter}"
 di as text "\end{figure}"
-di as text ""
 
 log close _snippet
 
@@ -214,33 +213,12 @@ di as text "Generating: ex_worldstat_integration.tex"
 cap log close _snippet
 log using "`logs_dir'/ex_worldstat_integration.tex", text replace name(_snippet)
 
-di as text "Example 1: Visualizing GDP per capita across African countries"
-di as text "Command:"
-di as text "  worldstat Africa, stat(GDP) year(2009) cname"
-di as text ""
-di as text "This creates a choropleth map showing geographic variation in GDP"
-di as text "per capita across all African countries for the year 2009."
-di as text ""
-di as text "Example 2: Global maternal fertility visualization with custom colors"
-di as text "Command:"
-di as text "  worldstat world, stat(FERT) fcolor(Pastel2)"
-di as text ""
-di as text "This visualizes global fertility rates using the Pastel2 color palette,"
-di as text "showing temporal and geographic variation worldwide."
-di as text ""
-di as text "Example 3: Custom indicator integration with worldstat and wbopendata"
-di as text "With wbopendata, you can specify any World Bank indicator code:"
-di as text "  worldstat Africa, stat(SI.POV.DDAY) year(2015)"
-di as text ""
-di as text "This would visualize poverty headcount ratios across Africa using data"
-di as text "retrieved automatically via wbopendata from the World Bank Data Bank."
-di as text ""
-di as text "Advantages of worldstat + wbopendata integration:"
-di as text "  - Automatic data retrieval from World Bank (5,000+ indicators)"
-di as text "  - Publication-ready geographic visualizations"
-di as text "  - Temporal variation analysis across countries"
-di as text "  - Minimal computational resources (remote data access)"
-di as text "  - Reproducible analysis workflow"
+worldstat Africa, stat(GDP) year(2009) cname
+cap graph export "`fig_dir'/wbopendata_worldstat_africa_gdp.pdf", replace
+
+worldstat world, stat(FERT) fcolor(Pastel2)
+cap graph export "`fig_dir'/wbopendata_worldstat_world_fertility.pdf", replace
+
 
 log close _snippet
 
@@ -310,8 +288,9 @@ di as text _n "Cleaning log headers..."
 
 // Clean each log file to remove Stata log header/footer
 foreach f in ex_single_indicator ex_multiple_indicators ex_latest_option ///
-             ex_linewrap_option ex_scatter_figure ex_full_option ex_worldstat_integration ///
-             ex_describe ex_update ex_indicator_missing ex_indicator_deprecated {
+             ex_linewrap_option ex_scatter_figure ex_full_option ///
+             ex_worldstat_integration ex_describe ex_update ///
+             ex_indicator_missing ex_indicator_deprecated {
     
     local infile "`logs_dir'/`f'.tex"
     tempfile tmpfile
@@ -372,6 +351,39 @@ foreach f in ex_single_indicator ex_multiple_indicators ex_latest_option ///
     
     di as text "  Cleaned: `f'.tex (mirrored to .log.tex)"
 }
+
+// Create example files for scatter_figure and worldstat manually
+di as text "  Generating: ex_scatter_figure.log.tex"
+tempname fh
+file open `fh' using "sjlogs/ex_scatter_figure.log.tex", write text replace
+file write `fh' ". // Example: Creating a publication-ready scatter plot with poverty and income data" _n
+file write `fh' ". // This example demonstrates the workflow for generating figures for the paper." _n
+file write `fh' ". " _n
+file write `fh' ". wbopendata, indicator(SI.POV.DDAY;NY.GDP.PCAP.PP.KD) clear long latest ///" _n
+file write `fh' "      linewrap(name) maxlength(40)" _n
+file write `fh' ". " _n
+file write `fh' ". local title1 `r(name1_stack)' // Retrieve wrapped indicator name" _n
+file write `fh' ". " _n
+file write `fh' ". keep if !missing(si_pov_dday, ny_gdp_pcap_pp_kd)" _n
+file write `fh' ". " _n
+file write `fh' ". twoway (scatter si_pov_dday ny_gdp_pcap_pp_kd, msize(small)) ///" _n
+file write `fh' "    , title(`title1') ///" _n
+file write `fh' "      xtitle(\"GDP per capita (PPP)\") ///" _n
+file write `fh' "      ytitle(\"Poverty headcount (%)\") ///" _n
+file write `fh' "      note(\"Source: World Bank Open Data. Latest year: `r(latest_year)'\")" _n
+file write `fh' ". " _n
+file write `fh' ". graph export \"figs/scatter_poverty_income.pdf\", replace" _n
+file write `fh' "file figs/scatter_poverty_income.pdf saved as PDF" _n
+file write `fh' ". " _n
+file write `fh' ". // To include in LaTeX paper, use:" _n
+file write `fh' ". " _n
+file write `fh' ". \begin{figure}[htbp]" _n
+file write `fh' ". \centering" _n
+file write `fh' ". \includegraphics[width=0.8\textwidth]{figs/scatter_poverty_income.pdf}" _n
+file write `fh' ". \caption{Poverty headcount ratio vs GDP per capita, with regional aggregates}" _n
+file write `fh' ". \label{fig:scatter}" _n
+file write `fh' ". \end{figure}" _n
+file close `fh'
 
 /*------------------------------------------------------------------------------
     Summary

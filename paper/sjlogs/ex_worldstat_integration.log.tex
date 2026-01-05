@@ -1,19 +1,85 @@
-. // worldstat integration examples
-. // The worldstat command uses wbopendata to visualize World Bank indicators
-. 
-. // Example 1: GDP per capita across African countries
 . worldstat Africa, stat(GDP) year(2009) cname
-. 
-. // Example 2: Global maternal fertility with custom colors
+worldstat is built using the functionality of the module wbopendata.
+checking wbopendata consistency and verifying not already installed...
+Accessing shape file for Africa to create geographical visualisation
+Accessing shape files for map output remotely
+(prefix now "http://damianclarke.net/stata/worldstat")
+Importing GDP from World Bank database
+
+    Metadata for indicator NY.GDP.PCAP.KD
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Name: GDP per capita (constant 2015 US$)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Collection: 2 World Development Indicators
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Description: Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be
+    measured in three different ways: using either the expenditure approach, the income approach, or the production approach. The core indicator has been divided by the general
+    population to achieve a per capita estimate.This indicator is expressed in constant prices, meaning the series has been adjusted to account for price changes over time. The
+    reference year for this adjustment is 2015. This indicator is expressed in United States dollars.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Note: Country official statistics, National Statistical Organizations and or Central Banks;
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Topic(s):  ; 3 Economy and Growth
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Visualising data
+
+
+
+For a full list of indicators, see http://worldbank.270a.info/classification/indicator.html.
+
 . worldstat world, stat(FERT) fcolor(Pastel2)
+worldstat is built using the functionality of the module wbopendata.
+checking wbopendata consistency and verifying not already installed...
+Accessing shape file for world to create geographical visualisation
+Accessing shape files for map output remotely
+(prefix now "http://damianclarke.net/stata/worldstat")
+Importing FERT from World Bank database
+
+    Metadata for indicator SP.DYN.TFRT.IN
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Name: Fertility rate, total (births per woman)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Collection: 2 World Development Indicators
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Description: Total fertility rate represents the number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children
+    in accordance with age-specific fertility rates of the specified year.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Note: World Population Prospects, United Nations (UN), publisher: UN Population Division;
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Topic(s):  ; 8 Health
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Visualising data
+
+
+
+For a full list of indicators, see http://worldbank.270a.info/classification/indicator.html.
+
 . 
-. // Example 3: Custom indicator using World Bank code
-. worldstat Africa, stat(SI.POV.DDAY) year(2015)
+. di as text ""
 . 
-. // The worldstat module automatically retrieves data via wbopendata
-. // and creates publication-ready choropleth maps showing:
-. //   - Geographic variation across countries and regions
-. //   - Temporal trends over multiple years
-. //   - Access to 5,000+ World Bank indicators
-. //   - Minimal disk space (data accessed remotely)
-. //   - Reproducible analysis workflows
+. di as text "Integration advantages:"
+Integration advantages:
+
+. di as text "  - worldstat built using wbopendata functionality"
+  - worldstat built using wbopendata functionality
+
+. di as text "  - Automatic data retrieval from World Bank (5,000+ indicators)"
+  - Automatic data retrieval from World Bank (5,000+ indicators)
+
+. di as text "  - Publication-ready geographic visualizations (choropleth maps)"
+  - Publication-ready geographic visualizations (choropleth maps)
+
+. di as text "  - Temporal and geographic variation analysis"
+  - Temporal and geographic variation analysis
+
+. di as text "  - Minimal computational resources (remote data access)"
+  - Minimal computational resources (remote data access)
+
+. di as text "  - Reproducible analysis workflow"
+  - Reproducible analysis workflow
+
+. 
