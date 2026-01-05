@@ -45,10 +45,10 @@ set linesize 80
 // Set paths - adjust if running from different directory
 local paper_dir "."
 local logs_dir "`paper_dir'/sjlogs"
+local fig_dir "`paper_dir'/figs"
 
-// Ensure output directory exists
+// Ensure output directories exist
 cap mkdir "`logs_dir'"
-local fig_dir "../doc/images"
 cap mkdir "`fig_dir'"
 
 di as text _n "=============================================="

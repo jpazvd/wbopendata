@@ -94,6 +94,9 @@ _archive/
 !/paper/sjlogs/
 !/paper/do/
 !/paper/docs/
+!/paper/figs/
+!/paper/**/*.png
+!/paper/**/*.pdf
 
 # Ignore LaTeX temporary files
 *.aux
