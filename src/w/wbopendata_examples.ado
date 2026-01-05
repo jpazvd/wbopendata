@@ -1,4 +1,5 @@
 *! -wbopendata_examples-: Auxiliary program for -wbopendata-
+*! Version 1.3.0 - 04 January 2026
 *! Version 1.2.0 - 28  March 2010
 *! Version 1.0.0 - 24 January 2010
 *! Author: Joao Pedro Azevedo
@@ -132,4 +133,62 @@ program define example05
     keep countrycode countryname adminregion incomelevel area perimeter 
     list in 1/5
 
+end
+
+*  ----------------------------------------------------------------------------
+*  6. geographic metadata example (geo, capital, latitude, longitude)
+*  ----------------------------------------------------------------------------
+
+capture program drop example_geo
+program define example_geo
+    di as text "=== Example: Geographic Metadata Options ===" _n
+    
+    * Basic indicator download
+    wbopendata, indicator(SP.POP.TOTL) clear nobasic
+    di as text "After wbopendata with no options:"
+    describe capital latitude longitude
+    
+    * With geo option (adds capital, latitude, longitude)
+    wbopendata, indicator(SP.POP.TOTL) geo clear nobasic
+    di _n as text "After wbopendata with geo option:"
+    describe capital latitude longitude
+    
+    * Show sample data
+    list countrycode countryname capital latitude longitude in 1/5
+end
+
+*  ----------------------------------------------------------------------------
+*  7. linewrap example for graph titles
+*  ----------------------------------------------------------------------------
+
+capture program drop example_linewrap
+program define example_linewrap
+    di as text "=== Example: Linewrap for Graph Titles ===" _n
+    
+    * Download indicator with linewrap for graph-ready titles
+    wbopendata, indicator(SI.POV.DDAY) clear long linewrap(name) maxlength(45) nobasic
+    
+    di as text "Returned values for linewrap:"
+    return list
+    
+    di _n as text "Use r(name1_stack) in your graph title for auto-wrapped text"
+end
+
+*  ----------------------------------------------------------------------------
+*  8. basic/nobasic example (default country context variables)
+*  ----------------------------------------------------------------------------
+
+capture program drop example_basic
+program define example_basic
+    di as text "=== Example: Default Basic Country Context Variables (v17.7) ===" _n
+    
+    * Default behavior - includes 8 basic context variables
+    wbopendata, indicator(NY.GDP.MKTP.CD) year(2020) long clear
+    di as text "Default (with basic variables):"
+    describe, short
+    
+    * With nobasic - only core variables
+    wbopendata, indicator(NY.GDP.MKTP.CD) year(2020) long nobasic clear
+    di _n as text "With nobasic option:"
+    describe, short
 end

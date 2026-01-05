@@ -1,9 +1,9 @@
 {smcl}
 {hline}
-{* 22Dec2025 }{...}
+{* 3Jan2026  }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
-{right: {bf:version 17.4}}
+{right: {bf:version 17.0 (geographic options fix)}}
 {hline}
 
 {title:Title}
@@ -36,6 +36,14 @@
 {synopt :{opt language}{cmd:(}{it:language}{cmd:)}} select the language.{p_end}
 {synopt :{opt full}} adds full list of country attributes.{p_end}
 {synopt :{opt iso}} adds 2 digits ISO codes to country attributes.{p_end}
+{synopt :{opt geo}} adds geographic metadata (capital city name, latitude, and longitude).{p_end}
+{synopt :{opt capital}} adds capital city name to country attributes.{p_end}
+{synopt :{opt latitude}} adds capital city latitude to country attributes.{p_end}
+{synopt :{opt longitude}} adds capital city longitude to country attributes.{p_end}
+{synopt :{opt regions}} adds region codes and names to country attributes.{p_end}
+{synopt :{opt adminr}} adds administrative region codes and names to country attributes.{p_end}
+{synopt :{opt income}} adds income level codes and names to country attributes.{p_end}
+{synopt :{opt lending}} adds lending type codes and names to country attributes.{p_end}
 {synopt :{opt update query}} query the current vintage of indicators and country metadata available.{p_end}
 {synopt :{opt update check}} checks the availability of new indicators and country metadata available for download.{p_end}
 {synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
@@ -156,6 +164,22 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {synopt :{opt iso}} adds only 2 digits ISO codes to country attributes.{p_end}
 
+{synopt :{opt geo}} adds geographic metadata variables including capital city name, latitude, and longitude coordinates for each country.{p_end}
+
+{synopt :{opt capital}} adds the capital city name variable. Use this option to merge only the capital city name without other geographic information. Can be combined with other geographic options (latitude, longitude) or metadata options (iso, full).{p_end}
+
+{synopt :{opt latitude}} adds the capital city latitude coordinate variable. Useful for mapping and geographic analysis. Can be combined with capital and/or longitude options.{p_end}
+
+{synopt :{opt longitude}} adds the capital city longitude coordinate variable. Useful for mapping and geographic analysis. Can be combined with capital and/or latitude options.{p_end}
+
+{synopt :{opt regions}} adds region codes (3-letter codes) and region names (English names) to the dataset.{p_end}
+
+{synopt :{opt adminr}} adds administrative region codes and names, including subcategories such as East Asia & Pacific, Europe & Central Asia, Latin America & Caribbean, Middle East & North Africa, and Sub-Saharan Africa.{p_end}
+
+{synopt :{opt income}} adds income level classifications (Low income, Lower-middle income, Upper-middle income, High income) and their ISO 2-digit codes.{p_end}
+
+{synopt :{opt lending}} adds lending type classifications (IBRD only, Blend, IDA only, etc.) and their ISO 2-digit codes.{p_end}
+
 {synopt :{opt update query}} query the current vintage of indicators available and country metadata.{p_end}
 
 {synopt :{opt update check}} checks the availability of new indicators  and country metadata available for download.{p_end}
@@ -213,6 +237,9 @@ the last value is used for remaining fields.{p_end}
 {synopt:{opt latitude}}Capital Latitude{p_end}
 {synopt:{opt longitude}}Capital Longitude{p_end}
 {synoptline}
+
+{pstd}
+{bf:Geographic Attributes:} Capital city information (name, latitude, longitude) is stored in the Stata working path and can be merged using the {opt geo}, {opt capital}, {opt latitude}, or {opt longitude} options. These options work with both data download mode (country, indicator) and merge mode ({opt match()}). When using {opt match()}, specify the 3-digit WDI country code variable for merging. The {opt geo} option is a shortcut that loads all three geographic variables simultaneously.{p_end}
 
 
 {marker countries}{...}
@@ -403,6 +430,18 @@ the last value is used for remaining fields.{p_end}
 {p 8 12}{stata "wbopendata, indicator(SP.POP.1014.FE; SP.POP.1014.MA) year(1990:2050) projection clear" :. wbopendata, indicator(SP.POP.1014.FE; SP.POP.1014.MA) year(1990:2050) projection clear}{p_end}
 
 {p 8 12}{stata "wbopendata, indicator(si.pov.dday; ny.gdp.pcap.pp.kd) clear long": . wbopendata, indicator(si.pov.dday; ny.gdp.pcap.pp.kd) clear long}{p_end}
+
+{p 8 12}{stata "wbopendata, indicator(SI.POV.DDAY) geo clear" :. wbopendata, indicator(SI.POV.DDAY) geo clear}{p_end}
+
+{p 8 12}{stata "wbopendata, indicator(SP.POP.TOTL) capital clear" :. wbopendata, indicator(SP.POP.TOTL) capital clear}{p_end}
+
+{p 8 12}{stata "wbopendata, indicator(NY.GDP.PCAP.KD) full geo clear" :. wbopendata, indicator(NY.GDP.PCAP.KD) full geo clear}{p_end}
+
+{cmd}
+	. wbopendata, indicator(SP.POP.TOTL) clear
+	. wbopendata, indicator(SP.POP.TOTL) geo clear
+	. describe capital latitude longitude
+{txt}      ({stata "wbopendata_examples example_geo":click to run})
  
 {cmd}
         . tempfile tmp
