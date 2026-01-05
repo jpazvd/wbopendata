@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -77,7 +77,7 @@
 
 {synopt:{opt Source Notes}}The number of persons aged 15 to 24 years who can both read and write with understanding a short simple statement on their everyday life, divided by the population in that age group. Generally, ‘literacy’ also encompasses ‘numeracy’, t{p_end}
 
-{synopt:{opt Source Organization}}Source of information: UNESCO Institute for Statistics ({browse "www.uis.unesco.org"}). Please refer to its website for country-specific details on the specific national data sources and method used.{p_end}
+{synopt:{opt Source Organization}}Source of information: UNESCO Institute for Statistics ({browse "http://www.uis.unesco.org"}). Please refer to its website for country-specific details on the specific national data sources and method used.{p_end}
 
 
 {synoptline}
@@ -8205,4 +8205,4 @@
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

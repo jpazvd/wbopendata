@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -40799,4 +40799,4 @@
 {synopt:{help wbopendata_sourceid_indicators93##sourceid_CoNA_unafford_n:CoNA_unafford_n{marker CoNA_unafford_n}}}Millions of people who cannot afford nutrient adequacy{p_end}
 {synoptline}
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

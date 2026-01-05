@@ -1,0 +1,42 @@
+. * Download indicator data
+. tempfile wdi_data
+. wbopendata, indicator(it.cel.sets.p2) long clear latest
+
+    Metadata for indicator IT.CEL.SETS.P2
+--------------------------------------------------------------------------------
+    Name: Mobile cellular subscriptions (per 100 people)
+--------------------------------------------------------------------------------
+    Collection: 2 World Development Indicators
+--------------------------------------------------------------------------------
+    Description: Mobile cellular telephone subscriptions are subscriptions
+    to a public mobile telephone service that provide access to the PSTN
+    using cellular technology. The indicator includes (and is split into)
+    the number of postpaid subscriptions, and the number of active prepaid
+    accounts (i.e. that have been used during the last three months). The
+    indicator applies to all mobile cellular subscriptions that offer voice
+    communications. It excludes subscriptions via data cards or USB modems,
+    subscriptions to public mobile data services, private trunked mobile
+    radio, telepoint, radio paging and telemetry services.
+--------------------------------------------------------------------------------
+    Note: World Telecommunication ICT Indicators Database, International
+    Telecommunication Union (ITU)
+--------------------------------------------------------------------------------
+    Topic(s): 9 Infrastructure
+--------------------------------------------------------------------------------
+
+. sort countrycode
+. * Merge with shapefile coordinates
+. use "C:/Users/jpazevedo/ado/plus/w/world-d.dta", clear
+. * Create choropleth map
+. set scheme sj
+. sum year
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+        year |        262    2022.584    2.400234       2004       2024
+. local avg = string(, "%16.1f")
+. spmap it_cel_sets_p2 using "C:/Users/jpazevedo/ado/plus/w/world-c.dta", id(_ID) ///
+      clnumber(20) fcolor(Reds2) ocolor(none ..) ///
+      title("Mobile cellular subscriptions (per 100 people)", size(*1.2)) ///
+      legstyle(3) legend(ring(1) position(3)) ///
+      note("Source: World Telecommunication ICT Indicators Database (latest: 2022.6)")

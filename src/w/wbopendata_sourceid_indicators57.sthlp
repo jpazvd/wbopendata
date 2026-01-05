@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1486,7 +1486,7 @@
 
 {synopt:{opt Source Notes}}Industry shares of emissions of organic water pollutants refer to emissions from manufacturing activities as defined by two-digit divisions of the International Standard Industrial Classification (ISIC), revision 2: stone, ceramics, and glass{p_end}
 
-{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated through 2005 by the World Bank's Development Rese{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "http://www.worldbank.org/nipr"}). The data were updated through 2005 by the World Bank's Development Rese{p_end}
 
 
 {synoptline}
@@ -1498,7 +1498,7 @@
 
 {synopt:{opt Source Notes}}Industry shares of emissions of organic water pollutants refer to emissions from manufacturing activities as defined by two-digit divisions of the International Standard Industrial Classification (ISIC), revision 2: chemicals (35). Emissions o{p_end}
 
-{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated through 2005 by the World Bank's Development Rese{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "http://www.worldbank.org/nipr"}). The data were updated through 2005 by the World Bank's Development Rese{p_end}
 
 
 {synoptline}
@@ -1510,7 +1510,7 @@
 
 {synopt:{opt Source Notes}}Industry shares of emissions of organic water pollutants refer to emissions from manufacturing activities as defined by two-digit divisions of the International Standard Industrial Classification (ISIC), revision 2: food and beverages (31). Em{p_end}
 
-{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated through 2005 by the World Bank's Development Rese{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "http://www.worldbank.org/nipr"}). The data were updated through 2005 by the World Bank's Development Rese{p_end}
 
 
 {synoptline}
@@ -1522,7 +1522,7 @@
 
 {synopt:{opt Source Notes}}Industry shares of emissions of organic water pollutants refer to emissions from manufacturing activities as defined by two-digit divisions of the International Standard Industrial Classification (ISIC), revision 2: primary metals (ISIC divisi{p_end}
 
-{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated through 2005 by the World Bank's Development Rese{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "http://www.worldbank.org/nipr"}). The data were updated through 2005 by the World Bank's Development Rese{p_end}
 
 
 {synoptline}
@@ -1534,7 +1534,7 @@
 
 {synopt:{opt Source Notes}}Industry shares of emissions of organic water pollutants refer to emissions from manufacturing activities as defined by two-digit divisions of the International Standard Industrial Classification (ISIC), revision 2: other (38 and 39). Emission{p_end}
 
-{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated through 2005 by the World Bank's Development Rese{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "http://www.worldbank.org/nipr"}). The data were updated through 2005 by the World Bank's Development Rese{p_end}
 
 
 {synoptline}
@@ -1546,7 +1546,7 @@
 
 {synopt:{opt Source Notes}}Industry shares of emissions of organic water pollutants refer to emissions from manufacturing activities as defined by two-digit divisions of the International Standard Industrial Classification (ISIC), revision 2: paper and pulp (34). Emissi{p_end}
 
-{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated through 2005 by the World Bank's Development Rese{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "http://www.worldbank.org/nipr"}). The data were updated through 2005 by the World Bank's Development Rese{p_end}
 
 
 {synoptline}
@@ -1558,7 +1558,7 @@
 
 {synopt:{opt Source Notes}}Industry shares of emissions of organic water pollutants refer to emissions from manufacturing activities as defined by two-digit divisions of the International Standard Industrial Classification (ISIC), revision 2: textiles (32). Emissions of{p_end}
 
-{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated through 2005 by the World Bank's Development Rese{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "http://www.worldbank.org/nipr"}). The data were updated through 2005 by the World Bank's Development Rese{p_end}
 
 
 {synoptline}
@@ -1570,7 +1570,7 @@
 
 {synopt:{opt Source Notes}}Industry shares of emissions of organic water pollutants refer to emissions from manufacturing activities as defined by two-digit divisions of the International Standard Industrial Classification (ISIC), revision 2: wood (33). Emissions of org{p_end}
 
-{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated through 2005 by the World Bank's Development Rese{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "http://www.worldbank.org/nipr"}). The data were updated through 2005 by the World Bank's Development Rese{p_end}
 
 
 {synoptline}
@@ -1723,7 +1723,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Access to non-solid fuel, rural is the percentage of rural population with access to non-solid fuel.{p_end}
 
@@ -1736,7 +1736,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Access to non-solid fuel, urban is the percentage of urban population with access to non-solid fuel.{p_end}
 
@@ -1749,7 +1749,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Access to non-solid fuel is the percentage of population with access to non-solid fuel.{p_end}
 
@@ -1810,7 +1810,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions from solid fuel consumption refer mainly to emissions from use of coal as an energy source.{p_end}
 
@@ -1835,7 +1835,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions from liquid fuel consumption refer mainly to emissions from use of natural gas as an energy source.{p_end}
 
@@ -1912,7 +1912,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions from liquid fuel consumption refer mainly to emissions from use of petroleum-derived fuels as an energy source.{p_end}
 
@@ -1938,7 +1938,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
@@ -1951,7 +1951,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring.{p_end}
 
@@ -2158,7 +2158,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Agricultural nitrous oxide emissions are emissions produced through fertilizer use (synthetic and animal manure), animal waste management, agricultural waste burning (nonenergy, on-site), and savanna burning.{p_end}
 
@@ -2171,7 +2171,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Nitrous oxide emissions from energy processes are emissions produced by the combustion of fossil fuels and biofuels.{p_end}
 
@@ -2258,7 +2258,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Nitrous oxide emissions are emissions from agricultural biomass burning, industrial activities, and livestock management. Each year of data shows the percentage change to that year from 1990.{p_end}
 
@@ -4484,7 +4484,7 @@
 
 {synopt:{opt Source Notes}}The ease of doing business scores benchmark economies with respect to regulatory best practice, showing the proximity to the best regulatory performance on each Doing Business indicator. An economy’s score is indicated on a scale from 0 to 1{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4497,7 +4497,7 @@
 
 {synopt:{opt Source Notes}}Disclosure index measures the extent to which investors are protected through disclosure of ownership and financial information. The index ranges from 0 to 10, with higher values indicating more disclosure.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4506,11 +4506,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. The ranking of economies is determined by sorting the aggregate ease of doing business scores. A high ranking (a low numerical rank) means that the regulato{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4543,11 +4543,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Depth of credit information index measures rules affecting the scope, accessibility, and quality of credit information available through public or private credit registries. The index ranges from 0 to 8, with higher values indicating the avail{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4568,11 +4568,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Private credit bureau coverage reports the number of individuals or firms listed by a private credit bureau with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the adul{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4593,11 +4593,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Public credit registry coverage reports the number of individuals and firms listed in a public credit registry with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4631,11 +4631,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4656,7 +4656,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Cost measures the fees levied on a 20-foot container in U.S. dollars. All the fees associated with completing the procedures to export or import the goods are included. These include costs for documents, administrative fees for customs clearan{p_end}
 
@@ -4669,11 +4669,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4682,11 +4682,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4695,7 +4695,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}All documents required per shipment to export goods are recorded. It is assumed that the contract has already been agreed upon and signed by both parties. Documents required for clearance by government ministries, customs authorities, port and{p_end}
 
@@ -4725,7 +4725,7 @@
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4734,11 +4734,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4799,7 +4799,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Cost measures the fees levied on a 20-foot container in U.S. dollars. All the fees associated with completing the procedures to export or import the goods are included. These include costs for documents, administrative fees for customs clearan{p_end}
 
@@ -4812,11 +4812,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4829,7 +4829,7 @@
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4864,11 +4864,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4877,11 +4877,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4894,7 +4894,7 @@
 
 {synopt:{opt Source Notes}}Time to resolve insolvency is the number of years from the filing for insolvency in court until the resolution of distressed assets.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4903,11 +4903,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}Strength of legal rights index measures the degree to which collateral and bankruptcy laws protect the rights of borrowers and lenders and thus facilitate lending. The index ranges from 0 to 12, with higher scores indicating that these laws ar{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4920,7 +4920,7 @@
 
 {synopt:{opt Source Notes}}Time required to enforce a contract is the number of calendar days from the filing of the lawsuit in court until the final determination and, in appropriate cases, payment.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4969,7 +4969,7 @@
 
 {synopt:{opt Source Notes}}Time required to register property is the number of calendar days needed for businesses to secure rights to property.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4982,7 +4982,7 @@
 
 {synopt:{opt Source Notes}}Number of procedures to register property is the number of procedures required for a businesses to secure rights to property.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -4995,7 +4995,7 @@
 
 {synopt:{opt Source Notes}}Cost to register a business is normalized by presenting it as a percentage of gross national income (GNI) per capita.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -5008,7 +5008,7 @@
 
 {synopt:{opt Source Notes}}Cost to register a business is normalized by presenting it as a percentage of gross national income (GNI) per capita.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -5021,7 +5021,7 @@
 
 {synopt:{opt Source Notes}}Cost to register a business is normalized by presenting it as a percentage of gross national income (GNI) per capita.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -5034,7 +5034,7 @@
 
 {synopt:{opt Source Notes}}Time required to start a business is the number of calendar days needed to complete the procedures to legally operate a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -5047,7 +5047,7 @@
 
 {synopt:{opt Source Notes}}Time required to start a business is the number of calendar days needed to complete the procedures to legally operate a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -5060,7 +5060,7 @@
 
 {synopt:{opt Source Notes}}Time required to start a business is the number of calendar days needed to complete the procedures to legally operate a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -5073,7 +5073,7 @@
 
 {synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -5086,7 +5086,7 @@
 
 {synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -5099,7 +5099,7 @@
 
 {synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -5148,7 +5148,7 @@
 
 {synopt:{opt Source Notes}}Time to prepare and pay taxes is the time, in hours per year, it takes to prepare, file, and pay (or withhold) three major types of taxes: the corporate income tax, the value added or sales tax, and labor taxes, including payroll taxes and soc{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -5161,7 +5161,7 @@
 
 {synopt:{opt Source Notes}}Labor tax and contributions is the amount of taxes and mandatory contributions on labor paid by the business.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -5174,7 +5174,7 @@
 
 {synopt:{opt Source Notes}}Other taxes payable by businesses include the amounts paid for property taxes, turnover taxes, and other small taxes such as municipal fees and vehicle and fuel taxes.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -5183,11 +5183,11 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}Tax payments by businesses are the total number of taxes paid by businesses, including electronic filing. The tax is counted as paid once a year even if payments are more frequent.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -5200,7 +5200,7 @@
 
 {synopt:{opt Source Notes}}Profit tax is the amount of taxes on profits paid by the business.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -5213,7 +5213,7 @@
 
 {synopt:{opt Source Notes}}Total tax rate measures the amount of taxes and mandatory contributions payable by businesses after accounting for allowable deductions and exemptions as a share of commercial profits. Taxes withheld (such as personal income tax) or collected{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -5238,7 +5238,7 @@
 
 {synopt:{opt Source Notes}}Time required to build a warehouse is the number of calendar days needed to complete the required procedures for building a warehouse. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -5251,7 +5251,7 @@
 
 {synopt:{opt Source Notes}}Number of procedures to build a warehouse is the number of interactions of a company's employees or managers with external parties, including government agency staff, public inspectors, notaries, land registry and cadastre staff, and technical{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -5260,7 +5260,7 @@
 
 {synopt:{opt Source}}57 WDI Database Archives{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Investment  in telecom projects with private participation refers to commitments to infrastructure projects in telecommunications that have reached financial closure and directly or indirectly serve the public. Movable assets and small project{p_end}
 
@@ -5340,7 +5340,7 @@
 
 {synopt:{opt Source Notes}}Trademark applications filed are applications to register a trademark with a national or regional Intellectual Property (IP) office. A trademark is a distinctive sign which identifies certain goods or services as those produced or provided by{p_end}
 
-{synopt:{opt Source Organization}}World Intellectual Property Organization (WIPO), World Intellectual Property Indicators and {browse "www.wipo.int/econ_stat"}. The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data. Data last retrieve{p_end}
+{synopt:{opt Source Organization}}World Intellectual Property Organization (WIPO), World Intellectual Property Indicators and {browse "http://www.wipo.int/econ_stat"}. The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data. Data last retrieve{p_end}
 
 
 {synoptline}
@@ -5466,7 +5466,7 @@
 
 {synopt:{opt Source Notes}}Diesel is heavy oils used as a fuel for internal combustion in diesel engines.{p_end}
 
-{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp"}).{p_end}
 
 
 {synoptline}
@@ -5478,7 +5478,7 @@
 
 {synopt:{opt Source Notes}}Diesel is heavy oils used as a fuel for internal combustion in diesel engines.{p_end}
 
-{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp"}).{p_end}
 
 
 {synoptline}
@@ -5490,7 +5490,7 @@
 
 {synopt:{opt Source Notes}}Road sector energy consumption is the total energy used in the road sector including petroleum products, natural gas, electricity, and combustible renewable and waste.{p_end}
 
-{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp"}).{p_end}
 
 
 {synoptline}
@@ -5502,7 +5502,7 @@
 
 {synopt:{opt Source Notes}}Road sector energy consumption is the total energy used in the road sector including petroleum products, natural gas, electricity, and combustible renewable and waste.{p_end}
 
-{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp"}).{p_end}
 
 
 {synoptline}
@@ -5514,7 +5514,7 @@
 
 {synopt:{opt Source Notes}}Road sector energy consumption is the total energy used in the road sector including petroleum products, natural gas, electricity, and combustible renewable and waste. Total energy consumption is the total country energy consumption.{p_end}
 
-{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp"}).{p_end}
 
 
 {synoptline}
@@ -5526,7 +5526,7 @@
 
 {synopt:{opt Source Notes}}Gasoline is light hydrocarbon oil use in internal combustion engine such as motor vehicles, excluding aircraft.{p_end}
 
-{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp"}).{p_end}
 
 
 {synoptline}
@@ -5538,7 +5538,7 @@
 
 {synopt:{opt Source Notes}}Gasoline is light hydrocarbon oil use in internal combustion engine such as motor vehicles, excluding aircraft.{p_end}
 
-{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
+{synopt:{opt Source Organization}}International Road Federation, World Road Statistics and electronic files, except where noted, and International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp"}).{p_end}
 
 
 {synoptline}
@@ -8252,4 +8252,4 @@
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

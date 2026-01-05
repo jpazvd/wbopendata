@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -4495,7 +4495,7 @@
 
 {synopt:{opt Source Notes}}Mean performance on the mathematics scale is the mean mathematics score for 6th grade students. Mean scores are on SACMEQ scales for mathematics, which have averages of 500 and standard deviations of 100. Data reflects country performance in t{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -4508,7 +4508,7 @@
 
 {synopt:{opt Source Notes}}Mean performance on the mathematics scale, female is the mean mathematics score for female 6th grade students. Mean scores are on SACMEQ scales for mathematics, which have averages of 500 and standard deviations of 100. Data reflects country p{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -4521,7 +4521,7 @@
 
 {synopt:{opt Source Notes}}Mean performance on the mathematics scale, male is the mean mathematics score for male 6th grade students. Mean scores are on SACMEQ scales for mathematics, which have averages of 500 and standard deviations of 100. Data reflects country perfo{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -4534,7 +4534,7 @@
 
 {synopt:{opt Source Notes}}Mean performance on the reading scale, total is the mean reading score for all 6th grade students. Mean scores are on SACMEQ scales for reading, which have averages of 500 and standard deviations of 100. Data reflects country performance in th{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -4547,7 +4547,7 @@
 
 {synopt:{opt Source Notes}}Mean performance on the reading scale, female is the mean reading score for female 6th grade students. Mean scores are on SACMEQ scales for reading, which have averages of 500 and standard deviations of 100. Data reflects country performance i{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -4560,7 +4560,7 @@
 
 {synopt:{opt Source Notes}}Mean performance on the reading scale, male is the mean reading score for male 6th grade students. Mean scores are on SACMEQ scales for reading, which have averages of 500 and standard deviations of 100. Data reflects country performance in th{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -4989,7 +4989,7 @@
 
 {synopt:{opt Source Notes}}Number of deaths of children ages 5-9 years{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -5002,7 +5002,7 @@
 
 {synopt:{opt Source Notes}}Number of deaths of adolescents ages 10-14 years{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -5015,7 +5015,7 @@
 
 {synopt:{opt Source Notes}}Number of deaths of adolescents ages 15-19 years{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -5028,7 +5028,7 @@
 
 {synopt:{opt Source Notes}}Number of deaths of youths ages 20-24 years{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -5041,7 +5041,7 @@
 
 {synopt:{opt Source Notes}}Number of female infants dying before reaching one year of age.{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -5054,7 +5054,7 @@
 
 {synopt:{opt Source Notes}}Number of male infants dying before reaching one year of age.{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -5067,7 +5067,7 @@
 
 {synopt:{opt Source Notes}}Number of female children dying before reaching age five.{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -5080,7 +5080,7 @@
 
 {synopt:{opt Source Notes}}Number of male children dying before reaching age five.{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -5093,7 +5093,7 @@
 
 {synopt:{opt Source Notes}}Probability of dying between age 5-9 years of age expressed per 1,000 children aged 5, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -5106,7 +5106,7 @@
 
 {synopt:{opt Source Notes}}Probability of dying between age 10-14 years of age expressed per 1,000 adolescents age 10, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -5119,7 +5119,7 @@
 
 {synopt:{opt Source Notes}}Probability of dying between age 15-19 years of age expressed per 1,000 adolescents age 15, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -5132,7 +5132,7 @@
 
 {synopt:{opt Source Notes}}Probability of dying between age 20-24 years of age expressed per 1,000 youths age 20, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -5145,7 +5145,7 @@
 
 {synopt:{opt Source Notes}}Population between the ages 0 to 14 as a percentage of the total population. Population is based on the de facto definition of population.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects., United Nations Population Division, uri: {browse "https://population.un.org/wpp/,"} publisher: United Nations Population Division{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects., United Nations Population Division, uri: {browse "https://population.un.org/wpp/"}, publisher: United Nations Population Division{p_end}
 
 
 {synoptline}
@@ -5162,4 +5162,4 @@
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

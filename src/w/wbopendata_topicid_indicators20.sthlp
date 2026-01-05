@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -4846,7 +4846,7 @@
 
 {synopt:{opt Source Notes}}Nonguaranteed long-term debt from bonds that are privately placed. Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/debt-statistics,"} note: https://www.worldbank.org/en/programs/debt-statistics{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "{browse "https://www.worldbank.org/en/programs/debt-statistics"}"}, note: {browse "https://www.worldbank.org/en/programs/debt-statistics"}{p_end}
 
 
 {synoptline}
@@ -4859,7 +4859,7 @@
 
 {synopt:{opt Source Notes}}Nonguaranteed long-term commercial bank loans from private banks and other private financial institutions. Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. D{p_end}
 
-{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/debt-statistics,"} note: https://www.worldbank.org/en/programs/debt-statistics{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "{browse "https://www.worldbank.org/en/programs/debt-statistics"}"}, note: {browse "https://www.worldbank.org/en/programs/debt-statistics"}{p_end}
 
 
 {synoptline}
@@ -5782,7 +5782,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -5795,7 +5795,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "http://www.oecd.org/dac/stats/idsonline"};{p_end}
 
 
 {synoptline}
@@ -5808,7 +5808,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) per capita consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), b{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "http://www.oecd.org/dac/stats/idsonline"};{p_end}
 
 
 {synoptline}
@@ -6748,4 +6748,4 @@
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

@@ -1,9 +1,9 @@
 {smcl}
 {hline}
-{* 22Dec2025 }{...}
+{* 4Jan2026  }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
-{right: {bf:version 17.4}}
+{right: {bf:version 17.7.1 (fixed multi-indicator latest)}}
 {hline}
 
 {title:Title}
@@ -30,21 +30,32 @@
 {synoptline}
 {synopt :{opt long}} imports the data in the long format. {p_end}
 {synopt :{opt clear}} replace data in memory.{p_end}
-{synopt :{opt latest}} keep only the latest available value of a single indicator.{p_end}
+{synopt :{opt latest}} keep only the latest available value per country (common year across indicators).{p_end}
 {synopt :{opt nometadata}} omits the display of the metadata.{p_end}
 {synopt :{opt year}{cmd:(}{it:date1}{cmd::}{it:date2}{cmd:)}} time interval (in yearly, quarterly or monthly depending on the series).{p_end}
 {synopt :{opt language}{cmd:(}{it:language}{cmd:)}} select the language.{p_end}
 {synopt :{opt full}} adds full list of country attributes.{p_end}
+{synopt :{opt basic}} adds basic country context variables (default as of v17.7).{p_end}
+{synopt :{opt nobasic}} suppresses the default basic country context variables.{p_end}
 {synopt :{opt iso}} adds 2 digits ISO codes to country attributes.{p_end}
+{synopt :{opt geo}} adds geographic metadata (capital city name, latitude, and longitude).{p_end}
+{synopt :{opt capital}} adds capital city name to country attributes.{p_end}
+{synopt :{opt latitude}} adds capital city latitude to country attributes.{p_end}
+{synopt :{opt longitude}} adds capital city longitude to country attributes.{p_end}
+{synopt :{opt regions}} adds region codes and names to country attributes.{p_end}
+{synopt :{opt adminr}} adds administrative region codes and names to country attributes.{p_end}
+{synopt :{opt income}} adds income level codes and names to country attributes.{p_end}
+{synopt :{opt lending}} adds lending type codes and names to country attributes.{p_end}
 {synopt :{opt update query}} query the current vintage of indicators and country metadata available.{p_end}
 {synopt :{opt update check}} checks the availability of new indicators and country metadata available for download.{p_end}
 {synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
 {synopt :{opt match(varname)}} merge {help wbopendata##attributes:country attributes} into an existing dataset containing WDI (3 digit) countrycodes. Cannot be used with the data download options.{p_end}
 {synopt :{opt projection}} World Bank {help wbopendata_sourceid_indicators40##sourceid_40:population estimates and projections} (HPP) .{p_end}
 {synopt :{opt metadataoffline}} download all indicator metadata informaiton and generates 71 sthlp files in your local machine.{p_end}
+{synopt :{opt describe}} display indicator metadata only (no data download). Requires {opt indicator()}. Supports {opt linewrap()}, {opt maxlength()}, and {opt linewrapformat()} when present.{p_end}
 {synopt :{opt linewrap(fields)}} wrap metadata text for graph titles. Fields: name, description, note, source, topic, or all.{p_end}
 {synopt :{opt maxlength(# [# ...])}} maximum characters per line for linewrap. Single value (default 50) or multiple values matching linewrap field order.{p_end}
-{synopt :{opt linewrapformat(fmt)}} output format: stack (default) or all.{p_end}
+{synopt :{opt linewrapformat(fmt)}} output format: stack (default), newline, nlines, lines, or all.{p_end}
 {synoptline}
 {p 4 6 2}
 {cmd:wbopendata} requires a connection to the internet and supports the Stata dialogue function ({dialog wbopendata}).{p_end}
@@ -59,6 +70,7 @@ Sections are presented under the following headings:
 		{it:{help wbopendata##desc:Command description}}
 		{it:{help wbopendata##param:Parameters description}}
 		{it:{help wbopendata##options:Options description}}
+		{it:{help wbopendata##storedresults:Stored results}}
 		{it:{help wbopendata##attributes:List of supported country attributes}}
 		{it:{help wbopendata##countries:Country code and names by selected attributes}}
 		{it:{help wbopendata##sourceid:Indicators by Source}}
@@ -135,10 +147,13 @@ RAM to complete this operation.{p_end}
 
 {synopt:{opt clear}} replace data in memory.{p_end}
 
-{synopt:{opt latest}} keep only the latest available value of a single indicator (requires {opt long} format). 
-With multiple indicators, keeps observations where all indicators are non-missing. 
+{synopt:{opt latest}} keep only the latest available value per country (requires {opt long} format). 
+With multiple indicators, keeps only observations where {bf:all} indicators are non-missing in the {bf:same year}, 
+ensuring comparability across indicators within each country. Different countries may have different years, 
+but within each country all indicators share the same reference year. 
 Returns {cmd:r(latest)} with a formatted subtitle string (e.g., "Latest Available Year, 186 Countries (avg year 2019.6)"), 
-{cmd:r(latest_ncountries)} with the country count, and {cmd:r(latest_avgyear)} with the average year.{p_end}
+{cmd:r(latest_ncountries)} with the country count, {cmd:r(latest_avgyear)} with the average year, 
+and {cmd:r(latest_year)} with the maximum year.{p_end}
 
 {synopt:{opt nometadata}} omits the display of the metadata information from the series. Metadata information is only available when downloading specific series (indicator option). The metadata available include information on the name of the series, the source, a detailed description 
 of the indicator, and the organization responsible for compiling this indicator.{p_end}
@@ -154,7 +169,27 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {synopt :{opt full}} adds full list of country attributes.{p_end}
 
+{synopt :{opt basic}} adds basic country context variables: region, regionname, adminregion, adminregionname, incomelevel, incomelevelname, lendingtype, lendingtypename. This is the {bf:default behavior} as of v17.7.{p_end}
+
+{synopt :{opt nobasic}} suppresses the default basic country context variables. Use this option when you only want the core data without country classification metadata.{p_end}
+
 {synopt :{opt iso}} adds only 2 digits ISO codes to country attributes.{p_end}
+
+{synopt :{opt geo}} adds geographic metadata variables including capital city name, latitude, and longitude coordinates for each country.{p_end}
+
+{synopt :{opt capital}} adds the capital city name variable. Use this option to merge only the capital city name without other geographic information. Can be combined with other geographic options (latitude, longitude) or metadata options (iso, full).{p_end}
+
+{synopt :{opt latitude}} adds the capital city latitude coordinate variable. Useful for mapping and geographic analysis. Can be combined with capital and/or longitude options.{p_end}
+
+{synopt :{opt longitude}} adds the capital city longitude coordinate variable. Useful for mapping and geographic analysis. Can be combined with capital and/or latitude options.{p_end}
+
+{synopt :{opt regions}} adds region codes (3-letter codes) and region names (English names) to the dataset.{p_end}
+
+{synopt :{opt adminr}} adds administrative region codes and names, including subcategories such as East Asia & Pacific, Europe & Central Asia, Latin America & Caribbean, Middle East & North Africa, and Sub-Saharan Africa.{p_end}
+
+{synopt :{opt income}} adds income level classifications (Low income, Lower-middle income, Upper-middle income, High income) and their ISO 2-digit codes.{p_end}
+
+{synopt :{opt lending}} adds lending type classifications (IBRD only, Blend, IDA only, etc.) and their ISO 2-digit codes.{p_end}
 
 {synopt :{opt update query}} query the current vintage of indicators available and country metadata.{p_end}
 
@@ -185,7 +220,10 @@ sets name to 40 chars, description to 100 chars, and note to 80 chars. If fewer 
 the last value is used for remaining fields.{p_end}
 
 {synopt :{opt linewrapformat(fmt)}} controls output format for linewrap. Options:{p_end}
-{p 8 12 2}- {opt stack}: (default) returns only {cmd:_stack} format for {cmd:title()}{p_end}
+{p 8 12 2}- {opt stack}: (default) returns only {cmd:r({it:field}1_stack)} format for {cmd:title()}{p_end}
+{p 8 12 2}- {opt newline}: returns {cmd:r({it:field}1_newline)} with embedded newline characters{p_end}
+{p 8 12 2}- {opt nlines}: returns {cmd:r({it:field}1_nlines)} scalar with line count{p_end}
+{p 8 12 2}- {opt lines}: returns {cmd:r({it:field}1_line1)}, {cmd:r({it:field}1_line2)}, etc. for each line{p_end}
 {p 8 12 2}- {opt all}: returns all formats ({cmd:_stack}, {cmd:_newline}, {cmd:_nlines}, {cmd:_line1}, etc.){p_end}
 	
 {marker attributes}{...}
@@ -213,6 +251,9 @@ the last value is used for remaining fields.{p_end}
 {synopt:{opt latitude}}Capital Latitude{p_end}
 {synopt:{opt longitude}}Capital Longitude{p_end}
 {synoptline}
+
+{pstd}
+{bf:Geographic Attributes:} Capital city information (name, latitude, longitude) is stored in the Stata working path and can be merged using the {opt geo}, {opt capital}, {opt latitude}, or {opt longitude} options. These options work with both data download mode (country, indicator) and merge mode ({opt match()}). When using {opt match()}, specify the 3-digit WDI country code variable for merging. The {opt geo} option is a shortcut that loads all three geographic variables simultaneously.{p_end}
 
 
 {marker countries}{...}
@@ -377,6 +418,122 @@ the last value is used for remaining fields.{p_end}
 {synoptline}
 
 
+{marker storedresults}{...}
+{title:Stored results}
+{p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
+
+{pstd}
+{cmd:wbopendata} is an {help return:r-class} command and stores results in {cmd:r()}.
+These stored results are critical for automation: they allow downstream code to 
+programmatically access indicator metadata, construct dynamic graph titles, and 
+build reproducible pipelines without manual intervention.
+Results are organized into macros (text strings) and scalars (numeric values).
+See {manhelp return P} for details on stored results conventions.{p_end}
+
+{pstd}{ul:{bf:Indicator codes and variable names}}{p_end}
+
+{pstd}World Bank indicator codes like {cmd:SI.POV.DDAY} contain periods, which Stata does not 
+allow in variable names. The command automatically converts indicator codes to Stata-safe 
+variable names by replacing periods with underscores and converting to lowercase: 
+{cmd:SI.POV.DDAY} becomes {cmd:si_pov_dday}. Both forms are stored: {cmd:r(indicator{it:#})} 
+preserves the original API code for documentation and re-querying, while {cmd:r(varname{it:#})} 
+provides the Stata variable name for use in analysis commands.{p_end}
+
+{pstd}{ul:{bf:Indexed versus aggregate returns}}{p_end}
+
+{pstd}Results come in two forms. Indexed returns ({cmd:r(varname1)}, {cmd:r(varname2)}, ...) 
+store metadata for each indicator separately, enabling indicator-specific labeling and citation. 
+Aggregate returns store combined information: {cmd:r(indicator)} contains the full semicolon-separated 
+query string as entered, while {cmd:r(name)} contains all variable names as a space-separated list 
+suitable for {cmd:foreach} loops or variable lists.{p_end}
+
+{pstd}{ul:{bf:Macros: Aggregate returns (always)}}{p_end}
+
+{synoptset 22 tabbed}{...}
+{p2col 5 22 26 2: Macro}{p_end}
+{synoptline}
+{synopt:{cmd:r(indicator)}}Full query string (semicolon-separated){p_end}
+{synopt:{cmd:r(name)}}All Stata variable names (space-separated){p_end}
+{synoptline}
+
+{pstd}{ul:{bf:Macros: Indexed returns (per indicator, always)}}{p_end}
+
+{pstd}For each requested indicator, where {it:#} = 1, 2, ... indexes multiple indicators:{p_end}
+
+{synoptset 22 tabbed}{...}
+{p2col 5 22 26 2: Macro}{p_end}
+{synoptline}
+{synopt:{cmd:r(indicator{it:#})}}Original API indicator code (e.g., SI.POV.DDAY){p_end}
+{synopt:{cmd:r(varname{it:#})}}Stata-safe variable name (e.g., si_pov_dday){p_end}
+{synopt:{cmd:r(varlabel{it:#})}}Indicator label (short name) from the API{p_end}
+{synopt:{cmd:r(source{it:#})}}Source database identifier{p_end}
+{synopt:{cmd:r(time{it:#})}}Time dimension name{p_end}
+{synopt:{cmd:r(sourcecite{it:#})}}Clean organization name (when Note is non-empty){p_end}
+{synoptline}
+
+{pstd}{ul:{bf:With {opt year()} option}}{p_end}
+
+{pstd}When {opt year()} is specified, the requested year range is stored:{p_end}
+
+{synoptset 22 tabbed}{...}
+{p2col 5 22 26 2: Macro}{p_end}
+{synoptline}
+{synopt:{cmd:r(year{it:#})}}Year or year range requested{p_end}
+{synoptline}
+
+{pstd}{ul:{bf:With {opt latest} option}}{p_end}
+
+{pstd}When {opt latest} is specified, additional results summarize the temporal coverage:{p_end}
+
+{synoptset 26 tabbed}{...}
+{p2col 5 26 30 2: Result}{p_end}
+{synoptline}
+{synopt:{cmd:r(latest)}}Formatted subtitle string for graphs{p_end}
+{synopt:{cmd:r(latest_ncountries)}}Number of countries with non-missing data{p_end}
+{synopt:{cmd:r(latest_avgyear)}}Average year across retained observations{p_end}
+{synopt:{cmd:r(latest_year)}}Maximum year among retained observations{p_end}
+{synoptline}
+
+{pstd}{ul:{bf:With {opt linewrap()} option}}{p_end}
+
+{pstd}The {opt linewrap()} option generates publication-ready text for graph titles. For each indicator ({it:#} = 1, 2, ...) and each requested field:{p_end}
+
+{synoptset 28 tabbed}{...}
+{p2col 5 28 32 2: Macro}{p_end}
+{synoptline}
+{synopt:{cmd:r(name{it:#}_stack)}}Indicator name, wrapped for use in {opt title()}{p_end}
+{synopt:{cmd:r(description{it:#}_stack)}}Full indicator definition, wrapped for captions{p_end}
+{synopt:{cmd:r(note{it:#}_stack)}}Wrapped methodological notes{p_end}
+{synopt:{cmd:r(source{it:#}_stack)}}Wrapped source text{p_end}
+{synopt:{cmd:r(topic{it:#}_stack)}}Wrapped topic name{p_end}
+{synoptline}
+
+{pstd}The {cmd:_stack} suffix indicates formatting compatible with Stata's {opt title()} option,
+where multiple quoted strings stack vertically: {cmd:"line1" "line2" "line3"}.{p_end}
+
+{pstd}With {opt linewrapformat(all)}, additional formats are returned:{p_end}
+
+{synoptset 28 tabbed}{...}
+{p2col 5 28 32 2: Result}{p_end}
+{synoptline}
+{synopt:{cmd:r({it:field#}_newline)}}Text with embedded newline characters{p_end}
+{synopt:{cmd:r({it:field#}_nlines)}}Line count for each field (scalar){p_end}
+{synopt:{cmd:r({it:field#}_line1)}, ...}Individual wrapped lines{p_end}
+{synoptline}
+
+{pstd}{ul:{bf:Example: Using stored results}}{p_end}
+
+{p 4 4 2}Extract metadata for automated figure annotation:{p_end}
+
+{cmd}
+.     wbopendata, indicator(SI.POV.DDAY) clear long latest linewrap(name)
+.     return list
+.     local subtitle "`r(latest)'"
+.     twoway line si_pov_dday year if countrycode == "BRA", ///
+          title(`r(name1_stack)') subtitle("`subtitle'")
+{txt}
+
+
 {marker Examples}{...}
 {title:Examples}{p 50 20 2}{p_end}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -403,6 +560,24 @@ the last value is used for remaining fields.{p_end}
 {p 8 12}{stata "wbopendata, indicator(SP.POP.1014.FE; SP.POP.1014.MA) year(1990:2050) projection clear" :. wbopendata, indicator(SP.POP.1014.FE; SP.POP.1014.MA) year(1990:2050) projection clear}{p_end}
 
 {p 8 12}{stata "wbopendata, indicator(si.pov.dday; ny.gdp.pcap.pp.kd) clear long": . wbopendata, indicator(si.pov.dday; ny.gdp.pcap.pp.kd) clear long}{p_end}
+
+{p 8 12}{stata "wbopendata, indicator(SI.POV.DDAY) geo clear" :. wbopendata, indicator(SI.POV.DDAY) geo clear}{p_end}
+
+{p 8 12}{stata "wbopendata, indicator(SP.POP.TOTL) capital clear" :. wbopendata, indicator(SP.POP.TOTL) capital clear}{p_end}
+
+{p 8 12}{stata "wbopendata, indicator(NY.GDP.PCAP.KD) full geo clear" :. wbopendata, indicator(NY.GDP.PCAP.KD) full geo clear}{p_end}
+
+{p 8 12}{stata "wbopendata, indicator(NY.GDP.MKTP.CD) year(2020) long clear" :. wbopendata, indicator(NY.GDP.MKTP.CD) year(2020) long clear} (default: includes basic country context){p_end}
+
+{p 8 12}{stata "wbopendata, indicator(NY.GDP.MKTP.CD) year(2020) long nobasic clear" :. wbopendata, indicator(NY.GDP.MKTP.CD) year(2020) long nobasic clear} (no country metadata){p_end}
+
+{pstd}{ul:{bf:Example: Geographic Metadata}}{p_end}
+
+{cmd}
+	. wbopendata, indicator(SP.POP.TOTL) clear
+	. wbopendata, indicator(SP.POP.TOTL) geo clear
+	. describe capital latitude longitude
+{txt}      ({stata "wbopendata_examples example_geo":click to run})
  
 {cmd}
         . tempfile tmp
@@ -418,7 +593,7 @@ the last value is used for remaining fields.{p_end}
                 title("Mobile cellular subscriptions (per 100 people)", size(*1.2))         ///
                 legstyle(3) legend(ring(1) position(3))                                     ///
                 note("Source: World Development Indicators (latest available year: `avg') using ///
-                Azevedo, J.P. (2011) wbopendata: Stata module to " "access World Bank databases, ///
+                Azevedo, J.P. (2026) wbopendata: Stata module to " "access World Bank databases, ///
                 Statistical Software Components S457234 Boston College Department of Economics.", ///
 				size(*.7))
 {txt}      ({stata "wbopendata_examples example01":click to run})
@@ -434,7 +609,7 @@ the last value is used for remaining fields.{p_end}
             ytitle("Change in Poverty (p.p.)") xtitle("Proportion of regional ///
             episodes of poverty reduction (%)") legend(off) title("Poverty Reduction") ///
         	mlabelangle(45)	legend(off)	///
-			note("Source: World Development Indicators using Azevedo, J.P. (2011) ///
+			note("Source: World Development Indicators using Azevedo, J.P. (2026) ///
             wbopendata: Stata module to " "access World Bank databases, Statistical ///
             Software Components S457234 Boston College Department of Economics.", ///
 			size(*.7))
@@ -467,7 +642,7 @@ the last value is used for remaining fields.{p_end}
                    legend(off) xtitle("Target for 2008")  ytitle(Present)          ///
                    title("MDG 1 - 1.9 USD")                                         ///
                    note("Source: World Development Indicators (latest available year: 2008) ///
-                   using Azevedo, J.P. (2011) wbopendata: Stata module to " "access ///
+                   using Azevedo, J.P. (2026) wbopendata: Stata module to " "access ///
                    World Bank databases, Statistical Software Components S457234 Boston ///
                    College Department of Economics.", size(*.7))
 {txt}      ({stata "wbopendata_examples example03":click to run})
@@ -485,7 +660,7 @@ the last value is used for remaining fields.{p_end}
                ytitle("Poverty headcount ratio at the International Poverty Line") ///
                mlabelangle(45)	legend(off) ///
                note("Source: World Development Indicators (latest available year as off 2012-08-08) ///
-               using Azevedo, J.P. (2011) wbopendata: Stata module to " "access World Bank databases, ///
+               using Azevedo, J.P. (2026) wbopendata: Stata module to " "access World Bank databases, ///
                Statistical Software Components S457234 Boston College Department of Economics.", /// 
                size(*.7))
 
@@ -511,6 +686,7 @@ the last value is used for remaining fields.{p_end}
            title(`r(name1_stack)') ///
            subtitle("Brazil") ///
            ytitle("% of population")
+{txt}      ({stata "wbopendata_examples example_linewrap":click to run})
 
 {p 4 4 2}Use different maxlength values for different fields:{p_end}
 
@@ -540,6 +716,20 @@ the last value is used for remaining fields.{p_end}
            subtitle("`subtitle'") ///
            note("Sources: `r(sourcecite1)'; `r(sourcecite2)'")
 .     * subtitle displays: "Latest Available Year, 186 Countries (avg year 2019.6)"
+
+{pstd}{ul:{bf:Example 7: Default basic country context variables (v17.7)}}{p_end}
+
+{p 4 4 2}As of v17.7, wbopendata adds 8 basic country context variables by default: region, regionname, adminregion, adminregionname, incomelevel, incomelevelname, lendingtype, lendingtypename. Use {opt nobasic} to suppress them:{p_end}
+
+{cmd}
+.     * Default behavior - includes basic context variables
+.     wbopendata, indicator(NY.GDP.MKTP.CD) year(2020) long clear
+.     describe, short   // Shows 12 variables
+.     
+.     * Suppress basic variables with nobasic
+.     wbopendata, indicator(NY.GDP.MKTP.CD) year(2020) long nobasic clear  
+.     describe, short   // Shows 4 variables
+{txt}      ({stata "wbopendata_examples example_basic":click to run})
 
 {marker disclaimer}{...}
 {title:Disclaimer}

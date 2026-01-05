@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -113,7 +113,7 @@
 
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Primary income on foreign direct investment covers payments of direct investment income (debit side), which consist of income on equity (dividends, branch profits, and reinvested earnings) and income on the intercompany debt (interest). Data a{p_end}
 
@@ -3534,7 +3534,7 @@
 
 {synopt:{opt Source}}81  International Debt Statistics: DSSI{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Total interest payments to gross national income.{p_end}
 
@@ -6906,4 +6906,4 @@
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

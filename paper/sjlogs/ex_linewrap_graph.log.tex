@@ -1,0 +1,14 @@
+. * Graph with wrapped axis titles, subtitle, definitions, and sources
+. set scheme sj
+
+. twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///
+      xtitle("Poverty headcount ratio at $3.00 a day" "(2021 PPP) (% of population)", size(small)) ///
+      ytitle("Mortality rate, under-5 (per 1,000" "live births)", size(small)) ///
+      title("Poverty and Child Mortality", size(medium)) ///
+      subtitle("Latest Available Year, 186 countries (avg year    2019.6)", size(small)) ///
+      caption("{bf:Definitions:}" ///
+      "{bf:X-axis:} " "Poverty headcount ratio at $3.00 a day is the percentage of the population living on less than $3.00 a day at 2021 purchasing power adjusted prices. As a" "result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions." ///
+      "{bf:Y-axis:} " "Under-five mortality rate is the probability per 1,000 that a newborn baby will die before reaching age five, if subject to age-specific mortality rates of" "the specified year.", size(vsmall) span) ///
+      note("{bf:Data Sources:}" ///
+      "{bf:X (Poverty):} World Bank" ///
+      "{bf:Y (Mortality):} UN Inter-agency Group for Child Mortality Estimation", size(vsmall)) name(tmp1, replace)
