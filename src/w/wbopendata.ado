@@ -1,17 +1,7 @@
 *******************************************************************************
 * wbopendata             
-*! v 17.4  	 22Dec2025               by Joao Pedro Azevedo
-*   Add sourcecite return for clean graph source attribution
-*******************************************************************************
-*! v 17.3  	 22Dec2025               by Joao Pedro Azevedo
-*   Support multiple maxlength values: maxlength(40 100 80) linewrap(name description note)
-*******************************************************************************
-*! v 17.2  	 22Dec2025               by Joao Pedro Azevedo
-*   Add linewrap(), maxlength(), linewrapformat() options for graph-ready text
-*******************************************************************************
-*! v 17.1  	 21Dec2025               by Joao Pedro Azevedo
-* 	Bug fixes: #33 (latest option), #35 (country metadata), #45 (URL errors), 
-*   #46 (varlist), #51 (match documentation). Contributors acknowledged.
+*! v 17.5  	 03Jan2026               by Joao Pedro Azevedo
+* 	Create region metadata
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -27,8 +17,8 @@ version 9.0
                          YEAR(string)               ///
 						 DATE(string)				///
 						 SOURCE(string)				///
- 					 PROJECTION					///					 
-                         LONG                       ///
+ 						 PROJECTION					///
+                        LONG                       ///
                          CLEAR                      ///
                          LATEST                     ///
                          NOMETADATA                 ///
@@ -46,18 +36,86 @@ version 9.0
 						 DETAIL						///
 						 CTRYLIST					///
 						 MATCH(string)				///
-						 VERBOSE					///
-						 LINEWrap(string)			///
-						 MAXLength(string)			///
-						 LINEWRAPFormat(string)		///
-		                 ]
+							ISO					///
+							REGIONS				///
+							ADMINR				///
+							INCOME				///
+							LENDING				///
+						 GEO					///
+							BASIC				///
+							FULL				///
+						 COUNTRYCODE_ISO2 	///
+						 REGION 				///
+						 REGION_ISO2 		///
+						 REGIONNAME 			///
+						 ADMINREGION 		///
+						 ADMINREGION_ISO2 	///
+						 ADMINREGIONNAME 	///
+						 INCOMELEVEL 		///
+						 INCOMELEVEL_ISO2 	///
+						 INCOMELEVELNAME 	///
+						 LENDINGTYPE 		///
+						 LENDINGTYPE_ISO2 	///
+						 LENDINGTYPENAME 	///
+						 capital 			///
+						 latitude 			///
+						 longitude 			///
+						 countryname			///
+                 ]
+local indicator `indicators'
 
-	* Handle plural option name - syntax creates `indicators' but code uses `indicator'
-	local indicator "`indicators'"
+	* query and check can not be selected at the same time
+		if ("`query'" == "query") & ("`check'" == "check") {
+			noi di  as err "update query and update check options cannot be selected at the same time."
+			exit 198
+		}
+	
+	* match and indicators can not be selected at the same time
+		if ("`match'" != "") & ("`indicator'" != "") {
+			noi di  as err "{p 4 4 2}Error: The {bf:match} option cannot be used with the {bf:indicators} option. The {bf:match} option is used to retrieve country metadata only and does not download indicator data.{p_end}"
+			noi di  as err "{p 4 4 2}Please use either {bf:match} alone for country metadata, or {bf:indicators} without {bf:match} to download indicator data.{p_end}"
+			exit 198
+		}
+	
+		set checksum off
+	
+	* update : update query / does not triger the download of any data
+		if ("`update'" == "update") & wordcount("`query' `check' `countrymetadata' `all'")==0 {
+		
+			noi wbopendata, update query
+			break
+		}
+		
+	* update : update query / triger the download of selected data
+	* update : force  - creates new help files and metadata documentation by source and topics
+	* trigger: _parameters
+	* triggers _update indicators.ado
+	*		refresh Source
+	*		refresh Indicators
+	
+		if ("`update'" == "update") & wordcount("`query' `check' `countrymetadata' `all'")== 1 {
 
+			noi _update_wbopendata, update `query' `check'	`countrymetadata' `all' `force' `short' `detail' `ctrylist'
+			break
+					
+		}
+
+	* metadataoffline options
+	* this option will refress all meatadata and generate 71 files with all metadata indicators by source id and topic id.
+		if ("`metadataoffline'" == "metadataoffline") {
+
+			noi _update_wbopendata, update force all
+			local update "update"
+			local force  "force"
+			local all    "all"
+			break
+					
+		}
+		
 **********************************************************************************
 * option to match	
 
+		_countrymetadata, match(`match') `full' `iso' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `geo' `isolist' `countryname' `region'  `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname'  `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude'
 
 					qui if ("`match'" != "") {
 
@@ -435,7 +493,7 @@ version 9.0
 
 		tostring  countryname countrycode, replace
 
-		_countrymetadata, match(countrycode) `full' `iso' `regions' `adminr' `income' `lending' `capitals' `basic' `countrycode_iso2' `region' `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname' `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude' `countryname'
+		_countrymetadata, match(countrycode) `full' `iso' `regions' `adminr' `income' `lending' `geo' `basic' `countrycode_iso2' `region' `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname' `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude' `countryname'
 
 	}
 	
