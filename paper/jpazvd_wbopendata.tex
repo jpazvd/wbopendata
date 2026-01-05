@@ -414,7 +414,29 @@ The data retrieval outputs wrapped indicator names and the latest-year statistic
 \label{fig:scatter}
 \end{figure}
 
-Note: PDF format is preferred for figures in Stata Journal submissions; PNG files shown here are for preview purposes. All graphs should follow the \texttt{sj} scheme for consistency with journal standards.
+\subsection{User-written ados extending wbopendata: the worldstat example}
+
+Beyond the native capabilities of \texttt{wbopendata}, the infrastructure has catalyzed development of complementary user-written ados that add significant value. A prominent example is \texttt{worldstat}, authored by Damian Clarke (University of Chile), which leverages \texttt{wbopendata} to create publication-ready geographic and temporal visualizations of World Bank development indicators.
+
+The \texttt{worldstat} module demonstrates the extensibility of \texttt{wbopendata}. While \texttt{worldstat} includes built-in statistics for commonly used indicators (GDP, maternal mortality, years of schooling), it seamlessly incorporates any of the 5,000+ World Bank indicators via \texttt{wbopendata}. Users can visualize both macroeconomic aggregates and microeconomic survey-based statistics with minimal setup.
+
+Key advantages of the \texttt{worldstat} + \texttt{wbopendata} integration include:
+
+\begin{itemize}
+  \item Automatic data retrieval from the World Bank API (no manual downloads required)
+  \item Choropleth maps showing geographic variation across countries and regions
+  \item Temporal analysis capabilities to visualize trends over time
+  \item Minimal disk space requirements (data accessed remotely by default)
+  \item Reproducible workflows with version control over both command specifications and metadata
+\end{itemize}
+
+Example applications include visualizing GDP per capita across African countries for a specific year, displaying global maternal fertility rates with custom color schemes, or creating custom poverty maps by specifying World Bank poverty indicators. The section ``Integration with worldstat visualization tool'' in the companion Stata do-file demonstrates these use cases in detail (Example~7 in the code examples section).
+
+The emergence of tools like \texttt{worldstat} illustrates that \texttt{wbopendata} has become an enabling infrastructure layer upon which the Stata community builds domain-specific analysis tools. This ecosystem approach multiplies the value of the original World Bank API by creating specialized, publication-ready workflows for different analytical needs.
+
+\subsection*{Note on figure formats}
+
+PDF format is preferred for figures in Stata Journal submissions; PNG files shown here are for preview purposes. All graphs should follow the \texttt{sj} scheme for consistency with journal standards.
 
 %====================================================================
 \section{Implementation}
