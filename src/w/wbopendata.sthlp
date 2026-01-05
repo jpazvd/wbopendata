@@ -30,7 +30,7 @@
 {synoptline}
 {synopt :{opt long}} imports the data in the long format. {p_end}
 {synopt :{opt clear}} replace data in memory.{p_end}
-{synopt :{opt latest}} keep only the latest available value of a single indicator.{p_end}
+{synopt :{opt latest}} keep only the latest available value per country (common year across indicators).{p_end}
 {synopt :{opt nometadata}} omits the display of the metadata.{p_end}
 {synopt :{opt year}{cmd:(}{it:date1}{cmd::}{it:date2}{cmd:)}} time interval (in yearly, quarterly or monthly depending on the series).{p_end}
 {synopt :{opt language}{cmd:(}{it:language}{cmd:)}} select the language.{p_end}
@@ -70,6 +70,7 @@ Sections are presented under the following headings:
 		{it:{help wbopendata##desc:Command description}}
 		{it:{help wbopendata##param:Parameters description}}
 		{it:{help wbopendata##options:Options description}}
+		{it:{help wbopendata##storedresults:Stored results}}
 		{it:{help wbopendata##attributes:List of supported country attributes}}
 		{it:{help wbopendata##countries:Country code and names by selected attributes}}
 		{it:{help wbopendata##sourceid:Indicators by Source}}
@@ -146,10 +147,13 @@ RAM to complete this operation.{p_end}
 
 {synopt:{opt clear}} replace data in memory.{p_end}
 
-{synopt:{opt latest}} keep only the latest available value of a single indicator (requires {opt long} format). 
-With multiple indicators, keeps observations where all indicators are non-missing. 
+{synopt:{opt latest}} keep only the latest available value per country (requires {opt long} format). 
+With multiple indicators, keeps only observations where {bf:all} indicators are non-missing in the {bf:same year}, 
+ensuring comparability across indicators within each country. Different countries may have different years, 
+but within each country all indicators share the same reference year. 
 Returns {cmd:r(latest)} with a formatted subtitle string (e.g., "Latest Available Year, 186 Countries (avg year 2019.6)"), 
-{cmd:r(latest_ncountries)} with the country count, and {cmd:r(latest_avgyear)} with the average year.{p_end}
+{cmd:r(latest_ncountries)} with the country count, {cmd:r(latest_avgyear)} with the average year, 
+and {cmd:r(latest_year)} with the maximum year.{p_end}
 
 {synopt:{opt nometadata}} omits the display of the metadata information from the series. Metadata information is only available when downloading specific series (indicator option). The metadata available include information on the name of the series, the source, a detailed description 
 of the indicator, and the organization responsible for compiling this indicator.{p_end}
@@ -414,6 +418,122 @@ the last value is used for remaining fields.{p_end}
 {synoptline}
 
 
+{marker storedresults}{...}
+{title:Stored results}
+{p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
+
+{pstd}
+{cmd:wbopendata} is an {help return:r-class} command and stores results in {cmd:r()}.
+These stored results are critical for automation: they allow downstream code to 
+programmatically access indicator metadata, construct dynamic graph titles, and 
+build reproducible pipelines without manual intervention.
+Results are organized into macros (text strings) and scalars (numeric values).
+See {manhelp return P} for details on stored results conventions.{p_end}
+
+{pstd}{ul:{bf:Indicator codes and variable names}}{p_end}
+
+{pstd}World Bank indicator codes like {cmd:SI.POV.DDAY} contain periods, which Stata does not 
+allow in variable names. The command automatically converts indicator codes to Stata-safe 
+variable names by replacing periods with underscores and converting to lowercase: 
+{cmd:SI.POV.DDAY} becomes {cmd:si_pov_dday}. Both forms are stored: {cmd:r(indicator{it:#})} 
+preserves the original API code for documentation and re-querying, while {cmd:r(varname{it:#})} 
+provides the Stata variable name for use in analysis commands.{p_end}
+
+{pstd}{ul:{bf:Indexed versus aggregate returns}}{p_end}
+
+{pstd}Results come in two forms. Indexed returns ({cmd:r(varname1)}, {cmd:r(varname2)}, ...) 
+store metadata for each indicator separately, enabling indicator-specific labeling and citation. 
+Aggregate returns store combined information: {cmd:r(indicator)} contains the full semicolon-separated 
+query string as entered, while {cmd:r(name)} contains all variable names as a space-separated list 
+suitable for {cmd:foreach} loops or variable lists.{p_end}
+
+{pstd}{ul:{bf:Macros: Aggregate returns (always)}}{p_end}
+
+{synoptset 22 tabbed}{...}
+{p2col 5 22 26 2: Macro}{p_end}
+{synoptline}
+{synopt:{cmd:r(indicator)}}Full query string (semicolon-separated){p_end}
+{synopt:{cmd:r(name)}}All Stata variable names (space-separated){p_end}
+{synoptline}
+
+{pstd}{ul:{bf:Macros: Indexed returns (per indicator, always)}}{p_end}
+
+{pstd}For each requested indicator, where {it:#} = 1, 2, ... indexes multiple indicators:{p_end}
+
+{synoptset 22 tabbed}{...}
+{p2col 5 22 26 2: Macro}{p_end}
+{synoptline}
+{synopt:{cmd:r(indicator{it:#})}}Original API indicator code (e.g., SI.POV.DDAY){p_end}
+{synopt:{cmd:r(varname{it:#})}}Stata-safe variable name (e.g., si_pov_dday){p_end}
+{synopt:{cmd:r(varlabel{it:#})}}Indicator label (short name) from the API{p_end}
+{synopt:{cmd:r(source{it:#})}}Source database identifier{p_end}
+{synopt:{cmd:r(time{it:#})}}Time dimension name{p_end}
+{synopt:{cmd:r(sourcecite{it:#})}}Clean organization name (when Note is non-empty){p_end}
+{synoptline}
+
+{pstd}{ul:{bf:With {opt year()} option}}{p_end}
+
+{pstd}When {opt year()} is specified, the requested year range is stored:{p_end}
+
+{synoptset 22 tabbed}{...}
+{p2col 5 22 26 2: Macro}{p_end}
+{synoptline}
+{synopt:{cmd:r(year{it:#})}}Year or year range requested{p_end}
+{synoptline}
+
+{pstd}{ul:{bf:With {opt latest} option}}{p_end}
+
+{pstd}When {opt latest} is specified, additional results summarize the temporal coverage:{p_end}
+
+{synoptset 26 tabbed}{...}
+{p2col 5 26 30 2: Result}{p_end}
+{synoptline}
+{synopt:{cmd:r(latest)}}Formatted subtitle string for graphs{p_end}
+{synopt:{cmd:r(latest_ncountries)}}Number of countries with non-missing data{p_end}
+{synopt:{cmd:r(latest_avgyear)}}Average year across retained observations{p_end}
+{synopt:{cmd:r(latest_year)}}Maximum year among retained observations{p_end}
+{synoptline}
+
+{pstd}{ul:{bf:With {opt linewrap()} option}}{p_end}
+
+{pstd}The {opt linewrap()} option generates publication-ready text for graph titles. For each indicator ({it:#} = 1, 2, ...) and each requested field:{p_end}
+
+{synoptset 28 tabbed}{...}
+{p2col 5 28 32 2: Macro}{p_end}
+{synoptline}
+{synopt:{cmd:r(name{it:#}_stack)}}Indicator name, wrapped for use in {opt title()}{p_end}
+{synopt:{cmd:r(description{it:#}_stack)}}Full indicator definition, wrapped for captions{p_end}
+{synopt:{cmd:r(note{it:#}_stack)}}Wrapped methodological notes{p_end}
+{synopt:{cmd:r(source{it:#}_stack)}}Wrapped source text{p_end}
+{synopt:{cmd:r(topic{it:#}_stack)}}Wrapped topic name{p_end}
+{synoptline}
+
+{pstd}The {cmd:_stack} suffix indicates formatting compatible with Stata's {opt title()} option,
+where multiple quoted strings stack vertically: {cmd:"line1" "line2" "line3"}.{p_end}
+
+{pstd}With {opt linewrapformat(all)}, additional formats are returned:{p_end}
+
+{synoptset 28 tabbed}{...}
+{p2col 5 28 32 2: Result}{p_end}
+{synoptline}
+{synopt:{cmd:r({it:field#}_newline)}}Text with embedded newline characters{p_end}
+{synopt:{cmd:r({it:field#}_nlines)}}Line count for each field (scalar){p_end}
+{synopt:{cmd:r({it:field#}_line1)}, ...}Individual wrapped lines{p_end}
+{synoptline}
+
+{pstd}{ul:{bf:Example: Using stored results}}{p_end}
+
+{p 4 4 2}Extract metadata for automated figure annotation:{p_end}
+
+{cmd}
+.     wbopendata, indicator(SI.POV.DDAY) clear long latest linewrap(name)
+.     return list
+.     local subtitle "`r(latest)'"
+.     twoway line si_pov_dday year if countrycode == "BRA", ///
+          title(`r(name1_stack)') subtitle("`subtitle'")
+{txt}
+
+
 {marker Examples}{...}
 {title:Examples}{p 50 20 2}{p_end}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -473,7 +593,7 @@ the last value is used for remaining fields.{p_end}
                 title("Mobile cellular subscriptions (per 100 people)", size(*1.2))         ///
                 legstyle(3) legend(ring(1) position(3))                                     ///
                 note("Source: World Development Indicators (latest available year: `avg') using ///
-                Azevedo, J.P. (2011) wbopendata: Stata module to " "access World Bank databases, ///
+                Azevedo, J.P. (2026) wbopendata: Stata module to " "access World Bank databases, ///
                 Statistical Software Components S457234 Boston College Department of Economics.", ///
 				size(*.7))
 {txt}      ({stata "wbopendata_examples example01":click to run})
@@ -489,7 +609,7 @@ the last value is used for remaining fields.{p_end}
             ytitle("Change in Poverty (p.p.)") xtitle("Proportion of regional ///
             episodes of poverty reduction (%)") legend(off) title("Poverty Reduction") ///
         	mlabelangle(45)	legend(off)	///
-			note("Source: World Development Indicators using Azevedo, J.P. (2011) ///
+			note("Source: World Development Indicators using Azevedo, J.P. (2026) ///
             wbopendata: Stata module to " "access World Bank databases, Statistical ///
             Software Components S457234 Boston College Department of Economics.", ///
 			size(*.7))
@@ -522,7 +642,7 @@ the last value is used for remaining fields.{p_end}
                    legend(off) xtitle("Target for 2008")  ytitle(Present)          ///
                    title("MDG 1 - 1.9 USD")                                         ///
                    note("Source: World Development Indicators (latest available year: 2008) ///
-                   using Azevedo, J.P. (2011) wbopendata: Stata module to " "access ///
+                   using Azevedo, J.P. (2026) wbopendata: Stata module to " "access ///
                    World Bank databases, Statistical Software Components S457234 Boston ///
                    College Department of Economics.", size(*.7))
 {txt}      ({stata "wbopendata_examples example03":click to run})
@@ -540,7 +660,7 @@ the last value is used for remaining fields.{p_end}
                ytitle("Poverty headcount ratio at the International Poverty Line") ///
                mlabelangle(45)	legend(off) ///
                note("Source: World Development Indicators (latest available year as off 2012-08-08) ///
-               using Azevedo, J.P. (2011) wbopendata: Stata module to " "access World Bank databases, ///
+               using Azevedo, J.P. (2026) wbopendata: Stata module to " "access World Bank databases, ///
                Statistical Software Components S457234 Boston College Department of Economics.", /// 
                size(*.7))
 
