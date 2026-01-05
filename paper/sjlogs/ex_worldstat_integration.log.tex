@@ -1,0 +1,19 @@
+. // worldstat integration examples
+. // The worldstat command uses wbopendata to visualize World Bank indicators
+. 
+. // Example 1: GDP per capita across African countries
+. worldstat Africa, stat(GDP) year(2009) cname
+. 
+. // Example 2: Global maternal fertility with custom colors
+. worldstat world, stat(FERT) fcolor(Pastel2)
+. 
+. // Example 3: Custom indicator using World Bank code
+. worldstat Africa, stat(SI.POV.DDAY) year(2015)
+. 
+. // The worldstat module automatically retrieves data via wbopendata
+. // and creates publication-ready choropleth maps showing:
+. //   - Geographic variation across countries and regions
+. //   - Temporal trends over multiple years
+. //   - Access to 5,000+ World Bank indicators
+. //   - Minimal disk space (data accessed remotely)
+. //   - Reproducible analysis workflows

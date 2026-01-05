@@ -1,0 +1,27 @@
+. // Example: Creating a publication-ready scatter plot with poverty and income data
+. // This example demonstrates the workflow for generating figures for the paper.
+. 
+. wbopendata, indicator(SI.POV.DDAY;NY.GDP.PCAP.PP.KD) clear long latest ///
+      linewrap(name) maxlength(40)
+. 
+. local title1 `r(name1_stack)' // Retrieve wrapped indicator name
+. 
+. keep if !missing(si_pov_dday, ny_gdp_pcap_pp_kd)
+. 
+. twoway (scatter si_pov_dday ny_gdp_pcap_pp_kd, msize(small)) ///
+    , title(`title1') ///
+      xtitle("GDP per capita (PPP)") ///
+      ytitle("Poverty headcount (%)") ///
+      note("Source: World Bank Open Data. Latest year: `r(latest_year)'")
+. 
+. graph export "figs/scatter_poverty_income.pdf", replace
+file figs/scatter_poverty_income.pdf saved as PDF
+. 
+. // To include in LaTeX paper, use:
+. 
+. \begin{figure}[htbp]
+. \centering
+. \includegraphics[width=0.8\textwidth]{figs/scatter_poverty_income.pdf}
+. \caption{Poverty headcount ratio vs GDP per capita, with regional aggregates}
+. \label{fig:scatter}
+. \end{figure}
