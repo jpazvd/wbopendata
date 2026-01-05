@@ -86,9 +86,14 @@ _archive/
 !/paper/*.cls
 !/paper/*.do
 !/paper/*.pdf
+!/paper/*.md
 !/paper/**/*.tex
 !/paper/**/*.log.tex
+!/paper/**/*.do
+!/paper/**/*.md
 !/paper/sjlogs/
+!/paper/do/
+!/paper/docs/
 
 # Ignore LaTeX temporary files
 *.aux
