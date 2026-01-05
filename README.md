@@ -47,15 +47,15 @@ The access to this databases is made possible by the World Bank's Open Data Init
 ssc install wbopendata, replace
 ```
 
-### From GitHub (Latest Version - v17.4)
+### From GitHub (Latest Version - v17.7)
 ```stata
 net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main/src") replace
 ```
 
 ### From GitHub (Specific Release)
 ```stata
-* Install v17.4 specifically
-net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v17.4/src") replace
+* Install v17.7 specifically
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v17.7/src") replace
 ```
 
 ### From Local Clone
@@ -82,8 +82,22 @@ wbopendata, topics(4) clear
 * Get country metadata
 wbopendata, match(countrycode) full
 
-* NEW in v17.4: Graph-ready metadata with linewrap
+* NEW in v17.6: Graph-ready metadata with linewrap
 wbopendata, indicator(SP.DYN.LE00.IN) clear linewrap(name description note) maxlength(50)
+
+* Get text with newline characters for graph notes
+wbopendata, indicator(SP.DYN.LE00.IN) clear linewrap(description) linewrapformat(newline)
+local desc_newline = r(description1_newline)
+
+* NEW in v17.7: Basic country context variables are now included by default
+* Every download now includes: region, regionname, adminregion, adminregionname,
+* incomelevel, incomelevelname, lendingtype, lendingtypename
+wbopendata, indicator(NY.GDP.MKTP.CD) clear long
+desc  // Shows 12 variables including the 8 basic metadata variables
+
+* Use nobasic to suppress default country context variables
+wbopendata, indicator(NY.GDP.MKTP.CD) clear long nobasic
+desc  // Shows only 4 core variables
 ```
 
 ## Documentation
@@ -95,6 +109,9 @@ wbopendata, indicator(SP.DYN.LE00.IN) clear linewrap(name description note) maxl
 | **[Do File Examples](doc/examples/)** | Runnable Stata code files |
 | **[Help File](doc/wbopendata.md)** | Full documentation with code output |
 | **[Test Protocol](qa/test_protocol.md)** | Testing checklist for contributors |
+| **[Testing Guide](qa/TESTING_GUIDE.md)** | Testing best practices and philosophy |
+| **[Changelog](CHANGELOG.md)** | Version history and changes |
+| **[Release Notes](RELEASE_NOTES.md)** | Detailed release notes |
 | **[Improvement Plan](doc/plans/IMPROVEMENT_PLAN.md)** | Future development roadmap |
 
 > 💡 **Tip:** In Stata, type `help wbopendata` for built-in documentation.

@@ -85,4 +85,4 @@ Pre-generated log files from running the examples are available in the [output/]
 
 ---
 
-*Last updated: December 2025 (v17.1)*
+*Last updated: January 2026 (v17.7)*
