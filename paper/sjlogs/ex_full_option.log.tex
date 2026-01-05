@@ -1,0 +1,39 @@
+
+. 
+. wbopendata, indicator(NY.GDP.MKTP.CD) country(BRA) clear full ///
+    linewrap(name note) maxlength(35 70)
+
+    Metadata for indicator NY.GDP.MKTP.CD
+--------------------------------------------------------------------------------
+    Name: GDP (current US$)
+--------------------------------------------------------------------------------
+    Collection: 2 World Development Indicators
+--------------------------------------------------------------------------------
+    Description: Gross domestic product is the total income earned through
+    the production of goods and services in an economic territory during an
+    accounting period. It can be measured in three different ways: using
+    either the expenditure approach, the income approach, or the production
+    approach. This indicator is expressed in current prices, meaning no
+    adjustment has been made to account for price changes over time. This
+    indicator is expressed in United States dollars.
+--------------------------------------------------------------------------------
+    Note: Country official statistics, National Statistical Organizations
+    and or Central Banks;
+--------------------------------------------------------------------------------
+    Topic(s):  ; 3 Economy and Growth
+--------------------------------------------------------------------------------
+
+
+
+. list countrycode countryname region* incomelevel* in 1, clean noobs abbreviate(16)
+
+    countrycode   countryname   region   region_iso2   regionname                   incomelevel   incomelevel_iso2   incomelevelname
+            BRA        Brazil      LCN            ZJ   Latin America and Caribbean           UMC                 XT   Upper middle income
+
+. list lendingtype* capital latitude longitude in 1, clean noobs abbreviate(16)
+
+    lendingtype   lendingtype_iso2   lendingtypename    capital   latitude   longitude
+            IBD                 XF              IBRD   Brasilia   -15.7801     -47.9292
+
+. 
+--------------------------------------------------------------------------------
