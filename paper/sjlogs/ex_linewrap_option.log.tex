@@ -1,7 +1,5 @@
-
-. 
 . wbopendata, indicator(SI.POV.DDAY;NY.GDP.PCAP.PP.KD) clear long latest ///
-    linewrap(name note) maxlength(35 70)
+      linewrap(name note) maxlength(35 70)
 
     Metadata for indicator SI.POV.DDAY
 --------------------------------------------------------------------------------
@@ -29,8 +27,6 @@
     Topic(s): 11 Poverty ; 2 Aid Effectiveness ; 19 Climate Change
 --------------------------------------------------------------------------------
 
-
-
     Metadata for indicator NY.GDP.PCAP.PP.KD
 --------------------------------------------------------------------------------
     Name: GDP per capita, PPP (constant 2021 international $)
@@ -50,8 +46,6 @@
     Topic(s):
 --------------------------------------------------------------------------------
 
-
-
 . di as text "latest year: "
 latest year: 2024
 
@@ -61,19 +55,13 @@ countries: 183
 . di as text "avg year: "
 avg year:    2019.9
 
-. 
-. // Generate a simple scatter plot using the wrapped title for the first indicator
+. * Generate a simple scatter plot using the wrapped title for the first indicat
+      or
 . local ttl `"Poverty headcount ($3/day, 2021 PPP)"'
 
 . keep if !missing(si_pov_dday, ny_gdp_pcap_pp_kd)
 (0 observations deleted)
 
 . twoway (scatter si_pov_dday ny_gdp_pcap_pp_kd, msize(small)) ///
-        , title(Poverty headcount ($3/day, 2021 PPP)) ///
-            note("Source: World Bank Open Data")
-
-. graph export "figs/wbopendata_linewrap_example.pdf", replace
-file figs/wbopendata_linewrap_example.pdf saved as PDF format
-
-. 
---------------------------------------------------------------------------------
+      , title(Poverty headcount ($3/day, 2021 PPP)) ///
+      note("Source: World Bank Open Data")
