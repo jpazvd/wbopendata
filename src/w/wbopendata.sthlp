@@ -1,9 +1,9 @@
 {smcl}
 {hline}
-{* 3Jan2026  }{...}
+{* 4Jan2026  }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
-{right: {bf:version 17.0 (geographic options fix)}}
+{right: {bf:version 17.7.1 (fixed multi-indicator latest)}}
 {hline}
 
 {title:Title}
@@ -35,6 +35,8 @@
 {synopt :{opt year}{cmd:(}{it:date1}{cmd::}{it:date2}{cmd:)}} time interval (in yearly, quarterly or monthly depending on the series).{p_end}
 {synopt :{opt language}{cmd:(}{it:language}{cmd:)}} select the language.{p_end}
 {synopt :{opt full}} adds full list of country attributes.{p_end}
+{synopt :{opt basic}} adds basic country context variables (default as of v17.7).{p_end}
+{synopt :{opt nobasic}} suppresses the default basic country context variables.{p_end}
 {synopt :{opt iso}} adds 2 digits ISO codes to country attributes.{p_end}
 {synopt :{opt geo}} adds geographic metadata (capital city name, latitude, and longitude).{p_end}
 {synopt :{opt capital}} adds capital city name to country attributes.{p_end}
@@ -50,9 +52,10 @@
 {synopt :{opt match(varname)}} merge {help wbopendata##attributes:country attributes} into an existing dataset containing WDI (3 digit) countrycodes. Cannot be used with the data download options.{p_end}
 {synopt :{opt projection}} World Bank {help wbopendata_sourceid_indicators40##sourceid_40:population estimates and projections} (HPP) .{p_end}
 {synopt :{opt metadataoffline}} download all indicator metadata informaiton and generates 71 sthlp files in your local machine.{p_end}
+{synopt :{opt describe}} display indicator metadata only (no data download). Requires {opt indicator()}. Supports {opt linewrap()}, {opt maxlength()}, and {opt linewrapformat()} when present.{p_end}
 {synopt :{opt linewrap(fields)}} wrap metadata text for graph titles. Fields: name, description, note, source, topic, or all.{p_end}
 {synopt :{opt maxlength(# [# ...])}} maximum characters per line for linewrap. Single value (default 50) or multiple values matching linewrap field order.{p_end}
-{synopt :{opt linewrapformat(fmt)}} output format: stack (default) or all.{p_end}
+{synopt :{opt linewrapformat(fmt)}} output format: stack (default), newline, nlines, lines, or all.{p_end}
 {synoptline}
 {p 4 6 2}
 {cmd:wbopendata} requires a connection to the internet and supports the Stata dialogue function ({dialog wbopendata}).{p_end}
@@ -162,6 +165,10 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {synopt :{opt full}} adds full list of country attributes.{p_end}
 
+{synopt :{opt basic}} adds basic country context variables: region, regionname, adminregion, adminregionname, incomelevel, incomelevelname, lendingtype, lendingtypename. This is the {bf:default behavior} as of v17.7.{p_end}
+
+{synopt :{opt nobasic}} suppresses the default basic country context variables. Use this option when you only want the core data without country classification metadata.{p_end}
+
 {synopt :{opt iso}} adds only 2 digits ISO codes to country attributes.{p_end}
 
 {synopt :{opt geo}} adds geographic metadata variables including capital city name, latitude, and longitude coordinates for each country.{p_end}
@@ -209,7 +216,10 @@ sets name to 40 chars, description to 100 chars, and note to 80 chars. If fewer 
 the last value is used for remaining fields.{p_end}
 
 {synopt :{opt linewrapformat(fmt)}} controls output format for linewrap. Options:{p_end}
-{p 8 12 2}- {opt stack}: (default) returns only {cmd:_stack} format for {cmd:title()}{p_end}
+{p 8 12 2}- {opt stack}: (default) returns only {cmd:r({it:field}1_stack)} format for {cmd:title()}{p_end}
+{p 8 12 2}- {opt newline}: returns {cmd:r({it:field}1_newline)} with embedded newline characters{p_end}
+{p 8 12 2}- {opt nlines}: returns {cmd:r({it:field}1_nlines)} scalar with line count{p_end}
+{p 8 12 2}- {opt lines}: returns {cmd:r({it:field}1_line1)}, {cmd:r({it:field}1_line2)}, etc. for each line{p_end}
 {p 8 12 2}- {opt all}: returns all formats ({cmd:_stack}, {cmd:_newline}, {cmd:_nlines}, {cmd:_line1}, etc.){p_end}
 	
 {marker attributes}{...}
@@ -437,6 +447,12 @@ the last value is used for remaining fields.{p_end}
 
 {p 8 12}{stata "wbopendata, indicator(NY.GDP.PCAP.KD) full geo clear" :. wbopendata, indicator(NY.GDP.PCAP.KD) full geo clear}{p_end}
 
+{p 8 12}{stata "wbopendata, indicator(NY.GDP.MKTP.CD) year(2020) long clear" :. wbopendata, indicator(NY.GDP.MKTP.CD) year(2020) long clear} (default: includes basic country context){p_end}
+
+{p 8 12}{stata "wbopendata, indicator(NY.GDP.MKTP.CD) year(2020) long nobasic clear" :. wbopendata, indicator(NY.GDP.MKTP.CD) year(2020) long nobasic clear} (no country metadata){p_end}
+
+{pstd}{ul:{bf:Example: Geographic Metadata}}{p_end}
+
 {cmd}
 	. wbopendata, indicator(SP.POP.TOTL) clear
 	. wbopendata, indicator(SP.POP.TOTL) geo clear
@@ -550,6 +566,7 @@ the last value is used for remaining fields.{p_end}
            title(`r(name1_stack)') ///
            subtitle("Brazil") ///
            ytitle("% of population")
+{txt}      ({stata "wbopendata_examples example_linewrap":click to run})
 
 {p 4 4 2}Use different maxlength values for different fields:{p_end}
 
@@ -579,6 +596,20 @@ the last value is used for remaining fields.{p_end}
            subtitle("`subtitle'") ///
            note("Sources: `r(sourcecite1)'; `r(sourcecite2)'")
 .     * subtitle displays: "Latest Available Year, 186 Countries (avg year 2019.6)"
+
+{pstd}{ul:{bf:Example 7: Default basic country context variables (v17.7)}}{p_end}
+
+{p 4 4 2}As of v17.7, wbopendata adds 8 basic country context variables by default: region, regionname, adminregion, adminregionname, incomelevel, incomelevelname, lendingtype, lendingtypename. Use {opt nobasic} to suppress them:{p_end}
+
+{cmd}
+.     * Default behavior - includes basic context variables
+.     wbopendata, indicator(NY.GDP.MKTP.CD) year(2020) long clear
+.     describe, short   // Shows 12 variables
+.     
+.     * Suppress basic variables with nobasic
+.     wbopendata, indicator(NY.GDP.MKTP.CD) year(2020) long nobasic clear  
+.     describe, short   // Shows 4 variables
+{txt}      ({stata "wbopendata_examples example_basic":click to run})
 
 {marker disclaimer}{...}
 {title:Disclaimer}

@@ -1,0 +1,7 @@
+================================================================================
+WBOPENDATA TEST HISTORY
+================================================================================
+This file records all test runs for wbopendata package.
+Each entry shows: date/time, version tested, Stata version, and results.
+================================================================================
+
