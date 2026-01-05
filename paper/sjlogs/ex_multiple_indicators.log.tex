@@ -1,7 +1,5 @@
-
-. 
 . wbopendata, indicator(SI.POV.DDAY;NY.GDP.PCAP.PP.KD) clear long ///
-    linewrap(name note) maxlength(35 70)
+      linewrap(name note) maxlength(35 70)
 
     Metadata for indicator SI.POV.DDAY
 --------------------------------------------------------------------------------
@@ -29,8 +27,6 @@
     Topic(s): 11 Poverty ; 2 Aid Effectiveness ; 19 Climate Change
 --------------------------------------------------------------------------------
 
-
-
     Metadata for indicator NY.GDP.PCAP.PP.KD
 --------------------------------------------------------------------------------
     Name: GDP per capita, PPP (constant 2021 international $)
@@ -50,7 +46,27 @@
     Topic(s):
 --------------------------------------------------------------------------------
 
+. describe
 
-
-. 
+ Observations:        17,290
+    Variables:            13                  5 Jan 2026 14:06
 --------------------------------------------------------------------------------
+Variable      Storage   Display    Value
+    name         type    format    label      Variable label
+--------------------------------------------------------------------------------
+countrycode     str3    %9s                   Country Code
+countryname     str75   %75s                  Country Name
+region          str3    %9s                   Region Code
+regionname      str51   %51s                  Region Name
+adminregion     str3    %9s                   Administrative Region Code
+adminregionname str75   %75s                  Administrative Region Name
+incomelevel     str3    %9s                   Income Level Code
+incomelevelname str19   %19s                  Income Level Name
+lendingtype     str3    %9s                   Lending Type Code
+lendingtypename str14   %14s                  Lending Type Name
+year            int     %9.0g                 Year
+si_pov_dday     float   %9.0g                 SI.POV.DDAY
+ny_gdp_pcap_p~d float   %9.0g                 NY.GDP.PCAP.PP.KD
+--------------------------------------------------------------------------------
+Sorted by: countrycode  year
+     Note: Dataset has changed since last saved.

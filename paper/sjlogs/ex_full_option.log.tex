@@ -1,7 +1,5 @@
-
-. 
 . wbopendata, indicator(NY.GDP.MKTP.CD) country(BRA) clear full ///
-    linewrap(name note) maxlength(35 70)
+      linewrap(name note) maxlength(35 70)
 
     Metadata for indicator NY.GDP.MKTP.CD
 --------------------------------------------------------------------------------
@@ -21,19 +19,3 @@
     and or Central Banks;
 --------------------------------------------------------------------------------
     Topic(s):  ; 3 Economy and Growth
---------------------------------------------------------------------------------
-
-
-
-. list countrycode countryname region* incomelevel* in 1, clean noobs abbreviate(16)
-
-    countrycode   countryname   region   region_iso2   regionname                   incomelevel   incomelevel_iso2   incomelevelname
-            BRA        Brazil      LCN            ZJ   Latin America and Caribbean           UMC                 XT   Upper middle income
-
-. list lendingtype* capital latitude longitude in 1, clean noobs abbreviate(16)
-
-    lendingtype   lendingtype_iso2   lendingtypename    capital   latitude   longitude
-            IBD                 XF              IBRD   Brasilia   -15.7801     -47.9292
-
-. 
---------------------------------------------------------------------------------
