@@ -1,7 +1,7 @@
 /*******************************************************************************
 * wbopendata: Advanced Usage Examples
-* Version: 17.2
-* Date: December 2025
+* Version: 17.7
+* Date: January 2026
 * Author: João Pedro Azevedo
 *
 * Documentation: https://github.com/jpazvd/wbopendata
@@ -149,7 +149,7 @@ di "Label: `r(varlabel1)'"
 di "Countries: `r(N_country)'"
 
 *===============================================================================
-* EXAMPLE 7: Batch download multiple topics
+* EXAMPLE 7: Batch download multiple indicators
 *===============================================================================
 
 * Create empty dataset to append results
@@ -157,17 +157,18 @@ clear
 tempfile master
 save `master', emptyok
 
-* Loop through topics of interest (using year instead of latest - topics doesn't support latest)
-foreach topic in 1 4 8 {
-    wbopendata, topics(`topic') year(2022) clear long
-    gen topic_id = `topic'
+* Loop through indicators of interest
+foreach indicator in NY.GDP.MKTP.CD SP.POP.TOTL SH.DYN.MORT {
+    wbopendata, indicator(`indicator') year(2022) clear long nometadata
+    gen indicatorcode = "`indicator'"
     append using `master'
     save `master', replace
 }
 
 * View combined dataset
 use `master', clear
-tab topic_id
+describe
+tab indicatorcode
 
 *===============================================================================
 * EXAMPLE 8: Creating maps (requires spmap)
@@ -214,13 +215,16 @@ wbopendata, indicator(`indicator_list') clear long
 wbopendata, indicator(SI.POV.DDAY;SI.POV.LMIC;SI.POV.UMIC) ///
     country(BRA;CHN;IND;NGA;ETH) year(2015:2022) clear long
 
-* Reshape for table format
-reshape wide @, i(countrycode countryname) j(indicatorcode) string
+* The data already has indicators as separate columns (si_pov_dday, si_pov_lmic, si_pov_umic)
+* Reshape from long (by year) to wide (years as columns) for reporting
+describe
+keep if year == 2019   // Keep single year for a clean table
+keep countrycode countryname si_pov_*
 
 * Format and export to output/data/
 capture mkdir "output/data"
-format *SI_POV* %5.1f
-export excel countryname *SI_POV* using "output/data/poverty_table.xlsx", ///
+format si_pov* %5.1f
+export excel countryname si_pov_* using "output/data/poverty_table.xlsx", ///
     firstrow(varlabels) replace
 
 *===============================================================================
