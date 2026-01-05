@@ -192,7 +192,60 @@ list lendingtype* capital latitude longitude in 1, clean noobs abbreviate(16)
 log close _snippet
 
 /*------------------------------------------------------------------------------
-    Example 6: Describe output showing variable structure
+    Example 7: Integration with worldstat visualization tool
+    
+    This example demonstrates how wbopendata integrates seamlessly with other
+    World Bank data visualization tools. The worldstat module (user-written ado)
+    visualizes world development data geographically and temporally using World
+    Bank indicators. worldstat includes built-in statistics (GDP, maternal
+    mortality, schooling) and can incorporate any of 5,000+ World Bank indicators
+    via wbopendata. All maps and data are accessed remotely by default.
+    
+    worldstat shows both geographic and temporal variation in macroeconomic and
+    microeconomic statistics with minimal disk space requirements.
+    
+    Reference: Clarke, Damian (University of Chile). worldstat visualization
+    tool for World Bank development indicators.
+    Available at: http://data.worldbank.org/indicator/all
+------------------------------------------------------------------------------*/
+
+di as text "Generating: ex_worldstat_integration.tex"
+
+cap log close _snippet
+log using "`logs_dir'/ex_worldstat_integration.tex", text replace name(_snippet)
+
+di as text "Example 1: Visualizing GDP per capita across African countries"
+di as text "Command:"
+di as text "  worldstat Africa, stat(GDP) year(2009) cname"
+di as text ""
+di as text "This creates a choropleth map showing geographic variation in GDP"
+di as text "per capita across all African countries for the year 2009."
+di as text ""
+di as text "Example 2: Global maternal fertility visualization with custom colors"
+di as text "Command:"
+di as text "  worldstat world, stat(FERT) fcolor(Pastel2)"
+di as text ""
+di as text "This visualizes global fertility rates using the Pastel2 color palette,"
+di as text "showing temporal and geographic variation worldwide."
+di as text ""
+di as text "Example 3: Custom indicator integration with worldstat and wbopendata"
+di as text "With wbopendata, you can specify any World Bank indicator code:"
+di as text "  worldstat Africa, stat(SI.POV.DDAY) year(2015)"
+di as text ""
+di as text "This would visualize poverty headcount ratios across Africa using data"
+di as text "retrieved automatically via wbopendata from the World Bank Data Bank."
+di as text ""
+di as text "Advantages of worldstat + wbopendata integration:"
+di as text "  - Automatic data retrieval from World Bank (5,000+ indicators)"
+di as text "  - Publication-ready geographic visualizations"
+di as text "  - Temporal variation analysis across countries"
+di as text "  - Minimal computational resources (remote data access)"
+di as text "  - Reproducible analysis workflow"
+
+log close _snippet
+
+/*------------------------------------------------------------------------------
+    Example 8: Describe output showing variable structure
 ------------------------------------------------------------------------------*/
 
 di as text "Generating: ex_describe.tex"
@@ -209,7 +262,7 @@ describe countrycode countryname region regionname year ///
 log close _snippet
 
 /*------------------------------------------------------------------------------
-    Example 7: Update metadata query
+    Example 9: Update metadata query
 ------------------------------------------------------------------------------*/
 
 di as text "Generating: ex_update.tex"
@@ -222,7 +275,7 @@ wbopendata, update query
 log close _snippet
 
 /*------------------------------------------------------------------------------
-    Example 8: Missing/invalid indicator or offline session
+    Example 10: Missing/invalid indicator or offline session
 ------------------------------------------------------------------------------*/
 
 di as text "Generating: ex_indicator_missing.tex"
@@ -236,7 +289,7 @@ di as text "Captured return code (expected nonzero): `_rc'"
 log close _snippet
 
 /*------------------------------------------------------------------------------
-    Example 9: Deprecated/archived indicator
+    Example 11: Deprecated/archived indicator
 ------------------------------------------------------------------------------*/
 
 di as text "Generating: ex_indicator_deprecated.tex"
@@ -257,8 +310,8 @@ di as text _n "Cleaning log headers..."
 
 // Clean each log file to remove Stata log header/footer
 foreach f in ex_single_indicator ex_multiple_indicators ex_latest_option ///
-             ex_linewrap_option ex_scatter_figure ex_full_option ex_describe ex_update ///
-             ex_indicator_missing ex_indicator_deprecated {
+             ex_linewrap_option ex_scatter_figure ex_full_option ex_worldstat_integration ///
+             ex_describe ex_update ex_indicator_missing ex_indicator_deprecated {
     
     local infile "`logs_dir'/`f'.tex"
     tempfile tmpfile
@@ -340,12 +393,16 @@ di as text ""
 di as text "For figures (with includegraphics):"
 di as text "  \begin{figure}[htbp]"
 di as text "    \centering"
-di as text "    \includegraphics[width=0.8\textwidth]{../doc/images/scatter_poverty_income.pdf}"
+di as text "    \includegraphics[width=0.8\textwidth]{figs/scatter_poverty_income.pdf}"
 di as text "    \caption{Figure caption text}"
 di as text "    \label{fig:label}"
 di as text "  \end{figure}"
 di as text ""
 di as text "Reference: stata.tex lines 457-515 for detailed LaTeX figure documentation"
+di as text ""
+di as text "Integration examples:"
+di as text "  - Example 5 (ex_scatter_figure): Data retrieval + graph creation + LaTeX embedding"
+di as text "  - Example 7 (ex_worldstat_integration): wbopendata with worldstat visualization tool"
 
 di as text _n "Done!"
 exit
