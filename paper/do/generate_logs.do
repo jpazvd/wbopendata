@@ -4,21 +4,35 @@
     This do-file runs ACTUAL Stata commands and captures output to .tex files
     for inclusion in the wbopendata Stata Journal paper.
     
-    The output files contain ONLY raw Stata output (no LaTeX wrappers).
-    The main paper uses fancyvrb's \VerbatimInput to include them:
+    OUTPUT FORMAT:
+    - Log files contain RAW Stata output (no LaTeX wrappers)
+    - Main paper uses fancyvrb's \VerbatimInput to include them:
         \VerbatimInput{sjlogs/filename.tex}
-    
-    The fvset configuration in the paper preamble matches stlog formatting:
+    - fvset configuration in paper preamble matches stlog formatting:
         \usepackage{fancyvrb}
         \fvset{fontsize=\fontsize{8}{9}\selectfont, xleftmargin=12pt}
     
-    Output: paper/sjlogs/.tex files
+    FIGURE GENERATION & LATEX EMBEDDING:
+    - Examples that generate figures use graph export (PDF preferred, see stata.tex)
+    - Graph files saved to ../doc/images/ for inclusion in paper
+    - LaTeX figure environment pattern (from stata.tex lines 457-515):
+        \begin{figure}[htbp]
+          \centering
+          \includegraphics[width=0.8\textwidth]{../doc/images/filename.pdf}
+          \caption{Caption text}
+          \label{fig:label}
+        \end{figure}
+    - Requirements: PDF format, 300 dpi minimum, grayscale, use sj scheme
+    - See Example 5 (ex_scatter_figure) for concrete figure generation pattern
+    
+    Output Location: paper/sjlogs/.tex files and paper/docs/images/*.pdf
     
     Usage: From the paper/ directory, run:
         do generate_logs.do
     Each example prints a short paragraph before the commands so the LaTeX
-    snippets have self-contained context. Where applicable, examples also
-    generate a figure export to keep the paper figures reproducible.
+    snippets have self-contained context. Examples that generate figures show
+    both the Stata commands (graph creation) and LaTeX code (embedding) needed
+    for reproducibility.
     
     Author: João Pedro Azevedo
     Date: January 2026
@@ -111,7 +125,55 @@ graph export "`fig_dir'/wbopendata_linewrap_example.pdf", replace
 log close _snippet
 
 /*------------------------------------------------------------------------------
-    Example 5: Country attributes with full option
+    Example 5: Scatter plot figure with LaTeX embedding
+    
+    This example demonstrates how to generate and document a publication-ready
+    figure. It shows both the Stata commands to create the graph AND the LaTeX
+    code needed to embed it in the paper.
+    
+    The figure is embedded in the paper using \begin{figure}...\includegraphics{}
+    ... \end{figure} LaTeX environment (see stata.tex lines 457-515 for details).
+    Requirements: PDF preferred (not EPS), 300 dpi minimum, grayscale, sj scheme.
+------------------------------------------------------------------------------*/
+
+di as text "Generating: ex_scatter_figure.tex"
+
+cap log close _snippet
+log using "`logs_dir'/ex_scatter_figure.tex", text replace name(_snippet)
+
+// Retrieve poverty and income data with wrapped metadata
+wbopendata, indicator(SI.POV.DDAY;NY.GDP.PCAP.PP.KD) ///
+    clear long latest linewrap(name) maxlength(40)
+
+// Store wrapped title from returned metadata for graph title
+local ttl1 `r(name1_stack)'
+
+// Create the scatter plot visualization
+keep if !missing(si_pov_dday, ny_gdp_pcap_pp_kd)
+twoway (scatter si_pov_dday ny_gdp_pcap_pp_kd, msize(small)) ///
+    , title(`ttl1') ///
+      xtitle("GDP per capita (PPP)") ///
+      ytitle("Poverty headcount (%)") ///
+      note("Source: World Bank Open Data. Latest available year: `r(latest_year)'")
+
+// Export to PDF for publication
+graph export "`fig_dir'/scatter_poverty_income.pdf", replace
+
+di as text _n "Figure generated and exported to PDF."
+di as text "To embed in LaTeX, use:"
+di as text ""
+di as text "\begin{figure}[htbp]"
+di as text "\centering"
+di as text "\includegraphics[width=0.8\textwidth]{scatter_poverty_income.pdf}"
+di as text "\caption{Relationship between poverty headcount and GDP per capita}"
+di as text "\label{fig:scatter}"
+di as text "\end{figure}"
+di as text ""
+
+log close _snippet
+
+/*------------------------------------------------------------------------------
+    Example 6: Country attributes with full option
 ------------------------------------------------------------------------------*/
 
 di as text "Generating: ex_full_option.tex"
@@ -121,7 +183,10 @@ log using "`logs_dir'/ex_full_option.tex", text replace name(_snippet)
 
 wbopendata, indicator(NY.GDP.MKTP.CD) country(BRA) clear full ///
     linewrap(name note) maxlength(35 70)
-list countrycode countryname region* incomelevel* in 1, clean noobs abbreviate(16)
+
+list countrycode countryname region* in 1, clean noobs abbreviate(16)
+list countrycode countryname incomelevel* in 1, clean noobs abbreviate(16)
+list countrycode countryname admn* in 1, clean noobs abbreviate(16)
 list lendingtype* capital latitude longitude in 1, clean noobs abbreviate(16)
 
 log close _snippet
@@ -192,7 +257,7 @@ di as text _n "Cleaning log headers..."
 
 // Clean each log file to remove Stata log header/footer
 foreach f in ex_single_indicator ex_multiple_indicators ex_latest_option ///
-             ex_linewrap_option ex_full_option ex_describe ex_update ///
+             ex_linewrap_option ex_scatter_figure ex_full_option ex_describe ex_update ///
              ex_indicator_missing ex_indicator_deprecated {
     
     local infile "`logs_dir'/`f'.tex"
@@ -261,11 +326,26 @@ foreach f in ex_single_indicator ex_multiple_indicators ex_latest_option ///
 
 di as text _n "=============================================="
 di as text "All log snippets generated in: `logs_dir'/"
+di as text "All figures exported to: `fig_dir'/"
 di as text "=============================================="
-di as text "Files created:"
+di as text "Code examples generated:"
 dir "`logs_dir'/*.tex"
-di as text _n "Usage in LaTeX paper (with fancyvrb):"
-di as text "  \VerbatimInput{sjlogs/ex_single_indicator.tex}"
+di as text _n "Figures generated:"
+dir "`fig_dir'/*.pdf"
+di as text _n "Usage in LaTeX paper:"
+di as text ""
+di as text "For code examples (with fancyvrb VerbatimInput):"
+di as text "  \VerbatimInput{sjlogs/ex_single_indicator.log.tex}"
+di as text ""
+di as text "For figures (with includegraphics):"
+di as text "  \begin{figure}[htbp]"
+di as text "    \centering"
+di as text "    \includegraphics[width=0.8\textwidth]{../doc/images/scatter_poverty_income.pdf}"
+di as text "    \caption{Figure caption text}"
+di as text "    \label{fig:label}"
+di as text "  \end{figure}"
+di as text ""
+di as text "Reference: stata.tex lines 457-515 for detailed LaTeX figure documentation"
 
 di as text _n "Done!"
 exit
