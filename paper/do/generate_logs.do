@@ -25,7 +25,7 @@
 * - Requirements: PDF format, 300 dpi minimum, grayscale, use sj scheme
 * - See Example 5 (ex_scatter_figure) for concrete figure generation pattern
 * 
-* Output Location: paper/sjlogs/.tex files and paper/docs/images/*.pdf
+* Output Location: paper/sjlogs/ (.tex files) and paper/figs/ (.pdf files)
 * 
 * Usage: From the paper/ directory, run:
 *     do generate_logs.do
@@ -42,15 +42,23 @@ clear all
 set more off
 set linesize 80
 
+* Always start by making sure wbopendata in REPO and in Stata are aligned
+* For development: use net install from local repo
+* For SSC version: use "ssc install wbopendata, replace"
+net install wbopendata, from("C:/GitHub/myados/wbopendata") replace
+
+* Set the paper directory - use absolute path for reliability
+local paper_dir "C:/GitHub/myados/wbopendata/paper"
+cd "`paper_dir'"
+
 * Start logging to the do file directory
 cap log close _main
-log using "do/generate_logs.log", text replace name(_main)
+log using "`paper_dir'/do/generate_logs.log", text replace name(_main)
 
 * Display the start time
 di as text "Script started: " c(current_date) " " c(current_time)
 
-* Set paths - adjust if running from different directory
-local paper_dir "."
+* Set paths
 local logs_dir "`paper_dir'/sjlogs"
 local fig_dir "`paper_dir'/figs"
 
@@ -127,7 +135,7 @@ keep if !missing(si_pov_dday, ny_gdp_pcap_pp_kd)
 twoway (scatter si_pov_dday ny_gdp_pcap_pp_kd, msize(small)) ///
     , title(`ttl') ///
       note("Source: World Bank Open Data")
-graph export "figs/wbopendata_linewrap_example.pdf", replace
+graph export "`fig_dir'/wbopendata_linewrap_example.pdf", replace
 
 log close _snippet
 
@@ -220,24 +228,19 @@ di as text "Generating: ex_worldstat_integration.tex"
 cap log close _snippet
 log using "`logs_dir'/ex_worldstat_integration.tex", text replace name(_snippet)
 
-worldstat Africa, stat(GDP) year(2009) cname
-cap graph export "`fig_dir'/wbopendata_worldstat_africa_gdp.pdf", replace
+* Note: worldstat is optional; skip if not installed
+cap noi worldstat Africa, stat(GDP) year(2009) cname
+if _rc != 0 {
+    di as text "Note: worldstat command not available. Install with: ssc install worldstat"
+}
+cap noi graph export "`fig_dir'/wbopendata_worldstat_africa_gdp.pdf", replace
 
-worldstat world, stat(FERT) fcolor(Pastel2)
-cap graph export "`fig_dir'/wbopendata_worldstat_world_fertility.pdf", replace
-
+cap noi worldstat world, stat(FERT) fcolor(Pastel2)
+cap noi graph export "`fig_dir'/wbopendata_worldstat_world_fertility.pdf", replace
 
 log close _snippet
 
-
-worldstat Africa, stat(GDP) year(2009) cname
-graph export "`fig_dir'/wbopendata_worldstat_africa_gdp.pdf", replace
-graph export "`fig_dir'/wbopendata_worldstat_africa_gdp.png", replace
-
-worldstat world, stat(FERT) fcolor(Pastel2)
-graph export "`fig_dir'/wbopendata_worldstat_world_fertility.pdf", replace
-graph export "`fig_dir'/wbopendata_worldstat_world_fertility.png", replace
-
+di as text "  Completed: ex_worldstat_integration.tex (optional)"
 
 * ==============================================================================
 * Example 8: Describe output showing variable structure
@@ -256,6 +259,8 @@ describe countrycode countryname region regionname year ///
 
 log close _snippet
 
+di as text "  Completed: ex_describe.tex"
+
 * ==============================================================================
 * Example 9: Update metadata query
 * ==============================================================================
@@ -265,9 +270,11 @@ di as text "Generating: ex_update.tex"
 cap log close _snippet
 log using "`logs_dir'/ex_update.tex", text replace name(_snippet)
 
-wbopendata, update query
+cap noi wbopendata, update query
 
 log close _snippet
+
+di as text "  Completed: ex_update.tex"
 
 * ==============================================================================
 * Example 10: Missing/invalid indicator or offline session
@@ -283,6 +290,8 @@ di as text "Captured return code (expected nonzero): `_rc'"
 
 log close _snippet
 
+di as text "  Completed: ex_indicator_missing.tex"
+
 * ==============================================================================
 * Example 11: Deprecated/archived indicator
 * ==============================================================================
@@ -296,6 +305,8 @@ cap noi wbopendata, language(en) indicator(AG.AGR.TRAC.NO) clear
 di as text "Captured return code (expected r(23) archive notice): `_rc'"
 
 log close _snippet
+
+di as text "  Completed: ex_indicator_deprecated.tex"
 
 * ==============================================================================
 * Post-processing: Clean log headers from all files
@@ -372,7 +383,7 @@ foreach f in ex_single_indicator ex_multiple_indicators ex_latest_option ///
 * Create example files for scatter_figure and worldstat manually
 di as text "  Generating: ex_scatter_figure.log.tex"
 tempname fh
-file open `fh' using "sjlogs/ex_scatter_figure.log.tex", write text replace
+file open `fh' using "`logs_dir'/ex_scatter_figure.log.tex", write text replace
 file write `fh' ". // Example: Creating a publication-ready scatter plot with poverty and income data" _n
 file write `fh' ". // This example demonstrates the workflow for generating figures for the paper." _n
 file write `fh' ". " _n

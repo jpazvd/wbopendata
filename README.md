@@ -49,23 +49,29 @@ ssc install wbopendata, replace
 
 ### From GitHub (Latest Version - v17.7)
 ```stata
-net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main/src") replace
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main") replace
 ```
 
 ### From GitHub (Specific Release)
 ```stata
 * Install v17.7 specifically
-net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v17.7/src") replace
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v17.7") replace
 ```
 
 ### From Local Clone
 ```stata
-* Windows
-net install wbopendata, from("C:/GitHub/myados/wbopendata/src") replace
+* Windows - install from repo root (pkg references src/ paths)
+net install wbopendata, from("C:/GitHub/myados/wbopendata") replace
 
 * Mac/Linux
-net install wbopendata, from("/Users/username/GitHub/wbopendata/src") replace
+net install wbopendata, from("/Users/username/GitHub/wbopendata") replace
 ```
+
+> **Note:** This repo maintains two `wbopendata.pkg` files:
+> - `wbopendata.pkg` (root): For GitHub/local `net install` - uses `src/` paths
+> - `ssc/wbopendata.pkg`: For SSC submission - uses flat paths (included in zip)
+>
+> See [ssc/README.md](ssc/README.md) for details on the two-package architecture.
 
 ## Quick Start
 
