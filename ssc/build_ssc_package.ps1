@@ -1,6 +1,9 @@
 # Build SSC Package for wbopendata
-# Creates ssc_wbopendata.zip with all files listed in wbopendata.pkg
+# Creates ssc_wbopendata.zip with all files listed in ssc/wbopendata.pkg
 # 
+# IMPORTANT: This script uses ssc/wbopendata.pkg (flat paths) NOT the root
+# wbopendata.pkg (which has src/ paths for GitHub net install)
+#
 # Usage: .\build_ssc_package.ps1
 # Output: ssc_wbopendata.zip (in current directory)
 
@@ -14,10 +17,10 @@ $tempDir = "ssc_package_temp"
 if (Test-Path $tempDir) { Remove-Item $tempDir -Recurse -Force }
 New-Item -ItemType Directory -Path $tempDir | Out-Null
 
-# Copy package metadata files
+# Copy package metadata files (use SSC versions with flat paths)
 Write-Host "`nCopying package metadata..." -ForegroundColor Cyan
-Copy-Item "stata.toc" "$tempDir\" -Force
-Copy-Item "wbopendata.pkg" "$tempDir\" -Force
+Copy-Item "ssc\stata.toc" "$tempDir\" -Force
+Copy-Item "ssc\wbopendata.pkg" "$tempDir\" -Force
 
 # Copy main wbopendata files from src/w/
 Write-Host "Copying main wbopendata files..." -ForegroundColor Cyan

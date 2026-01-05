@@ -2,8 +2,24 @@
 
 This folder contains files for SSC (Statistical Software Components) package submission.
 
+## Two-Package Architecture
+
+This repo maintains **two separate `wbopendata.pkg` files**:
+
+| File | Purpose | File Paths |
+|------|---------|------------|
+| `wbopendata.pkg` (root) | GitHub `net install` | Uses `src/` paths (e.g., `f src/w/wbopendata.ado`) |
+| `ssc/wbopendata.pkg` | SSC submission & zip | Flat paths (e.g., `f wbopendata.ado`) |
+
+**Why two files?**
+- GitHub repo organizes source in `src/w/`, `src/_/`, `src/c/`, `src/i/` subdirectories
+- SSC requires flat structure (all files in same directory)
+- The build script flattens the structure when creating the zip
+
 ## Contents
 
+- **wbopendata.pkg** - SSC package definition (flat paths)
+- **stata.toc** - SSC table of contents
 - **ssc_wbopendata.171.zip** - Ready-to-submit package for SSC
 - **build_ssc_package.ps1** - PowerShell script to regenerate the package
 - **submission_email.md** - Template email for Kit Baum
