@@ -1,7 +1,7 @@
 /*******************************************************************************
 * wbopendata: Basic Usage Examples
-* Version: 17.1
-* Date: December 2025
+* Version: 17.7
+* Date: January 2026
 * Author: João Pedro Azevedo
 *
 * Documentation: https://github.com/jpazvd/wbopendata
@@ -45,14 +45,18 @@ sum ny_gdp_mktp_cd sp_pop_totl se_prm_enrr
 * BRICS countries - GDP per capita
 wbopendata, indicator(NY.GDP.PCAP.CD) country(BRA;RUS;IND;CHN;ZAF) clear long
 
-* Simple line graph with high-resolution export
+* Prepare source note using linewrap
+_linewrap, maxlength(90) longstring("Source: World Bank Open Data (wbopendata Stata package). Data: World Bank. Variable code: NY.GDP.PCAP.CD")
+local note1 "`r(line1)'"
+local note2 "`r(line2)'"
+
+* Simple line graph with high-resolution export and wrapped note
 twoway (line ny_gdp_pcap_cd year if countrycode=="BRA", lcolor(green) lwidth(medium)) ///
        (line ny_gdp_pcap_cd year if countrycode=="CHN", lcolor(red) lwidth(medium)) ///
        (line ny_gdp_pcap_cd year if countrycode=="IND", lcolor(orange) lwidth(medium)), ///
        legend(label(1 "Brazil") label(2 "China") label(3 "India") rows(1)) ///
-       title("GDP per capita") ytitle("USD") xtitle("Year")
-_linewrap, maxlength(90) longstring("Source: World Bank Open Data (wbopendata Stata package). Data: World Bank. Variable code: NY.GDP.PCAP.CD")
-graph note "`r(line1)'" "`r(line2)'"
+       title("GDP per capita") ytitle("USD") xtitle("Year") ///
+       note("`note1'" "`note2'", size(vsmall))
 graph export "output/figures/gdp_per_capita_brics.png", width(1200) replace
 
 *===============================================================================
@@ -139,6 +143,25 @@ export excel using "output/data/gdp_data.xlsx", firstrow(variables) replace
 
 * Save as Stata format
 save "output/data/gdp_data.dta", replace
+
+*===============================================================================
+* EXAMPLE 11: Default country context variables (basic)
+*===============================================================================
+* Since v17.7, wbopendata adds 8 country context variables by default:
+*   region, regionname, adminregion, adminregionname,
+*   incomelevel, incomelevelname, lendingtype, lendingtypename
+*
+* This allows immediate analysis by region or income level without extra steps
+
+* Default behavior: country context variables included
+wbopendata, indicator(SP.POP.TOTL) clear long latest
+describe region* income* lending*
+tab regionname
+tab incomelevelname
+
+* You can suppress default context variables with 'nobasic' option
+wbopendata, indicator(SP.POP.TOTL) clear long latest nobasic
+describe                    // Notice: no region/income/lending variables
 
 *===============================================================================
 * End of examples

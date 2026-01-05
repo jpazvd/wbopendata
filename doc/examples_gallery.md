@@ -1,12 +1,12 @@
 # wbopendata Examples Gallery
 
-[← Back to README](../README.md) | [FAQ](FAQ.md) | [Do Files](examples/)
+[← Back to README](../README.md) | [FAQ](FAQ.md) | [Do Files](examples/) | [Changelog](../CHANGELOG.md)
 
 ---
 
 This gallery showcases `wbopendata` capabilities with the exact code used to generate the output figures.
 
-**Version**: 17.4 | **Last Updated**: December 2025
+**Version**: 17.7.1 | **Last Updated**: January 2026
 
 > **Note**: Some examples require user-written commands (`spmap`, `alorenz`). Install them with:
 > ```stata
@@ -18,7 +18,11 @@ This gallery showcases `wbopendata` capabilities with the exact code used to gen
 
 ## Table of Contents
 
-### New in v17.4: Graph Metadata Features
+### New in v17.7: Basic Metadata by Default
+- All downloads now include country context variables (region, income level, etc.)
+- Use `nobasic` to suppress default variables
+
+### New in v17.6: Graph Metadata Features
 1. [Graph Metadata with linewrap()](#graph-metadata-with-linewrap)
 2. [Dynamic Subtitle with r(latest)](#dynamic-subtitle-with-rlatest)
 3. [Layout Option A: Caption + Note](#layout-option-a-caption--note)

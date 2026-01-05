@@ -1,6 +1,6 @@
 # wbopendata Test Protocol
 
-[← Back to README](../README.md) | [FAQ](../doc/FAQ.md) | [Examples](../doc/examples/)
+[← Back to README](../README.md) | [FAQ](../doc/FAQ.md) | [Examples](../doc/examples/) | [Testing Guide](TESTING_GUIDE.md)
 
 ---
 
@@ -8,8 +8,8 @@
 
 This document outlines the testing protocol for validating `wbopendata` functionality before releases.
 
-**Version**: 17.1  
-**Last Updated**: December 2025
+**Version**: 17.7.1  
+**Last Updated**: January 2026
 
 ---
 

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -77,7 +77,7 @@
 
 {synopt:{opt Source Notes}}Economic Fitness (EF) is both a measure of a country’s diversification and ability to produce complex goods on a globally competitive basis.  Countries with the highest levels of EF have capabilities to produce a diverse portfolio of product{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit {browse "https://www.nature.com/articles/srep00723"} and http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growth{p_end}
+{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit {browse "https://www.nature.com/articles/srep00723"} and {browse "http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growth"}{p_end}
 
 
 {synoptline}
@@ -89,8 +89,8 @@
 
 {synopt:{opt Source Notes}}{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit {browse "https://www.nature.com/articles/srep00723"} and http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growth{p_end}
+{synopt:{opt Source Organization}}World Bank, Economic Fitness project. For more details, please visit {browse "https://www.nature.com/articles/srep00723"} and {browse "http://documents.worldbank.org/curated/en/632611498503242103/On-the-predictability-of-growth"}{p_end}
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

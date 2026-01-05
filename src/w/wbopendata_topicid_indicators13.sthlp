@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -49,7 +49,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -62,7 +62,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -75,7 +75,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -88,7 +88,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -101,7 +101,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -114,7 +114,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -127,7 +127,7 @@
 
 {synopt:{opt Source Notes}}Highest marginal tax rate (corporate rate) is the highest rate shown on the schedule of tax rates applied to the taxable income of corporations.{p_end}
 
-{synopt:{opt Source Organization}}KPMG's Corporate and Indirect Tax Rate Survey 2009 (www.kpmg.com), and PricewaterhouseCoopers's Worldwide Tax Summaries Online ({browse "www.pwc.com"}).{p_end}
+{synopt:{opt Source Organization}}KPMG's Corporate and Indirect Tax Rate Survey 2009 (www.kpmg.com), and PricewaterhouseCoopers's Worldwide Tax Summaries Online ({browse "http://www.pwc.com"}).{p_end}
 
 
 {synoptline}
@@ -725,7 +725,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org"}{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}{p_end}
 
 
 {synoptline}
@@ -738,7 +738,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -751,7 +751,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -764,7 +764,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -777,7 +777,7 @@
 
 {synopt:{opt Source Notes}}Good governance is essential for development. It helps countries improve economic growth, build human capital, and strengthen social cohesion. Empirical evidence shows a strong causal relationship between better governance and better developme{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -790,7 +790,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -803,7 +803,7 @@
 
 {synopt:{opt Source Notes}}Primary government expenditures as a proportion of original approved budget measures the extent to which aggregate budget expenditure outturn reflects the amount originally approved, as defined in government budget documentation and fiscal rep{p_end}
 
-{synopt:{opt Source Organization}}Public Expenditure and Financial Accountability (PEFA), World Bank (WB), uri: {browse "https://www.pefa.org/node/5239,"} note: The raw data collected in order to calculate this indicator are the initially Approved and Executed Budgets. Budget Laws of co{p_end}
+{synopt:{opt Source Organization}}Public Expenditure and Financial Accountability (PEFA), World Bank (WB), uri: {browse "https://www.pefa.org/node/5239"}, note: The raw data collected in order to calculate this indicator are the initially Approved and Executed Budgets. Budget Laws of co{p_end}
 
 
 {synoptline}
@@ -933,7 +933,7 @@
 
 {synopt:{opt Source Notes}}Public credit registry coverage reports the number of individuals and firms listed in a public credit registry with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -946,7 +946,7 @@
 
 {synopt:{opt Source Notes}}Strength of legal rights index measures the degree to which collateral and bankruptcy laws protect the rights of borrowers and lenders and thus facilitate lending. The index ranges from 0 to 12, with higher scores indicating that these laws ar{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -959,7 +959,7 @@
 
 {synopt:{opt Source Notes}}Time to prepare and pay taxes is the time, in hours per year, it takes to prepare, file, and pay (or withhold) three major types of taxes: the corporate income tax, the value added or sales tax, and labor taxes, including payroll taxes and soc{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -972,7 +972,7 @@
 
 {synopt:{opt Source Notes}}Tax payments by businesses are the total number of taxes paid by businesses, including electronic filing. The tax is counted as paid once a year even if payments are more frequent.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -985,7 +985,7 @@
 
 {synopt:{opt Source Notes}}Total tax rate measures the amount of taxes and mandatory contributions payable by businesses after accounting for allowable deductions and exemptions as a share of commercial profits. Taxes withheld (such as personal income tax) or collected{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -1496,4 +1496,4 @@
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
