@@ -1,4 +1,4 @@
-# Build SSC Package for wbopendata
+﻿# Build SSC Package for wbopendata
 # Creates ssc_wbopendata.zip with all files listed in ssc/wbopendata.pkg
 # 
 # IMPORTANT: This script uses ssc/wbopendata.pkg (flat paths) NOT the root
@@ -84,27 +84,25 @@ Write-Host "`nTotal files: $fileCount" -ForegroundColor Yellow
 # Create zip file
 Write-Host "`nCreating zip file..." -ForegroundColor Cyan
 $zipPath = "ssc\ssc_wbopendata.171.zip"
-if (Test-Path $zipPath) { 
-    Remove-Item $zipPath -Force 
-}
+if (Test-Path $zipPath) { Remove-Item $zipPath -Force }
 
 Compress-Archive -Path "$tempDir\*" -DestinationPath $zipPath -CompressionLevel Optimal
 
 # Verify zip
 if (Test-Path $zipPath) {
     $size = (Get-Item $zipPath).Length / 1KB
-    Write-Host "`n✓ Package created successfully!" -ForegroundColor Green
+    Write-Host "`nâœ“ Package created successfully!" -ForegroundColor Green
     Write-Host "  Location: $zipPath" -ForegroundColor Cyan
     Write-Host "  Size: $([Math]::Round($size, 2)) KB" -ForegroundColor Cyan
     Write-Host "  Files: $fileCount" -ForegroundColor Cyan
-}
-else {
-    Write-Host "`n✗ Failed to create package" -ForegroundColor Red
+} else {
+    Write-Host "`nâœ— Failed to create package" -ForegroundColor Red
     exit 1
 }
 
 # Clean up temp directory
 Remove-Item $tempDir -Recurse -Force
-Write-Host "`n✓ Cleaned up temporary files" -ForegroundColor Green
+Write-Host "`nâœ“ Cleaned up temporary files" -ForegroundColor Green
 
 Write-Host "`n=== Package ready for SSC submission ===" -ForegroundColor Green
+

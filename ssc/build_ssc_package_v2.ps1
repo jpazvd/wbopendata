@@ -1,11 +1,5 @@
 # Build SSC Package for wbopendata
 # Creates ssc_wbopendata.zip with all files listed in ssc/wbopendata.pkg
-# 
-# IMPORTANT: This script uses ssc/wbopendata.pkg (flat paths) NOT the root
-# wbopendata.pkg (which has src/ paths for GitHub net install)
-#
-# Usage: .\build_ssc_package.ps1
-# Output: ssc_wbopendata.zip (in current directory)
 
 Write-Host "=== Building SSC Package for wbopendata ===" -ForegroundColor Green
 
@@ -83,7 +77,7 @@ Write-Host "`nTotal files: $fileCount" -ForegroundColor Yellow
 
 # Create zip file
 Write-Host "`nCreating zip file..." -ForegroundColor Cyan
-$zipPath = "ssc\ssc_wbopendata.171.zip"
+$zipPath = "ssc\ssc_wbopendata.1771.zip"
 if (Test-Path $zipPath) { 
     Remove-Item $zipPath -Force 
 }
