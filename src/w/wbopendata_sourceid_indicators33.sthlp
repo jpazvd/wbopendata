@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1605,4 +1605,4 @@
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

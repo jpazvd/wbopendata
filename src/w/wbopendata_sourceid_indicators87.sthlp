@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -642,7 +642,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -694,7 +694,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -720,7 +720,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -733,7 +733,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -746,7 +746,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -759,7 +759,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -772,7 +772,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -785,7 +785,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -837,7 +837,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -850,7 +850,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -863,7 +863,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -876,7 +876,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -902,7 +902,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -928,7 +928,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -954,7 +954,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1006,7 +1006,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1019,7 +1019,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1071,7 +1071,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1084,7 +1084,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1097,7 +1097,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1123,7 +1123,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1149,7 +1149,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1310,7 +1310,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1323,7 +1323,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1375,7 +1375,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1401,7 +1401,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1440,7 +1440,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1453,7 +1453,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1466,7 +1466,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1518,7 +1518,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1531,7 +1531,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1570,7 +1570,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1596,7 +1596,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1609,7 +1609,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1648,7 +1648,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1661,7 +1661,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1674,7 +1674,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1687,7 +1687,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1882,7 +1882,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1908,7 +1908,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1921,7 +1921,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1947,7 +1947,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1960,7 +1960,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1973,7 +1973,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -1986,7 +1986,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2025,7 +2025,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2051,7 +2051,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2077,7 +2077,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2116,7 +2116,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2142,7 +2142,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2168,7 +2168,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2181,7 +2181,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2220,7 +2220,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2272,7 +2272,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2285,7 +2285,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2298,7 +2298,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -2385,7 +2385,7 @@
 
 {synopt:{opt Source Notes}}Employment of Females within Agriculture is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, education leve{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2397,7 +2397,7 @@
 
 {synopt:{opt Source Notes}}Employment of Males within Agriculture is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, education level{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2409,7 +2409,7 @@
 
 {synopt:{opt Source Notes}}Employment of Females within Commerce is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, education level c{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2421,7 +2421,7 @@
 
 {synopt:{opt Source Notes}}Employment of Males within Commerce is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, education level com{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2433,7 +2433,7 @@
 
 {synopt:{opt Source Notes}}Employment of Females within Construction is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, education lev{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2445,7 +2445,7 @@
 
 {synopt:{opt Source Notes}}Employment of Males within Construction is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, education level{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2457,7 +2457,7 @@
 
 {synopt:{opt Source Notes}}Employment of Females within Electricity and Utilities is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation,{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2469,7 +2469,7 @@
 
 {synopt:{opt Source Notes}}Employment of Males within Electricity and Utilities is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, ed{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2481,7 +2481,7 @@
 
 {synopt:{opt Source Notes}}Employment of Females within Financial and Business Services is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupa{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2493,7 +2493,7 @@
 
 {synopt:{opt Source Notes}}Employment of Males within Financial and Business Services is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupati{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2505,7 +2505,7 @@
 
 {synopt:{opt Source Notes}}Employment of Females within Industry is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, education level c{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2517,7 +2517,7 @@
 
 {synopt:{opt Source Notes}}Employment of Males within Industry is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, education level com{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2529,7 +2529,7 @@
 
 {synopt:{opt Source Notes}}Employment of Females within Manufacturing is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, education le{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2541,7 +2541,7 @@
 
 {synopt:{opt Source Notes}}Employment of Males within Manufacturing is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, education leve{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2553,7 +2553,7 @@
 
 {synopt:{opt Source Notes}}Employment of Females within Mining is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, education level com{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2565,7 +2565,7 @@
 
 {synopt:{opt Source Notes}}Employment of Males within Mining is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, education level compl{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2577,7 +2577,7 @@
 
 {synopt:{opt Source Notes}}Employment of Females within Other services is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, education l{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2589,7 +2589,7 @@
 
 {synopt:{opt Source Notes}}Employment of Males within Other services is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, education lev{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2601,7 +2601,7 @@
 
 {synopt:{opt Source Notes}}Employment of Females within Public Administration is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, educ{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2613,7 +2613,7 @@
 
 {synopt:{opt Source Notes}}Employment of Males within Public Administration is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, educat{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2625,7 +2625,7 @@
 
 {synopt:{opt Source Notes}}Employment of Females within Public sector employment is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, e{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2637,7 +2637,7 @@
 
 {synopt:{opt Source Notes}}Employment of Males within Public sector employment is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, edu{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2649,7 +2649,7 @@
 
 {synopt:{opt Source Notes}}Employment of Females within Services is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, education level c{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2661,7 +2661,7 @@
 
 {synopt:{opt Source Notes}}Employment of Males within Services is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, education level com{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2673,7 +2673,7 @@
 
 {synopt:{opt Source Notes}}Employment of Females within Transport &amp; Communication is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupati{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -2685,7 +2685,7 @@
 
 {synopt:{opt Source Notes}}Employment of Males within Transport &amp; Communication is disaggregated from the Global Jobs Indicators Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -3432,7 +3432,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3458,7 +3458,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3471,7 +3471,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3484,7 +3484,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3497,7 +3497,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/GT.{p_end}
+{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3510,7 +3510,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}The FAOSTAT domain Emissions Totals summarizes the greenhouse gas (GHG) emissions generated from agriculture and forest land. They consist of methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2) emissions from crop and livestock activit{p_end}
+{synopt:{opt Source Notes}}data/GT.{p_end}
 
 {synopt:{opt Source Organization}}FAO, FAOSTAT Climate Change, Emissions Totals, {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3776,7 +3776,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}Net food imports are generated from FAOSTAT, taking Export level (tonnes) from the Import level (tonnes) [both under Trade: Crops and Livestock Products]. Net food imports are a proxy for the country's vulnerability to global food prices.{p_end}
+{synopt:{opt Source Notes}}data{p_end}
 
 {synopt:{opt Source Organization}}FAOSTAT. Available at: {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3802,7 +3802,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}Net food imports are generated from FAOSTAT, taking Export level (tonnes) from the Import level (tonnes) [both under Trade: Crops and Livestock Products]. Net food imports are a proxy for the country's vulnerability to global food prices.{p_end}
+{synopt:{opt Source Notes}}data{p_end}
 
 {synopt:{opt Source Organization}}FAOSTAT. Available at: {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3828,7 +3828,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}Net food imports are generated from FAOSTAT, taking Export level (tonnes) from the Import level (tonnes) [both under Trade: Crops and Livestock Products]. Net food imports are a proxy for the country's vulnerability to global food prices.{p_end}
+{synopt:{opt Source Notes}}data{p_end}
 
 {synopt:{opt Source Organization}}FAOSTAT. Available at: {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3841,7 +3841,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}Net food imports are generated from FAOSTAT, taking Export level (tonnes) from the Import level (tonnes) [both under Trade: Crops and Livestock Products]. Net food imports are a proxy for the country's vulnerability to global food prices.{p_end}
+{synopt:{opt Source Notes}}data{p_end}
 
 {synopt:{opt Source Organization}}FAOSTAT. Available at: {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3854,7 +3854,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data{p_end}
+{synopt:{opt Source Notes}}Net food imports are generated from FAOSTAT, taking Export level (tonnes) from the Import level (tonnes) [both under Trade: Crops and Livestock Products]. Net food imports are a proxy for the country's vulnerability to global food prices.{p_end}
 
 {synopt:{opt Source Organization}}FAOSTAT. Available at: {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -3867,7 +3867,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}Net food imports are generated from FAOSTAT, taking Export level (tonnes) from the Import level (tonnes) [both under Trade: Crops and Livestock Products]. Net food imports are a proxy for the country's vulnerability to global food prices.{p_end}
+{synopt:{opt Source Notes}}data{p_end}
 
 {synopt:{opt Source Organization}}FAOSTAT. Available at: {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -4193,7 +4193,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data{p_end}
+{synopt:{opt Source Notes}}Average supply of protein of animal origin reflects a 3-year average from the Suite of Food Security Indicators on FAOSTAT. Suite of Food Security Indicators presents the core set of food security indicators. Following the recommendation of ex{p_end}
 
 {synopt:{opt Source Organization}}FAOSTAT. Available at: {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -4242,7 +4242,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data{p_end}
+{synopt:{opt Source Notes}}Prevalence of undernourishment relfects a 3-year average from the Suite of Food Security Indicators on FAOSTAT. Suite of Food Security Indicators presents the core set of food security indicators. Following the recommendation of experts gather{p_end}
 
 {synopt:{opt Source Organization}}FAOSTAT. Available at: {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -4255,7 +4255,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data{p_end}
+{synopt:{opt Source Notes}}Rice supply is taken from crops processed (domain), food supply quantity (element), rice milled (item) of the Crop statistics (FAOSTAT). FAOSTAT Crop statistics are recorded for 173 products, covering the following categories: Crops Primary, F{p_end}
 
 {synopt:{opt Source Organization}}FAOSTAT. Available at: {browse "http://www.fao.org/faostat/en/"}{p_end}
 
@@ -4305,7 +4305,7 @@
 
 {synopt:{opt Source Notes}}Education status as a percentage of the total population is disaggregated from the Global Jobs Indicatos Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation,{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -4317,7 +4317,7 @@
 
 {synopt:{opt Source Notes}}Education status as a percentage of the total population is disaggregated from the Global Jobs Indicatos Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation,{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -4341,7 +4341,7 @@
 
 {synopt:{opt Source Notes}}Mean number of years of education completed (aged 17+) is disaggregated from the Global Jobs Indicatos Database. The Database covers socio-demographics, labor force status and employment type, employment composition by sector and occupation, e{p_end}
 
-{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join)"}{p_end}
+{synopt:{opt Source Organization}}Global Jobs Indicators Database, The World Bank. Available at: {browse "https://databank.worldbank.org/source/global-jobs-indicators-database-(join"}){p_end}
 
 
 {synoptline}
@@ -4581,7 +4581,7 @@
 
 {synopt:{opt Source Notes}}Natural Hazard levels from Coastal Flood are generated from ThinkHazard! data available from the Climate Change Knowledge Portal. ThinkHazard! provides a general view of the hazards, for a given location, that should be considered in project d{p_end}
 
-{synopt:{opt Source Organization}}ThinkHazard! data [https://thinkhazard.org/en/] taken from the Climate Change Knowledge Portal [available at: {browse "https://climateknowledgeportal.worldbank.org/]"}{p_end}
+{synopt:{opt Source Organization}}ThinkHazard! data [https://thinkhazard.org/en/] taken from the Climate Change Knowledge Portal [available at: {browse "https://climateknowledgeportal.worldbank.org/"}]{p_end}
 
 
 {synoptline}
@@ -4593,7 +4593,7 @@
 
 {synopt:{opt Source Notes}}Natural Hazard levels from Cyclones are generated from ThinkHazard! data available from the Climate Change Knowledge Portal. ThinkHazard! provides a general view of the hazards, for a given location, that should be considered in project design{p_end}
 
-{synopt:{opt Source Organization}}ThinkHazard! data [https://thinkhazard.org/en/] taken from the Climate Change Knowledge Portal [available at: {browse "https://climateknowledgeportal.worldbank.org/]"}{p_end}
+{synopt:{opt Source Organization}}ThinkHazard! data [https://thinkhazard.org/en/] taken from the Climate Change Knowledge Portal [available at: {browse "https://climateknowledgeportal.worldbank.org/"}]{p_end}
 
 
 {synoptline}
@@ -4605,7 +4605,7 @@
 
 {synopt:{opt Source Notes}}Natural Hazard levels from Extreme Heat are generated from ThinkHazard! data available from the Climate Change Knowledge Portal. ThinkHazard! provides a general view of the hazards, for a given location, that should be considered in project de{p_end}
 
-{synopt:{opt Source Organization}}ThinkHazard! data [https://thinkhazard.org/en/] taken from the Climate Change Knowledge Portal [available at: {browse "https://climateknowledgeportal.worldbank.org/]"}{p_end}
+{synopt:{opt Source Organization}}ThinkHazard! data [https://thinkhazard.org/en/] taken from the Climate Change Knowledge Portal [available at: {browse "https://climateknowledgeportal.worldbank.org/"}]{p_end}
 
 
 {synoptline}
@@ -4617,7 +4617,7 @@
 
 {synopt:{opt Source Notes}}Natural Hazard levels from Earthquakes are generated from ThinkHazard! data available from the Climate Change Knowledge Portal. ThinkHazard! provides a general view of the hazards, for a given location, that should be considered in project des{p_end}
 
-{synopt:{opt Source Organization}}ThinkHazard! data [https://thinkhazard.org/en/] taken from the Climate Change Knowledge Portal [available at: {browse "https://climateknowledgeportal.worldbank.org/]"}{p_end}
+{synopt:{opt Source Organization}}ThinkHazard! data [https://thinkhazard.org/en/] taken from the Climate Change Knowledge Portal [available at: {browse "https://climateknowledgeportal.worldbank.org/"}]{p_end}
 
 
 {synoptline}
@@ -4629,7 +4629,7 @@
 
 {synopt:{opt Source Notes}}Natural Hazard levels from Landslides are generated from ThinkHazard! data available from the Climate Change Knowledge Portal. ThinkHazard! provides a general view of the hazards, for a given location, that should be considered in project desi{p_end}
 
-{synopt:{opt Source Organization}}ThinkHazard! data [https://thinkhazard.org/en/] taken from the Climate Change Knowledge Portal [available at: {browse "https://climateknowledgeportal.worldbank.org/]"}{p_end}
+{synopt:{opt Source Organization}}ThinkHazard! data [https://thinkhazard.org/en/] taken from the Climate Change Knowledge Portal [available at: {browse "https://climateknowledgeportal.worldbank.org/"}]{p_end}
 
 
 {synoptline}
@@ -4641,7 +4641,7 @@
 
 {synopt:{opt Source Notes}}Natural Hazard levels from River Flood are generated from ThinkHazard! data available from the Climate Change Knowledge Portal. ThinkHazard! provides a general view of the hazards, for a given location, that should be considered in project des{p_end}
 
-{synopt:{opt Source Organization}}ThinkHazard! data [https://thinkhazard.org/en/] taken from the Climate Change Knowledge Portal [available at: {browse "https://climateknowledgeportal.worldbank.org/]"}{p_end}
+{synopt:{opt Source Organization}}ThinkHazard! data [https://thinkhazard.org/en/] taken from the Climate Change Knowledge Portal [available at: {browse "https://climateknowledgeportal.worldbank.org/"}]{p_end}
 
 
 {synoptline}
@@ -4653,7 +4653,7 @@
 
 {synopt:{opt Source Notes}}Natural Hazard levels from Tsunamis are generated from ThinkHazard! data available from the Climate Change Knowledge Portal. ThinkHazard! provides a general view of the hazards, for a given location, that should be considered in project design{p_end}
 
-{synopt:{opt Source Organization}}ThinkHazard! data [https://thinkhazard.org/en/] taken from the Climate Change Knowledge Portal [available at: {browse "https://climateknowledgeportal.worldbank.org/]"}{p_end}
+{synopt:{opt Source Organization}}ThinkHazard! data [https://thinkhazard.org/en/] taken from the Climate Change Knowledge Portal [available at: {browse "https://climateknowledgeportal.worldbank.org/"}]{p_end}
 
 
 {synoptline}
@@ -4665,7 +4665,7 @@
 
 {synopt:{opt Source Notes}}Natural Hazard levels from Urban Flood are generated from ThinkHazard! data available from the Climate Change Knowledge Portal. ThinkHazard! provides a general view of the hazards, for a given location, that should be considered in project des{p_end}
 
-{synopt:{opt Source Organization}}ThinkHazard! data [https://thinkhazard.org/en/] taken from the Climate Change Knowledge Portal [available at: {browse "https://climateknowledgeportal.worldbank.org/]"}{p_end}
+{synopt:{opt Source Organization}}ThinkHazard! data [https://thinkhazard.org/en/] taken from the Climate Change Knowledge Portal [available at: {browse "https://climateknowledgeportal.worldbank.org/"}]{p_end}
 
 
 {synoptline}
@@ -4910,4 +4910,4 @@
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

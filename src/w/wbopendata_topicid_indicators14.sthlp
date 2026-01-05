@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -75,7 +75,7 @@
 
 {synopt:{opt Source Notes}}Gross domestic expenditures on research and development (R&amp;D), expressed as a percent of GDP. They include both capital and current expenditures in the four main sectors: Business enterprise, Government, Higher education and Private non-pr{p_end}
 
-{synopt:{opt Source Organization}}Stat Bulk Data Download Service, UN Educational, Scientific and Cultural Organization (UNESCO), uri: {browse "https://databrowser.uis.unesco.org/resources/bulk,"} publisher: UNESCO Institute for Statistics (UIS), date accessed: 2025-03-26, date published{p_end}
+{synopt:{opt Source Organization}}Stat Bulk Data Download Service, UN Educational, Scientific and Cultural Organization (UNESCO), uri: {browse "https://databrowser.uis.unesco.org/resources/bulk"}, publisher: UNESCO Institute for Statistics (UIS), date accessed: 2025-03-26, date published{p_end}
 
 
 {synoptline}
@@ -153,8 +153,8 @@
 
 {synopt:{opt Source Notes}}Trademark applications filed are applications to register a trademark with a national or regional Intellectual Property (IP) office. A trademark is a distinctive sign which identifies certain goods or services as those produced or provided by{p_end}
 
-{synopt:{opt Source Organization}}World Intellectual Property Organization (WIPO), World Intellectual Property Indicators and {browse "www.wipo.int/econ_stat"}. The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data. Data last retrieve{p_end}
+{synopt:{opt Source Organization}}World Intellectual Property Organization (WIPO), World Intellectual Property Indicators and {browse "http://www.wipo.int/econ_stat"}. The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data. Data last retrieve{p_end}
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

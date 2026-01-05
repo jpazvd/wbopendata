@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1113,7 +1113,7 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Special programme to address the control of malaria. Note: data for Sub-Saharan Africa include South of Sahara regional.  Detailed descriptions are available {browse "www.oecd.org/dac/stats/crs/directives"}.{p_end}
+{synopt:{opt Source Notes}}Special programme to address the control of malaria. Note: data for Sub-Saharan Africa include South of Sahara regional.  Detailed descriptions are available {browse "http://www.oecd.org/dac/stats/crs/directives"}.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
@@ -1152,7 +1152,7 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Special programme to address the control of malaria. Note: data for Sub-Saharan Africa include South of Sahara regional.  Detailed descriptions are available {browse "www.oecd.org/dac/stats/crs/directives"}.{p_end}
+{synopt:{opt Source Notes}}Special programme to address the control of malaria. Note: data for Sub-Saharan Africa include South of Sahara regional.  Detailed descriptions are available {browse "http://www.oecd.org/dac/stats/crs/directives"}.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
@@ -1167,7 +1167,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1180,7 +1180,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "http://www.oecd.org/dac/stats/idsonline"};{p_end}
 
 
 {synoptline}
@@ -1193,7 +1193,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) per capita consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), b{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "http://www.oecd.org/dac/stats/idsonline"};{p_end}
 
 
 {synoptline}
@@ -1570,7 +1570,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for final consumption expenditure expressed in current international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based compari{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -1583,7 +1583,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for final consumption expenditure expressed in constant international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based compar{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -3377,7 +3377,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for gross domestic product (GDP) expressed in current international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based comparis{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -3390,7 +3390,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for gross domestic product (GDP) expressed in constant international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based compari{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -3468,7 +3468,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for gross domestic product (GDP) expressed in current international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based comparis{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -3481,7 +3481,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for gross domestic product (GDP) expressed in constant international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based compari{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -3637,7 +3637,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for gross national income (GNI) expressed in current international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based compariso{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -3650,7 +3650,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for gross national income (GNI) expressed in constant international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based comparis{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -3728,7 +3728,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for gross national income (GNI) per person expressed in current international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-base{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -3741,7 +3741,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for gross national income (GNI) per person expressed in constant international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-bas{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -3962,7 +3962,7 @@
 
 {synopt:{opt Source Notes}}The purchasing power parity (PPP) conversion factor is a currency conversion factor and a spatial price deflator. PPPs convert different currencies to a common currency and, in the process of conversion, equalize their purchasing power by elim{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} publisher: International Comparison Program, type: International statistical program, date accessed: May 30, 2024, date published: Ma{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, publisher: International Comparison Program, type: International statistical program, date accessed: May 30, 2024, date published: Ma{p_end}
 
 
 {synoptline}
@@ -3988,7 +3988,7 @@
 
 {synopt:{opt Source Notes}}The price level ratio, or price level index, is the ratio of a purchasing power parity (PPP) conversion factor to the corresponding market exchange rate between two countries. For this series the base country is the United States. It provides{p_end}
 
-{synopt:{opt Source Organization}}World Development Indicators, World Bank (WB), uri: {browse "https://databank.worldbank.org/source/world-development-indicators,"} publisher: World Development Indicators, type: International database{p_end}
+{synopt:{opt Source Organization}}World Development Indicators, World Bank (WB), uri: {browse "https://databank.worldbank.org/source/world-development-indicators"}, publisher: World Development Indicators, type: International database{p_end}
 
 
 {synoptline}
@@ -4001,7 +4001,7 @@
 
 {synopt:{opt Source Notes}}The purchasing power parity (PPP) conversion factor is a currency conversion factor and a spatial price deflator. They convert different currencies to a common currency and, in the process of conversion, equalize their purchasing power by elim{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} publisher: International Comparison Program, type: International statistical program, date accessed: May 30, 2024, date published: Ma{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, publisher: International Comparison Program, type: International statistical program, date accessed: May 30, 2024, date published: Ma{p_end}
 
 
 {synoptline}
@@ -4018,4 +4018,4 @@
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

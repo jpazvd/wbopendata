@@ -1,5 +1,7 @@
 *******************************************************************************
 *  _countrymetadata2
+*! v 16.1  	4Jan2026                by Joao Pedro Azevedo
+*	v 16.1: Added handling for basic option to set 8 default country context variables
 *! v 16.0.1  	3Jan2026                by Joao Pedro Azevedo   
 *	Bug fix: Deduplicate variable list before order to prevent r(198)
 *******************************************************************************
@@ -22,7 +24,7 @@ program define _countrymetadata , rclass
 				ADMINR				///
 				INCOME				///
 				LENDING				///
-				CAPITALS			///
+				geo			///
 				BASIC				///
 				FULL				///
 				countrycode_iso2 	///
@@ -38,14 +40,12 @@ program define _countrymetadata , rclass
 				lendingtype 		///
 				lendingtype_iso2 	///
 				lendingtypename 	///
-				LATITUDE 			///
-				LONGITUDE 			///
-				countryname			///
-				lower				///
-			]
-	
-	******************************************************
-
+			capital 			///
+			latitude 			///
+			longitude 			///
+			countryname			///
+			lower				///
+		]
 	qui {
 	
 	******************************************************
@@ -84,18 +84,24 @@ program define _countrymetadata , rclass
 				local `word' "`word'"
 			}
 		}
-		if ("`capital'" == "capital") {
-			foreach word in `tmpcapitallist' {
-				local `word' "`word'"
-			}
-		}	
-		if ("`full'" == "full") {
-			local full	" countrycode_iso2  countryname  `tmpregionlist' `tmpadminlist' `tmpincomelist' `tmplendinglist' `tmpcapitalist' "
+	if ("`geo'" == "geo") {
+		foreach word in `tmpcapitallist' {
+			local `word' "`word'"
 		}
-
-	******************************************************
-	* crate default list of variables 
-		if (wordcount(" `countryname' `full' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `capitalist' `isolist' `countryname' `region'  `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname'  `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude'") == 0)  {
+	}
+	if ("`basic'" == "basic") {
+		* Basic adds the 8 default country context variables (without iso2 codes)
+		local region "region"
+		local regionname "regionname"
+		local adminregion "adminregion"
+		local adminregionname "adminregionname"
+		local incomelevel "incomelevel"
+		local incomelevelname "incomelevelname"
+		local lendingtype "lendingtype"
+		local lendingtypename "lendingtypename"
+	}
+	if ("`full'" == "full") {
+		local full	" countrycode_iso2  countryname  `tmpregionlist' `tmpadminlist' `tmpincomelist' `tmplendinglist' `tmpcapitallist' "
 			local basic " region regionname  adminregion adminregionname incomelevel incomelevelname lendingtype lendingtypename "
 		}
 
