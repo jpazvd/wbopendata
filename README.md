@@ -127,15 +127,34 @@ The use of World Bank datasets listed in the Data Catalog is governed by a speci
 The terms of use of the APIs is governed by the [World Bank Terms and Conditions](http://go.worldbank.org/C09SUA7BK0/).
 
 
-## Blog Posts
+## Blog Posts & Tutorials
 
-[Wbopendata Stata Module Upgrade (posted on 8 July 2014 by João Pedro Azevedo)](https://blogs.worldbank.org/category/tags/wbopendata)
+### Official Blog Posts
 
-[New Stata module released (Posted on 6 February 2013 by João Pedro Azevedo)](http://blogs.worldbank.org/opendata/node/562)
+* **[New release of WBOPENDATA Stata module (Apr 24, 2020)](https://blogs.worldbank.org/en/opendata/new-release-wbopendata-stata-module)**
+* **[WBOPENDATA Stata Module Upgrade (Jul 08, 2014)](https://blogs.worldbank.org/en/opendata/wbopendata-stata-module-upgrade)**
+* **[New Stata module released (Feb 06, 2013)](https://blogs.worldbank.org/en/opendata/new-stata-module-released)**
+* **[Accessing World Bank Open Data in Stata (Mar 15, 2012)](https://blogs.worldbank.org/en/opendata/accessing-world-bank-open-data-stata)**
+* **[World Bank Development Data in Stata (Feb 17, 2011)](http://rlab-data.blogspot.com/2011/02/world-bank-development-data-in-stata.html)**
+* **[World Bank’s open data policy and -wbopendata- (Feb 10, 2011)](http://statadaily.com/tag/wbopendata/)**
 
-[World Bank Development Data in Stata (posted on Thursday, 17 February 2011)](http://rlab-data.blogspot.com/2011/02/world-bank-development-data-in-stata.html)
+### Official Documentation & Reference
 
-[World Bank’s open data policy and -wbopendata- (posted on 10 February 2011 by Mitch Abdon)](http://statadaily.com/tag/wbopendata/)
+* **[WBOPENDATA Helpdesk — World Bank Knowledge Base](https://datahelpdesk.worldbank.org/knowledgebase/articles/889464-wbopendata-stata-module-to-access-world-bank-data)**
+* **[WBOPENDATA GitHub Repository](https://github.com/jpazvd/wbopendata)**
+
+### Community Tutorials
+
+* **[Extracting World Bank data in Stata (Medium)](https://infoart.medium.com/extracting-world-bank-data-in-stata-27b7d82bf0d2)**
+* **[Using World Bank data — Bates College LibGuide](https://libguides.bates.edu/c.php?g=1424953&p=10608125)**
+* **[World Bank indicators in Stata — GetErika](https://geterika.com/stats/world-bank-indicators-in-stata)**
+* **[Visualizing World Bank Data in Stata — Simon Fink blog](https://simonfink.wordpress.com/2013/08/14/visualizing-world-bank-data-in-stata/)**
+
+
+## 🤝 Invitation to Contribute
+
+If you’ve authored or found **other blog posts, tutorials, videos, code examples, or classroom materials** that explore the *wbopendata* module (especially recent ones), please **share them with the community**!
+You can contribute by **opening an issue or submitting a pull request** on this repository with your addition.
 
 
 ## Examples
@@ -198,3 +217,7 @@ Special thanks to all contributors who have helped improve wbopendata through bu
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
+
