@@ -95,6 +95,11 @@ wbopendata, indicator(SP.DYN.LE00.IN) clear linewrap(name description note) maxl
 wbopendata, indicator(SP.DYN.LE00.IN) clear linewrap(description) linewrapformat(newline)
 local desc_newline = r(description1_newline)
 
+* Latest available data per country
+wbopendata, indicator(SI.POV.DDAY;NY.GDP.PCAP.PP.KD) clear long latest
+* With multiple indicators: keeps only observations where ALL indicators are non-missing
+* in the SAME year, ensuring comparability (different countries may have different years)
+
 * NEW in v17.7: Basic country context variables are now included by default
 * Every download now includes: region, regionname, adminregion, adminregionname,
 * incomelevel, incomelevelname, lendingtype, lendingtypename
