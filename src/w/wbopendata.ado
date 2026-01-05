@@ -1,6 +1,6 @@
 *******************************************************************************
 * wbopendata             
-*! v 17.5  	 03Jan2026               by Joao Pedro Azevedo
+*! v 17.0  	 24Jan2023               by Joao Pedro Azevedo
 * 	Create region metadata
 *******************************************************************************
 
@@ -17,8 +17,8 @@ version 9.0
                          YEAR(string)               ///
 						 DATE(string)				///
 						 SOURCE(string)				///
- 						 PROJECTION					///
-                        LONG                       ///
+ 						 PROJECTION					///						 
+                         LONG                       ///
                          CLEAR                      ///
                          LATEST                     ///
                          NOMETADATA                 ///
@@ -41,27 +41,35 @@ version 9.0
 							ADMINR				///
 							INCOME				///
 							LENDING				///
-						 GEO					///
+							CAPITALS			///
 							BASIC				///
 							FULL				///
-						 COUNTRYCODE_ISO2 	///
-						 REGION 				///
-						 REGION_ISO2 		///
-						 REGIONNAME 			///
-						 ADMINREGION 		///
-						 ADMINREGION_ISO2 	///
-						 ADMINREGIONNAME 	///
-						 INCOMELEVEL 		///
-						 INCOMELEVEL_ISO2 	///
-						 INCOMELEVELNAME 	///
-						 LENDINGTYPE 		///
-						 LENDINGTYPE_ISO2 	///
-						 LENDINGTYPENAME 	///
-						 capital 			///
-						 latitude 			///
-						 longitude 			///
-						 countryname			///
+							countrycode_iso2 	///
+							region 				///
+							region_iso2 		///
+							regionname 			///
+							adminregion 		///
+							adminregion_iso2 	///
+							adminregionname 	///
+							incomelevel 		///
+							incomelevel_iso2 	///
+							incomelevelname 	///
+							lendingtype 		///
+							lendingtype_iso2 	///
+							lendingtypename 	///
+							capital 			///
+							latitude 			///
+							longitude 			///
+							countryname			///
                  ]
+
+
+	quietly {
+	
+	
+**********************************************************************************
+
+
 local indicator `indicators'
 
 	* query and check can not be selected at the same time
@@ -114,291 +122,134 @@ local indicator `indicators'
 		
 **********************************************************************************
 * option to match	
+	
+	
+	qui if ("`match'" != "") {
 
-		_countrymetadata, match(`match') `full' `iso' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `geo' `isolist' `countryname' `region'  `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname'  `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude'
+		_countrymetadata, match(`match') `full' `iso' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `capitalist' `isolist' `countryname' `region'  `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname'  `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude'
 
-					qui if ("`match'" != "") {
+	}
 
-						_countrymetadata, match(`match') `full' `iso' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `capitalist' `isolist' `countryname' `region'  `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname'  `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude'
+**********************************************************************************
+	
+	
+		local f = 1
 
-					}
+		if ("`indicator'" != "") & ("`update'" == "") & ("`match'" == "") {
 
-				**********************************************************************************
+			_tknz "`indicator'" , parse(;)
 
+			forvalues i = 1(1)`s(items)'  {
 
-			local f = 1
+			   if ("``i''" != ";") &  ("``i''" != "") {
 
-			if ("`indicator'" != "") & ("`update'" == "") & ("`match'" == "") {
+				   tempfile file`f'
 
-				_tknz "`indicator'" , parse(;)
-
-				forvalues i = 1(1)`s(items)'  {
-
-				   if ("``i''" != ";") &  ("``i''" != "") {
-
-				   	tempfile file`f'
-
-				   	noi _query ,       language("`language'")      		///
-								 country("`country'")         	///
-								 topics("`topics'")           	///
-								 indicator("``i''")             ///
-								 year("`year'")               	///
-								 date("`date'")				///
-								 source("`source'")				///
-								`projection'					///
-								 `long'                       	///
-								 `clear'                      	///
-								 `nometadata'
-						local time  "`r(time)'"
-						local namek "`r(name)'"
-
-						* default empty metadata locals
-						local meta_name ""
-						local meta_description ""
-						local meta_note ""
-						local meta_sourcecite ""
-						local meta_topic1 ""
-						local meta_topic2 ""
-						local meta_topic3 ""
-						local meta_collection ""
-						local meta_source ""
-						local meta_varlabel ""
-						local meta_nurls 0
-
-						if ("`nometadata'" == "") & ("`indicator'" != "") {
-							local lw_opts ""
-							if ("`linewrap'" != "") {
-								local ml_opt = cond("`maxlength'" != "", `"maxlength(`maxlength')"', "maxlength(50)")
-								local lw_opts `"linewrap(`linewrap') `ml_opt'"'
-							}
-							if ("`linewrapformat'" != "") local lw_opts `"`lw_opts' linewrapformat(`linewrapformat')"'
-							cap: noi _query_metadata  , indicator("``i''") `lw_opts'                  /*  Metadata   */
-							local qm1rc = _rc
-							if (`qm1rc' != 0) {
-								noi di ""
-								noi di as err "{p 4 4 2} Sorry... No metadata available for " as result "`indicator'. {p_end}"
-								noi di ""
-								if ("`breaknometadata'" != "") {
-									break
-									exit 21
-								}
-							}
-							else {
-								* Capture metadata returns before they get overwritten
-								local meta_name        "`r(name)'"
-								local meta_description "`r(description)'"
-								local meta_note        "`r(note)'"
-								local meta_sourcecite  `"`r(sourcecite)'"'
-								local meta_topic1      "`r(topic1)'"
-								local meta_topic2      "`r(topic2)'"
-								local meta_topic3      "`r(topic3)'"
-								local meta_collection  "`r(collection)'"
-								local meta_source      "`r(source)'"
-								local meta_varlabel    "`r(varlabel)'"
-								* Capture URLs
-								local meta_nurls = r(nurls)
-								if (`meta_nurls' > 0) {
-									forvalues u = 1/`meta_nurls' {
-										local meta_url`u' "`r(url`u')'"
-									}
-								}
-								* Capture linewrap returns
-								if ("`linewrap'" != "") {
-									local meta_name_stack `"`r(name_stack)'"'
-									local meta_description_stack `"`r(description_stack)'"'
-									local meta_note_stack `"`r(note_stack)'"'
-									local meta_source_stack `"`r(source_stack)'"'
-									local meta_topic_stack `"`r(topic_stack)'"'
-								}
-							}
-						}
-
-						local w1 = word("``i''",1)
-						return local varname`f'     = trim(lower(subinstr(word("`w1'",1),".","_",.)))
-						return local indicator`f'  "`w1'"
-						return local topics`f'     "`topics'"
-						return local year`f'       "`year'"
-						return local source`f'     "`meta_source'"
-						return local varlabel`f'   "`meta_varlabel'"
-						return local time`f'       "`time'"
-						return local name`f'       "`meta_name'"
-						return local description`f' "`meta_description'"
-						return local note`f'       "`meta_note'"
-						return local sourcecite`f' `"`meta_sourcecite'"'
-						return local topic1_`f'    "`meta_topic1'"
-						return local topic2_`f'    "`meta_topic2'"
-						return local topic3_`f'    "`meta_topic3'"
-						return local collection`f' "`meta_collection'"
-						* Return URLs for this indicator
-						return scalar nurls`f' = `meta_nurls'
-						if (`meta_nurls' > 0) {
-							forvalues u = 1/`meta_nurls' {
-								return local url`u'_`f' "`meta_url`u''"
-							}
-						}
-						* Return linewrap results for this indicator
-						if ("`linewrap'" != "") {
-							if (`"`meta_name_stack'"' != "") {
-								return local name`f'_stack `"`meta_name_stack'"'
-							}
-							if (`"`meta_description_stack'"' != "") {
-								return local description`f'_stack `"`meta_description_stack'"'
-							}
-							if (`"`meta_note_stack'"' != "") {
-								return local note`f'_stack `"`meta_note_stack'"'
-							}
-							if (`"`meta_source_stack'"' != "") {
-								return local source`f'_stack `"`meta_source_stack'"'
-							}
-							if (`"`meta_topic_stack'"' != "") {
-								return local topic`f'_stack `"`meta_topic_stack'"'
-							}
-						}
-					
-						sort countrycode year
-						if ("`verbose'" != "") {
-							noi di as txt "  Saving indicator `f': ``i'' to tempfile"
-							save `file`f''
-						}
-						else {
-							qui save `file`f''
-						}
-						local f = `f'+1
-						local name "`name' `namek'"
-
-					}
-
-				}
-
-			}
-
-			 else {
-
-				if ("`update'" == "") & ("`match'" == "") {
-			 
-					noi _query , language("`language'")       	///
-								country("`country'")        ///
-								topics("`topics'")         ///
-								indicator("`indicator'")   ///
-								year("`year'")            ///
-								date("`date'")			///
-								source("`source'")			///
-								`projection'				///
-								`long'					///
-								`clear'					///
-								`latest'				///
-								`nometadata'
+				   noi _query ,       language("`language'")      		///
+										 country("`country'")         	///
+										 topics("`topics'")           	///
+										 indicator("``i''")             ///
+										 year("`year'")               	///
+										 date("`date'")					///
+										 source("`source'")				///
+										`projection'					///
+										 `long'                       	///
+										 `clear'                      	///
+										 `nometadata'
 					local time  "`r(time)'"
-					local name "`r(name)'"
-
-					* default empty metadata locals
-					local meta_name ""
-					local meta_description ""
-					local meta_note ""
-					local meta_sourcecite ""
-					local meta_topic1 ""
-					local meta_topic2 ""
-					local meta_topic3 ""
-					local meta_collection ""
-					local meta_source ""
-					local meta_varlabel ""
-					local meta_nurls 0
+					local namek "`r(name)'"
 
 
 					if ("`nometadata'" == "") & ("`indicator'" != "") {
-						local lw_opts ""
-						if ("`linewrap'" != "") {
-							local ml_opt = cond("`maxlength'" != "", `"maxlength(`maxlength')"', "maxlength(50)")
-							local lw_opts `"linewrap(`linewrap') `ml_opt'"'
-						}
-						if ("`linewrapformat'" != "") local lw_opts `"`lw_opts' linewrapformat(`linewrapformat')"'
-						cap: noi _query_metadata  , indicator("`indicator'") `lw_opts'                  /*  Metadata   */
-						local qm2rc = _rc
-						if (`qm2rc' != 0) {
+						cap: noi _query_metadata  , indicator("``i''")                  /*  Metadata   */
+						local qm1rc = _rc
+						if (`qm1rc' != 0) {
 							noi di ""
 							noi di as err "{p 4 4 2} Sorry... No metadata available for " as result "`indicator'. {p_end}"
 							noi di ""
 							if ("`breaknometadata'" != "") {
-								exit 22
-							}
-						}
-						else {
-							* Capture metadata returns before they get overwritten
-							local meta_name        "`r(name)'"
-							local meta_description "`r(description)'"
-							local meta_note        "`r(note)'"
-							local meta_sourcecite  `"`r(sourcecite)'"'
-							local meta_topic1      "`r(topic1)'"
-							local meta_topic2      "`r(topic2)'"
-							local meta_topic3      "`r(topic3)'"
-							local meta_collection  "`r(collection)'"
-							local meta_source      "`r(source)'"
-							local meta_varlabel    "`r(varlabel)'"
-							* Capture URLs
-							local meta_nurls = r(nurls)
-							if (`meta_nurls' > 0) {
-								forvalues u = 1/`meta_nurls' {
-									local meta_url`u' "`r(url`u')'"
-								}
-							}
-							* Capture linewrap returns
-							if ("`linewrap'" != "") {
-								local meta_name_stack `"`r(name_stack)'"'
-								local meta_description_stack `"`r(description_stack)'"'
-								local meta_note_stack `"`r(note_stack)'"'
-								local meta_source_stack `"`r(source_stack)'"'
-								local meta_topic_stack `"`r(topic_stack)'"'
+								break
+								exit 21
 							}
 						}
 					}
 
-				}
+					local w1 = word("``i''",1)
+					return local varname`f'     = trim(lower(subinstr(word("`w1'",1),".","_",.)))
+					return local indicator`f'  "`w1'"
+					return local topics`f'     "`topics'"
+					return local year`f'       "`year'"
+					return local source`f'     "`r(source)'"
+					return local varlabel`f'   "`r(varlabel)'"
+					return local time`f'       "`time'"
 
-				local w1 = word("`indicator'",1)
-				return local varname1     = trim(lower(subinstr(word("`w1'",1),".","_",.)))
-				return local indicator1  "`w1'"
-				return local country1    "`country'"
-				return local topics1     "`topics'"
-				return local year1       "`year'"
-				return local source1     "`meta_source'"
-				return local varlabel1   "`meta_varlabel'"
-				return local time1       "`time'"
-				return local name1       "`meta_name'"
-				return local description1 "`meta_description'"
-				return local note1       "`meta_note'"
-				return local sourcecite1 `"`meta_sourcecite'"'
-				return local topic1_1    "`meta_topic1'"
-				return local topic2_1    "`meta_topic2'"
-				return local topic3_1    "`meta_topic3'"
-				return local collection1 "`meta_collection'"
-				return scalar nurls1 = `meta_nurls'
-				if (`meta_nurls' > 0) {
-					forvalues u = 1/`meta_nurls' {
-						return local url`u'_1 "`meta_url`u''"
-					}
-				}
-				* Return linewrap results
-				if ("`linewrap'" != "") {
-					if (`"`meta_name_stack'"' != "") {
-						return local name1_stack `"`meta_name_stack'"'
-					}
-					if (`"`meta_description_stack'"' != "") {
-						return local description1_stack `"`meta_description_stack'"'
-					}
-					if (`"`meta_note_stack'"' != "") {
-						return local note1_stack `"`meta_note_stack'"'
-					}
-					if (`"`meta_source_stack'"' != "") {
-						return local source1_stack `"`meta_source_stack'"'
-					}
-					if (`"`meta_topic_stack'"' != "") {
-						return local topic1_stack `"`meta_topic_stack'"'
-					}
-				}
+					local namek = trim(lower(subinstr(word("`w1'",1),".","_",.)))
 
-				local name = trim(lower(subinstr(word("`w1'",1),".","_",.)))
+					if ("`long'" != "") {
+						sort countrycode `time'
+					}
+
+					save `file`f''
+
+					local f = `f'+1
+
+				}
+				
+				local name "`name' `namek'"
 
 			}
+
+		}
+
+		 else {
+
+			if ("`update'" == "") & ("`match'" == "") {
+			 
+				noi _query , language("`language'")       	///
+									country("`country'")    ///
+									topics("`topics'")      ///
+									indicator("``i''")      ///
+									year("`year'")          ///
+									date("`date'")			///
+									source("`source'")		///
+									`projection'			///
+									`long'                  ///
+									`clear'                 ///
+									`latest'                ///
+									`nometadata'
+				local time  "`r(time)'"
+				local name "`r(name)'"
+
+
+				if ("`nometadata'" == "") & ("`indicator'" != "") {
+					cap: noi _query_metadata  , indicator("``i''")                  /*  Metadata   */
+					local qm2rc = _rc
+					if ("`qm2rc'" == "") {
+						noi di ""
+						noi di as err "{p 4 4 2} Sorry... No metadata available for " as result "`indicator'. {p_end}"
+						noi di ""
+						if ("`breaknometadata'" != "") {
+							break
+							exit 22
+						}
+					}
+				}
+				
+			}
+
+			local w1 = word("`indicator'",1)
+			return local varname1     = trim(lower(subinstr(word("`w1'",1),".","_",.)))
+			return local indicator1  "`w1'"
+			return local country1    "`country'"
+			return local topics1     "`topics'"
+			return local year1       "`year'"
+			return local source1     "`r(source)'"
+			return local varlabel1   "`r(varlabel)'"
+			return local time1       "`time'"
+
+			local name = trim(lower(subinstr(word("`w1'",1),".","_",.)))
+			
+		}
 
 		return local indicator  "`indicator'"
 		local f = `f'-1
@@ -407,7 +258,6 @@ local indicator `indicators'
 
 			if ("`long'" != "") {
 				use `file1'
-				sort countrycode year
 				forvalues i = 2(1)`f'  {
 					merge countrycode year using `file`i''
 					drop _merge
@@ -423,68 +273,30 @@ local indicator `indicators'
 			}
 		}
 
-		* Build variable name list from indicator codes (e.g., "sh_dyn_mort si_pov_dday")
-		local varlist  = "`indicator'"
-		local varlist = lower("`varlist'")
-		local varlist = subinstr("`varlist'",";"," ",.)	
-		local varlist = subinstr("`varlist'",".","_",.)
-		local varlist = trim(itrim("`varlist'"))
-		return local name "`varlist'"
-
 		if ("`latest'" != "") &  ("`long'" != "") {
 		    
-			* For multiple indicators: keep latest year where ALL indicators are non-missing
-			* Count number of indicators
-			local nind : word count `varlist'
-			
-			if (`nind' > 1) {
-				* Multiple indicators: keep only observations where all are non-missing
-				tempvar nmiss
-				egen `nmiss' = rowmiss(`varlist')
-				qui count if `nmiss' == 0
-				local n_complete = r(N)
-				local n_before = _N
-				
-				if (`n_complete' == 0) {
-					noi di as err "{p 4 4 2}Warning: No observations found where all indicators have non-missing values.{p_end}"
-					noi di as txt "{p 4 4 2}Keeping latest available year per country instead.{p_end}"
-					* Fall back to simple latest
-					sort countrycode year
-					qui bysort countrycode : keep if _n==_N
-				}
-				else {
-					* Keep only complete cases, then latest year per country
-					if ("`verbose'" != "") {
-						noi di as txt "  Filtering: keeping observations with all `nind' indicators non-missing"
-						keep if `nmiss' == 0
-						local n_after_miss = _N
-						noi di as txt "  Filtering: selecting latest year per country"
-					}
-					else {
-						qui keep if `nmiss' == 0
-					}
-					sort countrycode year
-					qui bysort countrycode : keep if _n==_N
-					local n_final = _N
-					noi di as txt "{p 4 4 2}Note: Kept `n_final' countries with latest year where all `nind' indicators are non-missing.{p_end}"
-				}
+			* check if name is to long. 
+		    local length_name = length("`name'")
+			* shorten name if too long
+			if (`length_name' > 20) {
+				local name = substr("`name'",1,20)
+				return local name "`name'"
 			}
-			else {
-					* Single indicator: simple latest per country
-					sort countrycode year
-					qui bysort countrycode : keep if _n==_N
-				}
 			
-			* Compute macro when latest option is selected
-			qui count
-			local _latest_ncountries = r(N)
-			qui sum year, meanonly
-			local _latest_avgyear = string(r(mean), "%9.1f")
-			local _latest "Latest Available Year, `_latest_ncountries' Countries (avg year `_latest_avgyear')"
-			return local latest "`_latest'"
-			return local latest_ncountries "`_latest_ncountries'"
-			return local latest_avgyear "`_latest_avgyear'"
-			}
+			tempvar tmp
+			egen `tmp' = rowmiss(`name')
+			keep if `tmp' == 0
+			sort countryname countrycode `time'
+			bysort countryname countrycode : keep if _n==_N
+		}
+
+	}
+	
+	local nametmp  = "`indicator'"
+	local nametmp = lower("`nametmp'")
+	local nametmp = subinstr("`nametmp'",";"," ",.)	
+	local nametmp = subinstr("`nametmp'",".","_",.) 
+	return local name "`nametmp'"
 	
 **********************************************************************************
 	
@@ -493,7 +305,7 @@ local indicator `indicators'
 
 		tostring  countryname countrycode, replace
 
-		_countrymetadata, match(countrycode) `full' `iso' `regions' `adminr' `income' `lending' `geo' `basic' `countrycode_iso2' `region' `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname' `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude' `countryname'
+		_countrymetadata, match(countrycode) `full' `iso' `regions' `adminr' `income' `lending' `capitals' `basic' `countrycode_iso2' `region' `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname' `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude' `countryname'
 
 	}
 	
@@ -518,3 +330,104 @@ end
 *  v 16.2.2    28Jun2020 				by Joao Pedro Azevedo
 *	 changed server used to query metadata
 ***********************************************************************************
+*  v 16.2.1    14Apr2020 				by Joao Pedro Azevedo
+*    add flow check before runing _query.ado / _query.ado should not run if 
+*    metadataoffline option is selected.
+**********************************************************************************
+*  v 16.2      13Apr2020 				by Joao Pedro Azevedo
+*    create option metadataoffline 
+*       generates SORUCEID and TOPICID metadata in local installation
+*       71 sthlp files are generated and 15mb of documentation is created
+**********************************************************************************
+*  v 16.1      12Apr2020 				by Joao Pedro Azevedo
+*	remove metadata of SOURCID and TOPICSID from the main dissemination package                                                     
+**********************************************************************************
+*  v 16.0.1    31Oct2019               by Joao Pedro Azevedo 
+ * improve a few small functionalities
+**********************************************************************************
+*  v 16.0	    27Oct2019               by Joao Pedro Azevedo 
+* created and tested new functions, namely:
+*  _api_read_indicators.ado : download indicator list from API, for formats 
+*    output in a Stata readable form
+*  _update_indicators.ado: calls _api_read_indicators.ado, and uses its output to  
+*  generate additioanl documentation 
+*  outputs for wbopendata:
+*     dialogue indicator list
+*     sthlp indicator list by Source and Topic
+*     sthlp indicator metadata by Source and Topic
+*  match option supported in wbopendata (add countrymetadata matching on MATCH var) 
+* _website.ado : screens a text file and converts and http or www "word" to a SMCL 
+*    web compatible code.
+* _parameters.ado: now include detailed count of indicators by SOURCE and TOPIC
+* _wbopendata.ado: renamned _update_wbopendata
+* _indicator: renamed _update_indicators
+* _update_wbopendata.ado: now checks for changes at the SOURCE or TOPIC level
+* fixed return list when multiple indicators are selected
+* updated help file to allow for the search of indicators by Source and Topics
+**********************************************************************************
+*  v 15.1	    04Mar2019               by Joao Pedro Azevedo 
+*	New Features
+*		new error categories to faciliate debuging
+*		error 23: series no longer supported moved to archive
+*		country attribute table fully revised and linked to api
+*		update check, update query, and update
+*		auto refresh indicators
+*		revised _wbopendata.ado 		
+*		update query; update check; and update options are included
+* 		country attributes revised
+*		update countrymetadata option created
+*		country metadata documentation in help file revised
+*		break code when no metadata is available is now an option
+*   Revisions
+*       over 16,000 indicators
+**********************************************************************************
+*  v 15.0.1		8Fev2019				by Joao Pedro Azevedo
+**********************************************************************************
+*  v 15.0	    2Fev2019               	by Joao Pedro Azevedo 
+**********************************************************************************
+*  v 14.3 	2Feb2019               by Joao Pedro Azevedo 
+* 	Bug Fixed
+*		_wbopendata_update.ado revised; out.txt file no longer created
+**********************************************************************************
+*  v 14.2 	31Jan2019               by Joao Pedro Azevedo 
+* Bug Fixed
+	* update _wbopendata_update.ado
+	* set checksum off
+**********************************************************************************
+*  v 14.1 	19Jan2019               by Joao Pedro Azevedo 
+* 	New options: 
+     * indicator update function
+     * nopreserve option (return list is can be preserved)
+* 	Bugs fixed
+    * latest option
+    * _query_metadata.ado (source id return list) fixed
+* 	Revisions
+     * examples
+     * update help file
+     * list of indicators
+**********************************************************************************
+*  v 14.0  14Jan2019               by Joao Pedro Azevedo 
+*		revised indicator list
+*		change to new API server 
+**********************************************************************************
+*  v 13.4  01jul2014               by Joao Pedro Azevedo                        *
+*       long reshape
+**********************************************************************************
+*  v 13.3  30june2014               by Joao Pedro Azevedo                        *
+*       new error control (clear option)
+**********************************************************************************
+*  v 13.2  24june2014               by Joao Pedro Azevedo                        *
+*       new error control
+**********************************************************************************
+*  v 13.1  23june2014               by Joao Pedro Azevedo                        *
+*       regional code, name and iso2code
+**********************************************************************************
+*  v 13  20june2014               by Joao Pedro Azevedo                        *
+* 		fix the dups problem                                                    *
+*       improve the error messages                                              *
+*       update the list of indicators to 9960                                 *
+**********************************************************************************
+*  v 12  31jan2013               by Joao Pedro Azevedo                        *
+*       update to 7349 indicators
+*       return list include variable name and label
+**********************************************************************************

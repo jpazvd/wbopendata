@@ -1,5 +1,8 @@
 *******************************************************************************
 * _update_indicators                                                                   
+*! v 16.2   04Jan2026				by João Pedro Azevedo
+*		fix: new sthlp files now saved to same directory as wbopendata.ado
+*		     instead of current working directory
 *! v 16.1   12Apr2020				by João Pedro Azevedo
 *		increase documentation
 *		change the creation of the medata files for SOURCEID and TOPICID
@@ -30,6 +33,15 @@ version 9
 	tempfile tmp
 	
 	set checksum off
+	
+	* Find the directory where wbopendata.ado is installed (for saving new files)
+	cap: findfile wbopendata.ado
+	if _rc == 0 {
+		local wbopendata_dir = reverse(substr(reverse("`r(fn)'"), 15, .))
+	}
+	else {
+		local wbopendata_dir ""
+	}
 
 *******************************************************************************
 * download and created metadata files in case these are not available 
@@ -138,7 +150,7 @@ if ("`noindlist'" == "") {
 		copy `tmp1tmp'  "`r(fn)'" , replace
 	}
 	else {
-		copy `tmp1tmp' "`indicator'"
+		copy `tmp1tmp' "`wbopendata_dir'`indicator'"
 	}
 	
 *noi gen length = length(sourcenote)
@@ -274,7 +286,7 @@ if ("`nosthlp1'" == "") {
 			copy `help`variable''  "`r(fn)'" , replace
 		}
 		else {
-			copy `help`variable'' "wbopendata_`variable'.sthlp"
+			copy `help`variable'' "`wbopendata_dir'wbopendata_`variable'.sthlp"
 		}
 				
 		noi di in g in smcl "	See {bf:{help wbopendata_`variable'##`variable':`title'}}"
@@ -501,7 +513,7 @@ if ("`nosthlp2'" == "") {
 				copy `help`variable'`tc0''  "`r(fn)'" , replace
 			}
 			else {
-				copy `help`variable'`tc0'' "wbopendata_`variable'_indicators`tc0'.sthlp"
+				copy `help`variable'`tc0'' "`wbopendata_dir'wbopendata_`variable'_indicators`tc0'.sthlp"
 			}
 					
 			********************************************
