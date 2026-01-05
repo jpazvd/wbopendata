@@ -176,20 +176,29 @@ tab indicatorcode
 
 /* Uncomment if you have spmap installed
 
+* Get shapefile paths from ado/plus/w (installed with wbopendata)
+local world_d "`c(sysdir_plus)'w/world-d.dta"
+local world_c "`c(sysdir_plus)'w/world-c.dta"
+
 * Download CO2 emissions
 wbopendata, indicator(EN.ATM.CO2E.PC) clear long latest
+local labelvar "`r(varlabel1)'"
 
-* Merge with world shapefile (requires world-d.dta and world-c.dta)
+* Merge with world shapefile
 tempfile emissions
 save `emissions'
-sysuse world-d, clear
+use "`world_d'", clear
 merge m:1 countrycode using `emissions', nogen
 
 * Create choropleth map
-spmap en_atm_co2e_pc using "world-c.dta", id(_ID) ///
+spmap en_atm_co2e_pc using "`world_c'", id(_ID) ///
     clnumber(7) fcolor(Reds) ocolor(none ..) ///
-    title("CO2 Emissions per Capita") ///
-    legend(ring(1) position(3))
+    title("`labelvar'") ///
+    legend(ring(1) position(3)) ///
+    note("Source: World Development Indicators using Azevedo, J.P. (2026) wbopendata", size(*.7))
+
+capture mkdir "output/figures"
+graph export "output/figures/co2_emissions_map.png", width(1200) replace
 */
 
 *===============================================================================
@@ -261,7 +270,7 @@ graph export "output/figures/poverty_mortality_scatter.png", width(1200) replace
 
 
 *===============================================================================
-* EXAMPLE 12: Multiple maxlength values for different field widths
+* EXAMPLE 12: Using sourcecite for clean source citations
 *===============================================================================
 
 * Download multiple indicators
@@ -286,7 +295,7 @@ graph export "output/figures/poverty_mortality_scatter-v2.png", width(1200) repl
 
 
 *===============================================================================
-* EXAMPLE 12: Multiple maxlength values for different field widths
+* EXAMPLE 13: Multiple maxlength values for different field widths
 *===============================================================================
 
 * Use different character widths for different fields
@@ -354,7 +363,7 @@ di as text "Note (80 chars):"
 di `"`r(note1_stack)'"'
 
 *===============================================================================
-* EXAMPLE 13: Multiple maxlength values for different field widths
+* EXAMPLE 14: Maxlength recycling for multiple fields
 *===============================================================================
 
 * If fewer maxlength values than fields, last value is used for remaining fields
@@ -369,7 +378,7 @@ return list
 
 
 *===============================================================================
-* EXAMPLE 14: Multiple maxlength values for different field widths
+* EXAMPLE 15: Building complex graph notes from stacked metadata
 *===============================================================================
 
 wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest ///
@@ -425,9 +434,9 @@ graph export "output/figures/poverty_mortality_scatter-v3.png", width(1200) repl
 
 
 *===============================================================================
-* EXAMPLE 15: Graph metadata with linewrap and dynamic subtitle
+* EXAMPLE 16: Graph metadata with linewrap and dynamic subtitle
 *===============================================================================
-* Demonstrates using linewrap for wrapped metadata and r(latest_subtitle) for
+* Demonstrates using linewrap for wrapped metadata and r(latest) for
 * dynamic subtitle showing country count and average year
 
 wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest ///
