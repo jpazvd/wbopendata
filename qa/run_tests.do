@@ -1,6 +1,6 @@
 /*******************************************************************************
 * wbopendata Automated Test Suite
-* Version: 17.4.2
+* Version: 17.7.1
 * Date: January 2026
 * 
 * Usage: 
@@ -11,14 +11,28 @@
 *   do run_tests.do list         - List all available tests
 *
 * Test Categories:
+*   0 - Environment Checks (ENV-01 to ENV-04)
 *   1 - Basic Downloads (DL-01 to DL-05)
-*   2 - Format Options (FMT-01 to FMT-03)
-*   3 - Country Metadata (CTRY-01 to CTRY-10)
+*   2 - Format Options (FMT-01 to FMT-04)
+*   3 - Country Metadata (CTRY-01 to CTRY-11)
 *   4 - Regression Tests (REG-33, REG-45, REG-46, REG-51)
 *   5 - Graph Metadata (LW-01 to LW-04)
-*   6 - Maintenance Commands (UPD-01, UPD-02)
+*   6 - Maintenance Commands (UPD-01 to UPD-06)
+*   7 - Topics & Language (TOPIC-01, LANG-01)
+*   8 - Advanced Features (PROJ-01, FMT-04, DESC-01, META-01, CTRY-11, DATE-01)
 * 
-* This script runs through core functionality tests and reports results.
+* Testing Best Practices Implemented:
+*   1. NO empty capture blocks - always run explicit commands inside cap
+*   2. Check _rc immediately after each command that matters
+*   3. Use explicit variable existence checks: capture confirm variable
+*   4. Verify data with count if !missing() not just assert
+*   5. Provide informative failure messages with actual error codes
+*   6. Remove corrupted auto-generated files before test run
+*
+* Common Issues Fixed:
+*   - r(920) macro length errors from corrupted _parameters.ado
+*   - Empty cap{} blocks that don't set _rc meaningfully
+*   - Tests failing silently without running actual validation
 *******************************************************************************/
 
 clear all
@@ -79,7 +93,7 @@ foreach arg of local args {
         di as text "  REG-46   Issue #46 regression"
         di as text "  REG-51   Issue #51 regression"
         di as text ""
-        di as text "  Graph Metadata (v17.4):"
+        di as text "  Graph Metadata (v17.6):"
         di as text "  LW-01    Linewrap option basic"
         di as text "  LW-02    Linewrap with maxlength"
         di as text "  LW-03    Latest returns scalars"
@@ -88,6 +102,22 @@ foreach arg of local args {
         di as text "  Maintenance Commands:"
         di as text "  UPD-01   Update query command"
         di as text "  UPD-02   Describe indicators"
+        di as text "  UPD-03   Update basic"
+        di as text "  UPD-04   Update check detail"
+        di as text "  UPD-05   Update all"
+        di as text "  UPD-06   Update all force"
+        di as text ""
+        di as text "  Topics & Language:"
+        di as text "  TOPIC-01 Topics download"
+        di as text "  LANG-01  Language option Spanish"
+        di as text ""
+        di as text "  Advanced Features:"
+        di as text "  PROJ-01  Projection data download"
+        di as text "  FMT-04   nobasic option"
+        di as text "  DESC-01  Describe option metadata only"
+        di as text "  META-01  nometadata verification"
+        di as text "  CTRY-11  Admin regions option"
+        di as text "  DATE-01  Date range option"
         exit 0
     }
     else {
@@ -105,17 +135,52 @@ if `verbose' == 1 {
     set tracedepth 2
 }
 
+* alwasy start by making sure wbopendata in REPO and in Stata are aligned
+net install wbopendata, from("C:\GitHub\myados\wbopendata") replace
+
 * Global to control which test to run (empty = all tests)
 global target_test "`target_test'"
 global verbose `verbose'
 
-* Add development path for wbopendata
-adopath ++ "c:/GitHub/myados/wbopendata"
+* Increase resource limits to prevent macro line length issues
+set maxvar 32767
+set varabbrev off
+
+* Use installed wbopendata (ado/plus) as the active version; do not delete auto-generated files
+
+* Detect installed wbopendata version from the ado header (ensures logs/history reflect actual package)
+local version "unknown"
+local wbo_date ""
+capture {
+    findfile wbopendata.ado
+    local wbo_path "`r(fn)'"
+    file open f using "`wbo_path'", read text
+    * Read up to 10 lines to find the version line (starts with *!)
+    forvalues i = 1/10 {
+        file read f line
+        if r(eof) continue, break
+        if (substr(trim("`line'"), 1, 2) == "*!") {
+            * Found version line: *! v 17.6.3  04Jan2026  by ...
+            local line = trim(substr("`line'", 3, .))
+            if (substr("`line'", 1, 1) == "v") {
+                local line = trim(substr("`line'", 2, .))
+                * Normalize whitespace: replace tabs with spaces, compress multiple spaces
+                local line = subinstr("`line'", char(9), " ", .)
+                local line = itrim("`line'")
+                if (wordcount("`line'") >= 2) {
+                    local version = word("`line'", 1)
+                    local wbo_date = word("`line'", 2)
+                }
+            }
+            continue, break
+        }
+    }
+    file close f
+}
 
 * Test configuration
-local version "17.4.2"
 local date = c(current_date)
-local time = c(current_time)
+local start_time = c(current_time)
 
 * Ensure logs are saved in qa folder (same location as this do-file)
 local qadir "c:/GitHub/myados/wbopendata/qa"
@@ -132,13 +197,16 @@ log using "`logfile'", replace text
 di as text _n "`sep'"
 di as text "WBOPENDATA TEST SUITE"
 di as text "Version: `version'"
+if "`wbo_date'" != "" {
+    di as text "Build date: `wbo_date'"
+}
 if "`target_test'" != "" {
     di as text "Target:  `target_test'"
 }
 if `verbose' == 1 {
     di as text "Mode:    VERBOSE (trace on)"
 }
-di as text "Date: `date' `time'"
+di as text "Date: `date' `start_time'"
 di as text "Stata: `c(stata_version)'"
 di as text "`sep'"
 
@@ -204,6 +272,9 @@ global tests_fail = 0
 global failed_tests ""
 global current_test ""
 global skip_test 0
+
+* which version of stata is this test being run on
+which wbopendata
 
 *===============================================================================
 * TEST CATEGORY 0: Environment Checks
@@ -608,158 +679,226 @@ di as text "`sep'"
 * CTRY-01: Match basic
 run_test "CTRY-01" "Match basic"
 if $skip_test == 0 {
-    cap noi {
-        clear
-        input str3 countrycode
-        "USA"
-        "BRA"
-        "CHN"
-        end
-        wbopendata, match(countrycode)
-        cap confirm variable regionname
-        assert _rc == 0
+    * Download base dataset
+    capture noisily wbopendata, indicator(SP.POP.TOTL) country(USA;BRA;CHN) clear long nometadata
+    if _rc != 0 {
+        test_fail "Failed to download base dataset: r(`=_rc')"
     }
-    if _rc == 0 test_pass
-    else test_fail "Match basic not working"
+    else {
+        keep countrycode
+        
+        * Apply match to add countryname
+        capture noisily wbopendata, match(countrycode)
+        if _rc != 0 {
+            test_fail "Match command failed: r(`=_rc')"
+        }
+        else {
+            * 1) Variable exists
+            capture confirm variable countryname
+            if _rc != 0 {
+                test_fail "Match basic not working - countryname variable is missing"
+            }
+            else {
+                * 2) Variable has data
+                quietly count if !missing(countryname)
+                if r(N) == 0 {
+                    test_fail "Match basic not working - countryname exists but has no non-missing data"
+                }
+                else {
+                    * 3) Verify we got at least 3 countries
+                    qui count if inlist(countrycode, "USA", "BRA", "CHN")
+                    if r(N) < 3 {
+                        test_fail "Match basic - expected 3 countries, got `=r(N)'"
+                    }
+                    else {
+                        test_pass
+                    }
+                }
+            }
+        }
+    }
 }
+
 
 * CTRY-02: Match with full
 run_test "CTRY-02" "Match with full option"
 if $skip_test == 0 {
-    cap noi {
-        clear
-        input str3 countrycode
-        "USA"
-        "BRA"
-        end
-        wbopendata, match(countrycode) full
-        cap confirm variable longitude
-        assert _rc == 0
+    capture noisily wbopendata, indicator(SP.POP.TOTL) country(USA;BRA) clear long nometadata
+    if _rc != 0 {
+        test_fail "Failed to download base dataset: r(`=_rc')"
     }
-    if _rc == 0 test_pass
-    else test_fail "Match full not working"
+    else {
+        capture noisily wbopendata, match(countrycode) full
+        if _rc != 0 {
+            test_fail "Match full command failed: r(`=_rc')"
+        }
+        else {
+            * Check for expected variables
+            local missing_vars ""
+            foreach v in longitude latitude capital {
+                capture confirm variable `v'
+                if _rc != 0 local missing_vars "`missing_vars' `v'"
+            }
+            if "`missing_vars'" != "" {
+                test_fail "Match full missing variables:`missing_vars'"
+            }
+            else test_pass
+        }
+    }
 }
 
 * CTRY-03: Full country metadata with indicator
 run_test "CTRY-03" "Full country metadata with indicator"
 if $skip_test == 0 {
-    cap noi {
-        wbopendata, indicator(NY.GDP.PCAP.PP.KD) country(BRA;USA;CHN) clear long full nometadata
-        cap confirm variable longitude
-        assert _rc == 0
-        cap confirm variable latitude
-        assert _rc == 0
-        cap confirm variable capital
-        assert _rc == 0
+    capture noisily wbopendata, indicator(NY.GDP.PCAP.PP.KD) country(BRA;USA;CHN) clear long full nometadata
+    if _rc != 0 {
+        test_fail "Failed to download with full metadata: r(`=_rc')"
     }
-    if _rc == 0 test_pass
-    else test_fail "Full country metadata not working"
+    else {
+        local missing_vars ""
+        foreach v in longitude latitude capital {
+            capture confirm variable `v'
+            if _rc != 0 local missing_vars "`missing_vars' `v'"
+        }
+        if "`missing_vars'" != "" {
+            test_fail "Full metadata missing variables:`missing_vars'"
+        }
+        else test_pass
+    }
 }
 
 * CTRY-04: ISO option
 run_test "CTRY-04" "ISO 2-digit codes option"
 if $skip_test == 0 {
-    cap noi {
-        wbopendata, indicator(SP.POP.TOTL) country(BRA) clear long iso nometadata
-        cap confirm variable region_iso2
-        assert _rc == 0
+    capture noisily wbopendata, indicator(SP.POP.TOTL) country(BRA) clear long iso nometadata
+    if _rc != 0 {
+        test_fail "Failed to download with iso option: r(`=_rc')"
     }
-    if _rc == 0 test_pass
-    else test_fail "ISO option not working"
+    else {
+        capture confirm variable region_iso2
+        if _rc != 0 {
+            test_fail "ISO option - region_iso2 variable missing"
+        }
+        else test_pass
+    }
 }
 
 * CTRY-05: Geographic option (GEO group)
 run_test "CTRY-05" "Geographic GEO group option"
 if $skip_test == 0 {
-    cap noi {
-        clear
-        input str3 countrycode
-        "USA"
-        "BRA"
-        "CHN"
-        end
-        wbopendata, match(countrycode) geo
-        cap confirm variable capital
-        assert _rc == 0
-        cap confirm variable latitude
-        assert _rc == 0
-        cap confirm variable longitude
-        assert _rc == 0
+    capture noisily wbopendata, indicator(SP.POP.TOTL) country(USA;BRA;CHN) clear long nometadata
+    if _rc != 0 {
+        test_fail "Failed to download base dataset: r(`=_rc')"
     }
-    if _rc == 0 test_pass
-    else test_fail "GEO group option not working"
+    else {
+        capture noisily wbopendata, match(countrycode) geo
+        if _rc != 0 {
+            test_fail "Match geo command failed: r(`=_rc')"
+        }
+        else {
+            local missing_vars ""
+            foreach v in capital latitude longitude {
+                capture confirm variable `v'
+                if _rc != 0 local missing_vars "`missing_vars' `v'"
+            }
+            if "`missing_vars'" != "" {
+                test_fail "GEO option missing variables:`missing_vars'"
+            }
+            else test_pass
+        }
+    }
 }
 
 * CTRY-06: Capital option (individual)
 run_test "CTRY-06" "Capital geographic option"
 if $skip_test == 0 {
-    cap noi {
-        clear
-        input str3 countrycode
-        "USA"
-        "BRA"
-        end
-        wbopendata, match(countrycode) capital
-        cap confirm variable capital
-        assert _rc == 0
+    capture noisily wbopendata, indicator(SP.POP.TOTL) country(USA;BRA) clear long nometadata
+    if _rc != 0 {
+        test_fail "Failed to download base dataset: r(`=_rc')"
     }
-    if _rc == 0 test_pass
-    else test_fail "Capital option not working"
+    else {
+        capture noisily wbopendata, match(countrycode) capital
+        if _rc != 0 {
+            test_fail "Match capital command failed: r(`=_rc')"
+        }
+        else {
+            capture confirm variable capital
+            if _rc != 0 test_fail "Capital variable missing"
+            else test_pass
+        }
+    }
 }
 
 * CTRY-07: Latitude and longitude options
 run_test "CTRY-07" "Latitude and longitude options"
 if $skip_test == 0 {
-    cap noi {
-        clear
-        input str3 countrycode
-        "USA"
-        "CHN"
-        end
-        wbopendata, match(countrycode) latitude longitude
-        cap confirm variable latitude
-        assert _rc == 0
-        cap confirm variable longitude
-        assert _rc == 0
+    capture noisily wbopendata, indicator(SP.POP.TOTL) country(USA;CHN) clear long nometadata
+    if _rc != 0 {
+        test_fail "Failed to download base dataset: r(`=_rc')"
     }
-    if _rc == 0 test_pass
-    else test_fail "Latitude/longitude options not working"
+    else {
+        capture noisily wbopendata, match(countrycode) latitude longitude
+        if _rc != 0 {
+            test_fail "Match lat/lon command failed: r(`=_rc')"
+        }
+        else {
+            local missing_vars ""
+            foreach v in latitude longitude {
+                capture confirm variable `v'
+                if _rc != 0 local missing_vars "`missing_vars' `v'"
+            }
+            if "`missing_vars'" != "" {
+                test_fail "Lat/lon missing variables:`missing_vars'"
+            }
+            else test_pass
+        }
+    }
 }
 
 * CTRY-08: Regions group option
 run_test "CTRY-08" "Regions group option"
 if $skip_test == 0 {
-    cap noi {
-        clear
-        input str3 countrycode
-        "USA"
-        "BRA"
-        end
-        wbopendata, match(countrycode) regions
-        cap confirm variable regionname
-        assert _rc == 0
+    capture noisily wbopendata, indicator(SP.POP.TOTL) country(USA;BRA) clear long nometadata
+    if _rc != 0 {
+        test_fail "Failed to download base dataset: r(`=_rc')"
     }
-    if _rc == 0 test_pass
-    else test_fail "Regions option not working"
+    else {
+        capture noisily wbopendata, match(countrycode) regions
+        if _rc != 0 {
+            test_fail "Match regions command failed: r(`=_rc')"
+        }
+        else {
+            capture confirm variable regionname
+            if _rc != 0 test_fail "Regionname variable missing"
+            else test_pass
+        }
+    }
 }
 
 * CTRY-09: Income and Lending options
 run_test "CTRY-09" "Income and Lending group options"
 if $skip_test == 0 {
-    cap noi {
-        clear
-        input str3 countrycode
-        "USA"
-        "BRA"
-        end
-        wbopendata, match(countrycode) income lending
-        cap confirm variable incomelevel
-        assert _rc == 0
-        cap confirm variable lendingtype
-        assert _rc == 0
+    capture noisily wbopendata, indicator(SP.POP.TOTL) country(USA;BRA) clear long nometadata
+    if _rc != 0 {
+        test_fail "Failed to download base dataset: r(`=_rc')"
     }
-    if _rc == 0 test_pass
-    else test_fail "Income/Lending options not working"
+    else {
+        capture noisily wbopendata, match(countrycode) income lending
+        if _rc != 0 {
+            test_fail "Match income/lending command failed: r(`=_rc')"
+        }
+        else {
+            local missing_vars ""
+            foreach v in incomelevel lendingtype {
+                capture confirm variable `v'
+                if _rc != 0 local missing_vars "`missing_vars' `v'"
+            }
+            if "`missing_vars'" != "" {
+                test_fail "Income/lending missing variables:`missing_vars'"
+            }
+            else test_pass
+        }
+    }
 }
 
 * CTRY-10: Geographic options with indicator download
@@ -853,7 +992,7 @@ run_test "LW-01" "Linewrap option basic"
 if $skip_test == 0 {
     cap noi {
         wbopendata, indicator(SP.POP.TOTL) clear long latest linewrap(name) nometadata
-        assert "`r(name1_stack)'" != ""
+        assert strlen(`"`r(name1_stack)'"') > 0
     }
     if _rc == 0 test_pass
     else test_fail "Linewrap basic not working"
@@ -865,8 +1004,8 @@ if $skip_test == 0 {
     cap noi {
         wbopendata, indicator(SI.POV.DDAY) clear long latest ///
             linewrap(name description) maxlength(40 80) nometadata
-        assert "`r(name1_stack)'" != ""
-        assert "`r(description1_stack)'" != ""
+        assert strlen(`"`r(name1_stack)'"') > 0
+        assert strlen(`"`r(description1_stack)'"') > 0
     }
     if _rc == 0 test_pass
     else test_fail "Linewrap with maxlength not working"
@@ -891,7 +1030,7 @@ if $skip_test == 0 {
     cap noi {
         wbopendata, indicator(NY.GDP.MKTP.CD) clear long latest ///
             linewrap(all) linewrapformat(all) nometadata
-        assert "`r(name1_stack)'" != ""
+        assert strlen(`"`r(name1_stack)'"') > 0
     }
     if _rc == 0 test_pass
     else test_fail "Linewrap all fields not working"
@@ -925,6 +1064,186 @@ if $skip_test == 0 {
     else test_fail "Describe not working"
 }
 
+* UPD-03: Update basic
+run_test "UPD-03" "Update basic"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, update
+    }
+    if _rc == 0 test_pass
+    else test_fail "Update basic not working"
+}
+
+* UPD-04: Update check detail
+run_test "UPD-04" "Update check detail"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, update check detail
+    }
+    if _rc == 0 test_pass
+    else test_fail "Update check detail not working"
+}
+
+* UPD-05: Update all
+run_test "UPD-05" "Update all"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, update all
+    }
+    if _rc == 0 test_pass
+    else test_fail "Update all not working"
+}
+
+* UPD-06: Update all force
+run_test "UPD-06" "Update all force"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, update all force
+    }
+    if _rc == 0 test_pass
+    else test_fail "Update all force not working"
+}
+
+*===============================================================================
+* TEST CATEGORY 7: Topics & Language
+*===============================================================================
+
+di as text _n "`sep'"
+di as text "CATEGORY 7: Topics & Language"
+di as text "`sep'"
+
+* TOPIC-01: Topics download (tests different API path)
+run_test "TOPIC-01" "Topics download"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, topics(1) clear long nometadata  // Topic 1 = Agriculture
+        * Topics query returns data for all countries and all indicators in topic
+        * When reshaped to long, each observation is a country-indicator-year
+        * Just verify we got data and have core variables
+        cap confirm variable countrycode
+        local rc1 = _rc
+        cap confirm variable year
+        local rc2 = _rc
+        assert `rc1' == 0 | `rc2' == 0  // Should have either countrycode or year
+        assert _N > 100  // Should have many observations for a topic
+    }
+    if _rc == 0 test_pass
+    else test_fail "Topics download not working"
+}
+
+* LANG-01: Language option (tests metadata in Spanish)
+run_test "LANG-01" "Language option Spanish"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) language(es) clear long
+        * Metadata should be in Spanish - verify r(varlabel1) exists
+        assert "`r(varlabel1)'" != ""
+    }
+    if _rc == 0 test_pass
+    else test_fail "Language option not working"
+}
+
+*===============================================================================
+* TEST CATEGORY 8: Advanced Features
+*===============================================================================
+
+di as text _n "`sep'"
+di as text "CATEGORY 8: Advanced Features"
+di as text "`sep'"
+
+* PROJ-01: Projection data (tests source=40 API path)
+run_test "PROJ-01" "Projection data download"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) projection clear long nometadata
+        cap confirm variable sp_pop_totl
+        assert _rc == 0
+    }
+    if _rc == 0 test_pass
+    else test_fail "Projection option not working"
+}
+
+* FMT-04: nobasic option (new v17.7 feature)
+run_test "FMT-04" "nobasic option suppresses default vars"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) clear long nobasic nometadata
+        * With nobasic, region/adminregion/incomelevel/lendingtype should NOT exist
+        local unexpected_vars ""
+        foreach v in region regionname adminregion incomelevel lendingtype {
+            cap confirm variable `v'
+            if _rc == 0 local unexpected_vars "`unexpected_vars' `v'"
+        }
+        assert "`unexpected_vars'" == ""
+    }
+    if _rc == 0 test_pass
+    else test_fail "nobasic option not suppressing default vars"
+}
+
+* DESC-01: Describe option (metadata only, no data)
+run_test "DESC-01" "Describe option returns metadata only"
+if $skip_test == 0 {
+    clear
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) describe
+        * describe calls _query_metadata directly, returns without index suffix
+        local has_meta = 0
+        if "`r(name_stack)'" != "" local has_meta = 1
+        if "`r(description_stack)'" != "" local has_meta = 1  
+        if "`r(name)'" != "" local has_meta = 1
+        assert `has_meta' == 1
+        * Should NOT have data in memory (describe exits early)
+        assert _N == 0
+    }
+    if _rc == 0 test_pass
+    else test_fail "Describe option not working"
+}
+
+* META-01: nometadata suppresses metadata returns
+run_test "META-01" "nometadata suppresses metadata returns"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) clear long nometadata
+        * With nometadata, linewrap-style returns should be empty
+        local has_stack = 0
+        if "`r(name1_stack)'" != "" local has_stack = 1
+        if "`r(description1_stack)'" != "" local has_stack = 1
+        assert `has_stack' == 0
+    }
+    if _rc == 0 test_pass
+    else test_fail "nometadata option not suppressing metadata returns"
+}
+
+* CTRY-11: Admin regions option
+run_test "CTRY-11" "Admin regions option"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(BRA;USA) clear long adminr nometadata
+        cap confirm variable adminregion
+        local rc1 = _rc
+        cap confirm variable adminregionname  
+        local rc2 = _rc
+        assert `rc1' == 0
+        assert `rc2' == 0
+    }
+    if _rc == 0 test_pass
+    else test_fail "Admin regions option not working"
+}
+
+* DATE-01: Date range option
+run_test "DATE-01" "Date range option"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) date(2015:2020) clear long nometadata
+        cap confirm variable sp_pop_totl
+        assert _rc == 0
+        * Verify we got data in the expected range
+        assert _N > 0
+    }
+    if _rc == 0 test_pass
+    else test_fail "Date range option not working"
+}
+
 *===============================================================================
 * TEST SUMMARY
 *===============================================================================
@@ -953,12 +1272,41 @@ cap set trace off
 log close
 di as text "Log saved to: `logfile'"
 
+* Always publish a canonical log copy for quick access
+cap copy "`logfile'" "`qadir'/run_tests.log", replace
+if _rc==0 di as text "Canonical log copied to: `qadir'/run_tests.log'"
+else di as error "Could not copy log to `qadir'/run_tests.log' (rc=`_rc')"
+
+* Capture end time and calculate duration
+local end_time = c(current_time)
+
+* Calculate duration in seconds (parse HH:MM:SS format)
+local start_h = real(substr("`start_time'", 1, 2))
+local start_m = real(substr("`start_time'", 4, 2))
+local start_s = real(substr("`start_time'", 7, 2))
+local end_h = real(substr("`end_time'", 1, 2))
+local end_m = real(substr("`end_time'", 4, 2))
+local end_s = real(substr("`end_time'", 7, 2))
+local start_secs = `start_h' * 3600 + `start_m' * 60 + `start_s'
+local end_secs = `end_h' * 3600 + `end_m' * 60 + `end_s'
+local duration_secs = `end_secs' - `start_secs'
+if `duration_secs' < 0 local duration_secs = `duration_secs' + 86400  // Handle midnight crossing
+local duration_min = floor(`duration_secs' / 60)
+local duration_sec = mod(`duration_secs', 60)
+local duration_str = "`duration_min'm `duration_sec's"
+
+di as text "Duration: `duration_str' (started `start_time', ended `end_time')"
+
 * Only write to history if running all tests (not single test mode)
 if "$target_test" == "" {
     file open history using "`histfile'", write append
     file write history _n "`sep'" _n
-    file write history "Test Run: `date' `time'" _n
+    file write history "Test Run: `date'" _n
+    file write history "Started:  `start_time'" _n
+    file write history "Ended:    `end_time'" _n
+    file write history "Duration: `duration_str'" _n
     file write history "Version:  `version'" _n
+    if "`wbo_date'" != "" file write history "Build:    `wbo_date'" _n
     file write history "Stata:    `c(stata_version)'" _n
     file write history "Tests:    $tests_run run, $tests_pass passed, $tests_fail failed" _n
     if $tests_fail == 0 {

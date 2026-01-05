@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -2246,7 +2246,7 @@
 
 {synopt:{opt Source Notes}}Depth of credit information index measures rules affecting the scope, accessibility, and quality of credit information available through public or private credit registries. The index ranges from 0 to 8, with higher values indicating the avail{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -2259,7 +2259,7 @@
 
 {synopt:{opt Source Notes}}Private credit bureau coverage reports the number of individuals or firms listed by a private credit bureau with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the adul{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -2272,7 +2272,7 @@
 
 {synopt:{opt Source Notes}}Public credit registry coverage reports the number of individuals and firms listed in a public credit registry with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -2285,7 +2285,7 @@
 
 {synopt:{opt Source Notes}}Strength of legal rights index measures the degree to which collateral and bankruptcy laws protect the rights of borrowers and lenders and thus facilitate lending. The index ranges from 0 to 12, with higher scores indicating that these laws ar{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -2354,4 +2354,4 @@
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

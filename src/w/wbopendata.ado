@@ -1,7 +1,14 @@
 *******************************************************************************
 * wbopendata             
-*! v 17.0  	 24Jan2023               by Joao Pedro Azevedo
-* 	Create region metadata
+*! v 17.7.1  	 04Jan2026               by Joao Pedro Azevedo
+* 	17.7.1: Fixed bug where latest option with multiple indicators caused variable name truncation error
+* 	17.7: basic country context variables (region/admin/income/lending) now added by default; use nobasic to disable
+* 	17.6.0: Added linewrap, maxlength, linewrapformat, describe options for graph metadata
+* 	17.6.1: Fixed missing value handling in captured nlines scalars to prevent forvalues syntax errors
+* 	17.6.2: Fixed double-quoting issue in captured return locals for wrapped metadata
+* 	17.6.3: Use macval() in capture to preserve original quoting of wrapped metadata returns
+* 	17.6.5: Added _newline format return values - was missing from wbopendata return capture
+* 	17.6.4: Fixed r() capture syntax - use compound quotes without = to preserve stacked strings
 *******************************************************************************
 
 program def wbopendata, rclass
@@ -10,67 +17,95 @@ version 9.0
 
     syntax                                          ///
                  [,                                 ///
-                         LANGUAGE(string)           ///
-                         COUNTRY(string)            ///
-                         TOPICS(string)             ///
-                         INDICATORs(string)         ///
-                         YEAR(string)               ///
-						 DATE(string)				///
-						 SOURCE(string)				///
- 						 PROJECTION					///						 
-                         LONG                       ///
-                         CLEAR                      ///
-                         LATEST                     ///
-                         NOMETADATA                 ///
-						 UPDATE						///
-						 QUERY						///
-						 CHECK						///
-						 NOPRESERVE					///
-						 PRESERVEOUT				///
-						 COUNTRYMETADATA			///
-						 ALL						///
-						 BREAKNOMETADATA			///
-						 METADATAOFFLINE			///
-						 FORCE						///
-						 SHORT						///
-						 DETAIL						///
-						 CTRYLIST					///
-						 MATCH(string)				///
-							ISO					///
-							REGIONS				///
-							ADMINR				///
-							INCOME				///
-							LENDING				///
-							CAPITALS			///
-							BASIC				///
-							FULL				///
-							countrycode_iso2 	///
-							region 				///
-							region_iso2 		///
-							regionname 			///
-							adminregion 		///
-							adminregion_iso2 	///
-							adminregionname 	///
-							incomelevel 		///
-							incomelevel_iso2 	///
-							incomelevelname 	///
-							lendingtype 		///
-							lendingtype_iso2 	///
-							lendingtypename 	///
-							capital 			///
-							latitude 			///
-							longitude 			///
-							countryname			///
+                        LANGUAGE(string)           ///
+                        COUNTRY(string)            ///
+                        TOPICS(string)             ///
+                        INDICATORs(string)         ///
+                        YEAR(string)               ///
+						DATE(string)				///
+						SOURCE(string)				///
+ 						PROJECTION					///
+                        LONG                       ///
+                        CLEAR                      ///
+                        LATEST                     ///
+                        NOMETADATA                 ///
+						UPDATE						///
+						QUERY						///
+						CHECK						///
+						NOPRESERVE					///
+						PRESERVEOUT				///
+						COUNTRYMETADATA			///
+						ALL						///
+						BREAKNOMETADATA			///
+						METADATAOFFLINE			///
+						FORCE						///
+						SHORT						///
+						DETAIL						///
+						CTRYLIST					///
+						MATCH(string)				///
+						ISO					///
+						REGIONS				///
+						ADMINR				///
+						INCOME				///
+						LENDING				///
+						GEO					///
+						noBASIC				///
+						FULL				///
+						COUNTRYCODE_ISO2 	///
+						REGION 				///
+						REGION_ISO2 		///
+						REGIONNAME 			///
+						ADMINREGION 		///
+						ADMINREGION_ISO2 	///
+						ADMINREGIONNAME 	///
+						INCOMELEVEL 		///
+						INCOMELEVEL_ISO2 	///
+						INCOMELEVELNAME 	///
+						LENDINGTYPE 		///
+						LENDINGTYPE_ISO2 	///
+						LENDINGTYPENAME 	///
+						capital 			///
+						latitude 			///
+						longitude 			///
+						countryname		///
+						LINEWRAP(string) 	///
+						MAXLENGTH(string) 	///
+						LINEWRAPFORMAT(string) 	///
+						DESCRIBE		///
                  ]
 
-
-	quietly {
-	
-	
-**********************************************************************************
+quietly {
 
 
 local indicator `indicators'
+
+	* Default: add basic country context variables unless nobasic is specified
+	* With noBASIC syntax: basic="" means add basic vars, basic="nobasic" means skip them
+	* Basic adds: region regionname adminregion adminregionname incomelevel incomelevelname lendingtype lendingtypename
+	if ("`basic'" == "") {
+		local basic "basic"
+	}
+	else if ("`basic'" == "nobasic") {
+		local basic ""
+	}
+
+	* Decide when metadata is needed (linewrap/described even if nometadata is set)
+	local needmeta 0
+	if ("`nometadata'" == "") local needmeta 1
+	if ("`linewrap'" != "") local needmeta 1
+	if ("`linewrapformat'" != "") local needmeta 1
+	if ("`maxlength'" != "") local needmeta 1
+
+	* describe option: just fetch metadata and exit
+	if ("`describe'" != "") {
+		if ("`indicator'" == "") {
+			noi di as err "describe option requires indicator()"
+			exit 198
+		}
+		noi _query_metadata , indicator("`indicator'") linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")
+		return add
+		exit _rc
+	}
 
 	* query and check can not be selected at the same time
 		if ("`query'" == "query") & ("`check'" == "check") {
@@ -126,7 +161,7 @@ local indicator `indicators'
 	
 	qui if ("`match'" != "") {
 
-		_countrymetadata, match(`match') `full' `iso' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `capitalist' `isolist' `countryname' `region'  `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname'  `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude'
+		_countrymetadata, match(`match') `full' `iso' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `geo' `isolist' `countryname' `region'  `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname'  `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude'
 
 	}
 
@@ -160,8 +195,8 @@ local indicator `indicators'
 					local namek "`r(name)'"
 
 
-					if ("`nometadata'" == "") & ("`indicator'" != "") {
-						cap: noi _query_metadata  , indicator("``i''")                  /*  Metadata   */
+					if (`needmeta' == 1) & ("`indicator'" != "") {
+						cap: noi _query_metadata  , indicator("``i''") linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")
 						local qm1rc = _rc
 						if (`qm1rc' != 0) {
 							noi di ""
@@ -171,6 +206,106 @@ local indicator `indicators'
 								break
 								exit 21
 							}
+						}
+						else {
+							local idx = `f'
+								local lw_name `"`r(name_stack)'"'
+								if (`"`lw_name'"' != "") {
+									return local name`idx'_stack `"`lw_name'"'
+								}
+								local lw_desc `"`r(description_stack)'"'
+								if (`"`lw_desc'"' != "") {
+									return local description`idx'_stack `"`lw_desc'"'
+								}
+								local lw_note `"`r(note_stack)'"'
+								if (`"`lw_note'"' != "") {
+									return local note`idx'_stack `"`lw_note'"'
+								}
+								local lw_source `"`r(source_stack)'"'
+								if (`"`lw_source'"' != "") {
+									return local source`idx'_stack `"`lw_source'"'
+								}
+								local lw_topic `"`r(topic_stack)'"'
+								if (`"`lw_topic'"' != "") {
+									return local topic`idx'_stack `"`lw_topic'"'
+								}
+							* _newline format returns (linewrapformat(newline) or (all))
+							local lw_name_nl `"`r(name_newline)'"'
+							if (`"`lw_name_nl'"' != "") {
+								return local name`idx'_newline `"`lw_name_nl'"'
+							}
+							local lw_desc_nl `"`r(description_newline)'"'
+							if (`"`lw_desc_nl'"' != "") {
+								return local description`idx'_newline `"`lw_desc_nl'"'
+							}
+							local lw_note_nl `"`r(note_newline)'"'
+							if (`"`lw_note_nl'"' != "") {
+								return local note`idx'_newline `"`lw_note_nl'"'
+							}
+							local lw_source_nl `"`r(source_newline)'"'
+							if (`"`lw_source_nl'"' != "") {
+								return local source`idx'_newline `"`lw_source_nl'"'
+							}
+							local lw_topic_nl `"`r(topic_newline)'"'
+							if (`"`lw_topic_nl'"' != "") {
+								return local topic`idx'_newline `"`lw_topic_nl'"'
+							}
+							local lw_nlines 0
+							local lw_dnl 0
+							local lw_nnl 0
+							local lw_snl 0
+							local lw_tnl 0
+
+							capture local lw_nlines = r(name_nlines)
+							if (_rc == 0 & `lw_nlines' != .) return scalar name`idx'_nlines = `lw_nlines'
+							if (_rc | `lw_nlines' == .) local lw_nlines 0
+							capture local lw_dnl = r(description_nlines)
+							if (_rc == 0 & `lw_dnl' != .) return scalar description`idx'_nlines = `lw_dnl'
+							if (_rc | `lw_dnl' == .) local lw_dnl 0
+							capture local lw_nnl = r(note_nlines)
+							if (_rc == 0 & `lw_nnl' != .) return scalar note`idx'_nlines = `lw_nnl'
+							if (_rc | `lw_nnl' == .) local lw_nnl 0
+							capture local lw_snl = r(source_nlines)
+							if (_rc == 0 & `lw_snl' != .) return scalar source`idx'_nlines = `lw_snl'
+							if (_rc | `lw_snl' == .) local lw_snl 0
+							capture local lw_tnl = r(topic_nlines)
+							if (_rc == 0 & `lw_tnl' != .) return scalar topic`idx'_nlines = `lw_tnl'
+							if (_rc | `lw_tnl' == .) local lw_tnl 0
+
+							* copy line-by-line returns when present (linewrapformat(all))
+							if (`lw_nlines' > 0) {
+								forvalues ln = 1/`lw_nlines' {
+									capture local lineval "`r(name_line`ln')'"
+									if (_rc == 0 & "`lineval'" != "") return local name`idx'_line`ln' "`lineval'"
+								}
+							}
+							if (`lw_dnl' > 0) {
+								forvalues ln = 1/`lw_dnl' {
+									capture local lineval "`r(description_line`ln')'"
+									if (_rc == 0 & "`lineval'" != "") return local description`idx'_line`ln' "`lineval'"
+								}
+							}
+							if (`lw_nnl' > 0) {
+								forvalues ln = 1/`lw_nnl' {
+									capture local lineval "`r(note_line`ln')'"
+									if (_rc == 0 & "`lineval'" != "") return local note`idx'_line`ln' "`lineval'"
+								}
+							}
+							if (`lw_snl' > 0) {
+								forvalues ln = 1/`lw_snl' {
+									capture local lineval "`r(source_line`ln')'"
+									if (_rc == 0 & "`lineval'" != "") return local source`idx'_line`ln' "`lineval'"
+								}
+							}
+							if (`lw_tnl' > 0) {
+								forvalues ln = 1/`lw_tnl' {
+									capture local lineval "`r(topic_line`ln')'"
+									if (_rc == 0 & "`lineval'" != "") return local topic`idx'_line`ln' "`lineval'"
+								}
+							}
+
+							capture local scite "`r(sourcecite)'"
+							if (_rc == 0 & "`scite'" != "") return local sourcecite`idx' "`scite'"
 						}
 					}
 
@@ -221,8 +356,8 @@ local indicator `indicators'
 				local name "`r(name)'"
 
 
-				if ("`nometadata'" == "") & ("`indicator'" != "") {
-					cap: noi _query_metadata  , indicator("``i''")                  /*  Metadata   */
+				if (`needmeta' == 1) & ("`indicator'" != "") {
+					cap: noi _query_metadata  , indicator("``i''") linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")
 					local qm2rc = _rc
 					if ("`qm2rc'" == "") {
 						noi di ""
@@ -232,6 +367,107 @@ local indicator `indicators'
 							break
 							exit 22
 						}
+					}
+					else {
+						local idx = 1
+						local lw_name `"`r(name_stack)'"'
+						if (`"`lw_name'"' != "") {
+							return local name`idx'_stack `"`lw_name'"'
+						}
+						local lw_desc `"`r(description_stack)'"'
+						if (`"`lw_desc'"' != "") {
+							return local description`idx'_stack `"`lw_desc'"'
+						}
+						local lw_note `"`r(note_stack)'"'
+						if (`"`lw_note'"' != "") {
+							return local note`idx'_stack `"`lw_note'"'
+						}
+						local lw_source `"`r(source_stack)'"'
+						if (`"`lw_source'"' != "") {
+							return local source`idx'_stack `"`lw_source'"'
+						}
+						local lw_topic `"`r(topic_stack)'"'
+						if (`"`lw_topic'"' != "") {
+							return local topic`idx'_stack `"`lw_topic'"'
+						}
+
+						* _newline format returns (linewrapformat(newline) or (all))
+						local lw_name_nl `"`r(name_newline)'"'
+						if (`"`lw_name_nl'"' != "") {
+							return local name`idx'_newline `"`lw_name_nl'"'
+						}
+						local lw_desc_nl `"`r(description_newline)'"'
+						if (`"`lw_desc_nl'"' != "") {
+							return local description`idx'_newline `"`lw_desc_nl'"'
+						}
+						local lw_note_nl `"`r(note_newline)'"'
+						if (`"`lw_note_nl'"' != "") {
+							return local note`idx'_newline `"`lw_note_nl'"'
+						}
+						local lw_source_nl `"`r(source_newline)'"'
+						if (`"`lw_source_nl'"' != "") {
+							return local source`idx'_newline `"`lw_source_nl'"'
+						}
+						local lw_topic_nl `"`r(topic_newline)'"'
+						if (`"`lw_topic_nl'"' != "") {
+							return local topic`idx'_newline `"`lw_topic_nl'"'
+						}
+
+						local lw_nlines 0
+						local lw_dnl 0
+						local lw_nnl 0
+						local lw_snl 0
+						local lw_tnl 0
+
+						capture local lw_nlines = r(name_nlines)
+						if (_rc == 0 & `lw_nlines' != .) return scalar name`idx'_nlines = `lw_nlines'
+						if (_rc | `lw_nlines' == .) local lw_nlines 0
+						capture local lw_dnl = r(description_nlines)
+						if (_rc == 0 & `lw_dnl' != .) return scalar description`idx'_nlines = `lw_dnl'
+						if (_rc | `lw_dnl' == .) local lw_dnl 0
+						capture local lw_nnl = r(note_nlines)
+						if (_rc == 0 & `lw_nnl' != .) return scalar note`idx'_nlines = `lw_nnl'
+						if (_rc | `lw_nnl' == .) local lw_nnl 0
+						capture local lw_snl = r(source_nlines)
+						if (_rc == 0 & `lw_snl' != .) return scalar source`idx'_nlines = `lw_snl'
+						if (_rc | `lw_snl' == .) local lw_snl 0
+						capture local lw_tnl = r(topic_nlines)
+						if (_rc == 0 & `lw_tnl' != .) return scalar topic`idx'_nlines = `lw_tnl'
+						if (_rc | `lw_tnl' == .) local lw_tnl 0
+
+						if (`lw_nlines' > 0) {
+							forvalues ln = 1/`lw_nlines' {
+								capture local lineval "`r(name_line`ln')'"
+								if (_rc == 0 & "`lineval'" != "") return local name`idx'_line`ln' "`lineval'"
+							}
+						}
+						if (`lw_dnl' > 0) {
+							forvalues ln = 1/`lw_dnl' {
+								capture local lineval "`r(description_line`ln')'"
+								if (_rc == 0 & "`lineval'" != "") return local description`idx'_line`ln' "`lineval'"
+							}
+						}
+						if (`lw_nnl' > 0) {
+							forvalues ln = 1/`lw_nnl' {
+								capture local lineval "`r(note_line`ln')'"
+								if (_rc == 0 & "`lineval'" != "") return local note`idx'_line`ln' "`lineval'"
+							}
+						}
+						if (`lw_snl' > 0) {
+							forvalues ln = 1/`lw_snl' {
+								capture local lineval "`r(source_line`ln')'"
+								if (_rc == 0 & "`lineval'" != "") return local source`idx'_line`ln' "`lineval'"
+							}
+						}
+						if (`lw_tnl' > 0) {
+							forvalues ln = 1/`lw_tnl' {
+								capture local lineval "`r(topic_line`ln')'"
+								if (_rc == 0 & "`lineval'" != "") return local topic`idx'_line`ln' "`lineval'"
+							}
+						}
+
+						capture local scite "`r(sourcecite)'"
+						if (_rc == 0 & "`scite'" != "") return local sourcecite`idx' "`scite'"
 					}
 				}
 				
@@ -275,19 +511,40 @@ local indicator `indicators'
 
 		if ("`latest'" != "") &  ("`long'" != "") {
 		    
-			* check if name is to long. 
-		    local length_name = length("`name'")
-			* shorten name if too long
+			* Keep the full name for rowmiss (may contain multiple indicators)
+			local name_full = trim("`name'")
+			
+			* Check if name is too long for return value
+		    local length_name = length("`name_full'")
+			* shorten name if too long (only for return value, not for variable reference)
 			if (`length_name' > 20) {
-				local name = substr("`name'",1,20)
-				return local name "`name'"
+				* Only return first 20 chars for r(name)
+				return local name = substr("`name_full'",1,20)
 			}
 			
 			tempvar tmp
-			egen `tmp' = rowmiss(`name')
+			egen `tmp' = rowmiss(`name_full')
 			keep if `tmp' == 0
 			sort countryname countrycode `time'
 			bysort countryname countrycode : keep if _n==_N
+
+			* latest return values for graph subtitles
+			capture confirm variable `time'
+			if (_rc == 0) {
+				quietly count if !missing(`time')
+				local ncountries = r(N)
+				if (`ncountries' > 0) {
+					quietly summarize `time', meanonly
+					local avgyear = r(mean)
+					local maxyear = r(max)
+					local avgyear_str : display %9.1f `avgyear'
+					local subtitle "Latest Available Year, `ncountries' countries (avg year `avgyear_str')"
+					return local latest "`subtitle'"
+					return local latest_ncountries "`ncountries'"
+					return local latest_avgyear "`avgyear_str'"
+					return local latest_year "`maxyear'"
+				}
+			}
 		}
 
 	}
@@ -305,7 +562,7 @@ local indicator `indicators'
 
 		tostring  countryname countrycode, replace
 
-		_countrymetadata, match(countrycode) `full' `iso' `regions' `adminr' `income' `lending' `capitals' `basic' `countrycode_iso2' `region' `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname' `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude' `countryname'
+		_countrymetadata, match(countrycode) `full' `iso' `regions' `adminr' `income' `lending' `geo' `basic' `countrycode_iso2' `region' `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname' `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude' `countryname'
 
 	}
 	
@@ -315,6 +572,10 @@ local indicator `indicators'
 	if ("`nopreserve'" == "") {
 		return add
 	}
+	
+
+	
+	
 	
 end
 

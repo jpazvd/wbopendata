@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -8255,4 +8255,4 @@
 {synopt:{help wbopendata_topicid_indicatorstopicID##topicid_IS.AIR.PSGR:IS.AIR.PSGR{marker IS.AIR.PSGR}}}Air transport, passengers carried{p_end}
 {synoptline}
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

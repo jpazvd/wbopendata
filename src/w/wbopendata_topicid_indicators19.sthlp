@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -231,7 +231,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity is the percentage of population with access to electricity. Electrification data are collected from industry, national surveys and international sources.{p_end}
 
-{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads,"} note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
+{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads"}, note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
 
 
 {synoptline}
@@ -244,7 +244,7 @@
 
 {synopt:{opt Source Notes}}The share of electricity production from coal sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Coal refers to all coal and brown coal, both primary (including hard coal and ligni{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -257,7 +257,7 @@
 
 {synopt:{opt Source Notes}}The share of electricity production from hydroelectric sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Hydropower refers to electricity produced by hydroelectric power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -270,7 +270,7 @@
 
 {synopt:{opt Source Notes}}The share of electricity production from natural gas sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Gas refers to natural gas but excludes natural gas liquids.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -283,7 +283,7 @@
 
 {synopt:{opt Source Notes}}The share of electricity production from nuclear sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Nuclear power refers to electricity produced by nuclear power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -296,7 +296,7 @@
 
 {synopt:{opt Source Notes}}The share of electricity production from oil sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -309,7 +309,7 @@
 
 {synopt:{opt Source Notes}}Renewable electricity is the share of electrity generated by renewable power plants in total electricity generated by all types of plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -322,7 +322,7 @@
 
 {synopt:{opt Source Notes}}Electricity production from renewable sources in kilowatt-hour (kWh), excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -335,7 +335,7 @@
 
 {synopt:{opt Source Notes}}The share of electricity production from renewable sources of total electricity production. Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -348,7 +348,7 @@
 
 {synopt:{opt Source Notes}}Renewable energy consumption is the share of renewables energy in total final energy consumption.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -361,7 +361,7 @@
 
 {synopt:{opt Source Notes}}Energy use per PPP GDP is the kilogram of oil equivalent of energy use per constant PPP GDP. Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stoc{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -374,7 +374,7 @@
 
 {synopt:{opt Source Notes}}Electric power consumption measures the production of power plants and combined heat and power plants less transmission, distribution, and transformation losses and own use by heat and power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -387,7 +387,7 @@
 
 {synopt:{opt Source Notes}}Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international tr{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -738,7 +738,7 @@
 
 {synopt:{opt Source Notes}}Rural population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702,"} publisher: NASA Ear{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702"}, publisher: NASA Ear{p_end}
 
 
 {synoptline}
@@ -751,7 +751,7 @@
 
 {synopt:{opt Source Notes}}Urban population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702,"} publisher: NASA Ear{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702"}, publisher: NASA Ear{p_end}
 
 
 {synoptline}
@@ -764,7 +764,7 @@
 
 {synopt:{opt Source Notes}}Population below 5m is the percentage of the total population living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702,"} publisher: NASA Ear{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702"}, publisher: NASA Ear{p_end}
 
 
 {synoptline}
@@ -777,7 +777,7 @@
 
 {synopt:{opt Source Notes}}Population in urban agglomerations of more than one million is the percentage of a country's population living in metropolitan areas that in 2018 had a population of more than one million people.{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} publisher: UN Population Division, date published: 2018{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, publisher: UN Population Division, date published: 2018{p_end}
 
 
 {synoptline}
@@ -790,7 +790,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/"}, publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -803,7 +803,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/"}, publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -855,7 +855,7 @@
 
 {synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. The ranking of economies is determined by sorting the aggregate ease of doing business scores. A high ranking (a low numerical rank) means that the regulato{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -907,7 +907,7 @@
 
 {synopt:{opt Source Notes}}Under-five mortality rate is the probability per 1,000 that a newborn baby will die before reaching age five, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org,"} publisher: UNICEF, WHO, World Bank, United Nations Population Division;{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"}, publisher: UNICEF, WHO, World Bank, United Nations Population Division;{p_end}
 
 
 {synoptline}
@@ -933,7 +933,7 @@
 
 {synopt:{opt Source Notes}}Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are midyear estimates.{p_end}
 
-{synopt:{opt Source Organization}}World Population Prospects, United Nations (UN), uri: {browse "https://population.un.org/wpp/,"} publisher: UN Population Division;{p_end}
+{synopt:{opt Source Organization}}World Population Prospects, United Nations (UN), uri: {browse "https://population.un.org/wpp/"}, publisher: UN Population Division;{p_end}
 
 
 {synoptline}
@@ -946,7 +946,7 @@
 
 {synopt:{opt Source Notes}}Annual urban population growth rate for year t is the exponential rate of growth of midyear urban population from year t-1 to t, expressed as a percentage. Urban population refers to people living in urban areas as defined by national statisti{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
 
 
 {synoptline}
@@ -959,7 +959,7 @@
 
 {synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. It is calculated using World Bank population estimates and urban ratios from the United Nations World Urbanization Prospects. Aggregation of ur{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
 
 
 {synoptline}
@@ -972,8 +972,8 @@
 
 {synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. The data are collected and smoothed by United Nations Population Division.{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Population Division{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, note: United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Population Division{p_end}
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

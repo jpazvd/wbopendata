@@ -1,40 +1,68 @@
 v 17.7.1
-d 'WBOPENDATA'
+d 'WBOPENDATA': module to access World Bank databases
 d 
-d Distribution-Date: 04Jan2026
+d wbopendata allows Stata users to download over 20,000 indicators 
+d from 51 World Bank databases, including: World Development Indicators; 
+d Global Financial Inclusion (Findex); Education Statistics; Enterprise 
+d Surveys; Gender Statistics; Health Nutrition and Population Statistics; 
+d Human Capital Index; Climate Change (CCDR); Sustainable Development Goals; 
+d and many more. These indicators cover 296 countries and regions, with data 
+d spanning from 1960 to present. Users can choose from three languages 
+d (English, Spanish, or French). Five download options are supported: 
+d (1) country - all indicators for selected years for a single country; 
+d (2) topics - WDI indicators within a specific topic for all years/countries; 
+d (3) indicator - all years for all countries for a single indicator; 
+d (4) indicator and country - selected years/countries for a single indicator; 
+d (5) multiple indicators - all years for selected indicators. Users can 
+d choose wide or long format. NEW in v17.7: Basic country context variables 
+d (region, income level, lending type) are now included by default. 
+d NEW in v17.6: Graph-ready metadata with linewrap() and maxlength() options.
+d 
+d KW: World Bank
+d KW: development indicators
+d KW: WDI
+d KW: API
+d KW: open data
+d 
+d Requires: Stata version 14
+d 
+d Distribution-Date: 20260104
 d License: MIT
 d 
-F src/c/country.txt
-F src/i/indicators.txt
-F src/w/wbopendata.ado
-F src/w/wbopendata.dlg
-F src/w/wbopendata.sthlp
-F src/w/wbopendata_adminregion.sthlp
-F src/w/wbopendata_examples.ado
-F src/w/wbopendata_incomelevel.sthlp
-F src/w/wbopendata_indicators.sthlp
-F src/w/wbopendata_lendingtype.sthlp
-F src/w/wbopendata_populate_list.ado
-F src/w/wbopendata_region.sthlp
-F src/w/wbopendata_sourceid.sthlp
-F src/w/wbopendata_topicid.sthlp
-F src/w/world-c.dta
-F src/w/world-d.dta
-F src/_/_api_read.ado
-F src/_/_api_read_indicators.ado
-F src/_/_countrymetadata.ado
-F src/_/_linewrap.ado
-F src/_/_metadata_linewrap.ado
-F src/_/_parameters.ado
-F src/_/_query.ado
-F src/_/_query_indicators.ado
-F src/_/_query_metadata.ado
-F src/_/_tknz.ado
-F src/_/_update_countrymetadata.ado
-F src/_/_update_indicators.ado
-F src/_/_update_regionmetadata.ado
-F src/_/_update_wbopendata.ado
-F src/_/_wbod_tmpfile1.ado
-F src/_/_wbod_tmpfile2.ado
-F src/_/_wbod_tmpfile3.ado
-F src/_/_website.ado
+d Author: João Pedro Azevedo
+d Support: email jpazvd.github.io 
+d 
+f wbopendata.ado
+f wbopendata_populate_list.ado
+f wbopendata_examples.ado
+f wbopendata.sthlp
+f wbopendata.dlg
+f wbopendata_indicators.sthlp
+f wbopendata_adminregion.sthlp
+f wbopendata_incomelevel.sthlp
+f wbopendata_lendingtype.sthlp
+f wbopendata_region.sthlp
+f wbopendata_sourceid.sthlp
+f wbopendata_topicid.sthlp
+f world-c.dta
+f world-d.dta
+f _api_read.ado
+f _api_read_indicators.ado
+f _countrymetadata.ado
+f _linewrap.ado
+f _metadata_linewrap.ado
+f _parameters.ado
+f _query.ado
+f _query_indicators.ado
+f _query_metadata.ado
+f _tknz.ado
+f _update_countrymetadata.ado
+f _update_indicators.ado
+f _update_regionmetadata.ado
+f _update_wbopendata.ado
+f _wbod_tmpfile1.ado
+f _wbod_tmpfile2.ado
+f _wbod_tmpfile3.ado
+f _website.ado
+f country.txt
+f indicators.txt

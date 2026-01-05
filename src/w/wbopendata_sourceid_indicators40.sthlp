@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -78,7 +78,7 @@
 
 {synopt:{opt Source Notes}}Number of deaths of children ages 5-9 years{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -91,7 +91,7 @@
 
 {synopt:{opt Source Notes}}Number of deaths of children ages 5-14 years{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -104,7 +104,7 @@
 
 {synopt:{opt Source Notes}}Number of deaths of adolescents ages 10-14 years{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -116,7 +116,7 @@
 
 {synopt:{opt Source Notes}}Number of deaths of adolescents ages 10-19 years{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -129,7 +129,7 @@
 
 {synopt:{opt Source Notes}}Number of deaths of adolescents ages 15-19 years{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -142,7 +142,7 @@
 
 {synopt:{opt Source Notes}}Number of deaths of youths ages 20-24 years{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -155,7 +155,7 @@
 
 {synopt:{opt Source Notes}}Number of infants dying before reaching one year of age.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -168,7 +168,7 @@
 
 {synopt:{opt Source Notes}}Number of female infants dying before reaching one year of age.{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -181,7 +181,7 @@
 
 {synopt:{opt Source Notes}}Number of male infants dying before reaching one year of age.{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -194,7 +194,7 @@
 
 {synopt:{opt Source Notes}}Number of children dying before reaching age five.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -207,7 +207,7 @@
 
 {synopt:{opt Source Notes}}Number of female children dying before reaching age five.{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -216,11 +216,11 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}04 Education{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Number of male children dying before reaching age five.{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -233,7 +233,7 @@
 
 {synopt:{opt Source Notes}}Number of neonates dying before reaching 28 days of age.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -246,7 +246,7 @@
 
 {synopt:{opt Source Notes}}Probability of dying between age 5-9 years of age expressed per 1,000 children aged 5, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -259,7 +259,7 @@
 
 {synopt:{opt Source Notes}}Probability of dying between age 5-14 years of age expressed per 1,000 children aged 5, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -272,7 +272,7 @@
 
 {synopt:{opt Source Notes}}Probability of dying between age 10-14 years of age expressed per 1,000 adolescents age 10, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -284,7 +284,7 @@
 
 {synopt:{opt Source Notes}}Probability of dying between age 10-19 years of age expressed per 1,000 adolescents age 10, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -297,7 +297,7 @@
 
 {synopt:{opt Source Notes}}Probability of dying between age 15-19 years of age expressed per 1,000 adolescents age 15, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -310,7 +310,7 @@
 
 {synopt:{opt Source Notes}}Probability of dying between age 20-24 years of age expressed per 1,000 youths age 20, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -319,11 +319,11 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Under-five mortality rate is the probability per 1,000 that a newborn baby will die before reaching age five, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org,"} publisher: UNICEF, WHO, World Bank, United Nations Population Division;{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"}, publisher: UNICEF, WHO, World Bank, United Nations Population Division;{p_end}
 
 
 {synoptline}
@@ -336,7 +336,7 @@
 
 {synopt:{opt Source Notes}}Under-five mortality rate, female is the probability per 1,000 that a newborn female baby will die before reaching age five, if subject to female age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -349,7 +349,7 @@
 
 {synopt:{opt Source Notes}}Under-five mortality rate, male is the probability per 1,000 that a newborn male baby will die before reaching age five, if subject to male age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -362,7 +362,7 @@
 
 {synopt:{opt Source Notes}}Neonatal mortality rate is the number of neonates dying before reaching 28 days of age, per 1,000 live births in a given year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -371,7 +371,7 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Net migration is the net total of migrants during the period, that is, the number of immigrants minus the number of emigrants, including both citizens and noncitizens.{p_end}
 
@@ -397,7 +397,7 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}17 Gender{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Adult mortality rate, male, is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old male dying before reaching age 60, if subject to age-specific mortality rates of the specified year between those{p_end}
 
@@ -440,7 +440,7 @@
 
 {synopt:{opt Source Notes}}Infant mortality rate, female is the number of female infants dying before reaching one year of age, per 1,000 female live births in a given year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -453,7 +453,7 @@
 
 {synopt:{opt Source Notes}}Infant mortality rate is the number of infants dying before reaching one year of age, per 1,000 live births in a given year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -466,7 +466,7 @@
 
 {synopt:{opt Source Notes}}Infant mortality rate, male is the number of male infants dying before reaching one year of age, per 1,000 male live births in a given year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -642,11 +642,11 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}04 Education{p_end}
 
 {synopt:{opt Source Notes}}Population between the ages 0 to 14 as a percentage of the total population. Population is based on the de facto definition of population.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects., United Nations Population Division, uri: {browse "https://population.un.org/wpp/,"} publisher: United Nations Population Division{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects., United Nations Population Division, uri: {browse "https://population.un.org/wpp/"}, publisher: United Nations Population Division{p_end}
 
 
 {synoptline}
@@ -2300,7 +2300,7 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}08 Health{p_end}
 
 {synopt:{opt Source Notes}}Annual population growth rate for year t is the exponential rate of growth of midyear population from year t-1 to t, expressed as a percentage. Population is based on the de facto definition of population, which counts all residents regardless{p_end}
 
@@ -2313,11 +2313,11 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}08 Health{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are midyear estimates.{p_end}
 
-{synopt:{opt Source Organization}}World Population Prospects, United Nations (UN), uri: {browse "https://population.un.org/wpp/,"} publisher: UN Population Division;{p_end}
+{synopt:{opt Source Organization}}World Population Prospects, United Nations (UN), uri: {browse "https://population.un.org/wpp/"}, publisher: UN Population Division;{p_end}
 
 
 {synoptline}
@@ -2382,7 +2382,7 @@
 
 {synopt:{opt Source Notes}}Rural population refers to people living in rural areas as defined by national statistical offices. It is calculated as the difference between total population and urban population. Aggregation of urban and rural population may not add up to t{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
 
 
 {synoptline}
@@ -2395,7 +2395,7 @@
 
 {synopt:{opt Source Notes}}Annual rural population growth rate for year t is the exponential rate of growth of midyear rural population from year t-1 to t, expressed as a percentage. Rural population refers to people living in rural areas as defined by national statisti{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
 
 
 {synoptline}
@@ -2408,7 +2408,7 @@
 
 {synopt:{opt Source Notes}}Rural population refers to people living in rural areas as defined by national statistical offices. It is calculated as the difference between total population and urban population.{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
 
 
 {synoptline}
@@ -2417,11 +2417,11 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Annual urban population growth rate for year t is the exponential rate of growth of midyear urban population from year t-1 to t, expressed as a percentage. Urban population refers to people living in urban areas as defined by national statisti{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
 
 
 {synoptline}
@@ -2434,7 +2434,7 @@
 
 {synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. It is calculated using World Bank population estimates and urban ratios from the United Nations World Urbanization Prospects. Aggregation of ur{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
 
 
 {synoptline}
@@ -2443,12 +2443,12 @@
 
 {synopt:{opt Source}}40 Population estimates and projections{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. The data are collected and smoothed by United Nations Population Division.{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Population Division{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, note: United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Population Division{p_end}
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -88,7 +88,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity, urban is the percentage of urban population with access to electricity.{p_end}
 
-{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads,"} note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
+{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads"}, note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
 
 
 {synoptline}
@@ -127,7 +127,7 @@
 
 {synopt:{opt Source Notes}}Percent of population exposed to ambient concentrations of PM2.5 that exceed the WHO guideline value is defined as the portion of a country’s population living in places where mean annual concentrations of PM2.5 are greater than 10 microgram{p_end}
 
-{synopt:{opt Source Organization}}Global Burden of Disease Study 2017 (GBD 2017), Institute for Health Metrics and Evaluation (IHME), uri: {browse "https://ghdx.healthdata.org/gbd-2017,"} publisher: Institute for Health Metrics and Evaluation (IHME), date published: 202112{p_end}
+{synopt:{opt Source Organization}}Global Burden of Disease Study 2017 (GBD 2017), Institute for Health Metrics and Evaluation (IHME), uri: {browse "https://ghdx.healthdata.org/gbd-2017"}, publisher: Institute for Health Metrics and Evaluation (IHME), date published: 202112{p_end}
 
 
 {synoptline}
@@ -153,7 +153,7 @@
 
 {synopt:{opt Source Notes}}Urban population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702,"} publisher: NASA Ear{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702"}, publisher: NASA Ear{p_end}
 
 
 {synoptline}
@@ -179,7 +179,7 @@
 
 {synopt:{opt Source Notes}}Population in largest city is the urban population living in the country's largest metropolitan area.{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} publisher: UN Population Division, date published: 2018{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, publisher: UN Population Division, date published: 2018{p_end}
 
 
 {synoptline}
@@ -192,7 +192,7 @@
 
 {synopt:{opt Source Notes}}Population in largest city is the percentage of a country's urban population living in that country's largest metropolitan area.{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} publisher: UN Population Division, date published: 2018{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, publisher: UN Population Division, date published: 2018{p_end}
 
 
 {synoptline}
@@ -205,7 +205,7 @@
 
 {synopt:{opt Source Notes}}Population in urban agglomerations of more than one million is the country's population living in metropolitan areas that in 2018 had a population of more than one million people.{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} publisher: UN Population Division, date published: 2018{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, publisher: UN Population Division, date published: 2018{p_end}
 
 
 {synoptline}
@@ -218,7 +218,7 @@
 
 {synopt:{opt Source Notes}}Population in urban agglomerations of more than one million is the percentage of a country's population living in metropolitan areas that in 2018 had a population of more than one million people.{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} publisher: UN Population Division, date published: 2018{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, publisher: UN Population Division, date published: 2018{p_end}
 
 
 {synoptline}
@@ -296,7 +296,7 @@
 
 {synopt:{opt Source Notes}}Annual urban population growth rate for year t is the exponential rate of growth of midyear urban population from year t-1 to t, expressed as a percentage. Urban population refers to people living in urban areas as defined by national statisti{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
 
 
 {synoptline}
@@ -309,7 +309,7 @@
 
 {synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. It is calculated using World Bank population estimates and urban ratios from the United Nations World Urbanization Prospects. Aggregation of ur{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, note: World Bank staff estimates based on the United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Popula{p_end}
 
 
 {synoptline}
@@ -322,8 +322,8 @@
 
 {synopt:{opt Source Notes}}Urban population refers to people living in urban areas as defined by national statistical offices. The data are collected and smoothed by United Nations Population Division.{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} note: United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Population Division{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, note: United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Population Division{p_end}
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

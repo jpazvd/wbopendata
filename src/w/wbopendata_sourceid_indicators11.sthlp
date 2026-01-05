@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -2301,7 +2301,7 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Special programme to address the control of malaria. Note: data for Sub-Saharan Africa include South of Sahara regional.  Detailed descriptions are available {browse "www.oecd.org/dac/stats/crs/directives"}.{p_end}
+{synopt:{opt Source Notes}}Special programme to address the control of malaria. Note: data for Sub-Saharan Africa include South of Sahara regional.  Detailed descriptions are available {browse "http://www.oecd.org/dac/stats/crs/directives"}.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
@@ -2676,7 +2676,7 @@
 
 {synopt:{opt Topics}}03 Economy and Growth{p_end}
 
-{synopt:{opt Source Notes}}Special programme to address the control of malaria. Note: data for Sub-Saharan Africa include South of Sahara regional.  Detailed descriptions are available {browse "www.oecd.org/dac/stats/crs/directives"}.{p_end}
+{synopt:{opt Source Notes}}Special programme to address the control of malaria. Note: data for Sub-Saharan Africa include South of Sahara regional.  Detailed descriptions are available {browse "http://www.oecd.org/dac/stats/crs/directives"}.{p_end}
 
 {synopt:{opt Source Organization}}Development Assistance Committee of the Organisation for Economic Co-operation and Development.{p_end}
 
@@ -2823,7 +2823,7 @@
 
 {synopt:{opt Source Notes}}Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organ{p_end}
 
-{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "www.worldbank.org/nipr)"}. The data were updated by the World Bank's Development Research Group us{p_end}
+{synopt:{opt Source Organization}}1998 study by Hemamala Hettige, Muthukumara Mani, and David Wheeler, Industrial Pollution in Economic Development: Kuznets Revisited (available at {browse "http://www.worldbank.org/nipr"}). The data were updated by the World Bank's Development Research Group us{p_end}
 
 
 {synoptline}
@@ -2957,7 +2957,7 @@
 
 {synopt:{opt Source Notes}}Industrial methane emissions are emissions from the handling, transmission, and combustion of fossil fuels and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
+{synopt:{opt Source Organization}}International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp"}).{p_end}
 
 
 {synoptline}
@@ -2970,7 +2970,7 @@
 
 {synopt:{opt Source Notes}}Industrial nitrous oxide emissions are emissions produced during the manufacturing of adipic acid and nitric acid.{p_end}
 
-{synopt:{opt Source Organization}}International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp)"}.{p_end}
+{synopt:{opt Source Organization}}International Energy Agency (IEA Statistics © OECD/IEA, {browse "http://www.iea.org/stats/index.asp"}).{p_end}
 
 
 {synoptline}
@@ -3790,7 +3790,7 @@
 
 {synopt:{opt Source Notes}}Highest marginal tax rate (corporate rate) is the highest rate shown on the schedule of tax rates applied to the taxable income of corporations.{p_end}
 
-{synopt:{opt Source Organization}}KPMG's Corporate and Indirect Tax Rate Survey 2009 (www.kpmg.com), and PricewaterhouseCoopers's Worldwide Tax Summaries Online ({browse "www.pwc.com"}).{p_end}
+{synopt:{opt Source Organization}}KPMG's Corporate and Indirect Tax Rate Survey 2009 (www.kpmg.com), and PricewaterhouseCoopers's Worldwide Tax Summaries Online ({browse "http://www.pwc.com"}).{p_end}
 
 
 {synoptline}
@@ -5889,7 +5889,7 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Motor vehicles include cars, buses, and freight vehicles but do not include two-wheelers. Population refers to midyear population in the year for which data are available.{p_end}
 
@@ -5902,7 +5902,7 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Passenger cars refer to road motor vehicles, other than two-wheelers, intended for the carriage of passengers and designed to seat no more than nine people (including the driver).{p_end}
 
@@ -5915,7 +5915,7 @@
 
 {synopt:{opt Source}}11 Africa Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}16 Urban Development{p_end}
 
 {synopt:{opt Source Notes}}Vehicles per kilometer of road include cars, buses, and freight vehicles but do not include two-wheelers. Roads refer to motorways, highways, main or national roads, secondary or regional roads, and other roads. A motorway is a road specially{p_end}
 
@@ -7961,4 +7961,4 @@
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

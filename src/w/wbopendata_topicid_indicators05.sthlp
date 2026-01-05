@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -62,7 +62,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity, rural is the percentage of rural population with access to electricity.{p_end}
 
-{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads,"} note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
+{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads"}, note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
 
 
 {synoptline}
@@ -75,7 +75,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity, urban is the percentage of urban population with access to electricity.{p_end}
 
-{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads,"} note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
+{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads"}, note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
 
 
 {synoptline}
@@ -88,7 +88,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity is the percentage of population with access to electricity. Electrification data are collected from industry, national surveys and international sources.{p_end}
 
-{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads,"} note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
+{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads"}, note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
 
 
 {synoptline}
@@ -101,7 +101,7 @@
 
 {synopt:{opt Source Notes}}The share of electricity production from coal sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Coal refers to all coal and brown coal, both primary (including hard coal and ligni{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -114,7 +114,7 @@
 
 {synopt:{opt Source Notes}}The share of electricity production from oil. gas and coal sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products. Gas refers to natural{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -127,7 +127,7 @@
 
 {synopt:{opt Source Notes}}The share of electricity production from hydroelectric sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Hydropower refers to electricity produced by hydroelectric power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -140,7 +140,7 @@
 
 {synopt:{opt Source Notes}}Electric power transmission and distribution losses include losses in transmission between sources of supply and points of distribution and in the distribution to consumers, including pilferage. The losses are expressed as a share of the total{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -153,7 +153,7 @@
 
 {synopt:{opt Source Notes}}The share of electricity production from natural gas sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Gas refers to natural gas but excludes natural gas liquids.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -166,7 +166,7 @@
 
 {synopt:{opt Source Notes}}The share of electricity production from nuclear sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Nuclear power refers to electricity produced by nuclear power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -179,7 +179,7 @@
 
 {synopt:{opt Source Notes}}The share of electricity production from oil sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -192,7 +192,7 @@
 
 {synopt:{opt Source Notes}}Renewable electricity is the share of electrity generated by renewable power plants in total electricity generated by all types of plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -205,7 +205,7 @@
 
 {synopt:{opt Source Notes}}Electricity production from renewable sources in kilowatt-hour (kWh), excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -218,7 +218,7 @@
 
 {synopt:{opt Source Notes}}The share of electricity production from renewable sources of total electricity production. Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -231,7 +231,7 @@
 
 {synopt:{opt Source Notes}}Renewable energy consumption is the share of renewables energy in total final energy consumption.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -244,7 +244,7 @@
 
 {synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to current international dollars using purchasing power parity rates based on the 2017 ICP round. An internatio{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -257,7 +257,7 @@
 
 {synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to 2021 constant international dollars using purchasing power parity rates. An international dollar has the sam{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -270,7 +270,7 @@
 
 {synopt:{opt Source Notes}}Net energy imports are estimated as gross imports less gross exports, both measured in tons of oil equivalents (toe). A negative value indicates that the country is a net exporter. Energy use refers to use of primary energy before transformati{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -322,7 +322,7 @@
 
 {synopt:{opt Source Notes}}Clean energy is noncarbohydrate energy that does not produce carbon dioxide when generated. It includes hydropower and nuclear, geothermal, and solar power, among others. This is the share of total energy supply that is non-fossil.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -335,7 +335,7 @@
 
 {synopt:{opt Source Notes}}Fossil fuel comprises coal, oil, petroleum, and natural gas products.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -348,7 +348,7 @@
 
 {synopt:{opt Source Notes}}Energy use per PPP GDP is the kilogram of oil equivalent of energy use per constant PPP GDP. Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stoc{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -361,7 +361,7 @@
 
 {synopt:{opt Source Notes}}Combustible renewables and waste comprise solid biomass, liquid biomass, biogas, industrial waste, and municipal waste, measured as a percentage of total energy use. The indicator expresses the share of total energy supply.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -374,7 +374,7 @@
 
 {synopt:{opt Source Notes}}Electric power consumption measures the production of power plants and combined heat and power plants less transmission, distribution, and transformation losses and own use by heat and power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -387,7 +387,7 @@
 
 {synopt:{opt Source Notes}}Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international tr{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -517,7 +517,7 @@
 
 {synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -634,7 +634,7 @@
 
 {synopt:{opt Source Notes}}Mineral rents are the difference between the value of production for a stock of minerals at world prices and their total costs of production. Minerals included in the calculation are tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite{p_end}
 
-{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data,"} note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
+{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data"}, note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
 
 
 {synoptline}
@@ -647,7 +647,7 @@
 
 {synopt:{opt Source Notes}}Natural gas rents are the difference between the value of natural gas production at regional prices and total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data,"} note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
+{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data"}, note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
 
 
 {synoptline}
@@ -660,7 +660,7 @@
 
 {synopt:{opt Source Notes}}Oil rents are the difference between the value of crude oil production at regional prices and total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data,"} note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
+{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data"}, note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
 
 
 {synoptline}
@@ -673,8 +673,8 @@
 
 {synopt:{opt Source Notes}}Total natural resources rents are the sum of oil rents, natural gas rents, coal rents (hard and soft), mineral rents, and forest rents.{p_end}
 
-{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data,"} note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
+{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data"}, note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

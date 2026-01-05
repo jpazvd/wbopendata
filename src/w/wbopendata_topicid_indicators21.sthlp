@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -322,7 +322,7 @@
 
 {synopt:{opt Source Notes}}Net energy imports are estimated as gross imports less gross exports, both measured in tons of oil equivalents (toe). A negative value indicates that the country is a net exporter. Energy use refers to use of primary energy before transformati{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -361,7 +361,7 @@
 
 {synopt:{opt Source Notes}}Average number of days to clear direct exports through customs.{p_end}
 
-{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data,"} note: All surveys were administered using the Enterprise Surveys methodology as outlined in the Methodology page which can be found from www.enterprisesurveys{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://{browse "http://www.enterprisesurveys"}.org/en/data"}, note: All surveys were administered using the Enterprise Surveys methodology as outlined in the Methodology page which can be found from {browse "http://www.enterprisesurveys"}{p_end}
 
 
 {synoptline}
@@ -387,7 +387,7 @@
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -400,7 +400,7 @@
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -439,7 +439,7 @@
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -452,7 +452,7 @@
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -478,7 +478,7 @@
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -491,7 +491,7 @@
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -530,7 +530,7 @@
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -543,7 +543,7 @@
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -556,7 +556,7 @@
 
 {synopt:{opt Source Notes}}Lead time to export is the median time (the value for 50 percent of shipments) from shipment point to port of loading. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10 percent of{p_end}
 
-{synopt:{opt Source Organization}}Logistic Performance Index Surveys, World Bank (WB), uri: {browse "https://lpi.worldbank.org/,"} note: Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and It{p_end}
+{synopt:{opt Source Organization}}Logistic Performance Index Surveys, World Bank (WB), uri: {browse "https://lpi.worldbank.org/"}, note: Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and It{p_end}
 
 
 {synoptline}
@@ -569,7 +569,7 @@
 
 {synopt:{opt Source Notes}}Lead time to import is the median time (the value for 50 percent of shipments) from port of discharge to arrival at the consignee. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10{p_end}
 
-{synopt:{opt Source Organization}}Logistic Performance Index Surveys, World Bank (WB), uri: {browse "https://lpi.worldbank.org/,"} note: Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and It{p_end}
+{synopt:{opt Source Organization}}Logistic Performance Index Surveys, World Bank (WB), uri: {browse "https://lpi.worldbank.org/"}, note: Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and It{p_end}
 
 
 {synoptline}
@@ -846,4 +846,4 @@
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

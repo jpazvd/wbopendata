@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -49,7 +49,7 @@
 
 {synopt:{opt Source Notes}}Number of deaths of children ages 5-14 years{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -62,7 +62,7 @@
 
 {synopt:{opt Source Notes}}Number of infants dying before reaching one year of age.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -75,7 +75,7 @@
 
 {synopt:{opt Source Notes}}Number of female infants dying before reaching one year of age.{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -88,7 +88,7 @@
 
 {synopt:{opt Source Notes}}Number of male infants dying before reaching one year of age.{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -101,7 +101,7 @@
 
 {synopt:{opt Source Notes}}Number of children dying before reaching age five.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -114,7 +114,7 @@
 
 {synopt:{opt Source Notes}}Number of female children dying before reaching age five.{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -127,7 +127,7 @@
 
 {synopt:{opt Source Notes}}Number of male children dying before reaching age five.{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -140,7 +140,7 @@
 
 {synopt:{opt Source Notes}}Number of neonates dying before reaching 28 days of age.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -153,7 +153,7 @@
 
 {synopt:{opt Source Notes}}Probability of dying between age 5-14 years of age expressed per 1,000 children aged 5, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "www.childmortality.org"}.{p_end}
+{synopt:{opt Source Organization}}Estimates developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at {browse "http://www.childmortality.org"}.{p_end}
 
 
 {synoptline}
@@ -166,7 +166,7 @@
 
 {synopt:{opt Source Notes}}Under-five mortality rate is the probability per 1,000 that a newborn baby will die before reaching age five, if subject to age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org,"} publisher: UNICEF, WHO, World Bank, United Nations Population Division;{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"}, publisher: UNICEF, WHO, World Bank, United Nations Population Division;{p_end}
 
 
 {synoptline}
@@ -179,7 +179,7 @@
 
 {synopt:{opt Source Notes}}Under-five mortality rate, female is the probability per 1,000 that a newborn female baby will die before reaching age five, if subject to female age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -192,7 +192,7 @@
 
 {synopt:{opt Source Notes}}Under-five mortality rate, male is the probability per 1,000 that a newborn male baby will die before reaching age five, if subject to male age-specific mortality rates of the specified year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -205,7 +205,7 @@
 
 {synopt:{opt Source Notes}}Neonatal mortality rate is the number of neonates dying before reaching 28 days of age, per 1,000 live births in a given year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -283,7 +283,7 @@
 
 {synopt:{opt Source Notes}}Infant mortality rate, female is the number of female infants dying before reaching one year of age, per 1,000 female live births in a given year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -296,7 +296,7 @@
 
 {synopt:{opt Source Notes}}Infant mortality rate is the number of infants dying before reaching one year of age, per 1,000 live births in a given year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -309,7 +309,7 @@
 
 {synopt:{opt Source Notes}}Infant mortality rate, male is the number of male infants dying before reaching one year of age, per 1,000 male live births in a given year.{p_end}
 
-{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "www.childmortality.org;"}{p_end}
+{synopt:{opt Source Organization}}UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: {browse "http://www.childmortality.org"};{p_end}
 
 
 {synoptline}
@@ -465,7 +465,7 @@
 
 {synopt:{opt Source Notes}}Population between the ages 0 to 14 as a percentage of the total population. Population is based on the de facto definition of population.{p_end}
 
-{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects., United Nations Population Division, uri: {browse "https://population.un.org/wpp/,"} publisher: United Nations Population Division{p_end}
+{synopt:{opt Source Organization}}United Nations Population Division. World Population Prospects., United Nations Population Division, uri: {browse "https://population.un.org/wpp/"}, publisher: United Nations Population Division{p_end}
 
 
 {synoptline}
@@ -1128,7 +1128,7 @@
 
 {synopt:{opt Source Notes}}Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are midyear estimates.{p_end}
 
-{synopt:{opt Source Organization}}World Population Prospects, United Nations (UN), uri: {browse "https://population.un.org/wpp/,"} publisher: UN Population Division;{p_end}
+{synopt:{opt Source Organization}}World Population Prospects, United Nations (UN), uri: {browse "https://population.un.org/wpp/"}, publisher: UN Population Division;{p_end}
 
 
 {synoptline}
@@ -1184,4 +1184,4 @@
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

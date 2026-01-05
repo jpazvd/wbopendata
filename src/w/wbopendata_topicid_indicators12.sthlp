@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -101,7 +101,7 @@
 
 {synopt:{opt Source Notes}}The ease of doing business scores benchmark economies with respect to regulatory best practice, showing the proximity to the best regulatory performance on each Doing Business indicator. An economy’s score is indicated on a scale from 0 to 1{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -114,7 +114,7 @@
 
 {synopt:{opt Source Notes}}Disclosure index measures the extent to which investors are protected through disclosure of ownership and financial information. The index ranges from 0 to 10, with higher values indicating more disclosure.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -127,7 +127,7 @@
 
 {synopt:{opt Source Notes}}Ease of doing business ranks economies from 1 to 190, with first place being the best. The ranking of economies is determined by sorting the aggregate ease of doing business scores. A high ranking (a low numerical rank) means that the regulato{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -166,7 +166,7 @@
 
 {synopt:{opt Source Notes}}Depth of credit information index measures rules affecting the scope, accessibility, and quality of credit information available through public or private credit registries. The index ranges from 0 to 8, with higher values indicating the avail{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -179,7 +179,7 @@
 
 {synopt:{opt Source Notes}}Private credit bureau coverage reports the number of individuals or firms listed by a private credit bureau with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the adul{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -192,7 +192,7 @@
 
 {synopt:{opt Source Notes}}Public credit registry coverage reports the number of individuals and firms listed in a public credit registry with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -205,7 +205,7 @@
 
 {synopt:{opt Source Notes}}Average number of days to clear direct exports through customs.{p_end}
 
-{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data,"} note: All surveys were administered using the Enterprise Surveys methodology as outlined in the Methodology page which can be found from www.enterprisesurveys{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://{browse "http://www.enterprisesurveys"}.org/en/data"}, note: All surveys were administered using the Enterprise Surveys methodology as outlined in the Methodology page which can be found from {browse "http://www.enterprisesurveys"}{p_end}
 
 
 {synoptline}
@@ -257,7 +257,7 @@
 
 {synopt:{opt Source Notes}}Time required to get electricity is the number of days to obtain a permanent electricity connection. The measure captures the median duration that the electricity utility and experts indicate is necessary in practice, rather than required by l{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -335,7 +335,7 @@
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -348,7 +348,7 @@
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -387,7 +387,7 @@
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -400,7 +400,7 @@
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -673,7 +673,7 @@
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -686,7 +686,7 @@
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -725,7 +725,7 @@
 
 {synopt:{opt Source Notes}}Border compliance captures the time and cost associated with compliance with the economy’s customs regulations and with regulations relating to other inspections that are mandatory in order for the shipment to cross the economy’s border, a{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -738,7 +738,7 @@
 
 {synopt:{opt Source Notes}}Documentary compliance captures the time and cost associated with compliance with the documentary requirements of all government agencies of the origin economy, the destination economy and any transit economies. The aim is to measure the total{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -751,7 +751,7 @@
 
 {synopt:{opt Source Notes}}Time to resolve insolvency is the number of years from the filing for insolvency in court until the resolution of distressed assets.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -764,7 +764,7 @@
 
 {synopt:{opt Source Notes}}Strength of legal rights index measures the degree to which collateral and bankruptcy laws protect the rights of borrowers and lenders and thus facilitate lending. The index ranges from 0 to 12, with higher scores indicating that these laws ar{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -777,7 +777,7 @@
 
 {synopt:{opt Source Notes}}Time required to enforce a contract is the number of calendar days from the filing of the lawsuit in court until the final determination and, in appropriate cases, payment.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -790,7 +790,7 @@
 
 {synopt:{opt Source Notes}}Time required to register property is the number of calendar days needed for businesses to secure rights to property.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -803,7 +803,7 @@
 
 {synopt:{opt Source Notes}}Number of procedures to register property is the number of procedures required for a businesses to secure rights to property.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -816,7 +816,7 @@
 
 {synopt:{opt Source Notes}}Cost to register a business is normalized by presenting it as a percentage of gross national income (GNI) per capita.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -829,7 +829,7 @@
 
 {synopt:{opt Source Notes}}Cost to register a business is normalized by presenting it as a percentage of gross national income (GNI) per capita.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -842,7 +842,7 @@
 
 {synopt:{opt Source Notes}}Cost to register a business is normalized by presenting it as a percentage of gross national income (GNI) per capita.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -855,7 +855,7 @@
 
 {synopt:{opt Source Notes}}Time required to start a business is the number of calendar days needed to complete the procedures to legally operate a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -868,7 +868,7 @@
 
 {synopt:{opt Source Notes}}Time required to start a business is the number of calendar days needed to complete the procedures to legally operate a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -881,7 +881,7 @@
 
 {synopt:{opt Source Notes}}Time required to start a business is the number of calendar days needed to complete the procedures to legally operate a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -894,7 +894,7 @@
 
 {synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -907,7 +907,7 @@
 
 {synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -920,7 +920,7 @@
 
 {synopt:{opt Source Notes}}Start-up procedures are those required to start a business, including interactions to obtain necessary permits and licenses and to complete all inscriptions, verifications, and notifications to start operations. Data are for businesses with sp{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -933,7 +933,7 @@
 
 {synopt:{opt Source Notes}}Time to prepare and pay taxes is the time, in hours per year, it takes to prepare, file, and pay (or withhold) three major types of taxes: the corporate income tax, the value added or sales tax, and labor taxes, including payroll taxes and soc{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -959,7 +959,7 @@
 
 {synopt:{opt Source Notes}}Labor tax and contributions is the amount of taxes and mandatory contributions on labor paid by the business.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -985,7 +985,7 @@
 
 {synopt:{opt Source Notes}}Other taxes payable by businesses include the amounts paid for property taxes, turnover taxes, and other small taxes such as municipal fees and vehicle and fuel taxes.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -998,7 +998,7 @@
 
 {synopt:{opt Source Notes}}Tax payments by businesses are the total number of taxes paid by businesses, including electronic filing. The tax is counted as paid once a year even if payments are more frequent.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -1011,7 +1011,7 @@
 
 {synopt:{opt Source Notes}}Profit tax is the amount of taxes on profits paid by the business.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -1024,7 +1024,7 @@
 
 {synopt:{opt Source Notes}}Total tax rate measures the amount of taxes and mandatory contributions payable by businesses after accounting for allowable deductions and exemptions as a share of commercial profits. Taxes withheld (such as personal income tax) or collected{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -1193,7 +1193,7 @@
 
 {synopt:{opt Source Notes}}Time required to build a warehouse is the number of calendar days needed to complete the required procedures for building a warehouse. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -1206,7 +1206,7 @@
 
 {synopt:{opt Source Notes}}Number of procedures to build a warehouse is the number of interactions of a company's employees or managers with external parties, including government agency staff, public inspectors, notaries, land registry and cadastre staff, and technical{p_end}
 
-{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: https://bit.ly/3CLCbme{p_end}
+{synopt:{opt Source Organization}}World Bank, Doing Business project ({browse "http://www.doingbusiness.org/"}). NOTE: Doing Business has been discontinued as of 9/16/2021. For more information: {browse "https://bit.ly/3CLCbme"}{p_end}
 
 
 {synoptline}
@@ -1284,7 +1284,7 @@
 
 {synopt:{opt Source Notes}}Lead time to export is the median time (the value for 50 percent of shipments) from shipment point to port of loading. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10 percent of{p_end}
 
-{synopt:{opt Source Organization}}Logistic Performance Index Surveys, World Bank (WB), uri: {browse "https://lpi.worldbank.org/,"} note: Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and It{p_end}
+{synopt:{opt Source Organization}}Logistic Performance Index Surveys, World Bank (WB), uri: {browse "https://lpi.worldbank.org/"}, note: Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and It{p_end}
 
 
 {synoptline}
@@ -1297,7 +1297,7 @@
 
 {synopt:{opt Source Notes}}Lead time to import is the median time (the value for 50 percent of shipments) from port of discharge to arrival at the consignee. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10{p_end}
 
-{synopt:{opt Source Organization}}Logistic Performance Index Surveys, World Bank (WB), uri: {browse "https://lpi.worldbank.org/,"} note: Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and It{p_end}
+{synopt:{opt Source Organization}}Logistic Performance Index Surveys, World Bank (WB), uri: {browse "https://lpi.worldbank.org/"}, note: Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and It{p_end}
 
 
 {synoptline}
@@ -1392,4 +1392,4 @@
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

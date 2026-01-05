@@ -242,7 +242,11 @@ version 9.0
 		
 		* Default linewrapformat to "stack" if not specified
 		if ("`linewrapformat'" == "") local linewrapformat "stack"
-		local lwf_all = (strpos(lower("`linewrapformat'"), "all") > 0)
+		local lwf_lower = lower("`linewrapformat'")
+		local lwf_all = (strpos("`lwf_lower'", "all") > 0)
+		local lwf_newline = (strpos("`lwf_lower'", "newline") > 0) | (`lwf_all' == 1)
+		local lwf_nlines = (strpos("`lwf_lower'", "nlines") > 0) | (`lwf_all' == 1)
+		local lwf_lines = (strpos("`lwf_lower'", "lines") > 0) | (`lwf_all' == 1)
 		
 		* Wrap name
 		if (`wrap_name' == 1) {
@@ -250,9 +254,13 @@ version 9.0
 			cap _metadata_linewrap, text(`"`name'"') maxlength(`ml') prefix(name)
 			if (_rc == 0) {
 				return local name_stack `"`r(name_stack)'"'
-				if (`lwf_all' == 1) {
+				if (`lwf_nlines' == 1) {
 					return scalar name_nlines = r(name_nlines)
+				}
+				if (`lwf_newline' == 1) {
 					return local name_newline `"`r(name_newline)'"'
+				}
+				if (`lwf_lines' == 1) {
 					forvalues i = 1/`=r(name_nlines)' {
 						return local name_line`i' `"`r(name_line`i')'"'
 					}
@@ -266,9 +274,13 @@ version 9.0
 			cap _metadata_linewrap, text(`"`source'"') maxlength(`ml') prefix(description)
 			if (_rc == 0) {
 				return local description_stack `"`r(description_stack)'"'
-				if (`lwf_all' == 1) {
+				if (`lwf_nlines' == 1) {
 					return scalar description_nlines = r(description_nlines)
+				}
+				if (`lwf_newline' == 1) {
 					return local description_newline `"`r(description_newline)'"'
+				}
+				if (`lwf_lines' == 1) {
 					forvalues i = 1/`=r(description_nlines)' {
 						return local description_line`i' `"`r(description_line`i')'"'
 					}
@@ -282,9 +294,13 @@ version 9.0
 			cap _metadata_linewrap, text(`"`note'"') maxlength(`ml') prefix(note)
 			if (_rc == 0) {
 				return local note_stack `"`r(note_stack)'"'
-				if (`lwf_all' == 1) {
+				if (`lwf_nlines' == 1) {
 					return scalar note_nlines = r(note_nlines)
+				}
+				if (`lwf_newline' == 1) {
 					return local note_newline `"`r(note_newline)'"'
+				}
+				if (`lwf_lines' == 1) {
 					forvalues i = 1/`=r(note_nlines)' {
 						return local note_line`i' `"`r(note_line`i')'"'
 					}
@@ -298,9 +314,13 @@ version 9.0
 			cap _metadata_linewrap, text(`"`source'"') maxlength(`ml') prefix(source)
 			if (_rc == 0) {
 				return local source_stack `"`r(source_stack)'"'
-				if (`lwf_all' == 1) {
+				if (`lwf_nlines' == 1) {
 					return scalar source_nlines = r(source_nlines)
+				}
+				if (`lwf_newline' == 1) {
 					return local source_newline `"`r(source_newline)'"'
+				}
+				if (`lwf_lines' == 1) {
 					forvalues i = 1/`=r(source_nlines)' {
 						return local source_line`i' `"`r(source_line`i')'"'
 					}
@@ -315,9 +335,13 @@ version 9.0
 			cap _metadata_linewrap, text(`"`topictext'"') maxlength(`ml') prefix(topic)
 			if (_rc == 0) {
 				return local topic_stack `"`r(topic_stack)'"'
-				if (`lwf_all' == 1) {
+				if (`lwf_nlines' == 1) {
 					return scalar topic_nlines = r(topic_nlines)
+				}
+				if (`lwf_newline' == 1) {
 					return local topic_newline `"`r(topic_newline)'"'
+				}
+				if (`lwf_lines' == 1) {
 					forvalues i = 1/`=r(topic_nlines)' {
 						return local topic_line`i' `"`r(topic_line`i')'"'
 					}
