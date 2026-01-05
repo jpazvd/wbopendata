@@ -62,10 +62,8 @@
 
 # Documentation
 !/doc/*.md
-!/doc/*.log
 !/doc/*.png
 !/doc/**/*.md
-!/doc/**/*.log
 !/doc/**/*.png
 !/doc/**/*.do
 !/doc/**/*.txt
@@ -74,6 +72,42 @@
 !/qa/*.txt
 !/qa/*.md
 !/qa/*.do
+
+# Ignore _archive folders (development artifacts)
+_archive/
+
+#######################
+# Always ignore log files (Stata .log files) everywhere
+*.log
+
+# Paper (LaTeX files for Stata Journal submission)
+!/paper/*.tex
+!/paper/*.sty
+!/paper/*.cls
+!/paper/*.do
+!/paper/*.pdf
+!/paper/*.md
+!/paper/**/*.log.tex
+!/paper/**/*.do
+!/paper/**/*.md
+!/paper/sjlogs/
+!/paper/scripts/
+!/paper/docs/
+!/paper/figs/
+!/paper/**/*.png
+!/paper/**/*.pdf
+!/paper/**/*.py
+
+# Ignore LaTeX temporary files
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.pp
+*.pp1
+*.synctex.gz
+*.tag
+pdflatex*.fls
 
 #######################
 # Include all the files with passwords or tokens here. All files named
@@ -85,3 +119,12 @@ password.*
 passwords.*
 password/
 passwords/
+
+# SSC package folder - TRACK this folder
+!/ssc/
+!/ssc/*.zip
+!/ssc/*.ps1
+!/ssc/*.md
+!/ssc/*.pkg
+!/ssc/*.toc
+ssc/submission_email.md

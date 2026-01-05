@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -19631,7 +19631,7 @@
 
 {synopt:{opt Source Notes}}Mean performance on the mathematics scale is the mean mathematics score for 6th grade students. Mean scores are on SACMEQ scales for mathematics, which have averages of 500 and standard deviations of 100. Data reflects country performance in t{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19644,7 +19644,7 @@
 
 {synopt:{opt Source Notes}}Mean performance on the mathematics scale, female is the mean mathematics score for female 6th grade students. Mean scores are on SACMEQ scales for mathematics, which have averages of 500 and standard deviations of 100. Data reflects country p{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19656,7 +19656,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade students scoring at the Pre-Numeracy level (Level 1 of 8) on the mathematics assessment. At this level, students can apply single step addition or subtraction operations, recognize simple shapes, match numbers and pictu{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19668,7 +19668,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Pre-Numeracy level (Level 1 of 8) on the mathematics assessment. At this level, students can apply single step addition or subtraction operations, recognize simple shapes, match numbers an{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19680,7 +19680,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade male students scoring at the Pre-Numeracy level (Level 1 of 8) on the mathematics assessment. At this level, students can apply single step addition or subtraction operations, recognize simple shapes, match numbers and{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19692,7 +19692,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade students scoring at the Emergent Numeracy level (Level 2 of 8) on the mathematics assessment. At this level, students can apply a two-step addition or subtraction operation involving carrying, checking (through very bas{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19704,7 +19704,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Emergent Numeracy level (Level 2 of 8) on the mathematics assessment. At this level, students can apply a two-step addition or subtraction operation involving carrying, checking (through v{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19716,7 +19716,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade male students scoring at the Emergent Numeracy level (Level 2 of 8) on the mathematics assessment. At this level, students can apply a two-step addition or subtraction operation involving carrying, checking (through ver{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19728,7 +19728,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade students scoring at the Basic Numeracy level (Level 3 of 8) on the mathematics assessment. At this level, students can translate verbal information presented in a sentence, simple graph or table, using one arithmetic op{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19740,7 +19740,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Basic Numeracy level (Level 3 of 8) on the mathematics assessment. At this level, students can translate verbal information presented in a sentence, simple graph or table, using one arithm{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19752,7 +19752,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade male students scoring at the Basic Numeracy level (Level 3 of 8) on the mathematics assessment. At this level, students can translate verbal information presented in a sentence, simple graph or table, using one arithmet{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19764,7 +19764,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade students scoring at the Beginning Numeracy level (Level 4 of 8) on the mathematics assessment. At this level, students can translate verbal or graphic information into simple arithmetic problems, and use multiple differ{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19776,7 +19776,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Beginning Numeracy level (Level 4 of 8) on the mathematics assessment. At this level, students can translate verbal or graphic information into simple arithmetic problems, and use multiple{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19788,7 +19788,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade male students scoring at the Beginning Numeracy level (Level 4 of 8) on the mathematics assessment. At this level, students can translate verbal or graphic information into simple arithmetic problems, and use multiple d{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19800,7 +19800,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade students scoring at the Competent Numeracy level (Level 5 of 8) on the mathematics assessment. At this level, students can translate verbal, graphic, or tabular information into an arithmetic form in order to solve a gi{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19812,7 +19812,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Competent Numeracy level (Level 5 of 8) on the mathematics assessment. At this level, students can translate verbal, graphic, or tabular information into an arithmetic form in order to sol{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19824,7 +19824,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade male students scoring at the Competent Numeracy level (Level 5 of 8) on the mathematics assessment. At this level, students can translate verbal, graphic, or tabular information into an arithmetic form in order to solve{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19836,7 +19836,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade students scoring at the Mathematically Skilled numeracy level (Level 6 of 8) on the mathematics assessment. At this level, students can solve multiple-operation problems (using the correct order of arithmetic operations{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19848,7 +19848,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Mathematically Skilled numeracy level (Level 6 of 8) on the mathematics assessment. At this level, students can solve multiple-operation problems (using the correct order of arithmetic ope{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19860,7 +19860,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade male students scoring at the Mathematically Skilled numeracy level (Level 6 of 8) on the mathematics assessment. At this level, students can solve multiple-operation problems (using the correct order of arithmetic opera{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19872,7 +19872,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade students scoring at the Concrete Problem Solving numeracy level (Level 7 of 8) on the mathematics assessment. At this level, students can extract and convert (for example, with respect to measurement units) information{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19884,7 +19884,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Concrete Problem Solving numeracy level (Level 7 of 8) on the mathematics assessment. At this level, students can extract and convert (for example, with respect to measurement units) infor{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19896,7 +19896,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade male students scoring at the Concrete Problem Solving numeracy level (Level 7 of 8) on the mathematics assessment. At this level, students can extract and convert (for example, with respect to measurement units) informa{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19908,7 +19908,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade students scoring at the Abstract Problem Solving numeracy level (Level 8 of 8) on the mathematics assessment. At this level, students can identify the nature of an unstated mathematical problem embedded within verbal or{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19920,7 +19920,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Abstract Problem Solving numeracy level (Level 8 of 8) on the mathematics assessment. At this level, students can identify the nature of an unstated mathematical problem embedded within ve{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19932,7 +19932,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade male students scoring at the Abstract Problem Solving numeracy level (Level 8 of 8) on the mathematics assessment. At this level, students can identify the nature of an unstated mathematical problem embedded within verb{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19945,7 +19945,7 @@
 
 {synopt:{opt Source Notes}}Mean performance on the mathematics scale, male is the mean mathematics score for male 6th grade students. Mean scores are on SACMEQ scales for mathematics, which have averages of 500 and standard deviations of 100. Data reflects country perfo{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19958,7 +19958,7 @@
 
 {synopt:{opt Source Notes}}Mean performance on the reading scale, total is the mean reading score for all 6th grade students. Mean scores are on SACMEQ scales for reading, which have averages of 500 and standard deviations of 100. Data reflects country performance in th{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19971,7 +19971,7 @@
 
 {synopt:{opt Source Notes}}Mean performance on the reading scale, female is the mean reading score for female 6th grade students. Mean scores are on SACMEQ scales for reading, which have averages of 500 and standard deviations of 100. Data reflects country performance i{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19983,7 +19983,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade students scoring at the Pre-Reading level (Level 1 of 8) on the reading assessment. At this level, the student can match words and pictures involving concrete concepts and everyday objects, and follow short simple writt{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -19995,7 +19995,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Pre-Reading level (Level 1 of 8) on the reading assessment. At this level, the student can match words and pictures involving concrete concepts and everyday objects, and follow short simpl{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20007,7 +20007,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade male students scoring at the Pre-Reading level (Level 1 of 8) on the reading assessment. At this level, the student can match words and pictures involving concrete concepts and everyday objects, and follow short simple{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20019,7 +20019,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade students scoring at the Emergent Reading level (Level 2 of 8) on the reading assessment. Students at this level can match words and pictures involving prepositions and abstract concepts, and use cuing systems (by soundi{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20031,7 +20031,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Emergent Reading level (Level 2 of 8) on the reading assessment. Students at this level can match words and pictures involving prepositions and abstract concepts, and use cuing systems (by{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20043,7 +20043,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade male students scoring at the Emergent Reading level (Level 2 of 8) on the reading assessment. Students at this level can match words and pictures involving prepositions and abstract concepts, and use cuing systems (by s{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20055,7 +20055,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade students scoring at the Basic Reading level (Level 3 of 8) on the reading assessment. Students at this level can interpret meaning (by matching words and phrases, completing a sentence, or matching adjacent words) in a{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20067,7 +20067,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Basic Reading level (Level 3 of 8) on the reading assessment. Students at this level can interpret meaning (by matching words and phrases, completing a sentence, or matching adjacent words{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20079,7 +20079,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade male students scoring at the Basic Reading level (Level 3 of 8) on the reading assessment. Students at this level can interpret meaning (by matching words and phrases, completing a sentence, or matching adjacent words){p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20091,7 +20091,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade students scoring at the Reading for Meaning level (Level 4 of 8) on the reading assessment. At this level, students can read on or read back in order to link and interpret information located in various parts of the tex{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20103,7 +20103,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Reading for Meaning level (Level 4 of 8) on the reading assessment. At this level, students can read on or read back in order to link and interpret information located in various parts of{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20115,7 +20115,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade male students scoring at the Reading for Meaning level (Level 4 of 8) on the reading assessment. At this level, students can read on or read back in order to link and interpret information located in various parts of th{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20127,7 +20127,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade students scoring at the Interpretive Reading level (Level 5 of 8) on the reading assessment. At this level, students can read on and reads back in order to combine and interpret information from various parts of the tex{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20139,7 +20139,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Interpretive Reading level (Level 5 of 8) on the reading assessment. At this level, students can read on and reads back in order to combine and interpret information from various parts of{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20151,7 +20151,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade male students scoring at the Interpretive Reading level (Level 5 of 8) on the reading assessment. At this level, students can read on and reads back in order to combine and interpret information from various parts of th{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20163,7 +20163,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade students scoring at the Inferential Reading level (Level 6 of 8) on the reading assessment. At this level, students can read on and read back through longer texts (narrative, document, or expository) in order to combine{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20175,7 +20175,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Inferential Reading level (Level 6 of 8) on the reading assessment. At this level, students can read on and read back through longer texts (narrative, document, or expository) in order to{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20187,7 +20187,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade male students scoring at the Inferential Reading level (Level 6 of 8) on the reading assessment. At this level, students can read on and read back through longer texts (narrative, document, or expository) in order to co{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20199,7 +20199,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade students scoring at the Analytical Reading level (Level 7 of 8) on the reading assessment. At this level, students can locate information in longer texts (narrative, document, or expository) by reading on and reading ba{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20211,7 +20211,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Analytical Reading level (Level 7 of 8) on the reading assessment. At this level, students can locate information in longer texts (narrative, document, or expository) by reading on and rea{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20223,7 +20223,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade male students scoring at the Analytical Reading level (Level 7 of 8) on the reading assessment. At this level, students can locate information in longer texts (narrative, document, or expository) by reading on and readi{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20235,7 +20235,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade students scoring at the Critical Reading level (Level 8 of 8) on the reading assessment. At this level, students can locate information in longer texts (narrative, document, and expository) by reading on and reading bac{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20247,7 +20247,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade female students scoring at the Critical Reading level (Level 8 of 8) on the reading assessment. At this level, students can locate information in longer texts (narrative, document, and expository) by reading on and read{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20259,7 +20259,7 @@
 
 {synopt:{opt Source Notes}}Percentage of 6th grade male students scoring at the Critical Reading level (Level 8 of 8) on the reading assessment. At this level, students can locate information in longer texts (narrative, document, and expository) by reading on and readin{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -20272,7 +20272,7 @@
 
 {synopt:{opt Source Notes}}Mean performance on the reading scale, male is the mean reading score for male 6th grade students. Mean scores are on SACMEQ scales for reading, which have averages of 500 and standard deviations of 100. Data reflects country performance in th{p_end}
 
-{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "www.sacmeq.org"}{p_end}
+{synopt:{opt Source Organization}}Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ) Data Archive, {browse "http://www.sacmeq.org"}{p_end}
 
 
 {synoptline}
@@ -32320,4 +32320,4 @@
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

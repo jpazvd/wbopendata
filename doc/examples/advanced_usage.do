@@ -1,7 +1,7 @@
 /*******************************************************************************
 * wbopendata: Advanced Usage Examples
-* Version: 17.2
-* Date: December 2025
+* Version: 17.7
+* Date: January 2026
 * Author: João Pedro Azevedo
 *
 * Documentation: https://github.com/jpazvd/wbopendata
@@ -149,7 +149,7 @@ di "Label: `r(varlabel1)'"
 di "Countries: `r(N_country)'"
 
 *===============================================================================
-* EXAMPLE 7: Batch download multiple topics
+* EXAMPLE 7: Batch download multiple indicators
 *===============================================================================
 
 * Create empty dataset to append results
@@ -157,17 +157,18 @@ clear
 tempfile master
 save `master', emptyok
 
-* Loop through topics of interest (using year instead of latest - topics doesn't support latest)
-foreach topic in 1 4 8 {
-    wbopendata, topics(`topic') year(2022) clear long
-    gen topic_id = `topic'
+* Loop through indicators of interest
+foreach indicator in NY.GDP.MKTP.CD SP.POP.TOTL SH.DYN.MORT {
+    wbopendata, indicator(`indicator') year(2022) clear long nometadata
+    gen indicatorcode = "`indicator'"
     append using `master'
     save `master', replace
 }
 
 * View combined dataset
 use `master', clear
-tab topic_id
+describe
+tab indicatorcode
 
 *===============================================================================
 * EXAMPLE 8: Creating maps (requires spmap)
@@ -175,20 +176,29 @@ tab topic_id
 
 /* Uncomment if you have spmap installed
 
+* Get shapefile paths from ado/plus/w (installed with wbopendata)
+local world_d "`c(sysdir_plus)'w/world-d.dta"
+local world_c "`c(sysdir_plus)'w/world-c.dta"
+
 * Download CO2 emissions
 wbopendata, indicator(EN.ATM.CO2E.PC) clear long latest
+local labelvar "`r(varlabel1)'"
 
-* Merge with world shapefile (requires world-d.dta and world-c.dta)
+* Merge with world shapefile
 tempfile emissions
 save `emissions'
-sysuse world-d, clear
+use "`world_d'", clear
 merge m:1 countrycode using `emissions', nogen
 
 * Create choropleth map
-spmap en_atm_co2e_pc using "world-c.dta", id(_ID) ///
+spmap en_atm_co2e_pc using "`world_c'", id(_ID) ///
     clnumber(7) fcolor(Reds) ocolor(none ..) ///
-    title("CO2 Emissions per Capita") ///
-    legend(ring(1) position(3))
+    title("`labelvar'") ///
+    legend(ring(1) position(3)) ///
+    note("Source: World Development Indicators using Azevedo, J.P. (2026) wbopendata", size(*.7))
+
+capture mkdir "output/figures"
+graph export "output/figures/co2_emissions_map.png", width(1200) replace
 */
 
 *===============================================================================
@@ -214,13 +224,16 @@ wbopendata, indicator(`indicator_list') clear long
 wbopendata, indicator(SI.POV.DDAY;SI.POV.LMIC;SI.POV.UMIC) ///
     country(BRA;CHN;IND;NGA;ETH) year(2015:2022) clear long
 
-* Reshape for table format
-reshape wide @, i(countrycode countryname) j(indicatorcode) string
+* The data already has indicators as separate columns (si_pov_dday, si_pov_lmic, si_pov_umic)
+* Reshape from long (by year) to wide (years as columns) for reporting
+describe
+keep if year == 2019   // Keep single year for a clean table
+keep countrycode countryname si_pov_*
 
 * Format and export to output/data/
 capture mkdir "output/data"
-format *SI_POV* %5.1f
-export excel countryname *SI_POV* using "output/data/poverty_table.xlsx", ///
+format si_pov* %5.1f
+export excel countryname si_pov_* using "output/data/poverty_table.xlsx", ///
     firstrow(varlabels) replace
 
 *===============================================================================
@@ -257,7 +270,7 @@ graph export "output/figures/poverty_mortality_scatter.png", width(1200) replace
 
 
 *===============================================================================
-* EXAMPLE 12: Multiple maxlength values for different field widths
+* EXAMPLE 12: Using sourcecite for clean source citations
 *===============================================================================
 
 * Download multiple indicators
@@ -282,7 +295,7 @@ graph export "output/figures/poverty_mortality_scatter-v2.png", width(1200) repl
 
 
 *===============================================================================
-* EXAMPLE 12: Multiple maxlength values for different field widths
+* EXAMPLE 13: Multiple maxlength values for different field widths
 *===============================================================================
 
 * Use different character widths for different fields
@@ -350,7 +363,7 @@ di as text "Note (80 chars):"
 di `"`r(note1_stack)'"'
 
 *===============================================================================
-* EXAMPLE 13: Multiple maxlength values for different field widths
+* EXAMPLE 14: Maxlength recycling for multiple fields
 *===============================================================================
 
 * If fewer maxlength values than fields, last value is used for remaining fields
@@ -365,7 +378,7 @@ return list
 
 
 *===============================================================================
-* EXAMPLE 14: Multiple maxlength values for different field widths
+* EXAMPLE 15: Building complex graph notes from stacked metadata
 *===============================================================================
 
 wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest ///
@@ -421,9 +434,9 @@ graph export "output/figures/poverty_mortality_scatter-v3.png", width(1200) repl
 
 
 *===============================================================================
-* EXAMPLE 15: Graph metadata with linewrap and dynamic subtitle
+* EXAMPLE 16: Graph metadata with linewrap and dynamic subtitle
 *===============================================================================
-* Demonstrates using linewrap for wrapped metadata and r(latest_subtitle) for
+* Demonstrates using linewrap for wrapped metadata and r(latest) for
 * dynamic subtitle showing country count and average year
 
 wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest ///

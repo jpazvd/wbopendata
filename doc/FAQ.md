@@ -1,6 +1,6 @@
 # Frequently Asked Questions (FAQ)
 
-[← Back to README](../README.md) | [Examples](examples/) | [Test Protocol](../qa/test_protocol.md)
+[← Back to README](../README.md) | [Examples](examples/) | [Test Protocol](../qa/test_protocol.md) | [Changelog](../CHANGELOG.md)
 
 ---
 

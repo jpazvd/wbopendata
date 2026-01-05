@@ -1,5 +1,5 @@
 {smcl}
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -100,7 +100,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Agricultural land refers to the land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadow{p_end}
 
@@ -165,9 +165,9 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}topicID{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
-{synopt:{opt Source Notes}}Land under cereal production refers to harvested area, although some countries report only sown or cultivated area. Cereals include wheat, rice, maize, barley, oats, rye, millet, sorghum, buckwheat, and mixed grains. Production data on cereals{p_end}
+{synopt:{opt Source Notes}}data/QCL, note: Item code F1717, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
 {synopt:{opt Source Organization}}FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://www.fao.org/faostat/en/"}{p_end}
 
@@ -191,7 +191,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Rural land area below 5m is the total rural land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
@@ -217,7 +217,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Urban land area below 5m is the total urban land area in square kilometers where the elevation is 5 meters or less.{p_end}
 
@@ -243,7 +243,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Land area below 5m is the percentage of total land where the elevation is 5 meters or less.{p_end}
 
@@ -256,9 +256,9 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/RL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
+{synopt:{opt Source Notes}}Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and{p_end}
 
 {synopt:{opt Source Organization}}FAOSTAT, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://www.fao.org/faostat/en/"}{p_end}
 
@@ -269,9 +269,9 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}data/RL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
+{synopt:{opt Source Notes}}Forest area (% of land area) is the share of total land area that is under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in{p_end}
 
 {synopt:{opt Source Organization}}FAOSTAT, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://www.fao.org/faostat/en/"}{p_end}
 
@@ -282,7 +282,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}topicID{p_end}
 
 {synopt:{opt Source Notes}}data/RL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
@@ -308,7 +308,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}data/RL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
@@ -347,7 +347,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}topicID{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}data/QCL, publisher: Food and Agriculture Organization of the United Nations (FAO){p_end}
 
@@ -425,7 +425,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Total trade in services includes services provided by residents to non-residents plus services provided by non-residents to residents. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned{p_end}
 
@@ -464,7 +464,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
@@ -477,7 +477,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Insurance and financial services cover various types of insurance provided to nonresidents by resident insurance enterprises and vice versa, and financial intermediary and auxiliary services (except those of insurance enterprises and pension f{p_end}
 
@@ -503,7 +503,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Imports of services are services provided by non-residents to residents. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This indicator is expressed in United States do{p_end}
 
@@ -516,7 +516,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}14 Science and Technology{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Charges for the use of proprietary rights (such as patents, trademarks, copyrights, industrial processes and designs including trade secrets, franchises), and charges for licenses to reproduce or distribute (or both) intellectual property embo{p_end}
 
@@ -555,7 +555,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Travel services cover goods and services for own use or to give away acquired from an economy by nonresidents during visits to that economy, or acquired from other economies by residents during visits to these other economies. This indicator i{p_end}
 
@@ -620,7 +620,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Balance of current transactions (transactions in goods and services, earned income and transfer income) between residents and non-residents. The term current account balance is used in the external accounts and is expressed from the perspectiv{p_end}
 
@@ -672,7 +672,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}The balance of international trade in goods and services is the difference between the exports and imports of goods and services. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes o{p_end}
 
@@ -776,7 +776,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Grants are transfers made in cash, goods or services for which no repayment is required.  For ODA reporting purposes, they also include forgiveness of non-military debt, support to non-governmental organisations, certain interest subsidies, an{p_end}
 
@@ -789,7 +789,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
 {synopt:{opt Source Notes}}Technical cooperation grants include free-standing technical cooperation grants, which are intended to finance the transfer of technical and managerial skills or of technology for the purpose of building up general national capacity without re{p_end}
 
@@ -802,7 +802,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Information and communication technology service exports include computer and communications services (telecommunications and postal and courier services) and information services (computer data and news-related service transactions). Data are{p_end}
 
@@ -815,7 +815,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Information and communication technology service exports include computer and communications services (telecommunications and postal and courier services) and information services (computer data and news-related service transactions).{p_end}
 
@@ -867,7 +867,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Insurance and financial services cover various types of insurance provided to nonresidents by resident insurance enterprises and vice versa, and financial intermediary and auxiliary services (except those of insurance enterprises and pension f{p_end}
 
@@ -880,7 +880,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Exports of goods occur when there are changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. This indicator is expressed in curre{p_end}
 
@@ -893,7 +893,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Exports of services are services provided by residents to non-residents. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This indicator is expressed in United States do{p_end}
 
@@ -906,7 +906,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}14 Science and Technology{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Charges for the use of proprietary rights (such as patents, trademarks, copyrights, industrial processes and designs including trade secrets, franchises), and charges for licenses to reproduce or distribute (or both) intellectual property embo{p_end}
 
@@ -919,7 +919,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
@@ -945,7 +945,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Travel services cover goods and services for own use or to give away acquired from an economy by nonresidents during visits to that economy, or acquired from other economies by residents during visits to these other economies. This indicator i{p_end}
 
@@ -958,7 +958,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Foreign direct investment refers to direct investment equity flows in the reporting economy. It is the sum of equity capital, reinvestment of earnings, and other capital. Direct investment is a category of cross-border investment associated wi{p_end}
 
@@ -984,7 +984,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Portfolio equity includes net inflows from equity securities other than those recorded as direct investment and including shares, stocks, depository receipts (American or global), and direct purchases of shares in local stock markets by foreig{p_end}
 
@@ -1023,7 +1023,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Personal remittances comprise personal transfers and compensation of employees. Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfer{p_end}
 
@@ -1053,7 +1053,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -1066,7 +1066,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -1079,7 +1079,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -1092,7 +1092,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -1105,7 +1105,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -1118,7 +1118,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -1222,7 +1222,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1235,7 +1235,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1248,7 +1248,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1261,7 +1261,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1274,7 +1274,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1287,7 +1287,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1300,7 +1300,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1313,7 +1313,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1326,7 +1326,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1339,7 +1339,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1351,7 +1351,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1364,7 +1364,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1377,7 +1377,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1390,7 +1390,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1403,7 +1403,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1416,7 +1416,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1429,7 +1429,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1442,7 +1442,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1455,7 +1455,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1468,7 +1468,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1481,7 +1481,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1493,7 +1493,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1506,7 +1506,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1519,7 +1519,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1532,7 +1532,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1545,7 +1545,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1558,7 +1558,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1571,7 +1571,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1584,7 +1584,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1597,7 +1597,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1610,7 +1610,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1623,7 +1623,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1636,7 +1636,7 @@
 
 {synopt:{opt Source Notes}}Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1649,7 +1649,7 @@
 
 {synopt:{opt Source Notes}}Net Official development assistance (ODA) comprises grants or loans to developing countries and territories on the OECD/DAC list of aid recipients that are undertaken by the official sector with promotion of economic development and welfare as{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "http://www.oecd.org/dac/stats/idsonline"};{p_end}
 
 
 {synoptline}
@@ -1662,7 +1662,7 @@
 
 {synopt:{opt Source Notes}}Net Official development assistance (ODA) comprises grants or loans to developing countries and territories on the OECD/DAC list of aid recipients that are undertaken by the official sector with promotion of economic development and welfare as{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "http://www.oecd.org/dac/stats/idsonline"};{p_end}
 
 
 {synoptline}
@@ -1675,7 +1675,7 @@
 
 {synopt:{opt Source Notes}}Net Official development assistance (ODA) comprises grants or loans to developing countries and territories on the OECD/DAC list of aid recipients that are undertaken by the official sector with promotion of economic development and welfare as{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "http://www.oecd.org/dac/stats/idsonline"};{p_end}
 
 
 {synoptline}
@@ -1688,7 +1688,7 @@
 
 {synopt:{opt Source Notes}}Net Official development assistance (ODA) comprises grants or loans to developing countries and territories on the OECD/DAC list of aid recipients that are undertaken by the official sector with promotion of economic development and welfare as{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "http://www.oecd.org/dac/stats/idsonline"};{p_end}
 
 
 {synoptline}
@@ -1701,7 +1701,7 @@
 
 {synopt:{opt Source Notes}}Net Official development assistance (ODA) comprises grants or loans to developing countries and territories on the OECD/DAC list of aid recipients that are undertaken by the official sector with promotion of economic development and welfare as{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "http://www.oecd.org/dac/stats/idsonline"};{p_end}
 
 
 {synoptline}
@@ -1710,7 +1710,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-{p_end}
 
@@ -1801,7 +1801,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Total reserves includes gold.{p_end}
 
@@ -1879,7 +1879,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-term external debt over the life of existing loans. This cal{p_end}
 
@@ -1892,7 +1892,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Present value of external debt to exports of goods, services and income. Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nongua{p_end}
 
@@ -1905,7 +1905,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Present value of external debt to gross national income. Present value of debt is the sum of short-term external debt plus the discounted sum of total debt service payments due on public, publicly guaranteed, and private nonguaranteed long-ter{p_end}
 
@@ -1947,7 +1947,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1973,7 +1973,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1986,7 +1986,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -1999,7 +1999,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2012,7 +2012,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2168,7 +2168,7 @@
 
 {synopt:{opt Source Notes}}Nonguaranteed long-term debt from bonds that are privately placed. Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Data are in current U.S. dollars.{p_end}
 
-{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/debt-statistics,"} note: https://www.worldbank.org/en/programs/debt-statistics{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "{browse "https://www.worldbank.org/en/programs/debt-statistics"}"}, note: {browse "https://www.worldbank.org/en/programs/debt-statistics"}{p_end}
 
 
 {synoptline}
@@ -2181,7 +2181,7 @@
 
 {synopt:{opt Source Notes}}Nonguaranteed long-term commercial bank loans from private banks and other private financial institutions. Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. D{p_end}
 
-{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/debt-statistics,"} note: https://www.worldbank.org/en/programs/debt-statistics{p_end}
+{synopt:{opt Source Organization}}International Debt Statistics, World Bank (WB), uri: {browse "{browse "https://www.worldbank.org/en/programs/debt-statistics"}"}, note: {browse "https://www.worldbank.org/en/programs/debt-statistics"}{p_end}
 
 
 {synoptline}
@@ -2245,7 +2245,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2257,7 +2257,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2270,7 +2270,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2282,7 +2282,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2295,7 +2295,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2308,7 +2308,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2320,7 +2320,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2332,7 +2332,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2345,7 +2345,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2358,7 +2358,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2371,7 +2371,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2384,7 +2384,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2397,7 +2397,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2409,7 +2409,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2422,7 +2422,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2435,7 +2435,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2448,7 +2448,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2460,7 +2460,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2473,7 +2473,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2486,7 +2486,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2499,7 +2499,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2511,7 +2511,7 @@
 
 {synopt:{opt Source Notes}}Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2524,7 +2524,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2537,7 +2537,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2550,7 +2550,7 @@
 
 {synopt:{opt Source Notes}}Net official aid refers to aid flows (net of repayments) from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Unio{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2563,7 +2563,7 @@
 
 {synopt:{opt Source Notes}}Net official aid refers to aid flows (net of repayments) from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Unio{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2572,11 +2572,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2589,7 +2589,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "http://www.oecd.org/dac/stats/idsonline"};{p_end}
 
 
 {synoptline}
@@ -2598,11 +2598,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "http://www.oecd.org/dac/stats/idsonline"};{p_end}
 
 
 {synoptline}
@@ -2615,7 +2615,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "https://stats.oecd.org/"};{p_end}
 
 
 {synoptline}
@@ -2628,7 +2628,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "http://www.oecd.org/dac/stats/idsonline"};{p_end}
 
 
 {synoptline}
@@ -2637,11 +2637,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}02 Aid Effectiveness{p_end}
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) per capita consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), b{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "http://www.oecd.org/dac/stats/idsonline"};{p_end}
 
 
 {synoptline}
@@ -2654,7 +2654,7 @@
 
 {synopt:{opt Source Notes}}Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilate{p_end}
 
-{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "www.oecd.org/dac/stats/idsonline;"}{p_end}
+{synopt:{opt Source Organization}}Development Assistance Committee, Organisation for Economic Co-operation and Development (OECD), uri: {browse "http://www.oecd.org/dac/stats/idsonline"};{p_end}
 
 
 {synoptline}
@@ -2845,11 +2845,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Access to electricity, rural is the percentage of rural population with access to electricity.{p_end}
 
-{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads,"} note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
+{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads"}, note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
 
 
 {synoptline}
@@ -2862,7 +2862,7 @@
 
 {synopt:{opt Source Notes}}Access to electricity, urban is the percentage of urban population with access to electricity.{p_end}
 
-{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads,"} note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
+{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads"}, note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
 
 
 {synoptline}
@@ -2871,11 +2871,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Access to electricity is the percentage of population with access to electricity. Electrification data are collected from industry, national surveys and international sources.{p_end}
 
-{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads,"} note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
+{synopt:{opt Source Organization}}SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: {browse "https://trackingsdg7.esmap.org/downloads"}, note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date acc{p_end}
 
 
 {synoptline}
@@ -2884,11 +2884,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}The share of electricity production from coal sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Coal refers to all coal and brown coal, both primary (including hard coal and ligni{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -2901,7 +2901,7 @@
 
 {synopt:{opt Source Notes}}The share of electricity production from oil. gas and coal sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products. Gas refers to natural{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -2910,11 +2910,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}The share of electricity production from hydroelectric sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Hydropower refers to electricity produced by hydroelectric power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -2923,11 +2923,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Electric power transmission and distribution losses include losses in transmission between sources of supply and points of distribution and in the distribution to consumers, including pilferage. The losses are expressed as a share of the total{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -2936,11 +2936,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}The share of electricity production from natural gas sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Gas refers to natural gas but excludes natural gas liquids.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -2949,11 +2949,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}The share of electricity production from nuclear sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Nuclear power refers to electricity produced by nuclear power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -2966,7 +2966,7 @@
 
 {synopt:{opt Source Notes}}The share of electricity production from oil sources of total electricity production. Sources of electricity refer to the inputs used to generate electricity. Oil refers to crude oil and petroleum products.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -2975,11 +2975,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Renewable electricity is the share of electrity generated by renewable power plants in total electricity generated by all types of plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -2992,7 +2992,7 @@
 
 {synopt:{opt Source Notes}}Electricity production from renewable sources in kilowatt-hour (kWh), excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -3001,11 +3001,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}The share of electricity production from renewable sources of total electricity production. Electricity production from renewable sources, excluding hydroelectric, includes geothermal, solar, tides, wind, biomass, and biofuels.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -3014,11 +3014,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Renewable energy consumption is the share of renewables energy in total final energy consumption.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -3031,7 +3031,7 @@
 
 {synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to current international dollars using purchasing power parity rates based on the 2017 ICP round. An internatio{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -3044,7 +3044,7 @@
 
 {synopt:{opt Source Notes}}GDP per unit of energy use is the PPP GDP per kilogram of oil equivalent of energy use. PPP GDP is gross domestic product converted to 2021 constant international dollars using purchasing power parity rates. An international dollar has the sam{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -3057,7 +3057,7 @@
 
 {synopt:{opt Source Notes}}Net energy imports are estimated as gross imports less gross exports, both measured in tons of oil equivalents (toe). A negative value indicates that the country is a net exporter. Energy use refers to use of primary energy before transformati{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -3070,7 +3070,7 @@
 
 {synopt:{opt Source Notes}}Clean energy is noncarbohydrate energy that does not produce carbon dioxide when generated. It includes hydropower and nuclear, geothermal, and solar power, among others. This is the share of total energy supply that is non-fossil.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -3083,7 +3083,7 @@
 
 {synopt:{opt Source Notes}}Fossil fuel comprises coal, oil, petroleum, and natural gas products.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -3096,7 +3096,7 @@
 
 {synopt:{opt Source Notes}}Energy use per PPP GDP is the kilogram of oil equivalent of energy use per constant PPP GDP. Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stoc{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -3109,7 +3109,7 @@
 
 {synopt:{opt Source Notes}}Combustible renewables and waste comprise solid biomass, liquid biomass, biogas, industrial waste, and municipal waste, measured as a percentage of total energy use. The indicator expresses the share of total energy supply.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -3122,7 +3122,7 @@
 
 {synopt:{opt Source Notes}}Electric power consumption measures the production of power plants and combined heat and power plants less transmission, distribution, and transformation losses and own use by heat and power plants.{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -3131,11 +3131,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international tr{p_end}
 
-{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser,"} publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
+{synopt:{opt Source Organization}}IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: {browse "https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser"}, publisher: International Energy Agency (IEA), date accessed: 2025-03-25{p_end}
 
 
 {synoptline}
@@ -3144,7 +3144,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of{p_end}
 
@@ -3161,7 +3161,7 @@
 
 {synopt:{opt Source Notes}}Percent of population exposed to ambient concentrations of PM2.5 that exceed the World Health Organization (WHO) Interim Target 1 (IT-1) is defined as the portion of a country’s population living in places where mean annual concentrations of{p_end}
 
-{synopt:{opt Source Organization}}Global Burden of Disease Study 2017 (GBD 2017), Institute for Health Metrics and Evaluation (IHME), uri: {browse "https://ghdx.healthdata.org/gbd-2017,"} publisher: Institute for Health Metrics and Evaluation (IHME), date published: 202112{p_end}
+{synopt:{opt Source Organization}}Global Burden of Disease Study 2017 (GBD 2017), Institute for Health Metrics and Evaluation (IHME), uri: {browse "https://ghdx.healthdata.org/gbd-2017"}, publisher: Institute for Health Metrics and Evaluation (IHME), date published: 202112{p_end}
 
 
 {synoptline}
@@ -3187,7 +3187,7 @@
 
 {synopt:{opt Source Notes}}Percent of population exposed to ambient concentrations of PM2.5 that exceed the World Health Organization (WHO) Interim Target 3 (IT-3) is defined as the portion of a country’s population living in places where mean annual concentrations of{p_end}
 
-{synopt:{opt Source Organization}}Global Burden of Disease Study 2017 (GBD 2017), Institute for Health Metrics and Evaluation (IHME), uri: {browse "https://ghdx.healthdata.org/gbd-2017,"} publisher: Institute for Health Metrics and Evaluation (IHME), date published: 202112{p_end}
+{synopt:{opt Source Organization}}Global Burden of Disease Study 2017 (GBD 2017), Institute for Health Metrics and Evaluation (IHME), uri: {browse "https://ghdx.healthdata.org/gbd-2017"}, publisher: Institute for Health Metrics and Evaluation (IHME), date published: 202112{p_end}
 
 
 {synoptline}
@@ -3200,7 +3200,7 @@
 
 {synopt:{opt Source Notes}}Percent of population exposed to ambient concentrations of PM2.5 that exceed the WHO guideline value is defined as the portion of a country’s population living in places where mean annual concentrations of PM2.5 are greater than 10 microgram{p_end}
 
-{synopt:{opt Source Organization}}Global Burden of Disease Study 2017 (GBD 2017), Institute for Health Metrics and Evaluation (IHME), uri: {browse "https://ghdx.healthdata.org/gbd-2017,"} publisher: Institute for Health Metrics and Evaluation (IHME), date published: 202112{p_end}
+{synopt:{opt Source Organization}}Global Burden of Disease Study 2017 (GBD 2017), Institute for Health Metrics and Evaluation (IHME), uri: {browse "https://ghdx.healthdata.org/gbd-2017"}, publisher: Institute for Health Metrics and Evaluation (IHME), date published: 202112{p_end}
 
 
 {synoptline}
@@ -3213,7 +3213,7 @@
 
 {synopt:{opt Source Notes}}Birds are listed for countries included within their breeding or wintering ranges. Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminate, out of danger, or insufficiently known.{p_end}
 
-{synopt:{opt Source Organization}}The IUCN Red List of Threatened Species, UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), uri: {browse "https://www.iucnredlist.org/;"}{p_end}
+{synopt:{opt Source Organization}}The IUCN Red List of Threatened Species, UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), uri: {browse "https://www.iucnredlist.org/"};{p_end}
 
 
 {synoptline}
@@ -3252,7 +3252,7 @@
 
 {synopt:{opt Source Notes}}Fish species are based on Froese, R. and Pauly, D. (eds). 2008. Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminate, out of danger, or insufficiently known.{p_end}
 
-{synopt:{opt Source Organization}}FishBase database, Froese, R. and Pauly, D. (eds)., uri: {browse "https://www.fishbase.org/,"} date published: 2008{p_end}
+{synopt:{opt Source Organization}}FishBase database, Froese, R. and Pauly, D. (eds)., uri: {browse "https://www.fishbase.org/"}, date published: 2008{p_end}
 
 
 {synoptline}
@@ -3265,7 +3265,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of the six greenhouse gases (GHG) covered by the Kyoto Protocol (carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), and sulphurhexafluoride (SF6)) from th{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3278,7 +3278,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of the six greenhouse gases (GHG) covered by the Kyoto Protocol (carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), and sulphurhexafluoride (SF6)) from th{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3291,7 +3291,7 @@
 
 {synopt:{opt Source Notes}}Total annual emissions of the six greenhouse gases (GHG) covered by the Kyoto Protocol (carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), and sulphurhexafluoride (SF6)) from the energ{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3304,7 +3304,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from the agricultural sector. This includes emissions from livestock (IPCC 2006 codes 3.A.1 (enteric fermentation, 3.a.2 (manure management) and crops{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3317,7 +3317,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from the building sector (subsector of the energy sector) including IPCC 2006 codes 1.A.4 Residential and other sectors, 1.A.5 Non-Specified. The meas{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3330,7 +3330,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from fugitive emissions (subsector of the energy sector) including IPCC 2006 codes 1.A.1.bc Petroleum Refining - Manufacture of Solid Fuels and Other{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3343,7 +3343,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from industrial combustion (subsector of the energy sector) including IPCC 2006 code 1.A.2 Manufacturing Industries and Construction. The measure is s{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3356,7 +3356,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from industrial processes including IPCC 2006 codes 2.A.1 Cement production, 2.A.2 Lime production, 2.A.3 Glass Production, 2.A.4 Other Process Uses o{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3369,7 +3369,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding LULUCF.. The measure is standardized to carbon dioxide equivalent values using{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3382,7 +3382,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from electricity and heat generation (subsector of the energy sector) including IPCC 2006 code 1.A.1.a. The measure is standardized to carbon dioxide{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3395,7 +3395,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from the transportation sector (subsector of the energy sector) including IPCC 2006 codes 1.A.3.a Civil Aviation, 1.A.3.b_noRES Road Transportation no{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3408,7 +3408,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from the waste sector. This includes emissions from solid waste (IPCC 2006 codes 4.A Solid Waste Disposal, 4.B Biological Treatment of Solid Waste, 4.{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3421,7 +3421,7 @@
 
 {synopt:{opt Source Notes}}Change of emissions (as %) of current year with respect to emissions in baseline year 1990 emissions of methane (CH4), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding LULUCF..{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3434,7 +3434,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the agricultural sector. This includes emissions from livestock (IPCC 2006 codes 3.A.1 (enteric fermentation, 3.a.2 (manure management) an{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3447,7 +3447,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the building sector (subsector of the energy sector) including IPCC 2006 codes 1.A.4 Residential and other sectors, 1.A.5 Non-Specified. T{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3460,7 +3460,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from fugitive emissions (subsector of the energy sector) including IPCC 2006 codes 1.A.1.bc Petroleum Refining - Manufacture of Solid Fuels and{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3473,7 +3473,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from industrial combustion (subsector of the energy sector) including IPCC 2006 code 1.A.2 Manufacturing Industries and Construction. The measu{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3486,7 +3486,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from industrial processes including IPCC 2006 codes 2.A.1 Cement production, 2.A.2 Lime production, 2.A.3 Glass Production, 2.A.4 Other Process{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3499,7 +3499,7 @@
 
 {synopt:{opt Source Notes}}Net flux of carbon dioxide (CO2) in the category Deforestation.{p_end}
 
-{synopt:{opt Source Organization}}Carbon fluxes from land 2000–2020: bringing clarity on countries’ reporting, uri: {browse "https://doi.org/10.5194/essd-14-4643-2022,"} note: Data available from {browse "https://doi.org/10.5281/zenodo.7190605,"} publisher: Earth System Science Data (ESSD){p_end}
+{synopt:{opt Source Organization}}Carbon fluxes from land 2000–2020: bringing clarity on countries’ reporting, uri: {browse "https://doi.org/10.5194/essd-14-4643-2022"}, note: Data available from {browse "https://doi.org/10.5281/zenodo.7190605"}, publisher: Earth System Science Data (ESSD){p_end}
 
 
 {synoptline}
@@ -3512,7 +3512,7 @@
 
 {synopt:{opt Source Notes}}Net flux of carbon dioxide (CO2) in the category Forest land.{p_end}
 
-{synopt:{opt Source Organization}}Carbon fluxes from land 2000–2020: bringing clarity on countries’ reporting, uri: {browse "https://doi.org/10.5194/essd-14-4643-2022,"} note: Data available from {browse "https://doi.org/10.5281/zenodo.7190605,"} publisher: Earth System Science Data (ESSD){p_end}
+{synopt:{opt Source Organization}}Carbon fluxes from land 2000–2020: bringing clarity on countries’ reporting, uri: {browse "https://doi.org/10.5194/essd-14-4643-2022"}, note: Data available from {browse "https://doi.org/10.5281/zenodo.7190605"}, publisher: Earth System Science Data (ESSD){p_end}
 
 
 {synoptline}
@@ -3525,7 +3525,7 @@
 
 {synopt:{opt Source Notes}}Net flux of carbon dioxide (CO2) from Land Use, Land Use Change and Forestry LULUCF, excluding non-ropical fires at the country level.{p_end}
 
-{synopt:{opt Source Organization}}Carbon fluxes from land 2000–2020: bringing clarity on countries’ reporting, uri: {browse "https://doi.org/10.5194/essd-14-4643-2022,"} note: Data available from {browse "https://doi.org/10.5281/zenodo.7190605,"} publisher: Earth System Science Data (ESSD){p_end}
+{synopt:{opt Source Organization}}Carbon fluxes from land 2000–2020: bringing clarity on countries’ reporting, uri: {browse "https://doi.org/10.5194/essd-14-4643-2022"}, note: Data available from {browse "https://doi.org/10.5281/zenodo.7190605"}, publisher: Earth System Science Data (ESSD){p_end}
 
 
 {synoptline}
@@ -3538,7 +3538,7 @@
 
 {synopt:{opt Source Notes}}Net flux of carbon dioxide (CO2) in the category Other land.{p_end}
 
-{synopt:{opt Source Organization}}Carbon fluxes from land 2000–2020: bringing clarity on countries’ reporting, uri: {browse "https://doi.org/10.5194/essd-14-4643-2022,"} note: Data available from {browse "https://doi.org/10.5281/zenodo.7190605,"} publisher: Earth System Science Data (ESSD){p_end}
+{synopt:{opt Source Organization}}Carbon fluxes from land 2000–2020: bringing clarity on countries’ reporting, uri: {browse "https://doi.org/10.5194/essd-14-4643-2022"}, note: Data available from {browse "https://doi.org/10.5281/zenodo.7190605"}, publisher: Earth System Science Data (ESSD){p_end}
 
 
 {synoptline}
@@ -3551,7 +3551,7 @@
 
 {synopt:{opt Source Notes}}Net flux of carbon dioxide (CO2) in the category Organic soil.{p_end}
 
-{synopt:{opt Source Organization}}Carbon fluxes from land 2000–2020: bringing clarity on countries’ reporting, uri: {browse "https://doi.org/10.5194/essd-14-4643-2022,"} note: Data available from {browse "https://doi.org/10.5281/zenodo.7190605,"} publisher: Earth System Science Data (ESSD){p_end}
+{synopt:{opt Source Organization}}Carbon fluxes from land 2000–2020: bringing clarity on countries’ reporting, uri: {browse "https://doi.org/10.5194/essd-14-4643-2022"}, note: Data available from {browse "https://doi.org/10.5281/zenodo.7190605"}, publisher: Earth System Science Data (ESSD){p_end}
 
 
 {synoptline}
@@ -3564,7 +3564,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding LULUCF.. The measure is standardized to carbon dioxide equivalent values{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3577,7 +3577,7 @@
 
 {synopt:{opt Source Notes}}Total annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding LULUCF, standardized to carbon dioxide equivalent values divided by the economy{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3590,7 +3590,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from electricity and heat generation (subsector of the energy sector) including IPCC 2006 code 1.A.1.a. The measure is standardized to carbon d{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3603,7 +3603,7 @@
 
 {synopt:{opt Source Notes}}Annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding LULUCF divided by the GDP in constant 2021 US$.{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3616,7 +3616,7 @@
 
 {synopt:{opt Source Notes}}Annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding LULUCF divided by the GDP in 2021 PPP $.{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3629,7 +3629,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the transportation sector (subsector of the energy sector) including IPCC 2006 codes 1.A.3.a Civil Aviation, 1.A.3.b_noRES Road Transporta{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3642,7 +3642,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the waste sector. This includes emissions from solid waste (IPCC 2006 codes 4.A Solid Waste Disposal, 4.B Biological Treatment of Solid Wa{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3655,7 +3655,7 @@
 
 {synopt:{opt Source Notes}}Change of emissions (as %) of current year with respect to emissions in baseline year 1990 emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding L{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3668,7 +3668,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of fluorinated gases (hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), and sulphurhexafluoride (SF6)), from industrial processes including IPCC 2006 codes 2.B Chemical Industry, 2.C Metal Industry, 2.E Electron{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3681,7 +3681,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from the agricultural sector. This includes emissions from livestock (IPCC 2006 codes 3.A.1 (enteric fermentation, 3.a.2 (manure management) and{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3694,7 +3694,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from the building sector (subsector of the energy sector) including IPCC 2006 codes 1.A.4 Residential and other sectors, 1.A.5 Non-Specified. Th{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3707,7 +3707,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from fugitive emissions (subsector of the energy sector) including IPCC 2006 codes 1.A.1.bc Petroleum Refining - Manufacture of Solid Fuels and{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3720,7 +3720,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from industrial combustion (subsector of the energy sector) including IPCC 2006 code 1.A.2 Manufacturing Industries and Construction. The measur{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3733,7 +3733,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from industrial processes including IPCC 2006 codes 2.A.1 Cement production, 2.A.2 Lime production, 2.A.3 Glass Production, 2.A.4 Other Process{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3746,7 +3746,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding LULUCF.. The measure is standardized to carbon dioxide equivalent values{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3759,7 +3759,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from electricity and heat generation (subsector of the energy sector) including IPCC 2006 code 1.A.1.a. The measure is standardized to carbon di{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3772,7 +3772,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from the transportation sector (subsector of the energy sector) including IPCC 2006 codes 1.A.3.a Civil Aviation, 1.A.3.b_noRES Road Transportat{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3785,7 +3785,7 @@
 
 {synopt:{opt Source Notes}}A measure of annual emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from the waste sector. This includes emissions from solid waste (IPCC 2006 codes 4.A Solid Waste Disposal, 4.B Biological Treatment of Solid Was{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3798,7 +3798,7 @@
 
 {synopt:{opt Source Notes}}Change of emissions (as %) of current year with respect to emissions in baseline year 1990 emissions of nitrous oxide (N2O), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding LU{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3811,7 +3811,7 @@
 
 {synopt:{opt Source Notes}}Change of emissions (as %) of current year with respect to emissions in baseline year 1990 emissions of the six greenhouse gases (GHG) covered by the Kyoto Protocol (carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), hydrofluorocarbons{p_end}
 
-{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024,"} publisher: JRC European Commission, date published: 2024{p_end}
+{synopt:{opt Source Organization}}EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: {browse "https://edgar.jrc.ec.europa.eu/dataset_ghg2024"}, publisher: JRC European Commission, date published: 2024{p_end}
 
 
 {synoptline}
@@ -3824,7 +3824,7 @@
 
 {synopt:{opt Source Notes}}Higher plants are native vascular plant species. Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminate, out of danger, or insufficiently known.{p_end}
 
-{synopt:{opt Source Organization}}The IUCN Red List of Threatened Species, UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), uri: {browse "https://www.iucnredlist.org/;"}{p_end}
+{synopt:{opt Source Organization}}The IUCN Red List of Threatened Species, UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), uri: {browse "https://www.iucnredlist.org/"};{p_end}
 
 
 {synoptline}
@@ -3837,7 +3837,7 @@
 
 {synopt:{opt Source Notes}}Mammal species are mammals excluding whales and porpoises. Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminate, out of danger, or insufficiently known.{p_end}
 
-{synopt:{opt Source Organization}}The IUCN Red List of Threatened Species, UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), uri: {browse "https://www.iucnredlist.org/;"}{p_end}
+{synopt:{opt Source Organization}}The IUCN Red List of Threatened Species, UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), uri: {browse "https://www.iucnredlist.org/"};{p_end}
 
 
 {synoptline}
@@ -3859,11 +3859,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Rural population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702,"} publisher: NASA Ear{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702"}, publisher: NASA Ear{p_end}
 
 
 {synoptline}
@@ -3872,11 +3872,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Urban population below 5m is the percentage of the total population, living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702,"} publisher: NASA Ear{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702"}, publisher: NASA Ear{p_end}
 
 
 {synoptline}
@@ -3889,7 +3889,7 @@
 
 {synopt:{opt Source Notes}}Population below 5m is the percentage of the total population living in areas where the elevation is 5 meters or less.{p_end}
 
-{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702,"} publisher: NASA Ear{p_end}
+{synopt:{opt Source Organization}}Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3, Center For International Earth Science Information Network (CIESIN) - Columbia University, uri: {browse "https://doi.org/10.7927/d1x1-d702"}, publisher: NASA Ear{p_end}
 
 
 {synoptline}
@@ -3898,7 +3898,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}11 Poverty{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Population living in slums is the proportion of the urban population living in slum households. A slum household is defined as a group of individuals living under the same roof lacking one or more of the following conditions: access to improve{p_end}
 
@@ -3915,7 +3915,7 @@
 
 {synopt:{opt Source Notes}}Population in largest city is the urban population living in the country's largest metropolitan area.{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} publisher: UN Population Division, date published: 2018{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, publisher: UN Population Division, date published: 2018{p_end}
 
 
 {synoptline}
@@ -3928,7 +3928,7 @@
 
 {synopt:{opt Source Notes}}Population in largest city is the percentage of a country's urban population living in that country's largest metropolitan area.{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} publisher: UN Population Division, date published: 2018{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, publisher: UN Population Division, date published: 2018{p_end}
 
 
 {synoptline}
@@ -3941,7 +3941,7 @@
 
 {synopt:{opt Source Notes}}Population in urban agglomerations of more than one million is the country's population living in metropolitan areas that in 2018 had a population of more than one million people.{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} publisher: UN Population Division, date published: 2018{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, publisher: UN Population Division, date published: 2018{p_end}
 
 
 {synoptline}
@@ -3950,11 +3950,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}16 Urban Development{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Population in urban agglomerations of more than one million is the percentage of a country's population living in metropolitan areas that in 2018 had a population of more than one million people.{p_end}
 
-{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/,"} publisher: UN Population Division, date published: 2018{p_end}
+{synopt:{opt Source Organization}}World Urbanization Prospects 2018, United Nations (UN), uri: {browse "https://population.un.org/wup/"}, publisher: UN Population Division, date published: 2018{p_end}
 
 
 {synoptline}
@@ -4019,7 +4019,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/"}, publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -4028,11 +4028,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/"}, publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -4045,7 +4045,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/"}, publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -4058,7 +4058,7 @@
 
 {synopt:{opt Source Notes}}The level of water stress: freshwater withdrawal as a proportion of available freshwater resources is the ratio between total freshwater withdrawn by all major sectors and total renewable freshwater resources, after taking into account environ{p_end}
 
-{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/"}, publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -4067,11 +4067,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}09 Infrastructure{p_end}
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/"}, publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -4084,7 +4084,7 @@
 
 {synopt:{opt Source Notes}}Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exce{p_end}
 
-{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/"}, publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -4097,7 +4097,7 @@
 
 {synopt:{opt Source Notes}}Renewable internal freshwater resources flows refer to internal renewable resources (internal river flows and groundwater from rainfall) in the country.{p_end}
 
-{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/"}, publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -4110,7 +4110,7 @@
 
 {synopt:{opt Source Notes}}Renewable internal freshwater resources flows refer to internal renewable resources (internal river flows and groundwater from rainfall) in the country. Renewable internal freshwater resources per capita are calculated using the World Bank's p{p_end}
 
-{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/,"} publisher: Food and Agriculture Organization of the United Nations (F{p_end}
+{synopt:{opt Source Organization}}AQUASTAT - FAO's Global Information System on Water and Agriculture, Food and Agriculture Organization of the United Nations (FAO), uri: {browse "https://data.apps.fao.org/aquastat/"}, publisher: Food and Agriculture Organization of the United Nations (F{p_end}
 
 
 {synoptline}
@@ -4145,7 +4145,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}19 Climate Change{p_end}
 
 {synopt:{opt Source Notes}}Terrestrial protected areas are totally or partially protected areas of at least 1,000 hectares that are designated by national authorities as scientific reserves with limited public access, national parks, natural monuments, nature reserves o{p_end}
 
@@ -4262,7 +4262,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}20 External Debt{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}Reserve assets are external assets, including monetary gold, that are readily available to and controlled by monetary authorities for meeting balance of payments financing needs, for intervention in exchange markets to affect the currency exch{p_end}
 
@@ -4301,7 +4301,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}07 Financial Sector{p_end}
 
 {synopt:{opt Source Notes}}This series includes external assets (excluding monetary gold) that are readily available to and controlled by monetary authorities for meeting balance of payments financing needs, for intervention in exchange markets to affect the currency ex{p_end}
 
@@ -4457,7 +4457,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}07 Financial Sector{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Inflation as measured by the consumer price index reflects the annual percentage change in the cost to the average consumer of acquiring a basket of goods and services that may be fixed or changed at specified intervals, such as yearly. This i{p_end}
 
@@ -4721,7 +4721,7 @@
 
 {synopt:{opt Source Notes}}Gross domestic expenditures on research and development (R&amp;D), expressed as a percent of GDP. They include both capital and current expenditures in the four main sectors: Business enterprise, Government, Higher education and Private non-pr{p_end}
 
-{synopt:{opt Source Organization}}Stat Bulk Data Download Service, UN Educational, Scientific and Cultural Organization (UNESCO), uri: {browse "https://databrowser.uis.unesco.org/resources/bulk,"} publisher: UNESCO Institute for Statistics (UIS), date accessed: 2025-03-26, date published{p_end}
+{synopt:{opt Source Organization}}Stat Bulk Data Download Service, UN Educational, Scientific and Cultural Organization (UNESCO), uri: {browse "https://databrowser.uis.unesco.org/resources/bulk"}, publisher: UNESCO Institute for Statistics (UIS), date accessed: 2025-03-26, date published{p_end}
 
 
 {synoptline}
@@ -4951,7 +4951,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}Export taxes are taxes on goods or services that become payable to government when the goods leave the economic territory or when the services are delivered to non-residents. This indicator is expressed as a percentage of tax revenue which inc{p_end}
 
@@ -5016,7 +5016,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}13 Public Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Taxes and duties on imports are taxes on goods and services that become payable at the moment when goods enter the economic territory or when services are delivered by non-resident producers to residents. This indicator is expressed as a perce{p_end}
 
@@ -5319,7 +5319,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org"}{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}{p_end}
 
 
 {synoptline}
@@ -5332,7 +5332,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -5345,7 +5345,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -5358,7 +5358,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -5371,7 +5371,7 @@
 
 {synopt:{opt Source Notes}}Good governance is essential for development. It helps countries improve economic growth, build human capital, and strengthen social cohesion. Empirical evidence shows a strong causal relationship between better governance and better developme{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -5384,7 +5384,7 @@
 
 {synopt:{opt Source Notes}}The Worldwide Governance Indicators (WGI) are a research dataset summarizing the views on the quality of governance provided by a large number of enterprise, citizen and expert survey respondents in industrial and developing countries. Governa{p_end}
 
-{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "www.govindicators.org,"} note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
+{synopt:{opt Source Organization}}Worldwide Governance Indicators, World Bank (WB), uri: {browse "http://www.govindicators.org"}, note: The Worldwide Governance Indicators (WGI) are a product of the staff of the World Bank with external contributions.{p_end}
 
 
 {synoptline}
@@ -5397,7 +5397,7 @@
 
 {synopt:{opt Source Notes}}Primary government expenditures as a proportion of original approved budget measures the extent to which aggregate budget expenditure outturn reflects the amount originally approved, as defined in government budget documentation and fiscal rep{p_end}
 
-{synopt:{opt Source Organization}}Public Expenditure and Financial Accountability (PEFA), World Bank (WB), uri: {browse "https://www.pefa.org/node/5239,"} note: The raw data collected in order to calculate this indicator are the initially Approved and Executed Budgets. Budget Laws of co{p_end}
+{synopt:{opt Source Organization}}Public Expenditure and Financial Accountability (PEFA), World Bank (WB), uri: {browse "https://www.pefa.org/node/5239"}, note: The raw data collected in order to calculate this indicator are the initially Approved and Executed Budgets. Budget Laws of co{p_end}
 
 
 {synoptline}
@@ -5952,7 +5952,7 @@
 
 {synopt:{opt Source Notes}}Average number of days to clear direct exports through customs.{p_end}
 
-{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://www.enterprisesurveys.org/en/data,"} note: All surveys were administered using the Enterprise Surveys methodology as outlined in the Methodology page which can be found from www.enterprisesurveys{p_end}
+{synopt:{opt Source Organization}}Enterprise Surveys, World Bank (WB), uri: {browse "https://{browse "http://www.enterprisesurveys"}.org/en/data"}, note: All surveys were administered using the Enterprise Surveys methodology as outlined in the Methodology page which can be found from {browse "http://www.enterprisesurveys"}{p_end}
 
 
 {synoptline}
@@ -6249,7 +6249,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Losses due to electrical outages, as percentage of total annual sales. The value represents average losses for all firms which reported outages (please see indicator IC.ELC.OUTG.ZS).{p_end}
 
@@ -6338,7 +6338,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}The Private Participation in Infrastructure (PPI) Database records contractual arrangements for public infrastructure projects in low- and middle-income countries (as classified by the World Bank) that have reached financial closure, in which{p_end}
 
@@ -6377,7 +6377,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}09 Infrastructure{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}The Private Participation in Infrastructure (PPI) Database records contractual arrangements for public infrastructure projects in low- and middle-income countries (as classified by the World Bank) that have reached financial closure, in which{p_end}
 
@@ -6446,7 +6446,7 @@
 
 {synopt:{opt Source Notes}}Industrial design applications are applications to register an industrial design with a national or regional Intellectual Property (IP) offices and designations received by relevant offices through the Hague System. Non-resident application re{p_end}
 
-{synopt:{opt Source Organization}}Statistics Database, World Intellectual Property Organization (WIPO), uri: {browse "www.wipo.int/ipstats/,"} note: The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
+{synopt:{opt Source Organization}}Statistics Database, World Intellectual Property Organization (WIPO), uri: {browse "http://www.wipo.int/ipstats/"}, note: The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
 
 
 {synoptline}
@@ -6459,7 +6459,7 @@
 
 {synopt:{opt Source Notes}}Industrial design applications are applications to register an industrial design with a national or regional Intellectual Property (IP) offices and designations received by relevant offices through the Hague System.  A resident application ref{p_end}
 
-{synopt:{opt Source Organization}}Statistics Database, World Intellectual Property Organization (WIPO), uri: {browse "www.wipo.int/ipstats/,"} note: The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
+{synopt:{opt Source Organization}}Statistics Database, World Intellectual Property Organization (WIPO), uri: {browse "http://www.wipo.int/ipstats/"}, note: The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
 
 
 {synoptline}
@@ -6511,7 +6511,7 @@
 
 {synopt:{opt Source Notes}}A trademark is a sign capable of distinguishing the goods or services of one enterprise from those of other enterprises. Trademarks are protected by intellectual property rights. Non-resident application refers to an application filed with the{p_end}
 
-{synopt:{opt Source Organization}}Statistics Database, World Intellectual Property Organization (WIPO), uri: {browse "www.wipo.int/ipstats/,"} note: The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
+{synopt:{opt Source Organization}}Statistics Database, World Intellectual Property Organization (WIPO), uri: {browse "http://www.wipo.int/ipstats/"}, note: The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
 
 
 {synoptline}
@@ -6524,7 +6524,7 @@
 
 {synopt:{opt Source Notes}}A trademark is a sign capable of distinguishing the goods or services of one enterprise from those of other enterprises. Trademarks are protected by intellectual property rights. A resident application refers to an application filed with the I{p_end}
 
-{synopt:{opt Source Organization}}Statistics Database, World Intellectual Property Organization (WIPO), uri: {browse "www.wipo.int/ipstats/,"} note: The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
+{synopt:{opt Source Organization}}Statistics Database, World Intellectual Property Organization (WIPO), uri: {browse "http://www.wipo.int/ipstats/"}, note: The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.{p_end}
 
 
 {synoptline}
@@ -6728,7 +6728,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}19 Climate Change{p_end}
+{synopt:{opt Topics}}13 Public Sector{p_end}
 
 {synopt:{opt Source Notes}}The Country Policy and Institutional Assessment (CPIA) measures the extent to which a country’s policy and institutional framework supports sustainable growth and poverty reduction, and consequently the effective use of development assistanc{p_end}
 
@@ -6899,7 +6899,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}Air freight is the volume of freight, express, and diplomatic bags carried on each flight stage (operation of an aircraft from takeoff to its next landing), measured in metric tons times kilometers traveled.{p_end}
+{synopt:{opt Source Notes}}:~:text=ICAO%20data%20is%20comprised%20of,information%20about%20commercial%20air%20carriers;{p_end}
 
 {synopt:{opt Source Organization}}Civil Aviation Statistics of the World, International Civil Aviation Organization (ICAO), uri: {browse "https://data.icao.int/newdataplus/"}{p_end}
 
@@ -6912,7 +6912,7 @@
 
 {synopt:{opt Topics}}topicID{p_end}
 
-{synopt:{opt Source Notes}}Air carrier data per country refers to passengers carried by airlines registered in that country regardless of the origin or destination of the passengers.{p_end}
+{synopt:{opt Source Notes}}:~:text=ICAO%20data%20is%20comprised%20of,information%20about%20commercial%20air%20carriers;{p_end}
 
 {synopt:{opt Source Organization}}Civil Aviation Statistics of the World, International Civil Aviation Organization (ICAO), uri: {browse "https://data.icao.int/newdataplus/"}{p_end}
 
@@ -6927,7 +6927,7 @@
 
 {synopt:{opt Source Notes}}Goods transported by railway are the volume of goods transported by railway, measured in metric tons times kilometers traveled.{p_end}
 
-{synopt:{opt Source Organization}}Railisa Database (UIC), International Union of Railways (UIC), uri: {browse "https://uic-stats.uic.org/select/;"}{p_end}
+{synopt:{opt Source Organization}}Railisa Database (UIC), International Union of Railways (UIC), uri: {browse "https://uic-stats.uic.org/select/"};{p_end}
 
 
 {synoptline}
@@ -6940,7 +6940,7 @@
 
 {synopt:{opt Source Notes}}Passengers carried by railway are the number of passengers transported by rail multiplied by kilometers traveled.{p_end}
 
-{synopt:{opt Source Organization}}Railisa Database (UIC), International Union of Railways (UIC), uri: {browse "https://uic-stats.uic.org/select/;"}{p_end}
+{synopt:{opt Source Organization}}Railisa Database (UIC), International Union of Railways (UIC), uri: {browse "https://uic-stats.uic.org/select/"};{p_end}
 
 
 {synoptline}
@@ -7083,7 +7083,7 @@
 
 {synopt:{opt Source Notes}}The number of distinct, publicly-trusted TLS/SSL certificates found in the Netcraft Secure Server Survey (by hosting country), per 1 million people.{p_end}
 
-{synopt:{opt Source Organization}}Secure Server Survey, Netcraft, uri: {browse "http://www.netcraft.com/;"}{p_end}
+{synopt:{opt Source Organization}}Secure Server Survey, Netcraft, uri: {browse "http://www.netcraft.com/"};{p_end}
 
 
 {synoptline}
@@ -7131,11 +7131,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Lead time to export is the median time (the value for 50 percent of shipments) from shipment point to port of loading. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10 percent of{p_end}
 
-{synopt:{opt Source Organization}}Logistic Performance Index Surveys, World Bank (WB), uri: {browse "https://lpi.worldbank.org/,"} note: Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and It{p_end}
+{synopt:{opt Source Organization}}Logistic Performance Index Surveys, World Bank (WB), uri: {browse "https://lpi.worldbank.org/"}, note: Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and It{p_end}
 
 
 {synoptline}
@@ -7144,11 +7144,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Lead time to import is the median time (the value for 50 percent of shipments) from port of discharge to arrival at the consignee. Data are from the Logistics Performance Index survey. Respondents provided separate values for the best case (10{p_end}
 
-{synopt:{opt Source Organization}}Logistic Performance Index Surveys, World Bank (WB), uri: {browse "https://lpi.worldbank.org/,"} note: Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and It{p_end}
+{synopt:{opt Source Organization}}Logistic Performance Index Surveys, World Bank (WB), uri: {browse "https://lpi.worldbank.org/"}, note: Summary results are published in Arvis and others' Connecting to Compete: Trade Logistics in the Global Economy, The Logistics Performance Index and It{p_end}
 
 
 {synoptline}
@@ -7170,7 +7170,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}12 Private Sector{p_end}
 
 {synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
@@ -7235,7 +7235,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}12 Private Sector{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Data are from the Logistics Performance Index survey conducted by the World Bank in partnership with academic and international institutions and private companies and individuals engaged in international logistics. Respondents evaluate eight c{p_end}
 
@@ -7538,7 +7538,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for final consumption expenditure expressed in current international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based compari{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -7551,7 +7551,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for final consumption expenditure expressed in constant international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based compar{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -7729,7 +7729,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
@@ -7755,7 +7755,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided b{p_end}
 
@@ -8028,7 +8028,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
@@ -8067,7 +8067,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}21 Trade{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
@@ -8093,7 +8093,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Imports of goods includes change in the economic ownership of goods from non-residents to{p_end}
 
@@ -8106,7 +8106,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}The balance of international trade in goods and services is the difference between the exports and imports of goods and services. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes o{p_end}
 
@@ -8158,7 +8158,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}21 Trade{p_end}
 
 {synopt:{opt Source Notes}}Trade is the sum of exports and imports of goods and services. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of goods and services in an economic territory d{p_end}
 
@@ -8184,7 +8184,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}01 Agriculture and Rural Development{p_end}
 
 {synopt:{opt Source Notes}}Agriculture, forestry, and fishing corresponds to ISIC (Rev. 4) divisions 01-03 and includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting o{p_end}
 
@@ -8652,7 +8652,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$40 per ton of CO2 (the unit damage in 2017 US dollars for CO2 emitted in 2020) times the number of tons of CO2 emitted. This{p_end}
 
@@ -8665,7 +8665,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Cost of damage due to carbon dioxide emissions from fossil fuel use and the manufacture of cement, estimated to be US$40 per ton of CO2 (the unit damage in 2017 US dollars for CO2 emitted in 2020) times the number of tons of CO2 emitted. This{p_end}
 
@@ -8717,7 +8717,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Consumption of fixed capital represents the replacement value of capital used up in the process of production. This indicator is expressed as a percentage of Gross National Income (GNI) which is the total income earned by all residents within{p_end}
 
@@ -8730,7 +8730,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate. This indicator is expr{p_end}
 
@@ -8743,7 +8743,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Mineral depletion is the ratio of the value of the stock of mineral resources to the remaining reserve lifetime (capped at 25 years). It covers tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite, and phosphate. This indicator is expr{p_end}
 
@@ -8769,7 +8769,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Energy depletion is the ratio of the value of the stock of energy resources to the remaining reserve lifetime (capped at 25 years). It covers coal, crude oil, and natural gas. This indicator is expressed as a percentage of Gross National Incom{p_end}
 
@@ -8795,7 +8795,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Particulate emissions damage is the damage due to exposure of a country's population to ambient concentrations of particulates measuring less than 2.5 microns in diameter (PM2.5), ambient ozone pollution, and indoor concentrations of PM2.5 in{p_end}
 
@@ -8821,7 +8821,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Gross savings are the difference between gross national income and public and private consumption, plus net current transfers. This indicator is expressed as a percentage of Gross National Income (GNI) which is the total income earned by all r{p_end}
 
@@ -8834,7 +8834,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Net national savings are equal to gross national savings less the value of consumption of fixed capital. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time.  This indicator{p_end}
 
@@ -8847,7 +8847,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Net national savings are equal to gross national savings less the value of consumption of fixed capital. This indicator is expressed as a percentage of Gross National Income (GNI) which is the total income earned by all residents within an eco{p_end}
 
@@ -8951,7 +8951,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}03 Economy and Growth{p_end}
 
 {synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide and particulate emissions damage. This indicator is expressed as a percen{p_end}
 
@@ -8964,7 +8964,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Adjusted net savings are equal to net national savings plus education expenditure and minus energy depletion, mineral depletion, net forest depletion, and carbon dioxide. This series excludes particulate emissions damage. This indicator is exp{p_end}
 
@@ -9007,7 +9007,7 @@
 
 {synopt:{opt Source Notes}}Coal rents are the difference between the value of both hard and soft coal production at world prices and their total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data,"} note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
+{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data"}, note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
 
 
 {synoptline}
@@ -9150,7 +9150,7 @@
 
 {synopt:{opt Source Notes}}Forest rents are roundwood harvest times the product of regional prices and a regional rental rate.{p_end}
 
-{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data,"} note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
+{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data"}, note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
 
 
 {synoptline}
@@ -9159,11 +9159,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}06 Environment{p_end}
+{synopt:{opt Topics}}05 Energy and Mining{p_end}
 
 {synopt:{opt Source Notes}}Mineral rents are the difference between the value of production for a stock of minerals at world prices and their total costs of production. Minerals included in the calculation are tin, gold, lead, zinc, iron, copper, nickel, silver, bauxite{p_end}
 
-{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data,"} note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
+{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data"}, note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
 
 
 {synoptline}
@@ -9254,7 +9254,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for gross domestic product (GDP) expressed in current international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based comparis{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -9267,7 +9267,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for gross domestic product (GDP) expressed in constant international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based compari{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -9280,7 +9280,7 @@
 
 {synopt:{opt Source Notes}}Natural gas rents are the difference between the value of natural gas production at regional prices and total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data,"} note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
+{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data"}, note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
 
 
 {synoptline}
@@ -9358,7 +9358,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for gross domestic product (GDP) expressed in current international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based comparis{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -9371,7 +9371,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for gross domestic product (GDP) expressed in constant international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based compari{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -9384,7 +9384,7 @@
 
 {synopt:{opt Source Notes}}Oil rents are the difference between the value of crude oil production at regional prices and total costs of production.{p_end}
 
-{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data,"} note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
+{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data"}, note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
 
 
 {synoptline}
@@ -9393,11 +9393,11 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}05 Energy and Mining{p_end}
+{synopt:{opt Topics}}06 Environment{p_end}
 
 {synopt:{opt Source Notes}}Total natural resources rents are the sum of oil rents, natural gas rents, coal rents (hard and soft), mineral rents, and forest rents.{p_end}
 
-{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data,"} note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
+{synopt:{opt Source Organization}}The Changing Wealth of Nations, World Bank (WB), uri: {browse "https://www.worldbank.org/en/publication/changing-wealth-of-nations/data"}, note: World Bank staff estimates based on sources and methods described in the World Bank's The Changing Wealth of{p_end}
 
 
 {synoptline}
@@ -9471,7 +9471,7 @@
 
 {synopt:{opt Source}}02 World Development Indicators{p_end}
 
-{synopt:{opt Topics}}03 Economy and Growth{p_end}
+{synopt:{opt Topics}}20 External Debt{p_end}
 
 {synopt:{opt Source Notes}}Gross national income is the total income earned by all residents within an economic territory during an accounting period. It is equal to gross domestic product plus earned income receivable from abroad minus earned income payable abroad. Thi{p_end}
 
@@ -9553,7 +9553,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for gross national income (GNI) expressed in current international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based compariso{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -9566,7 +9566,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for gross national income (GNI) expressed in constant international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based comparis{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -9644,7 +9644,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for gross national income (GNI) per person expressed in current international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-base{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -9657,7 +9657,7 @@
 
 {synopt:{opt Source Notes}}This indicator provides values for gross national income (GNI) per person expressed in constant international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-bas{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30,{p_end}
 
 
 {synoptline}
@@ -9878,7 +9878,7 @@
 
 {synopt:{opt Source Notes}}The purchasing power parity (PPP) conversion factor is a currency conversion factor and a spatial price deflator. PPPs convert different currencies to a common currency and, in the process of conversion, equalize their purchasing power by elim{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} publisher: International Comparison Program, type: International statistical program, date accessed: May 30, 2024, date published: Ma{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, publisher: International Comparison Program, type: International statistical program, date accessed: May 30, 2024, date published: Ma{p_end}
 
 
 {synoptline}
@@ -9891,7 +9891,7 @@
 
 {synopt:{opt Source Notes}}The price level ratio, or price level index, is the ratio of a purchasing power parity (PPP) conversion factor to the corresponding market exchange rate between two countries. For this series the base country is the United States. It provides{p_end}
 
-{synopt:{opt Source Organization}}World Development Indicators, World Bank (WB), uri: {browse "https://databank.worldbank.org/source/world-development-indicators,"} publisher: World Development Indicators, type: International database{p_end}
+{synopt:{opt Source Organization}}World Development Indicators, World Bank (WB), uri: {browse "https://databank.worldbank.org/source/world-development-indicators"}, publisher: World Development Indicators, type: International database{p_end}
 
 
 {synoptline}
@@ -9904,7 +9904,7 @@
 
 {synopt:{opt Source Notes}}The purchasing power parity (PPP) conversion factor is a currency conversion factor and a spatial price deflator. They convert different currencies to a common currency and, in the process of conversion, equalize their purchasing power by elim{p_end}
 
-{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data,"} publisher: International Comparison Program, type: International statistical program, date accessed: May 30, 2024, date published: Ma{p_end}
+{synopt:{opt Source Organization}}International Comparison Program (ICP), World Bank (WB), uri: {browse "https://www.worldbank.org/en/programs/icp/data"}, publisher: International Comparison Program, type: International statistical program, date accessed: May 30, 2024, date published: Ma{p_end}
 
 
 {synoptline}
@@ -10155,4 +10155,4 @@
 
 
 
-{right:(as of 21dec2025)}
+{right:(as of 04jan2026)}

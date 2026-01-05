@@ -1,0 +1,456 @@
+================================================================================
+WBOPENDATA TEST HISTORY
+================================================================================
+This file records all test runs for wbopendata package.
+Each entry shows: date/time, version tested, Stata version, and results.
+================================================================================
+
+
+======================================================================
+Test Run:  3 Jan 2026 03:06:43
+Version:  17.4.1
+Stata:    17
+Tests:    22 run, 8 passed, 14 failed
+Result:   FAILED
+Failed:   DL-02, DL-03, DL-04, CTRY-01, CTRY-02, CTRY-03, CTRY-04, REG-45, REG-46, LW-01, LW-02, LW-04, UPD-01, UPD-02
+Log:      test_results_v17.4.1_3Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  3 Jan 2026 03:07:40
+Version:  17.4.1
+Stata:    17
+Tests:    22 run, 8 passed, 14 failed
+Result:   FAILED
+Failed:   DL-02, DL-03, DL-04, CTRY-01, CTRY-02, CTRY-03, CTRY-04, REG-45, REG-46, LW-01, LW-02, LW-04, UPD-01, UPD-02
+Log:      test_results_v17.4.1_3Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  3 Jan 2026 03:09:31
+Version:  17.4.1
+Stata:    17
+Tests:    22 run, 10 passed, 12 failed
+Result:   FAILED
+Failed:   DL-04, CTRY-01, CTRY-02, CTRY-03, CTRY-04, REG-45, REG-46, LW-01, LW-02, LW-04, UPD-01, UPD-02
+Log:      test_results_v17.4.1_3Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  3 Jan 2026 03:17:14
+Version:  17.4.2
+Stata:    17
+Tests:    22 run, 11 passed, 11 failed
+Result:   FAILED
+Failed:   CTRY-01, CTRY-02, CTRY-03, CTRY-04, REG-45, REG-46, LW-01, LW-02, LW-04, UPD-01, UPD-02
+Log:      test_results_v17.4.2_3Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  3 Jan 2026 03:19:16
+Version:  17.4.2
+Stata:    17
+Tests:    22 run, 11 passed, 11 failed
+Result:   FAILED
+Failed:   CTRY-01, CTRY-02, CTRY-03, CTRY-04, REG-45, REG-46, LW-01, LW-02, LW-04, UPD-01, UPD-02
+Log:      test_results_v17.4.2_3Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  3 Jan 2026 03:36:59
+Version:  17.4.2
+Stata:    17
+Tests:    26 run, 15 passed, 11 failed
+Result:   FAILED
+Failed:   CTRY-01, CTRY-02, CTRY-03, CTRY-04, REG-45, REG-46, LW-01, LW-02, LW-04, UPD-01, UPD-02
+Log:      test_results_v17.4.2_3Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  3 Jan 2026 03:53:36
+Version:  17.4.2
+Stata:    17
+Tests:    26 run, 17 passed, 9 failed
+Result:   FAILED
+Failed:   CTRY-02, CTRY-03, CTRY-04, REG-45, REG-51, LW-01, LW-02, LW-04, UPD-02
+Log:      test_results_v17.4.2_3Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  3 Jan 2026 07:51:52
+Version:  17.4.2
+Stata:    17
+Tests:    26 run, 20 passed, 6 failed
+Result:   FAILED
+Failed:   CTRY-01, LW-01, LW-02, LW-03, LW-04, UPD-02
+Log:      test_results_v17.4.2_3Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  3 Jan 2026 08:11:13
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 30 passed, 6 failed
+Result:   FAILED
+Failed:   CTRY-01, LW-01, LW-02, LW-03, LW-04, UPD-02
+Log:      test_results_v17.4.2_3Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  3 Jan 2026 08:32:25
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 7 passed, 29 failed
+Result:   FAILED
+Failed:   DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-06, CTRY-07, CTRY-08, CTRY-09, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_3Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  3 Jan 2026 08:47:15
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 7 passed, 29 failed
+Result:   FAILED
+Failed:   DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-06, CTRY-07, CTRY-08, CTRY-09, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_3Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  3 Jan 2026 08:50:27
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 7 passed, 29 failed
+Result:   FAILED
+Failed:   DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-06, CTRY-07, CTRY-08, CTRY-09, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_3Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  3 Jan 2026 08:57:22
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 7 passed, 29 failed
+Result:   FAILED
+Failed:   DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-06, CTRY-07, CTRY-08, CTRY-09, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_3Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  3 Jan 2026 09:05:12
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 7 passed, 29 failed
+Result:   FAILED
+Failed:   DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-06, CTRY-07, CTRY-08, CTRY-09, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_3Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  3 Jan 2026 12:23:37
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 6 passed, 30 failed
+Result:   FAILED
+Failed:   DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-05, CTRY-06, CTRY-07, CTRY-08, CTRY-09, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_3Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 11:33:10
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 6 passed, 30 failed
+Result:   FAILED
+Failed:   DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-05, CTRY-06, CTRY-07, CTRY-08, CTRY-09, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 11:36:40
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 6 passed, 30 failed
+Result:   FAILED
+Failed:   DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-05, CTRY-06, CTRY-07, CTRY-08, CTRY-09, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 12:19:03
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 5 passed, 31 failed
+Result:   FAILED
+Failed:   DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-05, CTRY-06, CTRY-07, CTRY-08, CTRY-09, CTRY-10, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 12:19:27
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 5 passed, 31 failed
+Result:   FAILED
+Failed:   DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-05, CTRY-06, CTRY-07, CTRY-08, CTRY-09, CTRY-10, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 12:27:31
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 5 passed, 31 failed
+Result:   FAILED
+Failed:   DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-05, CTRY-06, CTRY-07, CTRY-08, CTRY-09, CTRY-10, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 12:31:36
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 5 passed, 31 failed
+Result:   FAILED
+Failed:   DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-05, CTRY-06, CTRY-07, CTRY-08, CTRY-09, CTRY-10, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 12:35:51
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 6 passed, 30 failed
+Result:   FAILED
+Failed:   DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-05, CTRY-06, CTRY-07, CTRY-08, CTRY-09, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 12:37:16
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 4 passed, 32 failed
+Result:   FAILED
+Failed:   ENV-04, DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-05, CTRY-06, CTRY-07, CTRY-08, CTRY-09, CTRY-10, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 12:37:53
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 4 passed, 32 failed
+Result:   FAILED
+Failed:   ENV-04, DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-05, CTRY-06, CTRY-07, CTRY-08, CTRY-09, CTRY-10, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 12:41:59
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 4 passed, 32 failed
+Result:   FAILED
+Failed:   ENV-04, DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-05, CTRY-06, CTRY-07, CTRY-08, CTRY-09, CTRY-10, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 12:49:52
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 4 passed, 32 failed
+Result:   FAILED
+Failed:   ENV-04, DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-05, CTRY-06, CTRY-07, CTRY-08, CTRY-09, CTRY-10, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 12:57:28
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 6 passed, 29 failed
+Result:   FAILED
+Failed:   DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-05, CTRY-06, CTRY-07, CTRY-08, CTRY-09, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05
+Log:      test_results_v17.4.2_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 13:04:21
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 10 passed, 26 failed
+Result:   FAILED
+Failed:   DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-05, CTRY-06, CTRY-07, CTRY-08, CTRY-09, CTRY-10, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-02, UPD-04, UPD-05, UPD-06
+Log:      test_results_v17.4.2_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 13:04:43
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 31 passed, 5 failed
+Result:   FAILED
+Failed:   LW-01, LW-02, LW-03, LW-04, UPD-02
+Log:      test_results_v17.4.2_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 13:41:43
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 32 passed, 4 failed
+Result:   FAILED
+Failed:   REG-45, LW-01, LW-02, LW-04
+Log:      test_results_v17.4.2_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 16:26:53
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 33 passed, 3 failed
+Result:   FAILED
+Failed:   LW-01, LW-02, LW-04
+Log:      test_results_v17.4.2_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 16:33:23
+Version:  17.4.2
+Stata:    17
+Tests:    36 run, 33 passed, 3 failed
+Result:   FAILED
+Failed:   LW-01, LW-02, LW-04
+Log:      test_results_v17.4.2_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 16:43:29
+Version:  unknown
+Stata:    17
+Tests:    36 run, 33 passed, 3 failed
+Result:   FAILED
+Failed:   LW-01, LW-02, LW-04
+Log:      test_results_vunknown_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 16:46:26
+Version:  unknown
+Stata:    17
+Tests:    36 run, 33 passed, 3 failed
+Result:   FAILED
+Failed:   LW-01, LW-02, LW-04
+Log:      test_results_vunknown_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 18:05:23
+Version:  17.6.5
+Build:    	
+Stata:    17
+Tests:    36 run, 36 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v17.6.5_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 18:38:59
+Version:  17.6.5
+Build:    	
+Stata:    17
+Tests:    36 run, 36 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v17.6.5_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026 18:52:05
+Version:  17.6.5
+Build:    04Jan2026
+Stata:    17
+Tests:    36 run, 36 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v17.6.5_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026
+Started:  18:58:42
+Ended:    19:02:41
+Duration: 3m 59s
+Version:  17.6.5
+Build:    04Jan2026
+Stata:    17
+Tests:    36 run, 36 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v17.6.5_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026
+Started:  19:27:30
+Ended:    19:31:33
+Duration: 4m 3s
+Version:  17.7
+Build:    04Jan2026
+Stata:    17
+Tests:    36 run, 36 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v17.7_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026
+Started:  19:37:00
+Ended:    19:40:43
+Duration: 3m 43s
+Version:  17.7
+Build:    04Jan2026
+Stata:    17
+Tests:    36 run, 36 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v17.7_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026
+Started:  20:23:30
+Ended:    20:26:47
+Duration: 3m 17s
+Version:  17.7.1
+Build:    04Jan2026
+Stata:    17
+Tests:    36 run, 36 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v17.7.1_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026
+Started:  21:04:28
+Ended:    21:08:27
+Duration: 3m 59s
+Version:  17.7.1
+Build:    04Jan2026
+Stata:    17
+Tests:    44 run, 42 passed, 2 failed
+Result:   FAILED
+Failed:   TOPIC-01, DESC-01
+Log:      test_results_v17.7.1_4Jan2026.log
+======================================================================
+
+======================================================================
+Test Run:  4 Jan 2026
+Started:  21:12:38
+Ended:    21:19:17
+Duration: 6m 39s
+Version:  17.7.1
+Build:    04Jan2026
+Stata:    17
+Tests:    44 run, 44 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v17.7.1_4Jan2026.log
+======================================================================

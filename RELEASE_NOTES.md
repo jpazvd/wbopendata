@@ -1,5 +1,132 @@
 # Release Notes
 
+[← Back to README](README.md) | [Changelog](CHANGELOG.md) | [FAQ](doc/FAQ.md) | [Examples](doc/examples_gallery.md)
+
+---
+
+## wbopendata v17.7.1 — Test Suite Expansion & Documentation Overhaul
+
+**Release Date:** January 4, 2026
+
+---
+
+### 🎉 Highlights
+
+This release significantly expands the test suite to 44 tests across 9 categories and adds comprehensive documentation cross-references. The testing guide now includes a detailed philosophy section comparing wbopendata's integration testing approach with CRAN/PyPI offline testing patterns.
+
+### 🧪 Test Suite Expansion
+
+| Metric | v17.7 | v17.7.1 |
+|--------|-------|---------|
+| **Total Tests** | 36 | 44 |
+| **Test Categories** | 7 | 9 |
+| **New Categories** | - | TOPIC, LANG, Advanced |
+
+**New Tests Added:**
+- TOPIC-01: Topics API download validation
+- LANG-01: Language option (Spanish metadata)
+- PROJ-01: Projection data (source=40)
+- FMT-04: nobasic option verification
+- DESC-01: Describe-only mode
+- META-01: nometadata verification
+- CTRY-11: Admin regions (adminr option)
+- DATE-01: Date range option
+
+### 📚 Documentation Improvements
+
+- Added testing philosophy section to TESTING_GUIDE.md
+- Cross-referenced all critical documentation files
+- Updated version references across all docs
+- Enhanced changelog with v17.5–v17.7.1 entries
+
+---
+
+## wbopendata v17.7 — Basic Metadata by Default
+
+**Release Date:** January 2, 2026
+
+---
+
+### 🎉 Highlights
+
+This release adds **basic country context variables by default** to all downloads, providing immediate access to region, income level, and lending type information without requiring the `match()` option.
+
+### 📊 New Default Variables
+
+Every download now includes these 8 variables automatically:
+
+| Variable | Description |
+|----------|-------------|
+| `region` | Region code (e.g., "ECS", "LCN") |
+| `regionname` | Region name (e.g., "Europe & Central Asia") |
+| `adminregion` | Admin region code |
+| `adminregionname` | Admin region name |
+| `incomelevel` | Income level code (e.g., "HIC", "LMC") |
+| `incomelevelname` | Income level name |
+| `lendingtype` | Lending type code |
+| `lendingtypename` | Lending type name |
+
+### 🆕 New Options
+
+- **`nobasic`**: Suppress default country context variables for minimal downloads
+
+### Usage Examples
+
+```stata
+* Default: includes basic metadata
+wbopendata, indicator(NY.GDP.MKTP.CD) clear long
+desc  // Shows 12 variables including 8 basic metadata
+
+* Minimal: suppress basic metadata
+wbopendata, indicator(NY.GDP.MKTP.CD) clear long nobasic
+desc  // Shows only 4 core variables
+```
+
+---
+
+## wbopendata v17.6 — Graph Metadata Features
+
+**Release Date:** December 28, 2025
+
+---
+
+### 🎉 Highlights
+
+This release adds powerful **graph metadata features** for creating publication-ready visualizations with automatic text formatting and dynamic subtitles.
+
+### 🆕 New Options
+
+| Option | Description |
+|--------|-------------|
+| `linewrap()` | Wrap metadata text (name, description, note) |
+| `maxlength()` | Set maximum characters per line (default: 50) |
+| `linewrapformat()` | Output format: stack, newline, lines, all |
+
+### 📈 New Return Values
+
+| Return | Description |
+|--------|-------------|
+| `r(name#_stack)` | Wrapped indicator name for titles |
+| `r(description#_newline)` | Wrapped description with `\n` |
+| `r(latest)` | Dynamic subtitle string |
+| `r(latest_ncountries)` | Number of countries |
+| `r(latest_avgyear)` | Average year of data |
+| `r(sourcecite#)` | Clean organization name |
+
+### Usage Examples
+
+```stata
+* Graph with wrapped title and dynamic subtitle
+wbopendata, indicator(SP.DYN.LE00.IN) clear linewrap(name description) maxlength(50)
+twoway scatter ..., title("`r(name1_stack)'") subtitle("`r(latest)'")
+
+* Get text with newline characters for notes
+wbopendata, indicator(SP.DYN.LE00.IN) clear linewrap(description) linewrapformat(newline)
+local desc = r(description1_newline)
+```
+
+---
+
 ## wbopendata v17.1 — Documentation Overhaul & Community Bug Fixes
 
 **Release Date:** December 21, 2025
