@@ -88,28 +88,24 @@ Sections are presented under the following headings:
 {title:Description}
 {pstd}
 
-{p 4 4 2}{cmd:wbopendata} allows Stata users to download over 17,000 indicators from the World Bank databases, including: Development 
-Africa Development Indicators; Doing Business; Education Statistics; Enterprise Surveys; Global Development Finance; 
-Gender Statistics; Health Nutrition and Population Statistics; International Development Association - Results Measurement System; 
-Millennium Development Goals; World Development Indicators; Worldwide Governance Indicators; and LAC Equity Lab. These indicators include information 
-from over 256 countries and regions, since 1960.{p_end}
+{p 4 4 2}{cmd:wbopendata} provides Stata users with programmatic access to the World Bank's Open Data API, enabling scripted, reproducible downloads of over 29,000 indicators from 51 databases covering 296 countries and regions from 1960 to present.{p_end}
 
-{p 4 4 2}Users can chose from one of three of the {cmd:languages} supported by the database (and Stata), namely, English, Spanish, or French.{p_end}
+{p 4 4 2}The accessible databases include: World Development Indicators (WDI), Doing Business, Worldwide Governance Indicators, International Debt Statistics, Africa Development Indicators, Education Statistics, Enterprise Surveys, Gender Statistics, Health Nutrition and Population Statistics, Global Financial Inclusion (Findex), Poverty and Equity, Human Capital Index, Climate Change (CCDR), Sustainable Development Goals, and many more.{p_end}
 
-{p 4 4 2}Five possible downloads options are currently supported:{p_end}
+{p 4 4 2}Users can choose from one of three {cmd:languages} supported by the database (and Stata), namely, English, Spanish, or French.{p_end}
 
-{synopt:{opt country}} over 1,000 indicators for all selected years for a single country (WDI Catalogue).{p_end}
-{synopt:{opt topics}} WDI indicators within a specific topic, for all selected years and all countries (WDI Catalogue).{p_end}
-{synopt:{opt indicator}} all selected years for all countries for a single indicator (from any of the catalogues: 17,000+ series).{p_end}
-{synopt:{opt indicator and country}}  all selected years for selected countries for a single indicator (from any of the catalogues: 17,000+ series).{p_end}
-{synopt:{opt multiple indicator}} all selected years for selected indicators separated by ; (from any of the catalogues: 17,000+ series).{p_end}
+{p 4 4 2}Five possible download modes are currently supported:{p_end}
+
+{synopt:{opt country}} All WDI indicators for a single country across selected years.{p_end}
+{synopt:{opt topics}} All indicators within a thematic category (e.g., Education, Health) for all countries.{p_end}
+{synopt:{opt indicator}} A single indicator for all countries and years (from any of the 51 databases: 29,000+ series).{p_end}
+{synopt:{opt indicator and country}} A single indicator for selected countries (from any of the 51 databases: 29,000+ series).{p_end}
+{synopt:{opt multiple indicator}} Multiple indicators separated by ; (from any of the 51 databases: 29,000+ series).{p_end}
 
 {p 4 4 2}Users can also choose to have the data displayed in either the {cmd:wide} or {cmd:long} format (wide is the default option).
-Note that the reshape is the local machine, so it will require the appropriate amount of RAM to work properly.{p_end}
+Note that the reshape is done on the local machine, so it will require the appropriate amount of RAM to work properly.{p_end}
 
-{p 4 4 2}{cmd:wbopendata} draws from the main  World Bank collections of development indicators, compiled from
-officially-recognized international sources. It presents the most current and accurate global development
-data available, and includes national, regional and global estimates.{p_end}
+{p 4 4 2}{cmd:wbopendata} retrieves data directly from the World Bank API (JSON over HTTP), ensuring transparency and provenance. All data reflect officially-recognized international sources compiled by the World Bank, presenting the most current and accurate global development data available, including national, regional and global estimates.{p_end}
 
 {p 4 4 2}The access to this databases is made possible by the {it:World Bank's Open Data Initiative} which provide 
 open full access to {browse "http://data.worldbank.org/" : World Bank databases}.{p_end}
@@ -122,9 +118,9 @@ open full access to {browse "http://data.worldbank.org/" : World Bank databases}
 {dlgtab: Parameters}
 
 {synopt:{opt country(string)}}{help wbopendata##countries:Countries and Regions Abbreviations and acronyms}. If solely specified, this option
-will return all the WDI indicators (1,076 series) for a single country or region (no multiple country selection allowed in 
+will return all the WDI indicators for a single country or region (no multiple country selection allowed in 
 this case). If this option is selected jointly with a specific indicator, the output is a series for a specific 
-country or region, or multiple countries or region. When selecting multiple countries please use the three letters code, separated by 
+country or region, or multiple countries or regions. When selecting multiple countries please use the three letters code, separated by 
 a semicolon (;), with no spaces.{p_end}
 
 {synopt:{opt topics(numlist)}}{help wbopendata##topics:Topic List} 21 topic lists are curently supported and include Agriculture & Rural Development; 

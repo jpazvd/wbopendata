@@ -5,40 +5,50 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub issues](https://img.shields.io/github/issues/jpazvd/wbopendata)](https://github.com/jpazvd/wbopendata/issues)
 
+> 📚 **[Complete Documentation](doc/README.md)** | [Examples](doc/user-guide/examples_gallery.md) | [FAQ](doc/user-guide/FAQ.md) | `help wbopendata` in Stata
+
 ## Description
 
 ### 📊 At a Glance
 
 | | |
 |---|---|
-| **20,000+** | Indicators available |
+| **29,000+** | Indicators available |
 | **51** | Data sources |
 | **21** | Topic categories |
 | **296** | Countries & regions |
+| **17** | Country attributes |
 | **1960–present** | Time coverage |
 | **3** | Languages (EN, ES, FR) |
 
 ---
 
-wbopendata allows Stata users to download over **20,000 indicators** from **51 World Bank databases**, including: World Development Indicators; Global Financial Inclusion (Findex); Education Statistics; Enterprise Surveys; Gender Statistics; Health Nutrition and Population Statistics; Global Jobs Indicators (JOIN); Human Capital Index; Climate Change (CCDR); Sustainable Development Goals; and many more.
+`wbopendata` provides Stata users with programmatic access to the World Bank's Open Data API, enabling scripted, reproducible downloads of over **29,000 indicators** from **51 databases** covering **296 countries and regions** from **1960 to present**.
 
-These indicators cover **296 countries and regions**, with data spanning from **1960 to present**.
+The accessible databases include: World Development Indicators (WDI), Doing Business, Worldwide Governance Indicators, International Debt Statistics, Africa Development Indicators, Education Statistics, Enterprise Surveys, Gender Statistics, Health Nutrition and Population Statistics, Global Financial Inclusion (Findex), Poverty and Equity, Human Capital Index, Climate Change (CCDR), Sustainable Development Goals, and many more.
 
-Users can choose from one of three languages supported by the database (and Stata): English, Spanish, or French.
+**Five download modes** are supported:
 
-Five possible downloads options are currently supported:
+- **country**: All WDI indicators for a single country across selected years
+- **topics**: All indicators within a thematic category (e.g., Education, Health) for all countries
+- **indicator**: A single indicator for all countries and years
+- **indicator + country**: A single indicator for selected countries
+- **multiple indicators**: Multiple indicators (separated by `;`) for all or selected countries
 
-- country: over 2,500 indicators for all selected years for a single country (WDI Catalogue).
-- topics: WDI indicators within a specific topic, for all selected years and all countries (WDI Catalogue).
-- indicator: all selected years for all countries for a single indicator (from any of the catalogues: 17,000+ series).
-- indicator and country: all selected years for selected countries for a single indicator (from any of the catalogues: 17,000+ series).
-- multiple indicator: all selected years for selected indicators separated by ; (from any of the catalogues: 17,000+ series).
+**Output formats:**
+- **Wide format** (default): Year-specific columns (`yr1960`, `yr1961`, etc.)
+- **Long format**: One row per country-year observation
 
-Users can also choose to have the data displayed in either the wide or long format (wide is the default option).  Note that the reshape is the local machine, so it will require the appropriate amount of RAM to work properly.
+**Key features:**
+- **Multilingual metadata**: English, Spanish, or French
+- **Country attributes**: 17 fields including region, income level, lending type, geographic coordinates
+- **Latest data**: `latest` option returns most recent non-missing values per country
+- **Graph-ready metadata**: `linewrap()` option formats long text for publication-quality graphs
+- **Reproducibility**: Every query is scripted, parameterized, and version-controlled
 
-wbopendata draws from the main World Bank collections of development indicators, compiled from officially-recognized international sources. It presents the most current and accurate global development data available, and includes national, regional and global estimates.
+Data are retrieved directly from the World Bank API (JSON over HTTP), ensuring transparency and provenance. All data reflect officially-recognized international sources compiled by the World Bank.
 
-The access to this databases is made possible by the World Bank's Open Data Initiative which provide open full access to [World Bank databases](http://data.worldbank.org/).
+The access to these databases is made possible by the World Bank's [Open Data Initiative](http://data.worldbank.org/).
 
 ## Installation
 
@@ -111,19 +121,31 @@ wbopendata, indicator(NY.GDP.MKTP.CD) clear long nobasic
 desc  // Shows only 4 core variables
 ```
 
-## Documentation
+---
+
+## 📚 Documentation
+
+**→ [Browse Complete Documentation](doc/README.md)** — Start here for guides, examples, and reference materials
+
+### Quick Links
 
 | Document | Description |
 |----------|-------------|
-| **[FAQ](doc/FAQ.md)** | Frequently asked questions and troubleshooting |
-| **[Examples Gallery](doc/examples_gallery.md)** | Code snippets with embedded figures |
-| **[Do File Examples](doc/examples/)** | Runnable Stata code files |
-| **[Help File](doc/wbopendata.md)** | Full documentation with code output |
-| **[Test Protocol](qa/test_protocol.md)** | Testing checklist for contributors |
-| **[Testing Guide](qa/TESTING_GUIDE.md)** | Testing best practices and philosophy |
-| **[Changelog](CHANGELOG.md)** | Version history and changes |
-| **[Release Notes](RELEASE_NOTES.md)** | Detailed release notes |
-| **[Improvement Plan](doc/plans/IMPROVEMENT_PLAN.md)** | Future development roadmap |
+| **[Documentation Hub](doc/README.md)** | 🏠 Central navigation for all documentation |
+| **[FAQ](doc/user-guide/FAQ.md)** | ❓ Frequently asked questions and troubleshooting |
+| **[Examples Gallery](doc/user-guide/examples_gallery.md)** | 📊 Code snippets with embedded figures |
+| **[Do File Examples](doc/user-guide/examples/)** | 💻 Runnable Stata code files |
+| **[Help File](doc/wbopendata.md)** | 📖 Full documentation with code output |
+| **[Roadmap](doc/roadmap/ROADMAP.md)** | 🗺️ Future development plans and priorities |
+
+### For Contributors
+
+| Document | Description |
+|----------|-------------|
+| **[Test Protocol](qa/test_protocol.md)** | ✓ Testing checklist for contributors |
+| **[Testing Guide](qa/TESTING_GUIDE.md)** | 📋 Testing best practices and philosophy |
+| **[Changelog](CHANGELOG.md)** | 📝 Version history and changes |
+| **[Release Notes](RELEASE_NOTES.md)** | 🎉 Detailed release notes |
 
 > 💡 **Tip:** In Stata, type `help wbopendata` for built-in documentation.
 
@@ -187,11 +209,11 @@ You can contribute by **opening an issue or submitting a pull request** on this 
 
 ## Examples
 
-**[📊 Examples Gallery](doc/examples_gallery.md)** - Visual guide with code snippets and output figures
+**[📊 Examples Gallery](doc/user-guide/examples_gallery.md)** - Visual guide with code snippets and output figures
 
-**[Basic Usage Examples](doc/examples/basic_usage.do)** - Getting started with wbopendata
+**[Basic Usage Examples](doc/user-guide/examples/basic_usage.do)** - Getting started with wbopendata
 
-**[Advanced Usage Examples](doc/examples/advanced_usage.do)** - Panel data, visualizations, and more
+**[Advanced Usage Examples](doc/user-guide/examples/advanced_usage.do)** - Panel data, visualizations, and more
 
 **[Examples of code and output](doc/wbopendata.md)**
 

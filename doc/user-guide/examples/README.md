@@ -1,6 +1,6 @@
 # wbopendata Examples
 
-[← Back to README](../../README.md) | [Examples Gallery](../examples_gallery.md) | [FAQ](../FAQ.md)
+[← Back to README](../../../README.md) | [Examples Gallery](../examples_gallery.md) | [FAQ](../FAQ.md)
 
 ---
 
@@ -54,7 +54,7 @@ The [advanced_usage.do](advanced_usage.do) file covers:
 
 ```stata
 * Navigate to the examples directory
-cd "path/to/wbopendata/doc/examples"
+cd "path/to/wbopendata/doc/user-guide/examples"
 
 * Run basic examples
 do basic_usage.do
@@ -80,8 +80,8 @@ Pre-generated log files from running the examples are available in the [output/]
 ## Related Documentation
 
 - [FAQ](../FAQ.md) - Troubleshooting common issues
-- [Full Help File](../wbopendata.md) - Complete documentation
-- [Test Protocol](../../qa/test_protocol.md) - Testing checklist
+- [Full Help File](../../../doc/wbopendata.md) - Complete documentation
+- [Test Protocol](../../../qa/test_protocol.md) - Testing checklist
 
 ---
 
