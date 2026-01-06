@@ -15,7 +15,7 @@ High-resolution PNG graphs generated from example do-files.
 ## Regenerating
 
 ```stata
-cd "C:/GitHub/myados/wbopendata/doc/examples"
+cd "C:/GitHub/myados/wbopendata/doc/user-guide/examples"
 do "run_examples.do"
 ```
 

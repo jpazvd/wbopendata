@@ -1,20 +1,28 @@
 # wbopendata Roadmap
 
-[← Back to README](../../README.md) | [FAQ](../FAQ.md)
+[← Back to README](../../README.md) | [Doc Hub](../README.md) | [FAQ](../user-guide/FAQ.md) | [Examples](../user-guide/examples/)
 
 ---
 
 ## Overview
 
-This roadmap consolidates all improvement plans and enhancement ideas for `wbopendata`. It reflects the current state after v17.4 release and prioritizes features based on user impact and implementation effort.
+This roadmap consolidates all improvement plans and enhancement ideas for `wbopendata`. It reflects the current state after v17.7 release and prioritizes features based on user impact and implementation effort.
 
-**Last Updated:** December 23, 2025  
-**Current Version:** v17.4  
+**Last Updated:** January 6, 2026  
+**Current Version:** v17.7.1  
 **Reference Implementations:** unicefData, yaml.ado, stataci
 
 ---
 
 ## ✅ Completed in v17.x
+
+### v17.7 (January 2026)
+- [x] Documentation reorganization with user-guide/, reference/, roadmap/ structure
+- [x] Comprehensive doc/README.md navigation hub
+- [x] Consolidated examples in single location with assets
+- [x] Updated all internal documentation links
+- [x] Basic metadata (`region`, `income`, etc.) included by default
+- [x] `nobasic` option to suppress default metadata variables
 
 ### v17.4 (December 2025)
 - [x] `linewrap()` option with `maxlength()` for graph-ready metadata
@@ -203,6 +211,19 @@ src/
     ├── _query_metadata.ado     # Metadata parsing
     ├── _linewrap.ado           # Text wrapping
     └── _wbopendata_*.yaml      # Metadata files
+
+doc/
+├── README.md                   # Navigation hub
+├── wbopendata.md              # Complete help
+├── user-guide/
+│   ├── examples_gallery.md    # Visual guide
+│   ├── FAQ.md                 # Troubleshooting
+│   └── examples/              # Runnable code
+└── roadmap/
+    └── ROADMAP.md             # This file
+
+../.github/
+└── STATA_ADO_BEST_PRACTICES.md  # Workspace-wide standards
 ```
 
 ### Naming Conventions
@@ -228,7 +249,10 @@ return matrix data = ...
 
 | Document | Description |
 |----------|-------------|
-| [STATA_ADO_BEST_PRACTICES.md](STATA_ADO_BEST_PRACTICES.md) | Coding standards reference |
+| [Doc Hub](../README.md) | Central navigation for all documentation |
+| [STATA ADO Best Practices](../../../.github/STATA_ADO_BEST_PRACTICES.md) | Coding standards reference (workspace-wide) |
+| [Examples Gallery](../user-guide/examples_gallery.md) | Visual examples with code |
+| [FAQ](../user-guide/FAQ.md) | Troubleshooting guide |
 
 ---
 
@@ -238,4 +262,4 @@ See [Contributing Guidelines](../../CONTRIBUTING.md) for how to propose new feat
 
 ---
 
-*Last updated: December 23, 2025*
+*Last updated: January 6, 2026*
