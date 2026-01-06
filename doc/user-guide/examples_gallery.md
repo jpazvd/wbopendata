@@ -1,6 +1,6 @@
 # wbopendata Examples Gallery
 
-[← Back to README](../README.md) | [FAQ](FAQ.md) | [Do Files](examples/) | [Changelog](../CHANGELOG.md)
+[← Back to README](../../README.md) | [FAQ](FAQ.md) | [Do Files](examples/) | [Changelog](../../CHANGELOG.md)
 
 ---
 
