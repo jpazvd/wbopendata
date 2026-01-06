@@ -13,10 +13,10 @@ Start here to learn how to use wbopendata. Includes examples, FAQ, and step-by-s
 - **[Examples with Code](user-guide/examples/)** – Runnable Stata do-files (basic, advanced, and specialized examples)
 - **[FAQ](user-guide/FAQ.md)** – Troubleshooting and answers to common questions
 
-### [Reference](reference/)
-Technical documentation and best practices.
+### [Reference](../../.github/)
+Technical documentation and best practices (workspace-wide).
 
-- **[STATA ADO Best Practices](reference/STATA_ADO_BEST_PRACTICES.md)** – Coding standards and conventions for Stata ADO files
+- **[STATA ADO Best Practices](../../.github/STATA_ADO_BEST_PRACTICES.md)** – Coding standards and conventions for Stata ADO files
 
 ### [Roadmap](roadmap/)
 Future directions and planned enhancements.
@@ -42,10 +42,11 @@ doc/
 │       ├── examples_dyndoc.do
 │       ├── output/             # Generated logs and outputs
 │       └── assets/             # Supporting images and files
-├── reference/
-│   └── STATA_ADO_BEST_PRACTICES.md
 └── roadmap/
     └── ROADMAP.md
+
+../.github/
+└── STATA_ADO_BEST_PRACTICES.md  # Workspace-wide ADO standards
 ```
 
 ---
@@ -58,12 +59,12 @@ doc/
 3. **Run the [Basic Examples](user-guide/examples/basic_usage.do)** to learn by doing
 
 ### For Developers
-1. **Review [STATA ADO Best Practices](reference/STATA_ADO_BEST_PRACTICES.md)**
+1. **Review [STATA ADO Best Practices](../../.github/STATA_ADO_BEST_PRACTICES.md)**
 2. **Check the [Roadmap](roadmap/ROADMAP.md)** for development priorities
 3. **Consult [Complete Help](wbopendata.md)** for detailed API reference
 
 ### For Contributors
-1. **Read [STATA ADO Best Practices](reference/STATA_ADO_BEST_PRACTICES.md)**
+1. **Read [STATA ADO Best Practices](../../.github/STATA_ADO_BEST_PRACTICES.md)**
 2. **Review [Roadmap](roadmap/ROADMAP.md)** for known issues and planned features
 3. **Check [Testing Protocol](../qa/test_protocol.md)** for quality guidelines
 
@@ -76,7 +77,7 @@ doc/
 | [Complete Help](wbopendata.md) | Full API documentation and syntax reference |
 | [Examples](user-guide/examples/) | Executable Stata code for all use cases |
 | [FAQ](user-guide/FAQ.md) | Solutions to common problems |
-| [Best Practices](reference/STATA_ADO_BEST_PRACTICES.md) | Coding standards and design patterns |
+| [Best Practices](../../.github/STATA_ADO_BEST_PRACTICES.md) | Coding standards and design patterns (workspace-wide) |
 | [Roadmap](roadmap/ROADMAP.md) | Future features and development priorities |
 
 ---

@@ -219,10 +219,11 @@ doc/
 │   ├── examples_gallery.md    # Visual guide
 │   ├── FAQ.md                 # Troubleshooting
 │   └── examples/              # Runnable code
-├── reference/
-│   └── STATA_ADO_BEST_PRACTICES.md
 └── roadmap/
     └── ROADMAP.md             # This file
+
+../.github/
+└── STATA_ADO_BEST_PRACTICES.md  # Workspace-wide standards
 ```
 
 ### Naming Conventions
@@ -249,7 +250,7 @@ return matrix data = ...
 | Document | Description |
 |----------|-------------|
 | [Doc Hub](../README.md) | Central navigation for all documentation |
-| [STATA ADO Best Practices](../reference/STATA_ADO_BEST_PRACTICES.md) | Coding standards reference |
+| [STATA ADO Best Practices](../../../.github/STATA_ADO_BEST_PRACTICES.md) | Coding standards reference (workspace-wide) |
 | [Examples Gallery](../user-guide/examples_gallery.md) | Visual examples with code |
 | [FAQ](../user-guide/FAQ.md) | Troubleshooting guide |
 
