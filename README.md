@@ -115,15 +115,16 @@ desc  // Shows only 4 core variables
 
 | Document | Description |
 |----------|-------------|
-| **[FAQ](doc/FAQ.md)** | Frequently asked questions and troubleshooting |
-| **[Examples Gallery](doc/examples_gallery.md)** | Code snippets with embedded figures |
-| **[Do File Examples](doc/examples/)** | Runnable Stata code files |
+| **[Documentation Hub](doc/README.md)** | Central navigation for all documentation |
+| **[FAQ](doc/user-guide/FAQ.md)** | Frequently asked questions and troubleshooting |
+| **[Examples Gallery](doc/user-guide/examples_gallery.md)** | Code snippets with embedded figures |
+| **[Do File Examples](doc/user-guide/examples/)** | Runnable Stata code files |
 | **[Help File](doc/wbopendata.md)** | Full documentation with code output |
+| **[Roadmap](doc/roadmap/ROADMAP.md)** | Future development plans and priorities |
 | **[Test Protocol](qa/test_protocol.md)** | Testing checklist for contributors |
 | **[Testing Guide](qa/TESTING_GUIDE.md)** | Testing best practices and philosophy |
 | **[Changelog](CHANGELOG.md)** | Version history and changes |
 | **[Release Notes](RELEASE_NOTES.md)** | Detailed release notes |
-| **[Improvement Plan](doc/plans/IMPROVEMENT_PLAN.md)** | Future development roadmap |
 
 > 💡 **Tip:** In Stata, type `help wbopendata` for built-in documentation.
 
@@ -187,11 +188,11 @@ You can contribute by **opening an issue or submitting a pull request** on this 
 
 ## Examples
 
-**[📊 Examples Gallery](doc/examples_gallery.md)** - Visual guide with code snippets and output figures
+**[📊 Examples Gallery](doc/user-guide/examples_gallery.md)** - Visual guide with code snippets and output figures
 
-**[Basic Usage Examples](doc/examples/basic_usage.do)** - Getting started with wbopendata
+**[Basic Usage Examples](doc/user-guide/examples/basic_usage.do)** - Getting started with wbopendata
 
-**[Advanced Usage Examples](doc/examples/advanced_usage.do)** - Panel data, visualizations, and more
+**[Advanced Usage Examples](doc/user-guide/examples/advanced_usage.do)** - Panel data, visualizations, and more
 
 **[Examples of code and output](doc/wbopendata.md)**
 
