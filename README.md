@@ -5,6 +5,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub issues](https://img.shields.io/github/issues/jpazvd/wbopendata)](https://github.com/jpazvd/wbopendata/issues)
 
+> 📚 **[Complete Documentation](doc/README.md)** | [Examples](doc/user-guide/examples_gallery.md) | [FAQ](doc/user-guide/FAQ.md) | `help wbopendata` in Stata
+
 ## Description
 
 ### 📊 At a Glance
@@ -111,20 +113,31 @@ wbopendata, indicator(NY.GDP.MKTP.CD) clear long nobasic
 desc  // Shows only 4 core variables
 ```
 
-## Documentation
+---
+
+## 📚 Documentation
+
+**→ [Browse Complete Documentation](doc/README.md)** — Start here for guides, examples, and reference materials
+
+### Quick Links
 
 | Document | Description |
 |----------|-------------|
-| **[Documentation Hub](doc/README.md)** | Central navigation for all documentation |
-| **[FAQ](doc/user-guide/FAQ.md)** | Frequently asked questions and troubleshooting |
-| **[Examples Gallery](doc/user-guide/examples_gallery.md)** | Code snippets with embedded figures |
-| **[Do File Examples](doc/user-guide/examples/)** | Runnable Stata code files |
-| **[Help File](doc/wbopendata.md)** | Full documentation with code output |
-| **[Roadmap](doc/roadmap/ROADMAP.md)** | Future development plans and priorities |
-| **[Test Protocol](qa/test_protocol.md)** | Testing checklist for contributors |
-| **[Testing Guide](qa/TESTING_GUIDE.md)** | Testing best practices and philosophy |
-| **[Changelog](CHANGELOG.md)** | Version history and changes |
-| **[Release Notes](RELEASE_NOTES.md)** | Detailed release notes |
+| **[Documentation Hub](doc/README.md)** | 🏠 Central navigation for all documentation |
+| **[FAQ](doc/user-guide/FAQ.md)** | ❓ Frequently asked questions and troubleshooting |
+| **[Examples Gallery](doc/user-guide/examples_gallery.md)** | 📊 Code snippets with embedded figures |
+| **[Do File Examples](doc/user-guide/examples/)** | 💻 Runnable Stata code files |
+| **[Help File](doc/wbopendata.md)** | 📖 Full documentation with code output |
+| **[Roadmap](doc/roadmap/ROADMAP.md)** | 🗺️ Future development plans and priorities |
+
+### For Contributors
+
+| Document | Description |
+|----------|-------------|
+| **[Test Protocol](qa/test_protocol.md)** | ✓ Testing checklist for contributors |
+| **[Testing Guide](qa/TESTING_GUIDE.md)** | 📋 Testing best practices and philosophy |
+| **[Changelog](CHANGELOG.md)** | 📝 Version history and changes |
+| **[Release Notes](RELEASE_NOTES.md)** | 🎉 Detailed release notes |
 
 > 💡 **Tip:** In Stata, type `help wbopendata` for built-in documentation.
 
