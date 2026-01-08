@@ -85,7 +85,6 @@ _archive/
 !/paper/*.sty
 !/paper/*.cls
 !/paper/*.do
-!/paper/*.pdf
 !/paper/*.md
 !/paper/**/*.log.tex
 !/paper/**/*.do
@@ -97,6 +96,9 @@ _archive/
 !/paper/**/*.png
 !/paper/**/*.pdf
 !/paper/**/*.py
+
+# Ignore compiled manuscript PDFs (keep locally, don't track)
+paper/jpazvd_wbopendata*.pdf
 
 # Ignore LaTeX temporary files
 *.aux
