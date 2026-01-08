@@ -40,7 +40,7 @@ This article reflects on fifteen years of \texttt{wbopendata}, the first Stata c
 
 
 % =====================================================================
-\section{Introduction}
+\section{Introduction}\label{sec:intro}
 % =====================================================================
 
 In April 2010, the World Bank launched its Open Data Initiative \citep{worldbank2010opendata},
@@ -79,11 +79,12 @@ downstream does not come at the cost of unverifiable or opaque data upstream.
 
 The remainder of the article documents the current capabilities of \texttt{wbopendata},
 demonstrates reproducible analytical workflows, and reflects on lessons learned from fifteen
-years of sustained use. Section~2 introduces the design principles and scope of the command.
-Section~3 documents its syntax and stored results. Section~4 presents canonical workflows for
-reproducible analysis and visualization. Section~5 describes the technical implementation and
-test suite. Section~6 discusses broader implications for reproducibility in the context of
-AI-assisted research, and Section~7 concludes.
+years of sustained use. Section~\ref{sec:design} introduces the design principles and scope of the command.
+Section~\ref{sec:command} documents its syntax and stored results.
+Section~\ref{sec:workflows} presents canonical workflows for reproducible analysis and visualization.
+Section~\ref{sec:reliability} describes the technical implementation and test suite.
+Section~\ref{sec:discussion} discusses broader implications for reproducibility in the context of AI-assisted research,
+and Section~\ref{sec:conclusion} concludes.
 
 
 %===============================================================================
@@ -92,7 +93,7 @@ AI-assisted research, and Section~7 concludes.
 % If you insert as new Section 2, renumber subsequent sections accordingly.
 %===============================================================================
 
-\section{Design principles and scope}
+\section{Design principles and scope}\label{sec:design}
 The fifteen-year evolution of \texttt{wbopendata} reflects design choices shaped by
 sustained use in applied research environments rather than abstract software
 engineering goals. These choices respond to practical constraints common in work
@@ -220,7 +221,7 @@ preprocessing step—is a generalizable response to the reproducibility challeng
 facing empirical research with official statistics.
 
 % =====================================================================
-\section{The wbopendata command}
+\section{The wbopendata command}\label{sec:command}
 % =====================================================================
 
 The databases accessible through \texttt{wbopendata} include World Development Indicators (WDI), Doing Business, Worldwide Governance Indicators, International Debt Statistics, Africa Development Indicators, Education Statistics, Enterprise Surveys, Gender Statistics, Health Nutrition and Population Statistics, Global Financial Inclusion (Findex), Poverty and Equity, Human Capital Index, Sustainable Development Goals, and many more. Table~\ref{tab:coverage} summarizes the current scope.
@@ -392,7 +393,7 @@ Result & Type & Description \\
 These returns enable fully automated workflows: a script can download data, extract \texttt{r(name1\_stack)} for the graph title, \texttt{r(sourcecite1)} for the source note, and \texttt{r(latest)} for a coverage subtitle---all without hardcoding any metadata.
 
 % =====================================================================
-\section{Reproducible analytical workflows}
+\section{Reproducible analytical workflows}\label{sec:workflows}
 % =====================================================================
 
 This section presents three canonical workflows that illustrate how
@@ -403,7 +404,7 @@ metadata-driven annotation, and integration into larger analytical pipelines.
 Extended examples, alternative visualizations, and full console output are
 reported in the appendices.
 
-\subsection{Scripted data acquisition and data shape}
+\subsection{Scripted data acquisition and data shape}\label{sec:workflow-data}
 
 The most fundamental workflow enabled by \texttt{wbopendata} is the scripted
 retrieval of development indicators with explicit control over data shape.
@@ -428,7 +429,7 @@ acquisition, \texttt{wbopendata} ensures that downstream analysis remains
 transparent and reproducible. Full metadata output associated with this query
 is reported in Appendix~A.
 
-\subsection{Metadata-driven visualization}
+\subsection{Metadata-driven visualization}\label{sec:workflow-meta}
 
 A second canonical workflow demonstrates how metadata retrieved programmatically
 can be used directly to produce publication-ready visualizations. The
@@ -445,7 +446,7 @@ wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) ///
 \end{verbatim}
 
 The command stores formatted strings in \texttt{r()} that can be passed directly
-to Stata’s graphing commands. Figure~1 illustrates this workflow by constructing
+to Stata’s graphing commands. \ref{fig:linewrap} illustrates this workflow by constructing
 a scatter plot of poverty headcount ratios against under-five mortality rates,
 with axis titles, definitions, and source notes populated automatically from
 the returned metadata.
@@ -458,11 +459,11 @@ observation year---that can be displayed transparently in figure subtitles.
 Alternative formatting options and full metadata returns are documented in
 Appendix~A.
 
-\subsection{Integration into analytical pipelines}
+\subsection{Integration into analytical pipelines}\label{sec:workflow-pipeline}
 
 Beyond single-command use, \texttt{wbopendata} is designed to function as
 infrastructure within larger analytical pipelines. A prominent example is the
-World Bank’s Learning Poverty project, which computes global and regional
+World Bank’s Learning Poverty project \citep{worldbank2019learningpoverty}, which computes global and regional
 estimates of the share of children unable to read and understand a short text by
 age ten.
 
@@ -482,18 +483,29 @@ revised. Additional pipeline examples and related visualizations are provided in
 Appendix~A.
 
 % =====================================================================
-\section{Technical implementation}
+\section{Technical implementation and reliability}\label{sec:reliability}
 % =====================================================================
 
-\subsubsection*{Installation}
+This section documents the technical implementation of \texttt{wbopendata} and
+the mechanisms used to ensure reliability over time. The focus is deliberately
+operational: how the command is installed, how it interacts with upstream data
+infrastructure, and how stability is maintained as external APIs evolve.
 
-The recommended installation method is from SSC:
+\subsection{Installation}
+
+The recommended installation method is via the Statistical Software Components
+(SSC) archive:
+
 \begin{stlog}
 \begin{verbatim}
 . ssc install wbopendata, replace
 \end{verbatim}
 \end{stlog}
-For the latest development version with graph metadata features:
+
+For users who require the latest development version, including recently added
+metadata-handling features, the package can be installed directly from the
+public repository:
+
 \begin{stlog}
 \begin{verbatim}
 . net install wbopendata, ///
@@ -501,13 +513,35 @@ For the latest development version with graph metadata features:
 \end{verbatim}
 \end{stlog}
 
-\subsubsection*{Architecture}
+Both methods rely exclusively on Stata’s native package management system and
+require no external dependencies.
 
-The command is written entirely in Stata's ado-file language and relies on the World Bank API's REST endpoints \citep{worldbank2024api}. Key implementation features include automatic pagination (the command retrieves all pages and assembles complete datasets), informative error handling (HTTP status codes surface diagnostics for missing indicators or connectivity issues), caching with hashed request parameters for deterministic reuse, and variable naming that normalizes indicator codes to legal Stata identifiers. String tokenization and metadata line-wrapping adapt community-contributed utilities \texttt{tknz} \citep{elliott2002tknz}, \texttt{linewrap} \citep{overazevedo2000linewrap}, and \texttt{\_pecats} \citep{longfreese2001pecats}.
+\subsection{Architecture}
 
-The implementation avoids third-party binaries, ensuring compatibility with institutional computing environments that restrict software installation. Users operating behind corporate proxies can configure Stata's HTTP proxy settings (\texttt{set httpproxy on}, etc.), which \texttt{wbopendata} respects for all API requests.
+\texttt{wbopendata} is implemented entirely in Stata’s ado-file language and
+communicates with the World Bank’s REST API endpoints \citep{worldbank2024api}.
+Key architectural features include automatic pagination (retrieval and assembly
+of multi-page API responses), deterministic caching using hashed request
+parameters, and systematic normalization of indicator codes into legal Stata
+variable names.
 
-\textbf{Country attributes.} When using the \texttt{full} option, \texttt{wbopendata} returns 17 country attributes that enable rich classification and merging. Table~\ref{tab:attributes} summarizes these variables.
+Metadata parsing and formatting build on established community utilities,
+including \texttt{tknz} \citep{elliott2002tknz}, \texttt{linewrap}
+\citep{overazevedo2000linewrap}, and \texttt{\_pecats}
+\citep{longfreese2001pecats}. These components support string tokenization,
+metadata wrapping, and category handling without introducing external binaries.
+
+The implementation avoids third-party executables, ensuring compatibility with
+institutional computing environments that restrict software installation.
+Network requests respect Stata’s proxy configuration options (e.g.,
+\texttt{set httpproxy on}), allowing the command to operate behind corporate
+firewalls.
+
+\subsection{Country attributes and classification}
+
+When invoked with the \texttt{full} option, \texttt{wbopendata} appends a set of
+17 country attributes that support classification, merging, and stratified
+analysis. Table~\ref{tab:attributes} summarizes these variables.
 
 \begin{table}[H]
 \centering
@@ -528,19 +562,27 @@ Variable & Description \\
 \end{tabular}
 \end{table}
 
-The \texttt{match(varname)} option merges these attributes into an existing dataset containing WDI country codes, enabling enrichment without separate data downloads.
+These attributes can also be merged into existing datasets using the
+\texttt{match(varname)} option, where \texttt{varname} contains World Bank
+country codes. This enables enrichment without repeated data downloads.
 
-\textbf{Filtering aggregates.} The \texttt{region} variable identifies whether an observation is a country or regional aggregate. Researchers can filter using \texttt{keep if region != "NA"} (individual countries only) or \texttt{keep if regionname == "Aggregates"} (aggregates only).
+Regional aggregates are identified explicitly via the \texttt{region} variable,
+allowing users to include or exclude aggregate observations using transparent
+filters (e.g., \texttt{keep if region != "NA"} for individual countries).
 
-% =====================================================================
-\section{Reproducibility, testing, and error handling}
-% =====================================================================
+\subsection{Testing and error handling}
 
-\texttt{wbopendata} ships with a live integration test harness designed to validate actual user workflows: indicator downloads, pagination, caching, option handling, and fixes for historical issues. The harness runs end-to-end against the live World Bank API, exercising the same code paths users encounter in practice.
+To ensure reliability, \texttt{wbopendata} ships with a live integration test
+harness that exercises the same workflows encountered by users in practice.
+Tests are executed end-to-end against the live World Bank API, covering
+indicator retrieval, pagination, caching behavior, option handling, and fixes
+for historical issues.
 
-Because Stata lacks the mature testing and CI infrastructure found in R and Python, we chose a self-contained live-API approach rather than mocked unit tests. This design prioritizes detection of upstream regressions---schema changes, pagination failures, and API shifts---that directly impact users.
-
-The test suite comprises 44 integrated tests distributed across 13 categories (Table~\ref{tab:test-coverage}). QA materials in \texttt{qa/} include the test driver (\texttt{run\_tests.do}), protocol documentation (\texttt{test\_protocol.md}, \texttt{TESTING\_GUIDE.md}), and timestamped result logs.
+Because Stata lacks the mature continuous integration and mocking frameworks
+available in other statistical environments, the test design prioritizes
+detection of upstream regressions such as schema changes, pagination failures,
+or API endpoint deprecations. The test suite comprises 44 integrated tests
+distributed across 13 categories, summarized in Table~\ref{tab:test-coverage}.
 
 \begin{table}[H]
 \centering
@@ -561,28 +603,40 @@ ADV & Advanced & 12 & Edge cases, error handling \\
 \end{tabular}
 \end{table}
 
-\textbf{Error handling.} When an indicator code is misspelled or does not exist, \texttt{wbopendata} returns an informative error message with guidance on verifying the indicator list, testing connectivity, and contacting support:
+When an indicator code is invalid or deprecated, \texttt{wbopendata} returns
+informative diagnostics that guide users toward corrective action. Verbatim
+examples of missing indicators, archived series, and update operations are
+reported in Appendix~B.
 
-\begin{stlog}
-\input{sjlogs/ex_indicator_missing.log.tex}\nullskip
-\end{stlog}
+\subsection{Metadata management}
 
-Some historical indicators have been moved to the World Bank Database Archives. When requesting a deprecated indicator such as \texttt{AG.AGR.TRAC.NO}, the command returns a deprecation notice with the archived source location:
+Local metadata caches are managed through the \texttt{update} options.
+\texttt{update query} reports the current vintage, \texttt{update check}
+compares local metadata against the remote repository, and \texttt{update all}
+refreshes cached definitions and country classifications.
 
-\begin{stlog}
-\input{sjlogs/ex_indicator_deprecated.log.tex}\nullskip
-\end{stlog}
+Regular metadata updates are particularly important when using the
+\texttt{match()} option, as income groups, regional classifications, and even
+country names may be revised over time. By making metadata management explicit,
+\texttt{wbopendata} reduces the risk of silently propagating outdated
+classifications into downstream analysis.
 
-\textbf{Keeping metadata current.} The \texttt{update} options manage the local metadata cache. Use \texttt{update query} to check the current vintage, \texttt{update check} to compare against the remote repository, and \texttt{update all} to refresh the local cache:
+In addition to country classifications and descriptive fields, the set of
+available indicator codes itself evolves over time. Indicators may be
+deprecated, archived, or reclassified as source databases are revised, merged,
+or retired, and metadata associated with existing series may be corrected or
+updated. \texttt{wbopendata} treats these changes as first-class events rather
+than silent failures. Deprecated indicators trigger explicit diagnostic
+messages that identify the archival location, while revised metadata is
+propagated through the local cache when updates are applied.
 
-\begin{stlog}
-\input{sjlogs/ex_update.log.tex}\nullskip
-\end{stlog}
-
-Regular metadata updates ensure that new indicators, revised country classifications, and corrected definitions are available locally. This is particularly important before using the \texttt{match()} option to merge country attributes, as stale metadata may contain outdated income or regional classifications or even country names.
+By making indicator availability and metadata revisions explicit, the command
+reduces the risk that analytical pipelines continue to rely unknowingly on
+obsolete series or outdated definitions. Verbatim examples illustrating
+deprecated indicators and metadata updates are reported in Appendix~B.
 
 % =====================================================================
-\section{Discussion: reproducibility and constraints in the age of AI}
+\section{Discussion: reproducibility and constraints in the age of AI}\label{sec:discussion}
 % =====================================================================
 
 Fifteen years after its initial release, \texttt{wbopendata} remains relevant not
@@ -596,7 +650,7 @@ workflows are increasingly mediated by AI-assisted tools.
 \subsection{Reproducibility beyond statistical methodology}
 
 The reproducibility crisis in the social sciences has been widely documented
-\citep{baker2016reproducibility,openscience2015}. Much of the resulting reform
+\citep{baker2016reproducibility,opensc2015estimating}. Much of the resulting reform
 agenda has focused on statistical practice: pre-registration, replication
 studies, robustness checks, and disclosure of code. While these efforts are
 essential, they address only part of the problem. In many empirical workflows,
@@ -675,7 +729,7 @@ automation, such constraint-based infrastructure will remain essential to
 maintaining credibility and trust.
 
 % =====================================================================
-\section{Conclusion}
+\section{Conclusion}\label{sec:conclusion}
 % =====================================================================
 
 Fifteen years after the World Bank Open Data Initiative transformed development statistics into a global public good, \texttt{wbopendata} continues to serve as essential infrastructure for reproducible research in Stata. The command provides seamless access to over 29{,}000 development indicators from 51 databases, handling API communication, pagination, caching, and metadata management within a single stable interface.
@@ -691,6 +745,7 @@ The command's pure-Stata implementation ensures compatibility with institutional
 The author thanks the World Bank Open Data Initiative for making development data freely accessible, and the many users who have contributed bug reports and feature suggestions through GitHub.
 
 \bibliographystyle{sj}
+\nocite{pisati2007spmap,clarke2012worldstat}
 \bibliography{wbopendata}
 
 \begin{aboutauthors}
@@ -711,10 +766,16 @@ The software repository (\url{https://github.com/jpazvd/wbopendata}) includes ex
 
 \appendix
 
+\renewcommand{\thesection}{\Alph{section}}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\renewcommand{\thefigure}{\thesection\arabic{figure}}
+\renewcommand{\thetable}{\thesection\arabic{table}}
+
 % =====================================================================
 % Appendix A: Extended examples and visualizations
 % =====================================================================
-\section{Extended examples and visualizations}
+\section{Extended examples and visualizations}\label{app:examples}
 
 This appendix provides extended examples, alternative visualizations, and
 verbatim output referenced in the main text. These materials are included to
@@ -807,21 +868,16 @@ the main text. These include alternative mappings, color schemes, and regional
 breakdowns. Where relevant, the corresponding console output and commands are
 provided verbatim.
 
-\subsubsection{Metadata-driven graph annotation (supporting Figure~1)}
+\subsubsection{Metadata-driven graph annotation (supporting Figure~\ref{fig:linewrap})}
 \begin{stlog}
 \input{sjlogs/ex_linewrap_graph.log.tex}\nullskip
 \end{stlog}
 
-% ---- Figure A1 -------------------------------------------------------
-\begin{figure}[H]\centering
-\refstepcounter{figure}\label{fig:A1}
-% OPTION 1: include the image directly (replace with your file path)
-% \includegraphics[width=0.95\textwidth]{figures/fig2_choropleth_mobile_subscriptions.pdf}
-% OPTION 2: if you have a .tex wrapper that includes the graphic, use \input instead:
-% \input{figures/figA1_choropleth_mobile_subscriptions.tex}
-\caption{(A1) Mobile cellular subscriptions per 100 people (latest available year).
-Choropleth map produced by merging \texttt{wbopendata} output with geographic shape data
-and visualizing using \texttt{spmap}.}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figs/wbopendata_linewrap_example.pdf}
+\caption{Poverty and child mortality scatter plot with automatic metadata annotation. Axis titles, definitions, and source citations are populated directly from \texttt{wbopendata}'s stored results using the \texttt{linewrap()} option.}
+\label{fig:linewrap}
 \end{figure}
 
 \subsubsection{Choropleth mapping example (verbatim output)}
@@ -829,28 +885,24 @@ and visualizing using \texttt{spmap}.}
 \input{sjlogs/ex_choropleth_map.log.tex}\nullskip
 \end{stlog}
 
-% ---- Figure A2 -------------------------------------------------------
-\begin{figure}[H]\centering
-\refstepcounter{figure}\label{fig:A2}
-% \includegraphics[width=0.95\textwidth]{figures/fig4_worldstat_africa_gdppc.pdf}
-% or: \input{figures/figA2_worldstat_africa.tex}
-\caption{(A2) GDP per capita (constant 2015 US\textdollar) in Africa (selected year), generated using
-\texttt{worldstat} (which calls \texttt{wbopendata} internally).}
-\end{figure}
-
-% ---- Figure A3 -------------------------------------------------------
-\begin{figure}[H]\centering
-\refstepcounter{figure}\label{fig:A3}
-% \includegraphics[width=0.95\textwidth]{figures/fig5_worldstat_world_fertility.pdf}
-% or: \input{figures/figA3_worldstat_world.tex}
-\caption{(A3) Fertility rate (births per woman) worldwide (selected year), generated using
-\texttt{worldstat} (which calls \texttt{wbopendata} internally).}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figs/wbopendata_example01.pdf}
+\caption{Mobile cellular subscriptions per 100 people (latest available year). Created by merging \texttt{wbopendata} output with geographic shape data and visualizing using the \texttt{spmap} command \citep{pisati2007spmap}.}
+\label{fig:map}
 \end{figure}
 
 \subsubsection{Alternative scatter plots (verbatim output)}
 \begin{stlog}
 \input{sjlogs/ex_scatter_poverty_gdp.log.tex}\nullskip
 \end{stlog}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figs/wbopendata_example04.pdf}
+\caption{Poverty headcount ratio versus GDP per capita (PPP, constant international \textdollar). Regional aggregates are labeled; lowess smoother shows the cross-country relationship.}
+\label{fig:scatter}
+\end{figure}
 
 % ---------------------------------------------------------------------
 % A.4 User-written extensions (worldstat logs)
@@ -865,10 +917,24 @@ This subsection documents examples using user-written commands that rely on
 \input{sjlogs/ex_worldstat_africa.log.tex}\nullskip
 \end{stlog}
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figs/wbopendata_worldstat_africa_gdp.pdf}
+\caption{GDP per capita (constant 2015 US\textdollar) in Africa, 2009. Generated using \texttt{worldstat} \citep{clarke2012worldstat}, which calls \texttt{wbopendata} internally.}
+\label{fig:worldstat_africa}
+\end{figure}
+
 \subsubsection{\texttt{worldstat}: global example (verbatim output)}
 \begin{stlog}
 \input{sjlogs/ex_worldstat_world.log.tex}\nullskip
 \end{stlog}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figs/wbopendata_worldstat_world_fertility.pdf}
+\caption{Fertility rate (births per woman) worldwide. The \texttt{worldstat} command uses \texttt{wbopendata} internally to retrieve World Bank indicators.}
+\label{fig:worldstat_fertility}
+\end{figure}
 
 \subsection{Notes on reproducibility}
 All examples in this appendix are fully reproducible using the version of
@@ -880,7 +946,7 @@ logic and can be identified by re-running the corresponding commands.
 % =====================================================================
 % Appendix B: Diagnostics and verbatim outputs
 % =====================================================================
-\section{Diagnostics and verbatim outputs}
+\section{Diagnostics and verbatim outputs}\label{app:diagnostics}
 
 \subsection{Missing indicator example}
 \begin{stlog}
@@ -897,6 +963,174 @@ logic and can be identified by re-running the corresponding commands.
 \input{sjlogs/ex_update.log.tex}\nullskip
 \end{stlog}
 
+% =====================================================================
+\section{Quality assurance, testing, and operational validation}\label{app:qa}
+% =====================================================================
+
+This appendix documents the quality assurance (QA) and testing framework used
+to maintain the reliability of \texttt{wbopendata} over time. These practices
+are a core component of the command’s reproducibility guarantees, ensuring that
+changes in upstream data infrastructure, metadata, and indicator availability
+are detected, diagnosed, and addressed explicitly.
+
+Unlike statistical reproducibility, which concerns the stability of estimates
+conditional on data, QA for data-access infrastructure must address a distinct
+set of risks: API schema changes, endpoint deprecations, evolving indicator
+vocabularies, pagination failures, and environment-specific constraints. The
+framework described here is designed to surface such issues under real-world
+operating conditions.
+
+\subsection{Testing philosophy: operational validation}
+
+The testing strategy for \texttt{wbopendata} is based on \emph{live integration
+tests} that exercise the command end-to-end against the World Bank Data API.
+Tests intentionally rely on live network access and real data downloads, rather
+than mocked responses or static fixtures.
+
+This approach differs from the release-gate testing paradigms used by CRAN or
+PyPI, where deterministic, offline tests are required to certify software
+correctness in sandboxed environments. In contrast, \texttt{wbopendata} operates
+in trusted, interactive Stata environments where network access is both
+available and essential. Because the core functionality of the command is to
+retrieve and process live data, operational validation against the actual API
+is the most informative way to assess reliability.
+
+Under this paradigm, test failures do not necessarily imply software defects.
+They may reflect upstream API outages, schema changes, or metadata revisions.
+The objective of the test suite is therefore not to freeze outputs, but to make
+such changes explicit and diagnosable.
+
+\subsection{Test harness structure}
+
+Automated tests are implemented in a single driver script,
+\texttt{run\_tests.do}, which supports full test runs, single-test execution,
+and verbose (trace) modes. Tests are organized into functional categories that
+correspond to core features of the command, including environment checks,
+download modes, output formatting, country metadata, graph metadata, update
+commands, language options, and advanced features.
+
+Each test follows a standardized pattern:
+\begin{itemize}
+  \item explicit execution of the command under test,
+  \item immediate inspection of return codes,
+  \item verification of expected variables, structures, or scalars,
+  \item informative pass/fail messages tied to specific failure modes.
+\end{itemize}
+
+Helper routines manage test execution, result aggregation, and logging, ensuring
+that failures are attributed to specific test identifiers. A complete test run
+produces a timestamped log and updates a cumulative test history file.
+
+\subsection{Regression testing and cumulative reliability}
+
+A key feature of the QA framework is the systematic treatment of historical
+bugs as permanent regression tests. Issues such as failures in multi-indicator
+queries, metadata parsing errors, incorrect handling of deprecated indicators,
+or option incompatibilities are encoded as named test cases (e.g., \texttt{REG-33},
+\texttt{REG-45}, \texttt{REG-46}, \texttt{REG-51}).
+
+This approach ensures that fixes are not transient. Once a bug is resolved, the
+corresponding test remains in the suite and must pass in all subsequent runs.
+As a result, reliability is cumulative rather than episodic.
+
+The longitudinal test history recorded in \texttt{test\_history.txt} documents
+this process explicitly: early versions show multiple failures as new features
+were introduced and edge cases identified, followed by successive reductions in
+failures as fixes were applied, culminating in fully passing test runs for
+recent releases. This history provides an auditable record of stabilization over
+time rather than a single-point snapshot.
+
+\subsection{Diagnostics and failure modes}
+
+Tests are designed to capture and report informative diagnostics rather than
+binary outcomes. When a test fails, logs record the API endpoint accessed, the
+parameters supplied, and the return codes or error messages produced. This
+information is essential for distinguishing between upstream changes and genuine
+software regressions.
+
+Illustrative examples of user-facing diagnostics—including missing indicators,
+deprecated series, and metadata update behavior—are reported in Appendix~B.
+Appendix~B documents \emph{what users see}, while the present appendix documents
+\emph{how those behaviors are systematically validated}.
+
+\subsection{Indicator lifecycle and metadata evolution}
+
+The QA framework explicitly accounts for the fact that the set of available
+indicator codes and their associated metadata evolve over time. Indicators may
+be deprecated, archived, or reclassified as source databases are revised, and
+metadata fields may be corrected or expanded.
+
+Tests covering update commands (\texttt{update query}, \texttt{update check},
+\texttt{update all}) verify that such changes are detected and propagated through
+the local cache. Deprecated indicators are expected to trigger informative
+diagnostics rather than silent failures. By treating indicator lifecycle events
+as testable behavior, the framework reduces the risk that analytical pipelines
+continue to rely unknowingly on obsolete series or outdated definitions.
+
+\subsection{Reproducibility of the QA process}
+
+All QA artifacts—including test scripts, protocols, logs, and cumulative test
+histories—are version-controlled alongside the source code. This allows the QA
+process itself to be reproduced, inspected, and audited.
+
+Because tests depend on live API responses, exact outputs may change as upstream
+data are revised. Such changes are treated as expected signals when they reflect
+documented updates. The purpose of the QA framework is therefore not to enforce
+static results, but to ensure that change is explicit, traceable, and consistent
+with upstream revisions.
+
+\subsection{Continuous validation under ecosystem constraints}
+
+Although \texttt{wbopendata} is developed within the Stata ecosystem, which
+lacks the automated release-gate infrastructure common to CRAN or PyPI, its QA
+framework implements the functional equivalent of continuous integration and
+continuous validation. Automated test execution, regression protection, and
+versioned test histories ensure that each code change is evaluated against both
+current functionality and historically fixed issues.
+
+In this setting, continuous validation is achieved not through centralized
+CI/CD services, but through reproducible test scripts that can be executed
+consistently by developers prior to release. Each test run produces a
+timestamped log and updates a cumulative history, creating an auditable trail
+of stability across versions. This approach aligns with institutional
+constraints—such as the need for live API access and trusted execution
+environments—while preserving the core objective of CI/CD practices: early
+detection of regressions and disciplined release management.
+
+By adapting CI/CD principles to the realities of statistical software
+distribution, \texttt{wbopendata} demonstrates that rigorous quality assurance
+is achievable even in environments without formal automation pipelines.
+
+\subsection{Illustrative QA artifacts}
+
+To support transparency, selected excerpts from the automated test harness and
+logs are included below. These excerpts illustrate the structure of the testing
+framework and the form of diagnostics produced during execution.
+
+\subsubsection{Test harness initialization (excerpt)}
+\begin{stlog}
+\input{sjlogs/run_tests_excerpt.log.tex}\nullskip
+\end{stlog}
+
+\subsubsection{Summary of a complete test run (excerpt)}
+\begin{stlog}
+\input{sjlogs/run_tests_summary_excerpt.log.tex}\nullskip
+\end{stlog}
+
+\subsection{Implications for reproducible analytics}
+
+The QA practices documented here reinforce the paper’s central argument that
+reproducibility depends not only on statistical methods, but also on the
+reliability of data-access infrastructure. By embedding operational validation,
+regression testing, and explicit diagnostics into the development lifecycle,
+\texttt{wbopendata} ensures that scripted data acquisition remains a stable and
+auditable foundation for empirical analysis, even as upstream data systems
+evolve.
+
+In this sense, quality assurance is not an ancillary engineering concern, but a
+core component of reproducible analytics. It provides the enforcement mechanism
+through which principles such as data acquisition as code and explicit data
+provenance are sustained in practice.
 
 
 \end{document}
