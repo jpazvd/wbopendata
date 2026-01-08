@@ -577,5 +577,13 @@ di as text "  - Example 7 (ex_worldstat_integration): wbopendata with worldstat 
 di as text "  - Example 12 (wbopendata_example01.pdf): Choropleth map from help file example01"
 di as text "  - Example 13 (wbopendata_example04.pdf): Scatter plot from help file example04"
 
+di as text _n "Running log cleaners (do-file and Python)..."
+
+* Run the Stata cleaning pass (safe/idempotent)
+cap do scripts/clean_logs.do "`logs_dir'"
+
+* Run the Python cleaner to produce .log.tex variants (if Python available)
+capture shell python scripts/clean_logs.py
+
 di as text _n "Done!"
 exit
