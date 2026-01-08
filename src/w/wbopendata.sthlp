@@ -88,7 +88,9 @@ Sections are presented under the following headings:
 {title:Description}
 {pstd}
 
-{p 4 4 2}{cmd:wbopendata} provides Stata users with programmatic access to the World Bank's Open Data API, enabling scripted, reproducible downloads of over 29,000 indicators from 51 databases covering 296 countries and regions from 1960 to present.{p_end}
+{p 4 4 2}{cmd:wbopendata} provides Stata users with programmatic access to the World Bank's Open Data API, enabling scripted, reproducible downloads of over 29,000 indicators from 51 databases covering 296 countries and regions from 1960 to present. First released in February 2011, one year after the World Bank Open Data Initiative, {cmd:wbopendata} has maintained backward compatibility across fifteen years of API changes while adding features for metadata inspection, multilingual support, and publication-ready output formatting.{p_end}
+
+{p 4 4 2}The command exemplifies data acquisition as code: indicator selections, country lists, time ranges, and filters are explicitly parameterized in analysis scripts rather than buried in manual downloads, ensuring that data provenance is explicit and enabling analyses to be reproduced exactly or systematically updated as new data become available.{p_end}
 
 {p 4 4 2}The accessible databases include: World Development Indicators (WDI), Doing Business, Worldwide Governance Indicators, International Debt Statistics, Africa Development Indicators, Education Statistics, Enterprise Surveys, Gender Statistics, Health Nutrition and Population Statistics, Global Financial Inclusion (Findex), Poverty and Equity, Human Capital Index, Climate Change (CCDR), Sustainable Development Goals, and many more.{p_end}
 
@@ -519,15 +521,19 @@ where multiple quoted strings stack vertically: {cmd:"line1" "line2" "line3"}.{p
 
 {pstd}{ul:{bf:Example: Using stored results}}{p_end}
 
-{p 4 4 2}Extract metadata for automated figure annotation:{p_end}
+{p 4 4 2}Extract metadata for automated figure annotation. This workflow demonstrates how {cmd:wbopendata} enables fully automated pipelines: the script downloads data, extracts wrapped metadata for the title, and uses the latest-year subtitle---all without hardcoding any text:{p_end}
 
 {cmd}
-.     wbopendata, indicator(SI.POV.DDAY) clear long latest linewrap(name)
+.     wbopendata, indicator(SI.POV.DDAY) clear long latest linewrap(name note)
 .     return list
+.     local title `r(name1_stack)'
 .     local subtitle "`r(latest)'"
+.     local source "Source: `r(sourcecite1)'"
 .     twoway line si_pov_dday year if countrycode == "BRA", ///
-          title(`r(name1_stack)') subtitle("`subtitle'")
+          title(`title') subtitle("`subtitle'") note("`source'")
 {txt}
+
+{p 4 4 2}See {help return} for details on accessing stored results.{p_end}
 
 
 {marker Examples}{...}
@@ -754,10 +760,12 @@ The terms of use of the APIs is governed by {browse "http://go.worldbank.org/C09
 {title:Thanks for citing {cmd:wbopendata} as follows}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
 
-{p 8 12 2}Azevedo, J.P. (2011) "wbopendata: Stata module to access World Bank databases," Statistical Software Components S457234, Boston College Department of 
-Economics.{browse "http://ideas.repec.org/c/boc/bocode/s457234.html"}{p_end}
+{p 8 12 2}Azevedo, Jo\~{a}o Pedro (2011). "WBOPENDATA: Stata module to access World Bank databases." Statistical Software Components S457234, Boston College Department of Economics. {browse "https://ideas.repec.org/c/boc/bocode/s457234.html"}.{p_end}
 
-{p 8 12 2}Please make reference to the date when the database was downloaded, as indicator values and availabiltiy may change.{p_end}
+{p 8 12 2}For version 17.7.1+ with graph metadata features:{p_end}
+{p 8 12 2}Azevedo, Jo\~{a}o Pedro (2026). "wbopendata: Fifteen Years of Programmatic Access to World Bank Open Data." Stata Journal (forthcoming).{p_end}
+
+{p 8 12 2}Please make reference to the date when the database was downloaded, as indicator values and availability may change.{p_end}
 
 
 {marker references}{...}
@@ -789,7 +797,10 @@ S426302, Boston College Department of Economics, revised 17 Oct 2006.{p_end}
        
 {title:Author}
 
-    {p 4 4 2}Joao Pedro Azevedo (jazevedo@worldbank.org){p_end}
+    {p 4 4 2}Jo\~{a}o Pedro Azevedo{p_end}
+    {p 4 4 2}Deputy Director and Chief Statistician{p_end}
+    {p 4 4 2}UNICEF, Division of Data, Analytics, Planning and Monitoring{p_end}
+    {p 4 4 2}{browse "https://jpazvd.github.io"}{p_end}
 
 {title:GitHub Respository}
 
