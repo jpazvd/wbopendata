@@ -34,7 +34,7 @@
     Variable |        Obs        Mean    Std. dev.       Min        Max
 -------------+---------------------------------------------------------
         year |        262    2022.584    2.400234       2004       2024
-. local avg = string(, "%16.1f")
+. local avg = string({\textless}avg{\textgreater}, "%16.1f")
 . spmap it_cel_sets_p2 using "C:/Users/jpazevedo/ado/plus/w/world-c.dta", id(_ID) ///
       clnumber(20) fcolor(Reds2) ocolor(none ..) ///
       title("Mobile cellular subscriptions (per 100 people)", size(*1.2)) ///
