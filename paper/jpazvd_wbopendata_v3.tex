@@ -43,16 +43,48 @@ This article reflects on fifteen years of \texttt{wbopendata}, the first Stata c
 \section{Introduction}
 % =====================================================================
 
+In April 2010, the World Bank launched its Open Data Initiative \citep{worldbank2010opendata},
+transforming decades of development statistics into a freely accessible global public good.
+By coupling an open data portal with a programmatic Application Programming Interface (API),
+the initiative reframed official statistics from downloadable artifacts into queryable services.
+This shift altered not only how data are disseminated, but how empirical research can be
+conducted.
 
-In April 2010, the World Bank launched its Open Data Initiative \citep{worldbank2010opendata}, transforming decades of development statistics into a freely accessible global public good. By coupling an open data portal with a programmatic Application Programming Interface (API), the initiative reframed official statistics from downloadable artifacts into queryable services. This shift altered not only how data are disseminated, but how empirical research can be conducted.
+Within less than a year, \texttt{wbopendata} \citep{azevedo2011wbopendata} was released as a
+Stata command translating this new API into a domain-specific interface for applied researchers.
+Over the subsequent fifteen years, both the World Bank’s data infrastructure and
+\texttt{wbopendata} evolved substantially: the number of databases expanded, legacy endpoints
+were retired, metadata standards matured, and new requirements emerged around multilingual
+documentation, versioning, and reproducibility. Throughout these changes, \texttt{wbopendata}
+maintained backward compatibility while embedding increasingly sophisticated mechanisms for
+scripted data access, metadata management, and automated documentation.
 
-Within less than a year, \texttt{wbopendata} \citep{azevedo2011wbopendata} was released as a Stata command translating this new API into a domain-specific interface for applied researchers. Over the subsequent fifteen years, both the World Bank’s data infrastructure and \texttt{wbopendata} evolved substantially: the number of databases expanded, legacy endpoints were retired, metadata standards matured, and new requirements emerged around multilingual documentation, versioning, and reproducibility. Throughout these changes, \texttt{wbopendata} maintained backward compatibility while embedding increasingly sophisticated mechanisms for scripted data access, metadata management, and automated documentation.
+This article advances three claims. First, a substantial share of the reproducibility crisis in
+the social sciences stems not from statistical methodology, but from opaque data acquisition
+practices. Manual downloads, undocumented filters, and ad hoc preprocessing sever the link
+between published results and their underlying data sources. Second, treating data acquisition
+as code—where indicator selection, country coverage, and time ranges are explicit,
+parameterized, and executable—offers a practical response to this problem. \texttt{wbopendata}
+operationalizes this principle by making data provenance an integral component of the analytical
+script rather than an external narrative. Third, in an era of rapidly expanding AI-assisted
+research, such constraints are becoming more, not less, important. As generative tools lower the
+cost of producing plausible analyses and narratives, anchoring empirical work to authoritative
+and verifiable data sources becomes essential infrastructure for scientific credibility.
 
-This article makes three claims. First, a significant share of the reproducibility crisis in the social sciences stems not from statistical methodology, but from opaque data acquisition practices. Manual downloads, undocumented filters, and ad hoc preprocessing sever the link between published results and their underlying data sources. Second, treating data acquisition as code—where indicator selection, country coverage, and time ranges are explicit, parameterized, and executable—offers a practical solution to this problem. \texttt{wbopendata} operationalizes this principle by making data provenance an integral part of the analytical script rather than an external narrative. Third, in an era of rapidly expanding AI-assisted research, such constraints are becoming more, not less, important. As generative tools lower the cost of producing plausible analyses and narratives, anchoring empirical work to authoritative, verifiable data sources becomes essential infrastructure for scientific credibility.
+Against this backdrop, \texttt{wbopendata} is best understood not as a convenience tool, but as a
+constraint mechanism. By binding analysis to a single authoritative API and exposing all data
+selection decisions as executable code, it limits the space of admissible data inputs in ways
+that complement—but also discipline—AI-assisted workflows. The command ensures that acceleration
+downstream does not come at the cost of unverifiable or opaque data upstream.
 
-Against this backdrop, \texttt{wbopendata} is best understood not as a convenience tool, but as a constraint mechanism. By binding analysis to a single authoritative API and exposing all data selection decisions as code, it limits the space of admissible inputs in ways that complement—but also discipline—AI-assisted workflows. The command ensures that acceleration downstream does not come at the cost of unverifiable data upstream.
+The remainder of the article documents the current capabilities of \texttt{wbopendata},
+demonstrates reproducible analytical workflows, and reflects on lessons learned from fifteen
+years of sustained use. Section~2 introduces the design principles and scope of the command.
+Section~3 documents its syntax and stored results. Section~4 presents canonical workflows for
+reproducible analysis and visualization. Section~5 describes the technical implementation and
+test suite. Section~6 discusses broader implications for reproducibility in the context of
+AI-assisted research, and Section~7 concludes.
 
-The remainder of the article documents the current capabilities of \texttt{wbopendata}, demonstrates reproducible analytical workflows, and reflects on lessons learned from fifteen years of sustained use. Section 2 introduces the design principles and scope of the command. Section 3 documents its syntax and stored results. Section 4 presents canonical workflows for reproducible analysis and visualization. Section 5 describes the technical implementation and test suite. Section 6 discusses broader implications for reproducibility and AI-assisted research, and Section 7 concludes.
 
 %===============================================================================
 % Section: Design Principles and Scope  (SJ style, ready to paste)
@@ -127,7 +159,7 @@ offer maximal flexibility, they also place the burden of correctness entirely on
 \texttt{wbopendata} trades some generality for a higher likelihood that queries correspond
 to interpretable, well-documented data products.
 
-\subsection{Scope, boundaries and diffusion}
+\subsection{Scope, boundaries, and diffusion}
 
 \subsubsection*{Scope and non-goals}
 Clarifying scope is essential to understanding the role of \texttt{wbopendata} in
@@ -149,7 +181,7 @@ stage of the empirical workflow---data acquisition---so that subsequent analysis
 conducted manually or assisted by automated tools, rests on verifiable and reproducible
 foundations.
 
-\subsubsection{Diffusion beyond \texttt{wbopendata}}
+\subsubsection*{Diffusion beyond \texttt{wbopendata}}
 The design principles outlined above are not unique to \texttt{wbopendata}. They
 reflect a broader pattern of tooling that has emerged within applied development
 research to address reproducibility, provenance, and scale. In particular, similar
@@ -161,11 +193,10 @@ infrastructure such as \texttt{datalib}, \texttt{datalib2}, and \texttt{datalibw
 which provide structured, version-controlled access to raw and harmonized household survey
 microdata. While differing substantially in scope and access restrictions from
 \texttt{wbopendata}, these tools apply the same core logic: data retrieval is scripted,
-parameterized, and embedded directly in analytical workflows.  This approach has
-enabled large-scale, reproducible analytical systems, including the Poverty and
-Inequality Platform (PIP) \citep{WorldBankPIP}, a publicly accessible global platform that disseminates
-official poverty and inequality estimates produced through transparent and
-replicable pipelines.
+parameterized, and embedded directly in analytical workflows. This approach has enabled large-scale, reproducible analytical systems, most notably
+the Poverty and Inequality Platform (PIP) \citep{WorldBankPIP}, a publicly accessible
+global platform that disseminates official poverty and inequality estimates produced
+through transparent and replicable pipelines.
 
 Outside the World Bank, related principles can be observed in user-written Stata
 tools such as \texttt{datazoom} \citep{datazoom2020}, which systematizes the preparation of Brazilian
@@ -361,148 +392,94 @@ Result & Type & Description \\
 These returns enable fully automated workflows: a script can download data, extract \texttt{r(name1\_stack)} for the graph title, \texttt{r(sourcecite1)} for the source note, and \texttt{r(latest)} for a coverage subtitle---all without hardcoding any metadata.
 
 % =====================================================================
-\section{Examples}
+\section{Reproducible analytical workflows}
 % =====================================================================
 
-\subsubsection*{Basic data retrieval}
+This section presents three canonical workflows that illustrate how
+\texttt{wbopendata} supports reproducible empirical research. Rather than
+exhaustively documenting every option, the workflows are selected to
+demonstrate the command’s core design principles: scripted data acquisition,
+metadata-driven annotation, and integration into larger analytical pipelines.
+Extended examples, alternative visualizations, and full console output are
+reported in the appendices.
 
-The core operation is downloading indicator data. These examples show the two fundamental output shapes: wide format (one row per country, year columns) and long format (one row per country-year).
+\subsection{Scripted data acquisition and data shape}
 
-\textbf{Basic data download.} The simplest use case retrieves a single indicator for all countries. By default, data are returned in wide format with year-specific columns (\texttt{yr1960}, \texttt{yr1961}, \ldots):
+The most fundamental workflow enabled by \texttt{wbopendata} is the scripted
+retrieval of development indicators with explicit control over data shape.
+The following command retrieves a single indicator for all countries and
+returns the data in long format:
 
-\begin{stlog}
-\input{sjlogs/ex_single_indicator.log.tex}\nullskip
-\end{stlog}
-
-Metadata---indicator name, definition, source, and topic---appears automatically, following the SDMX standard (ISO 17369:2013) that ensures consistent definitions across international statistical organizations.
-
-\textbf{Multiple indicators in long format.} The \texttt{long} option reshapes data to one row per country-year---the preferred structure for most Stata routines including \texttt{regress}, \texttt{tabulate}, \texttt{summarize} with \texttt{bysort}, and panel estimation commands. Multiple indicators can be requested by separating codes with semicolons:
-
-\begin{stlog}
-\input{sjlogs/ex_multiple_indicators.log.tex}\nullskip
-\end{stlog}
-
-\subsubsection*{Filtering and annotation}
-
-Once data are retrieved, several options refine outputs for specific purposes---filtering to the most recent observations or formatting metadata for publication-ready graphs.
-
-\textbf{Latest available data.} The \texttt{latest} option keeps only the most recent non-missing observation per country. When multiple indicators are requested, the algorithm retains only observations where \textit{all} indicators have non-missing values in the same year---prioritizing comparability over recency:
-
-\begin{stlog}
-\input{sjlogs/ex_latest_option.log.tex}\nullskip
-\end{stlog}
-
-The stored scalars \texttt{r(latest)}, \texttt{r(latest\_ncountries)}, and \texttt{r(latest\_avgyear)} enable automated construction of figure subtitles that transparently document coverage.
-
-\textbf{Publication-ready metadata.} The \texttt{linewrap()} option prepares metadata for graph titles and annotations. The command returns wrapped text in \texttt{r(name\#\_stack)}, \texttt{r(description\#\_stack)}, and source citations in \texttt{r(sourcecite\#)}:
-
-\begin{stlog}
-\input{sjlogs/ex_linewrap_returns.log.tex}\nullskip
-\end{stlog}
-
-These stored results can then be used directly in graph commands. Figure~\ref{fig:linewrap} demonstrates how the returned metadata populates axis titles, captions, and source notes:
-
-\begin{stlog}
-\input{sjlogs/ex_linewrap_graph.log.tex}\nullskip
-\end{stlog}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.85\textwidth]{figs/wbopendata_linewrap_example.pdf}
-\caption{Poverty and child mortality scatter plot with automatic metadata annotation. Axis titles, definitions, and source citations are populated directly from \texttt{wbopendata}'s stored results using the \texttt{linewrap()} option.}
-\label{fig:linewrap}
-\end{figure}
-
-\subsubsection*{Country attributes and mapping}
-
-The \texttt{full} option enriches data with 17 country attributes---regional classifications, income levels, and geographic coordinates---enabling merges, stratified analysis, and spatial visualization.
-
-\textbf{Country attributes.} The \texttt{full} option attaches all 17 country attributes---regional classifications, income levels, lending types, and geographic coordinates---enabling merges and mapping without separate lookup steps:
-
-\begin{stlog}
 \begin{verbatim}
-. wbopendata, indicator(NY.GDP.MKTP.CD) country(BRA) clear full
+wbopendata, indicator(NY.GDP.MKTP.CD) long clear
 \end{verbatim}
-\end{stlog}
 
-\noindent Table~\ref{tab:full} shows the country attributes returned for Brazil:
+This single line constitutes a complete, executable specification of data
+provenance. The indicator definition, source database, country coverage, and
+time dimension are all determined by the API query and documented through the
+command’s stored results. Unlike manual downloads, no implicit filtering or
+preprocessing occurs outside the script.
 
-\begin{table}[H]
-\centering
-\caption{Country attributes returned with \texttt{full} option}
-\label{tab:full}
-\small
-\begin{tabular}{llll}
-\hline
-\textbf{Category} & \textbf{Code} & \textbf{ISO2} & \textbf{Name} \\
-\hline
-Region & LCN & ZJ & Latin America and Caribbean \\
-Income Level & UMC & XT & Upper middle income \\
-Admin Region & LAC & XJ & LAC (excl.\ high income) \\
-Lending Type & IBD & XF & IBRD \\
-\hline
-\multicolumn{4}{l}{\textit{Geographic}: Capital: Brasilia, Lat: $-$15.78, Long: $-$47.93} \\
-\hline
-\end{tabular}
-\end{table}
+The choice between wide and long formats is not cosmetic. Long format aligns
+naturally with Stata’s panel data commands, regression routines, and
+\texttt{bysort} operations, while wide format may be preferable for descriptive
+or tabular summaries. By making this choice explicit at the point of data
+acquisition, \texttt{wbopendata} ensures that downstream analysis remains
+transparent and reproducible. Full metadata output associated with this query
+is reported in Appendix~A.
 
-\textbf{Choropleth mapping.} Figure~\ref{fig:map} demonstrates how \texttt{wbopendata} combines with \texttt{spmap} for geographic visualization. The workflow downloads indicator data, merges with shape file coordinates, and renders a choropleth map:
+\subsection{Metadata-driven visualization}
 
-\begin{stlog}
-\input{sjlogs/ex_choropleth_map.log.tex}\nullskip
-\end{stlog}
+A second canonical workflow demonstrates how metadata retrieved programmatically
+can be used directly to produce publication-ready visualizations. The
+\texttt{latest} and \texttt{linewrap()} options enable the command to return
+machine-readable metadata suitable for graph titles, captions, and source
+annotations.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.85\textwidth]{figs/wbopendata_example01.pdf}
-\caption{Mobile cellular subscriptions per 100 people (latest available year). Created by merging \texttt{wbopendata} output with geographic shape data and visualizing using the \texttt{spmap} command \citep{pisati2007spmap}.}
-\label{fig:map}
-\end{figure}
+The example below retrieves two indicators, retains the most recent comparable
+observation for each country, and prepares wrapped metadata for use in figures:
 
-\textbf{Multi-indicator scatter plot.} Figure~\ref{fig:scatter} shows a scatter plot of poverty headcount ratios against GDP per capita, demonstrating multi-indicator downloads with a lowess smoother and labeled regional aggregates:
+\begin{verbatim}
+wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) ///
+    long latest linewrap(name description note)
+\end{verbatim}
 
-\begin{stlog}
-\input{sjlogs/ex_scatter_poverty_gdp.log.tex}\nullskip
-\end{stlog}
+The command stores formatted strings in \texttt{r()} that can be passed directly
+to Stata’s graphing commands. Figure~1 illustrates this workflow by constructing
+a scatter plot of poverty headcount ratios against under-five mortality rates,
+with axis titles, definitions, and source notes populated automatically from
+the returned metadata.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.85\textwidth]{figs/wbopendata_example04.pdf}
-\caption{Poverty headcount ratio versus GDP per capita (PPP, constant international \$). Regional aggregates are labeled; lowess smoother shows the cross-country relationship.}
-\label{fig:scatter}
-\end{figure}
+By treating metadata as structured output rather than narrative text,
+\texttt{wbopendata} reduces transcription errors and ensures consistency between
+data and documentation. In particular, the \texttt{latest} option records
+coverage diagnostics---including the number of countries and the average
+observation year---that can be displayed transparently in figure subtitles.
+Alternative formatting options and full metadata returns are documented in
+Appendix~A.
 
-\subsubsection*{User-written extensions}
+\subsection{Integration into analytical pipelines}
 
-The open architecture of \texttt{wbopendata} has enabled a small ecosystem of user-written extensions. One notable example is \texttt{worldstat} \citep{clarke2012worldstat}, which produces geographic and temporal visualizations of World Bank indicators with minimal user effort. The command retrieves shape files remotely and calls \texttt{wbopendata} internally to fetch indicator data.
+Beyond single-command use, \texttt{wbopendata} is designed to function as
+infrastructure within larger analytical pipelines. A prominent example is the
+World Bank’s Learning Poverty project, which computes global and regional
+estimates of the share of children unable to read and understand a short text by
+age ten.
 
-\textbf{Regional map.} Figure~\ref{fig:worldstat_africa} shows GDP per capita across Africa:
+In this pipeline, \texttt{wbopendata} is used to retrieve population weights,
+enrollment rates, and auxiliary indicators from the World Development Indicators
+database. These inputs are combined with harmonized learning assessment data in
+a fully scripted workflow released under an open-source license with multiple
+versioned releases. Because all external data dependencies are accessed
+programmatically, the resulting estimates can be independently replicated and
+systematically updated as new data become available.
 
-\begin{stlog}
-\input{sjlogs/ex_worldstat_africa.log.tex}\nullskip
-\end{stlog}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.85\textwidth]{figs/wbopendata_worldstat_africa_gdp.pdf}
-\caption{GDP per capita (constant 2015 US\$) in Africa, 2009. Generated using \texttt{worldstat}, which calls \texttt{wbopendata} internally.}
-\label{fig:worldstat_africa}
-\end{figure}
-
-\textbf{Global map.} Figure~\ref{fig:worldstat_fertility} displays global fertility rates with an alternative color scheme:
-
-\begin{stlog}
-\input{sjlogs/ex_worldstat_world.log.tex}\nullskip
-\end{stlog}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.85\textwidth]{figs/wbopendata_worldstat_world_fertility.pdf}
-\caption{Fertility rate (births per woman) worldwide. The \texttt{worldstat} command uses \texttt{wbopendata} internally to retrieve World Bank indicators.}
-\label{fig:worldstat_fertility}
-\end{figure}
-
-Beyond single-command wrappers, \texttt{wbopendata} serves as infrastructure for larger analytical pipelines. The World Bank's Learning Poverty repository \citep{worldbank2019learningpoverty} demonstrates this pattern: a fully reproducible Stata codebase that calculates global learning poverty indicators---the share of 10-year-olds unable to read and understand a short text---by combining harmonized learning assessment data with enrollment statistics. The pipeline uses \texttt{wbopendata} to retrieve population weights, enrollment rates, and other World Development Indicators needed to construct the composite measure. Released under an MIT license with 7 versioned releases (v1.0--v4.0), the repository exemplifies how programmatic data access enables transparent, auditable research workflows that can be independently replicated and extended.
+This use case illustrates how the design principles described in Section~2 scale
+beyond exploratory analysis. By constraining data acquisition to explicit,
+auditable commands, \texttt{wbopendata} enables complex, multi-step analytical
+systems to remain reproducible over time, even as underlying data sources are
+revised. Additional pipeline examples and related visualizations are provided in
+Appendix~A.
 
 % =====================================================================
 \section{Technical implementation}
@@ -656,66 +633,203 @@ The software repository (\url{https://github.com/jpazvd/wbopendata}) includes ex
 \end{aboutauthors}
 
 
-\begin{verbatim}
+
 % =====================================================================
-Appendix A: Extended Examples
+% Appendices (integrated): wrap ALL sjlogs \input{} within stlog blocks
+% Requirement: each sjlogs input must be between
+%   \begin{stlog}
+%   \input{...}\nullskip
+%   \end{stlog}
+% =====================================================================
 
-Move here:
+\appendix
 
-Multiple mapping examples (Africa, world, alternative color schemes)
+% =====================================================================
+% Appendix A: Extended examples and visualizations
+% =====================================================================
+\section{Extended examples and visualizations}
 
-worldstat walkthroughs with full console output
+This appendix provides extended examples, alternative visualizations, and
+verbatim output referenced in the main text. These materials are included to
+support full transparency and reproducibility while keeping the exposition in
+Section~4 focused on canonical analytical workflows.
 
-Repeated metadata printouts once pattern is established
+% ---------------------------------------------------------------------
+% A.1 Extended data retrieval examples
+% ---------------------------------------------------------------------
+\subsection{Extended data retrieval examples}
 
-Each appendix example should start with:
+This subsection reports additional data retrieval examples illustrating
+variations in indicator selection, output shape, and filtering options. These
+examples expand on the scripted data acquisition workflow described in
+Section~4.1.
 
-Purpose
+\subsubsection{Single-indicator retrieval (verbatim output)}
+\begin{stlog}
+\input{sjlogs/ex_single_indicator.log.tex}\nullskip
+\end{stlog}
 
-Command
+\subsubsection{Multiple-indicator queries (verbatim output)}
+The following example retrieves multiple indicators simultaneously and returns
+the data in long format:
+\begin{stlog}
+\input{sjlogs/ex_multiple_indicators.log.tex}\nullskip
+\end{stlog}
 
-What it demonstrates (1 sentence)
+This pattern is commonly used in multivariate analysis and panel regressions,
+where alignment across indicators and years is required.
 
-Appendix B: Full Console Logs
+\subsubsection{Country- and topic-based queries}
+Additional examples demonstrate retrieval by country codes and topic identifiers,
+illustrating how \texttt{wbopendata} supports exploratory analysis and bulk downloads
+without manual file handling.
 
-Include:
-
-Long metadata blocks
-
-Error-handling outputs
-
-Update/query diagnostics
-
-Label clearly as verbatim output.
-
-Appendix C: Test Suite Details
-
-Include:
-
-Full list of 44 tests
-
-Example failure logs
-
-run_tests.do excerpts
-
-Main text keeps only the summary table.
-
-Appendix D: Reproducibility Checklist (optional but powerful)
-
-One-page checklist:
-
-Exact command
-
-API endpoint
-
-Indicator codes
-
-Date of retrieval
-
-Version of wbopendata
-
-This reinforces the “constraint” theme.
-
+\begin{verbatim}
+wbopendata, country(BRA; ARG; CHL) long clear
+wbopendata, topics(11) clear
 \end{verbatim}
+
+Full metadata output associated with these queries is reported in
+Appendix~A.2 and Appendix~A.3.
+
+% ---------------------------------------------------------------------
+% A.2 Extended metadata output
+% ---------------------------------------------------------------------
+\subsection{Extended metadata output}
+
+This subsection reports verbatim metadata returned by \texttt{wbopendata},
+including indicator names, definitions, sources, and topic classifications.
+These outputs correspond to examples discussed in Sections~4.1 and~4.2.
+
+\subsubsection{Indicator metadata (illustrative excerpt)}
+\begin{verbatim}
+Metadata for indicator SI.POV.DDAY
+------------------------------------------------------------
+Name: Poverty headcount ratio at $3.00 a day (2021 PPP)
+Description: ...
+Source: World Bank, Poverty and Inequality Platform
+Topic(s): Poverty
+------------------------------------------------------------
+\end{verbatim}
+
+Metadata is retrieved directly from the World Bank API and cached locally to
+ensure consistency across repeated queries.
+
+\subsubsection{Coverage diagnostics with \texttt{latest} (verbatim output)}
+The following output illustrates coverage diagnostics returned by the
+\texttt{latest} option, including the number of countries and the average
+observation year:
+\begin{stlog}
+\input{sjlogs/ex_latest_option.log.tex}\nullskip
+\end{stlog}
+
+\subsubsection{\texttt{linewrap()} stored results (verbatim output)}
+This output shows the wrapped metadata and stored results used for
+metadata-driven graph annotation:
+\begin{stlog}
+\input{sjlogs/ex_linewrap_returns.log.tex}\nullskip
+\end{stlog}
+
+% ---------------------------------------------------------------------
+% A.3 Extended visualizations (figures + supporting logs)
+% ---------------------------------------------------------------------
+\subsection{Extended visualizations}
+
+This subsection presents additional figures referenced but not reproduced in
+the main text. These include alternative mappings, color schemes, and regional
+breakdowns. Where relevant, the corresponding console output and commands are
+provided verbatim.
+
+\subsubsection{Metadata-driven graph annotation (supporting Figure~1)}
+\begin{stlog}
+\input{sjlogs/ex_linewrap_graph.log.tex}\nullskip
+\end{stlog}
+
+% ---- Figure A1 -------------------------------------------------------
+\begin{figure}[H]\centering
+\refstepcounter{figure}\label{fig:A1}
+% OPTION 1: include the image directly (replace with your file path)
+% \includegraphics[width=0.95\textwidth]{figures/fig2_choropleth_mobile_subscriptions.pdf}
+% OPTION 2: if you have a .tex wrapper that includes the graphic, use \input instead:
+% \input{figures/figA1_choropleth_mobile_subscriptions.tex}
+\caption{(A1) Mobile cellular subscriptions per 100 people (latest available year).
+Choropleth map produced by merging \texttt{wbopendata} output with geographic shape data
+and visualizing using \texttt{spmap}.}
+\end{figure}
+
+\subsubsection{Choropleth mapping example (verbatim output)}
+\begin{stlog}
+\input{sjlogs/ex_choropleth_map.log.tex}\nullskip
+\end{stlog}
+
+% ---- Figure A2 -------------------------------------------------------
+\begin{figure}[H]\centering
+\refstepcounter{figure}\label{fig:A2}
+% \includegraphics[width=0.95\textwidth]{figures/fig4_worldstat_africa_gdppc.pdf}
+% or: \input{figures/figA2_worldstat_africa.tex}
+\caption{(A2) GDP per capita (constant 2015 US\textdollar) in Africa (selected year), generated using
+\texttt{worldstat} (which calls \texttt{wbopendata} internally).}
+\end{figure}
+
+% ---- Figure A3 -------------------------------------------------------
+\begin{figure}[H]\centering
+\refstepcounter{figure}\label{fig:A3}
+% \includegraphics[width=0.95\textwidth]{figures/fig5_worldstat_world_fertility.pdf}
+% or: \input{figures/figA3_worldstat_world.tex}
+\caption{(A3) Fertility rate (births per woman) worldwide (selected year), generated using
+\texttt{worldstat} (which calls \texttt{wbopendata} internally).}
+\end{figure}
+
+\subsubsection{Alternative scatter plots (verbatim output)}
+\begin{stlog}
+\input{sjlogs/ex_scatter_poverty_gdp.log.tex}\nullskip
+\end{stlog}
+
+% ---------------------------------------------------------------------
+% A.4 User-written extensions (worldstat logs)
+% ---------------------------------------------------------------------
+\subsection{User-written extensions}
+
+This subsection documents examples using user-written commands that rely on
+\texttt{wbopendata} internally.
+
+\subsubsection{\texttt{worldstat}: Africa example (verbatim output)}
+\begin{stlog}
+\input{sjlogs/ex_worldstat_africa.log.tex}\nullskip
+\end{stlog}
+
+\subsubsection{\texttt{worldstat}: global example (verbatim output)}
+\begin{stlog}
+\input{sjlogs/ex_worldstat_world.log.tex}\nullskip
+\end{stlog}
+
+\subsection{Notes on reproducibility}
+All examples in this appendix are fully reproducible using the version of
+\texttt{wbopendata} documented in the main text. Because outputs depend on live
+API responses, results may differ over time as underlying data are revised.
+Such differences reflect upstream updates rather than changes in analytical
+logic and can be identified by re-running the corresponding commands.
+
+% =====================================================================
+% Appendix B: Diagnostics and verbatim outputs
+% =====================================================================
+\section{Diagnostics and verbatim outputs}
+
+\subsection{Missing indicator example}
+\begin{stlog}
+\input{sjlogs/ex_indicator_missing.log.tex}\nullskip
+\end{stlog}
+
+\subsection{Deprecated / archived indicator example}
+\begin{stlog}
+\input{sjlogs/ex_indicator_deprecated.log.tex}\nullskip
+\end{stlog}
+
+\subsection{Metadata cache update output}
+\begin{stlog}
+\input{sjlogs/ex_update.log.tex}\nullskip
+\end{stlog}
+
+
 
 \end{document}
