@@ -14,14 +14,22 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{fancyvrb}
+\usepackage[hidelinks]{hyperref}
 
 \fvset{fontsize=\fontsize{8}{9}\selectfont, xleftmargin=12pt}
+
+\newcommand{\floatnote}[2][\linewidth]{%
+  \par\smallskip
+  \begin{minipage}{#1}
+    \small\raggedright #2
+  \end{minipage}
+}
 
 \sjsetissue{$vv$}{$ii$}{$mm$}{$yyyy$}
 
 \inserttype[st0001]{article}
 
-\title[wbopendata: 15 Years of Open Development Data]{wbopendata: Fifteen Years of Programmatic Access to World Bank Open Data}
+\title[Data Provenance in the Age of Automation]{Data Provenance in the Age of Automation: Lessons from Fifteen Years of Programmatic Access to World Bank Open Data}
 
 \author{Jo\~{a}o Pedro Azevedo}{%
 Jo\~{a}o Pedro Azevedo\\
@@ -35,7 +43,7 @@ jpazvd.github.io%
 \begin{abstract}
 This article reflects on fifteen years of \texttt{wbopendata}, the first Stata command to provide programmatic access to an international development data repository. Today, \texttt{wbopendata} provides access to over 29{,}000 indicators from 51 databases spanning 296 countries and aggregates, with features including five download modes, multilingual metadata, and publication-ready graph formatting. Its broader contribution lies in treating data acquisition as code: indicator selections, country filters, and time ranges become explicit parameters in analysis scripts rather than undocumented manual downloads---addressing the data provenance dimension of the reproducibility crisis that statistical reforms alone cannot fix. Yet the command has never been more relevant. As AI tools accelerate analytical workflows while enabling plausible fabrication of statistics and citations, anchoring research to authoritative, version-controlled data sources becomes essential infrastructure---not legacy convenience. I document the command's latest syntax and stored results, demonstrate workflows from basic queries to choropleth mapping, and present a 44-scenario test suite. I also discuss risks that frictionless data access can obscure---provenance opacity, coverage gaps masked by convenient defaults, and sustainability pressures---alongside mitigation strategies. I distill three design principles from fifteen years of sustained use: backward compatibility builds trust, domain-specific syntax lowers barriers, and scripted data access makes reproducibility the default rather than the exception.
 
-\keywords{Stata, Open Data, World Bank, API, reproducibility, WDI, development indicators}
+\keywords{Stata, Open Data, World Bank, APIs, reproducible research, development indicators, metadata}
 \end{abstract}
 
 
@@ -401,8 +409,9 @@ This section presents three canonical workflows that illustrate how
 exhaustively documenting every option, the workflows are selected to
 demonstrate the command’s core design principles: scripted data acquisition,
 metadata-driven annotation, and integration into larger analytical pipelines.
-Extended examples, alternative visualizations, and full console output are
-reported in the appendices.
+Extended examples and visualizations appear in Appendix~\ref{app:examples},
+with diagnostics and QA artifacts in Appendices~\ref{app:diagnostics}
+and~\ref{app:qa}.
 
 \subsection{Scripted data acquisition and data shape}\label{sec:workflow-data}
 
@@ -411,9 +420,10 @@ retrieval of development indicators with explicit control over data shape.
 The following command retrieves a single indicator for all countries and
 returns the data in long format:
 
-\begin{verbatim}
-wbopendata, indicator(NY.GDP.MKTP.CD) long clear
-\end{verbatim}
+\begin{stlog}
+. wbopendata, indicator(NY.GDP.MKTP.CD) long clear
+\nullskip
+\end{stlog}
 
 This single line constitutes a complete, executable specification of data
 provenance. The indicator definition, source database, country coverage, and
@@ -427,7 +437,7 @@ naturally with Stata’s panel data commands, regression routines, and
 or tabular summaries. By making this choice explicit at the point of data
 acquisition, \texttt{wbopendata} ensures that downstream analysis remains
 transparent and reproducible. Full metadata output associated with this query
-is reported in Appendix~A.
+is reported in Appendix~\ref{app:examples}.
 
 \subsection{Metadata-driven visualization}\label{sec:workflow-meta}
 
@@ -440,16 +450,29 @@ annotations.
 The example below retrieves two indicators, retains the most recent comparable
 observation for each country, and prepares wrapped metadata for use in figures:
 
-\begin{verbatim}
-wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) ///
+\begin{stlog}
+. wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) ///
     long latest linewrap(name description note)
-\end{verbatim}
+\nullskip
+\end{stlog}
 
 The command stores formatted strings in \texttt{r()} that can be passed directly
-to Stata’s graphing commands. \ref{fig:linewrap} illustrates this workflow by constructing
+to Stata’s graphing commands. Figure~\ref{fig:linewrap} illustrates this workflow by constructing
 a scatter plot of poverty headcount ratios against under-five mortality rates,
 with axis titles, definitions, and source notes populated automatically from
 the returned metadata.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figs/wbopendata_linewrap_example.pdf}
+\caption{Poverty and child mortality scatter plot with automatic metadata annotation. Axis titles, definitions, and source citations are populated directly from \texttt{wbopendata}'s stored results using the \texttt{linewrap()} option.}
+\label{fig:linewrap}
+
+\floatnote[0.85\linewidth]{%
+\emph{Note:} See Appendix~\ref{app:examples:viz:linewrap} for the script used to generate this figure.
+}
+\end{figure}
+
 
 By treating metadata as structured output rather than narrative text,
 \texttt{wbopendata} reduces transcription errors and ensures consistency between
@@ -457,7 +480,7 @@ data and documentation. In particular, the \texttt{latest} option records
 coverage diagnostics---including the number of countries and the average
 observation year---that can be displayed transparently in figure subtitles.
 Alternative formatting options and full metadata returns are documented in
-Appendix~A.
+Appendix~\ref{app:examples}.
 
 \subsection{Integration into analytical pipelines}\label{sec:workflow-pipeline}
 
@@ -475,12 +498,12 @@ versioned releases. Because all external data dependencies are accessed
 programmatically, the resulting estimates can be independently replicated and
 systematically updated as new data become available.
 
-This use case illustrates how the design principles described in Section~2 scale
+This use case illustrates how the design principles described in Section~\ref{sec:design} scale
 beyond exploratory analysis. By constraining data acquisition to explicit,
 auditable commands, \texttt{wbopendata} enables complex, multi-step analytical
 systems to remain reproducible over time, even as underlying data sources are
 revised. Additional pipeline examples and related visualizations are provided in
-Appendix~A.
+Appendix~\ref{app:examples}.
 
 % =====================================================================
 \section{Technical implementation and reliability}\label{sec:reliability}
@@ -497,9 +520,8 @@ The recommended installation method is via the Statistical Software Components
 (SSC) archive:
 
 \begin{stlog}
-\begin{verbatim}
 . ssc install wbopendata, replace
-\end{verbatim}
+\nullskip
 \end{stlog}
 
 For users who require the latest development version, including recently added
@@ -507,10 +529,9 @@ metadata-handling features, the package can be installed directly from the
 public repository:
 
 \begin{stlog}
-\begin{verbatim}
 . net install wbopendata, ///
-     from("https://raw.githubusercontent.com/jpazvd/wbopendata/main/src") replace
-\end{verbatim}
+  from("https://raw.githubusercontent.com/jpazvd/wbopendata/main/src") replace
+\nullskip
 \end{stlog}
 
 Both methods rely exclusively on Stata’s native package management system and
@@ -586,27 +607,32 @@ distributed across 13 categories, summarized in Table~\ref{tab:test-coverage}.
 
 \begin{table}[H]
 \centering
-\caption{Test suite composition (44 tests across 13 categories)}
+\caption{Test suite composition (44 tests across 7 categories)}
 \label{tab:test-coverage}
+
 \begin{tabular}{llrl}
 \hline
 Abbr. & Category & Tests & Focus \\
 \hline
-ENV & Environment & 2 & Network connectivity, API availability \\
-DL & Download modes & 8 & Indicator, country, topic, multi-indicator \\
-FMT & Output format & 5 & Wide, long, reshape, latest \\
-CTRY & Country options & 4 & basic, full, geo, iso \\
-LW & Linewrap & 6 & Metadata wrapping, formats \\
-REG & Regression & 7 & Historical bug fixes \\
-ADV & Advanced & 12 & Edge cases, error handling \\
+ENV  & Environment     & 2  & Network connectivity, API availability \\
+DL   & Download modes  & 8  & Indicator, country, topic, multi-indicator \\
+FMT  & Output format   & 5  & Wide, long, reshape, latest \\
+CTRY & Country options & 4  & Basic, full, geo, ISO \\
+LW   & Linewrap        & 6  & Metadata wrapping, formats \\
+REG  & Regression      & 7  & Historical bug fixes \\
+ADV  & Advanced        & 12 & Edge cases, error handling \\
 \hline
 \end{tabular}
+
+\floatnote{\emph{Note:} See Appendix~\ref{app:qa} for full test definitions and execution logic.}
+
 \end{table}
+
 
 When an indicator code is invalid or deprecated, \texttt{wbopendata} returns
 informative diagnostics that guide users toward corrective action. Verbatim
 examples of missing indicators, archived series, and update operations are
-reported in Appendix~B.
+reported in Appendix~\ref{app:diagnostics}.
 
 \subsection{Metadata management}
 
@@ -633,7 +659,7 @@ propagated through the local cache when updates are applied.
 By making indicator availability and metadata revisions explicit, the command
 reduces the risk that analytical pipelines continue to rely unknowingly on
 obsolete series or outdated definitions. Verbatim examples illustrating
-deprecated indicators and metadata updates are reported in Appendix~B.
+deprecated indicators and metadata updates are reported in Appendix~\ref{app:diagnostics}.
 
 % =====================================================================
 \section{Discussion: reproducibility and constraints in the age of AI}\label{sec:discussion}
@@ -641,7 +667,7 @@ deprecated indicators and metadata updates are reported in Appendix~B.
 
 Fifteen years after its initial release, \texttt{wbopendata} remains relevant not
 because of any single technical feature, but because of the methodological
-principles embedded in its design. As discussed in Section~2, these principles
+principles embedded in its design. As discussed in Section~\ref{sec:design}, these principles
 treat data acquisition as executable infrastructure rather than an informal
 preprocessing step. This section reflects on the implications of that design in
 the context of contemporary empirical research, particularly as analytical
@@ -685,7 +711,7 @@ automation operates on verifiable and well-documented sources. Acceleration is
 thereby decoupled from fabrication: analytical workflows can scale without
 relaxing standards of provenance.
 
-This role is consistent with the design principles outlined in Section~2.
+This role is consistent with the design principles outlined in Section~\ref{sec:design}.
 Backward compatibility preserves trust across time, domain-specific syntax
 reduces opportunities for error, and scripted data access makes provenance the
 default rather than an afterthought. Together, these features position
@@ -732,11 +758,41 @@ maintaining credibility and trust.
 \section{Conclusion}\label{sec:conclusion}
 % =====================================================================
 
-Fifteen years after the World Bank Open Data Initiative transformed development statistics into a global public good, \texttt{wbopendata} continues to serve as essential infrastructure for reproducible research in Stata. The command provides seamless access to over 29{,}000 development indicators from 51 databases, handling API communication, pagination, caching, and metadata management within a single stable interface.
+Fifteen years after the World Bank Open Data Initiative transformed development
+statistics into a global public good, \texttt{wbopendata} continues to function
+as core infrastructure for reproducible empirical research in Stata. The command
+provides stable, programmatic access to over 29{,}000 development indicators from
+51 databases, encapsulating API communication, pagination, caching, and metadata
+management within a single, backward-compatible interface.
 
-This longevity reflects deliberate design choices: maintaining backward compatibility across API changes, encapsulating complexity behind domain-specific parameters, and treating data acquisition as code rather than manual preprocessing. Version 17.7.1 extends this tradition with publication-quality metadata line-wrapping, default country-context attributes, and fixes for multi-indicator handling in the \texttt{latest} option.
+This longevity reflects deliberate design choices rather than technical inertia.
+By maintaining backward compatibility across upstream changes, encapsulating
+complexity behind domain-specific syntax, and treating data acquisition as code
+rather than manual preprocessing, \texttt{wbopendata} shifts reproducibility from
+an aspirational norm to a default behavior. Version~17.7.1 extends this approach
+with publication-ready metadata handling, default country-context attributes,
+and strengthened support for multi-indicator workflows.
 
-The command's pure-Stata implementation ensures compatibility with institutional computing environments, while the bundled live test suite provides confidence in cross-platform reliability. Yet \texttt{wbopendata}'s most important contribution may be methodological rather than technical: it demonstrates that programmatic data access---with explicit parameters, reproducible workflows, and verifiable provenance---can become routine practice without requiring researchers to become software engineers.
+The command’s pure-Stata implementation ensures compatibility with institutional
+computing environments, while the bundled live test suite and QA framework
+demonstrate how reliability can be sustained even when upstream data systems
+evolve. More broadly, the experience documented here illustrates that reproducible
+analytics depends not only on statistical methods, but on disciplined data-access
+infrastructure that makes provenance explicit, testable, and auditable.
+
+In the age of AI-assisted research, this constraint-based approach is increasingly
+important. As analytical workflows accelerate and the cost of producing plausible
+statistics and narratives falls, credibility hinges on limiting the space of
+admissible inputs to authoritative, verifiable sources. \texttt{wbopendata}
+illustrates how such constraints can be embedded directly into routine research
+practice—supporting scale and automation without relaxing standards of trust.
+
+While developed in Stata and applied to World Bank data, the principles distilled
+from fifteen years of use—scripted data acquisition, conservative evolution, and
+operational validation—are not tool-specific. They point toward a broader lesson
+for empirical research and open science: reproducibility is sustained not by
+documentation alone, but by infrastructure that enforces it upstream.
+
 
 % =====================================================================
 \section*{Acknowledgments}
@@ -755,42 +811,39 @@ The software repository (\url{https://github.com/jpazvd/wbopendata}) includes ex
 \end{aboutauthors}
 
 
-
 % =====================================================================
-% Appendices (integrated): wrap ALL sjlogs \input{} within stlog blocks
-% Requirement: each sjlogs input must be between
-%   \begin{stlog}
-%   \input{...}\nullskip
-%   \end{stlog}
+% Appendices: ALL sjlogs \input{} wrapped in stlog blocks
 % =====================================================================
 
 \appendix
-
+% Ensure appendix sections are lettered (A, B, C)
 \renewcommand{\thesection}{\Alph{section}}
+
+% Appendix figure/table numbering: A1, A2, ... / Table A1, A2, ...
 \setcounter{figure}{0}
 \setcounter{table}{0}
 \renewcommand{\thefigure}{\thesection\arabic{figure}}
 \renewcommand{\thetable}{\thesection\arabic{table}}
 
 % =====================================================================
-% Appendix A: Extended examples and visualizations
+% Appendix: Extended examples and visualizations
 % =====================================================================
 \section{Extended examples and visualizations}\label{app:examples}
 
 This appendix provides extended examples, alternative visualizations, and
 verbatim output referenced in the main text. These materials are included to
 support full transparency and reproducibility while keeping the exposition in
-Section~4 focused on canonical analytical workflows.
+Section~\ref{sec:workflows} focused on canonical analytical workflows.
 
 % ---------------------------------------------------------------------
 % A.1 Extended data retrieval examples
 % ---------------------------------------------------------------------
-\subsection{Extended data retrieval examples}
+\subsection{Extended data retrieval examples}\label{app:examples:data}
 
 This subsection reports additional data retrieval examples illustrating
 variations in indicator selection, output shape, and filtering options. These
 examples expand on the scripted data acquisition workflow described in
-Section~4.1.
+Section~\ref{sec:workflow-data}.
 
 \subsubsection{Single-indicator retrieval (verbatim output)}
 \begin{stlog}
@@ -818,16 +871,16 @@ wbopendata, topics(11) clear
 \end{verbatim}
 
 Full metadata output associated with these queries is reported in
-Appendix~A.2 and Appendix~A.3.
+Appendix~\ref{app:examples:metadata} and Appendix~\ref{app:examples:viz}.
 
 % ---------------------------------------------------------------------
 % A.2 Extended metadata output
 % ---------------------------------------------------------------------
-\subsection{Extended metadata output}
+\subsection{Extended metadata output}\label{app:examples:metadata}
 
 This subsection reports verbatim metadata returned by \texttt{wbopendata},
 including indicator names, definitions, sources, and topic classifications.
-These outputs correspond to examples discussed in Sections~4.1 and~4.2.
+These outputs correspond to examples discussed in Sections~\ref{sec:workflow-data} and~\ref{sec:workflow-meta}.
 
 \subsubsection{Indicator metadata (illustrative excerpt)}
 \begin{verbatim}
@@ -861,24 +914,17 @@ metadata-driven graph annotation:
 % ---------------------------------------------------------------------
 % A.3 Extended visualizations (figures + supporting logs)
 % ---------------------------------------------------------------------
-\subsection{Extended visualizations}
+\subsection{Extended visualizations}\label{app:examples:viz}
 
 This subsection presents additional figures referenced but not reproduced in
 the main text. These include alternative mappings, color schemes, and regional
 breakdowns. Where relevant, the corresponding console output and commands are
 provided verbatim.
 
-\subsubsection{Metadata-driven graph annotation (supporting Figure~\ref{fig:linewrap})}
+\subsubsection{Metadata-driven graph annotation (supporting Figure~\ref{fig:linewrap})}\label{app:examples:viz:linewrap} 
 \begin{stlog}
 \input{sjlogs/ex_linewrap_graph.log.tex}\nullskip
 \end{stlog}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.85\textwidth]{figs/wbopendata_linewrap_example.pdf}
-\caption{Poverty and child mortality scatter plot with automatic metadata annotation. Axis titles, definitions, and source citations are populated directly from \texttt{wbopendata}'s stored results using the \texttt{linewrap()} option.}
-\label{fig:linewrap}
-\end{figure}
 
 \subsubsection{Choropleth mapping example (verbatim output)}
 \begin{stlog}
@@ -907,7 +953,7 @@ provided verbatim.
 % ---------------------------------------------------------------------
 % A.4 User-written extensions (worldstat logs)
 % ---------------------------------------------------------------------
-\subsection{User-written extensions}
+\subsection{User-written extensions}\label{app:examples:extensions}
 
 This subsection documents examples using user-written commands that rely on
 \texttt{wbopendata} internally.
@@ -944,7 +990,7 @@ Such differences reflect upstream updates rather than changes in analytical
 logic and can be identified by re-running the corresponding commands.
 
 % =====================================================================
-% Appendix B: Diagnostics and verbatim outputs
+% Appendix: Diagnostics and verbatim outputs
 % =====================================================================
 \section{Diagnostics and verbatim outputs}\label{app:diagnostics}
 
@@ -1049,8 +1095,8 @@ information is essential for distinguishing between upstream changes and genuine
 software regressions.
 
 Illustrative examples of user-facing diagnostics—including missing indicators,
-deprecated series, and metadata update behavior—are reported in Appendix~B.
-Appendix~B documents \emph{what users see}, while the present appendix documents
+deprecated series, and metadata update behavior—are reported in Appendix~\ref{app:diagnostics}.
+Appendix~\ref{app:diagnostics} documents \emph{what users see}, while the present appendix documents
 \emph{how those behaviors are systematically validated}.
 
 \subsection{Indicator lifecycle and metadata evolution}
