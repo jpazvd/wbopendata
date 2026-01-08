@@ -1,0 +1,721 @@
+% =====================================================================
+% Stata Journal-style LaTeX manuscript for wbopendata
+% RESTRUCTURED VERSION following SJ conventions (fewer sections)
+% =====================================================================
+
+\documentclass[bib]{statapress}
+
+\usepackage[crop,newcenter,frame]{pagedims}
+\usepackage{sj_clean}
+\usepackage{stata}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{fancyvrb}
+
+\fvset{fontsize=\fontsize{8}{9}\selectfont, xleftmargin=12pt}
+
+\sjsetissue{$vv$}{$ii$}{$mm$}{$yyyy$}
+
+\inserttype[st0001]{article}
+
+\title[wbopendata: 15 Years of Open Development Data]{wbopendata: Fifteen Years of Programmatic Access to World Bank Open Data}
+
+\author{Jo\~{a}o Pedro Azevedo}{%
+Jo\~{a}o Pedro Azevedo\\
+jpazvd.github.io%
+}
+
+\begin{document}
+\maketitle
+
+% =====================================================================
+\begin{abstract}
+This article reflects on fifteen years of \texttt{wbopendata}, the first Stata command to provide programmatic access to an international development data repository. Today, \texttt{wbopendata} provides access to over 29{,}000 indicators from 51 databases spanning 296 countries and aggregates, with features including five download modes, multilingual metadata, and publication-ready graph formatting. Its broader contribution lies in treating data acquisition as code: indicator selections, country filters, and time ranges become explicit parameters in analysis scripts rather than undocumented manual downloads---addressing the data provenance dimension of the reproducibility crisis that statistical reforms alone cannot fix. Yet the command has never been more relevant. As AI tools accelerate analytical workflows while enabling plausible fabrication of statistics and citations, anchoring research to authoritative, version-controlled data sources becomes essential infrastructure---not legacy convenience. I document the command's latest syntax and stored results, demonstrate workflows from basic queries to choropleth mapping, and present a 44-scenario test suite. I also discuss risks that frictionless data access can obscure---provenance opacity, coverage gaps masked by convenient defaults, and sustainability pressures---alongside mitigation strategies. I distill three design principles from fifteen years of sustained use: backward compatibility builds trust, domain-specific syntax lowers barriers, and scripted data access makes reproducibility the default rather than the exception.
+
+\keywords{Stata, Open Data, World Bank, API, reproducibility, WDI, development indicators}
+\end{abstract}
+
+
+% =====================================================================
+\section{Introduction}
+% =====================================================================
+
+
+In April 2010, the World Bank launched its Open Data Initiative \citep{worldbank2010opendata}, transforming decades of development statistics into a freely accessible global public good. By coupling an open data portal with a programmatic Application Programming Interface (API), the initiative reframed official statistics from downloadable artifacts into queryable services. This shift altered not only how data are disseminated, but how empirical research can be conducted.
+
+Within less than a year, \texttt{wbopendata} \citep{azevedo2011wbopendata} was released as a Stata command translating this new API into a domain-specific interface for applied researchers. Over the subsequent fifteen years, both the World Bank’s data infrastructure and \texttt{wbopendata} evolved substantially: the number of databases expanded, legacy endpoints were retired, metadata standards matured, and new requirements emerged around multilingual documentation, versioning, and reproducibility. Throughout these changes, \texttt{wbopendata} maintained backward compatibility while embedding increasingly sophisticated mechanisms for scripted data access, metadata management, and automated documentation.
+
+This article makes three claims. First, a significant share of the reproducibility crisis in the social sciences stems not from statistical methodology, but from opaque data acquisition practices. Manual downloads, undocumented filters, and ad hoc preprocessing sever the link between published results and their underlying data sources. Second, treating data acquisition as code—where indicator selection, country coverage, and time ranges are explicit, parameterized, and executable—offers a practical solution to this problem. \texttt{wbopendata} operationalizes this principle by making data provenance an integral part of the analytical script rather than an external narrative. Third, in an era of rapidly expanding AI-assisted research, such constraints are becoming more, not less, important. As generative tools lower the cost of producing plausible analyses and narratives, anchoring empirical work to authoritative, verifiable data sources becomes essential infrastructure for scientific credibility.
+
+Against this backdrop, \texttt{wbopendata} is best understood not as a convenience tool, but as a constraint mechanism. By binding analysis to a single authoritative API and exposing all data selection decisions as code, it limits the space of admissible inputs in ways that complement—but also discipline—AI-assisted workflows. The command ensures that acceleration downstream does not come at the cost of unverifiable data upstream.
+
+The remainder of the article documents the current capabilities of \texttt{wbopendata}, demonstrates reproducible analytical workflows, and reflects on lessons learned from fifteen years of sustained use. Section 2 introduces the design principles and scope of the command. Section 3 documents its syntax and stored results. Section 4 presents canonical workflows for reproducible analysis and visualization. Section 5 describes the technical implementation and test suite. Section 6 discusses broader implications for reproducibility and AI-assisted research, and Section 7 concludes.
+
+%===============================================================================
+% Section: Design Principles and Scope  (SJ style, ready to paste)
+% Recommended placement: after Introduction, before "The wbopendata command"
+% If you insert as new Section 2, renumber subsequent sections accordingly.
+%===============================================================================
+
+\section{Design principles and scope}
+The fifteen-year evolution of \texttt{wbopendata} reflects design choices shaped by
+sustained use in applied research environments rather than abstract software
+engineering goals. These choices respond to practical constraints common in work
+with official statistics: heterogeneous upstream producers, revisions to published
+series, institutional computing restrictions, and the need to document provenance
+transparently. This section distills three design principles embedded in the command
+and clarifies its intended scope.
+
+\subsection{Data acquisition as code}
+The foundational principle of \texttt{wbopendata} is that data acquisition should be
+treated as part of the analytical codebase rather than as an external preparatory step.
+Indicator selection, country coverage, time ranges, and filters are expressed as explicit
+command parameters that can be executed, inspected, and version-controlled alongside
+the analysis itself.
+
+This approach contrasts with common workflows in which researchers manually download
+spreadsheets from web portals, rename files, apply undocumented filters, and import the
+results into statistical software. Such workflows often leave no complete record of how
+the analytical dataset was constructed, making replication difficult even when code and
+data files are shared. By encoding acquisition decisions directly in Stata syntax,
+\texttt{wbopendata} produces an executable specification of provenance: a command line
+documents what data were requested, from which source, and under what constraints.
+
+This principle does not guarantee identical data across time. Instead, it guarantees
+traceability. If upstream data are revised, the same command yields systematically
+updated results rather than silently diverging datasets. Reproducibility, in this sense,
+includes both exact replication (when sources are unchanged) and transparent updating
+(when new observations or revisions are introduced).
+
+\subsection{Backward compatibility as trust infrastructure}
+A second guiding principle is the prioritization of backward compatibility. Over the
+past decade, the World Bank API has undergone substantial changes, including endpoint
+deprecations, catalog restructuring, and metadata revisions. Throughout these transitions,
+\texttt{wbopendata} has aimed to preserve stable syntax and predictable behavior wherever
+possible.
+
+Backward compatibility serves a methodological function beyond user convenience.
+Researchers build analytical pipelines that may be rerun years after initial publication,
+often by different teams. When data access commands change semantics or fail without
+warning, reproducibility is compromised even if the original code is preserved. By
+absorbing API changes within the command's internal logic---rather than propagating them
+to the user interface---\texttt{wbopendata} reduces the risk that historical analyses become
+irreproducible due to infrastructure drift.
+
+This commitment imposes constraints. New features are introduced cautiously, defaults are
+chosen conservatively, and deprecated behavior is handled through informative diagnostics.
+The result is a command that evolves incrementally while maintaining continuity, fostering
+long-term trust among users who rely on it as part of production workflows.
+
+\subsection{Domain-specific syntax as error prevention}
+The third design principle is the use of domain-specific syntax tailored to applied
+development research. Rather than exposing users directly to HTTP requests, JSON parsing,
+pagination logic, or API schemas, \texttt{wbopendata} presents an interface organized around
+concepts familiar to its audience: indicators, countries, years, topics, and metadata.
+
+This choice is not merely ergonomic. By constraining user input to semantically meaningful
+parameters, the command reduces opportunities for error and misinterpretation. Indicator
+codes must be valid; country identifiers must conform to documented standards; time ranges
+are explicit. These constraints limit the space of admissible queries and make incorrect
+or ambiguous data requests easier to detect.
+
+In this sense, domain-specific syntax functions as a guardrail. While generic API clients
+offer maximal flexibility, they also place the burden of correctness entirely on the user.
+\texttt{wbopendata} trades some generality for a higher likelihood that queries correspond
+to interpretable, well-documented data products.
+
+\subsection{Scope, boundaries and diffusion}
+
+\subsubsection*{Scope and non-goals}
+Clarifying scope is essential to understanding the role of \texttt{wbopendata} in
+reproducible research. The command is designed to provide programmatic access to
+\emph{aggregated} development indicators disseminated through the World Bank API,
+together with their associated metadata. It is not a tool for accessing confidential or
+licensed microdata, nor does it perform statistical harmonization, imputation, or
+methodological adjustments beyond those already embodied in the source databases.
+
+Similarly, \texttt{wbopendata} does not aim to abstract away substantive judgment. Choices
+about indicator suitability, methodological breaks, coverage gaps, and interpretation
+remain the responsibility of the researcher. The command supports these judgments by
+surfacing metadata and coverage diagnostics, but it does not substitute for domain
+expertise.
+
+Within these boundaries, \texttt{wbopendata} is best understood as infrastructure rather
+than analysis software. Its contribution lies in constraining and documenting the earliest
+stage of the empirical workflow---data acquisition---so that subsequent analysis, whether
+conducted manually or assisted by automated tools, rests on verifiable and reproducible
+foundations.
+
+\subsubsection{Diffusion beyond \texttt{wbopendata}}
+The design principles outlined above are not unique to \texttt{wbopendata}. They
+reflect a broader pattern of tooling that has emerged within applied development
+research to address reproducibility, provenance, and scale. In particular, similar
+principles have guided the development of other Stata-based data access tools,
+both within and beyond the World Bank.
+
+Within the World Bank, these ideas informed the evolution of internal data
+infrastructure such as \texttt{datalib}, \texttt{datalib2}, and \texttt{datalibweb} \citep{datalibweb2018},
+which provide structured, version-controlled access to raw and harmonized household survey
+microdata. While differing substantially in scope and access restrictions from
+\texttt{wbopendata}, these tools apply the same core logic: data retrieval is scripted,
+parameterized, and embedded directly in analytical workflows.  This approach has
+enabled large-scale, reproducible analytical systems, including the Poverty and
+Inequality Platform (PIP) \citep{WorldBankPIP}, a publicly accessible global platform that disseminates
+official poverty and inequality estimates produced through transparent and
+replicable pipelines.
+
+Outside the World Bank, related principles can be observed in user-written Stata
+tools such as \texttt{datazoom} \citep{datazoom2020}, which systematizes the preparation of Brazilian
+household survey microdata produced by the national statistical agency. Although
+\texttt{datazoom} operates on locally obtained files rather than remote APIs, it
+similarly emphasizes standardized structure, transparent preprocessing, and
+reusable code as prerequisites for credible empirical analysis.
+
+More recently, the same design logic has been extended to multi-language data
+access through \texttt{unicefData} \citep{unicefdata2024}, which provides a triangulated suite of R, Python,
+and Stata interfaces to UNICEF’s SDMX-based data warehouse. While implemented in
+different programming environments, these tools share a common emphasis on
+explicit data acquisition, metadata exposure, and reproducible defaults.
+
+These examples are not intended as an exhaustive survey of data infrastructure
+tools, nor do they imply architectural equivalence. Rather, they illustrate that the
+principles embedded in \texttt{wbopendata} have proven portable across institutions,
+data modalities, and governance contexts. Their recurrence suggests that treating
+data access as constrained, executable infrastructure—rather than an informal
+preprocessing step—is a generalizable response to the reproducibility challenges
+facing empirical research with official statistics.
+
+% =====================================================================
+\section{The wbopendata command}
+% =====================================================================
+
+The databases accessible through \texttt{wbopendata} include World Development Indicators (WDI), Doing Business, Worldwide Governance Indicators, International Debt Statistics, Africa Development Indicators, Education Statistics, Enterprise Surveys, Gender Statistics, Health Nutrition and Population Statistics, Global Financial Inclusion (Findex), Poverty and Equity, Human Capital Index, Sustainable Development Goals, and many more. Table~\ref{tab:coverage} summarizes the current scope.
+
+\begin{table}[H]
+\centering
+\caption{World Bank Open Data coverage}
+\label{tab:coverage}
+\begin{tabular}{ll}
+\hline
+Dimension & Coverage \\
+\hline
+Indicators & 29{,}000+ \\
+Data sources & 51 databases \\
+Topic categories & 21 \\
+Countries \& regions & 296 \\
+Country attributes & 17 \\
+Time coverage & 1960--present \\
+Languages & 3 (English, Spanish, French) \\
+\hline
+\end{tabular}
+\end{table}
+
+\texttt{wbopendata} talks directly to the World Bank API (JSON over HTTP), returns tidy Stata datasets, and caches results to minimize repeat downloads. Five pull modes cover country, topic, single-indicator (all countries), single-indicator (selected countries), and multi-indicator requests. Output may be wide or long; \texttt{latest} works in long mode and returns ready-to-use scalars for titles and subtitles. Metadata is always fetched; v17.7.1 adds basic country context (region, admin region, income level, lending type) by default.
+
+\subsection{Syntax}
+
+\begin{stsyntax}
+\dunderbar{wb}opendata,\
+\{\
+\underbar{ind}icator(\ststring) $\mid$\
+\underbar{c}ountry(\ststring) $\mid$\
+\underbar{top}ics(\ststring)\/\
+\}\
+\optional{options}
+\end{stsyntax}
+
+\subsubsection*{Data selection}
+
+Exactly one of the following is required:
+
+\hangpara
+\texttt{\underbar{ind}icator(\ststring)} specifies one or more World Bank indicator codes. Multiple indicators can be requested by separating codes with semicolons, for example, \texttt{indicator(SP.POP.TOTL;NY.GDP.PCAP.CD)}.
+
+\hangpara
+\texttt{\underbar{c}ountry(\ststring)} specifies ISO3 country codes or World Bank region codes to retrieve all available indicators for selected countries. Multiple codes can be separated by semicolons.
+
+\hangpara
+\texttt{\underbar{top}ics(\num)} specifies a topic ID (1--21) to retrieve all indicators within a thematic category such as education, health, or environment.
+
+\subsubsection*{Time and language}
+
+\hangpara
+\texttt{\underbar{y}ear(\ststring)} restricts the time interval. For example, \texttt{year(2000:2020)} returns data only for years 2000 through 2020.
+
+\hangpara
+\texttt{\underbar{l}anguage(\ststring)} sets the language for metadata display. Valid codes are \texttt{en} (English, default), \texttt{es} (Spanish), and \texttt{fr} (French).
+
+\hangpara
+\texttt{\underbar{proj}ection} accesses population estimates and projections from the Health Nutrition and Population Statistics database rather than actual census data.
+
+\subsubsection*{Output format}
+
+\hangpara
+\texttt{long} returns data in long format with one row per country-year. The default is wide format with year-specific columns (\texttt{yr1960}, \texttt{yr1961}, \ldots).
+
+\hangpara
+\texttt{clear} replaces any data currently in memory. Required if data are already loaded.
+
+\hangpara
+\texttt{\underbar{lat}est} keeps only the most recent non-missing observation per country. Requires the \texttt{long} option. When multiple indicators are requested, retains only observations where \textit{all} indicators have non-missing values in the same year.
+
+\hangpara
+\texttt{\underbar{desc}ribe} displays indicator metadata without downloading data. Useful for exploring indicator definitions and sources before committing to a full download.
+
+\hangpara
+\texttt{\underbar{nomet}adata} suppresses the metadata display that normally appears after data retrieval.
+
+\subsubsection*{Country attributes}
+
+\hangpara
+\texttt{\underbar{bas}ic} adds region, administrative region, income level, and lending type variables to the downloaded data. This is the default behavior in v17.7.1+.
+
+\hangpara
+\texttt{\underbar{nobas}ic} suppresses the default country attribute variables.
+
+\hangpara
+\texttt{\underbar{f}ull} adds all 17 country attributes including geographic coordinates and capital city. See Table~\ref{tab:attributes} for the complete list.
+
+\hangpara
+\texttt{\underbar{ge}o}, \texttt{capital}, \texttt{latitude}, \texttt{longitude} add specific geographic fields without the full set of attributes.
+
+\hangpara
+\texttt{\underbar{m}atch(\varname)} merges country attributes into an existing dataset. The variable \varname\ must contain World Bank country codes (ISO3 format).
+
+\subsubsection*{Metadata management}
+
+\hangpara
+\texttt{\underbar{upd}ate query} displays the vintage dates of locally cached indicator and country metadata.
+
+\hangpara
+\texttt{\underbar{upd}ate check} compares local metadata against the remote repository and reports whether updates are available.
+
+\hangpara
+\texttt{\underbar{upd}ate all} downloads fresh metadata from the repository, replacing the local cache.
+
+\subsubsection*{Graph metadata (v17.7.1+)}
+
+\hangpara
+\texttt{\underbar{linew}rap(\ststring)} wraps metadata text for use in graph titles. The argument specifies which metadata to wrap: \texttt{name}, \texttt{description}, \texttt{note}, \texttt{source}, \texttt{topic}, or \texttt{all}.
+
+\hangpara
+\texttt{\underbar{maxl}ength(\num)} sets the maximum characters per line for wrapped text. The default is 50.
+
+\hangpara
+\texttt{\underbar{linewrapf}ormat(\ststring)} controls the output format: \texttt{stack} (stacked lines), \texttt{newline} (newline-separated), \texttt{nlines} (returns line count), \texttt{lines} (returns individual lines), or \texttt{all} (returns all formats).
+
+\subsection{Stored results}
+
+\texttt{wbopendata} is an r-class command that stores results in \texttt{r()}. These stored results are critical for automation: they allow downstream code to programmatically access indicator metadata, construct dynamic graph titles, and build reproducible pipelines without manual intervention.
+
+\textbf{Indicator codes and variable names.} World Bank indicator codes like \texttt{SI.POV.DDAY} contain periods, which Stata does not allow in variable names. The command automatically converts indicator codes to Stata-safe variable names by replacing periods with underscores and converting to lowercase: \texttt{SI.POV.DDAY} becomes \texttt{si\_pov\_dday}. Both forms are stored: \texttt{r(indicator\#)} preserves the original API code for documentation and re-querying, while \texttt{r(varname\#)} provides the Stata variable name for use in analysis commands.
+
+\textbf{Indexed versus aggregate returns.} Results come in two forms. Indexed returns (\texttt{r(varname1)}, \texttt{r(varname2)}, \ldots) store metadata for each indicator separately, enabling indicator-specific labeling and citation. Aggregate returns store combined information: \texttt{r(indicator)} contains the full semicolon-separated query string as entered, while \texttt{r(name)} contains all variable names as a space-separated list suitable for \texttt{foreach} loops or variable lists.
+
+For each requested indicator (indexed by \# = 1, 2, \ldots), the command returns:
+
+\begin{table}[H]
+\centering
+\caption{Stored results}
+\label{tab:stored}
+\begin{tabular}{llp{6.5cm}}
+\hline
+Result & Type & Description \\
+\hline
+\multicolumn{3}{l}{\textit{Aggregate returns (always)}} \\
+\texttt{r(indicator)} & local & Full query string (semicolon-separated) \\
+\texttt{r(name)} & local & All Stata variable names (space-separated) \\
+\hline
+\multicolumn{3}{l}{\textit{Indexed returns (per indicator, always)}} \\
+\texttt{r(indicator\#)} & local & Original API indicator code (e.g., SI.POV.DDAY) \\
+\texttt{r(varname\#)} & local & Stata-safe variable name (e.g., si\_pov\_dday) \\
+\texttt{r(varlabel\#)} & local & Indicator label from API \\
+\texttt{r(source\#)} & local & Source database identifier \\
+\texttt{r(time\#)} & local & Time dimension name \\
+\texttt{r(sourcecite\#)} & local & Clean organization name (when Note is non-empty) \\
+\hline
+\multicolumn{3}{l}{\textit{With \texttt{year()} option}} \\
+\texttt{r(year\#)} & local & Year or year range requested \\
+\hline
+\multicolumn{3}{l}{\textit{With \texttt{latest} option}} \\
+\texttt{r(latest)} & local & Formatted subtitle string for graphs \\
+\texttt{r(latest\_ncountries)} & local & Number of countries with data \\
+\texttt{r(latest\_avgyear)} & local & Average year of observations \\
+\texttt{r(latest\_year)} & local & Maximum year retained \\
+\hline
+\multicolumn{3}{l}{\textit{With \texttt{linewrap()} option}} \\
+\texttt{r(name\#\_stack)} & local & Wrapped name for \texttt{title()} \\
+\texttt{r(description\#\_stack)} & local & Wrapped description for captions \\
+\texttt{r(note\#\_stack)} & local & Wrapped methodological notes \\
+\texttt{r(source\#\_stack)} & local & Wrapped source text \\
+\texttt{r(topic\#\_stack)} & local & Wrapped topic name \\
+\texttt{r(*\#\_nlines)} & scalar & Line count for each field \\
+\texttt{r(*\#\_line1)}, \ldots & local & Individual wrapped lines \\
+\hline
+\end{tabular}
+\end{table}
+
+These returns enable fully automated workflows: a script can download data, extract \texttt{r(name1\_stack)} for the graph title, \texttt{r(sourcecite1)} for the source note, and \texttt{r(latest)} for a coverage subtitle---all without hardcoding any metadata.
+
+% =====================================================================
+\section{Examples}
+% =====================================================================
+
+\subsubsection*{Basic data retrieval}
+
+The core operation is downloading indicator data. These examples show the two fundamental output shapes: wide format (one row per country, year columns) and long format (one row per country-year).
+
+\textbf{Basic data download.} The simplest use case retrieves a single indicator for all countries. By default, data are returned in wide format with year-specific columns (\texttt{yr1960}, \texttt{yr1961}, \ldots):
+
+\begin{stlog}
+\input{sjlogs/ex_single_indicator.log.tex}\nullskip
+\end{stlog}
+
+Metadata---indicator name, definition, source, and topic---appears automatically, following the SDMX standard (ISO 17369:2013) that ensures consistent definitions across international statistical organizations.
+
+\textbf{Multiple indicators in long format.} The \texttt{long} option reshapes data to one row per country-year---the preferred structure for most Stata routines including \texttt{regress}, \texttt{tabulate}, \texttt{summarize} with \texttt{bysort}, and panel estimation commands. Multiple indicators can be requested by separating codes with semicolons:
+
+\begin{stlog}
+\input{sjlogs/ex_multiple_indicators.log.tex}\nullskip
+\end{stlog}
+
+\subsubsection*{Filtering and annotation}
+
+Once data are retrieved, several options refine outputs for specific purposes---filtering to the most recent observations or formatting metadata for publication-ready graphs.
+
+\textbf{Latest available data.} The \texttt{latest} option keeps only the most recent non-missing observation per country. When multiple indicators are requested, the algorithm retains only observations where \textit{all} indicators have non-missing values in the same year---prioritizing comparability over recency:
+
+\begin{stlog}
+\input{sjlogs/ex_latest_option.log.tex}\nullskip
+\end{stlog}
+
+The stored scalars \texttt{r(latest)}, \texttt{r(latest\_ncountries)}, and \texttt{r(latest\_avgyear)} enable automated construction of figure subtitles that transparently document coverage.
+
+\textbf{Publication-ready metadata.} The \texttt{linewrap()} option prepares metadata for graph titles and annotations. The command returns wrapped text in \texttt{r(name\#\_stack)}, \texttt{r(description\#\_stack)}, and source citations in \texttt{r(sourcecite\#)}:
+
+\begin{stlog}
+\input{sjlogs/ex_linewrap_returns.log.tex}\nullskip
+\end{stlog}
+
+These stored results can then be used directly in graph commands. Figure~\ref{fig:linewrap} demonstrates how the returned metadata populates axis titles, captions, and source notes:
+
+\begin{stlog}
+\input{sjlogs/ex_linewrap_graph.log.tex}\nullskip
+\end{stlog}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figs/wbopendata_linewrap_example.pdf}
+\caption{Poverty and child mortality scatter plot with automatic metadata annotation. Axis titles, definitions, and source citations are populated directly from \texttt{wbopendata}'s stored results using the \texttt{linewrap()} option.}
+\label{fig:linewrap}
+\end{figure}
+
+\subsubsection*{Country attributes and mapping}
+
+The \texttt{full} option enriches data with 17 country attributes---regional classifications, income levels, and geographic coordinates---enabling merges, stratified analysis, and spatial visualization.
+
+\textbf{Country attributes.} The \texttt{full} option attaches all 17 country attributes---regional classifications, income levels, lending types, and geographic coordinates---enabling merges and mapping without separate lookup steps:
+
+\begin{stlog}
+\begin{verbatim}
+. wbopendata, indicator(NY.GDP.MKTP.CD) country(BRA) clear full
+\end{verbatim}
+\end{stlog}
+
+\noindent Table~\ref{tab:full} shows the country attributes returned for Brazil:
+
+\begin{table}[H]
+\centering
+\caption{Country attributes returned with \texttt{full} option}
+\label{tab:full}
+\small
+\begin{tabular}{llll}
+\hline
+\textbf{Category} & \textbf{Code} & \textbf{ISO2} & \textbf{Name} \\
+\hline
+Region & LCN & ZJ & Latin America and Caribbean \\
+Income Level & UMC & XT & Upper middle income \\
+Admin Region & LAC & XJ & LAC (excl.\ high income) \\
+Lending Type & IBD & XF & IBRD \\
+\hline
+\multicolumn{4}{l}{\textit{Geographic}: Capital: Brasilia, Lat: $-$15.78, Long: $-$47.93} \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Choropleth mapping.} Figure~\ref{fig:map} demonstrates how \texttt{wbopendata} combines with \texttt{spmap} for geographic visualization. The workflow downloads indicator data, merges with shape file coordinates, and renders a choropleth map:
+
+\begin{stlog}
+\input{sjlogs/ex_choropleth_map.log.tex}\nullskip
+\end{stlog}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figs/wbopendata_example01.pdf}
+\caption{Mobile cellular subscriptions per 100 people (latest available year). Created by merging \texttt{wbopendata} output with geographic shape data and visualizing using the \texttt{spmap} command \citep{pisati2007spmap}.}
+\label{fig:map}
+\end{figure}
+
+\textbf{Multi-indicator scatter plot.} Figure~\ref{fig:scatter} shows a scatter plot of poverty headcount ratios against GDP per capita, demonstrating multi-indicator downloads with a lowess smoother and labeled regional aggregates:
+
+\begin{stlog}
+\input{sjlogs/ex_scatter_poverty_gdp.log.tex}\nullskip
+\end{stlog}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figs/wbopendata_example04.pdf}
+\caption{Poverty headcount ratio versus GDP per capita (PPP, constant international \$). Regional aggregates are labeled; lowess smoother shows the cross-country relationship.}
+\label{fig:scatter}
+\end{figure}
+
+\subsubsection*{User-written extensions}
+
+The open architecture of \texttt{wbopendata} has enabled a small ecosystem of user-written extensions. One notable example is \texttt{worldstat} \citep{clarke2012worldstat}, which produces geographic and temporal visualizations of World Bank indicators with minimal user effort. The command retrieves shape files remotely and calls \texttt{wbopendata} internally to fetch indicator data.
+
+\textbf{Regional map.} Figure~\ref{fig:worldstat_africa} shows GDP per capita across Africa:
+
+\begin{stlog}
+\input{sjlogs/ex_worldstat_africa.log.tex}\nullskip
+\end{stlog}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figs/wbopendata_worldstat_africa_gdp.pdf}
+\caption{GDP per capita (constant 2015 US\$) in Africa, 2009. Generated using \texttt{worldstat}, which calls \texttt{wbopendata} internally.}
+\label{fig:worldstat_africa}
+\end{figure}
+
+\textbf{Global map.} Figure~\ref{fig:worldstat_fertility} displays global fertility rates with an alternative color scheme:
+
+\begin{stlog}
+\input{sjlogs/ex_worldstat_world.log.tex}\nullskip
+\end{stlog}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figs/wbopendata_worldstat_world_fertility.pdf}
+\caption{Fertility rate (births per woman) worldwide. The \texttt{worldstat} command uses \texttt{wbopendata} internally to retrieve World Bank indicators.}
+\label{fig:worldstat_fertility}
+\end{figure}
+
+Beyond single-command wrappers, \texttt{wbopendata} serves as infrastructure for larger analytical pipelines. The World Bank's Learning Poverty repository \citep{worldbank2019learningpoverty} demonstrates this pattern: a fully reproducible Stata codebase that calculates global learning poverty indicators---the share of 10-year-olds unable to read and understand a short text---by combining harmonized learning assessment data with enrollment statistics. The pipeline uses \texttt{wbopendata} to retrieve population weights, enrollment rates, and other World Development Indicators needed to construct the composite measure. Released under an MIT license with 7 versioned releases (v1.0--v4.0), the repository exemplifies how programmatic data access enables transparent, auditable research workflows that can be independently replicated and extended.
+
+% =====================================================================
+\section{Technical implementation}
+% =====================================================================
+
+\subsubsection*{Installation}
+
+The recommended installation method is from SSC:
+\begin{stlog}
+\begin{verbatim}
+. ssc install wbopendata, replace
+\end{verbatim}
+\end{stlog}
+For the latest development version with graph metadata features:
+\begin{stlog}
+\begin{verbatim}
+. net install wbopendata, ///
+     from("https://raw.githubusercontent.com/jpazvd/wbopendata/main/src") replace
+\end{verbatim}
+\end{stlog}
+
+\subsubsection*{Architecture}
+
+The command is written entirely in Stata's ado-file language and relies on the World Bank API's REST endpoints \citep{worldbank2024api}. Key implementation features include automatic pagination (the command retrieves all pages and assembles complete datasets), informative error handling (HTTP status codes surface diagnostics for missing indicators or connectivity issues), caching with hashed request parameters for deterministic reuse, and variable naming that normalizes indicator codes to legal Stata identifiers. String tokenization and metadata line-wrapping adapt community-contributed utilities \texttt{tknz} \citep{elliott2002tknz}, \texttt{linewrap} \citep{overazevedo2000linewrap}, and \texttt{\_pecats} \citep{longfreese2001pecats}.
+
+The implementation avoids third-party binaries, ensuring compatibility with institutional computing environments that restrict software installation. Users operating behind corporate proxies can configure Stata's HTTP proxy settings (\texttt{set httpproxy on}, etc.), which \texttt{wbopendata} respects for all API requests.
+
+\textbf{Country attributes.} When using the \texttt{full} option, \texttt{wbopendata} returns 17 country attributes that enable rich classification and merging. Table~\ref{tab:attributes} summarizes these variables.
+
+\begin{table}[H]
+\centering
+\caption{Country attributes returned with \texttt{full} option}
+\label{tab:attributes}
+\begin{tabular}{ll}
+\hline
+Variable & Description \\
+\hline
+\texttt{countrycode} / \texttt{countryname} & ISO3 code and name \\
+\texttt{region} / \texttt{regionname} & Region code and name \\
+\texttt{adminregion} / \texttt{adminregionname} & Administrative region \\
+\texttt{incomelevel} / \texttt{incomelevelname} & Income classification \\
+\texttt{lendingtype} / \texttt{lendingtypename} & Lending type (IBRD, IDA, Blend) \\
+\texttt{capital} & Capital city name \\
+\texttt{latitude} / \texttt{longitude} & Capital coordinates \\
+\hline
+\end{tabular}
+\end{table}
+
+The \texttt{match(varname)} option merges these attributes into an existing dataset containing WDI country codes, enabling enrichment without separate data downloads.
+
+\textbf{Filtering aggregates.} The \texttt{region} variable identifies whether an observation is a country or regional aggregate. Researchers can filter using \texttt{keep if region != "NA"} (individual countries only) or \texttt{keep if regionname == "Aggregates"} (aggregates only).
+
+% =====================================================================
+\section{Reproducibility, testing, and error handling}
+% =====================================================================
+
+\texttt{wbopendata} ships with a live integration test harness designed to validate actual user workflows: indicator downloads, pagination, caching, option handling, and fixes for historical issues. The harness runs end-to-end against the live World Bank API, exercising the same code paths users encounter in practice.
+
+Because Stata lacks the mature testing and CI infrastructure found in R and Python, we chose a self-contained live-API approach rather than mocked unit tests. This design prioritizes detection of upstream regressions---schema changes, pagination failures, and API shifts---that directly impact users.
+
+The test suite comprises 44 integrated tests distributed across 13 categories (Table~\ref{tab:test-coverage}). QA materials in \texttt{qa/} include the test driver (\texttt{run\_tests.do}), protocol documentation (\texttt{test\_protocol.md}, \texttt{TESTING\_GUIDE.md}), and timestamped result logs.
+
+\begin{table}[H]
+\centering
+\caption{Test suite composition (44 tests across 13 categories)}
+\label{tab:test-coverage}
+\begin{tabular}{llrl}
+\hline
+Abbr. & Category & Tests & Focus \\
+\hline
+ENV & Environment & 2 & Network connectivity, API availability \\
+DL & Download modes & 8 & Indicator, country, topic, multi-indicator \\
+FMT & Output format & 5 & Wide, long, reshape, latest \\
+CTRY & Country options & 4 & basic, full, geo, iso \\
+LW & Linewrap & 6 & Metadata wrapping, formats \\
+REG & Regression & 7 & Historical bug fixes \\
+ADV & Advanced & 12 & Edge cases, error handling \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Error handling.} When an indicator code is misspelled or does not exist, \texttt{wbopendata} returns an informative error message with guidance on verifying the indicator list, testing connectivity, and contacting support:
+
+\begin{stlog}
+\input{sjlogs/ex_indicator_missing.log.tex}\nullskip
+\end{stlog}
+
+Some historical indicators have been moved to the World Bank Database Archives. When requesting a deprecated indicator such as \texttt{AG.AGR.TRAC.NO}, the command returns a deprecation notice with the archived source location:
+
+\begin{stlog}
+\input{sjlogs/ex_indicator_deprecated.log.tex}\nullskip
+\end{stlog}
+
+\textbf{Keeping metadata current.} The \texttt{update} options manage the local metadata cache. Use \texttt{update query} to check the current vintage, \texttt{update check} to compare against the remote repository, and \texttt{update all} to refresh the local cache:
+
+\begin{stlog}
+\input{sjlogs/ex_update.log.tex}\nullskip
+\end{stlog}
+
+Regular metadata updates ensure that new indicators, revised country classifications, and corrected definitions are available locally. This is particularly important before using the \texttt{match()} option to merge country attributes, as stale metadata may contain outdated income or regional classifications or even country names.
+
+% =====================================================================
+\section{Discussion}
+% =====================================================================
+
+Fifteen years after its initial release, \texttt{wbopendata} remains relevant because of the methodological principles embedded in its design. The core contribution lies not in any single technical feature, but in its role as \textbf{infrastructure for reproducible research}. By translating API endpoints into domain-specific commands, it lowers the barrier to scripted data access without requiring researchers to master HTTP protocols, JSON parsing, or pagination logic.
+
+The command exemplifies what can be called \textbf{data acquisition as code}: indicator selections, country lists, time ranges, and filters are explicitly parameterized in analysis scripts rather than buried in manual downloads. This design supports reproducibility in two ways: analyses can be replicated exactly at a given point in time, and they can be systematically updated as new data become available.
+
+\textbf{Addressing the reproducibility crisis.} The social sciences have faced a well-documented reproducibility crisis \citep{baker2016reproducibility, opensc2015estimating}, with numerous high-profile failures to replicate published findings. While much attention has focused on statistical methods, pre-registration, and publication bias, a quieter but equally important dimension concerns \textit{data provenance}. When researchers manually download spreadsheets from web portals, rename files, apply undocumented filters, and copy-paste into analysis software, the resulting workflow is effectively unreproducible---not because of statistical error, but because no complete record exists of how the analytical dataset was constructed. \texttt{wbopendata} addresses this gap directly. A single command line such as \texttt{wbopendata, indicator(SI.POV.DDAY) year(2000:2020) long clear} constitutes a complete, executable specification of data acquisition. Years later, another researcher can run the same command and obtain either identical data (if the source has not been revised) or systematically updated data (if new observations have been added)---either outcome being preferable to the black box of manual data assembly.
+
+\textbf{Authoritative sources in the AI era.} The rise of large language models has fundamentally changed the landscape of empirical research. AI tools can now generate plausible-looking code, synthetic datasets, and even fabricated citations. In this environment, programmatic access to \textit{authoritative sources of truth}---official statistics maintained by accountable institutions---becomes more important than ever. When a researcher queries the World Bank API through \texttt{wbopendata}, the provenance is verifiable: the data come from a specific institutional source with documented methodology, revision history, and contact information for follow-up. This stands in contrast to data scraped from unattributed web sources or generated by statistical models that may hallucinate plausible but incorrect values. Tools like \texttt{wbopendata} thus serve as anchors of credibility in an increasingly noisy information environment---not because they prevent errors, but because they make data provenance explicit and auditable.
+
+\textbf{The broader ecosystem.} \texttt{wbopendata} is part of a growing but still fragmented ecosystem of tools that translate complex data infrastructures into scriptable access layers. Within the World Bank ecosystem, \texttt{datalibweb} \citep{datalibweb2018} provides structured access to harmonized microdata collections, enabling version-controlled retrieval of household survey datasets---though this infrastructure remains largely internal to the Bank, limiting external reproducibility. For Brazilian microdata, \texttt{datazoom\_social\_Stata} \citep{datazoom2020} demonstrates how national statistical agencies' complex survey structures can be systematically documented and harmonized, though it still requires manual download of original files before processing. More recently, \texttt{unicefData} \citep{unicefdata2024} extends programmatic access to child-related indicators at global scale, providing unified R, Python, and Stata interfaces to UNICEF's SDMX data warehouse.
+
+These efforts share a common pattern: encapsulating data access and preprocessing logic into reusable code, reducing ad-hoc workflows, and increasing transparency. Yet constraints remain. Microdata access continues to rely largely on institution-specific platforms and manual approval processes. No widely adopted open architecture yet exists to provide secure, standardized, API-enabled access to individual-level survey microdata across institutions and countries---a gap that continues to limit reproducibility in applied microeconomic research.
+
+\textbf{Lessons for open science.} The fifteen-year trajectory offers concrete lessons. First, \textbf{infrastructure matters as much as principles}---transparency and reproducibility are widely endorsed, yet their implementation often lags due to tooling gaps. Second, \textbf{stability enables cumulation}---by maintaining backward compatibility across API changes, the command has built trust that encourages adoption. Third, \textbf{domain-specific design trumps generality}---while generic HTTP libraries could access the World Bank API, a command that speaks the language of development economics (indicators, countries, years, topics) reduces cognitive load and makes correct usage intuitive.
+
+\subsubsection*{Risks and challenges}
+
+\textbf{Provenance opacity.} Most indicators accessible through \texttt{wbopendata} originate from national statistical offices, UN agencies, and interagency collaborations---not the World Bank itself. The Bank's value-added lies in compilation; the harder work of harmonizing definitions happens upstream. Key indicators depend on governance processes managed entirely outside the Bank: UN IGME produces under-five mortality rates; JME (UNICEF, WHO, World Bank) harmonizes child anthropometric data; JMP tracks water and sanitation access. \textit{Mitigation}: Use \texttt{r(sourcecite\#)} to identify original producers; cite upstream agencies in publications; consult methodology notes before analysis.
+
+\textbf{Coverage and timeliness.} The \texttt{latest} option masks substantial heterogeneity: the ``latest'' poverty estimate for some countries may be a decade old. Missing values are not random---they correlate with state capacity, conflict, and political sensitivity. Methodology changes (PPP rebasing, poverty line revisions) compound these issues by creating discontinuities in panel data. \textit{Mitigation}: Report the year distribution (mean, SD, frequency table); document coverage in appendices---countries and population, both overall and by region or income-grouping; test sensitivity to stale observations; check methodology notes for series breaks.
+
+\textbf{Sustainability risk.} Open data is not free data. Tool infrastructure costs are trivial compared to what member states spend on household surveys or interagency groups invest in harmonized estimates. Researchers benefit from open APIs but bear none of the production costs---a classic free-rider problem. \textit{Mitigation}: Acknowledge statistical infrastructure in publications; cite data producers (not aggregators); recognize that continued access depends on upstream investment requiring sustained advocacy.
+
+% =====================================================================
+\section{Conclusion}
+% =====================================================================
+
+Fifteen years after the World Bank Open Data Initiative transformed development statistics into a global public good, \texttt{wbopendata} continues to serve as essential infrastructure for reproducible research in Stata. The command provides seamless access to over 29{,}000 development indicators from 51 databases, handling API communication, pagination, caching, and metadata management within a single stable interface.
+
+This longevity reflects deliberate design choices: maintaining backward compatibility across API changes, encapsulating complexity behind domain-specific parameters, and treating data acquisition as code rather than manual preprocessing. Version 17.7.1 extends this tradition with publication-quality metadata line-wrapping, default country-context attributes, and fixes for multi-indicator handling in the \texttt{latest} option.
+
+The command's pure-Stata implementation ensures compatibility with institutional computing environments, while the bundled live test suite provides confidence in cross-platform reliability. Yet \texttt{wbopendata}'s most important contribution may be methodological rather than technical: it demonstrates that programmatic data access---with explicit parameters, reproducible workflows, and verifiable provenance---can become routine practice without requiring researchers to become software engineers.
+
+% =====================================================================
+\section*{Acknowledgments}
+% =====================================================================
+
+The author thanks the World Bank Open Data Initiative for making development data freely accessible, and the many users who have contributed bug reports and feature suggestions through GitHub.
+
+\bibliographystyle{sj}
+\bibliography{wbopendata}
+
+\begin{aboutauthors}
+Jo\~{a}o Pedro Azevedo is Deputy Director and Chief Statistician in UNICEF's Division of Data, Analytics, Planning and Monitoring. Previously, he worked for 16 years at the World Bank as Lead Economist. His research focuses on poverty measurement, education statistics, and reproducible and scalable analytical pipelines for global, regional, and national monitoring systems to inform policy.
+
+The software repository (\url{https://github.com/jpazvd/wbopendata}) includes example do-files, test scripts, and complete documentation.
+\end{aboutauthors}
+
+
+\begin{verbatim}
+% =====================================================================
+Appendix A: Extended Examples
+
+Move here:
+
+Multiple mapping examples (Africa, world, alternative color schemes)
+
+worldstat walkthroughs with full console output
+
+Repeated metadata printouts once pattern is established
+
+Each appendix example should start with:
+
+Purpose
+
+Command
+
+What it demonstrates (1 sentence)
+
+Appendix B: Full Console Logs
+
+Include:
+
+Long metadata blocks
+
+Error-handling outputs
+
+Update/query diagnostics
+
+Label clearly as verbatim output.
+
+Appendix C: Test Suite Details
+
+Include:
+
+Full list of 44 tests
+
+Example failure logs
+
+run_tests.do excerpts
+
+Main text keeps only the summary table.
+
+Appendix D: Reproducibility Checklist (optional but powerful)
+
+One-page checklist:
+
+Exact command
+
+API endpoint
+
+Indicator codes
+
+Date of retrieval
+
+Version of wbopendata
+
+This reinforces the “constraint” theme.
+
+\end{verbatim}
+
+\end{document}
