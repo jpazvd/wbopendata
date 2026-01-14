@@ -1,0 +1,67 @@
+name: Sync to Public Repo
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Remove private content
+        run: |
+          # Private folders (strategic/personal)
+          rm -rf paper/
+          rm -rf drafts/
+          rm -rf internal/
+          rm -rf benchmarks/
+          rm -rf _drafts/
+          rm -rf eb1a/
+          
+          # Testing framework private content
+          rm -rf tests/logs/              # Test execution logs
+          rm -rf qa/logs/                 # QA execution results
+          rm -rf qa/results/              # QA execution results (if private)
+          rm -rf validation/results/      # Validation results (unpublished)
+          
+          # Log files
+          rm -f *.log
+          rm -f test_*.log
+          find . -name '*.log' -type f -delete
+          
+          # Private GitHub config
+          rm -f .github/copilot-instructions.md
+          rm -rf .github/copilot/
+          rm -rf .github/prompts/
+          
+          # Hide sync workflow (contains private repo name)
+          rm -f .github/workflows/sync-to-public.yml
+          
+          # Project tracking (internal)
+          rm -f PHASE_*.md
+          rm -f PROJECT_*.md
+          rm -f PR14_*.md
+          rm -f *_TEST_REPORT*.md
+          rm -f *_VALIDATION_PROTOCOL.md
+          
+          # Remove any other private files
+          rm -f PRIVATE_NOTES.md
+          rm -f TODO-internal.md
+
+      - name: Push to public repo
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.PUBLIC_REPO_DEPLOY_KEY }}
+        with:
+          source-directory: '.'
+          destination-github-username: 'jpazvd'
+          destination-repository-name: 'wbopendata'
+          target-branch: main
+          user-name: 'github-actions[bot]'
+          user-email: 'github-actions[bot]@users.noreply.github.com'

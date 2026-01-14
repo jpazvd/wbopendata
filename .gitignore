@@ -26,6 +26,8 @@
 # These files include GitHub settings
 !.gitignore
 !.gitattributes
+!.github/
+!.github/**
 
 # Keep markdown files used for documentation on GitHub
 !README.md
