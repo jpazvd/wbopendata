@@ -115,6 +115,6 @@ jobs:
           chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -t ed25519 github.com >> ~/.ssh/known_hosts 2>/dev/null
           export GIT_SSH_COMMAND="ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no"
-          git remote add public-for-tags git@github.com:jpazvd/wbopendata.git 2>/dev/null || true
+          git remote add public-for-tags git@github.com:jpazvd/wbopendata.git 2>/dev/null || trueit@github.com:jpazvd/wbopendata.git 2>/dev/null || true
           git push public-for-tags --tags
 
