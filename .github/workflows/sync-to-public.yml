@@ -96,7 +96,7 @@ jobs:
           
           echo "✅ PASS: No private files found. Safe to push."
 
-      - name: Push to public repo (bot branch)
+      - name: Push to public repo (staging branch)
         uses: cpina/github-action-push-to-another-repository@main
         env:
           SSH_DEPLOY_KEY: ${{ secrets.PUBLIC_REPO_DEPLOY_KEY }}
@@ -104,7 +104,7 @@ jobs:
           source-directory: '.'
           destination-github-username: 'jpazvd'
           destination-repository-name: 'wbopendata'
-          target-branch: bot
+          target-branch: staging
           user-name: 'github-actions[bot]'
           user-email: 'github-actions[bot]@users.noreply.github.com'
 
