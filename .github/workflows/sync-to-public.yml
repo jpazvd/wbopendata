@@ -64,3 +64,14 @@ jobs:
           target-branch: develop
           user-name: 'github-actions[bot]'
           user-email: 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Push tags to public repo
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.PUBLIC_REPO_DEPLOY_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -t ed25519 github.com >> ~/.ssh/known_hosts 2>/dev/null
+          export GIT_SSH_COMMAND="ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no"
+          git remote add public-for-tags git@github.com:jpazvd/wbopendata.git 2>/dev/null || true
+          git push public-for-tags --tags
+
