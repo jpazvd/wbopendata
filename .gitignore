@@ -132,3 +132,11 @@ passwords/
 !/ssc/*.pkg
 !/ssc/*.toc
 ssc/submission_email.md
+
+#######################
+# Prevent large temporary/test data files from being committed
+# These patterns override the whitelisted src/ patterns above
+src/file[0-9].*
+src/*tmp.*
+src/tmp.*
+src/_tmp.*
