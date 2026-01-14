@@ -21,6 +21,8 @@ jobs:
           rm -rf internal/
           rm -rf benchmarks/
           rm -rf _drafts/
+          rm -rf _archive/
+          rm -rf _deprecated/
           rm -rf eb1a/
           
           # Testing framework private content
@@ -64,6 +66,8 @@ jobs:
             "drafts"
             "benchmarks"
             "_drafts"
+            "_archive"
+            "_deprecated"
             "eb1a"
             ".github/copilot-instructions.md"
             ".github/copilot"
