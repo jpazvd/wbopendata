@@ -140,6 +140,8 @@ drafts/
 benchmarks/
 eb1a/
 _drafts/
+_archive/
+_deprecated/
 .github/copilot-instructions.md
 .github/copilot/
 .github/prompts/
