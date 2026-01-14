@@ -53,6 +53,43 @@ jobs:
           rm -f PRIVATE_NOTES.md
           rm -f TODO-internal.md
 
+      - name: Verify private content removed
+        run: |
+          echo "🔍 Verifying private content removal..."
+          FOUND_PRIVATE=0
+          
+          PRIVATE_ITEMS=(
+            "paper"
+            "internal"
+            "drafts"
+            "benchmarks"
+            "_drafts"
+            "eb1a"
+            ".github/copilot-instructions.md"
+            ".github/copilot"
+            ".github/prompts"
+            ".github/workflows/sync-to-public.yml"
+          )
+          
+          for item in "${PRIVATE_ITEMS[@]}"; do
+            if [ -e "$item" ]; then
+              echo "❌ FAIL: Found private item: $item"
+              FOUND_PRIVATE=1
+            fi
+          done
+          
+          if find . -maxdepth 2 -name "*.log" -type f 2>/dev/null | grep -q .; then
+            echo "❌ FAIL: Found .log files"
+            FOUND_PRIVATE=1
+          fi
+          
+          if [ $FOUND_PRIVATE -eq 1 ]; then
+            echo "❌ Aborting sync: Private files detected!"
+            exit 1
+          fi
+          
+          echo "✅ PASS: No private files found. Safe to push."
+
       - name: Push to public repo (develop branch)
         uses: cpina/github-action-push-to-another-repository@main
         env:
