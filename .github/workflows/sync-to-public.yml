@@ -1,8 +1,7 @@
-name: Sync to Public Repo
+name: Sync to Public Repo (Staging)
 
 on:
   push:
-    branches: [main]
     tags: ['v*']
 
 jobs:
@@ -54,7 +53,7 @@ jobs:
           rm -f PRIVATE_NOTES.md
           rm -f TODO-internal.md
 
-      - name: Push to public repo
+      - name: Push to public repo (develop branch)
         uses: cpina/github-action-push-to-another-repository@main
         env:
           SSH_DEPLOY_KEY: ${{ secrets.PUBLIC_REPO_DEPLOY_KEY }}
@@ -62,6 +61,6 @@ jobs:
           source-directory: '.'
           destination-github-username: 'jpazvd'
           destination-repository-name: 'wbopendata'
-          target-branch: main
+          target-branch: develop
           user-name: 'github-actions[bot]'
           user-email: 'github-actions[bot]@users.noreply.github.com'
