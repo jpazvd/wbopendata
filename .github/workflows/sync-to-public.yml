@@ -20,6 +20,7 @@ jobs:
           rm -rf drafts/
           rm -rf internal/
           rm -rf benchmarks/
+          rm -rf personal/
           rm -rf _drafts/
           rm -rf _archive/
           rm -rf _deprecated/
@@ -65,6 +66,7 @@ jobs:
             "internal"
             "drafts"
             "benchmarks"
+            "personal"
             "_drafts"
             "_archive"
             "_deprecated"
