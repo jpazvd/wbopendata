@@ -1,6 +1,10 @@
 # wbopendata Testing Guide
 
-[← Back to README](../README.md) | [Test Protocol](test_protocol.md) | [Test Coverage](additional_tests.md) | [FAQ](../doc/FAQ.md)
+**Test Suite Version:** 2.0.0  
+**Compatible with:** wbopendata v17.7.1+  
+**Last Updated:** January 2026
+
+[← Back to README](../README.md) | [Test Protocol](test_protocol.md) | [QA README](README.md) | [FAQ](../doc/FAQ.md)
 
 ---
 
@@ -142,8 +146,12 @@ The `run_tests.do` file implements a comprehensive test framework with:
 ### Usage Examples
 
 ```stata
-* Run all tests
+* Run all tests (from qa/ folder - auto-detects repo path)
+cd "C:/path/to/wbopendata-dev/qa"
 do run_tests.do
+
+* Run all tests but skip repo-comparison tests (ENV-01 to ENV-04)
+do run_tests.do norepo
 
 * Run single test
 do run_tests.do CTRY-01
@@ -153,7 +161,13 @@ do run_tests.do CTRY-01 verbose
 
 * List available tests
 do run_tests.do list
+
+* Configure repo path manually (alternative to auto-detection)
+global wbopendata_repo "D:/Projects/wbopendata-dev"
+do run_tests.do
 ```
+
+> **See also:** [README.md](README.md) for quick start | [Test Protocol](test_protocol.md) for detailed test descriptions
 
 ## Best Practices for Stata Testing
 
