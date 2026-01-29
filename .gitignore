@@ -130,3 +130,20 @@ passwords/
 !/ssc/*.pkg
 !/ssc/*.toc
 ssc/submission_email.md
+
+#######################
+# Extra safety layer: Prevent accidental commits of private content
+# (Primary protection is the workflow, but this is defense-in-depth)
+paper/
+internal/
+drafts/
+benchmarks/
+personal/
+eb1a/
+_drafts/
+_archive/
+_deprecated/
+.github/copilot-instructions.md
+.github/copilot/
+.github/prompts/
+.github/workflows/sync-to-public.yml
