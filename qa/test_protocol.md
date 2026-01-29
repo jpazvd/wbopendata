@@ -6,10 +6,39 @@
 
 ## Overview
 
-This document outlines the testing protocol for validating `wbopendata` functionality before releases.
+This document outlines the testing protocol for validating `wbopendata` functionality before releases. The automated test suite is in `run_tests.do`.
 
-**Version**: 17.7.1  
-**Last Updated**: January 2026
+**Version**: 17.7.2  
+**Last Updated**: January 2026  
+**Total Tests**: 44 automated tests across 9 categories (40 core + 4 repo-comparison)
+
+> **See also:** [README](README.md) for quick start | [Testing Guide](TESTING_GUIDE.md) for best practices
+
+---
+
+## Quick Start
+
+```stata
+* Run all tests (from qa/ folder - auto-detects repo path)
+cd "C:/path/to/wbopendata/qa"
+do run_tests.do
+
+* Run all tests but skip repo-comparison tests (ENV-01 to ENV-04)
+do run_tests.do norepo
+
+* Run a single test
+do run_tests.do DL-01
+
+* Run with verbose/trace mode
+do run_tests.do DL-01 verbose
+
+* List all available tests
+do run_tests.do list
+
+* Configure repo path manually (alternative to auto-detection)
+global wbopendata_repo "D:/Projects/wbopendata"
+do run_tests.do
+```
 
 ---
 
@@ -18,141 +47,105 @@ This document outlines the testing protocol for validating `wbopendata` function
 - Stata 14+ (preferably Stata 17+)
 - Active internet connection
 - Clean Stata session (no data in memory)
+- wbopendata installed (via SSC or from repo)
 
----
-
-## Pre-Test Setup
-
-```stata
-clear all
-set more off
-cap log close
-log using "wbopendata_test_log.txt", replace text
-```
+**For repo-comparison tests (ENV-01 to ENV-04):**
+- Access to the wbopendata repository
+- Either run from `qa/` folder (auto-detection) or set: `global wbopendata_repo "path/to/repo"`
+- Or skip with: `do run_tests.do norepo`
 
 ---
 
 ## Test Categories
 
-### 1. Installation Tests
+### Category 0: Environment Checks (4 tests)
+
+| Test ID | Description | Expected Result |
+|---------|-------------|-----------------|
+| ENV-01 | wbopendata version matches repo | Installed version = repo version |
+| ENV-02 | Ado files sync status | All source files in sync |
+| ENV-03 | wbopendata.pkg matches src directories | All src files listed in pkg |
+| ENV-04 | All pkg files exist in repo | No missing files |
+
+### Category 1: Basic Downloads (5 tests)
 
 | Test ID | Description | Command | Expected Result |
 |---------|-------------|---------|-----------------|
-| INST-01 | Fresh SSC install | `ssc install wbopendata, replace` | Successful installation |
-| INST-02 | GitHub install | `net install wbopendata, from(...) replace` | Successful installation |
-| INST-03 | Help file loads | `help wbopendata` | Help displays correctly |
-| INST-04 | Dialog opens | `db wbopendata` | Dialog box appears |
+| DL-01 | Single indicator download | `wbopendata, indicator(SP.POP.TOTL) clear` | Data loads, >200 obs |
+| DL-02 | Single country download | `wbopendata, indicator(SP.POP.TOTL) country(USA) clear` | 1 country, >50 years |
+| DL-03 | Multiple countries download | `wbopendata, indicator(SP.POP.TOTL) country(USA;BRA;CHN) clear` | 3 countries |
+| DL-04 | Multiple indicators download | `wbopendata, indicator(SP.POP.TOTL;NY.GDP.MKTP.CD) clear long` | Both indicator variables exist |
+| DL-05 | Poverty and GDP per capita download | `wbopendata, indicator(SI.POV.DDAY;NY.GDP.PCAP.PP.KD) clear long` | Both variables exist |
 
-### 2. Basic Download Tests
-
-| Test ID | Description | Command | Expected Result |
-|---------|-------------|---------|-----------------|
-| DL-01 | Single indicator, all countries | `wbopendata, indicator(SP.POP.TOTL) clear` | Data loads, ~260 countries |
-| DL-02 | Single indicator, single country | `wbopendata, indicator(SP.POP.TOTL) country(USA) clear` | 1 country, 60+ years |
-| DL-03 | Single indicator, multiple countries | `wbopendata, indicator(SP.POP.TOTL) country(USA;BRA;CHN) clear` | 3 countries |
-| DL-04 | Multiple indicators | `wbopendata, indicator(SP.POP.TOTL;NY.GDP.MKTP.CD) clear` | 2 indicators |
-| DL-05 | Topic download | `wbopendata, topics(4) clear` | Education indicators |
-
-### 3. Format Tests
+### Category 2: Format Options (3 tests)
 
 | Test ID | Description | Command | Expected Result |
 |---------|-------------|---------|-----------------|
-| FMT-01 | Wide format (default) | `wbopendata, indicator(SP.POP.TOTL) clear` | Year columns (yr1960...) |
-| FMT-02 | Long format | `wbopendata, indicator(SP.POP.TOTL) clear long` | Year as variable |
-| FMT-03 | Year range | `wbopendata, indicator(SP.POP.TOTL) year(2010:2020) clear` | Only 2010-2020 |
-| FMT-04 | Latest only | `wbopendata, indicator(SP.POP.TOTL) clear long latest` | Single year per country |
+| FMT-01 | Long format | `wbopendata, indicator(SP.POP.TOTL) country(USA) clear long` | Year variable exists |
+| FMT-02 | Year range filter | `wbopendata, indicator(SP.POP.TOTL) country(USA) year(2010:2020) clear long` | Years within range |
+| FMT-03 | Latest option | `wbopendata, indicator(SP.POP.TOTL) country(USA;BRA;CHN) clear long latest` | 1 obs per country |
 
-### 4. Metadata Tests
+### Category 3: Country Metadata (10 tests)
 
-| Test ID | Description | Command | Expected Result |
-|---------|-------------|---------|-----------------|
-| META-01 | Metadata displayed | `wbopendata, indicator(SP.POP.TOTL) clear` | Metadata in results |
-| META-02 | No metadata option | `wbopendata, indicator(SP.POP.TOTL) clear nometadata` | No metadata display |
-| META-03 | URL in metadata | `wbopendata, indicator(SL.UEM.TOTL.ZS) clear` | No parsing error |
+| Test ID | Description | Expected Result |
+|---------|-------------|-----------------|
+| CTRY-01 | Match basic | `countryname` variable added |
+| CTRY-02 | Match with full option | `longitude`, `latitude`, `capital` added |
+| CTRY-03 | Full country metadata with indicator | All geographic variables exist |
+| CTRY-04 | ISO 2-digit codes option | `region_iso2` variable exists |
+| CTRY-05 | Geographic GEO group option | `capital`, `latitude`, `longitude` added |
+| CTRY-06 | Capital geographic option | `capital` variable exists |
+| CTRY-07 | Latitude and longitude options | Both coordinate variables exist |
+| CTRY-08 | Regions group option | `regionname` variable exists |
+| CTRY-09 | Income and Lending group options | `incomelevel`, `lendingtype` exist |
+| CTRY-10 | Geographic options with indicator | All geographic vars with data download |
 
-### 5. Country Metadata Tests
+### Category 4: Regression Tests (4 tests)
 
-| Test ID | Description | Command | Expected Result |
-|---------|-------------|---------|-----------------|
-| CTRY-01 | Match basic | See test code below | Country attrs added |
-| CTRY-02 | Match with full | See test code below | All attributes added |
-| CTRY-03 | Match with iso | See test code below | ISO2 codes added |
+| Test ID | Issue | Description | Expected Result |
+|---------|-------|-------------|-----------------|
+| REG-33 | #33 | Latest with long indicator names | No error |
+| REG-45 | #45 | URL in metadata parsing | No parsing error |
+| REG-46 | #46 | Update without varlist error | No error |
+| REG-51 | #51 | Match+indicator incompatibility check | Returns error as expected |
 
-**Test code for CTRY-01/02/03:**
-```stata
-* Create test data
-clear
-input str3 countrycode
-"USA"
-"BRA"
-"CHN"
-end
+### Category 5: Graph Metadata - v17.6 features (4 tests)
 
-* CTRY-01: Basic match
-wbopendata, match(countrycode)
-assert regionname != ""
+| Test ID | Description | Expected Result |
+|---------|-------------|-----------------|
+| LW-01 | Linewrap option basic | `r(name1_stack)` populated |
+| LW-02 | Linewrap with maxlength | Both name and description stacks populated |
+| LW-03 | Latest returns scalars | `r(latest)`, `r(latest_ncountries)`, `r(latest_avgyear)` exist |
+| LW-04 | Linewrap all fields | `r(name1_stack)` populated with all fields |
 
-* CTRY-02: Full attributes
-clear
-input str3 countrycode
-"USA"
-"BRA"
-"CHN"
-end
-wbopendata, match(countrycode) full
-describe
-
-* CTRY-03: ISO codes
-clear
-input str3 countrycode
-"USA"
-"BRA"
-"CHN"
-end
-wbopendata, match(countrycode) iso
-assert countrycode_iso2 != ""
-```
-
-### 6. Update Tests
+### Category 6: Maintenance Commands (6 tests)
 
 | Test ID | Description | Command | Expected Result |
 |---------|-------------|---------|-----------------|
-| UPD-01 | Query update | `clear` then `wbopendata, update query` | Shows current vintage |
-| UPD-02 | Check update | `clear` then `wbopendata, update check` | Compares vintages |
+| UPD-01 | Update query command | `wbopendata, update query` | Shows current vintage |
+| UPD-02 | Describe indicators | `wbopendata, indicator(SP.POP.TOTL) describe clear` | Metadata returned |
+| UPD-03 | Update basic | `wbopendata, update` | No error |
+| UPD-04 | Update check detail | `wbopendata, update check detail` | No error |
+| UPD-05 | Update all | `wbopendata, update all` | No error |
+| UPD-06 | Update all force | `wbopendata, update all force` | No error |
 
-### 7. Error Handling Tests
-
-| Test ID | Description | Command | Expected Result |
-|---------|-------------|---------|-----------------|
-| ERR-01 | Invalid indicator | `wbopendata, indicator(INVALID.CODE) clear` | Graceful error |
-| ERR-02 | Invalid country | `wbopendata, indicator(SP.POP.TOTL) country(XXX) clear` | Graceful error or empty |
-| ERR-03 | Match with indicator (incompatible) | See code | Error message |
-
-**Test code for ERR-03:**
-```stata
-* Should produce error about incompatibility
-cap wbopendata, indicator(SP.POP.TOTL) match(countrycode) clear
-assert _rc != 0
-```
-
-### 8. Return Values Tests
+### Category 7: Topics & Language (2 tests)
 
 | Test ID | Description | Command | Expected Result |
 |---------|-------------|---------|-----------------|
-| RET-01 | Check return list | `wbopendata, indicator(SP.POP.TOTL) clear` then `return list` | r() values populated |
-| RET-02 | Multiple indicators | `wbopendata, indicator(SP.POP.TOTL;NY.GDP.MKTP.CD) clear` then `return list` | Multiple indicator info |
+| TOPIC-01 | Topics download | `wbopendata, topics(1) clear long` | Data loads, >100 obs |
+| LANG-01 | Language option Spanish | `wbopendata, indicator(SP.POP.TOTL) country(USA) language(es) clear long` | `r(varlabel1)` populated |
 
----
+### Category 8: Advanced Features (6 tests)
 
-## Regression Tests (for fixed issues)
-
-| Issue | Test | Command | Expected Result |
-|-------|------|---------|-----------------|
-| #33 | Latest with long names | `wbopendata, indicator(DT.DOD.DECT.CD) clear long latest` | No error |
-| #35 | Country sub-options | Test CTRY-02 above | Works correctly |
-| #45 | URL in metadata | Test META-03 above | No parsing error |
-| #46 | Varlist update | `clear` then `wbopendata, update check` | No error |
-| #51 | Match documentation | Test ERR-03 above | Clear error message |
+| Test ID | Description | Expected Result |
+|---------|-------------|-----------------|
+| PROJ-01 | Projection data download | `sp_pop_totl` variable exists |
+| FMT-04 | nobasic option | Default vars (region, incomelevel, etc.) NOT present |
+| DESC-01 | Describe option (metadata only) | Metadata returned, no data in memory |
+| META-01 | nometadata suppresses metadata returns | No stack returns populated |
+| CTRY-11 | Admin regions option | `adminregion`, `adminregionname` exist |
+| DATE-01 | Date range option | Data within date range |
 
 ---
 
@@ -161,44 +154,78 @@ assert _rc != 0
 | Test | Command | Target Time |
 |------|---------|-------------|
 | Single indicator, all countries | `wbopendata, indicator(SP.POP.TOTL) clear` | < 30 seconds |
-| Topic download | `wbopendata, topics(4) clear` | < 60 seconds |
+| Topic download | `wbopendata, topics(1) clear` | < 60 seconds |
 | Multiple indicators (3) | `wbopendata, indicator(A;B;C) clear` | < 60 seconds |
+| Full test suite (44 tests) | `do run_tests.do` | < 5 minutes |
 
 ---
 
 ## Test Execution Checklist
 
-- [ ] All INST tests pass
-- [ ] All DL tests pass
-- [ ] All FMT tests pass
-- [ ] All META tests pass
-- [ ] All CTRY tests pass
-- [ ] All UPD tests pass
-- [ ] All ERR tests pass
-- [ ] All RET tests pass
-- [ ] All regression tests pass
+- [ ] ENV tests pass (environment checks)
+- [ ] DL tests pass (basic downloads)
+- [ ] FMT tests pass (format options)
+- [ ] CTRY tests pass (country metadata)
+- [ ] REG tests pass (regression tests)
+- [ ] LW tests pass (graph metadata)
+- [ ] UPD tests pass (maintenance commands)
+- [ ] TOPIC/LANG tests pass
+- [ ] Advanced feature tests pass
 - [ ] Performance within targets
+
+---
+
+## Test Output Files
+
+| File | Description |
+|------|-------------|
+| `run_tests.log` | Latest test run log (canonical copy) |
+| `test_results_vX.Y.Z_DDMMMYYYY.log` | Dated log for specific version |
+| `test_history.txt` | Append-only history of all test runs |
 
 ---
 
 ## Reporting
 
-After testing, document:
+After running `do run_tests.do`, the script automatically:
 
-1. **Date and time** of test
-2. **Stata version** used
-3. **wbopendata version** tested
-4. **Pass/Fail** for each category
-5. **Any errors or anomalies**
-6. **Log file** saved
+1. Logs all output to `test_results_vX.Y.Z_DDMMMYYYY.log`
+2. Copies to `run_tests.log` for quick access
+3. Appends summary to `test_history.txt`
+4. Displays pass/fail counts and failed test IDs
 
-```stata
-log close
-* Save log as: wbopendata_test_YYYYMMDD.log
+**Test history entry format:**
+```
+======================================================================
+Test Run: DD Mon YYYY
+Started:  HH:MM:SS
+Ended:    HH:MM:SS
+Duration: Xm Ys
+Version:  X.Y.Z
+Build:    DDMMMYYYY
+Stata:    XX
+Tests:    NN run, NN passed, NN failed
+Result:   ALL TESTS PASSED / FAILED
+Failed:   TEST-ID, TEST-ID, ...
+Log:      test_results_vX.Y.Z_DDMMMYYYY.log
+======================================================================
 ```
 
 ---
 
-## Automated Test Script
+## Latest Test Results
 
-See `qa/run_tests.do` for automated test execution.
+**Last Successful Full Run:** 28 Jan 2026  
+**Version:** 17.7.2  
+**Result:** 44 run, 44 passed, 0 failed
+
+---
+
+## Related Documentation
+
+| Document | Description |
+|----------|-------------|
+| [README.md](README.md) | Quick start guide for running tests |
+| [TESTING_GUIDE.md](TESTING_GUIDE.md) | Best practices for Stata testing |
+| [run_tests.do](run_tests.do) | Automated test script |
+| [test_history.txt](test_history.txt) | Append-only history of all test runs |
