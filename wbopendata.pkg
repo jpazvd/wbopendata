@@ -1,4 +1,4 @@
-v 17.7.1
+v 18.0.0
 d 'WBOPENDATA': module to access World Bank databases
 d 
 d wbopendata allows Stata users to download over 20,000 indicators 
@@ -26,11 +26,11 @@ d KW: open data
 d 
 d Requires: Stata version 14
 d 
-d Distribution-Date: 20260104
+d Distribution-Date: 20260121
 d License: MIT
 d 
 d Author: João Pedro Azevedo
-d Support: email jpazvd.github.io 
+d Support: https://github.com/jpazvd/wbopendata 
 d 
 f src/w/wbopendata.ado
 f src/w/wbopendata_populate_list.ado
@@ -64,5 +64,24 @@ f src/_/_wbod_tmpfile1.ado
 f src/_/_wbod_tmpfile2.ado
 f src/_/_wbod_tmpfile3.ado
 f src/_/_website.ado
+f src/_/_wbopendata_cache.ado
+f src/_/_wbopendata_check_version.ado
+f src/_/_wbopendata_download_yaml.ado
+f src/_/_wbopendata_get_yaml_path.ado
+f src/_/_wbopendata_search.ado
+f src/_/_wbopendata_info.ado
+f src/_/_wbopendata_indicators.yaml
+f src/_/_wbopendata_sources.yaml
+f src/_/_wbopendata_topics.yaml
+f src/y/yaml.ado
+f src/y/yaml.sthlp
+f src/py/update_metadata.py
+f src/py/update_metadata.do
+f src/py/wb_api_client.py
+f src/py/yaml_generator.py
+f src/py/schema_validator.py
+f src/py/git_manager.py
+f src/py/diff_analyzer.py
+f src/py/__init__.py
 f src/c/country.txt
 f src/i/indicators.txt
