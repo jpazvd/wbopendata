@@ -1,6 +1,7 @@
 # wbopendata Testing Guide
 
-**Version:** 17.7.2  
+**Test Suite Version:** 2.0.0  
+**Compatible with:** wbopendata v17.7.1+  
 **Last Updated:** January 2026
 
 [← Back to README](../README.md) | [Test Protocol](test_protocol.md) | [QA README](README.md) | [FAQ](../doc/FAQ.md)

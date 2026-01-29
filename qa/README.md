@@ -1,6 +1,7 @@
 # wbopendata Test Suite
 
-**Version:** 17.7.2  
+**Test Suite Version:** 2.0.0  
+**Compatible with:** wbopendata v17.7.1+  
 **Last Updated:** January 2026
 
 This document explains how to run the `wbopendata` test suite on any machine.
@@ -230,8 +231,8 @@ C:\GitHub\wbopendata\qa
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 17.7.2 | Jan 2026 | Made test suite generic; added `norepo` option; auto-detection |
-| 17.7.1 | Jan 2026 | Initial structured test suite |
+| 2.0.0 | Jan 2026 | Independent test suite versioning; generic paths; `norepo` option; auto-detection |
+| 1.0.0 | Jan 2026 | Initial structured test suite (44 tests) |
 
 ---
 

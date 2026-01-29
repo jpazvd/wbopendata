@@ -1,7 +1,8 @@
 /*******************************************************************************
 * wbopendata Automated Test Suite
-* Version: 17.7.2
+* Test Suite Version: 2.0.0
 * Date: January 2026
+* Compatible with: wbopendata v17.7.1+
 * Total Tests: 44 (40 core + 4 repo-comparison)
 * 
 * Usage: 
