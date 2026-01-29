@@ -8,7 +8,8 @@
 
 This document outlines the testing protocol for validating `wbopendata` functionality before releases. The automated test suite is in `run_tests.do`.
 
-**Version**: 17.7.2  
+**Test Suite Version**: 2.0.0  
+**Compatible with**: wbopendata v17.7.1+  
 **Last Updated**: January 2026  
 **Total Tests**: 44 automated tests across 9 categories (40 core + 4 repo-comparison)
 
