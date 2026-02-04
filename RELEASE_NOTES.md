@@ -256,15 +256,40 @@ net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendat
 
 ## Previous Releases
 
-### v17.0 (2024)
+For complete version history including all releases from v12.0 (2013) to present, see the **[Changelog](CHANGELOG.md)**.
 
-- Updated to World Bank API v2
-- Added support for new indicators
-- Performance improvements
+### Version Timeline
 
-### v16.x and earlier
+```
+2026 ─┬─ v17.7.1  Test suite expansion, documentation
+      ├─ v17.7    Basic country context by default
+      └─ v17.6    Graph metadata (linewrap) features
 
-See [commit history](https://github.com/jpazvd/wbopendata/commits/main) for details.
+2025 ─── v17.1    Community bug fixes, documentation overhaul
+
+2023 ─── v17.0    Region metadata, enhanced matching
+
+2020 ─┬─ v16.3    HTTPS API migration
+      └─ v16.0    Multiple indicators, modular architecture
+
+2019 ─┬─ v15.1    Update options, 16,000+ indicators
+      └─ v14.0    New API server
+
+2016 ─── v13.5    Last SSC release before major overhaul ◄──
+
+2014 ─── v13.0    Duplicate fix, 9,960 indicators
+
+2013 ─── v12.0    7,349 indicators, return list enhancements
+```
+
+### SSC vs GitHub Versions
+
+| Channel | Current | Notes |
+|---------|---------|-------|
+| **SSC** | v13.5 | Stable, install via `ssc install wbopendata` |
+| **GitHub** | v17.7.1 | Latest features, install via `net install` |
+
+> **Note:** The SSC version (v13.5) predates the 2019 API modernization. For full functionality including `match()`, `linewrap()`, and 29,000+ indicators, install from GitHub.
 
 ---
 
