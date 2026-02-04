@@ -68,6 +68,15 @@ version 9.0
 						latitude 			///
 						longitude 			///
 						countryname		///
+						SYNC			///
+						SYNCFORCE		///
+						CHECKUPDATE		///
+						CLEARCACHE		///
+						CACHEINFO		///
+						SEARCH(string)	///
+						LIMIT(integer 20)	///
+						SEARCHSOURCE(string)	///
+						INFO(string)	///
 						LINEWRAP(string) 	///
 						MAXLENGTH(string) 	///
 						LINEWRAPFORMAT(string) 	///
@@ -96,6 +105,49 @@ local indicator `indicators'
 	if ("`linewrapformat'" != "") local needmeta 1
 	if ("`maxlength'" != "") local needmeta 1
 
+	* Search and info commands (discovery)
+	if ("`search'" != "" | "`info'" != "") {
+		if ("`search'" != "") {
+			noisily _wbopendata_search "`search'", limit(`limit') source("`searchsource'")
+			return add
+			exit _rc
+		}
+		if ("`info'" != "") {
+			noisily _wbopendata_info, indicator("`info'")
+			return add
+			exit _rc
+		}
+	}
+
+	* Sync and cache maintenance commands
+	if ("`sync'" != "" | "`syncforce'" != "" | "`checkupdate'" != "" | "`clearcache'" != "" | "`cacheinfo'" != "") {
+		if ("`clearcache'" != "") {
+			_wbopendata_cache, clear
+			exit _rc
+		}
+		if ("`cacheinfo'" != "") {
+			_wbopendata_cache, info
+			exit _rc
+		}
+		if ("`checkupdate'" != "") {
+			_wbopendata_cache, checkversion
+			if (r(needs_update)) {
+				di as result "Update available!"
+				di as text "  Local version:  v" r(local_version)
+				di as text "  Remote version: v" r(remote_version)
+				di as text ""
+				di as text "Run wbopendata, sync to update"
+			}
+			else di as text "Metadata is up-to-date (v" r(local_version) ")"
+			exit _rc
+		}
+		if ("`sync'" != "" | "`syncforce'" != "") {
+			if ("`syncforce'" != "") _wbopendata_cache, update force
+			else _wbopendata_cache, update
+			exit _rc
+		}
+	}
+
 	* describe option: just fetch metadata and exit
 	if ("`describe'" != "") {
 		if ("`indicator'" == "") {
@@ -108,17 +160,47 @@ local indicator `indicators'
 	}
 
 	* query and check can not be selected at the same time
-		if ("`query'" == "query") & ("`check'" == "check") {
-			noi di  as err "update query and update check options cannot be selected at the same time."
-			exit 198
-		}
-	
+	if ("`query'" == "query") & ("`check'" == "check") {
+		noi di  as err "update query and update check options cannot be selected at the same time."
+		exit 198
+	}
+
 	* match and indicators can not be selected at the same time
 		if ("`match'" != "") & ("`indicator'" != "") {
 			noi di  as err "{p 4 4 2}Error: The {bf:match} option cannot be used with the {bf:indicators} option. The {bf:match} option is used to retrieve country metadata only and does not download indicator data.{p_end}"
 			noi di  as err "{p 4 4 2}Please use either {bf:match} alone for country metadata, or {bf:indicators} without {bf:match} to download indicator data.{p_end}"
 			exit 198
 		}
+	
+	* Check if no substantive options provided - show help message
+	local has_data_request = wordcount("`indicator' `country' `topics' `match'") > 0
+	local has_sync_request = wordcount("`sync' `syncforce' `checkupdate' `clearcache' `cacheinfo'") > 0
+	local has_discovery_request = wordcount("`search' `info'") > 0
+	local has_update_request = wordcount("`update' `query' `check' `countrymetadata' `all' `metadataoffline'") > 0
+	
+	if !(`has_data_request') & !(`has_sync_request') & !(`has_discovery_request') & !(`has_update_request') {
+		noi di as err "You must specify either indicator(), country(), topics(), or match() to download data."
+		noi di ""
+		noi di as text "Discovery commands:"
+		noi di `"{stata `"wbopendata, search(GDP)"':  wbopendata, search(GDP)}           - Search indicators by keyword"'
+		noi di `"{stata `"wbopendata, search(health)"':  wbopendata, search(health)}     - Search within a source"'
+		noi di `"{stata `"wbopendata, info(NY.GDP.MKTP.CD)"':  wbopendata, info(NY.GDP.MKTP.CD)} - Get indicator details"'
+		noi di ""
+		noi di as text "Cache & sync commands:"
+		noi di `"{stata `"wbopendata, checkupdate"':  wbopendata, checkupdate}  - Check for metadata updates"'
+		noi di `"{stata `"wbopendata, sync"':  wbopendata, sync}         - Sync metadata from GitHub"'
+		noi di `"{stata `"wbopendata, cacheinfo"':  wbopendata, cacheinfo}    - Display cache status"'
+		noi di ""
+		noi di as text "Data retrieval examples:"
+		noi di `"{stata `"wbopendata, indicator(NY.GDP.MKTP.CD) clear"':  wbopendata, indicator(NY.GDP.MKTP.CD) clear}"'
+		noi di `"{stata `"wbopendata, indicator(NY.GDP.MKTP.CD) country(BRA;USA) clear"':  wbopendata, indicator(NY.GDP.MKTP.CD) country(BRA;USA) clear}"'
+		noi di `"{stata `"wbopendata, country(BRA) clear"':  wbopendata, country(BRA) clear}"'
+		noi di `"{stata `"wbopendata, topics(1) clear"':  wbopendata, topics(1) clear}"'
+		noi di ""
+		noi di as text "For full documentation:"
+		noi di `"{stata `"help wbopendata"':  help wbopendata}"'
+		exit 198
+	}
 	
 		set checksum off
 	
