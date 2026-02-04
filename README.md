@@ -52,20 +52,25 @@ The access to these databases is made possible by the World Bank's [Open Data In
 
 ## Installation
 
-### From SSC (Recommended)
-```stata
-ssc install wbopendata, replace
-```
+### From GitHub (Recommended)
 
-### From GitHub (Latest Version - v17.7)
 ```stata
 net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main") replace
 ```
 
-### From GitHub (Specific Release)
+### From SSC (Stable but older)
+
 ```stata
-* Install v17.7 specifically
-net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v17.7") replace
+ssc install wbopendata, replace
+```
+
+> ⚠️ **Note:** The SSC version (v13.5) is from 2016 and lacks many features. Install from GitHub for full functionality.
+
+### From GitHub (Specific Release)
+
+```stata
+* Install v17.7.1 specifically
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v17.7.1") replace
 ```
 
 ### From Local Clone
@@ -147,6 +152,18 @@ desc  // Shows 12 variables including the 8 basic metadata variables
 * Use nobasic to suppress default country context variables
 wbopendata, indicator(NY.GDP.MKTP.CD) clear long nobasic
 desc  // Shows only 4 core variables
+
+* NEW: Discovery features - search for indicators
+wbopendata, search(GDP)                    // Search indicators by keyword
+wbopendata, search(education) limit(50)    // Limit results
+
+* NEW: Get detailed info about a specific indicator
+wbopendata, info(NY.GDP.MKTP.CD)
+
+* NEW: Sync and cache management
+wbopendata, checkupdate    // Check if metadata updates are available
+wbopendata, sync           // Sync metadata from GitHub
+wbopendata, cacheinfo      // Display cache status
 ```
 
 ---
@@ -182,11 +199,36 @@ desc  // Shows only 4 core variables
 - **country(string)**: Countries and Regions Abbreviations and acronyms. If solely specified, this option will return all the WDI indicators (1,076 series) for a single country or region (no multiple country selection allowed in this case). If this option is selected jointly with a specific indicator, the output is a series for a specific country or region, or multiple countries or region. When selecting multiple countries please use the three letters code, separated by a semicolon (;), with no spaces.
 
 
-- **topics(numlist)**: Topic List 21 topic lists are curently supported and include Agriculture & Rural Development; Aid Effectiveness; Economy & Growth; Education; Energy & Mining; Environment; Financial Sector; Health; Infrastructure; Social Protection & Labor; Poverty; Private Sector; Public Sector; Science & Technology; Social Development; Urban Development; Gender; Millenium development goals; Climate Change; External Debt; and, Trade (only one topic collection can be requested at the time).
+- **topics(numlist)**: Topic List. 21 topic lists are currently supported and include Agriculture & Rural Development; Aid Effectiveness; Economy & Growth; Education; Energy & Mining; Environment; Financial Sector; Health; Infrastructure; Social Protection & Labor; Poverty; Private Sector; Public Sector; Science & Technology; Social Development; Urban Development; Gender; Millennium development goals; Climate Change; External Debt; and Trade (only one topic collection can be requested at a time).
 
 
-- **indicator(string)**: Indicators List list of indicator codes (All series). When selecting multiple indicators please use semicolon (;), to separate differenet indicatos.
+- **indicator(string)**: Indicators List. List of indicator codes (all series). When selecting multiple indicators, use semicolon (;) to separate different indicators.
 
+### Output Options
+
+- **long**: Reshape data to long format (one row per country-year)
+- **latest**: Keep only the most recent non-missing observation per country
+- **clear**: Clear existing data before loading
+- **nobasic**: Suppress default country context variables (region, income level, etc.)
+
+### Discovery & Search
+
+- **search(string)**: Search indicators by keyword
+- **info(string)**: Get detailed metadata for a specific indicator
+- **limit(integer)**: Limit search results (default: 20)
+
+### Metadata & Sync
+
+- **sync**: Sync metadata cache from GitHub
+- **checkupdate**: Check if metadata updates are available
+- **cacheinfo**: Display cache status
+- **clearcache**: Clear local metadata cache
+
+### Graph Formatting
+
+- **linewrap(string)**: Wrap metadata text for graphs (name, description, note)
+- **maxlength(integer)**: Maximum characters per line (default: 50)
+- **linewrapformat(string)**: Output format (stack, newline, lines, all)
 
 ## Disclaimer
 
