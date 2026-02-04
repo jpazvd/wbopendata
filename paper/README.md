@@ -6,16 +6,18 @@ Stata Journal manuscript documenting the `wbopendata` command: fifteen years of 
 
 | File | Description |
 |------|-------------|
-| `jpazvd_wbopendata_restructured.tex` | Main manuscript (active) |
-| `jpazvd_wbopendata.tex` | Earlier version (archive) |
+| `jpazvd_wbopendata_v3.tex` | Main manuscript (current version) |
+| `jpazvd_wbopendata_v2.tex` | Previous version (with bibliography) |
+| `jpazvd_wbopendata-v1.tex` | Initial version (archive) |
+| `wbopendata.bib` | BibTeX bibliography database |
 
 ## Folders
 
 | Folder | Contents |
 |--------|----------|
-| `figs/` | PDF figures referenced in the paper (5 files) |
-| `sjlogs/` | Stata log snippets for inclusion via `\input{}` |
-| `scripts/` | Stata do-files and Python utilities |
+| `figs/` | PDF figures referenced in the paper (5 figures) |
+| `sjlogs/` | Stata log snippets for LaTeX inclusion (38 files: `.tex` raw + `.log.tex` processed) |
+| `scripts/` | Stata do-files and Python utilities for log generation |
 | `docs/` | Supporting documentation |
 
 ## Style Files
@@ -30,29 +32,41 @@ The manuscript uses the Stata Journal document class:
 
 ## Building
 
-Compile with pdflatex:
+Compile the current version with pdflatex:
 
-```bash
-pdflatex jpazvd_wbopendata_restructured.tex
+```powershell
+pdflatex jpazvd_wbopendata_v3.tex
+bibtex jpazvd_wbopendata_v3
+pdflatex jpazvd_wbopendata_v3.tex
+pdflatex jpazvd_wbopendata_v3.tex
 ```
 
-Or with latexmk for automatic rebuilds:
+Or use latexmk for automatic rebuilds:
 
 ```bash
-latexmk -pdf jpazvd_wbopendata_restructured.tex
+latexmk -pdf jpazvd_wbopendata_v3.tex
 ```
 
 ## Regenerating Log Snippets
 
-1. Run the Stata do-files in `scripts/` to generate raw `.tex` files in `sjlogs/`
-2. Run the Python cleaner to produce `.log.tex` files:
+To regenerate Stata log snippets from source:
+
+1. Run the main generation script to produce raw `.tex` output in `sjlogs/`:
+
+```stata
+do scripts/generate_logs_sjlog.do
+```
+
+2. (Optional) Clean and post-process logs using Python utilities:
 
 ```bash
 cd scripts
 python clean_logs.py
 ```
 
-The cleaner reads `sjlogs/*.tex` (raw) and writes `sjlogs/*.log.tex` (cleaned for LaTeX inclusion).
+The workflow produces:
+- `sjlogs/*.tex` — Raw Stata output
+- `sjlogs/*.log.tex` — Processed files ready for LaTeX `\input{}`
 
 ## Figures
 
