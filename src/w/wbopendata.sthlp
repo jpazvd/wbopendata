@@ -3,6 +3,7 @@
 {* 4Feb2026  }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
+{right:What's New:  {bf:{help wbopendata_whatsnew:What's New}}}
 {right: {bf:version 17.8.1 (discovery commands)}}
 {hline}
 

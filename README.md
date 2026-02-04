@@ -93,7 +93,7 @@ net install wbopendata, from("/Users/username/GitHub/wbopendata") replace
 | Channel | Version | Indicators | Notes |
 |---------|---------|------------|-------|
 | **SSC** | v13.5 (2016) | ~10,000 | Stable, pre-API modernization |
-| **GitHub** | v17.7.1 (2026) | 29,000+ | Latest features, active development |
+| **GitHub** | v17.8.1 (2026) | 29,000+ | Latest features, active development |
 
 > **Recommendation:** Install from GitHub for full functionality including `match()`, `linewrap()`, multiple indicators, and 29,000+ indicators.
 
@@ -102,6 +102,7 @@ net install wbopendata, from("/Users/username/GitHub/wbopendata") replace
 
 | Year | Version | Milestone |
 |------|---------|-----------|
+| 2026 | v17.8 | **Discovery commands**: sources, alltopics, search, info |
 | 2026 | v17.7 | Basic country context by default, graph metadata |
 | 2025 | v17.1 | Community bug fixes, documentation overhaul |
 | 2023 | v17.0 | Region metadata, enhanced country matching |
@@ -213,9 +214,47 @@ wbopendata, cacheinfo      // Display cache status
 
 ### Discovery & Search
 
-- **search(string)**: Search indicators by keyword
-- **info(string)**: Get detailed metadata for a specific indicator
+**NEW in v17.8:** Interactive discovery commands with clickable SMCL navigation.
+
+#### Browsing Commands
+
+- **sources**: List all 51 World Bank data sources with indicator counts and clickable `[Browse]` links
+- **alltopics**: List all 21 topic categories with indicator counts and clickable `[Browse]` links
+
+#### Search Commands
+
+- **search(string)**: Search indicators by keyword (supports multiple words, wildcards `*`, regex patterns)
+- **searchsource(integer)**: Filter search results to a specific source (e.g., `searchsource(2)` for WDI)
+- **searchtopic(integer)**: Filter search results to a specific topic (e.g., `searchtopic(4)` for Education)
+- **searchfield(string)**: Search in specific fields: `code`, `name`, `description`, `all` (default: `all`)
+- **exact**: Require exact word match (no partial matching)
+- **detail**: Show full indicator details with wrapped text instead of truncated table
 - **limit(integer)**: Limit search results (default: 20)
+
+#### Indicator Info
+
+- **info(string)**: Get detailed metadata for a specific indicator code
+
+```stata
+* NEW in v17.8: Discovery commands
+
+* List all data sources with clickable navigation
+wbopendata, sources
+
+* List all topic categories
+wbopendata, alltopics
+
+* Search for indicators
+wbopendata, search(GDP)                           // Basic keyword search
+wbopendata, search(GDP growth)                    // Multi-keyword search
+wbopendata, search(GDP*) searchsource(2)          // Wildcard + filter by source
+wbopendata, search(education) searchtopic(4)      // Filter by topic
+wbopendata, search(^NY\.GDP) searchfield(code)    // Regex search in code field
+wbopendata, search(poverty) detail                // Full details with wrapped text
+
+* Get detailed info about a specific indicator
+wbopendata, info(NY.GDP.MKTP.CD)
+```
 
 ### Metadata & Sync
 
