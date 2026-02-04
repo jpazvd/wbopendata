@@ -131,15 +131,147 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Package distribution and SSC compatibility updates
 
-## [16.0] - 2019-10-29
+## [16.0] - 2019-10-27
 
 ### Added
-- Multiple indicator download support (semicolon-separated)
-- Enhanced metadata display options
+- `_api_read_indicators.ado`: Download indicator list from API in Stata-readable form
+- `_update_indicators.ado`: Generates documentation from API output
+- `match()` option: Add country metadata matching on specified variable
+- `_website.ado`: Converts HTTP/WWW text to SMCL web-compatible code
+- `_parameters.ado`: Detailed count of indicators by SOURCE and TOPIC
+- Help file search for indicators by Source and Topics
+- Dialogue indicator list
+- sthlp indicator list and metadata by Source and Topic
 
-## Earlier Versions
+### Changed
+- Renamed `_wbopendata.ado` to `_update_wbopendata.ado`
+- Renamed `_indicator` to `_update_indicators`
+- `_update_wbopendata.ado` now checks for changes at SOURCE/TOPIC level
+- Fixed return list when multiple indicators are selected
 
-For earlier version history, see the [SSC archive](https://ideas.repec.org/c/boc/bocode/s457234.html).
+---
+
+## [15.1] - 2019-03-04
+
+### Added
+- New error category 23: Series moved to archive
+- Country attribute table fully revised and linked to API
+- `update check`, `update query`, and `update` options
+- Auto-refresh indicators functionality
+- `update countrymetadata` option
+- Country metadata documentation in help file
+
+### Changed
+- Revised `_wbopendata.ado`
+- Country attributes fully revised
+- Break on missing metadata is now optional
+
+### Fixed
+- Over 16,000 indicators now supported
+
+---
+
+## [15.0] - 2019-02-02
+
+### Changed
+- Major version bump with internal improvements
+
+---
+
+## [14.3] - 2019-02-02
+
+### Fixed
+- `_wbopendata_update.ado` revised
+- `out.txt` file no longer created
+
+---
+
+## [14.2] - 2019-01-31
+
+### Fixed
+- Updated `_wbopendata_update.ado`
+- Added `set checksum off`
+
+---
+
+## [14.1] - 2019-01-19
+
+### Added
+- Indicator update function
+- `nopreserve` option (return list can be preserved)
+
+### Fixed
+- `latest` option behavior
+- `_query_metadata.ado` source ID return list
+
+### Changed
+- Updated examples
+- Updated help file
+- Updated list of indicators
+
+---
+
+## [14.0] - 2019-01-14
+
+### Changed
+- Migrated to new API server
+- Revised indicator list
+
+---
+
+## [13.5] - 2016-02-09
+
+### Changed
+- Indicator list update (February 2016)
+
+> **Note:** This was the last SSC release before major API and architecture changes.
+
+---
+
+## [13.4] - 2014-07-01
+
+### Added
+- Long reshape functionality
+
+---
+
+## [13.3] - 2014-06-30
+
+### Added
+- New error control for `clear` option
+
+---
+
+## [13.2] - 2014-06-24
+
+### Added
+- New error control mechanisms
+
+---
+
+## [13.1] - 2014-06-23
+
+### Added
+- Regional code, name, and iso2code support
+
+---
+
+## [13.0] - 2014-06-20
+
+### Fixed
+- Duplicate records problem resolved
+
+### Changed
+- Improved error messages
+- Updated indicator list to 9,960 indicators
+
+---
+
+## [12.0] - 2013-01-31
+
+### Changed
+- Updated to 7,349 indicators
+- Return list now includes variable name and label
 
 ---
 
@@ -147,8 +279,32 @@ For earlier version history, see the [SSC archive](https://ideas.repec.org/c/boc
 
 | Version | Date | Key Changes |
 |---------|------|-------------|
-| 17.0 | 24Jan2023 | Region metadata, enhanced matching |
-| 16.3 | 08Jul2020 | HTTPS migration |
-| 16.2.2 | 28Jun2020 | Package fixes |
-| 16.0 | 29Oct2019 | Multiple indicators |
+| **17.7.1** | 2026-01-04 | Test suite expansion, bug fixes |
+| **17.7** | 2026-01-02 | Basic country context by default |
+| **17.6** | 2025-12-28 | Graph metadata (linewrap) features |
+| **17.1** | 2025-12-21 | Community bug fixes, documentation overhaul |
+| **17.0** | 2023-01-24 | Region metadata, enhanced matching |
+| **16.3** | 2020-07-08 | HTTPS API migration |
+| **16.2** | 2020-04-13 | Offline metadata option |
+| **16.1** | 2020-04-12 | Removed SOURCEID/TOPICSID metadata from package |
+| **16.0** | 2019-10-27 | Multiple indicators, modular architecture |
+| **15.1** | 2019-03-04 | Update options, 16,000+ indicators |
+| **14.0** | 2019-01-14 | New API server |
+| **13.5** | 2016-02-09 | **Last SSC release before major overhaul** |
+| **13.0** | 2014-06-20 | Duplicate fix, 9,960 indicators |
+| **12.0** | 2013-01-31 | 7,349 indicators |
+
+---
+
+## SSC Release History
+
+The SSC (Statistical Software Components) archive at Boston College maintains the official Stata package distribution:
+
+| SSC Version | Date | Notes |
+|-------------|------|-------|
+| v13.5 | Feb 2016 | Last pre-API-modernization release |
+| v16.3 | Jul 2020 | HTTPS migration |
+| v17.x | 2023+ | Current development |
+
+For the SSC archive, see: [RePEc:boc:bocode:s457234](https://ideas.repec.org/c/boc/bocode/s457234.html)
 

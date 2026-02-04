@@ -83,6 +83,34 @@ net install wbopendata, from("/Users/username/GitHub/wbopendata") replace
 >
 > See [ssc/README.md](ssc/README.md) for details on the two-package architecture.
 
+### SSC vs GitHub Versions
+
+| Channel | Version | Indicators | Notes |
+|---------|---------|------------|-------|
+| **SSC** | v13.5 (2016) | ~10,000 | Stable, pre-API modernization |
+| **GitHub** | v17.7.1 (2026) | 29,000+ | Latest features, active development |
+
+> **Recommendation:** Install from GitHub for full functionality including `match()`, `linewrap()`, multiple indicators, and 29,000+ indicators.
+
+<details>
+<summary><b>📅 Version History</b> (click to expand)</summary>
+
+| Year | Version | Milestone |
+|------|---------|-----------|
+| 2026 | v17.7 | Basic country context by default, graph metadata |
+| 2025 | v17.1 | Community bug fixes, documentation overhaul |
+| 2023 | v17.0 | Region metadata, enhanced country matching |
+| 2020 | v16.3 | HTTPS API migration |
+| 2019 | v16.0 | Multiple indicators, modular architecture |
+| 2019 | v14.0 | New API server, 16,000+ indicators |
+| 2016 | v13.5 | **Last SSC release before major overhaul** |
+| 2014 | v13.0 | 9,960 indicators |
+| 2013 | v12.0 | Initial SSC release |
+
+See [CHANGELOG.md](CHANGELOG.md) for complete version history.
+
+</details>
+
 ## Quick Start
 
 ```stata
