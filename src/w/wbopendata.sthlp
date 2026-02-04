@@ -1,9 +1,9 @@
 {smcl}
 {hline}
-{* 4Jan2026  }{...}
+{* 4Feb2026  }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
-{right: {bf:version 17.7.1 (fixed multi-indicator latest)}}
+{right: {bf:version 17.8.1 (discovery commands)}}
 {hline}
 
 {title:Title}
@@ -61,6 +61,20 @@
 {synopt :{opt linewrap(fields)}} wrap metadata text for graph titles. Fields: name, description, note, source, topic, or all.{p_end}
 {synopt :{opt maxlength(# [# ...])}} maximum characters per line for linewrap. Single value (default 50) or multiple values matching linewrap field order.{p_end}
 {synopt :{opt linewrapformat(fmt)}} output format: stack (default), newline, nlines, lines, or all.{p_end}
+
+{synoptset 27 tabbed}{...}
+{synopthdr:Discovery Commands}
+{synoptline}
+{synopt :{opt sources}} list all World Bank data sources with indicator counts and clickable navigation.{p_end}
+{synopt :{opt alltopics}} list all World Bank topics with indicator counts and clickable navigation.{p_end}
+{synopt :{opt search(pattern)}} search indicators by keyword, wildcard, or regex pattern.{p_end}
+{synopt :{opt searchsource(#)}} filter search results to a specific source ID.{p_end}
+{synopt :{opt searchtopic(#)}} filter search results to a specific topic ID.{p_end}
+{synopt :{opt searchfield(fields)}} search in specific fields: code, name, description, source, topic, note, or all.{p_end}
+{synopt :{opt exact}} require exact match (no partial matching).{p_end}
+{synopt :{opt detail}} display search results in wrapped block format (full labels).{p_end}
+{synopt :{opt limit(#)}} maximum results to display (default 20).{p_end}
+{synopt :{opt info(code)}} display detailed metadata for a specific indicator.{p_end}
 {synoptline}
 {p 4 6 2}
 {cmd:wbopendata} requires a connection to the internet and supports the Stata dialogue function ({dialog wbopendata}).{p_end}
@@ -75,6 +89,7 @@ Sections are presented under the following headings:
 		{it:{help wbopendata##desc:Command description}}
 		{it:{help wbopendata##param:Parameters description}}
 		{it:{help wbopendata##options:Options description}}
+		{it:{help wbopendata##discovery:Discovery commands}}
 		{it:{help wbopendata##storedresults:Stored results}}
 		{it:{help wbopendata##attributes:List of supported country attributes}}
 		{it:{help wbopendata##countries:Country code and names by selected attributes}}
@@ -228,7 +243,146 @@ the last value is used for remaining fields.{p_end}
 {p 8 12 2}- {opt nlines}: returns {cmd:r({it:field}1_nlines)} scalar with line count{p_end}
 {p 8 12 2}- {opt lines}: returns {cmd:r({it:field}1_line1)}, {cmd:r({it:field}1_line2)}, etc. for each line{p_end}
 {p 8 12 2}- {opt all}: returns all formats ({cmd:_stack}, {cmd:_newline}, {cmd:_nlines}, {cmd:_line1}, etc.){p_end}
-	
+
+
+{marker discovery}{...}
+{p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
+{title:Discovery Commands}
+
+{pstd}
+Discovery commands help you explore the World Bank Open Data catalog without downloading data.
+All discovery outputs feature clickable SMCL navigation links that let you drill down from
+sources to topics to individual indicators, and then download data with a single click.{p_end}
+
+{dlgtab:List Sources}
+
+{synopt :{opt sources}}Lists all World Bank data sources (databases) with clickable navigation.{p_end}
+
+{pstd}Displays a table showing source ID, name, indicator count, and a clickable [Browse] link
+to see all indicators in that source. Use {opt limit(#)} to control display.{p_end}
+
+{p 8 12}{stata "wbopendata, sources" :. wbopendata, sources}{p_end}
+
+{pstd}Returns: {cmd:r(n_sources)}, {cmd:r(n_indicators)}, {cmd:r(source_codes)}, {cmd:r(source_names)}, {cmd:r(cmd)}{p_end}
+
+{dlgtab:List Topics}
+
+{synopt :{opt alltopics}}Lists all 21 World Bank topic categories with clickable navigation.{p_end}
+
+{pstd}Displays a table showing topic ID, name, indicator count, and a clickable [Browse] link
+to see all indicators in that topic. Use {opt limit(#)} to control display.{p_end}
+
+{p 8 12}{stata "wbopendata, alltopics" :. wbopendata, alltopics}{p_end}
+
+{pstd}Returns: {cmd:r(n_topics)}, {cmd:r(topic_ids)}, {cmd:r(topic_names)}, {cmd:r(cmd)}{p_end}
+
+{dlgtab:Search Indicators}
+
+{synopt :{opt search(pattern)}}Search indicators by keyword, wildcard pattern, or regex.{p_end}
+
+{pstd}The search command scans indicator codes, names, descriptions, source organizations,
+topic names, and notes. Results include clickable [Info] and [Get] links for each indicator.{p_end}
+
+{pstd}{ul:{bf:Basic search:}}{p_end}
+
+{p 8 12}{stata "wbopendata, search(GDP)" :. wbopendata, search(GDP)}{p_end}
+{p 8 12}{stata "wbopendata, search(poverty) limit(50)" :. wbopendata, search(poverty) limit(50)}{p_end}
+
+{pstd}{ul:{bf:Multi-keyword AND search:}} Use {cmd:+} between keywords to require ALL words match:{p_end}
+
+{p 8 12}{stata "wbopendata, search(learning+poverty)" :. wbopendata, search(learning+poverty)}{p_end}
+{p 8 12}{stata "wbopendata, search(GDP+per+capita)" :. wbopendata, search(GDP+per+capita)}{p_end}
+
+{pstd}{ul:{bf:Wildcard patterns:}}{p_end}
+
+{p 8 12 2}- {cmd:*} matches any characters (0 or more){p_end}
+{p 8 12 2}- {cmd:?} matches any single character{p_end}
+{p 8 12 2}- {cmd:[abc]} matches any character in the set{p_end}
+{p 8 12 2}- {cmd:[a-z]} matches any character in the range{p_end}
+
+{p 8 12}{stata "wbopendata, search(NY.GDP.*)" :. wbopendata, search(NY.GDP.*)}{p_end}
+{p 8 12}{stata "wbopendata, search(SP.POP.????)" :. wbopendata, search(SP.POP.????)}{p_end}
+
+{pstd}{ul:{bf:Regex mode:}} Prefix with {cmd:~} for full regex syntax:{p_end}
+
+{p 8 12}{stata "wbopendata, search(~^SP\.DYN\..*\.IN$)" :. wbopendata, search(~^SP\.DYN\..*\.IN$)}{p_end}
+
+{pstd}{ul:{bf:Filter by source or topic:}}{p_end}
+
+{p 8 12}{stata "wbopendata, search(GDP) searchsource(2)" :. wbopendata, search(GDP) searchsource(2)}{p_end}
+{p 8 12}{stata "wbopendata, search(poverty) searchtopic(11)" :. wbopendata, search(poverty) searchtopic(11)}{p_end}
+{p 8 12}{stata "wbopendata, searchsource(2) limit(30)" :. wbopendata, searchsource(2) limit(30)}{p_end}
+
+{pstd}{ul:{bf:Search specific fields:}} The {opt searchfield()} option restricts search to specific metadata fields:{p_end}
+
+{p 8 12 2}- {cmd:code}: indicator code only{p_end}
+{p 8 12 2}- {cmd:name}: indicator name only{p_end}
+{p 8 12 2}- {cmd:description}: detailed description{p_end}
+{p 8 12 2}- {cmd:source}: source organization{p_end}
+{p 8 12 2}- {cmd:topic}: topic names{p_end}
+{p 8 12 2}- {cmd:note}: methodology notes{p_end}
+{p 8 12 2}- {cmd:all}: all fields (default){p_end}
+
+{p 8 12}{stata "wbopendata, search(NY.GDP.*) searchfield(code)" :. wbopendata, search(NY.GDP.*) searchfield(code)}{p_end}
+{p 8 12}{stata "wbopendata, search(purchasing power) searchfield(description)" :. wbopendata, search(purchasing power) searchfield(description)}{p_end}
+
+{pstd}Multiple fields can be specified with semicolons:{p_end}
+
+{p 8 12}{stata "wbopendata, search(GDP) searchfield(code;name)" :. wbopendata, search(GDP) searchfield(code;name)}{p_end}
+
+{pstd}{ul:{bf:Display format options:}}{p_end}
+
+{synopt :{opt detail}}Show results in wrapped block format with full indicator names and topic labels (no truncation).{p_end}
+
+{p 8 12}{stata "wbopendata, search(GDP) detail limit(5)" :. wbopendata, search(GDP) detail limit(5)}{p_end}
+
+{pstd}Without {opt detail}, results display in a compact table format where long names are truncated.
+Column widths automatically adjust to your terminal's {cmd:linesize}.{p_end}
+
+{synopt :{opt exact}}Require exact code match (case-insensitive, no partial matching).{p_end}
+
+{p 8 12}{stata "wbopendata, search(NY.GDP.MKTP.CD) exact" :. wbopendata, search(NY.GDP.MKTP.CD) exact}{p_end}
+
+{pstd}Returns: {cmd:r(n_results)}, {cmd:r(n_displayed)}, {cmd:r(first_code)}, {cmd:r(codes)},
+{cmd:r(names)}, {cmd:r(sources)}, {cmd:r(topics)}, {cmd:r(keyword)}, {cmd:r(source_filter)},
+{cmd:r(topic_filter)}, {cmd:r(field_filter)}, {cmd:r(cmd)}{p_end}
+
+{dlgtab:Indicator Info}
+
+{synopt :{opt info(code)}}Display detailed metadata for a specific indicator.{p_end}
+
+{pstd}Shows indicator code, name, source, topics, description, and notes with automatic
+text wrapping. Includes clickable [Browse] links to explore related indicators by
+source or topic, and [Download] links for wide/long format data.{p_end}
+
+{p 8 12}{stata "wbopendata, info(NY.GDP.MKTP.CD)" :. wbopendata, info(NY.GDP.MKTP.CD)}{p_end}
+{p 8 12}{stata "wbopendata, info(SI.POV.DDAY)" :. wbopendata, info(SI.POV.DDAY)}{p_end}
+
+{pstd}Returns: {cmd:r(indicator)}, {cmd:r(name)}, {cmd:r(source_name)}, {cmd:r(source_org)},
+{cmd:r(source_id)}, {cmd:r(topics)}, {cmd:r(description)}, {cmd:r(note)}, {cmd:r(cmd)}{p_end}
+
+{dlgtab:Discovery Workflow Example}
+
+{pstd}A typical discovery workflow:{p_end}
+
+{cmd}
+.     * 1. Browse available sources
+.     wbopendata, sources
+.
+.     * 2. Explore a specific source (World Development Indicators = 2)
+.     wbopendata, searchsource(2) limit(30)
+.
+.     * 3. Search for indicators of interest
+.     wbopendata, search(poverty) searchtopic(11)
+.
+.     * 4. Get detailed info on a specific indicator
+.     wbopendata, info(SI.POV.DDAY)
+.
+.     * 5. Download the data (click [Get] or run directly)
+.     wbopendata, indicator(SI.POV.DDAY) clear long
+{txt}
+
+
 {marker attributes}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
 {title:List Country attributes currently supported}
@@ -524,6 +678,70 @@ where multiple quoted strings stack vertically: {cmd:"line1" "line2" "line3"}.{p
 {synopt:{cmd:r({it:field#}_line1)}, ...}Individual wrapped lines{p_end}
 {synoptline}
 
+{pstd}{ul:{bf:Discovery commands stored results}}{p_end}
+
+{pstd}Discovery commands ({opt sources}, {opt alltopics}, {opt search()}, {opt info()})
+return metadata for programmatic use and automation.{p_end}
+
+{pstd}{bf:wbopendata, sources}{p_end}
+
+{synoptset 28 tabbed}{...}
+{p2col 5 28 32 2: Result}{p_end}
+{synoptline}
+{synopt:{cmd:r(n_sources)}}Total number of data sources (scalar){p_end}
+{synopt:{cmd:r(n_available)}}Sources with data availability flag (scalar){p_end}
+{synopt:{cmd:r(n_indicators)}}Total indicator count across all sources (scalar){p_end}
+{synopt:{cmd:r(source_codes)}}Space-separated list of source IDs{p_end}
+{synopt:{cmd:r(source_names)}}Compound-quoted list of source names{p_end}
+{synopt:{cmd:r(cmd)}}Reproducible command string{p_end}
+{synoptline}
+
+{pstd}{bf:wbopendata, alltopics}{p_end}
+
+{synoptset 28 tabbed}{...}
+{p2col 5 28 32 2: Result}{p_end}
+{synoptline}
+{synopt:{cmd:r(n_topics)}}Total number of topics (scalar){p_end}
+{synopt:{cmd:r(topic_ids)}}Space-separated list of topic IDs{p_end}
+{synopt:{cmd:r(topic_names)}}Compound-quoted list of topic names{p_end}
+{synopt:{cmd:r(cmd)}}Reproducible command string{p_end}
+{synoptline}
+
+{pstd}{bf:wbopendata, search(pattern)}{p_end}
+
+{synoptset 28 tabbed}{...}
+{p2col 5 28 32 2: Result}{p_end}
+{synoptline}
+{synopt:{cmd:r(n_results)}}Total matches found (scalar){p_end}
+{synopt:{cmd:r(n_displayed)}}Matches displayed after limit (scalar){p_end}
+{synopt:{cmd:r(first_code)}}First matching indicator code{p_end}
+{synopt:{cmd:r(codes)}}Space-separated list of indicator codes{p_end}
+{synopt:{cmd:r(names)}}Compound-quoted list of indicator names{p_end}
+{synopt:{cmd:r(sources)}}Space-separated list of source IDs{p_end}
+{synopt:{cmd:r(topics)}}Compound-quoted list of topic names{p_end}
+{synopt:{cmd:r(keyword)}}Search keyword used{p_end}
+{synopt:{cmd:r(source_filter)}}Source filter if specified{p_end}
+{synopt:{cmd:r(topic_filter)}}Topic filter if specified{p_end}
+{synopt:{cmd:r(field_filter)}}Field filter if specified{p_end}
+{synopt:{cmd:r(cmd)}}Reproducible command string{p_end}
+{synoptline}
+
+{pstd}{bf:wbopendata, info(code)}{p_end}
+
+{synoptset 28 tabbed}{...}
+{p2col 5 28 32 2: Result}{p_end}
+{synoptline}
+{synopt:{cmd:r(indicator)}}Indicator code{p_end}
+{synopt:{cmd:r(name)}}Indicator name{p_end}
+{synopt:{cmd:r(source_name)}}Source database name{p_end}
+{synopt:{cmd:r(source_org)}}Source organization{p_end}
+{synopt:{cmd:r(source_id)}}Source database ID{p_end}
+{synopt:{cmd:r(topics)}}Topic name(s){p_end}
+{synopt:{cmd:r(description)}}Full indicator description{p_end}
+{synopt:{cmd:r(note)}}Methodology note{p_end}
+{synopt:{cmd:r(cmd)}}Reproducible command string{p_end}
+{synoptline}
+
 {pstd}{ul:{bf:Example: Using stored results}}{p_end}
 
 {p 4 4 2}Extract metadata for automated figure annotation. This workflow demonstrates how {cmd:wbopendata} enables fully automated pipelines: the script downloads data, extracts wrapped metadata for the title, and uses the latest-year subtitle---all without hardcoding any text:{p_end}
@@ -545,6 +763,26 @@ where multiple quoted strings stack vertically: {cmd:"line1" "line2" "line3"}.{p
 {title:Examples}{p 50 20 2}{p_end}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
 {pstd}
+
+{pstd}{ul:{bf:Discovery Commands (v17.8+)}}{p_end}
+
+{p 8 12}{stata "wbopendata, sources" :. wbopendata, sources}{p_end}
+
+{p 8 12}{stata "wbopendata, alltopics" :. wbopendata, alltopics}{p_end}
+
+{p 8 12}{stata "wbopendata, search(GDP)" :. wbopendata, search(GDP)}{p_end}
+
+{p 8 12}{stata "wbopendata, search(poverty) searchtopic(11)" :. wbopendata, search(poverty) searchtopic(11)}{p_end}
+
+{p 8 12}{stata "wbopendata, search(learning+poverty)" :. wbopendata, search(learning+poverty)}{p_end}
+
+{p 8 12}{stata "wbopendata, search(NY.GDP.*) searchfield(code)" :. wbopendata, search(NY.GDP.*) searchfield(code)}{p_end}
+
+{p 8 12}{stata "wbopendata, searchsource(2) limit(30) detail" :. wbopendata, searchsource(2) limit(30) detail}{p_end}
+
+{p 8 12}{stata "wbopendata, info(SI.POV.DDAY)" :. wbopendata, info(SI.POV.DDAY)}{p_end}
+
+{pstd}{ul:{bf:Data Management Commands}}{p_end}
 
 {p 8 12}{stata "wbopendata, update query" :. wbopendata, update query}{p_end}
 
