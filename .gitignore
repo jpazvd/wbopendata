@@ -56,11 +56,22 @@
 !/src/*.sthlp
 !/src/*.dta
 !/src/*.txt
+!/src/*.yaml
 !/src/**/*.do
 !/src/**/*.ado
 !/src/**/*.sthlp
 !/src/**/*.dta
 !/src/**/*.txt
+!/src/**/*.yaml
+
+# Tests
+!/tests/*.do
+!/tests/*.py
+
+# Archive (superseded code for reference)
+!/archive/
+!/archive/*.ado
+!/archive/*.do
 
 # Documentation
 !/doc/*.md
