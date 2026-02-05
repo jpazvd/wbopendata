@@ -27,7 +27,7 @@ local fail = 0
 *===========================================================================
 di as result "=== PART 1: BASIC READ ==="
 
-_parameters
+capture noisily _parameters
 local rc = _rc
 
 * Test 1a: Program runs without error
@@ -268,11 +268,13 @@ _parameters
 di as text "Test 5a: Source labels have correct format (NN Name)"
 local src_fmt_ok = 1
 local src_count = 0
-foreach item in `"`r(sourceid)'"' {
+local src_list `"`r(sourceid)'"'
+while `"`src_list'"' != "" {
+	gettoken item src_list : src_list
 	local src_count = `src_count' + 1
-	local scode = substr("`item'", 1, 2)
-	local sname = strtrim(substr("`item'", 3, .))
-	if ("`sname'" == "") {
+	local scode = substr(`"`item'"', 1, 2)
+	local sname = strtrim(substr(`"`item'"', 3, .))
+	if (`"`sname'"' == "") {
 		di as error "  Empty name for code '`scode''"
 		local src_fmt_ok = 0
 	}
@@ -294,11 +296,13 @@ else {
 di as text "Test 5b: Topic labels have correct format (CODE Name)"
 local top_fmt_ok = 1
 local top_count = 0
-foreach item in `"`r(topicid)'"' {
+local top_list `"`r(topicid)'"'
+while `"`top_list'"' != "" {
+	gettoken item top_list : top_list
 	local top_count = `top_count' + 1
-	local tcode = word("`item'", 1)
-	local tname = strtrim(substr("`item'", strlen("`tcode'") + 1, .))
-	if ("`tname'" == "") {
+	local tcode = word(`"`item'"', 1)
+	local tname = strtrim(substr(`"`item'"', strlen(`"`tcode'"') + 1, .))
+	if (`"`tname'"' == "") {
 		di as error "  Empty name for code '`tcode''"
 		local top_fmt_ok = 0
 	}
