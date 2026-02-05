@@ -1944,7 +1944,7 @@ if $skip_test == 0 {
 
         assert `r(n_topics)' > 0
         assert "`r(topic_ids)'" != ""
-        assert "`r(topic_names)'" != ""
+        assert `"`r(topic_names)'"' != ""
 
         di as text "Found `r(n_topics)' topics"
     }

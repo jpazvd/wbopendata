@@ -1,5 +1,5 @@
 *******************************************************************************
-*! _wbopendata_get_yaml_path v1.1.0  04Feb2026
+*! _wbopendata_get_yaml_path v1.2.0  04Feb2026
 *! Resolve YAML path (cache, installed package, or local dev directory)
 *******************************************************************************
 
@@ -27,14 +27,21 @@ program define _wbopendata_get_yaml_path, rclass
         exit 0
     }
 
-    * 3. Check current working directory _/ subfolder (for development)
+    * 3. Search adopath directories (finds dev src/_/ or any adopath location)
+    capture findfile `fname'
+    if (_rc == 0) {
+        return local path = "`r(fn)'"
+        exit 0
+    }
+
+    * 4. Check current working directory _/ subfolder (for development)
     local cwd_path = c(pwd) + "/_/`fname'"
     if (fileexists("`cwd_path'")) {
         return local path = "`cwd_path'"
         exit 0
     }
 
-    * 4. Check current working directory directly (if cd'd into _/)
+    * 5. Check current working directory directly (if cd'd into _/)
     local cwd_direct = c(pwd) + "/`fname'"
     if (fileexists("`cwd_direct'")) {
         return local path = "`cwd_direct'"
