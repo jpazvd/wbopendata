@@ -1,7 +1,8 @@
 {smcl}
-{* *! version 17.8.1  04Feb2026}{...}
+{* *! version 18.0.0  05Feb2026}{...}
 {vieweralsosee "wbopendata" "help wbopendata"}{...}
 {viewerjumpto "What's New" "wbopendata_whatsnew##whatsnew"}{...}
+{viewerjumpto "Version 18.0" "wbopendata_whatsnew##v180"}{...}
 {viewerjumpto "Version 17.8" "wbopendata_whatsnew##v178"}{...}
 {viewerjumpto "Version 17.7" "wbopendata_whatsnew##v177"}{...}
 {viewerjumpto "Version 17.6" "wbopendata_whatsnew##v176"}{...}
@@ -18,6 +19,21 @@
 {pstd}
 This file documents recent changes and new features in the {cmd:wbopendata} module.
 For complete documentation, see {help wbopendata:help wbopendata}.
+
+{marker v180}{...}
+{title:Version 18.0.0 (05Feb2026)}
+
+{pstd}
+{bf:YAML-Based Architecture} - Parameters data moved from hardcoded Stata code to
+{cmd:_wbopendata_parameters.yaml}, making metadata human-readable and independently
+updatable without code changes.
+
+{pstd}
+{bf:Streamlined Help Files} - Deprecated 89 per-indicator help files
+({cmd:wbopendata_sourceid_indicators*.sthlp} and {cmd:wbopendata_topicid_indicators*.sthlp}).
+Source and topic help files now point users to the interactive discovery commands
+({cmd:sources}, {cmd:alltopics}, {cmd:search}, {cmd:info}) instead of static indicator
+listings that required regeneration with each metadata update.
 
 {marker v178}{...}
 {title:Version 17.8.1 (04Feb2026)}

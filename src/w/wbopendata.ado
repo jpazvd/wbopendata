@@ -1,6 +1,7 @@
 *******************************************************************************
 * wbopendata
-*! v 17.8.1  	 04Feb2026               by Joao Pedro Azevedo
+*! v 18.0.0  	 05Feb2026               by Joao Pedro Azevedo
+*   18.0.0: Deprecated 89 per-indicator sthlp files; replaced with discovery commands (sources, search, info)
 *   17.8.1: Pass detail option through to search for wrapped display format
 *   17.8.0: Added sources, alltopics discovery commands; enhanced search with topic/field filters and wildcards
 * 	17.7.1: Fixed bug where latest option with multiple indicators caused variable name truncation error
