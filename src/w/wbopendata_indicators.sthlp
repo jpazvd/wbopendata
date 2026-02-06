@@ -2,11 +2,14 @@
 
 {marker indicators}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
-<<<<<<< HEAD
-{title:Indicators List (as of 19oct2019)}
-=======
-{title:Indicators List (as of 10mar2019)}
->>>>>>> _parameter.ado
+{title:Indicators List (as of 05feb2026)}
+
+{pstd}
+{bf:Note:} This static list is deprecated. Use the interactive discovery commands instead:
+{p_end}
+{phang2}{cmd:. wbopendata, sources} - List all data sources{p_end}
+{phang2}{cmd:. wbopendata, search({it:keyword})} - Search indicators{p_end}
+{phang2}{cmd:. wbopendata, info({it:code})} - Get indicator details{p_end}
 
 {synoptset 33 tabbed}{...}
 {synopthdr: Indicators List}

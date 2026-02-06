@@ -33,7 +33,7 @@ Use {cmd:wbopendata, info({it:indicator_code})} to get detailed metadata for any
 {synopt:{opt 15}}  {help wbopendata_topicid##topicid_15:Social Development}{p_end}
 {synopt:{opt 16}}  {help wbopendata_topicid##topicid_16:Urban Development}{p_end}
 {synopt:{opt 17}}  {help wbopendata_topicid##topicid_17:Gender}{p_end}
-{synopt:{opt 18}}  {help wbopendata_topicid##topicid_18:Millenium development goals}{p_end}
+{synopt:{opt 18}}  {help wbopendata_topicid##topicid_18:Millennium Development Goals}{p_end}
 {synopt:{opt 19}}  {help wbopendata_topicid##topicid_19:Climate Change}{p_end}
 {synopt:{opt 20}}  {help wbopendata_topicid##topicid_20:External Debt}{p_end}
 {synopt:{opt 21}}  {help wbopendata_topicid##topicid_21:Trade}{p_end}
@@ -178,7 +178,7 @@ Use {cmd:wbopendata, info({it:indicator_code})} to get detailed metadata for any
 
 {marker topicid_18}
 {p 40 20 2}(Go up to {it:{help wbopendata_topicid##toc:Topics TOC}}){p_end}
-{title:18 Millenium development goals}
+{title:18 Millennium Development Goals}
 
 {pstd}Browse indicators in this topic:{p_end}
 {phang2}{cmd:. wbopendata, search(*) searchtopic(18)}{p_end}

@@ -146,9 +146,9 @@ this case). If this option is selected jointly with a specific indicator, the ou
 country or region, or multiple countries or regions. When selecting multiple countries please use the three letters code, separated by 
 a semicolon (;), with no spaces.{p_end}
 
-{synopt:{opt topics(numlist)}}{help wbopendata##topics:Topic List} 21 topic lists are curently supported and include Agriculture & Rural Development; 
+{synopt:{opt topics(numlist)}}{help wbopendata##topics:Topic List} 21 topic lists are currently supported and include Agriculture & Rural Development; 
 Aid Effectiveness; Economy & Growth; Education; Energy & Mining; Environment; Financial Sector; Health; Infrastructure; Social Protection & Labor; 
-Poverty; Private Sector; Public Sector; Science & Technology; Social Development; Urban Development; Gender; Millenium development goals; Climate Change; 
+Poverty; Private Sector; Public Sector; Science & Technology; Social Development; Urban Development; Gender; Millennium Development Goals; Climate Change; 
 
 External Debt; and, Trade (only one topic collection can be requested at the time).{p_end}
 {synopt:{opt indicator(string)}}{help wbopendata_sourceid##indicators:Indicators List} list of indicator codes (All series). When selecting multiple 
@@ -217,7 +217,7 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
 
-{synopt :{opt match(varname)}} mergue {it:{help wbopendata##attributes:country attributes}} using WDI countrycodes.{p_end}
+{synopt :{opt match(varname)}} merge {it:{help wbopendata##attributes:country attributes}} using WDI countrycodes.{p_end}
 
 {synopt :{opt projection}} World Bank staff {help wbopendata_sourceid##sourceid_40:population projection estimates} using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end} 
 
