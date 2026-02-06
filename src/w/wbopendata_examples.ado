@@ -199,7 +199,7 @@ program define example_linewrap
     * Basic: caption for descriptions, note for separate sources per indicator
     twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///
         title("Poverty and Child Mortality (Latest Available Year)") ///
-            "Source: wbopendata (2026)" , size(vsmall)) name(tmp0, replace)
+        note("Source: wbopendata (2026)", size(vsmall)) name(tmp0, replace)
 
     * Basic: caption for descriptions, note for separate sources per indicator
     twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///

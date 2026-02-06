@@ -56,8 +56,8 @@
 {synopt :{opt clearcache}} remove the local metadata cache (forces re-download on next sync).{p_end}
 {synopt :{opt cacheinfo}} display cache location, version, and timestamp for the metadata YAML files.{p_end}
 {synopt :{opt match(varname)}} merge {help wbopendata##attributes:country attributes} into an existing dataset containing WDI (3 digit) countrycodes. Cannot be used with the data download options.{p_end}
-{synopt :{opt projection}} World Bank {help wbopendata_sourceid_indicators40##sourceid_40:population estimates and projections} (HPP) .{p_end}
-{synopt :{opt metadataoffline}} download all indicator metadata informaiton and generates 71 sthlp files in your local machine.{p_end}
+{synopt :{opt projection}} World Bank {help wbopendata_sourceid##sourceid_40:population estimates and projections} (HPP) .{p_end}
+{synopt :{opt metadataoffline}} download all indicator metadata information and generates 71 sthlp files in your local machine.{p_end}
 {synopt :{opt describe}} display indicator metadata only (no data download). Requires {opt indicator()}. Supports {opt linewrap()}, {opt maxlength()}, and {opt linewrapformat()} when present.{p_end}
 {synopt :{opt linewrap(fields)}} wrap metadata text for graph titles. Fields: name, description, note, source, topic, or all.{p_end}
 {synopt :{opt maxlength(# [# ...])}} maximum characters per line for linewrap. Single value (default 50) or multiple values matching linewrap field order.{p_end}
@@ -149,9 +149,10 @@ a semicolon (;), with no spaces.{p_end}
 {synopt:{opt topics(numlist)}}{help wbopendata##topics:Topic List} 21 topic lists are curently supported and include Agriculture & Rural Development; 
 Aid Effectiveness; Economy & Growth; Education; Energy & Mining; Environment; Financial Sector; Health; Infrastructure; Social Protection & Labor; 
 Poverty; Private Sector; Public Sector; Science & Technology; Social Development; Urban Development; Gender; Millenium development goals; Climate Change; 
+
 External Debt; and, Trade (only one topic collection can be requested at the time).{p_end}
 {synopt:{opt indicator(string)}}{help wbopendata_sourceid##indicators:Indicators List} list of indicator codes (All series). When selecting multiple 
-indicators please use semicolon (;), to separate differenet indicatos.{p_end}
+indicators please use semicolon (;) to separate different indicators.{p_end}
 
 
 {marker options}{...}
@@ -218,7 +219,7 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {synopt :{opt match(varname)}} mergue {it:{help wbopendata##attributes:country attributes}} using WDI countrycodes.{p_end}
 
-{synopt :{opt projection}} World Bank staff {help wbopendata_sourceid_indicators40##sourceid_40:population projection estimates} using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end} 
+{synopt :{opt projection}} World Bank staff {help wbopendata_sourceid##sourceid_40:population projection estimates} using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end} 
 
 {synopt :{opt metadataoffline}} refresh all metadata information, and generate a local copy of all indicators metadata organized by topics and source. This option creates 71 new help files in your local machine with approximately 15mb of documentation.{p_end}
 
@@ -729,9 +730,9 @@ return metadata for programmatic use and automation.{p_end}
 
 {p 8 12}{stata "wbopendata, language(en - English) topics(2 - Aid Effectiveness) clear" :. wbopendata, language(en - English) topics(2 - Aid Effectiveness) clear}{p_end}
 
-{p 8 12}{stata "wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) clear" :. wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) clear}{p_end}
+{p 8 12}{stata "wbopendata, language(en - English) indicator(SP.POP.TOTL - Population, total) clear" :. wbopendata, language(en - English) indicator(SP.POP.TOTL - Population, total) clear}{p_end}
 
-{p 8 12}{stata "wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) long clear" :. wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) long clear}{p_end}
+{p 8 12}{stata "wbopendata, language(en - English) indicator(SP.POP.TOTL - Population, total) long clear" :. wbopendata, language(en - English) indicator(SP.POP.TOTL - Population, total) long clear}{p_end}
 
 {p 8 12}{stata "wbopendata, country(ago;bdi;chi;dnk;esp) indicator(sp.pop.0610.fe.un) clear" :. wbopendata, country(ago;bdi;chi;dnk;esp) indicator(sp.pop.0610.fe.un) clear}{p_end}
 
@@ -997,7 +998,7 @@ S426302, Boston College Department of Economics, revised 17 Oct 2006.{p_end}
     {p 4 4 2}UNICEF, Division of Data, Analytics, Planning and Monitoring{p_end}
     {p 4 4 2}{browse "https://jpazvd.github.io"}{p_end}
 
-{title:GitHub Respository}
+{title:GitHub Repository}
 
 {p 4 4 2}For previous releases and additional examples please visit wbopendata {browse "https://github.com/jpazvd/wbopendata" :GitHub Repo}{p_end}
 

@@ -10,7 +10,10 @@ program define _wbopendata_cache, rclass
 
     local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
 
-    if ("`checkversion'" != "" | "`update'" != "" | "`info'" != "") {
+    * Only initialize cache (write test) for update operations
+    * Read operations (checkversion, info) work without write access
+    * Clear uses capture erase, so it handles missing files gracefully
+    if ("`update'" != "") {
         _wbopendata_init_cache
     }
 
@@ -21,8 +24,8 @@ program define _wbopendata_cache, rclass
     }
 
     if ("`checkversion'" != "") {
-        _wbopendata_check_version
-        return add
+        capture noisily _wbopendata_check_version
+        if (_rc == 0) return add
         exit 0
     }
 
@@ -45,7 +48,7 @@ program define _wbopendata_cache, rclass
     }
 
     return local cache_dir = "`cache_dir'"
-    return scalar cache_exists = file_exists("`cache_dir'metadata_version.txt")
+    return scalar cache_exists = fileexists("`cache_dir'metadata_version.txt")
 end
 
 
@@ -90,32 +93,32 @@ program define _wbopendata_cache_info, rclass
     di as result "wbopendata Cache Status"
     di as text "{hline 60}"
 
-    if (file_exists("`vf'")) {
+    if (fileexists("`vf'")) {
         tempname fh
         file open `fh' using "`vf'", read
         file read `fh' ver
         file close `fh'
         local ver = trim("`ver'")
 
-        if (file_exists("`tf'")) {
+        if (fileexists("`tf'")) {
             file open `fh' using "`tf'", read
             file read `fh' ts
             file close `fh'
         }
         else local ts "Unknown"
 
-        di as text "  Cache location: " as result "`cache_dir'"
-        di as text "  Current version: " as result "v`ver'"
-        di as text "  Last updated: " as result "`ts'"
+        di as text `"  Cache location: `cache_dir'"'
+        di as text "  Current version: v`ver'"
+        di as text `"  Last updated: `ts'"'
 
         return local cache_version = "`ver'"
         return local cache_timestamp = "`ts'"
         return scalar cache_exists = 1
     }
     else {
-        di as text "  Status: " as error "No cache found"
-        di as text "  Location: " as result "`cache_dir'"
-        di as text "  Run wbopendata, sync to initialize cache"
+        di as text "  Status: No cache found"
+        di as text `"  Location: `cache_dir'"'
+        di as text "  Run: wbopendata, sync"
         return scalar cache_exists = 0
     }
 

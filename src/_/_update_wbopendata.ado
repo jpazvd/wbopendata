@@ -71,31 +71,38 @@ syntax , 								///
 	*** Generate TOPIC and SOURCE Labels ******
 	* OLD Source IDs
 	* Extract Labels for SourceIDs
-	foreach name in `"`oldsourceid'"' {
-		local t1 = substr("`name'",1,2)
-		local name = subinstr("`name'","(","[",.)
-		local name = subinstr("`name'",")","]",.)
-		local name = subinstr("`name'",":"," -",.)
-		local lgt = length("`name'")
+	* Use gettoken loop instead of foreach to handle names with parentheses
+	local srclist `"`oldsourceid'"'
+	while `"`srclist'"' != "" {
+		gettoken name srclist : srclist, bind
+		local t1 = substr(`"`name'"',1,2)
+		local name = subinstr(`"`name'"',"(","[",.)
+		local name = subinstr(`"`name'"',")","]",.)
+		local name = subinstr(`"`name'"',":"," -",.)
+		local lgt = length(`"`name'"')
 		if (`lgt'>38) {
-			local name = substr("`name'",1,38)
-			local name "`name'..."
+			local name = substr(`"`name'"',1,38)
+			local name `"`name'..."'
 		}
-		local oldlabel_sourceid`t1' "`name'"
+		local oldlabel_sourceid`t1' `"`name'"'
 	}
-	
-	* OLD Topic IDs	
+
+	* OLD Topic IDs
 	* Extract Labels for Topic IDs
-	foreach name in `"`oldtopicid'"' {
-		local t1 = substr("`name'",1,2)
-		local name = subinstr("`name'","(","[",.)
-		local name = subinstr("`name'",")","]",.)
-		local name = subinstr("`name'",":"," -",.)
+	* Use gettoken loop instead of foreach to handle names with parentheses (e.g., ESG)
+	local toplist `"`oldtopicid'"'
+	while `"`toplist'"' != "" {
+		gettoken name toplist : toplist, bind
+		local t1 = substr(`"`name'"',1,2)
+		local name = subinstr(`"`name'"',"(","[",.)
+		local name = subinstr(`"`name'"',")","]",.)
+		local name = subinstr(`"`name'"',":"," -",.)
+		local lgt = length(`"`name'"')
 		if (`lgt'>38) {
-			local name = substr("`name'",1,38)
-			local name "`name'..."
+			local name = substr(`"`name'"',1,38)
+			local name `"`name'..."'
 		}
-		local oldlabel_topicid`t1' "`name'"
+		local oldlabel_topicid`t1' `"`name'"'
 	}
 		
 	
@@ -237,32 +244,37 @@ syntax , 								///
 				
 			*** Update TOPIC and SOURCE Labels ******
 				* NEW Source IDs
-				* Extract Labels for SourceIDs
-				foreach name in `newsourceid'  {
-					local t1 = substr("`name'",1,2)
-					local name = subinstr("`name'","(","[",.)
-					local name = subinstr("`name'",")","]",.)
-					local name = subinstr("`name'",":"," -",.)
-					local lgt = length("`name'")
+				* Extract Labels for SourceIDs (use gettoken for names with parentheses)
+				local srclist `"`newsourceid'"'
+				while `"`srclist'"' != "" {
+					gettoken name srclist : srclist, bind
+					local t1 = substr(`"`name'"',1,2)
+					local name = subinstr(`"`name'"',"(","[",.)
+					local name = subinstr(`"`name'"',")","]",.)
+					local name = subinstr(`"`name'"',":"," -",.)
+					local lgt = length(`"`name'"')
 					if (`lgt'>38) {
-						local name = substr("`name'",1,38)
-						local name "`name'..."
+						local name = substr(`"`name'"',1,38)
+						local name `"`name'..."'
 					}
-					local newlabel_sourceid`t1' "`name'"
+					local newlabel_sourceid`t1' `"`name'"'
 				}
-				
-				* NEW Topic IDs	
-				* Extract Labels for Topic IDs
-				foreach name in `newtopicid' {
-					local t1 = substr("`name'",1,2)
-					local name = subinstr("`name'","(","[",.)
-					local name = subinstr("`name'",")","]",.)
-					local name = subinstr("`name'",":"," -",.)
+
+				* NEW Topic IDs
+				* Extract Labels for Topic IDs (use gettoken for names with parentheses)
+				local toplist `"`newtopicid'"'
+				while `"`toplist'"' != "" {
+					gettoken name toplist : toplist, bind
+					local t1 = substr(`"`name'"',1,2)
+					local name = subinstr(`"`name'"',"(","[",.)
+					local name = subinstr(`"`name'"',")","]",.)
+					local name = subinstr(`"`name'"',":"," -",.)
+					local lgt = length(`"`name'"')
 					if (`lgt'>38) {
-						local name = substr("`name'",1,38)
-						local name "`name'..."
+						local name = substr(`"`name'"',1,38)
+						local name `"`name'..."'
 					}
-					local newlabel_topicid`t1' "`name'"
+					local newlabel_topicid`t1' `"`name'"'
 				}
 
 			*************************************
@@ -383,9 +395,11 @@ syntax , 								///
 		file write `out' "" _n
 
 		file write `out' "sources:" _n
-		foreach item in `"`oldsourceid'"' {
-			local scode = substr("`item'", 1, 2)
-			local sname = strtrim(substr("`item'", 3, .))
+		local srclist `"`oldsourceid'"'
+		while `"`srclist'"' != "" {
+			gettoken item srclist : srclist, bind
+			local scode = substr(`"`item'"', 1, 2)
+			local sname = strtrim(substr(`"`item'"', 3, .))
 			local scount `oldsourceid`scode''
 			if ("`scount'" == "." | "`scount'" == "") local scount 0
 			file write `out' `"  '`scode'':"' _n
@@ -395,9 +409,11 @@ syntax , 								///
 		file write `out' "" _n
 
 		file write `out' "topics:" _n
-		foreach item in `"`oldtopicid'"' {
-			local tcode = word("`item'", 1)
-			local tname = strtrim(substr("`item'", strlen("`tcode'") + 1, .))
+		local toplist `"`oldtopicid'"'
+		while `"`toplist'"' != "" {
+			gettoken item toplist : toplist, bind
+			local tcode = word(`"`item'"', 1)
+			local tname = strtrim(substr(`"`item'"', strlen("`tcode'") + 1, .))
 			local tcount `oldtopicid`tcode''
 			if ("`tcount'" == "." | "`tcount'" == "") local tcount 0
 			file write `out' `"  '`tcode'':"' _n
@@ -483,32 +499,37 @@ syntax , 								///
 					
 				*** Update TOPIC and SOURCE Labels ******
 					* NEW Source IDs
-					* Extract Labels for SourceIDs
-					foreach name in `newsourceid'  {
-						local t1 = substr("`name'",1,2)
-						local name = subinstr("`name'","(","[",.)
-						local name = subinstr("`name'",")","]",.)
-						local name = subinstr("`name'",":"," -",.)
-						local lgt = length("`name'")
+					* Extract Labels for SourceIDs (use gettoken for names with parentheses)
+					local srclist `"`newsourceid'"'
+					while `"`srclist'"' != "" {
+						gettoken name srclist : srclist, bind
+						local t1 = substr(`"`name'"',1,2)
+						local name = subinstr(`"`name'"',"(","[",.)
+						local name = subinstr(`"`name'"',")","]",.)
+						local name = subinstr(`"`name'"',":"," -",.)
+						local lgt = length(`"`name'"')
 						if (`lgt'>38) {
-							local name = substr("`name'",1,38)
-							local name "`name'..."
+							local name = substr(`"`name'"',1,38)
+							local name `"`name'..."'
 						}
-						local newlabel_sourceid`t1' "`name'"
+						local newlabel_sourceid`t1' `"`name'"'
 					}
-					
-					* NEW Topic IDs	
-					* Extract Labels for Topic IDs
-					foreach name in `newtopicid' {
-						local t1 = substr("`name'",1,2)
-						local name = subinstr("`name'","(","[",.)
-						local name = subinstr("`name'",")","]",.)
-						local name = subinstr("`name'",":"," -",.)
+
+					* NEW Topic IDs
+					* Extract Labels for Topic IDs (use gettoken for names with parentheses)
+					local toplist `"`newtopicid'"'
+					while `"`toplist'"' != "" {
+						gettoken name toplist : toplist, bind
+						local t1 = substr(`"`name'"',1,2)
+						local name = subinstr(`"`name'"',"(","[",.)
+						local name = subinstr(`"`name'"',")","]",.)
+						local name = subinstr(`"`name'"',":"," -",.)
+						local lgt = length(`"`name'"')
 						if (`lgt'>38) {
-							local name = substr("`name'",1,38)
-							local name "`name'..."
+							local name = substr(`"`name'"',1,38)
+							local name `"`name'..."'
 						}
-						local newlabel_topicid`t1' "`name'"
+						local newlabel_topicid`t1' `"`name'"'
 					}
 					
 					*************************************

@@ -493,4 +493,5 @@ program define __wbopendata_search_cache, rclass
     return local cmd = "`cmd'"
 
     restore
+    exit 0
 end

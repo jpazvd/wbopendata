@@ -9,7 +9,7 @@ program define _wbopendata_check_version, rclass
     local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
     local vf = "`cache_dir'metadata_version.txt"
 
-    if (file_exists("`vf'")) {
+    if (fileexists("`vf'")) {
         tempname fh
         file open `fh' using "`vf'", read
         file read `fh' local_ver
@@ -19,16 +19,22 @@ program define _wbopendata_check_version, rclass
     else local local_ver "0.0.0"
 
     local api_url "https://api.github.com/repos/jpazvd/wbopendata/releases/latest"
-    local tmpjson = "`c(tmpdir)'wbod_version.json"
+    local tmpjson `"`c(tmpdir)'wbod_version.json"'
     local remote_ver ""
     local check_success = 0
 
-    capture copy "`api_url'" "`tmpjson'", replace
+    capture copy `"`api_url'"' `"`tmpjson'"', replace
     if (_rc == 0) {
-        _wbopendata_parse_github_json "`tmpjson'"
-        local remote_ver = r(tag_version)
-        local check_success = 1
-        capture erase "`tmpjson'"
+        capture noisily _wbopendata_parse_github_json `"`tmpjson'"'
+        if (_rc == 0) {
+            local remote_ver `"`r(tag_version)'"'
+            local check_success = 1
+        }
+        else {
+            di as text "(Could not parse version info - using local version)"
+            local remote_ver "`local_ver'"
+        }
+        capture erase `"`tmpjson'"'
     }
     else {
         di as text "(Could not check for updates - using local version)"
