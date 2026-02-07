@@ -127,7 +127,7 @@ program define _wbopendata_sources, rclass
         }
 
         * Build clickable link
-        local browse_cmd `"wbopendata, search() source(`code')"'
+        local browse_cmd `"wbopendata, search() searchsource(`code')"'
 
         * Display with formatting
         di as text %6s "`code'" "  " as result %-45s "`name'" as text %10s "`nind'" "  " `"{stata `"`browse_cmd'"':[Browse]}"'
@@ -146,7 +146,7 @@ program define _wbopendata_sources, rclass
 
     di as text ""
     di as text "Tip: Click " as result "[Browse]" as text " to see all indicators from a source"
-    di as text "     Use " as result `"search(keyword) source(#)"' as text " to filter within a source"
+    di as text "     Use " as result `"search(keyword) searchsource(#)"' as text " to filter within a source"
 
     *---------------------------------------------------------------------------
     * Return values
