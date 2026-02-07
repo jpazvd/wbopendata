@@ -80,3 +80,16 @@ Configuration and outputs:
 - Schema: config/schema_yaml_v2.json defines YAML structure and validation rules.
 - Outputs: src/_/_wbopendata_indicators.yaml, src/_/_wbopendata_sources.yaml, src/_/_wbopendata_topics.yaml.
 - Logs: logs/update_metadata_YYYYMMDD_HHMMSS.log for pipeline runs.
+
+Usage (Python metadata pipeline):
+
+- From repo root: run src/py/update_metadata.py with optional flags.
+- Defaults load config/config_update.yaml and write YAMLs to src/_/.
+- Typical runs:
+    - Basic run: python src/py/update_metadata.py
+    - Override output dir: python src/py/update_metadata.py --output-dir src/_
+    - Save raw API responses: python src/py/update_metadata.py --save-raw
+    - Skip schema validation: python src/py/update_metadata.py --no-validate
+    - Skip diff summary: python src/py/update_metadata.py --skip-diff
+    - Stage/commit outputs: python src/py/update_metadata.py --commit
+    - Stage/commit + tag: python src/py/update_metadata.py --commit --tag
