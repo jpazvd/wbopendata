@@ -10,7 +10,7 @@ import re
 import logging
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Dict, List
 
 import yaml
 
