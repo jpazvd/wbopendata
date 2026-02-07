@@ -482,6 +482,14 @@ syntax , 								///
 				noi di in smcl ""
 				noi di in w in smcl in y "{bf:UPDATE IN PROGRESS...}"
 			
+				* Refresh YAML first (Stata-only) when forcing full update
+				if ("`force'" != "") {
+					cap noi _wbopendata_refresh_yaml, replace
+					if (_rc != 0) {
+						noi di as error "Warning: YAML refresh failed; continuing with API-based update"
+					}
+				}
+			
 				qui if ("`detail'" != "") | ("`force'" != "") {
 					
 					* call _update_indicators.ado

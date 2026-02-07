@@ -59,17 +59,33 @@ program define _wbopendata_refresh_yaml, rclass
 	*--------------------------------------------------------------------------
 	* STEP 1: Download and parse sources
 	*--------------------------------------------------------------------------
-	tempfile src_xml src_txt
-	local src_url "https://api.worldbank.org/v2/sources?per_page=200"
+	local src_xml "`outdir'__refresh_sources.xml"
+	local src_txt "`outdir'__refresh_sources.txt"
+	cap erase "`src_xml'"
+	cap erase "`src_txt'"
+	local src_url "https://api.worldbank.org/v2/sources?per_page=200&format=xml"
 	cap: copy "`src_url'" "`src_xml'", text replace
 	if (_rc != 0) {
 		di as err "Failed to download sources metadata"
 		exit 601
 	}
+	cap confirm file "`src_xml'"
+	if (_rc != 0) {
+		di as err "Sources file not found after download"
+		exit 601
+	}
 
 	tempname src_in src_out
 	file open `src_in' using `src_xml', read text
+	if (_rc != 0) {
+		di as err "Unable to open sources file: `src_xml'"
+		exit 601
+	}
 	file open `src_out' using `src_txt', write text replace
+	if (_rc != 0) {
+		di as err "Unable to open sources output: `src_txt'"
+		exit 601
+	}
 	file write `src_out' "source_id#name#description#url#data_availability#metadata_availability" _n
 
 	local src_id ""
@@ -83,15 +99,14 @@ program define _wbopendata_refresh_yaml, rclass
 	while r(eof) == 0 {
 		local line = subinstr(`"`line'"', char(13), " ", .)
 		local line = subinstr(`"`line'"', char(10), " ", .)
+		local line = subinstr(`"`line'"', `"""', "", .)
 
-		if (strmatch("`line'", "*<wb:source id=*") == 1) {
+		if (regexm("`line'", "<wb:source")) {
 			if ("`src_id'" != "") {
 				file write `src_out' "`src_id'#`src_name'#`src_desc'#`src_url_val'#`src_avail'#`src_meta'" _n
 			}
-			local src_id = trim(subinstr("`line'", "<wb:source id=", "", .))
-			local src_id = subinstr("`src_id'", "\">", "", .)
-			local src_id = subinstr("`src_id'", "</wb:source>", "", .)
-			local src_id = subinstr("`src_id'", `"""', "", .)
+			local src_id ""
+			if (regexm("`line'", "id=([0-9]+)")) local src_id = regexs(1)
 			local src_name ""
 			local src_desc ""
 			local src_url_val ""
@@ -101,15 +116,20 @@ program define _wbopendata_refresh_yaml, rclass
 		if (strmatch("`line'", "*<wb:name>*") == 1) {
 			local src_name = trim(subinstr("`line'", "<wb:name>", "", .))
 			local src_name = subinstr("`src_name'", "</wb:name>", "", .)
+			local src_name = subinstr("`src_name'", `"""', "", .)
 		}
 		if (strmatch("`line'", "*<wb:description>*") == 1) {
 			local src_desc = trim(subinstr("`line'", "<wb:description>", "", .))
 			local src_desc = subinstr("`src_desc'", "</wb:description>", "", .)
+			local src_desc = subinstr("`src_desc'", `"""', "", .)
 		}
+		if (strmatch("`line'", "*<wb:description */>*") == 1) local src_desc ""
 		if (strmatch("`line'", "*<wb:url>*") == 1) {
 			local src_url_val = trim(subinstr("`line'", "<wb:url>", "", .))
 			local src_url_val = subinstr("`src_url_val'", "</wb:url>", "", .)
+			local src_url_val = subinstr("`src_url_val'", `"""', "", .)
 		}
+		if (strmatch("`line'", "*<wb:url */>*") == 1) local src_url_val ""
 		if (strmatch("`line'", "*<wb:dataavailability>*") == 1) {
 			local src_avail = trim(subinstr("`line'", "<wb:dataavailability>", "", .))
 			local src_avail = subinstr("`src_avail'", "</wb:dataavailability>", "", .)
@@ -131,17 +151,33 @@ program define _wbopendata_refresh_yaml, rclass
 	*--------------------------------------------------------------------------
 	* STEP 2: Download and parse topics
 	*--------------------------------------------------------------------------
-	tempfile top_xml top_txt
-	local top_url "https://api.worldbank.org/v2/topics?per_page=200"
+	local top_xml "`outdir'__refresh_topics.xml"
+	local top_txt "`outdir'__refresh_topics.txt"
+	cap erase "`top_xml'"
+	cap erase "`top_txt'"
+	local top_url "https://api.worldbank.org/v2/topics?per_page=200&format=xml"
 	cap: copy "`top_url'" "`top_xml'", text replace
 	if (_rc != 0) {
 		di as err "Failed to download topics metadata"
 		exit 601
 	}
+	cap confirm file "`top_xml'"
+	if (_rc != 0) {
+		di as err "Topics file not found after download"
+		exit 601
+	}
 
 	tempname top_in top_out
 	file open `top_in' using `top_xml', read text
+	if (_rc != 0) {
+		di as err "Unable to open topics file: `top_xml'"
+		exit 601
+	}
 	file open `top_out' using `top_txt', write text replace
+	if (_rc != 0) {
+		di as err "Unable to open topics output: `top_txt'"
+		exit 601
+	}
 	file write `top_out' "topic_id#name#description" _n
 
 	local top_id ""
@@ -152,25 +188,26 @@ program define _wbopendata_refresh_yaml, rclass
 	while r(eof) == 0 {
 		local line = subinstr(`"`line'"', char(13), " ", .)
 		local line = subinstr(`"`line'"', char(10), " ", .)
+		local line = subinstr(`"`line'"', `"""', "", .)
 
-		if (strmatch("`line'", "*<wb:topic id=*") == 1) {
+		if (regexm("`line'", "<wb:topic")) {
 			if ("`top_id'" != "") {
 				file write `top_out' "`top_id'#`top_name'#`top_desc'" _n
 			}
-			local top_id = trim(subinstr("`line'", "<wb:topic id=", "", .))
-			local top_id = subinstr("`top_id'", "\">", "", .)
-			local top_id = subinstr("`top_id'", "</wb:topic>", "", .)
-			local top_id = subinstr("`top_id'", `"""', "", .)
+			local top_id ""
+			if (regexm("`line'", "id=([0-9]+)")) local top_id = regexs(1)
 			local top_name ""
 			local top_desc ""
 		}
 		if (strmatch("`line'", "*<wb:value>*") == 1) {
 			local top_name = trim(subinstr("`line'", "<wb:value>", "", .))
 			local top_name = subinstr("`top_name'", "</wb:value>", "", .)
+			local top_name = subinstr("`top_name'", `"""', "", .)
 		}
 		if (strmatch("`line'", "*<wb:sourceNote>*") == 1) {
 			local top_desc = trim(subinstr("`line'", "<wb:sourceNote>", "", .))
 			local top_desc = subinstr("`top_desc'", "</wb:sourceNote>", "", .)
+			local top_desc = subinstr("`top_desc'", `"""', "", .)
 		}
 		if (strmatch("`line'", "*</wb:topic>*") == 1 & "`top_id'" != "") {
 			file write `top_out' "`top_id'#`top_name'#`top_desc'" _n
@@ -190,7 +227,6 @@ program define _wbopendata_refresh_yaml, rclass
 	local ind_file "`r(file2)'"
 
 	insheet using `ind_file', delimiter("#") clear name
-
 	* Normalize variable names
 	cap rename sourceID sourceid
 	cap rename sourceOrganization sourceorganization
@@ -213,6 +249,8 @@ program define _wbopendata_refresh_yaml, rclass
 		replace `var' = "0" + `var' if real(substr(`var',1,2)) <= 9 & real(substr(`var',1,1)) != .
 	}
 
+	tempfile ind_dta
+	save `ind_dta', replace
 	*--------------------------------------------------------------------------
 	* Load sources/topics and merge for names
 	*--------------------------------------------------------------------------
@@ -224,6 +262,7 @@ program define _wbopendata_refresh_yaml, rclass
 	cap rename url source_url
 	cap rename data_availability data_availability
 	cap rename metadata_availability metadata_availability
+	cap tostring sourceid, replace force
 	keep if sourceid != ""
 	compress
 	save `sources_dta', replace
@@ -232,11 +271,12 @@ program define _wbopendata_refresh_yaml, rclass
 	cap rename topic_id topicid
 	cap rename name topic_name
 	cap rename description topic_desc
+	cap tostring topicid, replace force
 	keep if topicid != ""
 	compress
 	save `topics_dta', replace
 
-	use `ind_file', clear
+	use `ind_dta', clear
 	cap rename sourceID sourceid
 	cap rename sourceOrganization sourceorganization
 	cap rename sourceNote sourcenote
@@ -330,7 +370,7 @@ program define _wbopendata_refresh_yaml, rclass
 	*--------------------------------------------------------------------------
 	* STEP 6: Write indicators YAML
 	*--------------------------------------------------------------------------
-	use `ind_file', clear
+	use `ind_dta', clear
 	cap rename sourceID sourceid
 	cap rename sourceOrganization sourceorganization
 	cap rename sourceNote sourcenote
@@ -365,13 +405,17 @@ program define _wbopendata_refresh_yaml, rclass
 		local name = subinstr("`name'", char(10), " ", .)
 		local name = subinstr("`name'", char(13), " ", .)
 		local name = subinstr("`name'", "'", "''", .)
+		local name = subinstr("`name'", `"""', "", .)
 		local src_org = subinstr("`src_org'", char(10), " ", .)
 		local src_org = subinstr("`src_org'", char(13), " ", .)
 		local src_org = subinstr("`src_org'", "'", "''", .)
+		local src_org = subinstr("`src_org'", `"""', "", .)
 		local src_name = subinstr("`src_name'", "'", "''", .)
+		local src_name = subinstr("`src_name'", `"""', "", .)
 		local desc = subinstr("`desc'", char(10), " ", .)
 		local desc = subinstr("`desc'", char(13), " ", .)
 		local desc = subinstr("`desc'", "'", "''", .)
+		local desc = subinstr("`desc'", `"""', "", .)
 
 		local topic_ids ""
 		local topic_names ""
@@ -384,6 +428,7 @@ program define _wbopendata_refresh_yaml, rclass
 			}
 			if ("`tname'" != "") {
 				local tname = subinstr("`tname'", "'", "''", .)
+				local tname = subinstr("`tname'", `"""', "", .)
 				local topic_names `"`topic_names' "`tname'""'
 			}
 			local j = `j' + 1
@@ -427,6 +472,11 @@ program define _wbopendata_refresh_yaml, rclass
 
 	file close `outind'
 
+	* Clean up staging files
+	cap erase "`src_xml'"
+	cap erase "`src_txt'"
+	cap erase "`top_xml'"
+	cap erase "`top_txt'"
 	return local indicators_yaml = "`out_ind'"
 	return local sources_yaml = "`out_src'"
 	return local topics_yaml = "`out_top'"
