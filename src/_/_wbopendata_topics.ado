@@ -145,7 +145,7 @@ program define _wbopendata_topics, rclass
         }
 
         * Build clickable link
-        local browse_cmd `"wbopendata, search() topic(`code')"'
+        local browse_cmd `"wbopendata, search() searchtopic(`code')"'
 
         * Display with formatting
         di as text %4s "`code'" "  " as result %-45s "`name'" as text %10s "`nind'" "  " `"{stata `"`browse_cmd'"':[Browse]}"'
@@ -163,7 +163,7 @@ program define _wbopendata_topics, rclass
 
     di as text ""
     di as text "Tip: Click " as result "[Browse]" as text " to see all indicators in a topic"
-    di as text "     Use " as result `"search(keyword) topic(#)"' as text " to filter within a topic"
+    di as text "     Use " as result `"search(keyword) searchtopic(#)"' as text " to filter within a topic"
 
     *---------------------------------------------------------------------------
     * Return values
@@ -171,7 +171,7 @@ program define _wbopendata_topics, rclass
     return scalar n_topics = `n_topics'
     return local topic_ids = strtrim("`ids'")
     return local topic_names = strtrim(`"`names'"')
-    return local cmd = "wbopendata, topics"
+    return local cmd = "wbopendata, alltopics"
 
     restore
 end

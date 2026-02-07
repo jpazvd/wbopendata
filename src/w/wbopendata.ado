@@ -16,7 +16,7 @@
 
 program def wbopendata, rclass
 
-version 9.0
+version 14.0
 
     syntax                                          ///
                  [,                                 ///

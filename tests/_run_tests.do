@@ -1,11 +1,14 @@
 * Wrapper to run tests with logging
-log using "C:/GitHub/myados/wbopendata-dev/tests/_test_results.log", replace text
+* Use relative paths from the tests directory
+local test_dir "`c(pwd)'"
+capture log close _test
+log using "`test_dir'/_test_results.log", replace text name(_test)
 
 di "=== PARAMETERS YAML TEST ==="
 di "Started: `c(current_date)' `c(current_time)'"
 di ""
 
-capture noisily do "C:/GitHub/myados/wbopendata-dev/tests/test_parameters_yaml.do"
+capture noisily do "`test_dir'/test_parameters_yaml.do"
 if _rc != 0 {
     di as error "test_parameters_yaml.do FAILED with rc = `=_rc'"
 }
@@ -14,11 +17,16 @@ di ""
 di "=== QA: ENV-05 ==="
 di ""
 
-* Set repo path for QA
-global wbopendata_repo "C:/GitHub/myados/wbopendata-dev"
+* Set repo path for QA - go up one level from tests directory
+local repo_root = subinstr("`test_dir'", "/tests", "", .)
+if "`repo_root'" == "`test_dir'" {
+    * Windows path
+    local repo_root = subinstr("`test_dir'", "\tests", "", .)
+}
+global wbopendata_repo "`repo_root'"
 
 * Run individual QA tests
-local src_path "C:/GitHub/myados/wbopendata-dev/src"
+local src_path "`repo_root'/src"
 adopath ++ "`src_path'/_"
 adopath ++ "`src_path'/w"
 adopath ++ "`src_path'/y"
@@ -260,5 +268,5 @@ di as text "{hline 70}"
 di ""
 di "Finished: `c(current_date)' `c(current_time)'"
 
-log close
-exit, clear STATA
+log close _test
+exit

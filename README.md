@@ -93,7 +93,7 @@ net install wbopendata, from("/Users/username/GitHub/wbopendata") replace
 | Channel | Version | Indicators | Notes |
 |---------|---------|------------|-------|
 | **SSC** | v13.5 (2016) | ~10,000 | Stable, pre-API modernization |
-| **GitHub** | v17.8.1 (2026) | 29,000+ | Latest features, active development |
+| **GitHub** | v18.0.0 (2026) | 29,000+ | Latest features, active development |
 
 > **Recommendation:** Install from GitHub for full functionality including `match()`, `linewrap()`, multiple indicators, and 29,000+ indicators.
 
@@ -249,7 +249,7 @@ wbopendata, search(GDP)                           // Basic keyword search
 wbopendata, search(GDP growth)                    // Multi-keyword search
 wbopendata, search(GDP*) searchsource(2)          // Wildcard + filter by source
 wbopendata, search(education) searchtopic(4)      // Filter by topic
-wbopendata, search(^NY\.GDP) searchfield(code)    // Regex search in code field
+wbopendata, search(~^NY\.GDP) searchfield(code)   // Regex search in code field
 wbopendata, search(poverty) detail                // Full details with wrapped text
 
 * Get detailed info about a specific indicator

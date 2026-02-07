@@ -67,12 +67,12 @@ flowchart LR
 
 The repository includes an optional Python-based metadata pipeline (Pathway C) that rebuilds the YAML metadata stored under src/_/. It complements the Stata-side metadata sync by providing a reproducible, schema-validated pipeline for refreshing indicators, sources, and topics.
 
-- Orchestrator: [src/py/update_metadata.py](src/py/update_metadata.py) loads configuration, calls the API client, generates YAML, validates against schema, and can stage/commit/tag outputs.
-- API client: [src/py/wb_api_client.py](src/py/wb_api_client.py) handles World Bank API pagination, retries, and optional raw JSON snapshots.
-- YAML generation: [src/py/yaml_generator.py](src/py/yaml_generator.py) transforms API payloads into the YAML schema (v2.0.0) for indicators/sources/topics.
-- Validation: [src/py/schema_validator.py](src/py/schema_validator.py) enforces schema correctness using config/schema_yaml_v2.json.
-- Diff summary: [src/py/diff_analyzer.py](src/py/diff_analyzer.py) computes added/removed keys vs the previous YAMLs.
-- Git helper: [src/py/git_manager.py](src/py/git_manager.py) stages/commits/tag outputs when enabled.
+- Orchestrator: [src/py/update_metadata.py](../../src/py/update_metadata.py) loads configuration, calls the API client, generates YAML, validates against schema, and can stage/commit/tag outputs.
+- API client: [src/py/wb_api_client.py](../../src/py/wb_api_client.py) handles World Bank API pagination, retries, and optional raw JSON snapshots.
+- YAML generation: [src/py/yaml_generator.py](../../src/py/yaml_generator.py) transforms API payloads into the YAML schema (v2.0.0) for indicators/sources/topics.
+- Validation: [src/py/schema_validator.py](../../src/py/schema_validator.py) enforces schema correctness using config/schema_yaml_v2.json.
+- Diff summary: [src/py/diff_analyzer.py](../../src/py/diff_analyzer.py) computes added/removed keys vs the previous YAMLs.
+- Git helper: [src/py/git_manager.py](../../src/py/git_manager.py) stages/commits/tag outputs when enabled.
 
 Configuration and outputs:
 

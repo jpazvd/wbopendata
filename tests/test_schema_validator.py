@@ -1,8 +1,8 @@
 import sys
 from pathlib import Path
 
-# Add scripts directory to path
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
+# Add src/py directory to path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src" / "py"))
 
 from schema_validator import SchemaValidator  # noqa: E402
 

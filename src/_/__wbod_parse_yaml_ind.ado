@@ -93,6 +93,11 @@ program define __wbod_parse_yaml_ind
 
         drop is_list_item list_item_val last_field_header
 
+        * Concatenate topic_ids before collapsing (preserve all IDs as semicolon-delimited list)
+        bysort ind_group: egen str200 all_topic_ids = concat(field_topic_ids), punct(";")
+        replace field_topic_ids = all_topic_ids
+        drop all_topic_ids
+
         * Collapse to one row per indicator
         collapse (firstnm) ind_code (firstnm) field_name (firstnm) field_desc ///
                  (firstnm) field_source (firstnm) field_topic (firstnm) field_note ///

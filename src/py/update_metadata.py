@@ -219,61 +219,6 @@ def main():
         else:
             logger.info("\n[5/5] Diff step skipped")
 
-        if not indicators:
-            logger.error("Failed to fetch indicators. Aborting.")
-            return 1
-
-        # Optionally save raw data
-        if args.save_raw:
-            logger.info("\n[2/5] Saving raw API responses...")
-            raw_dir = Path(config.get("data", {}).get("raw_dir", "data/raw"))
-            api_client.save_raw_data(
-                {
-                    "indicators": indicators,
-                    "sources": sources,
-                    "topics": topics,
-                },
-                output_dir=raw_dir,
-            )
-        else:
-            logger.info("\n[2/5] Skipping raw data save (use --save-raw to enable)")
-
-        # Generate YAML files
-        logger.info("\n[3/5] Generating YAML files...")
-        output_files = yaml_gen.generate_all(indicators, sources, topics)
-
-        # Validate against schema
-        if args.validate and config.get("validation", {}).get("enabled", True):
-            logger.info("\n[4/5] Validating YAML outputs...")
-            schema_path = Path(config.get("validation", {}).get("schema_path", "config/schema_yaml_v2.json"))
-            validator = SchemaValidator(schema_path)
-            for variant, path in output_files.items():
-                result = validator.validate_yaml(path, variant)
-                if not result["valid"]:
-                    logger.error("Validation failed for %s (%s)", path, result["variant"])
-                    return 1
-            logger.info("Validation passed for all YAML files")
-        else:
-            logger.info("\n[4/5] Validation skipped")
-
-        # Diff summary
-        if args.diff and config.get("diff", {}).get("enabled", True):
-            logger.info("\n[5/5] Diff summary vs previous files")
-            for variant, new_path in output_files.items():
-                old_keys = previous_keys.get(variant, set())
-                new_keys = diff_analyzer.load_keys(new_path, section=variant)
-                summary = diff_analyzer.summarize(old_keys, new_keys)
-                logger.info(
-                    "%s: before=%d after=%d added=%d removed=%d",
-                    variant,
-                    summary["before"],
-                    summary["after"],
-                    summary["added"],
-                    summary["removed"],
-                )
-        else:
-            logger.info("\n[5/5] Diff step skipped")
-
         # Logging summary
         logger.info("\nSummary")
         logger.info("=" * 60)
