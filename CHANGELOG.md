@@ -126,10 +126,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - API endpoint changed from HTTP to HTTPS for security
 - Updated `_query.ado` and `_api_read.ado` to use secure connections
 
+## [16.2.3] - 2020-06-29
+
+### Changed
+- Rewrote metadata query to use `_api_read.ado`
+
 ## [16.2.2] - 2020-06-28
 
+### Changed
+- Switched metadata server used for queries
+
+## [16.2.1] - 2020-04-14
+
 ### Fixed
-- Package distribution and SSC compatibility updates
+- Added flow check so `_query.ado` does not run when `metadataoffline` is selected
+
+## [16.2] - 2020-04-13
+
+### Added
+- `metadataoffline` option to generate SOURCEID/TOPICID metadata locally
+- Generates 71 sthlp files and ~15MB of documentation
+
+## [16.1] - 2020-04-12
+
+### Changed
+- Removed SOURCEID/TOPICSID metadata from the main dissemination package
+
+## [16.0.1] - 2019-10-31
+
+### Changed
+- Minor functionality improvements (per ado history)
 
 ## [16.0] - 2019-10-27
 
@@ -168,6 +194,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - Over 16,000 indicators now supported
+
+---
+
+## [15.0.1] - 2019-02-08
+
+### Changed
+- Maintenance release (per ado history)
 
 ---
 
@@ -285,10 +318,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 | **17.1** | 2025-12-21 | Community bug fixes, documentation overhaul |
 | **17.0** | 2023-01-24 | Region metadata, enhanced matching |
 | **16.3** | 2020-07-08 | HTTPS API migration |
+| **16.2.3** | 2020-06-29 | Metadata query rewrite (uses `_api_read.ado`) |
+| **16.2.2** | 2020-06-28 | Metadata server update |
+| **16.2.1** | 2020-04-14 | Flow check for `metadataoffline` |
 | **16.2** | 2020-04-13 | Offline metadata option |
 | **16.1** | 2020-04-12 | Removed SOURCEID/TOPICSID metadata from package |
+| **16.0.1** | 2019-10-31 | Minor improvements |
 | **16.0** | 2019-10-27 | Multiple indicators, modular architecture |
 | **15.1** | 2019-03-04 | Update options, 16,000+ indicators |
+| **15.0.1** | 2019-02-08 | Maintenance release |
 | **14.0** | 2019-01-14 | New API server |
 | **13.5** | 2016-02-09 | **Last SSC release before major overhaul** |
 | **13.0** | 2014-06-20 | Duplicate fix, 9,960 indicators |

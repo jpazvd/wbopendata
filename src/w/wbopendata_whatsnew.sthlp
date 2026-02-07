@@ -152,9 +152,27 @@ For complete version history, see the {browse "https://github.com/jpazvd/wbopend
 {p2col:v17.1}Community bug fixes, documentation overhaul{p_end}
 {p2col:v17.0}Region metadata, enhanced country matching{p_end}
 {p2col:v16.3}HTTPS API migration{p_end}
+{p2col:v16.2.3}Metadata query rewrite (_api_read.ado){p_end}
+{p2col:v16.2.2}Metadata server update{p_end}
+{p2col:v16.2.1}Flow check for metadataoffline{p_end}
+{p2col:v16.2}Offline metadata option (SOURCEID/TOPICID docs){p_end}
+{p2col:v16.1}Removed SOURCEID/TOPICSID from package{p_end}
+{p2col:v16.0.1}Minor functionality improvements{p_end}
 {p2col:v16.0}Multiple indicators, modular architecture{p_end}
-{p2col:v14.0}New API server, 16,000+ indicators{p_end}
+{p2col:v15.1}Update options, 16,000+ indicators{p_end}
+{p2col:v15.0.1}Maintenance release{p_end}
+{p2col:v15.0}Major version bump{p_end}
+{p2col:v14.3}_wbopendata_update.ado revised (no out.txt){p_end}
+{p2col:v14.2}Checksum off; update fixes{p_end}
+{p2col:v14.1}Indicator update + nopreserve{p_end}
+{p2col:v14.0}New API server, indicator list revised{p_end}
 {p2col:v13.5}Last SSC release (2016){p_end}
+{p2col:v13.4}Long reshape{p_end}
+{p2col:v13.3}New error control (clear option){p_end}
+{p2col:v13.2}New error control mechanisms{p_end}
+{p2col:v13.1}Regional code/name/iso2code support{p_end}
+{p2col:v13.0}Duplicates fix; indicator list to 9,960{p_end}
+{p2col:v12.0}Indicator list to 7,349; return list labels{p_end}
 {p2colreset}{...}
 
 {title:Author}
