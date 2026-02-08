@@ -9,7 +9,8 @@ program define _wbopendata_check_version, rclass
     local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
     local vf = "`cache_dir'metadata_version.txt"
 
-    if (fileexists("`vf'")) {
+    capture confirm file "`vf'"
+    if (_rc == 0) {
         tempname fh
         file open `fh' using "`vf'", read
         file read `fh' local_ver
@@ -46,6 +47,10 @@ program define _wbopendata_check_version, rclass
         _wbopendata_compare_versions "`local_ver'" "`remote_ver'"
         local needs_update = r(newer)
     }
+    * If no local cache exists at all, force an update when we got a real version
+    if (`needs_update' == 0 & "`local_ver'" == "0.0.0" & `check_success') {
+        local needs_update = 1
+    }
 
     return local local_version = "`local_ver'"
     return local remote_version = "`remote_ver'"
@@ -58,17 +63,45 @@ program define _wbopendata_parse_github_json, rclass
     version 14.0
     args json_file
 
-    tempname fh
-    file open `fh' using "`json_file'", read
     local tag_version ""
+
+    * GitHub API returns JSON on a single line.  The "body" field contains
+    * markdown with backticks and quotes that break Stata macro quoting
+    * when the whole line is placed in a local.
+    * Fix: split on commas first so each JSON field is a short, safe line.
+
+    * Step 1: replace commas with newlines so each JSON key is a short line
+    tempfile split_json
+    filefilter "`json_file'" "`split_json'", from(",") to(",\n")
+
+    * Step 2: further isolate the tag_name value by splitting on colons
+    *   Input line:  "tag_name":"v17.7.1",
+    *   After split:  "tag_name"   \n   "v17.7.1",
+    tempfile split2
+    filefilter "`split_json'" "`split2'", from(":") to(":\n")
+
+    * Step 3: scan for the "tag_name" key, then grab the next "v..." value
+    *   After colon-split the sequence is:
+    *     "tag_name"         ← key line (contains "tag_name")
+    *     "v17.7.1",         ← value line (starts with "v)
+    tempname fh
+    file open `fh' using "`split2'", read
+    local found_key = 0
     file read `fh' line
-    while (r(eof) == 0) {
-        if (strpos(`"`line'"', `""tag_name""') > 0) {
-            local start = strpos(`"`line'"', `""metadata-v""') + 12
-            local rest = substr(`"`line'"', `start', .)
-            local end = strpos(`"`rest'"', `""""')
-            if (`end' > 1) local tag_version = substr(`"`rest'"', 1, `end' - 1)
+    while r(eof) == 0 {
+        if `found_key' {
+            * This line is the tag value, e.g.  "v17.7.1",
+            * Use regexm to extract MAJOR.MINOR.PATCH directly
+            * — avoids all quoting issues with substr/inrange on
+            *   characters that happen to be double-quote marks.
+            if regexm(`"`line'"', "([0-9]+\.[0-9]+\.[0-9]+)") {
+                local tag_version = regexs(1)
+            }
             continue, break
+        }
+        * Look for the key line containing tag_name
+        if strpos(`"`line'"', "tag_name") > 0 {
+            local found_key = 1
         }
         file read `fh' line
     }

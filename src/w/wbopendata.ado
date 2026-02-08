@@ -168,8 +168,8 @@ local indicator `indicators'
 			exit _rc
 		}
 		if ("`sync'" != "" | "`syncforce'" != "") {
-			if ("`syncforce'" != "") _wbopendata_cache, update force
-			else _wbopendata_cache, update
+			if ("`syncforce'" != "") _wbopendata_sync, force
+			else _wbopendata_sync
 			exit _rc
 		}
 	}
