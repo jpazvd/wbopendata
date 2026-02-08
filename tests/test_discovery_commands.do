@@ -9,9 +9,9 @@ set more off
 capture log close
 log using "test_discovery_results.log", replace text
 
-di as result _n "=" * 78
+di as result _n "{hline 78}"
 di as result "WBOPENDATA DISCOVERY COMMANDS TEST PROTOCOL"
-di as result "=" * 78
+di as result "{hline 78}"
 di as text "Date: " c(current_date) " " c(current_time)
 di as text "Stata version: " c(stata_version)
 di as text "Working directory: " c(pwd)
@@ -23,9 +23,9 @@ di _n
 *******************************************************************************
 * TEST 1: SOURCES COMMAND
 *******************************************************************************
-di as result _n "=" * 78
+di as result _n "{hline 78}"
 di as result "TEST 1: wbopendata, sources"
-di as result "=" * 78
+di as result "{hline 78}"
 
 * 1.1 Basic sources command
 di as text _n "1.1 Basic sources list:"
@@ -44,9 +44,9 @@ wbopendata, sources limit(5)
 *******************************************************************************
 * TEST 2: TOPICS COMMAND
 *******************************************************************************
-di as result _n "=" * 78
+di as result _n "{hline 78}"
 di as result "TEST 2: wbopendata, alltopics"
-di as result "=" * 78
+di as result "{hline 78}"
 
 * 2.1 Basic topics command
 di as text _n "2.1 Basic topics list:"
@@ -61,9 +61,9 @@ di as result "PASS: r(n_topics) = " r(n_topics)
 *******************************************************************************
 * TEST 3: SEARCH COMMAND - BASIC
 *******************************************************************************
-di as result _n "=" * 78
+di as result _n "{hline 78}"
 di as result "TEST 3: wbopendata, search() - Basic"
-di as result "=" * 78
+di as result "{hline 78}"
 
 * 3.1 Simple keyword search
 di as text _n "3.1 Search for 'GDP':"
@@ -86,9 +86,9 @@ return list
 *******************************************************************************
 * TEST 4: SEARCH COMMAND - FILTERS
 *******************************************************************************
-di as result _n "=" * 78
+di as result _n "{hline 78}"
 di as result "TEST 4: wbopendata, search() - Filters"
-di as result "=" * 78
+di as result "{hline 78}"
 
 * 4.1 Filter by source
 di as text _n "4.1 Search 'health' in source 2 (WDI):"
@@ -117,9 +117,9 @@ di as result "Topic 11 has " r(n_results) " indicators"
 *******************************************************************************
 * TEST 5: SEARCH COMMAND - FIELD OPTION
 *******************************************************************************
-di as result _n "=" * 78
+di as result _n "{hline 78}"
 di as result "TEST 5: wbopendata, search() - Field Option"
-di as result "=" * 78
+di as result "{hline 78}"
 
 * 5.1 Search in code only
 di as text _n "5.1 Search 'NY.GDP' in code field only:"
@@ -140,9 +140,9 @@ return list
 *******************************************************************************
 * TEST 6: SEARCH COMMAND - WILDCARDS
 *******************************************************************************
-di as result _n "=" * 78
+di as result _n "{hline 78}"
 di as result "TEST 6: wbopendata, search() - Wildcards"
-di as result "=" * 78
+di as result "{hline 78}"
 
 * 6.1 Asterisk wildcard
 di as text _n "6.1 Wildcard search 'NY.GDP.*':"
@@ -170,9 +170,9 @@ di as result "PASS: Exact match found 1 result"
 *******************************************************************************
 * TEST 7: INFO COMMAND
 *******************************************************************************
-di as result _n "=" * 78
+di as result _n "{hline 78}"
 di as result "TEST 7: wbopendata, info()"
-di as result "=" * 78
+di as result "{hline 78}"
 
 * 7.1 Basic info
 di as text _n "7.1 Info for NY.GDP.MKTP.CD:"
@@ -194,9 +194,9 @@ return list
 *******************************************************************************
 * TEST 8: ERROR HANDLING
 *******************************************************************************
-di as result _n "=" * 78
+di as result _n "{hline 78}"
 di as result "TEST 8: Error Handling"
-di as result "=" * 78
+di as result "{hline 78}"
 
 * 8.1 Search with no results
 di as text _n "8.1 Search for non-existent term:"
@@ -220,9 +220,9 @@ di as result "PASS: Error 198 returned for empty search"
 *******************************************************************************
 * TEST 9: RETURN VALUES (rclass)
 *******************************************************************************
-di as result _n "=" * 78
+di as result _n "{hline 78}"
 di as result "TEST 9: Return Values (rclass)"
-di as result "=" * 78
+di as result "{hline 78}"
 
 * 9.1 Sources return values
 di as text _n "9.1 Sources rclass:"
@@ -261,9 +261,9 @@ di "r(cmd) = " r(cmd)
 *******************************************************************************
 * TEST 10: INTEGRATION - CHAINED COMMANDS
 *******************************************************************************
-di as result _n "=" * 78
+di as result _n "{hline 78}"
 di as result "TEST 10: Integration - Chained Commands"
-di as result "=" * 78
+di as result "{hline 78}"
 
 * 10.1 Search, get first result, then info
 di as text _n "10.1 Search -> Info chain:"
@@ -284,9 +284,9 @@ list in 1/5
 *******************************************************************************
 * SUMMARY
 *******************************************************************************
-di as result _n "=" * 78
+di as result _n "{hline 78}"
 di as result "TEST SUMMARY"
-di as result "=" * 78
+di as result "{hline 78}"
 di as text "All tests completed. Review log for any failures."
 di as text "Log file: test_discovery_results.log"
 

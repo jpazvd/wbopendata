@@ -14,6 +14,10 @@ clear all
 set more off
 capture log close _all
 
+* Optional mode: dev | installed
+* Usage: do ".../test_help_examples.do" dev
+args run_mode
+
 * Use timestamped log to avoid lock issues
 local timestamp = subinstr("`c(current_date)'`c(current_time)'", " ", "", .)
 local timestamp = subinstr("`timestamp'", ":", "", .)
@@ -28,14 +32,93 @@ di as text "Stata:   " c(stata_version)
 di as text "OS:      " c(os) " " c(machine_type)
 di as text "Working: " c(pwd)
 
-* Ensure adopath includes dev source
+* Ensure dev source takes precedence over PLUS (dev mode only)
 local src_path "C:/GitHub/myados/wbopendata-dev/src"
-adopath ++ "`src_path'/_"
-adopath ++ "`src_path'/w"
-adopath ++ "`src_path'/y"
+local dev_ado "`src_path'/w/wbopendata.ado"
+local use_dev 0
+
+capture confirm file "`dev_ado'"
+if (_rc == 0) local use_dev 1
+if (lower("`run_mode'") == "installed") local use_dev 0
+if (lower("`run_mode'") == "dev") local use_dev 1
+
+local plus_dir = c(sysdir_plus)
+local plus_dir_fw = subinstr("`plus_dir'", "\\", "/", .)
+local plus_dir_bw = subinstr("`plus_dir'", "/", "\\", .)
+if (substr("`plus_dir_fw'", -1, 1) != "/") local plus_dir_fw "`plus_dir_fw'/"
+if (substr("`plus_dir_bw'", -1, 1) != "\\") local plus_dir_bw "`plus_dir_bw'\\"
+
+discard
+if (`use_dev') {
+    * Move PLUS to end so dev paths resolve first
+    capture adopath - PLUS
+    capture adopath - "`plus_dir'"
+    capture adopath - "`plus_dir_fw'"
+    capture adopath - "`plus_dir_bw'"
+    capture adopath - "`=substr("`plus_dir_fw'", 1, length("`plus_dir_fw'")-1)'")"
+    capture adopath - "`=substr("`plus_dir_bw'", 1, length("`plus_dir_bw'")-1)'")"
+    adopath ++ "`src_path'/y"
+    adopath ++ "`src_path'/_"
+    adopath ++ "`src_path'/w"
+    capture adopath + "`plus_dir_fw'"
+}
 
 which wbopendata
+local wb_path = r(fn)
+if (`use_dev' & strpos("`wb_path'", "wbopendata-dev/src") == 0) {
+    di as error "wbopendata not loaded from dev source: `wb_path'"
+    di as text "adopath: " c(adopath)
+    exit 198
+}
+if (!`use_dev') {
+    di as text "Using installed wbopendata: `wb_path'"
+}
 di _n
+
+* Ensure installed mode has required PLUS files (parameters + check_version)
+if (!`use_dev') {
+    local params_src "`src_path'/_/_wbopendata_parameters.yaml"
+    local params_plus "`plus_dir_fw'/_/_wbopendata_parameters.yaml"
+    local chkver_src "`src_path'/_/_wbopendata_check_version.ado"
+    local chkver_plus "`plus_dir_fw'/_/_wbopendata_check_version.ado"
+    local qmeta_src "`src_path'/_/_query_metadata.ado"
+    local qmeta_plus "`plus_dir_fw'/_/_query_metadata.ado"
+
+    capture confirm file "`params_plus'"
+    if (_rc != 0) {
+        capture confirm file "`params_src'"
+        if (_rc == 0) {
+            di as text "Copying missing parameters file to PLUS..."
+            capture copy "`params_src'" "`params_plus'", replace
+        }
+    }
+
+    capture confirm file "`chkver_plus'"
+    if (_rc == 0) {
+        capture confirm file "`chkver_src'"
+        if (_rc == 0) {
+            di as text "Updating PLUS check_version from dev source..."
+            capture copy "`chkver_src'" "`chkver_plus'", replace
+        }
+    }
+
+    capture confirm file "`qmeta_plus'"
+    if (_rc == 0) {
+        capture confirm file "`qmeta_src'"
+        if (_rc == 0) {
+            di as text "Updating PLUS _query_metadata from dev source..."
+            capture copy "`qmeta_src'" "`qmeta_plus'", replace
+        }
+    }
+}
+
+* Ensure metadata cache exists
+di as text "Ensuring metadata cache (wbopendata, sync)..."
+cap noi wbopendata, sync
+if (_rc != 0) {
+    di as error "Metadata sync failed (rc=`_rc')"
+    exit _rc
+}
 
 *------------------------------------------------------------------------------
 * Test framework
