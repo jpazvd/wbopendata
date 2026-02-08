@@ -13,6 +13,7 @@ flowchart LR
     cmd -->|Discovery| search[_wbopendata_search.ado]
     cmd -->|Discovery| info[_wbopendata_info.ado]
 
+    cmd -->|Sync/Cache| sync[_wbopendata_sync.ado]
     cmd -->|Sync/Cache| cache[_wbopendata_cache.ado]
     cmd -->|Sync/Cache| cacheinfo[_wbopendata_cache_info.ado]
     cmd -->|Sync/Cache| cacheclear[_wbopendata_cache_clear.ado]
@@ -59,9 +60,19 @@ flowchart LR
 
 - The main entry point is `wbopendata.ado`.
 - Discovery commands (sources, topics, search, info) rely on cached YAML metadata.
-- Metadata synchronization and cache management live in `_wbopendata_cache*.ado` helpers.
+- Metadata synchronization runs through `_wbopendata_sync.ado`, which selects the sync pathway.
+- Cache management lives in `_wbopendata_cache*.ado` helpers.
 - Stata 16+ uses a frame-based cached search path for performance; earlier versions parse on each call.
 - Data download flows through `_query.ado` and `_api_read.ado`, with metadata fetched by `_query_metadata.ado`.
+
+Sync pathway order:
+1. Python canonical pipeline (when available).
+2. Stata fallback refresh.
+3. GitHub release download (last resort).
+
+Cache metadata:
+- Files: metadata_version.txt, cache_timestamp.txt, cache_metadata.yaml, cache_sync_history.yaml.
+- cache_metadata.yaml records platform, version, synced_at, method, and source.
 
 ## Metadata automation (Python)
 
@@ -78,6 +89,7 @@ Configuration and outputs:
 
 - Config: config/config_update.yaml controls API settings, output locations, validation, and git automation.
 - Schema: config/schema_yaml_v2.json defines YAML structure and validation rules.
+- YAML standard: YAML 1.2 JSON Schema subset (interoperable subset used by yaml.ado).
 - Outputs: src/_/_wbopendata_indicators.yaml, src/_/_wbopendata_sources.yaml, src/_/_wbopendata_topics.yaml.
 - Logs: logs/update_metadata_YYYYMMDD_HHMMSS.log for pipeline runs.
 

@@ -89,13 +89,13 @@ discard
 
 ## Coding Standards
 
-### Stata 11 Compatibility
+### Stata 12 Compatibility
 
-**CRITICAL**: All code must be compatible with Stata 11 or higher.
+**CRITICAL**: All code must be compatible with Stata 12 or higher.
 
-- Use `version 11` in all ado-files
-- Avoid Mata features added after Stata 11
-- Test on Stata 11 if possible (legacy users)
+- Use `version 12` in all ado-files
+- Avoid Mata features added after Stata 12
+- Test on Stata 12 if possible (legacy users)
 
 ### Quoting Rules
 
@@ -227,7 +227,7 @@ See [copilot-sj-paper-instructions.md](../../.github/copilot-sj-paper-instructio
 
 ## Dependencies
 
-- **Stata**: Version 11 or higher
+- **Stata**: Version 12 or higher
 - **Internet**: Required for API access
 
 ## Contact
