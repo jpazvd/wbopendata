@@ -45,8 +45,10 @@ version 9.0
         }
 
 	*---------------------------------------------------------------------------
-	** pull metadata using _api_read.ado 		
-	_api_read, list query("https://api.worldbank.org/v2/indicators/`indicator'") ///
+	** pull metadata using _api_read.ado
+	local indicator_code "`indicator1'"
+	if ("`indicator_code'" == "") local indicator_code "`indicator'"
+	_api_read, list query("https://api.worldbank.org/v2/indicators/`indicator_code'") ///
 		parameter( indicator?id name topic?id source?id sourceNote sourceOrganization)
 		
 	*---------------------------------------------------------------------------
