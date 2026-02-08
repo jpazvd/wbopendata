@@ -144,24 +144,25 @@ program define __wbopendata_search, rclass
         * Use infix to read each line as a single fixed-width string
         infix str244 rawline 1-244 using "`yaml_path'", clear
         gen long linenum = _n
+        gen str244 raw_trim = strtrim(subinstr(rawline, char(13), "", .))
 
         * Detect indicator lines (format: INDICATOR_CODE:)
         gen byte is_indicator = 0
-        replace is_indicator = 1 if substr(rawline,-1,1) == ":" & ///
-            substr(rawline,1,5) != "code:" & ///
-            substr(rawline,1,5) != "name:" & ///
-            substr(rawline,1,10) != "source_id:" & ///
-            substr(rawline,1,12) != "source_name:" & ///
-            substr(rawline,1,11) != "source_org:" & ///
-            substr(rawline,1,10) != "topic_ids:" & ///
-            substr(rawline,1,12) != "topic_names:" & ///
-            substr(rawline,1,12) != "description:" & ///
-            substr(rawline,1,5) != "unit:" & ///
-            substr(rawline,1,5) != "note:" & ///
-            substr(rawline,1,13) != "limited_data:" & ///
-            substr(rawline,1,9) != "_metadata" & ///
-            substr(rawline,1,11) != "indicators:" & ///
-            substr(rawline,1,1) != "-"
+        replace is_indicator = 1 if regexm(raw_trim, ":$") & ///
+            substr(raw_trim,1,5) != "code:" & ///
+            substr(raw_trim,1,5) != "name:" & ///
+            substr(raw_trim,1,10) != "source_id:" & ///
+            substr(raw_trim,1,12) != "source_name:" & ///
+            substr(raw_trim,1,11) != "source_org:" & ///
+            substr(raw_trim,1,10) != "topic_ids:" & ///
+            substr(raw_trim,1,12) != "topic_names:" & ///
+            substr(raw_trim,1,12) != "description:" & ///
+            substr(raw_trim,1,5) != "unit:" & ///
+            substr(raw_trim,1,5) != "note:" & ///
+            substr(raw_trim,1,13) != "limited_data:" & ///
+            substr(raw_trim,1,9) != "_metadata" & ///
+            substr(raw_trim,1,11) != "indicators:" & ///
+            substr(raw_trim,1,1) != "-"
 
         * Detect field lines
         gen byte is_field = 0
@@ -185,7 +186,9 @@ program define __wbopendata_search, rclass
         replace field_val = strtrim(substr(rawline, colon_pos + 1, .)) if is_field & colon_pos > 0
         * Remove surrounding quotes
         replace field_val = substr(field_val, 2, length(field_val)-2) if is_field & ///
-            (substr(field_val,1,1) == `"""' | substr(field_val,1,1) == "'")
+            length(field_val) >= 2 & ///
+            ((substr(field_val,1,1) == `"""' & substr(field_val,length(field_val),1) == `"""') | ///
+             (substr(field_val,1,1) == "'" & substr(field_val,length(field_val),1) == "'"))
 
         * Assign to specific field columns
         gen str244 field_name = ""
@@ -203,6 +206,10 @@ program define __wbopendata_search, rclass
         replace field_source_id = field_val if field_type == "source_id"
         replace field_topic_ids = field_val if field_type == "topic_ids"
 
+        * Normalize empty list markers for topic fields
+        replace field_topic_ids = "" if field_topic_ids == "[]"
+        replace field_topic = "" if field_topic == "[]"
+
         *-------------------------------------------------------------------
         * Handle YAML list format: topic_ids and topic_names are lists
         *-------------------------------------------------------------------
@@ -211,7 +218,9 @@ program define __wbopendata_search, rclass
         replace list_item_val = strtrim(substr(rawline, strpos(rawline, "- ") + 2, .)) if is_list_item
         * Remove surrounding quotes from list values
         replace list_item_val = substr(list_item_val, 2, length(list_item_val)-2) if is_list_item & ///
-            (substr(list_item_val,1,1) == "'" | substr(list_item_val,1,1) == `"""')
+            length(list_item_val) >= 2 & ///
+            ((substr(list_item_val,1,1) == "'" & substr(list_item_val,length(list_item_val),1) == "'") | ///
+             (substr(list_item_val,1,1) == `"""' & substr(list_item_val,length(list_item_val),1) == `"""'))
 
         * Track which field header introduces the current list context
         gen str20 last_field_header = ""
@@ -302,8 +311,16 @@ program define __wbopendata_search, rclass
         sort ind_code
     }
 
+    if ("`debug'" != "") {
+        di as text "[debug] Parsed YAML and applied filters."
+    }
+
     count
     local n = r(N)
+
+    if ("`debug'" != "") {
+        di as text "[debug] Match count: " `n'
+    }
 
     *---------------------------------------------------------------------------
     * Handle no results
@@ -328,6 +345,19 @@ program define __wbopendata_search, rclass
         restore
         return scalar n_results = 0
         return scalar n_displayed = 0
+        return local keyword = "`kw'"
+        return local source_filter = "`source'"
+        return local topic_filter = "`topic'"
+        return local field_filter = "`field'"
+        return local yaml_path = "`yaml_path'"
+        return local cache_method = "none"
+        exit 0
+    }
+
+    if ("`debug'" != "") {
+        restore
+        return scalar n_results = `n'
+        return scalar n_displayed = min(`n', `limit')
         return local keyword = "`kw'"
         return local source_filter = "`source'"
         return local topic_filter = "`topic'"
@@ -511,9 +541,11 @@ program define __wbopendata_search, rclass
     local first = ind_code[1]
     return local first_code = "`first'"
     return local codes = strtrim("`codes'")
-    return local names = strtrim(`"`names'"')
+    local names_trim = strtrim(`"`names'"')
+    local topics_trim = strtrim(`"`topics'"')
+    return local names = `"`names_trim'"'
     return local sources = strtrim("`sources'")
-    return local topics = strtrim(`"`topics'"')
+    return local topics = `"`topics_trim'"'
     return local keyword = "`kw'"
     return local source_filter = "`source'"
     return local topic_filter = "`topic'"

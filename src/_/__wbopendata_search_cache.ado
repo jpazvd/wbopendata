@@ -270,8 +270,16 @@ program define __wbopendata_search_cache, rclass
         sort ind_code
     }
 
+    if ("`debug'" != "") {
+        di as text "[debug] Parsed YAML and applied filters."
+    }
+
     count
     local n = r(N)
+
+    if ("`debug'" != "") {
+        di as text "[debug] Match count: " `n'
+    }
 
     *---------------------------------------------------------------------------
     * Handle no results
@@ -295,6 +303,19 @@ program define __wbopendata_search_cache, rclass
         restore
         return scalar n_results = 0
         return scalar n_displayed = 0
+        return local keyword = "`kw'"
+        return local source_filter = "`source'"
+        return local topic_filter = "`topic'"
+        return local field_filter = "`field'"
+        return local yaml_path = "`yaml_path'"
+        return local cache_method = "`cache_method'"
+        exit 0
+    }
+
+    if ("`debug'" != "") {
+        restore
+        return scalar n_results = `n'
+        return scalar n_displayed = min(`n', `limit')
         return local keyword = "`kw'"
         return local source_filter = "`source'"
         return local topic_filter = "`topic'"
@@ -472,9 +493,11 @@ program define __wbopendata_search_cache, rclass
     local first = ind_code[1]
     return local first_code = "`first'"
     return local codes = strtrim("`codes'")
-    return local names = strtrim(`"`names'"')
+    local names_trim = strtrim(`"`names'"')
+    local topics_trim = strtrim(`"`topics'"')
+    return local names = `"`names_trim'"'
     return local sources = strtrim("`sources'")
-    return local topics = strtrim(`"`topics'"')
+    return local topics = `"`topics_trim'"'
     return local keyword = "`kw'"
     return local source_filter = "`source'"
     return local topic_filter = "`topic'"
