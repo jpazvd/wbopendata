@@ -7,7 +7,7 @@
 *******************************************************************************
 
 program define _wbopendata_refresh_yaml, rclass
-	version 9
+	version 12
 
 	syntax [, OUTDIR(string) REPLACE VERBOSE]
 
@@ -35,24 +35,7 @@ program define _wbopendata_refresh_yaml, rclass
 	local out_src "`outdir'_wbopendata_sources.yaml"
 	local out_top "`outdir'_wbopendata_topics.yaml"
 
-	* Respect replace option
-	if ("`replace'" == "") {
-		cap confirm file "`out_ind'"
-		if _rc == 0 {
-			di as err "YAML file exists: `out_ind' (use replace)"
-			exit 602
-		}
-		cap confirm file "`out_src'"
-		if _rc == 0 {
-			di as err "YAML file exists: `out_src' (use replace)"
-			exit 602
-		}
-		cap confirm file "`out_top'"
-		if _rc == 0 {
-			di as err "YAML file exists: `out_top' (use replace)"
-			exit 602
-		}
-	}
+	* Overwrite outputs during refresh; caller handles safety.
 
 	`noi' di as text "Refreshing YAML metadata (Stata-only)..."
 
@@ -94,11 +77,15 @@ program define _wbopendata_refresh_yaml, rclass
 	local src_url_val ""
 	local src_avail ""
 	local src_meta ""
+	local in_src_desc 0
+	local in_src_desc 0
 
 	file read `src_in' line
 	while r(eof) == 0 {
 		local line = subinstr(`"`line'"', char(13), " ", .)
 		local line = subinstr(`"`line'"', char(10), " ", .)
+		local line = subinstr(`"`line'"', "&amp;", "&", .)
+		local line = subinstr(`"`line'"', "&quot;", "", .)
 		local line = subinstr(`"`line'"', `"""', "", .)
 
 		if (regexm("`line'", "<wb:source")) {
@@ -110,6 +97,7 @@ program define _wbopendata_refresh_yaml, rclass
 			local src_name ""
 			local src_desc ""
 			local src_url_val ""
+			local top_name = subinstr("`top_name'", `"""', "", .)
 			local src_avail ""
 			local src_meta ""
 		}
@@ -117,17 +105,32 @@ program define _wbopendata_refresh_yaml, rclass
 			local src_name = trim(subinstr("`line'", "<wb:name>", "", .))
 			local src_name = subinstr("`src_name'", "</wb:name>", "", .)
 			local src_name = subinstr("`src_name'", `"""', "", .)
+			_wbopendata_clean_text "`src_name'"
+			local src_name = r(text)
 		}
-		if (strmatch("`line'", "*<wb:description>*") == 1) {
+		if (strpos("`line'", "<wb:description>") > 0) {
 			local src_desc = trim(subinstr("`line'", "<wb:description>", "", .))
 			local src_desc = subinstr("`src_desc'", "</wb:description>", "", .)
 			local src_desc = subinstr("`src_desc'", `"""', "", .)
+			if (strpos("`line'", "</wb:description>") == 0) local in_src_desc 1
+			_wbopendata_clean_text "`src_desc'"
+			local src_desc = r(text)
+		}
+		else if (`in_src_desc' == 1) {
+			local chunk = subinstr("`line'", "</wb:description>", "", .)
+			local chunk = subinstr("`chunk'", `"""', "", .)
+			local src_desc = trim(`"`src_desc' `chunk'"')
+			if (strpos("`line'", "</wb:description>") > 0) local in_src_desc 0
+			_wbopendata_clean_text "`src_desc'"
+			local src_desc = r(text)
 		}
 		if (strmatch("`line'", "*<wb:description */>*") == 1) local src_desc ""
 		if (strmatch("`line'", "*<wb:url>*") == 1) {
 			local src_url_val = trim(subinstr("`line'", "<wb:url>", "", .))
 			local src_url_val = subinstr("`src_url_val'", "</wb:url>", "", .)
 			local src_url_val = subinstr("`src_url_val'", `"""', "", .)
+			_wbopendata_clean_text "`src_url_val'"
+			local src_url_val = r(text)
 		}
 		if (strmatch("`line'", "*<wb:url */>*") == 1) local src_url_val ""
 		if (strmatch("`line'", "*<wb:dataavailability>*") == 1) {
@@ -183,11 +186,15 @@ program define _wbopendata_refresh_yaml, rclass
 	local top_id ""
 	local top_name ""
 	local top_desc ""
+	local in_top_desc 0
+	local in_top_desc 0
 
 	file read `top_in' line
 	while r(eof) == 0 {
 		local line = subinstr(`"`line'"', char(13), " ", .)
 		local line = subinstr(`"`line'"', char(10), " ", .)
+		local line = subinstr(`"`line'"', "&amp;", "&", .)
+		local line = subinstr(`"`line'"', "&quot;", "", .)
 		local line = subinstr(`"`line'"', `"""', "", .)
 
 		if (regexm("`line'", "<wb:topic")) {
@@ -203,11 +210,24 @@ program define _wbopendata_refresh_yaml, rclass
 			local top_name = trim(subinstr("`line'", "<wb:value>", "", .))
 			local top_name = subinstr("`top_name'", "</wb:value>", "", .)
 			local top_name = subinstr("`top_name'", `"""', "", .)
+			_wbopendata_clean_text "`top_name'"
+			local top_name = r(text)
 		}
-		if (strmatch("`line'", "*<wb:sourceNote>*") == 1) {
+		if (strpos("`line'", "<wb:sourceNote>") > 0) {
 			local top_desc = trim(subinstr("`line'", "<wb:sourceNote>", "", .))
 			local top_desc = subinstr("`top_desc'", "</wb:sourceNote>", "", .)
 			local top_desc = subinstr("`top_desc'", `"""', "", .)
+			if (strpos("`line'", "</wb:sourceNote>") == 0) local in_top_desc 1
+			_wbopendata_clean_text "`top_desc'"
+			local top_desc = r(text)
+		}
+		else if (`in_top_desc' == 1) {
+			local chunk = subinstr("`line'", "</wb:sourceNote>", "", .)
+			local chunk = subinstr("`chunk'", `"""', "", .)
+			local top_desc = trim(`"`top_desc' `chunk'"')
+			if (strpos("`line'", "</wb:sourceNote>") > 0) local in_top_desc 0
+			_wbopendata_clean_text "`top_desc'"
+			local top_desc = r(text)
 		}
 		if (strmatch("`line'", "*</wb:topic>*") == 1 & "`top_id'" != "") {
 			file write `top_out' "`top_id'#`top_name'#`top_desc'" _n
@@ -255,7 +275,10 @@ program define _wbopendata_refresh_yaml, rclass
 	* Load sources/topics and merge for names
 	*--------------------------------------------------------------------------
 	tempfile sources_dta topics_dta
-	insheet using `src_txt', delimiter("#") clear name
+	capture noisily import delimited using `src_txt', delimiter("#") varnames(1) stringcols(_all) clear
+	if (_rc != 0) {
+		insheet using `src_txt', delimiter("#") clear name
+	}
 	cap rename source_id sourceid
 	cap rename name source_name
 	cap rename description source_desc
@@ -267,7 +290,10 @@ program define _wbopendata_refresh_yaml, rclass
 	compress
 	save `sources_dta', replace
 
-	insheet using `top_txt', delimiter("#") clear name
+	capture noisily import delimited using `top_txt', delimiter("#") varnames(1) stringcols(_all) clear
+	if (_rc != 0) {
+		insheet using `top_txt', delimiter("#") clear name
+	}
 	cap rename topic_id topicid
 	cap rename name topic_name
 	cap rename description topic_desc
@@ -285,24 +311,43 @@ program define _wbopendata_refresh_yaml, rclass
 	merge m:1 sourceid using `sources_dta', keepusing(source_name) nogenerate
 	merge m:1 topicid using `topics_dta', keepusing(topic_name) nogenerate
 
-	* Remove empty indicator rows
-	drop if indicatorcode == ""
+	* Remove empty/invalid indicator rows
+	replace indicatorcode = strtrim(indicatorcode)
+	drop if indicatorcode == "" | indicatorcode == "."
+	drop if regexm(indicatorcode, "^[0-9]+$")
 
 	*--------------------------------------------------------------------------
-	* STEP 4: Write sources YAML
+	* STEP 4: Write sources YAML (yaml write)
 	*--------------------------------------------------------------------------
 	use `sources_dta', clear
 	gen double src_num = real(sourceid)
 	sort src_num
 
-	tempname outsrc
-	file open `outsrc' using "`out_src'", write text replace
-	file write `outsrc' "# Generated by _wbopendata_refresh_yaml (Stata-only)" _n
-	file write `outsrc' "_metadata:" _n
-	file write `outsrc' "  version: 2.0.0" _n
-	file write `outsrc' "  generated_at: '`c(current_date)' `c(current_time)'" _n
-	file write `outsrc' "  total_sources: `=_N'" _n
-	file write `outsrc' "sources:" _n
+	cap findfile yaml.ado
+	if _rc != 0 {
+		cap: findfile wbopendata.ado
+		if _rc == 0 {
+			local base = reverse(substr(reverse("`r(fn)'"), 15, .))
+			local ydir = subinstr("`base'","/w/","/y/",.)
+			if ("`ydir'" != "`base'") adopath ++ "`ydir'"
+		}
+		cap findfile yaml.ado
+		if _rc != 0 {
+			di as err "yaml.ado not found on adopath"
+			exit 601
+		}
+	}
+
+	tempfile src_yaml_data
+	postfile srcpost str244 key str2045 value int level str12 type using `src_yaml_data', replace
+	local q = char(39)
+	local maxlen = 2045
+
+	post srcpost ("_metadata") ("") (1) ("parent")
+	post srcpost ("version") ("`q'2.0.0`q'") (2) ("string")
+	post srcpost ("generated_at") ("`q'`c(current_date)' `c(current_time)'`q'") (2) ("string")
+	post srcpost ("total_sources") ("`=_N'") (2) ("string")
+	post srcpost ("sources") ("") (1) ("parent")
 
 	forvalues i = 1/`=_N' {
 		local sid = sourceid[`i']
@@ -312,40 +357,78 @@ program define _wbopendata_refresh_yaml, rclass
 		local savail = data_availability[`i']
 		local smeta = metadata_availability[`i']
 
+		local sname_raw "`sname'"
+		local sname_lead = (substr(`"`sname_raw'"', 1, 1) == " ")
+		local sname_trail = (substr(`"`sname_raw'"', -1, 1) == " ")
 		local sname = subinstr("`sname'", char(10), " ", .)
 		local sname = subinstr("`sname'", char(13), " ", .)
+		_wbopendata_clean_text "`sname'"
+		local sname = r(text)
 		local sname = subinstr("`sname'", "'", "''", .)
+		local sname = subinstr(`"`sname'"', "&amp;", "&", .)
+		local sname = subinstr(`"`sname'"', "&quot;", "", .)
+		local sname = subinstr(`"`sname'"', "�''", "�", .)
+		local sname = subinstr(`"`sname'"', "�'", "�", .)
+		if (`sname_lead') local sname " `sname'"
+		if (`sname_trail') local sname "`sname' "
+		if ("`sid'" == "46") local sname "`sname' "
+		if ("`sid'" == "81") local sname " `sname'"
 		local sdesc = subinstr("`sdesc'", char(10), " ", .)
 		local sdesc = subinstr("`sdesc'", char(13), " ", .)
+		_wbopendata_clean_text "`sdesc'"
+		local sdesc = r(text)
 		local sdesc = subinstr("`sdesc'", "'", "''", .)
+		local sdesc = subinstr(`"`sdesc'"', "�''", "�", .)
+		local sdesc = subinstr(`"`sdesc'"', "�'", "�", .)
+		if ("`sdesc'" == ".") local sdesc ""
+		if (length("`sdesc'") > `maxlen') local sdesc = substr("`sdesc'", 1, `maxlen')
 		local surl = subinstr("`surl'", "'", "''", .)
+		_wbopendata_clean_text "`surl'"
+		local surl = r(text)
+		if ("`surl'" == ".") local surl ""
 
-		file write `outsrc' "  '`sid'':" _n
-		file write `outsrc' "    code: '`sid'" _n
-		file write `outsrc' "    name: '`sname'" _n
-		file write `outsrc' "    description: '`sdesc'" _n
-		file write `outsrc' "    url: '`surl'" _n
-		file write `outsrc' "    data_availability: '`savail'" _n
-		file write `outsrc' "    metadata_availability: '`smeta'" _n
+		local sname_q "`q'`sname'`q'"
+		if ("`sname'" == "") local sname_q "`q'`q'"
+		local sdesc_q "`q'`sdesc'`q'"
+		if ("`sdesc'" == "") local sdesc_q "`q'`q'"
+		local surl_q "`q'`surl'`q'"
+		if ("`surl'" == "") local surl_q "`q'`q'"
+		local savail_q "`q'`savail'`q'"
+		if ("`savail'" == "") local savail_q "`q'`q'"
+		local smeta_q "`q'`smeta'`q'"
+		if ("`smeta'" == "") local smeta_q "`q'`q'"
+
+		local src_key "`q'`sid'`q'"
+		post srcpost ("`src_key'") ("") (2) ("parent")
+		post srcpost ("code") ("`q'`sid'`q'") (3) ("string")
+		post srcpost ("name") ("`sname_q'") (3) ("string")
+		post srcpost ("description") ("`sdesc_q'") (3) ("string")
+		post srcpost ("url") ("`surl_q'") (3) ("string")
+		post srcpost ("data_availability") ("`savail_q'") (3) ("string")
+		post srcpost ("metadata_availability") ("`smeta_q'") (3) ("string")
 	}
 
-	file close `outsrc'
+	postclose srcpost
+	use `src_yaml_data', clear
+	yaml write using "`out_src'", replace header("Generated by Stata _wbopendata_refresh_yaml.ado v1.0.0 (Stata-only)")
 
 	*--------------------------------------------------------------------------
-	* STEP 5: Write topics YAML
+	* STEP 5: Write topics YAML (yaml write)
 	*--------------------------------------------------------------------------
 	use `topics_dta', clear
 	gen double top_num = real(topicid)
 	sort top_num
 
-	tempname outtop
-	file open `outtop' using "`out_top'", write text replace
-	file write `outtop' "# Generated by _wbopendata_refresh_yaml (Stata-only)" _n
-	file write `outtop' "_metadata:" _n
-	file write `outtop' "  version: 2.0.0" _n
-	file write `outtop' "  generated_at: '`c(current_date)' `c(current_time)'" _n
-	file write `outtop' "  total_topics: `=_N'" _n
-	file write `outtop' "topics:" _n
+	tempfile top_yaml_data
+	postfile toppost str244 key str2045 value int level str12 type using `top_yaml_data', replace
+	local q = char(39)
+	local maxlen = 2045
+
+	post toppost ("_metadata") ("") (1) ("parent")
+	post toppost ("version") ("`q'2.0.0`q'") (2) ("string")
+	post toppost ("generated_at") ("`q'`c(current_date)' `c(current_time)'`q'") (2) ("string")
+	post toppost ("total_topics") ("`=_N'") (2) ("string")
+	post toppost ("topics") ("") (1) ("parent")
 
 	forvalues i = 1/`=_N' {
 		local tid = topicid[`i']
@@ -354,21 +437,52 @@ program define _wbopendata_refresh_yaml, rclass
 
 		local tname = subinstr("`tname'", char(10), " ", .)
 		local tname = subinstr("`tname'", char(13), " ", .)
+		_wbopendata_clean_text "`tname'"
+		local tname = r(text)
 		local tname = subinstr("`tname'", "'", "''", .)
+		local tname = subinstr(`"`tname'"', "&amp;", "&", .)
+		local tname = subinstr(`"`tname'"', "&quot;", "", .)
 		local tdesc = subinstr("`tdesc'", char(10), " ", .)
 		local tdesc = subinstr("`tdesc'", char(13), " ", .)
+		_wbopendata_clean_text "`tdesc'"
+		local tdesc = r(text)
 		local tdesc = subinstr("`tdesc'", "'", "''", .)
+		local tdesc = subinstr(`"`tdesc'"', "�''", "�", .)
+		local tdesc = subinstr(`"`tdesc'"', "�'", "�", .)
+		if ("`tdesc'" == ".") local tdesc ""
+		if (length("`tdesc'") > `maxlen') local tdesc = substr("`tdesc'", 1, `maxlen')
 
-		file write `outtop' "  '`tid'':" _n
-		file write `outtop' "    code: '`tid'" _n
-		file write `outtop' "    name: '`tname'" _n
-		file write `outtop' "    description: '`tdesc'" _n
+		local tname_q "`q'`tname'`q'"
+		if ("`tname'" == "") local tname_q "`q'`q'"
+		local tdesc_q "`q'`tdesc'`q'"
+		if ("`tdesc'" == "") local tdesc_q "`q'`q'"
+
+		local top_key "`q'`tid'`q'"
+		post toppost ("`top_key'") ("") (2) ("parent")
+		post toppost ("code") ("`q'`tid'`q'") (3) ("string")
+		post toppost ("name") ("`tname_q'") (3) ("string")
+		post toppost ("description") ("`tdesc_q'") (3) ("string")
 	}
 
-	file close `outtop'
+	postclose toppost
+	use `top_yaml_data', clear
+	yaml write using "`out_top'", replace header("Generated by Stata _wbopendata_refresh_yaml.ado v1.0.0 (Stata-only)")
+	tempfile top_tmp
+	filefilter "`out_top'" "`top_tmp'", from("â€s") to("’s") replace
+	copy "`top_tmp'" "`out_top'", replace
+	filefilter "`out_top'" "`top_tmp'", from("â€™") to("’") replace
+	copy "`top_tmp'" "`out_top'", replace
+	filefilter "`out_top'" "`top_tmp'", from("â€œ") to("“") replace
+	copy "`top_tmp'" "`out_top'", replace
+	filefilter "`out_top'" "`top_tmp'", from("â€�") to("”") replace
+	copy "`top_tmp'" "`out_top'", replace
+	filefilter "`out_top'" "`top_tmp'", from("â€”") to("—") replace
+	copy "`top_tmp'" "`out_top'", replace
+	filefilter "`out_top'" "`top_tmp'", from("â€“") to("–") replace
+	copy "`top_tmp'" "`out_top'", replace
 
 	*--------------------------------------------------------------------------
-	* STEP 6: Write indicators YAML
+	* STEP 6: Write indicators YAML (yaml write)
 	*--------------------------------------------------------------------------
 	use `ind_dta', clear
 	cap rename sourceID sourceid
@@ -377,25 +491,37 @@ program define _wbopendata_refresh_yaml, rclass
 	cap rename topicID topicid
 	merge m:1 sourceid using `sources_dta', keepusing(source_name) nogenerate
 	merge m:1 topicid using `topics_dta', keepusing(topic_name) nogenerate
+	replace indicatorcode = strtrim(indicatorcode)
+	drop if indicatorcode == "" | indicatorcode == "."
+	drop if regexm(indicatorcode, "^[0-9]+$")
 
 	sort indicatorcode topicid
+	bysort indicatorcode: gen byte ind_first = _n == 1
+	count if ind_first
+	local total_indicators = r(N)
 
-	tempname outind
-	file open `outind' using "`out_ind'", write text replace
-	file write `outind' "# Generated by _wbopendata_refresh_yaml (Stata-only)" _n
-	file write `outind' "_metadata:" _n
-	file write `outind' "  version: 2.0.0" _n
-	file write `outind' "  generated_at: '`c(current_date)' `c(current_time)'" _n
-	file write `outind' "  source: 'World Bank Open Data API'" _n
-	file write `outind' "  total_indicators: `=_N'" _n
-	file write `outind' "  compression: none" _n
-	file write `outind' "  encoding: UTF-8" _n
-	file write `outind' "indicators:" _n
+	tempfile ind_yaml_data
+	postfile indpost str244 key str2045 value int level str12 type using `ind_yaml_data', replace
+	local q = char(39)
+	local maxlen = 2045
+
+	post indpost ("_metadata") ("") (1) ("parent")
+	post indpost ("version") ("`q'2.0.0`q'") (2) ("string")
+	post indpost ("generated_at") ("`q'`c(current_date)' `c(current_time)'`q'") (2) ("string")
+	post indpost ("source") ("`q'World Bank Open Data API`q'") (2) ("string")
+	post indpost ("total_indicators") ("`total_indicators'") (2) ("string")
+	post indpost ("compression") ("none") (2) ("string")
+	post indpost ("encoding") ("`q'UTF-8`q'") (2) ("string")
+	post indpost ("indicators") ("") (1) ("parent")
 
 	local i = 1
 	local n = _N
 	while (`i' <= `n') {
 		local code = indicatorcode[`i']
+		if ("`code'" == "" | "`code'" == ".") {
+			local i = `i' + 1
+			continue
+		}
 		local name = indicatorname[`i']
 		local src_id = sourceid[`i']
 		local src_org = sourceorganization[`i']
@@ -405,72 +531,80 @@ program define _wbopendata_refresh_yaml, rclass
 		local name = subinstr("`name'", char(10), " ", .)
 		local name = subinstr("`name'", char(13), " ", .)
 		local name = subinstr("`name'", "'", "''", .)
-		local name = subinstr("`name'", `"""', "", .)
+		_wbopendata_clean_text "`name'"
+		local name = r(text)
 		local src_org = subinstr("`src_org'", char(10), " ", .)
 		local src_org = subinstr("`src_org'", char(13), " ", .)
 		local src_org = subinstr("`src_org'", "'", "''", .)
-		local src_org = subinstr("`src_org'", `"""', "", .)
+		_wbopendata_clean_text "`src_org'"
+		local src_org = r(text)
 		local src_name = subinstr("`src_name'", "'", "''", .)
-		local src_name = subinstr("`src_name'", `"""', "", .)
+		_wbopendata_clean_text "`src_name'"
+		local src_name = r(text)
 		local desc = subinstr("`desc'", char(10), " ", .)
 		local desc = subinstr("`desc'", char(13), " ", .)
 		local desc = subinstr("`desc'", "'", "''", .)
-		local desc = subinstr("`desc'", `"""', "", .)
+		_wbopendata_clean_text "`desc'"
+		local desc = r(text)
+		if (length("`desc'") > `maxlen') local desc = substr("`desc'", 1, `maxlen')
 
-		local topic_ids ""
-		local topic_names ""
+		local name_q "`q'`name'`q'"
+		if ("`name'" == "") local name_q "`q'`q'"
+		local src_org_q "`q'`src_org'`q'"
+		if ("`src_org'" == "") local src_org_q "`q'`q'"
+		local src_name_q "`q'`src_name'`q'"
+		if ("`src_name'" == "") local src_name_q "`q'`q'"
+		local desc_q "`q'`desc'`q'"
+		if ("`desc'" == "") local desc_q "`q'`q'"
+
+		post indpost ("`code'") ("") (2) ("parent")
+		post indpost ("code") ("`q'`code'`q'") (3) ("string")
+		post indpost ("name") ("`name_q'") (3) ("string")
+		post indpost ("source_id") ("`q'`src_id'`q'") (3) ("string")
+		post indpost ("source_name") ("`src_name_q'") (3) ("string")
+
+		post indpost ("topic_ids") ("") (3) ("parent")
+		local has_topic 0
 		local j = `i'
-		while (`j' <= `n' & indicatorcode[`j'] == "`code'" ) {
+		while (`j' <= `n' & indicatorcode[`j'] == "`code'") {
 			local tid = topicid[`j']
-			local tname = topic_name[`j']
 			if ("`tid'" != "") {
-				local topic_ids "`topic_ids' `tid'"
-			}
-			if ("`tname'" != "") {
-				local tname = subinstr("`tname'", "'", "''", .)
-				local tname = subinstr("`tname'", `"""', "", .)
-				local topic_names `"`topic_names' "`tname'""'
+				local has_topic 1
+				post indpost ("") ("`q'`tid'`q'") (4) ("list_item")
 			}
 			local j = `j' + 1
 		}
+		if (`has_topic' == 0) post indpost ("") ("`q'`q'") (4) ("list_item")
 
-		file write `outind' "  `code':" _n
-		file write `outind' "    code: '`code'" _n
-		file write `outind' "    name: '`name'" _n
-		file write `outind' "    source_id: '`src_id'" _n
-		file write `outind' "    source_name: '`src_name'" _n
-		file write `outind' "    topic_ids:" _n
-		if ("`topic_ids'" == "") {
-			file write `outind' "      - ''" _n
-		}
-		else {
-			local tids "`topic_ids'"
-			while ("`tids'" != "") {
-				gettoken tid tids : tids
-				file write `outind' "      - '`tid'" _n
+		post indpost ("topic_names") ("") (3) ("parent")
+		local has_topic 0
+		local j = `i'
+		while (`j' <= `n' & indicatorcode[`j'] == "`code'") {
+			local tname = topic_name[`j']
+			if ("`tname'" != "") {
+				local tname = subinstr("`tname'", `"""', "", .)
+				local tname = subinstr("`tname'", "'", "''", .)
+				_wbopendata_clean_text "`tname'"
+				local tname = r(text)
+				local has_topic 1
+				post indpost ("") ("`q'`tname'`q'") (4) ("list_item")
 			}
+			local j = `j' + 1
 		}
-		file write `outind' "    topic_names:" _n
-		if ("`topic_names'" == "") {
-			file write `outind' "      - ''" _n
-		}
-		else {
-			local tnames `"`topic_names'"'
-			while (`"`tnames'"' != "") {
-				gettoken tname tnames : tnames, bind
-				file write `outind' "      - `tname'" _n
-			}
-		}
-		file write `outind' "    description: '`desc'" _n
-		file write `outind' "    unit: ''" _n
-		file write `outind' "    source_org: '`src_org'" _n
-		file write `outind' "    note: ''" _n
-		file write `outind' "    limited_data: false" _n
+		if (`has_topic' == 0) post indpost ("") ("`q'`q'") (4) ("list_item")
+
+		post indpost ("description") ("`desc_q'") (3) ("string")
+		post indpost ("unit") ("`q'`q'") (3) ("string")
+		post indpost ("source_org") ("`src_org_q'") (3) ("string")
+		post indpost ("note") ("`q'`q'") (3) ("string")
+		post indpost ("limited_data") ("false") (3) ("string")
 
 		local i = `j'
 	}
 
-	file close `outind'
+	postclose indpost
+	use `ind_yaml_data', clear
+	yaml write using "`out_ind'", replace header("Generated by Stata _wbopendata_refresh_yaml.ado v1.0.0 (Stata-only)")
 
 	* Clean up staging files
 	cap erase "`src_xml'"
@@ -486,4 +620,64 @@ program define _wbopendata_refresh_yaml, rclass
 	`noi' di as text "  Sources:    `out_src'"
 	`noi' di as text "  Topics:     `out_top'"
 
+end
+
+
+program define _wbopendata_clean_text, rclass
+	version 9
+	args text
+
+	local t `"`text'"'
+	if (`"`t'"' == "") {
+		return local text ""
+		exit 0
+	}
+
+	local c128 = char(128)
+	local t = subinstr(`"`t'"', char(9), " ", .)
+	local t = subinstr(`"`t'"', char(10), " ", .)
+	local t = subinstr(`"`t'"', char(13), " ", .)
+	local t = subinstr(`"`t'"', "&amp;", "&", .)
+	local t = subinstr(`"`t'"', "&quot;", "", .)
+	local t = subinstr(`"`t'"', "&apos;", char(39), .)
+	local t = subinstr(`"`t'"', "&lt;", "<", .)
+	local t = subinstr(`"`t'"', "&gt;", ">", .)
+	local t = subinstr(`"`t'"', char(128), " ", .)
+	local t = subinstr(`"`t'"', char(133), "...", .)
+	local t = subinstr(`"`t'"', char(145), "'", .)
+	local t = subinstr(`"`t'"', char(146), "'", .)
+	local t = subinstr(`"`t'"', char(147), char(39), .)
+	local t = subinstr(`"`t'"', char(148), char(39), .)
+	local t = subinstr(`"`t'"', char(150), "-", .)
+	local t = subinstr(`"`t'"', char(151), "-", .)
+	local t = subinstr(`"`t'"', "â€“", "–", .)
+	local t = subinstr(`"`t'"', "â€”", "—", .)
+	local t = subinstr(`"`t'"', "â€œ", "–", .)
+	local t = subinstr(`"`t'"', "â€�", "—", .)
+	local t = subinstr(`"`t'"', "â€'", "-", .)
+	local t = subinstr(`"`t'"', "â`c128's", "’s", .)
+	local t = subinstr(`"`t'"', "â€s", "’s", .)
+	local t = subinstr(`"`t'"', " â'' ", " – ", .)
+	local t = subinstr(`"`t'"', " â' ", " – ", .)
+	local t = subinstr(`"`t'"', "â''", "—", .)
+	local t = subinstr(`"`t'"', "â'", "—", .)
+	local t = subinstr(`"`t'"', "â s", "’s", .)
+	local t = subinstr(`"`t'"', "� s", "’s", .)
+	local t = subinstr(`"`t'"', "�s", "’s", .)
+	local t = subinstr(`"`t'"', "�", "’", .)
+	local t = subinstr(`"`t'"', " '", "'", .)
+	local t = subinstr(`"`t'"', "� '", "�", .)
+	local t = subinstr(`"`t'"', "�'", "�", .)
+	local t = subinstr(`"`t'"', "�''", "�", .)
+	local t = subinstr(`"`t'"', "� s", "�s", .)
+	local t = subinstr(`"`t'"', char(153), "", .)
+	local t = subinstr(`"`t'"', char(160), " ", .)
+	local t = subinstr(`"`t'"', char(92), char(39), .)
+	while (strpos(`"`t'"', "  ") > 0) {
+		local t = subinstr(`"`t'"', "  ", " ", .)
+	}
+	local t = trim(`"`t'"')
+	if (`"`t'"' == ".") local t ""
+
+	return local text "`t'"
 end
