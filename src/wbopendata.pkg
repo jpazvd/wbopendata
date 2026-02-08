@@ -25,9 +25,9 @@ d KW: WDI
 d KW: API
 d KW: open data
 d 
-d Requires: Stata version 14
+d Requires: Stata version 12
 d 
-d Distribution-Date: 20260205
+d Distribution-Date: 20260208
 d License: MIT
 d 
 d Author: João Pedro Azevedo
@@ -62,9 +62,6 @@ f _/_update_countrymetadata.ado
 f _/_update_indicators.ado
 f _/_update_regionmetadata.ado
 f _/_update_wbopendata.ado
-f _/_wbod_tmpfile1.ado
-f _/_wbod_tmpfile2.ado
-f _/_wbod_tmpfile3.ado
 f _/_website.ado
 f _/_wbopendata_cache.ado
 f _/_wbopendata_check_version.ado
@@ -80,10 +77,10 @@ f _/_wbopendata_refresh_yaml.ado
 f _/__wbod_parse_yaml_ind.ado
 f _/__wbopendata_search.ado
 f _/__wbopendata_search_cache.ado
-f _/_wbopendata_parameters.yaml
-f _/_wbopendata_indicators.yaml
-f _/_wbopendata_sources.yaml
-f _/_wbopendata_topics.yaml
+F _/_wbopendata_parameters.yaml
+F _/_wbopendata_indicators.yaml
+F _/_wbopendata_sources.yaml
+F _/_wbopendata_topics.yaml
 f y/yaml.ado
 f y/yaml.sthlp
 f py/update_metadata.py

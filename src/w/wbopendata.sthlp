@@ -12,6 +12,7 @@
 {p2colset 9 24 22 2}{...}
 {p2col :{hi:wbopendata} {hline 2}}World Bank Open Databases.{p_end}
 {p2colreset}{...}
+{pstd}Requires Stata 12 or later.{p_end}
 {title:Syntax}
 
 {p 6 16 2}

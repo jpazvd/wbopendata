@@ -4,6 +4,8 @@
 
 ---
 
+**Minimum requirement:** Stata 12 or later.
+
 ## wbopendata v17.7.1 — Test Suite Expansion & Documentation Overhaul
 
 **Release Date:** January 4, 2026

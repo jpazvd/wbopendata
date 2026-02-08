@@ -52,6 +52,8 @@ The access to these databases is made possible by the World Bank's [Open Data In
 
 ## Installation
 
+**Minimum requirement:** Stata 12 or later.
+
 ### From GitHub (Recommended)
 
 ```stata
