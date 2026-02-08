@@ -2,6 +2,18 @@
 
 This folder holds the Stata and Python helpers used to generate and compare the YAML metadata files.
 
+## Principles
+
+- Commit reusable, deterministic tests that run without manual edits.
+- Keep ad-hoc debug scripts untracked (for example, files named _tmp_* or *debug*).
+- Prefer small, thematic test commits (for example, parity tools vs. discovery tests).
+- Avoid hardcoded absolute paths unless the script accepts overrides and documents them.
+
+## Commit rules
+
+- Commit: reusable runners, parity tools, schema checks, and environment setup.
+- Keep untracked: one-off debug helpers and local experiments.
+
 ## Quick parity workflow
 
 1) Generate Stata YAML and run the parity compare:
@@ -43,6 +55,14 @@ and runs the Python parity check against:
   - Helpers for tracing and verbose Stata refresh runs.
 - compare_indicator_schema.py
   - XML schema audit for the indicators API pages.
+- dev_setup.do
+  - Standardized dev environment setup and adopath configuration.
+- run_batch.do
+  - Sample batch runner that uses dev_setup.do.
+- _run_discovery_tests.do
+  - Simple runner for discovery command tests.
+- which_ado.do
+  - Verify dev ado resolution in the adopath.
 
 ## Outputs
 
