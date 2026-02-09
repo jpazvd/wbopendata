@@ -1,6 +1,8 @@
 *******************************************************************************
-*! _wbopendata_sync_preview v1.1.0  09Feb2026
+*! _wbopendata_sync_preview v1.2.0  09Feb2026
 *! Display metadata status diagnostic before sync
+*! v1.2.0: Added country metadata count display
+*! v1.1.0: Added detail option for per-source/topic breakdown
 *! Author: João Pedro Azevedo (World Bank | UNICEF)
 *! Contact: https://jpazvd.github.io
 *! License: MIT
@@ -137,6 +139,84 @@ program define _wbopendata_sync_preview, rclass
     }
 
     *---------------------------------------------------------------------------
+    * 3b. Get country metadata count from parameters YAML
+    *---------------------------------------------------------------------------
+    local ctry_count = 0
+    _wbopendata_get_yaml_path, type(parameters)
+    local param_yaml = r(path)
+    if (fileexists("`param_yaml'")) {
+        preserve
+        quietly {
+            infix str500 rawline 1-500 using "`param_yaml'", clear
+            gen byte has_ctry = strpos(rawline, "ctrymetadata:") > 0
+            sum has_ctry, meanonly
+            if (r(max) == 1) {
+                keep if has_ctry
+                keep in 1
+                local line = rawline[1]
+                local colon = strpos("`line'", ":")
+                local val = strtrim(substr("`line'", `colon' + 1, .))
+                local ctry_count = real("`val'")
+                if missing(`ctry_count') local ctry_count = 0
+            }
+        }
+        restore
+    }
+
+    *---------------------------------------------------------------------------
+    * 3c. Collect source and topic breakdown data (for stats history)
+    *---------------------------------------------------------------------------
+    local by_source = ""
+    local by_topic = ""
+    
+    if (`has_cache' & fileexists("`ind_yaml'")) {
+        * Collect source breakdown
+        preserve
+        quietly {
+            infix str500 rawline 1-500 using "`ind_yaml'", clear
+            keep if strpos(rawline, "source_id:") > 0
+            gen str10 source_id = strtrim(subinstr(rawline, "source_id:", "", 1))
+            replace source_id = subinstr(source_id, "'", "", .)
+            replace source_id = subinstr(source_id, `"""', "", .)
+            gen byte one = 1
+            collapse (sum) count = one, by(source_id)
+            gsort -count
+            local nrows = _N
+            forvalues i = 1/`nrows' {
+                local sid = source_id[`i']
+                local cnt = count[`i']
+                local by_source = "`by_source' `sid':`cnt'"
+            }
+        }
+        restore
+        local by_source = strtrim("`by_source'")
+        
+        * Collect topic breakdown
+        preserve
+        quietly {
+            infix str500 rawline 1-500 using "`ind_yaml'", clear
+            gen byte is_topic_entry = (strpos(strtrim(rawline), "- '") == 1)
+            keep if is_topic_entry
+            gen str10 topic_id = ""
+            replace topic_id = subinstr(strtrim(rawline), "- '", "", 1)
+            replace topic_id = subinstr(topic_id, "'", "", .)
+            gen byte is_num = real(topic_id) != .
+            keep if is_num
+            gen byte one = 1
+            collapse (sum) count = one, by(topic_id)
+            gsort -count
+            local nrows = _N
+            forvalues i = 1/`nrows' {
+                local tid = topic_id[`i']
+                local cnt = count[`i']
+                local by_topic = "`by_topic' `tid':`cnt'"
+            }
+        }
+        restore
+        local by_topic = strtrim("`by_topic'")
+    }
+
+    *---------------------------------------------------------------------------
     * 4. Check Python availability
     *---------------------------------------------------------------------------
     local python_ok = 0
@@ -203,9 +283,11 @@ program define _wbopendata_sync_preview, rclass
         local ind_fmt : di %9.0fc `ind_count'
         local src_fmt : di %9.0fc `src_count'
         local top_fmt : di %9.0fc `top_count'
+        local ctry_fmt : di %9.0fc `ctry_count'
         di as text "  Indicators:       " as result "`ind_fmt'"
         di as text "  Sources:          " as result "`src_fmt'"
         di as text "  Topics:           " as result "`top_fmt'"
+        di as text "  Country metadata: " as result "`ctry_fmt'"
     }
     else {
         di as text "  Cache Status:     " as error "Not found"
@@ -417,6 +499,7 @@ program define _wbopendata_sync_preview, rclass
     return scalar ind_count = `ind_count'
     return scalar src_count = `src_count'
     return scalar top_count = `top_count'
+    return scalar ctry_count = `ctry_count'
     return scalar python_available = `python_ok'
     return scalar needs_update = `needs_update'
     if (`api_ind_count' != .) return scalar api_ind_count = `api_ind_count'
@@ -424,6 +507,8 @@ program define _wbopendata_sync_preview, rclass
     if ("`cache_ts'" != "") return local cache_timestamp = "`cache_ts'"
     if ("`cache_method'" != "") return local cache_method = "`cache_method'"
     if ("`remote_ver'" != "") return local remote_version = "`remote_ver'"
+    if ("`by_source'" != "") return local by_source = "`by_source'"
+    if ("`by_topic'" != "") return local by_topic = "`by_topic'"
 end
 
 * Note: Helper programs _wbopendata_get_source_name and _wbopendata_get_topic_name
