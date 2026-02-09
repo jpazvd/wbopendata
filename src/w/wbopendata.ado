@@ -72,6 +72,7 @@ version 14.0
 						longitude 			///
 						countryname		///
 						SYNC			///
+						REPLACE			///
 						SYNCFORCE		///
 						SYNCPREVIEW		///
 						SYNCDRYRUN		///
@@ -173,7 +174,21 @@ local indicator `indicators'
 	}
 
 	* Sync and cache maintenance commands
-	if ("`sync'" != "" | "`syncforce'" != "" | "`syncpreview'" != "" | "`syncdryrun'" != "" | "`checkupdate'" != "" | "`clearcache'" != "" | "`cacheinfo'" != "") {
+	* Resolve backward-compatible aliases into canonical modifiers:
+	*   syncforce   → sync + replace + force
+	*   syncpreview → sync + replace
+	*   syncdryrun  → sync (dryrun is the default)
+	if ("`syncforce'" != "") {
+		local sync "sync"
+		local replace "replace"
+	}
+	if ("`syncpreview'" != "") {
+		local sync "sync"
+		local replace "replace"
+	}
+	if ("`syncdryrun'" != "") local sync "sync"
+
+	if ("`sync'" != "" | "`checkupdate'" != "" | "`clearcache'" != "" | "`cacheinfo'" != "") {
 		if ("`clearcache'" != "") {
 			_wbopendata_cache, clear
 			exit _rc
@@ -189,49 +204,54 @@ local indicator `indicators'
 				di as text "  Local version:  v" r(local_version)
 				di as text "  Remote version: v" r(remote_version)
 				di as text ""
-				di as text "Run wbopendata, sync to update"
+				di as text `"Run {stata wbopendata, sync replace:wbopendata, sync replace} to update"'
 			}
 			else di as text "Metadata is up-to-date (v" r(local_version) ")"
 			exit _rc
 		}
-		* Preview/dryrun: show diagnostic
-		if ("`syncpreview'" != "" | "`syncdryrun'" != "") {
-			noi _wbopendata_sync_preview, `detail'
-			return add
-			* If dryrun, stop here
-			if ("`syncdryrun'" != "") exit 0
-			* If preview, continue to sync
+		* sync: always show preview first
+		noi _wbopendata_sync_preview, `detail'
+		return add
+		* sync without replace: dryrun (safe default) — stop after preview
+		if ("`replace'" == "") {
 			di as text ""
-			di as text "Proceeding with sync..."
-			di as text ""
-		}
-		if ("`sync'" != "" | "`syncforce'" != "" | "`syncpreview'" != "") {
-			if ("`syncforce'" != "") _wbopendata_sync, force
-			else _wbopendata_sync
-			local sync_rc = _rc
-			if (`sync_rc' == 0) {
-				* Get counts after sync for history
-				quietly _wbopendata_sync_preview
-				local ind_count = r(ind_count)
-				local src_count = r(src_count)
-				local top_count = r(top_count)
-				local ctry_count = r(ctry_count)
-				local method = r(cache_method)
-				local by_source = r(by_source)
-				local by_topic = r(by_topic)
-				if ("`method'" == "") local method = "unknown"
-				* Write stats history with breakdown (suppress rclass warning)
-				capture quietly _wbopendata_write_stats_history, ///
-					method("`method'") ///
-					indicators(`ind_count') ///
-					sources(`src_count') ///
-					topics(`top_count') ///
-					countries(`ctry_count') ///
-					bysource("`by_source'") ///
-					bytopic("`by_topic'")
+			if ("`force'" != "") {
+				di as text `"To apply changes, run: {stata wbopendata, sync replace force:wbopendata, sync replace force}"'
 			}
-			exit `sync_rc'
+			else {
+				di as text `"To apply changes, run: {stata wbopendata, sync replace:wbopendata, sync replace}"'
+			}
+			exit 0
 		}
+		* sync replace: actually apply the sync (force passes through to _wbopendata_sync)
+		di as text ""
+		di as text "Proceeding with sync..."
+		di as text ""
+		if ("`force'" != "") _wbopendata_sync, force
+		else _wbopendata_sync
+		local sync_rc = _rc
+		if (`sync_rc' == 0) {
+			* Get counts after sync for history
+			quietly _wbopendata_sync_preview
+			local ind_count = r(ind_count)
+			local src_count = r(src_count)
+			local top_count = r(top_count)
+			local ctry_count = r(ctry_count)
+			local method = r(cache_method)
+			local by_source = r(by_source)
+			local by_topic = r(by_topic)
+			if ("`method'" == "") local method = "unknown"
+			* Write stats history with breakdown (suppress rclass warning)
+			capture quietly _wbopendata_write_stats_history, ///
+				method("`method'") ///
+				indicators(`ind_count') ///
+				sources(`src_count') ///
+				topics(`top_count') ///
+				countries(`ctry_count') ///
+				bysource("`by_source'") ///
+				bytopic("`by_topic'")
+		}
+		exit `sync_rc'
 	}
 
 	* describe option: just fetch metadata and exit
@@ -260,7 +280,7 @@ local indicator `indicators'
 	
 	* Check if no substantive options provided - show help message
 	local has_data_request = wordcount("`indicator' `country' `topics' `match'") > 0
-	local has_sync_request = wordcount("`sync' `syncforce' `checkupdate' `clearcache' `cacheinfo'") > 0
+	local has_sync_request = wordcount("`sync' `syncforce' `syncpreview' `syncdryrun' `checkupdate' `clearcache' `cacheinfo'") > 0
 	local has_discovery_request = wordcount("`search' `info' `sources' `allsources' `alltopics' `searchsource' `searchtopic'") > 0
 	local has_update_request = wordcount("`update' `query' `check' `countrymetadata' `all' `metadataoffline'") > 0
 	
@@ -277,9 +297,12 @@ local indicator `indicators'
 		noi di `"{stata `"wbopendata, info(NY.GDP.MKTP.CD)"':  wbopendata, info(NY.GDP.MKTP.CD)} - Get indicator details"'
 		noi di ""
 		noi di as text "Cache & sync commands:"
-		noi di `"{stata `"wbopendata, checkupdate"':  wbopendata, checkupdate}  - Check for metadata updates"'
-		noi di `"{stata `"wbopendata, sync"':  wbopendata, sync}         - Sync metadata from GitHub"'
-		noi di `"{stata `"wbopendata, cacheinfo"':  wbopendata, cacheinfo}    - Display cache status"'
+		noi di `"{stata `"wbopendata, checkupdate"':  wbopendata, checkupdate}       - Check for metadata updates"'
+		noi di `"{stata `"wbopendata, sync"':  wbopendata, sync}              - Preview metadata changes (dry run)"'
+		noi di `"{stata `"wbopendata, sync detail"':  wbopendata, sync detail}       - Detailed preview with source/topic breakdown"'
+		noi di `"{stata `"wbopendata, sync replace"':  wbopendata, sync replace}     - Apply metadata sync"'
+		noi di `"{stata `"wbopendata, sync replace force"':  wbopendata, sync replace force} - Force re-download metadata"'
+		noi di `"{stata `"wbopendata, cacheinfo"':  wbopendata, cacheinfo}           - Display cache status"'
 		noi di ""
 		noi di as text "Data retrieval examples:"
 		noi di `"{stata `"wbopendata, indicator(NY.GDP.MKTP.CD) clear"':  wbopendata, indicator(NY.GDP.MKTP.CD) clear}"'

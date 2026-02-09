@@ -662,9 +662,11 @@ syntax , 								///
 			file write `out' "" _n
 
 			file write `out' "sources:" _n
-			foreach item in `"`_yaml_srclist'"' {
-				local scode = substr("`item'", 1, 2)
-				local sname = strtrim(substr("`item'", 3, .))
+			local srclist `"`_yaml_srclist'"'
+			while `"`srclist'"' != "" {
+				gettoken item srclist : srclist, bind
+				local scode = substr(`"`item'"', 1, 2)
+				local sname = strtrim(substr(`"`item'"', 3, .))
 				local scount ``_yaml_pfx'sourceid`scode''
 				if ("`scount'" == "." | "`scount'" == "") local scount 0
 				file write `out' `"  '`scode'':"' _n
@@ -674,9 +676,11 @@ syntax , 								///
 			file write `out' "" _n
 
 			file write `out' "topics:" _n
-			foreach item in `"`_yaml_toplist'"' {
-				local tcode = word("`item'", 1)
-				local tname = strtrim(substr("`item'", strlen("`tcode'") + 1, .))
+			local toplist `"`_yaml_toplist'"'
+			while `"`toplist'"' != "" {
+				gettoken item toplist : toplist, bind
+				local tcode = word(`"`item'"', 1)
+				local tname = strtrim(substr(`"`item'"', strlen("`tcode'") + 1, .))
 				local tcount ``_yaml_pfx'topicid`tcode''
 				if ("`tcount'" == "." | "`tcount'" == "") local tcount 0
 				file write `out' `"  '`tcode'':"' _n

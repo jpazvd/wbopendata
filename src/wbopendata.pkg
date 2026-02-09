@@ -89,7 +89,6 @@ F _/_wbopendata_topics.yaml
 f y/yaml.ado
 f y/yaml.sthlp
 f py/update_metadata.py
-f py/update_metadata.do
 f py/wb_api_client.py
 f py/yaml_generator.py
 f py/schema_validator.py

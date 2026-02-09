@@ -51,14 +51,17 @@
 {synopt :{opt update query}} query the current vintage of indicators and country metadata available.{p_end}
 {synopt :{opt update check}} checks the availability of new indicators and country metadata available for download.{p_end}
 {synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
-{synopt :{opt sync}} check the metadata YAML cache and download the latest release if available (uses GitHub package files).{p_end}
-{synopt :{opt syncforce}} force-download the YAML metadata regardless of local version (overwrites cache).{p_end}
-{synopt :{opt syncpreview}} display metadata status diagnostic then proceed with sync.{p_end}
-{synopt :{opt syncdryrun}} display metadata status diagnostic without syncing (preview only).{p_end}
+{synopt :{opt sync}} preview metadata changes without applying (dry run). Safe default.{p_end}
+{synopt :{opt sync} {opt detail}} preview with per-source and per-topic indicator breakdown.{p_end}
+{synopt :{opt sync} {opt force}} force-refresh preview diagnostic (re-query API). Still dry run.{p_end}
+{synopt :{opt sync} {opt replace}} apply metadata sync — download latest release from GitHub.{p_end}
+{synopt :{opt sync} {opt replace} {opt force}} force re-download metadata regardless of local version.{p_end}
 {synopt :{opt checkupdate}} check whether newer YAML metadata is available without downloading it.{p_end}
 {synopt :{opt clearcache}} remove the local metadata cache (forces re-download on next sync).{p_end}
 {synopt :{opt cacheinfo}} display cache location, version, and timestamp for the metadata YAML files.{p_end}
-{synopt :{opt detail}} with {opt syncdryrun} or {opt syncpreview}, show per-source and per-topic indicator counts.{p_end}
+{synopt :{opt syncforce}} deprecated alias for {opt sync replace force}.{p_end}
+{synopt :{opt syncpreview}} deprecated alias for {opt sync replace}.{p_end}
+{synopt :{opt syncdryrun}} deprecated alias for {opt sync}.{p_end}
 {synopt :{opt match(varname)}} merge {help wbopendata##attributes:country attributes} into an existing dataset containing WDI (3 digit) countrycodes. Cannot be used with the data download options.{p_end}
 {synopt :{opt projection}} World Bank {help wbopendata_sourceid##sourceid_40:population estimates and projections} (HPP) .{p_end}
 {synopt :{opt metadataoffline}} download all indicator metadata information and generates 71 sthlp files in your local machine.{p_end}
@@ -942,27 +945,26 @@ return metadata for programmatic use and automation.{p_end}
 
 {pstd}{ul:{bf:Example 8: Manage cached YAML metadata (v18.x)}}{p_end}
 
-{p 4 4 2}Preview metadata status without syncing (dry run):{p_end}
+{p 4 4 2}Preview metadata status (dry run — safe default):{p_end}
 
 {cmd}
-.     wbopendata, syncdryrun
-.     wbopendata, syncdryrun detail
+.     wbopendata, sync
+.     wbopendata, sync detail
 
-{p 4 4 2}Check for updates and refresh cached metadata without downloading data:{p_end}
+{p 4 4 2}Check for updates:{p_end}
 
 {cmd}
 .     wbopendata, checkupdate
-.     wbopendata, sync
 
-{p 4 4 2}Preview status then sync in one step:{p_end}
-
-{cmd}
-.     wbopendata, syncpreview
-
-{p 4 4 2}Force refresh even when versions match, then inspect cache status:{p_end}
+{p 4 4 2}Apply metadata sync (download latest from GitHub):{p_end}
 
 {cmd}
-.     wbopendata, syncforce
+.     wbopendata, sync replace
+
+{p 4 4 2}Force re-download even when versions match:{p_end}
+
+{cmd}
+.     wbopendata, sync replace force
 .     wbopendata, cacheinfo
 
 {p 4 4 2}Clear cached files and metadata when you need a clean slate:{p_end}

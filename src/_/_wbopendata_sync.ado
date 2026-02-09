@@ -132,6 +132,12 @@ program define _wbopendata_run_python
         }
     }
 
+    * Check installed package directory (ado/plus/py/)
+    if ("`script'" == "") {
+        local candidate4 "`c(sysdir_plus)'py/update_metadata.py"
+        if (fileexists("`candidate4'")) local script "`candidate4'"
+    }
+
     if ("`script'" == "") {
         di as error "Python pipeline not found (update_metadata.py missing)."
         exit 601
