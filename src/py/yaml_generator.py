@@ -8,6 +8,7 @@ from __future__ import annotations
 import hashlib
 import re
 import logging
+import textwrap
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List
@@ -182,14 +183,24 @@ class YAMLGenerator:
             f"(schema {self.SCHEMA_VERSION})\n"
         )
         
-        # Custom string representer following unicefData approach:
-        # - Use literal block style (|) for multi-line strings
-        # - Use plain (unquoted) scalars for single-line strings
-        # This avoids all quote-related parsing issues in Stata
+        # Custom string representer:
+        # - Fold long single-line text to avoid very long YAML lines.
+        # - Preserve short strings as plain scalars.
+        def _wrap_long_text(value: str) -> str:
+            if len(value) <= 200 or " " not in value:
+                return value
+            return textwrap.fill(
+                value,
+                width=120,
+                break_long_words=False,
+                break_on_hyphens=False,
+            )
+
         def str_representer(dumper, data):
-            if '\n' in data:
-                return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='|')
-            return dumper.represent_scalar('tag:yaml.org,2002:str', data)
+            wrapped = _wrap_long_text(data)
+            if "\n" in wrapped:
+                return dumper.represent_scalar('tag:yaml.org,2002:str', wrapped, style='>')
+            return dumper.represent_scalar('tag:yaml.org,2002:str', wrapped)
         
         yaml.add_representer(str, str_representer, Dumper=yaml.SafeDumper)
         
