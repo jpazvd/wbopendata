@@ -1,5 +1,5 @@
 *******************************************************************************
-*! __wbod_parse_yaml_ind v1.0.1  09Feb2026
+*! __wbod_parse_yaml_ind v1.0.4  09Feb2026
 *! Parse YAML indicators file into collapsed dataset (one row per indicator)
 *! Called by __wbopendata_search_cache - not intended for direct use
 *******************************************************************************
@@ -113,11 +113,11 @@ program define __wbod_parse_yaml_ind
 
         *-------------------------------------------------------------------
         * Handle YAML list format: topic_ids and topic_names are lists
-        * List items are indented beyond the field header (typically 6 spaces)
+        * Use raw_trim so indentation differences don't affect detection
         *-------------------------------------------------------------------
-        gen byte is_list_item = indent >= 6 & substr(strtrim(rawline), 1, 2) == "- "
+        gen byte is_list_item = regexm(raw_trim, "^- ")
         gen str100 list_item_val = ""
-        replace list_item_val = strtrim(substr(rawline, strpos(rawline, "- ") + 2, .)) if is_list_item
+        replace list_item_val = strtrim(substr(raw_trim, 3, .)) if is_list_item
         * Remove surrounding quotes from list values
         replace list_item_val = substr(list_item_val, 2, length(list_item_val)-2) if is_list_item & ///
             length(list_item_val) >= 2 & ///
@@ -155,11 +155,23 @@ program define __wbod_parse_yaml_ind
             drop `v'_acc
         }
 
+        * Accumulate topic_ids using single-pass forward-fill + accumulate logic
+        * Use cond() to handle all cases in one pass - Stata processes rows sequentially
+        * within by-groups so each row sees the updated value from the previous row
         gen str500 all_topic_ids = ""
+        
+        * Initialize first row
         by ind_group: replace all_topic_ids = field_topic_ids if _n == 1
-        by ind_group: replace all_topic_ids = all_topic_ids[_n-1] if _n > 1 & field_topic_ids == ""
-        by ind_group: replace all_topic_ids = all_topic_ids[_n-1] + ";" + field_topic_ids if _n > 1 & all_topic_ids[_n-1] != "" & field_topic_ids != ""
-        by ind_group: replace all_topic_ids = field_topic_ids if _n > 1 & all_topic_ids[_n-1] == "" & field_topic_ids != ""
+        
+        * Single-pass: for each subsequent row, either:
+        * - Accumulate (append current to previous with ;) if both non-empty
+        * - Take current if previous empty
+        * - Carry forward previous if current empty
+        by ind_group: replace all_topic_ids = cond(field_topic_ids != "", ///
+            cond(all_topic_ids[_n-1] != "", all_topic_ids[_n-1] + ";" + field_topic_ids, field_topic_ids), ///
+            all_topic_ids[_n-1]) if _n > 1
+        
+        * Propagate final accumulated value to all rows in group
         by ind_group: replace all_topic_ids = all_topic_ids[_N]
         replace field_topic_ids = all_topic_ids
         drop all_topic_ids
