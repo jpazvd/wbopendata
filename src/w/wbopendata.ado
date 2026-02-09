@@ -162,8 +162,10 @@ local indicator `indicators'
 		}
 		* Get indicator info
 		if ("`info'" != "") {
-			noisily _wbopendata_info, indicator("`info'")
-			return add
+			capture noisily _wbopendata_info, indicator("`info'")
+			if (_rc == 0) {
+				return add
+			}
 			exit _rc
 		}
 	}

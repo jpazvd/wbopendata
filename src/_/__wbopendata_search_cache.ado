@@ -141,7 +141,7 @@ program define __wbopendata_search_cache, rclass
     *---------------------------------------------------------------------------
     local use_cache = ("`nocache'" == "")
     local cache_method = "frames"
-    local parser_version "1.0.4"
+    local parser_version "1.0.10"
 
     preserve
 
@@ -159,7 +159,7 @@ program define __wbopendata_search_cache, rclass
         * No content-based guards - trust parser version for invalidation
         capture frame `frame_name': count
         if (_rc == 0 & r(N) > 0) {
-            capture frame `frame_name': confirm variable ind_code field_name field_source_id _parser_version
+            capture frame `frame_name': confirm variable ind_code field_name field_source_id field_source_name field_unit field_limited_data _parser_version
             if (_rc == 0) {
                 local cache_loaded = 1
                 frame `frame_name' {
