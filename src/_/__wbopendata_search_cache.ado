@@ -328,7 +328,12 @@ program define __wbopendata_search_cache, rclass
     *---------------------------------------------------------------------------
     * Display results with SMCL navigation
     *---------------------------------------------------------------------------
+    * Sanitize strings: replace embedded double-quotes with single-quotes
+    * so that local macro expansion never encounters unmatched quotes (r(132))
     quietly {
+        foreach var of varlist field_name field_desc field_source field_topic field_note {
+            capture replace `var' = subinstr(`var', char(34), "'", .)
+        }
         replace field_name = "N/A" if field_name == ""
         replace field_source = "N/A" if field_source == ""
     }
@@ -371,9 +376,6 @@ program define __wbopendata_search_cache, rclass
             local topic_id = field_topic_ids[`i']
             if ("`topic_nm'" == "") local topic_nm "-"
 
-            local nm_esc = subinstr(`"`nm'"', `"""', `"""""', .)
-            local topic_esc = subinstr(`"`topic_nm'"', `"""', `"""""', .)
-
             * Build clickable links
             local info_cmd `"wbopendata, info(`code')"'
             local get_cmd `"wbopendata, indicator(`code') clear"'
@@ -384,15 +386,15 @@ program define __wbopendata_search_cache, rclass
             di as result "`code'" as text "  " ///
                `"{stata `"`info_cmd'"':[Info]}"' " " ///
                `"{stata `"`get_cmd'"':[Get]}"'
-            di in smcl `"{p 4 4 4}{result:Name}: `nm_esc'{p_end}"'
-            di in smcl `"{p 4 4 4}{result:Source}: {stata `"`src_cmd'"':`src_id'}  {result:Topic}: {stata `"`topic_cmd'"':`topic_esc'}{p_end}"'
+            di in smcl `"{p 4 4 4}{result:Name}: `nm'{p_end}"'
+            di in smcl `"{p 4 4 4}{result:Source}: {stata `"`src_cmd'"':`src_id'}  {result:Topic}: {stata `"`topic_cmd'"':`topic_nm'}{p_end}"'
             di as text "{hline}"
 
             * Build return values
             local codes "`codes' `code'"
-            local names `"`names' "`nm_esc'""'
+            local names `"`names' "`nm'""'
             local sources "`sources' `src_id'"
-            local topics `"`topics' "`topic_esc'""'
+            local topics `"`topics' "`topic_nm'""'
         }
 
         if (`lim' < `n') {
@@ -431,17 +433,14 @@ program define __wbopendata_search_cache, rclass
             local topic_nm = field_topic[`i']
             local topic_id = field_topic_ids[`i']
 
-            local nm_esc = subinstr(`"`nm'"', `"""', `"""""', .)
-            local topic_esc = subinstr(`"`topic_nm'"', `"""', `"""""', .)
-
             * Truncate long names for display (based on dynamic width)
-            local nm_disp = "`nm_esc'"
+            local nm_disp = "`nm'"
             if (strlen("`nm_disp'") > `name_trunc') {
                 local nm_disp = substr("`nm_disp'", 1, `name_trunc' - 3) + "..."
             }
 
             * Truncate topic for display (based on dynamic width)
-            local topic_disp = "`topic_esc'"
+            local topic_disp = "`topic_nm'"
             if (strlen("`topic_disp'") > `topic_trunc') {
                 local topic_disp = substr("`topic_disp'", 1, `topic_trunc' - 3) + "..."
             }
@@ -474,9 +473,9 @@ program define __wbopendata_search_cache, rclass
 
             * Build return values
             local codes "`codes' `code'"
-            local names `"`names' "`nm_esc'""'
+            local names `"`names' "`nm'""'
             local sources "`sources' `src_id'"
-            local topics `"`topics' "`topic_esc'""'
+            local topics `"`topics' "`topic_nm'""'
         }
 
         di as text "{hline}"

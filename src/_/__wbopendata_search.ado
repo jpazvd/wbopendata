@@ -370,7 +370,12 @@ program define __wbopendata_search, rclass
     *---------------------------------------------------------------------------
     * Display results with SMCL navigation
     *---------------------------------------------------------------------------
+    * Sanitize strings: replace embedded double-quotes with single-quotes
+    * so that local macro expansion never encounters unmatched quotes (r(132))
     quietly {
+        foreach var of varlist field_name field_desc field_source field_topic field_note {
+            capture replace `var' = subinstr(`var', char(34), "'", .)
+        }
         replace field_name = "N/A" if field_name == ""
         replace field_source = "N/A" if field_source == ""
     }
