@@ -209,26 +209,28 @@ else {
     }
     else {
         * Check if qa subfolder exists in current directory
-        cap confirm file "`cwd'/qa/."
+        * Normalize slashes before confirm to avoid Windows mixed-path issues
+        local cwd_norm = subinstr("`cwd'", "\", "/", .)
+        cap confirm file "`cwd_norm'/qa/."
         if _rc == 0 {
-            local repo_root = subinstr("`cwd'", "\", "/", .)
+            local repo_root "`cwd_norm'"
             local qadir "`repo_root'/qa"
             di as text "Repo path (from cwd): `repo_root'"
         }
         else {
             * No repo detected
             local repo_root ""
-            local qadir = subinstr("`cwd'", "\", "/", .)
+            local qadir "`cwd_norm'"
             di as text "Repo path: not detected (logs will save to current directory)"
         }
     }
 }
 
-* Validate repo path if provided
+* Validate repo path if provided (pkg is in src/ subfolder)
 if "`repo_root'" != "" {
-    cap confirm file "`repo_root'/wbopendata.pkg"
+    cap confirm file "`repo_root'/src/wbopendata.pkg"
     if _rc != 0 {
-        di as error "Warning: wbopendata.pkg not found at `repo_root'"
+        di as error "Warning: wbopendata.pkg not found at `repo_root'/src/"
         di as error "         Repo comparison tests (ENV-*) may fail"
         if `skip_repo_tests' == 0 {
             di as text _n "Tip: Run with 'norepo' option to skip repo tests:"
@@ -259,8 +261,8 @@ global skip_repo_tests `skip_repo_tests'
 
 * Install from repo if path is available and user wants repo sync
 if "`repo_root'" != "" & `skip_repo_tests' == 0 {
-    di as text _n "Installing wbopendata from repo: `repo_root'"
-    cap noi net install wbopendata, from("`repo_root'") replace
+    di as text _n "Installing wbopendata from repo: `repo_root'/src"
+    cap noi net install wbopendata, from("`repo_root'/src") replace force
     if _rc != 0 {
         di as error "Warning: Could not install from repo (rc=`=_rc')"
         di as text "         Continuing with currently installed version"
