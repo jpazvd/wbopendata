@@ -274,12 +274,17 @@ wbopendata, info(`first_code')
 
 * 10.2 Search -> Download
 di as text _n "10.2 Search -> Download chain:"
-wbopendata, search(population total) searchfield(name) limit(1)
+wbopendata, search(population+total) searchfield(name) limit(1)
 local ind = r(first_code)
 di "Downloading: `ind'"
-wbopendata, indicator(`ind') country(BRA;USA) clear long
-desc
-list in 1/5
+if ("`ind'" != "") {
+    wbopendata, indicator(`ind') country(BRA;USA) clear long
+    desc
+    list in 1/5
+}
+else {
+    di as error "No indicator found - skipping download test"
+}
 
 *******************************************************************************
 * SUMMARY
