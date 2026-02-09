@@ -263,6 +263,12 @@ Discovery commands help you explore the World Bank Open Data catalog without dow
 All discovery outputs feature clickable SMCL navigation links that let you drill down from
 sources to topics to individual indicators, and then download data with a single click.{p_end}
 
+{pstd}
+The discovery architecture in {cmd:wbopendata} follows the model introduced by {cmd:{help unicefdata}}
+(Azevedo, 2026), which pioneered offline catalog browsing with YAML-backed metadata, keyword search,
+and clickable SMCL navigation in Stata. The {cmd:wbopendata} implementation extends this pattern to
+the World Bank's 51 data sources and 29,000+ indicators.{p_end}
+
 {dlgtab:List Sources}
 
 {synopt :{opt sources}}Lists all World Bank data sources (databases) with clickable navigation.{p_end}
@@ -1002,7 +1008,7 @@ The terms of use of the APIs is governed by {browse "http://go.worldbank.org/C09
 {p 8 12 2}Azevedo, Jo\~{a}o Pedro (2011). "WBOPENDATA: Stata module to access World Bank databases." Statistical Software Components S457234, Boston College Department of Economics. {browse "https://ideas.repec.org/c/boc/bocode/s457234.html"}.{p_end}
 
 {p 8 12 2}For version 17.7.1+ with graph metadata features:{p_end}
-{p 8 12 2}Azevedo, Jo\~{a}o Pedro (2026). "wbopendata: Fifteen Years of Programmatic Access to World Bank Open Data." Stata Journal (forthcoming).{p_end}
+{p 8 12 2}Azevedo, Jo\~{a}o Pedro (2026). "wbopendata: Fifteen Years of Programmatic Access to World Bank Open Data." Mimeo.{p_end}
 
 {p 8 12 2}Please make reference to the date when the database was downloaded, as indicator values and availability may change.{p_end}
 
@@ -1011,8 +1017,12 @@ The terms of use of the APIs is governed by {browse "http://go.worldbank.org/C09
 {title:References}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
 
+    {p 4 4 2}Azevedo, Jo\~{a}o Pedro (2026). "wbopendata: Fifteen Years of Programmatic Access to World Bank Open Data." Mimeo.{p_end}
+
+    {p 4 4 2}Azevedo, Jo\~{a}o Pedro (2026). "unicefdata: Unified access to UNICEF indicators across R, Python, and Stata." UNICEF Chief Statistician Office. {browse "https://github.com/unicef-drp/unicefdata"}.{p_end}
+
     {p 4 4 2}David C. Elliott, 2002. "TKNZ: Stata module to tokenize string into named macros," Statistical Software Components
-S426302, Boston College Department of Economics, revised 17 Oct 2006.{p_end} 
+S426302, Boston College Department of Economics, revised 17 Oct 2006.{p_end}
 
 {marker acknowled}{...}
 {title:Acknowledgements}
