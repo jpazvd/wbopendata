@@ -4,6 +4,8 @@
 
 ---
 
+**Minimum requirement:** Stata 12 or later.
+
 ## wbopendata v17.7.1 — Test Suite Expansion & Documentation Overhaul
 
 **Release Date:** January 4, 2026
@@ -270,9 +272,19 @@ For complete version history including all releases from v12.0 (2013) to present
 2023 ─── v17.0    Region metadata, enhanced matching
 
 2020 ─┬─ v16.3    HTTPS API migration
+      ├─ v16.2.3  Metadata query rewrite (_api_read.ado)
+      ├─ v16.2.2  Metadata server update
+      ├─ v16.2.1  Flow check for metadataoffline
+      ├─ v16.2    Offline metadata option (SOURCEID/TOPICID docs)
+      ├─ v16.1    Removed SOURCEID/TOPICSID from package
       └─ v16.0    Multiple indicators, modular architecture
 
 2019 ─┬─ v15.1    Update options, 16,000+ indicators
+      ├─ v15.0.1  Maintenance release
+      ├─ v15.0    Major version bump
+      ├─ v14.3    _wbopendata_update.ado revised (no out.txt)
+      ├─ v14.2    checksum off; update fixes
+      ├─ v14.1    indicator update + nopreserve
       └─ v14.0    New API server
 
 2016 ─── v13.5    Last SSC release before major overhaul ◄──

@@ -1,6 +1,9 @@
 *******************************************************************************
-* wbopendata             
-*! v 17.7.1  	 04Jan2026               by Joao Pedro Azevedo
+* wbopendata
+*! v 18.0.0  	 05Feb2026               by Joao Pedro Azevedo
+*   18.0.0: Deprecated 89 per-indicator sthlp files; replaced with discovery commands (sources, search, info)
+*   17.8.1: Pass detail option through to search for wrapped display format
+*   17.8.0: Added sources, alltopics discovery commands; enhanced search with topic/field filters and wildcards
 * 	17.7.1: Fixed bug where latest option with multiple indicators caused variable name truncation error
 * 	17.7: basic country context variables (region/admin/income/lending) now added by default; use nobasic to disable
 * 	17.6.0: Added linewrap, maxlength, linewrapformat, describe options for graph metadata
@@ -13,7 +16,7 @@
 
 program def wbopendata, rclass
 
-version 9.0
+version 14.0
 
     syntax                                          ///
                  [,                                 ///
@@ -73,9 +76,15 @@ version 9.0
 						CHECKUPDATE		///
 						CLEARCACHE		///
 						CACHEINFO		///
+						SOURCES			///
+						ALLSOURCES		///
+						ALLTOPICS		///
 						SEARCH(string)	///
-						LIMIT(integer 20)	///
+						LIMIT(string)	///
 						SEARCHSOURCE(string)	///
+						SEARCHTOPIC(string)	///
+						SEARCHFIELD(string)	///
+						EXACT			///
 						INFO(string)	///
 						LINEWRAP(string) 	///
 						MAXLENGTH(string) 	///
@@ -84,6 +93,13 @@ version 9.0
                  ]
 
 quietly {
+
+local limit_specified = ("`limit'" != "")
+local limit_val = 20
+if (`limit_specified') {
+	local limit_val = real("`limit'")
+	if (missing(`limit_val') | `limit_val' <= 0) local limit_val = 20
+}
 
 
 local indicator `indicators'
@@ -105,16 +121,51 @@ local indicator `indicators'
 	if ("`linewrapformat'" != "") local needmeta 1
 	if ("`maxlength'" != "") local needmeta 1
 
-	* Search and info commands (discovery)
-	if ("`search'" != "" | "`info'" != "") {
-		if ("`search'" != "") {
-			noisily _wbopendata_search "`search'", limit(`limit') source("`searchsource'")
+	* Discovery commands: sources, allsources, topics, search, info
+	* Note: search can be empty if searchsource or searchtopic is provided (browse mode)
+	local has_search_filter = ("`searchsource'" != "" | "`searchtopic'" != "")
+	if ("`sources'" != "" | "`allsources'" != "" | "`alltopics'" != "" | "`search'" != "" | `has_search_filter' | "`info'" != "") {
+		* List sources (sources=20 default, allsources=all)
+		if ("`sources'" != "") {
+			noisily _wbopendata_sources, limit(`limit_val')
 			return add
 			exit _rc
 		}
-		if ("`info'" != "") {
-			noisily _wbopendata_info, indicator("`info'")
+		if ("`allsources'" != "") {
+			if (`limit_specified') {
+				noisily _wbopendata_sources, limit(`limit_val')
+			}
+			else {
+				noisily _wbopendata_sources
+			}
 			return add
+			exit _rc
+		}
+		* List all topics
+		if ("`alltopics'" != "") {
+			if (`limit_specified') {
+				noisily _wbopendata_topics, limit(`limit_val')
+			}
+			else {
+				noisily _wbopendata_topics
+			}
+			return add
+			exit _rc
+		}
+		* Search indicators (also handles browse mode when only filter is provided)
+		if ("`search'" != "" | `has_search_filter') {
+			noisily _wbopendata_search "`search'", limit(`limit_val') ///
+				source("`searchsource'") topic("`searchtopic'") ///
+				field("`searchfield'") `exact' `detail'
+			return add
+			exit _rc
+		}
+		* Get indicator info
+		if ("`info'" != "") {
+			capture noisily _wbopendata_info, indicator("`info'")
+			if (_rc == 0) {
+				return add
+			}
 			exit _rc
 		}
 	}
@@ -142,8 +193,8 @@ local indicator `indicators'
 			exit _rc
 		}
 		if ("`sync'" != "" | "`syncforce'" != "") {
-			if ("`syncforce'" != "") _wbopendata_cache, update force
-			else _wbopendata_cache, update
+			if ("`syncforce'" != "") _wbopendata_sync, force
+			else _wbopendata_sync
 			exit _rc
 		}
 	}
@@ -175,15 +226,19 @@ local indicator `indicators'
 	* Check if no substantive options provided - show help message
 	local has_data_request = wordcount("`indicator' `country' `topics' `match'") > 0
 	local has_sync_request = wordcount("`sync' `syncforce' `checkupdate' `clearcache' `cacheinfo'") > 0
-	local has_discovery_request = wordcount("`search' `info'") > 0
+	local has_discovery_request = wordcount("`search' `info' `sources' `allsources' `alltopics' `searchsource' `searchtopic'") > 0
 	local has_update_request = wordcount("`update' `query' `check' `countrymetadata' `all' `metadataoffline'") > 0
 	
 	if !(`has_data_request') & !(`has_sync_request') & !(`has_discovery_request') & !(`has_update_request') {
 		noi di as err "You must specify either indicator(), country(), topics(), or match() to download data."
 		noi di ""
 		noi di as text "Discovery commands:"
+		noi di `"{stata `"wbopendata, sources"':  wbopendata, sources}                   - List data sources (limited list)"'
+		noi di `"{stata `"wbopendata, allsources"':  wbopendata, allsources}             - List all data sources"'
+		noi di `"{stata `"wbopendata, alltopics"':  wbopendata, alltopics}               - List all topic categories"'
 		noi di `"{stata `"wbopendata, search(GDP)"':  wbopendata, search(GDP)}           - Search indicators by keyword"'
-		noi di `"{stata `"wbopendata, search(health)"':  wbopendata, search(health)}     - Search within a source"'
+		noi di `"{stata `"wbopendata, search(NY.GDP.*) searchfield(code)"':  wbopendata, search(NY.GDP.*) searchfield(code)} - Wildcard search in codes"'
+		noi di `"{stata `"wbopendata, search(health) searchsource(2)"':  wbopendata, search(health) searchsource(2)} - Search within a source"'
 		noi di `"{stata `"wbopendata, info(NY.GDP.MKTP.CD)"':  wbopendata, info(NY.GDP.MKTP.CD)} - Get indicator details"'
 		noi di ""
 		noi di as text "Cache & sync commands:"

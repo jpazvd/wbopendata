@@ -1,9 +1,10 @@
 {smcl}
 {hline}
-{* 4Jan2026  }{...}
+{* 9Feb2026  }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
-{right: {bf:version 17.7.1 (fixed multi-indicator latest)}}
+{right:What's New:  {bf:{help wbopendata_whatsnew:What's New}}}
+{right: {bf:version 18.0.0}}
 {hline}
 
 {title:Title}
@@ -11,6 +12,7 @@
 {p2colset 9 24 22 2}{...}
 {p2col :{hi:wbopendata} {hline 2}}World Bank Open Databases.{p_end}
 {p2colreset}{...}
+{pstd}Requires Stata 12 or later.{p_end}
 {title:Syntax}
 
 {p 6 16 2}
@@ -55,12 +57,26 @@
 {synopt :{opt clearcache}} remove the local metadata cache (forces re-download on next sync).{p_end}
 {synopt :{opt cacheinfo}} display cache location, version, and timestamp for the metadata YAML files.{p_end}
 {synopt :{opt match(varname)}} merge {help wbopendata##attributes:country attributes} into an existing dataset containing WDI (3 digit) countrycodes. Cannot be used with the data download options.{p_end}
-{synopt :{opt projection}} World Bank {help wbopendata_sourceid_indicators40##sourceid_40:population estimates and projections} (HPP) .{p_end}
-{synopt :{opt metadataoffline}} download all indicator metadata informaiton and generates 71 sthlp files in your local machine.{p_end}
+{synopt :{opt projection}} World Bank {help wbopendata_sourceid##sourceid_40:population estimates and projections} (HPP) .{p_end}
+{synopt :{opt metadataoffline}} download all indicator metadata information and generates 71 sthlp files in your local machine.{p_end}
 {synopt :{opt describe}} display indicator metadata only (no data download). Requires {opt indicator()}. Supports {opt linewrap()}, {opt maxlength()}, and {opt linewrapformat()} when present.{p_end}
 {synopt :{opt linewrap(fields)}} wrap metadata text for graph titles. Fields: name, description, note, source, topic, or all.{p_end}
 {synopt :{opt maxlength(# [# ...])}} maximum characters per line for linewrap. Single value (default 50) or multiple values matching linewrap field order.{p_end}
 {synopt :{opt linewrapformat(fmt)}} output format: stack (default), newline, nlines, lines, or all.{p_end}
+
+{synoptset 27 tabbed}{...}
+{synopthdr:Discovery Commands}
+{synoptline}
+{synopt :{opt sources}} list all World Bank data sources with indicator counts and clickable navigation.{p_end}
+{synopt :{opt alltopics}} list all World Bank topics with indicator counts and clickable navigation.{p_end}
+{synopt :{opt search(pattern)}} search indicators by keyword, wildcard, or regex pattern.{p_end}
+{synopt :{opt searchsource(#)}} filter search results to a specific source ID.{p_end}
+{synopt :{opt searchtopic(#)}} filter search results to a specific topic ID.{p_end}
+{synopt :{opt searchfield(fields)}} search in specific fields: code, name, description, source, topic, note, or all.{p_end}
+{synopt :{opt exact}} require exact match (no partial matching).{p_end}
+{synopt :{opt detail}} display search results in wrapped block format (full labels).{p_end}
+{synopt :{opt limit(#)}} maximum results to display (default 20).{p_end}
+{synopt :{opt info(code)}} display detailed metadata for a specific indicator.{p_end}
 {synoptline}
 {p 4 6 2}
 {cmd:wbopendata} requires a connection to the internet and supports the Stata dialogue function ({dialog wbopendata}).{p_end}
@@ -75,6 +91,7 @@ Sections are presented under the following headings:
 		{it:{help wbopendata##desc:Command description}}
 		{it:{help wbopendata##param:Parameters description}}
 		{it:{help wbopendata##options:Options description}}
+		{it:{help wbopendata##discovery:Discovery commands}}
 		{it:{help wbopendata##storedresults:Stored results}}
 		{it:{help wbopendata##attributes:List of supported country attributes}}
 		{it:{help wbopendata##countries:Country code and names by selected attributes}}
@@ -130,12 +147,13 @@ this case). If this option is selected jointly with a specific indicator, the ou
 country or region, or multiple countries or regions. When selecting multiple countries please use the three letters code, separated by 
 a semicolon (;), with no spaces.{p_end}
 
-{synopt:{opt topics(numlist)}}{help wbopendata##topics:Topic List} 21 topic lists are curently supported and include Agriculture & Rural Development; 
+{synopt:{opt topics(numlist)}}{help wbopendata##topics:Topic List} 21 topic lists are currently supported and include Agriculture & Rural Development; 
 Aid Effectiveness; Economy & Growth; Education; Energy & Mining; Environment; Financial Sector; Health; Infrastructure; Social Protection & Labor; 
-Poverty; Private Sector; Public Sector; Science & Technology; Social Development; Urban Development; Gender; Millenium development goals; Climate Change; 
+Poverty; Private Sector; Public Sector; Science & Technology; Social Development; Urban Development; Gender; Millennium Development Goals; Climate Change; 
+
 External Debt; and, Trade (only one topic collection can be requested at the time).{p_end}
 {synopt:{opt indicator(string)}}{help wbopendata_sourceid##indicators:Indicators List} list of indicator codes (All series). When selecting multiple 
-indicators please use semicolon (;), to separate differenet indicatos.{p_end}
+indicators please use semicolon (;) to separate different indicators.{p_end}
 
 
 {marker options}{...}
@@ -200,9 +218,9 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
 
-{synopt :{opt match(varname)}} mergue {it:{help wbopendata##attributes:country attributes}} using WDI countrycodes.{p_end}
+{synopt :{opt match(varname)}} merge {it:{help wbopendata##attributes:country attributes}} using WDI countrycodes.{p_end}
 
-{synopt :{opt projection}} World Bank staff {help wbopendata_sourceid_indicators40##sourceid_40:population projection estimates} using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end} 
+{synopt :{opt projection}} World Bank staff {help wbopendata_sourceid##sourceid_40:population projection estimates} using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end} 
 
 {synopt :{opt metadataoffline}} refresh all metadata information, and generate a local copy of all indicators metadata organized by topics and source. This option creates 71 new help files in your local machine with approximately 15mb of documentation.{p_end}
 
@@ -228,7 +246,161 @@ the last value is used for remaining fields.{p_end}
 {p 8 12 2}- {opt nlines}: returns {cmd:r({it:field}1_nlines)} scalar with line count{p_end}
 {p 8 12 2}- {opt lines}: returns {cmd:r({it:field}1_line1)}, {cmd:r({it:field}1_line2)}, etc. for each line{p_end}
 {p 8 12 2}- {opt all}: returns all formats ({cmd:_stack}, {cmd:_newline}, {cmd:_nlines}, {cmd:_line1}, etc.){p_end}
-	
+
+
+{marker discovery}{...}
+{p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
+{title:Discovery Commands}
+
+{pstd}
+Discovery commands help you explore the World Bank Open Data catalog without downloading data.
+All discovery outputs feature clickable SMCL navigation links that let you drill down from
+sources to topics to individual indicators, and then download data with a single click.{p_end}
+
+{dlgtab:List Sources}
+
+{synopt :{opt sources}}Lists all World Bank data sources (databases) with clickable navigation.{p_end}
+
+{pstd}Displays a table showing source ID, name, indicator count, and a clickable [Browse] link
+to see all indicators in that source. Use {opt limit(#)} to control display.{p_end}
+
+{p 8 12}{stata "wbopendata, sources" :. wbopendata, sources}{p_end}
+
+{pstd}Returns: {cmd:r(n_sources)}, {cmd:r(n_indicators)}, {cmd:r(source_codes)}, {cmd:r(source_names)}, {cmd:r(cmd)}{p_end}
+
+{dlgtab:List Topics}
+
+{synopt :{opt alltopics}}Lists all 21 World Bank topic categories with clickable navigation.{p_end}
+
+{pstd}Displays a table showing topic ID, name, indicator count, and a clickable [Browse] link
+to see all indicators in that topic. Use {opt limit(#)} to control display.{p_end}
+
+{p 8 12}{stata "wbopendata, alltopics" :. wbopendata, alltopics}{p_end}
+
+{pstd}Returns: {cmd:r(n_topics)}, {cmd:r(topic_ids)}, {cmd:r(topic_names)}, {cmd:r(cmd)}{p_end}
+
+{dlgtab:Search Indicators}
+
+{synopt :{opt search(pattern)}}Search indicators by keyword, wildcard pattern, or regex.{p_end}
+
+{pstd}The search command scans indicator codes, names, descriptions, source organizations,
+topic names, and notes. Results include clickable [Info] and [Get] links for each indicator.{p_end}
+
+{pstd}{ul:{bf:Basic search:}}{p_end}
+
+{p 8 12}{stata "wbopendata, search(GDP)" :. wbopendata, search(GDP)}{p_end}
+{p 8 12}{stata "wbopendata, search(poverty) limit(50)" :. wbopendata, search(poverty) limit(50)}{p_end}
+
+{pstd}{ul:{bf:Multi-keyword AND search:}} Use {cmd:+} between keywords to require ALL words match:{p_end}
+
+{p 8 12}{stata "wbopendata, search(learning+poverty)" :. wbopendata, search(learning+poverty)}{p_end}
+{p 8 12}{stata "wbopendata, search(GDP+per+capita)" :. wbopendata, search(GDP+per+capita)}{p_end}
+
+{pstd}{ul:{bf:Wildcard patterns:}}{p_end}
+
+{p 8 12 2}- {cmd:*} matches any characters (0 or more){p_end}
+{p 8 12 2}- {cmd:?} matches any single character{p_end}
+{p 8 12 2}- {cmd:[abc]} matches any character in the set{p_end}
+{p 8 12 2}- {cmd:[a-z]} matches any character in the range{p_end}
+
+{p 8 12}{stata "wbopendata, search(NY.GDP.*)" :. wbopendata, search(NY.GDP.*)}{p_end}
+{p 8 12}{stata "wbopendata, search(SP.POP.????)" :. wbopendata, search(SP.POP.????)}{p_end}
+
+{pstd}{ul:{bf:Regex mode:}} Prefix with {cmd:~} for full regex syntax:{p_end}
+
+{p 8 12}{stata "wbopendata, search(~^SP\.DYN\..*\.IN$)" :. wbopendata, search(~^SP\.DYN\..*\.IN$)}{p_end}
+
+{pstd}{ul:{bf:Filter by source or topic:}}{p_end}
+
+{p 8 12}{stata "wbopendata, search(GDP) searchsource(2)" :. wbopendata, search(GDP) searchsource(2)}{p_end}
+{p 8 12}{stata "wbopendata, search(poverty) searchtopic(11)" :. wbopendata, search(poverty) searchtopic(11)}{p_end}
+{p 8 12}{stata "wbopendata, searchsource(2) limit(30)" :. wbopendata, searchsource(2) limit(30)}{p_end}
+
+{pstd}{ul:{bf:Search specific fields:}} The {opt searchfield()} option restricts search to specific metadata fields:{p_end}
+
+{p 8 12 2}- {cmd:code}: indicator code only{p_end}
+{p 8 12 2}- {cmd:name}: indicator name only{p_end}
+{p 8 12 2}- {cmd:description}: detailed description{p_end}
+{p 8 12 2}- {cmd:source}: source organization{p_end}
+{p 8 12 2}- {cmd:topic}: topic names{p_end}
+{p 8 12 2}- {cmd:note}: methodology notes{p_end}
+{p 8 12 2}- {cmd:all}: all fields (default){p_end}
+
+{p 8 12}{stata "wbopendata, search(NY.GDP.*) searchfield(code)" :. wbopendata, search(NY.GDP.*) searchfield(code)}{p_end}
+{p 8 12}{stata "wbopendata, search(purchasing power) searchfield(description)" :. wbopendata, search(purchasing power) searchfield(description)}{p_end}
+
+{pstd}Multiple fields can be specified with semicolons:{p_end}
+
+{p 8 12}{stata "wbopendata, search(GDP) searchfield(code;name)" :. wbopendata, search(GDP) searchfield(code;name)}{p_end}
+
+{pstd}{ul:{bf:Display format options:}}{p_end}
+
+{synopt :{opt detail}}Show results in wrapped block format with full indicator names and topic labels (no truncation).{p_end}
+
+{p 8 12}{stata "wbopendata, search(GDP) detail limit(5)" :. wbopendata, search(GDP) detail limit(5)}{p_end}
+
+{pstd}Without {opt detail}, results display in a compact table format where long names are truncated.
+Column widths automatically adjust to your terminal's {cmd:linesize}.{p_end}
+
+{synopt :{opt exact}}Require exact code match (case-insensitive, no partial matching).{p_end}
+
+{p 8 12}{stata "wbopendata, search(NY.GDP.MKTP.CD) exact" :. wbopendata, search(NY.GDP.MKTP.CD) exact}{p_end}
+
+{pstd}Returns: {cmd:r(n_results)}, {cmd:r(n_displayed)}, {cmd:r(first_code)}, {cmd:r(codes)},
+{cmd:r(names)}, {cmd:r(sources)}, {cmd:r(topics)}, {cmd:r(keyword)}, {cmd:r(source_filter)},
+{cmd:r(topic_filter)}, {cmd:r(field_filter)}, {cmd:r(cmd)}{p_end}
+
+{dlgtab:Indicator Info}
+
+{synopt :{opt info(code)}}Display detailed metadata for a specific indicator.{p_end}
+
+{pstd}Shows comprehensive indicator metadata in a structured layout:{p_end}
+
+{p 8 12 2}- {bf:Indicator}: Indicator code{p_end}
+{p 8 12 2}- {bf:Name}: Full indicator name{p_end}
+{p 8 12 2}- {bf:Unit}: Measurement unit (when available){p_end}
+{p 8 12 2}- {bf:Source ID}: Numeric source database ID{p_end}
+{p 8 12 2}- {bf:Source}: Source database name{p_end}
+{p 8 12 2}- {bf:Topic ID(s)}: All topic IDs (semicolon-separated){p_end}
+{p 8 12 2}- {bf:Topic(s)}: All topic names (semicolon-separated){p_end}
+{p 8 12 2}- {bf:Description}: Full description{p_end}
+{p 8 12 2}- {bf:Note}: Methodology note with clickable URLs{p_end}
+{p 8 12 2}- {bf:Limited data warning}: Displayed when data availability is limited{p_end}
+{p 8 12 2}- {bf:Filters}: Clickable commands to browse related indicators{p_end}
+{p 8 12 2}- {bf:Download}: Clickable commands to download data in various formats{p_end}
+
+{pstd}URLs in the Note and Description fields are automatically converted to clickable hyperlinks using SMCL {cmd:{browse}} tags.{p_end}
+
+{p 8 12}{stata "wbopendata, info(NY.GDP.MKTP.CD)" :. wbopendata, info(NY.GDP.MKTP.CD)}{p_end}
+{p 8 12}{stata "wbopendata, info(SI.POV.DDAY)" :. wbopendata, info(SI.POV.DDAY)}{p_end}
+{p 8 12}{stata "wbopendata, info(SP.POP.TOTL)" :. wbopendata, info(SP.POP.TOTL)}{p_end}
+
+{pstd}Returns: {cmd:r(indicator)}, {cmd:r(name)}, {cmd:r(source_name)}, {cmd:r(source_org)},
+{cmd:r(source_id)}, {cmd:r(topics)}, {cmd:r(topic_ids)}, {cmd:r(topic1)}, {cmd:r(topic2)}, {cmd:r(topic3)},
+{cmd:r(description)}, {cmd:r(note)}, {cmd:r(unit)}, {cmd:r(limited_data)}, {cmd:r(cmd)}{p_end}
+
+{dlgtab:Discovery Workflow Example}
+
+{pstd}A typical discovery workflow:{p_end}
+
+{cmd}
+.     * 1. Browse available sources
+.     wbopendata, sources
+.
+.     * 2. Explore a specific source (World Development Indicators = 2)
+.     wbopendata, searchsource(2) limit(30)
+.
+.     * 3. Search for indicators of interest
+.     wbopendata, search(poverty) searchtopic(11)
+.
+.     * 4. Get detailed info on a specific indicator
+.     wbopendata, info(SI.POV.DDAY)
+.
+.     * 5. Download the data (click [Get] or run directly)
+.     wbopendata, indicator(SI.POV.DDAY) clear long
+{txt}
+
+
 {marker attributes}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
 {title:List Country attributes currently supported}
@@ -311,114 +483,46 @@ the last value is used for remaining fields.{p_end}
 {synoptline}
 
 
-{marker sourceid}{...}    
-{synoptset 33 tabbed}{...}
-{synopthdr:Source Code}{it:{help wbopendata_sourceid_indicators01##:  (Source TOC)}}
-{synoptline}
-{synopt:{opt 01}}  {help wbopendata_sourceid_indicators01##sourceid_01:Doing Business}{p_end}
-{synopt:{opt 02}}  {help wbopendata_sourceid_indicators02##sourceid_02:World Development Indicators}{p_end}
-{synopt:{opt 03}}  {help wbopendata_sourceid_indicators03##sourceid_03:Worldwide Governance Indicators}{p_end}
-{synopt:{opt 05}}  {help wbopendata_sourceid_indicators05##sourceid_05:Subnational Malnutrition Database}{p_end}
-{synopt:{opt 06}}  {help wbopendata_sourceid_indicators06##sourceid_06:International Debt Statistics}{p_end}
-{synopt:{opt 11}}  {help wbopendata_sourceid_indicators11##sourceid_11:Africa Development Indicators}{p_end}
-{synopt:{opt 12}}  {help wbopendata_sourceid_indicators12##sourceid_12:Education Statistics}{p_end}
-{synopt:{opt 13}}  {help wbopendata_sourceid_indicators13##sourceid_13:Enterprise Surveys}{p_end}
-{synopt:{opt 14}}  {help wbopendata_sourceid_indicators14##sourceid_14:Gender Statistics}{p_end}
-{synopt:{opt 15}}  {help wbopendata_sourceid_indicators15##sourceid_15:Global Economic Monitor}{p_end}
-{synopt:{opt 16}}  {help wbopendata_sourceid_indicators16##sourceid_16:Health Nutrition and Population Statistics}{p_end}
-{synopt:{opt 18}}  {help wbopendata_sourceid_indicators18##sourceid_18:IDA Results Measurement System}{p_end}
-{synopt:{opt 19}}  {help wbopendata_sourceid_indicators19##sourceid_19:Millennium Development Goals}{p_end}
-{synopt:{opt 20}}  {help wbopendata_sourceid_indicators20##sourceid_20:Quarterly Public Sector Debt}{p_end}
-{synopt:{opt 22}}  {help wbopendata_sourceid_indicators22##sourceid_22:Quarterly External Debt Statistics SDDS}{p_end}
-{synopt:{opt 23}}  {help wbopendata_sourceid_indicators23##sourceid_23:Quarterly External Debt Statistics GDDS}{p_end}
-{synopt:{opt 24}}  {help wbopendata_sourceid_indicators24##sourceid_24:Poverty and Equity}{p_end}
-{synopt:{opt 25}}  {help wbopendata_sourceid_indicators25##sourceid_25:Jobs}{p_end}
-{synopt:{opt 27}}  {help wbopendata_sourceid_indicators27##sourceid_27:Global Economic Prospects}{p_end}
-{synopt:{opt 28}}  {help wbopendata_sourceid_indicators28##sourceid_28:Global Financial Inclusion}{p_end}
-{synopt:{opt 29}}  {help wbopendata_sourceid_indicators29##sourceid_29:The Atlas of Social Protection: Indicators of Resilience and Equity}{p_end}
-{synopt:{opt 30}}  {help wbopendata_sourceid_indicators30##sourceid_30:Exporter Dynamics Database – Indicators at Country-Year Level}{p_end}
-{synopt:{opt 32}}  {help wbopendata_sourceid_indicators32##sourceid_32:Global Financial Development}{p_end}
-{synopt:{opt 33}}  {help wbopendata_sourceid_indicators33##sourceid_33:G20 Financial Inclusion Indicators}{p_end}
-{synopt:{opt 34}}  {help wbopendata_sourceid_indicators34##sourceid_34:Global Partnership for Education}{p_end}
-{synopt:{opt 35}}  {help wbopendata_sourceid_indicators35##sourceid_35:Sustainable Energy for All}{p_end}
-{synopt:{opt 36}}  {help wbopendata_sourceid_indicators36##sourceid_36:Statistical Capacity Indicators}{p_end}
-{synopt:{opt 37}}  {help wbopendata_sourceid_indicators37##sourceid_37:LAC Equity Lab}{p_end}
-{synopt:{opt 39}}  {help wbopendata_sourceid_indicators39##sourceid_39:Health Nutrition and Population Statistics by Wealth Quintile}{p_end}
-{synopt:{opt 40}}  {help wbopendata_sourceid_indicators40##sourceid_40:Population estimates and projections}{p_end}
-{synopt:{opt 41}}  {help wbopendata_sourceid_indicators41##sourceid_41:Country Partnership Strategy for India (FY2013 - 17)}{p_end}
-{synopt:{opt 45}}  {help wbopendata_sourceid_indicators45##sourceid_45:Indonesia Database for Policy and Economic Research}{p_end}
-{synopt:{opt 46}}  {help wbopendata_sourceid_indicators46##sourceid_46:Sustainable Development Goals}{p_end}
-{synopt:{opt 50}}  {help wbopendata_sourceid_indicators50##sourceid_50:Subnational Population}{p_end}
-{synopt:{opt 54}}  {help wbopendata_sourceid_indicators54##sourceid_54:Joint External Debt Hub}{p_end}
-{synopt:{opt 57}}  {help wbopendata_sourceid_indicators57##sourceid_57:WDI Database Archives}{p_end}
-{synopt:{opt 59}}  {help wbopendata_sourceid_indicators59##sourceid_59:Wealth Accounts}{p_end}
-{synopt:{opt 60}}  {help wbopendata_sourceid_indicators60##sourceid_60:Economic Fitness}{p_end}
-{synopt:{opt 61}}  {help wbopendata_sourceid_indicators61##sourceid_61:PPPs Regulatory Quality}{p_end}
-{synopt:{opt 62}}  {help wbopendata_sourceid_indicators62##sourceid_62:International Comparison Program (ICP) 2011}{p_end}
-{synopt:{opt 63}}  {help wbopendata_sourceid_indicators63##sourceid_63:Human Capital Index}{p_end}
-{synopt:{opt 64}}  {help wbopendata_sourceid_indicators64##sourceid_64:Worldwide Bureaucracy Indicators}{p_end}
-{synopt:{opt 65}}  {help wbopendata_sourceid_indicators65##sourceid_65:Health Equity and Financial Protection Indicators}{p_end}
-{synopt:{opt 66}}  {help wbopendata_sourceid_indicators66##sourceid_66:Logistics Performance Index}{p_end}
-{synopt:{opt 67}}  {help wbopendata_sourceid_indicators67##sourceid_67:PEFA 2011}{p_end}
-{synopt:{opt 69}}  {help wbopendata_sourceid_indicators69##sourceid_69:Global Financial Inclusion and Consumer Protection Survey}{p_end}
-{synopt:{opt 70}}  {help wbopendata_sourceid_indicators70##sourceid_70:Economic Fitness 2}{p_end}
-{synopt:{opt 71}}  {help wbopendata_sourceid_indicators71##sourceid_71:International Comparison Program (ICP) 2005}{p_end}
-{synopt:{opt 73}}  {help wbopendata_sourceid_indicators73##sourceid_73:Global Financial Inclusion and Consumer Protection Survey (Internal)}{p_end}
-{synopt:{opt 75}}  {help wbopendata_sourceid_indicators75##sourceid_75:Environment, Social and Governance (ESG) Data}{p_end}
-{synoptline}
+{marker sourceid}{...}
+{p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
+{title:Indicators by Source}
+
+{pstd}
+World Bank data is organized across 51 sources (databases). Use the {opt sources}
+discovery command to list all sources with indicator counts and clickable navigation:{p_end}
+
+{p 8 12}{stata "wbopendata, sources" :. wbopendata, sources}{p_end}
+
+{pstd}To browse all indicators in a specific source:{p_end}
+
+{p 8 12}{stata "wbopendata, search(*) searchsource(2)" :. wbopendata, search(*) searchsource(2)}{p_end}
+
+{pstd}To search within a source by keyword:{p_end}
+
+{p 8 12}{stata "wbopendata, search(GDP) searchsource(2)" :. wbopendata, search(GDP) searchsource(2)}{p_end}
+
+{pstd}See also: {help wbopendata_sourceid##toc:Source reference list}{p_end}
 
 
 {marker topic}{marker topicid}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
 {title:Topic List}
-{synoptset 33 tabbed}{...}
 
+{pstd}
+World Bank indicators are classified into 21 thematic topics. Use the {opt alltopics}
+discovery command to list all topics with indicator counts and clickable navigation:{p_end}
 
-{synopthdr: Topic Code}
-{synoptline}
+{p 8 12}{stata "wbopendata, alltopics" :. wbopendata, alltopics}{p_end}
 
-{synopt:{help wbopendata_topicid##topicid_01:1 - Agriculture & Rural Development}} For the 70 percent of the world's poor who live in rural areas, agriculture is the main source of income and employment. But depletion and degradation of land and water pose serious challenges to producing enough food and other agricultural products to sustain livelihoods here and meet the needs of urban populations. Data presented here include measures of agricultural inputs, outputs, and productivity compiled by the UN's Food and Agriculture Organization. {p_end}
+{pstd}To browse all indicators in a specific topic:{p_end}
 
-{synopt:{help wbopendata_topicid##topicid_02:2 - Aid Effectiveness}} Aid effectiveness is the impact that aid has in reducing poverty and inequality, increasing growth, building capacity, and accelerating achievement of the Millennium Development Goals set by the international community. Indicators here cover aid received as well as progress in reducing poverty and improving education, health, and other measures of human welfare. {p_end}
+{p 8 12}{stata "wbopendata, search(*) searchtopic(11)" :. wbopendata, search(*) searchtopic(11)}{p_end}
 
-{synopt:{help wbopendata_topicid##topicid_03:3 - Economy & Growth}} Economic growth is central to economic development. When national income grows, real people benefit. While there is no known formula for stimulating economic growth, data can help policy-makers better understand their countries' economic situations and guide any work toward improvement. Data here covers measures of economic growth, such as gross domestic product (GDP) and gross national income (GNI). It also includes indicators representing factors known to be relevant to economic growth, such as capital stock, employment, investment, savings, consumption, government spending, imports, and exports. {p_end}
+{pstd}To search within a topic by keyword:{p_end}
 
-{synopt:{help wbopendata_topicid##topicid_04:4 - Education}} Education is one of the most powerful instruments for reducing poverty and inequality and lays a foundation for sustained economic growth. The World Bank compiles data on education inputs, participation, efficiency, and outcomes. Data on education are compiled by the United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics from official responses to surveys and from reports provided by education authorities in each country. {p_end}
+{p 8 12}{stata "wbopendata, search(poverty) searchtopic(11)" :. wbopendata, search(poverty) searchtopic(11)}{p_end}
 
-{synopt:{help wbopendata_topicid##topicid_05:5 - Energy & Mining}} The world economy needs ever-increasing amounts of energy to sustain economic growth, raise living standards, and reduce poverty. But today's trends in energy use are not sustainable. As the world's population grows and economies become more industrialized, nonrenewable energy sources will become scarcer and more costly. Data here on energy production, use, dependency, and efficiency are compiled by the World Bank from the International Energy Agency and the Carbon Dioxide Information Analysis Center. {p_end}
-
-{synopt:{help wbopendata_topicid##topicid_06:6 - Environment}} Natural and man-made environmental resources (fresh water, clean air, forests, grasslands, marine resources, and agro-ecosystems) provide sustenance and a foundation for social and economic development.  The need to safeguard these resources crosses all borders.  Today, the World Bank is one of the key promoters and financiers of environmental upgrading in the developing world. Data here cover forests, biodiversity, emissions, and pollution. Other indicators relevant to the environment are found under data pages for Agriculture & Rural Development, Energy & Mining, Infrastructure, and Urban Development. {p_end}
-
-{synopt:{help wbopendata_topicid##topicid_07:7 - Financial Sector}} An economy's financial markets are critical to its overall development. Banking systems and stock markets enhance growth, the main factor in poverty reduction. Strong financial systems provide reliable and accessible information that lowers transaction costs, which in turn bolsters resource allocation and economic growth. Indicators here include the size and liquidity of stock markets; the accessibility, stability, and efficiency of financial systems; and international migration and workers\ remittances, which affect growth and social welfare in both sending and receiving countries. {p_end}
-
-{synopt:{help wbopendata_topicid##topicid_08:8 - Health}} Improving health is central to the Millennium Development Goals, and the public sector is the main provider of health care in developing countries. To reduce inequities, many countries have emphasized primary health care, including immunization, sanitation, access to safe drinking water, and safe motherhood initiatives.  Data here cover health systems, disease prevention, reproductive health, nutrition, and population dynamics. Data are from the United Nations Population Division, World Health Organization, United Nations Children's Fund, the Joint United Nations Programme on HIV/AIDS, and various other sources. {p_end}
-
-{synopt:{help wbopendata_topicid##topicid_09:9 - Infrastructure}} Infrastructure helps determine the success of manufacturing and agricultural activities. Investments in water, sanitation, energy, housing, and transport also improve lives and help reduce poverty. And new information and communication technologies promote growth, improve delivery of health and other services, expand the reach of education, and support social and cultural advances. Data here are compiled from such sources as the International Road Federation, Containerisation International, the International Civil Aviation Organization, the International Energy Association, and the International Telecommunications Union. {p_end}
-
-{synopt:{help wbopendata_topicid##topicid_10:10 - Social Protection & Labor}} The supply of labor available in an economy includes people who are employed, those who are unemployed but seeking work, and first-time job-seekers. Not everyone who works is included: unpaid workers, family workers, and students are often omitted, while some countries do not count members of the armed forces. Data on labor and employment are compiled by the International Labour Organization (ILO) from labor force surveys, censuses, establishment censuses and surveys, and administrative records such as employment exchange registers and unemployment insurance schemes. {p_end}
-
-{synopt:{help wbopendata_topicid##topicid_11:11 - Poverty}} For countries with an active poverty monitoring program, the World Bank in collaboration with national institutions, other development agencies, and civil society regularly conducts analytical work to assess the extent and causes of poverty and inequality, examine the impact of growth and public policy, and review household survey data and measurement methods.  Data here includes poverty and inequality measures generated from analytical reports, from national poverty monitoring programs, and from the World Bank's Development Research Group which has been producing internationally comparable and global poverty estimates and lines since 1990. {p_end}
-
-{synopt:{help wbopendata_topicid##topicid_12:12 - Private Sector}} Private markets drive economic growth, tapping initiative and investment to create productive jobs and raise incomes. Trade is also a driver of economic growth as it integrates developing countries into the world economy and generates benefits for their people.  Data on the private sector and trade are from the World Bank Group's Private Participation in Infrastructure Project Database, Enterprise Surveys, and Doing Business Indicators, as well as from the International Monetary Fund's Balance of Payments database and International Financial Statistics, the UN Commission on Trade and Development, the World Trade Organization, and various other sources. {p_end}
-
-{synopt:{help wbopendata_topicid##topicid_13:13 - Public Sector}} Effective governments improve people's standard of living by ensuring access to essential services (health, education, water and sanitation, electricity, transport and the opportunity to live and work in peace and security). Data here includes World Bank staff assessments of country performance in economic management, structural policies, policies for social inclusion and equity, and public sector management and institutions for the poorest countries. Also included are indicators on revenues and expenses from the International Monetary Fund's Government Finance Statistics, and on tax policies from various sources. {p_end}
-
-{synopt:{help wbopendata_topicid##topicid_14:14 - Science & Technology}} Technological innovation, often fueled by governments, drives industrial growth and helps raise living standards. Data here aims to shed light on countries technology base: research and development, scientific and technical journal articles, high-technology exports, royalty and license fees, and patents and trademarks. Sources include the UNESCO Institute for Statistics, the U.S. National Science Board, the UN Statistics Division, the International Monetary Fund, and the World Intellectual Property Organization. {p_end}
-
-{synopt:{help wbopendata_topicid##topicid_15:15 - Social Development}} Data here cover child labor, gender issues, refugees, and asylum seekers. Children in many countries work long hours, often combining studying with work for pay. The data on their paid work are from household surveys conducted by the International Labour Organization (ILO), the United Nations Children's Fund (UNICEF), the World Bank, and national statistical offices. Gender disparities are measured using a compilation of data on key topics such as education, health, labor force participation, and political participation.  Data on refugees are from the United Nations High Commissioner for Refugees complemented by statistics on Palestinian refugees under the mandate of the United Nations Relief and Works Agency. {p_end}
-
-{synopt:{help wbopendata_topicid##topicid_16:16 - Urban Development}} Cities can be tremendously efficient. It is easier to provide water and sanitation to people living closer together, while access to health, education, and other social and cultural services is also much more readily available. However, as cities grow, the cost of meeting basic needs increases, as does the strain on the environment and natural resources. Data on urbanization, traffic and congestion, and air pollution are from the United Nations Population Division, World Health Organization, International Road Federation, World Resources Institute, and other sources. {p_end}
-
-{synopt:{help wbopendata_topicid##topicid_17:17 - Gender}} Women's empowerment and the promotion of gender equality are key to achieving sustainable development. Greater gender equality can enhance economic efficiency and improve other development outcomes by removing barriers that prevent women from having the same access as men to human resource endowments, rights, and economic opportunities.  Giving women access to equal opportunities allows them to emerge as social and economic actors, influencing and shaping more inclusive policies.  Improving women's status also leads to more investment in their children's education, health, and overall wellbeing.  Data here covers demography, education, health, labor force and employment, and political participation. {p_end}
-
-{synopt:{help wbopendata_topicid##topicid_18:18 - Millenium development goals}}{p_end}
-
-{synopt:{help wbopendata_topicid##topicid_19:19 - Climate Change}} Climate change is expected to hit developing countries the hardest. Its effects higher temperatures, changes in precipitation patterns, rising sea levels, and more frequent weather-related disasters pose risks for agriculture, food, and water supplies. At stake are recent gains in the fight against poverty, hunger and disease, and the lives and livelihoods of billions of people in developing countries. Addressing climate change requires unprecedented global cooperation across borders. The World Bank Group is helping support developing countries and contributing to a global solution, while tailoring our approach to the differing needs of developing country partners.  Data here cover climate systems, exposure to climate impacts, resilience, greenhouse gas emissions, and energy use.  Other indicators relevant to climate change are found under other data pages, particularly Environment, Agriculture & Rural Development, Energy & Mining, Health, Infrastructure, Poverty, and Urban Development. {p_end}
-
-{synopt:{help wbopendata_topicid##topicid_20:20 - External Debt}} Debt statistics provide a detailed picture of debt stocks and flows of developing countries. Data presented as part of the Quarterly External Debt Statistics takes a closer look at the external debt of high-income countries and emerging markets to enable a more complete understanding of global financial flows. The Quarterly Public Sector Debt database provides further data on public sector valuation methods, debt instruments, and clearly defined tiers of debt for central, state and local government, as well as extra-budgetary agencies and funds. Data are gathered from national statistical organizations and central banks as well as by various major multilateral institutions and World Bank staff. {p_end}
-
-{synopt:{help wbopendata_topicid##topicid_21:21 - Trade}} Trade is a key means to fight poverty and achieve the Millennium Development Goals, specifically by improving developing country access to markets, and supporting a rules based, predictable trading system. In cooperation with other international development partners, the World Bank launched the Transparency in Trade Initiative to provide free and easy access to data on country-specific trade policies. {p_end}
-{synoptline}
+{pstd}See also: {help wbopendata_topicid##toc:Topics reference list}{p_end}
 
 
 {marker storedresults}{...}
@@ -524,6 +628,81 @@ where multiple quoted strings stack vertically: {cmd:"line1" "line2" "line3"}.{p
 {synopt:{cmd:r({it:field#}_line1)}, ...}Individual wrapped lines{p_end}
 {synoptline}
 
+{pstd}{ul:{bf:Discovery commands stored results}}{p_end}
+
+{pstd}Discovery commands ({opt sources}, {opt alltopics}, {opt search()}, {opt info()})
+return metadata for programmatic use and automation.{p_end}
+
+{pstd}{bf:wbopendata, sources}{p_end}
+
+{synoptset 28 tabbed}{...}
+{p2col 5 28 32 2: Result}{p_end}
+{synoptline}
+{synopt:{cmd:r(n_sources)}}Total number of data sources (scalar){p_end}
+{synopt:{cmd:r(n_available)}}Sources with data availability flag (scalar){p_end}
+{synopt:{cmd:r(n_indicators)}}Total indicator count across all sources (scalar){p_end}
+{synopt:{cmd:r(source_codes)}}Space-separated list of source IDs{p_end}
+{synopt:{cmd:r(source_names)}}Compound-quoted list of source names{p_end}
+{synopt:{cmd:r(cmd)}}Reproducible command string{p_end}
+{synoptline}
+
+{pstd}{bf:wbopendata, alltopics}{p_end}
+
+{synoptset 28 tabbed}{...}
+{p2col 5 28 32 2: Result}{p_end}
+{synoptline}
+{synopt:{cmd:r(n_topics)}}Total number of topics (scalar){p_end}
+{synopt:{cmd:r(topic_ids)}}Space-separated list of topic IDs{p_end}
+{synopt:{cmd:r(topic_names)}}Compound-quoted list of topic names{p_end}
+{synopt:{cmd:r(cmd)}}Reproducible command string{p_end}
+{synoptline}
+
+{pstd}{bf:wbopendata, search(pattern)}{p_end}
+
+{synoptset 28 tabbed}{...}
+{p2col 5 28 32 2: Result}{p_end}
+{synoptline}
+{synopt:{cmd:r(n_results)}}Total matches found (scalar){p_end}
+{synopt:{cmd:r(n_displayed)}}Matches displayed after limit (scalar){p_end}
+{synopt:{cmd:r(first_code)}}First matching indicator code{p_end}
+{synopt:{cmd:r(codes)}}Space-separated list of indicator codes{p_end}
+{synopt:{cmd:r(names)}}Compound-quoted list of indicator names{p_end}
+{synopt:{cmd:r(sources)}}Space-separated list of source IDs{p_end}
+{synopt:{cmd:r(topics)}}Compound-quoted list of topic names{p_end}
+{synopt:{cmd:r(keyword)}}Search keyword used{p_end}
+{synopt:{cmd:r(source_filter)}}Source filter if specified{p_end}
+{synopt:{cmd:r(topic_filter)}}Topic filter if specified{p_end}
+{synopt:{cmd:r(field_filter)}}Field filter if specified{p_end}
+{synopt:{cmd:r(cmd)}}Reproducible command string{p_end}
+{synoptline}
+
+{pstd}{bf:wbopendata, info(code)}{p_end}
+
+{synoptset 28 tabbed}{...}
+{p2col 5 28 32 2: Result}{p_end}
+{synoptline}
+{synopt:{cmd:r(indicator)}}Indicator code{p_end}
+{synopt:{cmd:r(name)}}Indicator name{p_end}
+{synopt:{cmd:r(varlabel)}}Variable label (same as name){p_end}
+{synopt:{cmd:r(source)}}Collection string (ID + name){p_end}
+{synopt:{cmd:r(collection)}}Collection string (ID + name){p_end}
+{synopt:{cmd:r(source_id)}}Source database ID{p_end}
+{synopt:{cmd:r(source_name)}}Source database name{p_end}
+{synopt:{cmd:r(source_org)}}Source organization (detailed attribution){p_end}
+{synopt:{cmd:r(sourcecite)}}Source citation (same as source_org){p_end}
+{synopt:{cmd:r(topic_ids)}}Semicolon-separated topic IDs{p_end}
+{synopt:{cmd:r(topics)}}Semicolon-separated topic names{p_end}
+{synopt:{cmd:r(topic1)}}First topic ID{p_end}
+{synopt:{cmd:r(topic2)}}Second topic ID (if applicable){p_end}
+{synopt:{cmd:r(topic3)}}Third topic ID (if applicable){p_end}
+{synopt:{cmd:r(description)}}Full indicator description (plain text){p_end}
+{synopt:{cmd:r(note)}}Methodology note (plain text){p_end}
+{synopt:{cmd:r(unit)}}Measurement unit{p_end}
+{synopt:{cmd:r(limited_data)}}1 if limited data availability, 0 otherwise{p_end}
+{synopt:{cmd:r(yaml_path)}}Path to local YAML metadata file{p_end}
+{synopt:{cmd:r(cmd)}}Reproducible command string{p_end}
+{synoptline}
+
 {pstd}{ul:{bf:Example: Using stored results}}{p_end}
 
 {p 4 4 2}Extract metadata for automated figure annotation. This workflow demonstrates how {cmd:wbopendata} enables fully automated pipelines: the script downloads data, extracts wrapped metadata for the title, and uses the latest-year subtitle---all without hardcoding any text:{p_end}
@@ -546,6 +725,26 @@ where multiple quoted strings stack vertically: {cmd:"line1" "line2" "line3"}.{p
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
 {pstd}
 
+{pstd}{ul:{bf:Discovery Commands (v17.8+)}}{p_end}
+
+{p 8 12}{stata "wbopendata, sources" :. wbopendata, sources}{p_end}
+
+{p 8 12}{stata "wbopendata, alltopics" :. wbopendata, alltopics}{p_end}
+
+{p 8 12}{stata "wbopendata, search(GDP)" :. wbopendata, search(GDP)}{p_end}
+
+{p 8 12}{stata "wbopendata, search(poverty) searchtopic(11)" :. wbopendata, search(poverty) searchtopic(11)}{p_end}
+
+{p 8 12}{stata "wbopendata, search(learning+poverty)" :. wbopendata, search(learning+poverty)}{p_end}
+
+{p 8 12}{stata "wbopendata, search(NY.GDP.*) searchfield(code)" :. wbopendata, search(NY.GDP.*) searchfield(code)}{p_end}
+
+{p 8 12}{stata "wbopendata, searchsource(2) limit(30) detail" :. wbopendata, searchsource(2) limit(30) detail}{p_end}
+
+{p 8 12}{stata "wbopendata, info(SI.POV.DDAY)" :. wbopendata, info(SI.POV.DDAY)}{p_end}
+
+{pstd}{ul:{bf:Data Management Commands}}{p_end}
+
 {p 8 12}{stata "wbopendata, update query" :. wbopendata, update query}{p_end}
 
 {p 8 12}{stata "wbopendata, update check" :. wbopendata, update check}{p_end}
@@ -558,9 +757,9 @@ where multiple quoted strings stack vertically: {cmd:"line1" "line2" "line3"}.{p
 
 {p 8 12}{stata "wbopendata, language(en - English) topics(2 - Aid Effectiveness) clear" :. wbopendata, language(en - English) topics(2 - Aid Effectiveness) clear}{p_end}
 
-{p 8 12}{stata "wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) clear" :. wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) clear}{p_end}
+{p 8 12}{stata "wbopendata, language(en - English) indicator(SP.POP.TOTL - Population, total) clear" :. wbopendata, language(en - English) indicator(SP.POP.TOTL - Population, total) clear}{p_end}
 
-{p 8 12}{stata "wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) long clear" :. wbopendata, language(en - English) indicator(ag.agr.trac.no - Agricultural machinery, tractors) long clear}{p_end}
+{p 8 12}{stata "wbopendata, language(en - English) indicator(SP.POP.TOTL - Population, total) long clear" :. wbopendata, language(en - English) indicator(SP.POP.TOTL - Population, total) long clear}{p_end}
 
 {p 8 12}{stata "wbopendata, country(ago;bdi;chi;dnk;esp) indicator(sp.pop.0610.fe.un) clear" :. wbopendata, country(ago;bdi;chi;dnk;esp) indicator(sp.pop.0610.fe.un) clear}{p_end}
 
@@ -826,7 +1025,7 @@ S426302, Boston College Department of Economics, revised 17 Oct 2006.{p_end}
     {p 4 4 2}UNICEF, Division of Data, Analytics, Planning and Monitoring{p_end}
     {p 4 4 2}{browse "https://jpazvd.github.io"}{p_end}
 
-{title:GitHub Respository}
+{title:GitHub Repository}
 
 {p 4 4 2}For previous releases and additional examples please visit wbopendata {browse "https://github.com/jpazvd/wbopendata" :GitHub Repo}{p_end}
 

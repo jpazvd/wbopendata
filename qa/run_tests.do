@@ -3,7 +3,7 @@
 * Test Suite Version: 2.0.0
 * Date: January 2026
 * Compatible with: wbopendata v17.7.1+
-* Total Tests: 57 (53 core + 4 repo-comparison)
+* Total Tests: 65 (61 core + 4 repo-comparison)
 * 
 * Usage: 
 *   do run_tests.do              - Run all tests (prompts for repo location)
@@ -14,7 +14,7 @@
 *   do run_tests.do norepo       - Skip repo comparison tests (ENV-01 to ENV-04)
 *
 * Test Categories (57 tests total):
-*   0 - Environment Checks (4): ENV-01 to ENV-04 [requires repo path]
+*   0 - Environment Checks (5): ENV-01 to ENV-05 [ENV-01 to ENV-04 require repo path]
 *   1 - Basic Downloads (5): DL-01 to DL-05
 *   2 - Format Options (3): FMT-01 to FMT-03
 *   3 - Country Metadata (10): CTRY-01 to CTRY-10
@@ -24,6 +24,7 @@
 *   7 - Topics & Language (2): TOPIC-01, LANG-01
 *   8 - Advanced Features (6): PROJ-01, FMT-04, DESC-01, META-01, CTRY-11, DATE-01
 *   9 - Cache & Sync System (13): CACHE-01 to CACHE-08, SYNC-01 to SYNC-05
+*  10 - Discovery Commands (7): DISC-01 to DISC-07 [no network needed]
 * 
 * Configuration:
 *   To set your repo path permanently, define global before running:
@@ -76,6 +77,7 @@ foreach arg of local args {
         di as text "  ENV-02   Ado files sync status (source vs auto-gen)"
         di as text "  ENV-03   wbopendata.pkg matches src directories"
         di as text "  ENV-04   All pkg files exist in repo"
+        di as text "  ENV-05   Parameters YAML readable with valid r() values"
         di as text ""
         di as text "  Basic Downloads:"
         di as text "  DL-01    Single indicator download"
@@ -147,6 +149,15 @@ foreach arg of local args {
         di as text "  SYNC-03  Force sync"
         di as text "  SYNC-04  Sync with no updates"
         di as text "  SYNC-05  Discovery commands use cache"
+        di as text ""
+        di as text "  Discovery Commands:"
+        di as text "  DISC-01  Search basic (keyword returns results)"
+        di as text "  DISC-02  Search filters (source, topic, field)"
+        di as text "  DISC-03  Search patterns (wildcard, AND, exact)"
+        di as text "  DISC-04  Sources listing"
+        di as text "  DISC-05  Topics listing"
+        di as text "  DISC-06  Indicator info lookup"
+        di as text "  DISC-07  Search router (cache_method by Stata version)"
         exit 0
     }
     else {
@@ -688,6 +699,51 @@ if $skip_test == 0 {
         if _rc == 0 test_pass
         else test_fail "Some pkg files missing from repo"
     }
+}
+
+* ENV-05: Parameters YAML readable with valid r() values (no network needed)
+run_test "ENV-05" "Parameters YAML readable with valid r() values"
+if $skip_test == 0 {
+    cap noi {
+        * Run _parameters (reads _wbopendata_parameters.yaml)
+        qui _parameters
+
+        * Check required scalar values
+        assert "`r(total)'" != ""
+        assert "`r(number_indicators)'" != ""
+        assert "`r(ctrymetadata)'" != ""
+
+        * Check required timestamp values
+        assert "`r(dt_update)'" != ""
+        assert "`r(dt_lastcheck)'" != ""
+        assert "`r(dt_ctryupdate)'" != ""
+
+        * Check source return values
+        assert "`r(sourcereturn)'" != ""
+        assert `"`r(sourceid)'"' != ""
+        assert "`r(sourceid02)'" != ""  // WDI must exist
+        di as text "Sources: " wordcount("`r(sourcereturn)'") " entries, WDI=" r(sourceid02)
+
+        * Check topic return values
+        assert "`r(topicreturn)'" != ""
+        assert `"`r(topicid)'"' != ""
+        assert "`r(topicid01)'" != ""   // Agriculture must exist
+        di as text "Topics:  " wordcount("`r(topicreturn)'") " entries"
+
+        * Verify all sources in sourcereturn have counts
+        foreach sname in `r(sourcereturn)' {
+            assert "`r(`sname')'" != ""
+        }
+
+        * Verify all topics in topicreturn have counts
+        foreach tname in `r(topicreturn)' {
+            assert "`r(`tname')'" != ""
+        }
+
+        di as text "All r() values present and valid"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Parameters YAML read failed or returned incomplete values"
 }
 
 *===============================================================================
@@ -1775,6 +1831,163 @@ if $skip_test == 0 {
     }
     * Pass regardless of network issues
     test_pass
+}
+
+*===============================================================================
+* TEST CATEGORY 10: Discovery Commands (no network needed)
+*===============================================================================
+
+di as text _n "`sep'"
+di as text "CATEGORY 10: Discovery Commands"
+di as text "`sep'"
+
+* DISC-01: Basic keyword search
+run_test "DISC-01" "Search basic keyword"
+if $skip_test == 0 {
+    cap noi {
+        qui _wbopendata_search GDP, limit(5)
+
+        * Must return results
+        assert `r(n_results)' > 0
+        assert `r(n_displayed)' > 0
+        assert `r(n_displayed)' <= 5
+        assert "`r(first_code)'" != ""
+        assert "`r(keyword)'" == "GDP"
+
+        di as text "Found `r(n_results)' results, displayed `r(n_displayed)', first=`r(first_code)'"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Basic keyword search failed"
+}
+
+* DISC-02: Search filters (source, topic, field)
+run_test "DISC-02" "Search filters"
+if $skip_test == 0 {
+    cap noi {
+        * Unfiltered baseline
+        qui _wbopendata_search GDP
+        local n_all = r(n_results)
+
+        * Source filter (WDI = source 2)
+        qui _wbopendata_search GDP, source(2)
+        local n_src = r(n_results)
+        assert `n_src' > 0
+        assert `n_src' <= `n_all'
+        assert "`r(source_filter)'" == "2"
+
+        * Topic filter
+        qui _wbopendata_search poverty, topic(11)
+        local n_top = r(n_results)
+        assert `n_top' > 0
+        assert "`r(topic_filter)'" == "11"
+
+        * Field filter (code only — should be fewer than all fields)
+        qui _wbopendata_search GDP, field(code)
+        local n_fld = r(n_results)
+        assert `n_fld' > 0
+        assert `n_fld' <= `n_all'
+        assert "`r(field_filter)'" == "code"
+
+        di as text "All=`n_all', source(2)=`n_src', topic(11)=`n_top', field(code)=`n_fld'"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Search filters not working correctly"
+}
+
+* DISC-03: Search patterns (wildcard, AND, exact)
+run_test "DISC-03" "Search patterns"
+if $skip_test == 0 {
+    cap noi {
+        * Wildcard search
+        qui _wbopendata_search NY.GDP.*
+        local n_wild = r(n_results)
+        assert `n_wild' > 0
+
+        * Multi-keyword AND search
+        qui _wbopendata_search learning+poverty
+        local n_and = r(n_results)
+        assert `n_and' >= 0  // may be 0 if no indicators match both
+
+        * Exact match
+        qui _wbopendata_search NY.GDP.MKTP.CD, exact
+        local n_exact = r(n_results)
+        assert `n_exact' == 1
+        assert "`r(first_code)'" == "NY.GDP.MKTP.CD"
+
+        di as text "Wildcard=`n_wild', AND=`n_and', Exact=`n_exact' (`r(first_code)')"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Search patterns not working correctly"
+}
+
+* DISC-04: Sources listing
+run_test "DISC-04" "Sources listing"
+if $skip_test == 0 {
+    cap noi {
+        qui _wbopendata_sources
+
+        assert `r(n_sources)' > 0
+        assert `r(n_indicators)' > 0
+        assert "`r(source_codes)'" != ""
+
+        di as text "Found `r(n_sources)' sources, `r(n_indicators)' total indicators"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Sources listing failed"
+}
+
+* DISC-05: Topics listing
+run_test "DISC-05" "Topics listing"
+if $skip_test == 0 {
+    cap noi {
+        qui _wbopendata_topics
+
+        assert `r(n_topics)' > 0
+        assert "`r(topic_ids)'" != ""
+        assert `"`r(topic_names)'"' != ""
+
+        di as text "Found `r(n_topics)' topics"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Topics listing failed"
+}
+
+* DISC-06: Indicator info lookup
+run_test "DISC-06" "Indicator info lookup"
+if $skip_test == 0 {
+    cap noi {
+        qui _wbopendata_info, indicator(SP.POP.TOTL)
+
+        assert "`r(indicator)'" == "SP.POP.TOTL"
+        assert "`r(name)'" != ""
+        assert "`r(source_id)'" != ""
+
+        di as text "Indicator: `r(indicator)'"
+        di as text "Name: `r(name)'"
+        di as text "Source ID: `r(source_id)'"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Indicator info lookup failed"
+}
+
+* DISC-07: Search router returns correct cache_method
+run_test "DISC-07" "Search router cache_method"
+if $skip_test == 0 {
+    cap noi {
+        qui _wbopendata_search GDP, limit(1)
+        local method = "`r(cache_method)'"
+
+        if (`c(stata_version)' >= 16) {
+            assert "`method'" == "frames"
+            di as text "Stata `c(stata_version)' >= 16: cache_method='`method'' (frames) - correct"
+        }
+        else {
+            assert "`method'" == "none"
+            di as text "Stata `c(stata_version)' < 16: cache_method='`method'' (none) - correct"
+        }
+    }
+    if _rc == 0 test_pass
+    else test_fail "Search router cache_method incorrect"
 }
 
 *===============================================================================
