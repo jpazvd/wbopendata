@@ -76,9 +76,9 @@ f _/_wbopendata_cache_info.ado
 f _/_wbopendata_refresh_yaml.ado
 f _/_wbopendata_sync.ado
 f _/_wbopendata_sync_preview.ado
-f _/__wbopendata_write_stats_history.ado
-f _/__wbopendata_get_source_name.ado
-f _/__wbopendata_get_topic_name.ado
+f _/_wbopendata_write_stats_history.ado
+f _/_wbopendata_get_source_name.ado
+f _/_wbopendata_get_topic_name.ado
 f _/__wbod_parse_yaml_ind.ado
 f _/__wbopendata_search.ado
 f _/__wbopendata_search_cache.ado

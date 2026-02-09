@@ -121,7 +121,7 @@ foreach arg of local args {
         di as text "  UPD-03   Update basic"
         di as text "  UPD-04   Update check detail"
         di as text "  UPD-05   Update all"
-        di as text "  UPD-06   Update all force"
+        di as text "  UPD-06   Sync force (v18.x)"
         di as text ""
         di as text "  Topics & Language:"
         di as text "  TOPIC-01 Topics download"
@@ -1294,14 +1294,14 @@ if $skip_test == 0 {
     else test_fail "Update all not working"
 }
 
-* UPD-06: Update all force
-run_test "UPD-06" "Update all force"
+* UPD-06: Sync force (v18.x replacement for update all force)
+run_test "UPD-06" "Sync force"
 if $skip_test == 0 {
     cap noi {
-        wbopendata, update all force
+        wbopendata, syncforce
     }
     if _rc == 0 test_pass
-    else test_fail "Update all force not working"
+    else test_fail "Sync force not working"
 }
 
 *===============================================================================
