@@ -77,6 +77,7 @@ version 14.0
 						CLEARCACHE		///
 						CACHEINFO		///
 						SOURCES			///
+						ALLSOURCES		///
 						ALLTOPICS		///
 						SEARCH(string)	///
 						LIMIT(string)	///
@@ -120,13 +121,23 @@ local indicator `indicators'
 	if ("`linewrapformat'" != "") local needmeta 1
 	if ("`maxlength'" != "") local needmeta 1
 
-	* Discovery commands: sources, topics, search, info
+	* Discovery commands: sources, allsources, topics, search, info
 	* Note: search can be empty if searchsource or searchtopic is provided (browse mode)
 	local has_search_filter = ("`searchsource'" != "" | "`searchtopic'" != "")
-	if ("`sources'" != "" | "`alltopics'" != "" | "`search'" != "" | `has_search_filter' | "`info'" != "") {
-		* List all sources
+	if ("`sources'" != "" | "`allsources'" != "" | "`alltopics'" != "" | "`search'" != "" | `has_search_filter' | "`info'" != "") {
+		* List sources (sources=20 default, allsources=all)
 		if ("`sources'" != "") {
 			noisily _wbopendata_sources, limit(`limit_val')
+			return add
+			exit _rc
+		}
+		if ("`allsources'" != "") {
+			if (`limit_specified') {
+				noisily _wbopendata_sources, limit(`limit_val')
+			}
+			else {
+				noisily _wbopendata_sources
+			}
 			return add
 			exit _rc
 		}
@@ -213,14 +224,15 @@ local indicator `indicators'
 	* Check if no substantive options provided - show help message
 	local has_data_request = wordcount("`indicator' `country' `topics' `match'") > 0
 	local has_sync_request = wordcount("`sync' `syncforce' `checkupdate' `clearcache' `cacheinfo'") > 0
-	local has_discovery_request = wordcount("`search' `info' `sources' `alltopics' `searchsource' `searchtopic'") > 0
+	local has_discovery_request = wordcount("`search' `info' `sources' `allsources' `alltopics' `searchsource' `searchtopic'") > 0
 	local has_update_request = wordcount("`update' `query' `check' `countrymetadata' `all' `metadataoffline'") > 0
 	
 	if !(`has_data_request') & !(`has_sync_request') & !(`has_discovery_request') & !(`has_update_request') {
 		noi di as err "You must specify either indicator(), country(), topics(), or match() to download data."
 		noi di ""
 		noi di as text "Discovery commands:"
-		noi di `"{stata `"wbopendata, sources"':  wbopendata, sources}                   - List all data sources"'
+		noi di `"{stata `"wbopendata, sources"':  wbopendata, sources}                   - List data sources (limited list)"'
+		noi di `"{stata `"wbopendata, allsources"':  wbopendata, allsources}             - List all data sources"'
 		noi di `"{stata `"wbopendata, alltopics"':  wbopendata, alltopics}               - List all topic categories"'
 		noi di `"{stata `"wbopendata, search(GDP)"':  wbopendata, search(GDP)}           - Search indicators by keyword"'
 		noi di `"{stata `"wbopendata, search(NY.GDP.*) searchfield(code)"':  wbopendata, search(NY.GDP.*) searchfield(code)} - Wildcard search in codes"'
