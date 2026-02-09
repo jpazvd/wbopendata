@@ -141,6 +141,7 @@ program define __wbopendata_search_cache, rclass
     *---------------------------------------------------------------------------
     local use_cache = ("`nocache'" == "")
     local cache_method = "frames"
+    local parser_version "1.0.1"
 
     preserve
 
@@ -156,9 +157,15 @@ program define __wbopendata_search_cache, rclass
         * Check if frame already exists with valid data
         capture frame `frame_name': count
         if (_rc == 0 & r(N) > 0) {
-            capture frame `frame_name': confirm variable ind_code field_name field_source_id
+            capture frame `frame_name': confirm variable ind_code field_name field_source_id _parser_version
             if (_rc == 0) {
                 local cache_loaded = 1
+                frame `frame_name' {
+                    local cache_version = _parser_version[1]
+                }
+                if ("`cache_version'" != "`parser_version'") {
+                    local cache_loaded = 0
+                }
                 if ("`debug'" != "") {
                     di as text "(Using cached indicator data from frame `frame_name')"
                 }
@@ -172,6 +179,7 @@ program define __wbopendata_search_cache, rclass
             }
 
             __wbod_parse_yaml_ind "`yaml_path'"
+            gen str10 _parser_version = "`parser_version'"
 
             * Save processed dataset to frame for future use
             capture frame drop `frame_name'

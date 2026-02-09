@@ -1,5 +1,5 @@
 *******************************************************************************
-*! __wbod_parse_yaml_ind v1.0.0  04Feb2026
+*! __wbod_parse_yaml_ind v1.0.1  09Feb2026
 *! Parse YAML indicators file into collapsed dataset (one row per indicator)
 *! Called by __wbopendata_search_cache - not intended for direct use
 *******************************************************************************
@@ -113,8 +113,9 @@ program define __wbod_parse_yaml_ind
 
         *-------------------------------------------------------------------
         * Handle YAML list format: topic_ids and topic_names are lists
+        * List items are indented beyond the field header (typically 6 spaces)
         *-------------------------------------------------------------------
-        gen byte is_list_item = indent == 4 & substr(strtrim(rawline), 1, 2) == "- "
+        gen byte is_list_item = indent >= 6 & substr(strtrim(rawline), 1, 2) == "- "
         gen str100 list_item_val = ""
         replace list_item_val = strtrim(substr(rawline, strpos(rawline, "- ") + 2, .)) if is_list_item
         * Remove surrounding quotes from list values

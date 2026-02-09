@@ -79,7 +79,7 @@ version 14.0
 						SOURCES			///
 						ALLTOPICS		///
 						SEARCH(string)	///
-						LIMIT(integer 20)	///
+						LIMIT(string)	///
 						SEARCHSOURCE(string)	///
 						SEARCHTOPIC(string)	///
 						SEARCHFIELD(string)	///
@@ -92,6 +92,13 @@ version 14.0
                  ]
 
 quietly {
+
+local limit_specified = ("`limit'" != "")
+local limit_val = 20
+if (`limit_specified') {
+	local limit_val = real("`limit'")
+	if (missing(`limit_val') | `limit_val' <= 0) local limit_val = 20
+}
 
 
 local indicator `indicators'
@@ -119,19 +126,24 @@ local indicator `indicators'
 	if ("`sources'" != "" | "`alltopics'" != "" | "`search'" != "" | `has_search_filter' | "`info'" != "") {
 		* List all sources
 		if ("`sources'" != "") {
-			noisily _wbopendata_sources, limit(`limit')
+			noisily _wbopendata_sources, limit(`limit_val')
 			return add
 			exit _rc
 		}
 		* List all topics
 		if ("`alltopics'" != "") {
-			noisily _wbopendata_topics, limit(`limit')
+			if (`limit_specified') {
+				noisily _wbopendata_topics, limit(`limit_val')
+			}
+			else {
+				noisily _wbopendata_topics
+			}
 			return add
 			exit _rc
 		}
 		* Search indicators (also handles browse mode when only filter is provided)
 		if ("`search'" != "" | `has_search_filter') {
-			noisily _wbopendata_search "`search'", limit(`limit') ///
+			noisily _wbopendata_search "`search'", limit(`limit_val') ///
 				source("`searchsource'") topic("`searchtopic'") ///
 				field("`searchfield'") `exact' `detail'
 			return add

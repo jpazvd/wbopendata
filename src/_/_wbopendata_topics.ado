@@ -5,7 +5,7 @@
 
 program define _wbopendata_topics, rclass
     version 14.0
-    syntax [, LIMIT(integer 100)]
+    syntax [, LIMIT(integer -1)]
 
     * Get YAML paths
     _wbopendata_get_yaml_path, type(topics)
@@ -129,8 +129,11 @@ program define _wbopendata_topics, rclass
     di as text %4s "ID" "  " %-45s "Name" %10s "Indicators" "  " "[Browse]"
     di as text "{hline}"
 
-    * Smart limit: if total ≤ 30, show all; otherwise use specified limit
-    local lim = cond(`n_topics' <= 30, `n_topics', cond(`limit' < `n_topics', `limit', `n_topics'))
+    * Default: show all topics unless a limit was explicitly provided
+    local lim = `n_topics'
+    if (`limit' > 0) {
+        local lim = cond(`limit' < `n_topics', `limit', `n_topics')
+    }
     local ids ""
     local names ""
 
