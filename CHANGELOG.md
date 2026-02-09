@@ -20,6 +20,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [Unreleased]
+
+### Added
+- **Sync Preview feature** (`syncpreview`, `syncdryrun` options)
+  - Pre-sync diagnostic display showing cache status, API comparison, and sync pathway
+  - `detail` option for per-source and per-topic indicator breakdown
+  - Helper programs: `_wbopendata_get_source_name`, `_wbopendata_get_topic_name`
+  - Clickable SMCL actions for common sync operations
+
+### Changed
+- Sync system now shows detailed metadata status before sync execution
+- Package updated with new helper ado files
+
+---
+
 ## [17.7.1] - 2026-01-04
 
 ### Added

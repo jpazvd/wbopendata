@@ -196,7 +196,7 @@ local indicator `indicators'
 		}
 		* Preview/dryrun: show diagnostic
 		if ("`syncpreview'" != "" | "`syncdryrun'" != "") {
-			noi _wbopendata_sync_preview
+			noi _wbopendata_sync_preview, `detail'
 			return add
 			* If dryrun, stop here
 			if ("`syncdryrun'" != "") exit 0

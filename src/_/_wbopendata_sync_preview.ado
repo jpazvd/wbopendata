@@ -1,5 +1,5 @@
 *******************************************************************************
-*! _wbopendata_sync_preview v1.0.0  09Feb2026
+*! _wbopendata_sync_preview v1.1.0  09Feb2026
 *! Display metadata status diagnostic before sync
 *! Author: João Pedro Azevedo (World Bank | UNICEF)
 *! Contact: https://jpazvd.github.io
@@ -9,6 +9,8 @@
 program define _wbopendata_sync_preview, rclass
     version 14.0
     syntax [, DETAIL]
+
+    local show_detail = ("`detail'" != "")
 
     *---------------------------------------------------------------------------
     * 1. Resolve cache directory and paths
@@ -264,6 +266,130 @@ program define _wbopendata_sync_preview, rclass
         di as text "  Will use:         " as result "Stata fallback"
     }
 
+    *---------------------------------------------------------------------------
+    * 7b. Detail mode: show per-source and per-topic indicator counts
+    *---------------------------------------------------------------------------
+    if (`show_detail' & `has_cache' & fileexists("`ind_yaml'")) {
+        
+        *-----------------------------------------------------------------------
+        * Sources breakdown
+        *-----------------------------------------------------------------------
+        di ""
+        di as text "{hline 70}"
+        di as result "  Indicators by Source"
+        di as text "{hline 70}"
+        
+        * Count indicators per source
+        preserve
+        quietly {
+            infix str500 rawline 1-500 using "`ind_yaml'", clear
+            
+            * Extract source_id lines
+            keep if strpos(rawline, "source_id:") > 0
+            gen str10 source_id = strtrim(subinstr(rawline, "source_id:", "", 1))
+            replace source_id = subinstr(source_id, "'", "", .)
+            replace source_id = subinstr(source_id, `"""', "", .)
+            
+            * Collapse to get counts
+            gen byte one = 1
+            collapse (sum) count = one, by(source_id)
+            gsort -count
+        }
+        
+        * Display header
+        di ""
+        di as text "  {col 4}ID{col 10}Source Name{col 55}Indicators"
+        di as text "  {hline 60}"
+        
+        * Display each source
+        local nrows = _N
+        forvalues i = 1/`nrows' {
+            local sid = source_id[`i']
+            local cnt = count[`i']
+            
+            * Format count with commas
+            local cnt_fmt : di %8.0fc `cnt'
+            
+            * Get source name, default to ID if not found
+            capture noisily _wbopendata_get_source_name `sid'
+            local sname = r(source_name)
+            if ("`sname'" == "") {
+                local sname "Source `sid'"
+            }
+            * Truncate name to fit
+            local sname = substr("`sname'", 1, 40)
+            
+            di as result "  {col 4}`sid'{col 10}" as text "`sname'{col 55}`cnt_fmt'"
+        }
+        
+        di as text "  {hline 60}"
+        restore
+        
+        *-----------------------------------------------------------------------
+        * Topics breakdown
+        *-----------------------------------------------------------------------
+        di ""
+        di as text "{hline 70}"
+        di as result "  Indicators by Topic"
+        di as text "{hline 70}"
+        
+        preserve
+        quietly {
+            infix str500 rawline 1-500 using "`ind_yaml'", clear
+            
+            * Match lines with topic_ids entries: "    - '11'" patterns
+            * Use strpos for simpler matching - look for lines with - ' pattern
+            gen byte is_topic_entry = (strpos(strtrim(rawline), "- '") == 1)
+            keep if is_topic_entry
+            
+            * Extract the topic ID number from pattern - 'XX'
+            gen str10 topic_id = ""
+            replace topic_id = subinstr(strtrim(rawline), "- '", "", 1)
+            replace topic_id = subinstr(topic_id, "'", "", .)
+            
+            * Only keep valid numeric topic IDs
+            gen byte is_num = real(topic_id) != .
+            keep if is_num
+            
+            gen byte one = 1
+            collapse (sum) count = one, by(topic_id)
+            gsort -count
+        }
+        
+        * Display header
+        di ""
+        di as text "  {col 4}ID{col 10}Topic Name{col 55}Indicators"
+        di as text "  {hline 60}"
+        
+        local nrows = _N
+        if (`nrows' == 0) {
+            di as text "  {col 4}(No topic entries found)"
+        }
+        else {
+            forvalues i = 1/`nrows' {
+                local tid = topic_id[`i']
+                local cnt = count[`i']
+                
+                * Format count with commas
+                local cnt_fmt : di %8.0fc `cnt'
+                
+                * Get topic name
+                capture noisily _wbopendata_get_topic_name `tid'
+                local tname = r(topic_name)
+                if ("`tname'" == "") {
+                    local tname "Topic `tid'"
+                }
+                * Truncate name to fit
+                local tname = substr("`tname'", 1, 40)
+                
+                di as result "  {col 4}`tid'{col 10}" as text "`tname'{col 55}`cnt_fmt'"
+            }
+        }
+        
+        di as text "  {hline 60}"
+        restore
+    }
+
     di ""
     di as text "{hline 70}"
     di ""
@@ -299,3 +425,6 @@ program define _wbopendata_sync_preview, rclass
     if ("`cache_method'" != "") return local cache_method = "`cache_method'"
     if ("`remote_ver'" != "") return local remote_version = "`remote_ver'"
 end
+
+* Note: Helper programs _wbopendata_get_source_name and _wbopendata_get_topic_name
+* are now in separate .ado files for standalone accessibility
