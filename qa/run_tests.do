@@ -586,7 +586,7 @@ if $skip_test == 0 {
     else {
         cap noi {
             * Read wbopendata.pkg and extract F lines into a string
-            local pkg_path "$repo_root/wbopendata.pkg"
+            local pkg_path "$repo_root/src/wbopendata.pkg"
             local pkg_contents ""
             
             tempname fh
@@ -611,8 +611,8 @@ if $skip_test == 0 {
                 local ado_files : dir "`src_path'" files "*.ado", respectcase
                 
                 foreach f of local ado_files {
-                    * Build expected path as it should appear in pkg
-                    local expected_path "src/`subdir'/`f'"
+                    * Build expected path as it should appear in pkg (no src/ prefix)
+                    local expected_path "`subdir'/`f'"
                     
                     if strpos("`pkg_contents'", "`expected_path'") == 0 {
                         local missing_from_pkg "`missing_from_pkg' `expected_path'"
@@ -635,7 +635,7 @@ if $skip_test == 0 {
                     foreach ext of local other_exts {
                         local files : dir "`src_path'" files "*.`ext'", respectcase
                         foreach f of local files {
-                            local expected_path "src/`subdir'/`f'"
+                            local expected_path "`subdir'/`f'"
                             if strpos("`pkg_contents'", "`expected_path'") == 0 {
                                 local missing_from_pkg "`missing_from_pkg' `expected_path'"
                                 di as error "NOT in pkg: `expected_path'"
@@ -670,7 +670,7 @@ if $skip_test == 0 {
     else {
         cap noi {
             * Read wbopendata.pkg and verify each F line file exists
-            local pkg_path "$repo_root/wbopendata.pkg"
+            local pkg_path "$repo_root/src/wbopendata.pkg"
             local missing_files ""
             
             tempname fh
@@ -679,7 +679,7 @@ if $skip_test == 0 {
             while r(eof) == 0 {
                 if substr("`line'", 1, 2) == "F " {
                     local filepath = substr("`line'", 3, .)
-                    local fullpath "$repo_root/`filepath'"
+                    local fullpath "$repo_root/src/`filepath'"
                     cap confirm file "`fullpath'"
                     if _rc != 0 {
                         local missing_files "`missing_files' `filepath'"
@@ -1458,21 +1458,18 @@ if $skip_test == 0 {
     cap noi {
         * Clear any existing cache first
         cap wbopendata, clearcache
-        
-        * Check that cache doesn't exist yet
-        local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
-        local exists = 0
-        cap confirm file "`cache_dir'metadata_version.txt"
-        if _rc == 0 local exists = 1
-        
-        di as text "Initial cache status: " cond(`exists', "exists", "does not exist")
-        
-        * Test cache initialization via _wbopendata_cache helper
+
+        * Test _wbopendata_cache default returns cache_exists scalar
         qui _wbopendata_cache
-        local cache_created = ("`r(cache_dir)'" != "")
-        
-        di as text "Cache directory: `r(cache_dir)'"
-        assert `cache_created' == 1
+        di as text "cache_exists = `r(cache_exists)'"
+
+        * Verify YAML files are findable via adopath (installed package)
+        _wbopendata_get_yaml_path, type(indicators)
+        local ind_path = "`r(path)'"
+        di as text "Indicators YAML: `ind_path'"
+        assert "`ind_path'" != ""
+        cap confirm file "`ind_path'"
+        assert _rc == 0
     }
     if _rc == 0 test_pass
     else test_fail "Cache directory initialization failed"
@@ -1484,34 +1481,30 @@ if $skip_test == 0 {
     cap noi {
         * Clear cache to test fallback to package
         cap wbopendata, clearcache
-        
-        * Test path resolution without cache
-        qui _wbopendata_get_yaml_path indicators
-        local path1 = "`r(yaml_path)'"
-        local source1 = "`r(yaml_source)'"
-        
+
+        * Test path resolution without cache — uses named option type()
+        * Returns r(path), not r(yaml_path)
+        _wbopendata_get_yaml_path, type(indicators)
+        local path1 = "`r(path)'"
+
         di as text "Without cache - Path: `path1'"
-        di as text "Without cache - Source: `source1'"
-        
-        * Should use package install when cache doesn't exist
-        assert "`source1'" == "package"
+
+        * Should resolve to a valid YAML file
         assert strpos("`path1'", "_wbopendata_indicators.yaml") > 0
-        
-        * Now test with cache (if sync works, otherwise skip this part)
-        cap qui wbopendata, sync
-        if _rc == 0 {
-            qui _wbopendata_get_yaml_path indicators
-            local path2 = "`r(yaml_path)'"
-            local source2 = "`r(yaml_source)'"
-            
-            di as text "With cache - Path: `path2'"
-            di as text "With cache - Source: `source2'"
-            
-            * Should prefer cache when available
-            if "`source2'" == "cache" {
-                assert strpos("`path2'", "cache") > 0
-            }
-        }
+        cap confirm file "`path1'"
+        assert _rc == 0
+
+        * Test other types resolve too
+        _wbopendata_get_yaml_path, type(sources)
+        local path_src = "`r(path)'"
+        assert strpos("`path_src'", "_wbopendata_sources.yaml") > 0
+
+        _wbopendata_get_yaml_path, type(topics)
+        local path_top = "`r(path)'"
+        assert strpos("`path_top'", "_wbopendata_topics.yaml") > 0
+
+        di as text "Sources YAML:    `path_src'"
+        di as text "Topics YAML:     `path_top'"
     }
     if _rc == 0 test_pass
     else test_fail "YAML path resolution failed"
@@ -1521,18 +1514,13 @@ if $skip_test == 0 {
 run_test "CACHE-03" "Cache info command"
 if $skip_test == 0 {
     cap noi {
-        * Try to create cache first
-        cap qui wbopendata, sync
-        
-        * Test cache info display
-        wbopendata, cacheinfo
-        
-        * Check that it returns cache status
-        local has_cache = ("`r(cache_dir)'" != "")
-        di as text "Cache info returned: " cond(`has_cache', "yes", "no")
-        
-        * At minimum, should return cache directory path
-        assert `has_cache' == 1
+        * Test cache info via _wbopendata_cache, info
+        * Returns r(cache_exists) scalar, r(cache_version), r(cache_timestamp)
+        _wbopendata_cache, info
+
+        * cache_exists should be 0 or 1 — command itself should not error
+        di as text "cache_exists = `r(cache_exists)'"
+        assert "`r(cache_exists)'" == "0" | "`r(cache_exists)'" == "1"
     }
     if _rc == 0 test_pass
     else test_fail "Cache info command failed"
@@ -1542,26 +1530,19 @@ if $skip_test == 0 {
 run_test "CACHE-04" "Clear cache command"
 if $skip_test == 0 {
     cap noi {
-        * Ensure cache exists first
-        cap qui wbopendata, sync
-        
-        * Check cache exists
+        * _wbopendata_cache, clear uses capture erase — safe even if no cache exists
+        _wbopendata_cache, clear
+
+        * Should return cache_cleared = "1"
+        di as text "cache_cleared = `r(cache_cleared)'"
+        assert "`r(cache_cleared)'" == "1"
+
+        * Verify metadata_version.txt is gone
         local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
         cap confirm file "`cache_dir'metadata_version.txt"
-        local before_exists = (_rc == 0)
-        
-        di as text "Before clear - Cache exists: " cond(`before_exists', "yes", "no")
-        
-        * Clear cache
-        wbopendata, clearcache
-        
-        * Verify cache is cleared
-        cap confirm file "`cache_dir'metadata_version.txt"
         local after_exists = (_rc == 0)
-        
-        di as text "After clear - Cache exists: " cond(`after_exists', "yes", "no")
-        
-        * Cache should be gone after clear
+
+        di as text "After clear - metadata_version.txt exists: " cond(`after_exists', "yes", "no")
         assert `after_exists' == 0
     }
     if _rc == 0 test_pass

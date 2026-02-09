@@ -242,9 +242,14 @@ program define __wbopendata_search, rclass
 
         *-----------------------------------------------------------------------
         * Apply source filter (by ID)
+        * Zero-pad single-digit IDs to match YAML format (e.g. "2" -> "02")
         *-----------------------------------------------------------------------
         if ("`source'" != "") {
-            keep if field_source_id == "`source'"
+            local src_filter "`source'"
+            if (length("`src_filter'") == 1 & real("`src_filter'") != .) {
+                local src_filter "0`src_filter'"
+            }
+            keep if field_source_id == "`src_filter'" | field_source_id == "`source'"
         }
 
         *-----------------------------------------------------------------------
