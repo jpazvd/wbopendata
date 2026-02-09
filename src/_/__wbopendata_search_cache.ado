@@ -141,7 +141,7 @@ program define __wbopendata_search_cache, rclass
     *---------------------------------------------------------------------------
     local use_cache = ("`nocache'" == "")
     local cache_method = "frames"
-    local parser_version "1.0.1"
+    local parser_version "1.0.4"
 
     preserve
 
@@ -155,6 +155,8 @@ program define __wbopendata_search_cache, rclass
         local cache_loaded = 0
 
         * Check if frame already exists with valid data
+        * Cache validity: frame exists + has expected variables + parser version matches
+        * No content-based guards - trust parser version for invalidation
         capture frame `frame_name': count
         if (_rc == 0 & r(N) > 0) {
             capture frame `frame_name': confirm variable ind_code field_name field_source_id _parser_version
@@ -166,17 +168,16 @@ program define __wbopendata_search_cache, rclass
                 if ("`cache_version'" != "`parser_version'") {
                     local cache_loaded = 0
                 }
-                if ("`debug'" != "") {
-                    di as text "(Using cached indicator data from frame `frame_name')"
+                * Show cache message if cache is valid
+                if (`cache_loaded') {
+                    di as text "(Using cached metadata from memory)"
                 }
             }
         }
 
         if (!`cache_loaded') {
             * First call or invalid cache - parse YAML and cache result
-            if ("`debug'" != "") {
-                di as text "(Parsing YAML and caching to frame `frame_name'...)"
-            }
+            di as text "(Caching metadata in memory...)"
 
             __wbod_parse_yaml_ind "`yaml_path'"
             gen str10 _parser_version = "`parser_version'"
@@ -220,11 +221,17 @@ program define __wbopendata_search_cache, rclass
         }
 
         * Apply topic filter (by ID - check if ID is in semicolon-separated list)
+        * Must use word-boundary matching to avoid "1" matching "11", "14", "21" etc.
         if ("`topic'" != "") {
             gen byte topic_match = 0
+            * Exact match (single topic)
             replace topic_match = 1 if field_topic_ids == "`topic'"
-            replace topic_match = 1 if strpos(field_topic_ids, "`topic';") > 0
-            replace topic_match = 1 if strpos(field_topic_ids, ";`topic'") > 0
+            * First in list: "1;..."
+            replace topic_match = 1 if strpos(field_topic_ids, "`topic';") == 1
+            * Middle of list: "...;1;..."
+            replace topic_match = 1 if strpos(field_topic_ids, ";`topic';") > 0
+            * End of list: "...;1" - use regex for end anchor
+            replace topic_match = 1 if regexm(field_topic_ids, ";`topic'$")
             keep if topic_match
             drop topic_match
         }
@@ -282,7 +289,7 @@ program define __wbopendata_search_cache, rclass
         di as text "[debug] Parsed YAML and applied filters."
     }
 
-    count
+    quietly count
     local n = r(N)
 
     if ("`debug'" != "") {
