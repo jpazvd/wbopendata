@@ -14,9 +14,9 @@ d (2) topics - WDI indicators within a specific topic for all years/countries;
 d (3) indicator - all years for all countries for a single indicator; 
 d (4) indicator and country - selected years/countries for a single indicator; 
 d (5) multiple indicators - all years for selected indicators. Users can 
-d choose wide or long format. NEW in v17.7: Basic country context variables 
-d (region, income level, lending type) are now included by default. 
-d NEW in v17.6: Graph-ready metadata with linewrap() and maxlength() options.
+d choose wide or long format. NEW in v18.0: YAML-based parameters; deprecated
+d 89 per-indicator help files in favor of discovery commands (sources, alltopics,
+d search, info). NEW in v17.7: Basic country context variables included by default.
 d 
 d KW: World Bank
 d KW: development indicators
@@ -26,7 +26,7 @@ d KW: open data
 d 
 d Requires: Stata version 14
 d 
-d Distribution-Date: 20260121
+d Distribution-Date: 20260205
 d License: MIT
 d 
 d Author: João Pedro Azevedo
@@ -36,6 +36,7 @@ f src/w/wbopendata.ado
 f src/w/wbopendata_populate_list.ado
 f src/w/wbopendata_examples.ado
 f src/w/wbopendata.sthlp
+f src/w/wbopendata_whatsnew.sthlp
 f src/w/wbopendata.dlg
 f src/w/wbopendata_indicators.sthlp
 f src/w/wbopendata_adminregion.sthlp
@@ -70,6 +71,14 @@ f src/_/_wbopendata_download_yaml.ado
 f src/_/_wbopendata_get_yaml_path.ado
 f src/_/_wbopendata_search.ado
 f src/_/_wbopendata_info.ado
+f src/_/_wbopendata_sources.ado
+f src/_/_wbopendata_topics.ado
+f src/_/_wbopendata_cache_clear.ado
+f src/_/_wbopendata_cache_info.ado
+f src/_/__wbod_parse_yaml_ind.ado
+f src/_/__wbopendata_search.ado
+f src/_/__wbopendata_search_cache.ado
+f src/_/_wbopendata_parameters.yaml
 f src/_/_wbopendata_indicators.yaml
 f src/_/_wbopendata_sources.yaml
 f src/_/_wbopendata_topics.yaml

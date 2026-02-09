@@ -56,11 +56,30 @@
 !/src/*.sthlp
 !/src/*.dta
 !/src/*.txt
+!/src/*.yaml
+!/src/*.pkg
+!/src/*.toc
+!/src/*.dlg
 !/src/**/*.do
 !/src/**/*.ado
 !/src/**/*.sthlp
 !/src/**/*.dta
 !/src/**/*.txt
+!/src/**/*.yaml
+!/src/**/*.py
+!/src/**/*.dlg
+
+# Tests
+!/tests/*.do
+!/tests/*.py
+
+# Archive (superseded code for reference)
+!/archive/
+!/archive/*.ado
+!/archive/*.do
+!/archive/*.sthlp
+!/archive/**
+!/archive/**/*.sthlp
 
 # Documentation
 !/doc/*.md
@@ -69,6 +88,8 @@
 !/doc/**/*.png
 !/doc/**/*.do
 !/doc/**/*.txt
+!/internal/*.md
+!/internal/**/*.md
 
 # QA test files
 !/qa/*.txt
@@ -132,6 +153,10 @@ passwords/
 !/ssc/*.pkg
 !/ssc/*.toc
 ssc/submission_email.md
+
+#######################
+# Build artifact - nested repo copy
+wbopendata-dev/
 
 #######################
 # Prevent large temporary/test data files from being committed

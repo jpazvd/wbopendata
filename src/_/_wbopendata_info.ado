@@ -1,165 +1,294 @@
 *******************************************************************************
-*! _wbopendata_info v1.0.0  20Jan2026
-*! Return indicator metadata from cached YAML (Pathway C)
+*! _wbopendata_info v2.4.0  09Feb2026
+*! Return indicator metadata using shared frame cache (fast after first call)
+*! Uses same __wbod_parse_yaml_ind parser as search - fixed block scalars
+*! v2.4.0: Parse Note field with _website to convert URLs to clickable links
+*! v2.3.0: New display layout with separate ID/Name rows. Add unit, limited_data.
+*!         Show all topic IDs/names. Add Filters section with clickable commands.
 *******************************************************************************
 
 program define _wbopendata_info, rclass
-    version 14.0
+    version 16.0
     syntax , INDICATOR(string)
 
-    local code_raw = trim("`indicator'")
+    local code_raw = strtrim("`indicator'")
     if ("`code_raw'" == "") {
         di as err "indicator() required"
         exit 198
     }
 
-    local code_u = subinstr("`code_raw'", ".", "_", .)
-
     _wbopendata_get_yaml_path, type(indicators)
     local yaml_path = r(path)
 
-    * Try yaml.ado path; fall back to direct parse if it fails or not found
-    capture noisily {
-        preserve
-        quietly {
-            yaml read using "`yaml_path'", replace
-            keep if strpos(key, "indicators_") == 1
+    if (!fileexists("`yaml_path'")) {
+        di as error "Indicators metadata not found. Run: wbopendata, sync"
+        exit 601
+    }
 
-            gen rest = substr(key, 12, .)
-            gen rev = reverse(rest)
-            gen pos = strpos(rev, "_")
-            gen field = reverse(substr(rev, 1, pos - 1))
-            gen code = substr(rest, 1, strlen(rest) - pos)
-            drop if missing(field)
+    *---------------------------------------------------------------------------
+    * Use shared frame cache (same as __wbopendata_search_cache)
+    *---------------------------------------------------------------------------
+    local parser_version "1.0.10"
+    local frame_name "_wbod_indicators"
+    local cache_loaded = 0
 
-            keep if code == "`code_u'"
-            if (_N == 0) {
-                restore
-                error 111
+    preserve
+
+    * Check if frame already exists with valid data
+    capture frame `frame_name': count
+    if (_rc == 0 & r(N) > 0) {
+        capture frame `frame_name': confirm variable ind_code field_name field_source_id field_source_name field_unit field_limited_data _parser_version
+        if (_rc == 0) {
+            local cache_loaded = 1
+            frame `frame_name' {
+                local cache_version = _parser_version[1]
             }
-
-            reshape wide value, i(code) j(field) string
+            if ("`cache_version'" != "`parser_version'") {
+                local cache_loaded = 0
+            }
+            if (`cache_loaded') {
+                di as text "(Using cached metadata from memory)"
+            }
         }
+    }
 
-        local name = ""
-        capture local name = valuename[1]
-        local desc = ""
-        capture local desc = valuedescription[1]
-        local note = ""
-        capture local note = valuenote[1]
-        local source = ""
-        capture local source = valuesource_name[1]
-        local topicnames = ""
-        capture local topicnames = valuetopic_names[1]
+    if (!`cache_loaded') {
+        * First call or invalid cache - parse YAML and cache result
+        di as text "(Caching metadata in memory...)"
+        
+        __wbod_parse_yaml_ind "`yaml_path'"
+        gen str10 _parser_version = "`parser_version'"
 
-        * Graceful fallbacks
-        if ("`name'" == "")       local name "N/A"
-        if ("`source'" == "")     local source "N/A"
-        if ("`topicnames'" == "") local topicnames "N/A"
-        if ("`desc'" == "")       local desc "N/A"
-        if ("`note'" == "")       local note "N/A"
+        * Save processed dataset to frame for future use
+        capture frame drop `frame_name'
+        frame put *, into(`frame_name')
+    }
+    else {
+        * Load cached data from frame via tempfile
+        tempfile cache_tmp
+        frame `frame_name' {
+            quietly save `cache_tmp', replace
+        }
+        quietly use `cache_tmp', clear
+    }
 
-        di as text "Indicator: " as result "`code_raw'"
-        di as text "Name: " as result "`name'"
-        di as text "Source: " as result "`source'"
-        di as text "Topics: " as result "`topicnames'"
-        di as text "Description:" 
-        di as result "`desc'"
-        di as text "Note:" 
-        di as result "`note'"
+    * Find the requested indicator (case-insensitive)
+    quietly {
+        gen byte match = upper(ind_code) == upper("`code_raw'")
+        keep if match
+        drop match
+    }
 
-        return local indicator = "`code_raw'"
-        return local name = "`name'"
-        return local source = "`source'"
-        return local topics = "`topicnames'"
-        return local description = "`desc'"
-        return local note = "`note'"
-        return local yaml_path = "`yaml_path'"
-        return scalar used_fallback = 0
-
+    quietly count
+    if (r(N) == 0) {
+        di as error "Indicator not found: `code_raw'"
         restore
-        exit 0
-    }
-
-    * Fallback: direct parse
-    tempname fh
-    file open `fh' using "`yaml_path'", read text
-
-    local in_ind = 0
-    local found = 0
-    local name ""
-    local desc ""
-    local note ""
-    local source ""
-    local topicnames ""
-
-    file read `fh' line
-    while r(eof) == 0 {
-        local orig `"`macval(line)'"'
-        local trimmed = strtrim(`"`orig'"')
-
-        if ("`trimmed'" == "indicators:") {
-            local in_ind = 1
-            file read `fh' line
-            continue
-        }
-
-        if (`in_ind') {
-            if (substr(`"`orig'"',1,2) == "  " & substr(`"`orig'"',3,1) != " " & strpos(`"`orig'"', ":") > 0) {
-                local code_here = subinstr(strtrim(subinstr(`"`orig'"',":", "", 1)), " ", "", .)
-                if (upper("`code_here'") == upper("`code_u'")) {
-                    * read fields until next indicator or EOF
-                    file read `fh' line
-                    while (r(eof) == 0) {
-                        local orig2 `"`macval(line)'"'
-                        local t = strtrim(`"`orig2'"')
-                        if (substr(`"`orig2'"',1,2) == "  " & substr(`"`orig2'"',3,1) != " " & strpos(`"`orig2'"', ":") > 0) {
-                            continue, break
-                        }
-                        if (regexm("`t'", "^name:[ ]*(.+)$"))         local name = regexs(1)
-                        else if (regexm("`t'", "^description:[ ]*(.+)$")) local desc = regexs(1)
-                        else if (regexm("`t'", "^note:[ ]*(.+)$"))       local note = regexs(1)
-                        else if (regexm("`t'", "^topic_names:[ ]*(.+)$")) local topicnames = regexs(1)
-                        else if (regexm("`t'", "^source_org:[ ]*(.+)$"))  local source = regexs(1)
-                        file read `fh' line
-                    }
-                    local found = 1
-                    continue, break
-                }
-            }
-        }
-
-        file read `fh' line
-    }
-
-    file close `fh'
-
-    if (!`found') {
-        di as err "Indicator not found in YAML: `code_raw' (fallback parse)"
         exit 111
     }
 
-    if ("`name'" == "")       local name "N/A"
-    if ("`source'" == "")     local source "N/A"
-    if ("`topicnames'" == "") local topicnames "N/A"
-    if ("`desc'" == "")       local desc "N/A"
-    if ("`note'" == "")       local note "N/A"
+    *---------------------------------------------------------------------------
+    * Extract values from cached frame data safely
+    * Use scalar strings and levelsof to handle strL and special characters
+    *---------------------------------------------------------------------------
+    
+    * Simple string fields - direct assignment is safe
+    local ind = ind_code[1]
+    local src_id = field_source_id[1]
+    local topic_ids = field_topic_ids[1]
+    local limited_data = field_limited_data[1]
+    
+    * For strL fields that may contain special characters (:, ", etc.)
+    * Use scalar to preserve content without macro expansion issues
+    scalar s_name = field_name[1]
+    scalar s_desc = field_desc[1]
+    scalar s_src = field_source[1]
+    scalar s_src_name = field_source_name[1]
+    scalar s_topics = field_topic[1]
+    scalar s_note = field_note[1]
+    scalar s_unit = field_unit[1]
+    
+    * Convert scalars to locals for display (compound quotes protect special chars)
+    local name : di s_name
+    local desc : di s_desc
+    local src : di s_src
+    local src_name : di s_src_name
+    local topics : di s_topics
+    local note : di s_note
+    local unit : di s_unit
+    
+    * Clean up scalars
+    scalar drop s_name s_desc s_src s_src_name s_topics s_note s_unit
 
-    di as text "Indicator: " as result "`code_raw'"
-    di as text "Name: " as result "`name'"
-    di as text "Source: " as result "`source'"
-    di as text "Topics: " as result "`topicnames'"
-    di as text "Description:" 
-    di as result "`desc'"
-    di as text "Note:" 
-    di as result "`note'"
+    * Handle YAML multi-line markers (shouldn't happen with new parser, but safety check)
+    if (`"`src'"' == "|-" | `"`src'"' == "|" | `"`src'"' == ">-" | `"`src'"' == ">") {
+        local src ""
+    }
+    if (`"`desc'"' == "|-" | `"`desc'"' == "|" | `"`desc'"' == ">-" | `"`desc'"' == ">") {
+        local desc ""
+    }
+    if (`"`note'"' == "|-" | `"`note'"' == "|" | `"`note'"' == ">-" | `"`note'"' == ">") {
+        local note ""
+    }
 
-    return local indicator = "`code_raw'"
-    return local name = "`name'"
-    return local source = "`source'"
-    return local topics = "`topicnames'"
-    return local description = "`desc'"
-    return local note = "`note'"
-    return local yaml_path = "`yaml_path'"
-    return scalar used_fallback = 1
+    * Fallbacks
+    if (`"`name'"' == "") local name "N/A"
+    if (`"`src_name'"' == "") local src_name "N/A"
+    if (`"`topics'"' == "") local topics "N/A"
+    if (`"`desc'"' == "") local desc "N/A"
+    
+    * Note fallback: if YAML note is empty, use source_org (like describe does)
+    if (`"`note'"' == "") {
+        if (`"`src'"' != "") {
+            local note `"`src'"'
+        }
+        else {
+            local note "N/A"
+        }
+    }
+    * Preserve source_org for return list even when used as note
+    local source_org `"`src'"'
+    if (`"`source_org'"' == "") local source_org "N/A"
+
+    * Build collection string: "ID source_name" format (for backward compatibility)
+    local collection "`src_id' `src_name'"
+    if ("`src_id'" == "") local collection `"`src_name'"'
+
+    * Parse topic_ids into topic1, topic2, topic3 (matching describe)
+    * topic_ids is semicolon-separated, e.g., "18;5"
+    local topic1 ""
+    local topic2 ""
+    local topic3 ""
+    if ("`topic_ids'" != "") {
+        tokenize "`topic_ids'", parse(";")
+        local topic1 = "`1'"
+        if ("`3'" != "") local topic2 = "`3'"
+        if ("`5'" != "") local topic3 = "`5'"
+    }
+
+    * Get first topic ID for browse links
+    local first_topic_id "`topic1'"
+
+    * Format topic_ids for display: "11; 5" instead of "11;5"
+    local topic_ids_display = subinstr("`topic_ids'", ";", "; ", .)
+
+    * Format topics for display: if multiple, use semicolon-separated
+    * The field_topic should already have all topics accumulated
+    local topics_display `"`topics'"'
+
+    *---------------------------------------------------------------------------
+    * Process Note and Description with _website to convert URLs to clickable links
+    * Preserve original text for return list (without SMCL), use processed for display
+    *---------------------------------------------------------------------------
+    local note_plain `"`note'"'
+    local desc_plain `"`desc'"'
+    
+    * Process note through _website (quietly to suppress its display)
+    if (`"`note'"' != "N/A") {
+        capture quietly _website, text(`"`note'"')
+        if (_rc == 0 & `"`r(text)'"' != "") {
+            local note `"`r(text)'"'
+        }
+    }
+    
+    * Process description through _website
+    if (`"`desc'"' != "N/A") {
+        capture quietly _website, text(`"`desc'"')
+        if (_rc == 0 & `"`r(text)'"' != "") {
+            local desc `"`r(text)'"'
+        }
+    }
+
+    *---------------------------------------------------------------------------
+    * Display with new layout (separate ID/Name rows, unit, limited_data warning)
+    *---------------------------------------------------------------------------
+    di as text ""
+    di as text "{hline}"
+    di in smcl `"{p 4 4 4}{result:Indicator}: `ind'{p_end}"'
+    di as text "{hline}"
+    di in smcl `"{p 4 4 4}{result:Name}: `name'{p_end}"'
+    di as text "{hline}"
+    
+    * Show Unit if not empty
+    if (`"`unit'"' != "") {
+        di in smcl `"{p 4 4 4}{result:Unit}: `unit'{p_end}"'
+        di as text "{hline}"
+    }
+    
+    * Source ID and Source Name on separate lines
+    di in smcl `"{p 4 4 4}{result:Source ID}: `src_id'{p_end}"'
+    di as text "{hline}"
+    di in smcl `"{p 4 4 4}{result:Source}: `src_name'{p_end}"'
+    di as text "{hline}"
+    
+    * Topic ID(s) and Topic(s) on separate lines
+    di in smcl `"{p 4 4 4}{result:Topic ID(s)}: `topic_ids_display'{p_end}"'
+    di as text "{hline}"
+    di in smcl `"{p 4 4 4}{result:Topic(s)}: `topics_display'{p_end}"'
+    di as text "{hline}"
+    
+    * Description
+    di in smcl `"{p 4 4 4}{result:Description}: `desc'{p_end}"'
+    di as text "{hline}"
+    
+    * Note
+    di in smcl `"{p 4 4 4}{result:Note}: `note'{p_end}"'
+    di as text "{hline}"
+    
+    * Limited data warning
+    if (`limited_data' == 1) {
+        di as error "{p 4 4 4}{bf:{c 149} Limited data availability}{p_end}"
+        di as text "{hline}"
+    }
+    
+    * Filters section with clickable commands
+    di as result "Filters:"
+    if ("`src_id'" != "") {
+        di `"  {stata `"wbopendata, search() searchsource(`src_id')"':[searchsource(`src_id')]}"' _c
+    }
+    if ("`first_topic_id'" != "") {
+        if ("`src_id'" != "") di " | " _c
+        di `"  {stata `"wbopendata, search() searchtopic(`first_topic_id')"':[searchtopic(`first_topic_id')]}"'
+    }
+    else {
+        di ""
+    }
+    di as text "{hline}"
+    
+    * Download section
+    di as result "Download:"
+    di `"  {stata `"wbopendata, indicator(`ind') clear"':[Wide format]}"'
+    di `"  {stata `"wbopendata, indicator(`ind') clear long"':[Long format]}"'
+    di `"  {stata `"wbopendata, indicator(`ind') country(BRA;USA;CHN) clear long"':[Specific countries]}"'
+    di as text "{hline}"
+
+    *---------------------------------------------------------------------------
+    * Return values - MUST use compound quotes for text with special chars
+    * Match _query_metadata return list for compatibility with describe
+    * Return plain text versions (without SMCL) for programmatic use
+    *---------------------------------------------------------------------------
+    * Ensure _rc=0 before returning (capture commands earlier may have set it)
+    local _dummy = 1
+    
+    return local indicator    "`ind'"
+    return local name         `"`name'"'
+    return local varlabel     `"`name'"'
+    return local source       `"`collection'"'
+    return local collection   `"`collection'"'
+    return local source_id    "`src_id'"
+    return local source_name  `"`src_name'"'
+    return local source_org   `"`source_org'"'
+    return local sourcecite   `"`source_org'"'
+    return local description  `"`desc_plain'"'
+    return local note         `"`note_plain'"'
+    return local unit         `"`unit'"'
+    return local limited_data "`limited_data'"
+    return local topic1       "`topic1'"
+    return local topic2       "`topic2'"
+    return local topic3       "`topic3'"
+    return local topics       `"`topics'"'
+    return local topic_ids    "`topic_ids'"
+    return local yaml_path    "`yaml_path'"
+    return local cmd          "wbopendata, info(`ind')"
+
+    restore
 end

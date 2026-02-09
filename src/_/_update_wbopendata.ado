@@ -54,9 +54,10 @@ syntax , 								///
 	local ctrydatef 		= c(current_date)
 	local dt_ctrycheck 		"`ctrydatef' `ctrytime'"
 	local dt_ctryupdate 	= r(dt_ctryupdate)
-	local dt_ctrylastcheck 	= r(dt_ctrycheck)
+	local dt_ctrylastcheck 	= r(dt_ctrylastcheck)
+	local dt_ctrylastupdate "`r(dt_ctrylastupdate)'"
 
-		
+
 	local	oldsourcereturn `"`r(sourcereturn)'"'
 	local	oldtopicreturn  `"`r(topicreturn)'"'
 	local	oldsourceid	 	`"`r(sourceid)'"'
@@ -70,31 +71,38 @@ syntax , 								///
 	*** Generate TOPIC and SOURCE Labels ******
 	* OLD Source IDs
 	* Extract Labels for SourceIDs
-	foreach name in `"`oldsourceid'"' {
-		local t1 = substr("`name'",1,2)
-		local name = subinstr("`name'","(","[",.)
-		local name = subinstr("`name'",")","]",.)
-		local name = subinstr("`name'",":"," -",.)
-		local lgt = length("`name'")
+	* Use gettoken loop instead of foreach to handle names with parentheses
+	local srclist `"`oldsourceid'"'
+	while `"`srclist'"' != "" {
+		gettoken name srclist : srclist, bind
+		local t1 = substr(`"`name'"',1,2)
+		local name = subinstr(`"`name'"',"(","[",.)
+		local name = subinstr(`"`name'"',")","]",.)
+		local name = subinstr(`"`name'"',":"," -",.)
+		local lgt = length(`"`name'"')
 		if (`lgt'>38) {
-			local name = substr("`name'",1,38)
-			local name "`name'..."
+			local name = substr(`"`name'"',1,38)
+			local name `"`name'..."'
 		}
-		local oldlabel_sourceid`t1' "`name'"
+		local oldlabel_sourceid`t1' `"`name'"'
 	}
-	
-	* OLD Topic IDs	
+
+	* OLD Topic IDs
 	* Extract Labels for Topic IDs
-	foreach name in `"`oldtopicid'"' {
-		local t1 = substr("`name'",1,2)
-		local name = subinstr("`name'","(","[",.)
-		local name = subinstr("`name'",")","]",.)
-		local name = subinstr("`name'",":"," -",.)
+	* Use gettoken loop instead of foreach to handle names with parentheses (e.g., ESG)
+	local toplist `"`oldtopicid'"'
+	while `"`toplist'"' != "" {
+		gettoken name toplist : toplist, bind
+		local t1 = substr(`"`name'"',1,2)
+		local name = subinstr(`"`name'"',"(","[",.)
+		local name = subinstr(`"`name'"',")","]",.)
+		local name = subinstr(`"`name'"',":"," -",.)
+		local lgt = length(`"`name'"')
 		if (`lgt'>38) {
-			local name = substr("`name'",1,38)
-			local name "`name'..."
+			local name = substr(`"`name'"',1,38)
+			local name `"`name'..."'
 		}
-		local oldlabel_topicid`t1' "`name'"
+		local oldlabel_topicid`t1' `"`name'"'
 	}
 		
 	
@@ -227,6 +235,7 @@ syntax , 								///
 				local newtopicid = r(topicid)
 				local newsourcereturn = r(sourcereturn)
 				local newtopicreturn  = r(topicreturn)
+				local newtotal = r(total)
 
 			*** NEW TOPIC and SOURCE values ****
 				noi foreach returnname in `newsourcereturn' `newtopicreturn' {
@@ -235,32 +244,37 @@ syntax , 								///
 				
 			*** Update TOPIC and SOURCE Labels ******
 				* NEW Source IDs
-				* Extract Labels for SourceIDs
-				foreach name in `newsourceid'  {
-					local t1 = substr("`name'",1,2)
-					local name = subinstr("`name'","(","[",.)
-					local name = subinstr("`name'",")","]",.)
-					local name = subinstr("`name'",":"," -",.)
-					local lgt = length("`name'")
+				* Extract Labels for SourceIDs (use gettoken for names with parentheses)
+				local srclist `"`newsourceid'"'
+				while `"`srclist'"' != "" {
+					gettoken name srclist : srclist, bind
+					local t1 = substr(`"`name'"',1,2)
+					local name = subinstr(`"`name'"',"(","[",.)
+					local name = subinstr(`"`name'"',")","]",.)
+					local name = subinstr(`"`name'"',":"," -",.)
+					local lgt = length(`"`name'"')
 					if (`lgt'>38) {
-						local name = substr("`name'",1,38)
-						local name "`name'..."
+						local name = substr(`"`name'"',1,38)
+						local name `"`name'..."'
 					}
-					local newlabel_sourceid`t1' "`name'"
+					local newlabel_sourceid`t1' `"`name'"'
 				}
-				
-				* NEW Topic IDs	
-				* Extract Labels for Topic IDs
-				foreach name in `newtopicid' {
-					local t1 = substr("`name'",1,2)
-					local name = subinstr("`name'","(","[",.)
-					local name = subinstr("`name'",")","]",.)
-					local name = subinstr("`name'",":"," -",.)
+
+				* NEW Topic IDs
+				* Extract Labels for Topic IDs (use gettoken for names with parentheses)
+				local toplist `"`newtopicid'"'
+				while `"`toplist'"' != "" {
+					gettoken name toplist : toplist, bind
+					local t1 = substr(`"`name'"',1,2)
+					local name = subinstr(`"`name'"',"(","[",.)
+					local name = subinstr(`"`name'"',")","]",.)
+					local name = subinstr(`"`name'"',":"," -",.)
+					local lgt = length(`"`name'"')
 					if (`lgt'>38) {
-						local name = substr("`name'",1,38)
-						local name "`name'..."
+						local name = substr(`"`name'"',1,38)
+						local name `"`name'..."'
 					}
-					local newlabel_topicid`t1' "`name'"
+					local newlabel_topicid`t1' `"`name'"'
 				}
 
 			*************************************
@@ -353,68 +367,64 @@ syntax , 								///
 
 		}
 
-		* Write PARAMETERS.ADO
-		/* Does not change _parameter values (only changes time stamps) */ 
-		
-		tempfile in out2
-		tempname in2 out
+		* Write YAML parameters file
+		/* Does not change _parameter values (only changes time stamps) */
 
-		file open `out'    using 	`out2'   		, write text append 
-				
-		
-		file write `out' `"*! _parameters <`datef' : `time'> 	João Pedro Azevedo "' 		_n
-		file write `out' `""' 																_n
-		file write `out' `"program define _parameters, rclass"' 							_n
-		file write `out' `""' 																_n
-		file write `out' `"version 9"' 														_n
-		file write `out' `""' 																_n
-		file write `out' `"		return add"' 												_n
-		file write `out' `""' 																_n
-		
-		/* begin: full indicators details always on */
+		tempfile out2
+		tempname out
 
-		file write `out' `""' 																_n
-		file write `out' `"		return local total = `total' "' 							_n 
-		file write `out' `""' 																_n
+		file open `out' using `out2', write text replace
 
-		noi foreach returnname in `oldsourcereturn' `oldtopicreturn' {
-			if (`old`returnname'' != .) {
-				file write `out' `"		return local `returnname' = `old`returnname'' "' 		_n
-			}
-			else {
-				file write `out' `"		return local `returnname' = . "' 		_n
-			}
+		file write `out' "# wbopendata parameters" _n
+		file write `out' `"# Auto-generated by _update_wbopendata.ado on `datef' `time'"' _n
+		file write `out' "" _n
+		file write `out' "_metadata:" _n
+		file write `out' "  version: 1.0.0" _n
+		file write `out' `"  generated_at: '`datef' `time''"' _n
+		file write `out' "" _n
+		file write `out' "total: `total'" _n
+		file write `out' "number_indicators: `number_indicators'" _n
+		file write `out' "" _n
+		file write `out' `"dt_update: '`dt_update''"' _n
+		file write `out' `"dt_lastcheck: '`dt_check''"' _n
+		file write `out' "" _n
+		file write `out' "ctrymetadata: `ctrymetadata'" _n
+		file write `out' `"dt_ctrylastupdate: '`dt_ctrylastupdate''"' _n
+		file write `out' `"dt_ctrylastcheck: '`dt_ctrycheck''"' _n
+		file write `out' `"dt_ctryupdate: '`dt_ctryupdate''"' _n
+		file write `out' "" _n
+
+		file write `out' "sources:" _n
+		local srclist `"`oldsourceid'"'
+		while `"`srclist'"' != "" {
+			gettoken item srclist : srclist, bind
+			local scode = substr(`"`item'"', 1, 2)
+			local sname = strtrim(substr(`"`item'"', 3, .))
+			local scount `oldsourceid`scode''
+			if ("`scount'" == "." | "`scount'" == "") local scount 0
+			file write `out' `"  '`scode'':"' _n
+			file write `out' `"    count: `scount'"' _n
+			file write `out' `"    name: '`sname''"' _n
 		}
-			
-		file write `out' `""' 																_n
-		file write `out' `"		return local sourcereturn  "`oldsourcereturn'" "' 			_n
-		file write `out' `""' 																_n
-		file write `out' `"		return local topicreturn  "`oldtopicreturn'" "' 			_n
-		file write `out' `""' 																_n
-		file write `out' `"		return local sourceid  `"`oldsourceid'"' "' 					_n
-		file write `out' `""' 																_n
-		file write `out' `"		return local topicid  `"`oldtopicid'"' "' 						_n
-		file write `out' `""' 																_n
-				
-		file write `out' `""' 																_n
+		file write `out' "" _n
 
-		/* end: full indicators details always on */
-				
-		file write `out' `""' 																_n
-		file write `out' `"		return local number_indicators = `number_indicators'"' 		_n 
-		file write `out' `"		return local dt_update "`dt_update'" "' 					_n
-		file write `out' `"		return local dt_lastcheck  "`dt_check'" "' 					_n  
-		file write `out' `""' 																_n
-		file write `out' `"		return local ctrymetadata = `ctrymetadata'"' 				_n 
-		file write `out' `"		return local dt_ctrylastcheck 	"`dt_ctrycheck'" "' 		_n
-		file write `out' `"		return local dt_ctryupdate  "`dt_ctryupdate'" "' 			_n  
-		file write `out' `""' 																_n
-		file write `out' `"end"' 															_n
-			
+		file write `out' "topics:" _n
+		local toplist `"`oldtopicid'"'
+		while `"`toplist'"' != "" {
+			gettoken item toplist : toplist, bind
+			local tcode = word(`"`item'"', 1)
+			local tname = strtrim(substr(`"`item'"', strlen("`tcode'") + 1, .))
+			local tcount `oldtopicid`tcode''
+			if ("`tcount'" == "." | "`tcount'" == "") local tcount 0
+			file write `out' `"  '`tcode'':"' _n
+			file write `out' `"    count: `tcount'"' _n
+			file write `out' `"    name: '`tname''"' _n
+		}
+
 		file close `out'
-		
-		findfile _parameters.ado, `path'
-		copy `out2'  "`r(fn)'" , replace
+
+		_wbopendata_get_yaml_path, type(parameters)
+		copy `out2' "`r(path)'", replace
 	
 	}
 	
@@ -472,6 +482,14 @@ syntax , 								///
 				noi di in smcl ""
 				noi di in w in smcl in y "{bf:UPDATE IN PROGRESS...}"
 			
+				* Refresh YAML first (Stata-only) when forcing full update
+				if ("`force'" != "") {
+					cap noi _wbopendata_refresh_yaml, replace
+					if (_rc != 0) {
+						noi di as error "Warning: YAML refresh failed; continuing with API-based update"
+					}
+				}
+			
 				qui if ("`detail'" != "") | ("`force'" != "") {
 					
 					* call _update_indicators.ado
@@ -480,6 +498,7 @@ syntax , 								///
 					local newtopicid = r(topicid)
 					local newsourcereturn = r(sourcereturn)
 					local newtopicreturn  = r(topicreturn)
+					local newtotal = r(total)
 
 				*** NEW TOPIC and SOURCE values ****
 					noi foreach returnname in `newsourcereturn' `newtopicreturn' {
@@ -488,32 +507,37 @@ syntax , 								///
 					
 				*** Update TOPIC and SOURCE Labels ******
 					* NEW Source IDs
-					* Extract Labels for SourceIDs
-					foreach name in `newsourceid'  {
-						local t1 = substr("`name'",1,2)
-						local name = subinstr("`name'","(","[",.)
-						local name = subinstr("`name'",")","]",.)
-						local name = subinstr("`name'",":"," -",.)
-						local lgt = length("`name'")
+					* Extract Labels for SourceIDs (use gettoken for names with parentheses)
+					local srclist `"`newsourceid'"'
+					while `"`srclist'"' != "" {
+						gettoken name srclist : srclist, bind
+						local t1 = substr(`"`name'"',1,2)
+						local name = subinstr(`"`name'"',"(","[",.)
+						local name = subinstr(`"`name'"',")","]",.)
+						local name = subinstr(`"`name'"',":"," -",.)
+						local lgt = length(`"`name'"')
 						if (`lgt'>38) {
-							local name = substr("`name'",1,38)
-							local name "`name'..."
+							local name = substr(`"`name'"',1,38)
+							local name `"`name'..."'
 						}
-						local newlabel_sourceid`t1' "`name'"
+						local newlabel_sourceid`t1' `"`name'"'
 					}
-					
-					* NEW Topic IDs	
-					* Extract Labels for Topic IDs
-					foreach name in `newtopicid' {
-						local t1 = substr("`name'",1,2)
-						local name = subinstr("`name'","(","[",.)
-						local name = subinstr("`name'",")","]",.)
-						local name = subinstr("`name'",":"," -",.)
+
+					* NEW Topic IDs
+					* Extract Labels for Topic IDs (use gettoken for names with parentheses)
+					local toplist `"`newtopicid'"'
+					while `"`toplist'"' != "" {
+						gettoken name toplist : toplist, bind
+						local t1 = substr(`"`name'"',1,2)
+						local name = subinstr(`"`name'"',"(","[",.)
+						local name = subinstr(`"`name'"',")","]",.)
+						local name = subinstr(`"`name'"',":"," -",.)
+						local lgt = length(`"`name'"')
 						if (`lgt'>38) {
-							local name = substr("`name'",1,38)
-							local name "`name'..."
+							local name = substr(`"`name'"',1,38)
+							local name `"`name'..."'
 						}
-						local newlabel_topicid`t1' "`name'"
+						local newlabel_topicid`t1' `"`name'"'
 					}
 					
 					*************************************
@@ -589,70 +613,85 @@ syntax , 								///
 			}
 		
 		
-			* Write PARAMETERS.ADO
-			/* Does not change _parameter values (only changes time stamps) */ 
+			* Write YAML parameters file
+			/* Full update: new indicator and country metadata values */
 
-			tempfile in out2
-			tempname in2 out
-			
-			file open `out'    using 	`out2'   		, write text append 
-						
-			file write `out' `"*! _parameters <`datef' : `time'> 	João Pedro Azevedo "' 	_n
-			file write `out' `""' 															_n
-			file write `out' `"program define _parameters, rclass"' 						_n
-			file write `out' `""' 															_n
-			file write `out' `"version 9"' 													_n
-			file write `out' `""' 															_n
-			file write `out' `"		return add"' 											_n
-			file write `out' `""' 															_n
-			
-			file write `out' `""' 															_n
-			file write `out' `"		return local total = `r(total)' "' 						_n 
-			file write `out' `""' 															_n
-
-			noi foreach returnname in `newsourcereturn' `newtopicreturn' {
-
-				file write `out' `"		return local `returnname' = `r(`returnname')' "' 	_n
-				
-			}
-			
-			file write `out' `""' 															_n
-			file write `out' `"		return local sourcereturn  "`r(sourcereturn)'" "' 		_n
-			file write `out' `""' 															_n
-			file write `out' `"		return local topicreturn  "`r(topicreturn)'" "' 		_n
-			file write `out' `""' 															_n
-			file write `out' `"		return local sourceid  `r(sourceid)' "' 				_n
-			file write `out' `""' 															_n
-			file write `out' `"		return local topicid  `r(topicid)' "' 					_n
-			file write `out' `""' 															_n
-			
-			file write `out' `""' 															_n
-
-			
 			noi di in smcl ""
-				
+
 			noi _update_countrymetadata , `ctrylist'
 			local newctrymeta 		= r(ctrymeta)
 			local newctrylastcheck	= r(dt_ctrylastcheck)
 			local newctryupdate		= r(dt_ctryupdate)
-			
-			
-			file write `out' `""' 															_n
-			file write `out' `"		return local number_indicators = `newnumber'"' 			_n 
-			file write `out' `"		return local dt_update "`datef' `time'" "' 				_n
-			file write `out' `"		return local dt_lastcheck  "`datef' `time'" "' 			_n  
-			file write `out' `""' 															_n
-			file write `out' `"		return local ctrymetadata = `newctrymetadata'"' 		_n 
-			file write `out' `"		return local dt_ctrylastupdate  "`dt_ctryupdate'" "' 	_n 
-			file write `out' `"		return local dt_ctrylastcheck 	"`dt_ctrycheck'" "' 	_n
-			file write `out' `"		return local dt_ctryupdate  "`newctryupdate'" "' 		_n  
-			file write `out' `""' 															_n
-			file write `out' `"end"' 														_n
+
+			* Determine which values to use for sources/topics
+			if ("`newsourcereturn'" != "") {
+				local _yaml_srclist `"`newsourceid'"'
+				local _yaml_toplist `"`newtopicid'"'
+				local _yaml_total `newtotal'
+				local _yaml_pfx ""
+			}
+			else {
+				local _yaml_srclist `"`oldsourceid'"'
+				local _yaml_toplist `"`oldtopicid'"'
+				local _yaml_total `total'
+				local _yaml_pfx "old"
+			}
+
+			tempfile out2
+			tempname out
+
+			file open `out' using `out2', write text replace
+
+			file write `out' "# wbopendata parameters" _n
+			file write `out' `"# Auto-generated by _update_wbopendata.ado on `datef' `time'"' _n
+			file write `out' "" _n
+			file write `out' "_metadata:" _n
+			file write `out' "  version: 1.0.0" _n
+			file write `out' `"  generated_at: '`datef' `time''"' _n
+			file write `out' "" _n
+			file write `out' "total: `_yaml_total'" _n
+			file write `out' "number_indicators: `newnumber'" _n
+			file write `out' "" _n
+			file write `out' `"dt_update: '`datef' `time''"' _n
+			file write `out' `"dt_lastcheck: '`datef' `time''"' _n
+			file write `out' "" _n
+			file write `out' "ctrymetadata: `newctrymetadata'" _n
+			file write `out' `"dt_ctrylastupdate: '`dt_ctryupdate''"' _n
+			file write `out' `"dt_ctrylastcheck: '`dt_ctrycheck''"' _n
+			file write `out' `"dt_ctryupdate: '`newctryupdate''"' _n
+			file write `out' "" _n
+
+			file write `out' "sources:" _n
+			local srclist `"`_yaml_srclist'"'
+			while `"`srclist'"' != "" {
+				gettoken item srclist : srclist, bind
+				local scode = substr(`"`item'"', 1, 2)
+				local sname = strtrim(substr(`"`item'"', 3, .))
+				local scount ``_yaml_pfx'sourceid`scode''
+				if ("`scount'" == "." | "`scount'" == "") local scount 0
+				file write `out' `"  '`scode'':"' _n
+				file write `out' `"    count: `scount'"' _n
+				file write `out' `"    name: '`sname''"' _n
+			}
+			file write `out' "" _n
+
+			file write `out' "topics:" _n
+			local toplist `"`_yaml_toplist'"'
+			while `"`toplist'"' != "" {
+				gettoken item toplist : toplist, bind
+				local tcode = word(`"`item'"', 1)
+				local tname = strtrim(substr(`"`item'"', strlen("`tcode'") + 1, .))
+				local tcount ``_yaml_pfx'topicid`tcode''
+				if ("`tcount'" == "." | "`tcount'" == "") local tcount 0
+				file write `out' `"  '`tcode'':"' _n
+				file write `out' `"    count: `tcount'"' _n
+				file write `out' `"    name: '`tname''"' _n
+			}
 
 			file close `out'
 
-			findfile _parameters.ado, `path'
-			copy `out2'  "`r(fn)'" , replace
+			_wbopendata_get_yaml_path, type(parameters)
+			copy `out2' "`r(path)'", replace
 
 			
 			noi di in smcl ""

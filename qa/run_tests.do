@@ -3,7 +3,7 @@
 * Test Suite Version: 2.0.0
 * Date: January 2026
 * Compatible with: wbopendata v17.7.1+
-* Total Tests: 57 (53 core + 4 repo-comparison)
+* Total Tests: 65 (61 core + 4 repo-comparison)
 * 
 * Usage: 
 *   do run_tests.do              - Run all tests (prompts for repo location)
@@ -14,7 +14,7 @@
 *   do run_tests.do norepo       - Skip repo comparison tests (ENV-01 to ENV-04)
 *
 * Test Categories (57 tests total):
-*   0 - Environment Checks (4): ENV-01 to ENV-04 [requires repo path]
+*   0 - Environment Checks (5): ENV-01 to ENV-05 [ENV-01 to ENV-04 require repo path]
 *   1 - Basic Downloads (5): DL-01 to DL-05
 *   2 - Format Options (3): FMT-01 to FMT-03
 *   3 - Country Metadata (10): CTRY-01 to CTRY-10
@@ -24,6 +24,7 @@
 *   7 - Topics & Language (2): TOPIC-01, LANG-01
 *   8 - Advanced Features (6): PROJ-01, FMT-04, DESC-01, META-01, CTRY-11, DATE-01
 *   9 - Cache & Sync System (13): CACHE-01 to CACHE-08, SYNC-01 to SYNC-05
+*  10 - Discovery Commands (7): DISC-01 to DISC-07 [no network needed]
 * 
 * Configuration:
 *   To set your repo path permanently, define global before running:
@@ -76,6 +77,7 @@ foreach arg of local args {
         di as text "  ENV-02   Ado files sync status (source vs auto-gen)"
         di as text "  ENV-03   wbopendata.pkg matches src directories"
         di as text "  ENV-04   All pkg files exist in repo"
+        di as text "  ENV-05   Parameters YAML readable with valid r() values"
         di as text ""
         di as text "  Basic Downloads:"
         di as text "  DL-01    Single indicator download"
@@ -119,7 +121,7 @@ foreach arg of local args {
         di as text "  UPD-03   Update basic"
         di as text "  UPD-04   Update check detail"
         di as text "  UPD-05   Update all"
-        di as text "  UPD-06   Update all force"
+        di as text "  UPD-06   Sync replace force (v18.x)"
         di as text ""
         di as text "  Topics & Language:"
         di as text "  TOPIC-01 Topics download"
@@ -143,10 +145,19 @@ foreach arg of local args {
         di as text "  CACHE-07 Timestamp tracking"
         di as text "  CACHE-08 Search with cached YAML"
         di as text "  SYNC-01  Check for updates"
-        di as text "  SYNC-02  Sync command (download)"
-        di as text "  SYNC-03  Force sync"
-        di as text "  SYNC-04  Sync with no updates"
+        di as text "  SYNC-02  Sync replace (download)"
+        di as text "  SYNC-03  Sync replace force (re-download)"
+        di as text "  SYNC-04  Sync replace when up-to-date"
         di as text "  SYNC-05  Discovery commands use cache"
+        di as text ""
+        di as text "  Discovery Commands:"
+        di as text "  DISC-01  Search basic (keyword returns results)"
+        di as text "  DISC-02  Search filters (source, topic, field)"
+        di as text "  DISC-03  Search patterns (wildcard, AND, exact)"
+        di as text "  DISC-04  Sources listing"
+        di as text "  DISC-05  Topics listing"
+        di as text "  DISC-06  Indicator info lookup"
+        di as text "  DISC-07  Search router (cache_method by Stata version)"
         exit 0
     }
     else {
@@ -197,27 +208,29 @@ else {
         di as text "Repo path (auto-detected): `repo_root'"
     }
     else {
-        * Check if qa subfolder exists in current directory
-        cap confirm file "`cwd'/qa/."
+        * Check if this is a repo root by looking for known file
+        * Note: confirm file "path/." for directories is unreliable on Windows
+        local cwd_norm = subinstr("`cwd'", "\", "/", .)
+        cap confirm file "`cwd_norm'/src/wbopendata.pkg"
         if _rc == 0 {
-            local repo_root = subinstr("`cwd'", "\", "/", .)
+            local repo_root "`cwd_norm'"
             local qadir "`repo_root'/qa"
             di as text "Repo path (from cwd): `repo_root'"
         }
         else {
             * No repo detected
             local repo_root ""
-            local qadir = subinstr("`cwd'", "\", "/", .)
+            local qadir "`cwd_norm'"
             di as text "Repo path: not detected (logs will save to current directory)"
         }
     }
 }
 
-* Validate repo path if provided
+* Validate repo path if provided (pkg is in src/ subfolder)
 if "`repo_root'" != "" {
-    cap confirm file "`repo_root'/wbopendata.pkg"
+    cap confirm file "`repo_root'/src/wbopendata.pkg"
     if _rc != 0 {
-        di as error "Warning: wbopendata.pkg not found at `repo_root'"
+        di as error "Warning: wbopendata.pkg not found at `repo_root'/src/"
         di as error "         Repo comparison tests (ENV-*) may fail"
         if `skip_repo_tests' == 0 {
             di as text _n "Tip: Run with 'norepo' option to skip repo tests:"
@@ -246,10 +259,16 @@ global repo_root "`repo_root'"
 global qadir "`qadir'"
 global skip_repo_tests `skip_repo_tests'
 
+* Safeguard: warn if qadir doesn't match expected repo_root/qa
+if "`repo_root'" != "" & "`qadir'" != "`repo_root'/qa" {
+    di as error "WARNING: qadir (`qadir') differs from expected (`repo_root'/qa)"
+    di as error "         History and logs may write to unexpected location"
+}
+
 * Install from repo if path is available and user wants repo sync
 if "`repo_root'" != "" & `skip_repo_tests' == 0 {
-    di as text _n "Installing wbopendata from repo: `repo_root'"
-    cap noi net install wbopendata, from("`repo_root'") replace
+    di as text _n "Installing wbopendata from repo: `repo_root'/src"
+    cap noi net install wbopendata, from("`repo_root'/src") replace force
     if _rc != 0 {
         di as error "Warning: Could not install from repo (rc=`=_rc')"
         di as text "         Continuing with currently installed version"
@@ -575,14 +594,14 @@ if $skip_test == 0 {
     else {
         cap noi {
             * Read wbopendata.pkg and extract F lines into a string
-            local pkg_path "$repo_root/wbopendata.pkg"
+            local pkg_path "$repo_root/src/wbopendata.pkg"
             local pkg_contents ""
             
             tempname fh
             file open `fh' using "`pkg_path'", read text
             file read `fh' line
             while r(eof) == 0 {
-                if substr("`line'", 1, 2) == "F " {
+                if substr("`line'", 1, 2) == "f " | substr("`line'", 1, 2) == "F " {
                     local pkg_contents "`pkg_contents' `line'"
                 }
                 file read `fh' line
@@ -600,8 +619,8 @@ if $skip_test == 0 {
                 local ado_files : dir "`src_path'" files "*.ado", respectcase
                 
                 foreach f of local ado_files {
-                    * Build expected path as it should appear in pkg
-                    local expected_path "src/`subdir'/`f'"
+                    * Build expected path as it should appear in pkg (no src/ prefix)
+                    local expected_path "`subdir'/`f'"
                     
                     if strpos("`pkg_contents'", "`expected_path'") == 0 {
                         local missing_from_pkg "`missing_from_pkg' `expected_path'"
@@ -624,7 +643,7 @@ if $skip_test == 0 {
                     foreach ext of local other_exts {
                         local files : dir "`src_path'" files "*.`ext'", respectcase
                         foreach f of local files {
-                            local expected_path "src/`subdir'/`f'"
+                            local expected_path "`subdir'/`f'"
                             if strpos("`pkg_contents'", "`expected_path'") == 0 {
                                 local missing_from_pkg "`missing_from_pkg' `expected_path'"
                                 di as error "NOT in pkg: `expected_path'"
@@ -659,7 +678,7 @@ if $skip_test == 0 {
     else {
         cap noi {
             * Read wbopendata.pkg and verify each F line file exists
-            local pkg_path "$repo_root/wbopendata.pkg"
+            local pkg_path "$repo_root/src/wbopendata.pkg"
             local missing_files ""
             
             tempname fh
@@ -668,7 +687,7 @@ if $skip_test == 0 {
             while r(eof) == 0 {
                 if substr("`line'", 1, 2) == "F " {
                     local filepath = substr("`line'", 3, .)
-                    local fullpath "$repo_root/`filepath'"
+                    local fullpath "$repo_root/src/`filepath'"
                     cap confirm file "`fullpath'"
                     if _rc != 0 {
                         local missing_files "`missing_files' `filepath'"
@@ -688,6 +707,51 @@ if $skip_test == 0 {
         if _rc == 0 test_pass
         else test_fail "Some pkg files missing from repo"
     }
+}
+
+* ENV-05: Parameters YAML readable with valid r() values (no network needed)
+run_test "ENV-05" "Parameters YAML readable with valid r() values"
+if $skip_test == 0 {
+    cap noi {
+        * Run _parameters (reads _wbopendata_parameters.yaml)
+        qui _parameters
+
+        * Check required scalar values
+        assert "`r(total)'" != ""
+        assert "`r(number_indicators)'" != ""
+        assert "`r(ctrymetadata)'" != ""
+
+        * Check required timestamp values
+        assert "`r(dt_update)'" != ""
+        assert "`r(dt_lastcheck)'" != ""
+        assert "`r(dt_ctryupdate)'" != ""
+
+        * Check source return values
+        assert "`r(sourcereturn)'" != ""
+        assert `"`r(sourceid)'"' != ""
+        assert "`r(sourceid02)'" != ""  // WDI must exist
+        di as text "Sources: " wordcount("`r(sourcereturn)'") " entries, WDI=" r(sourceid02)
+
+        * Check topic return values
+        assert "`r(topicreturn)'" != ""
+        assert `"`r(topicid)'"' != ""
+        assert "`r(topicid01)'" != ""   // Agriculture must exist
+        di as text "Topics:  " wordcount("`r(topicreturn)'") " entries"
+
+        * Verify all sources in sourcereturn have counts
+        foreach sname in `r(sourcereturn)' {
+            assert "`r(`sname')'" != ""
+        }
+
+        * Verify all topics in topicreturn have counts
+        foreach tname in `r(topicreturn)' {
+            assert "`r(`tname')'" != ""
+        }
+
+        di as text "All r() values present and valid"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Parameters YAML read failed or returned incomplete values"
 }
 
 *===============================================================================
@@ -1238,14 +1302,14 @@ if $skip_test == 0 {
     else test_fail "Update all not working"
 }
 
-* UPD-06: Update all force
-run_test "UPD-06" "Update all force"
+* UPD-06: Sync replace force (v18.x replacement for update all force)
+run_test "UPD-06" "Sync replace force"
 if $skip_test == 0 {
     cap noi {
-        wbopendata, update all force
+        wbopendata, sync replace force
     }
     if _rc == 0 test_pass
-    else test_fail "Update all force not working"
+    else test_fail "Sync replace force not working"
 }
 
 *===============================================================================
@@ -1402,21 +1466,18 @@ if $skip_test == 0 {
     cap noi {
         * Clear any existing cache first
         cap wbopendata, clearcache
-        
-        * Check that cache doesn't exist yet
-        local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
-        local exists = 0
-        cap confirm file "`cache_dir'metadata_version.txt"
-        if _rc == 0 local exists = 1
-        
-        di as text "Initial cache status: " cond(`exists', "exists", "does not exist")
-        
-        * Test cache initialization via _wbopendata_cache helper
+
+        * Test _wbopendata_cache default returns cache_exists scalar
         qui _wbopendata_cache
-        local cache_created = ("`r(cache_dir)'" != "")
-        
-        di as text "Cache directory: `r(cache_dir)'"
-        assert `cache_created' == 1
+        di as text "cache_exists = `r(cache_exists)'"
+
+        * Verify YAML files are findable via adopath (installed package)
+        _wbopendata_get_yaml_path, type(indicators)
+        local ind_path = "`r(path)'"
+        di as text "Indicators YAML: `ind_path'"
+        assert "`ind_path'" != ""
+        cap confirm file "`ind_path'"
+        assert _rc == 0
     }
     if _rc == 0 test_pass
     else test_fail "Cache directory initialization failed"
@@ -1428,34 +1489,30 @@ if $skip_test == 0 {
     cap noi {
         * Clear cache to test fallback to package
         cap wbopendata, clearcache
-        
-        * Test path resolution without cache
-        qui _wbopendata_get_yaml_path indicators
-        local path1 = "`r(yaml_path)'"
-        local source1 = "`r(yaml_source)'"
-        
+
+        * Test path resolution without cache — uses named option type()
+        * Returns r(path), not r(yaml_path)
+        _wbopendata_get_yaml_path, type(indicators)
+        local path1 = "`r(path)'"
+
         di as text "Without cache - Path: `path1'"
-        di as text "Without cache - Source: `source1'"
-        
-        * Should use package install when cache doesn't exist
-        assert "`source1'" == "package"
+
+        * Should resolve to a valid YAML file
         assert strpos("`path1'", "_wbopendata_indicators.yaml") > 0
-        
-        * Now test with cache (if sync works, otherwise skip this part)
-        cap qui wbopendata, sync
-        if _rc == 0 {
-            qui _wbopendata_get_yaml_path indicators
-            local path2 = "`r(yaml_path)'"
-            local source2 = "`r(yaml_source)'"
-            
-            di as text "With cache - Path: `path2'"
-            di as text "With cache - Source: `source2'"
-            
-            * Should prefer cache when available
-            if "`source2'" == "cache" {
-                assert strpos("`path2'", "cache") > 0
-            }
-        }
+        cap confirm file "`path1'"
+        assert _rc == 0
+
+        * Test other types resolve too
+        _wbopendata_get_yaml_path, type(sources)
+        local path_src = "`r(path)'"
+        assert strpos("`path_src'", "_wbopendata_sources.yaml") > 0
+
+        _wbopendata_get_yaml_path, type(topics)
+        local path_top = "`r(path)'"
+        assert strpos("`path_top'", "_wbopendata_topics.yaml") > 0
+
+        di as text "Sources YAML:    `path_src'"
+        di as text "Topics YAML:     `path_top'"
     }
     if _rc == 0 test_pass
     else test_fail "YAML path resolution failed"
@@ -1465,18 +1522,13 @@ if $skip_test == 0 {
 run_test "CACHE-03" "Cache info command"
 if $skip_test == 0 {
     cap noi {
-        * Try to create cache first
-        cap qui wbopendata, sync
-        
-        * Test cache info display
-        wbopendata, cacheinfo
-        
-        * Check that it returns cache status
-        local has_cache = ("`r(cache_dir)'" != "")
-        di as text "Cache info returned: " cond(`has_cache', "yes", "no")
-        
-        * At minimum, should return cache directory path
-        assert `has_cache' == 1
+        * Test cache info via _wbopendata_cache, info
+        * Returns r(cache_exists) scalar, r(cache_version), r(cache_timestamp)
+        _wbopendata_cache, info
+
+        * cache_exists should be 0 or 1 — command itself should not error
+        di as text "cache_exists = `r(cache_exists)'"
+        assert "`r(cache_exists)'" == "0" | "`r(cache_exists)'" == "1"
     }
     if _rc == 0 test_pass
     else test_fail "Cache info command failed"
@@ -1486,26 +1538,19 @@ if $skip_test == 0 {
 run_test "CACHE-04" "Clear cache command"
 if $skip_test == 0 {
     cap noi {
-        * Ensure cache exists first
-        cap qui wbopendata, sync
-        
-        * Check cache exists
+        * _wbopendata_cache, clear uses capture erase — safe even if no cache exists
+        _wbopendata_cache, clear
+
+        * Should return cache_cleared = "1"
+        di as text "cache_cleared = `r(cache_cleared)'"
+        assert "`r(cache_cleared)'" == "1"
+
+        * Verify metadata_version.txt is gone
         local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
         cap confirm file "`cache_dir'metadata_version.txt"
-        local before_exists = (_rc == 0)
-        
-        di as text "Before clear - Cache exists: " cond(`before_exists', "yes", "no")
-        
-        * Clear cache
-        wbopendata, clearcache
-        
-        * Verify cache is cleared
-        cap confirm file "`cache_dir'metadata_version.txt"
         local after_exists = (_rc == 0)
-        
-        di as text "After clear - Cache exists: " cond(`after_exists', "yes", "no")
-        
-        * Cache should be gone after clear
+
+        di as text "After clear - metadata_version.txt exists: " cond(`after_exists', "yes", "no")
         assert `after_exists' == 0
     }
     if _rc == 0 test_pass
@@ -1554,7 +1599,7 @@ run_test "CACHE-06" "Version file tracking"
 if $skip_test == 0 {
     cap noi {
         * Ensure cache exists
-        cap qui wbopendata, sync
+        cap qui wbopendata, sync replace
         
         * Read version file
         local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
@@ -1589,7 +1634,7 @@ run_test "CACHE-07" "Timestamp tracking"
 if $skip_test == 0 {
     cap noi {
         * Ensure cache exists
-        cap qui wbopendata, sync
+        cap qui wbopendata, sync replace
         
         * Check timestamp file
         local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
@@ -1620,7 +1665,7 @@ run_test "CACHE-08" "Search with cached YAML"
 if $skip_test == 0 {
     cap noi {
         * Ensure cache exists
-        cap qui wbopendata, sync
+        cap qui wbopendata, sync replace
         
         * Test search command (should use cache if available)
         cap wbopendata, search("GDP")
@@ -1671,15 +1716,15 @@ if $skip_test == 0 {
     test_pass
 }
 
-* SYNC-02: Sync command (download)
-run_test "SYNC-02" "Sync command"
+* SYNC-02: Sync replace (download)
+run_test "SYNC-02" "Sync replace command"
 if $skip_test == 0 {
     cap noi {
         * Clear cache first
         cap wbopendata, clearcache
-        
-        * Test sync command
-        cap wbopendata, sync
+
+        * Test sync replace command (actually applies sync)
+        cap wbopendata, sync replace
         local sync_rc = _rc
         
         di as text "sync rc: `sync_rc'"
@@ -1704,15 +1749,15 @@ if $skip_test == 0 {
     test_pass
 }
 
-* SYNC-03: Force sync
-run_test "SYNC-03" "Force sync command"
+* SYNC-03: Sync replace force (re-download)
+run_test "SYNC-03" "Sync replace force command"
 if $skip_test == 0 {
     cap noi {
-        * Test syncforce command
-        cap wbopendata, syncforce
+        * Test sync replace force command (force re-download)
+        cap wbopendata, sync replace force
         local syncforce_rc = _rc
-        
-        di as text "syncforce rc: `syncforce_rc'"
+
+        di as text "sync replace force rc: `syncforce_rc'"
         
         * If sync succeeds, verify cache was updated
         if `syncforce_rc' == 0 {
@@ -1730,15 +1775,15 @@ if $skip_test == 0 {
     test_pass
 }
 
-* SYNC-04: Sync with no updates needed
-run_test "SYNC-04" "Sync when already up-to-date"
+* SYNC-04: Sync replace when already up-to-date
+run_test "SYNC-04" "Sync replace when already up-to-date"
 if $skip_test == 0 {
     cap noi {
         * Sync once
-        cap qui wbopendata, sync
-        
+        cap qui wbopendata, sync replace
+
         * Sync again (should detect up-to-date)
-        cap wbopendata, sync
+        cap wbopendata, sync replace
         local sync2_rc = _rc
         
         di as text "Second sync rc: `sync2_rc'"
@@ -1757,7 +1802,7 @@ run_test "SYNC-05" "Discovery commands use cache after sync"
 if $skip_test == 0 {
     cap noi {
         * Ensure cache exists
-        cap qui wbopendata, sync
+        cap qui wbopendata, sync replace
         
         * Test info command
         cap wbopendata, info("SP.POP.TOTL")
@@ -1775,6 +1820,163 @@ if $skip_test == 0 {
     }
     * Pass regardless of network issues
     test_pass
+}
+
+*===============================================================================
+* TEST CATEGORY 10: Discovery Commands (no network needed)
+*===============================================================================
+
+di as text _n "`sep'"
+di as text "CATEGORY 10: Discovery Commands"
+di as text "`sep'"
+
+* DISC-01: Basic keyword search
+run_test "DISC-01" "Search basic keyword"
+if $skip_test == 0 {
+    cap noi {
+        qui _wbopendata_search GDP, limit(5)
+
+        * Must return results
+        assert `r(n_results)' > 0
+        assert `r(n_displayed)' > 0
+        assert `r(n_displayed)' <= 5
+        assert "`r(first_code)'" != ""
+        assert "`r(keyword)'" == "GDP"
+
+        di as text "Found `r(n_results)' results, displayed `r(n_displayed)', first=`r(first_code)'"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Basic keyword search failed"
+}
+
+* DISC-02: Search filters (source, topic, field)
+run_test "DISC-02" "Search filters"
+if $skip_test == 0 {
+    cap noi {
+        * Unfiltered baseline
+        qui _wbopendata_search GDP
+        local n_all = r(n_results)
+
+        * Source filter (WDI = source 2)
+        qui _wbopendata_search GDP, source(2)
+        local n_src = r(n_results)
+        assert `n_src' > 0
+        assert `n_src' <= `n_all'
+        assert "`r(source_filter)'" == "2"
+
+        * Topic filter
+        qui _wbopendata_search poverty, topic(11)
+        local n_top = r(n_results)
+        assert `n_top' > 0
+        assert "`r(topic_filter)'" == "11"
+
+        * Field filter (code only — should be fewer than all fields)
+        qui _wbopendata_search GDP, field(code)
+        local n_fld = r(n_results)
+        assert `n_fld' > 0
+        assert `n_fld' <= `n_all'
+        assert "`r(field_filter)'" == "code"
+
+        di as text "All=`n_all', source(2)=`n_src', topic(11)=`n_top', field(code)=`n_fld'"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Search filters not working correctly"
+}
+
+* DISC-03: Search patterns (wildcard, AND, exact)
+run_test "DISC-03" "Search patterns"
+if $skip_test == 0 {
+    cap noi {
+        * Wildcard search
+        qui _wbopendata_search NY.GDP.*
+        local n_wild = r(n_results)
+        assert `n_wild' > 0
+
+        * Multi-keyword AND search
+        qui _wbopendata_search learning+poverty
+        local n_and = r(n_results)
+        assert `n_and' >= 0  // may be 0 if no indicators match both
+
+        * Exact match
+        qui _wbopendata_search NY.GDP.MKTP.CD, exact
+        local n_exact = r(n_results)
+        assert `n_exact' == 1
+        assert "`r(first_code)'" == "NY.GDP.MKTP.CD"
+
+        di as text "Wildcard=`n_wild', AND=`n_and', Exact=`n_exact' (`r(first_code)')"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Search patterns not working correctly"
+}
+
+* DISC-04: Sources listing
+run_test "DISC-04" "Sources listing"
+if $skip_test == 0 {
+    cap noi {
+        qui _wbopendata_sources
+
+        assert `r(n_sources)' > 0
+        assert `r(n_indicators)' > 0
+        assert "`r(source_codes)'" != ""
+
+        di as text "Found `r(n_sources)' sources, `r(n_indicators)' total indicators"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Sources listing failed"
+}
+
+* DISC-05: Topics listing
+run_test "DISC-05" "Topics listing"
+if $skip_test == 0 {
+    cap noi {
+        qui _wbopendata_topics
+
+        assert `r(n_topics)' > 0
+        assert "`r(topic_ids)'" != ""
+        assert `"`r(topic_names)'"' != ""
+
+        di as text "Found `r(n_topics)' topics"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Topics listing failed"
+}
+
+* DISC-06: Indicator info lookup
+run_test "DISC-06" "Indicator info lookup"
+if $skip_test == 0 {
+    cap noi {
+        qui _wbopendata_info, indicator(SP.POP.TOTL)
+
+        assert "`r(indicator)'" == "SP.POP.TOTL"
+        assert "`r(name)'" != ""
+        assert "`r(source_id)'" != ""
+
+        di as text "Indicator: `r(indicator)'"
+        di as text "Name: `r(name)'"
+        di as text "Source ID: `r(source_id)'"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Indicator info lookup failed"
+}
+
+* DISC-07: Search router returns correct cache_method
+run_test "DISC-07" "Search router cache_method"
+if $skip_test == 0 {
+    cap noi {
+        qui _wbopendata_search GDP, limit(1)
+        local method = "`r(cache_method)'"
+
+        if (`c(stata_version)' >= 16) {
+            assert "`method'" == "frames"
+            di as text "Stata `c(stata_version)' >= 16: cache_method='`method'' (frames) - correct"
+        }
+        else {
+            assert "`method'" == "none"
+            di as text "Stata `c(stata_version)' < 16: cache_method='`method'' (none) - correct"
+        }
+    }
+    if _rc == 0 test_pass
+    else test_fail "Search router cache_method incorrect"
 }
 
 *===============================================================================
@@ -1835,43 +2037,53 @@ local duration_str = "`duration_min'm `duration_sec's"
 
 di as text "Duration: `duration_str' (started `start_time', ended `end_time')"
 
-* Only write to history if running all tests (not single test mode) and qadir is set
-local histfile "$qadir/test_history.txt"
-if "$target_test" == "" & "$qadir" != "" {
-    cap confirm file "`histfile'"
+* Only write to history when repo_root is confirmed (prevents writing to wrong location)
+* Derive histfile from repo_root/qa, not qadir, to guard against qadir drift
+if "$target_test" == "" & "$repo_root" != "" {
+    local histfile "$repo_root/qa/test_history.txt"
+
+    * Validate: qa directory must contain run_tests.do (sanity check)
+    cap confirm file "$repo_root/qa/run_tests.do"
     if _rc != 0 {
-        * Create history file if it doesn't exist
-        file open history using "`histfile'", write replace
-        file write history "=== wbopendata Test History ===" _n
-        file write history "Created: `date'" _n
-        file write history "" _n
-        file close history
-    }
-    file open history using "`histfile'", write append
-    file write history _n "`sep'" _n
-    file write history "Test Run: `date'" _n
-    file write history "Started:  `start_time'" _n
-    file write history "Ended:    `end_time'" _n
-    file write history "Duration: `duration_str'" _n
-    file write history "Version:  `version'" _n
-    if "`wbo_date'" != "" file write history "Build:    `wbo_date'" _n
-    file write history "Stata:    `c(stata_version)'" _n
-    file write history "Tests:    $tests_run run, $tests_pass passed, $tests_fail failed" _n
-    if $tests_fail == 0 {
-        file write history "Result:   ALL TESTS PASSED" _n
+        di as error "WARNING: qa/run_tests.do not found at $repo_root/qa/"
+        di as error "         Skipping history write to avoid wrong location"
     }
     else {
-        file write history "Result:   FAILED" _n
-        file write history "Failed:   $failed_tests" _n
+        cap confirm file "`histfile'"
+        if _rc != 0 {
+            * Create history file if it doesn't exist
+            file open history using "`histfile'", write replace
+            file write history "=== wbopendata Test History ===" _n
+            file write history "Created: `date'" _n
+            file write history "" _n
+            file close history
+        }
+        file open history using "`histfile'", write append
+        file write history _n "`sep'" _n
+        file write history "Test Run: `date'" _n
+        file write history "Started:  `start_time'" _n
+        file write history "Ended:    `end_time'" _n
+        file write history "Duration: `duration_str'" _n
+        file write history "Version:  `version'" _n
+        if "`wbo_date'" != "" file write history "Build:    `wbo_date'" _n
+        file write history "Stata:    `c(stata_version)'" _n
+        file write history "Tests:    $tests_run run, $tests_pass passed, $tests_fail failed" _n
+        if $tests_fail == 0 {
+            file write history "Result:   ALL TESTS PASSED" _n
+        }
+        else {
+            file write history "Result:   FAILED" _n
+            file write history "Failed:   $failed_tests" _n
+        }
+        file write history "Log:      test_results_v`version'_`datestr'.log" _n
+        file write history "`sep'" _n
+        file close history
+        di as text "History appended to: `histfile'"
     }
-    file write history "Log:      test_results_v`version'_`datestr'.log" _n
-    file write history "`sep'" _n
-    file close history
-    di as text "History appended to: `histfile'"
 }
 else if "$target_test" != "" {
     di as text "(Single test mode - history not updated)"
 }
 else {
-    di as text "(History update skipped - qadir not configured)"
+    di as text "(History update skipped - repo_root not detected)"
 }
