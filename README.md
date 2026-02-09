@@ -104,7 +104,7 @@ net install wbopendata, from("/Users/username/GitHub/wbopendata") replace
 
 | Year | Version | Milestone |
 |------|---------|-----------|
-| 2026 | v17.8 | **Discovery commands**: sources, alltopics, search, info |
+| 2026 | v18.0 | **Discovery commands**: sources, alltopics, search, info; clickable URLs in metadata |
 | 2026 | v17.7 | Basic country context by default, graph metadata |
 | 2025 | v17.1 | Community bug fixes, documentation overhaul |
 | 2023 | v17.0 | Region metadata, enhanced country matching |
@@ -216,7 +216,7 @@ wbopendata, cacheinfo      // Display cache status
 
 ### Discovery & Search
 
-**NEW in v17.8:** Interactive discovery commands with clickable SMCL navigation.
+**NEW in v18.0:** Interactive discovery commands with clickable SMCL navigation.
 
 #### Browsing Commands
 
@@ -237,8 +237,19 @@ wbopendata, cacheinfo      // Display cache status
 
 - **info(string)**: Get detailed metadata for a specific indicator code
 
+The `info()` command displays comprehensive indicator metadata in a structured layout:
+- **Indicator/Name**: Code and full name
+- **Unit**: Measurement unit (when available)
+- **Source ID/Name**: Database identifier and name on separate lines
+- **Topic ID(s)/Topic(s)**: All topic IDs and names (semicolon-separated for multi-topic indicators)
+- **Description**: Full description with clickable URLs
+- **Note**: Methodology note with clickable hyperlinks
+- **Limited data warning**: Displayed when data availability is limited
+- **Filters**: Clickable `searchsource()` and `searchtopic()` commands
+- **Download**: Clickable commands for Wide/Long/Specific countries formats
+
 ```stata
-* NEW in v17.8: Discovery commands
+* NEW in v18.0: Discovery commands
 
 * List all data sources with clickable navigation
 wbopendata, sources

@@ -1,6 +1,6 @@
 {smcl}
 {hline}
-{* 5Feb2026  }{...}
+{* 9Feb2026  }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
 {right:What's New:  {bf:{help wbopendata_whatsnew:What's New}}}
@@ -354,15 +354,30 @@ Column widths automatically adjust to your terminal's {cmd:linesize}.{p_end}
 
 {synopt :{opt info(code)}}Display detailed metadata for a specific indicator.{p_end}
 
-{pstd}Shows indicator code, name, source, topics, description, and notes with automatic
-text wrapping. Includes clickable [Browse] links to explore related indicators by
-source or topic, and [Download] links for wide/long format data.{p_end}
+{pstd}Shows comprehensive indicator metadata in a structured layout:{p_end}
+
+{p 8 12 2}- {bf:Indicator}: Indicator code{p_end}
+{p 8 12 2}- {bf:Name}: Full indicator name{p_end}
+{p 8 12 2}- {bf:Unit}: Measurement unit (when available){p_end}
+{p 8 12 2}- {bf:Source ID}: Numeric source database ID{p_end}
+{p 8 12 2}- {bf:Source}: Source database name{p_end}
+{p 8 12 2}- {bf:Topic ID(s)}: All topic IDs (semicolon-separated){p_end}
+{p 8 12 2}- {bf:Topic(s)}: All topic names (semicolon-separated){p_end}
+{p 8 12 2}- {bf:Description}: Full description{p_end}
+{p 8 12 2}- {bf:Note}: Methodology note with clickable URLs{p_end}
+{p 8 12 2}- {bf:Limited data warning}: Displayed when data availability is limited{p_end}
+{p 8 12 2}- {bf:Filters}: Clickable commands to browse related indicators{p_end}
+{p 8 12 2}- {bf:Download}: Clickable commands to download data in various formats{p_end}
+
+{pstd}URLs in the Note and Description fields are automatically converted to clickable hyperlinks using SMCL {cmd:{browse}} tags.{p_end}
 
 {p 8 12}{stata "wbopendata, info(NY.GDP.MKTP.CD)" :. wbopendata, info(NY.GDP.MKTP.CD)}{p_end}
 {p 8 12}{stata "wbopendata, info(SI.POV.DDAY)" :. wbopendata, info(SI.POV.DDAY)}{p_end}
+{p 8 12}{stata "wbopendata, info(SP.POP.TOTL)" :. wbopendata, info(SP.POP.TOTL)}{p_end}
 
 {pstd}Returns: {cmd:r(indicator)}, {cmd:r(name)}, {cmd:r(source_name)}, {cmd:r(source_org)},
-{cmd:r(source_id)}, {cmd:r(topics)}, {cmd:r(description)}, {cmd:r(note)}, {cmd:r(cmd)}{p_end}
+{cmd:r(source_id)}, {cmd:r(topics)}, {cmd:r(topic_ids)}, {cmd:r(topic1)}, {cmd:r(topic2)}, {cmd:r(topic3)},
+{cmd:r(description)}, {cmd:r(note)}, {cmd:r(unit)}, {cmd:r(limited_data)}, {cmd:r(cmd)}{p_end}
 
 {dlgtab:Discovery Workflow Example}
 
@@ -668,12 +683,23 @@ return metadata for programmatic use and automation.{p_end}
 {synoptline}
 {synopt:{cmd:r(indicator)}}Indicator code{p_end}
 {synopt:{cmd:r(name)}}Indicator name{p_end}
-{synopt:{cmd:r(source_name)}}Source database name{p_end}
-{synopt:{cmd:r(source_org)}}Source organization{p_end}
+{synopt:{cmd:r(varlabel)}}Variable label (same as name){p_end}
+{synopt:{cmd:r(source)}}Collection string (ID + name){p_end}
+{synopt:{cmd:r(collection)}}Collection string (ID + name){p_end}
 {synopt:{cmd:r(source_id)}}Source database ID{p_end}
-{synopt:{cmd:r(topics)}}Topic name(s){p_end}
-{synopt:{cmd:r(description)}}Full indicator description{p_end}
-{synopt:{cmd:r(note)}}Methodology note{p_end}
+{synopt:{cmd:r(source_name)}}Source database name{p_end}
+{synopt:{cmd:r(source_org)}}Source organization (detailed attribution){p_end}
+{synopt:{cmd:r(sourcecite)}}Source citation (same as source_org){p_end}
+{synopt:{cmd:r(topic_ids)}}Semicolon-separated topic IDs{p_end}
+{synopt:{cmd:r(topics)}}Semicolon-separated topic names{p_end}
+{synopt:{cmd:r(topic1)}}First topic ID{p_end}
+{synopt:{cmd:r(topic2)}}Second topic ID (if applicable){p_end}
+{synopt:{cmd:r(topic3)}}Third topic ID (if applicable){p_end}
+{synopt:{cmd:r(description)}}Full indicator description (plain text){p_end}
+{synopt:{cmd:r(note)}}Methodology note (plain text){p_end}
+{synopt:{cmd:r(unit)}}Measurement unit{p_end}
+{synopt:{cmd:r(limited_data)}}1 if limited data availability, 0 otherwise{p_end}
+{synopt:{cmd:r(yaml_path)}}Path to local YAML metadata file{p_end}
 {synopt:{cmd:r(cmd)}}Reproducible command string{p_end}
 {synoptline}
 
