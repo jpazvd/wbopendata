@@ -121,7 +121,7 @@ foreach arg of local args {
         di as text "  UPD-03   Update basic"
         di as text "  UPD-04   Update check detail"
         di as text "  UPD-05   Update all"
-        di as text "  UPD-06   Sync force (v18.x)"
+        di as text "  UPD-06   Sync replace force (v18.x)"
         di as text ""
         di as text "  Topics & Language:"
         di as text "  TOPIC-01 Topics download"
@@ -145,9 +145,9 @@ foreach arg of local args {
         di as text "  CACHE-07 Timestamp tracking"
         di as text "  CACHE-08 Search with cached YAML"
         di as text "  SYNC-01  Check for updates"
-        di as text "  SYNC-02  Sync command (download)"
-        di as text "  SYNC-03  Force sync"
-        di as text "  SYNC-04  Sync with no updates"
+        di as text "  SYNC-02  Sync replace (download)"
+        di as text "  SYNC-03  Sync replace force (re-download)"
+        di as text "  SYNC-04  Sync replace when up-to-date"
         di as text "  SYNC-05  Discovery commands use cache"
         di as text ""
         di as text "  Discovery Commands:"
@@ -208,10 +208,10 @@ else {
         di as text "Repo path (auto-detected): `repo_root'"
     }
     else {
-        * Check if qa subfolder exists in current directory
-        * Normalize slashes before confirm to avoid Windows mixed-path issues
+        * Check if this is a repo root by looking for known file
+        * Note: confirm file "path/." for directories is unreliable on Windows
         local cwd_norm = subinstr("`cwd'", "\", "/", .)
-        cap confirm file "`cwd_norm'/qa/."
+        cap confirm file "`cwd_norm'/src/wbopendata.pkg"
         if _rc == 0 {
             local repo_root "`cwd_norm'"
             local qadir "`repo_root'/qa"
@@ -258,6 +258,12 @@ if "`repo_root'" == "" & `skip_repo_tests' == 0 {
 global repo_root "`repo_root'"
 global qadir "`qadir'"
 global skip_repo_tests `skip_repo_tests'
+
+* Safeguard: warn if qadir doesn't match expected repo_root/qa
+if "`repo_root'" != "" & "`qadir'" != "`repo_root'/qa" {
+    di as error "WARNING: qadir (`qadir') differs from expected (`repo_root'/qa)"
+    di as error "         History and logs may write to unexpected location"
+}
 
 * Install from repo if path is available and user wants repo sync
 if "`repo_root'" != "" & `skip_repo_tests' == 0 {
@@ -595,7 +601,7 @@ if $skip_test == 0 {
             file open `fh' using "`pkg_path'", read text
             file read `fh' line
             while r(eof) == 0 {
-                if substr("`line'", 1, 2) == "F " {
+                if substr("`line'", 1, 2) == "f " | substr("`line'", 1, 2) == "F " {
                     local pkg_contents "`pkg_contents' `line'"
                 }
                 file read `fh' line
@@ -1296,14 +1302,14 @@ if $skip_test == 0 {
     else test_fail "Update all not working"
 }
 
-* UPD-06: Sync force (v18.x replacement for update all force)
-run_test "UPD-06" "Sync force"
+* UPD-06: Sync replace force (v18.x replacement for update all force)
+run_test "UPD-06" "Sync replace force"
 if $skip_test == 0 {
     cap noi {
-        wbopendata, syncforce
+        wbopendata, sync replace force
     }
     if _rc == 0 test_pass
-    else test_fail "Sync force not working"
+    else test_fail "Sync replace force not working"
 }
 
 *===============================================================================
@@ -1593,7 +1599,7 @@ run_test "CACHE-06" "Version file tracking"
 if $skip_test == 0 {
     cap noi {
         * Ensure cache exists
-        cap qui wbopendata, sync
+        cap qui wbopendata, sync replace
         
         * Read version file
         local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
@@ -1628,7 +1634,7 @@ run_test "CACHE-07" "Timestamp tracking"
 if $skip_test == 0 {
     cap noi {
         * Ensure cache exists
-        cap qui wbopendata, sync
+        cap qui wbopendata, sync replace
         
         * Check timestamp file
         local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
@@ -1659,7 +1665,7 @@ run_test "CACHE-08" "Search with cached YAML"
 if $skip_test == 0 {
     cap noi {
         * Ensure cache exists
-        cap qui wbopendata, sync
+        cap qui wbopendata, sync replace
         
         * Test search command (should use cache if available)
         cap wbopendata, search("GDP")
@@ -1710,15 +1716,15 @@ if $skip_test == 0 {
     test_pass
 }
 
-* SYNC-02: Sync command (download)
-run_test "SYNC-02" "Sync command"
+* SYNC-02: Sync replace (download)
+run_test "SYNC-02" "Sync replace command"
 if $skip_test == 0 {
     cap noi {
         * Clear cache first
         cap wbopendata, clearcache
-        
-        * Test sync command
-        cap wbopendata, sync
+
+        * Test sync replace command (actually applies sync)
+        cap wbopendata, sync replace
         local sync_rc = _rc
         
         di as text "sync rc: `sync_rc'"
@@ -1743,15 +1749,15 @@ if $skip_test == 0 {
     test_pass
 }
 
-* SYNC-03: Force sync
-run_test "SYNC-03" "Force sync command"
+* SYNC-03: Sync replace force (re-download)
+run_test "SYNC-03" "Sync replace force command"
 if $skip_test == 0 {
     cap noi {
-        * Test syncforce command
-        cap wbopendata, syncforce
+        * Test sync replace force command (force re-download)
+        cap wbopendata, sync replace force
         local syncforce_rc = _rc
-        
-        di as text "syncforce rc: `syncforce_rc'"
+
+        di as text "sync replace force rc: `syncforce_rc'"
         
         * If sync succeeds, verify cache was updated
         if `syncforce_rc' == 0 {
@@ -1769,15 +1775,15 @@ if $skip_test == 0 {
     test_pass
 }
 
-* SYNC-04: Sync with no updates needed
-run_test "SYNC-04" "Sync when already up-to-date"
+* SYNC-04: Sync replace when already up-to-date
+run_test "SYNC-04" "Sync replace when already up-to-date"
 if $skip_test == 0 {
     cap noi {
         * Sync once
-        cap qui wbopendata, sync
-        
+        cap qui wbopendata, sync replace
+
         * Sync again (should detect up-to-date)
-        cap wbopendata, sync
+        cap wbopendata, sync replace
         local sync2_rc = _rc
         
         di as text "Second sync rc: `sync2_rc'"
@@ -1796,7 +1802,7 @@ run_test "SYNC-05" "Discovery commands use cache after sync"
 if $skip_test == 0 {
     cap noi {
         * Ensure cache exists
-        cap qui wbopendata, sync
+        cap qui wbopendata, sync replace
         
         * Test info command
         cap wbopendata, info("SP.POP.TOTL")
@@ -2031,43 +2037,53 @@ local duration_str = "`duration_min'm `duration_sec's"
 
 di as text "Duration: `duration_str' (started `start_time', ended `end_time')"
 
-* Only write to history if running all tests (not single test mode) and qadir is set
-local histfile "$qadir/test_history.txt"
-if "$target_test" == "" & "$qadir" != "" {
-    cap confirm file "`histfile'"
+* Only write to history when repo_root is confirmed (prevents writing to wrong location)
+* Derive histfile from repo_root/qa, not qadir, to guard against qadir drift
+if "$target_test" == "" & "$repo_root" != "" {
+    local histfile "$repo_root/qa/test_history.txt"
+
+    * Validate: qa directory must contain run_tests.do (sanity check)
+    cap confirm file "$repo_root/qa/run_tests.do"
     if _rc != 0 {
-        * Create history file if it doesn't exist
-        file open history using "`histfile'", write replace
-        file write history "=== wbopendata Test History ===" _n
-        file write history "Created: `date'" _n
-        file write history "" _n
-        file close history
-    }
-    file open history using "`histfile'", write append
-    file write history _n "`sep'" _n
-    file write history "Test Run: `date'" _n
-    file write history "Started:  `start_time'" _n
-    file write history "Ended:    `end_time'" _n
-    file write history "Duration: `duration_str'" _n
-    file write history "Version:  `version'" _n
-    if "`wbo_date'" != "" file write history "Build:    `wbo_date'" _n
-    file write history "Stata:    `c(stata_version)'" _n
-    file write history "Tests:    $tests_run run, $tests_pass passed, $tests_fail failed" _n
-    if $tests_fail == 0 {
-        file write history "Result:   ALL TESTS PASSED" _n
+        di as error "WARNING: qa/run_tests.do not found at $repo_root/qa/"
+        di as error "         Skipping history write to avoid wrong location"
     }
     else {
-        file write history "Result:   FAILED" _n
-        file write history "Failed:   $failed_tests" _n
+        cap confirm file "`histfile'"
+        if _rc != 0 {
+            * Create history file if it doesn't exist
+            file open history using "`histfile'", write replace
+            file write history "=== wbopendata Test History ===" _n
+            file write history "Created: `date'" _n
+            file write history "" _n
+            file close history
+        }
+        file open history using "`histfile'", write append
+        file write history _n "`sep'" _n
+        file write history "Test Run: `date'" _n
+        file write history "Started:  `start_time'" _n
+        file write history "Ended:    `end_time'" _n
+        file write history "Duration: `duration_str'" _n
+        file write history "Version:  `version'" _n
+        if "`wbo_date'" != "" file write history "Build:    `wbo_date'" _n
+        file write history "Stata:    `c(stata_version)'" _n
+        file write history "Tests:    $tests_run run, $tests_pass passed, $tests_fail failed" _n
+        if $tests_fail == 0 {
+            file write history "Result:   ALL TESTS PASSED" _n
+        }
+        else {
+            file write history "Result:   FAILED" _n
+            file write history "Failed:   $failed_tests" _n
+        }
+        file write history "Log:      test_results_v`version'_`datestr'.log" _n
+        file write history "`sep'" _n
+        file close history
+        di as text "History appended to: `histfile'"
     }
-    file write history "Log:      test_results_v`version'_`datestr'.log" _n
-    file write history "`sep'" _n
-    file close history
-    di as text "History appended to: `histfile'"
 }
 else if "$target_test" != "" {
     di as text "(Single test mode - history not updated)"
 }
 else {
-    di as text "(History update skipped - qadir not configured)"
+    di as text "(History update skipped - repo_root not detected)"
 }
