@@ -73,6 +73,8 @@ version 14.0
 						countryname		///
 						SYNC			///
 						SYNCFORCE		///
+						SYNCPREVIEW		///
+						SYNCDRYRUN		///
 						CHECKUPDATE		///
 						CLEARCACHE		///
 						CACHEINFO		///
@@ -171,7 +173,7 @@ local indicator `indicators'
 	}
 
 	* Sync and cache maintenance commands
-	if ("`sync'" != "" | "`syncforce'" != "" | "`checkupdate'" != "" | "`clearcache'" != "" | "`cacheinfo'" != "") {
+	if ("`sync'" != "" | "`syncforce'" != "" | "`syncpreview'" != "" | "`syncdryrun'" != "" | "`checkupdate'" != "" | "`clearcache'" != "" | "`cacheinfo'" != "") {
 		if ("`clearcache'" != "") {
 			_wbopendata_cache, clear
 			exit _rc
@@ -192,7 +194,18 @@ local indicator `indicators'
 			else di as text "Metadata is up-to-date (v" r(local_version) ")"
 			exit _rc
 		}
-		if ("`sync'" != "" | "`syncforce'" != "") {
+		* Preview/dryrun: show diagnostic
+		if ("`syncpreview'" != "" | "`syncdryrun'" != "") {
+			noi _wbopendata_sync_preview
+			return add
+			* If dryrun, stop here
+			if ("`syncdryrun'" != "") exit 0
+			* If preview, continue to sync
+			di as text ""
+			di as text "Proceeding with sync..."
+			di as text ""
+		}
+		if ("`sync'" != "" | "`syncforce'" != "" | "`syncpreview'" != "") {
 			if ("`syncforce'" != "") _wbopendata_sync, force
 			else _wbopendata_sync
 			exit _rc
