@@ -53,9 +53,12 @@
 {synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
 {synopt :{opt sync}} check the metadata YAML cache and download the latest release if available (uses GitHub package files).{p_end}
 {synopt :{opt syncforce}} force-download the YAML metadata regardless of local version (overwrites cache).{p_end}
+{synopt :{opt syncpreview}} display metadata status diagnostic then proceed with sync.{p_end}
+{synopt :{opt syncdryrun}} display metadata status diagnostic without syncing (preview only).{p_end}
 {synopt :{opt checkupdate}} check whether newer YAML metadata is available without downloading it.{p_end}
 {synopt :{opt clearcache}} remove the local metadata cache (forces re-download on next sync).{p_end}
 {synopt :{opt cacheinfo}} display cache location, version, and timestamp for the metadata YAML files.{p_end}
+{synopt :{opt detail}} with {opt syncdryrun} or {opt syncpreview}, show per-source and per-topic indicator counts.{p_end}
 {synopt :{opt match(varname)}} merge {help wbopendata##attributes:country attributes} into an existing dataset containing WDI (3 digit) countrycodes. Cannot be used with the data download options.{p_end}
 {synopt :{opt projection}} World Bank {help wbopendata_sourceid##sourceid_40:population estimates and projections} (HPP) .{p_end}
 {synopt :{opt metadataoffline}} download all indicator metadata information and generates 71 sthlp files in your local machine.{p_end}
@@ -939,11 +942,22 @@ return metadata for programmatic use and automation.{p_end}
 
 {pstd}{ul:{bf:Example 8: Manage cached YAML metadata (v18.x)}}{p_end}
 
+{p 4 4 2}Preview metadata status without syncing (dry run):{p_end}
+
+{cmd}
+.     wbopendata, syncdryrun
+.     wbopendata, syncdryrun detail
+
 {p 4 4 2}Check for updates and refresh cached metadata without downloading data:{p_end}
 
 {cmd}
 .     wbopendata, checkupdate
 .     wbopendata, sync
+
+{p 4 4 2}Preview status then sync in one step:{p_end}
+
+{cmd}
+.     wbopendata, syncpreview
 
 {p 4 4 2}Force refresh even when versions match, then inspect cache status:{p_end}
 

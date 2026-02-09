@@ -20,6 +20,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [Unreleased]
+
+### Added
+- **Sync Preview feature** (`syncpreview`, `syncdryrun` options)
+  - Pre-sync diagnostic display showing cache status, API comparison, and sync pathway
+  - `detail` option for per-source and per-topic indicator breakdown
+  - Country metadata count (296 countries/territories/aggregates) in preview display
+  - Helper programs: `_wbopendata_get_source_name`, `_wbopendata_get_topic_name`
+  - Clickable SMCL actions for common sync operations
+- **Stats History Tracking** (`_wbopendata_cache_stats_history.yaml`)
+  - Automatic recording of sync statistics after each successful sync
+  - Tracks: timestamp, method, indicator/source/topic/country counts
+  - Per-source and per-topic breakdown for trend analysis
+  - History file appends entries over time for release notes generation
+  - New program: `_wbopendata_write_stats_history.ado`
+
+### Changed
+- Sync system now shows detailed metadata status before sync execution
+- `_wbopendata_sync_preview.ado` updated to v1.2.0 with country count
+- Package updated with new helper ado files
+
+---
+
 ## [17.7.1] - 2026-01-04
 
 ### Added

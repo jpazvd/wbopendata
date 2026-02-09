@@ -7,12 +7,16 @@ program define _wbopendata_sync, rclass
     version 14.0
     syntax [, FORCE FORCEPYTHON FORCESTATA GITHUBRELEASE(string) PYTHONCMD(string) OUTDIR(string)]
 
-    local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
-    capture mkdir c(sysdir_personal) + "wbopendata/"
+    local cache_base "`c(sysdir_personal)'wbopendata/"
+    * Convert backslashes to forward slashes to avoid escape issues (\a, \t, etc.)
+    local cache_base : subinstr local cache_base "\" "/" , all
+    local cache_dir "`cache_base'cache/"
+    
+    capture mkdir "`cache_base'"
     capture mkdir "`cache_dir'"
 
     tempname fh
-    local test_file = "`cache_dir'_test.tmp"
+    local test_file "`cache_dir'_test.tmp"
     capture file open `fh' using "`test_file'", write replace
     if (_rc != 0) {
         di as error "Cannot write to cache directory: `cache_dir'"
@@ -29,8 +33,9 @@ program define _wbopendata_sync, rclass
 
     local schema_version "2.0.0"
 
+    * Check cache staleness (skip if force)
     if ("`force'" == "") {
-        _wbopendata_check_staleness, cache_dir("`cache_dir'")
+        _wbopendata_check_staleness "`cache_dir'"
     }
 
     if ("`forcestata'" != "") {
@@ -39,7 +44,7 @@ program define _wbopendata_sync, rclass
             di as error "Stata fallback failed (rc = " _rc ")"
             exit _rc
         }
-        _wbopendata_write_cache_meta, version("`schema_version'") cache_dir("`cache_dir'") method("stata") source("stata")
+        _wbopendata_write_cache_meta "`schema_version'" "`cache_dir'" "stata" "stata"
         return scalar sync_success = 1
         return local method = "stata"
         exit 0
@@ -51,7 +56,7 @@ program define _wbopendata_sync, rclass
             di as error "Python pipeline failed (rc = " _rc ")"
             exit _rc
         }
-        _wbopendata_write_cache_meta, version("`schema_version'") cache_dir("`cache_dir'") method("python") source("python")
+        _wbopendata_write_cache_meta "`schema_version'" "`cache_dir'" "python" "python"
         return scalar sync_success = 1
         return local method = "python"
         exit 0
@@ -62,7 +67,7 @@ program define _wbopendata_sync, rclass
     if (_rc == 0) {
         capture noisily _wbopendata_run_python, outdir("`outdir_use'") pythoncmd("`pythoncmd'")
         if (_rc == 0) {
-            _wbopendata_write_cache_meta, version("`schema_version'") cache_dir("`cache_dir'") method("python") source("python")
+            _wbopendata_write_cache_meta "`schema_version'" "`cache_dir'" "python" "python"
             return scalar sync_success = 1
             return local method = "python"
             exit 0
@@ -72,7 +77,7 @@ program define _wbopendata_sync, rclass
     * Pathway A: Stata fallback
     capture noisily _wbopendata_refresh_yaml, outdir("`outdir_use'") replace
     if (_rc == 0) {
-        _wbopendata_write_cache_meta, version("`schema_version'") cache_dir("`cache_dir'") method("stata") source("stata")
+        _wbopendata_write_cache_meta "`schema_version'" "`cache_dir'" "stata" "stata"
         return scalar sync_success = 1
         return local method = "stata"
         exit 0
@@ -88,7 +93,7 @@ program define _wbopendata_sync, rclass
     if (_rc == 0) local download_ok = 1
 
     if (`download_ok' == 1 & "`force'" == "") {
-        _wbopendata_write_cache_meta, version("`schema_version'") cache_dir("`cache_dir'") method("download") source("github")
+        _wbopendata_write_cache_meta "`schema_version'" "`cache_dir'" "download" "github"
         return scalar sync_success = 1
         return local method = "download"
         exit 0
@@ -108,21 +113,21 @@ program define _wbopendata_run_python
 
     local script ""
 
-    local candidate1 = c(pwd) + "/src/py/update_metadata.py"
+    local candidate1 "`c(pwd)'/src/py/update_metadata.py"
     if (fileexists("`candidate1'")) local script "`candidate1'"
 
     if ("`script'" == "") {
-        local candidate2 = c(pwd) + "/wbopendata-dev/src/py/update_metadata.py"
+        local candidate2 "`c(pwd)'/wbopendata-dev/src/py/update_metadata.py"
         if (fileexists("`candidate2'")) local script "`candidate2'"
     }
 
     if ("`script'" == "") {
         capture findfile wbopendata.ado
         if (_rc == 0) {
-            local fn = r(fn)
-            local root = subinstr("`fn'", "/src/w/wbopendata.ado", "", .)
-            local root = subinstr("`root'", "\\src\\w\\wbopendata.ado", "", .)
-            local candidate3 = "`root'/src/py/update_metadata.py"
+            local fn `r(fn)'
+            local root : subinstr local fn "/src/w/wbopendata.ado" ""
+            local root : subinstr local root "\src\w\wbopendata.ado" ""
+            local candidate3 "`root'/src/py/update_metadata.py"
             if (fileexists("`candidate3'")) local script "`candidate3'"
         }
     }
@@ -155,9 +160,9 @@ end
 
 program define _wbopendata_check_staleness
     version 14.0
-    syntax , CACHE_DIR(string)
+    args cache_dir
 
-    local tf = "`cache_dir'cache_timestamp.txt"
+    local tf "`cache_dir'cache_timestamp.txt"
     if (!fileexists("`tf'")) exit 0
 
     tempname fh
@@ -165,7 +170,10 @@ program define _wbopendata_check_staleness
     file read `fh' line
     file close `fh'
 
-    local ts_date = word("`line'", 1) + " " + word("`line'", 2) + " " + word("`line'", 3)
+    local w1 : word 1 of `line'
+    local w2 : word 2 of `line'
+    local w3 : word 3 of `line'
+    local ts_date "`w1' `w2' `w3'"
     local last_date = date("`ts_date'", "DMY")
     local today = date("`c(current_date)'", "DMY")
 
@@ -182,7 +190,8 @@ end
 
 program define _wbopendata_write_cache_meta
     version 14.0
-    syntax , VERSION(string) CACHE_DIR(string) [METHOD(string) SOURCE(string)]
+    * Use args instead of syntax to avoid path parsing issues with colons
+    args version cache_dir method source
 
     tempname vfh tfh
     file open `vfh' using "`cache_dir'metadata_version.txt", write replace
@@ -208,16 +217,17 @@ program define _wbopendata_write_cache_meta
     file write `mfh' "  source: `source_val'" _n
     file close `mfh'
 
-    _wbopendata_update_sync_history, cache_dir("`cache_dir'") version("`version'") method("`method_val'") source("`source_val'")
+    _wbopendata_update_sync_history "`cache_dir'" "`version'" "`method_val'" "`source_val'"
 end
 
 
 program define _wbopendata_update_sync_history
     version 14.0
-    syntax , CACHE_DIR(string) VERSION(string) METHOD(string) SOURCE(string)
+    * Use args instead of syntax to avoid path parsing issues with colons
+    args cache_dir version method source
 
-    local hf = "`cache_dir'cache_sync_history.yaml"
-    local ts = "`c(current_date)' `c(current_time)'"
+    local hf "`cache_dir'cache_sync_history.yaml"
+    local ts "`c(current_date)' `c(current_time)'"
 
     tempname fh
     if (!fileexists("`hf'")) {

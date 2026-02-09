@@ -73,6 +73,8 @@ version 14.0
 						countryname		///
 						SYNC			///
 						SYNCFORCE		///
+						SYNCPREVIEW		///
+						SYNCDRYRUN		///
 						CHECKUPDATE		///
 						CLEARCACHE		///
 						CACHEINFO		///
@@ -171,7 +173,7 @@ local indicator `indicators'
 	}
 
 	* Sync and cache maintenance commands
-	if ("`sync'" != "" | "`syncforce'" != "" | "`checkupdate'" != "" | "`clearcache'" != "" | "`cacheinfo'" != "") {
+	if ("`sync'" != "" | "`syncforce'" != "" | "`syncpreview'" != "" | "`syncdryrun'" != "" | "`checkupdate'" != "" | "`clearcache'" != "" | "`cacheinfo'" != "") {
 		if ("`clearcache'" != "") {
 			_wbopendata_cache, clear
 			exit _rc
@@ -192,10 +194,43 @@ local indicator `indicators'
 			else di as text "Metadata is up-to-date (v" r(local_version) ")"
 			exit _rc
 		}
-		if ("`sync'" != "" | "`syncforce'" != "") {
+		* Preview/dryrun: show diagnostic
+		if ("`syncpreview'" != "" | "`syncdryrun'" != "") {
+			noi _wbopendata_sync_preview, `detail'
+			return add
+			* If dryrun, stop here
+			if ("`syncdryrun'" != "") exit 0
+			* If preview, continue to sync
+			di as text ""
+			di as text "Proceeding with sync..."
+			di as text ""
+		}
+		if ("`sync'" != "" | "`syncforce'" != "" | "`syncpreview'" != "") {
 			if ("`syncforce'" != "") _wbopendata_sync, force
 			else _wbopendata_sync
-			exit _rc
+			local sync_rc = _rc
+			if (`sync_rc' == 0) {
+				* Get counts after sync for history
+				quietly _wbopendata_sync_preview
+				local ind_count = r(ind_count)
+				local src_count = r(src_count)
+				local top_count = r(top_count)
+				local ctry_count = r(ctry_count)
+				local method = r(cache_method)
+				local by_source = r(by_source)
+				local by_topic = r(by_topic)
+				if ("`method'" == "") local method = "unknown"
+				* Write stats history with breakdown (suppress rclass warning)
+				capture quietly _wbopendata_write_stats_history, ///
+					method("`method'") ///
+					indicators(`ind_count') ///
+					sources(`src_count') ///
+					topics(`top_count') ///
+					countries(`ctry_count') ///
+					bysource("`by_source'") ///
+					bytopic("`by_topic'")
+			}
+			exit `sync_rc'
 		}
 	}
 
