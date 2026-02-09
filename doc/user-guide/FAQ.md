@@ -250,4 +250,4 @@ See [Issue #51](https://github.com/jpazvd/wbopendata/issues/51) - fixed in v17.1
 
 ---
 
-*Last updated: December 2025 (v17.1)*
+*Last updated: February 2026 (v18.0.0)*

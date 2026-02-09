@@ -8,10 +8,10 @@
 
 This document outlines the testing protocol for validating `wbopendata` functionality before releases. The automated test suite is in `run_tests.do`.
 
-**Test Suite Version**: 2.0.0  
-**Compatible with**: wbopendata v17.7.1+  
-**Last Updated**: January 2026  
-**Total Tests**: 57 automated tests across 10 categories (53 core + 4 repo-comparison)
+**Test Suite Version**: 3.0.0
+**Compatible with**: wbopendata v18.0.0+
+**Last Updated**: February 2026
+**Total Tests**: 65 automated tests across 15 categories
 
 > **See also:** [README](README.md) for quick start | [Testing Guide](TESTING_GUIDE.md) for best practices
 
@@ -59,7 +59,7 @@ do run_tests.do
 
 ## Test Categories
 
-### Category 0: Environment Checks (4 tests)
+### Category 0: Environment Checks (5 tests)
 
 | Test ID | Description | Expected Result |
 |---------|-------------|-----------------|
@@ -67,6 +67,7 @@ do run_tests.do
 | ENV-02 | Ado files sync status | All source files in sync |
 | ENV-03 | wbopendata.pkg matches src directories | All src files listed in pkg |
 | ENV-04 | All pkg files exist in repo | No missing files |
+| ENV-05 | YAML files present and accessible | Both YAML metadata files found |
 
 ### Category 1: Basic Downloads (5 tests)
 
@@ -148,9 +149,7 @@ do run_tests.do
 | CTRY-11 | Admin regions option | `adminregion`, `adminregionname` exist |
 | DATE-01 | Date range option | Data within date range |
 
-### Category 9: Cache & Sync System - v18.x features (13 tests)
-
-**Note**: These tests are for features under development. Some may fail until implementation is complete.
+### Category 9: Cache & Sync System (13 tests)
 
 | Test ID | Description | Expected Result |
 |---------|-------------|-----------------|
@@ -168,6 +167,18 @@ do run_tests.do
 | SYNC-04 | Sync when already up-to-date | Reports no updates needed |
 | SYNC-05 | Discovery commands use cache | After sync, uses cache |
 
+### Category 10: Discovery Commands (7 tests)
+
+| Test ID | Description | Expected Result |
+|---------|-------------|-----------------|
+| DISC-01 | Sources command | Lists data sources without error |
+| DISC-02 | Topics command | Lists topic categories without error |
+| DISC-03 | Search basic | Returns matching indicators |
+| DISC-04 | Search with topic filter | Filtered results returned |
+| DISC-05 | Info command | Returns indicator metadata |
+| DISC-06 | Allsources command | Detailed source listing |
+| DISC-07 | Alltopics command | Detailed topic listing |
+
 ---
 
 ## Performance Benchmarks
@@ -177,7 +188,7 @@ do run_tests.do
 | Single indicator, all countries | `wbopendata, indicator(SP.POP.TOTL) clear` | < 30 seconds |
 | Topic download | `wbopendata, topics(1) clear` | < 60 seconds |
 | Multiple indicators (3) | `wbopendata, indicator(A;B;C) clear` | < 60 seconds |
-| Full test suite (57 tests) | `do run_tests.do` | < 6 minutes |
+| Full test suite (65 tests) | `do run_tests.do` | < 6 minutes |
 
 ---
 
@@ -192,7 +203,8 @@ do run_tests.do
 - [ ] UPD tests pass (maintenance commands)
 - [ ] TOPIC/LANG tests pass
 - [ ] Advanced feature tests pass
-- [ ] CACHE/SYNC tests pass (v18.x)
+- [ ] CACHE/SYNC tests pass
+- [ ] DISC tests pass (discovery commands)
 - [ ] Performance within targets
 
 ---
@@ -237,9 +249,9 @@ Log:      test_results_vX.Y.Z_DDMMMYYYY.log
 
 ## Latest Test Results
 
-**Last Successful Full Run:** 28 Jan 2026  
-**Version:** 17.7.2  
-**Result:** 57 run, 57 passed, 0 failed
+**Last Successful Full Run:** 9 Feb 2026
+**Version:** 18.0.0
+**Result:** 65 run, 65 passed, 0 failed
 
 ---
 

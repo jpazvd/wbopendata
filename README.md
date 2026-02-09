@@ -66,13 +66,13 @@ net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendat
 ssc install wbopendata, replace
 ```
 
-> ⚠️ **Note:** The SSC version (v13.5) is from 2016 and lacks many features. Install from GitHub for full functionality.
+> The [SSC version](https://ideas.repec.org/c/boc/bocode/s457234.html) (v17.7.1) is one release behind GitHub. For discovery commands, sync redesign, and YAML metadata, install from GitHub.
 
 ### From GitHub (Specific Release)
 
 ```stata
-* Install v17.7.1 specifically
-net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v17.7.1") replace
+* Install v18.0.0 specifically
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v18.0.0") replace
 ```
 
 ### From Local Clone

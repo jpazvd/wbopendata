@@ -6,20 +6,23 @@
 
 ## Overview
 
-This roadmap consolidates all improvement plans and enhancement ideas for `wbopendata`. It reflects the current state after v17.7 release and prioritizes features based on user impact and implementation effort.
+This roadmap consolidates all improvement plans and enhancement ideas for `wbopendata`. It reflects the current state after the v18.0.0 release and prioritizes features based on user impact and implementation effort.
 
-**Last Updated:** January 29, 2026  
-**Current Version:** v18.0.0 (in development)  
+**Last Updated:** February 9, 2026
+**Current Version:** v18.0.0 (released)
 **Reference Implementations:** unicefData, yaml.ado, stataci
 
 ---
 
 ## ✅ Completed in v17.x & v18.x
 
-### v18.0 (January 2026) — In Development
-- [x] Discovery commands: `search()` and `info()` subcommands
-- [x] Cache management: `sync`, `syncforce`, `checkupdate`, `clearcache`, `cacheinfo`
-- [x] Expanded test suite to 57 tests (9 categories including CACHE-01 to SYNC-05)
+### v18.0.0 (February 2026) — Released
+- [x] Discovery commands: `sources`, `allsources`, `topics`, `alltopics`, `search()`, `info()`
+- [x] YAML metadata architecture: replaced 89 per-indicator sthlp files with 2 YAML files
+- [x] Sync system redesign: `sync` (dryrun), `sync replace` (apply), `sync replace force`
+- [x] Cache management: `cache(info|checkversion|update|clear)`
+- [x] Modular architecture: 34 `.ado` files with `_`/`__` naming convention
+- [x] Expanded test suite to 65 tests across 15 categories
 - [x] Auto-detecting repo paths for multi-machine test compatibility
 - [x] Version bump to 18.0.0 with consolidated package files
 - [x] Workflow migration: metadata updates via GitHub Actions
@@ -357,4 +360,4 @@ See [Contributing Guidelines](../../CONTRIBUTING.md) for how to propose new feat
 
 ---
 
-*Last updated: January 29, 2026 — v18.0 development in progress*
+*Last updated: February 9, 2026 — v18.0.0 released*
