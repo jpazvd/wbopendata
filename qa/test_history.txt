@@ -454,3 +454,17 @@ Tests:    44 run, 44 passed, 0 failed
 Result:   ALL TESTS PASSED
 Log:      test_results_v17.7.1_4Jan2026.log
 ======================================================================
+
+======================================================================
+Test Run:  9 Feb 2026
+Started:  08:01:28
+Ended:    08:39:22
+Duration: 37m 54s
+Version:  18.0.0
+Build:    05Feb2026
+Stata:    17
+Tests:    65 run, 57 passed, 8 failed
+Result:   FAILED
+Failed:   ENV-03, ENV-04, UPD-06, CACHE-01, CACHE-02, CACHE-03, CACHE-04, DISC-02
+Log:      test_results_v18.0.0_9Feb2026.log
+======================================================================
