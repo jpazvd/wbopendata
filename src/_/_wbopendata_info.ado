@@ -1,7 +1,8 @@
 *******************************************************************************
-*! _wbopendata_info v2.3.0  09Feb2026
+*! _wbopendata_info v2.4.0  09Feb2026
 *! Return indicator metadata using shared frame cache (fast after first call)
 *! Uses same __wbod_parse_yaml_ind parser as search - fixed block scalars
+*! v2.4.0: Parse Note field with _website to convert URLs to clickable links
 *! v2.3.0: New display layout with separate ID/Name rows. Add unit, limited_data.
 *!         Show all topic IDs/names. Add Filters section with clickable commands.
 *******************************************************************************
@@ -175,6 +176,29 @@ program define _wbopendata_info, rclass
     local topics_display `"`topics'"'
 
     *---------------------------------------------------------------------------
+    * Process Note and Description with _website to convert URLs to clickable links
+    * Preserve original text for return list (without SMCL), use processed for display
+    *---------------------------------------------------------------------------
+    local note_plain `"`note'"'
+    local desc_plain `"`desc'"'
+    
+    * Process note through _website (quietly to suppress its display)
+    if (`"`note'"' != "N/A") {
+        capture quietly _website, text(`"`note'"')
+        if (_rc == 0 & `"`r(text)'"' != "") {
+            local note `"`r(text)'"'
+        }
+    }
+    
+    * Process description through _website
+    if (`"`desc'"' != "N/A") {
+        capture quietly _website, text(`"`desc'"')
+        if (_rc == 0 & `"`r(text)'"' != "") {
+            local desc `"`r(text)'"'
+        }
+    }
+
+    *---------------------------------------------------------------------------
     * Display with new layout (separate ID/Name rows, unit, limited_data warning)
     *---------------------------------------------------------------------------
     di as text ""
@@ -240,6 +264,7 @@ program define _wbopendata_info, rclass
     *---------------------------------------------------------------------------
     * Return values - MUST use compound quotes for text with special chars
     * Match _query_metadata return list for compatibility with describe
+    * Return plain text versions (without SMCL) for programmatic use
     *---------------------------------------------------------------------------
     * Ensure _rc=0 before returning (capture commands earlier may have set it)
     local _dummy = 1
@@ -253,8 +278,8 @@ program define _wbopendata_info, rclass
     return local source_name  `"`src_name'"'
     return local source_org   `"`source_org'"'
     return local sourcecite   `"`source_org'"'
-    return local description  `"`desc'"'
-    return local note         `"`note'"'
+    return local description  `"`desc_plain'"'
+    return local note         `"`note_plain'"'
     return local unit         `"`unit'"'
     return local limited_data "`limited_data'"
     return local topic1       "`topic1'"
