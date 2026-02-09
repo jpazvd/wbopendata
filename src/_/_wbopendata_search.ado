@@ -1,15 +1,20 @@
 *******************************************************************************
 *! _wbopendata_search v3.0.0  04Feb2026
 *! Search indicators - version router
-*! Temporary: route all versions to __wbopendata_search (per-call parsing)
-*! until frame caching is stabilized.
+*! Stata 16+: routes to __wbopendata_search_cache (frame-based caching)
+*! Stata 14-15: routes to __wbopendata_search (per-call parsing)
 *******************************************************************************
 
 program define _wbopendata_search, rclass
     version 14.0
 
     * Route to appropriate implementation based on Stata version
-    __wbopendata_search `0'
+    if (`c(stata_version)' >= 16) {
+        __wbopendata_search_cache `0'
+    }
+    else {
+        __wbopendata_search `0'
+    }
 
     * Pass through return values from implementation
     return scalar n_results = r(n_results)
