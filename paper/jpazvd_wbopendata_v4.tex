@@ -42,7 +42,7 @@ jpazvd.github.io%
 % =====================================================================
 \begin{abstract}
 This article examines data provenance in the age of automation, drawing on fifteen years of development and sustained use of \texttt{wbopendata}, the first Stata command to provide programmatic access to an international development data
-repository. Today, \texttt{wbopendata} provides access to over 29{,}000 indicators from 51 databases spanning 296 countries and aggregates, with features including five download modes, multilingual metadata, and publication-ready graph formatting. Its broader contribution lies in treating data acquisition as code: indicator selections, country filters, and time ranges become explicit parameters in analysis scripts rather than undocumented manual downloads---addressing the data provenance dimension of the reproducibility crisis that statistical reforms alone cannot fix. Yet the command has never been more relevant. As AI tools accelerate analytical workflows while enabling plausible fabrication of statistics and citations, anchoring research to authoritative, version-controlled data sources becomes essential infrastructure---not legacy convenience. I document the command's latest syntax and stored results, demonstrate workflows from basic queries to choropleth mapping, and present a 44-scenario test suite. I also discuss risks that frictionless data access can obscure---provenance opacity, coverage gaps masked by convenient defaults, and sustainability pressures---alongside mitigation strategies. I distill three design principles from fifteen years of sustained use: backward compatibility builds trust, domain-specific syntax lowers barriers, and scripted data access makes reproducibility the default rather than the exception.
+repository. Today, \texttt{wbopendata} provides access to over 29{,}000 indicators from 51 databases spanning 296 countries and aggregates, with features including five download modes, multilingual metadata, publication-ready graph formatting, and---as of version~18.0---offline indicator discovery through a YAML-backed metadata architecture and version-controlled metadata synchronization. Its broader contribution lies in treating data acquisition as code: indicator selections, country filters, and time ranges become explicit parameters in analysis scripts rather than undocumented manual downloads---addressing the data provenance dimension of the reproducibility crisis that statistical reforms alone cannot fix. Yet the command has never been more relevant. As AI tools accelerate analytical workflows while enabling plausible fabrication of statistics and citations, anchoring research to authoritative, version-controlled data sources becomes essential infrastructure---not legacy convenience. I document the command's latest syntax and stored results, demonstrate workflows from basic queries to choropleth mapping, and present a 65-scenario test suite. I also discuss risks that frictionless data access can obscure---provenance opacity, coverage gaps masked by convenient defaults, and sustainability pressures---alongside mitigation strategies. I distill three design principles from fifteen years of sustained use: backward compatibility builds trust, domain-specific syntax lowers barriers, and scripted data access makes reproducibility the default rather than the exception.
 
 \keywords{Stata, Open Data, World Bank, APIs, reproducible research, development indicators, metadata}
 \end{abstract}
@@ -216,10 +216,15 @@ similarly emphasizes standardized structure, transparent preprocessing, and
 reusable code as prerequisites for credible empirical analysis.
 
 More recently, the same design logic has been extended to multi-language data
-access through \texttt{unicefData} \citep{unicefdata2024}, which provides a triangulated suite of R, Python,
-and Stata interfaces to UNICEF’s SDMX-based data warehouse. While implemented in
+access through \texttt{unicefData} \citep{unicefdata2026}, which provides a triangulated suite of R, Python,
+and Stata interfaces to UNICEF's SDMX-based data warehouse. While implemented in
 different programming environments, these tools share a common emphasis on
 explicit data acquisition, metadata exposure, and reproducible defaults.
+The influence has also been bidirectional: the discovery architecture introduced
+by \texttt{unicefData}---offline catalog browsing with YAML-backed metadata and
+clickable SMCL navigation---was subsequently adopted by \texttt{wbopendata}
+(v18.0), demonstrating the portability of these design patterns across data
+ecosystems.
 
 These examples are not intended as an exhaustive survey of data infrastructure
 tools, nor do they imply architectural equivalence. Rather, they illustrate that the
@@ -254,7 +259,7 @@ Languages & 3 (English, Spanish, French) \\
 \end{tabular}
 \end{table}
 
-\texttt{wbopendata} talks directly to the World Bank API (JSON over HTTP), returns tidy Stata datasets, and caches results to minimize repeat downloads. Five pull modes cover country, topic, single-indicator (all countries), single-indicator (selected countries), and multi-indicator requests. Output may be wide or long; \texttt{latest} works in long mode and returns ready-to-use scalars for titles and subtitles. Metadata is always fetched; v17.7.1 adds basic country context (region, admin region, income level, lending type) by default.
+\texttt{wbopendata} talks directly to the World Bank API (JSON over HTTP), returns tidy Stata datasets, and caches results to minimize repeat downloads. Five pull modes cover country, topic, single-indicator (all countries), single-indicator (selected countries), and multi-indicator requests. Output may be wide or long; \texttt{latest} works in long mode and returns ready-to-use scalars for titles and subtitles. Metadata is always fetched; v17.7.1 adds basic country context (region, admin region, income level, lending type) by default. Version~18.0 introduces discovery commands for offline catalog browsing, a YAML-backed metadata architecture with over 29{,}000 indicator records, and a sync system for version-controlled metadata updates.
 
 \subsection{Syntax}
 
@@ -348,6 +353,44 @@ Exactly one of the following is required:
 \hangpara
 \texttt{\underbar{linewrapf}ormat(\ststring)} controls the output format: \texttt{stack} (stacked lines), \texttt{newline} (newline-separated), \texttt{nlines} (returns line count), \texttt{lines} (returns individual lines), or \texttt{all} (returns all formats).
 
+\subsection{Discovery commands (v18.0)}\label{sec:discovery}
+
+Version~18.0 introduces a suite of discovery commands that allow users to explore the World Bank Open Data catalog without downloading data. The discovery architecture follows the model introduced by \texttt{unicefdata} \citep{unicefdata2026}, which pioneered offline catalog browsing with YAML-backed metadata and clickable SMCL navigation in Stata. The \texttt{wbopendata} implementation extends this pattern to the World Bank's 51 data sources and 29{,}000+ indicators.
+
+All discovery outputs feature clickable SMCL links that let users drill down from sources to topics to individual indicators, and then download data with a single click.
+
+\hangpara
+\texttt{sources} lists all World Bank data sources (databases) with indicator counts and clickable navigation links.
+
+\hangpara
+\texttt{alltopics} lists all 21 World Bank topic categories with indicator counts and clickable navigation links.
+
+\hangpara
+\texttt{search(\ststring)} searches indicators by keyword, wildcard pattern, or regular expression. Multiple keywords joined with \texttt{+} require all terms to match. The prefix \texttt{\~{}} activates full regex syntax. Results include clickable links to inspect or download each indicator.
+
+\hangpara
+\texttt{searchsource(\num)} filters search results to a specific source ID. Can be used alone to browse all indicators in a source.
+
+\hangpara
+\texttt{searchtopic(\num)} filters search results to a specific topic ID.
+
+\hangpara
+\texttt{searchfield(\ststring)} restricts search to specified metadata fields: \texttt{code}, \texttt{name}, \texttt{description}, \texttt{source}, \texttt{topic}, \texttt{note}, or \texttt{all} (default). Multiple fields can be separated by semicolons.
+
+\hangpara
+\texttt{exact} requires an exact indicator code match rather than partial matching.
+
+\hangpara
+\texttt{detail} displays search results in wrapped block format with full indicator names and topic labels.
+
+\hangpara
+\texttt{limit(\num)} sets the maximum number of results to display (default~20).
+
+\hangpara
+\texttt{info(\ststring)} displays detailed metadata for a specific indicator, including its full name, source database, topic classifications, description, methodology notes with clickable URLs, and download commands.
+
+These commands support the paper's central thesis by making indicator \emph{selection} itself a scripted, auditable process. Rather than browsing web portals manually and noting indicator codes on paper, researchers can document their search and selection process as executable Stata commands that can be inspected, replicated, and version-controlled.
+
 \subsection{Stored results}
 
 \texttt{wbopendata} is an r-class command that stores results in \texttt{r()}. These stored results are critical for automation: they allow downstream code to programmatically access indicator metadata, construct dynamic graph titles, and build reproducible pipelines without manual intervention.
@@ -396,10 +439,38 @@ Result & Type & Description \\
 \texttt{r(*\#\_nlines)} & scalar & Line count for each field \\
 \texttt{r(*\#\_line1)}, \ldots & local & Individual wrapped lines \\
 \hline
+\multicolumn{3}{l}{\textit{Discovery: \texttt{sources}}} \\
+\texttt{r(n\_sources)} & scalar & Total number of data sources \\
+\texttt{r(n\_indicators)} & scalar & Total indicators across all sources \\
+\texttt{r(source\_codes)} & local & Space-separated list of source IDs \\
+\texttt{r(source\_names)} & local & Compound-quoted list of source names \\
+\hline
+\multicolumn{3}{l}{\textit{Discovery: \texttt{alltopics}}} \\
+\texttt{r(n\_topics)} & scalar & Total number of topics \\
+\texttt{r(topic\_ids)} & local & Space-separated list of topic IDs \\
+\texttt{r(topic\_names)} & local & Compound-quoted list of topic names \\
+\hline
+\multicolumn{3}{l}{\textit{Discovery: \texttt{search(pattern)}}} \\
+\texttt{r(n\_results)} & scalar & Total matches found \\
+\texttt{r(n\_displayed)} & scalar & Matches shown after limit \\
+\texttt{r(first\_code)} & local & First matching indicator code \\
+\texttt{r(codes)} & local & Space-separated indicator codes \\
+\texttt{r(keyword)} & local & Search keyword used \\
+\hline
+\multicolumn{3}{l}{\textit{Discovery: \texttt{info(code)}}} \\
+\texttt{r(indicator)} & local & Indicator code \\
+\texttt{r(name)} & local & Indicator name \\
+\texttt{r(source\_id)} & local & Source database ID \\
+\texttt{r(description)} & local & Full indicator description \\
+\texttt{r(note)} & local & Methodology note \\
+\hline
+\multicolumn{3}{l}{\textit{All discovery commands}} \\
+\texttt{r(cmd)} & local & Reproducible command string \\
+\hline
 \end{tabular}
 \end{table}
 
-These returns enable fully automated workflows: a script can download data, extract \texttt{r(name1\_stack)} for the graph title, \texttt{r(sourcecite1)} for the source note, and \texttt{r(latest)} for a coverage subtitle---all without hardcoding any metadata.
+These returns enable fully automated workflows: a script can download data, extract \texttt{r(name1\_stack)} for the graph title, \texttt{r(sourcecite1)} for the source note, and \texttt{r(latest)} for a coverage subtitle---all without hardcoding any metadata. Discovery returns further support automation by enabling scripts to programmatically enumerate available indicators, filter by source or topic, and extract metadata for selected series.
 
 % =====================================================================
 \section{Reproducible analytical workflows}\label{sec:workflows}
@@ -506,6 +577,44 @@ systems to remain reproducible over time, even as underlying data sources are
 revised. Additional pipeline examples and related visualizations are provided in
 Appendix~\ref{app:examples}.
 
+\subsection{Indicator discovery as auditable selection}\label{sec:workflow-discovery}
+
+A fourth canonical workflow, introduced in version~18.0, demonstrates how
+discovery commands make indicator \emph{selection} itself a scripted and
+auditable process. In traditional workflows, researchers browse web portals,
+scan indicator lists visually, and record codes manually---a process that
+leaves no executable trace. Discovery commands replace this with a
+reproducible sequence:
+
+\begin{stlog}
+.     * 1. Browse available sources
+.     wbopendata, sources
+.
+.     * 2. Explore a specific source (World Development Indicators = 2)
+.     wbopendata, searchsource(2) limit(30)
+.
+.     * 3. Search for indicators of interest
+.     wbopendata, search(poverty) searchtopic(11)
+.
+.     * 4. Get detailed info on a specific indicator
+.     wbopendata, info(SI.POV.DDAY)
+.
+.     * 5. Download the data
+.     wbopendata, indicator(SI.POV.DDAY) clear long
+\nullskip
+\end{stlog}
+
+Each step in this sequence is an executable Stata command that can be
+preserved in a do-file, version-controlled, and rerun by independent
+researchers. The discovery workflow thus extends the principle of data
+acquisition as code (Section~\ref{sec:design}) upstream: not only is the
+data \emph{download} scripted, but the process of \emph{finding and selecting}
+indicators is documented as well. Stored results from each discovery command
+(Section~\ref{sec:discovery}) enable programmatic enumeration of available
+indicators, filtering by source or topic, and extraction of metadata for
+selected series---supporting fully automated pipelines from discovery through
+analysis.
+
 % =====================================================================
 \section{Technical implementation and reliability}\label{sec:reliability}
 % =====================================================================
@@ -553,9 +662,14 @@ including \texttt{tknz} \citep{elliott2002tknz}, \texttt{linewrap}
 \citep{longfreese2001pecats}. These components support string tokenization,
 metadata wrapping, and category handling without introducing external binaries.
 
+Version~18.0 refactors the implementation into a modular architecture of 34 ado
+files, with sub-routines (prefixed \texttt{\_wbopendata\_}) handling YAML parsing,
+search, sync, cache management, and discovery commands. This modular design
+improves maintainability and enables independent testing of components.
+
 The implementation avoids third-party executables, ensuring compatibility with
 institutional computing environments that restrict software installation.
-Network requests respect Stata’s proxy configuration options (e.g.,
+Network requests respect Stata's proxy configuration options (e.g.,
 \texttt{set httpproxy on}), allowing the command to operate behind corporate
 firewalls.
 
@@ -603,25 +717,37 @@ for historical issues.
 Because Stata lacks the mature continuous integration and mocking frameworks
 available in other statistical environments, the test design prioritizes
 detection of upstream regressions such as schema changes, pagination failures,
-or API endpoint deprecations. The test suite comprises 44 integrated tests
-distributed across 13 categories, summarized in Table~\ref{tab:test-coverage}.
+or API endpoint deprecations. The test suite comprises 65 integrated tests
+distributed across 15 categories, covering environment validation, data download
+modes, output formatting, country metadata, regression protection, linewrap
+graph annotation, update commands, topic queries, language options, population
+projections, cache management, metadata synchronization, and discovery commands.
+Table~\ref{tab:test-coverage} summarizes the composition.
 
 \begin{table}[H]
 \centering
-\caption{Test suite composition (44 tests across 7 categories)}
+\caption{Test suite composition (65 tests across 15 categories)}
 \label{tab:test-coverage}
 
 \begin{tabular}{llrl}
 \hline
 Abbr. & Category & Tests & Focus \\
 \hline
-ENV  & Environment     & 2  & Network connectivity, API availability \\
-DL   & Download modes  & 8  & Indicator, country, topic, multi-indicator \\
-FMT  & Output format   & 5  & Wide, long, reshape, latest \\
-CTRY & Country options & 4  & Basic, full, geo, ISO \\
-LW   & Linewrap        & 6  & Metadata wrapping, formats \\
-REG  & Regression      & 7  & Historical bug fixes \\
-ADV  & Advanced        & 12 & Edge cases, error handling \\
+ENV   & Environment       & 5  & Network, API, YAML file presence \\
+DL    & Download modes    & 5  & Indicator, country, multi-indicator \\
+FMT   & Output format     & 4  & Wide, long, latest, nobasic \\
+CTRY  & Country options   & 10 & Basic, full, geo, ISO, regions, income, lending \\
+REG   & Regression        & 4  & Historical bug fixes (\#33, \#45, \#46, \#51) \\
+LW    & Linewrap          & 4  & Metadata wrapping, formats, latest scalars \\
+UPD   & Update commands   & 6  & Query, check, describe, update all \\
+TOPIC & Topic queries     & 1  & Topic download \\
+LANG  & Language          & 1  & Spanish metadata \\
+PROJ  & Projection        & 1  & Population projection data \\
+CACHE & Cache management  & 8  & Init, path resolution, clear, version, timestamps \\
+SYNC  & Sync system       & 5  & Check, download, force, up-to-date, discovery \\
+DISC  & Discovery         & 7  & Sources, topics, search, filter, info \\
+\hline
+      &                   & 65 & \\
 \hline
 \end{tabular}
 
@@ -635,7 +761,7 @@ informative diagnostics that guide users toward corrective action. Verbatim
 examples of missing indicators, archived series, and update operations are
 reported in Appendix~\ref{app:diagnostics}.
 
-\subsection{Metadata management}
+\subsection{Metadata management}\label{sec:metadata}
 
 Local metadata caches are managed through the \texttt{update} options.
 \texttt{update query} reports the current vintage, \texttt{update check}
@@ -661,6 +787,104 @@ By making indicator availability and metadata revisions explicit, the command
 reduces the risk that analytical pipelines continue to rely unknowingly on
 obsolete series or outdated definitions. Verbatim examples illustrating
 deprecated indicators and metadata updates are reported in Appendix~\ref{app:diagnostics}.
+
+\subsection{YAML metadata architecture (v18.0)}\label{sec:yaml}
+
+Version~18.0 introduces a structured metadata layer that supports the discovery
+commands described in Section~\ref{sec:discovery}. The metadata catalog is stored
+in YAML files within a local cache directory, enabling offline catalog browsing
+without network access.
+
+Two primary YAML files constitute the metadata catalog:
+
+\hangpara
+\texttt{\_wbopendata\_indicators.yaml} contains metadata for all indicators
+accessible through the World Bank API---over 29{,}000 records spanning 51 data
+sources. Each record includes the indicator code, name, source database,
+topic classifications, description, and methodology notes. At approximately
+17~MB and 100{,}000+ lines, this file is the largest component of the local
+cache.
+
+\hangpara
+\texttt{\_wbopendata\_parameters.yaml} stores country metadata (296 countries
+and aggregates), source definitions, and topic classifications. This file
+supports the \texttt{sources} and \texttt{alltopics} discovery commands and
+provides the lookup tables used when enriching downloaded data with country
+attributes.
+
+The cache directory also maintains version-tracking files that record the
+schema version, last synchronization timestamp, sync method, and a cumulative
+history of all sync operations. This audit trail allows users and automated
+pipelines to verify that the metadata driving indicator selection corresponds
+to a known, documented state.
+
+\subsubsection*{Performance}
+
+Parsing a 17~MB YAML file imposes a non-trivial startup cost. On first
+invocation, discovery commands require approximately 9~seconds to parse the
+indicators file and build an in-memory frame cache. Subsequent calls within the
+same Stata session retrieve results from the cached frame in under 0.5~seconds
+(Stata~16+). This frame-caching strategy ensures that interactive workflows
+involving repeated searches, source browsing, or metadata inspection remain
+responsive after the initial parse.
+
+\subsection{Metadata synchronization}\label{sec:sync}
+
+The \texttt{sync} command provides version-controlled metadata updates with an
+explicit safety gate. The default behavior is a \emph{dry run} that displays a
+preview of what would change without modifying the local cache. Applying changes
+requires the \texttt{replace} modifier, ensuring that metadata updates are never
+accidental.
+
+\hangpara
+\texttt{sync} previews metadata changes without applying them. This is the safe
+default: it reports the local cache version, compares it against the latest
+available release, and displays summary statistics.
+
+\hangpara
+\texttt{sync detail} extends the preview with per-source and per-topic indicator
+breakdowns, showing how many indicators each source contributes and how they are
+distributed across topic categories.
+
+\hangpara
+\texttt{sync replace} applies the metadata synchronization. After displaying the
+same preview, it downloads the latest metadata release from the GitHub repository
+and updates the local cache files.
+
+\hangpara
+\texttt{sync force} forces a fresh preview by re-querying the API rather than
+relying on cached diagnostics. This remains a dry run; no changes are applied.
+
+\hangpara
+\texttt{sync replace force} combines both modifiers: it forces a fresh download
+of metadata regardless of the local cache version, bypassing staleness checks.
+
+\noindent Three additional cache management commands complement the sync system:
+
+\hangpara
+\texttt{checkupdate} queries the remote repository for the latest release version
+and reports whether an update is available, without downloading or modifying any
+files.
+
+\hangpara
+\texttt{cacheinfo} displays the cache directory location, current metadata
+version, and last synchronization timestamp.
+
+\hangpara
+\texttt{clearcache} removes the local metadata cache entirely, forcing a full
+re-download on the next sync or discovery command.
+
+\noindent For backward compatibility, the deprecated aliases \texttt{syncforce},
+\texttt{syncpreview}, and \texttt{syncdryrun} from earlier versions continue to
+function, mapping transparently to \texttt{sync replace force},
+\texttt{sync replace}, and \texttt{sync}, respectively.
+
+The sync architecture attempts three download pathways in order of preference:
+a Python-based canonical pipeline (when Python is available), a pure-Stata
+fallback, and direct download from the GitHub releases page. This layered
+strategy maximizes compatibility across institutional computing environments
+with varying software restrictions while ensuring that at least one pathway
+succeeds.
 
 % =====================================================================
 \section{Discussion: reproducibility and constraints in the age of AI}\label{sec:discussion}
@@ -770,9 +994,10 @@ This longevity reflects deliberate design choices rather than technical inertia.
 By maintaining backward compatibility across upstream changes, encapsulating
 complexity behind domain-specific syntax, and treating data acquisition as code
 rather than manual preprocessing, \texttt{wbopendata} shifts reproducibility from
-an aspirational norm to a default behavior. Version~17.7.1 extends this approach
-with publication-ready metadata handling, default country-context attributes,
-and strengthened support for multi-indicator workflows.
+an aspirational norm to a default behavior. Version~18.0 extends this approach
+with offline discovery commands for catalog browsing and indicator search,
+a YAML-backed metadata architecture, version-controlled metadata synchronization,
+publication-ready metadata handling, and a 65-test QA suite across 15 categories.
 
 The command’s pure-Stata implementation ensures compatibility with institutional
 computing environments, while the bundled live test suite and QA framework
