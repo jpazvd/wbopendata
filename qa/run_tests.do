@@ -2351,8 +2351,8 @@ if $skip_test == 0 {
 *
 *   These tests use local CSV fixtures instead of the World Bank API,
 *   ensuring reproducible, network-independent verification. The
-*   $wbopendata_offline global variable redirects _query.ado to read
-*   from the qa/fixtures/ directory.
+*   offline() option redirects _query.ado to read from the
+*   qa/fixtures/ directory.
 *===============================================================================
 
 * Set up offline fixture directory for DET tests
@@ -2370,16 +2370,14 @@ if $skip_test == 0 {
         test_skip "Fixture SP_POP_TOTL_USA.csv not found (run decompress_fixtures.do)"
     }
     else {
-        global wbopendata_offline "`_det_fixtures'"
         cap noi {
-            wbopendata, indicator(SP.POP.TOTL) country(USA) clear nometadata long
+            wbopendata, indicator(SP.POP.TOTL) country(USA) clear nometadata long offline("`_det_fixtures'")
             assert _N > 50
             cap confirm variable countrycode
             assert _rc == 0
             cap confirm variable year
             assert _rc == 0
         }
-        global wbopendata_offline ""
         if _rc == 0 test_pass
         else test_fail "Offline single-country fixture failed"
     }
