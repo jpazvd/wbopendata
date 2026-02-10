@@ -95,6 +95,7 @@ version 14.0
 						MAXLENGTH(string) 	///
 						LINEWRAPFORMAT(string) 	///
 						DESCRIBE		///
+						OFFLINE(string)	///
                  ]
 
 quietly {
@@ -269,7 +270,7 @@ local indicator `indicators'
 		}
 		local _lw_opts ""
 		if "`linewrap'" != "" local _lw_opts `"linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")"'
-		noi _query_metadata , indicator("`indicator'") `_lw_opts'
+		noi _query_metadata , indicator("`indicator'") `_lw_opts' offline("`offline'")
 		return add
 		exit _rc
 	}
@@ -407,7 +408,8 @@ local indicator `indicators'
 										 `long'                       	///
 										 `clear'                      	///
 										 `nometadata'					///
-										 `char'
+										 `char'							///
+										 offline("`offline'")
 					local time  "`r(time)'"
 					local namek "`r(name)'"
 
@@ -415,7 +417,7 @@ local indicator `indicators'
 					if (`needmeta' == 1) & ("`indicator'" != "") {
 						local _lw_opts ""
 						if "`linewrap'" != "" local _lw_opts `"linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")"'
-						cap: noi _query_metadata  , indicator("``i''") `_lw_opts'
+						cap: noi _query_metadata  , indicator("``i''") `_lw_opts' offline("`offline'")
 						local qm1rc = _rc
 						if (`qm1rc' != 0) {
 							noi di ""
@@ -590,7 +592,8 @@ local indicator `indicators'
 									`clear'                 ///
 									`latest'                ///
 									`nometadata'			///
-									`char'
+									`char'									///
+									offline("`offline'")
 				local time  "`r(time)'"
 				local name "`r(name)'"
 
@@ -598,7 +601,7 @@ local indicator `indicators'
 				if (`needmeta' == 1) & ("`indicator'" != "") {
 					local _lw_opts ""
 					if "`linewrap'" != "" local _lw_opts `"linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")"'
-					cap: noi _query_metadata  , indicator("``i''") `_lw_opts'
+					cap: noi _query_metadata  , indicator("``i''") `_lw_opts' offline("`offline'")
 					local qm2rc = _rc
 					if ("`qm2rc'" == "") {
 						noi di ""

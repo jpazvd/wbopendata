@@ -24,6 +24,7 @@ version 9.0
 						 PROJECTION					///
 						 SOURCE(string)				///
 						 noCHAR					///
+						 OFFLINE(string)		///
                  ]
 
 
@@ -127,6 +128,42 @@ quietly {
 
     tempfile temp
 
+    * Offline fixture injection (Phase 6, Gould 2001)
+    * When offline() option is set to a directory path, data is read from
+    * local CSV fixture files instead of the World Bank API. This enables
+    * deterministic testing without network access.
+    if ("`offline'" != "") {
+        * Build fixture filename from indicator or topic
+        * Fixture naming convention: dots→underscores, appended country
+        *   indicator query: {IND_CODE}_{country}.csv  (e.g. SP_POP_TOTL_USA.csv)
+        *   topic query:    topic_{topicid}.csv
+        *   country query:  country_{countrycode}.csv
+        if ("`indicator'" != "") {
+            local _ind_name = subinstr("`indicator1'", ".", "_", .)
+            local _cty_name = subinstr("`country2'", ";", "_", .)
+            local _fixture_file "`offline'/`_ind_name'_`_cty_name'.csv"
+        }
+        else if ("`topics'" != "") {
+            local _fixture_file "`offline'/topic_`topics1'.csv"
+        }
+        else {
+            local _fixture_file "`offline'/country_`country1'.csv"
+        }
+        cap confirm file "`_fixture_file'"
+        if _rc != 0 {
+            noi di as err "Offline fixture not found: `_fixture_file'"
+            exit 601
+        }
+        noi di as text "(offline mode: reading from `_fixture_file')"
+        cap : copy "`_fixture_file'" `temp', replace
+        if ("`indicator'" != "") {
+            local queryspec2 "indicator `indicator1'"
+        }
+        else {
+            local queryspec2 "topic `topics1'"
+        }
+    }
+    else {
 
 	loc servername "https://api.worldbank.org/v2"  /* Query server v2 */
 
@@ -151,7 +188,7 @@ quietly {
             break
         }
     }
-/* Indicator selection */	
+/* Indicator selection */
     if  ("`indicator'" != "") {
         local queryspec "`servername'/`language'/countries/`country2'/`parameter'"
         local queryspec2 "indicator `indicator1'"
@@ -171,6 +208,8 @@ quietly {
             break
         }
     }
+
+    } /* end of online/offline branch */
 
     cap : insheet using `temp', `clear' name
     local rc3 = _rc
@@ -220,7 +259,8 @@ quietly {
 		cap : _api_read , query("https://api.worldbank.org/v2/Indicators/`indicator'") ///
 			nopreserve ///
 			list ///
-			parameter(indicator?id name source?id)
+			parameter(indicator?id name source?id) ///
+			offline("`offline'")
 			
 			
 			

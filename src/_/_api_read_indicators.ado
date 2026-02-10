@@ -18,6 +18,7 @@ program define _api_read_indicators, rclass
 							FILE3(string)			///
 							CHECK					///
 							QUERY					///
+							OFFLINE(string)			///
 							]			   
                  
 
@@ -49,29 +50,47 @@ program define _api_read_indicators, rclass
 		/* Download Indicator list using API  */
 		****************************************
 
-		noi di in smcl in g ""
-		noi di in smcl in g "{bf: Downloading indicators list 1/3...}"
+		* Offline fixture injection (Phase 6, Gould 2001)
+		* When $wbopendata_offline_api is set to a directory path, XML indicator
+		* lists are read from local fixture files instead of the World Bank API.
+		if "$wbopendata_offline_api" != "" {
+			noi di as text "(offline mode: reading indicator list fixtures)"
+			forvalues _p = 1/3 {
+				local _fixture "$wbopendata_offline_api/indicators_page`_p'.xml"
+				cap confirm file "`_fixture'"
+				if _rc != 0 {
+					noi di as err "Offline fixture not found: `_fixture'"
+					exit 601
+				}
+				cap: copy "`_fixture'" "`indicator`_p''", text replace
+			}
+			noi di as text "(offline mode: all 3 indicator pages loaded)"
+		}
+		else {
+			noi di in smcl in g ""
+			noi di in smcl in g "{bf: Downloading indicators list 1/3...}"
 
-		cap: copy "`query1'" "`indicator1'", text replace	
-		
-*		noi di in smcl in g ""
-		noi di in smcl in g "{bf: Downloading indicators list 1/3...COMPLETED!}"
-		
-		noi di in smcl in g ""
-		noi di in smcl in g "{bf: Downloading indicators list 2/3...}"
-		
-		cap: copy "`query2'" "`indicator2'", text replace
+			cap: copy "`query1'" "`indicator1'", text replace
 
-*		noi di in smcl in g ""
-		noi di in smcl in g "{bf: Downloading indicators list 2/3...COMPLETED!}"
+*			noi di in smcl in g ""
+			noi di in smcl in g "{bf: Downloading indicators list 1/3...COMPLETED!}"
 
-		noi di in smcl in g ""
-		noi di in smcl in g "{bf: Downloading indicators list 3/3...}"
-		
-		cap: copy "`query3'" "`indicator3'", text replace
+			noi di in smcl in g ""
+			noi di in smcl in g "{bf: Downloading indicators list 2/3...}"
 
-*		noi di in smcl in g ""
-		noi di in smcl in g "{bf: Downloading indicators list 3/3...COMPLETED!}"
+			cap: copy "`query2'" "`indicator2'", text replace
+
+*			noi di in smcl in g ""
+			noi di in smcl in g "{bf: Downloading indicators list 2/3...COMPLETED!}"
+
+			noi di in smcl in g ""
+			noi di in smcl in g "{bf: Downloading indicators list 3/3...}"
+
+			cap: copy "`query3'" "`indicator3'", text replace
+
+*			noi di in smcl in g ""
+			noi di in smcl in g "{bf: Downloading indicators list 3/3...COMPLETED!}"
+		}
 
 		noi di in smcl in g ""
 		noi di in smcl in g "{bf: Preparing indicator data for `what'...}"
