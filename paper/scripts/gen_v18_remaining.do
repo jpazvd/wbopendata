@@ -33,10 +33,10 @@ if _rc != 0 {
     cap sjlog close
 }
 
-* === Update: regenerate ===
-di ">>> ex_update (regenerated)"
-sjlog using "`logs'/ex_update", replace
-wbopendata, update query
+* === Sync preview: replaces deprecated update query (v18.1) ===
+di ">>> ex_sync"
+sjlog using "`logs'/ex_sync", replace
+wbopendata, sync
 sjlog close, replace
 
 di _n "=== Remaining sjlogs generated ==="

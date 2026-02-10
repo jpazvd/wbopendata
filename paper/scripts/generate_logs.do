@@ -315,19 +315,19 @@ log close _snippet
 di as text "  Completed: ex_describe.tex"
 
 * ==============================================================================
-* Example 9: Update metadata query
+* Example 9: Sync preview (replaces deprecated update query, v18.1)
 * ==============================================================================
 
-di as text "Generating: ex_update.tex"
+di as text "Generating: ex_sync.tex"
 
 cap log close _snippet
-log using "`logs_dir'/ex_update.tex", text replace name(_snippet)
+log using "`logs_dir'/ex_sync.tex", text replace name(_snippet)
 
-cap noi wbopendata, update query
+cap noi wbopendata, sync
 
 log close _snippet
 
-di as text "  Completed: ex_update.tex"
+di as text "  Completed: ex_sync.tex"
 
 * ==============================================================================
 * Example 10: Missing/invalid indicator or offline session
@@ -480,7 +480,7 @@ di as text _n "Cleaning log headers..."
 * Clean each log file to remove Stata log header/footer
 foreach f in ex_single_indicator ex_multiple_indicators ex_latest_option ///
              ex_linewrap_returns ex_linewrap_graph ex_scatter_figure ex_full_option ///
-             ex_worldstat_africa ex_worldstat_world ex_describe ex_update ///
+             ex_worldstat_africa ex_worldstat_world ex_describe ex_sync ///
              ex_indicator_missing ex_indicator_deprecated ex_choropleth_map ///
              ex_scatter_poverty_gdp {
     
