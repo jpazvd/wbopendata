@@ -1,0 +1,14 @@
+r; t=0.01 3:26:20
+.     wbopendata, cacheinfo
+r(606); t=0.00 3:26:20
+.     sjlog close, replace
+r; t=0.00 3:26:20
+. {\rbr}
+r; t=0.05 3:26:20
+{\smallskip}
+. if _rc != 0 {\lbr}
+.     di as text "  cacheinfo not available (rc=`=_rc')"
+  cacheinfo not available (rc=606)
+r; t=0.00 3:26:20
+.     cap sjlog close
+{\smallskip}
