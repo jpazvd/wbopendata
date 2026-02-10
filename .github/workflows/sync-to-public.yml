@@ -1,8 +1,9 @@
-name: Sync to Public Repo (Staging)
+name: Sync to Public Repo (jpazvd/wbopendata)
 
 on:
   push:
     tags: ['v*']
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   sync:
@@ -11,102 +12,159 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # Full history for proper sync
 
-      - name: Remove private content
+      - name: Prepare public content (whitelist approach)
         run: |
-          # Private folders (strategic/personal)
-          rm -rf paper/
-          rm -rf drafts/
-          rm -rf internal/
-          rm -rf benchmarks/
-          rm -rf personal/
-          rm -rf _drafts/
-          rm -rf _archive/
-          rm -rf _deprecated/
-          rm -rf eb1a/
-          
-          # Testing framework private content
-          rm -rf tests/logs/              # Test execution logs
-          rm -rf qa/logs/                 # QA execution results
-          rm -rf qa/results/              # QA execution results (if private)
-          rm -rf validation/results/      # Validation results (unpublished)
-          
-          # Log files
-          rm -f *.log
-          rm -f test_*.log
-          find . -name '*.log' -type f -delete
-          
-          # Private GitHub config
-          rm -f .github/copilot-instructions.md
-          rm -rf .github/copilot/
-          rm -rf .github/prompts/
-          
-          # Hide sync workflow (contains private repo name)
-          rm -f .github/workflows/sync-to-public.yml
-          
-          # Project tracking (internal)
-          rm -f PHASE_*.md
-          rm -f PROJECT_*.md
-          rm -f PR14_*.md
-          rm -f *_TEST_REPORT*.md
-          rm -f *_VALIDATION_PROTOCOL.md
-          
-          # Remove any other private files
-          rm -f PRIVATE_NOTES.md
-          rm -f TODO-internal.md
+          # Create staging directory
+          mkdir -p sync-staging
 
-      - name: Verify private content removed
+          echo "=== Copying public folders ==="
+
+          # Core Stata package (the main deliverable)
+          [ -d src ] && cp -r src sync-staging/ && echo "  src/"
+
+          # Documentation
+          [ -d doc ] && cp -r doc sync-staging/ && echo "  doc/"
+
+          # SSC distribution package
+          [ -d ssc ] && cp -r ssc sync-staging/ && echo "  ssc/"
+
+          # QA test infrastructure (scripts only, not logs/results)
+          if [ -d qa ]; then
+            mkdir -p sync-staging/qa
+            cp qa/*.do sync-staging/qa/ 2>/dev/null || true
+            cp qa/*.txt sync-staging/qa/ 2>/dev/null || true
+            cp qa/*.md sync-staging/qa/ 2>/dev/null || true
+            # QA fixtures (compressed test data for reproducibility)
+            if [ -d qa/fixtures ]; then
+              mkdir -p sync-staging/qa/fixtures
+              cp qa/fixtures/*.tar.gz sync-staging/qa/fixtures/ 2>/dev/null || true
+              cp qa/fixtures/*.do sync-staging/qa/fixtures/ 2>/dev/null || true
+            fi
+            echo "  qa/ (scripts and fixtures only)"
+          fi
+
+          # Test scripts (not logs)
+          if [ -d tests ]; then
+            mkdir -p sync-staging/tests
+            cp tests/*.do sync-staging/tests/ 2>/dev/null || true
+            cp tests/*.py sync-staging/tests/ 2>/dev/null || true
+            echo "  tests/ (scripts only)"
+          fi
+
+          # Paper (PDF only - LaTeX sources stay private)
+          if [ -d paper ]; then
+            mkdir -p sync-staging/paper
+            find paper -name '*.pdf' -exec cp -v {} sync-staging/paper/ \; 2>/dev/null || true
+            echo "  paper/ (PDF only)"
+          fi
+
+          echo ""
+          echo "=== Copying root files ==="
+
+          # Documentation
+          cp -v README.md sync-staging/ 2>/dev/null || true
+          cp -v LICENSE sync-staging/ 2>/dev/null || true
+          cp -v CHANGELOG.md sync-staging/ 2>/dev/null || true
+          cp -v CITATION.cff sync-staging/ 2>/dev/null || true
+          cp -v RELEASE_NOTES.md sync-staging/ 2>/dev/null || true
+          cp -v CONTRIBUTING.md sync-staging/ 2>/dev/null || true
+
+          # Stata package metadata
+          cp -v dependency.do sync-staging/ 2>/dev/null || true
+          cp -v stata.toc sync-staging/ 2>/dev/null || true
+          cp -v wbopendata.pkg sync-staging/ 2>/dev/null || true
+
+          # Git configuration
+          [ -f .gitattributes ] && cp -v .gitattributes sync-staging/
+
+          echo ""
+          echo "=== Copying public .gitignore ==="
+          # The public repo needs its own .gitignore with defense-in-depth
+          # patterns. If a public-specific version exists, use it; otherwise
+          # copy the dev version.
+          if [ -f .gitignore.public ]; then
+            cp -v .gitignore.public sync-staging/.gitignore
+          else
+            cp -v .gitignore sync-staging/
+          fi
+
+          echo ""
+          echo "=== Removing any stray private content ==="
+          # Belt-and-suspenders: remove log files that might have been
+          # copied inside whitelisted folders
+          find sync-staging -name '*.log' -type f -delete 2>/dev/null || true
+          # Remove _archive subfolders (development artifacts)
+          find sync-staging -name '_archive' -type d -exec rm -rf {} + 2>/dev/null || true
+
+          echo ""
+          echo "=== Public content ready ==="
+          echo "Contents to be synced:"
+          ls -la sync-staging/
+          echo ""
+          echo "Folders:"
+          ls -d sync-staging/*/ 2>/dev/null || echo "(no folders)"
+
+      - name: Verify no private content in staging
         run: |
-          echo "🔍 Verifying private content removal..."
+          echo "Verifying staging directory..."
           FOUND_PRIVATE=0
-          
+
+          # These folders must NOT be in staging
           PRIVATE_ITEMS=(
-            "paper"
-            "internal"
-            "drafts"
-            "benchmarks"
-            "personal"
-            "_drafts"
-            "_archive"
-            "_deprecated"
-            "eb1a"
-            ".github/copilot-instructions.md"
-            ".github/copilot"
-            ".github/prompts"
-            ".github/workflows/sync-to-public.yml"
+            "sync-staging/archive"
+            "sync-staging/internal"
+            "sync-staging/data"
+            "sync-staging/config"
+            "sync-staging/logs"
+            "sync-staging/scripts"
+            "sync-staging/.github"
+            "sync-staging/paper/*.tex"
           )
-          
+
           for item in "${PRIVATE_ITEMS[@]}"; do
-            if [ -e "$item" ]; then
-              echo "❌ FAIL: Found private item: $item"
+            if ls -d $item 2>/dev/null | grep -q .; then
+              echo "FAIL: Found private item: $item"
               FOUND_PRIVATE=1
             fi
           done
-          
-          if find . -maxdepth 2 -name "*.log" -type f 2>/dev/null | grep -q .; then
-            echo "❌ FAIL: Found .log files"
+
+          # No .log files anywhere in staging
+          if find sync-staging -name '*.log' -type f 2>/dev/null | grep -q .; then
+            echo "FAIL: Found .log files in staging"
+            find sync-staging -name '*.log' -type f
             FOUND_PRIVATE=1
           fi
-          
+
+          # No copilot/AI instruction files
+          if find sync-staging -name 'copilot-instructions.md' -type f 2>/dev/null | grep -q .; then
+            echo "FAIL: Found copilot instructions in staging"
+            FOUND_PRIVATE=1
+          fi
+
           if [ $FOUND_PRIVATE -eq 1 ]; then
-            echo "❌ Aborting sync: Private files detected!"
+            echo "Aborting sync: Private files detected in staging!"
             exit 1
           fi
-          
-          echo "✅ PASS: No private files found. Safe to push."
+
+          echo "PASS: No private files found. Safe to push."
 
       - name: Push to public repo (staging branch)
         uses: cpina/github-action-push-to-another-repository@main
         env:
           SSH_DEPLOY_KEY: ${{ secrets.PUBLIC_REPO_DEPLOY_KEY }}
         with:
-          source-directory: '.'
+          source-directory: 'sync-staging'
           destination-github-username: 'jpazvd'
           destination-repository-name: 'wbopendata'
           target-branch: staging
           user-name: 'github-actions[bot]'
           user-email: 'github-actions[bot]@users.noreply.github.com'
+          commit-message: |
+            sync: ${{ github.ref_name }}
+
+            Synced from: jpazvd/wbopendata-dev@${{ github.sha }}
 
       - name: Push tags to public repo
         run: |
@@ -115,6 +173,5 @@ jobs:
           chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -t ed25519 github.com >> ~/.ssh/known_hosts 2>/dev/null
           export GIT_SSH_COMMAND="ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no"
-          git remote add public-for-tags git@github.com:jpazvd/wbopendata.git 2>/dev/null || trueit@github.com:jpazvd/wbopendata.git 2>/dev/null || true
+          git remote add public-for-tags git@github.com:jpazvd/wbopendata.git 2>/dev/null || true
           git push public-for-tags --tags
-
