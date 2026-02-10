@@ -389,7 +389,7 @@ All discovery outputs feature clickable SMCL links that let users drill down fro
 \hangpara
 \texttt{info(\ststring)} displays detailed metadata for a specific indicator, including its full name, source database, topic classifications, description, methodology notes with clickable URLs, and download commands.
 
-These commands support the paper's central thesis by making indicator \emph{selection} itself a scripted, auditable process. Rather than browsing web portals manually and noting indicator codes on paper, researchers can document their search and selection process as executable Stata commands that can be inspected, replicated, and version-controlled.
+These commands support the paper's central thesis by making indicator \emph{selection} itself a scripted, auditable process. Rather than browsing web portals manually and noting indicator codes on paper, researchers can document their search and selection process as executable Stata commands that can be inspected, replicated, and version-controlled. Verbatim outputs illustrating each discovery command are reported in Appendix~\ref{app:diagnostics:sources}--\ref{app:diagnostics:alltopics}.
 
 \subsection{Stored results}
 
@@ -884,7 +884,8 @@ a Python-based canonical pipeline (when Python is available), a pure-Stata
 fallback, and direct download from the GitHub releases page. This layered
 strategy maximizes compatibility across institutional computing environments
 with varying software restrictions while ensuring that at least one pathway
-succeeds.
+succeeds. Verbatim outputs of sync diagnostics and cache management commands
+are reported in Appendix~\ref{app:diagnostics:sync}--\ref{app:diagnostics:checkupdate}.
 
 % =====================================================================
 \section{Discussion: reproducibility and constraints in the age of AI}\label{sec:discussion}
@@ -1233,6 +1234,41 @@ logic and can be identified by re-running the corresponding commands.
 \subsection{Metadata cache update output}
 \begin{stlog}
 \input{sjlogs/ex_update.log.tex}\nullskip
+\end{stlog}
+
+\subsection{Discovery: Available sources}\label{app:diagnostics:sources}
+\begin{stlog}
+\input{sjlogs/ex_discovery_sources.log.tex}\nullskip
+\end{stlog}
+
+\subsection{Discovery: Indicator search}\label{app:diagnostics:search}
+\begin{stlog}
+\input{sjlogs/ex_discovery_search.log.tex}\nullskip
+\end{stlog}
+
+\subsection{Discovery: Indicator metadata}\label{app:diagnostics:info}
+\begin{stlog}
+\input{sjlogs/ex_discovery_info.log.tex}\nullskip
+\end{stlog}
+
+\subsection{Discovery: Topic categories}\label{app:diagnostics:alltopics}
+\begin{stlog}
+\input{sjlogs/ex_discovery_alltopics.log.tex}\nullskip
+\end{stlog}
+
+\subsection{Sync: Metadata status preview}\label{app:diagnostics:sync}
+\begin{stlog}
+\input{sjlogs/ex_sync_preview.log.tex}\nullskip
+\end{stlog}
+
+\subsection{Sync: Detailed metadata breakdown}\label{app:diagnostics:syncdetail}
+\begin{stlog}
+\input{sjlogs/ex_sync_detail.log.tex}\nullskip
+\end{stlog}
+
+\subsection{Cache: Update check}\label{app:diagnostics:checkupdate}
+\begin{stlog}
+\input{sjlogs/ex_checkupdate.log.tex}\nullskip
 \end{stlog}
 
 % =====================================================================
