@@ -293,7 +293,8 @@ Languages & 3 (English, Spanish, French) \\
 Exactly one of the following is required:
 
 \hangpara
-\texttt{\underbar{ind}icator(\ststring)} specifies one or more World Bank indicator codes. Multiple indicators can be requested by separating codes with semicolons, for example, \texttt{indicator(SP.POP.TOTL;NY.GDP.PCAP.CD)}.
+\texttt{\underbar{ind}icator(\ststring)} specifies one or more World Bank indicator codes. Multiple indicators can be requested by separating codes with semicolons:\newline
+\mbox{}\quad\texttt{indicator(SP.POP.TOTL;NY.GDP.PCAP.CD)}.
 
 \hangpara
 \texttt{\underbar{c}ountry(\ststring)} specifies ISO3 country codes or World Bank region codes to retrieve all available indicators for selected countries. Multiple codes can be separated by semicolons.
@@ -440,7 +441,10 @@ All discovery outputs feature clickable SMCL links that let users drill down fro
 \texttt{searchtopic(\num)} filters search results to a specific topic ID.
 
 \hangpara
-\texttt{searchfield(\ststring)} restricts search to specified metadata fields: \texttt{code}, \texttt{name}, \texttt{description}, \texttt{source}, \texttt{topic}, \texttt{note}, or \texttt{all} (default). Multiple fields can be separated by semicolons.
+\texttt{searchfield(\ststring)} restricts search to a metadata field:
+\texttt{code}, \texttt{name}, \texttt{description}, \texttt{source},
+\texttt{topic}, \texttt{note}, or \texttt{all} (default).
+Multiple fields can be separated by semicolons.
 
 \hangpara
 \texttt{exact} requires an exact indicator code match rather than partial matching.
@@ -460,7 +464,13 @@ These commands support the paper's central thesis by making indicator \emph{sele
 
 \texttt{wbopendata} is an r-class command that stores results in \texttt{r()}. These stored results are critical for automation: they allow downstream code to programmatically access indicator metadata, construct dynamic graph titles, and build reproducible pipelines without manual intervention.
 
-\textbf{Indicator codes and variable names.} World Bank indicator codes like \texttt{SI.POV.DDAY} contain periods, which Stata does not allow in variable names. The command automatically converts indicator codes to Stata-safe variable names by replacing periods with underscores and converting to lowercase: \texttt{SI.POV.DDAY} becomes \texttt{si\_pov\_dday}. Both forms are stored: \texttt{r(indicator\#)} preserves the original API code for documentation and re-querying, while \texttt{r(varname\#)} provides the Stata variable name for use in analysis commands.
+\noindent\textbf{Indicator codes and variable names.}
+World Bank indicator codes like \texttt{SI.POV.DDAY} contain periods,
+which Stata does not permit in variable names. The command automatically
+converts indicator codes to Stata-safe variable names by replacing periods
+with underscores and converting to lowercase: \texttt{SI.POV.DDAY} becomes
+\texttt{si\_pov\_dday}.
+Both forms are stored: \texttt{r(indicator\#)} preserves the original API code for documentation and re-querying, while \texttt{r(varname\#)} provides the Stata variable name for use in analysis commands.
 
 \textbf{Indexed versus aggregate returns.} Results come in two forms. Indexed returns (\texttt{r(varname1)}, \texttt{r(varname2)}, \ldots) store metadata for each indicator separately, enabling indicator-specific labeling and citation. Aggregate returns store combined information: \texttt{r(indicator)} contains the full semicolon-separated query string as entered, while \texttt{r(name)} contains all variable names as a space-separated list suitable for \texttt{foreach} loops or variable lists.
 
@@ -838,14 +848,14 @@ Table~\ref{tab:test-coverage} summarizes the composition.
 \caption{Test suite composition (71 tests across 16 categories)}
 \label{tab:test-coverage}
 
-\begin{tabular}{llrl}
+\begin{tabular}{@{}llrl@{}}
 \hline
 Abbr. & Category & Tests & Focus \\
 \hline
 ENV   & Environment       & 5  & Network, API, YAML file presence \\
 DL    & Download modes    & 5  & Indicator, country, multi-indicator \\
 FMT   & Output format     & 4  & Wide, long, latest, nobasic \\
-CTRY  & Country options   & 10 & Basic, full, geo, ISO, regions, income, lending \\
+CTRY  & Country options   & 10 & Basic, full, geo, ISO, regions, income \\
 REG   & Regression        & 4  & Historical bug fixes (\#33, \#45, \#46, \#51) \\
 LW    & Linewrap          & 4  & Metadata wrapping, formats, latest scalars \\
 UPD   & Maintenance       & 6  & Legacy update, describe, sync interop \\
@@ -994,7 +1004,9 @@ re-download on the next sync or discovery command.
 function with a warning.  The sync aliases \texttt{syncforce},
 \texttt{syncpreview}, and \texttt{syncdryrun} map transparently to
 \texttt{sync replace force}, \texttt{sync replace}, and \texttt{sync},
-respectively.  The \texttt{metadataoffline} option, which previously generated
+respectively.
+
+The \texttt{metadataoffline} option, which previously generated
 71 per-indicator \texttt{.sthlp} files ($\sim$15\,MB), is superseded by the
 YAML metadata architecture and the discovery commands described in
 Section~\ref{sec:discovery}.
@@ -1145,7 +1157,7 @@ documentation alone, but by infrastructure that enforces it upstream.
 \section*{Acknowledgments}
 % =====================================================================
 
-The author thanks Kit Baum for comments on an earlier draft and for pointing toward important references, and Aart Kraay for questions and nudges toward interesting features to be included.  Thanks also to the World Bank Open Data Initiative for making development data freely accessible, and to the many users who have contributed bug reports and feature suggestions through GitHub.
+The author thanks Kit Baum for comments on an earlier draft and for pointing toward important references, and Aart Kraay for questions and nudges toward interesting features to be included.  The author is grateful to the World Bank colleagues who have built and supported the Open Data APIs over the years, in particular Malarvizhi Veerappan, Rochelle Glenene O'Hagan, Timothy Grant Herzog, and Ana Florina Pirlea.  Thanks also to the World Bank Open Data Initiative for making development data freely accessible, and to the many users who have contributed bug reports and feature suggestions through GitHub.
 
 \bibliographystyle{sj}
 \nocite{pisati2007spmap,clarke2012worldstat}
@@ -1302,8 +1314,8 @@ provided verbatim.
 % ---------------------------------------------------------------------
 \subsection{User-written extensions}\label{app:examples:extensions}
 
-This subsection documents examples using user-written commands that rely on
-\texttt{wbopendata} internally.
+This subsection shows examples of user-written commands
+that rely on \texttt{wbopendata} internally.
 
 \subsubsection{\texttt{worldstat}: Africa example (verbatim output)}
 \begin{stlog}
@@ -1353,7 +1365,7 @@ logic and can be identified by re-running the corresponding commands.
 
 \subsection{Metadata sync preview output}
 \begin{stlog}
-\input{sjlogs/ex_sync.log.tex}\nullskip
+\input{sjlogs/ex_sync_preview.log.tex}\nullskip
 \end{stlog}
 
 \subsection{Discovery: Available sources}\label{app:diagnostics:sources}

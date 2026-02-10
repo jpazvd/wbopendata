@@ -267,7 +267,9 @@ local indicator `indicators'
 			noi di as err "describe option requires indicator()"
 			exit 198
 		}
-		noi _query_metadata , indicator("`indicator'") linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")
+		local _lw_opts ""
+		if "`linewrap'" != "" local _lw_opts `"linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")"'
+		noi _query_metadata , indicator("`indicator'") `_lw_opts'
 		return add
 		exit _rc
 	}
@@ -411,7 +413,9 @@ local indicator `indicators'
 
 
 					if (`needmeta' == 1) & ("`indicator'" != "") {
-						cap: noi _query_metadata  , indicator("``i''") linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")
+						local _lw_opts ""
+						if "`linewrap'" != "" local _lw_opts `"linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")"'
+						cap: noi _query_metadata  , indicator("``i''") `_lw_opts'
 						local qm1rc = _rc
 						if (`qm1rc' != 0) {
 							noi di ""
@@ -592,7 +596,9 @@ local indicator `indicators'
 
 
 				if (`needmeta' == 1) & ("`indicator'" != "") {
-					cap: noi _query_metadata  , indicator("``i''") linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")
+					local _lw_opts ""
+					if "`linewrap'" != "" local _lw_opts `"linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")"'
+					cap: noi _query_metadata  , indicator("``i''") `_lw_opts'
 					local qm2rc = _rc
 					if ("`qm2rc'" == "") {
 						noi di ""
