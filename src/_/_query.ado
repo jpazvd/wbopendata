@@ -1,7 +1,8 @@
 *******************************************************************************
 * _query   
-*! v 16.3  	8Jul2020               by Joao Pedro Azevedo
-* 	change API end point to HTTPS
+*! v 16.4  	10Feb2026               by Joao Pedro Azevedo
+*   16.4: Added nochar option passthrough; variable-level char metadata for indicator variables
+* 	16.3: change API end point to HTTPS
 *******************************************************************************
 
 program def _query, rclass
@@ -20,8 +21,9 @@ version 9.0
                          CLEAR                      ///
                          LATEST                     ///
                          NOMETADATA                 ///
-						 PROJECTION					///	
+						 PROJECTION					///
 						 SOURCE(string)				///
+						 noCHAR					///
                  ]
 
 
@@ -345,6 +347,13 @@ quietly {
 
         rename `l1' `name'
         label var `name' "`indicator'"
+
+        * --- variable-level char metadata (default-on, suppressed by nochar) ---
+        if ("`char'" != "nochar") {
+            local _ind_code = word("`indicator'",1)
+            char `name'[indicator] "`_ind_code'"
+        }
+
         `l3'
         `l4'
         if ("`latest'" != "") {

@@ -3,7 +3,7 @@
 * Test Suite Version: 2.0.0
 * Date: January 2026
 * Compatible with: wbopendata v17.7.1+
-* Total Tests: 65 (61 core + 4 repo-comparison)
+* Total Tests: 71 (67 core + 4 repo-comparison)
 * 
 * Usage: 
 *   do run_tests.do              - Run all tests (prompts for repo location)
@@ -25,6 +25,7 @@
 *   8 - Advanced Features (6): PROJ-01, FMT-04, DESC-01, META-01, CTRY-11, DATE-01
 *   9 - Cache & Sync System (13): CACHE-01 to CACHE-08, SYNC-01 to SYNC-05
 *  10 - Discovery Commands (7): DISC-01 to DISC-07 [no network needed]
+*  11 - Characteristic Metadata (6): CHAR-01 to CHAR-06 [v18.1]
 * 
 * Configuration:
 *   To set your repo path permanently, define global before running:
@@ -158,6 +159,14 @@ foreach arg of local args {
         di as text "  DISC-05  Topics listing"
         di as text "  DISC-06  Indicator info lookup"
         di as text "  DISC-07  Search router (cache_method by Stata version)"
+        di as text ""
+        di as text "  Characteristic Metadata (v18.1):"
+        di as text "  CHAR-01  Dataset-level _dta chars set by default"
+        di as text "  CHAR-02  Variable-level indicator char set by default"
+        di as text "  CHAR-03  Variable-level metadata chars (with metadata)"
+        di as text "  CHAR-04  nochar suppresses all chars"
+        di as text "  CHAR-05  Multi-indicator chars set per variable"
+        di as text "  CHAR-06  Chars persist across save/use"
         exit 0
     }
     else {
@@ -1977,6 +1986,159 @@ if $skip_test == 0 {
     }
     if _rc == 0 test_pass
     else test_fail "Search router cache_method incorrect"
+}
+
+*===============================================================================
+* TEST CATEGORY 11: Characteristic Metadata (v18.1)
+*===============================================================================
+
+di as text _n "`sep'"
+di as text "CATEGORY 11: Characteristic Metadata (v18.1)"
+di as text "`sep'"
+
+* CHAR-01: Dataset-level chars set by default
+run_test "CHAR-01" "Dataset-level _dta chars set by default"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) clear long nometadata
+
+        * _dta chars should be set
+        local ver : char _dta[wbopendata_version]
+        local ts  : char _dta[wbopendata_timestamp]
+        local usr : char _dta[wbopendata_user]
+        local syn : char _dta[wbopendata_syntax]
+        local ind : char _dta[wbopendata_indicator]
+
+        di as text "version:   `ver'"
+        di as text "timestamp: `ts'"
+        di as text "user:      `usr'"
+        di as text "syntax:    `syn'"
+        di as text "indicator: `ind'"
+
+        assert "`ver'" != ""
+        assert "`ts'" != ""
+        assert "`usr'" != ""
+        assert "`syn'" != ""
+        assert "`ind'" != ""
+    }
+    if _rc == 0 test_pass
+    else test_fail "Dataset-level _dta chars not set"
+}
+
+* CHAR-02: Variable-level indicator char set by default
+run_test "CHAR-02" "Variable-level indicator char set by default"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) clear long nometadata
+
+        * Variable char[indicator] should be set by _query
+        local ind_char : char sp_pop_totl[indicator]
+        di as text "sp_pop_totl[indicator]: `ind_char'"
+        assert "`ind_char'" == "SP.POP.TOTL"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Variable-level indicator char not set"
+}
+
+* CHAR-03: Variable-level metadata chars set with metadata
+run_test "CHAR-03" "Variable-level metadata chars (with metadata)"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) clear long
+
+        * Variable-level chars from _query_metadata should be set
+        local src_char : char sp_pop_totl[source]
+        local desc_char : char sp_pop_totl[description]
+        local topic_char : char sp_pop_totl[topic]
+
+        di as text "sp_pop_totl[source]:      `src_char'"
+        di as text "sp_pop_totl[description]: `desc_char'"
+        di as text "sp_pop_totl[topic]:       `topic_char'"
+
+        * At minimum indicator code must be set
+        local ind_char : char sp_pop_totl[indicator]
+        assert "`ind_char'" == "SP.POP.TOTL"
+
+        * With metadata, source/description should also be set
+        assert "`desc_char'" != ""
+    }
+    if _rc == 0 test_pass
+    else test_fail "Variable-level metadata chars not set"
+}
+
+* CHAR-04: nochar suppresses all chars
+run_test "CHAR-04" "nochar suppresses all chars"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) clear long nochar
+
+        * _dta chars should be empty
+        local ver : char _dta[wbopendata_version]
+        local ts  : char _dta[wbopendata_timestamp]
+
+        di as text "With nochar - version:   `ver'"
+        di as text "With nochar - timestamp: `ts'"
+
+        assert "`ver'" == ""
+        assert "`ts'" == ""
+
+        * Variable chars should also be empty
+        local ind_char : char sp_pop_totl[indicator]
+        di as text "With nochar - indicator: `ind_char'"
+        assert "`ind_char'" == ""
+    }
+    if _rc == 0 test_pass
+    else test_fail "nochar option not suppressing chars"
+}
+
+* CHAR-05: Multi-indicator chars set per variable
+run_test "CHAR-05" "Multi-indicator chars set per variable"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL;NY.GDP.MKTP.CD) clear long
+
+        * Each variable should have its own indicator char
+        local ind1 : char sp_pop_totl[indicator]
+        local ind2 : char ny_gdp_mktp_cd[indicator]
+
+        di as text "sp_pop_totl[indicator]:    `ind1'"
+        di as text "ny_gdp_mktp_cd[indicator]: `ind2'"
+
+        assert "`ind1'" == "SP.POP.TOTL"
+        assert "`ind2'" == "NY.GDP.MKTP.CD"
+
+        * _dta should have both indicators
+        local dta_ind : char _dta[wbopendata_indicator]
+        di as text "_dta[wbopendata_indicator]: `dta_ind'"
+        assert "`dta_ind'" != ""
+    }
+    if _rc == 0 test_pass
+    else test_fail "Multi-indicator chars not set correctly"
+}
+
+* CHAR-06: Chars persist across save/use
+run_test "CHAR-06" "Chars persist across save/use"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) clear long nometadata
+
+        tempfile chartest
+        save `chartest'
+        clear
+        use `chartest'
+
+        * Chars should survive save/use
+        local ver : char _dta[wbopendata_version]
+        local ind : char sp_pop_totl[indicator]
+
+        di as text "After save/use - version:   `ver'"
+        di as text "After save/use - indicator: `ind'"
+
+        assert "`ver'" != ""
+        assert "`ind'" == "SP.POP.TOTL"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Chars not persisting across save/use"
 }
 
 *===============================================================================

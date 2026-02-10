@@ -1,6 +1,7 @@
 *******************************************************************************
 * wbopendata
-*! v 18.0.0  	 05Feb2026               by Joao Pedro Azevedo
+*! v 18.1.0  	 10Feb2026               by Joao Pedro Azevedo
+*   18.1.0: Added char metadata (default-on, nochar to suppress); _dta-level session provenance and variable-level indicator metadata
 *   18.0.0: Deprecated 89 per-indicator sthlp files; replaced with discovery commands (sources, search, info)
 *   17.8.1: Pass detail option through to search for wrapped display format
 *   17.8.0: Added sources, alltopics discovery commands; enhanced search with topic/field filters and wildcards
@@ -53,6 +54,7 @@ version 14.0
 						LENDING				///
 						GEO					///
 						noBASIC				///
+						noCHAR				///
 						FULL				///
 						COUNTRYCODE_ISO2 	///
 						REGION 				///
@@ -385,7 +387,8 @@ local indicator `indicators'
 										`projection'					///
 										 `long'                       	///
 										 `clear'                      	///
-										 `nometadata'
+										 `nometadata'					///
+										 `char'
 					local time  "`r(time)'"
 					local namek "`r(name)'"
 
@@ -501,6 +504,25 @@ local indicator `indicators'
 
 							capture local scite "`r(sourcecite)'"
 							if (_rc == 0 & "`scite'" != "") return local sourcecite`idx' "`scite'"
+
+							* --- variable-level char metadata from _query_metadata ---
+							if ("`char'" != "nochar") {
+								local _vname = trim(lower(subinstr(word("``i''",1),".","_",.)))
+								capture confirm variable `_vname'
+								if (_rc == 0) {
+									char `_vname'[source]      `"`r(source)'"'
+									char `_vname'[description] `"`r(description)'"'
+									char `_vname'[note]        `"`r(note)'"'
+									char `_vname'[sourcecite]  `"`r(sourcecite)'"'
+									local _t1 "`r(topic1)'"
+									local _t2 "`r(topic2)'"
+									local _t3 "`r(topic3)'"
+									local _topics "`_t1'"
+									if ("`_t2'" != "") local _topics "`_topics'; `_t2'"
+									if ("`_t3'" != "") local _topics "`_topics'; `_t3'"
+									char `_vname'[topic] "`_topics'"
+								}
+							}
 						}
 					}
 
@@ -546,7 +568,8 @@ local indicator `indicators'
 									`long'                  ///
 									`clear'                 ///
 									`latest'                ///
-									`nometadata'
+									`nometadata'			///
+									`char'
 				local time  "`r(time)'"
 				local name "`r(name)'"
 
@@ -663,9 +686,28 @@ local indicator `indicators'
 
 						capture local scite "`r(sourcecite)'"
 						if (_rc == 0 & "`scite'" != "") return local sourcecite`idx' "`scite'"
+
+						* --- variable-level char metadata from _query_metadata ---
+						if ("`char'" != "nochar") {
+							local _vname = trim(lower(subinstr(word("`indicator'",1),".","_",.)))
+							capture confirm variable `_vname'
+							if (_rc == 0) {
+								char `_vname'[source]      `"`r(source)'"'
+								char `_vname'[description] `"`r(description)'"'
+								char `_vname'[note]        `"`r(note)'"'
+								char `_vname'[sourcecite]  `"`r(sourcecite)'"'
+								local _t1 "`r(topic1)'"
+								local _t2 "`r(topic2)'"
+								local _t3 "`r(topic3)'"
+								local _topics "`_t1'"
+								if ("`_t2'" != "") local _topics "`_topics'; `_t2'"
+								if ("`_t3'" != "") local _topics "`_topics'; `_t3'"
+								char `_vname'[topic] "`_topics'"
+							}
+						}
 					}
 				}
-				
+
 			}
 
 			local w1 = word("`indicator'",1)
@@ -760,10 +802,26 @@ local indicator `indicators'
 		_countrymetadata, match(countrycode) `full' `iso' `regions' `adminr' `income' `lending' `geo' `basic' `countrycode_iso2' `region' `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname' `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude' `countryname'
 
 	}
-	
+
 **********************************************************************************
-	
-	
+* char metadata: dataset-level provenance (default-on, suppressed by nochar)
+**********************************************************************************
+
+	if ("`char'" != "nochar") & ("`update'" == "") {
+		char _dta[wbopendata_version]   "18.1.0"
+		char _dta[wbopendata_timestamp] "`c(current_date)' `c(current_time)'"
+		char _dta[wbopendata_user]      "`c(username)'"
+		char _dta[wbopendata_syntax]    `"wbopendata, `0'"'
+		if ("`indicator'" != "")  char _dta[wbopendata_indicator] "`indicator'"
+		if ("`country'" != "")    char _dta[wbopendata_country]   "`country'"
+		if ("`language'" != "")   char _dta[wbopendata_language]  "`language'"
+		if ("`source'" != "")     char _dta[wbopendata_source_id] "`source'"
+		if ("`topics'" != "")     char _dta[wbopendata_topics]    "`topics'"
+	}
+
+**********************************************************************************
+
+
 	if ("`nopreserve'" == "") {
 		return add
 	}

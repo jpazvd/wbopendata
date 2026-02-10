@@ -118,6 +118,14 @@ Indicator selection, country coverage, time ranges, and filters are expressed as
 command parameters that can be executed, inspected, and version-controlled alongside
 the analysis itself.
 
+This principle has antecedents in the Stata ecosystem. \citet{drukker2006freduse}
+demonstrated how a purpose-built command (\texttt{freduse}) could transform the
+retrieval of Federal Reserve economic data from a manual browser task into a
+scriptable, reproducible operation embedded in analytical code. \texttt{wbopendata}
+extends this logic to the broader landscape of World Bank development indicators,
+applying the same core insight---that data acquisition should be code---to a data
+ecosystem an order of magnitude larger.
+
 This approach contrasts with common workflows in which researchers manually download
 spreadsheets from web portals, rename files, apply undocumented filters, and import the
 results into statistical software. Such workflows often leave no complete record of how
@@ -208,6 +216,13 @@ the Poverty and Inequality Platform (PIP) \citep{WorldBankPIP}, a publicly acces
 global platform that disseminates official poverty and inequality estimates produced
 through transparent and replicable pipelines.
 
+An early and influential precedent is \texttt{freduse} \citep{drukker2006freduse},
+which demonstrated that economic data retrieval could be embedded directly in
+Stata syntax with per-variable metadata stored as variable characteristics
+(\texttt{char}). The design choices visible in \texttt{freduse}---scripted
+acquisition, structured metadata, and Stata-native output---anticipate many of
+the patterns adopted by \texttt{wbopendata} and its successors.
+
 Outside the World Bank, related principles can be observed in user-written Stata
 tools such as \texttt{datazoom} \citep{datazoom2020}, which systematizes the preparation of Brazilian
 household survey microdata produced by the national statistical agency. Although
@@ -292,6 +307,15 @@ Exactly one of the following is required:
 \texttt{\underbar{y}ear(\ststring)} restricts the time interval. For example, \texttt{year(2000:2020)} returns data only for years 2000 through 2020.
 
 \hangpara
+\texttt{date(\ststring)} provides an alternative time filter for series that
+support quarterly or monthly periodicity (e.g., \texttt{date(2020Q1:2021Q4)}).
+
+\hangpara
+\texttt{\underbar{s}ource(\ststring)} restricts the query to a specific World
+Bank data source by numeric ID (e.g., \texttt{source(2)} for World Development
+Indicators).
+
+\hangpara
 \texttt{\underbar{l}anguage(\ststring)} sets the language for metadata display. Valid codes are \texttt{en} (English, default), \texttt{es} (Spanish), and \texttt{fr} (French).
 
 \hangpara
@@ -323,7 +347,16 @@ Exactly one of the following is required:
 \texttt{\underbar{nobas}ic} suppresses the default country attribute variables.
 
 \hangpara
+\texttt{\underbar{nochar}} suppresses the dataset and variable characteristics
+(\texttt{char}) that are written by default as of v18.1. See
+Section~\ref{sec:reliability} for details on the characteristic metadata layer.
+
+\hangpara
 \texttt{\underbar{f}ull} adds all 17 country attributes including geographic coordinates and capital city. See Table~\ref{tab:attributes} for the complete list.
+
+\hangpara
+\texttt{iso}, \texttt{regions}, \texttt{adminr}, \texttt{income},
+\texttt{lending} add individual attribute groups without the full set.
 
 \hangpara
 \texttt{\underbar{ge}o}, \texttt{capital}, \texttt{latitude}, \texttt{longitude} add specific geographic fields without the full set of attributes.
@@ -403,7 +436,7 @@ For each requested indicator (indexed by \# = 1, 2, \ldots), the command returns
 
 \begin{table}[H]
 \centering
-\caption{Stored results}
+\caption{Stored results: core command}
 \label{tab:stored}
 \begin{tabular}{llp{6.5cm}}
 \hline
@@ -439,25 +472,39 @@ Result & Type & Description \\
 \texttt{r(*\#\_nlines)} & scalar & Line count for each field \\
 \texttt{r(*\#\_line1)}, \ldots & local & Individual wrapped lines \\
 \hline
-\multicolumn{3}{l}{\textit{Discovery: \texttt{sources}}} \\
+\end{tabular}
+\end{table}
+
+Discovery commands (Section~\ref{sec:discovery}) return a separate set of
+results documented in Table~\ref{tab:stored-discovery}.
+
+\begin{table}[H]
+\centering
+\caption{Stored results: discovery commands (v18.0)}
+\label{tab:stored-discovery}
+\begin{tabular}{llp{6.5cm}}
+\hline
+Result & Type & Description \\
+\hline
+\multicolumn{3}{l}{\textit{\texttt{sources}}} \\
 \texttt{r(n\_sources)} & scalar & Total number of data sources \\
 \texttt{r(n\_indicators)} & scalar & Total indicators across all sources \\
 \texttt{r(source\_codes)} & local & Space-separated list of source IDs \\
 \texttt{r(source\_names)} & local & Compound-quoted list of source names \\
 \hline
-\multicolumn{3}{l}{\textit{Discovery: \texttt{alltopics}}} \\
+\multicolumn{3}{l}{\textit{\texttt{alltopics}}} \\
 \texttt{r(n\_topics)} & scalar & Total number of topics \\
 \texttt{r(topic\_ids)} & local & Space-separated list of topic IDs \\
 \texttt{r(topic\_names)} & local & Compound-quoted list of topic names \\
 \hline
-\multicolumn{3}{l}{\textit{Discovery: \texttt{search(pattern)}}} \\
+\multicolumn{3}{l}{\textit{\texttt{search(pattern)}}} \\
 \texttt{r(n\_results)} & scalar & Total matches found \\
 \texttt{r(n\_displayed)} & scalar & Matches shown after limit \\
 \texttt{r(first\_code)} & local & First matching indicator code \\
 \texttt{r(codes)} & local & Space-separated indicator codes \\
 \texttt{r(keyword)} & local & Search keyword used \\
 \hline
-\multicolumn{3}{l}{\textit{Discovery: \texttt{info(code)}}} \\
+\multicolumn{3}{l}{\textit{\texttt{info(code)}}} \\
 \texttt{r(indicator)} & local & Indicator code \\
 \texttt{r(name)} & local & Indicator name \\
 \texttt{r(source\_id)} & local & Source database ID \\
@@ -673,6 +720,33 @@ Network requests respect Stata's proxy configuration options (e.g.,
 \texttt{set httpproxy on}), allowing the command to operate behind corporate
 firewalls.
 
+\subsubsection*{Characteristic metadata (v18.1)}
+
+Beginning with version~18.1, \texttt{wbopendata} embeds provenance and
+indicator metadata directly into the \texttt{.dta} file using Stata's variable
+characteristics (\texttt{char}) mechanism. This approach follows the precedent
+established by \texttt{freduse} \citep{drukker2006freduse}, which stores
+per-variable metadata as characteristics attached to each retrieved series.
+
+Two layers of characteristics are written by default. At the dataset level,
+\texttt{\_dta} characteristics record the command version, timestamp, username,
+and the exact syntax used to generate the dataset. At the variable level, each
+indicator variable carries characteristics for its source database, description,
+methodology notes, citation, and topic classifications.
+
+This design produces self-documenting datasets: a \texttt{.dta} file carries
+enough metadata to identify what was requested, when, and by whom, without
+requiring access to the original do-file or log. Because characteristics
+persist through \texttt{save}/\texttt{use} cycles, this provenance information
+travels with the data even when shared across teams or archived.
+
+The characteristic layer complements rather than replaces the existing metadata
+channels. Do-file syntax documents the researcher's intent; \texttt{r()} return
+values support ephemeral programmatic workflows; and \texttt{char} values
+provide persistent, machine-readable metadata embedded in the output file.
+Users who prefer not to attach characteristics can suppress them with the
+\texttt{nochar} option.
+
 \subsection{Country attributes and classification}
 
 When invoked with the \texttt{full} option, \texttt{wbopendata} appends a set of
@@ -712,21 +786,25 @@ To ensure reliability, \texttt{wbopendata} ships with a live integration test
 harness that exercises the same workflows encountered by users in practice.
 Tests are executed end-to-end against the live World Bank API, covering
 indicator retrieval, pagination, caching behavior, option handling, and fixes
-for historical issues.
+for historical issues. The testing philosophy draws on the principles
+articulated by \citet{gould2001certification}, who argued that statistical
+software certification requires systematic, cumulative testing in which every
+historical defect becomes a permanent regression test.
 
 Because Stata lacks the mature continuous integration and mocking frameworks
 available in other statistical environments, the test design prioritizes
 detection of upstream regressions such as schema changes, pagination failures,
-or API endpoint deprecations. The test suite comprises 65 integrated tests
-distributed across 15 categories, covering environment validation, data download
+or API endpoint deprecations. The test suite comprises 71 integrated tests
+distributed across 16 categories, covering environment validation, data download
 modes, output formatting, country metadata, regression protection, linewrap
 graph annotation, update commands, topic queries, language options, population
-projections, cache management, metadata synchronization, and discovery commands.
+projections, cache management, metadata synchronization, discovery commands,
+and characteristic metadata verification.
 Table~\ref{tab:test-coverage} summarizes the composition.
 
 \begin{table}[H]
 \centering
-\caption{Test suite composition (65 tests across 15 categories)}
+\caption{Test suite composition (71 tests across 16 categories)}
 \label{tab:test-coverage}
 
 \begin{tabular}{llrl}
@@ -746,8 +824,9 @@ PROJ  & Projection        & 1  & Population projection data \\
 CACHE & Cache management  & 8  & Init, path resolution, clear, version, timestamps \\
 SYNC  & Sync system       & 5  & Check, download, force, up-to-date, discovery \\
 DISC  & Discovery         & 7  & Sources, topics, search, filter, info \\
+CHAR  & Characteristics   & 6  & Dataset/variable \texttt{char}, persistence, \texttt{nochar} \\
 \hline
-      &                   & 65 & \\
+      &                   & 71 & \\
 \hline
 \end{tabular}
 
@@ -1276,8 +1355,12 @@ logic and can be identified by re-running the corresponding commands.
 % =====================================================================
 
 This appendix documents the quality assurance (QA) and testing framework used
-to maintain the reliability of \texttt{wbopendata} over time. These practices
-are a core component of the command’s reproducibility guarantees, ensuring that
+to maintain the reliability of \texttt{wbopendata} over time. The framework
+builds on principles articulated by \citet{gould2001certification}, who
+established that statistical software certification requires systematic testing
+where ``tests are never thrown away'' and reliability is demonstrated through
+cumulative evidence rather than single-point verification. These practices
+are a core component of the command's reproducibility guarantees, ensuring that
 changes in upstream data infrastructure, metadata, and indicator availability
 are detected, diagnosed, and addressed explicitly.
 
@@ -1332,10 +1415,12 @@ produces a timestamped log and updates a cumulative test history file.
 \subsection{Regression testing and cumulative reliability}
 
 A key feature of the QA framework is the systematic treatment of historical
-bugs as permanent regression tests. Issues such as failures in multi-indicator
-queries, metadata parsing errors, incorrect handling of deprecated indicators,
-or option incompatibilities are encoded as named test cases (e.g., \texttt{REG-33},
-\texttt{REG-45}, \texttt{REG-46}, \texttt{REG-51}).
+bugs as permanent regression tests, following \citeauthor{gould2001certification}'s
+principle that ``tests are never thrown away'' \citep{gould2001certification}.
+Issues such as failures in multi-indicator queries, metadata parsing errors,
+incorrect handling of deprecated indicators, or option incompatibilities are
+encoded as named test cases (e.g., \texttt{REG-33}, \texttt{REG-45},
+\texttt{REG-46}, \texttt{REG-51}).
 
 This approach ensures that fixes are not transient. Once a bug is resolved, the
 corresponding test remains in the suite and must pass in all subsequent runs.
@@ -1392,7 +1477,10 @@ with upstream revisions.
 Although \texttt{wbopendata} is developed within the Stata ecosystem, which
 lacks the automated release-gate infrastructure common to CRAN or PyPI, its QA
 framework implements the functional equivalent of continuous integration and
-continuous validation. Automated test execution, regression protection, and
+continuous validation---consistent with \citeauthor{gould2001certification}'s
+demonstration that rigorous software certification is achievable through
+disciplined testing practices rather than formal automation
+\citep{gould2001certification}. Automated test execution, regression protection, and
 versioned test histories ensure that each code change is evaluated against both
 current functionality and historically fixed issues.
 

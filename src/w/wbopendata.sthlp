@@ -4,7 +4,7 @@
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
 {right:What's New:  {bf:{help wbopendata_whatsnew:What's New}}}
-{right: {bf:version 18.0.0}}
+{right: {bf:version 18.1.0}}
 {hline}
 
 {title:Title}
@@ -39,6 +39,7 @@
 {synopt :{opt full}} adds full list of country attributes.{p_end}
 {synopt :{opt basic}} adds basic country context variables (default as of v17.7).{p_end}
 {synopt :{opt nobasic}} suppresses the default basic country context variables.{p_end}
+{synopt :{opt nochar}} suppresses variable and dataset characteristics ({cmd:char}). By default, wbopendata attaches metadata to variables and the dataset via {help char}; use this to suppress.{p_end}
 {synopt :{opt iso}} adds 2 digits ISO codes to country attributes.{p_end}
 {synopt :{opt geo}} adds geographic metadata (capital city name, latitude, and longitude).{p_end}
 {synopt :{opt capital}} adds capital city name to country attributes.{p_end}
@@ -99,6 +100,7 @@ Sections are presented under the following headings:
 		{it:{help wbopendata##options:Options description}}
 		{it:{help wbopendata##discovery:Discovery commands}}
 		{it:{help wbopendata##storedresults:Stored results}}
+		{it:{help wbopendata##charmetadata:Characteristic metadata (v18.1+)}}
 		{it:{help wbopendata##attributes:List of supported country attributes}}
 		{it:{help wbopendata##countries:Country code and names by selected attributes}}
 		{it:{help wbopendata##sourceid:Indicators by Source}}
@@ -199,6 +201,12 @@ at the World Bank Data website to identify which format is supported.{p_end}
 {synopt :{opt basic}} adds basic country context variables: region, regionname, adminregion, adminregionname, incomelevel, incomelevelname, lendingtype, lendingtypename. This is the {bf:default behavior} as of v17.7.{p_end}
 
 {synopt :{opt nobasic}} suppresses the default basic country context variables. Use this option when you only want the core data without country classification metadata.{p_end}
+
+{synopt :{opt nochar}} suppresses dataset and variable characteristics ({help char}). By default (v18.1+), {cmd:wbopendata} stores
+metadata in Stata {cmd:char} attributes that persist across {cmd:save}/{cmd:use} cycles: dataset-level ({cmd:_dta[]})
+captures session provenance (version, timestamp, syntax), while variable-level ({cmd:{it:varname}[]}) captures
+indicator metadata (code, source, description, topics, notes). Use {cmd:nochar} to suppress all
+{cmd:char} writes if you prefer minimal .dta files. See {help wbopendata##charmetadata:Characteristic metadata} below.{p_end}
 
 {synopt :{opt iso}} adds only 2 digits ISO codes to country attributes.{p_end}
 
@@ -732,6 +740,74 @@ return metadata for programmatic use and automation.{p_end}
 {p 4 4 2}See {help return} for details on accessing stored results.{p_end}
 
 
+{marker charmetadata}{...}
+{p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
+{title:Characteristic metadata (v18.1+)}
+
+{pstd}
+As of v18.1, {cmd:wbopendata} stores persistent metadata in Stata {help char:variable characteristics}
+that survive {cmd:save}/{cmd:use} cycles. This follows the pattern established by
+{cmd:freduse} ({it:Drukker, Stata Journal 2006}), making downloaded datasets self-documenting.{p_end}
+
+{pstd}
+Three layers of metadata now coexist:{p_end}
+{p 8 12 2}1. The {bf:do-file} — authoritative provenance record (unchanged){p_end}
+{p 8 12 2}2. {bf:r() returns} — ephemeral session metadata for programmatic use (unchanged){p_end}
+{p 8 12 2}3. {bf:char characteristics} — persistent metadata embedded in the .dta file (new){p_end}
+
+{pstd}
+Use {opt nochar} to suppress all {cmd:char} writes.{p_end}
+
+{pstd}{ul:{bf:Dataset-level characteristics (_dta)}}{p_end}
+
+{pstd}Set once per download. These capture the session context:{p_end}
+
+{synoptset 30 tabbed}{...}
+{p2col 5 30 34 2: Characteristic}{p_end}
+{synoptline}
+{synopt:{cmd:_dta[wbopendata_version]}}Package version (e.g., 18.1.0){p_end}
+{synopt:{cmd:_dta[wbopendata_timestamp]}}Date and time of download{p_end}
+{synopt:{cmd:_dta[wbopendata_user]}}Stata username at download time{p_end}
+{synopt:{cmd:_dta[wbopendata_syntax]}}Exact command syntax used{p_end}
+{synopt:{cmd:_dta[wbopendata_indicator]}}Indicator code(s) requested{p_end}
+{synopt:{cmd:_dta[wbopendata_country]}}Country filter (if any){p_end}
+{synopt:{cmd:_dta[wbopendata_language]}}Language (en/es/fr){p_end}
+{synopt:{cmd:_dta[wbopendata_source_id]}}Source database filter (if any){p_end}
+{synopt:{cmd:_dta[wbopendata_topics]}}Topic filter (if any){p_end}
+{synoptline}
+
+{pstd}{ul:{bf:Variable-level characteristics (per indicator)}}{p_end}
+
+{pstd}Each indicator variable carries its own metadata:{p_end}
+
+{synoptset 30 tabbed}{...}
+{p2col 5 30 34 2: Characteristic}{p_end}
+{synoptline}
+{synopt:{cmd:{it:varname}[indicator]}}Original indicator code (e.g., NY.GDP.MKTP.CD){p_end}
+{synopt:{cmd:{it:varname}[source]}}Source database name{p_end}
+{synopt:{cmd:{it:varname}[description]}}Indicator description{p_end}
+{synopt:{cmd:{it:varname}[topic]}}Topic classification(s){p_end}
+{synopt:{cmd:{it:varname}[note]}}Methodological notes{p_end}
+{synopt:{cmd:{it:varname}[sourcecite]}}Source organization citation{p_end}
+{synoptline}
+
+{pstd}{ul:{bf:Example}}{p_end}
+
+{cmd}
+.     wbopendata, indicator(NY.GDP.MKTP.CD) clear long
+.     char list _dta[]
+.     char list ny_gdp_mktp_cd[]
+.
+.     * Access specific metadata programmatically:
+.     local desc : char ny_gdp_mktp_cd[description]
+.     display "`desc'"
+.
+.     * Suppress all char metadata:
+.     wbopendata, indicator(NY.GDP.MKTP.CD) nochar clear long
+.     char list _dta[]        // empty
+{txt}
+
+
 {marker Examples}{...}
 {title:Examples}{p 50 20 2}{p_end}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -1021,8 +1097,12 @@ The terms of use of the APIs is governed by {browse "http://go.worldbank.org/C09
 
     {p 4 4 2}Azevedo, Jo\~{a}o Pedro (2026). "unicefdata: Unified access to UNICEF indicators across R, Python, and Stata." UNICEF Chief Statistician Office. {browse "https://github.com/unicef-drp/unicefdata"}.{p_end}
 
+    {p 4 4 2}Drukker, David M. (2006). "Importing Federal Reserve economic data." The Stata Journal, 6(3), 384-386.{p_end}
+
     {p 4 4 2}David C. Elliott, 2002. "TKNZ: Stata module to tokenize string into named macros," Statistical Software Components
 S426302, Boston College Department of Economics, revised 17 Oct 2006.{p_end}
+
+    {p 4 4 2}Gould, William (2001). "Statistical software certification." The Stata Journal, 1(1), 29-50.{p_end}
 
 {marker acknowled}{...}
 {title:Acknowledgements}
