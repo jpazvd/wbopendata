@@ -51,12 +51,12 @@ program define _api_read_indicators, rclass
 		****************************************
 
 		* Offline fixture injection (Phase 6, Gould 2001)
-		* When $wbopendata_offline_api is set to a directory path, XML indicator
+		* When offline() option is set to a directory path, XML indicator
 		* lists are read from local fixture files instead of the World Bank API.
-		if "$wbopendata_offline_api" != "" {
+		if ("`offline'" != "") {
 			noi di as text "(offline mode: reading indicator list fixtures)"
 			forvalues _p = 1/3 {
-				local _fixture "$wbopendata_offline_api/indicators_page`_p'.xml"
+				local _fixture "`offline'/api/indicators_page`_p'.xml"
 				cap confirm file "`_fixture'"
 				if _rc != 0 {
 					noi di as err "Offline fixture not found: `_fixture'"
