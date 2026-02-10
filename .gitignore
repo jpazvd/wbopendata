@@ -96,6 +96,12 @@
 !/qa/*.md
 !/qa/*.do
 
+# QA fixtures — single compressed archive tracked in git.
+# Run qa/fixtures/decompress_fixtures.do to unpack on first clone.
+!/qa/fixtures/
+!/qa/fixtures/fixtures.tar.gz
+!/qa/fixtures/*.do
+
 # Ignore _archive folders (development artifacts)
 _archive/
 
