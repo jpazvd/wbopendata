@@ -1,7 +1,7 @@
 *******************************************************************************
 * wbopendata
 *! v 18.1.0  	 10Feb2026               by Joao Pedro Azevedo
-*   18.1.0: Added char metadata (default-on, nochar to suppress); _dta-level session provenance and variable-level indicator metadata
+*   18.1.0: Added char metadata (default-on, nochar to suppress); deprecated update query/check/all, metadataoffline, syncforce/preview/dryrun with warnings
 *   18.0.0: Deprecated 89 per-indicator sthlp files; replaced with discovery commands (sources, search, info)
 *   17.8.1: Pass detail option through to search for wrapped display format
 *   17.8.0: Added sources, alltopics discovery commands; enhanced search with topic/field filters and wildcards
@@ -176,19 +176,24 @@ local indicator `indicators'
 	}
 
 	* Sync and cache maintenance commands
-	* Resolve backward-compatible aliases into canonical modifiers:
+	* Resolve backward-compatible aliases into canonical modifiers (deprecated v18.0):
 	*   syncforce   → sync + replace + force
 	*   syncpreview → sync + replace
 	*   syncdryrun  → sync (dryrun is the default)
 	if ("`syncforce'" != "") {
+		noi di as txt "{bf:Note:} {cmd:syncforce} is deprecated; use {cmd:sync replace force} instead."
 		local sync "sync"
 		local replace "replace"
 	}
 	if ("`syncpreview'" != "") {
+		noi di as txt "{bf:Note:} {cmd:syncpreview} is deprecated; use {cmd:sync replace} instead."
 		local sync "sync"
 		local replace "replace"
 	}
-	if ("`syncdryrun'" != "") local sync "sync"
+	if ("`syncdryrun'" != "") {
+		noi di as txt "{bf:Note:} {cmd:syncdryrun} is deprecated; use {cmd:sync} instead."
+		local sync "sync"
+	}
 
 	if ("`sync'" != "" | "`checkupdate'" != "" | "`clearcache'" != "" | "`cacheinfo'" != "") {
 		if ("`clearcache'" != "") {
@@ -319,31 +324,43 @@ local indicator `indicators'
 	
 		set checksum off
 	
-	* update : update query / does not triger the download of any data
+	* update commands (deprecated v18.1 — replaced by sync family)
 		if ("`update'" == "update") & wordcount("`query' `check' `countrymetadata' `all'")==0 {
-		
+
+			noi di as txt ""
+			noi di as txt "{bf:Note:} {cmd:update query} is deprecated; use {cmd:sync} or {cmd:checkupdate} instead."
+			noi di as txt "  See {help wbopendata##deprecated:help wbopendata, deprecated options}."
+			noi di as txt ""
 			noi wbopendata, update query
 			break
 		}
-		
-	* update : update query / triger the download of selected data
-	* update : force  - creates new help files and metadata documentation by source and topics
-	* trigger: _parameters
-	* triggers _update indicators.ado
-	*		refresh Source
-	*		refresh Indicators
-	
+
 		if ("`update'" == "update") & wordcount("`query' `check' `countrymetadata' `all'")== 1 {
 
+			if ("`query'" != "") {
+				noi di as txt "{bf:Note:} {cmd:update query} is deprecated; use {cmd:sync} instead."
+			}
+			if ("`check'" != "") {
+				noi di as txt "{bf:Note:} {cmd:update check} is deprecated; use {cmd:checkupdate} instead."
+			}
+			if ("`all'" != "") {
+				noi di as txt "{bf:Note:} {cmd:update all} is deprecated; use {cmd:sync replace} instead."
+			}
+			noi di as txt "  See {help wbopendata##deprecated:help wbopendata, deprecated options}."
+			noi di as txt ""
 			noi _update_wbopendata, update `query' `check'	`countrymetadata' `all' `force' `short' `detail' `ctrylist'
 			break
-					
+
 		}
 
-	* metadataoffline options
-	* this option will refress all meatadata and generate 71 files with all metadata indicators by source id and topic id.
+	* metadataoffline options (deprecated v18.1 — replaced by sync + discovery commands)
 		if ("`metadataoffline'" == "metadataoffline") {
 
+			noi di as txt ""
+			noi di as txt "{bf:Note:} {cmd:metadataoffline} is deprecated as of v18.1."
+			noi di as txt "  Use {cmd:sync replace} to update metadata and {cmd:sources}/{cmd:search()}/{cmd:info()} for discovery."
+			noi di as txt "  See {help wbopendata##deprecated:help wbopendata, deprecated options}."
+			noi di as txt ""
 			noi _update_wbopendata, update force all
 			local update "update"
 			local force  "force"

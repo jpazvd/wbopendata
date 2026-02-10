@@ -49,9 +49,6 @@
 {synopt :{opt adminr}} adds administrative region codes and names to country attributes.{p_end}
 {synopt :{opt income}} adds income level codes and names to country attributes.{p_end}
 {synopt :{opt lending}} adds lending type codes and names to country attributes.{p_end}
-{synopt :{opt update query}} query the current vintage of indicators and country metadata available.{p_end}
-{synopt :{opt update check}} checks the availability of new indicators and country metadata available for download.{p_end}
-{synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
 {synopt :{opt sync}} preview metadata changes without applying (dry run). Safe default.{p_end}
 {synopt :{opt sync} {opt detail}} preview with per-source and per-topic indicator breakdown.{p_end}
 {synopt :{opt sync} {opt force}} force-refresh preview diagnostic (re-query API). Still dry run.{p_end}
@@ -60,12 +57,8 @@
 {synopt :{opt checkupdate}} check whether newer YAML metadata is available without downloading it.{p_end}
 {synopt :{opt clearcache}} remove the local metadata cache (forces re-download on next sync).{p_end}
 {synopt :{opt cacheinfo}} display cache location, version, and timestamp for the metadata YAML files.{p_end}
-{synopt :{opt syncforce}} deprecated alias for {opt sync replace force}.{p_end}
-{synopt :{opt syncpreview}} deprecated alias for {opt sync replace}.{p_end}
-{synopt :{opt syncdryrun}} deprecated alias for {opt sync}.{p_end}
 {synopt :{opt match(varname)}} merge {help wbopendata##attributes:country attributes} into an existing dataset containing WDI (3 digit) countrycodes. Cannot be used with the data download options.{p_end}
 {synopt :{opt projection}} World Bank {help wbopendata_sourceid##sourceid_40:population estimates and projections} (HPP) .{p_end}
-{synopt :{opt metadataoffline}} download all indicator metadata information and generates 71 sthlp files in your local machine.{p_end}
 {synopt :{opt describe}} display indicator metadata only (no data download). Requires {opt indicator()}. Supports {opt linewrap()}, {opt maxlength()}, and {opt linewrapformat()} when present.{p_end}
 {synopt :{opt linewrap(fields)}} wrap metadata text for graph titles. Fields: name, description, note, source, topic, or all.{p_end}
 {synopt :{opt maxlength(# [# ...])}} maximum characters per line for linewrap. Single value (default 50) or multiple values matching linewrap field order.{p_end}
@@ -98,9 +91,11 @@ Sections are presented under the following headings:
 		{it:{help wbopendata##desc:Command description}}
 		{it:{help wbopendata##param:Parameters description}}
 		{it:{help wbopendata##options:Options description}}
+		{it:{help wbopendata##syncmeta:Metadata management}}
 		{it:{help wbopendata##discovery:Discovery commands}}
 		{it:{help wbopendata##storedresults:Stored results}}
 		{it:{help wbopendata##charmetadata:Characteristic metadata (v18.1+)}}
+		{it:{help wbopendata##deprecated:Deprecated options}}
 		{it:{help wbopendata##attributes:List of supported country attributes}}
 		{it:{help wbopendata##countries:Country code and names by selected attributes}}
 		{it:{help wbopendata##sourceid:Indicators by Source}}
@@ -226,17 +221,9 @@ indicator metadata (code, source, description, topics, notes). Use {cmd:nochar} 
 
 {synopt :{opt lending}} adds lending type classifications (IBRD only, Blend, IDA only, etc.) and their ISO 2-digit codes.{p_end}
 
-{synopt :{opt update query}} query the current vintage of indicators available and country metadata.{p_end}
-
-{synopt :{opt update check}} checks the availability of new indicators  and country metadata available for download.{p_end}
-
-{synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
-
 {synopt :{opt match(varname)}} merge {it:{help wbopendata##attributes:country attributes}} using WDI countrycodes.{p_end}
 
 {synopt :{opt projection}} World Bank staff {help wbopendata_sourceid##sourceid_40:population projection estimates} using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end} 
-
-{synopt :{opt metadataoffline}} refresh all metadata information, and generate a local copy of all indicators metadata organized by topics and source. This option creates 71 new help files in your local machine with approximately 15mb of documentation.{p_end}
 
 {synopt :{opt linewrap(fields)}} wrap metadata text for use in graph titles and notes. This option processes the specified metadata fields and returns wrapped versions suitable for Stata graphs. Available fields:{p_end}
 {p 8 12 2}- {opt name}: indicator name{p_end}
@@ -260,6 +247,56 @@ the last value is used for remaining fields.{p_end}
 {p 8 12 2}- {opt nlines}: returns {cmd:r({it:field}1_nlines)} scalar with line count{p_end}
 {p 8 12 2}- {opt lines}: returns {cmd:r({it:field}1_line1)}, {cmd:r({it:field}1_line2)}, etc. for each line{p_end}
 {p 8 12 2}- {opt all}: returns all formats ({cmd:_stack}, {cmd:_newline}, {cmd:_nlines}, {cmd:_line1}, etc.){p_end}
+
+
+{marker syncmeta}{...}
+{p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
+{title:Metadata management (v18.0+)}
+
+{pstd}
+These commands manage the local YAML metadata cache that powers the
+{help wbopendata##discovery:discovery commands}
+({opt sources}, {opt alltopics}, {opt search()}, {opt info()}).
+The default {opt sync} is a safe dry run that previews changes without
+modifying any files.{p_end}
+
+{dlgtab:Sync preview (dry run)}
+
+{synopt :{opt sync}}Preview metadata changes without applying them. Compares
+the local cache version against the latest available release and displays a
+summary of what would change. This is the safe default — no files are
+modified.{p_end}
+
+{synopt :{opt sync} {opt detail}}Extended preview with per-source and per-topic
+indicator breakdowns, showing how many indicators each source contributes and
+how they are distributed across topic categories.{p_end}
+
+{synopt :{opt sync} {opt force}}Force-refresh the preview diagnostic by
+re-querying the API rather than relying on cached diagnostics. Still a dry
+run — no files are modified.{p_end}
+
+{dlgtab:Sync apply}
+
+{synopt :{opt sync} {opt replace}}Apply the metadata synchronization — downloads
+the latest YAML metadata release from the GitHub repository and updates the
+local cache files. Displays the same preview as {opt sync} before applying
+changes.{p_end}
+
+{synopt :{opt sync} {opt replace} {opt force}}Force re-download of metadata
+regardless of the local cache version, bypassing staleness checks. Use this
+when the local cache may be corrupted or you want a clean refresh.{p_end}
+
+{dlgtab:Cache management}
+
+{synopt :{opt checkupdate}}Query the remote repository for the latest release
+version and report whether an update is available, without downloading or
+modifying any files. Equivalent to checking for updates only.{p_end}
+
+{synopt :{opt cacheinfo}}Display the cache directory location, current metadata
+version, schema version, and last synchronization timestamp.{p_end}
+
+{synopt :{opt clearcache}}Remove the local metadata cache entirely, forcing a
+full re-download on the next {opt sync replace} or discovery command.{p_end}
 
 
 {marker discovery}{...}
@@ -808,6 +845,38 @@ Use {opt nochar} to suppress all {cmd:char} writes.{p_end}
 {txt}
 
 
+{marker deprecated}{...}
+{p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
+{title:Deprecated options}
+
+{pstd}
+The following options have been deprecated and will be removed in a future release.
+They continue to function for backward compatibility but issue a warning when used.{p_end}
+
+{synoptset 30 tabbed}{...}
+{p2col 5 30 34 2: Option}Description{p_end}
+{synoptline}
+{synopt:{cmd:update query}}Replaced by {opt sync}.  Use {cmd:sync} to preview
+metadata changes (dry run); use {cmd:checkupdate} to check version.{p_end}
+{synopt:{cmd:update check}}Replaced by {opt checkupdate}.{p_end}
+{synopt:{cmd:update all}}Replaced by {opt sync replace}.  Downloads latest YAML
+metadata from GitHub.{p_end}
+{synopt:{cmd:metadataoffline}}Replaced by {opt sync replace} + {opt sources}/{opt search()}/{opt info()}.
+Previously generated 71 local {cmd:.sthlp} files (~15 MB). The YAML metadata
+architecture (v18.0) provides the same content via discovery commands without
+creating per-indicator help files.{p_end}
+{synopt:{cmd:syncforce}}Replaced by {opt sync replace force}.{p_end}
+{synopt:{cmd:syncpreview}}Replaced by {opt sync replace}.{p_end}
+{synopt:{cmd:syncdryrun}}Replaced by {opt sync} (dry run is now the default).{p_end}
+{synoptline}
+
+{pstd}
+{ul:{bf:Removed files}} (v18.0): 89 per-indicator {cmd:.sthlp} files
+({cmd:wbopendata_sourceid_indicators*.sthlp} and {cmd:wbopendata_topicid_indicators*.sthlp})
+have been replaced by 2 YAML metadata files serving ~29,000 indicators via the
+{opt sources}, {opt alltopics}, {opt search()}, and {opt info()} commands.{p_end}
+
+
 {marker Examples}{...}
 {title:Examples}{p 50 20 2}{p_end}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -831,15 +900,7 @@ Use {opt nochar} to suppress all {cmd:char} writes.{p_end}
 
 {p 8 12}{stata "wbopendata, info(SI.POV.DDAY)" :. wbopendata, info(SI.POV.DDAY)}{p_end}
 
-{pstd}{ul:{bf:Data Management Commands}}{p_end}
-
-{p 8 12}{stata "wbopendata, update query" :. wbopendata, update query}{p_end}
-
-{p 8 12}{stata "wbopendata, update check" :. wbopendata, update check}{p_end}
-
-{p 8 12}{stata "wbopendata, update all" :. wbopendata, update all}{p_end}
-
-{p 8 12}{stata "wbopendata, metadataoffline" :. wbopendata, metadataoffline}{p_end}
+{pstd}{ul:{bf:Data Download Commands}}{p_end}
 
 {p 8 12}{stata "wbopendata, country(chn - China) clear" :. wbopendata, country(chn - China) clear}{p_end}
 

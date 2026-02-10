@@ -338,6 +338,11 @@ Indicators).
 \hangpara
 \texttt{\underbar{nomet}adata} suppresses the metadata display that normally appears after data retrieval.
 
+\hangpara
+\texttt{\underbar{nochar}} suppresses the dataset and variable characteristics
+(\texttt{char}) that are written by default as of v18.1. See
+Section~\ref{sec:reliability} for details on the characteristic metadata layer.
+
 \subsubsection*{Country attributes}
 
 \hangpara
@@ -345,11 +350,6 @@ Indicators).
 
 \hangpara
 \texttt{\underbar{nobas}ic} suppresses the default country attribute variables.
-
-\hangpara
-\texttt{\underbar{nochar}} suppresses the dataset and variable characteristics
-(\texttt{char}) that are written by default as of v18.1. See
-Section~\ref{sec:reliability} for details on the characteristic metadata layer.
 
 \hangpara
 \texttt{\underbar{f}ull} adds all 17 country attributes including geographic coordinates and capital city. See Table~\ref{tab:attributes} for the complete list.
@@ -364,16 +364,48 @@ Section~\ref{sec:reliability} for details on the characteristic metadata layer.
 \hangpara
 \texttt{\underbar{m}atch(\varname)} merges country attributes into an existing dataset. The variable \varname\ must contain World Bank country codes (ISO3 format).
 
-\subsubsection*{Metadata management}
+\subsubsection*{Metadata management (v18.0+)}
+
+\noindent\textit{Sync preview (dry run):}
 
 \hangpara
-\texttt{\underbar{upd}ate query} displays the vintage dates of locally cached indicator and country metadata.
+\texttt{sync} previews metadata changes without applying them. Compares the
+local cache version against the latest available release and displays a
+summary. This is the safe default---no files are modified.
 
 \hangpara
-\texttt{\underbar{upd}ate check} compares local metadata against the remote repository and reports whether updates are available.
+\texttt{sync detail} extends the preview with per-source and per-topic
+indicator breakdowns.
 
 \hangpara
-\texttt{\underbar{upd}ate all} downloads fresh metadata from the repository, replacing the local cache.
+\texttt{sync force} forces a fresh preview by re-querying the API rather
+than relying on cached diagnostics. Still a dry run.
+
+\noindent\textit{Sync apply:}
+
+\hangpara
+\texttt{sync replace} applies the metadata synchronization---downloads the
+latest YAML metadata release from the GitHub repository and updates the
+local cache.
+
+\hangpara
+\texttt{sync replace force} forces a re-download regardless of the local
+cache version, bypassing staleness checks.
+
+\noindent\textit{Cache management:}
+
+\hangpara
+\texttt{checkupdate} queries the remote repository for the latest release
+version and reports whether an update is available, without downloading
+or modifying any files.
+
+\hangpara
+\texttt{cacheinfo} displays the cache directory location, current metadata
+version, and last synchronization timestamp.
+
+\hangpara
+\texttt{clearcache} removes the local metadata cache entirely, forcing a
+full re-download on the next sync or discovery command.
 
 \subsubsection*{Graph metadata (v17.7.1+)}
 
@@ -786,10 +818,9 @@ To ensure reliability, \texttt{wbopendata} ships with a live integration test
 harness that exercises the same workflows encountered by users in practice.
 Tests are executed end-to-end against the live World Bank API, covering
 indicator retrieval, pagination, caching behavior, option handling, and fixes
-for historical issues. The testing philosophy draws on the principles
-articulated by \citet{gould2001certification}, who argued that statistical
-software certification requires systematic, cumulative testing in which every
-historical defect becomes a permanent regression test.
+for historical issues. The testing philosophy draws on the software
+certification principles of \citet{gould2001certification}; the full
+framework is documented in Appendix~\ref{app:qa}.
 
 Because Stata lacks the mature continuous integration and mocking frameworks
 available in other statistical environments, the test design prioritizes
@@ -817,7 +848,7 @@ FMT   & Output format     & 4  & Wide, long, latest, nobasic \\
 CTRY  & Country options   & 10 & Basic, full, geo, ISO, regions, income, lending \\
 REG   & Regression        & 4  & Historical bug fixes (\#33, \#45, \#46, \#51) \\
 LW    & Linewrap          & 4  & Metadata wrapping, formats, latest scalars \\
-UPD   & Update commands   & 6  & Query, check, describe, update all \\
+UPD   & Maintenance       & 6  & Legacy update, describe, sync interop \\
 TOPIC & Topic queries     & 1  & Topic download \\
 LANG  & Language          & 1  & Spanish metadata \\
 PROJ  & Projection        & 1  & Population projection data \\
@@ -842,10 +873,16 @@ reported in Appendix~\ref{app:diagnostics}.
 
 \subsection{Metadata management}\label{sec:metadata}
 
-Local metadata caches are managed through the \texttt{update} options.
-\texttt{update query} reports the current vintage, \texttt{update check}
-compares local metadata against the remote repository, and \texttt{update all}
-refreshes cached definitions and country classifications.
+Local metadata caches are managed through the \texttt{sync} family of
+commands documented in Section~\ref{sec:sync}.  The design separates
+\emph{preview} from \emph{apply}: the default \texttt{sync} is a dry run
+that shows what would change, while \texttt{sync replace} downloads and
+installs the latest YAML definitions and country classifications from
+GitHub.  Three auxiliary commands---\texttt{checkupdate},
+\texttt{cacheinfo}, and \texttt{clearcache}---provide version queries and
+cache housekeeping.  The legacy \texttt{update} sub-commands
+(\texttt{update query}, \texttt{update check}, \texttt{update all}) remain
+functional but are deprecated in favor of this unified interface.
 
 Regular metadata updates are particularly important when using the
 \texttt{match()} option, as income groups, regional classifications, and even
@@ -953,10 +990,14 @@ version, and last synchronization timestamp.
 \texttt{clearcache} removes the local metadata cache entirely, forcing a full
 re-download on the next sync or discovery command.
 
-\noindent For backward compatibility, the deprecated aliases \texttt{syncforce},
-\texttt{syncpreview}, and \texttt{syncdryrun} from earlier versions continue to
-function, mapping transparently to \texttt{sync replace force},
-\texttt{sync replace}, and \texttt{sync}, respectively.
+\noindent For backward compatibility, several deprecated options continue to
+function with a warning.  The sync aliases \texttt{syncforce},
+\texttt{syncpreview}, and \texttt{syncdryrun} map transparently to
+\texttt{sync replace force}, \texttt{sync replace}, and \texttt{sync},
+respectively.  The \texttt{metadataoffline} option, which previously generated
+71 per-indicator \texttt{.sthlp} files ($\sim$15\,MB), is superseded by the
+YAML metadata architecture and the discovery commands described in
+Section~\ref{sec:discovery}.
 
 The sync architecture attempts three download pathways in order of preference:
 a Python-based canonical pipeline (when Python is available), a pure-Stata
@@ -1077,7 +1118,7 @@ rather than manual preprocessing, \texttt{wbopendata} shifts reproducibility fro
 an aspirational norm to a default behavior. Version~18.0 extends this approach
 with offline discovery commands for catalog browsing and indicator search,
 a YAML-backed metadata architecture, version-controlled metadata synchronization,
-publication-ready metadata handling, and a 65-test QA suite across 15 categories.
+publication-ready metadata handling, and a 71-test QA suite across 16 categories.
 
 The command’s pure-Stata implementation ensures compatibility with institutional
 computing environments, while the bundled live test suite and QA framework
@@ -1104,7 +1145,7 @@ documentation alone, but by infrastructure that enforces it upstream.
 \section*{Acknowledgments}
 % =====================================================================
 
-The author thanks the World Bank Open Data Initiative for making development data freely accessible, and the many users who have contributed bug reports and feature suggestions through GitHub.
+The author thanks Kit Baum for comments on an earlier draft and for pointing toward important references, and Aart Kraay for questions and nudges toward interesting features to be included.  Thanks also to the World Bank Open Data Initiative for making development data freely accessible, and to the many users who have contributed bug reports and feature suggestions through GitHub.
 
 \bibliographystyle{sj}
 \nocite{pisati2007spmap,clarke2012worldstat}
@@ -1416,7 +1457,7 @@ produces a timestamped log and updates a cumulative test history file.
 
 A key feature of the QA framework is the systematic treatment of historical
 bugs as permanent regression tests, following \citeauthor{gould2001certification}'s
-principle that ``tests are never thrown away'' \citep{gould2001certification}.
+principle that ``tests are never thrown away''.
 Issues such as failures in multi-indicator queries, metadata parsing errors,
 incorrect handling of deprecated indicators, or option incompatibilities are
 encoded as named test cases (e.g., \texttt{REG-33}, \texttt{REG-45},
@@ -1453,9 +1494,10 @@ indicator codes and their associated metadata evolve over time. Indicators may
 be deprecated, archived, or reclassified as source databases are revised, and
 metadata fields may be corrected or expanded.
 
-Tests covering update commands (\texttt{update query}, \texttt{update check},
-\texttt{update all}) verify that such changes are detected and propagated through
-the local cache. Deprecated indicators are expected to trigger informative
+Tests covering maintenance commands (\texttt{sync}, \texttt{checkupdate},
+\texttt{sync replace}, and the legacy \texttt{update} aliases) verify that
+such changes are detected and propagated through the local cache. Deprecated
+indicators are expected to trigger informative
 diagnostics rather than silent failures. By treating indicator lifecycle events
 as testable behavior, the framework reduces the risk that analytical pipelines
 continue to rely unknowingly on obsolete series or outdated definitions.
@@ -1479,8 +1521,7 @@ lacks the automated release-gate infrastructure common to CRAN or PyPI, its QA
 framework implements the functional equivalent of continuous integration and
 continuous validation---consistent with \citeauthor{gould2001certification}'s
 demonstration that rigorous software certification is achievable through
-disciplined testing practices rather than formal automation
-\citep{gould2001certification}. Automated test execution, regression protection, and
+disciplined testing practices rather than formal automation. Automated test execution, regression protection, and
 versioned test histories ensure that each code change is evaluated against both
 current functionality and historically fixed issues.
 

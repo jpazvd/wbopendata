@@ -45,6 +45,7 @@ The accessible databases include: World Development Indicators (WDI), Doing Busi
 - **Latest data**: `latest` option returns most recent non-missing values per country
 - **Graph-ready metadata**: `linewrap()` option formats long text for publication-quality graphs
 - **Reproducibility**: Every query is scripted, parameterized, and version-controlled
+- **Persistent provenance** (v18.1): Dataset and variable characteristics (`char`) embed query parameters, timestamps, and indicator codes directly in `.dta` files
 
 Data are retrieved directly from the World Bank API (JSON over HTTP), ensuring transparency and provenance. All data reflect officially-recognized international sources compiled by the World Bank.
 
@@ -71,8 +72,8 @@ ssc install wbopendata, replace
 ### From GitHub (Specific Release)
 
 ```stata
-* Install v18.0.0 specifically
-net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v18.0.0") replace
+* Install v18.1.0 specifically
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v18.1.0") replace
 ```
 
 ### From Local Clone
@@ -95,7 +96,7 @@ net install wbopendata, from("/Users/username/GitHub/wbopendata") replace
 | Channel | Version | Indicators | Notes |
 |---------|---------|------------|-------|
 | **SSC** | v13.5 (2016) | ~10,000 | Stable, pre-API modernization |
-| **GitHub** | v18.0.0 (2026) | 29,000+ | Latest features, active development |
+| **GitHub** | v18.1.0 (2026) | 29,000+ | Latest features, active development |
 
 > **Recommendation:** Install from GitHub for full functionality including `match()`, `linewrap()`, multiple indicators, and 29,000+ indicators.
 
@@ -104,6 +105,7 @@ net install wbopendata, from("/Users/username/GitHub/wbopendata") replace
 
 | Year | Version | Milestone |
 |------|---------|-----------|
+| 2026 | v18.1 | **Characteristic metadata**: persistent `char` provenance on every `.dta`; `nochar` opt-out |
 | 2026 | v18.0 | **Discovery commands**: sources, alltopics, search, info; clickable URLs in metadata |
 | 2026 | v17.7 | Basic country context by default, graph metadata |
 | 2025 | v17.1 | Community bug fixes, documentation overhaul |
@@ -155,6 +157,13 @@ desc  // Shows 12 variables including the 8 basic metadata variables
 * Use nobasic to suppress default country context variables
 wbopendata, indicator(NY.GDP.MKTP.CD) clear long nobasic
 desc  // Shows only 4 core variables
+
+* NEW in v18.1: Persistent provenance via char metadata
+wbopendata, indicator(NY.GDP.MKTP.CD) clear long
+char list  // Shows _dta[] and variable-level characteristics
+
+* Use nochar to suppress characteristic metadata
+wbopendata, indicator(NY.GDP.MKTP.CD) clear long nochar
 
 * NEW: Discovery features - search for indicators
 wbopendata, search(GDP)                    // Search indicators by keyword
@@ -213,6 +222,7 @@ wbopendata, cacheinfo      // Display cache status
 - **latest**: Keep only the most recent non-missing observation per country
 - **clear**: Clear existing data before loading
 - **nobasic**: Suppress default country context variables (region, income level, etc.)
+- **nochar**: Suppress characteristic metadata (dataset and variable `char` provenance)
 
 ### Discovery & Search
 
@@ -281,6 +291,22 @@ wbopendata, info(NY.GDP.MKTP.CD)
 - **linewrap(string)**: Wrap metadata text for graphs (name, description, note)
 - **maxlength(integer)**: Maximum characters per line (default: 50)
 - **linewrapformat(string)**: Output format (stack, newline, lines, all)
+
+### Deprecated Options
+
+The following options are deprecated as of v18.1. They continue to work with a warning but will be removed in a future release.
+
+| Deprecated option | Replacement | Version deprecated | Notes |
+| --- | --- | --- | --- |
+| `update query` | `sync` | v18.1 | Preview metadata changes (dry run) |
+| `update check` | `checkupdate` | v18.1 | Compare local vs remote metadata version |
+| `update all` | `sync replace` | v18.1 | Download latest YAML metadata from GitHub |
+| `metadataoffline` | `sync replace` + `sources`/`search()`/`info()` | v18.1 | Generated 71 per-indicator `.sthlp` files (~15 MB); replaced by YAML metadata + discovery commands |
+| `syncforce` | `sync replace force` | v18.0 | Alias |
+| `syncpreview` | `sync replace` | v18.0 | Alias |
+| `syncdryrun` | `sync` | v18.0 | Alias (dry run is now the default) |
+
+**Removed files (v18.0):** 89 per-indicator `.sthlp` files (`wbopendata_sourceid_indicators*.sthlp`, `wbopendata_topicid_indicators*.sthlp`) replaced by 2 YAML metadata files serving ~29,000 indicators.
 
 ## Disclaimer
 
