@@ -1,4 +1,4 @@
-v 18.0.0
+v 18.1.0
 d 'WBOPENDATA': module to access World Bank databases
 d 
 d wbopendata allows Stata users to download over 20,000 indicators 
@@ -14,10 +14,9 @@ d (2) topics - WDI indicators within a specific topic for all years/countries;
 d (3) indicator - all years for all countries for a single indicator; 
 d (4) indicator and country - selected years/countries for a single indicator; 
 d (5) multiple indicators - all years for selected indicators. Users can 
-d choose wide or long format. NEW in v17.8: Discovery commands (sources,
-d alltopics, search, info) with clickable SMCL navigation. NEW in v17.7: Basic
-d country context variables (region, income level, lending type) included by
-d default. NEW in v17.6: Graph-ready metadata with linewrap() and maxlength().
+d choose wide or long format. NEW in v18.1: YAML-based parameters; deprecated
+d 89 per-indicator help files in favor of discovery commands (sources, alltopics,
+d search, info). NEW in v17.7: Basic country context variables included by default.
 d 
 d KW: World Bank
 d KW: development indicators
@@ -25,9 +24,9 @@ d KW: WDI
 d KW: API
 d KW: open data
 d 
-d Requires: Stata version 12
+d Requires: Stata version 14
 d 
-d Distribution-Date: 20260208
+d Distribution-Date: 20260209
 d License: MIT
 d 
 d Author: João Pedro Azevedo
