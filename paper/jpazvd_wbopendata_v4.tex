@@ -274,7 +274,7 @@ Languages & 3 (English, Spanish, French) \\
 \end{tabular}
 \end{table}
 
-\texttt{wbopendata} talks directly to the World Bank API (JSON over HTTP), returns tidy Stata datasets, and caches results to minimize repeat downloads. Five pull modes cover country, topic, single-indicator (all countries), single-indicator (selected countries), and multi-indicator requests. Output may be wide or long; \texttt{latest} works in long mode and returns ready-to-use scalars for titles and subtitles. Metadata is always fetched; v17.7.1 adds basic country context (region, admin region, income level, lending type) by default. Version~18.0 introduces discovery commands for offline catalog browsing, a YAML-backed metadata architecture with over 29{,}000 indicator records, and a sync system for version-controlled metadata updates.
+\texttt{wbopendata} talks directly to the World Bank API (JSON over HTTP), returns tidy Stata datasets, and caches results to minimize repeat downloads. Five pull modes cover country, topic, single-indicator (all countries), single-indicator (selected countries), and multi-indicator requests. Output may be wide or long; \texttt{latest} works in long mode and returns ready-to-use scalars for titles and subtitles. Metadata is always fetched; v17.7 adds basic country context (region, admin region, income level, lending type) by default. Version~18.0 introduces discovery commands for offline catalog browsing, a YAML-backed metadata architecture with over 29{,}000 indicator records, and a sync system for version-controlled metadata updates. Version~18.1 adds variable-level characteristic metadata for self-documenting datasets and deterministic offline testing.
 
 \subsection{Syntax}
 
@@ -347,7 +347,7 @@ Section~\ref{sec:reliability} for details on the characteristic metadata layer.
 \subsubsection*{Country attributes}
 
 \hangpara
-\texttt{\underbar{bas}ic} adds region, administrative region, income level, and lending type variables to the downloaded data. This is the default behavior in v17.7.1+.
+\texttt{\underbar{bas}ic} adds region, administrative region, income level, and lending type variables to the downloaded data. This is the default behavior in v17.7+.
 
 \hangpara
 \texttt{\underbar{nobas}ic} suppresses the default country attribute variables.
@@ -408,7 +408,7 @@ version, and last synchronization timestamp.
 \texttt{clearcache} removes the local metadata cache entirely, forcing a
 full re-download on the next sync or discovery command.
 
-\subsubsection*{Graph metadata (v17.7.1+)}
+\subsubsection*{Graph metadata (v17.6+)}
 
 \hangpara
 \texttt{\underbar{linew}rap(\ststring)} wraps metadata text for use in graph titles. The argument specifies which metadata to wrap: \texttt{name}, \texttt{description}, \texttt{note}, \texttt{source}, \texttt{topic}, or \texttt{all}.
@@ -887,17 +887,6 @@ reported in Appendix~\ref{app:diagnostics}.
 
 \subsection{Metadata management}\label{sec:metadata}
 
-Local metadata caches are managed through the \texttt{sync} family of
-commands documented in Section~\ref{sec:sync}.  The design separates
-\emph{preview} from \emph{apply}: the default \texttt{sync} is a dry run
-that shows what would change, while \texttt{sync replace} downloads and
-installs the latest YAML definitions and country classifications from
-GitHub.  Three auxiliary commands---\texttt{checkupdate},
-\texttt{cacheinfo}, and \texttt{clearcache}---provide version queries and
-cache housekeeping.  The legacy \texttt{update} sub-commands
-(\texttt{update query}, \texttt{update check}, \texttt{update all}) remain
-functional but are deprecated in favor of this unified interface.
-
 Regular metadata updates are particularly important when using the
 \texttt{match()} option, as income groups, regional classifications, and even
 country names may be revised over time. By making metadata management explicit,
@@ -960,59 +949,16 @@ responsive after the initial parse.
 
 \subsection{Metadata synchronization}\label{sec:sync}
 
-The \texttt{sync} command provides version-controlled metadata updates with an
-explicit safety gate. The default behavior is a \emph{dry run} that displays a
-preview of what would change without modifying the local cache. Applying changes
-requires the \texttt{replace} modifier, ensuring that metadata updates are never
-accidental.
-
-\hangpara
-\texttt{sync} previews metadata changes without applying them. This is the safe
-default: it reports the local cache version, compares it against the latest
-available release, and displays summary statistics.
-
-\hangpara
-\texttt{sync detail} extends the preview with per-source and per-topic indicator
-breakdowns, showing how many indicators each source contributes and how they are
-distributed across topic categories.
-
-\hangpara
-\texttt{sync replace} applies the metadata synchronization. After displaying the
-same preview, it downloads the latest metadata release from the GitHub repository
-and updates the local cache files.
-
-\hangpara
-\texttt{sync force} forces a fresh preview by re-querying the API rather than
-relying on cached diagnostics. This remains a dry run; no changes are applied.
-
-\hangpara
-\texttt{sync replace force} combines both modifiers: it forces a fresh download
-of metadata regardless of the local cache version, bypassing staleness checks.
-
-\noindent Three additional cache management commands complement the sync system:
-
-\hangpara
-\texttt{checkupdate} queries the remote repository for the latest release version
-and reports whether an update is available, without downloading or modifying any
-files.
-
-\hangpara
-\texttt{cacheinfo} displays the cache directory location, current metadata
-version, and last synchronization timestamp.
-
-\hangpara
-\texttt{clearcache} removes the local metadata cache entirely, forcing a full
-re-download on the next sync or discovery command.
-
-\noindent For backward compatibility, several deprecated options continue to
-function with a warning.  The sync aliases \texttt{syncforce},
-\texttt{syncpreview}, and \texttt{syncdryrun} map transparently to
-\texttt{sync replace force}, \texttt{sync replace}, and \texttt{sync},
-respectively.
-
-The \texttt{metadataoffline} option, which previously generated
-71 per-indicator \texttt{.sthlp} files ($\sim$15\,MB), is superseded by the
-YAML metadata architecture and the discovery commands described in
+The \texttt{sync} family of commands (documented in Section~\ref{sec:command})
+provides version-controlled metadata updates with an explicit safety gate:
+the default \texttt{sync} is a dry run that previews changes, while
+\texttt{sync replace} applies them.  Three auxiliary
+commands---\texttt{checkupdate}, \texttt{cacheinfo}, and
+\texttt{clearcache}---provide version queries and cache housekeeping.
+For backward compatibility, the legacy aliases \texttt{syncforce},
+\texttt{syncpreview}, and \texttt{syncdryrun} remain functional with
+deprecation warnings, as does \texttt{metadataoffline}, which is superseded
+by the YAML metadata architecture and the discovery commands described in
 Section~\ref{sec:discovery}.
 
 The sync architecture attempts three download pathways in order of preference:
@@ -1131,10 +1077,12 @@ This longevity reflects deliberate design choices rather than technical inertia.
 By maintaining backward compatibility across upstream changes, encapsulating
 complexity behind domain-specific syntax, and treating data acquisition as code
 rather than manual preprocessing, \texttt{wbopendata} shifts reproducibility from
-an aspirational norm to a default behavior. Version~18.0 extends this approach
+an aspirational norm to a default behavior. Versions~18.0 and~18.1 extend this approach
 with offline discovery commands for catalog browsing and indicator search,
 a YAML-backed metadata architecture, version-controlled metadata synchronization,
-publication-ready metadata handling, and an 89-test QA suite across 17 categories.
+publication-ready metadata handling, self-documenting datasets through variable
+characteristics, deterministic offline testing, and an 89-test QA suite across
+17 categories.
 
 The command’s pure-Stata implementation ensures compatibility with institutional
 computing environments, while the bundled live test suite and QA framework
@@ -1392,12 +1340,7 @@ logic and can be identified by re-running the corresponding commands.
 \input{sjlogs/ex_discovery_alltopics.log.tex}\nullskip
 \end{stlog}
 
-\subsection{Sync: Metadata status preview}\label{app:diagnostics:sync}
-\begin{stlog}
-\input{sjlogs/ex_sync_preview.log.tex}\nullskip
-\end{stlog}
-
-\subsection{Sync: Detailed metadata breakdown}\label{app:diagnostics:syncdetail}
+\subsection{Sync: Detailed metadata breakdown}\label{app:diagnostics:sync}
 \begin{stlog}
 \input{sjlogs/ex_sync_detail.log.tex}\nullskip
 \end{stlog}
@@ -1454,7 +1397,7 @@ The test suite employs two complementary testing paradigms. The live
 integration tests described above detect upstream regressions in real time but
 are inherently non-deterministic: results depend on current API responses,
 network conditions, and the evolving state of upstream data.  To complement
-this approach, version~18.2 introduces \emph{deterministic offline tests}
+this approach, version~18.1 introduces \emph{deterministic offline tests}
 (category~DET) that execute against pre-recorded CSV fixtures stored in
 \texttt{qa/fixtures/}, eliminating network dependency entirely.
 

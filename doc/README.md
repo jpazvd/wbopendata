@@ -106,4 +106,4 @@ doc/
 
 ---
 
-**Last Updated**: January 2026 | **Version**: 17.7.1
+**Last Updated**: February 2026 | **Version**: 18.1.0
