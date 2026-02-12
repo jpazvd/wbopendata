@@ -139,7 +139,7 @@ Browse the World Bank data catalog directly from Stata — no network required a
 
 ```stata
 * Search for GDP indicators in topic 3 (Economy & Growth)
-wbopendata, search(GDP) topic(3)
+wbopendata, search(GDP) searchtopic(3)
 
 * Get detailed metadata for a specific indicator
 wbopendata, info(NY.GDP.MKTP.CD)
