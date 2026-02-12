@@ -457,6 +457,9 @@ global failed_tests ""
 global current_test ""
 global skip_test 0
 
+* Fixture directory for offline/deterministic tests (DET, ERR-06)
+local _det_fixtures "$qadir/fixtures"
+
 * which version of stata is this test being run on
 which wbopendata
 
@@ -2187,13 +2190,16 @@ di as text "`sep'"
 
 * ERR-01: No indicator and no action specified
 *   PURPOSE: Verify wbopendata errors when called with no indicator or action
-*   CODE: wbopendata.ado syntax parsing block
-*   EXPECTED: Non-zero return code
+*   CODE: wbopendata.ado syntax parsing block → exit 198
+*   EXPECTED: rc == 198 (syntax error)
+*   METHOD: rcof (Gould 2001) — verifies exact return code
 run_test "ERR-01" "Error: no indicator or action specified"
 if $skip_test == 0 {
-    cap noi wbopendata, clear
-    if _rc != 0 test_pass
-    else test_fail "Should have errored without indicator"
+    cap noi {
+        rcof "noi wbopendata, clear" == 198
+    }
+    if _rc == 0 test_pass
+    else test_fail "Expected rc 198 (syntax error)"
 }
 
 * ERR-02: Invalid indicator code
@@ -2209,17 +2215,20 @@ if $skip_test == 0 {
 
 * ERR-03: Match with indicator (mutually exclusive options)
 *   PURPOSE: Verify match() and indicator() cannot be combined with clear
-*   CODE: wbopendata.ado option validation
-*   EXPECTED: Non-zero return code
+*   CODE: wbopendata.ado option validation → exit 198
+*   EXPECTED: rc == 198 (syntax error)
+*   METHOD: rcof (Gould 2001) — verifies exact return code
 run_test "ERR-03" "Error: match+indicator conflict"
 if $skip_test == 0 {
     clear
     input str3 countrycode
     "USA"
     end
-    cap noi wbopendata, indicator(SP.POP.TOTL) match(countrycode) clear
-    if _rc != 0 test_pass
-    else test_fail "match+indicator+clear should be rejected"
+    cap noi {
+        rcof "noi wbopendata, indicator(SP.POP.TOTL) match(countrycode) clear" == 198
+    }
+    if _rc == 0 test_pass
+    else test_fail "Expected rc 198 (syntax error)"
 }
 
 * ERR-04: Invalid country code
@@ -2244,15 +2253,24 @@ if $skip_test == 0 {
     else test_fail "Invalid source should return 0 obs or error"
 }
 
-* ERR-06: Deprecated indicator
-*   PURPOSE: Verify deprecated indicators are handled without crash
-*   CODE: wbopendata.ado -> World Bank API (may return error XML)
-*   EXPECTED: Error or zero observations (graceful degradation)
-run_test "ERR-06" "Error: deprecated indicator handling"
+* ERR-06: Empty API response (offline fixture simulating deprecated indicator)
+*   PURPOSE: Verify wbopendata handles empty CSV response gracefully
+*   CODE: _query.ado → offline branch → empty fixture CSV (headers only, 0 rows)
+*   FIXTURE: DEPRECATED_INDICATOR_all.csv
+*   EXPECTED: _rc != 0 or _N == 0 (graceful degradation)
+*   NOTE: Uses offline fixture instead of live API to avoid dependency on WB
+*         deprecation status (SP.ADO.TFRT was reinstated, breaking the old test)
+run_test "ERR-06" "Error: empty indicator response (offline)"
 if $skip_test == 0 {
-    cap noi wbopendata, indicator(SP.ADO.TFRT) clear nometadata long
-    if _rc != 0 | _N == 0 test_pass
-    else test_fail "Deprecated indicator should be handled gracefully"
+    cap confirm file "`_det_fixtures'/DEPRECATED_INDICATOR_all.csv"
+    if _rc != 0 {
+        test_skip "Fixture DEPRECATED_INDICATOR_all.csv not found"
+    }
+    else {
+        cap noi wbopendata, indicator(DEPRECATED.INDICATOR) clear nometadata long offline("`_det_fixtures'")
+        if _rc != 0 | _N == 0 test_pass
+        else test_fail "Empty fixture should produce error or 0 obs"
+    }
 }
 
 * ERR-07: Year range inverted
@@ -2268,13 +2286,16 @@ if $skip_test == 0 {
 
 * ERR-08: Empty indicator string
 *   PURPOSE: Verify empty indicator() is rejected
-*   CODE: wbopendata.ado syntax parsing
-*   EXPECTED: Non-zero return code
+*   CODE: wbopendata.ado syntax parsing → exit 198
+*   EXPECTED: rc == 198 (syntax error)
+*   METHOD: rcof (Gould 2001) — verifies exact return code
 run_test "ERR-08" "Error: empty indicator string"
 if $skip_test == 0 {
-    cap noi wbopendata, indicator() clear
-    if _rc != 0 test_pass
-    else test_fail "Empty indicator should error"
+    cap noi {
+        rcof "noi wbopendata, indicator() clear" == 198
+    }
+    if _rc == 0 test_pass
+    else test_fail "Expected rc 198 (syntax error)"
 }
 
 *===============================================================================
@@ -2355,9 +2376,6 @@ if $skip_test == 0 {
 *   qa/fixtures/ directory.
 *===============================================================================
 
-* Set up offline fixture directory for DET tests
-local _det_fixtures "$qadir/fixtures"
-
 * DET-01: Offline single indicator, single country
 *   PURPOSE: Verify offline injection produces valid dataset from fixture
 *   CODE: _query.ado → offline branch → fixture CSV
@@ -2395,14 +2413,12 @@ if $skip_test == 0 {
         test_skip "Fixture SP_POP_TOTL_all.csv not found"
     }
     else {
-        global wbopendata_offline "`_det_fixtures'"
         cap noi {
-            wbopendata, indicator(SP.POP.TOTL) clear nometadata long
+            wbopendata, indicator(SP.POP.TOTL) clear nometadata long offline("`_det_fixtures'")
             assert _N > 10000
             qui tab countrycode
             assert r(r) > 200
         }
-        global wbopendata_offline ""
         if _rc == 0 test_pass
         else test_fail "Offline all-countries fixture failed"
     }
@@ -2420,14 +2436,12 @@ if $skip_test == 0 {
         test_skip "Fixture SP_POP_TOTL_USA.csv not found"
     }
     else {
-        global wbopendata_offline "`_det_fixtures'"
         cap noi {
-            wbopendata, indicator(SP.POP.TOTL) country(USA) clear nometadata long
+            wbopendata, indicator(SP.POP.TOTL) country(USA) clear nometadata long offline("`_det_fixtures'")
             qui keep if countrycode == "USA" & year == 2020
             assert _N == 1
             assert sp_pop_totl > 300000000 & sp_pop_totl < 400000000
         }
-        global wbopendata_offline ""
         if _rc == 0 test_pass
         else test_fail "Value pin failed (USA pop 2020 out of range)"
     }
@@ -2445,14 +2459,12 @@ if $skip_test == 0 {
         test_skip "Fixture NY_GDP_MKTP_CD_USA.csv not found"
     }
     else {
-        global wbopendata_offline "`_det_fixtures'"
         cap noi {
-            wbopendata, indicator(NY.GDP.MKTP.CD) country(USA) clear nometadata long
+            wbopendata, indicator(NY.GDP.MKTP.CD) country(USA) clear nometadata long offline("`_det_fixtures'")
             assert _N > 0
             cap confirm variable countrycode
             assert _rc == 0
         }
-        global wbopendata_offline ""
         if _rc == 0 test_pass
         else test_fail "Offline GDP fixture failed"
     }
@@ -2470,12 +2482,10 @@ if $skip_test == 0 {
         test_skip "Fixture country_USA.csv not found"
     }
     else {
-        global wbopendata_offline "`_det_fixtures'"
         cap noi {
-            wbopendata, country(USA) clear nometadata
+            wbopendata, country(USA) clear nometadata offline("`_det_fixtures'")
             assert _N > 0
         }
-        global wbopendata_offline ""
         if _rc == 0 test_pass
         else test_fail "Offline country-only fixture failed"
     }
@@ -2487,13 +2497,10 @@ if $skip_test == 0 {
 *   EXPECTED: _rc == 601 (file not found)
 run_test "DET-06" "Offline: missing fixture error handling"
 if $skip_test == 0 {
-    global wbopendata_offline "`_det_fixtures'"
     cap noi {
-        wbopendata, indicator(NONEXISTENT.INDICATOR) country(ZZZ) clear nometadata long
+        wbopendata, indicator(NONEXISTENT.INDICATOR) country(ZZZ) clear nometadata long offline("`_det_fixtures'")
     }
-    local det_rc = _rc
-    global wbopendata_offline ""
-    if `det_rc' != 0 test_pass
+    if _rc != 0 test_pass
     else test_fail "Missing fixture should have returned an error"
 }
 
