@@ -457,7 +457,7 @@ tab indicatorcode
 _query_indicators, per_page(1) page(1726) cmax(1728) noi nopreserve source
 tab indicatorcode
 
-set trace on
+*set trace on
 _query_indicators, per_page(1) page(1728) cmax(1728) noi nopreserve verbose
 
 
@@ -474,8 +474,8 @@ set more off
 _query_indicators, per_page(1) cmax(700)
 
 
-set trace on
-set tracedepth 1
+*set trace on
+*set tracedepth 1
 
 
 

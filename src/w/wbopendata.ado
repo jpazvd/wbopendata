@@ -502,14 +502,14 @@ local indicator `indicators'
 							}
 							if (`lw_dnl' > 0) {
 								forvalues ln = 1/`lw_dnl' {
-									capture local lineval "`r(description_line`ln')'"
-									if (_rc == 0 & "`lineval'" != "") return local description`idx'_line`ln' "`lineval'"
+									capture local lineval `"`r(description_line`ln')'"'
+									if (_rc == 0 & `"`lineval'"' != "") return local description`idx'_line`ln' `"`lineval'"'
 								}
 							}
 							if (`lw_nnl' > 0) {
 								forvalues ln = 1/`lw_nnl' {
-									capture local lineval "`r(note_line`ln')'"
-									if (_rc == 0 & "`lineval'" != "") return local note`idx'_line`ln' "`lineval'"
+									capture local lineval `"`r(note_line`ln')'"'
+									if (_rc == 0 & `"`lineval'"' != "") return local note`idx'_line`ln' `"`lineval'"'
 								}
 							}
 							if (`lw_snl' > 0) {
@@ -525,8 +525,8 @@ local indicator `indicators'
 								}
 							}
 
-							capture local scite "`r(sourcecite)'"
-							if (_rc == 0 & "`scite'" != "") return local sourcecite`idx' "`scite'"
+							capture local scite `"`r(sourcecite)'"'
+							if (_rc == 0 & `"`scite'"' != "") return local sourcecite`idx' `"`scite'"'
 
 							* --- variable-level char metadata from _query_metadata ---
 							if ("`char'" != "nochar") {
@@ -687,14 +687,14 @@ local indicator `indicators'
 						}
 						if (`lw_dnl' > 0) {
 							forvalues ln = 1/`lw_dnl' {
-								capture local lineval "`r(description_line`ln')'"
-								if (_rc == 0 & "`lineval'" != "") return local description`idx'_line`ln' "`lineval'"
+								capture local lineval `"`r(description_line`ln')'"'
+								if (_rc == 0 & `"`lineval'"' != "") return local description`idx'_line`ln' `"`lineval'"'
 							}
 						}
 						if (`lw_nnl' > 0) {
 							forvalues ln = 1/`lw_nnl' {
-								capture local lineval "`r(note_line`ln')'"
-								if (_rc == 0 & "`lineval'" != "") return local note`idx'_line`ln' "`lineval'"
+								capture local lineval `"`r(note_line`ln')'"'
+								if (_rc == 0 & `"`lineval'"' != "") return local note`idx'_line`ln' `"`lineval'"'
 							}
 						}
 						if (`lw_snl' > 0) {
@@ -710,8 +710,8 @@ local indicator `indicators'
 							}
 						}
 
-						capture local scite "`r(sourcecite)'"
-						if (_rc == 0 & "`scite'" != "") return local sourcecite`idx' "`scite'"
+						capture local scite `"`r(sourcecite)'"'
+						if (_rc == 0 & `"`scite'"' != "") return local sourcecite`idx' `"`scite'"'
 
 						* --- variable-level char metadata from _query_metadata ---
 						if ("`char'" != "nochar") {

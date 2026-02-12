@@ -191,8 +191,8 @@ program define example_linewrap
     local name2 `"`r(name2_stack)'"'
     local desc1 `"`r(description1_stack)'"'
     local desc2 `"`r(description2_stack)'"'
-    local src1 "`r(sourcecite1)'"
-    local src2 "`r(sourcecite2)'"
+    local src1 `"`r(sourcecite1)'"'
+    local src2 `"`r(sourcecite2)'"'
     local subtitle "`r(latest)'"
 
 

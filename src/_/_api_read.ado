@@ -399,7 +399,7 @@ _api_read, list query("http://api.worldbank.org/v2/indicators/IN.HLTH.HIVDEATH.E
 		verbose 
 return list
 
-set trace on
+*set trace on
 _api_read , page(1728) per_page(1) list parameter( indicator?id name topic?id ///
 		source?id sourceNote sourceOrganization) verbose
 return list
