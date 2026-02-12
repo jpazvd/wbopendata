@@ -12,45 +12,50 @@ Phase 6 of the Unified QA Improvement Plan implements **offline/deterministic te
 
 ## 1. What Was Implemented
 
-### 1.1 wbopendata: `$wbopendata_offline` Injection
+### 1.1 wbopendata: `offline()` Option
 
-Three `.ado` files were modified to support an offline mode controlled by global variables:
+Five `.ado` files were modified to support an `offline(string)` option that passes a fixture directory path through the entire call chain via Stata locals (not globals):
+
+```
+wbopendata.ado  →  offline("qa/fixtures")
+  ├─ _query.ado          → reads data CSVs from offline/
+  ├─ _query_metadata.ado → passes offline/ to _api_read
+  │    └─ _api_read.ado  → reads XML from offline/api/
+  └─ _api_read_indicators.ado → reads XML from offline/api/
+```
 
 #### `_query.ado` — Data CSV Download
-- **Injection point:** After `tempfile temp` (line ~128), before the API call
-- **Global variable:** `$wbopendata_offline` (set to a directory path)
+- **Option:** `offline(string)` added to syntax
 - **Fixture naming convention:** `{INDICATOR_underscored}_{country}.csv`
   - Example: `SP.POP.TOTL` + country `USA` → `SP_POP_TOTL_USA.csv`
   - Example: `SP.POP.TOTL` + all countries → `SP_POP_TOTL_all.csv`
   - Dots replaced with underscores, semicolons replaced with underscores
-- **Behavior:** When `$wbopendata_offline` is non-empty, `copy` reads from the fixture directory instead of the World Bank API. The rest of the import pipeline (CSV parsing, variable creation, metadata) runs identically.
+- **Behavior:** When `offline()` is non-empty, `copy` reads from the fixture directory instead of the World Bank API. The rest of the import pipeline (CSV parsing, variable creation, metadata) runs identically.
 
 ```stata
-if "$wbopendata_offline" != "" {
+* User calls:
+wbopendata, indicator(SP.POP.TOTL) country(USA) clear nometadata long offline("qa/fixtures")
+
+* Inside _query.ado:
+if ("`offline'" != "") {
     local _ind_name = subinstr("`indicator1'", ".", "_", .)
     local _cty_name = subinstr("`country2'", ";", "_", .)
-    local _fixture_file "$wbopendata_offline/`_ind_name'_`_cty_name'.csv"
-    cap confirm file "`_fixture_file'"
-    if _rc != 0 {
-        noi di as err "Offline fixture not found: `_fixture_file'"
-        exit 601
-    }
-    cap : copy "`_fixture_file'" `temp', replace
-}
-else {
-    * ... original API code unchanged ...
+    local _fixture_file "`offline'/`_ind_name'_`_cty_name'.csv"
+    ...
 }
 ```
 
 #### `_api_read.ado` — XML Metadata Download
-- **Injection point:** Line ~62, wrapping the `copy` call
-- **Global variable:** `$wbopendata_offline_api` (set to a directory path)
-- **Fixture file:** `api_read_response.xml`
+- **Option:** `offline(string)` added to syntax
+- **Fixture path:** `{offline}/api/api_read_response.xml`
 
 #### `_api_read_indicators.ado` — Paginated Indicator List Download
-- **Injection point:** Lines ~52-74, wrapping all three `copy` calls
-- **Global variable:** `$wbopendata_offline_api` (same as above)
-- **Fixture files:** `indicators_page1.xml`, `indicators_page2.xml`, `indicators_page3.xml`
+- **Option:** `offline(string)` added to syntax
+- **Fixture paths:** `{offline}/api/indicators_page{1,2,3}.xml`
+
+#### `_query_metadata.ado` — Metadata Coordinator
+- **Option:** `offline(string)` added to syntax
+- **Passes** `offline()` through to `_api_read`
 
 ### 1.2 unicefdata: No Code Changes Needed
 

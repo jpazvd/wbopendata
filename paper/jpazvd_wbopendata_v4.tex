@@ -42,7 +42,7 @@ jpazvd.github.io%
 % =====================================================================
 \begin{abstract}
 This article examines data provenance in the age of automation, drawing on fifteen years of development and sustained use of \texttt{wbopendata}, the first Stata command to provide programmatic access to an international development data
-repository. Today, \texttt{wbopendata} provides access to over 29{,}000 indicators from 51 databases spanning 296 countries and aggregates, with features including five download modes, multilingual metadata, publication-ready graph formatting, and---as of version~18.0---offline indicator discovery through a YAML-backed metadata architecture and version-controlled metadata synchronization. Its broader contribution lies in treating data acquisition as code: indicator selections, country filters, and time ranges become explicit parameters in analysis scripts rather than undocumented manual downloads---addressing the data provenance dimension of the reproducibility crisis that statistical reforms alone cannot fix. Yet the command has never been more relevant. As AI tools accelerate analytical workflows while enabling plausible fabrication of statistics and citations, anchoring research to authoritative, version-controlled data sources becomes essential infrastructure---not legacy convenience. I document the command's latest syntax and stored results, demonstrate workflows from basic queries to choropleth mapping, and present a 65-scenario test suite. I also discuss risks that frictionless data access can obscure---provenance opacity, coverage gaps masked by convenient defaults, and sustainability pressures---alongside mitigation strategies. I distill three design principles from fifteen years of sustained use: backward compatibility builds trust, domain-specific syntax lowers barriers, and scripted data access makes reproducibility the default rather than the exception.
+repository. Today, \texttt{wbopendata} provides access to over 29{,}000 indicators from 51 databases spanning 296 countries and aggregates, with features including five download modes, multilingual metadata, publication-ready graph formatting, and---as of version~18.0---offline indicator discovery through a YAML-backed metadata architecture and version-controlled metadata synchronization. Its broader contribution lies in treating data acquisition as code: indicator selections, country filters, and time ranges become explicit parameters in analysis scripts rather than undocumented manual downloads---addressing the data provenance dimension of the reproducibility crisis that statistical reforms alone cannot fix. Yet the command has never been more relevant. As AI tools accelerate analytical workflows while enabling plausible fabrication of statistics and citations, anchoring research to authoritative, version-controlled data sources becomes essential infrastructure---not legacy convenience. I document the command's latest syntax and stored results, demonstrate workflows from basic queries to choropleth mapping, and present an 89-scenario test suite. I also discuss risks that frictionless data access can obscure---provenance opacity, coverage gaps masked by convenient defaults, and sustainability pressures---alongside mitigation strategies. I distill three design principles from fifteen years of sustained use: backward compatibility builds trust, domain-specific syntax lowers barriers, and scripted data access makes reproducibility the default rather than the exception.
 
 \keywords{Stata, Open Data, World Bank, APIs, reproducible research, development indicators, metadata}
 \end{abstract}
@@ -835,17 +835,18 @@ framework is documented in Appendix~\ref{app:qa}.
 Because Stata lacks the mature continuous integration and mocking frameworks
 available in other statistical environments, the test design prioritizes
 detection of upstream regressions such as schema changes, pagination failures,
-or API endpoint deprecations. The test suite comprises 71 integrated tests
-distributed across 16 categories, covering environment validation, data download
+or API endpoint deprecations. The test suite comprises 89 integrated tests
+distributed across 17 categories, covering environment validation, data download
 modes, output formatting, country metadata, regression protection, linewrap
 graph annotation, update commands, topic queries, language options, population
 projections, cache management, metadata synchronization, discovery commands,
-and characteristic metadata verification.
+characteristic metadata verification, error condition validation, extreme input
+cases, and deterministic offline testing.
 Table~\ref{tab:test-coverage} summarizes the composition.
 
 \begin{table}[H]
 \centering
-\caption{Test suite composition (71 tests across 16 categories)}
+\caption{Test suite composition (89 tests across 17 categories)}
 \label{tab:test-coverage}
 
 \begin{tabular}{@{}llrl@{}}
@@ -854,8 +855,8 @@ Abbr. & Category & Tests & Focus \\
 \hline
 ENV   & Environment       & 5  & Network, API, YAML file presence \\
 DL    & Download modes    & 5  & Indicator, country, multi-indicator \\
-FMT   & Output format     & 4  & Wide, long, latest, nobasic \\
-CTRY  & Country options   & 10 & Basic, full, geo, ISO, regions, income \\
+FMT   & Output format     & 7  & Wide, long, latest, nobasic, describe, date \\
+CTRY  & Country options   & 11 & Basic, full, geo, ISO, regions, income, admin \\
 REG   & Regression        & 4  & Historical bug fixes (\#33, \#45, \#46, \#51) \\
 LW    & Linewrap          & 4  & Metadata wrapping, formats, latest scalars \\
 UPD   & Maintenance       & 6  & Legacy update, describe, sync interop \\
@@ -866,8 +867,11 @@ CACHE & Cache management  & 8  & Init, path resolution, clear, version, timestam
 SYNC  & Sync system       & 5  & Check, download, force, up-to-date, discovery \\
 DISC  & Discovery         & 7  & Sources, topics, search, filter, info \\
 CHAR  & Characteristics   & 6  & Dataset/variable \texttt{char}, persistence, \texttt{nochar} \\
+ERR   & Error conditions  & 8  & Syntax validation (\texttt{rcof}), API errors, empty \\
+EXT   & Extreme cases     & 4  & Minimal queries, large datasets, edge inputs \\
+DET   & Deterministic     & 6  & Offline fixtures, value pinning, network-free \\
 \hline
-      &                   & 71 & \\
+      &                   & 89 & \\
 \hline
 \end{tabular}
 
@@ -947,7 +951,7 @@ to a known, documented state.
 \subsubsection*{Performance}
 
 Parsing a 17~MB YAML file imposes a non-trivial startup cost. On first
-invocation, discovery commands require approximately 9~seconds to parse the
+invocation, discovery commands require approximately 21~seconds to parse the
 indicators file and build an in-memory frame cache. Subsequent calls within the
 same Stata session retrieve results from the cached frame in under 0.5~seconds
 (Stata~16+). This frame-caching strategy ensures that interactive workflows
@@ -1130,7 +1134,7 @@ rather than manual preprocessing, \texttt{wbopendata} shifts reproducibility fro
 an aspirational norm to a default behavior. Version~18.0 extends this approach
 with offline discovery commands for catalog browsing and indicator search,
 a YAML-backed metadata architecture, version-controlled metadata synchronization,
-publication-ready metadata handling, and a 71-test QA suite across 16 categories.
+publication-ready metadata handling, and an 89-test QA suite across 17 categories.
 
 The command’s pure-Stata implementation ensures compatibility with institutional
 computing environments, while the bundled live test suite and QA framework
@@ -1443,6 +1447,70 @@ Under this paradigm, test failures do not necessarily imply software defects.
 They may reflect upstream API outages, schema changes, or metadata revisions.
 The objective of the test suite is therefore not to freeze outputs, but to make
 such changes explicit and diagnosable.
+
+\subsection{Dual testing paradigm: live and deterministic}
+
+The test suite employs two complementary testing paradigms. The live
+integration tests described above detect upstream regressions in real time but
+are inherently non-deterministic: results depend on current API responses,
+network conditions, and the evolving state of upstream data.  To complement
+this approach, version~18.2 introduces \emph{deterministic offline tests}
+(category~DET) that execute against pre-recorded CSV fixtures stored in
+\texttt{qa/fixtures/}, eliminating network dependency entirely.
+
+Each fixture captures a specific API response state---for example, a known
+dataset for a particular indicator-country-year combination, or an empty
+response simulating a deprecated indicator.  The \texttt{offline()} option
+directs the command to load data from the fixture directory rather than
+querying the live API.  Tests using fixtures produce identical results
+regardless of network conditions or upstream data revisions, enabling exact
+value pinning and regression baselines that would be impossible with live
+tests.
+
+For error condition tests (category~ERR), the suite employs Stata's
+\texttt{rcof} certification command, an undocumented testing primitive
+consistent with the methodology described by
+\citet{gould2001certification}.  Unlike \texttt{capture noisily}, which
+merely records whether a command succeeded or failed, \texttt{rcof}
+verifies the \emph{exact} return code produced:
+
+\begin{stlog}
+\begin{verbatim}
+. rcof "noi wbopendata, clear" == 198
+\end{verbatim}
+\nullskip
+\end{stlog}
+
+\noindent This confirms that omitting a required option produces a syntax error
+(rc~198) rather than a network timeout or other incidental failure.  The
+distinction matters: the old \texttt{capture noisily} pattern would pass
+even if the command errored for the wrong reason, while \texttt{rcof}
+guarantees that the error originates from the intended validation logic.
+
+Because \texttt{rcof} halts execution on mismatch, integration with the
+test harness's ``continue on failure'' convention requires wrapping it in
+\texttt{capture noisily}:
+
+\begin{stlog}
+\begin{verbatim}
+. capture noisily {
+.     rcof "noi wbopendata, clear" == 198
+. }
+. if _rc == 0 test_pass
+. else test_fail "Expected rc 198 (syntax error)"
+\end{verbatim}
+\nullskip
+\end{stlog}
+
+\noindent This pattern preserves \texttt{rcof}'s precision while allowing the
+test suite to continue executing subsequent tests after a failure.
+
+The combination of live and deterministic tests creates a dual-paradigm
+framework: live tests surface upstream changes that require attention, while
+deterministic tests provide stable, reproducible baselines.  Together with the
+extreme-case tests (category~EXT), which exercise boundary conditions such as
+minimal queries, large result sets, and edge inputs, these additions bring the
+total suite to 89~tests across 17~categories.
 
 \subsection{Test harness structure}
 
