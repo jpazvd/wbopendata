@@ -27,8 +27,8 @@ jobs:
           # Documentation
           [ -d doc ] && cp -r doc sync-staging/ && echo "  doc/"
 
-          # SSC distribution package
-          [ -d ssc ] && cp -r ssc sync-staging/ && echo "  ssc/"
+          # SSC distribution package — kept in wbopendata-dev only
+          # (build scripts, submission zips, emails are private artifacts)
 
           # QA test infrastructure (scripts only, not logs/results)
           if [ -d qa ]; then

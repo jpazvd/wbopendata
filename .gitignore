@@ -38,6 +38,10 @@
 !CHANGELOG.md
 !CITATION.cff
 
+# Root-level Stata package metadata (for net install from repo root)
+!stata.toc
+!wbopendata.pkg
+
 #######################
 # For performance reasons, if a folder is already ignored, then
 # GitHub does not check the content for that folder for matches
