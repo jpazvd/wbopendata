@@ -1,7 +1,8 @@
 *******************************************************************************
 * _query   
-*! v 16.3  	8Jul2020               by Joao Pedro Azevedo
-* 	change API end point to HTTPS
+*! v 16.4  	10Feb2026               by Joao Pedro Azevedo
+*   16.4: Added nochar option passthrough; variable-level char metadata for indicator variables
+* 	16.3: change API end point to HTTPS
 *******************************************************************************
 
 program def _query, rclass
@@ -20,8 +21,10 @@ version 9.0
                          CLEAR                      ///
                          LATEST                     ///
                          NOMETADATA                 ///
-						 PROJECTION					///	
+						 PROJECTION					///
 						 SOURCE(string)				///
+						 noCHAR					///
+						 OFFLINE(string)		///
                  ]
 
 
@@ -125,6 +128,42 @@ quietly {
 
     tempfile temp
 
+    * Offline fixture injection (Phase 6, Gould 2001)
+    * When offline() option is set to a directory path, data is read from
+    * local CSV fixture files instead of the World Bank API. This enables
+    * deterministic testing without network access.
+    if ("`offline'" != "") {
+        * Build fixture filename from indicator or topic
+        * Fixture naming convention: dots→underscores, appended country
+        *   indicator query: {IND_CODE}_{country}.csv  (e.g. SP_POP_TOTL_USA.csv)
+        *   topic query:    topic_{topicid}.csv
+        *   country query:  country_{countrycode}.csv
+        if ("`indicator'" != "") {
+            local _ind_name = subinstr("`indicator1'", ".", "_", .)
+            local _cty_name = subinstr("`country2'", ";", "_", .)
+            local _fixture_file "`offline'/`_ind_name'_`_cty_name'.csv"
+        }
+        else if ("`topics'" != "") {
+            local _fixture_file "`offline'/topic_`topics1'.csv"
+        }
+        else {
+            local _fixture_file "`offline'/country_`country1'.csv"
+        }
+        cap confirm file "`_fixture_file'"
+        if _rc != 0 {
+            noi di as err "Offline fixture not found: `_fixture_file'"
+            exit 601
+        }
+        noi di as text "(offline mode: reading from `_fixture_file')"
+        cap : copy "`_fixture_file'" `temp', replace
+        if ("`indicator'" != "") {
+            local queryspec2 "indicator `indicator1'"
+        }
+        else {
+            local queryspec2 "topic `topics1'"
+        }
+    }
+    else {
 
 	loc servername "https://api.worldbank.org/v2"  /* Query server v2 */
 
@@ -149,7 +188,7 @@ quietly {
             break
         }
     }
-/* Indicator selection */	
+/* Indicator selection */
     if  ("`indicator'" != "") {
         local queryspec "`servername'/`language'/countries/`country2'/`parameter'"
         local queryspec2 "indicator `indicator1'"
@@ -169,6 +208,8 @@ quietly {
             break
         }
     }
+
+    } /* end of online/offline branch */
 
     cap : insheet using `temp', `clear' name
     local rc3 = _rc
@@ -218,7 +259,8 @@ quietly {
 		cap : _api_read , query("https://api.worldbank.org/v2/Indicators/`indicator'") ///
 			nopreserve ///
 			list ///
-			parameter(indicator?id name source?id)
+			parameter(indicator?id name source?id) ///
+			offline("`offline'")
 			
 			
 			
@@ -345,6 +387,13 @@ quietly {
 
         rename `l1' `name'
         label var `name' "`indicator'"
+
+        * --- variable-level char metadata (default-on, suppressed by nochar) ---
+        if ("`char'" != "nochar") {
+            local _ind_code = word("`indicator'",1)
+            char `name'[indicator] "`_ind_code'"
+        }
+
         `l3'
         `l4'
         if ("`latest'" != "") {

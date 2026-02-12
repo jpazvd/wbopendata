@@ -191,15 +191,15 @@ program define example_linewrap
     local name2 `"`r(name2_stack)'"'
     local desc1 `"`r(description1_stack)'"'
     local desc2 `"`r(description2_stack)'"'
-    local src1 "`r(sourcecite1)'"
-    local src2 "`r(sourcecite2)'"
+    local src1 `"`r(sourcecite1)'"'
+    local src2 `"`r(sourcecite2)'"'
     local subtitle "`r(latest)'"
 
 
     * Basic: caption for descriptions, note for separate sources per indicator
     twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///
         title("Poverty and Child Mortality (Latest Available Year)") ///
-            "Source: wbopendata (2026)" , size(vsmall)) name(tmp0, replace)
+        note("Source: wbopendata (2026)", size(vsmall)) name(tmp0, replace)
 
     * Basic: caption for descriptions, note for separate sources per indicator
     twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///

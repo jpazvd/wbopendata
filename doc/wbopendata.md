@@ -1,4 +1,6 @@
 # Examples
+
+**Minimum requirement:** Stata 12 or later.
 ## Version Control [(back)](https://github.com/jpazvd/wbopendata#examples)
 <pre id="stlog-1" class="stlog"><samp>. which wbopendata
 .\w\wbopendata.ado
