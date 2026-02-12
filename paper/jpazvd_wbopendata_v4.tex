@@ -42,7 +42,7 @@ jpazvd.github.io%
 % =====================================================================
 \begin{abstract}
 This article examines data provenance in the age of automation, drawing on fifteen years of development and sustained use of \texttt{wbopendata}, the first Stata command to provide programmatic access to an international development data
-repository. Today, \texttt{wbopendata} provides access to over 29{,}000 indicators from 51 databases spanning 296 countries and aggregates, with features including five download modes, multilingual metadata, publication-ready graph formatting, and---as of version~18.0---offline indicator discovery through a YAML-backed metadata architecture and version-controlled metadata synchronization. Its broader contribution lies in treating data acquisition as code: indicator selections, country filters, and time ranges become explicit parameters in analysis scripts rather than undocumented manual downloads---addressing the data provenance dimension of the reproducibility crisis that statistical reforms alone cannot fix. Yet the command has never been more relevant. As AI tools accelerate analytical workflows while enabling plausible fabrication of statistics and citations, anchoring research to authoritative, version-controlled data sources becomes essential infrastructure---not legacy convenience. I document the command's latest syntax and stored results, demonstrate workflows from basic queries to choropleth mapping, and present a 65-scenario test suite. I also discuss risks that frictionless data access can obscure---provenance opacity, coverage gaps masked by convenient defaults, and sustainability pressures---alongside mitigation strategies. I distill three design principles from fifteen years of sustained use: backward compatibility builds trust, domain-specific syntax lowers barriers, and scripted data access makes reproducibility the default rather than the exception.
+repository. Today, \texttt{wbopendata} provides access to over 29{,}000 indicators from 51 databases spanning 296 countries and aggregates, with features including five download modes, multilingual metadata, publication-ready graph formatting, and---as of version~18.0---offline indicator discovery through a YAML-backed metadata architecture and version-controlled metadata synchronization. Its broader contribution lies in treating data acquisition as code: indicator selections, country filters, and time ranges become explicit parameters in analysis scripts rather than undocumented manual downloads---addressing the data provenance dimension of the reproducibility crisis that statistical reforms alone cannot fix. Yet the command has never been more relevant. As AI tools accelerate analytical workflows while enabling plausible fabrication of statistics and citations, anchoring research to authoritative, version-controlled data sources becomes essential infrastructure---not legacy convenience. I document the command's latest syntax and stored results, demonstrate workflows from basic queries to choropleth mapping, and present an 89-scenario test suite. I also discuss risks that frictionless data access can obscure---provenance opacity, coverage gaps masked by convenient defaults, and sustainability pressures---alongside mitigation strategies. I distill three design principles from fifteen years of sustained use: backward compatibility builds trust, domain-specific syntax lowers barriers, and scripted data access makes reproducibility the default rather than the exception.
 
 \keywords{Stata, Open Data, World Bank, APIs, reproducible research, development indicators, metadata}
 \end{abstract}
@@ -117,6 +117,14 @@ treated as part of the analytical codebase rather than as an external preparator
 Indicator selection, country coverage, time ranges, and filters are expressed as explicit
 command parameters that can be executed, inspected, and version-controlled alongside
 the analysis itself.
+
+This principle has antecedents in the Stata ecosystem. \citet{drukker2006freduse}
+demonstrated how a purpose-built command (\texttt{freduse}) could transform the
+retrieval of Federal Reserve economic data from a manual browser task into a
+scriptable, reproducible operation embedded in analytical code. \texttt{wbopendata}
+extends this logic to the broader landscape of World Bank development indicators,
+applying the same core insight---that data acquisition should be code---to a data
+ecosystem an order of magnitude larger.
 
 This approach contrasts with common workflows in which researchers manually download
 spreadsheets from web portals, rename files, apply undocumented filters, and import the
@@ -208,6 +216,13 @@ the Poverty and Inequality Platform (PIP) \citep{WorldBankPIP}, a publicly acces
 global platform that disseminates official poverty and inequality estimates produced
 through transparent and replicable pipelines.
 
+An early and influential precedent is \texttt{freduse} \citep{drukker2006freduse},
+which demonstrated that economic data retrieval could be embedded directly in
+Stata syntax with per-variable metadata stored as variable characteristics
+(\texttt{char}). The design choices visible in \texttt{freduse}---scripted
+acquisition, structured metadata, and Stata-native output---anticipate many of
+the patterns adopted by \texttt{wbopendata} and its successors.
+
 Outside the World Bank, related principles can be observed in user-written Stata
 tools such as \texttt{datazoom} \citep{datazoom2020}, which systematizes the preparation of Brazilian
 household survey microdata produced by the national statistical agency. Although
@@ -259,7 +274,7 @@ Languages & 3 (English, Spanish, French) \\
 \end{tabular}
 \end{table}
 
-\texttt{wbopendata} talks directly to the World Bank API (JSON over HTTP), returns tidy Stata datasets, and caches results to minimize repeat downloads. Five pull modes cover country, topic, single-indicator (all countries), single-indicator (selected countries), and multi-indicator requests. Output may be wide or long; \texttt{latest} works in long mode and returns ready-to-use scalars for titles and subtitles. Metadata is always fetched; v17.7.1 adds basic country context (region, admin region, income level, lending type) by default. Version~18.0 introduces discovery commands for offline catalog browsing, a YAML-backed metadata architecture with over 29{,}000 indicator records, and a sync system for version-controlled metadata updates.
+\texttt{wbopendata} talks directly to the World Bank API (JSON over HTTP), returns tidy Stata datasets, and caches results to minimize repeat downloads. Five pull modes cover country, topic, single-indicator (all countries), single-indicator (selected countries), and multi-indicator requests. Output may be wide or long; \texttt{latest} works in long mode and returns ready-to-use scalars for titles and subtitles. Metadata is always fetched; v17.7 adds basic country context (region, admin region, income level, lending type) by default. Version~18.0 introduces discovery commands for offline catalog browsing, a YAML-backed metadata architecture with over 29{,}000 indicator records, and a sync system for version-controlled metadata updates. Version~18.1 adds variable-level characteristic metadata for self-documenting datasets and deterministic offline testing.
 
 \subsection{Syntax}
 
@@ -278,7 +293,8 @@ Languages & 3 (English, Spanish, French) \\
 Exactly one of the following is required:
 
 \hangpara
-\texttt{\underbar{ind}icator(\ststring)} specifies one or more World Bank indicator codes. Multiple indicators can be requested by separating codes with semicolons, for example, \texttt{indicator(SP.POP.TOTL;NY.GDP.PCAP.CD)}.
+\texttt{\underbar{ind}icator(\ststring)} specifies one or more World Bank indicator codes. Multiple indicators can be requested by separating codes with semicolons:\newline
+\mbox{}\quad\texttt{indicator(SP.POP.TOTL;NY.GDP.PCAP.CD)}.
 
 \hangpara
 \texttt{\underbar{c}ountry(\ststring)} specifies ISO3 country codes or World Bank region codes to retrieve all available indicators for selected countries. Multiple codes can be separated by semicolons.
@@ -290,6 +306,15 @@ Exactly one of the following is required:
 
 \hangpara
 \texttt{\underbar{y}ear(\ststring)} restricts the time interval. For example, \texttt{year(2000:2020)} returns data only for years 2000 through 2020.
+
+\hangpara
+\texttt{date(\ststring)} provides an alternative time filter for series that
+support quarterly or monthly periodicity (e.g., \texttt{date(2020Q1:2021Q4)}).
+
+\hangpara
+\texttt{\underbar{s}ource(\ststring)} restricts the query to a specific World
+Bank data source by numeric ID (e.g., \texttt{source(2)} for World Development
+Indicators).
 
 \hangpara
 \texttt{\underbar{l}anguage(\ststring)} sets the language for metadata display. Valid codes are \texttt{en} (English, default), \texttt{es} (Spanish), and \texttt{fr} (French).
@@ -314,10 +339,15 @@ Exactly one of the following is required:
 \hangpara
 \texttt{\underbar{nomet}adata} suppresses the metadata display that normally appears after data retrieval.
 
+\hangpara
+\texttt{\underbar{nochar}} suppresses the dataset and variable characteristics
+(\texttt{char}) that are written by default as of v18.1. See
+Section~\ref{sec:reliability} for details on the characteristic metadata layer.
+
 \subsubsection*{Country attributes}
 
 \hangpara
-\texttt{\underbar{bas}ic} adds region, administrative region, income level, and lending type variables to the downloaded data. This is the default behavior in v17.7.1+.
+\texttt{\underbar{bas}ic} adds region, administrative region, income level, and lending type variables to the downloaded data. This is the default behavior in v17.7+.
 
 \hangpara
 \texttt{\underbar{nobas}ic} suppresses the default country attribute variables.
@@ -326,23 +356,59 @@ Exactly one of the following is required:
 \texttt{\underbar{f}ull} adds all 17 country attributes including geographic coordinates and capital city. See Table~\ref{tab:attributes} for the complete list.
 
 \hangpara
+\texttt{iso}, \texttt{regions}, \texttt{adminr}, \texttt{income},
+\texttt{lending} add individual attribute groups without the full set.
+
+\hangpara
 \texttt{\underbar{ge}o}, \texttt{capital}, \texttt{latitude}, \texttt{longitude} add specific geographic fields without the full set of attributes.
 
 \hangpara
 \texttt{\underbar{m}atch(\varname)} merges country attributes into an existing dataset. The variable \varname\ must contain World Bank country codes (ISO3 format).
 
-\subsubsection*{Metadata management}
+\subsubsection*{Metadata management (v18.0+)}
+
+\noindent\textit{Sync preview (dry run):}
 
 \hangpara
-\texttt{\underbar{upd}ate query} displays the vintage dates of locally cached indicator and country metadata.
+\texttt{sync} previews metadata changes without applying them. Compares the
+local cache version against the latest available release and displays a
+summary. This is the safe default---no files are modified.
 
 \hangpara
-\texttt{\underbar{upd}ate check} compares local metadata against the remote repository and reports whether updates are available.
+\texttt{sync detail} extends the preview with per-source and per-topic
+indicator breakdowns.
 
 \hangpara
-\texttt{\underbar{upd}ate all} downloads fresh metadata from the repository, replacing the local cache.
+\texttt{sync force} forces a fresh preview by re-querying the API rather
+than relying on cached diagnostics. Still a dry run.
 
-\subsubsection*{Graph metadata (v17.7.1+)}
+\noindent\textit{Sync apply:}
+
+\hangpara
+\texttt{sync replace} applies the metadata synchronization---downloads the
+latest YAML metadata release from the GitHub repository and updates the
+local cache.
+
+\hangpara
+\texttt{sync replace force} forces a re-download regardless of the local
+cache version, bypassing staleness checks.
+
+\noindent\textit{Cache management:}
+
+\hangpara
+\texttt{checkupdate} queries the remote repository for the latest release
+version and reports whether an update is available, without downloading
+or modifying any files.
+
+\hangpara
+\texttt{cacheinfo} displays the cache directory location, current metadata
+version, and last synchronization timestamp.
+
+\hangpara
+\texttt{clearcache} removes the local metadata cache entirely, forcing a
+full re-download on the next sync or discovery command.
+
+\subsubsection*{Graph metadata (v17.6+)}
 
 \hangpara
 \texttt{\underbar{linew}rap(\ststring)} wraps metadata text for use in graph titles. The argument specifies which metadata to wrap: \texttt{name}, \texttt{description}, \texttt{note}, \texttt{source}, \texttt{topic}, or \texttt{all}.
@@ -375,7 +441,10 @@ All discovery outputs feature clickable SMCL links that let users drill down fro
 \texttt{searchtopic(\num)} filters search results to a specific topic ID.
 
 \hangpara
-\texttt{searchfield(\ststring)} restricts search to specified metadata fields: \texttt{code}, \texttt{name}, \texttt{description}, \texttt{source}, \texttt{topic}, \texttt{note}, or \texttt{all} (default). Multiple fields can be separated by semicolons.
+\texttt{searchfield(\ststring)} restricts search to a metadata field:
+\texttt{code}, \texttt{name}, \texttt{description}, \texttt{source},
+\texttt{topic}, \texttt{note}, or \texttt{all} (default).
+Multiple fields can be separated by semicolons.
 
 \hangpara
 \texttt{exact} requires an exact indicator code match rather than partial matching.
@@ -395,7 +464,13 @@ These commands support the paper's central thesis by making indicator \emph{sele
 
 \texttt{wbopendata} is an r-class command that stores results in \texttt{r()}. These stored results are critical for automation: they allow downstream code to programmatically access indicator metadata, construct dynamic graph titles, and build reproducible pipelines without manual intervention.
 
-\textbf{Indicator codes and variable names.} World Bank indicator codes like \texttt{SI.POV.DDAY} contain periods, which Stata does not allow in variable names. The command automatically converts indicator codes to Stata-safe variable names by replacing periods with underscores and converting to lowercase: \texttt{SI.POV.DDAY} becomes \texttt{si\_pov\_dday}. Both forms are stored: \texttt{r(indicator\#)} preserves the original API code for documentation and re-querying, while \texttt{r(varname\#)} provides the Stata variable name for use in analysis commands.
+\noindent\textbf{Indicator codes and variable names.}
+World Bank indicator codes like \texttt{SI.POV.DDAY} contain periods,
+which Stata does not permit in variable names. The command automatically
+converts indicator codes to Stata-safe variable names by replacing periods
+with underscores and converting to lowercase: \texttt{SI.POV.DDAY} becomes
+\texttt{si\_pov\_dday}.
+Both forms are stored: \texttt{r(indicator\#)} preserves the original API code for documentation and re-querying, while \texttt{r(varname\#)} provides the Stata variable name for use in analysis commands.
 
 \textbf{Indexed versus aggregate returns.} Results come in two forms. Indexed returns (\texttt{r(varname1)}, \texttt{r(varname2)}, \ldots) store metadata for each indicator separately, enabling indicator-specific labeling and citation. Aggregate returns store combined information: \texttt{r(indicator)} contains the full semicolon-separated query string as entered, while \texttt{r(name)} contains all variable names as a space-separated list suitable for \texttt{foreach} loops or variable lists.
 
@@ -403,7 +478,7 @@ For each requested indicator (indexed by \# = 1, 2, \ldots), the command returns
 
 \begin{table}[H]
 \centering
-\caption{Stored results}
+\caption{Stored results: core command}
 \label{tab:stored}
 \begin{tabular}{llp{6.5cm}}
 \hline
@@ -439,25 +514,39 @@ Result & Type & Description \\
 \texttt{r(*\#\_nlines)} & scalar & Line count for each field \\
 \texttt{r(*\#\_line1)}, \ldots & local & Individual wrapped lines \\
 \hline
-\multicolumn{3}{l}{\textit{Discovery: \texttt{sources}}} \\
+\end{tabular}
+\end{table}
+
+Discovery commands (Section~\ref{sec:discovery}) return a separate set of
+results documented in Table~\ref{tab:stored-discovery}.
+
+\begin{table}[H]
+\centering
+\caption{Stored results: discovery commands (v18.0)}
+\label{tab:stored-discovery}
+\begin{tabular}{llp{6.5cm}}
+\hline
+Result & Type & Description \\
+\hline
+\multicolumn{3}{l}{\textit{\texttt{sources}}} \\
 \texttt{r(n\_sources)} & scalar & Total number of data sources \\
 \texttt{r(n\_indicators)} & scalar & Total indicators across all sources \\
 \texttt{r(source\_codes)} & local & Space-separated list of source IDs \\
 \texttt{r(source\_names)} & local & Compound-quoted list of source names \\
 \hline
-\multicolumn{3}{l}{\textit{Discovery: \texttt{alltopics}}} \\
+\multicolumn{3}{l}{\textit{\texttt{alltopics}}} \\
 \texttt{r(n\_topics)} & scalar & Total number of topics \\
 \texttt{r(topic\_ids)} & local & Space-separated list of topic IDs \\
 \texttt{r(topic\_names)} & local & Compound-quoted list of topic names \\
 \hline
-\multicolumn{3}{l}{\textit{Discovery: \texttt{search(pattern)}}} \\
+\multicolumn{3}{l}{\textit{\texttt{search(pattern)}}} \\
 \texttt{r(n\_results)} & scalar & Total matches found \\
 \texttt{r(n\_displayed)} & scalar & Matches shown after limit \\
 \texttt{r(first\_code)} & local & First matching indicator code \\
 \texttt{r(codes)} & local & Space-separated indicator codes \\
 \texttt{r(keyword)} & local & Search keyword used \\
 \hline
-\multicolumn{3}{l}{\textit{Discovery: \texttt{info(code)}}} \\
+\multicolumn{3}{l}{\textit{\texttt{info(code)}}} \\
 \texttt{r(indicator)} & local & Indicator code \\
 \texttt{r(name)} & local & Indicator name \\
 \texttt{r(source\_id)} & local & Source database ID \\
@@ -673,6 +762,33 @@ Network requests respect Stata's proxy configuration options (e.g.,
 \texttt{set httpproxy on}), allowing the command to operate behind corporate
 firewalls.
 
+\subsubsection*{Characteristic metadata (v18.1)}
+
+Beginning with version~18.1, \texttt{wbopendata} embeds provenance and
+indicator metadata directly into the \texttt{.dta} file using Stata's variable
+characteristics (\texttt{char}) mechanism. This approach follows the precedent
+established by \texttt{freduse} \citep{drukker2006freduse}, which stores
+per-variable metadata as characteristics attached to each retrieved series.
+
+Two layers of characteristics are written by default. At the dataset level,
+\texttt{\_dta} characteristics record the command version, timestamp, username,
+and the exact syntax used to generate the dataset. At the variable level, each
+indicator variable carries characteristics for its source database, description,
+methodology notes, citation, and topic classifications.
+
+This design produces self-documenting datasets: a \texttt{.dta} file carries
+enough metadata to identify what was requested, when, and by whom, without
+requiring access to the original do-file or log. Because characteristics
+persist through \texttt{save}/\texttt{use} cycles, this provenance information
+travels with the data even when shared across teams or archived.
+
+The characteristic layer complements rather than replaces the existing metadata
+channels. Do-file syntax documents the researcher's intent; \texttt{r()} return
+values support ephemeral programmatic workflows; and \texttt{char} values
+provide persistent, machine-readable metadata embedded in the output file.
+Users who prefer not to attach characteristics can suppress them with the
+\texttt{nochar} option.
+
 \subsection{Country attributes and classification}
 
 When invoked with the \texttt{full} option, \texttt{wbopendata} appends a set of
@@ -712,42 +828,50 @@ To ensure reliability, \texttt{wbopendata} ships with a live integration test
 harness that exercises the same workflows encountered by users in practice.
 Tests are executed end-to-end against the live World Bank API, covering
 indicator retrieval, pagination, caching behavior, option handling, and fixes
-for historical issues.
+for historical issues. The testing philosophy draws on the software
+certification principles of \citet{gould2001certification}; the full
+framework is documented in Appendix~\ref{app:qa}.
 
 Because Stata lacks the mature continuous integration and mocking frameworks
 available in other statistical environments, the test design prioritizes
 detection of upstream regressions such as schema changes, pagination failures,
-or API endpoint deprecations. The test suite comprises 65 integrated tests
-distributed across 15 categories, covering environment validation, data download
+or API endpoint deprecations. The test suite comprises 89 integrated tests
+distributed across 17 categories, covering environment validation, data download
 modes, output formatting, country metadata, regression protection, linewrap
 graph annotation, update commands, topic queries, language options, population
-projections, cache management, metadata synchronization, and discovery commands.
+projections, cache management, metadata synchronization, discovery commands,
+characteristic metadata verification, error condition validation, extreme input
+cases, and deterministic offline testing.
 Table~\ref{tab:test-coverage} summarizes the composition.
 
 \begin{table}[H]
 \centering
-\caption{Test suite composition (65 tests across 15 categories)}
+\caption{Test suite composition (89 tests across 17 categories)}
 \label{tab:test-coverage}
 
-\begin{tabular}{llrl}
+\begin{tabular}{@{}llrl@{}}
 \hline
 Abbr. & Category & Tests & Focus \\
 \hline
 ENV   & Environment       & 5  & Network, API, YAML file presence \\
 DL    & Download modes    & 5  & Indicator, country, multi-indicator \\
-FMT   & Output format     & 4  & Wide, long, latest, nobasic \\
-CTRY  & Country options   & 10 & Basic, full, geo, ISO, regions, income, lending \\
+FMT   & Output format     & 7  & Wide, long, latest, nobasic, describe, date \\
+CTRY  & Country options   & 11 & Basic, full, geo, ISO, regions, income, admin \\
 REG   & Regression        & 4  & Historical bug fixes (\#33, \#45, \#46, \#51) \\
 LW    & Linewrap          & 4  & Metadata wrapping, formats, latest scalars \\
-UPD   & Update commands   & 6  & Query, check, describe, update all \\
+UPD   & Maintenance       & 6  & Legacy update, describe, sync interop \\
 TOPIC & Topic queries     & 1  & Topic download \\
 LANG  & Language          & 1  & Spanish metadata \\
 PROJ  & Projection        & 1  & Population projection data \\
 CACHE & Cache management  & 8  & Init, path resolution, clear, version, timestamps \\
 SYNC  & Sync system       & 5  & Check, download, force, up-to-date, discovery \\
 DISC  & Discovery         & 7  & Sources, topics, search, filter, info \\
+CHAR  & Characteristics   & 6  & Dataset/variable \texttt{char}, persistence, \texttt{nochar} \\
+ERR   & Error conditions  & 8  & Syntax validation (\texttt{rcof}), API errors, empty \\
+EXT   & Extreme cases     & 4  & Minimal queries, large datasets, edge inputs \\
+DET   & Deterministic     & 6  & Offline fixtures, value pinning, network-free \\
 \hline
-      &                   & 65 & \\
+      &                   & 89 & \\
 \hline
 \end{tabular}
 
@@ -762,11 +886,6 @@ examples of missing indicators, archived series, and update operations are
 reported in Appendix~\ref{app:diagnostics}.
 
 \subsection{Metadata management}\label{sec:metadata}
-
-Local metadata caches are managed through the \texttt{update} options.
-\texttt{update query} reports the current vintage, \texttt{update check}
-compares local metadata against the remote repository, and \texttt{update all}
-refreshes cached definitions and country classifications.
 
 Regular metadata updates are particularly important when using the
 \texttt{match()} option, as income groups, regional classifications, and even
@@ -821,7 +940,7 @@ to a known, documented state.
 \subsubsection*{Performance}
 
 Parsing a 17~MB YAML file imposes a non-trivial startup cost. On first
-invocation, discovery commands require approximately 9~seconds to parse the
+invocation, discovery commands require approximately 21~seconds to parse the
 indicators file and build an in-memory frame cache. Subsequent calls within the
 same Stata session retrieve results from the cached frame in under 0.5~seconds
 (Stata~16+). This frame-caching strategy ensures that interactive workflows
@@ -830,54 +949,17 @@ responsive after the initial parse.
 
 \subsection{Metadata synchronization}\label{sec:sync}
 
-The \texttt{sync} command provides version-controlled metadata updates with an
-explicit safety gate. The default behavior is a \emph{dry run} that displays a
-preview of what would change without modifying the local cache. Applying changes
-requires the \texttt{replace} modifier, ensuring that metadata updates are never
-accidental.
-
-\hangpara
-\texttt{sync} previews metadata changes without applying them. This is the safe
-default: it reports the local cache version, compares it against the latest
-available release, and displays summary statistics.
-
-\hangpara
-\texttt{sync detail} extends the preview with per-source and per-topic indicator
-breakdowns, showing how many indicators each source contributes and how they are
-distributed across topic categories.
-
-\hangpara
-\texttt{sync replace} applies the metadata synchronization. After displaying the
-same preview, it downloads the latest metadata release from the GitHub repository
-and updates the local cache files.
-
-\hangpara
-\texttt{sync force} forces a fresh preview by re-querying the API rather than
-relying on cached diagnostics. This remains a dry run; no changes are applied.
-
-\hangpara
-\texttt{sync replace force} combines both modifiers: it forces a fresh download
-of metadata regardless of the local cache version, bypassing staleness checks.
-
-\noindent Three additional cache management commands complement the sync system:
-
-\hangpara
-\texttt{checkupdate} queries the remote repository for the latest release version
-and reports whether an update is available, without downloading or modifying any
-files.
-
-\hangpara
-\texttt{cacheinfo} displays the cache directory location, current metadata
-version, and last synchronization timestamp.
-
-\hangpara
-\texttt{clearcache} removes the local metadata cache entirely, forcing a full
-re-download on the next sync or discovery command.
-
-\noindent For backward compatibility, the deprecated aliases \texttt{syncforce},
-\texttt{syncpreview}, and \texttt{syncdryrun} from earlier versions continue to
-function, mapping transparently to \texttt{sync replace force},
-\texttt{sync replace}, and \texttt{sync}, respectively.
+The \texttt{sync} family of commands (documented in Section~\ref{sec:command})
+provides version-controlled metadata updates with an explicit safety gate:
+the default \texttt{sync} is a dry run that previews changes, while
+\texttt{sync replace} applies them.  Three auxiliary
+commands---\texttt{checkupdate}, \texttt{cacheinfo}, and
+\texttt{clearcache}---provide version queries and cache housekeeping.
+For backward compatibility, the legacy aliases \texttt{syncforce},
+\texttt{syncpreview}, and \texttt{syncdryrun} remain functional with
+deprecation warnings, as does \texttt{metadataoffline}, which is superseded
+by the YAML metadata architecture and the discovery commands described in
+Section~\ref{sec:discovery}.
 
 The sync architecture attempts three download pathways in order of preference:
 a Python-based canonical pipeline (when Python is available), a pure-Stata
@@ -995,10 +1077,12 @@ This longevity reflects deliberate design choices rather than technical inertia.
 By maintaining backward compatibility across upstream changes, encapsulating
 complexity behind domain-specific syntax, and treating data acquisition as code
 rather than manual preprocessing, \texttt{wbopendata} shifts reproducibility from
-an aspirational norm to a default behavior. Version~18.0 extends this approach
+an aspirational norm to a default behavior. Versions~18.0 and~18.1 extend this approach
 with offline discovery commands for catalog browsing and indicator search,
 a YAML-backed metadata architecture, version-controlled metadata synchronization,
-publication-ready metadata handling, and a 65-test QA suite across 15 categories.
+publication-ready metadata handling, self-documenting datasets through variable
+characteristics, deterministic offline testing, and an 89-test QA suite across
+17 categories.
 
 The command’s pure-Stata implementation ensures compatibility with institutional
 computing environments, while the bundled live test suite and QA framework
@@ -1025,7 +1109,7 @@ documentation alone, but by infrastructure that enforces it upstream.
 \section*{Acknowledgments}
 % =====================================================================
 
-The author thanks the World Bank Open Data Initiative for making development data freely accessible, and the many users who have contributed bug reports and feature suggestions through GitHub.
+The author thanks Kit Baum for comments on an earlier draft and for pointing toward important references, and Aart Kraay for questions and nudges toward interesting features to be included.  The author is grateful to the World Bank colleagues who have built and supported the Open Data APIs over the years, in particular Malarvizhi Veerappan, Rochelle Glenene O'Hagan, Timothy Grant Herzog, and Ana Florina Pirlea.  Thanks also to the World Bank Open Data Initiative for making development data freely accessible, and to the many users who have contributed bug reports and feature suggestions through GitHub.
 
 \bibliographystyle{sj}
 \nocite{pisati2007spmap,clarke2012worldstat}
@@ -1182,8 +1266,8 @@ provided verbatim.
 % ---------------------------------------------------------------------
 \subsection{User-written extensions}\label{app:examples:extensions}
 
-This subsection documents examples using user-written commands that rely on
-\texttt{wbopendata} internally.
+This subsection shows examples of user-written commands
+that rely on \texttt{wbopendata} internally.
 
 \subsubsection{\texttt{worldstat}: Africa example (verbatim output)}
 \begin{stlog}
@@ -1231,9 +1315,9 @@ logic and can be identified by re-running the corresponding commands.
 \input{sjlogs/ex_indicator_deprecated.log.tex}\nullskip
 \end{stlog}
 
-\subsection{Metadata cache update output}
+\subsection{Metadata sync preview output}
 \begin{stlog}
-\input{sjlogs/ex_update.log.tex}\nullskip
+\input{sjlogs/ex_sync_preview.log.tex}\nullskip
 \end{stlog}
 
 \subsection{Discovery: Available sources}\label{app:diagnostics:sources}
@@ -1256,12 +1340,7 @@ logic and can be identified by re-running the corresponding commands.
 \input{sjlogs/ex_discovery_alltopics.log.tex}\nullskip
 \end{stlog}
 
-\subsection{Sync: Metadata status preview}\label{app:diagnostics:sync}
-\begin{stlog}
-\input{sjlogs/ex_sync_preview.log.tex}\nullskip
-\end{stlog}
-
-\subsection{Sync: Detailed metadata breakdown}\label{app:diagnostics:syncdetail}
+\subsection{Sync: Detailed metadata breakdown}\label{app:diagnostics:sync}
 \begin{stlog}
 \input{sjlogs/ex_sync_detail.log.tex}\nullskip
 \end{stlog}
@@ -1276,8 +1355,12 @@ logic and can be identified by re-running the corresponding commands.
 % =====================================================================
 
 This appendix documents the quality assurance (QA) and testing framework used
-to maintain the reliability of \texttt{wbopendata} over time. These practices
-are a core component of the command’s reproducibility guarantees, ensuring that
+to maintain the reliability of \texttt{wbopendata} over time. The framework
+builds on principles articulated by \citet{gould2001certification}, who
+established that statistical software certification requires systematic testing
+where ``tests are never thrown away'' and reliability is demonstrated through
+cumulative evidence rather than single-point verification. These practices
+are a core component of the command's reproducibility guarantees, ensuring that
 changes in upstream data infrastructure, metadata, and indicator availability
 are detected, diagnosed, and addressed explicitly.
 
@@ -1308,6 +1391,70 @@ They may reflect upstream API outages, schema changes, or metadata revisions.
 The objective of the test suite is therefore not to freeze outputs, but to make
 such changes explicit and diagnosable.
 
+\subsection{Dual testing paradigm: live and deterministic}
+
+The test suite employs two complementary testing paradigms. The live
+integration tests described above detect upstream regressions in real time but
+are inherently non-deterministic: results depend on current API responses,
+network conditions, and the evolving state of upstream data.  To complement
+this approach, version~18.1 introduces \emph{deterministic offline tests}
+(category~DET) that execute against pre-recorded CSV fixtures stored in
+\texttt{qa/fixtures/}, eliminating network dependency entirely.
+
+Each fixture captures a specific API response state---for example, a known
+dataset for a particular indicator-country-year combination, or an empty
+response simulating a deprecated indicator.  The \texttt{offline()} option
+directs the command to load data from the fixture directory rather than
+querying the live API.  Tests using fixtures produce identical results
+regardless of network conditions or upstream data revisions, enabling exact
+value pinning and regression baselines that would be impossible with live
+tests.
+
+For error condition tests (category~ERR), the suite employs Stata's
+\texttt{rcof} certification command, an undocumented testing primitive
+consistent with the methodology described by
+\citet{gould2001certification}.  Unlike \texttt{capture noisily}, which
+merely records whether a command succeeded or failed, \texttt{rcof}
+verifies the \emph{exact} return code produced:
+
+\begin{stlog}
+\begin{verbatim}
+. rcof "noi wbopendata, clear" == 198
+\end{verbatim}
+\nullskip
+\end{stlog}
+
+\noindent This confirms that omitting a required option produces a syntax error
+(rc~198) rather than a network timeout or other incidental failure.  The
+distinction matters: the old \texttt{capture noisily} pattern would pass
+even if the command errored for the wrong reason, while \texttt{rcof}
+guarantees that the error originates from the intended validation logic.
+
+Because \texttt{rcof} halts execution on mismatch, integration with the
+test harness's ``continue on failure'' convention requires wrapping it in
+\texttt{capture noisily}:
+
+\begin{stlog}
+\begin{verbatim}
+. capture noisily {
+.     rcof "noi wbopendata, clear" == 198
+. }
+. if _rc == 0 test_pass
+. else test_fail "Expected rc 198 (syntax error)"
+\end{verbatim}
+\nullskip
+\end{stlog}
+
+\noindent This pattern preserves \texttt{rcof}'s precision while allowing the
+test suite to continue executing subsequent tests after a failure.
+
+The combination of live and deterministic tests creates a dual-paradigm
+framework: live tests surface upstream changes that require attention, while
+deterministic tests provide stable, reproducible baselines.  Together with the
+extreme-case tests (category~EXT), which exercise boundary conditions such as
+minimal queries, large result sets, and edge inputs, these additions bring the
+total suite to 89~tests across 17~categories.
+
 \subsection{Test harness structure}
 
 Automated tests are implemented in a single driver script,
@@ -1332,10 +1479,12 @@ produces a timestamped log and updates a cumulative test history file.
 \subsection{Regression testing and cumulative reliability}
 
 A key feature of the QA framework is the systematic treatment of historical
-bugs as permanent regression tests. Issues such as failures in multi-indicator
-queries, metadata parsing errors, incorrect handling of deprecated indicators,
-or option incompatibilities are encoded as named test cases (e.g., \texttt{REG-33},
-\texttt{REG-45}, \texttt{REG-46}, \texttt{REG-51}).
+bugs as permanent regression tests, following \citeauthor{gould2001certification}'s
+principle that ``tests are never thrown away''.
+Issues such as failures in multi-indicator queries, metadata parsing errors,
+incorrect handling of deprecated indicators, or option incompatibilities are
+encoded as named test cases (e.g., \texttt{REG-33}, \texttt{REG-45},
+\texttt{REG-46}, \texttt{REG-51}).
 
 This approach ensures that fixes are not transient. Once a bug is resolved, the
 corresponding test remains in the suite and must pass in all subsequent runs.
@@ -1368,9 +1517,10 @@ indicator codes and their associated metadata evolve over time. Indicators may
 be deprecated, archived, or reclassified as source databases are revised, and
 metadata fields may be corrected or expanded.
 
-Tests covering update commands (\texttt{update query}, \texttt{update check},
-\texttt{update all}) verify that such changes are detected and propagated through
-the local cache. Deprecated indicators are expected to trigger informative
+Tests covering maintenance commands (\texttt{sync}, \texttt{checkupdate},
+\texttt{sync replace}, and the legacy \texttt{update} aliases) verify that
+such changes are detected and propagated through the local cache. Deprecated
+indicators are expected to trigger informative
 diagnostics rather than silent failures. By treating indicator lifecycle events
 as testable behavior, the framework reduces the risk that analytical pipelines
 continue to rely unknowingly on obsolete series or outdated definitions.
@@ -1392,7 +1542,9 @@ with upstream revisions.
 Although \texttt{wbopendata} is developed within the Stata ecosystem, which
 lacks the automated release-gate infrastructure common to CRAN or PyPI, its QA
 framework implements the functional equivalent of continuous integration and
-continuous validation. Automated test execution, regression protection, and
+continuous validation---consistent with \citeauthor{gould2001certification}'s
+demonstration that rigorous software certification is achievable through
+disciplined testing practices rather than formal automation. Automated test execution, regression protection, and
 versioned test histories ensure that each code change is evaluated against both
 current functionality and historically fixed issues.
 

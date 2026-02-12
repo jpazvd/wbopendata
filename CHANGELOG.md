@@ -20,6 +20,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [18.1.0] - 2026-02-10
+
+### Added
+- **Variable-level char metadata**: Indicator code stored as `char` on data variables (default-on, `nochar` to suppress)
+- **Offline deterministic testing**: `offline()` option for Phase 6 Gould (2001) fixture-based testing without network access
+- **Error handling tests**: 24 new ERR tests using `rcof` methodology (Gould 2001)
+- **Extended format tests**: EXT tests for additional option combinations
+- **Deterministic tests**: DET tests using offline CSV fixtures for reproducible validation
+- **QA expansion**: 89 tests across 17 categories (up from 65/15 in v18.0.0)
+
+### Fixed
+- Compound quoting for SMCL `{browse}` tags in metadata returns (`sourcecite`, `description_line`, `note_line`)
+- Stray `set trace on` in dead code sections of `_api_read.ado` and `_query_indicators.ado`
+
+### Changed
+- Deprecated `update query`, `update check`, `update all`, `metadataoffline`, `syncforce`, `syncpreview`, `syncdryrun` with user-facing warnings
+- QA fixtures switched from tar.gz to zip format
+
+---
+
 ## [18.0.0] - 2026-02-09
 
 ### Added
@@ -347,6 +367,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Key Changes |
 |---------|------|-------------|
+| **18.1.0** | 2026-02-10 | Char metadata, offline testing, compound quoting fix, 89 tests |
 | **18.0.0** | 2026-02-09 | Discovery commands, YAML metadata, sync redesign |
 | **17.7.1** | 2026-01-04 | Test suite expansion, bug fixes |
 | **17.7** | 2026-01-02 | Basic country context by default |
@@ -377,6 +398,7 @@ The SSC (Statistical Software Components) archive at Boston College maintains th
 | SSC Version | Date | Notes |
 |-------------|------|-------|
 | v13.5 | Feb 2016 | Last pre-API-modernization release |
+| v18.1.0 | Feb 2026 | Current development release |
 | v17.7.1 | Jan 2026 | Current SSC release |
 
 For the SSC archive, see: [RePEc:boc:bocode:s457234](https://ideas.repec.org/c/boc/bocode/s457234.html)

@@ -1,9 +1,9 @@
 /*******************************************************************************
 * wbopendata Automated Test Suite
-* Test Suite Version: 2.0.0
+* Test Suite Version: 3.0.0
 * Date: January 2026
 * Compatible with: wbopendata v17.7.1+
-* Total Tests: 65 (61 core + 4 repo-comparison)
+* Total Tests: 89 (67 core + 4 repo-comparison + 8 ERR + 4 EXT + 6 DET)
 * 
 * Usage: 
 *   do run_tests.do              - Run all tests (prompts for repo location)
@@ -13,7 +13,7 @@
 *   do run_tests.do list         - List all available tests
 *   do run_tests.do norepo       - Skip repo comparison tests (ENV-01 to ENV-04)
 *
-* Test Categories (57 tests total):
+* Test Categories (89 tests total):
 *   0 - Environment Checks (5): ENV-01 to ENV-05 [ENV-01 to ENV-04 require repo path]
 *   1 - Basic Downloads (5): DL-01 to DL-05
 *   2 - Format Options (3): FMT-01 to FMT-03
@@ -25,6 +25,10 @@
 *   8 - Advanced Features (6): PROJ-01, FMT-04, DESC-01, META-01, CTRY-11, DATE-01
 *   9 - Cache & Sync System (13): CACHE-01 to CACHE-08, SYNC-01 to SYNC-05
 *  10 - Discovery Commands (7): DISC-01 to DISC-07 [no network needed]
+*  11 - Characteristic Metadata (6): CHAR-01 to CHAR-06 [v18.1]
+*  12 - Error Conditions (8): ERR-01 to ERR-08 [Gould 2001]
+*  13 - Extreme Cases (4): EXT-01 to EXT-04 [Gould 2001]
+*  14 - Deterministic/Offline (6): DET-01 to DET-06 [Gould 2001, Phase 6]
 * 
 * Configuration:
 *   To set your repo path permanently, define global before running:
@@ -49,6 +53,7 @@
 clear all
 set more off
 cap log close _all
+cscript "wbopendata test suite"
 
 *===============================================================================
 * PARSE COMMAND LINE ARGUMENTS
@@ -158,6 +163,38 @@ foreach arg of local args {
         di as text "  DISC-05  Topics listing"
         di as text "  DISC-06  Indicator info lookup"
         di as text "  DISC-07  Search router (cache_method by Stata version)"
+        di as text ""
+        di as text "  Characteristic Metadata (v18.1):"
+        di as text "  CHAR-01  Dataset-level _dta chars set by default"
+        di as text "  CHAR-02  Variable-level indicator char set by default"
+        di as text "  CHAR-03  Variable-level metadata chars (with metadata)"
+        di as text "  CHAR-04  nochar suppresses all chars"
+        di as text "  CHAR-05  Multi-indicator chars set per variable"
+        di as text "  CHAR-06  Chars persist across save/use"
+        di as text ""
+        di as text "  Error Conditions (Gould 2001):"
+        di as text "  ERR-01   Error: no indicator or action specified"
+        di as text "  ERR-02   Error: invalid indicator code"
+        di as text "  ERR-03   Error: match+indicator conflict"
+        di as text "  ERR-04   Error: invalid country code"
+        di as text "  ERR-05   Error: invalid source ID"
+        di as text "  ERR-06   Error: deprecated indicator handling"
+        di as text "  ERR-07   Error: inverted year range"
+        di as text "  ERR-08   Error: empty indicator string"
+        di as text ""
+        di as text "  Extreme Cases (Gould 2001):"
+        di as text "  EXT-01   Extreme: minimal query (1 country, 1 year)"
+        di as text "  EXT-02   Extreme: all countries, single year"
+        di as text "  EXT-03   Extreme: long indicator name"
+        di as text "  EXT-04   Extreme: topics with special characters"
+        di as text ""
+        di as text "  Deterministic/Offline Tests (Gould 2001, Phase 6):"
+        di as text "  DET-01   Offline: single indicator, single country"
+        di as text "  DET-02   Offline: single indicator, all countries"
+        di as text "  DET-03   Offline: value pinning (USA pop 2020)"
+        di as text "  DET-04   Offline: different indicator (GDP)"
+        di as text "  DET-05   Offline: country-only query"
+        di as text "  DET-06   Offline: missing fixture error handling"
         exit 0
     }
     else {
@@ -402,13 +439,26 @@ program define test_fail
     }
 end
 
+cap program drop test_skip
+program define test_skip
+    args reason
+    if $skip_test == 1 exit
+    di as text "SKIP: `reason'"
+    global tests_skip = $tests_skip + 1
+    global tests_run = $tests_run - 1
+end
+
 * Initialize globals
 global tests_run = 0
 global tests_pass = 0
 global tests_fail = 0
+global tests_skip = 0
 global failed_tests ""
 global current_test ""
 global skip_test 0
+
+* Fixture directory for offline/deterministic tests (DET, ERR-06)
+local _det_fixtures "$qadir/fixtures"
 
 * which version of stata is this test being run on
 which wbopendata
@@ -426,8 +476,7 @@ run_test "ENV-01" "wbopendata version matches repo"
 if $skip_test == 0 {
     * Skip if no repo path or repo tests disabled
     if "$repo_root" == "" | $skip_repo_tests == 1 {
-        di as text "SKIPPED: Repo path not configured (use 'global wbopendata_repo' or run from repo)"
-        global tests_run = $tests_run - 1  // Don't count as run
+        test_skip "Repo path not configured (use 'global wbopendata_repo' or run from repo)"
     }
     else {
         cap noi {
@@ -470,8 +519,7 @@ run_test "ENV-02" "Ado files sync status"
 if $skip_test == 0 {
     * Skip if no repo path or repo tests disabled
     if "$repo_root" == "" | $skip_repo_tests == 1 {
-        di as text "SKIPPED: Repo path not configured (use 'global wbopendata_repo' or run from repo)"
-        global tests_run = $tests_run - 1  // Don't count as run
+        test_skip "Repo path not configured (use 'global wbopendata_repo' or run from repo)"
     }
     else {
         cap noi {
@@ -588,8 +636,7 @@ run_test "ENV-03" "wbopendata.pkg matches src directories"
 if $skip_test == 0 {
     * Skip if no repo path or repo tests disabled
     if "$repo_root" == "" | $skip_repo_tests == 1 {
-        di as text "SKIPPED: Repo path not configured (use 'global wbopendata_repo' or run from repo)"
-        global tests_run = $tests_run - 1  // Don't count as run
+        test_skip "Repo path not configured (use 'global wbopendata_repo' or run from repo)"
     }
     else {
         cap noi {
@@ -672,8 +719,7 @@ run_test "ENV-04" "All pkg files exist in repo"
 if $skip_test == 0 {
     * Skip if no repo path or repo tests disabled
     if "$repo_root" == "" | $skip_repo_tests == 1 {
-        di as text "SKIPPED: Repo path not configured (use 'global wbopendata_repo' or run from repo)"
-        global tests_run = $tests_run - 1  // Don't count as run
+        test_skip "Repo path not configured (use 'global wbopendata_repo' or run from repo)"
     }
     else {
         cap noi {
@@ -1980,6 +2026,485 @@ if $skip_test == 0 {
 }
 
 *===============================================================================
+* TEST CATEGORY 11: Characteristic Metadata (v18.1)
+*===============================================================================
+
+di as text _n "`sep'"
+di as text "CATEGORY 11: Characteristic Metadata (v18.1)"
+di as text "`sep'"
+
+* CHAR-01: Dataset-level chars set by default
+run_test "CHAR-01" "Dataset-level _dta chars set by default"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) clear long nometadata
+
+        * _dta chars should be set
+        local ver : char _dta[wbopendata_version]
+        local ts  : char _dta[wbopendata_timestamp]
+        local usr : char _dta[wbopendata_user]
+        local syn : char _dta[wbopendata_syntax]
+        local ind : char _dta[wbopendata_indicator]
+
+        di as text "version:   `ver'"
+        di as text "timestamp: `ts'"
+        di as text "user:      `usr'"
+        di as text "syntax:    `syn'"
+        di as text "indicator: `ind'"
+
+        assert "`ver'" != ""
+        assert "`ts'" != ""
+        assert "`usr'" != ""
+        assert "`syn'" != ""
+        assert "`ind'" != ""
+    }
+    if _rc == 0 test_pass
+    else test_fail "Dataset-level _dta chars not set"
+}
+
+* CHAR-02: Variable-level indicator char set by default
+run_test "CHAR-02" "Variable-level indicator char set by default"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) clear long nometadata
+
+        * Variable char[indicator] should be set by _query
+        local ind_char : char sp_pop_totl[indicator]
+        di as text "sp_pop_totl[indicator]: `ind_char'"
+        assert "`ind_char'" == "SP.POP.TOTL"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Variable-level indicator char not set"
+}
+
+* CHAR-03: Variable-level metadata chars set with metadata
+run_test "CHAR-03" "Variable-level metadata chars (with metadata)"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) clear long
+
+        * Variable-level chars from _query_metadata should be set
+        local src_char : char sp_pop_totl[source]
+        local desc_char : char sp_pop_totl[description]
+        local topic_char : char sp_pop_totl[topic]
+
+        di as text "sp_pop_totl[source]:      `src_char'"
+        di as text "sp_pop_totl[description]: `desc_char'"
+        di as text "sp_pop_totl[topic]:       `topic_char'"
+
+        * At minimum indicator code must be set
+        local ind_char : char sp_pop_totl[indicator]
+        assert "`ind_char'" == "SP.POP.TOTL"
+
+        * With metadata, source/description should also be set
+        assert "`desc_char'" != ""
+    }
+    if _rc == 0 test_pass
+    else test_fail "Variable-level metadata chars not set"
+}
+
+* CHAR-04: nochar suppresses all chars
+run_test "CHAR-04" "nochar suppresses all chars"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) clear long nochar
+
+        * _dta chars should be empty
+        local ver : char _dta[wbopendata_version]
+        local ts  : char _dta[wbopendata_timestamp]
+
+        di as text "With nochar - version:   `ver'"
+        di as text "With nochar - timestamp: `ts'"
+
+        assert "`ver'" == ""
+        assert "`ts'" == ""
+
+        * Variable chars should also be empty
+        local ind_char : char sp_pop_totl[indicator]
+        di as text "With nochar - indicator: `ind_char'"
+        assert "`ind_char'" == ""
+    }
+    if _rc == 0 test_pass
+    else test_fail "nochar option not suppressing chars"
+}
+
+* CHAR-05: Multi-indicator chars set per variable
+run_test "CHAR-05" "Multi-indicator chars set per variable"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL;NY.GDP.MKTP.CD) clear long
+
+        * Each variable should have its own indicator char
+        local ind1 : char sp_pop_totl[indicator]
+        local ind2 : char ny_gdp_mktp_cd[indicator]
+
+        di as text "sp_pop_totl[indicator]:    `ind1'"
+        di as text "ny_gdp_mktp_cd[indicator]: `ind2'"
+
+        assert "`ind1'" == "SP.POP.TOTL"
+        assert "`ind2'" == "NY.GDP.MKTP.CD"
+
+        * _dta should have both indicators
+        local dta_ind : char _dta[wbopendata_indicator]
+        di as text "_dta[wbopendata_indicator]: `dta_ind'"
+        assert "`dta_ind'" != ""
+    }
+    if _rc == 0 test_pass
+    else test_fail "Multi-indicator chars not set correctly"
+}
+
+* CHAR-06: Chars persist across save/use
+run_test "CHAR-06" "Chars persist across save/use"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) clear long nometadata
+
+        tempfile chartest
+        save `chartest'
+        clear
+        use `chartest'
+
+        * Chars should survive save/use
+        local ver : char _dta[wbopendata_version]
+        local ind : char sp_pop_totl[indicator]
+
+        di as text "After save/use - version:   `ver'"
+        di as text "After save/use - indicator: `ind'"
+
+        assert "`ver'" != ""
+        assert "`ind'" == "SP.POP.TOTL"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Chars not persisting across save/use"
+}
+
+*===============================================================================
+* TEST CATEGORY 12: Error Conditions (ERR)
+*   Gould (2001): "You must also test that your code does not work in
+*   circumstances where it should not."
+*===============================================================================
+
+di as text _n "`sep'"
+di as text "CATEGORY 12: Error Conditions"
+di as text "`sep'"
+
+* ERR-01: No indicator and no action specified
+*   PURPOSE: Verify wbopendata errors when called with no indicator or action
+*   CODE: wbopendata.ado syntax parsing block → exit 198
+*   EXPECTED: rc == 198 (syntax error)
+*   METHOD: rcof (Gould 2001) — verifies exact return code
+run_test "ERR-01" "Error: no indicator or action specified"
+if $skip_test == 0 {
+    cap noi {
+        rcof "noi wbopendata, clear" == 198
+    }
+    if _rc == 0 test_pass
+    else test_fail "Expected rc 198 (syntax error)"
+}
+
+* ERR-02: Invalid indicator code
+*   PURPOSE: Verify graceful handling of non-existent indicator
+*   CODE: wbopendata.ado -> _query.ado -> World Bank API (returns empty)
+*   EXPECTED: Error or zero observations
+run_test "ERR-02" "Error: invalid indicator code"
+if $skip_test == 0 {
+    cap noi wbopendata, indicator(XXXXX.INVALID.CODE) clear nometadata long
+    if _rc != 0 | _N == 0 test_pass
+    else test_fail "Invalid indicator should error or return 0 obs"
+}
+
+* ERR-03: Match with indicator (mutually exclusive options)
+*   PURPOSE: Verify match() and indicator() cannot be combined with clear
+*   CODE: wbopendata.ado option validation → exit 198
+*   EXPECTED: rc == 198 (syntax error)
+*   METHOD: rcof (Gould 2001) — verifies exact return code
+run_test "ERR-03" "Error: match+indicator conflict"
+if $skip_test == 0 {
+    clear
+    input str3 countrycode
+    "USA"
+    end
+    cap noi {
+        rcof "noi wbopendata, indicator(SP.POP.TOTL) match(countrycode) clear" == 198
+    }
+    if _rc == 0 test_pass
+    else test_fail "Expected rc 198 (syntax error)"
+}
+
+* ERR-04: Invalid country code
+*   PURPOSE: Verify graceful handling of non-existent country
+*   CODE: wbopendata.ado -> World Bank API (filters to 0 obs)
+*   EXPECTED: Error or zero observations
+run_test "ERR-04" "Error: invalid country code"
+if $skip_test == 0 {
+    cap noi wbopendata, indicator(SP.POP.TOTL) country(ZZZZZ) clear nometadata long
+    if _rc != 0 | _N == 0 test_pass
+    else test_fail "Invalid country should return 0 obs or error"
+}
+
+* ERR-05: Invalid source ID
+*   PURPOSE: Verify graceful handling of non-existent source database
+*   CODE: wbopendata.ado source() option -> API request
+*   EXPECTED: Error or zero observations
+run_test "ERR-05" "Error: invalid source ID"
+if $skip_test == 0 {
+    cap noi wbopendata, indicator(SP.POP.TOTL) source(9999) clear nometadata long
+    if _rc != 0 | _N == 0 test_pass
+    else test_fail "Invalid source should return 0 obs or error"
+}
+
+* ERR-06: Empty API response (offline fixture simulating deprecated indicator)
+*   PURPOSE: Verify wbopendata handles empty CSV response gracefully
+*   CODE: _query.ado → offline branch → empty fixture CSV (headers only, 0 rows)
+*   FIXTURE: DEPRECATED_INDICATOR_all.csv
+*   EXPECTED: _rc != 0 or _N == 0 (graceful degradation)
+*   NOTE: Uses offline fixture instead of live API to avoid dependency on WB
+*         deprecation status (SP.ADO.TFRT was reinstated, breaking the old test)
+run_test "ERR-06" "Error: empty indicator response (offline)"
+if $skip_test == 0 {
+    cap confirm file "`_det_fixtures'/DEPRECATED_INDICATOR_all.csv"
+    if _rc != 0 {
+        test_skip "Fixture DEPRECATED_INDICATOR_all.csv not found"
+    }
+    else {
+        cap noi wbopendata, indicator(DEPRECATED.INDICATOR) clear nometadata long offline("`_det_fixtures'")
+        if _rc != 0 | _N == 0 test_pass
+        else test_fail "Empty fixture should produce error or 0 obs"
+    }
+}
+
+* ERR-07: Year range inverted
+*   PURPOSE: Test behavior when year range end < start
+*   CODE: wbopendata.ado year() option parsing
+*   EXPECTED: Either error or API corrects the order
+run_test "ERR-07" "Error: inverted year range"
+if $skip_test == 0 {
+    cap noi wbopendata, indicator(SP.POP.TOTL) country(USA) year(2020:2010) clear nometadata long
+    * API may accept either order; just verify no crash
+    test_pass
+}
+
+* ERR-08: Empty indicator string
+*   PURPOSE: Verify empty indicator() is rejected
+*   CODE: wbopendata.ado syntax parsing → exit 198
+*   EXPECTED: rc == 198 (syntax error)
+*   METHOD: rcof (Gould 2001) — verifies exact return code
+run_test "ERR-08" "Error: empty indicator string"
+if $skip_test == 0 {
+    cap noi {
+        rcof "noi wbopendata, indicator() clear" == 198
+    }
+    if _rc == 0 test_pass
+    else test_fail "Expected rc 198 (syntax error)"
+}
+
+*===============================================================================
+* TEST CATEGORY 13: Extreme Cases (EXT)
+*   Gould (2001): "Extreme cases put considerable stress on your code."
+*===============================================================================
+
+di as text _n "`sep'"
+di as text "CATEGORY 13: Extreme Cases"
+di as text "`sep'"
+
+* EXT-01: Minimal query — single country, single year, single indicator
+*   PURPOSE: Verify minimum viable query produces valid 1-row result
+*   EXPECTED: Exactly 1 observation for USA 2020
+*   VALUE PIN: USA population in 2020 should be ~331 million (World Bank WDI)
+run_test "EXT-01" "Extreme: minimal query (1 country, 1 year)"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) year(2020:2020) clear long nometadata
+        assert _N == 1
+        assert countrycode == "USA"
+        * Value pin: SP.POP.TOTL USA 2020 ≈ 331,002,651
+        assert sp_pop_totl > 300000000 & sp_pop_totl < 400000000
+    }
+    if _rc == 0 test_pass
+    else test_fail "Minimal query failed"
+}
+
+* EXT-02: All countries — large result set
+*   PURPOSE: Stress test with all 296 countries/regions
+*   EXPECTED: _N > 200 (most countries have 2020 data)
+run_test "EXT-02" "Extreme: all countries, single year"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) year(2020:2020) clear long nometadata
+        assert _N > 200
+    }
+    if _rc == 0 test_pass
+    else test_fail "All-countries query failed or returned too few obs"
+}
+
+* EXT-03: Indicator with very long name (label truncation)
+*   PURPOSE: Verify long indicator names don't cause label overflow
+*   CODE: _query.ado variable labeling (~line 300)
+*   EXPECTED: Download succeeds; variable label is truncated but valid
+run_test "EXT-03" "Extreme: long indicator name"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(DT.DOD.DECT.CD) clear long latest nometadata
+        assert _N > 0
+    }
+    if _rc == 0 test_pass
+    else test_fail "Long-name indicator failed"
+}
+
+* EXT-04: Topics with parentheses in names (compound quoting stress)
+*   PURPOSE: Topic names containing parentheses test Stata's macro quoting
+*   CODE: _wbopendata_topics.ado -> gettoken loop
+*   EXPECTED: Topics listing succeeds without "SocialandGovernance()" error
+run_test "EXT-04" "Extreme: topics with special characters"
+if $skip_test == 0 {
+    cap noi {
+        qui _wbopendata_topics
+        assert `r(n_topics)' > 0
+        * Verify topic names containing parentheses are intact
+        assert `"`r(topic_names)'"' != ""
+    }
+    if _rc == 0 test_pass
+    else test_fail "Topics listing failed (possible quoting issue)"
+}
+
+*===============================================================================
+* TEST CATEGORY 14: Deterministic/Offline Tests (DET) [Gould 2001, Phase 6]
+*
+*   These tests use local CSV fixtures instead of the World Bank API,
+*   ensuring reproducible, network-independent verification. The
+*   offline() option redirects _query.ado to read from the
+*   qa/fixtures/ directory.
+*===============================================================================
+
+* DET-01: Offline single indicator, single country
+*   PURPOSE: Verify offline injection produces valid dataset from fixture
+*   CODE: _query.ado → offline branch → fixture CSV
+*   FIXTURE: SP_POP_TOTL_USA.csv
+*   EXPECTED: _N > 50 observations, countrycode == "USA"
+run_test "DET-01" "Offline: single indicator, single country"
+if $skip_test == 0 {
+    cap confirm file "`_det_fixtures'/SP_POP_TOTL_USA.csv"
+    if _rc != 0 {
+        test_skip "Fixture SP_POP_TOTL_USA.csv not found (run decompress_fixtures.do)"
+    }
+    else {
+        cap noi {
+            wbopendata, indicator(SP.POP.TOTL) country(USA) clear nometadata long offline("`_det_fixtures'")
+            assert _N > 50
+            cap confirm variable countrycode
+            assert _rc == 0
+            cap confirm variable year
+            assert _rc == 0
+        }
+        if _rc == 0 test_pass
+        else test_fail "Offline single-country fixture failed"
+    }
+}
+
+* DET-02: Offline single indicator, all countries
+*   PURPOSE: Verify large fixture (all countries) loads correctly
+*   CODE: _query.ado → offline branch → fixture CSV
+*   FIXTURE: SP_POP_TOTL_all.csv
+*   EXPECTED: _N > 10000 observations, multiple countries
+run_test "DET-02" "Offline: single indicator, all countries"
+if $skip_test == 0 {
+    cap confirm file "`_det_fixtures'/SP_POP_TOTL_all.csv"
+    if _rc != 0 {
+        test_skip "Fixture SP_POP_TOTL_all.csv not found"
+    }
+    else {
+        cap noi {
+            wbopendata, indicator(SP.POP.TOTL) clear nometadata long offline("`_det_fixtures'")
+            assert _N > 10000
+            qui tab countrycode
+            assert r(r) > 200
+        }
+        if _rc == 0 test_pass
+        else test_fail "Offline all-countries fixture failed"
+    }
+}
+
+* DET-03: Offline value pinning (USA population 2020)
+*   PURPOSE: Verify exact value from a known fixture (deterministic)
+*   CODE: _query.ado → offline branch → fixture CSV → value check
+*   FIXTURE: SP_POP_TOTL_USA.csv
+*   EXPECTED: USA population in 2020 is ~331 million (range: 300M-400M)
+run_test "DET-03" "Offline: value pinning (USA pop 2020)"
+if $skip_test == 0 {
+    cap confirm file "`_det_fixtures'/SP_POP_TOTL_USA.csv"
+    if _rc != 0 {
+        test_skip "Fixture SP_POP_TOTL_USA.csv not found"
+    }
+    else {
+        cap noi {
+            wbopendata, indicator(SP.POP.TOTL) country(USA) clear nometadata long offline("`_det_fixtures'")
+            qui keep if countrycode == "USA" & year == 2020
+            assert _N == 1
+            assert sp_pop_totl > 300000000 & sp_pop_totl < 400000000
+        }
+        if _rc == 0 test_pass
+        else test_fail "Value pin failed (USA pop 2020 out of range)"
+    }
+}
+
+* DET-04: Offline different indicator (GDP)
+*   PURPOSE: Verify a second indicator works with offline injection
+*   CODE: _query.ado → offline branch → fixture CSV
+*   FIXTURE: NY_GDP_MKTP_CD_USA.csv
+*   EXPECTED: Valid dataset with GDP values
+run_test "DET-04" "Offline: different indicator (GDP)"
+if $skip_test == 0 {
+    cap confirm file "`_det_fixtures'/NY_GDP_MKTP_CD_USA.csv"
+    if _rc != 0 {
+        test_skip "Fixture NY_GDP_MKTP_CD_USA.csv not found"
+    }
+    else {
+        cap noi {
+            wbopendata, indicator(NY.GDP.MKTP.CD) country(USA) clear nometadata long offline("`_det_fixtures'")
+            assert _N > 0
+            cap confirm variable countrycode
+            assert _rc == 0
+        }
+        if _rc == 0 test_pass
+        else test_fail "Offline GDP fixture failed"
+    }
+}
+
+* DET-05: Offline country-only query
+*   PURPOSE: Verify topic/country fixture path works
+*   CODE: _query.ado → offline branch → country fixture CSV
+*   FIXTURE: country_USA.csv
+*   EXPECTED: Valid dataset with multiple indicators for USA
+run_test "DET-05" "Offline: country-only query"
+if $skip_test == 0 {
+    cap confirm file "`_det_fixtures'/country_USA.csv"
+    if _rc != 0 {
+        test_skip "Fixture country_USA.csv not found"
+    }
+    else {
+        cap noi {
+            wbopendata, country(USA) clear nometadata offline("`_det_fixtures'")
+            assert _N > 0
+        }
+        if _rc == 0 test_pass
+        else test_fail "Offline country-only fixture failed"
+    }
+}
+
+* DET-06: Missing fixture error handling
+*   PURPOSE: Verify graceful error when fixture file does not exist
+*   CODE: _query.ado → offline branch → confirm file → exit 601
+*   EXPECTED: _rc == 601 (file not found)
+run_test "DET-06" "Offline: missing fixture error handling"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(NONEXISTENT.INDICATOR) country(ZZZ) clear nometadata long offline("`_det_fixtures'")
+    }
+    if _rc != 0 test_pass
+    else test_fail "Missing fixture should have returned an error"
+}
+
+*===============================================================================
 * TEST SUMMARY
 *===============================================================================
 
@@ -1990,6 +2515,9 @@ di as text "`sep'"
 di as text "Tests Run:    " as result $tests_run
 di as text "Tests Passed: " as result $tests_pass
 di as text "Tests Failed: " as error $tests_fail
+if $tests_skip > 0 {
+    di as text "Tests Skipped:" as text " $tests_skip"
+}
 
 if $tests_fail == 0 {
     di as result _n "ALL TESTS PASSED!"

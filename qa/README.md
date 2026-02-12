@@ -1,12 +1,12 @@
 # wbopendata Test Suite (Development)
 
-**Test Suite Version:** 2.0.0  
-**Compatible with:** wbopendata v17.7.1+  
-**Last Updated:** January 2026
+**Test Suite Version:** 3.0.0
+**Compatible with:** wbopendata v18.1.0+
+**Last Updated:** February 2026
 
 This document explains how to run the `wbopendata` test suite on any machine.
 
-> **Note:** This is the development test suite with 57 tests. The public release has 44 tests.
+> **Note:** This is the development test suite with 89 tests across 17 categories. The public release has 44 tests.
 
 ---
 
@@ -22,11 +22,11 @@ do run_tests.do
 
 ## Test Categories
 
-The test suite includes **57 tests** organized into 10 categories:
+The test suite includes **89 tests** organized into 17 categories:
 
 | Category | Tests | Description |
 |----------|-------|-------------|
-| **ENV-01 to ENV-04** | Environment | Repo comparison tests (optional, see below) |
+| **ENV-01 to ENV-05** | Environment | Version, sync, file integrity |
 | **DL-01 to DL-05** | Downloads | Single/multiple indicator and country downloads |
 | **FMT-01 to FMT-03** | Format | Long format, year range, latest option |
 | **CTRY-01 to CTRY-10** | Country Metadata | Match, geographic options, regions, income |
@@ -35,7 +35,11 @@ The test suite includes **57 tests** organized into 10 categories:
 | **UPD-01 to UPD-06** | Maintenance | Update query, describe, update all |
 | **TOPIC-01, LANG-01** | Topics & Language | Topics download, language option |
 | **PROJ/FMT-04/DESC/META/CTRY-11/DATE** | Advanced | Projection, nobasic, describe, nometadata, adminregion, date range |
-| **CACHE-01 to CACHE-08, SYNC-01 to SYNC-05** | Cache & Sync | v18.x features (under development) |
+| **CACHE-01 to CACHE-08, SYNC-01 to SYNC-05** | Cache & Sync | Cache lifecycle and sync operations |
+| **DISC-01 to DISC-07** | Discovery | Sources, topics, search, info commands |
+| **ERR-01 to ERR-24** | Error Handling | Invalid input validation using `rcof` (Gould 2001) |
+| **EXT-01+** | Extended | Additional option combinations |
+| **DET-01+** | Deterministic | Offline fixture-based reproducible tests |
 
 > **See also:** [Test Protocol](test_protocol.md) for detailed test descriptions | [Testing Guide](TESTING_GUIDE.md) for best practices
 
@@ -52,7 +56,7 @@ cd "C:/GitHub/wbopendata-dev/qa"
 do run_tests.do
 ```
 
-**Result:** All 57 tests run, including ENV-01 to ENV-04.
+**Result:** All 89 tests run, including ENV tests.
 
 ### Option 2: Configure Repo Path Manually
 
@@ -63,7 +67,7 @@ global wbopendata_repo "D:/Projects/wbopendata-dev"
 do run_tests.do
 ```
 
-**Result:** All 57 tests run, including ENV-01 to ENV-04.
+**Result:** All 89 tests run, including ENV tests.
 
 ### Option 3: Skip Repo-Comparison Tests
 
@@ -73,7 +77,7 @@ If you don't have access to the repository source (e.g., installed via SSC only)
 do run_tests.do norepo
 ```
 
-**Result:** 53 core tests run; ENV-01 to ENV-04 are skipped.
+**Result:** Core tests run; ENV tests are skipped.
 
 ### Option 4: No Configuration
 
@@ -83,7 +87,7 @@ If neither auto-detection works nor a global is set:
 do run_tests.do
 ```
 
-**Result:** 53 core tests run; ENV-01 to ENV-04 are skipped with informational message.
+**Result:** Core tests run; ENV tests are skipped with informational message.
 
 ---
 
@@ -114,7 +118,7 @@ These tests require access to the local repository. Users who:
 - Don't have the GitHub repo cloned
 - Are running on CI without repo access
 
-...can still run all 53 core functionality tests by using `norepo`.
+...can still run all core functionality tests by using `norepo`.
 
 ---
 
@@ -181,9 +185,9 @@ The script attempts to detect the repo path automatically:
 
 ### CACHE/SYNC tests failing
 
-**Cause:** These are v18.x features under active development.
+**Cause:** These require a working cache/sync setup.
 
-**Solution:** Expected behavior during development. Focus on Categories 0-8 for release validation.
+**Solution:** Ensure YAML metadata files are accessible. Run `wbopendata, cache(info)` to check status.
 
 ---
 
@@ -196,9 +200,9 @@ C:\GitHub\wbopendata-dev\qa
 . do run_tests.do
 
 ================================================================================
- wbopendata Test Suite v17.7.2
+ wbopendata Test Suite v18.1.0
 ================================================================================
- Date: 28 Jan 2026  Time: 14:30:00
+ Date: 10 Feb 2026  Time: 17:44:44
  Stata: 17.0 MP
 ================================================================================
 
@@ -233,10 +237,10 @@ C:\GitHub\wbopendata-dev\qa
 ================================================================================
  TEST SUMMARY
 ================================================================================
- Tests run:    57
- Tests passed: 57
+ Tests run:    89
+ Tests passed: 89
  Tests failed: 0
- 
+
  Result: ALL TESTS PASSED
 ================================================================================
 ```
@@ -247,6 +251,7 @@ C:\GitHub\wbopendata-dev\qa
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 3.0.0 | Feb 2026 | 89 tests across 17 categories; ERR/EXT/DET tests; DISC category; offline fixtures |
 | 2.0.0 | Jan 2026 | Independent test suite versioning; generic paths; `norepo` option; auto-detection |
 | 1.0.0 | Jan 2026 | Initial structured test suite with CACHE/SYNC (57 tests) |
 

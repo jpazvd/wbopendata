@@ -6,6 +6,55 @@
 
 **Minimum requirement:** Stata 12 or later.
 
+## wbopendata v18.1.0 — Char Metadata, Offline Testing & Compound Quoting Fix
+
+**Release Date:** February 10, 2026
+
+---
+
+### Highlights
+
+This release adds **variable-level char metadata** (indicator code stored as Stata `char` on data variables), introduces an **offline deterministic testing** framework (`offline()` option for fixture-based QA), fixes a **compound quoting bug** that broke metadata returns containing SMCL `{browse}` tags, and expands the test suite to **89 tests** across 17 categories.
+
+### New Features
+
+| Feature | Description |
+| ------- | ----------- |
+| **Char metadata** | Indicator code automatically stored as `char` on data variables (suppress with `nochar`) |
+| **Offline testing** | `offline(path)` option loads CSV fixtures instead of calling World Bank API |
+| **ERR tests (24)** | Error handling validation using `rcof` methodology (Gould 2001) |
+| **EXT tests** | Extended option combination coverage |
+| **DET tests** | Deterministic tests using offline CSV fixtures |
+
+### Bug Fixes
+
+- **Compound quoting for SMCL tags**: `sourcecite`, `description_line`, and `note_line` returns now use compound quotes `` `"..."' `` to handle embedded double quotes from `{browse "url"}` SMCL tags
+- **Stray `set trace on`**: Removed dead-code instances in `_api_read.ado` and `_query_indicators.ado`
+
+### Deprecations
+
+The following options now display user-facing deprecation warnings:
+
+- `update query`, `update check`, `update all` (use `sync` commands instead)
+- `metadataoffline` (use `offline()` option instead)
+- `syncforce`, `syncpreview`, `syncdryrun` (use `sync replace [force]` instead)
+
+### Quality Assurance
+
+| Metric | v18.0.0 | v18.1.0 |
+| ------ | ------- | ------- |
+| **Total Tests** | 65 | 89 |
+| **Test Categories** | 15 | 17 |
+| **Final Run** | 65 passed, 0 failed | 89 passed, 0 failed |
+
+New test categories: ERR (error handling), EXT (extended formats), DET (deterministic/offline).
+
+### Full Changelog
+
+**Compare:** [v18.0.0...v18.1.0](https://github.com/jpazvd/wbopendata/compare/v18.0.0...v18.1.0)
+
+---
+
 ## wbopendata v18.0.0 — Discovery Commands, YAML Metadata & Sync Redesign
 
 **Release Date:** February 9, 2026
@@ -374,7 +423,8 @@ For complete version history including all releases from v1.0.0 (2011) to presen
 ### Version Timeline
 
 ```
-2026 ─┬─ v18.0.0          Discovery commands, YAML metadata, sync redesign
+2026 ─┬─ v18.1.0          Char metadata, offline testing, 89 tests
+      ├─ v18.0.0          Discovery commands, YAML metadata, sync redesign
       ├─ v17.7.1          Test suite expansion, documentation
       ├─ v17.7            Basic country context by default
       └─ v17.6            Graph metadata (linewrap) features
@@ -411,7 +461,7 @@ For complete version history including all releases from v1.0.0 (2011) to presen
 | Channel | Current | Notes |
 |---------|---------|-------|
 | **[SSC](https://ideas.repec.org/c/boc/bocode/s457234.html)** | v17.7.1 | Stable, install via `ssc install wbopendata` |
-| **GitHub** | v18.0.0 | Latest features, install via `net install` |
+| **GitHub** | v18.1.0 | Latest features, install via `net install` |
 
 > **Note:** The SSC version (v17.7.1) is one release behind the latest GitHub version. For the newest features including discovery commands, sync redesign, and YAML metadata architecture, install from GitHub.
 

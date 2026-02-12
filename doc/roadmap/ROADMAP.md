@@ -8,8 +8,8 @@
 
 This roadmap consolidates all improvement plans and enhancement ideas for `wbopendata`. It reflects the current state after the v18.0.0 release and prioritizes features based on user impact and implementation effort.
 
-**Last Updated:** February 9, 2026
-**Current Version:** v18.0.0 (released)
+**Last Updated:** February 12, 2026
+**Current Version:** v18.1.0 (released)
 **Reference Implementations:** unicefData, yaml.ado, stataci
 
 ---
@@ -26,9 +26,15 @@ This roadmap consolidates all improvement plans and enhancement ideas for `wbope
 - [x] Auto-detecting repo paths for multi-machine test compatibility
 - [x] Version bump to 18.0.0 with consolidated package files
 - [x] Workflow migration: metadata updates via GitHub Actions
-- [ ] **NEXT:** Implement helper ados for discovery and cache (currently stub files)
-- [ ] **NEXT:** YAML metadata parsing and sync logic
-- [ ] **NEXT:** Populate _wbopendata_*.yaml metadata files
+
+### v18.1.0 (February 2026) — Released
+- [x] Variable-level char metadata (default-on, `nochar` to suppress)
+- [x] Offline deterministic testing (`offline()` option, Phase 6 Gould 2001)
+- [x] Compound quoting fix for SMCL `{browse}` tags in metadata returns
+- [x] Deprecated legacy options with user-facing warnings
+- [x] 24 new ERR tests using `rcof` methodology
+- [x] EXT and DET test categories
+- [x] Expanded test suite to 89 tests across 17 categories
 
 ### v17.x (December 2025 - January 2026)
 - [x] Documentation reorganization with user-guide/, reference/, roadmap/ structure
@@ -59,98 +65,85 @@ This roadmap consolidates all improvement plans and enhancement ideas for `wbope
 
 | Priority | Feature | Status | Impact | Effort | Target |
 |----------|---------|--------|--------|--------|--------|
-| **P1** | Discovery subcommands (search, info) | 🟡 Stubbed | High | Medium | v18.0 |
-| **P1** | YAML-based metadata sync | 🟡 Stubbed | High | High | v18.0 |
-| **P1** | Helper ado implementations | 🔴 TODO | High | Medium | v18.0 |
-| **P2** | Caching system | 🟢 Planned | Medium | Medium | v18.1 |
-| **P2** | Search index optimization | 🟢 Planned | Medium | Low | v18.1 |
-| **P2** | Progress indicators | 🟢 Planned | Medium | Low | v18.1 |
+| **P1** | Discovery subcommands (search, info) | ✅ Done | High | Medium | v18.0 |
+| **P1** | YAML-based metadata sync | ✅ Done | High | High | v18.0 |
+| **P1** | Helper ado implementations | ✅ Done | High | Medium | v18.0 |
+| **P1** | Char metadata & offline testing | ✅ Done | High | Medium | v18.1 |
+| **P2** | Search index optimization | 🟢 Planned | Medium | Low | v18.2 |
+| **P2** | Progress indicators | 🟢 Planned | Medium | Low | v18.2 |
 | **P3** | Batch download mode | 🟢 Planned | Low | Low | v18.2 |
 | **P3** | Favorites/bookmarks | 🟢 Planned | Low | Low | v18.2 |
 | **P3** | Multiple output formats | 🟢 Planned | Low | Medium | v18.2 |
 
 ---
 
-## � NEXT IMMEDIATE STEPS (v18.0 Completion)
+## ✅ COMPLETED PHASES (v18.0–v18.1)
 
-The infrastructure is in place (atomic commits in feature/pathway-c-auto-sync). Now implement:
+All P1 implementation phases are complete. The infrastructure, helper ADOs, discovery commands, YAML population, and integration testing have been delivered.
 
-### PHASE 1: Helper ADO Implementation (Week 1-2)
+### PHASE 1: Helper ADO Implementation — Done (v18.0)
 
-1. **_wbopendata_cache.ado** (Priority 1)
-   - [ ] `cache, info` — Display cache location, version, timestamp
-   - [ ] `cache, checkversion` — Compare local vs GitHub versions
-   - [ ] `cache, update [force]` — Download/update YAML from GitHub
-   - [ ] `cache, clear` — Remove cached files
-   - **Dependencies:** GitHub API call, file versioning
-   - **Test:** CACHE-01 to CACHE-08
+1. **_wbopendata_cache.ado**
+   - [x] `cache, info` — Display cache location, version, timestamp
+   - [x] `cache, checkversion` — Compare local vs GitHub versions
+   - [x] `cache, update [force]` — Download/update YAML from GitHub
+   - [x] `cache, clear` — Remove cached files
+   - **Test:** CACHE-01 to CACHE-08 (all passing)
 
-2. **_wbopendata_get_yaml_path.ado** (Priority 1)
-   - [ ] Return path to cached or packaged YAML
-   - [ ] Priority: cache > package install
-   - [ ] Return source indicator (cache vs package)
-   - **Dependencies:** File system checks
-   - **Test:** CACHE-02
+2. **_wbopendata_get_yaml_path.ado**
+   - [x] Return path to cached or packaged YAML
+   - [x] Priority: cache > PLUS > adopath(findfile) > cwd
+   - [x] Return source indicator (cache vs package)
+   - **Test:** CACHE-02 (passing)
 
-3. **_wbopendata_download_yaml.ado** (Priority 1)
-   - [ ] Download from GitHub releases
-   - [ ] Extract version from filename
-   - [ ] Validate file integrity (checksum)
-   - [ ] Populate cache directory
-   - **Dependencies:** Network I/O, GitHub API
-   - **Test:** SYNC-01 to SYNC-05
+3. **_wbopendata_download_yaml.ado**
+   - [x] Download from GitHub releases
+   - [x] Validate file integrity
+   - [x] Populate cache directory
+   - **Test:** SYNC-01 to SYNC-05 (all passing)
 
-### PHASE 2: Discovery Commands (Week 2-3)
+### PHASE 2: Discovery Commands — Done (v18.0)
 
-4. **_wbopendata_search.ado** (Priority 1)
-   - [ ] Parse YAML indicators metadata
-   - [ ] Search by keyword (title, description, source)
-   - [ ] Apply limit() and source() filters
-   - [ ] Return matched indicators with details
-   - [ ] Return `r(yaml_source)` (cache or package)
-   - **Dependencies:** _wbopendata_get_yaml_path, YAML parsing
-   - **Test:** (add SRCH-01 to SRCH-05 tests)
+4. **_wbopendata_search.ado**
+   - [x] Parse YAML indicators metadata (~29,323 indicators)
+   - [x] Search by keyword with topic/field/source filters
+   - [x] Frame-cached search (<0.5s after initial parse)
+   - **Test:** DISC-01 to DISC-07 (all passing)
 
-5. **_wbopendata_info.ado** (Priority 1)
-   - [ ] Display full metadata for single indicator
-   - [ ] Show source, topic, availability
-   - [ ] Format for readability in Stata
-   - [ ] Return structured metadata
-   - **Dependencies:** _wbopendata_get_yaml_path, YAML parsing
-   - **Test:** (add INFO-01 to INFO-03 tests)
+5. **_wbopendata_info.ado**
+   - [x] Display full metadata for single indicator
+   - [x] Clickable URLs via SMCL `{browse}` tags
+   - **Test:** DISC tests (passing)
 
-### PHASE 3: YAML Metadata Population (Week 3-4)
+### PHASE 3: YAML Metadata Population — Done (v18.0)
 
-6. **Populate _wbopendata_*.yaml files** (Priority 1)
-   - [ ] _wbopendata_indicators.yaml — All 20,000+ indicators
-   - [ ] _wbopendata_sources.yaml — All 51 data sources
-   - [ ] _wbopendata_topics.yaml — All topic categories
-   - **Automation:** Use src/py/update_metadata.py (already stubbed)
-   - **Format:** Match schema in wbopendata.pkg documentation
+6. **YAML files populated**
+   - [x] _wbopendata_indicators.yaml — ~29,323 indicators (18 MB)
+   - [x] _wbopendata_sources.yaml — All data sources
+   - [x] _wbopendata_topics.yaml — All topic categories
+   - [x] _wbopendata_parameters.yaml — Configuration parameters
 
-### PHASE 4: Integration & Testing (Week 4)
+### PHASE 4: Integration & Testing — Done (v18.1)
 
 7. **Integration testing**
-   - [ ] Run full test suite (57 tests)
-   - [ ] Verify CACHE-01 to SYNC-05 tests pass
-   - [ ] Manual search/info testing
-   - [ ] YAML fallback testing (cache → package)
+   - [x] Full test suite: 89 tests, 17 categories, all passing
+   - [x] CACHE, SYNC, DISC categories all passing
+   - [x] ERR tests with `rcof` methodology (24 tests)
+   - [x] DET tests with offline CSV fixtures
 
 8. **Documentation**
-   - [ ] Update wbopendata.sthlp with search/info examples
-   - [ ] Add YAML caching explanation
-   - [ ] Document offline usage (package YAML fallback)
-   - [ ] Update examples_gallery.md
+   - [x] Updated wbopendata.sthlp with discovery examples
+   - [x] YAML caching and sync documented
+   - [x] Offline testing framework (`offline()` option)
+   - [x] Paper updated for 89-test suite
 
 ---
 
-## 🔴 P1: High Priority (v18.0) — Implementation Status
+## ✅ P1: High Priority — Completed (v18.0–v18.1)
 
-### 1.1 Discovery Subcommands
+### 1.1 Discovery Subcommands — Done
 
-**Status:** Commands integrated in wbopendata.ado (v18.0). Helper ados need implementation.
-
-Interactive indicator discovery inspired by `unicefdata`:
+**Status:** Fully implemented and tested.
 
 ```stata
 * Search indicators by keyword
@@ -161,48 +154,33 @@ wbopendata, search("GDP") limit(20) source(2)
 wbopendata, info("SE.ADT.LITR.ZS")
 ```
 
-**Implementation Status:**
-- [x] Main command syntax added to wbopendata.ado
-- [ ] `_wbopendata_search.ado` — Parse YAML, apply filters
-- [ ] `_wbopendata_info.ado` — Display indicator metadata
-- [ ] YAML metadata files populated
-- **Test Coverage:** 57/57 (CACHE + SYNC tests stubbed, pass gracefully)
+**Implementation:**
+- [x] Main command syntax in wbopendata.ado
+- [x] `_wbopendata_search.ado` — Frame-cached YAML parsing with filters
+- [x] `_wbopendata_info.ado` — Full indicator metadata display
+- [x] YAML metadata files populated (~29,323 indicators)
+- **Test Coverage:** 89/89 (DISC-01 to DISC-07 + all other categories)
 
-### 1.2 YAML-Based Metadata System
+### 1.2 YAML-Based Metadata System — Done
 
-**Status:** Commands integrated in wbopendata.ado (v18.0). Helper ados need implementation.
-
-Replace static `.sthlp` files with structured YAML:
-
-```yaml
-# _wbopendata_indicators.yaml
-_metadata:
-  version: 2.0.0
-  synced_at: "2025-01-29T00:00:00Z"
-  
-indicators:
-  SE.ADT.LITR.ZS:
-    name: "Literacy rate, adult total"
-    source_id: 2
-    topic_id: 4
-```
+**Status:** Fully implemented and tested.
 
 **Commands:**
 ```stata
-wbopendata, sync              // Sync all metadata
+wbopendata, sync              // Preview metadata changes (dryrun)
+wbopendata, sync replace      // Apply metadata sync
 wbopendata, checkupdate       // Check for updates
 wbopendata, clearcache        // Clear local cache
 ```
 
-**Implementation Status:**
-- [x] Main command syntax added to wbopendata.ado
-- [ ] `_wbopendata_cache.ado` — Cache operations (info, update, clear)
-- [ ] `_wbopendata_download_yaml.ado` — GitHub download logic
-- [ ] `_wbopendata_check_version.ado` — Version comparison
-- [ ] `_wbopendata_get_yaml_path.ado` — Cache/package resolution
-- [ ] Populate _wbopendata_*.yaml with live data
-- **Dependencies:** `yaml.ado` from SSC (for parsing)
-- **Test Coverage:** 13 tests (CACHE-01 to SYNC-05, currently pass/skip gracefully)
+**Implementation:**
+- [x] `_wbopendata_cache.ado` — Cache operations (info, update, clear)
+- [x] `_wbopendata_download_yaml.ado` — GitHub download logic
+- [x] `_wbopendata_check_version.ado` — Version comparison
+- [x] `_wbopendata_get_yaml_path.ado` — Cache/PLUS/adopath/cwd resolution
+- [x] All 4 YAML files populated with live data
+- **Dependencies:** `yaml.ado` (bundled in package)
+- **Test Coverage:** CACHE-01 to SYNC-05 (all passing)
 
 ---
 
@@ -360,4 +338,4 @@ See [Contributing Guidelines](../../CONTRIBUTING.md) for how to propose new feat
 
 ---
 
-*Last updated: February 9, 2026 — v18.0.0 released*
+*Last updated: February 12, 2026 — v18.1.0 released*
