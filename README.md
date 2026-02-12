@@ -85,10 +85,10 @@ net install wbopendata, from("C:/GitHub/myados/wbopendata") replace
 net install wbopendata, from("/Users/username/GitHub/wbopendata") replace
 ```
 
-> **Note:** This repo maintains three `wbopendata.pkg` files:
+> **Note:** The **wbopendata project** maintains three `wbopendata.pkg` files:
 > - `wbopendata.pkg` (root): For GitHub/local `net install` — uses `src/` paths
 > - `src/wbopendata.pkg`: For direct `src/`-level installs — uses relative paths
-> - `ssc/wbopendata.pkg`: For SSC submission — uses flat paths (included in zip)
+> - `ssc/wbopendata.pkg` *(in private `wbopendata-dev` only, not in this public repo)*: For SSC submission — uses flat paths (included in zip)
 
 ### SSC vs GitHub Versions
 

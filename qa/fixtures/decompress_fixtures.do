@@ -22,6 +22,7 @@ from sfi import Macro
 
 fixdir = Path(Macro.getLocal("fixdir"))
 archive = fixdir / "fixtures.tar.gz"
+fixdir_resolved = fixdir.resolve()
 
 if not archive.exists():
     print(f"  [ERROR] Archive not found: {archive}")
@@ -33,7 +34,9 @@ else:
         extracted = 0
         for m in members:
             dest = (fixdir / m.name).resolve()
-            if not str(dest).startswith(str(fixdir.resolve())):
+            try:
+                dest.relative_to(fixdir_resolved)
+            except ValueError:
                 print(f"  [SKIP] path traversal blocked: {m.name}")
                 continue
             if dest.exists() and not m.isdir():
