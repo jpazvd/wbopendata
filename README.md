@@ -14,7 +14,7 @@
 | | |
 |---|---|
 | **29,000+** | Indicators available |
-| **51** | Data sources |
+| **71** | Data sources |
 | **21** | Topic categories |
 | **296** | Countries & regions |
 | **17** | Country attributes |
@@ -23,7 +23,7 @@
 
 ---
 
-`wbopendata` provides Stata users with programmatic access to the World Bank's Open Data API, enabling scripted, reproducible downloads of over **29,000 indicators** from **51 databases** covering **296 countries and regions** from **1960 to present**.
+`wbopendata` provides Stata users with programmatic access to the World Bank's Open Data API, enabling scripted, reproducible downloads of over **29,000 indicators** from **71 databases** covering **296 countries and regions** from **1960 to present**.
 
 The accessible databases include: World Development Indicators (WDI), Doing Business, Worldwide Governance Indicators, International Debt Statistics, Africa Development Indicators, Education Statistics, Enterprise Surveys, Gender Statistics, Health Nutrition and Population Statistics, Global Financial Inclusion (Findex), Poverty and Equity, Human Capital Index, Climate Change (CCDR), Sustainable Development Goals, and many more.
 
@@ -85,18 +85,17 @@ net install wbopendata, from("C:/GitHub/myados/wbopendata") replace
 net install wbopendata, from("/Users/username/GitHub/wbopendata") replace
 ```
 
-> **Note:** This repo maintains two `wbopendata.pkg` files:
-> - `wbopendata.pkg` (root): For GitHub/local `net install` - uses `src/` paths
-> - `ssc/wbopendata.pkg`: For SSC submission - uses flat paths (included in zip)
->
-> See [ssc/README.md](ssc/README.md) for details on the two-package architecture.
+> **Note:** This repo maintains three `wbopendata.pkg` files:
+> - `wbopendata.pkg` (root): For GitHub/local `net install` — uses `src/` paths
+> - `src/wbopendata.pkg`: For direct `src/`-level installs — uses relative paths
+> - `ssc/wbopendata.pkg`: For SSC submission — uses flat paths (included in zip)
 
 ### SSC vs GitHub Versions
 
-| Channel | Version | Indicators | Notes |
-|---------|---------|------------|-------|
-| **SSC** | v13.5 (2016) | ~10,000 | Stable, pre-API modernization |
-| **GitHub** | v18.1.0 (2026) | 29,000+ | Latest features, active development |
+| Channel    | Version        | Indicators | Notes                               |
+|------------|----------------|------------|-------------------------------------|
+| **SSC**    | v17.7.1 (2025) | ~20,000    | Stable, one release behind GitHub   |
+| **GitHub** | v18.1.0 (2026) | 29,000+    | Latest features, active development |
 
 > **Recommendation:** Install from GitHub for full functionality including `match()`, `linewrap()`, multiple indicators, and 29,000+ indicators.
 
@@ -230,7 +229,7 @@ wbopendata, cacheinfo      // Display cache status
 
 #### Browsing Commands
 
-- **sources**: List all 51 World Bank data sources with indicator counts and clickable `[Browse]` links
+- **sources**: List all 71 World Bank data sources with indicator counts and clickable `[Browse]` links
 - **alltopics**: List all 21 topic categories with indicator counts and clickable `[Browse]` links
 
 #### Search Commands

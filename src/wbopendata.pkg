@@ -2,7 +2,7 @@ v 18.1.0
 d 'WBOPENDATA': module to access World Bank databases
 d 
 d wbopendata allows Stata users to download over 20,000 indicators 
-d from 51 World Bank databases, including: World Development Indicators; 
+d from 71 World Bank databases, including: World Development Indicators;
 d Global Financial Inclusion (Findex); Education Statistics; Enterprise 
 d Surveys; Gender Statistics; Health Nutrition and Population Statistics; 
 d Human Capital Index; Climate Change (CCDR); Sustainable Development Goals; 
