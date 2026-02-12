@@ -22,9 +22,10 @@ This release adds **variable-level char metadata** (indicator code stored as Sta
 | ------- | ----------- |
 | **Char metadata** | Indicator code automatically stored as `char` on data variables (suppress with `nochar`) |
 | **Offline testing** | `offline(path)` option loads CSV fixtures instead of calling World Bank API |
-| **ERR tests (24)** | Error handling validation using `rcof` methodology (Gould 2001) |
-| **EXT tests** | Extended option combination coverage |
-| **DET tests** | Deterministic tests using offline CSV fixtures |
+| **CHAR tests (6)** | Characteristic metadata validation across download modes |
+| **ERR tests (8)** | Error handling validation using `rcof` methodology (Gould 2001) |
+| **EXT tests (4)** | Extended option combination coverage |
+| **DET tests (6)** | Deterministic tests using offline CSV fixtures |
 
 ### Bug Fixes
 
@@ -47,7 +48,7 @@ The following options now display user-facing deprecation warnings:
 | **Test Categories** | 15 | 17 |
 | **Final Run** | 65 passed, 0 failed | 89 passed, 0 failed |
 
-New test categories: ERR (error handling), EXT (extended formats), DET (deterministic/offline).
+New test categories: CHAR (char metadata), ERR (error handling), EXT (extended formats), DET (deterministic/offline).
 
 ### Full Changelog
 
