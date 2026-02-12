@@ -30,12 +30,12 @@ program define _wbopendata_sources, rclass
         gen long linenum = _n
 
         * Detect source entry lines: lines like '1': or '37':
-        * After infix strips whitespace, these start with quote and end with colon
-        gen byte is_source = regexm(rawline, "^'[0-9]+':")
+        * Allow optional leading whitespace in case infix behavior varies
+        gen byte is_source = regexm(rawline, "^[ ]*'[0-9]+':")
 
         * Extract source code
         gen str10 src_code = ""
-        replace src_code = regexs(1) if regexm(rawline, "^'([0-9]+)':")
+        replace src_code = regexs(1) if regexm(rawline, "^[ ]*'([0-9]+)':")
 
         * Propagate source code to field lines
         gen long src_group = sum(is_source)
