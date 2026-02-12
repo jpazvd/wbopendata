@@ -32,7 +32,10 @@ else:
         existing = 0
         extracted = 0
         for m in members:
-            dest = fixdir / m.name
+            dest = (fixdir / m.name).resolve()
+            if not str(dest).startswith(str(fixdir.resolve())):
+                print(f"  [SKIP] path traversal blocked: {m.name}")
+                continue
             if dest.exists() and not m.isdir():
                 existing += 1
                 continue

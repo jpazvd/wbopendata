@@ -202,7 +202,7 @@ if ("`nosthlp1'" == "") {
 		file write `hlp_source' "This list is generated from cached metadata. Use " _n
 		file write `hlp_source' `"{stata `"wbopendata, sources"':{bf:wbopendata, sources}}"' _n
 		file write `hlp_source' "to browse sources and " _n
-		file write `hlp_source' `"{stata `"wbopendata, search() source(#)"':{bf:search() source(#)}}"' _n
+		file write `hlp_source' `"{stata `"wbopendata, search() searchsource(#)"':{bf:search() searchsource(#)}}"' _n
 		file write `hlp_source' "to filter indicators within a source." _n
 		file write `hlp_source' "" _n
 
@@ -218,7 +218,7 @@ if ("`nosthlp1'" == "") {
 			gettoken code codes : codes
 			gettoken name names : names, bind
 			local name = subinstr(`"`name'"', `"""', "'", .)
-			local browse_cmd "wbopendata, search() source(`code')"
+			local browse_cmd "wbopendata, search() searchsource(`code')"
 			file write `hlp_source' `"{synopt:{opt `code'}}  `name' {stata `"`browse_cmd'"':[Browse]}{p_end}"' _n
 		}
 		file write `hlp_source' "{synoptline}" _n
@@ -261,7 +261,7 @@ if ("`nosthlp1'" == "") {
 		file write `hlp_topic' "This list is generated from cached metadata. Use " _n
 		file write `hlp_topic' `"{stata `"wbopendata, topics"':{bf:wbopendata, topics}}"' _n
 		file write `hlp_topic' "to browse topics and " _n
-		file write `hlp_topic' `"{stata `"wbopendata, search() topic(#)"':{bf:search() topic(#)}}"' _n
+		file write `hlp_topic' `"{stata `"wbopendata, search() searchtopic(#)"':{bf:search() searchtopic(#)}}"' _n
 		file write `hlp_topic' "to filter indicators within a topic." _n
 		file write `hlp_topic' "" _n
 
@@ -277,7 +277,7 @@ if ("`nosthlp1'" == "") {
 			gettoken code ids : ids
 			gettoken name names : names, bind
 			local name = subinstr(`"`name'"', `"""', "'", .)
-			local browse_cmd "wbopendata, search() topic(`code')"
+			local browse_cmd "wbopendata, search() searchtopic(`code')"
 			file write `hlp_topic' `"{synopt:{opt `code'}}  `name' {stata `"`browse_cmd'"':[Browse]}{p_end}"' _n
 		}
 		file write `hlp_topic' "{synoptline}" _n
