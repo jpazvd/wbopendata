@@ -92,7 +92,7 @@ program define _wbopendata_sync, rclass
     capture noisily _wbopendata_download_yaml, version("`remote_ver'")
     if (_rc == 0) local download_ok = 1
 
-    if (`download_ok' == 1 & "`force'" == "") {
+    if (`download_ok' == 1) {
         _wbopendata_write_cache_meta "`schema_version'" "`cache_dir'" "download" "github"
         return scalar sync_success = 1
         return local method = "download"
