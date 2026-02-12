@@ -100,8 +100,10 @@ class YAMLGenerator:
                 'limited_data': False
             }
         
-        # Calculate checksum from the exact bytes that will be written
-        # Use the same dumper/representer as _write_yaml
+        # Calculate checksum: serialize the data BEFORE adding the checksum field,
+        # using the same parameters as _write_yaml (but excluding the header).
+        # This matches how the file will actually be written and allows validation
+        # to recompute the checksum by temporarily removing the field.
         import io
         
         def _wrap_long_text(value: str) -> str:
@@ -122,7 +124,7 @@ class YAMLGenerator:
         
         yaml.add_representer(str, str_representer, Dumper=yaml.SafeDumper)
         
-        # Serialize YAML content (without header for now)
+        # Serialize YAML content for checksum (without checksum field itself)
         yaml_content = io.StringIO()
         yaml.safe_dump(
             yaml_data,
@@ -133,11 +135,13 @@ class YAMLGenerator:
             width=10000,
         )
         
-        # Compute checksum from YAML content only (excluding header to match validation logic)
+        # Compute checksum from YAML content (excluding header, matching validation logic)
         checksum = hashlib.sha256(yaml_content.getvalue().encode('utf-8')).hexdigest()
+        
+        # Now add the checksum to metadata
         yaml_data['_metadata']['checksum_sha256'] = checksum
         
-        # Write to file
+        # Write to file (this will include the checksum field)
         output_file = self.output_dir / '_wbopendata_indicators.yaml'
         self._write_yaml(yaml_data, output_file)
         
