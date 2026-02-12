@@ -97,11 +97,11 @@
 !/qa/*.md
 !/qa/*.do
 
-# QA fixtures — single compressed archive tracked in git.
-# Run qa/fixtures/decompress_fixtures.do to unpack on first clone.
+# QA fixtures — only the zip archive is tracked in git.
+# All individual files (CSVs, XMLs, manifests, scripts) live inside the zip.
+# Extract with: powershell Expand-Archive fixtures.zip -DestinationPath .
 !/qa/fixtures/
-!/qa/fixtures/fixtures.tar.gz
-!/qa/fixtures/*.do
+!/qa/fixtures/fixtures.zip
 
 # Ignore _archive folders (development artifacts)
 _archive/
