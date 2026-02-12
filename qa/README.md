@@ -1,9 +1,12 @@
-# wbopendata Test Suite
+# wbopendata Test Suite (Development)
 
-**Version:** 17.7.2  
-**Last Updated:** January 2026
+**Test Suite Version:** 3.0.0
+**Compatible with:** wbopendata v18.1.0+
+**Last Updated:** February 2026
 
 This document explains how to run the `wbopendata` test suite on any machine.
+
+> **Note:** This is the development test suite with 89 tests across 17 categories. The public release has 44 tests.
 
 ---
 
@@ -11,7 +14,7 @@ This document explains how to run the `wbopendata` test suite on any machine.
 
 ```stata
 * Navigate to the qa/ folder and run
-cd "C:/path/to/wbopendata/qa"
+cd "C:/path/to/wbopendata-dev/qa"
 do run_tests.do
 ```
 
@@ -19,11 +22,11 @@ do run_tests.do
 
 ## Test Categories
 
-The test suite includes **44 tests** organized into 9 categories:
+The test suite includes **89 tests** organized into 17 categories:
 
 | Category | Tests | Description |
 |----------|-------|-------------|
-| **ENV-01 to ENV-04** | Environment | Repo comparison tests (optional, see below) |
+| **ENV-01 to ENV-05** | Environment | Version, sync, file integrity |
 | **DL-01 to DL-05** | Downloads | Single/multiple indicator and country downloads |
 | **FMT-01 to FMT-03** | Format | Long format, year range, latest option |
 | **CTRY-01 to CTRY-10** | Country Metadata | Match, geographic options, regions, income |
@@ -32,6 +35,11 @@ The test suite includes **44 tests** organized into 9 categories:
 | **UPD-01 to UPD-06** | Maintenance | Update query, describe, update all |
 | **TOPIC-01, LANG-01** | Topics & Language | Topics download, language option |
 | **PROJ/FMT-04/DESC/META/CTRY-11/DATE** | Advanced | Projection, nobasic, describe, nometadata, adminregion, date range |
+| **CACHE-01 to CACHE-08, SYNC-01 to SYNC-05** | Cache & Sync | Cache lifecycle and sync operations |
+| **DISC-01 to DISC-07** | Discovery | Sources, topics, search, info commands |
+| **ERR-01 to ERR-24** | Error Handling | Invalid input validation using `rcof` (Gould 2001) |
+| **EXT-01+** | Extended | Additional option combinations |
+| **DET-01+** | Deterministic | Offline fixture-based reproducible tests |
 
 > **See also:** [Test Protocol](test_protocol.md) for detailed test descriptions | [Testing Guide](TESTING_GUIDE.md) for best practices
 
@@ -44,22 +52,22 @@ The test suite includes **44 tests** organized into 9 categories:
 If you run from the `qa/` folder inside the repository, the script auto-detects the repo path:
 
 ```stata
-cd "C:/GitHub/wbopendata/qa"
+cd "C:/GitHub/wbopendata-dev/qa"
 do run_tests.do
 ```
 
-**Result:** All 44 tests run, including ENV-01 to ENV-04.
+**Result:** All 89 tests run, including ENV tests.
 
 ### Option 2: Configure Repo Path Manually
 
 Set the global before running:
 
 ```stata
-global wbopendata_repo "D:/Projects/wbopendata"
+global wbopendata_repo "D:/Projects/wbopendata-dev"
 do run_tests.do
 ```
 
-**Result:** All 44 tests run, including ENV-01 to ENV-04.
+**Result:** All 89 tests run, including ENV tests.
 
 ### Option 3: Skip Repo-Comparison Tests
 
@@ -69,7 +77,7 @@ If you don't have access to the repository source (e.g., installed via SSC only)
 do run_tests.do norepo
 ```
 
-**Result:** 40 core tests run; ENV-01 to ENV-04 are skipped.
+**Result:** Core tests run; ENV tests are skipped.
 
 ### Option 4: No Configuration
 
@@ -79,7 +87,7 @@ If neither auto-detection works nor a global is set:
 do run_tests.do
 ```
 
-**Result:** 40 core tests run; ENV-01 to ENV-04 are skipped with informational message.
+**Result:** Core tests run; ENV tests are skipped with informational message.
 
 ---
 
@@ -110,7 +118,7 @@ These tests require access to the local repository. Users who:
 - Don't have the GitHub repo cloned
 - Are running on CI without repo access
 
-...can still run all 40 core functionality tests by using `norepo`.
+...can still run all core functionality tests by using `norepo`.
 
 ---
 
@@ -120,7 +128,7 @@ These tests require access to the local repository. Users who:
 
 | Global | Purpose | Example |
 |--------|---------|---------|
-| `wbopendata_repo` | Path to repo root | `global wbopendata_repo "C:/GitHub/wbopendata"` |
+| `wbopendata_repo` | Path to repo root | `global wbopendata_repo "C:/GitHub/wbopendata-dev"` |
 
 ### Command-Line Arguments
 
@@ -159,7 +167,7 @@ The script attempts to detect the repo path automatically:
 **Cause:** The script couldn't find the repository path.
 
 **Solutions:**
-1. Run from the `qa/` folder: `cd "path/to/wbopendata/qa"`
+1. Run from the `qa/` folder: `cd "path/to/wbopendata-dev/qa"`
 2. Set the global: `global wbopendata_repo "path/to/repo"`
 3. Accept the skip if you don't need repo tests: `do run_tests.do norepo`
 
@@ -175,28 +183,34 @@ The script attempts to detect the repo path automatically:
 
 **Solution:** Wait a few minutes and retry. The API occasionally has brief outages.
 
+### CACHE/SYNC tests failing
+
+**Cause:** These require a working cache/sync setup.
+
+**Solution:** Ensure YAML metadata files are accessible. Run `wbopendata, cache(info)` to check status.
+
 ---
 
 ## Example Session
 
 ```stata
-. cd "C:/GitHub/wbopendata/qa"
-C:\GitHub\wbopendata\qa
+. cd "C:/GitHub/wbopendata-dev/qa"
+C:\GitHub\wbopendata-dev\qa
 
 . do run_tests.do
 
 ================================================================================
- wbopendata Test Suite v17.7.2
+ wbopendata Test Suite v18.1.0
 ================================================================================
- Date: 28 Jan 2026  Time: 14:30:00
+ Date: 10 Feb 2026  Time: 17:44:44
  Stata: 17.0 MP
 ================================================================================
 
  PATH CONFIGURATION
  ------------------
  Auto-detected repo from qa/ folder
- Repo root: C:/GitHub/wbopendata
- QA directory: C:/GitHub/wbopendata/qa
+ Repo root: C:/GitHub/wbopendata-dev
+ QA directory: C:/GitHub/wbopendata-dev/qa
 
 ================================================================================
  CATEGORY 1: BASIC DOWNLOADS
@@ -206,7 +220,14 @@ C:\GitHub\wbopendata\qa
  ...
 
 ================================================================================
- CATEGORY 9: ENVIRONMENT & VERSION TESTS
+ CATEGORY 9: CACHE & SYNC SYSTEM
+================================================================================
+ [CACHE-01] PASS: Cache directory initialization
+ [CACHE-02] PASS: Get YAML path (cache vs package)
+ ...
+
+================================================================================
+ CATEGORY 10: ENVIRONMENT & VERSION TESTS
 ================================================================================
  [ENV-01] PASS: net install from repo works
  [ENV-02] PASS: Package file exists
@@ -216,10 +237,10 @@ C:\GitHub\wbopendata\qa
 ================================================================================
  TEST SUMMARY
 ================================================================================
- Tests run:    44
- Tests passed: 44
+ Tests run:    89
+ Tests passed: 89
  Tests failed: 0
- 
+
  Result: ALL TESTS PASSED
 ================================================================================
 ```
@@ -230,8 +251,9 @@ C:\GitHub\wbopendata\qa
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 17.7.2 | Jan 2026 | Made test suite generic; added `norepo` option; auto-detection |
-| 17.7.1 | Jan 2026 | Initial structured test suite |
+| 3.0.0 | Feb 2026 | 89 tests across 17 categories; ERR/EXT/DET tests; DISC category; offline fixtures |
+| 2.0.0 | Jan 2026 | Independent test suite versioning; generic paths; `norepo` option; auto-detection |
+| 1.0.0 | Jan 2026 | Initial structured test suite with CACHE/SYNC (57 tests) |
 
 ---
 

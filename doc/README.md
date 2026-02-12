@@ -57,6 +57,8 @@ doc/
 
 ## 🚀 Getting Started
 
+**Minimum requirement:** Stata 12 or later.
+
 ### For New Users
 1. **Start with the [User Guide](user-guide/)**
 2. **Browse the [Examples Gallery](user-guide/examples_gallery.md)** to see what's possible
@@ -104,4 +106,4 @@ doc/
 
 ---
 
-**Last Updated**: January 2026 | **Version**: 17.7.1
+**Last Updated**: February 2026 | **Version**: 18.1.0

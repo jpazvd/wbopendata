@@ -20,6 +20,61 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [18.1.0] - 2026-02-10
+
+### Added
+- **Variable-level char metadata**: Indicator code stored as `char` on data variables (default-on, `nochar` to suppress)
+- **Offline deterministic testing**: `offline()` option for Phase 6 Gould (2001) fixture-based testing without network access
+- **Error handling tests**: 24 new ERR tests using `rcof` methodology (Gould 2001)
+- **Extended format tests**: EXT tests for additional option combinations
+- **Deterministic tests**: DET tests using offline CSV fixtures for reproducible validation
+- **QA expansion**: 89 tests across 17 categories (up from 65/15 in v18.0.0)
+
+### Fixed
+- Compound quoting for SMCL `{browse}` tags in metadata returns (`sourcecite`, `description_line`, `note_line`)
+- Stray `set trace on` in dead code sections of `_api_read.ado` and `_query_indicators.ado`
+
+### Changed
+- Deprecated `update query`, `update check`, `update all`, `metadataoffline`, `syncforce`, `syncpreview`, `syncdryrun` with user-facing warnings
+- QA fixtures switched from tar.gz to zip format
+
+---
+
+## [18.0.0] - 2026-02-09
+
+### Added
+- **Discovery Commands**: `sources`, `allsources`, `topics`, `alltopics`, `search()`, `info()` for offline catalog browsing
+- **YAML Metadata Architecture**: Replaced 89 per-indicator `.sthlp` files with 2 YAML metadata files (~29,323 indicators)
+- **Sync System Redesign**: `sync` (dryrun preview), `sync replace` (apply), `sync replace force` (re-download)
+  - `replace` is an explicit safety gate; `sync` alone is always safe
+  - Backward-compatible aliases: `syncdryrun`, `syncpreview`, `syncforce`
+  - `detail` option for per-source and per-topic indicator breakdown
+  - Country metadata count (296 countries/territories/aggregates) in preview display
+  - Helper programs: `_wbopendata_get_source_name`, `_wbopendata_get_topic_name`
+- **Cache Management**: `cache(info|checkversion|update|clear)` for local metadata caching
+- **Stats History Tracking** (`_wbopendata_cache_stats_history.yaml`)
+  - Automatic recording of sync statistics after each successful sync
+  - New program: `_wbopendata_write_stats_history.ado`
+- **Modular Architecture**: 34 `.ado` files with `_` (sub-routine) and `__` (internal) naming convention
+- **QA Expansion**: 65 tests across 15 categories (up from 44/9 in v17.7.1)
+  - New categories: CACHE, SYNC, DISC
+  - History tracking with drift safeguards
+
+### Fixed
+- YAML parser handles embedded quotes using Mata `st_sstore()` bypass
+- `foreach` failure with topic names containing parentheses (switched to `gettoken` loop)
+- Windows path normalization for repo detection in QA suite
+- `_rc` leaking from internal sub-calls via `capture noisily` isolation
+- Pkg file validation reads both `f ` (lowercase) and `F ` (uppercase) entries
+
+### Changed
+- Sync default changed to dryrun (safe preview) — `replace` required to apply
+- Deprecated 89 per-indicator `.sthlp` files in favor of YAML metadata
+- `_wbopendata_sync_preview.ado` updated to v1.2.0 with country count
+- Package updated with new helper ado files
+
+---
+
 ## [17.7.1] - 2026-01-04
 
 ### Added
@@ -126,20 +181,185 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - API endpoint changed from HTTP to HTTPS for security
 - Updated `_query.ado` and `_api_read.ado` to use secure connections
 
+## [16.2.3] - 2020-06-29
+
+### Changed
+- Rewrote metadata query to use `_api_read.ado`
+
 ## [16.2.2] - 2020-06-28
 
-### Fixed
-- Package distribution and SSC compatibility updates
+### Changed
+- Switched metadata server used for queries
 
-## [16.0] - 2019-10-29
+## [16.2.1] - 2020-04-14
+
+### Fixed
+- Added flow check so `_query.ado` does not run when `metadataoffline` is selected
+
+## [16.2] - 2020-04-13
 
 ### Added
-- Multiple indicator download support (semicolon-separated)
-- Enhanced metadata display options
+- `metadataoffline` option to generate SOURCEID/TOPICID metadata locally
+- Generates 71 sthlp files and ~15MB of documentation
 
-## Earlier Versions
+## [16.1] - 2020-04-12
 
-For earlier version history, see the [SSC archive](https://ideas.repec.org/c/boc/bocode/s457234.html).
+### Changed
+- Removed SOURCEID/TOPICSID metadata from the main dissemination package
+
+## [16.0.1] - 2019-10-31
+
+### Changed
+- Minor functionality improvements (per ado history)
+
+## [16.0] - 2019-10-27
+
+### Added
+- `_api_read_indicators.ado`: Download indicator list from API in Stata-readable form
+- `_update_indicators.ado`: Generates documentation from API output
+- `match()` option: Add country metadata matching on specified variable
+- `_website.ado`: Converts HTTP/WWW text to SMCL web-compatible code
+- `_parameters.ado`: Detailed count of indicators by SOURCE and TOPIC
+- Help file search for indicators by Source and Topics
+- Dialogue indicator list
+- sthlp indicator list and metadata by Source and Topic
+
+### Changed
+- Renamed `_wbopendata.ado` to `_update_wbopendata.ado`
+- Renamed `_indicator` to `_update_indicators`
+- `_update_wbopendata.ado` now checks for changes at SOURCE/TOPIC level
+- Fixed return list when multiple indicators are selected
+
+---
+
+## [15.1] - 2019-03-04
+
+### Added
+- New error category 23: Series moved to archive
+- Country attribute table fully revised and linked to API
+- `update check`, `update query`, and `update` options
+- Auto-refresh indicators functionality
+- `update countrymetadata` option
+- Country metadata documentation in help file
+
+### Changed
+- Revised `_wbopendata.ado`
+- Country attributes fully revised
+- Break on missing metadata is now optional
+
+### Fixed
+- Over 16,000 indicators now supported
+
+---
+
+## [15.0.1] - 2019-02-08
+
+### Changed
+- Maintenance release (per ado history)
+
+---
+
+## [15.0] - 2019-02-02
+
+### Changed
+- Major version bump with internal improvements
+
+---
+
+## [14.3] - 2019-02-02
+
+### Fixed
+- `_wbopendata_update.ado` revised
+- `out.txt` file no longer created
+
+---
+
+## [14.2] - 2019-01-31
+
+### Fixed
+- Updated `_wbopendata_update.ado`
+- Added `set checksum off`
+
+---
+
+## [14.1] - 2019-01-19
+
+### Added
+- Indicator update function
+- `nopreserve` option (return list can be preserved)
+
+### Fixed
+- `latest` option behavior
+- `_query_metadata.ado` source ID return list
+
+### Changed
+- Updated examples
+- Updated help file
+- Updated list of indicators
+
+---
+
+## [14.0] - 2019-01-14
+
+### Changed
+- Migrated to new API server
+- Revised indicator list
+
+---
+
+## [13.5] - 2016-02-09
+
+### Changed
+- Indicator list update (February 2016)
+
+> **Note:** This was the last SSC release before major API and architecture changes.
+
+---
+
+## [13.4] - 2014-07-01
+
+### Added
+- Long reshape functionality
+
+---
+
+## [13.3] - 2014-06-30
+
+### Added
+- New error control for `clear` option
+
+---
+
+## [13.2] - 2014-06-24
+
+### Added
+- New error control mechanisms
+
+---
+
+## [13.1] - 2014-06-23
+
+### Added
+- Regional code, name, and iso2code support
+
+---
+
+## [13.0] - 2014-06-20
+
+### Fixed
+- Duplicate records problem resolved
+
+### Changed
+- Improved error messages
+- Updated indicator list to 9,960 indicators
+
+---
+
+## [12.0] - 2013-01-31
+
+### Changed
+- Updated to 7,349 indicators
+- Return list now includes variable name and label
 
 ---
 
@@ -147,8 +367,39 @@ For earlier version history, see the [SSC archive](https://ideas.repec.org/c/boc
 
 | Version | Date | Key Changes |
 |---------|------|-------------|
-| 17.0 | 24Jan2023 | Region metadata, enhanced matching |
-| 16.3 | 08Jul2020 | HTTPS migration |
-| 16.2.2 | 28Jun2020 | Package fixes |
-| 16.0 | 29Oct2019 | Multiple indicators |
+| **18.1.0** | 2026-02-10 | Char metadata, offline testing, compound quoting fix, 89 tests |
+| **18.0.0** | 2026-02-09 | Discovery commands, YAML metadata, sync redesign |
+| **17.7.1** | 2026-01-04 | Test suite expansion, bug fixes |
+| **17.7** | 2026-01-02 | Basic country context by default |
+| **17.6** | 2025-12-28 | Graph metadata (linewrap) features |
+| **17.1** | 2025-12-21 | Community bug fixes, documentation overhaul |
+| **17.0** | 2023-01-24 | Region metadata, enhanced matching |
+| **16.3** | 2020-07-08 | HTTPS API migration |
+| **16.2.3** | 2020-06-29 | Metadata query rewrite (uses `_api_read.ado`) |
+| **16.2.2** | 2020-06-28 | Metadata server update |
+| **16.2.1** | 2020-04-14 | Flow check for `metadataoffline` |
+| **16.2** | 2020-04-13 | Offline metadata option |
+| **16.1** | 2020-04-12 | Removed SOURCEID/TOPICSID metadata from package |
+| **16.0.1** | 2019-10-31 | Minor improvements |
+| **16.0** | 2019-10-27 | Multiple indicators, modular architecture |
+| **15.1** | 2019-03-04 | Update options, 16,000+ indicators |
+| **15.0.1** | 2019-02-08 | Maintenance release |
+| **14.0** | 2019-01-14 | New API server |
+| **13.5** | 2016-02-09 | **Last SSC release before major overhaul** |
+| **13.0** | 2014-06-20 | Duplicate fix, 9,960 indicators |
+| **12.0** | 2013-01-31 | 7,349 indicators |
+
+---
+
+## SSC Release History
+
+The SSC (Statistical Software Components) archive at Boston College maintains the official Stata package distribution:
+
+| SSC Version | Date | Notes |
+|-------------|------|-------|
+| v13.5 | Feb 2016 | Last pre-API-modernization release |
+| v18.1.0 | Feb 2026 | Current development release |
+| v17.7.1 | Jan 2026 | Current SSC release |
+
+For the SSC archive, see: [RePEc:boc:bocode:s457234](https://ideas.repec.org/c/boc/bocode/s457234.html)
 

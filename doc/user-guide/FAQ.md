@@ -22,6 +22,10 @@ This FAQ is compiled from [GitHub Issues](https://github.com/jpazvd/wbopendata/i
 
 ## Installation & Setup
 
+### Q: What is the minimum Stata version required?
+
+wbopendata requires Stata 12 or later.
+
 ### Q: How do I install wbopendata?
 
 **From SSC (Recommended):**
@@ -246,4 +250,4 @@ See [Issue #51](https://github.com/jpazvd/wbopendata/issues/51) - fixed in v17.1
 
 ---
 
-*Last updated: December 2025 (v17.1)*
+*Last updated: February 2026 (v18.0.0)*

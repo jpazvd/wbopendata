@@ -45,6 +45,7 @@ The accessible databases include: World Development Indicators (WDI), Doing Busi
 - **Latest data**: `latest` option returns most recent non-missing values per country
 - **Graph-ready metadata**: `linewrap()` option formats long text for publication-quality graphs
 - **Reproducibility**: Every query is scripted, parameterized, and version-controlled
+- **Persistent provenance** (v18.1): Dataset and variable characteristics (`char`) embed query parameters, timestamps, and indicator codes directly in `.dta` files
 
 Data are retrieved directly from the World Bank API (JSON over HTTP), ensuring transparency and provenance. All data reflect officially-recognized international sources compiled by the World Bank.
 
@@ -52,20 +53,27 @@ The access to these databases is made possible by the World Bank's [Open Data In
 
 ## Installation
 
-### From SSC (Recommended)
-```stata
-ssc install wbopendata, replace
-```
+**Minimum requirement:** Stata 12 or later.
 
-### From GitHub (Latest Version - v17.7)
+### From GitHub (Recommended)
+
 ```stata
 net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main") replace
 ```
 
-### From GitHub (Specific Release)
+### From SSC (Stable but older)
+
 ```stata
-* Install v17.7 specifically
-net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v17.7") replace
+ssc install wbopendata, replace
+```
+
+> The [SSC version](https://ideas.repec.org/c/boc/bocode/s457234.html) (v17.7.1) is one release behind GitHub. For discovery commands, sync redesign, and YAML metadata, install from GitHub.
+
+### From GitHub (Specific Release)
+
+```stata
+* Install v18.1.0 specifically
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v18.1.0") replace
 ```
 
 ### From Local Clone
@@ -82,6 +90,36 @@ net install wbopendata, from("/Users/username/GitHub/wbopendata") replace
 > - `ssc/wbopendata.pkg`: For SSC submission - uses flat paths (included in zip)
 >
 > See [ssc/README.md](ssc/README.md) for details on the two-package architecture.
+
+### SSC vs GitHub Versions
+
+| Channel | Version | Indicators | Notes |
+|---------|---------|------------|-------|
+| **SSC** | v13.5 (2016) | ~10,000 | Stable, pre-API modernization |
+| **GitHub** | v18.1.0 (2026) | 29,000+ | Latest features, active development |
+
+> **Recommendation:** Install from GitHub for full functionality including `match()`, `linewrap()`, multiple indicators, and 29,000+ indicators.
+
+<details>
+<summary><b>📅 Version History</b> (click to expand)</summary>
+
+| Year | Version | Milestone |
+|------|---------|-----------|
+| 2026 | v18.1 | **Characteristic metadata**: persistent `char` provenance on every `.dta`; `nochar` opt-out |
+| 2026 | v18.0 | **Discovery commands**: sources, alltopics, search, info; clickable URLs in metadata |
+| 2026 | v17.7 | Basic country context by default, graph metadata |
+| 2025 | v17.1 | Community bug fixes, documentation overhaul |
+| 2023 | v17.0 | Region metadata, enhanced country matching |
+| 2020 | v16.3 | HTTPS API migration |
+| 2019 | v16.0 | Multiple indicators, modular architecture |
+| 2019 | v14.0 | New API server, 16,000+ indicators |
+| 2016 | v13.5 | **Last SSC release before major overhaul** |
+| 2014 | v13.0 | 9,960 indicators |
+| 2013 | v12.0 | Initial SSC release |
+
+See [CHANGELOG.md](CHANGELOG.md) for complete version history.
+
+</details>
 
 ## Quick Start
 
@@ -119,6 +157,25 @@ desc  // Shows 12 variables including the 8 basic metadata variables
 * Use nobasic to suppress default country context variables
 wbopendata, indicator(NY.GDP.MKTP.CD) clear long nobasic
 desc  // Shows only 4 core variables
+
+* NEW in v18.1: Persistent provenance via char metadata
+wbopendata, indicator(NY.GDP.MKTP.CD) clear long
+char list  // Shows _dta[] and variable-level characteristics
+
+* Use nochar to suppress characteristic metadata
+wbopendata, indicator(NY.GDP.MKTP.CD) clear long nochar
+
+* NEW: Discovery features - search for indicators
+wbopendata, search(GDP)                    // Search indicators by keyword
+wbopendata, search(education) limit(50)    // Limit results
+
+* NEW: Get detailed info about a specific indicator
+wbopendata, info(NY.GDP.MKTP.CD)
+
+* NEW: Sync and cache management
+wbopendata, checkupdate    // Check if metadata updates are available
+wbopendata, sync           // Sync metadata from GitHub
+wbopendata, cacheinfo      // Display cache status
 ```
 
 ---
@@ -154,11 +211,102 @@ desc  // Shows only 4 core variables
 - **country(string)**: Countries and Regions Abbreviations and acronyms. If solely specified, this option will return all the WDI indicators (1,076 series) for a single country or region (no multiple country selection allowed in this case). If this option is selected jointly with a specific indicator, the output is a series for a specific country or region, or multiple countries or region. When selecting multiple countries please use the three letters code, separated by a semicolon (;), with no spaces.
 
 
-- **topics(numlist)**: Topic List 21 topic lists are curently supported and include Agriculture & Rural Development; Aid Effectiveness; Economy & Growth; Education; Energy & Mining; Environment; Financial Sector; Health; Infrastructure; Social Protection & Labor; Poverty; Private Sector; Public Sector; Science & Technology; Social Development; Urban Development; Gender; Millenium development goals; Climate Change; External Debt; and, Trade (only one topic collection can be requested at the time).
+- **topics(numlist)**: Topic List. 21 topic lists are currently supported and include Agriculture & Rural Development; Aid Effectiveness; Economy & Growth; Education; Energy & Mining; Environment; Financial Sector; Health; Infrastructure; Social Protection & Labor; Poverty; Private Sector; Public Sector; Science & Technology; Social Development; Urban Development; Gender; Millennium development goals; Climate Change; External Debt; and Trade (only one topic collection can be requested at a time).
 
 
-- **indicator(string)**: Indicators List list of indicator codes (All series). When selecting multiple indicators please use semicolon (;), to separate differenet indicatos.
+- **indicator(string)**: Indicators List. List of indicator codes (all series). When selecting multiple indicators, use semicolon (;) to separate different indicators.
 
+### Output Options
+
+- **long**: Reshape data to long format (one row per country-year)
+- **latest**: Keep only the most recent non-missing observation per country
+- **clear**: Clear existing data before loading
+- **nobasic**: Suppress default country context variables (region, income level, etc.)
+- **nochar**: Suppress characteristic metadata (dataset and variable `char` provenance)
+
+### Discovery & Search
+
+**NEW in v18.0:** Interactive discovery commands with clickable SMCL navigation.
+
+#### Browsing Commands
+
+- **sources**: List all 51 World Bank data sources with indicator counts and clickable `[Browse]` links
+- **alltopics**: List all 21 topic categories with indicator counts and clickable `[Browse]` links
+
+#### Search Commands
+
+- **search(string)**: Search indicators by keyword (supports multiple words, wildcards `*`, regex patterns)
+- **searchsource(integer)**: Filter search results to a specific source (e.g., `searchsource(2)` for WDI)
+- **searchtopic(integer)**: Filter search results to a specific topic (e.g., `searchtopic(4)` for Education)
+- **searchfield(string)**: Search in specific fields: `code`, `name`, `description`, `all` (default: `all`)
+- **exact**: Require exact word match (no partial matching)
+- **detail**: Show full indicator details with wrapped text instead of truncated table
+- **limit(integer)**: Limit search results (default: 20)
+
+#### Indicator Info
+
+- **info(string)**: Get detailed metadata for a specific indicator code
+
+The `info()` command displays comprehensive indicator metadata in a structured layout:
+- **Indicator/Name**: Code and full name
+- **Unit**: Measurement unit (when available)
+- **Source ID/Name**: Database identifier and name on separate lines
+- **Topic ID(s)/Topic(s)**: All topic IDs and names (semicolon-separated for multi-topic indicators)
+- **Description**: Full description with clickable URLs
+- **Note**: Methodology note with clickable hyperlinks
+- **Limited data warning**: Displayed when data availability is limited
+- **Filters**: Clickable `searchsource()` and `searchtopic()` commands
+- **Download**: Clickable commands for Wide/Long/Specific countries formats
+
+```stata
+* NEW in v18.0: Discovery commands
+
+* List all data sources with clickable navigation
+wbopendata, sources
+
+* List all topic categories
+wbopendata, alltopics
+
+* Search for indicators
+wbopendata, search(GDP)                           // Basic keyword search
+wbopendata, search(GDP growth)                    // Multi-keyword search
+wbopendata, search(GDP*) searchsource(2)          // Wildcard + filter by source
+wbopendata, search(education) searchtopic(4)      // Filter by topic
+wbopendata, search(~^NY\.GDP) searchfield(code)   // Regex search in code field
+wbopendata, search(poverty) detail                // Full details with wrapped text
+
+* Get detailed info about a specific indicator
+wbopendata, info(NY.GDP.MKTP.CD)
+```
+
+### Metadata & Sync
+
+- **sync**: Sync metadata cache from GitHub
+- **checkupdate**: Check if metadata updates are available
+- **cacheinfo**: Display cache status
+- **clearcache**: Clear local metadata cache
+
+### Graph Formatting
+
+- **linewrap(string)**: Wrap metadata text for graphs (name, description, note)
+- **maxlength(integer)**: Maximum characters per line (default: 50)
+- **linewrapformat(string)**: Output format (stack, newline, lines, all)
+
+### Deprecated Options
+
+The following options are deprecated as of v18.1. They continue to work with a warning but will be removed in a future release.
+
+| Deprecated option | Replacement | Version deprecated | Notes |
+| --- | --- | --- | --- |
+| `update query` | `sync` | v18.1 | Preview metadata changes (dry run) |
+| `update check` | `checkupdate` | v18.1 | Compare local vs remote metadata version |
+| `update all` | `sync replace` | v18.1 | Download latest YAML metadata from GitHub |
+| `metadataoffline` | `sync replace` + `sources`/`search()`/`info()` | v18.1 | Generated 71 per-indicator `.sthlp` files (~15 MB); replaced by YAML metadata + discovery commands |
+| `syncforce` | `sync replace force` | v18.0 | Alias |
+| `syncpreview` | `sync replace` | v18.0 | Alias |
+| `syncdryrun` | `sync` | v18.0 | Alias (dry run is now the default) |
+
+**Removed files (v18.0):** 89 per-indicator `.sthlp` files (`wbopendata_sourceid_indicators*.sthlp`, `wbopendata_topicid_indicators*.sthlp`) replaced by 2 YAML metadata files serving ~29,000 indicators.
 
 ## Disclaimer
 

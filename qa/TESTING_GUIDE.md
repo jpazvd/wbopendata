@@ -1,7 +1,8 @@
 # wbopendata Testing Guide
 
-**Version:** 17.7.2  
-**Last Updated:** January 2026
+**Test Suite Version:** 3.0.0
+**Compatible with:** wbopendata v18.1.0+
+**Last Updated:** February 2026
 
 [← Back to README](../README.md) | [Test Protocol](test_protocol.md) | [QA README](README.md) | [FAQ](../doc/FAQ.md)
 
@@ -17,12 +18,12 @@ This guide documents best practices for testing Stata ADO packages, specifically
 
 Software testing in the statistical ecosystem follows two fundamentally different paradigms, each serving distinct purposes and audiences:
 
-| Aspect | CRAN / PyPI (Release Gates) | wbopendata (Operational Validation) |
+| Aspect | CRAN / PyPI (Release Gates) | wbopendata (Hybrid Validation) |
 |--------|----------------------------|-------------------------------------|
-| **Primary Goal** | Certify software correctness | Validate real-world operations |
-| **Network Access** | Prohibited | Required |
+| **Primary Goal** | Certify software correctness | Validate real-world operations + certify logic |
+| **Network Access** | Prohibited | Required for integration; optional for certification |
 | **Environment** | Sandboxed, offline | Interactive, trusted |
-| **Determinism** | Fully reproducible | Depends on live data |
+| **Determinism** | Fully reproducible | Integration: depends on live data; DET: fully reproducible |
 | **Failure Meaning** | Software bug | Could be API outage, data change, or bug |
 
 ### Software Certification (CRAN / PyPI Approach)
@@ -89,6 +90,17 @@ The `wbopendata` testing approach is intentional and appropriate for its context
      - API issues (download tests fail, metadata tests pass)
      - Network issues (all network tests fail, ENV tests pass)
 
+### Bridging the Gap: Deterministic Offline Tests (v18.1)
+
+Starting with v18.1.0, `wbopendata` adopted a **hybrid approach** by introducing deterministic offline tests (DET category) that follow Gould (2001) Phase 6 — "certification" testing:
+
+- **`offline()` option**: Routes `_query.ado` to local CSV fixture files instead of the live API
+- **Value pinning**: Known data values (e.g., USA population 2020 = 331,002,651) are asserted exactly
+- **No network required**: DET tests pass in completely offline environments
+- **Reproducible**: Same fixtures always produce the same results
+
+This bridges the two paradigms: live integration tests validate real-world operations, while DET tests certify that parsing, reshaping, and metadata logic produce correct results independent of network state.
+
 ### Relationship Between the Two Approaches
 
 These approaches are **complementary, not competing**:
@@ -97,37 +109,43 @@ These approaches are **complementary, not competing**:
 |-----------------------|--------|
 | R package for CRAN submission | Offline mocked tests only |
 | Python package for PyPI | Offline mocked tests + optional live integration tests |
-| Stata package like wbopendata | Live integration tests (primary) |
+| Stata package like wbopendata | Live integration tests + offline certification (DET) |
 | Multi-language ecosystem tool | Both: mocked for CI/release, live for validation |
 
 For projects that span ecosystems (like World Bank/UNICEF tools with R, Python, and Stata implementations), the release-gate tests should be understood as a **translation, not a simplification**, of integration-testing practices into CRAN/PyPI's stricter governance regime.
 
 ### wbopendata Test Categories Mapped to Purpose
 
-| Category | Type | Network? | Purpose |
-|----------|------|----------|---------|
-| ENV (01-04) | Environment | No | Certify installation integrity |
-| DL (01-05) | Integration | Yes | Validate core download functionality |
-| FMT (01-04) | Integration | Yes | Validate format/reshape options |
-| CTRY (01-11) | Integration | Yes | Validate metadata merge features |
-| REG (33-51) | Regression | Yes | Prevent bug recurrence |
-| LW (01-04) | Integration | Yes | Validate graph metadata features |
-| UPD (01-06) | Integration | Yes | Validate update/maintenance commands |
-| TOPIC (01) | Integration | Yes | Validate topics API path |
-| LANG (01) | Integration | Yes | Validate language option |
-| PROJ/DESC/META/DATE | Integration | Yes | Validate advanced features |
+| Cat | Category | Tests | Type | Network? | Purpose |
+|-----|----------|-------|------|----------|---------|
+| 0 | ENV (01-05) | 5 | Environment | No | Certify installation integrity |
+| 1 | DL (01-05) | 5 | Integration | Yes | Validate core download functionality |
+| 2 | FMT (01-03) | 3 | Integration | Yes | Validate format/reshape options |
+| 3 | CTRY (01-10) | 10 | Integration | Yes | Validate metadata merge features |
+| 4 | REG (33-51) | 4 | Regression | Yes | Prevent bug recurrence |
+| 5 | LW (01-04) | 4 | Integration | Yes | Validate graph metadata features |
+| 6 | UPD (01-06) | 6 | Integration | Yes | Validate update/maintenance commands |
+| 7 | TOPIC/LANG | 2 | Integration | Yes | Validate topics API path and language |
+| 8 | Advanced | 6 | Integration | Yes | PROJ, FMT-04, DESC, META, CTRY-11, DATE |
+| 9 | CACHE/SYNC | 13 | Integration | Mixed | Cache management and metadata sync |
+| 10 | DISC (01-07) | 7 | Certification | No | Discovery commands (offline YAML search) |
+| 11 | CHAR (01-06) | 6 | Integration | Yes | Variable/dataset `char` metadata (v18.1) |
+| 12 | ERR (01-08) | 8 | Certification | Mixed | Error conditions via `rcof` (Gould 2001) |
+| 13 | EXT (01-04) | 4 | Integration | Yes | Boundary/extreme cases (Gould 2001) |
+| 14 | DET (01-06) | 6 | Certification | No | Deterministic offline fixtures (Gould 2001) |
+| | **Total** | **89** | | | |
 
 ### Summary
 
 | Principle | CRAN/PyPI | wbopendata |
 |-----------|-----------|------------|
 | **Test isolation** | From network | From other tests |
-| **Reproducibility** | Absolute | Session-level |
-| **Failure = bug?** | Yes | Not necessarily |
+| **Reproducibility** | Absolute | Integration: session-level; DET: absolute |
+| **Failure = bug?** | Yes | Integration: not necessarily; ERR/DET: yes |
 | **Primary audience** | Automated reviewers | Human developers |
-| **Passes mean...** | "Code is correct" | "API is working & code handles it" |
+| **Passes mean...** | "Code is correct" | "API works & code handles it correctly" |
 
-**In short:** CRAN/PyPI tests certify correctness in isolation. wbopendata tests validate operations in context. Both are important—they serve different audiences and constraints.
+**In short:** CRAN/PyPI tests certify correctness in isolation. wbopendata uses a hybrid approach: live integration tests validate operations in context, while ERR/DET/DISC tests certify logic correctness offline. Both paradigms coexist in the same suite (Gould 2001).
 
 ---
 
@@ -146,7 +164,7 @@ The `run_tests.do` file implements a comprehensive test framework with:
 
 ```stata
 * Run all tests (from qa/ folder - auto-detects repo path)
-cd "C:/path/to/wbopendata/qa"
+cd "C:/path/to/wbopendata-dev/qa"
 do run_tests.do
 
 * Run all tests but skip repo-comparison tests (ENV-01 to ENV-04)
@@ -162,7 +180,7 @@ do run_tests.do CTRY-01 verbose
 do run_tests.do list
 
 * Configure repo path manually (alternative to auto-detection)
-global wbopendata_repo "D:/Projects/wbopendata"
+global wbopendata_repo "D:/Projects/wbopendata-dev"
 do run_tests.do
 ```
 
@@ -363,32 +381,50 @@ assert r(N) >= 3
 
 ## Test Categories
 
-### Category 0: Environment Checks (ENV-01 to ENV-04)
-Verify installation, file sync, and package integrity
+### Category 0: Environment Checks (ENV-01 to ENV-05) — 5 tests
+Verify installation, file sync, package integrity, and YAML readability. ENV-01 to ENV-04 require repo path; ENV-05 validates parameters YAML parsing.
 
-### Category 1: Basic Downloads (DL-01 to DL-05)
-Test core data download functionality
+### Category 1: Basic Downloads (DL-01 to DL-05) — 5 tests
+Test core data download functionality: single indicator, single country, multiple countries, multiple indicators, and poverty/GDP indicator pairs.
 
-### Category 2: Format Options (FMT-01 to FMT-04)
-Test long format, year ranges, latest option, and nobasic option
+### Category 2: Format Options (FMT-01 to FMT-03) — 3 tests
+Test long format reshaping, year range filtering, and latest-available-year option.
 
-### Category 3: Country Metadata (CTRY-01 to CTRY-11)
-Test match option and country metadata features including admin regions
+### Category 3: Country Metadata (CTRY-01 to CTRY-10) — 10 tests
+Test `match()` option, full country metadata, ISO codes, geographic groups, capital coordinates, lat/long, regions, income/lending groups, and geographic options with indicator downloads.
 
-### Category 4: Regression Tests (REG-33, REG-45, REG-46, REG-51)
-Prevent previously fixed bugs from reoccurring
+### Category 4: Regression Tests (REG-33, REG-45, REG-46, REG-51) — 4 tests
+Prevent previously fixed bugs from reoccurring. Each test corresponds to a closed GitHub issue.
 
-### Category 5: Graph Metadata (LW-01 to LW-04)
-Test v17.6 linewrap and metadata features
+### Category 5: Graph Metadata (LW-01 to LW-04) — 4 tests
+Test v17.6 `linewrap()` option, `maxlength()` control, `r(latest)` scalars, and multi-field line wrapping.
 
-### Category 6: Maintenance Commands (UPD-01 to UPD-06)
-Test update, query, and describe commands
+### Category 6: Maintenance Commands (UPD-01 to UPD-06) — 6 tests
+Test `update query`, `describe`, `update`, `update check detail`, `update all`, and `sync replace force`.
 
-### Category 7: Topics & Language (TOPIC-01, LANG-01)
-Test topics API path and language options
+### Category 7: Topics & Language (TOPIC-01, LANG-01) — 2 tests
+Test topics API download path and Spanish language option.
 
-### Category 8: Advanced Features (PROJ-01, DESC-01, META-01, DATE-01)
-Test projection data, describe-only mode, nometadata verification, and date ranges
+### Category 8: Advanced Features — 6 tests
+Test projection data (PROJ-01), `nobasic` option (FMT-04), describe-only mode (DESC-01), `nometadata` verification (META-01), admin regions (CTRY-11), and date ranges (DATE-01).
+
+### Category 9: Cache & Sync System (CACHE-01 to CACHE-08, SYNC-01 to SYNC-05) — 13 tests
+Test v18.0 cache directory initialization, YAML path resolution, cache info/clear/persistence, version tracking, timestamps, search with cached YAML, update checking, sync replace, sync force, up-to-date detection, and discovery commands using cache.
+
+### Category 10: Discovery Commands (DISC-01 to DISC-07) — 7 tests
+Test v18.0 offline discovery: keyword search, filtered search (source/topic/field), pattern matching (wildcard/AND/exact), sources listing, topics listing, indicator info lookup, and search router by Stata version. No network required.
+
+### Category 11: Characteristic Metadata (CHAR-01 to CHAR-06) — 6 tests
+Test v18.1 `char` metadata: dataset-level `_dta` chars, variable-level indicator chars, variable-level metadata chars (with metadata download), `nochar` suppression, multi-indicator per-variable chars, and char persistence across save/use cycles.
+
+### Category 12: Error Conditions (ERR-01 to ERR-08) — 8 tests
+Test error handling using Gould (2001) `rcof` methodology: no indicator specified, invalid indicator code, match+indicator conflict, invalid country code, invalid source ID, deprecated indicator handling, inverted year range, and empty indicator string.
+
+### Category 13: Extreme Cases (EXT-01 to EXT-04) — 4 tests
+Test boundary conditions per Gould (2001): minimal query (1 country, 1 year), all-countries single-year, long indicator names, and topics with special characters (compound quoting stress).
+
+### Category 14: Deterministic/Offline Tests (DET-01 to DET-06) — 6 tests
+Test Gould (2001) Phase 6 certification using `offline()` option with CSV fixtures: single indicator/country, single indicator/all countries, value pinning (USA population 2020), different indicator (GDP), country-only query, and missing fixture error handling. No network required.
 
 ## Common Issues and Solutions
 
@@ -436,14 +472,26 @@ When fixing a bug:
 
 ## References
 
+### Methodological
+- Gould, W. (2001). "Statistical Software Certification." *The Stata Journal*, 1(1), 29–50.
+  - Phase 1: Known results → DL, FMT, CTRY tests
+  - Phase 2: Boundary inputs → EXT tests
+  - Phase 3: Error conditions → ERR tests (via `rcof`)
+  - Phase 6: Deterministic reproducibility → DET tests (via `offline()`)
+
+### Stata Programming
 - Stata Programming Reference: `help programming`
 - Stata Error Codes: `help error codes`
+- Stata Certification Script: `help cscript`, `help rcof`
 - File I/O: `help file`
 - Assertions: `help assert`
 - Capture: `help capture`
+- Characteristics: `help char`
 
 ## Version History
 
+- **18.1.0** (Feb 2026): 89 tests, 17 categories. Added CHAR (6), ERR (8), EXT (4), DET (6). Offline deterministic testing via `offline()`. Gould (2001) `rcof` methodology. Test suite v3.0.0.
+- **18.0.0** (Feb 2026): 65 tests, 15 categories. Added CACHE (8), SYNC (5), DISC (7). YAML metadata architecture. `cscript` framework. Auto-detecting repo paths.
 - **17.7.1** (Jan 2026): Expanded to 44 tests; added Topics, Language, Projection, Date, and Advanced Features tests
 - **17.7.0** (Jan 2026): Added default basic variables behavior; added FMT-04 (nobasic) test
 - **17.6.3** (Jan 2026): Fixed macro length issues in CTRY tests
