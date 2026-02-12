@@ -24,6 +24,7 @@ program define _api_read, rclass
 						query(string)		///
 						nopreserve			///
 						verbose 			///
+						OFFLINE(string)		///
 							]
 
 		if ("`verbose'" == "") {
@@ -59,7 +60,22 @@ program define _api_read, rclass
 			local query1 "`query'?per_page=`per_page'&page=`page'"
 		}
 		
-		cap: copy "`query1'" "`indicator1'", text replace		
+		* Offline fixture injection (Phase 6, Gould 2001)
+		* When offline() option is set to a directory path, XML metadata
+		* is read from local fixture files instead of the World Bank API.
+		if ("`offline'" != "") {
+			local _fixture_file "`offline'/api/api_read_response.xml"
+			cap confirm file "`_fixture_file'"
+			if _rc != 0 {
+				noi di as err "Offline fixture not found: `_fixture_file'"
+				exit 601
+			}
+			noi di as text "(offline mode: reading from `_fixture_file')"
+			cap: copy "`_fixture_file'" "`indicator1'", text replace
+		}
+		else {
+			cap: copy "`query1'" "`indicator1'", text replace
+		}
 
 	*========================begin conversion ===========================================*/
 	
@@ -383,7 +399,7 @@ _api_read, list query("http://api.worldbank.org/v2/indicators/IN.HLTH.HIVDEATH.E
 		verbose 
 return list
 
-set trace on
+*set trace on
 _api_read , page(1728) per_page(1) list parameter( indicator?id name topic?id ///
 		source?id sourceNote sourceOrganization) verbose
 return list

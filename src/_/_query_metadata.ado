@@ -19,7 +19,7 @@ program def _query_metadata, rclass
 
 version 9.0
 
-    syntax , INDICATOR(string) [LINEWrap(string) MAXLength(string) LINEWRAPFormat(string)]
+    syntax , INDICATOR(string) [LINEWrap(string) MAXLength(string) LINEWRAPFormat(string) OFFLINE(string)]
 	
 	* linewrap() accepts: name description note source topic all
 	* maxlength() specifies character width(s) for wrapping
@@ -49,7 +49,8 @@ version 9.0
 	local indicator_code "`indicator1'"
 	if ("`indicator_code'" == "") local indicator_code "`indicator'"
 	_api_read, list query("https://api.worldbank.org/v2/indicators/`indicator_code'") ///
-		parameter( indicator?id name topic?id source?id sourceNote sourceOrganization)
+		parameter( indicator?id name topic?id source?id sourceNote sourceOrganization) ///
+		offline("`offline'")
 		
 	*---------------------------------------------------------------------------
 	*** prepare outputs from API for display

@@ -6,6 +6,166 @@
 
 **Minimum requirement:** Stata 12 or later.
 
+## wbopendata v18.1.0 — Char Metadata, Offline Testing & Compound Quoting Fix
+
+**Release Date:** February 10, 2026
+
+---
+
+### Highlights
+
+This release adds **variable-level char metadata** (indicator code stored as Stata `char` on data variables), introduces an **offline deterministic testing** framework (`offline()` option for fixture-based QA), fixes a **compound quoting bug** that broke metadata returns containing SMCL `{browse}` tags, and expands the test suite to **89 tests** across 17 categories.
+
+### New Features
+
+| Feature | Description |
+| ------- | ----------- |
+| **Char metadata** | Indicator code automatically stored as `char` on data variables (suppress with `nochar`) |
+| **Offline testing** | `offline(path)` option loads CSV fixtures instead of calling World Bank API |
+| **ERR tests (24)** | Error handling validation using `rcof` methodology (Gould 2001) |
+| **EXT tests** | Extended option combination coverage |
+| **DET tests** | Deterministic tests using offline CSV fixtures |
+
+### Bug Fixes
+
+- **Compound quoting for SMCL tags**: `sourcecite`, `description_line`, and `note_line` returns now use compound quotes `` `"..."' `` to handle embedded double quotes from `{browse "url"}` SMCL tags
+- **Stray `set trace on`**: Removed dead-code instances in `_api_read.ado` and `_query_indicators.ado`
+
+### Deprecations
+
+The following options now display user-facing deprecation warnings:
+
+- `update query`, `update check`, `update all` (use `sync` commands instead)
+- `metadataoffline` (use `offline()` option instead)
+- `syncforce`, `syncpreview`, `syncdryrun` (use `sync replace [force]` instead)
+
+### Quality Assurance
+
+| Metric | v18.0.0 | v18.1.0 |
+| ------ | ------- | ------- |
+| **Total Tests** | 65 | 89 |
+| **Test Categories** | 15 | 17 |
+| **Final Run** | 65 passed, 0 failed | 89 passed, 0 failed |
+
+New test categories: ERR (error handling), EXT (extended formats), DET (deterministic/offline).
+
+### Full Changelog
+
+**Compare:** [v18.0.0...v18.1.0](https://github.com/jpazvd/wbopendata/compare/v18.0.0...v18.1.0)
+
+---
+
+## wbopendata v18.0.0 — Discovery Commands, YAML Metadata & Sync Redesign
+
+**Release Date:** February 9, 2026
+
+---
+
+### 🎉 Highlights
+
+This is a **major release** that introduces offline discovery commands for browsing the World Bank data catalog, replaces 89 per-indicator help files with a compact YAML metadata architecture, and redesigns the sync system with a safe dryrun-by-default workflow.
+
+### 🔍 Discovery Commands
+
+Browse the World Bank data catalog directly from Stata — no network required after initial sync:
+
+| Command | Description |
+|---------|-------------|
+| `wbopendata, sources` | List all data sources with clickable navigation |
+| `wbopendata, allsources` | Detailed source listing with indicator counts |
+| `wbopendata, topics` | List topic categories |
+| `wbopendata, alltopics` | Detailed topic listing with indicator counts |
+| `wbopendata, search(query)` | Search indicators by keyword with topic/field filters |
+| `wbopendata, info(ID)` | Display full indicator metadata with clickable URLs |
+
+```stata
+* Search for GDP indicators in topic 3
+wbopendata, search(GDP) topic(3)
+
+* Get detailed metadata for a specific indicator
+wbopendata, info(NY.GDP.MKTP.CD)
+
+* Browse all data sources
+wbopendata, sources
+```
+
+### 🔄 Sync System Redesign
+
+The sync command now defaults to a **safe dryrun preview**. The `replace` option is an explicit safety gate required to apply changes:
+
+| Command | Behavior |
+|---------|----------|
+| `wbopendata, sync` | Preview metadata changes (dry run) |
+| `wbopendata, sync detail` | Detailed preview with per-source/topic breakdown |
+| `wbopendata, sync replace` | Apply metadata sync |
+| `wbopendata, sync replace force` | Force re-download regardless of local version |
+
+Backward-compatible aliases: `syncdryrun` → `sync`, `syncpreview` → `sync replace`, `syncforce` → `sync replace force`.
+
+### 📦 YAML Metadata Architecture
+
+Replaced **89 per-indicator `.sthlp` files** with 2 compact YAML metadata files:
+
+| File | Size | Contents |
+|------|------|----------|
+| `_wbopendata_indicators.yaml` | 18 MB | ~29,323 indicators with full metadata |
+| `_wbopendata_parameters.yaml` | 5 KB | Configuration parameters |
+
+**Performance:** Frame-cached search (Stata 16+) returns results in <0.5s after initial parse. Older Stata versions use per-call parsing with comparable results.
+
+### 🗃️ Cache Management
+
+| Command | Description |
+|---------|-------------|
+| `wbopendata, cache(info)` | Display cache status and file locations |
+| `wbopendata, cache(checkversion)` | Check for newer GitHub releases |
+| `wbopendata, cache(update)` | Update cached metadata files |
+| `wbopendata, cache(clear)` | Clear local metadata cache |
+
+### 🏗️ Modular Architecture
+
+The codebase now comprises **34 `.ado` files** organized with a consistent naming convention:
+
+- `_` prefix — sub-routines (e.g., `_wbopendata_search`)
+- `__` prefix — internal sub-sub-routines (e.g., `__wbopendata_search_cache`)
+
+Key layers: discovery, search/parsing, metadata utilities, cache management, sync orchestration, data download, and formatting.
+
+### 🧪 Quality Assurance
+
+| Metric | v17.7.1 | v18.0.0 |
+|--------|---------|---------|
+| **Total Tests** | 44 | 65 |
+| **Test Categories** | 9 | 15 |
+| **Final Run** | — | 65 passed, 0 failed |
+
+**Test Categories:** ENV, DL, FMT, CTRY, REG, LW, UPD, TOPIC, LANG, DESC, PROJ, ADV, CACHE, SYNC, DISC
+
+New test categories added: CACHE (cache lifecycle), SYNC (sync dryrun/replace/force), DISC (offline discovery commands).
+
+The QA framework now includes **history tracking** with drift safeguards to prevent test artifacts from writing to incorrect locations.
+
+### 🐛 Bug Fixes
+
+- Fixed YAML parser to handle embedded quotes using Mata `st_sstore()` bypass
+- Fixed `foreach` failure with topic names containing parentheses (switched to `gettoken` loop)
+- Fixed Windows path normalization for repo detection in QA suite
+- Fixed `_rc` leaking from internal sub-calls via `capture noisily` isolation
+- Fixed pkg file validation to read both `f ` (lowercase) and `F ` (uppercase) entries
+
+### 🔀 Merged Pull Requests
+
+- Discovery commands and enhanced search ([#4](https://github.com/jpazvd/wbopendata/pull/4))
+- Sync preview and stats history (feat/discovery-sync)
+- QA test suite expansion and fixes ([#6](https://github.com/jpazvd/wbopendata/pull/6))
+- Release v18.0.0 ([#5](https://github.com/jpazvd/wbopendata/pull/5))
+
+### Full Changelog
+
+**Compare:** [v17.7.1...v18.0.0](https://github.com/jpazvd/wbopendata/compare/v17.7.1...v18.0.0)
+
+---
+
 ## wbopendata v17.7.1 — Test Suite Expansion & Documentation Overhaul
 
 **Release Date:** January 4, 2026
@@ -258,50 +418,52 @@ net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendat
 
 ## Previous Releases
 
-For complete version history including all releases from v12.0 (2013) to present, see the **[Changelog](CHANGELOG.md)**.
+For complete version history including all releases from v1.0.0 (2011) to present, see the **[Changelog](CHANGELOG.md)**.
 
 ### Version Timeline
 
 ```
-2026 ─┬─ v17.7.1  Test suite expansion, documentation
-      ├─ v17.7    Basic country context by default
-      └─ v17.6    Graph metadata (linewrap) features
+2026 ─┬─ v18.1.0          Char metadata, offline testing, 89 tests
+      ├─ v18.0.0          Discovery commands, YAML metadata, sync redesign
+      ├─ v17.7.1          Test suite expansion, documentation
+      ├─ v17.7            Basic country context by default
+      └─ v17.6            Graph metadata (linewrap) features
 
-2025 ─── v17.1    Community bug fixes, documentation overhaul
+2025 ─── v17.1            Community bug fixes, documentation overhaul
 
-2023 ─── v17.0    Region metadata, enhanced matching
+2023 ─── v17.0            Region metadata, enhanced matching
 
-2020 ─┬─ v16.3    HTTPS API migration
-      ├─ v16.2.3  Metadata query rewrite (_api_read.ado)
-      ├─ v16.2.2  Metadata server update
-      ├─ v16.2.1  Flow check for metadataoffline
-      ├─ v16.2    Offline metadata option (SOURCEID/TOPICID docs)
-      ├─ v16.1    Removed SOURCEID/TOPICSID from package
-      └─ v16.0    Multiple indicators, modular architecture
+2020 ─┬─ v16.3            HTTPS API migration
+      ├─ v16.2.2–16.2.3   Metadata query rewrite, server update
+      └─ v16.1–16.2.1     Offline metadata option, flow check
 
-2019 ─┬─ v15.1    Update options, 16,000+ indicators
-      ├─ v15.0.1  Maintenance release
-      ├─ v15.0    Major version bump
-      ├─ v14.3    _wbopendata_update.ado revised (no out.txt)
-      ├─ v14.2    checksum off; update fixes
-      ├─ v14.1    indicator update + nopreserve
-      └─ v14.0    New API server
+2019 ─┬─ v16.0–16.0.1     Multiple indicators, modular architecture, match()
+      ├─ v15.1            Update options, 16,000+ indicators
+      ├─ v15.0.1          Maintenance release
+      ├─ v14.2–15.0       Bug fixes, major version bump
+      ├─ v14.1            Indicator update + nopreserve
+      └─ v14.0            New API server
 
-2016 ─── v13.5    Last SSC release before major overhaul ◄──
+2016 ─── v13.5            Last SSC release before major overhaul ◄──
 
-2014 ─── v13.0    Duplicate fix, 9,960 indicators
+2014 ─┬─ v13.3–13.4       Error control (clear option), long reshape
+      └─ v13.0–13.2       Duplicate fix, error control, regional codes, 9,960 indicators
 
-2013 ─── v12.0    7,349 indicators, return list enhancements
+2013 ─── v12.0            7,349 indicators, return list enhancements
+
+...
+
+2011 ─── v1.0.0           Initial launch ◄──
 ```
 
 ### SSC vs GitHub Versions
 
 | Channel | Current | Notes |
 |---------|---------|-------|
-| **SSC** | v13.5 | Stable, install via `ssc install wbopendata` |
-| **GitHub** | v17.7.1 | Latest features, install via `net install` |
+| **[SSC](https://ideas.repec.org/c/boc/bocode/s457234.html)** | v17.7.1 | Stable, install via `ssc install wbopendata` |
+| **GitHub** | v18.1.0 | Latest features, install via `net install` |
 
-> **Note:** The SSC version (v13.5) predates the 2019 API modernization. For full functionality including `match()`, `linewrap()`, and 29,000+ indicators, install from GitHub.
+> **Note:** The SSC version (v17.7.1) is one release behind the latest GitHub version. For the newest features including discovery commands, sync redesign, and YAML metadata architecture, install from GitHub.
 
 ---
 

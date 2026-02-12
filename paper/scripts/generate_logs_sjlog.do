@@ -117,14 +117,14 @@ describe countrycode countryname region regionname year ///
 sjlog close, replace
 
 /*------------------------------------------------------------------------------
-    Example 7: Update metadata query
+    Example 7: Sync preview (replaces deprecated update query, v18.1)
 ------------------------------------------------------------------------------*/
 
-di as text "Generating: ex_update.log.tex"
+di as text "Generating: ex_sync.log.tex"
 
-sjlog using "`logs_dir'/ex_update", replace
+sjlog using "`logs_dir'/ex_sync", replace
 
-wbopendata, update query
+wbopendata, sync
 
 sjlog close, replace
 

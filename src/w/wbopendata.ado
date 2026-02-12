@@ -1,6 +1,7 @@
 *******************************************************************************
 * wbopendata
-*! v 18.0.0  	 05Feb2026               by Joao Pedro Azevedo
+*! v 18.1.0  	 10Feb2026               by Joao Pedro Azevedo
+*   18.1.0: Added char metadata (default-on, nochar to suppress); deprecated update query/check/all, metadataoffline, syncforce/preview/dryrun with warnings
 *   18.0.0: Deprecated 89 per-indicator sthlp files; replaced with discovery commands (sources, search, info)
 *   17.8.1: Pass detail option through to search for wrapped display format
 *   17.8.0: Added sources, alltopics discovery commands; enhanced search with topic/field filters and wildcards
@@ -53,6 +54,7 @@ version 14.0
 						LENDING				///
 						GEO					///
 						noBASIC				///
+						noCHAR				///
 						FULL				///
 						COUNTRYCODE_ISO2 	///
 						REGION 				///
@@ -93,6 +95,7 @@ version 14.0
 						MAXLENGTH(string) 	///
 						LINEWRAPFORMAT(string) 	///
 						DESCRIBE		///
+						OFFLINE(string)	///
                  ]
 
 quietly {
@@ -174,19 +177,24 @@ local indicator `indicators'
 	}
 
 	* Sync and cache maintenance commands
-	* Resolve backward-compatible aliases into canonical modifiers:
+	* Resolve backward-compatible aliases into canonical modifiers (deprecated v18.0):
 	*   syncforce   → sync + replace + force
 	*   syncpreview → sync + replace
 	*   syncdryrun  → sync (dryrun is the default)
 	if ("`syncforce'" != "") {
+		noi di as txt "{bf:Note:} {cmd:syncforce} is deprecated; use {cmd:sync replace force} instead."
 		local sync "sync"
 		local replace "replace"
 	}
 	if ("`syncpreview'" != "") {
+		noi di as txt "{bf:Note:} {cmd:syncpreview} is deprecated; use {cmd:sync replace} instead."
 		local sync "sync"
 		local replace "replace"
 	}
-	if ("`syncdryrun'" != "") local sync "sync"
+	if ("`syncdryrun'" != "") {
+		noi di as txt "{bf:Note:} {cmd:syncdryrun} is deprecated; use {cmd:sync} instead."
+		local sync "sync"
+	}
 
 	if ("`sync'" != "" | "`checkupdate'" != "" | "`clearcache'" != "" | "`cacheinfo'" != "") {
 		if ("`clearcache'" != "") {
@@ -260,7 +268,9 @@ local indicator `indicators'
 			noi di as err "describe option requires indicator()"
 			exit 198
 		}
-		noi _query_metadata , indicator("`indicator'") linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")
+		local _lw_opts ""
+		if "`linewrap'" != "" local _lw_opts `"linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")"'
+		noi _query_metadata , indicator("`indicator'") `_lw_opts' offline("`offline'")
 		return add
 		exit _rc
 	}
@@ -317,31 +327,43 @@ local indicator `indicators'
 	
 		set checksum off
 	
-	* update : update query / does not triger the download of any data
+	* update commands (deprecated v18.1 — replaced by sync family)
 		if ("`update'" == "update") & wordcount("`query' `check' `countrymetadata' `all'")==0 {
-		
+
+			noi di as txt ""
+			noi di as txt "{bf:Note:} {cmd:update query} is deprecated; use {cmd:sync} or {cmd:checkupdate} instead."
+			noi di as txt "  See {help wbopendata##deprecated:help wbopendata, deprecated options}."
+			noi di as txt ""
 			noi wbopendata, update query
 			break
 		}
-		
-	* update : update query / triger the download of selected data
-	* update : force  - creates new help files and metadata documentation by source and topics
-	* trigger: _parameters
-	* triggers _update indicators.ado
-	*		refresh Source
-	*		refresh Indicators
-	
+
 		if ("`update'" == "update") & wordcount("`query' `check' `countrymetadata' `all'")== 1 {
 
+			if ("`query'" != "") {
+				noi di as txt "{bf:Note:} {cmd:update query} is deprecated; use {cmd:sync} instead."
+			}
+			if ("`check'" != "") {
+				noi di as txt "{bf:Note:} {cmd:update check} is deprecated; use {cmd:checkupdate} instead."
+			}
+			if ("`all'" != "") {
+				noi di as txt "{bf:Note:} {cmd:update all} is deprecated; use {cmd:sync replace} instead."
+			}
+			noi di as txt "  See {help wbopendata##deprecated:help wbopendata, deprecated options}."
+			noi di as txt ""
 			noi _update_wbopendata, update `query' `check'	`countrymetadata' `all' `force' `short' `detail' `ctrylist'
 			break
-					
+
 		}
 
-	* metadataoffline options
-	* this option will refress all meatadata and generate 71 files with all metadata indicators by source id and topic id.
+	* metadataoffline options (deprecated v18.1 — replaced by sync + discovery commands)
 		if ("`metadataoffline'" == "metadataoffline") {
 
+			noi di as txt ""
+			noi di as txt "{bf:Note:} {cmd:metadataoffline} is deprecated as of v18.1."
+			noi di as txt "  Use {cmd:sync replace} to update metadata and {cmd:sources}/{cmd:search()}/{cmd:info()} for discovery."
+			noi di as txt "  See {help wbopendata##deprecated:help wbopendata, deprecated options}."
+			noi di as txt ""
 			noi _update_wbopendata, update force all
 			local update "update"
 			local force  "force"
@@ -385,13 +407,17 @@ local indicator `indicators'
 										`projection'					///
 										 `long'                       	///
 										 `clear'                      	///
-										 `nometadata'
+										 `nometadata'					///
+										 `char'							///
+										 offline("`offline'")
 					local time  "`r(time)'"
 					local namek "`r(name)'"
 
 
 					if (`needmeta' == 1) & ("`indicator'" != "") {
-						cap: noi _query_metadata  , indicator("``i''") linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")
+						local _lw_opts ""
+						if "`linewrap'" != "" local _lw_opts `"linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")"'
+						cap: noi _query_metadata  , indicator("``i''") `_lw_opts' offline("`offline'")
 						local qm1rc = _rc
 						if (`qm1rc' != 0) {
 							noi di ""
@@ -476,14 +502,14 @@ local indicator `indicators'
 							}
 							if (`lw_dnl' > 0) {
 								forvalues ln = 1/`lw_dnl' {
-									capture local lineval "`r(description_line`ln')'"
-									if (_rc == 0 & "`lineval'" != "") return local description`idx'_line`ln' "`lineval'"
+									capture local lineval `"`r(description_line`ln')'"'
+									if (_rc == 0 & `"`lineval'"' != "") return local description`idx'_line`ln' `"`lineval'"'
 								}
 							}
 							if (`lw_nnl' > 0) {
 								forvalues ln = 1/`lw_nnl' {
-									capture local lineval "`r(note_line`ln')'"
-									if (_rc == 0 & "`lineval'" != "") return local note`idx'_line`ln' "`lineval'"
+									capture local lineval `"`r(note_line`ln')'"'
+									if (_rc == 0 & `"`lineval'"' != "") return local note`idx'_line`ln' `"`lineval'"'
 								}
 							}
 							if (`lw_snl' > 0) {
@@ -499,8 +525,27 @@ local indicator `indicators'
 								}
 							}
 
-							capture local scite "`r(sourcecite)'"
-							if (_rc == 0 & "`scite'" != "") return local sourcecite`idx' "`scite'"
+							capture local scite `"`r(sourcecite)'"'
+							if (_rc == 0 & `"`scite'"' != "") return local sourcecite`idx' `"`scite'"'
+
+							* --- variable-level char metadata from _query_metadata ---
+							if ("`char'" != "nochar") {
+								local _vname = trim(lower(subinstr(word("``i''",1),".","_",.)))
+								capture confirm variable `_vname'
+								if (_rc == 0) {
+									char `_vname'[source]      `"`r(source)'"'
+									char `_vname'[description] `"`r(description)'"'
+									char `_vname'[note]        `"`r(note)'"'
+									char `_vname'[sourcecite]  `"`r(sourcecite)'"'
+									local _t1 "`r(topic1)'"
+									local _t2 "`r(topic2)'"
+									local _t3 "`r(topic3)'"
+									local _topics "`_t1'"
+									if ("`_t2'" != "") local _topics "`_topics'; `_t2'"
+									if ("`_t3'" != "") local _topics "`_topics'; `_t3'"
+									char `_vname'[topic] "`_topics'"
+								}
+							}
 						}
 					}
 
@@ -546,13 +591,17 @@ local indicator `indicators'
 									`long'                  ///
 									`clear'                 ///
 									`latest'                ///
-									`nometadata'
+									`nometadata'			///
+									`char'									///
+									offline("`offline'")
 				local time  "`r(time)'"
 				local name "`r(name)'"
 
 
 				if (`needmeta' == 1) & ("`indicator'" != "") {
-					cap: noi _query_metadata  , indicator("``i''") linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")
+					local _lw_opts ""
+					if "`linewrap'" != "" local _lw_opts `"linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")"'
+					cap: noi _query_metadata  , indicator("``i''") `_lw_opts' offline("`offline'")
 					local qm2rc = _rc
 					if ("`qm2rc'" == "") {
 						noi di ""
@@ -638,14 +687,14 @@ local indicator `indicators'
 						}
 						if (`lw_dnl' > 0) {
 							forvalues ln = 1/`lw_dnl' {
-								capture local lineval "`r(description_line`ln')'"
-								if (_rc == 0 & "`lineval'" != "") return local description`idx'_line`ln' "`lineval'"
+								capture local lineval `"`r(description_line`ln')'"'
+								if (_rc == 0 & `"`lineval'"' != "") return local description`idx'_line`ln' `"`lineval'"'
 							}
 						}
 						if (`lw_nnl' > 0) {
 							forvalues ln = 1/`lw_nnl' {
-								capture local lineval "`r(note_line`ln')'"
-								if (_rc == 0 & "`lineval'" != "") return local note`idx'_line`ln' "`lineval'"
+								capture local lineval `"`r(note_line`ln')'"'
+								if (_rc == 0 & `"`lineval'"' != "") return local note`idx'_line`ln' `"`lineval'"'
 							}
 						}
 						if (`lw_snl' > 0) {
@@ -661,11 +710,30 @@ local indicator `indicators'
 							}
 						}
 
-						capture local scite "`r(sourcecite)'"
-						if (_rc == 0 & "`scite'" != "") return local sourcecite`idx' "`scite'"
+						capture local scite `"`r(sourcecite)'"'
+						if (_rc == 0 & `"`scite'"' != "") return local sourcecite`idx' `"`scite'"'
+
+						* --- variable-level char metadata from _query_metadata ---
+						if ("`char'" != "nochar") {
+							local _vname = trim(lower(subinstr(word("`indicator'",1),".","_",.)))
+							capture confirm variable `_vname'
+							if (_rc == 0) {
+								char `_vname'[source]      `"`r(source)'"'
+								char `_vname'[description] `"`r(description)'"'
+								char `_vname'[note]        `"`r(note)'"'
+								char `_vname'[sourcecite]  `"`r(sourcecite)'"'
+								local _t1 "`r(topic1)'"
+								local _t2 "`r(topic2)'"
+								local _t3 "`r(topic3)'"
+								local _topics "`_t1'"
+								if ("`_t2'" != "") local _topics "`_topics'; `_t2'"
+								if ("`_t3'" != "") local _topics "`_topics'; `_t3'"
+								char `_vname'[topic] "`_topics'"
+							}
+						}
 					}
 				}
-				
+
 			}
 
 			local w1 = word("`indicator'",1)
@@ -760,10 +828,26 @@ local indicator `indicators'
 		_countrymetadata, match(countrycode) `full' `iso' `regions' `adminr' `income' `lending' `geo' `basic' `countrycode_iso2' `region' `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname' `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude' `countryname'
 
 	}
-	
+
 **********************************************************************************
-	
-	
+* char metadata: dataset-level provenance (default-on, suppressed by nochar)
+**********************************************************************************
+
+	if ("`char'" != "nochar") & ("`update'" == "") {
+		char _dta[wbopendata_version]   "18.1.0"
+		char _dta[wbopendata_timestamp] "`c(current_date)' `c(current_time)'"
+		char _dta[wbopendata_user]      "`c(username)'"
+		char _dta[wbopendata_syntax]    `"wbopendata, `0'"'
+		if ("`indicator'" != "")  char _dta[wbopendata_indicator] "`indicator'"
+		if ("`country'" != "")    char _dta[wbopendata_country]   "`country'"
+		if ("`language'" != "")   char _dta[wbopendata_language]  "`language'"
+		if ("`source'" != "")     char _dta[wbopendata_source_id] "`source'"
+		if ("`topics'" != "")     char _dta[wbopendata_topics]    "`topics'"
+	}
+
+**********************************************************************************
+
+
 	if ("`nopreserve'" == "") {
 		return add
 	}

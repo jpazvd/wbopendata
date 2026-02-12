@@ -20,24 +20,56 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [Unreleased]
+## [18.1.0] - 2026-02-10
 
 ### Added
-- **Sync Preview feature** (`syncpreview`, `syncdryrun` options)
-  - Pre-sync diagnostic display showing cache status, API comparison, and sync pathway
+- **Variable-level char metadata**: Indicator code stored as `char` on data variables (default-on, `nochar` to suppress)
+- **Offline deterministic testing**: `offline()` option for Phase 6 Gould (2001) fixture-based testing without network access
+- **Error handling tests**: 24 new ERR tests using `rcof` methodology (Gould 2001)
+- **Extended format tests**: EXT tests for additional option combinations
+- **Deterministic tests**: DET tests using offline CSV fixtures for reproducible validation
+- **QA expansion**: 89 tests across 17 categories (up from 65/15 in v18.0.0)
+
+### Fixed
+- Compound quoting for SMCL `{browse}` tags in metadata returns (`sourcecite`, `description_line`, `note_line`)
+- Stray `set trace on` in dead code sections of `_api_read.ado` and `_query_indicators.ado`
+
+### Changed
+- Deprecated `update query`, `update check`, `update all`, `metadataoffline`, `syncforce`, `syncpreview`, `syncdryrun` with user-facing warnings
+- QA fixtures switched from tar.gz to zip format
+
+---
+
+## [18.0.0] - 2026-02-09
+
+### Added
+- **Discovery Commands**: `sources`, `allsources`, `topics`, `alltopics`, `search()`, `info()` for offline catalog browsing
+- **YAML Metadata Architecture**: Replaced 89 per-indicator `.sthlp` files with 2 YAML metadata files (~29,323 indicators)
+- **Sync System Redesign**: `sync` (dryrun preview), `sync replace` (apply), `sync replace force` (re-download)
+  - `replace` is an explicit safety gate; `sync` alone is always safe
+  - Backward-compatible aliases: `syncdryrun`, `syncpreview`, `syncforce`
   - `detail` option for per-source and per-topic indicator breakdown
   - Country metadata count (296 countries/territories/aggregates) in preview display
   - Helper programs: `_wbopendata_get_source_name`, `_wbopendata_get_topic_name`
-  - Clickable SMCL actions for common sync operations
+- **Cache Management**: `cache(info|checkversion|update|clear)` for local metadata caching
 - **Stats History Tracking** (`_wbopendata_cache_stats_history.yaml`)
   - Automatic recording of sync statistics after each successful sync
-  - Tracks: timestamp, method, indicator/source/topic/country counts
-  - Per-source and per-topic breakdown for trend analysis
-  - History file appends entries over time for release notes generation
   - New program: `_wbopendata_write_stats_history.ado`
+- **Modular Architecture**: 34 `.ado` files with `_` (sub-routine) and `__` (internal) naming convention
+- **QA Expansion**: 65 tests across 15 categories (up from 44/9 in v17.7.1)
+  - New categories: CACHE, SYNC, DISC
+  - History tracking with drift safeguards
+
+### Fixed
+- YAML parser handles embedded quotes using Mata `st_sstore()` bypass
+- `foreach` failure with topic names containing parentheses (switched to `gettoken` loop)
+- Windows path normalization for repo detection in QA suite
+- `_rc` leaking from internal sub-calls via `capture noisily` isolation
+- Pkg file validation reads both `f ` (lowercase) and `F ` (uppercase) entries
 
 ### Changed
-- Sync system now shows detailed metadata status before sync execution
+- Sync default changed to dryrun (safe preview) — `replace` required to apply
+- Deprecated 89 per-indicator `.sthlp` files in favor of YAML metadata
 - `_wbopendata_sync_preview.ado` updated to v1.2.0 with country count
 - Package updated with new helper ado files
 
@@ -335,6 +367,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Key Changes |
 |---------|------|-------------|
+| **18.1.0** | 2026-02-10 | Char metadata, offline testing, compound quoting fix, 89 tests |
+| **18.0.0** | 2026-02-09 | Discovery commands, YAML metadata, sync redesign |
 | **17.7.1** | 2026-01-04 | Test suite expansion, bug fixes |
 | **17.7** | 2026-01-02 | Basic country context by default |
 | **17.6** | 2025-12-28 | Graph metadata (linewrap) features |
@@ -364,8 +398,8 @@ The SSC (Statistical Software Components) archive at Boston College maintains th
 | SSC Version | Date | Notes |
 |-------------|------|-------|
 | v13.5 | Feb 2016 | Last pre-API-modernization release |
-| v16.3 | Jul 2020 | HTTPS migration |
-| v17.x | 2023+ | Current development |
+| v18.1.0 | Feb 2026 | Current development release |
+| v17.7.1 | Jan 2026 | Current SSC release |
 
 For the SSC archive, see: [RePEc:boc:bocode:s457234](https://ideas.repec.org/c/boc/bocode/s457234.html)
 

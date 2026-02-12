@@ -1,29 +1,29 @@
 -------------------------------------------------------------------------------
 WBOPENDATA TEST SUITE
-Version: 17.7.1
-Build:   04Jan2026
-Date:    4 Jan 2026 21:12:38
-Stata:   17
+Version: 18.1.0
+Build date: 10Feb2026
+Date:  9 Feb 2026 14:41:01
+Stata: 17
 -------------------------------------------------------------------------------
 
 . run_test "ENV-01" "wbopendata version matches repo"
 
 --- TEST ENV-01: wbopendata version matches repo ---
-Installed version: *! v 17.7.1  04Jan2026
-Repo version:      *! v 17.7.1  04Jan2026
+Installed version: *! v 18.1.0  10Feb2026
+Repo version:      *! v 18.1.0  10Feb2026
 PASS
-r; t=0.00 21:12:38
+r; t=0.00 14:41:01
 
 -------------------------------------------------------------------------------
 
 . run_test "DL-01" "Single indicator download"
 
 --- TEST DL-01: Single indicator download ---
-. wbopendata, indicator(SP.POP.TOTL) clear long nometadata
+. wbopendata, indicator(SP.POP.TOTL) clear nometadata long
 Observations: 17,290
 Variables:    12
 PASS
-r; t=3.19 21:12:42
+r; t=4.27 14:41:05
 
 -------------------------------------------------------------------------------
 
@@ -32,17 +32,28 @@ r; t=3.19 21:12:42
 --- TEST DL-04: Multiple indicators download ---
 . wbopendata, indicator(SP.POP.TOTL;NY.GDP.MKTP.CD) clear long nometadata
 PASS
-r; t=4.96 21:12:49
+r; t=5.92 14:41:14
 
 -------------------------------------------------------------------------------
 
-. run_test "REG-45" "Issue #45: URL in metadata"
+. run_test "DISC-01" "Search basic keyword"
 
---- TEST REG-45: Issue #45: URL in metadata ---
-. wbopendata, indicator(SL.UEM.TOTL.ZS) clear
-Metadata parsed successfully (URL preserved)
+--- TEST DISC-01: Search basic keyword ---
+. _wbopendata_search GDP, limit(5)
+Found 677 results, displayed 5, first=6.0.GDP_current
 PASS
-r; t=0.56 21:13:14
+r; t=0.26 14:44:44
+
+-------------------------------------------------------------------------------
+
+. run_test "SYNC-02" "Sync replace command"
+
+--- TEST SYNC-02: Sync replace command ---
+. wbopendata, sync replace
+sync rc: 0
+Cache created after sync: yes
+PASS
+r; t=4.67 14:44:21
 
 -------------------------------------------------------------------------------
 
@@ -50,26 +61,16 @@ r; t=0.56 21:13:14
 
 --- TEST UPD-01: Update query command ---
 . wbopendata, update query
-Indicators update status: no updates available
+Indicators update status: 29323 indicators, no updates available
 PASS
-r; t=0.02 21:13:21
-
--------------------------------------------------------------------------------
-
-. run_test "UPD-05" "Update all"
-
---- TEST UPD-05: Update all ---
-. wbopendata, update all
-Metadata refreshed successfully
-PASS
-r; t=0.50 21:13:40
+r; t=0.07 14:41:52
 
 -------------------------------------------------------------------------------
 
 TEST SUMMARY
 
-Tests Run:    44
-Tests Passed: 44
+Tests Run:    89
+Tests Passed: 89
 Tests Failed: 0
 
 ALL TESTS PASSED!

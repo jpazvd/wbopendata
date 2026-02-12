@@ -4,7 +4,7 @@
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
 {right:What's New:  {bf:{help wbopendata_whatsnew:What's New}}}
-{right: {bf:version 18.0.0}}
+{right: {bf:version 18.1.0}}
 {hline}
 
 {title:Title}
@@ -39,6 +39,7 @@
 {synopt :{opt full}} adds full list of country attributes.{p_end}
 {synopt :{opt basic}} adds basic country context variables (default as of v17.7).{p_end}
 {synopt :{opt nobasic}} suppresses the default basic country context variables.{p_end}
+{synopt :{opt nochar}} suppresses variable and dataset characteristics ({cmd:char}). By default, wbopendata attaches metadata to variables and the dataset via {help char}; use this to suppress.{p_end}
 {synopt :{opt iso}} adds 2 digits ISO codes to country attributes.{p_end}
 {synopt :{opt geo}} adds geographic metadata (capital city name, latitude, and longitude).{p_end}
 {synopt :{opt capital}} adds capital city name to country attributes.{p_end}
@@ -48,9 +49,6 @@
 {synopt :{opt adminr}} adds administrative region codes and names to country attributes.{p_end}
 {synopt :{opt income}} adds income level codes and names to country attributes.{p_end}
 {synopt :{opt lending}} adds lending type codes and names to country attributes.{p_end}
-{synopt :{opt update query}} query the current vintage of indicators and country metadata available.{p_end}
-{synopt :{opt update check}} checks the availability of new indicators and country metadata available for download.{p_end}
-{synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
 {synopt :{opt sync}} preview metadata changes without applying (dry run). Safe default.{p_end}
 {synopt :{opt sync} {opt detail}} preview with per-source and per-topic indicator breakdown.{p_end}
 {synopt :{opt sync} {opt force}} force-refresh preview diagnostic (re-query API). Still dry run.{p_end}
@@ -59,12 +57,8 @@
 {synopt :{opt checkupdate}} check whether newer YAML metadata is available without downloading it.{p_end}
 {synopt :{opt clearcache}} remove the local metadata cache (forces re-download on next sync).{p_end}
 {synopt :{opt cacheinfo}} display cache location, version, and timestamp for the metadata YAML files.{p_end}
-{synopt :{opt syncforce}} deprecated alias for {opt sync replace force}.{p_end}
-{synopt :{opt syncpreview}} deprecated alias for {opt sync replace}.{p_end}
-{synopt :{opt syncdryrun}} deprecated alias for {opt sync}.{p_end}
 {synopt :{opt match(varname)}} merge {help wbopendata##attributes:country attributes} into an existing dataset containing WDI (3 digit) countrycodes. Cannot be used with the data download options.{p_end}
 {synopt :{opt projection}} World Bank {help wbopendata_sourceid##sourceid_40:population estimates and projections} (HPP) .{p_end}
-{synopt :{opt metadataoffline}} download all indicator metadata information and generates 71 sthlp files in your local machine.{p_end}
 {synopt :{opt describe}} display indicator metadata only (no data download). Requires {opt indicator()}. Supports {opt linewrap()}, {opt maxlength()}, and {opt linewrapformat()} when present.{p_end}
 {synopt :{opt linewrap(fields)}} wrap metadata text for graph titles. Fields: name, description, note, source, topic, or all.{p_end}
 {synopt :{opt maxlength(# [# ...])}} maximum characters per line for linewrap. Single value (default 50) or multiple values matching linewrap field order.{p_end}
@@ -97,8 +91,11 @@ Sections are presented under the following headings:
 		{it:{help wbopendata##desc:Command description}}
 		{it:{help wbopendata##param:Parameters description}}
 		{it:{help wbopendata##options:Options description}}
+		{it:{help wbopendata##syncmeta:Metadata management}}
 		{it:{help wbopendata##discovery:Discovery commands}}
 		{it:{help wbopendata##storedresults:Stored results}}
+		{it:{help wbopendata##charmetadata:Characteristic metadata (v18.1+)}}
+		{it:{help wbopendata##deprecated:Deprecated options}}
 		{it:{help wbopendata##attributes:List of supported country attributes}}
 		{it:{help wbopendata##countries:Country code and names by selected attributes}}
 		{it:{help wbopendata##sourceid:Indicators by Source}}
@@ -200,6 +197,12 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {synopt :{opt nobasic}} suppresses the default basic country context variables. Use this option when you only want the core data without country classification metadata.{p_end}
 
+{synopt :{opt nochar}} suppresses dataset and variable characteristics ({help char}). By default (v18.1+), {cmd:wbopendata} stores
+metadata in Stata {cmd:char} attributes that persist across {cmd:save}/{cmd:use} cycles: dataset-level ({cmd:_dta[]})
+captures session provenance (version, timestamp, syntax), while variable-level ({cmd:{it:varname}[]}) captures
+indicator metadata (code, source, description, topics, notes). Use {cmd:nochar} to suppress all
+{cmd:char} writes if you prefer minimal .dta files. See {help wbopendata##charmetadata:Characteristic metadata} below.{p_end}
+
 {synopt :{opt iso}} adds only 2 digits ISO codes to country attributes.{p_end}
 
 {synopt :{opt geo}} adds geographic metadata variables including capital city name, latitude, and longitude coordinates for each country.{p_end}
@@ -218,17 +221,9 @@ at the World Bank Data website to identify which format is supported.{p_end}
 
 {synopt :{opt lending}} adds lending type classifications (IBRD only, Blend, IDA only, etc.) and their ISO 2-digit codes.{p_end}
 
-{synopt :{opt update query}} query the current vintage of indicators available and country metadata.{p_end}
-
-{synopt :{opt update check}} checks the availability of new indicators  and country metadata available for download.{p_end}
-
-{synopt :{opt update all}} refreshes the indicators and country metadata information.{p_end}
-
 {synopt :{opt match(varname)}} merge {it:{help wbopendata##attributes:country attributes}} using WDI countrycodes.{p_end}
 
 {synopt :{opt projection}} World Bank staff {help wbopendata_sourceid##sourceid_40:population projection estimates} using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects: 2019 Revision.{p_end} 
-
-{synopt :{opt metadataoffline}} refresh all metadata information, and generate a local copy of all indicators metadata organized by topics and source. This option creates 71 new help files in your local machine with approximately 15mb of documentation.{p_end}
 
 {synopt :{opt linewrap(fields)}} wrap metadata text for use in graph titles and notes. This option processes the specified metadata fields and returns wrapped versions suitable for Stata graphs. Available fields:{p_end}
 {p 8 12 2}- {opt name}: indicator name{p_end}
@@ -254,6 +249,56 @@ the last value is used for remaining fields.{p_end}
 {p 8 12 2}- {opt all}: returns all formats ({cmd:_stack}, {cmd:_newline}, {cmd:_nlines}, {cmd:_line1}, etc.){p_end}
 
 
+{marker syncmeta}{...}
+{p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
+{title:Metadata management (v18.0+)}
+
+{pstd}
+These commands manage the local YAML metadata cache that powers the
+{help wbopendata##discovery:discovery commands}
+({opt sources}, {opt alltopics}, {opt search()}, {opt info()}).
+The default {opt sync} is a safe dry run that previews changes without
+modifying any files.{p_end}
+
+{dlgtab:Sync preview (dry run)}
+
+{synopt :{opt sync}}Preview metadata changes without applying them. Compares
+the local cache version against the latest available release and displays a
+summary of what would change. This is the safe default — no files are
+modified.{p_end}
+
+{synopt :{opt sync} {opt detail}}Extended preview with per-source and per-topic
+indicator breakdowns, showing how many indicators each source contributes and
+how they are distributed across topic categories.{p_end}
+
+{synopt :{opt sync} {opt force}}Force-refresh the preview diagnostic by
+re-querying the API rather than relying on cached diagnostics. Still a dry
+run — no files are modified.{p_end}
+
+{dlgtab:Sync apply}
+
+{synopt :{opt sync} {opt replace}}Apply the metadata synchronization — downloads
+the latest YAML metadata release from the GitHub repository and updates the
+local cache files. Displays the same preview as {opt sync} before applying
+changes.{p_end}
+
+{synopt :{opt sync} {opt replace} {opt force}}Force re-download of metadata
+regardless of the local cache version, bypassing staleness checks. Use this
+when the local cache may be corrupted or you want a clean refresh.{p_end}
+
+{dlgtab:Cache management}
+
+{synopt :{opt checkupdate}}Query the remote repository for the latest release
+version and report whether an update is available, without downloading or
+modifying any files. Equivalent to checking for updates only.{p_end}
+
+{synopt :{opt cacheinfo}}Display the cache directory location, current metadata
+version, schema version, and last synchronization timestamp.{p_end}
+
+{synopt :{opt clearcache}}Remove the local metadata cache entirely, forcing a
+full re-download on the next {opt sync replace} or discovery command.{p_end}
+
+
 {marker discovery}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
 {title:Discovery Commands}
@@ -262,6 +307,12 @@ the last value is used for remaining fields.{p_end}
 Discovery commands help you explore the World Bank Open Data catalog without downloading data.
 All discovery outputs feature clickable SMCL navigation links that let you drill down from
 sources to topics to individual indicators, and then download data with a single click.{p_end}
+
+{pstd}
+The discovery architecture in {cmd:wbopendata} follows the model introduced by {cmd:{help unicefdata}}
+(Azevedo, 2026), which pioneered offline catalog browsing with YAML-backed metadata, keyword search,
+and clickable SMCL navigation in Stata. The {cmd:wbopendata} implementation extends this pattern to
+the World Bank's 51 data sources and 29,000+ indicators.{p_end}
 
 {dlgtab:List Sources}
 
@@ -726,6 +777,106 @@ return metadata for programmatic use and automation.{p_end}
 {p 4 4 2}See {help return} for details on accessing stored results.{p_end}
 
 
+{marker charmetadata}{...}
+{p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
+{title:Characteristic metadata (v18.1+)}
+
+{pstd}
+As of v18.1, {cmd:wbopendata} stores persistent metadata in Stata {help char:variable characteristics}
+that survive {cmd:save}/{cmd:use} cycles. This follows the pattern established by
+{cmd:freduse} ({it:Drukker, Stata Journal 2006}), making downloaded datasets self-documenting.{p_end}
+
+{pstd}
+Three layers of metadata now coexist:{p_end}
+{p 8 12 2}1. The {bf:do-file} — authoritative provenance record (unchanged){p_end}
+{p 8 12 2}2. {bf:r() returns} — ephemeral session metadata for programmatic use (unchanged){p_end}
+{p 8 12 2}3. {bf:char characteristics} — persistent metadata embedded in the .dta file (new){p_end}
+
+{pstd}
+Use {opt nochar} to suppress all {cmd:char} writes.{p_end}
+
+{pstd}{ul:{bf:Dataset-level characteristics (_dta)}}{p_end}
+
+{pstd}Set once per download. These capture the session context:{p_end}
+
+{synoptset 30 tabbed}{...}
+{p2col 5 30 34 2: Characteristic}{p_end}
+{synoptline}
+{synopt:{cmd:_dta[wbopendata_version]}}Package version (e.g., 18.1.0){p_end}
+{synopt:{cmd:_dta[wbopendata_timestamp]}}Date and time of download{p_end}
+{synopt:{cmd:_dta[wbopendata_user]}}Stata username at download time{p_end}
+{synopt:{cmd:_dta[wbopendata_syntax]}}Exact command syntax used{p_end}
+{synopt:{cmd:_dta[wbopendata_indicator]}}Indicator code(s) requested{p_end}
+{synopt:{cmd:_dta[wbopendata_country]}}Country filter (if any){p_end}
+{synopt:{cmd:_dta[wbopendata_language]}}Language (en/es/fr){p_end}
+{synopt:{cmd:_dta[wbopendata_source_id]}}Source database filter (if any){p_end}
+{synopt:{cmd:_dta[wbopendata_topics]}}Topic filter (if any){p_end}
+{synoptline}
+
+{pstd}{ul:{bf:Variable-level characteristics (per indicator)}}{p_end}
+
+{pstd}Each indicator variable carries its own metadata:{p_end}
+
+{synoptset 30 tabbed}{...}
+{p2col 5 30 34 2: Characteristic}{p_end}
+{synoptline}
+{synopt:{cmd:{it:varname}[indicator]}}Original indicator code (e.g., NY.GDP.MKTP.CD){p_end}
+{synopt:{cmd:{it:varname}[source]}}Source database name{p_end}
+{synopt:{cmd:{it:varname}[description]}}Indicator description{p_end}
+{synopt:{cmd:{it:varname}[topic]}}Topic classification(s){p_end}
+{synopt:{cmd:{it:varname}[note]}}Methodological notes{p_end}
+{synopt:{cmd:{it:varname}[sourcecite]}}Source organization citation{p_end}
+{synoptline}
+
+{pstd}{ul:{bf:Example}}{p_end}
+
+{cmd}
+.     wbopendata, indicator(NY.GDP.MKTP.CD) clear long
+.     char list _dta[]
+.     char list ny_gdp_mktp_cd[]
+.
+.     * Access specific metadata programmatically:
+.     local desc : char ny_gdp_mktp_cd[description]
+.     display "`desc'"
+.
+.     * Suppress all char metadata:
+.     wbopendata, indicator(NY.GDP.MKTP.CD) nochar clear long
+.     char list _dta[]        // empty
+{txt}
+
+
+{marker deprecated}{...}
+{p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
+{title:Deprecated options}
+
+{pstd}
+The following options have been deprecated and will be removed in a future release.
+They continue to function for backward compatibility but issue a warning when used.{p_end}
+
+{synoptset 30 tabbed}{...}
+{p2col 5 30 34 2: Option}Description{p_end}
+{synoptline}
+{synopt:{cmd:update query}}Replaced by {opt sync}.  Use {cmd:sync} to preview
+metadata changes (dry run); use {cmd:checkupdate} to check version.{p_end}
+{synopt:{cmd:update check}}Replaced by {opt checkupdate}.{p_end}
+{synopt:{cmd:update all}}Replaced by {opt sync replace}.  Downloads latest YAML
+metadata from GitHub.{p_end}
+{synopt:{cmd:metadataoffline}}Replaced by {opt sync replace} + {opt sources}/{opt search()}/{opt info()}.
+Previously generated 71 local {cmd:.sthlp} files (~15 MB). The YAML metadata
+architecture (v18.0) provides the same content via discovery commands without
+creating per-indicator help files.{p_end}
+{synopt:{cmd:syncforce}}Replaced by {opt sync replace force}.{p_end}
+{synopt:{cmd:syncpreview}}Replaced by {opt sync replace}.{p_end}
+{synopt:{cmd:syncdryrun}}Replaced by {opt sync} (dry run is now the default).{p_end}
+{synoptline}
+
+{pstd}
+{ul:{bf:Removed files}} (v18.0): 89 per-indicator {cmd:.sthlp} files
+({cmd:wbopendata_sourceid_indicators*.sthlp} and {cmd:wbopendata_topicid_indicators*.sthlp})
+have been replaced by 2 YAML metadata files serving ~29,000 indicators via the
+{opt sources}, {opt alltopics}, {opt search()}, and {opt info()} commands.{p_end}
+
+
 {marker Examples}{...}
 {title:Examples}{p 50 20 2}{p_end}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -749,15 +900,7 @@ return metadata for programmatic use and automation.{p_end}
 
 {p 8 12}{stata "wbopendata, info(SI.POV.DDAY)" :. wbopendata, info(SI.POV.DDAY)}{p_end}
 
-{pstd}{ul:{bf:Data Management Commands}}{p_end}
-
-{p 8 12}{stata "wbopendata, update query" :. wbopendata, update query}{p_end}
-
-{p 8 12}{stata "wbopendata, update check" :. wbopendata, update check}{p_end}
-
-{p 8 12}{stata "wbopendata, update all" :. wbopendata, update all}{p_end}
-
-{p 8 12}{stata "wbopendata, metadataoffline" :. wbopendata, metadataoffline}{p_end}
+{pstd}{ul:{bf:Data Download Commands}}{p_end}
 
 {p 8 12}{stata "wbopendata, country(chn - China) clear" :. wbopendata, country(chn - China) clear}{p_end}
 
@@ -1002,7 +1145,7 @@ The terms of use of the APIs is governed by {browse "http://go.worldbank.org/C09
 {p 8 12 2}Azevedo, Jo\~{a}o Pedro (2011). "WBOPENDATA: Stata module to access World Bank databases." Statistical Software Components S457234, Boston College Department of Economics. {browse "https://ideas.repec.org/c/boc/bocode/s457234.html"}.{p_end}
 
 {p 8 12 2}For version 17.7.1+ with graph metadata features:{p_end}
-{p 8 12 2}Azevedo, Jo\~{a}o Pedro (2026). "wbopendata: Fifteen Years of Programmatic Access to World Bank Open Data." Stata Journal (forthcoming).{p_end}
+{p 8 12 2}Azevedo, Jo\~{a}o Pedro (2026). "wbopendata: Fifteen Years of Programmatic Access to World Bank Open Data." Mimeo.{p_end}
 
 {p 8 12 2}Please make reference to the date when the database was downloaded, as indicator values and availability may change.{p_end}
 
@@ -1011,8 +1154,16 @@ The terms of use of the APIs is governed by {browse "http://go.worldbank.org/C09
 {title:References}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
 
+    {p 4 4 2}Azevedo, Jo\~{a}o Pedro (2026). "wbopendata: Fifteen Years of Programmatic Access to World Bank Open Data." Mimeo.{p_end}
+
+    {p 4 4 2}Azevedo, Jo\~{a}o Pedro (2026). "unicefdata: Unified access to UNICEF indicators across R, Python, and Stata." UNICEF Chief Statistician Office. {browse "https://github.com/unicef-drp/unicefdata"}.{p_end}
+
+    {p 4 4 2}Drukker, David M. (2006). "Importing Federal Reserve economic data." The Stata Journal, 6(3), 384-386.{p_end}
+
     {p 4 4 2}David C. Elliott, 2002. "TKNZ: Stata module to tokenize string into named macros," Statistical Software Components
-S426302, Boston College Department of Economics, revised 17 Oct 2006.{p_end} 
+S426302, Boston College Department of Economics, revised 17 Oct 2006.{p_end}
+
+    {p 4 4 2}Gould, William (2001). "Statistical software certification." The Stata Journal, 1(1), 29-50.{p_end}
 
 {marker acknowled}{...}
 {title:Acknowledgements}

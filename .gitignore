@@ -25,6 +25,7 @@
 
 # These files include GitHub settings
 !.gitignore
+!.gitignore.public
 !.gitattributes
 !.github/
 !.github/**
@@ -95,6 +96,12 @@
 !/qa/*.txt
 !/qa/*.md
 !/qa/*.do
+
+# QA fixtures — only the zip archive is tracked in git.
+# All individual files (CSVs, XMLs, manifests, scripts) live inside the zip.
+# Extract with: powershell Expand-Archive fixtures.zip -DestinationPath .
+!/qa/fixtures/
+!/qa/fixtures/fixtures.zip
 
 # Ignore _archive folders (development artifacts)
 _archive/

@@ -1,0 +1,132 @@
+########################################################################
+#
+# .gitignore for the PUBLIC wbopendata repository (jpazvd/wbopendata)
+#
+# This file is maintained in wbopendata-dev and synced to the public
+# repo by the sync-to-public workflow. Edit in wbopendata-dev, not here.
+#
+# Strategy: ignore everything, then whitelist what belongs in public.
+#
+########################################################################
+
+#######################
+# Start by ignoring everything
+*
+
+#######################
+# GitHub and git configuration
+!.gitignore
+!.gitattributes
+
+# Documentation files
+!README.md
+!CONTRIBUTING.md
+!LICENSE.md
+!LICENSE
+!CHANGELOG.md
+!CITATION.cff
+!RELEASE_NOTES.md
+
+#######################
+# Allow top-level folders (required for nested whitelist rules)
+!*/
+
+#######################
+# Stata package source code
+!/src/*.do
+!/src/*.ado
+!/src/*.sthlp
+!/src/*.dta
+!/src/*.txt
+!/src/*.yaml
+!/src/*.pkg
+!/src/*.toc
+!/src/*.dlg
+!/src/**/*.do
+!/src/**/*.ado
+!/src/**/*.sthlp
+!/src/**/*.dta
+!/src/**/*.txt
+!/src/**/*.yaml
+!/src/**/*.py
+!/src/**/*.dlg
+
+# Stata package metadata (root level)
+!/dependency.do
+!/stata.toc
+!/wbopendata.pkg
+
+# Documentation
+!/doc/*.md
+!/doc/*.png
+!/doc/**/*.md
+!/doc/**/*.png
+!/doc/**/*.do
+!/doc/**/*.txt
+
+# QA test infrastructure (scripts only)
+!/qa/*.txt
+!/qa/*.md
+!/qa/*.do
+!/qa/fixtures/
+!/qa/fixtures/*.tar.gz
+!/qa/fixtures/*.do
+
+# Test scripts
+!/tests/*.do
+!/tests/*.py
+
+# SSC distribution package
+!/ssc/
+!/ssc/*.zip
+!/ssc/*.ps1
+!/ssc/*.md
+!/ssc/*.pkg
+!/ssc/*.toc
+
+# Paper (published PDF only - LaTeX sources are private)
+!/paper/*.pdf
+
+#######################
+# Always ignore log files everywhere
+*.log
+
+# Ignore LaTeX temporary files (should not arrive, but defense-in-depth)
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+
+# Ignore development artifacts
+_archive/
+
+#######################
+# Credentials and secrets
+password.*
+passwords.*
+password/
+passwords/
+
+#######################
+# Defense-in-depth: block private content that should never appear
+# in the public repo. Primary protection is the whitelist workflow;
+# these rules are a second safety layer.
+archive/
+internal/
+drafts/
+benchmarks/
+personal/
+data/
+config/
+logs/
+scripts/
+eb1a/
+_drafts/
+_deprecated/
+.github/copilot-instructions.md
+.github/copilot/
+.github/prompts/
+.github/workflows/sync-to-public.yml
+.github/workflows/update-metadata.yml
+ssc/submission_email.md

@@ -551,3 +551,56 @@ Tests:    65 run, 65 passed, 0 failed
 Result:   ALL TESTS PASSED
 Log:      test_results_v18.0.0_9Feb2026.log
 ======================================================================
+
+======================================================================
+Test Run: 10 Feb 2026
+Started:  16:50:40
+Ended:    16:55:44
+Duration: 5m 4s
+Version:  18.1.0
+Build:    10Feb2026
+Stata:    17
+Tests:    89 run, 88 passed, 1 failed
+Result:   FAILED
+Failed:   ERR-06
+Log:      test_results_v18.1.0_10Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 10 Feb 2026
+Started:  17:32:41
+Ended:    17:37:44
+Duration: 5m 3s
+Version:  18.1.0
+Build:    10Feb2026
+Stata:    17
+Tests:    88 run, 88 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.1.0_10Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 10 Feb 2026
+Started:  17:39:31
+Ended:    17:43:22
+Duration: 3m 51s
+Version:  18.1.0
+Build:    10Feb2026
+Stata:    17
+Tests:    89 run, 89 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.1.0_10Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 10 Feb 2026
+Started:  17:44:44
+Ended:    17:49:48
+Duration: 5m 4s
+Version:  18.1.0
+Build:    10Feb2026
+Stata:    17
+Tests:    89 run, 89 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.1.0_10Feb2026.log
+======================================================================

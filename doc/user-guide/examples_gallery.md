@@ -6,7 +6,7 @@
 
 This gallery showcases `wbopendata` capabilities with the exact code used to generate the output figures.
 
-**Version**: 17.7.1 | **Last Updated**: January 2026
+**Version**: 18.0.0 | **Last Updated**: February 2026
 
 > **Note**: Some examples require user-written commands (`spmap`, `alorenz`). Install them with:
 > ```stata
