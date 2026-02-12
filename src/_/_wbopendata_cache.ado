@@ -36,7 +36,7 @@ program define _wbopendata_cache, rclass
             di as text ""
             di as error "Metadata files not found in adopath."
             di as text  "Please reinstall the package:"
-            di as text  `"  {stata net install wbopendata, from("C:\GitHub\myados\wbopendata-dev\src") replace force}"'
+            di as text  `"  {stata net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main/src") replace force}"'
             di as text  ""
             di as text  "Or from SSC:"
             di as text  `"  {stata ssc install wbopendata, replace}"'

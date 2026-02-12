@@ -100,9 +100,41 @@ class YAMLGenerator:
                 'limited_data': False
             }
         
-        # Calculate checksum
-        yaml_str = yaml.dump(yaml_data, allow_unicode=True, sort_keys=False)
-        checksum = hashlib.sha256(yaml_str.encode('utf-8')).hexdigest()
+        # Calculate checksum from the exact bytes that will be written
+        # Use the same dumper/representer as _write_yaml
+        import io
+        
+        def _wrap_long_text(value: str) -> str:
+            if len(value) <= 200 or " " not in value:
+                return value
+            return textwrap.fill(
+                value,
+                width=120,
+                break_long_words=False,
+                break_on_hyphens=False,
+            )
+
+        def str_representer(dumper, data):
+            wrapped = _wrap_long_text(data)
+            if "\n" in wrapped:
+                return dumper.represent_scalar('tag:yaml.org,2002:str', wrapped, style='>')
+            return dumper.represent_scalar('tag:yaml.org,2002:str', wrapped)
+        
+        yaml.add_representer(str, str_representer, Dumper=yaml.SafeDumper)
+        
+        # Serialize YAML content (without header for now)
+        yaml_content = io.StringIO()
+        yaml.safe_dump(
+            yaml_data,
+            yaml_content,
+            allow_unicode=True,
+            sort_keys=False,
+            default_flow_style=False,
+            width=10000,
+        )
+        
+        # Compute checksum from YAML content only (excluding header to match validation logic)
+        checksum = hashlib.sha256(yaml_content.getvalue().encode('utf-8')).hexdigest()
         yaml_data['_metadata']['checksum_sha256'] = checksum
         
         # Write to file

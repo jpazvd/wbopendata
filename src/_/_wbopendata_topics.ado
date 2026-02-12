@@ -31,11 +31,11 @@ program define _wbopendata_topics, rclass
 
         * Detect topic entry lines: lines like '1': or '21':
         * After infix strips whitespace, these start with quote and end with colon
-        gen byte is_topic = regexm(rawline, "^'[0-9]+':")
+        gen byte is_topic = regexm(strtrim(rawline), "^'[0-9]+':")
 
         * Extract topic code
         gen str10 topic_code = ""
-        replace topic_code = regexs(1) if regexm(rawline, "^'([0-9]+)':")
+        replace topic_code = regexs(1) if regexm(strtrim(rawline), "^'([0-9]+)':")
 
         * Propagate topic code to field lines
         gen long topic_group = sum(is_topic)

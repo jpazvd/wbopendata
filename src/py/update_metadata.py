@@ -204,13 +204,20 @@ def main():
         # Diff summary
         if args.diff and config.get("diff", {}).get("enabled", True):
             logger.info("\n[5/5] Diff summary vs previous files")
-            for variant, new_path in output_files.items():
-                old_keys = previous_keys.get(variant, set())
-                new_keys = diff_analyzer.load_keys(new_path, section=variant)
+            # Map output_files keys (e.g., "indicators_file") to section names (e.g., "indicators")
+            key_mapping = {
+                "indicators_file": "indicators",
+                "sources_file": "sources",
+                "topics_file": "topics",
+            }
+            for file_key, new_path in output_files.items():
+                section = key_mapping.get(file_key, file_key)
+                old_keys = previous_keys.get(section, set())
+                new_keys = diff_analyzer.load_keys(new_path, section=section)
                 summary = diff_analyzer.summarize(old_keys, new_keys)
                 logger.info(
                     "%s: before=%d after=%d added=%d removed=%d",
-                    variant,
+                    section,
                     summary["before"],
                     summary["after"],
                     summary["added"],
