@@ -9,10 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-n      - name: Set up Python
+        with:
+          fetch-depth: 0
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
       - name: Run ADO/STHLP version checks
         run: |
-          python scripts/check_changed_ado_files.py
+          python scripts/check_versions.py origin/main

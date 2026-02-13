@@ -22,12 +22,12 @@ Package release rules
 3. Release type (patch/minor/major) is determined by the highest-impact change included.
 
 Automation
-- `scripts/update_component_versions.py` — scans repository headers and outputs a `COMPONENT_VERSIONS.yaml` mapping.
+- `scripts/update_component_versions.py` — scans repository headers and outputs a `src/_/__COMPONENT_VERSIONS.yaml` mapping.
 - `scripts/check_versions.py <base-ref>` — ensures modified files in a diff have a version bump compared to `<base-ref>`.
 
 Workflow checklist for contributors
 - Before opening PR: bump headers for modified files.
-- Run `python scripts/update_component_versions.py > src/_/COMPONENT_VERSIONS.yaml` and commit.
+- Run `python scripts/update_component_versions.py > src/_/__COMPONENT_VERSIONS.yaml` and commit.
 - Add entry to `CHANGELOG.md` with component versions and user-facing notes.
 - For release PRs: update `CITATION.cff` and `src/w/wbopendata.ado` package header to the new version.
 - Tag release with `git tag -a vX.Y.Z -m "Release vX.Y.Z"` and push.

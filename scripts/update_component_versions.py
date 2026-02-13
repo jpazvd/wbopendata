@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate a COMPONENT_VERSIONS.yaml mapping of source files to their header versions.
 
-Usage: python scripts/update_component_versions.py > src/_/COMPONENT_VERSIONS.yaml
+Usage: python scripts/update_component_versions.py > src/_/__COMPONENT_VERSIONS.yaml
 """
 import re
 import sys
@@ -43,7 +43,7 @@ def main():
     for f in files:
         v = extract_version(f)
         if v:
-            rel = f.relative_to(ROOT)
+            rel = f.relative_to(ROOT).as_posix()
             out.append(f"  {rel}: {v}")
     sys.stdout.write("\n".join(out) + "\n")
 
