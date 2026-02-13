@@ -204,9 +204,16 @@ def main():
         # Diff summary
         if args.diff and config.get("diff", {}).get("enabled", True):
             logger.info("\n[5/5] Diff summary vs previous files")
+            # Map generate_all() keys to section names used by snapshot()
+            key_to_section = {
+                "indicators_file": "indicators",
+                "sources_file": "sources",
+                "topics_file": "topics",
+            }
             for variant, new_path in output_files.items():
-                old_keys = previous_keys.get(variant, set())
-                new_keys = diff_analyzer.load_keys(new_path, section=variant)
+                section = key_to_section.get(variant, variant)
+                old_keys = previous_keys.get(section, set())
+                new_keys = diff_analyzer.load_keys(new_path, section=section)
                 summary = diff_analyzer.summarize(old_keys, new_keys)
                 logger.info(
                     "%s: before=%d after=%d added=%d removed=%d",
