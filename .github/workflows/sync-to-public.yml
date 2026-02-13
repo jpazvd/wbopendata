@@ -23,6 +23,11 @@ jobs:
 
           # Core Stata package (the main deliverable)
           [ -d src ] && cp -r src sync-staging/ && echo "  src/"
+          # Remove internal-only component manifest from public staging
+          if [ -f sync-staging/src/_/__COMPONENT_VERSIONS.yaml ]; then
+            rm -f sync-staging/src/_/__COMPONENT_VERSIONS.yaml
+            echo "  Removed internal manifest: src/_/__COMPONENT_VERSIONS.yaml"
+          fi
 
           # Documentation
           [ -d doc ] && cp -r doc sync-staging/ && echo "  doc/"
@@ -121,6 +126,7 @@ jobs:
             "sync-staging/scripts"
             "sync-staging/.github"
             "sync-staging/paper/*.tex"
+            "sync-staging/src/_/__COMPONENT_VERSIONS.yaml"
           )
 
           for item in "${PRIVATE_ITEMS[@]}"; do
