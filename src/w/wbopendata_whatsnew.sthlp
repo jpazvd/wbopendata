@@ -1,7 +1,8 @@
 {smcl}
-{* *! version 18.0.0  05Feb2026}{...}
+{* *! version 18.1.0  10Feb2026}{...}
 {vieweralsosee "wbopendata" "help wbopendata"}{...}
 {viewerjumpto "What's New" "wbopendata_whatsnew##whatsnew"}{...}
+{viewerjumpto "Version 18.1" "wbopendata_whatsnew##v181"}{...}
 {viewerjumpto "Version 18.0" "wbopendata_whatsnew##v180"}{...}
 {viewerjumpto "Version 17.8" "wbopendata_whatsnew##v178"}{...}
 {viewerjumpto "Version 17.7" "wbopendata_whatsnew##v177"}{...}
@@ -19,6 +20,24 @@
 {pstd}
 This file documents recent changes and new features in the {cmd:wbopendata} module.
 For complete documentation, see {help wbopendata:help wbopendata}.
+
+{marker v181}{...}
+{title:Version 18.1.0 (10Feb2026)}
+
+{pstd}
+{bf:Characteristic Metadata} - Indicator metadata (name, description, source, note)
+is now stored as Stata characteristics ({cmd:char}) on the dataset, accessible via
+{cmd:char list} after any download. Use {opt nochar} to suppress.
+
+{pstd}
+{bf:Linewrap Fix} - The {opt linewrap()} option is now passed to {cmd:_query_metadata}
+only when explicitly specified, preventing errors when older subroutine versions
+are installed.
+
+{pstd}
+{bf:Expanded QA Suite} - Test suite expanded from 65 to 89 tests across 16 categories,
+including new CHAR, ERR, EXT, and DET test groups for characteristic metadata,
+error conditions, extreme cases, and deterministic/offline validation.
 
 {marker v180}{...}
 {title:Version 18.0.0 (05Feb2026)}
@@ -42,7 +61,7 @@ listings that required regeneration with each metadata update.
 {bf:Discovery Commands} - New interactive commands for exploring World Bank data:
 
 {p2colset 5 28 30 2}{...}
-{p2col:{opt sources}}List all 51 World Bank data sources with indicator counts{p_end}
+{p2col:{opt sources}}List all 71 World Bank data sources with indicator counts{p_end}
 {p2col:{opt alltopics}}List all 21 topic categories with indicator counts{p_end}
 {p2col:{opt search(string)}}Search indicators by keyword, wildcard, or regex{p_end}
 {p2col:{opt info(code)}}Get detailed metadata for a specific indicator{p_end}

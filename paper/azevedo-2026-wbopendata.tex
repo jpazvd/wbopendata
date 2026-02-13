@@ -42,7 +42,7 @@ jpazvd.github.io%
 % =====================================================================
 \begin{abstract}
 This article examines data provenance in the age of automation, drawing on fifteen years of development and sustained use of \texttt{wbopendata}, the first Stata command to provide programmatic access to an international development data
-repository. Today, \texttt{wbopendata} provides access to over 29{,}000 indicators from 51 databases spanning 296 countries and aggregates, with features including five download modes, multilingual metadata, publication-ready graph formatting, and---as of version~18.0---offline indicator discovery through a YAML-backed metadata architecture and version-controlled metadata synchronization. Its broader contribution lies in treating data acquisition as code: indicator selections, country filters, and time ranges become explicit parameters in analysis scripts rather than undocumented manual downloads---addressing the data provenance dimension of the reproducibility crisis that statistical reforms alone cannot fix. Yet the command has never been more relevant. As AI tools accelerate analytical workflows while enabling plausible fabrication of statistics and citations, anchoring research to authoritative, version-controlled data sources becomes essential infrastructure---not legacy convenience. I document the command's latest syntax and stored results, demonstrate workflows from basic queries to choropleth mapping, and present an 89-scenario test suite. I also discuss risks that frictionless data access can obscure---provenance opacity, coverage gaps masked by convenient defaults, and sustainability pressures---alongside mitigation strategies. I distill three design principles from fifteen years of sustained use: backward compatibility builds trust, domain-specific syntax lowers barriers, and scripted data access makes reproducibility the default rather than the exception.
+repository. Today, \texttt{wbopendata} provides access to over 29{,}000 indicators from 71 databases spanning 296 countries and aggregates, with features including five download modes, multilingual metadata, publication-ready graph formatting, and---as of version~18.0---offline indicator discovery through a YAML-backed metadata architecture and version-controlled metadata synchronization. Its broader contribution lies in treating data acquisition as code: indicator selections, country filters, and time ranges become explicit parameters in analysis scripts rather than undocumented manual downloads---addressing the data provenance dimension of the reproducibility crisis that statistical reforms alone cannot fix. Yet the command has never been more relevant. As AI tools accelerate analytical workflows while enabling plausible fabrication of statistics and citations, anchoring research to authoritative, version-controlled data sources becomes essential infrastructure---not legacy convenience. I document the command's latest syntax and stored results, demonstrate workflows from basic queries to choropleth mapping, and present an 89-scenario test suite. I also discuss risks that frictionless data access can obscure---provenance opacity, coverage gaps masked by convenient defaults, and sustainability pressures---alongside mitigation strategies. I distill three design principles from fifteen years of sustained use: backward compatibility builds trust, domain-specific syntax lowers barriers, and scripted data access makes reproducibility the default rather than the exception.
 
 \keywords{Stata, Open Data, World Bank, APIs, reproducible research, development indicators, metadata}
 \end{abstract}
@@ -264,7 +264,7 @@ The databases accessible through \texttt{wbopendata} include World Development I
 Dimension & Coverage \\
 \hline
 Indicators & 29{,}000+ \\
-Data sources & 51 databases \\
+Data sources & 71 databases \\
 Topic categories & 21 \\
 Countries \& regions & 296 \\
 Country attributes & 17 \\
@@ -421,7 +421,7 @@ full re-download on the next sync or discovery command.
 
 \subsection{Discovery commands (v18.0)}\label{sec:discovery}
 
-Version~18.0 introduces a suite of discovery commands that allow users to explore the World Bank Open Data catalog without downloading data. The discovery architecture follows the model introduced by \texttt{unicefdata} \citep{unicefdata2026}, which pioneered offline catalog browsing with YAML-backed metadata and clickable SMCL navigation in Stata. The \texttt{wbopendata} implementation extends this pattern to the World Bank's 51 data sources and 29{,}000+ indicators.
+Version~18.0 introduces a suite of discovery commands that allow users to explore the World Bank Open Data catalog without downloading data. The discovery architecture follows the model introduced by \texttt{unicefdata} \citep{unicefdata2026}, which pioneered offline catalog browsing with YAML-backed metadata and clickable SMCL navigation in Stata. The \texttt{wbopendata} implementation extends this pattern to the World Bank's 71 data sources and 29{,}000+ indicators.
 
 All discovery outputs feature clickable SMCL links that let users drill down from sources to topics to individual indicators, and then download data with a single click.
 
@@ -918,7 +918,7 @@ Two primary YAML files constitute the metadata catalog:
 
 \hangpara
 \texttt{\_wbopendata\_indicators.yaml} contains metadata for all indicators
-accessible through the World Bank API---over 29{,}000 records spanning 51 data
+accessible through the World Bank API---over 29{,}000 records spanning 71 data
 sources. Each record includes the indicator code, name, source database,
 topic classifications, description, and methodology notes. At approximately
 17~MB and 100{,}000+ lines, this file is the largest component of the local
@@ -1070,7 +1070,7 @@ Fifteen years after the World Bank Open Data Initiative transformed development
 statistics into a global public good, \texttt{wbopendata} continues to function
 as core infrastructure for reproducible empirical research in Stata. The command
 provides stable, programmatic access to over 29{,}000 development indicators from
-51 databases, encapsulating API communication, pagination, caching, and metadata
+71 databases, encapsulating API communication, pagination, caching, and metadata
 management within a single, backward-compatible interface.
 
 This longevity reflects deliberate design choices rather than technical inertia.

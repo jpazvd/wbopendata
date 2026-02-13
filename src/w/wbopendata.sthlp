@@ -1,6 +1,6 @@
 {smcl}
 {hline}
-{* 9Feb2026  }{...}
+{* 10Feb2026  }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
 {right:What's New:  {bf:{help wbopendata_whatsnew:What's New}}}
@@ -12,7 +12,7 @@
 {p2colset 9 24 22 2}{...}
 {p2col :{hi:wbopendata} {hline 2}}World Bank Open Databases.{p_end}
 {p2colreset}{...}
-{pstd}Requires Stata 12 or later.{p_end}
+{pstd}Requires Stata 14 or later.{p_end}
 {title:Syntax}
 
 {p 6 16 2}
@@ -113,7 +113,7 @@ Sections are presented under the following headings:
 {title:Description}
 {pstd}
 
-{p 4 4 2}{cmd:wbopendata} provides Stata users with programmatic access to the World Bank's Open Data API, enabling scripted, reproducible downloads of over 29,000 indicators from 51 databases covering 296 countries and regions from 1960 to present. First released in February 2011, one year after the World Bank Open Data Initiative, {cmd:wbopendata} has maintained backward compatibility across fifteen years of API changes while adding features for metadata inspection, multilingual support, and publication-ready output formatting.{p_end}
+{p 4 4 2}{cmd:wbopendata} provides Stata users with programmatic access to the World Bank's Open Data API, enabling scripted, reproducible downloads of over 29,000 indicators from 71 databases covering 296 countries and regions from 1960 to present. First released in February 2011, one year after the World Bank Open Data Initiative, {cmd:wbopendata} has maintained backward compatibility across fifteen years of API changes while adding features for metadata inspection, multilingual support, and publication-ready output formatting.{p_end}
 
 {p 4 4 2}The command exemplifies data acquisition as code: indicator selections, country lists, time ranges, and filters are explicitly parameterized in analysis scripts rather than buried in manual downloads, ensuring that data provenance is explicit and enabling analyses to be reproduced exactly or systematically updated as new data become available.{p_end}
 
@@ -125,9 +125,9 @@ Sections are presented under the following headings:
 
 {synopt:{opt country}} All WDI indicators for a single country across selected years.{p_end}
 {synopt:{opt topics}} All indicators within a thematic category (e.g., Education, Health) for all countries.{p_end}
-{synopt:{opt indicator}} A single indicator for all countries and years (from any of the 51 databases: 29,000+ series).{p_end}
-{synopt:{opt indicator and country}} A single indicator for selected countries (from any of the 51 databases: 29,000+ series).{p_end}
-{synopt:{opt multiple indicator}} Multiple indicators separated by ; (from any of the 51 databases: 29,000+ series).{p_end}
+{synopt:{opt indicator}} A single indicator for all countries and years (from any of the 71 databases: 29,000+ series).{p_end}
+{synopt:{opt indicator and country}} A single indicator for selected countries (from any of the 71 databases: 29,000+ series).{p_end}
+{synopt:{opt multiple indicator}} Multiple indicators separated by ; (from any of the 71 databases: 29,000+ series).{p_end}
 
 {p 4 4 2}Users can also choose to have the data displayed in either the {cmd:wide} or {cmd:long} format (wide is the default option).
 Note that the reshape is done on the local machine, so it will require the appropriate amount of RAM to work properly.{p_end}
@@ -312,7 +312,7 @@ sources to topics to individual indicators, and then download data with a single
 The discovery architecture in {cmd:wbopendata} follows the model introduced by {cmd:{help unicefdata}}
 (Azevedo, 2026), which pioneered offline catalog browsing with YAML-backed metadata, keyword search,
 and clickable SMCL navigation in Stata. The {cmd:wbopendata} implementation extends this pattern to
-the World Bank's 51 data sources and 29,000+ indicators.{p_end}
+the World Bank's 71 data sources and 29,000+ indicators.{p_end}
 
 {dlgtab:List Sources}
 
@@ -545,7 +545,7 @@ Column widths automatically adjust to your terminal's {cmd:linesize}.{p_end}
 {title:Indicators by Source}
 
 {pstd}
-World Bank data is organized across 51 sources (databases). Use the {opt sources}
+World Bank data is organized across 71 sources (databases). Use the {opt sources}
 discovery command to list all sources with indicator counts and clickable navigation:{p_end}
 
 {p 8 12}{stata "wbopendata, sources" :. wbopendata, sources}{p_end}
