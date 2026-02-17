@@ -1,0 +1,78 @@
+. * Download indicators with linewrap option for graph-ready metadata
+. * Returns r(name#_stack), r(description#_stack), r(sourcecite#), r(latest)
+. wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest ///
+      linewrap(name description note) maxlength(40 160)
+
+    Metadata for indicator SI.POV.DDAY
+--------------------------------------------------------------------------------
+    Name: Poverty headcount ratio at $3.00 a day (2021 PPP) (% of
+    population)
+--------------------------------------------------------------------------------
+    Collection: 2 World Development Indicators
+--------------------------------------------------------------------------------
+    Description: Poverty headcount ratio at $3.00 a day is the percentage of
+    the population living on less than $3.00 a day at 2021 purchasing power
+    adjusted prices. As a result of revisions in PPP exchange rates, poverty
+    rates for individual countries cannot be compared with poverty rates
+    reported in earlier editions.
+--------------------------------------------------------------------------------
+    Note: World Bank, Poverty and Inequality Platform. Data are based on
+    primary household survey data obtained from government statistical
+    agencies and World Bank country departments. Data for high-income
+    economies are mostly from the Luxembourg Income Study database. For more
+    information and methodology, please see http://pip.worldbank.org., World
+    Bank (WB), uri: http://pip.worldbank.org, note: Data are based on
+    primary household survey data obtained from government statistical
+    agencies and World Bank country departments. Data for high-income
+    economies are mostly from the Luxembourg Income Study database.
+--------------------------------------------------------------------------------
+    Topic(s): 11 Poverty ; 2 Aid Effectiveness ; 19 Climate Change
+--------------------------------------------------------------------------------
+
+    Metadata for indicator SH.DYN.MORT
+--------------------------------------------------------------------------------
+    Name: Mortality rate, under-5 (per 1,000 live births)
+--------------------------------------------------------------------------------
+    Collection: 2 World Development Indicators
+--------------------------------------------------------------------------------
+    Description: Under-five mortality rate is the probability per 1,000 that
+    a newborn baby will die before reaching age five, if subject to
+    age-specific mortality rates of the specified year.
+--------------------------------------------------------------------------------
+    Note: UN Inter-agency Group for Child Mortality Estimation, UN
+    Children's Fund (UNICEF), uri: http://www.childmortality.org, publisher:
+    UNICEF, WHO, World Bank, United Nations Population Division;
+--------------------------------------------------------------------------------
+    Topic(s):
+--------------------------------------------------------------------------------
+
+. * Display wrapped metadata available for graph annotations
+. return list
+
+macros:
+               r(name) : "si_pov_dday  sh_dyn_mort"
+        r(latest_year) : "2023"
+     r(latest_avgyear) : "   2019.6"
+  r(latest_ncountries) : "186"
+             r(latest) : "Latest Available Year, 186 countries (avg year    .."
+          r(indicator) : "SI.POV.DDAY; SH.DYN.MORT"
+              r(time2) : "year"
+          r(varlabel2) : "Mortality rate, under-5 (per 1,000 live births)"
+            r(source2) : "2 World Development Indicators"
+         r(indicator2) : "SH.DYN.MORT"
+           r(varname2) : "sh_dyn_mort"
+        r(sourcecite2) : "UN Inter-agency Group for Child Mortality Estimati.."
+        r(note2_stack) : ""UN Inter-agency Group for Child Mortality Estimat.."
+  r(description2_stac
+    k)                 : ""Under-five mortality rate is the probability per .."
+        r(name2_stack) : ""Mortality rate, under-5 (per 1,000" "live births)""
+              r(time1) : "year"
+          r(varlabel1) : "Poverty headcount ratio at $3.00 a day (2021 PPP) .."
+            r(source1) : "2 World Development Indicators"
+         r(indicator1) : "SI.POV.DDAY"
+           r(varname1) : "si_pov_dday"
+        r(sourcecite1) : "World Bank"
+        r(note1_stack) : ""World Bank, Poverty and Inequality Platform. Data.."
+  r(description1_stac
+    k)                 : ""Poverty headcount ratio at $3.00 a day is the per.."
+        r(name1_stack) : ""Poverty headcount ratio at $3.00 a day" "(2021 PP.."
