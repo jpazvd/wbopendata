@@ -24,22 +24,22 @@ components:
   src\_\_wbopendata_cache_clear.ado: 1.0.0
   src\_\_wbopendata_cache_info.ado: 1.0.0
   src\_\_wbopendata_check_version.ado: 1.0.0
-  src\_\_wbopendata_download_yaml.ado: 1.0.0
+  src\_\_wbopendata_download_yaml.ado: 1.0.1
   src\_\_wbopendata_get_yaml_path.ado: 1.2.0
   src\_\_wbopendata_indicators.yaml: 2.0.0
   src\_\_wbopendata_info.ado: 2.4.0
   src\_\_wbopendata_parameters.yaml: 1.0.0
   src\_\_wbopendata_refresh_yaml.ado: 1.0.0
   src\_\_wbopendata_search.ado: 3.0.0
-  src\_\_wbopendata_sources.ado: 1.1.0
+  src\_\_wbopendata_sources.ado: 1.1.1
   src\_\_wbopendata_sources.yaml: 2.0.0
   src\_\_wbopendata_sync.ado: 1.0.0
   src\_\_wbopendata_sync_preview.ado: 1.2.0
-  src\_\_wbopendata_topics.ado: 1.2.0
+  src\_\_wbopendata_topics.ado: 1.2.1
   src\_\_wbopendata_topics.yaml: 2.0.0
   src\_\_wbopendata_write_stats_history.ado: 1.0.0
   src\_\_website.ado: 15.5
-  src\w\wbopendata.ado: 18.1.0
+  src\w\wbopendata.ado: 18.1.1
   src\w\wbopendata_populate_list.ado: 10
   src\y\yaml.ado: 1.3.1
   ssc\v13.5\_\_query.ado: 13.4

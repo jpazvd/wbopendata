@@ -1,10 +1,10 @@
 {smcl}
 {hline}
-{* 10Feb2026  }{...}
+{* 17Feb2026  }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
 {right:What's New:  {bf:{help wbopendata_whatsnew:What's New}}}
-{right: {bf:version 18.1.0}}
+{right: {bf:version 18.1.1}}
 {hline}
 
 {title:Title}
@@ -802,7 +802,7 @@ Use {opt nochar} to suppress all {cmd:char} writes.{p_end}
 {synoptset 30 tabbed}{...}
 {p2col 5 30 34 2: Characteristic}{p_end}
 {synoptline}
-{synopt:{cmd:_dta[wbopendata_version]}}Package version (e.g., 18.1.0){p_end}
+{synopt:{cmd:_dta[wbopendata_version]}}Package version (e.g., 18.1.1){p_end}
 {synopt:{cmd:_dta[wbopendata_timestamp]}}Date and time of download{p_end}
 {synopt:{cmd:_dta[wbopendata_user]}}Stata username at download time{p_end}
 {synopt:{cmd:_dta[wbopendata_syntax]}}Exact command syntax used{p_end}
