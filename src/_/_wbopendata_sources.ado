@@ -1,5 +1,5 @@
 *******************************************************************************
-*! _wbopendata_sources v1.1.0  04Feb2026
+*! _wbopendata_sources v1.1.1  17Feb2026
 *! List all World Bank data sources with navigation (Pathway C)
 *******************************************************************************
 
@@ -31,11 +31,11 @@ program define _wbopendata_sources, rclass
 
         * Detect source entry lines: lines like '1': or '37':
         * After infix strips whitespace, these start with quote and end with colon
-        gen byte is_source = regexm(rawline, "^'[0-9]+':")
+        gen byte is_source = regexm(strtrim(rawline), "^'[0-9]+':")
 
         * Extract source code
         gen str10 src_code = ""
-        replace src_code = regexs(1) if regexm(rawline, "^'([0-9]+)':")
+        replace src_code = regexs(1) if regexm(strtrim(rawline), "^'([0-9]+)':")
 
         * Propagate source code to field lines
         gen long src_group = sum(is_source)

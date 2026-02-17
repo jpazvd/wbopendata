@@ -32,13 +32,30 @@ else:
         members = tar.getmembers()
         existing = 0
         extracted = 0
+        skipped = 0
         for m in members:
-            dest = (fixdir / m.name).resolve()
+            # Compute the intended destination for this member
+            dest = fixdir / m.name
+
+            # Resolve the destination and ensure it stays within fixdir to
+            # prevent path traversal via entries like ../../outside.
             try:
-                dest.relative_to(fixdir_resolved)
-            except ValueError:
-                print(f"  [SKIP] path traversal blocked: {m.name}")
+                dest_resolved = dest.resolve()
+                fixdir_resolved = fixdir.resolve()
+                # Check if dest_resolved is within fixdir_resolved
+                try:
+                    dest_resolved.relative_to(fixdir_resolved)
+                except ValueError:
+                    print(f"  [SKIP] Unsafe path outside fixtures dir: {m.name}")
+                    skipped += 1
+                    continue
+            except (OSError, ValueError):
+                print(f"  [SKIP] Unsafe path (unable to normalize): {m.name}")
+                skipped += 1
                 continue
+
+            dest = dest_resolved
+
             if dest.exists() and not m.isdir():
                 existing += 1
                 continue
@@ -50,6 +67,7 @@ else:
 
     Macro.setLocal("_extracted", str(extracted))
     Macro.setLocal("_existing", str(existing))
+    Macro.setLocal("_skipped", str(skipped))
 end
 
 display as text _n "Done: `_extracted' extracted, `_existing' already existed."
