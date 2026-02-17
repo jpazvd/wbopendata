@@ -39,7 +39,7 @@ components:
   src\_\_wbopendata_topics.yaml: 2.0.0
   src\_\_wbopendata_write_stats_history.ado: 1.0.0
   src\_\_website.ado: 15.5
-  src\w\wbopendata.ado: 18.1.0
+  src\w\wbopendata.ado: 18.1.1
   src\w\wbopendata_populate_list.ado: 10
   src\y\yaml.ado: 1.3.1
   ssc\v13.5\_\_query.ado: 13.4

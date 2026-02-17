@@ -1,6 +1,7 @@
 *******************************************************************************
 * wbopendata
-*! v 18.1.0  	 10Feb2026               by Joao Pedro Azevedo
+*! v 18.1.1  	 17Feb2026               by Joao Pedro Azevedo
+*   18.1.1: Copilot PR review fixes: strtrim() in sources/topics, simplified download_yaml, improved checksum, path traversal safety
 *   18.1.0: Added char metadata (default-on, nochar to suppress); deprecated update query/check/all, metadataoffline, syncforce/preview/dryrun with warnings
 *   18.0.0: Deprecated 89 per-indicator sthlp files; replaced with discovery commands (sources, search, info)
 *   17.8.1: Pass detail option through to search for wrapped display format
@@ -834,7 +835,7 @@ local indicator `indicators'
 **********************************************************************************
 
 	if ("`char'" != "nochar") & ("`update'" == "") {
-		char _dta[wbopendata_version]   "18.1.0"
+		char _dta[wbopendata_version]   "18.1.1"
 		char _dta[wbopendata_timestamp] "`c(current_date)' `c(current_time)'"
 		char _dta[wbopendata_user]      "`c(username)'"
 		char _dta[wbopendata_syntax]    `"wbopendata, `0'"'
