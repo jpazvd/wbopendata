@@ -20,13 +20,14 @@ This repo maintains **two separate `wbopendata.pkg` files**:
 
 - **stata.toc** - SSC table of contents
 - **wbopendata.pkg** - SSC package definition (flat paths)
-- **ssc_wbopendata.1800.zip** - Ready-to-submit package for SSC
+- **wbopendata-v18.1.0.zip** - Ready-to-submit package for SSC (v18.1.0)
+- **ssc_wbopendata.1800.zip** - Previous SSC package (v18.0.0, archive)
 - **build_ssc_package.ps1** - PowerShell script to regenerate the package
 
 ## Package Details
 
-**Version:** 18.0.0
-**Distribution Date:** February 10, 2026
+**Version:** 18.1.0
+**Distribution Date:** February 9, 2026
 **Requires:** Stata version 14
 **Total Files:** 59 (2 metadata + 57 distributable)
 **License:** MIT
@@ -106,24 +107,22 @@ This repo maintains **two separate `wbopendata.pkg` files**:
 - `yaml.ado` - YAML parser for Stata
 - `yaml.sthlp` - YAML parser help file
 
-## Key Changes from v17.7.1 to v18.0.0
+## Key Changes
 
-### New Features
+### v18.1.0 (from v18.0.0)
+- **Characteristic metadata**: Persistent `char` provenance on every `.dta` file (dataset and variable-level)
+- **`nochar` option**: Opt out of characteristic metadata
+- **Deterministic testing**: Offline fixture-based reproducible tests (89-test suite)
+- **Deprecated options**: `update query` → `sync`, `update check` → `checkupdate`, `update all` → `sync replace`
+
+### v18.0.0 (from v17.7.1)
 - **Discovery commands**: `sources`, `alltopics`, `search`, `info` replace 89 per-indicator sthlp files
 - **YAML-based architecture**: Parameters, indicators, sources, topics stored as YAML
 - **Cache system**: Frame-based caching for search performance (Stata 16+)
 - **Sync system**: `sync` and `syncpreview` for updating YAML metadata
 - **YAML parser**: Bundled `yaml.ado` library for Stata
-
-### Files Added (24 new files)
-- 1 help file: `wbopendata_whatsnew.sthlp`
-- 19 sub-routine ADOs (cache, discovery, sync, YAML support)
-- 4 YAML metadata files
-
-### Files Removed (3 files)
-- `_wbod_tmpfile1.ado` (no longer needed)
-- `_wbod_tmpfile2.ado` (no longer needed)
-- `_wbod_tmpfile3.ado` (no longer needed)
+- **Files added**: 24 new files (1 help, 19 ADOs, 4 YAML metadata)
+- **Files removed**: 3 obsolete files (`_wbod_tmpfile1/2/3.ado`)
 
 ### Files NOT Included in SSC
 - Python files (`src/py/`) - Developer tools for metadata updates; require Python and specific directory structure incompatible with SSC flat install
@@ -141,7 +140,7 @@ This will:
 1. Create a temporary directory with all package files
 2. Copy files from `src/w/`, `src/_/`, `src/y/`, `src/c/`, `src/i/`
 3. Flatten everything into a single directory
-4. Create `ssc_wbopendata.1800.zip` in the `ssc/` folder
+4. Create `wbopendata-v18.1.0.zip` in the `ssc/` folder
 5. Clean up temporary files
 
 ## Important Notes
@@ -150,7 +149,7 @@ This will:
 The `_wbopendata_indicators.yaml` file is ~18 MB (29,323 indicators). This is the largest file in the package and is essential for the discovery commands (search, info).
 
 ### Stata Version Requirement
-v18.0.0 requires Stata 14+ (up from Stata 12 in previous versions). The frame-based search cache requires Stata 16+ but gracefully degrades on older versions.
+v18.1.0 requires Stata 14+ (up from Stata 12 in previous versions). The frame-based search cache requires Stata 16+ but gracefully degrades on older versions.
 
 ### Auto-Generated Files NOT Included
 The following files are **generated locally** and should NOT be distributed:
