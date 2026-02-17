@@ -1,5 +1,5 @@
 *******************************************************************************
-*! _wbopendata_download_yaml v1.0.0  20Jan2026
+*! _wbopendata_download_yaml v1.0.1  17Feb2026
 *! Download metadata YAML files from GitHub (Pathway C)
 *******************************************************************************
 
@@ -23,8 +23,15 @@ program define _wbopendata_download_yaml, rclass
     file close `fh'
     capture erase "`test_file'"
 
-    * --- Download YAML metadata from the public repo (main branch) ---
-    local base "https://raw.githubusercontent.com/jpazvd/wbopendata/main/src/_"
+    * --- Download YAML metadata from the public repo ---
+    * Use version-specific tag if provided, otherwise use main branch
+    local ver "`version'"
+    if ("`ver'" != "" & "`ver'" != "forced") {
+        local base "https://raw.githubusercontent.com/jpazvd/wbopendata/v`ver'/src/_"
+    }
+    else {
+        local base "https://raw.githubusercontent.com/jpazvd/wbopendata/main/src/_"
+    }
     local files "indicators sources topics"
 
     foreach f of local files {
@@ -39,7 +46,6 @@ program define _wbopendata_download_yaml, rclass
     }
 
     * --- Record version & timestamp ---
-    local ver "`version'"
     if ("`ver'" == "") local ver "forced"
 
     tempname vfh

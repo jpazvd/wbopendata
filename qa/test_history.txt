@@ -604,3 +604,29 @@ Tests:    89 run, 89 passed, 0 failed
 Result:   ALL TESTS PASSED
 Log:      test_results_v18.1.0_10Feb2026.log
 ======================================================================
+
+======================================================================
+Test Run: 17 Feb 2026
+Started:  17:37:16
+Ended:    17:41:54
+Duration: 4m 38s
+Version:  18.1.0
+Build:    10Feb2026
+Stata:    17
+Tests:    89 run, 89 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.1.0_17Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 17 Feb 2026
+Started:  18:08:36
+Ended:    18:12:46
+Duration: 4m 10s
+Version:  18.1.1
+Build:    17Feb2026
+Stata:    17
+Tests:    89 run, 89 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.1.1_17Feb2026.log
+======================================================================

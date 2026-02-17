@@ -1,6 +1,6 @@
 ﻿# WBOPENDATA: Stata module to access World Bank databases
 
-[![GitHub release](https://img.shields.io/github/v/release/jpazvd/wbopendata)](https://github.com/jpazvd/wbopendata/releases)
+[![GitHub tag](https://img.shields.io/github/v/tag/jpazvd/wbopendata)](https://github.com/jpazvd/wbopendata/releases)
 [![SSC install](https://img.shields.io/badge/SSC-install-blue)](https://ideas.repec.org/c/boc/bocode/s457234.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub issues](https://img.shields.io/github/issues/jpazvd/wbopendata)](https://github.com/jpazvd/wbopendata/issues)
@@ -53,7 +53,7 @@ The access to these databases is made possible by the World Bank's [Open Data In
 
 ## Installation
 
-**Minimum requirement:** Stata 12 or later.
+**Minimum requirement:** Stata 14 or later.
 
 ### From GitHub (Recommended)
 
@@ -72,8 +72,8 @@ ssc install wbopendata, replace
 ### From GitHub (Specific Release)
 
 ```stata
-* Install v18.1.0 specifically
-net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v18.1.0") replace
+* Install v18.1.1 specifically
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v18.1.1") replace
 ```
 
 ### From Local Clone
@@ -85,15 +85,17 @@ net install wbopendata, from("C:/GitHub/myados/wbopendata") replace
 net install wbopendata, from("/Users/username/GitHub/wbopendata") replace
 ```
 
-> **Note:** The root `wbopendata.pkg` references files via `src/` paths (e.g., `src/w/wbopendata.ado`).
-> The `src/wbopendata.pkg` uses relative paths for direct `src/`-level installs.
+> **Note:** The **wbopendata project** maintains three `wbopendata.pkg` files:
+> - `wbopendata.pkg` (root): For GitHub/local `net install` — uses `src/` paths
+> - `src/wbopendata.pkg`: For direct `src/`-level installs — uses relative paths
+> - `ssc/wbopendata.pkg` *(in private `wbopendata-dev` only, not in this public repo)*: For SSC submission — uses flat paths (included in zip)
 
 ### SSC vs GitHub Versions
 
-| Channel | Version        | Indicators | Notes                              |
-|---------|----------------|------------|------------------------------------|
-| **SSC** | v17.7.1 (2025) | ~20,000    | Stable, one release behind GitHub  |
-| **GitHub** | v18.1.0 (2026) | 29,000+ | Latest features, active development |
+| Channel    | Version        | Indicators | Notes                               |
+|------------|----------------|------------|-------------------------------------|
+| **SSC**    | v17.7.1 (2025) | ~20,000    | Stable, one release behind GitHub   |
+| **GitHub** | v18.1.1 (2026) | 29,000+    | Latest features, active development |
 
 > **Recommendation:** Install from GitHub for full functionality including `match()`, `linewrap()`, multiple indicators, and 29,000+ indicators.
 
