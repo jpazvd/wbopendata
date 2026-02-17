@@ -1,105 +1,242 @@
-*! _parameters <4 Jan 2026 : 13:05:24>    João Pedro Azevedo 
+*******************************************************************************
+*! _parameters v2.0.0  04Feb2026
+*! Read wbopendata parameters from YAML (replaces hardcoded return values)
+*! Returns identical r() interface for backward compatibility
+*******************************************************************************
 
 program define _parameters, rclass
 
-version 9
+    version 14.0
 
-             return add
+    return add
 
+    *---------------------------------------------------------------------------
+    * Locate the parameters YAML file
+    *---------------------------------------------------------------------------
+    _wbopendata_get_yaml_path, type(parameters)
+    local yaml_path = r(path)
 
-             return local total = 20147 
+    if (!fileexists("`yaml_path'")) {
+        di as error "_wbopendata_parameters.yaml not found"
+        di as text "Expected at: `yaml_path'"
+        exit 601
+    }
 
-             return local sourceid01 = 127 
-             return local sourceid02 = 781 
-             return local sourceid11 = 654 
-             return local sourceid12 = 2656 
-             return local sourceid13 = 115 
-             return local sourceid14 = 375 
-             return local sourceid15 = 31 
-             return local sourceid18 = 1 
-             return local sourceid19 = 11 
-             return local sourceid20 = 564 
-             return local sourceid22 = 1800 
-             return local sourceid23 = 256 
-             return local sourceid27 = 1 
-             return local sourceid28 = 2937 
-             return local sourceid29 = 2847 
-             return local sourceid30 = 98 
-             return local sourceid32 = 108 
-             return local sourceid33 = 128 
-             return local sourceid34 = 678 
-             return local sourceid35 = 11 
-             return local sourceid37 = 211 
-             return local sourceid40 = 189 
-             return local sourceid41 = 185 
-             return local sourceid43 = 2 
-             return local sourceid45 = 160 
-             return local sourceid46 = 2 
-             return local sourceid57 = 671 
-             return local sourceid59 = 146 
-             return local sourceid60 = 2 
-             return local sourceid61 = 4 
-             return local sourceid63 = 27 
-             return local sourceid64 = 302 
-             return local sourceid65 = 315 
-             return local sourceid66 = 12 
-             return local sourceid69 = 347 
-             return local sourceid70 = 2 
-             return local sourceid71 = 36 
-             return local sourceid73 = 19 
-             return local sourceid75 = 8 
-             return local sourceid78 = 44 
-             return local sourceid79 = 21 
-             return local sourceid80 = 6 
-             return local sourceid81 = 532 
-             return local sourceid82 = 111 
-             return local sourceid86 = 746 
-             return local sourceid87 = 392 
-             return local sourceid88 = 42 
-             return local sourceid89 = 58 
-             return local sourceid91 = 43 
-             return local sourceid92 = 1333 
-             return local sourceid93 = 42 
-             return local topicid01 = 40 
-             return local topicid02 = 66 
-             return local topicid03 = 306 
-             return local topicid04 = 394 
-             return local topicid05 = 49 
-             return local topicid06 = 165 
-             return local topicid07 = 178 
-             return local topicid08 = 88 
-             return local topicid09 = 73 
-             return local topicid10 = 1485 
-             return local topicid11 = 108 
-             return local topicid12 = 104 
-             return local topicid13 = 112 
-             return local topicid14 = 9 
-             return local topicid15 = 2 
-             return local topicid16 = 22 
-             return local topicid17 = 19 
-             return local topicid18 = 16 
-             return local topicid19 = 72 
-             return local topicid20 = 516 
-             return local topicid21 = 62 
-             return local topicidtopicID = 147 
+    *---------------------------------------------------------------------------
+    * Parse the YAML file using infix
+    *---------------------------------------------------------------------------
+    preserve
+    quietly {
+        infix str500 rawline 1-500 using "`yaml_path'", clear
+        gen long linenum = _n
 
-             return local sourcereturn  "sourceid01 sourceid02 sourceid11 sourceid12 sourceid13 sourceid14 sourceid15 sourceid18 sourceid19 sourceid20 sourceid22 sourceid23 sourceid27 sourceid28 sourceid29 sourceid30 sourceid32 sourceid33 sourceid34 sourceid35 sourceid37 sourceid40 sourceid41 sourceid43 sourceid45 sourceid46 sourceid57 sourceid59 sourceid60 sourceid61 sourceid63 sourceid64 sourceid65 sourceid66 sourceid69 sourceid70 sourceid71 sourceid73 sourceid75 sourceid78 sourceid79 sourceid80 sourceid81 sourceid82 sourceid86 sourceid87 sourceid88 sourceid89 sourceid91 sourceid92 sourceid93" 
+        * Skip comment lines
+        gen byte is_comment = substr(strtrim(rawline), 1, 1) == "#"
 
-             return local topicreturn  "topicid01 topicid02 topicid03 topicid04 topicid05 topicid06 topicid07 topicid08 topicid09 topicid10 topicid11 topicid12 topicid13 topicid14 topicid15 topicid16 topicid17 topicid18 topicid19 topicid20 topicid21 topicidtopicID" 
+        *-----------------------------------------------------------------------
+        * Track which section we're in (sources vs topics vs top-level)
+        *-----------------------------------------------------------------------
+        gen str10 sec_type = ""
+        replace sec_type = "sources" if rawline == "sources:"
+        replace sec_type = "topics"  if rawline == "topics:"
+        replace sec_type = "flat"    if inlist(rawline, "_metadata:", ///
+            "total:", "number_indicators:", "dt_update:", "dt_lastcheck:", ///
+            "ctrymetadata:", "dt_ctrylastupdate:", "dt_ctrylastcheck:", ///
+            "dt_ctryupdate:")
+        * Forward-fill section type
+        replace sec_type = sec_type[_n-1] if sec_type == "" & _n > 1
 
-             return local sourceid  `"01 Doing Business"' `"02 World Development Indicators"' `"11 Africa Development Indicators"' `"12 Education Statistics"' `"13 Enterprise Surveys"' `"14 Gender Statistics"' `"15 Global Economic Monitor"' `"18 IDA Results Measurement System"' `"19 Millennium Development Goals"' `"20 Quarterly Public Sector Debt"' `"22 Quarterly External Debt Statistics SDDS"' `"23 Quarterly External Debt Statistics GDDS"' `"27 Global Economic Prospects"' `"28 Global Findex database"' `"29 The Atlas of Social Protection: Indicators of Resilience and Equity"' `"30 Exporter Dynamics Database – Indicators at Country-Year Level"' `"32 Global Financial Development"' `"33 G20 Financial Inclusion Indicators"' `"34 Global Partnership for Education"' `"35 Sustainable Energy for All"' `"37 LAC Equity Lab"' `"40 Population estimates and projections"' `"41 Country Partnership Strategy for India (FY2013 - 17)"' `"43 Adjusted Net Savings"' `"45 Indonesia Database for Policy and Economic Research"' `"46 Sustainable Development Goals"' `"57 WDI Database Archives"' `"59 Wealth Accounts"' `"60 Economic Fitness"' `"61 PPPs Regulatory Quality"' `"63 Human Capital Index"' `"64 Worldwide Bureaucracy Indicators"' `"65 Health Equity and Financial Protection Indicators"' `"66 Logistics Performance Index"' `"69 Global Financial Inclusion and Consumer Protection Survey"' `"70 Economic Fitness 2"' `"71 International Comparison Program (ICP) 2005"' `"73 Global Financial Inclusion and Consumer Protection Survey (Internal)"' `"75 Environment, Social and Governance (ESG) Data"' `"78 ICP 2017"' `"79 PEFA_GRPFM"' `"80 Gender Disaggregated Labor Database (GDLD)"' `"81  International Debt Statistics: DSSI"' `"82 Global Public Procurement"' `"86 Global Jobs Indicators Database (JOIN)"' `"87 Country Climate and Development Report (CCDR)"' `"88 Food Prices for Nutrition"' `"89 Identification for Development (ID4D) Data"' `"91 PEFA_CRPFM"' `"92 Disability Data Hub (DDH)"' `"93 FPN Datahub Archive"' 
+        *-----------------------------------------------------------------------
+        * Extract key-value pairs
+        *-----------------------------------------------------------------------
+        gen int colon_pos = strpos(rawline, ":")
+        gen str30 field_key = ""
+        gen str244 field_val = ""
+        replace field_key = strtrim(substr(rawline, 1, colon_pos - 1)) ///
+            if colon_pos > 0 & !is_comment
+        replace field_val = strtrim(substr(rawline, colon_pos + 1, .)) ///
+            if colon_pos > 0 & !is_comment
+        * Remove surrounding quotes from values
+        replace field_val = substr(field_val, 2, length(field_val) - 2) ///
+            if (substr(field_val, 1, 1) == "'" | substr(field_val, 1, 1) == `"""') ///
+            & length(field_val) >= 2
 
-             return local topicid  `"01 Agriculture and Rural Development"' `"02 Aid Effectiveness"' `"03 Economy and Growth"' `"04 Education"' `"05 Energy and Mining"' `"06 Environment"' `"07 Financial Sector"' `"08 Health"' `"09 Infrastructure"' `"10 Social Protection and Labor"' `"11 Poverty"' `"12 Private Sector"' `"13 Public Sector"' `"14 Science and Technology"' `"15 Social Development"' `"16 Urban Development"' `"17 Gender"' `"18 Millenium development goals"' `"19 Climate Change"' `"20 External Debt"' `"21 Trade"' `"topicID"' 
+        *-----------------------------------------------------------------------
+        * Extract flat scalars (top-level key-value pairs)
+        *-----------------------------------------------------------------------
+        local total = ""
+        local number_indicators = ""
+        local dt_update = ""
+        local dt_lastcheck = ""
+        local ctrymetadata = ""
+        local dt_ctrylastupdate = ""
+        local dt_ctrylastcheck = ""
+        local dt_ctryupdate = ""
 
+        count if field_key == "total" & sec_type != "sources" & sec_type != "topics"
+        if (r(N) > 0) {
+            sum linenum if field_key == "total" & sec_type != "sources" & sec_type != "topics", meanonly
+            local total = field_val[`r(min)']
+        }
+        count if field_key == "number_indicators"
+        if (r(N) > 0) {
+            sum linenum if field_key == "number_indicators", meanonly
+            local number_indicators = field_val[`r(min)']
+        }
+        count if field_key == "dt_update"
+        if (r(N) > 0) {
+            sum linenum if field_key == "dt_update", meanonly
+            local dt_update = field_val[`r(min)']
+        }
+        count if field_key == "dt_lastcheck"
+        if (r(N) > 0) {
+            sum linenum if field_key == "dt_lastcheck", meanonly
+            local dt_lastcheck = field_val[`r(min)']
+        }
+        count if field_key == "ctrymetadata"
+        if (r(N) > 0) {
+            sum linenum if field_key == "ctrymetadata", meanonly
+            local ctrymetadata = field_val[`r(min)']
+        }
+        count if field_key == "dt_ctrylastupdate"
+        if (r(N) > 0) {
+            sum linenum if field_key == "dt_ctrylastupdate", meanonly
+            local dt_ctrylastupdate = field_val[`r(min)']
+        }
+        count if field_key == "dt_ctrylastcheck"
+        if (r(N) > 0) {
+            sum linenum if field_key == "dt_ctrylastcheck", meanonly
+            local dt_ctrylastcheck = field_val[`r(min)']
+        }
+        count if field_key == "dt_ctryupdate"
+        if (r(N) > 0) {
+            sum linenum if field_key == "dt_ctryupdate", meanonly
+            local dt_ctryupdate = field_val[`r(min)']
+        }
 
+        *-----------------------------------------------------------------------
+        * Extract source/topic entries (code, count, name)
+        *-----------------------------------------------------------------------
+        * Detect entry lines: lines matching pattern 'CODE':
+        gen byte is_entry = regexm(rawline, "^'[0-9a-zA-Z]+':")
+        gen str20 entry_code = ""
+        replace entry_code = regexs(1) if regexm(rawline, "^'([0-9a-zA-Z]+)':")
 
-             return local number_indicators = 29323
-             return local dt_update "4 Jan 2026 13:05:24" 
-             return local dt_lastcheck  "4 Jan 2026 13:05:24" 
+        * Propagate entry code to its child fields
+        gen long entry_group = sum(is_entry)
+        bysort entry_group: replace entry_code = entry_code[1] if entry_code == ""
 
-             return local ctrymetadata = 296
-             return local dt_ctrylastupdate  "21 Dec 2025 11:49:20" 
-             return local dt_ctrylastcheck   "4 Jan 2026 13:05:24" 
-             return local dt_ctryupdate  "4 Jan 2026 13:06:46" 
+        * Extract count and name for entries
+        gen str10 entry_count = ""
+        gen str244 entry_name = ""
+        replace entry_count = field_val if field_key == "count" & (sec_type == "sources" | sec_type == "topics")
+        replace entry_name = field_val if field_key == "name" & (sec_type == "sources" | sec_type == "topics")
 
+        * Collapse to one row per entry
+        tempfile parsed
+        collapse (firstnm) entry_code (firstnm) entry_count (firstnm) entry_name ///
+                 (firstnm) sec_type, by(entry_group)
+        drop if entry_code == ""
+        save `parsed'
+
+        *-----------------------------------------------------------------------
+        * Build source return values
+        *-----------------------------------------------------------------------
+        use `parsed' if sec_type == "sources", clear
+        destring entry_code, gen(sort_num) force
+        sort sort_num
+        drop sort_num
+
+        local sourcereturn = ""
+        local sourceid = ""
+        count
+        local n_sources = r(N)
+
+        forvalues i = 1/`n_sources' {
+            local scode = entry_code[`i']
+            local scount = entry_count[`i']
+            local sname = entry_name[`i']
+
+            * Pad source code to 2 digits for sourceidNN format
+            local scode_pad = "`scode'"
+            if (strlen("`scode_pad'") == 1) local scode_pad "0`scode_pad'"
+
+            * Return individual source count: r(sourceidNN)
+            return local sourceid`scode_pad' = `scount'
+
+            * Build sourcereturn list
+            if ("`sourcereturn'" == "") {
+                local sourcereturn "sourceid`scode_pad'"
+            }
+            else {
+                local sourcereturn "`sourcereturn' sourceid`scode_pad'"
+            }
+
+            * Build sourceid compound-quoted list
+            local sourceid `"`sourceid' `"`scode_pad' `sname'"'"'
+        }
+        local sourceid = strtrim(`"`sourceid'"')
+
+        *-----------------------------------------------------------------------
+        * Build topic return values
+        *-----------------------------------------------------------------------
+        use `parsed' if sec_type == "topics", clear
+        * Sort: numeric topics first, then topicID last
+        gen byte is_special = entry_code == "topicID"
+        destring entry_code, gen(sort_num) force
+        replace sort_num = 999 if is_special
+        sort sort_num
+        drop is_special sort_num
+
+        local topicreturn = ""
+        local topicid = ""
+        count
+        local n_topics = r(N)
+
+        forvalues i = 1/`n_topics' {
+            local tcode = entry_code[`i']
+            local tcount = entry_count[`i']
+            local tname = entry_name[`i']
+
+            * Pad numeric topic codes to 2 digits, keep topicID as-is
+            local tcode_pad = "`tcode'"
+            if (strlen("`tcode_pad'") == 1) local tcode_pad "0`tcode_pad'"
+
+            * Return individual topic count: r(topicidNN) or r(topicidtopicID)
+            return local topicid`tcode_pad' = `tcount'
+
+            * Build topicreturn list
+            if ("`topicreturn'" == "") {
+                local topicreturn "topicid`tcode_pad'"
+            }
+            else {
+                local topicreturn "`topicreturn' topicid`tcode_pad'"
+            }
+
+            * Build topicid compound-quoted list
+            local topicid `"`topicid' `"`tcode_pad' `tname'"'"'
+        }
+        local topicid = strtrim(`"`topicid'"')
+    }
+
+    *---------------------------------------------------------------------------
+    * Return all values (identical interface to old hardcoded version)
+    *---------------------------------------------------------------------------
+    return local total = `total'
+
+    return local sourcereturn "`sourcereturn'"
+    return local topicreturn "`topicreturn'"
+    return local sourceid `"`sourceid'"'
+    return local topicid `"`topicid'"'
+
+    return local number_indicators = `number_indicators'
+    return local dt_update "`dt_update'"
+    return local dt_lastcheck "`dt_lastcheck'"
+
+    return local ctrymetadata = `ctrymetadata'
+    return local dt_ctrylastupdate "`dt_ctrylastupdate'"
+    return local dt_ctrylastcheck "`dt_ctrylastcheck'"
+    return local dt_ctryupdate "`dt_ctryupdate'"
+
+    restore
 end

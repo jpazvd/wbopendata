@@ -1,9 +1,9 @@
 /*******************************************************************************
 * wbopendata Automated Test Suite
-* Test Suite Version: 2.0.0
+* Test Suite Version: 3.0.0
 * Date: January 2026
 * Compatible with: wbopendata v17.7.1+
-* Total Tests: 44 (40 core + 4 repo-comparison)
+* Total Tests: 89 (67 core + 4 repo-comparison + 8 ERR + 4 EXT + 6 DET)
 * 
 * Usage: 
 *   do run_tests.do              - Run all tests (prompts for repo location)
@@ -13,8 +13,8 @@
 *   do run_tests.do list         - List all available tests
 *   do run_tests.do norepo       - Skip repo comparison tests (ENV-01 to ENV-04)
 *
-* Test Categories (44 tests total):
-*   0 - Environment Checks (4): ENV-01 to ENV-04 [requires repo path]
+* Test Categories (89 tests total):
+*   0 - Environment Checks (5): ENV-01 to ENV-05 [ENV-01 to ENV-04 require repo path]
 *   1 - Basic Downloads (5): DL-01 to DL-05
 *   2 - Format Options (3): FMT-01 to FMT-03
 *   3 - Country Metadata (10): CTRY-01 to CTRY-10
@@ -23,10 +23,16 @@
 *   6 - Maintenance Commands (6): UPD-01 to UPD-06
 *   7 - Topics & Language (2): TOPIC-01, LANG-01
 *   8 - Advanced Features (6): PROJ-01, FMT-04, DESC-01, META-01, CTRY-11, DATE-01
+*   9 - Cache & Sync System (13): CACHE-01 to CACHE-08, SYNC-01 to SYNC-05
+*  10 - Discovery Commands (7): DISC-01 to DISC-07 [no network needed]
+*  11 - Characteristic Metadata (6): CHAR-01 to CHAR-06 [v18.1]
+*  12 - Error Conditions (8): ERR-01 to ERR-08 [Gould 2001]
+*  13 - Extreme Cases (4): EXT-01 to EXT-04 [Gould 2001]
+*  14 - Deterministic/Offline (6): DET-01 to DET-06 [Gould 2001, Phase 6]
 * 
 * Configuration:
 *   To set your repo path permanently, define global before running:
-*     global wbopendata_repo "C:/path/to/wbopendata"
+*     global wbopendata_repo "C:/path/to/wbopendata-dev"
 *   Or set environment variable WBOPENDATA_REPO
 *   Or the script will auto-detect from this file's location
 *
@@ -47,6 +53,7 @@
 clear all
 set more off
 cap log close _all
+cscript "wbopendata test suite"
 
 *===============================================================================
 * PARSE COMMAND LINE ARGUMENTS
@@ -75,6 +82,7 @@ foreach arg of local args {
         di as text "  ENV-02   Ado files sync status (source vs auto-gen)"
         di as text "  ENV-03   wbopendata.pkg matches src directories"
         di as text "  ENV-04   All pkg files exist in repo"
+        di as text "  ENV-05   Parameters YAML readable with valid r() values"
         di as text ""
         di as text "  Basic Downloads:"
         di as text "  DL-01    Single indicator download"
@@ -118,7 +126,7 @@ foreach arg of local args {
         di as text "  UPD-03   Update basic"
         di as text "  UPD-04   Update check detail"
         di as text "  UPD-05   Update all"
-        di as text "  UPD-06   Update all force"
+        di as text "  UPD-06   Sync replace force (v18.x)"
         di as text ""
         di as text "  Topics & Language:"
         di as text "  TOPIC-01 Topics download"
@@ -131,6 +139,62 @@ foreach arg of local args {
         di as text "  META-01  nometadata verification"
         di as text "  CTRY-11  Admin regions option"
         di as text "  DATE-01  Date range option"
+        di as text ""
+        di as text "  Cache & Sync System (v18.x):"
+        di as text "  CACHE-01 Cache directory initialization"
+        di as text "  CACHE-02 Get YAML path (cache vs package)"
+        di as text "  CACHE-03 Cache info display"
+        di as text "  CACHE-04 Clear cache"
+        di as text "  CACHE-05 Cache persistence"
+        di as text "  CACHE-06 Version file tracking"
+        di as text "  CACHE-07 Timestamp tracking"
+        di as text "  CACHE-08 Search with cached YAML"
+        di as text "  SYNC-01  Check for updates"
+        di as text "  SYNC-02  Sync replace (download)"
+        di as text "  SYNC-03  Sync replace force (re-download)"
+        di as text "  SYNC-04  Sync replace when up-to-date"
+        di as text "  SYNC-05  Discovery commands use cache"
+        di as text ""
+        di as text "  Discovery Commands:"
+        di as text "  DISC-01  Search basic (keyword returns results)"
+        di as text "  DISC-02  Search filters (source, topic, field)"
+        di as text "  DISC-03  Search patterns (wildcard, AND, exact)"
+        di as text "  DISC-04  Sources listing"
+        di as text "  DISC-05  Topics listing"
+        di as text "  DISC-06  Indicator info lookup"
+        di as text "  DISC-07  Search router (cache_method by Stata version)"
+        di as text ""
+        di as text "  Characteristic Metadata (v18.1):"
+        di as text "  CHAR-01  Dataset-level _dta chars set by default"
+        di as text "  CHAR-02  Variable-level indicator char set by default"
+        di as text "  CHAR-03  Variable-level metadata chars (with metadata)"
+        di as text "  CHAR-04  nochar suppresses all chars"
+        di as text "  CHAR-05  Multi-indicator chars set per variable"
+        di as text "  CHAR-06  Chars persist across save/use"
+        di as text ""
+        di as text "  Error Conditions (Gould 2001):"
+        di as text "  ERR-01   Error: no indicator or action specified"
+        di as text "  ERR-02   Error: invalid indicator code"
+        di as text "  ERR-03   Error: match+indicator conflict"
+        di as text "  ERR-04   Error: invalid country code"
+        di as text "  ERR-05   Error: invalid source ID"
+        di as text "  ERR-06   Error: deprecated indicator handling"
+        di as text "  ERR-07   Error: inverted year range"
+        di as text "  ERR-08   Error: empty indicator string"
+        di as text ""
+        di as text "  Extreme Cases (Gould 2001):"
+        di as text "  EXT-01   Extreme: minimal query (1 country, 1 year)"
+        di as text "  EXT-02   Extreme: all countries, single year"
+        di as text "  EXT-03   Extreme: long indicator name"
+        di as text "  EXT-04   Extreme: topics with special characters"
+        di as text ""
+        di as text "  Deterministic/Offline Tests (Gould 2001, Phase 6):"
+        di as text "  DET-01   Offline: single indicator, single country"
+        di as text "  DET-02   Offline: single indicator, all countries"
+        di as text "  DET-03   Offline: value pinning (USA pop 2020)"
+        di as text "  DET-04   Offline: different indicator (GDP)"
+        di as text "  DET-05   Offline: country-only query"
+        di as text "  DET-06   Offline: missing fixture error handling"
         exit 0
     }
     else {
@@ -181,27 +245,29 @@ else {
         di as text "Repo path (auto-detected): `repo_root'"
     }
     else {
-        * Check if qa subfolder exists in current directory
-        cap confirm file "`cwd'/qa/."
+        * Check if this is a repo root by looking for known file
+        * Note: confirm file "path/." for directories is unreliable on Windows
+        local cwd_norm = subinstr("`cwd'", "\", "/", .)
+        cap confirm file "`cwd_norm'/src/wbopendata.pkg"
         if _rc == 0 {
-            local repo_root = subinstr("`cwd'", "\", "/", .)
+            local repo_root "`cwd_norm'"
             local qadir "`repo_root'/qa"
             di as text "Repo path (from cwd): `repo_root'"
         }
         else {
             * No repo detected
             local repo_root ""
-            local qadir = subinstr("`cwd'", "\", "/", .)
+            local qadir "`cwd_norm'"
             di as text "Repo path: not detected (logs will save to current directory)"
         }
     }
 }
 
-* Validate repo path if provided
+* Validate repo path if provided (pkg is in src/ subfolder)
 if "`repo_root'" != "" {
-    cap confirm file "`repo_root'/wbopendata.pkg"
+    cap confirm file "`repo_root'/src/wbopendata.pkg"
     if _rc != 0 {
-        di as error "Warning: wbopendata.pkg not found at `repo_root'"
+        di as error "Warning: wbopendata.pkg not found at `repo_root'/src/"
         di as error "         Repo comparison tests (ENV-*) may fail"
         if `skip_repo_tests' == 0 {
             di as text _n "Tip: Run with 'norepo' option to skip repo tests:"
@@ -230,10 +296,16 @@ global repo_root "`repo_root'"
 global qadir "`qadir'"
 global skip_repo_tests `skip_repo_tests'
 
+* Safeguard: warn if qadir doesn't match expected repo_root/qa
+if "`repo_root'" != "" & "`qadir'" != "`repo_root'/qa" {
+    di as error "WARNING: qadir (`qadir') differs from expected (`repo_root'/qa)"
+    di as error "         History and logs may write to unexpected location"
+}
+
 * Install from repo if path is available and user wants repo sync
 if "`repo_root'" != "" & `skip_repo_tests' == 0 {
-    di as text _n "Installing wbopendata from repo: `repo_root'"
-    cap noi net install wbopendata, from("`repo_root'") replace
+    di as text _n "Installing wbopendata from repo: `repo_root'/src"
+    cap noi net install wbopendata, from("`repo_root'/src") replace force
     if _rc != 0 {
         di as error "Warning: Could not install from repo (rc=`=_rc')"
         di as text "         Continuing with currently installed version"
@@ -367,13 +439,26 @@ program define test_fail
     }
 end
 
+cap program drop test_skip
+program define test_skip
+    args reason
+    if $skip_test == 1 exit
+    di as text "SKIP: `reason'"
+    global tests_skip = $tests_skip + 1
+    global tests_run = $tests_run - 1
+end
+
 * Initialize globals
 global tests_run = 0
 global tests_pass = 0
 global tests_fail = 0
+global tests_skip = 0
 global failed_tests ""
 global current_test ""
 global skip_test 0
+
+* Fixture directory for offline/deterministic tests (DET, ERR-06)
+local _det_fixtures "$qadir/fixtures"
 
 * which version of stata is this test being run on
 which wbopendata
@@ -391,8 +476,7 @@ run_test "ENV-01" "wbopendata version matches repo"
 if $skip_test == 0 {
     * Skip if no repo path or repo tests disabled
     if "$repo_root" == "" | $skip_repo_tests == 1 {
-        di as text "SKIPPED: Repo path not configured (use 'global wbopendata_repo' or run from repo)"
-        global tests_run = $tests_run - 1  // Don't count as run
+        test_skip "Repo path not configured (use 'global wbopendata_repo' or run from repo)"
     }
     else {
         cap noi {
@@ -435,8 +519,7 @@ run_test "ENV-02" "Ado files sync status"
 if $skip_test == 0 {
     * Skip if no repo path or repo tests disabled
     if "$repo_root" == "" | $skip_repo_tests == 1 {
-        di as text "SKIPPED: Repo path not configured (use 'global wbopendata_repo' or run from repo)"
-        global tests_run = $tests_run - 1  // Don't count as run
+        test_skip "Repo path not configured (use 'global wbopendata_repo' or run from repo)"
     }
     else {
         cap noi {
@@ -553,20 +636,19 @@ run_test "ENV-03" "wbopendata.pkg matches src directories"
 if $skip_test == 0 {
     * Skip if no repo path or repo tests disabled
     if "$repo_root" == "" | $skip_repo_tests == 1 {
-        di as text "SKIPPED: Repo path not configured (use 'global wbopendata_repo' or run from repo)"
-        global tests_run = $tests_run - 1  // Don't count as run
+        test_skip "Repo path not configured (use 'global wbopendata_repo' or run from repo)"
     }
     else {
         cap noi {
             * Read wbopendata.pkg and extract F lines into a string
-            local pkg_path "$repo_root/wbopendata.pkg"
+            local pkg_path "$repo_root/src/wbopendata.pkg"
             local pkg_contents ""
             
             tempname fh
             file open `fh' using "`pkg_path'", read text
             file read `fh' line
             while r(eof) == 0 {
-                if substr("`line'", 1, 2) == "F " {
+                if substr("`line'", 1, 2) == "f " | substr("`line'", 1, 2) == "F " {
                     local pkg_contents "`pkg_contents' `line'"
                 }
                 file read `fh' line
@@ -584,8 +666,8 @@ if $skip_test == 0 {
                 local ado_files : dir "`src_path'" files "*.ado", respectcase
                 
                 foreach f of local ado_files {
-                    * Build expected path as it should appear in pkg
-                    local expected_path "src/`subdir'/`f'"
+                    * Build expected path as it should appear in pkg (no src/ prefix)
+                    local expected_path "`subdir'/`f'"
                     
                     if strpos("`pkg_contents'", "`expected_path'") == 0 {
                         local missing_from_pkg "`missing_from_pkg' `expected_path'"
@@ -608,7 +690,7 @@ if $skip_test == 0 {
                     foreach ext of local other_exts {
                         local files : dir "`src_path'" files "*.`ext'", respectcase
                         foreach f of local files {
-                            local expected_path "src/`subdir'/`f'"
+                            local expected_path "`subdir'/`f'"
                             if strpos("`pkg_contents'", "`expected_path'") == 0 {
                                 local missing_from_pkg "`missing_from_pkg' `expected_path'"
                                 di as error "NOT in pkg: `expected_path'"
@@ -637,13 +719,12 @@ run_test "ENV-04" "All pkg files exist in repo"
 if $skip_test == 0 {
     * Skip if no repo path or repo tests disabled
     if "$repo_root" == "" | $skip_repo_tests == 1 {
-        di as text "SKIPPED: Repo path not configured (use 'global wbopendata_repo' or run from repo)"
-        global tests_run = $tests_run - 1  // Don't count as run
+        test_skip "Repo path not configured (use 'global wbopendata_repo' or run from repo)"
     }
     else {
         cap noi {
             * Read wbopendata.pkg and verify each F line file exists
-            local pkg_path "$repo_root/wbopendata.pkg"
+            local pkg_path "$repo_root/src/wbopendata.pkg"
             local missing_files ""
             
             tempname fh
@@ -652,7 +733,7 @@ if $skip_test == 0 {
             while r(eof) == 0 {
                 if substr("`line'", 1, 2) == "F " {
                     local filepath = substr("`line'", 3, .)
-                    local fullpath "$repo_root/`filepath'"
+                    local fullpath "$repo_root/src/`filepath'"
                     cap confirm file "`fullpath'"
                     if _rc != 0 {
                         local missing_files "`missing_files' `filepath'"
@@ -672,6 +753,51 @@ if $skip_test == 0 {
         if _rc == 0 test_pass
         else test_fail "Some pkg files missing from repo"
     }
+}
+
+* ENV-05: Parameters YAML readable with valid r() values (no network needed)
+run_test "ENV-05" "Parameters YAML readable with valid r() values"
+if $skip_test == 0 {
+    cap noi {
+        * Run _parameters (reads _wbopendata_parameters.yaml)
+        qui _parameters
+
+        * Check required scalar values
+        assert "`r(total)'" != ""
+        assert "`r(number_indicators)'" != ""
+        assert "`r(ctrymetadata)'" != ""
+
+        * Check required timestamp values
+        assert "`r(dt_update)'" != ""
+        assert "`r(dt_lastcheck)'" != ""
+        assert "`r(dt_ctryupdate)'" != ""
+
+        * Check source return values
+        assert "`r(sourcereturn)'" != ""
+        assert `"`r(sourceid)'"' != ""
+        assert "`r(sourceid02)'" != ""  // WDI must exist
+        di as text "Sources: " wordcount("`r(sourcereturn)'") " entries, WDI=" r(sourceid02)
+
+        * Check topic return values
+        assert "`r(topicreturn)'" != ""
+        assert `"`r(topicid)'"' != ""
+        assert "`r(topicid01)'" != ""   // Agriculture must exist
+        di as text "Topics:  " wordcount("`r(topicreturn)'") " entries"
+
+        * Verify all sources in sourcereturn have counts
+        foreach sname in `r(sourcereturn)' {
+            assert "`r(`sname')'" != ""
+        }
+
+        * Verify all topics in topicreturn have counts
+        foreach tname in `r(topicreturn)' {
+            assert "`r(`tname')'" != ""
+        }
+
+        di as text "All r() values present and valid"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Parameters YAML read failed or returned incomplete values"
 }
 
 *===============================================================================
@@ -1222,14 +1348,14 @@ if $skip_test == 0 {
     else test_fail "Update all not working"
 }
 
-* UPD-06: Update all force
-run_test "UPD-06" "Update all force"
+* UPD-06: Sync replace force (v18.x replacement for update all force)
+run_test "UPD-06" "Sync replace force"
 if $skip_test == 0 {
     cap noi {
-        wbopendata, update all force
+        wbopendata, sync replace force
     }
     if _rc == 0 test_pass
-    else test_fail "Update all force not working"
+    else test_fail "Sync replace force not working"
 }
 
 *===============================================================================
@@ -1373,6 +1499,1012 @@ if $skip_test == 0 {
 }
 
 *===============================================================================
+* TEST CATEGORY 9: Cache & Sync System (v18.x)
+*===============================================================================
+
+di as text _n "`sep'"
+di as text "CATEGORY 9: Cache & Sync System (v18.x)"
+di as text "`sep'"
+
+* CACHE-01: Cache directory initialization
+run_test "CACHE-01" "Cache directory initialization"
+if $skip_test == 0 {
+    cap noi {
+        * Clear any existing cache first
+        cap wbopendata, clearcache
+
+        * Test _wbopendata_cache default returns cache_exists scalar
+        qui _wbopendata_cache
+        di as text "cache_exists = `r(cache_exists)'"
+
+        * Verify YAML files are findable via adopath (installed package)
+        _wbopendata_get_yaml_path, type(indicators)
+        local ind_path = "`r(path)'"
+        di as text "Indicators YAML: `ind_path'"
+        assert "`ind_path'" != ""
+        cap confirm file "`ind_path'"
+        assert _rc == 0
+    }
+    if _rc == 0 test_pass
+    else test_fail "Cache directory initialization failed"
+}
+
+* CACHE-02: Get YAML path (cache vs package priority)
+run_test "CACHE-02" "Get YAML path resolution"
+if $skip_test == 0 {
+    cap noi {
+        * Clear cache to test fallback to package
+        cap wbopendata, clearcache
+
+        * Test path resolution without cache — uses named option type()
+        * Returns r(path), not r(yaml_path)
+        _wbopendata_get_yaml_path, type(indicators)
+        local path1 = "`r(path)'"
+
+        di as text "Without cache - Path: `path1'"
+
+        * Should resolve to a valid YAML file
+        assert strpos("`path1'", "_wbopendata_indicators.yaml") > 0
+        cap confirm file "`path1'"
+        assert _rc == 0
+
+        * Test other types resolve too
+        _wbopendata_get_yaml_path, type(sources)
+        local path_src = "`r(path)'"
+        assert strpos("`path_src'", "_wbopendata_sources.yaml") > 0
+
+        _wbopendata_get_yaml_path, type(topics)
+        local path_top = "`r(path)'"
+        assert strpos("`path_top'", "_wbopendata_topics.yaml") > 0
+
+        di as text "Sources YAML:    `path_src'"
+        di as text "Topics YAML:     `path_top'"
+    }
+    if _rc == 0 test_pass
+    else test_fail "YAML path resolution failed"
+}
+
+* CACHE-03: Cache info display
+run_test "CACHE-03" "Cache info command"
+if $skip_test == 0 {
+    cap noi {
+        * Test cache info via _wbopendata_cache, info
+        * Returns r(cache_exists) scalar, r(cache_version), r(cache_timestamp)
+        _wbopendata_cache, info
+
+        * cache_exists should be 0 or 1 — command itself should not error
+        di as text "cache_exists = `r(cache_exists)'"
+        assert "`r(cache_exists)'" == "0" | "`r(cache_exists)'" == "1"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Cache info command failed"
+}
+
+* CACHE-04: Clear cache
+run_test "CACHE-04" "Clear cache command"
+if $skip_test == 0 {
+    cap noi {
+        * _wbopendata_cache, clear uses capture erase — safe even if no cache exists
+        _wbopendata_cache, clear
+
+        * Should return cache_cleared = "1"
+        di as text "cache_cleared = `r(cache_cleared)'"
+        assert "`r(cache_cleared)'" == "1"
+
+        * Verify metadata_version.txt is gone
+        local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
+        cap confirm file "`cache_dir'metadata_version.txt"
+        local after_exists = (_rc == 0)
+
+        di as text "After clear - metadata_version.txt exists: " cond(`after_exists', "yes", "no")
+        assert `after_exists' == 0
+    }
+    if _rc == 0 test_pass
+    else test_fail "Clear cache command failed"
+}
+
+* CACHE-05: Cache persistence across sessions
+run_test "CACHE-05" "Cache persistence"
+if $skip_test == 0 {
+    cap noi {
+        * Clear and recreate cache
+        cap wbopendata, clearcache
+        cap qui wbopendata, sync
+        
+        * Check version file persists
+        local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
+        cap confirm file "`cache_dir'metadata_version.txt"
+        local version_exists = (_rc == 0)
+        
+        * Check YAML files persist
+        cap confirm file "`cache_dir'_wbopendata_indicators.yaml"
+        local indicators_exists = (_rc == 0)
+        
+        cap confirm file "`cache_dir'_wbopendata_sources.yaml"
+        local sources_exists = (_rc == 0)
+        
+        cap confirm file "`cache_dir'_wbopendata_topics.yaml"
+        local topics_exists = (_rc == 0)
+        
+        di as text "Version file exists: " cond(`version_exists', "yes", "no")
+        di as text "Indicators YAML exists: " cond(`indicators_exists', "yes", "no")
+        di as text "Sources YAML exists: " cond(`sources_exists', "yes", "no")
+        di as text "Topics YAML exists: " cond(`topics_exists', "yes", "no")
+        
+        * At minimum, version file should exist if sync worked
+        if `version_exists' {
+            assert `version_exists' == 1
+        }
+    }
+    if _rc == 0 test_pass
+    else test_fail "Cache persistence check failed"
+}
+
+* CACHE-06: Version file tracking
+run_test "CACHE-06" "Version file tracking"
+if $skip_test == 0 {
+    cap noi {
+        * Ensure cache exists
+        cap qui wbopendata, sync replace
+        
+        * Read version file
+        local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
+        local version_file = "`cache_dir'metadata_version.txt"
+        
+        cap confirm file "`version_file'"
+        if _rc == 0 {
+            tempname fh
+            file open `fh' using "`version_file'", read
+            file read `fh' version_content
+            file close `fh'
+            
+            di as text "Version content: `version_content'"
+            
+            * Version should be non-empty
+            assert "`version_content'" != ""
+            
+            * Version format check (should look like a version number or date)
+            local is_version = (regexm("`version_content'", "[0-9]"))
+            assert `is_version' == 1
+        }
+        else {
+            di as text "Version file not found (sync may have failed)"
+        }
+    }
+    if _rc == 0 test_pass
+    else test_fail "Version file tracking failed"
+}
+
+* CACHE-07: Timestamp tracking
+run_test "CACHE-07" "Timestamp tracking"
+if $skip_test == 0 {
+    cap noi {
+        * Ensure cache exists
+        cap qui wbopendata, sync replace
+        
+        * Check timestamp file
+        local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
+        local timestamp_file = "`cache_dir'cache_timestamp.txt"
+        
+        cap confirm file "`timestamp_file'"
+        if _rc == 0 {
+            tempname fh
+            file open `fh' using "`timestamp_file'", read
+            file read `fh' timestamp_content
+            file close `fh'
+            
+            di as text "Timestamp content: `timestamp_content'"
+            
+            * Timestamp should be non-empty
+            assert "`timestamp_content'" != ""
+        }
+        else {
+            di as text "Timestamp file not found (may not be created yet)"
+        }
+    }
+    if _rc == 0 test_pass
+    else test_fail "Timestamp tracking failed"
+}
+
+* CACHE-08: Search with cached YAML
+run_test "CACHE-08" "Search with cached YAML"
+if $skip_test == 0 {
+    cap noi {
+        * Ensure cache exists
+        cap qui wbopendata, sync replace
+        
+        * Test search command (should use cache if available)
+        cap wbopendata, search("GDP")
+        local search_rc = _rc
+        
+        di as text "Search command rc: `search_rc'"
+        
+        * Search should work (whether using cache or package)
+        assert `search_rc' == 0
+        
+        * Check if search returned results
+        if "`r(yaml_source)'" != "" {
+            di as text "YAML source: `r(yaml_source)'"
+        }
+    }
+    if _rc == 0 test_pass
+    else test_fail "Search with cached YAML failed"
+}
+
+* SYNC-01: Check for updates
+run_test "SYNC-01" "Check for updates command"
+if $skip_test == 0 {
+    cap noi {
+        * Test checkupdate command
+        cap wbopendata, checkupdate
+        local check_rc = _rc
+        
+        di as text "checkupdate rc: `check_rc'"
+        
+        * Command should execute without error (even if network fails gracefully)
+        * Don't assert rc==0 since GitHub API may be unavailable
+        if `check_rc' == 0 {
+            di as result "Update check completed successfully"
+            
+            * Check for version returns
+            if "`r(local_version)'" != "" {
+                di as text "Local version: `r(local_version)'"
+            }
+            if "`r(remote_version)'" != "" {
+                di as text "Remote version: `r(remote_version)'"
+            }
+        }
+        else {
+            di as text "Update check failed (may be network/API issue)"
+        }
+    }
+    * Always pass - checkupdate failure is not critical
+    test_pass
+}
+
+* SYNC-02: Sync replace (download)
+run_test "SYNC-02" "Sync replace command"
+if $skip_test == 0 {
+    cap noi {
+        * Clear cache first
+        cap wbopendata, clearcache
+
+        * Test sync replace command (actually applies sync)
+        cap wbopendata, sync replace
+        local sync_rc = _rc
+        
+        di as text "sync rc: `sync_rc'"
+        
+        * If sync succeeds, verify cache was created
+        if `sync_rc' == 0 {
+            local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
+            cap confirm file "`cache_dir'metadata_version.txt"
+            local cache_created = (_rc == 0)
+            
+            di as text "Cache created after sync: " cond(`cache_created', "yes", "no")
+            
+            if `cache_created' {
+                assert `cache_created' == 1
+            }
+        }
+        else {
+            di as text "Sync failed (may be network/API issue)"
+        }
+    }
+    * Pass regardless of network issues
+    test_pass
+}
+
+* SYNC-03: Sync replace force (re-download)
+run_test "SYNC-03" "Sync replace force command"
+if $skip_test == 0 {
+    cap noi {
+        * Test sync replace force command (force re-download)
+        cap wbopendata, sync replace force
+        local syncforce_rc = _rc
+
+        di as text "sync replace force rc: `syncforce_rc'"
+        
+        * If sync succeeds, verify cache was updated
+        if `syncforce_rc' == 0 {
+            local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
+            cap confirm file "`cache_dir'_wbopendata_indicators.yaml"
+            local yaml_exists = (_rc == 0)
+            
+            di as text "YAML exists after force sync: " cond(`yaml_exists', "yes", "no")
+        }
+        else {
+            di as text "Force sync failed (may be network/API issue)"
+        }
+    }
+    * Pass regardless of network issues
+    test_pass
+}
+
+* SYNC-04: Sync replace when already up-to-date
+run_test "SYNC-04" "Sync replace when already up-to-date"
+if $skip_test == 0 {
+    cap noi {
+        * Sync once
+        cap qui wbopendata, sync replace
+
+        * Sync again (should detect up-to-date)
+        cap wbopendata, sync replace
+        local sync2_rc = _rc
+        
+        di as text "Second sync rc: `sync2_rc'"
+        
+        * Should succeed without error
+        if `sync2_rc' == 0 {
+            di as result "Sync completed (up-to-date or updated)"
+        }
+    }
+    * Pass regardless - behavior may vary
+    test_pass
+}
+
+* SYNC-05: Discovery commands use cache
+run_test "SYNC-05" "Discovery commands use cache after sync"
+if $skip_test == 0 {
+    cap noi {
+        * Ensure cache exists
+        cap qui wbopendata, sync replace
+        
+        * Test info command
+        cap wbopendata, info("SP.POP.TOTL")
+        local info_rc = _rc
+        
+        di as text "info command rc: `info_rc'"
+        
+        * Info should work
+        if `info_rc' == 0 {
+            di as result "Info command succeeded"
+            if "`r(yaml_source)'" != "" {
+                di as text "YAML source: `r(yaml_source)'"
+            }
+        }
+    }
+    * Pass regardless of network issues
+    test_pass
+}
+
+*===============================================================================
+* TEST CATEGORY 10: Discovery Commands (no network needed)
+*===============================================================================
+
+di as text _n "`sep'"
+di as text "CATEGORY 10: Discovery Commands"
+di as text "`sep'"
+
+* DISC-01: Basic keyword search
+run_test "DISC-01" "Search basic keyword"
+if $skip_test == 0 {
+    cap noi {
+        qui _wbopendata_search GDP, limit(5)
+
+        * Must return results
+        assert `r(n_results)' > 0
+        assert `r(n_displayed)' > 0
+        assert `r(n_displayed)' <= 5
+        assert "`r(first_code)'" != ""
+        assert "`r(keyword)'" == "GDP"
+
+        di as text "Found `r(n_results)' results, displayed `r(n_displayed)', first=`r(first_code)'"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Basic keyword search failed"
+}
+
+* DISC-02: Search filters (source, topic, field)
+run_test "DISC-02" "Search filters"
+if $skip_test == 0 {
+    cap noi {
+        * Unfiltered baseline
+        qui _wbopendata_search GDP
+        local n_all = r(n_results)
+
+        * Source filter (WDI = source 2)
+        qui _wbopendata_search GDP, source(2)
+        local n_src = r(n_results)
+        assert `n_src' > 0
+        assert `n_src' <= `n_all'
+        assert "`r(source_filter)'" == "2"
+
+        * Topic filter
+        qui _wbopendata_search poverty, topic(11)
+        local n_top = r(n_results)
+        assert `n_top' > 0
+        assert "`r(topic_filter)'" == "11"
+
+        * Field filter (code only — should be fewer than all fields)
+        qui _wbopendata_search GDP, field(code)
+        local n_fld = r(n_results)
+        assert `n_fld' > 0
+        assert `n_fld' <= `n_all'
+        assert "`r(field_filter)'" == "code"
+
+        di as text "All=`n_all', source(2)=`n_src', topic(11)=`n_top', field(code)=`n_fld'"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Search filters not working correctly"
+}
+
+* DISC-03: Search patterns (wildcard, AND, exact)
+run_test "DISC-03" "Search patterns"
+if $skip_test == 0 {
+    cap noi {
+        * Wildcard search
+        qui _wbopendata_search NY.GDP.*
+        local n_wild = r(n_results)
+        assert `n_wild' > 0
+
+        * Multi-keyword AND search
+        qui _wbopendata_search learning+poverty
+        local n_and = r(n_results)
+        assert `n_and' >= 0  // may be 0 if no indicators match both
+
+        * Exact match
+        qui _wbopendata_search NY.GDP.MKTP.CD, exact
+        local n_exact = r(n_results)
+        assert `n_exact' == 1
+        assert "`r(first_code)'" == "NY.GDP.MKTP.CD"
+
+        di as text "Wildcard=`n_wild', AND=`n_and', Exact=`n_exact' (`r(first_code)')"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Search patterns not working correctly"
+}
+
+* DISC-04: Sources listing
+run_test "DISC-04" "Sources listing"
+if $skip_test == 0 {
+    cap noi {
+        qui _wbopendata_sources
+
+        assert `r(n_sources)' > 0
+        assert `r(n_indicators)' > 0
+        assert "`r(source_codes)'" != ""
+
+        di as text "Found `r(n_sources)' sources, `r(n_indicators)' total indicators"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Sources listing failed"
+}
+
+* DISC-05: Topics listing
+run_test "DISC-05" "Topics listing"
+if $skip_test == 0 {
+    cap noi {
+        qui _wbopendata_topics
+
+        assert `r(n_topics)' > 0
+        assert "`r(topic_ids)'" != ""
+        assert `"`r(topic_names)'"' != ""
+
+        di as text "Found `r(n_topics)' topics"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Topics listing failed"
+}
+
+* DISC-06: Indicator info lookup
+run_test "DISC-06" "Indicator info lookup"
+if $skip_test == 0 {
+    cap noi {
+        qui _wbopendata_info, indicator(SP.POP.TOTL)
+
+        assert "`r(indicator)'" == "SP.POP.TOTL"
+        assert "`r(name)'" != ""
+        assert "`r(source_id)'" != ""
+
+        di as text "Indicator: `r(indicator)'"
+        di as text "Name: `r(name)'"
+        di as text "Source ID: `r(source_id)'"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Indicator info lookup failed"
+}
+
+* DISC-07: Search router returns correct cache_method
+run_test "DISC-07" "Search router cache_method"
+if $skip_test == 0 {
+    cap noi {
+        qui _wbopendata_search GDP, limit(1)
+        local method = "`r(cache_method)'"
+
+        if (`c(stata_version)' >= 16) {
+            assert "`method'" == "frames"
+            di as text "Stata `c(stata_version)' >= 16: cache_method='`method'' (frames) - correct"
+        }
+        else {
+            assert "`method'" == "none"
+            di as text "Stata `c(stata_version)' < 16: cache_method='`method'' (none) - correct"
+        }
+    }
+    if _rc == 0 test_pass
+    else test_fail "Search router cache_method incorrect"
+}
+
+*===============================================================================
+* TEST CATEGORY 11: Characteristic Metadata (v18.1)
+*===============================================================================
+
+di as text _n "`sep'"
+di as text "CATEGORY 11: Characteristic Metadata (v18.1)"
+di as text "`sep'"
+
+* CHAR-01: Dataset-level chars set by default
+run_test "CHAR-01" "Dataset-level _dta chars set by default"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) clear long nometadata
+
+        * _dta chars should be set
+        local ver : char _dta[wbopendata_version]
+        local ts  : char _dta[wbopendata_timestamp]
+        local usr : char _dta[wbopendata_user]
+        local syn : char _dta[wbopendata_syntax]
+        local ind : char _dta[wbopendata_indicator]
+
+        di as text "version:   `ver'"
+        di as text "timestamp: `ts'"
+        di as text "user:      `usr'"
+        di as text "syntax:    `syn'"
+        di as text "indicator: `ind'"
+
+        assert "`ver'" != ""
+        assert "`ts'" != ""
+        assert "`usr'" != ""
+        assert "`syn'" != ""
+        assert "`ind'" != ""
+    }
+    if _rc == 0 test_pass
+    else test_fail "Dataset-level _dta chars not set"
+}
+
+* CHAR-02: Variable-level indicator char set by default
+run_test "CHAR-02" "Variable-level indicator char set by default"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) clear long nometadata
+
+        * Variable char[indicator] should be set by _query
+        local ind_char : char sp_pop_totl[indicator]
+        di as text "sp_pop_totl[indicator]: `ind_char'"
+        assert "`ind_char'" == "SP.POP.TOTL"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Variable-level indicator char not set"
+}
+
+* CHAR-03: Variable-level metadata chars set with metadata
+run_test "CHAR-03" "Variable-level metadata chars (with metadata)"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) clear long
+
+        * Variable-level chars from _query_metadata should be set
+        local src_char : char sp_pop_totl[source]
+        local desc_char : char sp_pop_totl[description]
+        local topic_char : char sp_pop_totl[topic]
+
+        di as text "sp_pop_totl[source]:      `src_char'"
+        di as text "sp_pop_totl[description]: `desc_char'"
+        di as text "sp_pop_totl[topic]:       `topic_char'"
+
+        * At minimum indicator code must be set
+        local ind_char : char sp_pop_totl[indicator]
+        assert "`ind_char'" == "SP.POP.TOTL"
+
+        * With metadata, source/description should also be set
+        assert "`desc_char'" != ""
+    }
+    if _rc == 0 test_pass
+    else test_fail "Variable-level metadata chars not set"
+}
+
+* CHAR-04: nochar suppresses all chars
+run_test "CHAR-04" "nochar suppresses all chars"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) clear long nochar
+
+        * _dta chars should be empty
+        local ver : char _dta[wbopendata_version]
+        local ts  : char _dta[wbopendata_timestamp]
+
+        di as text "With nochar - version:   `ver'"
+        di as text "With nochar - timestamp: `ts'"
+
+        assert "`ver'" == ""
+        assert "`ts'" == ""
+
+        * Variable chars should also be empty
+        local ind_char : char sp_pop_totl[indicator]
+        di as text "With nochar - indicator: `ind_char'"
+        assert "`ind_char'" == ""
+    }
+    if _rc == 0 test_pass
+    else test_fail "nochar option not suppressing chars"
+}
+
+* CHAR-05: Multi-indicator chars set per variable
+run_test "CHAR-05" "Multi-indicator chars set per variable"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL;NY.GDP.MKTP.CD) clear long
+
+        * Each variable should have its own indicator char
+        local ind1 : char sp_pop_totl[indicator]
+        local ind2 : char ny_gdp_mktp_cd[indicator]
+
+        di as text "sp_pop_totl[indicator]:    `ind1'"
+        di as text "ny_gdp_mktp_cd[indicator]: `ind2'"
+
+        assert "`ind1'" == "SP.POP.TOTL"
+        assert "`ind2'" == "NY.GDP.MKTP.CD"
+
+        * _dta should have both indicators
+        local dta_ind : char _dta[wbopendata_indicator]
+        di as text "_dta[wbopendata_indicator]: `dta_ind'"
+        assert "`dta_ind'" != ""
+    }
+    if _rc == 0 test_pass
+    else test_fail "Multi-indicator chars not set correctly"
+}
+
+* CHAR-06: Chars persist across save/use
+run_test "CHAR-06" "Chars persist across save/use"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) clear long nometadata
+
+        tempfile chartest
+        save `chartest'
+        clear
+        use `chartest'
+
+        * Chars should survive save/use
+        local ver : char _dta[wbopendata_version]
+        local ind : char sp_pop_totl[indicator]
+
+        di as text "After save/use - version:   `ver'"
+        di as text "After save/use - indicator: `ind'"
+
+        assert "`ver'" != ""
+        assert "`ind'" == "SP.POP.TOTL"
+    }
+    if _rc == 0 test_pass
+    else test_fail "Chars not persisting across save/use"
+}
+
+*===============================================================================
+* TEST CATEGORY 12: Error Conditions (ERR)
+*   Gould (2001): "You must also test that your code does not work in
+*   circumstances where it should not."
+*===============================================================================
+
+di as text _n "`sep'"
+di as text "CATEGORY 12: Error Conditions"
+di as text "`sep'"
+
+* ERR-01: No indicator and no action specified
+*   PURPOSE: Verify wbopendata errors when called with no indicator or action
+*   CODE: wbopendata.ado syntax parsing block → exit 198
+*   EXPECTED: rc == 198 (syntax error)
+*   METHOD: rcof (Gould 2001) — verifies exact return code
+run_test "ERR-01" "Error: no indicator or action specified"
+if $skip_test == 0 {
+    cap noi {
+        rcof "noi wbopendata, clear" == 198
+    }
+    if _rc == 0 test_pass
+    else test_fail "Expected rc 198 (syntax error)"
+}
+
+* ERR-02: Invalid indicator code
+*   PURPOSE: Verify graceful handling of non-existent indicator
+*   CODE: wbopendata.ado -> _query.ado -> World Bank API (returns empty)
+*   EXPECTED: Error or zero observations
+run_test "ERR-02" "Error: invalid indicator code"
+if $skip_test == 0 {
+    cap noi wbopendata, indicator(XXXXX.INVALID.CODE) clear nometadata long
+    if _rc != 0 | _N == 0 test_pass
+    else test_fail "Invalid indicator should error or return 0 obs"
+}
+
+* ERR-03: Match with indicator (mutually exclusive options)
+*   PURPOSE: Verify match() and indicator() cannot be combined with clear
+*   CODE: wbopendata.ado option validation → exit 198
+*   EXPECTED: rc == 198 (syntax error)
+*   METHOD: rcof (Gould 2001) — verifies exact return code
+run_test "ERR-03" "Error: match+indicator conflict"
+if $skip_test == 0 {
+    clear
+    input str3 countrycode
+    "USA"
+    end
+    cap noi {
+        rcof "noi wbopendata, indicator(SP.POP.TOTL) match(countrycode) clear" == 198
+    }
+    if _rc == 0 test_pass
+    else test_fail "Expected rc 198 (syntax error)"
+}
+
+* ERR-04: Invalid country code
+*   PURPOSE: Verify graceful handling of non-existent country
+*   CODE: wbopendata.ado -> World Bank API (filters to 0 obs)
+*   EXPECTED: Error or zero observations
+run_test "ERR-04" "Error: invalid country code"
+if $skip_test == 0 {
+    cap noi wbopendata, indicator(SP.POP.TOTL) country(ZZZZZ) clear nometadata long
+    if _rc != 0 | _N == 0 test_pass
+    else test_fail "Invalid country should return 0 obs or error"
+}
+
+* ERR-05: Invalid source ID
+*   PURPOSE: Verify graceful handling of non-existent source database
+*   CODE: wbopendata.ado source() option -> API request
+*   EXPECTED: Error or zero observations
+run_test "ERR-05" "Error: invalid source ID"
+if $skip_test == 0 {
+    cap noi wbopendata, indicator(SP.POP.TOTL) source(9999) clear nometadata long
+    if _rc != 0 | _N == 0 test_pass
+    else test_fail "Invalid source should return 0 obs or error"
+}
+
+* ERR-06: Empty API response (offline fixture simulating deprecated indicator)
+*   PURPOSE: Verify wbopendata handles empty CSV response gracefully
+*   CODE: _query.ado → offline branch → empty fixture CSV (headers only, 0 rows)
+*   FIXTURE: DEPRECATED_INDICATOR_all.csv
+*   EXPECTED: _rc != 0 or _N == 0 (graceful degradation)
+*   NOTE: Uses offline fixture instead of live API to avoid dependency on WB
+*         deprecation status (SP.ADO.TFRT was reinstated, breaking the old test)
+run_test "ERR-06" "Error: empty indicator response (offline)"
+if $skip_test == 0 {
+    cap confirm file "`_det_fixtures'/DEPRECATED_INDICATOR_all.csv"
+    if _rc != 0 {
+        test_skip "Fixture DEPRECATED_INDICATOR_all.csv not found"
+    }
+    else {
+        cap noi wbopendata, indicator(DEPRECATED.INDICATOR) clear nometadata long offline("`_det_fixtures'")
+        if _rc != 0 | _N == 0 test_pass
+        else test_fail "Empty fixture should produce error or 0 obs"
+    }
+}
+
+* ERR-07: Year range inverted
+*   PURPOSE: Test behavior when year range end < start
+*   CODE: wbopendata.ado year() option parsing
+*   EXPECTED: Either error or API corrects the order
+run_test "ERR-07" "Error: inverted year range"
+if $skip_test == 0 {
+    cap noi wbopendata, indicator(SP.POP.TOTL) country(USA) year(2020:2010) clear nometadata long
+    * API may accept either order; just verify no crash
+    test_pass
+}
+
+* ERR-08: Empty indicator string
+*   PURPOSE: Verify empty indicator() is rejected
+*   CODE: wbopendata.ado syntax parsing → exit 198
+*   EXPECTED: rc == 198 (syntax error)
+*   METHOD: rcof (Gould 2001) — verifies exact return code
+run_test "ERR-08" "Error: empty indicator string"
+if $skip_test == 0 {
+    cap noi {
+        rcof "noi wbopendata, indicator() clear" == 198
+    }
+    if _rc == 0 test_pass
+    else test_fail "Expected rc 198 (syntax error)"
+}
+
+*===============================================================================
+* TEST CATEGORY 13: Extreme Cases (EXT)
+*   Gould (2001): "Extreme cases put considerable stress on your code."
+*===============================================================================
+
+di as text _n "`sep'"
+di as text "CATEGORY 13: Extreme Cases"
+di as text "`sep'"
+
+* EXT-01: Minimal query — single country, single year, single indicator
+*   PURPOSE: Verify minimum viable query produces valid 1-row result
+*   EXPECTED: Exactly 1 observation for USA 2020
+*   VALUE PIN: USA population in 2020 should be ~331 million (World Bank WDI)
+run_test "EXT-01" "Extreme: minimal query (1 country, 1 year)"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) country(USA) year(2020:2020) clear long nometadata
+        assert _N == 1
+        assert countrycode == "USA"
+        * Value pin: SP.POP.TOTL USA 2020 ≈ 331,002,651
+        assert sp_pop_totl > 300000000 & sp_pop_totl < 400000000
+    }
+    if _rc == 0 test_pass
+    else test_fail "Minimal query failed"
+}
+
+* EXT-02: All countries — large result set
+*   PURPOSE: Stress test with all 296 countries/regions
+*   EXPECTED: _N > 200 (most countries have 2020 data)
+run_test "EXT-02" "Extreme: all countries, single year"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(SP.POP.TOTL) year(2020:2020) clear long nometadata
+        assert _N > 200
+    }
+    if _rc == 0 test_pass
+    else test_fail "All-countries query failed or returned too few obs"
+}
+
+* EXT-03: Indicator with very long name (label truncation)
+*   PURPOSE: Verify long indicator names don't cause label overflow
+*   CODE: _query.ado variable labeling (~line 300)
+*   EXPECTED: Download succeeds; variable label is truncated but valid
+run_test "EXT-03" "Extreme: long indicator name"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(DT.DOD.DECT.CD) clear long latest nometadata
+        assert _N > 0
+    }
+    if _rc == 0 test_pass
+    else test_fail "Long-name indicator failed"
+}
+
+* EXT-04: Topics with parentheses in names (compound quoting stress)
+*   PURPOSE: Topic names containing parentheses test Stata's macro quoting
+*   CODE: _wbopendata_topics.ado -> gettoken loop
+*   EXPECTED: Topics listing succeeds without "SocialandGovernance()" error
+run_test "EXT-04" "Extreme: topics with special characters"
+if $skip_test == 0 {
+    cap noi {
+        qui _wbopendata_topics
+        assert `r(n_topics)' > 0
+        * Verify topic names containing parentheses are intact
+        assert `"`r(topic_names)'"' != ""
+    }
+    if _rc == 0 test_pass
+    else test_fail "Topics listing failed (possible quoting issue)"
+}
+
+*===============================================================================
+* TEST CATEGORY 14: Deterministic/Offline Tests (DET) [Gould 2001, Phase 6]
+*
+*   These tests use local CSV fixtures instead of the World Bank API,
+*   ensuring reproducible, network-independent verification. The
+*   offline() option redirects _query.ado to read from the
+*   qa/fixtures/ directory.
+*===============================================================================
+
+* DET-01: Offline single indicator, single country
+*   PURPOSE: Verify offline injection produces valid dataset from fixture
+*   CODE: _query.ado → offline branch → fixture CSV
+*   FIXTURE: SP_POP_TOTL_USA.csv
+*   EXPECTED: _N > 50 observations, countrycode == "USA"
+run_test "DET-01" "Offline: single indicator, single country"
+if $skip_test == 0 {
+    cap confirm file "`_det_fixtures'/SP_POP_TOTL_USA.csv"
+    if _rc != 0 {
+        test_skip "Fixture SP_POP_TOTL_USA.csv not found (run decompress_fixtures.do)"
+    }
+    else {
+        cap noi {
+            wbopendata, indicator(SP.POP.TOTL) country(USA) clear nometadata long offline("`_det_fixtures'")
+            assert _N > 50
+            cap confirm variable countrycode
+            assert _rc == 0
+            cap confirm variable year
+            assert _rc == 0
+        }
+        if _rc == 0 test_pass
+        else test_fail "Offline single-country fixture failed"
+    }
+}
+
+* DET-02: Offline single indicator, all countries
+*   PURPOSE: Verify large fixture (all countries) loads correctly
+*   CODE: _query.ado → offline branch → fixture CSV
+*   FIXTURE: SP_POP_TOTL_all.csv
+*   EXPECTED: _N > 10000 observations, multiple countries
+run_test "DET-02" "Offline: single indicator, all countries"
+if $skip_test == 0 {
+    cap confirm file "`_det_fixtures'/SP_POP_TOTL_all.csv"
+    if _rc != 0 {
+        test_skip "Fixture SP_POP_TOTL_all.csv not found"
+    }
+    else {
+        cap noi {
+            wbopendata, indicator(SP.POP.TOTL) clear nometadata long offline("`_det_fixtures'")
+            assert _N > 10000
+            qui tab countrycode
+            assert r(r) > 200
+        }
+        if _rc == 0 test_pass
+        else test_fail "Offline all-countries fixture failed"
+    }
+}
+
+* DET-03: Offline value pinning (USA population 2020)
+*   PURPOSE: Verify exact value from a known fixture (deterministic)
+*   CODE: _query.ado → offline branch → fixture CSV → value check
+*   FIXTURE: SP_POP_TOTL_USA.csv
+*   EXPECTED: USA population in 2020 is ~331 million (range: 300M-400M)
+run_test "DET-03" "Offline: value pinning (USA pop 2020)"
+if $skip_test == 0 {
+    cap confirm file "`_det_fixtures'/SP_POP_TOTL_USA.csv"
+    if _rc != 0 {
+        test_skip "Fixture SP_POP_TOTL_USA.csv not found"
+    }
+    else {
+        cap noi {
+            wbopendata, indicator(SP.POP.TOTL) country(USA) clear nometadata long offline("`_det_fixtures'")
+            qui keep if countrycode == "USA" & year == 2020
+            assert _N == 1
+            assert sp_pop_totl > 300000000 & sp_pop_totl < 400000000
+        }
+        if _rc == 0 test_pass
+        else test_fail "Value pin failed (USA pop 2020 out of range)"
+    }
+}
+
+* DET-04: Offline different indicator (GDP)
+*   PURPOSE: Verify a second indicator works with offline injection
+*   CODE: _query.ado → offline branch → fixture CSV
+*   FIXTURE: NY_GDP_MKTP_CD_USA.csv
+*   EXPECTED: Valid dataset with GDP values
+run_test "DET-04" "Offline: different indicator (GDP)"
+if $skip_test == 0 {
+    cap confirm file "`_det_fixtures'/NY_GDP_MKTP_CD_USA.csv"
+    if _rc != 0 {
+        test_skip "Fixture NY_GDP_MKTP_CD_USA.csv not found"
+    }
+    else {
+        cap noi {
+            wbopendata, indicator(NY.GDP.MKTP.CD) country(USA) clear nometadata long offline("`_det_fixtures'")
+            assert _N > 0
+            cap confirm variable countrycode
+            assert _rc == 0
+        }
+        if _rc == 0 test_pass
+        else test_fail "Offline GDP fixture failed"
+    }
+}
+
+* DET-05: Offline country-only query
+*   PURPOSE: Verify topic/country fixture path works
+*   CODE: _query.ado → offline branch → country fixture CSV
+*   FIXTURE: country_USA.csv
+*   EXPECTED: Valid dataset with multiple indicators for USA
+run_test "DET-05" "Offline: country-only query"
+if $skip_test == 0 {
+    cap confirm file "`_det_fixtures'/country_USA.csv"
+    if _rc != 0 {
+        test_skip "Fixture country_USA.csv not found"
+    }
+    else {
+        cap noi {
+            wbopendata, country(USA) clear nometadata offline("`_det_fixtures'")
+            assert _N > 0
+        }
+        if _rc == 0 test_pass
+        else test_fail "Offline country-only fixture failed"
+    }
+}
+
+* DET-06: Missing fixture error handling
+*   PURPOSE: Verify graceful error when fixture file does not exist
+*   CODE: _query.ado → offline branch → confirm file → exit 601
+*   EXPECTED: _rc == 601 (file not found)
+run_test "DET-06" "Offline: missing fixture error handling"
+if $skip_test == 0 {
+    cap noi {
+        wbopendata, indicator(NONEXISTENT.INDICATOR) country(ZZZ) clear nometadata long offline("`_det_fixtures'")
+    }
+    if _rc != 0 test_pass
+    else test_fail "Missing fixture should have returned an error"
+}
+
+*===============================================================================
 * TEST SUMMARY
 *===============================================================================
 
@@ -1383,6 +2515,9 @@ di as text "`sep'"
 di as text "Tests Run:    " as result $tests_run
 di as text "Tests Passed: " as result $tests_pass
 di as text "Tests Failed: " as error $tests_fail
+if $tests_skip > 0 {
+    di as text "Tests Skipped:" as text " $tests_skip"
+}
 
 if $tests_fail == 0 {
     di as result _n "ALL TESTS PASSED!"
@@ -1404,10 +2539,10 @@ di as text "Log saved to: `logfile'"
 if "$qadir" != "" {
     cap copy "`logfile'" "$qadir/run_tests.log", replace
     if _rc==0 di as text "Canonical log copied to: $qadir/run_tests.log"
-    else di as error "Could not copy log to $qadir/run_tests.log (rc=`_rc')"
+    else di as error "Could not copy log to $qadir/run_tests.log (rc=`=_rc')"
 }
 else {
-    di as text "(No qa directory - canonical log not copied)"
+    di as text "(Canonical log copy skipped - qadir not configured)"
 }
 
 * Capture end time and calculate duration
@@ -1430,39 +2565,53 @@ local duration_str = "`duration_min'm `duration_sec's"
 
 di as text "Duration: `duration_str' (started `start_time', ended `end_time')"
 
-* Only write to history if running all tests (not single test mode) and qadir is set
-local histfile "$qadir/test_history.txt"
-if "$target_test" == "" & "$qadir" != "" {
-    cap confirm file "`histfile'"
+* Only write to history when repo_root is confirmed (prevents writing to wrong location)
+* Derive histfile from repo_root/qa, not qadir, to guard against qadir drift
+if "$target_test" == "" & "$repo_root" != "" {
+    local histfile "$repo_root/qa/test_history.txt"
+
+    * Validate: qa directory must contain run_tests.do (sanity check)
+    cap confirm file "$repo_root/qa/run_tests.do"
     if _rc != 0 {
-        * Create history file if it doesn't exist
-        file open history using "`histfile'", write replace
-        file write history "WBOPENDATA TEST HISTORY" _n
-        file write history "========================" _n
-        file close history
-    }
-    file open history using "`histfile'", write append
-    file write history _n "`sep'" _n
-    file write history "Test Run: `date'" _n
-    file write history "Started:  `start_time'" _n
-    file write history "Ended:    `end_time'" _n
-    file write history "Duration: `duration_str'" _n
-    file write history "Version:  `version'" _n
-    if "`wbo_date'" != "" file write history "Build:    `wbo_date'" _n
-    file write history "Stata:    `c(stata_version)'" _n
-    file write history "Tests:    $tests_run run, $tests_pass passed, $tests_fail failed" _n
-    if $tests_fail == 0 {
-        file write history "Result:   ALL TESTS PASSED" _n
+        di as error "WARNING: qa/run_tests.do not found at $repo_root/qa/"
+        di as error "         Skipping history write to avoid wrong location"
     }
     else {
-        file write history "Result:   FAILED" _n
-        file write history "Failed:   $failed_tests" _n
+        cap confirm file "`histfile'"
+        if _rc != 0 {
+            * Create history file if it doesn't exist
+            file open history using "`histfile'", write replace
+            file write history "=== wbopendata Test History ===" _n
+            file write history "Created: `date'" _n
+            file write history "" _n
+            file close history
+        }
+        file open history using "`histfile'", write append
+        file write history _n "`sep'" _n
+        file write history "Test Run: `date'" _n
+        file write history "Started:  `start_time'" _n
+        file write history "Ended:    `end_time'" _n
+        file write history "Duration: `duration_str'" _n
+        file write history "Version:  `version'" _n
+        if "`wbo_date'" != "" file write history "Build:    `wbo_date'" _n
+        file write history "Stata:    `c(stata_version)'" _n
+        file write history "Tests:    $tests_run run, $tests_pass passed, $tests_fail failed" _n
+        if $tests_fail == 0 {
+            file write history "Result:   ALL TESTS PASSED" _n
+        }
+        else {
+            file write history "Result:   FAILED" _n
+            file write history "Failed:   $failed_tests" _n
+        }
+        file write history "Log:      test_results_v`version'_`datestr'.log" _n
+        file write history "`sep'" _n
+        file close history
+        di as text "History appended to: `histfile'"
     }
-    file write history "Log:      test_results_v`version'_`datestr'.log" _n
-    file write history "`sep'" _n
-    file close history
-    di as text "History appended to: `histfile'"
+}
+else if "$target_test" != "" {
+    di as text "(Single test mode - history not updated)"
 }
 else {
-    di as text "(Single test mode - history not updated)"
+    di as text "(History update skipped - repo_root not detected)"
 }

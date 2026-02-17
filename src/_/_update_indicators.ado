@@ -161,140 +161,139 @@ if ("`noindlist'" == "") {
 }
 
 *******************************************************************************
-* create sthlp files (sourceid and topicid) 
+* create sthlp files (sourceid and topicid) using discovery commands
 * if NOSTHLP1 == to missing this part of the code is skipped
-*  creates a single file for sourcid with all indicators by sourceid
-*  creates a single file for topicid with all indicators by topicid
+*  creates a single file for sourceid and topicid (lightweight TOC)
 *******************************************************************************
 
 if ("`nosthlp1'" == "") {
 
 	noi di in smcl in g ""
-	noi di in smcl in g "{bf: Processing indicators by source and topic...}"
+	noi di in smcl in g "{bf: Processing source/topic help (discovery)...}"
 	noi di in smcl in g ""
 
 	local date: disp %td date("`c(current_date)'", "DMY")
-			
-	qui foreach variable in sourceid topicid  {
-			
-		tempfile help`variable'
-		tempname hlp`variable'  dups`variable'  seq2`variable' seq3`variable' code`variable'
 
-		use `tmp', clear
-		
-		
-		if ("`save'" != "") {
-		
-			if ("`name'" == "") {
-				local name "indicators"
-			}
-		
-			save `name'.dta, `replace'
-			noi di in y "`name'.dta saved `replace'"
-			noi di ""
+	*----------------------------------------------
+	* SOURCES: use discovery function to fetch list
+	*----------------------------------------------
+	cap noi _wbopendata_sources, limit(10000)
+	if (_rc != 0) {
+		local source_codes ""
+		local source_names ""
+		local n_sources = 0
+	}
+	else {
+		local source_codes "`r(source_codes)'"
+		local source_names `"`r(source_names)'"'
+		local n_sources = r(n_sources)
+	}
+
+	tempfile help_source
+	tempname hlp_source
+	file open `hlp_source' using `help_source', write text replace
+		file write `hlp_source' "{smcl}" _n
+		file write `hlp_source' "{right:(as of `date')}" _n
+		file write `hlp_source' "" _n
+		file write `hlp_source' "{marker indicators}{...}" _n
+		file write `hlp_source' "{p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}" _n
+		file write `hlp_source' "{title:Source}" _n
+		file write `hlp_source' "" _n
+		file write `hlp_source' "This list is generated from cached metadata. Use " _n
+		file write `hlp_source' `"{stata `"wbopendata, sources"':{bf:wbopendata, sources}}"' _n
+		file write `hlp_source' "to browse sources and " _n
+		file write `hlp_source' `"{stata `"wbopendata, search() searchsource(#)"':{bf:search() searchsource(#)}}"' _n
+		file write `hlp_source' "to filter indicators within a source." _n
+		file write `hlp_source' "" _n
+
+		file write `hlp_source' "{marker toc}" _n
+		file write `hlp_source' "{p 40 20 2}(Go up to {it:{help wbopendata##sourceid:Source}}){p_end}" _n
+		file write `hlp_source' "{synoptset 40 tabbed}{...}" _n
+		file write `hlp_source' "{synopthdr:Source Code}" _n
+		file write `hlp_source' "{synoptline}" _n
+
+		local codes "`source_codes'"
+		local names `"`source_names'"'
+		while ("`codes'" != "") {
+			gettoken code codes : codes
+			gettoken name names : names, bind
+			local name = subinstr(`"`name'"', `"""', "'", .)
+			local browse_cmd "wbopendata, search() searchsource(`code')"
+			file write `hlp_source' `"{synopt:{opt `code'}}  `name' {stata `"`browse_cmd'"':[Browse]}{p_end}"' _n
 		}
-		
-		keep if `variable' != ""
-		sort `variable' indicatorcode
-		bysort `variable' indicatorcode : gen `dups`variable'' = _n
-		keep if `dups`variable'' == 1
-		sort `dups`variable'' `variable' indicatorcode topicid
-		bysort `dups`variable'' `variable' indicatorcode : gen `seq2`variable'' = _n
-		keep if  `seq2`variable'' == 1
-		sort `variable' `countryname'
-		gen `seq3`variable'' = _n
-		gen `code`variable''  = trim(word(`variable',1))
-		
-		local title : variable label `variable' 
-		local title = subinstr("`title'","Code","",.)
-				
-	**************** header ********************
-				
-		file open `hlp`variable''		using 	`help`variable'' , write text replace
+		file write `hlp_source' "{synoptline}" _n
+	file close `hlp_source'
 
-				
-				file write `hlp`variable'' "{smcl}" 					_n
-				file write `hlp`variable'`tc0'' "{right:(as of `date')}" 							_n
-				file write `hlp`variable'' "" 							_n
-				file write `hlp`variable'' "{marker indicators}{...}" 	_n
-				file write `hlp`variable'' "{p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}" 	_n
-				file write `hlp`variable'' "{title:`title'}" 		_n
-				file write `hlp`variable'' "" 							_n
+	cap: findfile wbopendata_sourceid.sthlp , `path'
+	if _rc == 0 {
+		copy `help_source'  "`r(fn)'" , replace
+	}
+	else {
+		copy `help_source' "`wbopendata_dir'wbopendata_sourceid.sthlp"
+	}
+	noi di in g in smcl "\tSee {bf:{help wbopendata##sourceid:Source}}"
 
-				********************************************
-				levelsof `variable'
+	*----------------------------------------------
+	* TOPICS: use discovery function to fetch list
+	*----------------------------------------------
+	cap noi _wbopendata_topics, limit(10000)
+	if (_rc != 0) {
+		local topic_ids ""
+		local topic_names ""
+		local n_topics = 0
+	}
+	else {
+		local topic_ids "`r(topic_ids)'"
+		local topic_names `"`r(topic_names)'"'
+		local n_topics = r(n_topics)
+	}
 
-				file write `hlp`variable'' "{marker toc}" 	_n
-				file write `hlp`variable'' "{p 40 20 2}(Go up to {it:{help wbopendata##`variable':`title'}}){p_end}" 	_n
-				file write `hlp`variable'' "{synoptset 40 tabbed}{...}" 	_n
-				file write `hlp`variable'' "{synopthdr:`title' Code}" _n
-				file write `hlp`variable'' "{synoptline}" 				_n
+	tempfile help_topic
+	tempname hlp_topic
+	file open `hlp_topic' using `help_topic', write text replace
+		file write `hlp_topic' "{smcl}" _n
+		file write `hlp_topic' "{right:(as of `date')}" _n
+		file write `hlp_topic' "" _n
+		file write `hlp_topic' "{marker indicators}{...}" _n
+		file write `hlp_topic' "{p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}" _n
+		file write `hlp_topic' "{title:Topics}" _n
+		file write `hlp_topic' "" _n
+		file write `hlp_topic' "This list is generated from cached metadata. Use " _n
+		file write `hlp_topic' `"{stata `"wbopendata, topics"':{bf:wbopendata, topics}}"' _n
+		file write `hlp_topic' "to browse topics and " _n
+		file write `hlp_topic' `"{stata `"wbopendata, search() searchtopic(#)"':{bf:search() searchtopic(#)}}"' _n
+		file write `hlp_topic' "to filter indicators within a topic." _n
+		file write `hlp_topic' "" _n
 
-				foreach topic in `r(levels)' {
-					
-					local var1code 	= trim(word("`topic'",1))
-					local var1name 	= trim(subinstr("`topic'","`var1code'","",.))
-						
-					file write `hlp`variable''  "{synopt:{opt `var1code'}}  {help wbopendata_`variable'##`variable'_`var1code':`var1name'}{p_end}" _n
-				}
+		file write `hlp_topic' "{marker toc}" _n
+		file write `hlp_topic' "{p 40 20 2}(Go up to {it:{help wbopendata##topicid:Topics}}){p_end}" _n
+		file write `hlp_topic' "{synoptset 40 tabbed}{...}" _n
+		file write `hlp_topic' "{synopthdr:Topics Code}" _n
+		file write `hlp_topic' "{synoptline}" _n
 
-				file write `hlp`variable'' "{synoptline}" 				_n
-				file write `hlp`variable'' "" 				_n
-				file write `hlp`variable'' "" 				_n
-				
-				levelsof `variable'
-				
-				foreach topic in `r(levels)' {
-				
-					sum `seq3`variable'' if `variable' == "`topic'"
-					local min = r(min)
-					local max = r(max)
-
-					local topicode0	= `code`variable''		in `min'
-					local topicode1	= `variable'		in `min'
-					local topicode2 "`variable'_`topicode0'"
-
-					file write `hlp`variable'' "{marker `topicode2'}" 	_n
-					file write `hlp`variable'' "{p 40 20 2}(Go up to {it:{help wbopendata_`variable'##`variable'_`topicode0':`title'}} or {it:{help wbopendata_`variable'_indicators`topicode0'##`toc':TOC}}){p_end}" 	_n
-					file write `hlp`variable'' "{synoptset 40 tabbed}{...}" 	_n
-					file write `hlp`variable'' "{synopthdr:`topicode1'}" _n
-					file write `hlp`variable'' "{synoptline}" 				_n
-		
-					forvalues line = `min'(1)`max'  {
-
-						local indicatorname 	= indicatorname 	in `line'
-						local indicatorcode 	= indicatorcode   	in `line'
-						
-						file write `hlp`variable''  ""  _n
-						file write `hlp`variable''  "{synopt:{help wbopendata_`variable'_indicators`topicode0'##`variable'_`indicatorcode':`indicatorcode'{marker `indicatorcode'}}}`indicatorname'{p_end}" _n
-						
-					}
-				
-					file write `hlp`variable'' "{synoptline}" 				_n
-					file write `hlp`variable''  `""' _n
-					
-				}
-					
-				file write `hlp`variable'`tc0'' "{right:(as of `date')}" 							_n
-
-		file close `hlp`variable''
-				
-				
-		cap: findfile wbopendata_`variable'.sthlp , `path'
-		
-		if _rc == 0 {
-			copy `help`variable''  "`r(fn)'" , replace
+		local ids "`topic_ids'"
+		local names `"`topic_names'"'
+		while ("`ids'" != "") {
+			gettoken code ids : ids
+			gettoken name names : names, bind
+			local name = subinstr(`"`name'"', `"""', "'", .)
+			local browse_cmd "wbopendata, search() searchtopic(`code')"
+			file write `hlp_topic' `"{synopt:{opt `code'}}  `name' {stata `"`browse_cmd'"':[Browse]}{p_end}"' _n
 		}
-		else {
-			copy `help`variable'' "`wbopendata_dir'wbopendata_`variable'.sthlp"
-		}
-				
-		noi di in g in smcl "	See {bf:{help wbopendata_`variable'##`variable':`title'}}"
-				
-	}		
-	
+		file write `hlp_topic' "{synoptline}" _n
+	file close `hlp_topic'
+
+	cap: findfile wbopendata_topicid.sthlp , `path'
+	if _rc == 0 {
+		copy `help_topic'  "`r(fn)'" , replace
+	}
+	else {
+		copy `help_topic' "`wbopendata_dir'wbopendata_topicid.sthlp"
+	}
+	noi di in g in smcl "\tSee {bf:{help wbopendata##topicid:Topics}}"
+
 	noi di in smcl in g ""
-	noi di in smcl in g "{bf: Processing indicators by source and topic...COMPLETED!}"
+	noi di in smcl in g "{bf: Processing source/topic help (discovery)...COMPLETED!}"
 	noi di in smcl in g ""
 
 }

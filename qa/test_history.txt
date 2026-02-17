@@ -454,3 +454,179 @@ Tests:    44 run, 44 passed, 0 failed
 Result:   ALL TESTS PASSED
 Log:      test_results_v17.7.1_4Jan2026.log
 ======================================================================
+
+
+======================================================================
+Test Run:  7 Feb 2026
+Started:  04:49:05
+Ended:    04:58:21
+Duration: 9m 16s
+Version:  17.7.1
+Build:    04Jan2026
+Stata:    17
+Tests:    61 run, 42 passed, 19 failed
+Result:   FAILED
+Failed:   ENV-05, LW-01, LW-02, LW-04, UPD-02, LANG-01, DESC-01, CACHE-01, CACHE-02, CACHE-03, CACHE-04, CACHE-08, DISC-01, DISC-02, DISC-03, DISC-04, DISC-05, DISC-06, DISC-07
+Log:      test_results_v17.7.1_7Feb2026.log
+======================================================================
+
+======================================================================
+Test Run:  9 Feb 2026
+Started:  08:01:28
+Ended:    08:39:22
+Duration: 37m 54s
+Version:  18.0.0
+Build:    05Feb2026
+Stata:    17
+Tests:    65 run, 57 passed, 8 failed
+Result:   FAILED
+Failed:   ENV-03, ENV-04, UPD-06, CACHE-01, CACHE-02, CACHE-03, CACHE-04, DISC-02
+Log:      test_results_v18.0.0_9Feb2026.log
+======================================================================
+
+
+======================================================================
+Test Run:  9 Feb 2026
+Started:  12:06:00
+Ended:    12:09:57
+Duration: 3m 57s
+Version:  18.0.0
+Build:    05Feb2026
+Stata:    17
+Tests:    65 run, 65 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.0.0_9Feb2026.log
+======================================================================
+
+======================================================================
+Test Run:  9 Feb 2026
+Started:  10:13:38
+Ended:    10:25:13
+Duration: 11m 35s
+Version:  18.0.0
+Build:    05Feb2026
+Stata:    17
+Tests:    61 run, 59 passed, 2 failed
+Result:   FAILED
+Failed:   UPD-06, DISC-02
+Log:      test_results_v18.0.0_9Feb2026.log
+======================================================================
+
+======================================================================
+Test Run:  9 Feb 2026
+Started:  10:34:55
+Ended:    10:38:54
+Duration: 3m 59s
+Version:  18.0.0
+Build:    05Feb2026
+Stata:    17
+Tests:    61 run, 60 passed, 1 failed
+Result:   FAILED
+Failed:   DISC-02
+Log:      test_results_v18.0.0_9Feb2026.log
+======================================================================
+
+======================================================================
+Test Run:  9 Feb 2026
+Started:  10:42:31
+Ended:    10:46:24
+Duration: 3m 53s
+Version:  18.0.0
+Build:    05Feb2026
+Stata:    17
+Tests:    61 run, 61 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.0.0_9Feb2026.log
+======================================================================
+
+======================================================================
+Test Run:  9 Feb 2026
+Started:  14:41:01
+Ended:    14:44:49
+Duration: 3m 48s
+Version:  18.0.0
+Build:    05Feb2026
+Stata:    17
+Tests:    65 run, 65 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.0.0_9Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 10 Feb 2026
+Started:  16:50:40
+Ended:    16:55:44
+Duration: 5m 4s
+Version:  18.1.0
+Build:    10Feb2026
+Stata:    17
+Tests:    89 run, 88 passed, 1 failed
+Result:   FAILED
+Failed:   ERR-06
+Log:      test_results_v18.1.0_10Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 10 Feb 2026
+Started:  17:32:41
+Ended:    17:37:44
+Duration: 5m 3s
+Version:  18.1.0
+Build:    10Feb2026
+Stata:    17
+Tests:    88 run, 88 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.1.0_10Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 10 Feb 2026
+Started:  17:39:31
+Ended:    17:43:22
+Duration: 3m 51s
+Version:  18.1.0
+Build:    10Feb2026
+Stata:    17
+Tests:    89 run, 89 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.1.0_10Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 10 Feb 2026
+Started:  17:44:44
+Ended:    17:49:48
+Duration: 5m 4s
+Version:  18.1.0
+Build:    10Feb2026
+Stata:    17
+Tests:    89 run, 89 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.1.0_10Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 17 Feb 2026
+Started:  17:37:16
+Ended:    17:41:54
+Duration: 4m 38s
+Version:  18.1.0
+Build:    10Feb2026
+Stata:    17
+Tests:    89 run, 89 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.1.0_17Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 17 Feb 2026
+Started:  18:08:36
+Ended:    18:12:46
+Duration: 4m 10s
+Version:  18.1.1
+Build:    17Feb2026
+Stata:    17
+Tests:    89 run, 89 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.1.1_17Feb2026.log
+======================================================================

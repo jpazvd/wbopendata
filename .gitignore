@@ -1,64 +1,60 @@
 ########################################################################
 #
-# We recommend that you create a .gitignore file using GitHub's tools and
-# replace the content of that file with the content of this file. Otherwise
-# you have to rename this file .gitignore. But if you rename the fine in a
-# regular folder window PCs and Macs are likely to keep the file extension
-# so that the file ends up being names .gitignore.txt. Code editors like, Atom,
-# can edit the file extension, but if you are not familiar with how to do that,
-# we recommend that you generate an ignore file using GitHub and simply replace
-# the content of that file.
+# .gitignore for the PUBLIC wbopendata repository (jpazvd/wbopendata)
 #
-# Note that if you are using GitKraken you need to use version 5.x or more
-# recent for this template to work properly
+# This file is maintained in wbopendata-dev and synced to the public
+# repo by the sync-to-public workflow. Edit in wbopendata-dev, not here.
+#
+# Strategy: ignore everything, then whitelist what belongs in public.
 #
 ########################################################################
 
 #######################
-# Start by ignoring everything, and below we are explicitly saying
-# what to not ignore
+# Start by ignoring everything
 *
 
 #######################
-# List of files with GitHub functionality anywhere in the repo
-# that we do not want to ignore
-
-# These files include GitHub settings
+# GitHub and git configuration
 !.gitignore
 !.gitattributes
 
-# Keep markdown files used for documentation on GitHub
+# Documentation files
 !README.md
 !CONTRIBUTING.md
 !LICENSE.md
 !LICENSE
 !CHANGELOG.md
 !CITATION.cff
+!RELEASE_NOTES.md
 
 #######################
-# For performance reasons, if a folder is already ignored, then
-# GitHub does not check the content for that folder for matches
-# with additional rules. The line below includes folder in the
-# top folder (but not their content), so that anything matching
-# the rules below will still not be ignored.
+# Allow top-level folders (required for nested whitelist rules)
 !*/
 
 #######################
-# The following file types are code that should always be
-# included no matter where in the repository folder they are
-# located unless you explicitly ignore that folder
-
-# Stata
+# Stata package source code
 !/src/*.do
 !/src/*.ado
 !/src/*.sthlp
 !/src/*.dta
 !/src/*.txt
+!/src/*.yaml
+!/src/*.pkg
+!/src/*.toc
+!/src/*.dlg
 !/src/**/*.do
 !/src/**/*.ado
 !/src/**/*.sthlp
 !/src/**/*.dta
 !/src/**/*.txt
+!/src/**/*.yaml
+!/src/**/*.py
+!/src/**/*.dlg
+
+# Stata package metadata (root level)
+!/dependency.do
+!/stata.toc
+!/wbopendata.pkg
 
 # Documentation
 !/doc/*.md
@@ -68,82 +64,69 @@
 !/doc/**/*.do
 !/doc/**/*.txt
 
-# QA test files
+# QA test infrastructure (scripts only)
 !/qa/*.txt
 !/qa/*.md
 !/qa/*.do
+!/qa/fixtures/
+!/qa/fixtures/*.tar.gz
+!/qa/fixtures/*.do
 
-# Ignore _archive folders (development artifacts)
-_archive/
+# Test scripts
+!/tests/*.do
+!/tests/*.py
 
-#######################
-# Always ignore log files (Stata .log files) everywhere
-*.log
-
-# Paper (LaTeX files for Stata Journal submission)
-!/paper/*.tex
-!/paper/*.sty
-!/paper/*.cls
-!/paper/*.do
-!/paper/*.md
-!/paper/**/*.log.tex
-!/paper/**/*.do
-!/paper/**/*.md
-!/paper/sjlogs/
-!/paper/scripts/
-!/paper/docs/
-!/paper/figs/
-!/paper/**/*.png
-!/paper/**/*.pdf
-!/paper/**/*.py
-
-# Ignore compiled manuscript PDFs (keep locally, don't track)
-paper/jpazvd_wbopendata*.pdf
-
-# Ignore LaTeX temporary files
-*.aux
-*.fdb_latexmk
-*.fls
-*.out
-*.pp
-*.pp1
-*.synctex.gz
-*.tag
-pdflatex*.fls
-
-#######################
-# Include all the files with passwords or tokens here. All files named
-# password or passwords are with this template ignored no matter which
-# format you are using. Additionally, all content in any folder called
-password or passwords are also ignored. NOTE that your project might be
-using different names and then you must edit the lines below accordingly.
-password.*
-passwords.*
-password/
-passwords/
-
-# SSC package folder - TRACK this folder
+# SSC distribution package
 !/ssc/
 !/ssc/*.zip
 !/ssc/*.ps1
 !/ssc/*.md
 !/ssc/*.pkg
 !/ssc/*.toc
-ssc/submission_email.md
+
+# Paper (published PDF only - LaTeX sources are private)
+!/paper/*.pdf
 
 #######################
-# Extra safety layer: Prevent accidental commits of private content
-# (Primary protection is the workflow, but this is defense-in-depth)
-paper/
+# Always ignore log files everywhere
+*.log
+
+# Ignore LaTeX temporary files (should not arrive, but defense-in-depth)
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+
+# Ignore development artifacts
+_archive/
+
+#######################
+# Credentials and secrets
+password.*
+passwords.*
+password/
+passwords/
+
+#######################
+# Defense-in-depth: block private content that should never appear
+# in the public repo. Primary protection is the whitelist workflow;
+# these rules are a second safety layer.
+archive/
 internal/
 drafts/
 benchmarks/
 personal/
+data/
+config/
+logs/
+scripts/
 eb1a/
 _drafts/
-_archive/
 _deprecated/
 .github/copilot-instructions.md
 .github/copilot/
 .github/prompts/
 .github/workflows/sync-to-public.yml
+.github/workflows/update-metadata.yml
+ssc/submission_email.md
