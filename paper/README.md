@@ -6,17 +6,19 @@ Stata Journal manuscript documenting the `wbopendata` command: fifteen years of 
 
 | File | Description |
 |------|-------------|
-| `jpazvd_wbopendata_v3.tex` | Main manuscript (current version) |
-| `jpazvd_wbopendata_v2.tex` | Previous version (with bibliography) |
-| `jpazvd_wbopendata-v1.tex` | Initial version (archive) |
+| `azevedo-2026-wbopendata.tex` | Working draft (v18.1, uses `sj_clean.sty`) |
 | `wbopendata.bib` | BibTeX bibliography database |
+| `jpazvd_wbopendata_v3.tex` | Previous version (v18.0 draft) |
+| `jpazvd_wbopendata_v2.tex` | Earlier version (v17.x era) |
+| `jpazvd_wbopendata-v1.tex` | Initial version (archive) |
 
 ## Folders
 
 | Folder | Contents |
 |--------|----------|
+| `wbopendata_sj_submission/` | Self-contained SJ submission package (tex, bib, sjlogs, figs, software, cover letter) |
 | `figs/` | PDF figures referenced in the paper (5 figures) |
-| `sjlogs/` | Stata log snippets for LaTeX inclusion (38 files: `.tex` raw + `.log.tex` processed) |
+| `sjlogs/` | Stata log snippets for LaTeX inclusion (20 `.log.tex` files) |
 | `scripts/` | Stata do-files and Python utilities for log generation |
 | `docs/` | Supporting documentation |
 
@@ -32,19 +34,23 @@ The manuscript uses the Stata Journal document class:
 
 ## Building
 
-Compile the current version with pdflatex:
+Compile the working draft with pdflatex:
 
 ```powershell
-pdflatex jpazvd_wbopendata_v3.tex
-bibtex jpazvd_wbopendata_v3
-pdflatex jpazvd_wbopendata_v3.tex
-pdflatex jpazvd_wbopendata_v3.tex
+pdflatex azevedo-2026-wbopendata.tex
+bibtex azevedo-2026-wbopendata
+pdflatex azevedo-2026-wbopendata.tex
+pdflatex azevedo-2026-wbopendata.tex
 ```
 
-Or use latexmk for automatic rebuilds:
+The submission copy is in `wbopendata_sj_submission/` and uses `sj.sty` (official SJ formatting):
 
-```bash
-latexmk -pdf jpazvd_wbopendata_v3.tex
+```powershell
+cd wbopendata_sj_submission
+pdflatex azevedo-2026-wbopendata-sj-submitted.tex
+bibtex azevedo-2026-wbopendata-sj-submitted
+pdflatex azevedo-2026-wbopendata-sj-submitted.tex
+pdflatex azevedo-2026-wbopendata-sj-submitted.tex
 ```
 
 ## Regenerating Log Snippets
