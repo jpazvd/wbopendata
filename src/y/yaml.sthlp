@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 1.3.0  04Dec2025}{...}
+{* *! version 1.7.0  20Feb2026}{...}
 {viewerjumpto "Syntax" "yaml##syntax"}{...}
 {viewerjumpto "Description" "yaml##description"}{...}
 {viewerjumpto "Subcommands" "yaml##subcommands"}{...}
@@ -64,7 +64,8 @@ Stata 16 or later.
 {p 8 17 2}
 {cmd:yaml read}
 {cmd:using} {it:filename}
-[{cmd:,} {opt frame(name)} {opt l:ocals} {opt s:calars} {opt p:refix(string)} {opt replace} {opt v:erbose}]
+[{cmd:,} {opt frame(name)} {opt l:ocals} {opt s:calars} {opt p:refix(string)} {opt replace} {opt v:erbose}
+{opt fastread} {opt fields(string)} {opt listkeys(string)} {opt cache(string)}]
 
 {pstd}
 Reads a YAML file and parses its contents into the current dataset (default) or a frame.
@@ -78,16 +79,47 @@ Reads a YAML file and parses its contents into the current dataset (default) or 
 {synopt:{opt p:refix(string)}}prefix for macro/scalar names; default is "yaml_"{p_end}
 {synopt:{opt replace}}replace existing data in memory{p_end}
 {synopt:{opt v:erbose}}display parsing progress{p_end}
+{synopt:{opt fastread}}use fast-read parser (speed-first, limited YAML subset){p_end}
+{synopt:{opt fields(string)}}restrict extraction to specific field keys{p_end}
+{synopt:{opt listkeys(string)}}extract list blocks for specified fields (fastread only){p_end}
+{synopt:{opt blockscalars}}capture block scalars in fast-read mode (opt-in){p_end}
+{synopt:{opt targets(string)}}early-exit targets for canonical parse (exact keys){p_end}
+{synopt:{opt earlyexit}}stop parsing once all targets are found (canonical){p_end}
+{synopt:{opt stream}}use streaming tokenization for canonical parse{p_end}
+{synopt:{opt index(string)}}materialize an index frame for repeated queries (Stata 16+){p_end}
+{synopt:{opt cache(string)}}cache parsed results in a frame (Stata 16+){p_end}
+{synopt:{opt bulk}}use Mata bulk-load parser for high-performance parsing{p_end}
+{synopt:{opt collapse}}produce wide-format output (use with {cmd:_yaml_collapse} helper){p_end}
+{synopt:{opt strl}}use strL storage for values exceeding 2045 characters{p_end}
 {synoptline}
 
 {pstd}
-The following variables are created:
+{opt fastread} is not compatible with {opt locals} or {opt scalars}.
+
+{pstd}
+{opt targets()} and {opt earlyexit} apply to canonical parsing only and are not supported
+with {opt fastread}.
+
+{pstd}
+{opt cache()} accepts a frame name (e.g., {cmd:cache(mycache)}) or a named form
+{cmd:cache(frame=mycache)}. The stored frame is prefixed as {cmd:yaml_} if not already.
+
+{pstd}
+The following variables are created in canonical mode:
 {p_end}
 {phang2}{cmd:key} - Full key name (nested keys use underscore separator){p_end}
 {phang2}{cmd:value} - Value as string{p_end}
 {phang2}{cmd:level} - Nesting level (1 = root){p_end}
 {phang2}{cmd:parent} - Parent key name{p_end}
 {phang2}{cmd:type} - Value type (string, numeric, boolean, null, parent){p_end}
+
+{pstd}
+In {opt fastread} mode, the following variables are created:{p_end}
+{phang2}{cmd:key} - Top-level key (e.g., indicator code){p_end}
+{phang2}{cmd:field} - Field name under the key{p_end}
+{phang2}{cmd:value} - Field value{p_end}
+{phang2}{cmd:list} - 1 if list item, 0 otherwise{p_end}
+{phang2}{cmd:line} - Line number in the YAML file{p_end}
 
 
 {marker write}{...}
@@ -301,6 +333,13 @@ Clears YAML data from memory.
 {phang2}// Creates frame yaml_config, preserves current dataset{p_end}
 
 {pstd}
+{bf:Example 2b: Fast-scan for large metadata (opt-in)}{p_end}
+
+{phang2}{cmd:. yaml read using "indicators.yaml", fastread fields(name description source_id topic_ids) }{p_end}
+{phang2}{cmd:.     listkeys(topic_ids topic_names) cache(ind_cache)}{p_end}
+{phang2}{cmd:. list in 1/5}{p_end}
+
+{pstd}
 {bf:Example 3: Work with multiple YAML files using frames}{p_end}
 
 {phang2}{cmd:. yaml read using "config.yaml", frame(cfg)}{p_end}
@@ -398,6 +437,8 @@ Clears YAML data from memory.
 {p2col 5 20 24 2: Macros}{p_end}
 {synopt:{cmd:r(filename)}}name of file read{p_end}
 {synopt:{cmd:r(frame)}}name of frame created (if frame option used){p_end}
+{synopt:{cmd:r(yaml_mode)}}parsing mode: {cmd:canonical} or {cmd:fastread}{p_end}
+{synopt:{cmd:r(cache_hit)}}1 if cache was used, 0 otherwise{p_end}
 {synopt:{cmd:r(yaml_*)}}values from YAML file (when {opt locals} specified){p_end}
 
 {pstd}
@@ -421,11 +462,26 @@ The {opt frame()} option requires Stata 16.0 or later.
 {pstd}
 {cmd:yaml} handles common YAML structures but does not support:
 
-{phang2}- Multi-line strings (block scalars){p_end}
 {phang2}- Anchors and aliases (&anchor, *alias){p_end}
 {phang2}- Complex keys{p_end}
 {phang2}- Flow style ({c -(}key: value{c )-}){p_end}
 {phang2}- Document markers (---){p_end}
+
+{pstd}
+{bf:Block scalars} (multi-line strings with {cmd:|} or {cmd:>}) are supported via
+{opt blockscalars} in fast-read mode and in the canonical parser.
+
+{pstd}
+{cmd:fastread} mode is optimized for shallow mappings and list blocks, and does not
+support anchors, aliases, or complex nested structures. Use the canonical parser
+for full YAML compliance.
+
+{pstd}
+{bf:Phase 2 options} ({opt bulk}, {opt collapse}, {opt strl}) enable high-performance
+parsing via Mata. The {opt bulk} option uses a Mata-based parser that loads the
+entire file into memory for vectorized processing. Use {cmd:_yaml_collapse} after
+{opt bulk} to produce wide-format output with one row per top-level key.
+The {opt strl} option stores values as strL to allow values exceeding 2045 characters.
 
 
 {marker author}{...}
@@ -441,5 +497,5 @@ jpazevedo@unicef.org
 {title:Also see}
 
 {psee}
-{space 2}Help: {help frames}, {help infile}, {help import delimited}, {help file}
+{space 2}Help: {help yaml_examples:yaml examples}, {help yaml_whatsnew:what's new}, {help frames}, {help infile}, {help import delimited}, {help file}
 {p_end}
