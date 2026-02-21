@@ -1,9 +1,10 @@
 *******************************************************************************
-*! __wbod_parse_yaml_ind_v2 v1.0.0  20Feb2026
+*! __wbod_parse_yaml_ind_v2 v1.1.0  21Feb2026
 *! Parse YAML indicators file using yaml.ado bulk collapse (faster)
 *! Drop-in replacement for __wbod_parse_yaml_ind.ado
-*! 
-*! Uses yaml v1.9.0 indicators preset for ~27% faster parsing
+*! v1.1.0: Strip empty YAML arrays [], add source_org to colfields
+*!
+*! Uses yaml v1.9.1 indicators preset for ~27% faster parsing
 *! Produces identical output variables for compatibility with __wbopendata_search_cache
 *******************************************************************************
 
@@ -18,7 +19,7 @@ program define __wbod_parse_yaml_ind_v2
     }
 
     quietly {
-        * Use yaml v1.9.0 indicators preset (bulk + collapse + default colfields)
+        * Use yaml v1.9.1 indicators preset (bulk + collapse + default colfields)
         yaml read using "`yaml_path'", indicators replace blockscalars strl
         
         * Rename variables to match __wbod_parse_yaml_ind output format
@@ -43,15 +44,20 @@ program define __wbod_parse_yaml_ind_v2
         * Handle optional fields that may not exist
         capture rename unit field_unit
         if (_rc != 0) gen str1 field_unit = ""
-        
+
         capture rename note field_note
         if (_rc != 0) gen str1 field_note = ""
-        
+
         capture rename limited_data field_limited_data
         if (_rc != 0) gen byte field_limited_data = 0
-        
-        * Create composite source field (source_id + source_name)
-        gen strL field_source = field_source_id + " " + field_source_name
+
+        * Rename source_org (now included in colfields via indicators preset)
+        capture rename source_org field_source
+        if (_rc != 0) gen strL field_source = field_source_id + " " + field_source_name
+
+        * Normalize empty YAML arrays: [] -> ""
+        replace field_topic_ids = "" if field_topic_ids == "[]"
+        replace field_topic = "" if field_topic == "[]"
         
         * Drop empty indicator rows (if any)
         drop if ind_code == ""
