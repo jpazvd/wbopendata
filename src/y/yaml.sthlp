@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 1.7.0  20Feb2026}{...}
+{* *! version 1.9.0  20Feb2026}{...}
 {viewerjumpto "Syntax" "yaml##syntax"}{...}
 {viewerjumpto "Description" "yaml##description"}{...}
 {viewerjumpto "Subcommands" "yaml##subcommands"}{...}
@@ -90,6 +90,9 @@ Reads a YAML file and parses its contents into the current dataset (default) or 
 {synopt:{opt cache(string)}}cache parsed results in a frame (Stata 16+){p_end}
 {synopt:{opt bulk}}use Mata bulk-load parser for high-performance parsing{p_end}
 {synopt:{opt collapse}}produce wide-format output (use with {cmd:_yaml_collapse} helper){p_end}
+{synopt:{opt colfields(string)}}filter collapsed output to specific field names (semicolon-separated){p_end}
+{synopt:{opt maxlevel(#)}}limit collapsed columns by depth (1=no underscores, 2=one underscore, etc.){p_end}
+{synopt:{opt indicators}}preset for wbopendata/unicefdata indicator metadata (implies bulk collapse){p_end}
 {synopt:{opt strl}}use strL storage for values exceeding 2045 characters{p_end}
 {synoptline}
 
@@ -482,6 +485,34 @@ parsing via Mata. The {opt bulk} option uses a Mata-based parser that loads the
 entire file into memory for vectorized processing. Use {cmd:_yaml_collapse} after
 {opt bulk} to produce wide-format output with one row per top-level key.
 The {opt strl} option stores values as strL to allow values exceeding 2045 characters.
+
+{pstd}
+{bf:Collapse filter options (v1.8.0):} When using {opt collapse}, the default behavior
+creates columns for every field path in the YAML structure. For deeply nested YAML files
+(like indicator metadata), this can produce hundreds of columns. Use these options to
+filter the collapsed output:
+
+{p 8 12 2}
+{opt colfields(string)} filters columns to include only specified field names. 
+Provide fields as a semicolon-separated list (e.g., {cmd:colfields(code;name;source_id)}).
+Uses exact case-sensitive matching against the final field name (the part after the last underscore).
+
+{p 8 12 2}
+{opt maxlevel(#)} limits columns by nesting depth, measured as the number of underscores
+in the field name plus one. Level 1 includes fields with no underscores (e.g., {it:code}, {it:name}).
+Level 2 adds fields with one underscore (e.g., {it:source_id}, {it:topic_names}).
+Level 3 adds fields with two underscores (e.g., array elements like {it:topic_ids_1}).
+
+{pstd}
+{bf:Example:} For wbopendata/unicefdata indicator metadata with fields like {it:code}, {it:name},
+{it:source_id}, {it:description}, use:
+
+{p 8 15 2}
+{cmd:yaml read using "indicators.yaml", bulk collapse colfields(code;name;source_id;description)}
+
+{pstd}
+This produces a dataset with one row per indicator and only the four specified columns,
+instead of the hundreds that would be created with full collapse.
 
 
 {marker author}{...}

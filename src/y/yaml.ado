@@ -1,7 +1,9 @@
 *******************************************************************************
 * yaml
-*! v 1.7.0   19Feb2026               by Joao Pedro Azevedo (UNICEF)
+*! v 1.9.0   20Feb2026               by Joao Pedro Azevedo (UNICEF)
 * Read and write YAML files in Stata
+* v1.9.0: INDICATORS preset for wbopendata/unicefdata parsing
+* v1.8.0: collapse colfields() and maxlevel() options for selective columns
 * v1.7.0: Mata bulk-load (BULK), collapsed wide-format output (COLLAPSE)
 * v1.5.0: Added canonical early-exit targets, streaming tokenization, index frames,
 *         fastread block scalar capture, unsupported-feature checks, and file checks

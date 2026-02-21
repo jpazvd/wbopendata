@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 1.5.1  18Feb2026}{...}
+{* *! version 1.9.0  20Feb2026}{...}
 {viewerjumpto "Overview" "yaml_whatsnew##overview"}{...}
 {viewerjumpto "Version history" "yaml_whatsnew##history"}{...}
 
@@ -13,6 +13,29 @@ This file tracks feature updates to the {cmd:yaml} command.
 
 {marker history}{...}
 {title:Version history}
+
+{pstd}{bf:1.9.0} (20Feb2026) — {bf:INDICATORS preset}
+{p 4 8 2}- Added {cmd:indicators} option as preset for wbopendata/unicefdata metadata.{p_end}
+{p 4 8 2}- Automatically enables {cmd:bulk} and {cmd:collapse} with standard field selection.{p_end}
+{p 4 8 2}- Replaces custom indicator parsers with single unified yaml command.{p_end}
+{p 4 8 2}- Usage: {cmd:yaml read using indicators.yaml, indicators replace}{p_end}
+
+{pstd}{bf:1.8.0} (20Feb2026) — {bf:Collapse filter options}
+{p 4 8 2}- Added {cmd:colfields()} option to filter collapsed output to specific field names.{p_end}
+{p 4 8 2}- Added {cmd:maxlevel()} option to limit collapsed columns by nesting depth.{p_end}
+{p 4 8 2}- Designed for wbopendata/unicefdata indicator metadata parsing scenarios.{p_end}
+{p 4 8 2}- Added FEAT-09 test for collapse filter options (qa/scripts/test_collapse_options.do).{p_end}
+
+{pstd}{bf:1.7.0} (20Feb2026) — {bf:Mata bulk-load and collapse}
+{p 4 8 2}- Added {cmd:bulk} option for high-performance Mata-based YAML parsing.{p_end}
+{p 4 8 2}- Added {cmd:collapse} option to produce wide-format output from bulk parse.{p_end}
+{p 4 8 2}- Added {cmd:strl} option for values exceeding 2045 characters.{p_end}
+{p 4 8 2}- Added FEAT-05/FEAT-06 tests for bulk and collapse features.{p_end}
+
+{pstd}{bf:1.6.0} (18Feb2026)
+{p 4 8 2}- Mata st_sstore for embedded quote safety in canonical parser.{p_end}
+{p 4 8 2}- Block scalar support in canonical parser.{p_end}
+{p 4 8 2}- Continuation lines for multi-line scalars.{p_end}
 
 {pstd}{bf:1.5.1} (18Feb2026)
 {p 4 8 2}- Fixed {cmd:last_key} assignment for leaf keys in {cmd:yaml read}; list items after a leaf key now reference the correct parent (BUG-1).{p_end}

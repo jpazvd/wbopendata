@@ -1,17 +1,20 @@
 *******************************************************************************
 *! _yaml_collapse
-*! v 1.7.0   20Feb2026               by Joao Pedro Azevedo (UNICEF)
+*! v 1.8.0   20Feb2026               by Joao Pedro Azevedo (UNICEF)
 *! Post-process: pivot long YAML output to wide format (one row per entity)
 *! Expects standard canonical schema in memory: key value level parent type
 *! Uses Mata for performance on large datasets (avoids reshape wide)
+*!
+*! v1.8.0: Added fields() and maxlevel() options for selective column output
 *!
 *! Architecture (wbopendata-style, in Mata):
 *!   1. Read long-format data from Stata (key, value, level, type)
 *!   2. Forward-fill entity from level-2 parent keys
 *!   3. Extract ind_code (strip root prefix) and field name (strip entity prefix)
 *!   4. Strip numeric suffix from list item fields (topic_ids_1 -> topic_ids)
-*!   5. Build wide matrix with semicolon concatenation for list items
-*!   6. Write wide-format dataset (one row per entity, one column per field)
+*!   5. Filter fields by fields() list and/or maxlevel() threshold
+*!   6. Build wide matrix with semicolon concatenation for list items
+*!   7. Write wide-format dataset (one row per entity, one column per field)
 *******************************************************************************
 
 * Define the Mata functions (compiled once, persists in memory)
@@ -81,7 +84,7 @@ string scalar _yaml_unique_varname(string scalar base, string colvector used)
     return(base + "_x")
 }
 
-void _yaml_mata_collapse(string scalar mapfile)
+void _yaml_mata_collapse(string scalar mapfile, string scalar fields_str, real scalar max_level)
 {
     real scalar    n, i, j, m, capacity, root_len, ent_len
     real scalar    ne, nf, ei, fi, vi, last_us, k, all_digits
@@ -91,6 +94,19 @@ void _yaml_mata_collapse(string scalar mapfile)
     string colvector r_ic, r_fld, r_val, u_ent, u_fld, safe_fld
     string matrix    wide
     real scalar fh
+    /* New variables for fields filtering */
+    string rowvector fields_list
+    real scalar n_fields, field_ok, fld_level, underscore_count
+
+    /* ---- Parse fields() option into vector ---- */
+    if (fields_str != "") {
+        fields_list = tokens(subinstr(fields_str, ";", " ", .))
+        n_fields = cols(fields_list)
+    }
+    else {
+        fields_list = J(1, 0, "")
+        n_fields = 0
+    }
 
     /* ---- Read long-format data from Stata ---- */
     n      = st_nobs()
@@ -171,6 +187,32 @@ void _yaml_mata_collapse(string scalar mapfile)
         }
 
         if (f == "") continue
+
+        /* ---- Apply fields() filter ---- */
+        if (n_fields > 0) {
+            field_ok = 0
+            for (k = 1; k <= n_fields; k++) {
+                if (f == fields_list[k]) {
+                    field_ok = 1
+                    break
+                }
+            }
+            if (field_ok == 0) continue
+        }
+
+        /* ---- Apply maxlevel() filter ---- */
+        /* maxlevel counts underscores in field name as proxy for nesting depth */
+        /* level 1 = no underscore (e.g., "code", "name") */
+        /* level 2 = one underscore (e.g., "source_id") */
+        /* level 3 = two underscores (e.g., "source_org_name") */
+        if (max_level > 0) {
+            underscore_count = 0
+            for (k = 1; k <= strlen(f); k++) {
+                if (substr(f, k, 1) == "_") underscore_count++
+            }
+            fld_level = underscore_count + 1
+            if (fld_level > max_level) continue
+        }
 
         /* Append to result vectors (grow if needed) */
         m++
@@ -264,13 +306,21 @@ end
 
 program define _yaml_collapse
     version 14.0
+    syntax [, FIELDS(string) MAXLEVEL(integer 0)]
 
     quietly {
         tempfile fname_map
         local fname_map "`fname_map'"
-        mata: _yaml_mata_collapse("`fname_map'")
+        
+        * Pass fields and maxlevel to Mata
+        * fields: semicolon or space-separated list of field names to keep
+        * maxlevel: max underscore depth (0 = no limit, 1 = no underscores, 2 = 1 underscore max, etc.)
+        mata: _yaml_mata_collapse("`fname_map'", "`fields'", `maxlevel')
+        
         char _dta[yaml_fname_map] "`fname_map'"
         char _dta[yaml_fname_map_n] "`collapse_ncols'"
+        char _dta[yaml_collapse_fields] "`fields'"
+        char _dta[yaml_collapse_maxlevel] "`maxlevel'"
         compress
     }
 end

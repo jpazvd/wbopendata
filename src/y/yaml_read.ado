@@ -1,7 +1,9 @@
 *******************************************************************************
 * yaml_read
-*! v 1.7.0   19Feb2026               by Joao Pedro Azevedo (UNICEF)
+*! v 1.9.0   20Feb2026               by Joao Pedro Azevedo (UNICEF)
 * Read YAML file into Stata (dataset by default, or frame)
+* v1.9.0: INDICATORS preset for wbopendata/unicefdata indicator metadata
+* v1.8.0: collapse fields() and maxlevel() options for selective columns
 * v1.7.0: Mata bulk-load (BULK), collapsed wide-format output (COLLAPSE)
 * v1.6.0: Mata st_sstore for embedded quote safety, strL option,
 *         block scalar support in canonical parser, continuation lines
@@ -13,7 +15,17 @@ program define yaml_read, rclass
     syntax using/ [, Locals Scalars FRAME(string) Prefix(string) Replace Verbose ///
         FASTREAD FIELDS(string) LISTKEYS(string) CACHE(string) ///
         TARGETS(string) EARLYEXIT STREAM BLOCKSCALARS INDEX(string) STRL ///
-        BULK COLLAPSE]
+        BULK COLLAPSE COLFIELDS(string) MAXLEVEL(integer 0) INDICATORS]
+    
+    * INDICATORS preset: auto-set bulk, collapse, and default colfields
+    if ("`indicators'" != "") {
+        local bulk "bulk"
+        local collapse "collapse"
+        * Use standard indicator metadata fields if colfields not specified
+        if ("`colfields'" == "") {
+            local colfields "code;name;source_id;source_name;description;unit;topic_ids;topic_names;note;limited_data"
+        }
+    }
     
     * Validate option combinations
     if ("`fastread'" != "" & ("`locals'" != "" | "`scalars'" != "")) {
@@ -54,6 +66,25 @@ program define yaml_read, rclass
     }
     if ("`collapse'" != "" & ("`locals'" != "" | "`scalars'" != "")) {
         di as err "collapse is not compatible with locals/scalars"
+        exit 198
+    }
+    if ("`colfields'" != "" & "`collapse'" == "") {
+        di as err "colfields() requires collapse"
+        exit 198
+    }
+    if (`maxlevel' > 0 & "`collapse'" == "") {
+        di as err "maxlevel() requires collapse"
+        exit 198
+    }
+    if ("`colfields'" != "") {
+        local colfields_trim = strtrim(subinstr("`colfields'", ";", " ", .))
+        if ("`colfields_trim'" == "") {
+            di as err "colfields() must include at least one field name"
+            exit 198
+        }
+    }
+    if (`maxlevel' < 0) {
+        di as err "maxlevel() must be >= 0 (0 = no limit)"
         exit 198
     }
     if ("`fields'" != "") {
@@ -279,7 +310,7 @@ program define yaml_read, rclass
                 label variable parent "Parent key"
                 label variable type "Value type"
                 if ("`collapse'" != "") {
-                    _yaml_collapse
+                    _yaml_collapse, fields(`colfields') maxlevel(`maxlevel')
                 }
             }
         }
@@ -292,7 +323,7 @@ program define yaml_read, rclass
             label variable parent "Parent key"
             label variable type "Value type"
             if ("`collapse'" != "") {
-                _yaml_collapse
+                _yaml_collapse, fields(`colfields') maxlevel(`maxlevel')
             }
         }
 
@@ -828,7 +859,7 @@ program define yaml_read, rclass
             label variable type "Value type"
 
             if ("`collapse'" != "") {
-                _yaml_collapse
+                _yaml_collapse, fields(`colfields') maxlevel(`maxlevel')
             }
         }
 
@@ -854,7 +885,7 @@ program define yaml_read, rclass
         label variable type "Value type"
 
         if ("`collapse'" != "") {
-            _yaml_collapse
+            _yaml_collapse, fields(`colfields') maxlevel(`maxlevel')
         }
 
         if ("`verbose'" != "") {
