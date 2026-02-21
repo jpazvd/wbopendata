@@ -1,6 +1,7 @@
 *******************************************************************************
 *! _yaml_mataread
-*! v 1.7.0   19Feb2026               by Joao Pedro Azevedo (UNICEF)
+*! v 1.7.1   21Feb2026               by Joao Pedro Azevedo (UNICEF)
+*! v1.7.1: Fix parent_stack contamination: sibling keys at same indent restore parent
 *! Mata-accelerated YAML parser (bulk mode)
 *! Translates the canonical parser logic from yaml_read.ado into Mata
 *! for 5-15x speedup on large files.
@@ -106,6 +107,14 @@ void _yaml_mata_parse(string scalar filepath,
             }
             parent_stack = parent_names[found_level]
             n_levels = found_level
+        }
+        else {
+            /* Same indent = sibling.  Restore parent_stack for non-list
+               key-value pairs so that a preceding parent key (e.g. topic_ids:)
+               does not contaminate its sibling (e.g. topic_names:). */
+            if (substr(trimmed, 1, 2) != "- ") {
+                parent_stack = parent_names[n_levels]
+            }
         }
         current_indent = indent
         level = n_levels
