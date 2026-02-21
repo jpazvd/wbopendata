@@ -179,7 +179,7 @@ program define __wbopendata_search_cache, rclass
             * First call or invalid cache - parse YAML and cache result
             di as text "(Caching metadata in memory...)"
 
-            __wbod_parse_yaml_ind "`yaml_path'"
+            __wbod_parse_yaml_ind_v2 "`yaml_path'"
             gen str10 _parser_version = "`parser_version'"
 
             * Save processed dataset to frame for future use
@@ -208,7 +208,7 @@ program define __wbopendata_search_cache, rclass
         if ("`debug'" != "") {
             di as text "(Parsing YAML - no cache)"
         }
-        __wbod_parse_yaml_ind "`yaml_path'"
+        __wbod_parse_yaml_ind_v2 "`yaml_path'"
     }
 
     *---------------------------------------------------------------------------
