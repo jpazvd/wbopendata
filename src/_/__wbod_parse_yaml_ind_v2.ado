@@ -11,6 +11,12 @@ program define __wbod_parse_yaml_ind_v2
     version 14.0
     args yaml_path
 
+    * Check yaml.ado is installed with required version (once per session)
+    if ("$WBOD_yaml_checked" != "1") {
+        _wbopendata_check_yaml, minversion(1.9.0)
+        global WBOD_yaml_checked "1"
+    }
+
     quietly {
         * Use yaml v1.9.0 indicators preset (bulk + collapse + default colfields)
         yaml read using "`yaml_path'", indicators replace blockscalars strl

@@ -1,5 +1,10 @@
 {smcl}
 {* *! version 1.9.0  20Feb2026}{...}
+{vieweralsosee "yaml examples" "help yaml_examples"}{...}
+{vieweralsosee "yaml what's new" "help yaml_whatsnew"}{...}
+{vieweralsosee "" "--"}{...}
+{vieweralsosee "[R] import delimited" "help import delimited"}{...}
+{vieweralsosee "[R] frames" "help frames"}{...}
 {viewerjumpto "Syntax" "yaml##syntax"}{...}
 {viewerjumpto "Description" "yaml##description"}{...}
 {viewerjumpto "Subcommands" "yaml##subcommands"}{...}
@@ -7,6 +12,9 @@
 {viewerjumpto "Examples" "yaml##examples"}{...}
 {viewerjumpto "Stored results" "yaml##results"}{...}
 {viewerjumpto "Author" "yaml##author"}{...}
+{hline}
+{cmd:help yaml}{right:{bf:version 1.9.0}}
+{hline}
 
 {title:Title}
 
@@ -411,12 +419,25 @@ Clears YAML data from memory.
 {phang2}{res:  dataflow: CME}{p_end}
 
 {pstd}
-{bf:Example 10: Write from dataset to YAML}{p_end}
+{bf:Example 10: Parse wbopendata/unicefdata indicator metadata}{p_end}
+
+{phang2}{cmd:. yaml read using "indicators.yaml", indicators replace}{p_end}
+{phang2}// Creates wide-format dataset with one row per indicator:{p_end}
+{phang2}// key, code, name, source_id, source, topic_ids_*, topic_names_*, ...{p_end}
+{phang2}{cmd:. list key code name in 1/3}{p_end}
+
+{pstd}
+The {cmd:indicators} preset automatically enables {cmd:bulk} + {cmd:collapse} with
+default {cmd:colfields()} for standard indicator metadata fields. This replaces
+custom vectorized parsers and delivers ~60% faster performance.
+
+{pstd}
+{bf:Example 11: Write from dataset to YAML}{p_end}
 
 {phang2}{cmd:. yaml write using "output.yaml", replace}{p_end}
 
 {pstd}
-{bf:Example 11: Clear YAML data}{p_end}
+{bf:Example 12: Clear YAML data}{p_end}
 
 {phang2}{cmd:. yaml clear}{p_end}
 {phang2}// Clears current dataset{p_end}

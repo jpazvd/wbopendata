@@ -1,12 +1,19 @@
 {smcl}
-{* *! version 1.5.1  18Feb2026}{...}
+{* *! version 1.9.0  20Feb2026}{...}
+{vieweralsosee "yaml" "help yaml"}{...}
+{vieweralsosee "yaml what's new" "help yaml_whatsnew"}{...}
 {viewerjumpto "Basic usage" "yaml_examples##basic"}{...}
 {viewerjumpto "Frames" "yaml_examples##frames"}{...}
 {viewerjumpto "Querying" "yaml_examples##querying"}{...}
 {viewerjumpto "Validation" "yaml_examples##validation"}{...}
 {viewerjumpto "Fast-read" "yaml_examples##fastread"}{...}
+{viewerjumpto "Bulk and collapse" "yaml_examples##bulk"}{...}
+{viewerjumpto "Indicators preset" "yaml_examples##indicators"}{...}
 {viewerjumpto "Round-trip" "yaml_examples##roundtrip"}{...}
 {viewerjumpto "Real-world" "yaml_examples##realworld"}{...}
+{hline}
+{cmd:help yaml examples}{right:{bf:version 1.9.0}}
+{hline}
 
 {title:Title}
 
@@ -179,6 +186,57 @@
 {phang2}{cmd:.     fields(name description) cache(ind_cache)}{p_end}
 {phang2}{cmd:. display r(cache_hit)}{p_end}
 {phang2}{res:  1}{p_end}
+
+
+{marker bulk}{...}
+{title:Bulk parsing and collapse (Stata 16+)}
+
+{pstd}
+{bf:Mata bulk-load} ({opt bulk}) provides high-performance parsing via Mata.
+Combined with {opt collapse} it produces wide-format output with one row per
+top-level key.
+
+{pstd}
+{bf:Bulk parse (long format):}{p_end}
+
+{phang2}{cmd:. yaml read using "indicators.yaml", bulk replace}{p_end}
+
+{pstd}
+{bf:Bulk parse with collapse (wide format):}{p_end}
+
+{phang2}{cmd:. yaml read using "indicators.yaml", bulk collapse replace}{p_end}
+
+{pstd}
+{bf:Collapse with field filtering:}{p_end}
+
+{phang2}{cmd:. yaml read using "indicators.yaml", bulk collapse replace ///}{p_end}
+{phang2}{cmd:.     colfields(code;name;source_id;description)}{p_end}
+
+{pstd}
+{bf:Collapse with depth limit:}{p_end}
+
+{phang2}{cmd:. yaml read using "indicators.yaml", bulk collapse replace maxlevel(2)}{p_end}
+
+{pstd}
+{bf:Use strL for long values (>2045 chars):}{p_end}
+
+{phang2}{cmd:. yaml read using "indicators.yaml", bulk strl replace}{p_end}
+
+
+{marker indicators}{...}
+{title:Indicators preset}
+
+{pstd}
+The {opt indicators} preset is a one-step shortcut for parsing wbopendata and
+unicefdata indicator metadata YAML files. It automatically enables {opt bulk}
+and {opt collapse} with standard field selection.
+
+{pstd}
+{bf:Parse indicator metadata:}{p_end}
+
+{phang2}{cmd:. yaml read using "unicef_indicators.yaml", indicators replace}{p_end}
+{phang2}{it:// equivalent to: bulk collapse colfields(code;name;source_id;...)}{p_end}
+{phang2}{cmd:. list key code name in 1/5}{p_end}
 
 
 {marker roundtrip}{...}
