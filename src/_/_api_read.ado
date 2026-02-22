@@ -1,7 +1,8 @@
 *******************************************************************************
 * _api_read                                                                   
-*! v 16.3  	8Jul2020               by Joao Pedro Azevedo
-* 	change API end point to HTTPS
+*! v 16.3.1  22Feb2026               by Joao Pedro Azevedo
+* 	v16.3.1: Handle self-closing XML tags in API responses
+* 	v16.3: change API end point to HTTPS
 *******************************************************************************
 
 program define _api_read, rclass
@@ -288,12 +289,16 @@ program define _api_read, rclass
 									}
 									
 									if (strmatch(`"`line`l''"',"*=*") != 1) {
-									
-										local tmp = subinstr(`"`line`l''"',"<wb:`name'>","",.)
-										local tmp = subinstr(`"`tmp'"',`"</wb:`stub'>"',"",.)
-*										noi di `"local tmp = subinstr(`"`tmp'"',`"</wb:`stub'>"',"",.)"'
-*										local tmp = subinstr(`"`line`l''"',"&amp;","and",.)
-										local tmp = trim("`tmp'")
+
+										* Handle self-closing XML tags: <wb:name /> means empty content
+										if (strmatch(`"`line`l''"',"*<wb:`name' />*") == 1 | strmatch(`"`line`l''"',"*<wb:`name'/>*") == 1) {
+											local tmp ""
+										}
+										else {
+											local tmp = subinstr(`"`line`l''"',"<wb:`name'>","",.)
+											local tmp = subinstr(`"`tmp'"',`"</wb:`stub'>"',"",.)
+											local tmp = trim("`tmp'")
+										}
 									}
 									
 									local tmp = subinstr(`"`tmp'"',"/"," ",.)

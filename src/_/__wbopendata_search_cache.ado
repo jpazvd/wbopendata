@@ -1,5 +1,6 @@
 *******************************************************************************
-*! __wbopendata_search_cache v3.1.0  04Feb2026
+*! __wbopendata_search_cache v3.2.0  21Feb2026
+*! v3.2.0: Fix clickable links: source() -> searchsource(), topic() -> searchtopic()
 *! Search indicators with frame-based session caching (Stata 16+)
 *! Uses __wbod_parse_yaml_ind, caches processed dataset in frame for speed
 *******************************************************************************
@@ -45,8 +46,8 @@ program define __wbopendata_search_cache, rclass
         di as text "Examples:"
         di as text "  wbopendata, search(GDP)"
         di as text "  wbopendata, search(learning+poverty)     // AND search: both keywords"
-        di as text "  wbopendata, search() source(2)"
-        di as text "  wbopendata, search(poverty) topic(11)"
+        di as text "  wbopendata, search() searchsource(2)"
+        di as text "  wbopendata, search(poverty) searchtopic(11)"
         exit 198
     }
 
@@ -141,7 +142,7 @@ program define __wbopendata_search_cache, rclass
     *---------------------------------------------------------------------------
     local use_cache = ("`nocache'" == "")
     local cache_method = "frames"
-    local parser_version "1.0.10"
+    local parser_version "1.1.0"
 
     preserve
 
@@ -179,7 +180,7 @@ program define __wbopendata_search_cache, rclass
             * First call or invalid cache - parse YAML and cache result
             di as text "(Caching metadata in memory...)"
 
-            __wbod_parse_yaml_ind "`yaml_path'"
+            __wbod_parse_yaml_ind_v2 "`yaml_path'"
             gen str10 _parser_version = "`parser_version'"
 
             * Save processed dataset to frame for future use
@@ -208,7 +209,7 @@ program define __wbopendata_search_cache, rclass
         if ("`debug'" != "") {
             di as text "(Parsing YAML - no cache)"
         }
-        __wbod_parse_yaml_ind "`yaml_path'"
+        __wbod_parse_yaml_ind_v2 "`yaml_path'"
     }
 
     *---------------------------------------------------------------------------
@@ -399,8 +400,8 @@ program define __wbopendata_search_cache, rclass
             * Build clickable links
             local info_cmd `"wbopendata, info(`code')"'
             local get_cmd `"wbopendata, indicator(`code') clear"'
-            local src_cmd `"wbopendata, search() source(`src_id')"'
-            local topic_cmd `"wbopendata, search() topic(`topic_id')"'
+            local src_cmd `"wbopendata, search() searchsource(`src_id')"'
+            local topic_cmd `"wbopendata, search() searchtopic(`topic_id')"'
 
             * Display block with wrapped fields
             di as result "`code'" as text "  " ///
@@ -469,8 +470,8 @@ program define __wbopendata_search_cache, rclass
             * Build clickable links
             local info_cmd `"wbopendata, info(`code')"'
             local get_cmd `"wbopendata, indicator(`code') clear"'
-            local src_cmd `"wbopendata, search() source(`src_id')"'
-            local topic_cmd `"wbopendata, search() topic(`topic_id')"'
+            local src_cmd `"wbopendata, search() searchsource(`src_id')"'
+            local topic_cmd `"wbopendata, search() searchtopic(`topic_id')"'
 
             * Pad source ID for alignment (6 chars, right-aligned)
             local src_disp = "`src_id'"

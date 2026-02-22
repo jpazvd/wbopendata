@@ -1,6 +1,7 @@
 *******************************************************************************
-*! __wbopendata_search v2.5.0  04Feb2026
+*! __wbopendata_search v2.5.1  22Feb2026
 *! Search indicators from YAML with wildcards, filters, and SMCL nav
+*! v2.5.1: Use searchsource/searchtopic in SMCL clickable links
 *! Standard implementation: parses YAML each call (works on all Stata versions)
 *******************************************************************************
 
@@ -45,8 +46,8 @@ program define __wbopendata_search, rclass
         di as text "Examples:"
         di as text "  wbopendata, search(GDP)"
         di as text "  wbopendata, search(learning+poverty)     // AND search: both keywords"
-        di as text "  wbopendata, search() source(2)"
-        di as text "  wbopendata, search(poverty) topic(11)"
+        di as text "  wbopendata, search() searchsource(2)"
+        di as text "  wbopendata, search(poverty) searchtopic(11)"
         exit 198
     }
 
@@ -426,8 +427,8 @@ program define __wbopendata_search, rclass
             * Build clickable links
             local info_cmd `"wbopendata, info(`code')"'
             local get_cmd `"wbopendata, indicator(`code') clear"'
-            local src_cmd `"wbopendata, search() source(`src_id')"'
-            local topic_cmd `"wbopendata, search() topic(`topic_id')"'
+            local src_cmd `"wbopendata, search() searchsource(`src_id')"'
+            local topic_cmd `"wbopendata, search() searchtopic(`topic_id')"'
 
             * Display block with wrapped fields
             di as result "`code'" as text "  " ///
@@ -502,8 +503,8 @@ program define __wbopendata_search, rclass
             * Build clickable links
             local info_cmd `"wbopendata, info(`code')"'
             local get_cmd `"wbopendata, indicator(`code') clear"'
-            local src_cmd `"wbopendata, search() source(`src_id')"'
-            local topic_cmd `"wbopendata, search() topic(`topic_id')"'
+            local src_cmd `"wbopendata, search() searchsource(`src_id')"'
+            local topic_cmd `"wbopendata, search() searchtopic(`topic_id')"'
 
             * Pad source ID for alignment (6 chars, right-aligned)
             local src_disp = "`src_id'"
