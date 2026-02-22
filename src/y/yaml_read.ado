@@ -1,8 +1,9 @@
 *******************************************************************************
 * yaml_read
-*! v 1.9.1   21Feb2026               by Joao Pedro Azevedo (UNICEF)
+*! v 1.9.2   22Feb2026               by Joao Pedro Azevedo (UNICEF)
 * Read YAML file into Stata (dataset by default, or frame)
-* v1.9.1: Fix parent_stack contamination: sibling keys at same indent restore parent
+* v1.9.2: Strip quotes from list item values in canonical parser (parity with Mata bulk)
+* v1.9.1: Fix parent_stack contamination for sibling keys; add source_org to indicators preset
 * v1.9.0: INDICATORS preset for wbopendata/unicefdata indicator metadata
 * v1.8.0: collapse fields() and maxlevel() options for selective columns
 * v1.7.0: Mata bulk-load (BULK), collapsed wide-format output (COLLAPSE)
@@ -516,7 +517,12 @@ program define yaml_read, rclass
         if (`is_list') {
             * List item - store as separate row with type "list_item"
             local item_value = strtrim(substr(`"`trimmed'"', 3, .))
-            
+
+            * Remove quotes from list item value (matches Mata bulk parser)
+            if (substr(`"`item_value'"', 1, 1) == `"""' | substr(`"`item_value'"', 1, 1) == "'") {
+                local item_value = substr(`"`item_value'"', 2, length(`"`item_value'"') - 2)
+            }
+
             * Increment list index for this parent
             local list_index = `list_index' + 1
             
