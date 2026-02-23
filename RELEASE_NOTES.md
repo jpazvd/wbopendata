@@ -47,7 +47,7 @@ This patch release fixes **clickable SMCL links** in search results (`searchsour
 
 ## wbopendata v18.1.0 — Char Metadata, Offline Testing & Compound Quoting Fix
 
-**Release Date:** February 10, 2026
+**Release Date:** February 22, 2026
 
 ---
 
