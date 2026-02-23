@@ -6,8 +6,8 @@
 *
 * Usage:   do "C:/GitHub/myados/wbopendata-dev/tests/test_help_examples.do"
 *
-* Date:    22Feb2026
-* Version: 18.2.0
+* Date:    23Feb2026
+* Version: 18.3.1
 *******************************************************************************
 
 clear all
@@ -75,6 +75,22 @@ if (`use_dev' & strpos("`wb_path'", "wbopendata-dev/src") == 0) {
 if (!`use_dev') {
     di as text "Using installed wbopendata: `wb_path'"
 }
+
+* Version guard: check test expects same version as .ado file
+local _test_version "18.3.1"
+tempname _vfh
+file open `_vfh' using "`wb_path'", read text
+file read `_vfh' _vline  /* line 1: stars */
+file read `_vfh' _vline  /* line 2: * wbopendata */
+file read `_vfh' _vline  /* line 3: *! v 18.3.1 ... */
+file close `_vfh'
+local _ado_version = trim(word(subinstr(`"`_vline'"', "*!", "", 1), 2))
+if ("`_ado_version'" != "`_test_version'") {
+    di as error "Version mismatch: test expects v`_test_version' but wbopendata.ado is v`_ado_version'"
+    di as error "Update the _test_version local in test_help_examples.do"
+    exit 198
+}
+di as text "Version: `_ado_version' (test and .ado match)"
 di _n
 
 * Ensure installed mode has required PLUS files (parameters + check_version)
