@@ -1,10 +1,10 @@
 {smcl}
 {hline}
-{* 17Feb2026  }{...}
+{* 22Feb2026  }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
 {right:What's New:  {bf:{help wbopendata_whatsnew:What's New}}}
-{right: {bf:version 18.1.1}}
+{right: {bf:version 18.2.0}}
 {hline}
 
 {title:Title}
@@ -55,8 +55,10 @@
 {synopt :{opt sync} {opt replace}} apply metadata sync — download latest release from GitHub.{p_end}
 {synopt :{opt sync} {opt replace} {opt force}} force re-download metadata regardless of local version.{p_end}
 {synopt :{opt checkupdate}} check whether newer YAML metadata is available without downloading it.{p_end}
+{synopt :{opt nocache}} bypass the data response cache and force a fresh API download.{p_end}
 {synopt :{opt clearcache}} remove the local metadata cache (forces re-download on next sync).{p_end}
-{synopt :{opt cacheinfo}} display cache location, version, and timestamp for the metadata YAML files.{p_end}
+{synopt :{opt cleardatacache}} remove all cached API response files.{p_end}
+{synopt :{opt cacheinfo}} display cache location, version, and timestamp for the metadata YAML files and data cache.{p_end}
 {synopt :{opt match(varname)}} merge {help wbopendata##attributes:country attributes} into an existing dataset containing WDI (3 digit) countrycodes. Cannot be used with the data download options.{p_end}
 {synopt :{opt projection}} World Bank {help wbopendata_sourceid##sourceid_40:population estimates and projections} (HPP) .{p_end}
 {synopt :{opt describe}} display indicator metadata only (no data download). Requires {opt indicator()}. Supports {opt linewrap()}, {opt maxlength()}, and {opt linewrapformat()} when present.{p_end}
@@ -297,6 +299,27 @@ version, schema version, and last synchronization timestamp.{p_end}
 
 {synopt :{opt clearcache}}Remove the local metadata cache entirely, forcing a
 full re-download on the next {opt sync replace} or discovery command.{p_end}
+
+{synopt :{opt cleardatacache}}Remove all cached API response files from the data
+cache folder. The next data download will fetch fresh data from the World Bank
+API.{p_end}
+
+{dlgtab:Data response cache (v18.2+)}
+
+{pstd}
+As of v18.2, {cmd:wbopendata} caches API responses locally so that repeated
+queries for the same indicator, country, and language combination return
+instantly from disk instead of re-downloading from the World Bank API. The
+cache uses a 7-day time-to-live (TTL): entries older than 7 days are
+automatically re-fetched.{p_end}
+
+{pstd}
+The cache is {bf:on by default}. Use {opt nocache} to bypass it for a single
+query, or {opt cleardatacache} to remove all cached files.{p_end}
+
+{synopt :{opt nocache}}Skip the data cache lookup and force a fresh download
+from the API. The downloaded data still gets saved to the cache for future
+use.{p_end}
 
 
 {marker discovery}{...}
@@ -1114,6 +1137,27 @@ have been replaced by 2 YAML metadata files serving ~29,000 indicators via the
 
 {cmd}
 .     wbopendata, clearcache
+
+{pstd}{ul:{bf:Example 9: Data response cache (v18.2+)}}{p_end}
+
+{p 4 4 2}First download hits the API; second download is served from the local cache:{p_end}
+
+{cmd}
+.     wbopendata, indicator(SP.POP.TOTL) clear
+.     * (downloads from World Bank API)
+.
+.     wbopendata, indicator(SP.POP.TOTL) clear
+.     * (using cached data: ind_SP_POP_TOTL_all_en.csv)
+
+{p 4 4 2}Force a fresh download, bypassing the cache:{p_end}
+
+{cmd}
+.     wbopendata, indicator(SP.POP.TOTL) clear nocache
+
+{p 4 4 2}Clear all cached data files:{p_end}
+
+{cmd}
+.     wbopendata, cleardatacache
 
 {marker disclaimer}{...}
 {title:Disclaimer}

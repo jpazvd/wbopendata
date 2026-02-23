@@ -1,7 +1,8 @@
 {smcl}
-{* *! version 18.1.1  17Feb2026}{...}
+{* *! version 18.2.0  22Feb2026}{...}
 {vieweralsosee "wbopendata" "help wbopendata"}{...}
 {viewerjumpto "What's New" "wbopendata_whatsnew##whatsnew"}{...}
+{viewerjumpto "Version 18.2" "wbopendata_whatsnew##v182"}{...}
 {viewerjumpto "Version 18.1" "wbopendata_whatsnew##v181"}{...}
 {viewerjumpto "Version 18.0" "wbopendata_whatsnew##v180"}{...}
 {viewerjumpto "Version 17.8" "wbopendata_whatsnew##v178"}{...}
@@ -20,6 +21,26 @@
 {pstd}
 This file documents recent changes and new features in the {cmd:wbopendata} module.
 For complete documentation, see {help wbopendata:help wbopendata}.
+
+{marker v182}{...}
+{title:Version 18.2.0 (22Feb2026)}
+
+{pstd}
+{bf:Data Response Cache} - API responses are now cached locally with a 7-day
+TTL. Repeated queries for the same indicator, country, and language return
+instantly from disk instead of re-downloading. The cache is on by default;
+use {opt nocache} to bypass for a single query.
+
+{pstd}
+{bf:New Options} - {opt nocache} bypasses the data cache for a fresh download;
+{opt cleardatacache} removes all cached API response files. The {opt cacheinfo}
+command now also displays data cache statistics.
+
+{pstd}
+{bf:Cache Consolidation} - All metadata cache operations consolidated to
+{cmd:sysdir_plus} (eliminated split-brain with {cmd:sysdir_personal}).
+Simplified YAML path resolver from 5-level to 2-level (findfile + fallback).
+Removed 3 orphaned cache files. Frame cache now invalidated on sync.
 
 {marker v181}{...}
 {title:Version 18.1.1 (17Feb2026)}
