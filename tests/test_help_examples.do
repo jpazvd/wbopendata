@@ -192,6 +192,33 @@ end
 
 *******************************************************************************
 *
+*   INTENTIONALLY SKIPPED sthlp EXAMPLES
+*
+*   The following examples from wbopendata.sthlp are NOT tested here:
+*
+*   1. wbopendata, sync replace        (sthlp ~line 1140)
+*      → Downloads full metadata from GitHub; slow and network-dependent.
+*
+*   2. wbopendata, sync replace force   (sthlp ~line 1145)
+*      → Force-downloads metadata; same reason as above.
+*
+*   3. wbopendata, clearcache           (sthlp ~line 1151)
+*      → Deletes the local YAML metadata cache; would break subsequent tests.
+*
+*   4. update all                       (sthlp ~line 897, deprecated)
+*      → Deprecated option; interactive and destructive.
+*
+*   5. metadataoffline                  (sthlp ~line 899, deprecated)
+*      → Deprecated option; requires pre-staged offline metadata.
+*
+*   Graph-only commands (twoway line/scatter) from linewrap and stored-results
+*   examples are exercised via the named wbopendata_examples wrappers
+*   (EX-07, EX-09) rather than inline, since they require graph rendering.
+*
+*******************************************************************************
+
+*******************************************************************************
+*
 *   TIER 1: DISCOVERY COMMANDS (local YAML, no API needed)
 *
 *******************************************************************************
@@ -399,6 +426,17 @@ cap noi {
 }
 if _rc == 0 test_pass
 else test_fail "wbopendata, info(SI.POV.DDAY)"
+
+*--- 1.16b Third info example ---
+
+run_test "HELP-19b" "info(SP.POP.TOTL) (sthlp line 468)"
+cap noi {
+    qui wbopendata, info(SP.POP.TOTL)
+    assert "`r(indicator)'" == "SP.POP.TOTL"
+    assert "`r(name)'" != ""
+}
+if _rc == 0 test_pass
+else test_fail "wbopendata, info(SP.POP.TOTL)"
 
 *--- 1.17 Browse all in a source ---
 
@@ -1292,13 +1330,22 @@ cap noi {
     assert _N > 0
     di as text "  Step 4: nocache download OK (" _N " obs)"
 
-    * 5. cacheinfo — should show datacache stats
-    wbopendata, cacheinfo
-    di as text "  Step 5: cacheinfo OK"
+    * 5. resetdatacache — expire entries without deleting (sthlp line 1177)
+    wbopendata, resetdatacache
+    di as text "  Step 5: resetdatacache OK"
 
-    * 6. cleardatacache
+    * 5b. Re-download after reset — should re-fetch (cache expired)
+    wbopendata, indicator(SP.POP.TOTL) clear
+    assert _N > 0
+    di as text "  Step 5b: post-reset download OK (" _N " obs)"
+
+    * 6. cacheinfo — should show datacache stats
+    wbopendata, cacheinfo
+    di as text "  Step 6: cacheinfo OK"
+
+    * 7. cleardatacache
     wbopendata, cleardatacache
-    di as text "  Step 6: cleardatacache OK"
+    di as text "  Step 7: cleardatacache OK"
 }
 if _rc == 0 test_pass
 else test_fail "Data cache workflow"
