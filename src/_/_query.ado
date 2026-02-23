@@ -137,63 +137,73 @@ quietly {
     local _manifest ""
 
     if ("`offline'" == "" & "`nocache'" == "") {
-        local _dc_dir "`c(sysdir_plus)'_/_wbopendata_datacache/"
-        local _dc_dir : subinstr local _dc_dir "\" "/" , all
-        capture mkdir "`_dc_dir'"
+        capture {
+            local _dc_dir "`c(sysdir_plus)'_/_wbopendata_datacache/"
+            local _dc_dir : subinstr local _dc_dir "\" "/" , all
+            capture mkdir "`_dc_dir'"
 
-        * Build cache key filename from query parameters
-        if ("`indicator'" != "") {
-            local _ck_ind = subinstr("`indicator1'", ".", "_", .)
-            local _ck_cty = subinstr("`country2'", ";", "_", .)
-            local _ck_date ""
-            if ("`year1'" != "") {
-                local _ck_date = subinstr(subinstr("`year1'","&date=","",.),":", "_",.)
-                local _ck_date "_`_ck_date'"
+            * Build cache key filename from query parameters
+            if ("`indicator'" != "") {
+                local _ck_ind : subinstr local indicator1 "." "_", all
+                local _ck_cty : subinstr local country2 ";" "_", all
+                local _ck_date ""
+                if ("`year1'" != "") {
+                    local _ck_date : subinstr local year1 "&date=" ""
+                    local _ck_date : subinstr local _ck_date ":" "_", all
+                    local _ck_date "_`_ck_date'"
+                }
+                if ("`date1'" != "") {
+                    local _ck_date : subinstr local date1 "&date=" ""
+                    local _ck_date : subinstr local _ck_date ":" "_", all
+                    local _ck_date "_`_ck_date'"
+                }
+                local _ck_src ""
+                if ("`source'" != "") local _ck_src "_src40"
+                local _cache_key "ind_`_ck_ind'_`_ck_cty'_`language'`_ck_date'`_ck_src'"
             }
-            if ("`date1'" != "") {
-                local _ck_date = subinstr(subinstr("`date1'","&date=","",.),":", "_",.)
-                local _ck_date "_`_ck_date'"
+            else if ("`topics'" != "") {
+                local _cache_key "topic_`topics1'_`language'"
             }
-            local _ck_src ""
-            if ("`source'" != "") local _ck_src "_src40"
-            local _cache_key "ind_`_ck_ind'_`_ck_cty'_`language'`_ck_date'`_ck_src'"
-        }
-        else if ("`topics'" != "") {
-            local _cache_key "topic_`topics1'_`language'"
-        }
-        else {
-            local _cache_key "country_`country1'_`language'"
-        }
-        local _cache_file "`_dc_dir'`_cache_key'.csv"
-        local _manifest "`_dc_dir'_manifest.txt"
+            else {
+                local _cache_key "country_`country1'_`language'"
+            }
+            local _cache_file "`_dc_dir'`_cache_key'.csv"
+            local _manifest "`_dc_dir'_manifest.txt"
 
-        * Check manifest for TTL (7 days)
-        if (fileexists("`_cache_file'") & fileexists("`_manifest'")) {
-            tempname _mfh
-            file open `_mfh' using "`_manifest'", read
-            file read `_mfh' _mline
-            while (r(eof) == 0) {
-                local _ppos = strpos("`_mline'", "|")
-                if (`_ppos' > 0) {
-                    local _mfile = trim(substr("`_mline'", 1, `_ppos'-1))
-                    local _mdate = trim(substr("`_mline'", `_ppos'+1, .))
-                }
-                else {
-                    local _mfile ""
-                    local _mdate ""
-                }
-                if ("`_mfile'" == "`_cache_key'.csv") {
-                    local _cached_dt = date("`_mdate'", "DMY")
-                    local _today_dt = date("`c(current_date)'", "DMY")
-                    if (!missing(`_cached_dt') & !missing(`_today_dt')) {
-                        if (`_today_dt' - `_cached_dt' <= 7) {
-                            local _cache_hit = 1
+            * Check manifest for TTL (7 days)
+            if (fileexists("`_cache_file'") & fileexists("`_manifest'")) {
+                tempname _mfh
+                file open `_mfh' using "`_manifest'", read
+                file read `_mfh' _mline
+                while (r(eof) == 0) {
+                    local _ppos = strpos("`_mline'", "|")
+                    if (`_ppos' > 0) {
+                        local _mfile = trim(substr("`_mline'", 1, `_ppos' - 1))
+                        local _mlen = length("`_mline'")
+                        local _mdate = trim(substr("`_mline'", `_ppos' + 1, `_mlen' - `_ppos'))
+                    }
+                    else {
+                        local _mfile ""
+                        local _mdate ""
+                    }
+                    if ("`_mfile'" == "`_cache_key'.csv") {
+                        local _cached_dt = date("`_mdate'", "DMY")
+                        local _today_dt = date("`c(current_date)'", "DMY")
+                        if (!missing(`_cached_dt') & !missing(`_today_dt')) {
+                            if (`_today_dt' - `_cached_dt' <= 7) {
+                                local _cache_hit = 1
+                            }
                         }
                     }
+                    file read `_mfh' _mline
                 }
-                file read `_mfh' _mline
+                file close `_mfh'
             }
-            file close `_mfh'
+        }
+        if (_rc != 0) {
+            local _cache_hit = 0
+            local _cache_key ""
+            local _cache_file ""
         }
     }
 
@@ -544,35 +554,39 @@ program define _wbod_dc_manifest_update
     args manifest_file cache_entry
 
     local ts "`c(current_date)'"
-    local new_content ""
-    local found = 0
+    tempfile _tmp_mf
 
-    * Read existing manifest, skip old entry for this key
+    * Write updated manifest to temp file
+    tempname wfh
+    file open `wfh' using "`_tmp_mf'", write
+
+    * Copy existing entries (except the one we're replacing)
     if (fileexists("`manifest_file'")) {
         tempname rfh
         file open `rfh' using "`manifest_file'", read
         file read `rfh' _line
         while (r(eof) == 0) {
             local _ppos = strpos("`_line'", "|")
-            local _ef = trim(substr("`_line'", 1, max(`_ppos'-1, 0)))
+            if (`_ppos' > 0) {
+                local _ef = trim(substr("`_line'", 1, `_ppos' - 1))
+            }
+            else {
+                local _ef "`_line'"
+            }
             if ("`_ef'" != "`cache_entry'") {
-                local new_content `"`new_content'"|"`_line'"'
+                file write `wfh' "`_line'" _n
             }
             file read `rfh' _line
         }
         file close `rfh'
     }
 
-    * Write manifest with updated entry
-    tempname wfh
-    file open `wfh' using "`manifest_file'", write replace
-    if (`"`new_content'"' != "") {
-        foreach nl of local new_content {
-            file write `wfh' `"`nl'"' _n
-        }
-    }
+    * Append new entry
     file write `wfh' "`cache_entry'|`ts'" _n
     file close `wfh'
+
+    * Replace manifest
+    copy "`_tmp_mf'" "`manifest_file'", replace
 end
 
 
