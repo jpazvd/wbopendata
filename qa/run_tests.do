@@ -385,6 +385,23 @@ if `verbose' == 1 {
 }
 di as text "Date: `date' `start_time'"
 di as text "Stata: `c(stata_version)'"
+local git_branch ""
+if "$repo_root" != "" {
+    cap local git_branch : di _asis `"`: env GIT_BRANCH'"'
+    if "`git_branch'" == "" {
+        tempname gbfh
+        cap shell git -C "$repo_root" rev-parse --abbrev-ref HEAD > "$repo_root/qa/_gitbranch.tmp" 2>&1
+        cap file open `gbfh' using "$repo_root/qa/_gitbranch.tmp", read
+        if _rc == 0 {
+            file read `gbfh' git_branch
+            file close `gbfh'
+        }
+        cap erase "$repo_root/qa/_gitbranch.tmp"
+    }
+}
+if "`git_branch'" != "" {
+    di as text "Branch: `git_branch'"
+}
 di as text "`sep'"
 
 *===============================================================================
@@ -2722,6 +2739,7 @@ if "$target_test" == "" & "$repo_root" != "" {
         file write history "Duration: `duration_str'" _n
         file write history "Version:  `version'" _n
         if "`wbo_date'" != "" file write history "Build:    `wbo_date'" _n
+        if "`git_branch'" != "" file write history "Branch:   `git_branch'" _n
         file write history "Stata:    `c(stata_version)'" _n
         file write history "Tests:    $tests_run run, $tests_pass passed, $tests_fail failed" _n
         if $tests_fail == 0 {
