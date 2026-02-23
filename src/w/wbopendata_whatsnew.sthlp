@@ -1,7 +1,9 @@
 {smcl}
-{* *! version 18.2.0  22Feb2026}{...}
+{* *! version 18.3.1  23Feb2026}{...}
 {vieweralsosee "wbopendata" "help wbopendata"}{...}
 {viewerjumpto "What's New" "wbopendata_whatsnew##whatsnew"}{...}
+{viewerjumpto "Version 18.3.1" "wbopendata_whatsnew##v1831"}{...}
+{viewerjumpto "Version 18.3.0" "wbopendata_whatsnew##v1830"}{...}
 {viewerjumpto "Version 18.2" "wbopendata_whatsnew##v182"}{...}
 {viewerjumpto "Version 18.1" "wbopendata_whatsnew##v181"}{...}
 {viewerjumpto "Version 18.0" "wbopendata_whatsnew##v180"}{...}
@@ -21,6 +23,39 @@
 {pstd}
 This file documents recent changes and new features in the {cmd:wbopendata} module.
 For complete documentation, see {help wbopendata:help wbopendata}.
+
+{marker v1831}{...}
+{title:Version 18.3.1 (23Feb2026)}
+
+{pstd}
+{bf:Reset Data Cache} - New {opt resetdatacache} option expires all cached data
+entries without deleting the CSV files. The next query re-fetches fresh data
+from the API while keeping cached files as a fallback. This complements
+{opt cleardatacache} (which deletes everything) and {opt nocache} (per-query bypass).
+
+{pstd}
+{bf:Verbose Option} - New {opt verbose} option provides targeted error handling
+for cache and metadata operations.
+
+{marker v1830}{...}
+{title:Version 18.3.0 (23Feb2026)}
+
+{pstd}
+{bf:YAML Metadata Lookup on Cache Hit} - When the local YAML cache is current,
+discovery commands ({opt search()}, {opt info()}, {opt sources}, {opt alltopics})
+now resolve metadata directly from the cached YAML files without making any
+API call. This eliminates network latency for common catalog browsing workflows.
+
+{pstd}
+{bf:Configurable Cache TTL} - New {opt cachedays(#)} option (default 7) controls
+how many days cached API responses are kept before automatic re-fetch.
+Use {cmd:cachedays(1)} for daily freshness or {cmd:cachedays(30)} for monthly.
+
+{pstd}
+{bf:QA Suite Hardened} - Post-sync validation now uses hard asserts to verify
+YAML files are actually created after every sync operation, preventing silent
+false-pass results. Redundant sync calls in tests replaced with conditional
+checks, reducing test suite runtime by ~50%.
 
 {marker v182}{...}
 {title:Version 18.2.0 (22Feb2026)}

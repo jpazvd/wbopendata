@@ -4,7 +4,92 @@
 
 ---
 
-**Minimum requirement:** Stata 12 or later.
+**Minimum requirement:** Stata 14 or later.
+
+## wbopendata v18.3.1 — Reset Data Cache & Verbose Option
+
+**Release Date:** February 23, 2026
+
+---
+
+### Highlights
+
+This patch adds **`resetdatacache`** to expire all cached data entries without deleting files (fresh data re-fetched on next query), and a **`verbose`** option for targeted error handling in cache and metadata operations.
+
+### New Features
+
+| Feature | Description |
+| ------- | ----------- |
+| **`resetdatacache`** | Expire all cached entries without deleting files (re-fetched on next query) |
+| **`verbose`** | Targeted error handling for cache and metadata operations |
+
+### Full Changelog
+
+**Compare:** [v18.3.0...v18.3.1](https://github.com/jpazvd/wbopendata/compare/v18.3.0...v18.3.1)
+
+---
+
+## wbopendata v18.3.0 — Cache-Aware Discovery, Configurable TTL & QA Hardening
+
+**Release Date:** February 23, 2026
+
+---
+
+### Highlights
+
+This release adds **YAML metadata lookup on cache hit** so that discovery commands (`search`, `info`, `sources`, `alltopics`) resolve from local YAML without API calls when the cache is current. A new **`cachedays(#)`** option lets users configure the data response cache TTL (default 7 days). The QA suite is hardened with **post-sync validation** (hard asserts on YAML file creation) and **conditional sync optimization** (~50% runtime reduction).
+
+### New Features
+
+| Feature | Description |
+| ------- | ----------- |
+| **Cache-aware discovery** | Discovery commands skip API calls when local YAML cache is current |
+| **`cachedays(#)`** | Configurable data cache TTL in days (default 7) |
+
+### Quality Assurance
+
+- Post-sync validation: every sync test now hard-asserts all 3 YAML files exist (prevents silent false-pass like v18.1.1)
+- Conditional sync: 5 tests reuse existing cache instead of redundant re-downloads
+- Clean-slate startup: `clearcache` + `cleardatacache` before `net install` ensures deterministic state
+- Expected runtime: ~15 min (down from ~28 min in v18.2.0)
+
+### Full Changelog
+
+**Compare:** [v18.2.0...v18.3.0](https://github.com/jpazvd/wbopendata/compare/v18.2.0...v18.3.0)
+
+---
+
+## wbopendata v18.2.0 — Data Response Cache & Cache Consolidation
+
+**Release Date:** February 22, 2026
+
+---
+
+### Highlights
+
+This release adds a **data response cache** that stores API responses locally with a 7-day TTL, so repeated queries for the same indicator/country/language return instantly from disk. All cache operations are **consolidated to `sysdir_plus`**, eliminating the split-brain between `sysdir_personal` and `sysdir_plus`. Three orphaned standalone cache files are inlined into their parent programs.
+
+### New Features
+
+| Feature | Description |
+| ------- | ----------- |
+| **Data response cache** | API responses cached locally; 7-day TTL; on by default |
+| **`nocache`** | Bypass data cache for a single query |
+| **`cleardatacache`** | Remove all cached API response files |
+| **`cacheinfo`** | Now displays data cache statistics alongside metadata cache status |
+
+### Internal Changes
+
+- Cache consolidation to `sysdir_plus` (no more `sysdir_personal` split)
+- YAML path resolver simplified from 5-level to 2-level (`findfile` + fallback)
+- Frame cache (`_wbod_indicators`) invalidated on sync
+- Inlined `_wbopendata_download_yaml.ado`, `_wbopendata_cache_clear.ado`, `_wbopendata_cache_info.ado`
+
+### Full Changelog
+
+**Compare:** [v18.1.1...v18.2.0](https://github.com/jpazvd/wbopendata/compare/v18.1.1...v18.2.0)
+
+---
 
 ## wbopendata v18.1.1 — Search Fixes, XML Robustness & Discovery Regression Tests
 

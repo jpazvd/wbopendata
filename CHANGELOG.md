@@ -20,6 +20,43 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [18.3.1] - 2026-02-23
+
+### Added
+- **`resetdatacache`**: Expire all cached data entries without deleting files — fresh data re-fetched on next query
+- **`verbose` option**: Targeted error handling for cache and metadata operations
+
+---
+
+## [18.3.0] - 2026-02-23
+
+### Added
+- **YAML metadata lookup on cache hit**: Discovery commands (`search`, `info`, `sources`, `alltopics`) resolve metadata from cached YAML without API calls when cache is current
+- **Configurable cache TTL**: New `cachedays(#)` option (default 7) controls data response cache time-to-live
+- **QA post-sync validation**: Hard asserts verify YAML files exist after every sync test (prevents silent false-pass)
+- **QA runtime optimization**: Conditional sync in 5 tests — only sync if cache missing from prior test (~50% faster)
+
+### Fixed
+- Cache lookup path resolution for metadata YAML files
+
+---
+
+## [18.2.0] - 2026-02-22
+
+### Added
+- **Data response cache**: API responses cached locally with 7-day TTL; repeated queries return from disk
+- **New options**: `nocache` bypasses data cache; `cleardatacache` removes cached API response files; `cacheinfo` displays data cache statistics
+
+### Changed
+- Cache consolidation: all metadata cache operations moved to `sysdir_plus` (eliminated split-brain with `sysdir_personal`)
+- Simplified YAML path resolver from 5-level to 2-level (`findfile` + fallback)
+- Frame cache invalidated on sync
+
+### Removed
+- 3 orphaned standalone cache files (inlined into `_wbopendata_cache.ado` and `_wbopendata_sync.ado`)
+
+---
+
 ## [18.1.1] - 2026-02-22
 
 ### Added

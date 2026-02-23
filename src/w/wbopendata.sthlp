@@ -1,10 +1,10 @@
 {smcl}
 {hline}
-{* 22Feb2026  }{...}
+{* 23Feb2026  }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
 {right:What's New:  {bf:{help wbopendata_whatsnew:What's New}}}
-{right: {bf:version 18.2.0}}
+{right: {bf:version 18.3.1}}
 {hline}
 
 {title:Title}
@@ -56,8 +56,10 @@
 {synopt :{opt sync} {opt replace} {opt force}} force re-download metadata regardless of local version.{p_end}
 {synopt :{opt checkupdate}} check whether newer YAML metadata is available without downloading it.{p_end}
 {synopt :{opt nocache}} bypass the data response cache and force a fresh API download.{p_end}
+{synopt :{opt cachedays(#)}} set cache time-to-live in days (default 7).{p_end}
 {synopt :{opt clearcache}} remove the local metadata cache (forces re-download on next sync).{p_end}
 {synopt :{opt cleardatacache}} remove all cached API response files.{p_end}
+{synopt :{opt resetdatacache}} expire all cached data entries (files kept, re-fetched on next query).{p_end}
 {synopt :{opt cacheinfo}} display cache location, version, and timestamp for the metadata YAML files and data cache.{p_end}
 {synopt :{opt match(varname)}} merge {help wbopendata##attributes:country attributes} into an existing dataset containing WDI (3 digit) countrycodes. Cannot be used with the data download options.{p_end}
 {synopt :{opt projection}} World Bank {help wbopendata_sourceid##sourceid_40:population estimates and projections} (HPP) .{p_end}
@@ -310,16 +312,26 @@ API.{p_end}
 As of v18.2, {cmd:wbopendata} caches API responses locally so that repeated
 queries for the same indicator, country, and language combination return
 instantly from disk instead of re-downloading from the World Bank API. The
-cache uses a 7-day time-to-live (TTL): entries older than 7 days are
-automatically re-fetched.{p_end}
+default TTL is 7 days; use {opt cachedays(#)} to change it (v18.3+).{p_end}
 
 {pstd}
 The cache is {bf:on by default}. Use {opt nocache} to bypass it for a single
-query, or {opt cleardatacache} to remove all cached files.{p_end}
+query, {opt cleardatacache} to remove all cached files, or
+{opt resetdatacache} to expire all entries without deleting them.{p_end}
 
 {synopt :{opt nocache}}Skip the data cache lookup and force a fresh download
 from the API. The downloaded data still gets saved to the cache for future
 use.{p_end}
+
+{synopt :{opt cachedays(#)}}Set the cache time-to-live in days (default 7).
+Cached API responses older than this many days are automatically re-fetched.
+For example, {opt cachedays(1)} re-downloads data daily; {opt cachedays(30)}
+keeps cached data for a month.{p_end}
+
+{synopt :{opt resetdatacache}}Mark all cached data entries as expired without
+deleting the CSV files. On the next query, fresh data will be fetched from
+the API. This is useful when you want to force a refresh but keep the cached
+files as a safety net.{p_end}
 
 
 {marker discovery}{...}
@@ -1158,6 +1170,11 @@ have been replaced by 2 YAML metadata files serving ~29,000 indicators via the
 
 {cmd}
 .     wbopendata, cleardatacache
+
+{p 4 4 2}Expire all cached entries (files kept, re-fetched on next query):{p_end}
+
+{cmd}
+.     wbopendata, resetdatacache
 
 {marker disclaimer}{...}
 {title:Disclaimer}
