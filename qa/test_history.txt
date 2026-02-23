@@ -658,3 +658,76 @@ Result:   FAILED
 Failed:   ENV-01, ENV-02
 Log:      test_results_v18.1.1_23Feb2026.log
 ======================================================================
+
+======================================================================
+Test Run: 23 Feb 2026
+Started:  07:58:11
+Ended:    08:25:49
+Duration: 27m 38s
+Version:  18.3.0
+Build:    23Feb2026
+Branch:   feat/datacache-and-cache-consolidation
+Stata:    17
+Tests:    92 run, 92 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.3.0_23Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 23 Feb 2026
+Started:  08:38:54
+Ended:    09:07:42
+Duration: 28m 48s
+Version:  18.3.0
+Build:    23Feb2026
+Branch:   feat/datacache-and-cache-consolidation
+Stata:    17
+Tests:    92 run, 92 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.3.0_23Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 23 Feb 2026
+Started:  14:29:04
+Ended:    14:30:53
+Duration: 1m 49s
+Version:  18.3.0
+Build:    23Feb2026
+Branch:   feat/datacache-and-cache-consolidation
+Stata:    17
+Tests:    92 run, 53 passed, 39 failed
+Result:   FAILED
+Failed:   ENV-03, UPD-06, TOPIC-01, LANG-01, PROJ-01, FMT-04, DESC-01, META-01, CTRY-11, DATE-01, CACHE-05, CACHE-08, SYNC-02, SYNC-03, SYNC-04, DISC-01, DISC-02, DISC-03, DISC-04, DISC-05, DISC-06, DISC-07, DISC-08, DISC-09, DISC-10, CHAR-01, CHAR-02, CHAR-03, CHAR-04, CHAR-05, CHAR-06, EXT-01, EXT-02, EXT-03, EXT-04, DET-01, DET-02, DET-03, DET-04
+Log:      test_results_v18.3.0_23Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 23 Feb 2026
+Started:  14:38:23
+Ended:    14:48:18
+Duration: 9m 55s
+Version:  18.3.1
+Build:    23Feb2026
+Branch:   feat/datacache-and-cache-consolidation
+Stata:    17
+Tests:    92 run, 60 passed, 32 failed
+Result:   FAILED
+Failed:   ENV-03, CACHE-05, CACHE-08, SYNC-02, SYNC-03, SYNC-04, SYNC-05, DISC-01, DISC-02, DISC-03, DISC-04, DISC-05, DISC-06, DISC-07, DISC-08, DISC-09, DISC-10, CHAR-01, CHAR-02, CHAR-03, CHAR-04, CHAR-05, CHAR-06, EXT-01, EXT-02, EXT-03, EXT-04, DET-01, DET-02, DET-03, DET-04, DET-05
+Log:      test_results_v18.3.1_23Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 23 Feb 2026
+Started:  14:48:58
+Ended:    15:04:06
+Duration: 15m 8s
+Version:  18.3.1
+Build:    23Feb2026
+Branch:   feat/datacache-and-cache-consolidation
+Stata:    17
+Tests:    92 run, 90 passed, 2 failed
+Result:   FAILED
+Failed:   ENV-03, SYNC-05
+Log:      test_results_v18.3.1_23Feb2026.log
+======================================================================
