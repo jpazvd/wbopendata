@@ -1,7 +1,7 @@
 *******************************************************************************
 * _query   
-*! v 16.4  	10Feb2026               by Joao Pedro Azevedo
-*   16.4: Added nochar option passthrough; variable-level char metadata for indicator variables
+*! v 16.5  	22Feb2026               by Joao Pedro Azevedo
+*   16.5: Data response cache (7-day TTL, on by default, nocache to bypass)
 * 	16.3: change API end point to HTTPS
 *******************************************************************************
 
@@ -25,6 +25,7 @@ version 9.0
 						 SOURCE(string)				///
 						 noCHAR					///
 						 OFFLINE(string)		///
+						 NOCACHE				///
                  ]
 
 
@@ -128,16 +129,73 @@ quietly {
 
     tempfile temp
 
-    * Offline fixture injection (Phase 6, Gould 2001)
+    * --- Build data cache key (used by both cache lookup and cache save) ---
+    local _cache_hit = 0
+    local _cache_key ""
+    local _dc_dir ""
+    local _cache_file ""
+    local _manifest ""
+
+    if ("`offline'" == "" & "`nocache'" == "") {
+        local _dc_dir "`c(sysdir_plus)'_/_wbopendata_datacache/"
+        local _dc_dir : subinstr local _dc_dir "\" "/" , all
+        capture mkdir "`_dc_dir'"
+
+        * Build cache key filename from query parameters
+        if ("`indicator'" != "") {
+            local _ck_ind = subinstr("`indicator1'", ".", "_", .)
+            local _ck_cty = subinstr("`country2'", ";", "_", .)
+            local _ck_date ""
+            if ("`year1'" != "") {
+                local _ck_date = subinstr(subinstr("`year1'","&date=","",.),":", "_",.)
+                local _ck_date "_`_ck_date'"
+            }
+            if ("`date1'" != "") {
+                local _ck_date = subinstr(subinstr("`date1'","&date=","",.),":", "_",.)
+                local _ck_date "_`_ck_date'"
+            }
+            local _ck_src ""
+            if ("`source'" != "") local _ck_src "_src40"
+            local _cache_key "ind_`_ck_ind'_`_ck_cty'_`language'`_ck_date'`_ck_src'"
+        }
+        else if ("`topics'" != "") {
+            local _cache_key "topic_`topics1'_`language'"
+        }
+        else {
+            local _cache_key "country_`country1'_`language'"
+        }
+        local _cache_file "`_dc_dir'`_cache_key'.csv"
+        local _manifest "`_dc_dir'_manifest.txt"
+
+        * Check manifest for TTL (7 days)
+        if (fileexists("`_cache_file'") & fileexists("`_manifest'")) {
+            tempname _mfh
+            file open `_mfh' using "`_manifest'", read
+            file read `_mfh' _mline
+            while (r(eof) == 0) {
+                local _mfile : piece 1 2 of "`_mline'", parse("|")
+                local _mdate : piece 2 2 of "`_mline'", parse("|")
+                local _mfile = trim("`_mfile'")
+                local _mdate = trim("`_mdate'")
+                if ("`_mfile'" == "`_cache_key'.csv") {
+                    local _cached_dt = date("`_mdate'", "DMY")
+                    local _today_dt = date("`c(current_date)'", "DMY")
+                    if (!missing(`_cached_dt') & !missing(`_today_dt')) {
+                        if (`_today_dt' - `_cached_dt' <= 7) {
+                            local _cache_hit = 1
+                        }
+                    }
+                }
+                file read `_mfh' _mline
+            }
+            file close `_mfh'
+        }
+    }
+
+    * --- Offline fixture injection ---
     * When offline() option is set to a directory path, data is read from
-    * local CSV fixture files instead of the World Bank API. This enables
-    * deterministic testing without network access.
+    * local CSV fixture files instead of the World Bank API.
     if ("`offline'" != "") {
-        * Build fixture filename from indicator or topic
-        * Fixture naming convention: dots→underscores, appended country
-        *   indicator query: {IND_CODE}_{country}.csv  (e.g. SP_POP_TOTL_USA.csv)
-        *   topic query:    topic_{topicid}.csv
-        *   country query:  country_{countrycode}.csv
         if ("`indicator'" != "") {
             local _ind_name = subinstr("`indicator1'", ".", "_", .)
             local _cty_name = subinstr("`country2'", ";", "_", .)
@@ -163,6 +221,21 @@ quietly {
             local queryspec2 "topic `topics1'"
         }
     }
+    * --- Data cache hit ---
+    else if (`_cache_hit') {
+        noi di as text "(using cached data: `_cache_key'.csv)"
+        cap : copy "`_cache_file'" `temp', replace
+        if ("`indicator'" != "") {
+            local queryspec2 "indicator `indicator1'"
+        }
+        else if ("`topics'" != "") {
+            local queryspec2 "topic `topics1'"
+        }
+        else {
+            local queryspec2 "country `country1'"
+        }
+    }
+    * --- Online download from World Bank API ---
     else {
 
 	loc servername "https://api.worldbank.org/v2"  /* Query server v2 */
@@ -209,7 +282,15 @@ quietly {
         }
     }
 
-    } /* end of online/offline branch */
+    * Save successful download to data cache
+    if ("`nocache'" == "" & "`_cache_file'" != "") {
+        cap : copy `temp' "`_cache_file'", replace
+        if (_rc == 0) {
+            cap noi _wbopendata_update_datacache_manifest "`_manifest'" "`_cache_key'.csv"
+        }
+    }
+
+    } /* end of offline/cache/online branch */
 
     cap : insheet using `temp', `clear' name
     local rc3 = _rc
@@ -447,6 +528,46 @@ quietly {
 
     return local time       "`t1'"
 
+end
+
+
+*******************************************************************************
+* Helper: update data cache manifest (append/replace entry with current date)
+*******************************************************************************
+program define _wbopendata_update_datacache_manifest
+    version 9.0
+    args manifest_file cache_entry
+
+    local ts "`c(current_date)'"
+    local new_content ""
+    local found = 0
+
+    * Read existing manifest, skip old entry for this key
+    if (fileexists("`manifest_file'")) {
+        tempname rfh
+        file open `rfh' using "`manifest_file'", read
+        file read `rfh' _line
+        while (r(eof) == 0) {
+            local _ef : piece 1 2 of "`_line'", parse("|")
+            local _ef = trim("`_ef'")
+            if ("`_ef'" != "`cache_entry'") {
+                local new_content `"`new_content'"|"`_line'"'
+            }
+            file read `rfh' _line
+        }
+        file close `rfh'
+    }
+
+    * Write manifest with updated entry
+    tempname wfh
+    file open `wfh' using "`manifest_file'", write replace
+    if (`"`new_content'"' != "") {
+        foreach nl of local new_content {
+            file write `wfh' `"`nl'"' _n
+        }
+    }
+    file write `wfh' "`cache_entry'|`ts'" _n
+    file close `wfh'
 end
 
 

@@ -161,5 +161,56 @@ program define _wbopendata_cache_info, rclass
         di as text "  Frame cache:   " as text "N/A (requires Stata 16+)"
     }
 
+    * Data cache status
+    di as text ""
+    local dc_dir = c(sysdir_plus) + "_/_wbopendata_datacache/"
+    local dc_dir : subinstr local dc_dir "\" "/" , all
+    if (fileexists("`dc_dir'_manifest.txt")) {
+        local dc_count = 0
+        tempname dfh
+        file open `dfh' using "`dc_dir'_manifest.txt", read
+        file read `dfh' _dline
+        while (r(eof) == 0) {
+            local dc_count = `dc_count' + 1
+            file read `dfh' _dline
+        }
+        file close `dfh'
+        di as text "  Data cache:    " as result "`dc_count' cached queries"
+        di as text `"  Data location: `dc_dir'"'
+    }
+    else {
+        di as text "  Data cache:    " as text "(empty — queries will be cached on first download)"
+    }
+
     di as text "{hline 60}"
+end
+
+
+program define _wbopendata_clear_datacache
+    version 14.0
+    local dc_dir = c(sysdir_plus) + "_/_wbopendata_datacache/"
+    local dc_dir : subinstr local dc_dir "\" "/" , all
+
+    if (!fileexists("`dc_dir'_manifest.txt")) {
+        di as text "Data cache is already empty."
+        exit 0
+    }
+
+    * Count and erase cached CSV files listed in manifest
+    local cleared = 0
+    tempname rfh
+    file open `rfh' using "`dc_dir'_manifest.txt", read
+    file read `rfh' _line
+    while (r(eof) == 0) {
+        local _ef : piece 1 2 of "`_line'", parse("|")
+        local _ef = trim("`_ef'")
+        capture erase "`dc_dir'`_ef'"
+        if (_rc == 0) local cleared = `cleared' + 1
+        file read `rfh' _line
+    }
+    file close `rfh'
+
+    capture erase "`dc_dir'_manifest.txt"
+
+    di as result "Cleared `cleared' cached data file(s)."
 end

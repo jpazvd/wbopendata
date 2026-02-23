@@ -97,6 +97,8 @@ version 14.0
 						LINEWRAPFORMAT(string) 	///
 						DESCRIBE		///
 						OFFLINE(string)	///
+						NOCACHE			///
+						CLEARDATACACHE	///
                  ]
 
 quietly {
@@ -195,6 +197,11 @@ local indicator `indicators'
 	if ("`syncdryrun'" != "") {
 		noi di as txt "{bf:Note:} {cmd:syncdryrun} is deprecated; use {cmd:sync} instead."
 		local sync "sync"
+	}
+
+	if ("`cleardatacache'" != "") {
+		_wbopendata_clear_datacache
+		exit 0
 	}
 
 	if ("`sync'" != "" | "`checkupdate'" != "" | "`clearcache'" != "" | "`cacheinfo'" != "") {
@@ -314,6 +321,7 @@ local indicator `indicators'
 		noi di `"{stata `"wbopendata, sync replace"':  wbopendata, sync replace}     - Apply metadata sync"'
 		noi di `"{stata `"wbopendata, sync replace force"':  wbopendata, sync replace force} - Force re-download metadata"'
 		noi di `"{stata `"wbopendata, cacheinfo"':  wbopendata, cacheinfo}           - Display cache status"'
+		noi di `"{stata `"wbopendata, cleardatacache"':  wbopendata, cleardatacache}   - Clear cached API data"'
 		noi di ""
 		noi di as text "Data retrieval examples:"
 		noi di `"{stata `"wbopendata, indicator(NY.GDP.MKTP.CD) clear"':  wbopendata, indicator(NY.GDP.MKTP.CD) clear}"'
@@ -410,7 +418,8 @@ local indicator `indicators'
 										 `clear'                      	///
 										 `nometadata'					///
 										 `char'							///
-										 offline("`offline'")
+										 offline("`offline'")			///
+										 `nocache'
 					local time  "`r(time)'"
 					local namek "`r(name)'"
 
@@ -593,8 +602,9 @@ local indicator `indicators'
 									`clear'                 ///
 									`latest'                ///
 									`nometadata'			///
-									`char'									///
-									offline("`offline'")
+									`char'					///
+									offline("`offline'")	///
+									`nocache'
 				local time  "`r(time)'"
 				local name "`r(name)'"
 
