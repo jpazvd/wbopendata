@@ -643,3 +643,18 @@ Tests:    92 run, 92 passed, 0 failed
 Result:   ALL TESTS PASSED
 Log:      test_results_v18.1.1_22Feb2026.log
 ======================================================================
+
+======================================================================
+Test Run: 23 Feb 2026
+Started:  01:19:08
+Ended:    01:22:07
+Duration: 2m 59s
+Version:  18.1.1
+Build:    17Feb2026
+Branch:   feat/datacache-and-cache-consolidation
+Stata:    17
+Tests:    92 run, 90 passed, 2 failed
+Result:   FAILED
+Failed:   ENV-01, ENV-02
+Log:      test_results_v18.1.1_23Feb2026.log
+======================================================================
