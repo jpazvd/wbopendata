@@ -7,7 +7,13 @@
 program define _wbopendata_cache, rclass
     version 14.0
 
-    syntax [, CHECKversion UPDAte FORCe CLEAR INFO CLEARDATACACHE]
+    syntax [, CHECKversion UPDAte FORCe CLEAR INFO CLEARDATACACHE RESETDATACACHE]
+
+    if ("`resetdatacache'" != "") {
+        _wbopendata_reset_datacache
+        return local datacache_reset = "1"
+        exit 0
+    }
 
     if ("`cleardatacache'" != "") {
         _wbopendata_clear_datacache
@@ -209,9 +215,9 @@ program define _wbopendata_clear_datacache
         file open `rfh' using "`dc_dir'_manifest.txt", read
         file read `rfh' _line
         while (r(eof) == 0) {
-            local _ppos = strpos("`_line'", "|")
+            local _ppos = strpos(`"`_line'"', "|")
             if (`_ppos' > 1) {
-                local _ef = trim(substr("`_line'", 1, `_ppos' - 1))
+                local _ef = trim(substr(`"`_line'"', 1, `_ppos' - 1))
                 capture erase "`dc_dir'`_ef'"
                 if (_rc == 0) local cleared = `cleared' + 1
             }
@@ -219,9 +225,57 @@ program define _wbopendata_clear_datacache
         }
         file close `rfh'
     }
+    if (_rc != 0) {
+        capture file close `rfh'
+    }
 
     * Always erase manifest (even if corrupted and unreadable)
     capture erase "`dc_dir'_manifest.txt"
 
     di as result "Cleared `cleared' cached data file(s)."
+end
+
+
+program define _wbopendata_reset_datacache
+    version 14.0
+    local dc_dir = c(sysdir_plus) + "_/_wbopendata_datacache/"
+    local dc_dir : subinstr local dc_dir "\" "/" , all
+
+    if (!fileexists("`dc_dir'_manifest.txt")) {
+        di as text "Data cache is empty — nothing to reset."
+        exit 0
+    }
+
+    * Rewrite all manifest dates to 01 Jan 2000 (forces expiry on next query)
+    local reset_count = 0
+    tempfile _tmp_mf
+    tempname wfh rfh
+    file open `wfh' using "`_tmp_mf'", write
+
+    capture {
+        file open `rfh' using "`dc_dir'_manifest.txt", read
+        file read `rfh' _line
+        while (r(eof) == 0) {
+            local _ppos = strpos(`"`_line'"', "|")
+            if (`_ppos' > 1) {
+                local _ef = trim(substr(`"`_line'"', 1, `_ppos' - 1))
+                file write `wfh' "`_ef'|01 Jan 2000" _n
+                local reset_count = `reset_count' + 1
+            }
+            file read `rfh' _line
+        }
+        file close `rfh'
+    }
+    if (_rc != 0) {
+        capture file close `rfh'
+    }
+
+    file close `wfh'
+
+    if (`reset_count' > 0) {
+        copy "`_tmp_mf'" "`dc_dir'_manifest.txt", replace
+    }
+
+    di as result "Reset TTL for `reset_count' cached data file(s)."
+    di as text   "Cached files kept on disk; fresh data will be fetched on next query."
 end
