@@ -6,8 +6,8 @@
 *
 * Usage:   do "C:/GitHub/myados/wbopendata-dev/tests/test_help_examples.do"
 *
-* Date:    05Feb2026
-* Version: 18.0.0
+* Date:    22Feb2026
+* Version: 18.2.0
 *******************************************************************************
 
 clear all
@@ -481,9 +481,30 @@ cap noi {
 if _rc == 0 test_pass
 else test_fail "wbopendata, cacheinfo"
 
-* NOTE: 'sync' (line 919) skipped — downloads from GitHub.
-* NOTE: 'syncforce' (line 924) skipped — force-downloads metadata.
-* NOTE: 'clearcache' (line 930) skipped — deletes local cache.
+run_test "HELP-29a" "sync dry run (sthlp line 267)"
+cap noi {
+    wbopendata, sync
+}
+if _rc == 0 test_pass
+else test_fail "wbopendata, sync"
+
+run_test "HELP-29b" "sync detail (sthlp line 272)"
+cap noi {
+    wbopendata, sync detail
+}
+if _rc == 0 test_pass
+else test_fail "wbopendata, sync detail"
+
+run_test "HELP-29c" "cleardatacache (sthlp line 301, v18.2)"
+cap noi {
+    wbopendata, cleardatacache
+}
+if _rc == 0 test_pass
+else test_fail "wbopendata, cleardatacache"
+
+* NOTE: 'sync replace' (line 282) skipped — downloads from GitHub.
+* NOTE: 'sync replace force' (line 287) skipped — force-downloads metadata.
+* NOTE: 'clearcache' (line 300) skipped — deletes metadata cache.
 
 
 *******************************************************************************
@@ -610,6 +631,14 @@ cap noi {
 }
 if _rc == 0 test_pass
 else test_fail "wbopendata, indicator(...) year(2020) long nobasic clear"
+
+run_test "HELP-41a" "indicator nocache (sthlp line 1155, v18.2)"
+cap noi {
+    wbopendata, indicator(SP.POP.TOTL) clear nocache
+    assert _N > 0
+}
+if _rc == 0 test_pass
+else test_fail "wbopendata, indicator(SP.POP.TOTL) clear nocache"
 
 
 *******************************************************************************
@@ -1143,6 +1172,114 @@ cap noi {
 }
 if _rc == 0 test_pass
 else test_fail "example_basic inline"
+
+
+*******************************************************************************
+*
+*   TIER 10: STORED RESULTS EXAMPLE (sthlp line 790)
+*
+*******************************************************************************
+
+di as result _n _dup(78) "="
+di as result "TIER 10: STORED RESULTS EXAMPLE"
+di as result _dup(78) "="
+
+run_test "EX-09" "Stored results: linewrap + latest + sourcecite (sthlp line 790)"
+cap noi {
+    wbopendata, indicator(SI.POV.DDAY) clear long latest linewrap(name note)
+    assert _N > 0
+    assert `"`r(name1_stack)'"' != ""
+    assert "`r(latest)'" != ""
+    assert "`r(sourcecite1)'" != ""
+    di as text "  r(name1_stack) = " `"`r(name1_stack)'"'
+    di as text "  r(latest) = `r(latest)'"
+    di as text "  r(sourcecite1) = `r(sourcecite1)'"
+}
+if _rc == 0 test_pass
+else test_fail "stored results: linewrap + latest + sourcecite"
+
+
+*******************************************************************************
+*
+*   TIER 11: CHARACTERISTIC METADATA (v18.1+, sthlp line 856)
+*
+*******************************************************************************
+
+di as result _n _dup(78) "="
+di as result "TIER 11: CHARACTERISTIC METADATA"
+di as result _dup(78) "="
+
+run_test "EX-10" "char metadata: default (sthlp line 856)"
+cap noi {
+    wbopendata, indicator(NY.GDP.MKTP.CD) clear long
+    assert _N > 0
+    local dta_ver : char _dta[wbopendata_version]
+    assert "`dta_ver'" != ""
+    local dta_ind : char _dta[wbopendata_indicator]
+    assert "`dta_ind'" != ""
+    local var_ind : char ny_gdp_mktp_cd[indicator]
+    assert "`var_ind'" == "NY.GDP.MKTP.CD"
+    di as text "  _dta[wbopendata_version] = `dta_ver'"
+    di as text "  ny_gdp_mktp_cd[indicator] = `var_ind'"
+}
+if _rc == 0 test_pass
+else test_fail "char metadata: default"
+
+run_test "EX-11" "char metadata: nochar suppresses (sthlp line 866)"
+cap noi {
+    wbopendata, indicator(NY.GDP.MKTP.CD) nochar clear long
+    assert _N > 0
+    local dta_ver : char _dta[wbopendata_version]
+    assert "`dta_ver'" == ""
+    di as text "  _dta[wbopendata_version] = (empty, as expected)"
+}
+if _rc == 0 test_pass
+else test_fail "char metadata: nochar"
+
+
+*******************************************************************************
+*
+*   TIER 12: DATA RESPONSE CACHE WORKFLOW (v18.2+, sthlp Example 9)
+*
+*******************************************************************************
+
+di as result _n _dup(78) "="
+di as result "TIER 12: DATA RESPONSE CACHE WORKFLOW"
+di as result _dup(78) "="
+
+run_test "EX-12" "Data cache: download → cache hit → nocache → clear (sthlp line 1141)"
+cap noi {
+    * 1. Clear any existing data cache
+    wbopendata, cleardatacache
+    di as text "  Step 1: cleardatacache OK"
+
+    * 2. First download — should hit API and populate cache
+    wbopendata, indicator(SP.POP.TOTL) clear
+    assert _N > 0
+    local n1 = _N
+    di as text "  Step 2: first download OK (" _N " obs)"
+
+    * 3. Second download — should use cached data
+    wbopendata, indicator(SP.POP.TOTL) clear
+    assert _N > 0
+    assert _N == `n1'
+    di as text "  Step 3: cached download OK (" _N " obs)"
+
+    * 4. nocache — force fresh download
+    wbopendata, indicator(SP.POP.TOTL) clear nocache
+    assert _N > 0
+    di as text "  Step 4: nocache download OK (" _N " obs)"
+
+    * 5. cacheinfo — should show datacache stats
+    wbopendata, cacheinfo
+    di as text "  Step 5: cacheinfo OK"
+
+    * 6. cleardatacache
+    wbopendata, cleardatacache
+    di as text "  Step 6: cleardatacache OK"
+}
+if _rc == 0 test_pass
+else test_fail "Data cache workflow"
 
 
 *******************************************************************************
