@@ -74,14 +74,15 @@ program define _wbopendata_sync_preview, rclass
     _wbopendata_get_yaml_path, type(indicators)
     local ind_yaml = r(path)
     if (fileexists("`ind_yaml'")) {
-        * Count actual indicator entries (lines with "    code: <value>")
+        * Count actual indicator entries by counting "    code: " lines
         * This matches the search parser which drops blank codes
         preserve
         quietly {
             infix str500 rawline 1-500 using "`ind_yaml'", clear
-            keep if strpos(rawline, "    code: ") == 1
-            drop if strtrim(subinstr(rawline, "    code:", "", 1)) == "" ///
-                  | strtrim(subinstr(rawline, "    code:", "", 1)) == "''"
+            gen _trimmed = strtrim(rawline)
+            keep if strpos(_trimmed, "code: ") == 1
+            gen _val = strtrim(subinstr(_trimmed, "code:", "", 1))
+            drop if _val == "" | _val == "''"
             local ind_count = _N
         }
         restore
