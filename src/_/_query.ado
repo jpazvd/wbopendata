@@ -286,7 +286,7 @@ quietly {
     if ("`nocache'" == "" & "`_cache_file'" != "") {
         cap : copy `temp' "`_cache_file'", replace
         if (_rc == 0) {
-            cap noi _wbopendata_update_datacache_manifest "`_manifest'" "`_cache_key'.csv"
+            cap noi _wbod_dc_manifest_update "`_manifest'" "`_cache_key'.csv"
         }
     }
 
@@ -534,7 +534,7 @@ end
 *******************************************************************************
 * Helper: update data cache manifest (append/replace entry with current date)
 *******************************************************************************
-program define _wbopendata_update_datacache_manifest
+program define _wbod_dc_manifest_update
     version 9.0
     args manifest_file cache_entry
 

@@ -7,7 +7,13 @@
 program define _wbopendata_cache, rclass
     version 14.0
 
-    syntax [, CHECKversion UPDAte FORCe CLEAR INFO]
+    syntax [, CHECKversion UPDAte FORCe CLEAR INFO CLEARDATACACHE]
+
+    if ("`cleardatacache'" != "") {
+        _wbopendata_clear_datacache
+        return local datacache_cleared = "1"
+        exit 0
+    }
 
     if ("`clear'" != "") {
         _wbopendata_clear_cache

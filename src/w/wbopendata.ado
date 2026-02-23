@@ -201,7 +201,7 @@ local indicator `indicators'
 	}
 
 	if ("`cleardatacache'" != "") {
-		_wbopendata_clear_datacache
+		_wbopendata_cache, cleardatacache
 		exit 0
 	}
 
