@@ -208,8 +208,8 @@ program define _wbopendata_clear_datacache
     file open `rfh' using "`dc_dir'_manifest.txt", read
     file read `rfh' _line
     while (r(eof) == 0) {
-        local _ef : piece 1 2 of "`_line'", parse("|")
-        local _ef = trim("`_ef'")
+        local _ppos = strpos("`_line'", "|")
+        local _ef = trim(substr("`_line'", 1, max(`_ppos'-1, 0)))
         capture erase "`dc_dir'`_ef'"
         if (_rc == 0) local cleared = `cleared' + 1
         file read `rfh' _line

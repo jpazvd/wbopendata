@@ -173,10 +173,15 @@ quietly {
             file open `_mfh' using "`_manifest'", read
             file read `_mfh' _mline
             while (r(eof) == 0) {
-                local _mfile : piece 1 2 of "`_mline'", parse("|")
-                local _mdate : piece 2 2 of "`_mline'", parse("|")
-                local _mfile = trim("`_mfile'")
-                local _mdate = trim("`_mdate'")
+                local _ppos = strpos("`_mline'", "|")
+                if (`_ppos' > 0) {
+                    local _mfile = trim(substr("`_mline'", 1, `_ppos'-1))
+                    local _mdate = trim(substr("`_mline'", `_ppos'+1, .))
+                }
+                else {
+                    local _mfile ""
+                    local _mdate ""
+                }
                 if ("`_mfile'" == "`_cache_key'.csv") {
                     local _cached_dt = date("`_mdate'", "DMY")
                     local _today_dt = date("`c(current_date)'", "DMY")
@@ -548,8 +553,8 @@ program define _wbod_dc_manifest_update
         file open `rfh' using "`manifest_file'", read
         file read `rfh' _line
         while (r(eof) == 0) {
-            local _ef : piece 1 2 of "`_line'", parse("|")
-            local _ef = trim("`_ef'")
+            local _ppos = strpos("`_line'", "|")
+            local _ef = trim(substr("`_line'", 1, max(`_ppos'-1, 0)))
             if ("`_ef'" != "`cache_entry'") {
                 local new_content `"`new_content'"|"`_line'"'
             }
