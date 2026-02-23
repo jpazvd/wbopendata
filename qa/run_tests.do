@@ -1960,13 +1960,11 @@ if $skip_test == 0 {
         di as text "Discovery topics: `disc_top' (sync: `sync_top')"
         assert `disc_top' == `sync_top'
 
-        * Cross-validate: indicator counts should be close (search may filter)
+        * Cross-validate: search(*) total should match indicator count
         qui _wbopendata_search *, limit(1)
         local disc_ind = r(n_results)
-        local _pct_diff = abs(`disc_ind' - `sync_ind') / `sync_ind' * 100
-        di as text "Discovery indicators: `disc_ind' (sync: `sync_ind', diff: " %4.1f `_pct_diff' "%)"
-        assert `disc_ind' > 0
-        assert `_pct_diff' < 1
+        di as text "Discovery indicators: `disc_ind' (sync: `sync_ind')"
+        assert `disc_ind' == `sync_ind'
 
         * Spot-check: info for a known indicator
         wbopendata, info("SP.POP.TOTL")

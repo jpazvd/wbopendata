@@ -74,21 +74,15 @@ program define _wbopendata_sync_preview, rclass
     _wbopendata_get_yaml_path, type(indicators)
     local ind_yaml = r(path)
     if (fileexists("`ind_yaml'")) {
-        * Read total_indicators from _metadata section
+        * Count actual indicator entries (lines with "    code: <value>")
+        * This matches the search parser which drops blank codes
         preserve
         quietly {
             infix str500 rawline 1-500 using "`ind_yaml'", clear
-            gen byte has_total = strpos(rawline, "total_indicators:") > 0
-            sum has_total, meanonly
-            if (r(max) == 1) {
-                keep if has_total
-                keep in 1
-                local line = rawline[1]
-                local colon = strpos("`line'", ":")
-                local val = strtrim(substr("`line'", `colon' + 1, .))
-                local ind_count = real("`val'")
-                if missing(`ind_count') local ind_count = 0
-            }
+            keep if strpos(rawline, "    code: ") == 1
+            drop if strtrim(subinstr(rawline, "    code:", "", 1)) == "" ///
+                  | strtrim(subinstr(rawline, "    code:", "", 1)) == "''"
+            local ind_count = _N
         }
         restore
     }
