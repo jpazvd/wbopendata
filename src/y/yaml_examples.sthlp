@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 1.9.0  20Feb2026}{...}
+{* *! version 1.9.2  22Feb2026}{...}
 {vieweralsosee "yaml" "help yaml"}{...}
 {vieweralsosee "yaml what's new" "help yaml_whatsnew"}{...}
 {viewerjumpto "Basic usage" "yaml_examples##basic"}{...}
@@ -12,7 +12,7 @@
 {viewerjumpto "Round-trip" "yaml_examples##roundtrip"}{...}
 {viewerjumpto "Real-world" "yaml_examples##realworld"}{...}
 {hline}
-{cmd:help yaml examples}{right:{bf:version 1.9.0}}
+{cmd:help yaml examples}{right:{bf:version 1.9.2}}
 {hline}
 
 {title:Title}

@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 1.9.0  20Feb2026}{...}
+{* *! version 1.9.2  22Feb2026}{...}
 {vieweralsosee "yaml examples" "help yaml_examples"}{...}
 {vieweralsosee "yaml what's new" "help yaml_whatsnew"}{...}
 {vieweralsosee "" "--"}{...}
@@ -13,7 +13,7 @@
 {viewerjumpto "Stored results" "yaml##results"}{...}
 {viewerjumpto "Author" "yaml##author"}{...}
 {hline}
-{cmd:help yaml}{right:{bf:version 1.9.0}}
+{cmd:help yaml}{right:{bf:version 1.9.2}}
 {hline}
 
 {title:Title}
@@ -46,6 +46,9 @@
 {synopt:{opt clear}}clear YAML data from memory{p_end}
 {synoptline}
 {p2colreset}{...}
+{pstd}
+See {bf:{help yaml_whatsnew:What's New}} for version history.
+{p_end}
 
 
 {marker description}{...}

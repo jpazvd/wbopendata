@@ -6,9 +6,48 @@
 
 **Minimum requirement:** Stata 12 or later.
 
+## wbopendata v18.1.1 — Search Fixes, XML Robustness & Discovery Regression Tests
+
+**Release Date:** February 22, 2026
+
+---
+
+### Highlights
+
+This patch release fixes **clickable SMCL links** in search results (`searchsource`/`searchtopic`), adds robustness for **self-closing XML tags** in World Bank API responses, and expands the discovery test suite with **3 regression tests** (DISC-08/09/10), bringing the total to **92 tests** across 20 categories.
+
+### Bug Fixes
+
+- **Search SMCL links**: `searchsource()` and `searchtopic()` clickable links in discovery results now generate correct commands
+- **Self-closing XML tags**: API reader handles `<wb:value />` empty elements without parser errors
+- **YAML parser**: Synced `yaml_read.ado` v1.9.2 with list/stack fixes from yaml-dev
+
+### New Tests
+
+| Test | Description |
+| ---- | ----------- |
+| **DISC-08** | Browse by `searchsource`/`searchtopic` via main command |
+| **DISC-09** | Search results include topic display names (not empty) |
+| **DISC-10** | Info lookup for indicator with multiple topics |
+
+### Quality Assurance
+
+| Metric | v18.1.0 | v18.1.1 |
+| ------ | ------- | ------- |
+| **Total Tests** | 89 | 92 |
+| **Test Categories** | 17 | 20 |
+| **Final Run** | 89 passed, 0 failed | 92 passed, 0 failed |
+| **Duration** | 5m 4s | 5m 54s |
+
+### Full Changelog
+
+**Compare:** [v18.1.0...v18.1.1](https://github.com/jpazvd/wbopendata/compare/v18.1.0...v18.1.1)
+
+---
+
 ## wbopendata v18.1.0 — Char Metadata, Offline Testing & Compound Quoting Fix
 
-**Release Date:** February 10, 2026
+**Release Date:** February 22, 2026
 
 ---
 
@@ -424,7 +463,8 @@ For complete version history including all releases from v1.0.0 (2011) to presen
 ### Version Timeline
 
 ```
-2026 ─┬─ v18.1.0          Char metadata, offline testing, 89 tests
+2026 ─┬─ v18.1.1          Search fixes, XML robustness, 92 tests
+      ├─ v18.1.0          Char metadata, offline testing, 89 tests
       ├─ v18.0.0          Discovery commands, YAML metadata, sync redesign
       ├─ v17.7.1          Test suite expansion, documentation
       ├─ v17.7            Basic country context by default
@@ -462,7 +502,7 @@ For complete version history including all releases from v1.0.0 (2011) to presen
 | Channel | Current | Notes |
 |---------|---------|-------|
 | **[SSC](https://ideas.repec.org/c/boc/bocode/s457234.html)** | v17.7.1 | Stable, install via `ssc install wbopendata` |
-| **GitHub** | v18.1.0 | Latest features, install via `net install` |
+| **GitHub** | v18.1.1 | Latest features, install via `net install` |
 
 > **Note:** The SSC version (v17.7.1) is one release behind the latest GitHub version. For the newest features including discovery commands, sync redesign, and YAML metadata architecture, install from GitHub.
 

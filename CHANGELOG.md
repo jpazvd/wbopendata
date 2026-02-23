@@ -20,6 +20,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [18.1.1] - 2026-02-22
+
+### Added
+- **DISC-08**: Regression test for `searchsource`/`searchtopic` clickable SMCL links
+- **DISC-09**: Regression test verifying search results include topic display names
+- **DISC-10**: Regression test for info lookup on indicators with multiple topics
+- **QA expansion**: 92 tests across 20 categories (up from 89/17 in v18.1.0)
+
+### Fixed
+- Clickable SMCL links in search results now use correct `searchsource()`/`searchtopic()` commands
+- API reader handles self-closing XML tags (`<wb:value />`) in World Bank responses
+- Synced `yaml_read.ado` v1.9.2 with list/stack parsing fixes from yaml-dev
+
+---
+
 ## [18.1.0] - 2026-02-10
 
 ### Added
