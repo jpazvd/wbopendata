@@ -64,7 +64,9 @@ if (`use_dev') {
 }
 
 which wbopendata
-local wb_path = r(fn)
+capture findfile wbopendata.ado
+local wb_path "`r(fn)'"
+local wb_path : subinstr local wb_path "\" "/", all
 if (`use_dev' & strpos("`wb_path'", "wbopendata-dev/src") == 0) {
     di as error "wbopendata not loaded from dev source: `wb_path'"
     di as text "adopath: " c(adopath)
