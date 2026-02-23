@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 18.1.1  17Feb2026}{...}
+{* *! version 18.1.1  22Feb2026}{...}
 {vieweralsosee "wbopendata" "help wbopendata"}{...}
 {viewerjumpto "What's New" "wbopendata_whatsnew##whatsnew"}{...}
 {viewerjumpto "Version 18.1" "wbopendata_whatsnew##v181"}{...}
@@ -22,7 +22,7 @@ This file documents recent changes and new features in the {cmd:wbopendata} modu
 For complete documentation, see {help wbopendata:help wbopendata}.
 
 {marker v181}{...}
-{title:Version 18.1.1 (17Feb2026)}
+{title:Version 18.1.1 (22Feb2026)}
 
 {pstd}
 {bf:Characteristic Metadata} - Indicator metadata (name, description, source, note)
