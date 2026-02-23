@@ -1,6 +1,8 @@
 *******************************************************************************
 * wbopendata
-*! v 18.2.0  	 22Feb2026               by Joao Pedro Azevedo
+*! v 18.3.1  	 23Feb2026               by Joao Pedro Azevedo
+*   18.3.1: Add verbose option; targeted error handling for cache/metadata operations
+*   18.3.0: YAML metadata lookup on cache hit (no API call); configurable cachedays() TTL; fix cache lookup
 *   18.2.0: Data response cache (7-day TTL, on by default); nocache/cleardatacache options; cache consolidated to sysdir_plus
 *   18.1.1: Copilot PR review fixes: strtrim() in sources/topics, simplified download_yaml, improved checksum, path traversal safety
 *   18.1.0: Added char metadata (default-on, nochar to suppress); deprecated update query/check/all, metadataoffline, syncforce/preview/dryrun with warnings
@@ -99,7 +101,10 @@ version 14.0
 						DESCRIBE		///
 						OFFLINE(string)	///
 						NOCACHE			///
+						CACHEDAYS(integer 7)	///
 						CLEARDATACACHE	///
+						RESETDATACACHE	///
+						VERBOSE			///
                  ]
 
 quietly {
@@ -205,6 +210,11 @@ local indicator `indicators'
 		exit 0
 	}
 
+	if ("`resetdatacache'" != "") {
+		_wbopendata_cache, resetdatacache
+		exit 0
+	}
+
 	if ("`sync'" != "" | "`checkupdate'" != "" | "`clearcache'" != "" | "`cacheinfo'" != "") {
 		if ("`clearcache'" != "") {
 			_wbopendata_cache, clear
@@ -279,7 +289,7 @@ local indicator `indicators'
 		}
 		local _lw_opts ""
 		if "`linewrap'" != "" local _lw_opts `"linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")"'
-		noi _query_metadata , indicator("`indicator'") `_lw_opts' offline("`offline'")
+		noi _query_metadata , indicator("`indicator'") `_lw_opts' offline("`offline'") `verbose'
 		return add
 		exit _rc
 	}
@@ -420,16 +430,36 @@ local indicator `indicators'
 										 `nometadata'					///
 										 `char'							///
 										 offline("`offline'")			///
-										 `nocache'
+										 `nocache'						///
+										 cachedays(`cachedays')			///
+										 `verbose'
 					local time  "`r(time)'"
 					local namek "`r(name)'"
+					local _from_cache "`r(_from_cache)'"
 
 
 					if (`needmeta' == 1) & ("`indicator'" != "") {
 						local _lw_opts ""
 						if "`linewrap'" != "" local _lw_opts `"linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")"'
-						cap: noi _query_metadata  , indicator("``i''") `_lw_opts' offline("`offline'")
-						local qm1rc = _rc
+						* Try YAML frame lookup on cache hit (no API call needed)
+						* Skip YAML path when linewrap requested — linewrap processing lives in _query_metadata
+						local _used_yaml = 0
+						if ("`_from_cache'" == "1" & "`linewrap'" == "") {
+							capture frame _wbod_indicators: count
+							if (_rc == 0 & r(N) > 0) {
+								cap noi _wbod_yaml_metadata, indicator("``i''") frame(_wbod_indicators)
+								if (_rc == 0 & "`r(_yaml_found)'" == "1") {
+									local _used_yaml = 1
+								}
+							}
+						}
+						if (!`_used_yaml') {
+							cap: noi _query_metadata  , indicator("``i''") `_lw_opts' offline("`offline'") `verbose'
+						}
+						if ("`verbose'" != "") {
+							noi di as text "(metadata: " cond(`_used_yaml', "YAML frame", "API") " for ``i'')"
+						}
+						local qm1rc = cond(`_used_yaml', 0, _rc)
 						if (`qm1rc' != 0) {
 							noi di ""
 							noi di as err "{p 4 4 2} Sorry... No metadata available for " as result "`indicator'. {p_end}"
@@ -605,16 +635,36 @@ local indicator `indicators'
 									`nometadata'			///
 									`char'					///
 									offline("`offline'")	///
-									`nocache'
+									`nocache'				///
+									cachedays(`cachedays')	///
+									`verbose'
 				local time  "`r(time)'"
 				local name "`r(name)'"
+				local _from_cache "`r(_from_cache)'"
 
 
 				if (`needmeta' == 1) & ("`indicator'" != "") {
 					local _lw_opts ""
 					if "`linewrap'" != "" local _lw_opts `"linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")"'
-					cap: noi _query_metadata  , indicator("``i''") `_lw_opts' offline("`offline'")
-					local qm2rc = _rc
+					* Try YAML frame lookup on cache hit (no API call needed)
+					* Skip YAML path when linewrap requested — linewrap processing lives in _query_metadata
+					local _used_yaml = 0
+					if ("`_from_cache'" == "1" & "`linewrap'" == "") {
+						capture frame _wbod_indicators: count
+						if (_rc == 0 & r(N) > 0) {
+							cap noi _wbod_yaml_metadata, indicator("``i''") frame(_wbod_indicators)
+							if (_rc == 0 & "`r(_yaml_found)'" == "1") {
+								local _used_yaml = 1
+							}
+						}
+					}
+					if (!`_used_yaml') {
+						cap: noi _query_metadata  , indicator("``i''") `_lw_opts' offline("`offline'") `verbose'
+					}
+					if ("`verbose'" != "") {
+						noi di as text "(metadata: " cond(`_used_yaml', "YAML frame", "API") " for ``i'')"
+					}
+					local qm2rc = cond(`_used_yaml', 0, _rc)
 					if ("`qm2rc'" == "") {
 						noi di ""
 						noi di as err "{p 4 4 2} Sorry... No metadata available for " as result "`indicator'. {p_end}"
@@ -846,7 +896,7 @@ local indicator `indicators'
 **********************************************************************************
 
 	if ("`char'" != "nochar") & ("`update'" == "") {
-		char _dta[wbopendata_version]   "18.1.1"
+		char _dta[wbopendata_version]   "18.3.1"
 		char _dta[wbopendata_timestamp] "`c(current_date)' `c(current_time)'"
 		char _dta[wbopendata_user]      "`c(username)'"
 		char _dta[wbopendata_syntax]    `"wbopendata, `0'"'
