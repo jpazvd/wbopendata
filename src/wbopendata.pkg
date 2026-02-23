@@ -63,6 +63,7 @@ f _/_update_indicators.ado
 f _/_update_regionmetadata.ado
 f _/_update_wbopendata.ado
 f _/_website.ado
+f _/_wbod_yaml_metadata.ado
 f _/_wbopendata_cache.ado
 f _/_wbopendata_check_version.ado
 f _/_wbopendata_get_yaml_path.ado
