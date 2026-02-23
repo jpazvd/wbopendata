@@ -404,6 +404,9 @@ if "`git_branch'" != "" {
 }
 di as text "`sep'"
 
+* Clear data cache to ensure clean test state
+cap noi wbopendata, cleardatacache
+
 *===============================================================================
 * TEST FRAMEWORK
 *===============================================================================

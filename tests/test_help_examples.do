@@ -122,6 +122,10 @@ if (_rc != 0) {
     exit _rc
 }
 
+* Clear data cache to ensure clean test state
+di as text "Clearing data cache for clean test run..."
+cap noi wbopendata, cleardatacache
+
 *------------------------------------------------------------------------------
 * Test framework
 *------------------------------------------------------------------------------
