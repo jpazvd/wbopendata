@@ -1,8 +1,7 @@
 *******************************************************************************
-*! _wbopendata_cache v2.0.0  07Feb2026
+*! _wbopendata_cache v3.0.0  22Feb2026
 *! Cache manager for wbopendata metadata
-*! Metadata files (.txt) are installed by `net install` alongside .ado files.
-*! sync/update verifies they exist and checks for newer releases on GitHub.
+*! v3.0.0: Consolidated disk+frame cache ops; moved cache to sysdir_plus
 *******************************************************************************
 
 program define _wbopendata_cache, rclass
@@ -84,35 +83,11 @@ program define _wbopendata_cache, rclass
 end
 
 
-program define _wbopendata_init_cache
-    version 14.0
-    local personal_dir = c(sysdir_personal)
-    local cache_root = c(sysdir_personal) + "wbopendata/"
-    local cache_dir = "`cache_root'" + "cache/"
-    capture mkdir "`cache_root'"
-    capture mkdir "`cache_dir'"
-
-    tempname fh
-    local test_file = "`cache_dir'_test.tmp"
-    capture file open `fh' using "`test_file'", write replace
-    if (_rc != 0) {
-        di as error "Cannot write to cache directory: `cache_dir'"
-        di as text "Current PERSONAL setting: `personal_dir'"
-        di as text "Set a writable PERSONAL directory, then rerun:"
-        di as text `"  . sysdir set PERSONAL ""C:/Users/<username>/ado/personal/"""'
-        di as text "If the path is correct, create it and retry:"
-        di as text `"  . mkdir ""`personal_dir'"""'
-        di as text "  . wbopendata, sync"
-        error 603
-    }
-    file close `fh'
-    capture erase "`test_file'"
-end
-
-
 program define _wbopendata_clear_cache
     version 14.0
-    local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
+    local cache_dir = c(sysdir_plus) + "_/"
+
+    * Clear disk metadata files
     local files "metadata_version.txt cache_timestamp.txt"
     local files "`files' _wbopendata_indicators.yaml"
     local files "`files' _wbopendata_sources.yaml"
@@ -121,12 +96,19 @@ program define _wbopendata_clear_cache
     foreach f of local files {
         capture erase "`cache_dir'`f'"
     }
+
+    * Clear in-memory frame cache (Stata 16+)
+    if (`c(stata_version)' >= 16) {
+        capture frame drop _wbod_indicators
+        capture frame drop _wbod_sources
+        capture frame drop _wbod_topics
+    }
 end
 
 
 program define _wbopendata_cache_info, rclass
     version 14.0
-    local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
+    local cache_dir = c(sysdir_plus) + "_/"
     local vf = "`cache_dir'metadata_version.txt"
     local tf = "`cache_dir'cache_timestamp.txt"
 
@@ -134,6 +116,7 @@ program define _wbopendata_cache_info, rclass
     di as result "wbopendata Cache Status"
     di as text "{hline 60}"
 
+    * Disk cache status
     if (fileexists("`vf'")) {
         tempname fh
         file open `fh' using "`vf'", read
@@ -161,6 +144,21 @@ program define _wbopendata_cache_info, rclass
         di as text `"  Location: `cache_dir'"'
         di as text "  Run: wbopendata, sync"
         return scalar cache_exists = 0
+    }
+
+    * Frame cache status (Stata 16+)
+    di as text ""
+    if (`c(stata_version)' >= 16) {
+        capture frame _wbod_indicators: count
+        if (_rc == 0) {
+            di as text "  Frame cache:   " as result "_wbod_indicators (`r(N)' records, LOADED)"
+        }
+        else {
+            di as text "  Frame cache:   " as text "(not loaded — will load on first search)"
+        }
+    }
+    else {
+        di as text "  Frame cache:   " as text "N/A (requires Stata 16+)"
     }
 
     di as text "{hline 60}"

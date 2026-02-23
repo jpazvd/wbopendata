@@ -1,5 +1,5 @@
 *******************************************************************************
-*! _wbopendata_sync_preview v1.2.0  09Feb2026
+*! _wbopendata_sync_preview v1.3.0  22Feb2026
 *! Display metadata status diagnostic before sync
 *! v1.2.0: Added country metadata count display
 *! v1.1.0: Added detail option for per-source/topic breakdown
@@ -17,9 +17,8 @@ program define _wbopendata_sync_preview, rclass
     *---------------------------------------------------------------------------
     * 1. Resolve cache directory and paths
     *---------------------------------------------------------------------------
-    local cache_base "`c(sysdir_personal)'wbopendata/"
-    local cache_base : subinstr local cache_base "\" "/" , all
-    local cache_dir "`cache_base'cache/"
+    local cache_dir "`c(sysdir_plus)'_/"
+    local cache_dir : subinstr local cache_dir "\" "/" , all
 
     local vf "`cache_dir'metadata_version.txt"
     local tf "`cache_dir'cache_timestamp.txt"
