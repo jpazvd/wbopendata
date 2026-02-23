@@ -731,3 +731,32 @@ Result:   FAILED
 Failed:   ENV-03, SYNC-05
 Log:      test_results_v18.3.1_23Feb2026.log
 ======================================================================
+
+======================================================================
+Test Run: 23 Feb 2026
+Started:  15:24:51
+Ended:    15:40:14
+Duration: 15m 23s
+Version:  18.3.1
+Build:    23Feb2026
+Branch:   feat/datacache-and-cache-consolidation
+Stata:    17
+Tests:    92 run, 90 passed, 2 failed
+Result:   FAILED
+Failed:   SYNC-03, SYNC-05
+Log:      test_results_v18.3.1_23Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 23 Feb 2026
+Started:  15:45:43
+Ended:    16:09:12
+Duration: 23m 29s
+Version:  18.3.1
+Build:    23Feb2026
+Branch:   feat/datacache-and-cache-consolidation
+Stata:    17
+Tests:    92 run, 92 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.3.1_23Feb2026.log
+======================================================================
