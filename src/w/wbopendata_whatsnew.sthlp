@@ -43,7 +43,7 @@ Simplified YAML path resolver from 5-level to 2-level (findfile + fallback).
 Removed 3 orphaned cache files. Frame cache now invalidated on sync.
 
 {marker v181}{...}
-{title:Version 18.1.1 (17Feb2026)}
+{title:Version 18.1.1 (22Feb2026)}
 
 {pstd}
 {bf:Characteristic Metadata} - Indicator metadata (name, description, source, note)
