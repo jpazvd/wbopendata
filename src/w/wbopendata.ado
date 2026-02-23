@@ -1,6 +1,6 @@
 *******************************************************************************
 * wbopendata
-*! v 18.1.1  	 17Feb2026               by Joao Pedro Azevedo
+*! v 18.1.1  	 22Feb2026               by Joao Pedro Azevedo
 *   18.1.1: Copilot PR review fixes: strtrim() in sources/topics, simplified download_yaml, improved checksum, path traversal safety
 *   18.1.0: Added char metadata (default-on, nochar to suppress); deprecated update query/check/all, metadataoffline, syncforce/preview/dryrun with warnings
 *   18.0.0: Deprecated 89 per-indicator sthlp files; replaced with discovery commands (sources, search, info)
