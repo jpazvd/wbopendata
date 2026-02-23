@@ -204,18 +204,23 @@ program define _wbopendata_clear_datacache
 
     * Count and erase cached CSV files listed in manifest
     local cleared = 0
-    tempname rfh
-    file open `rfh' using "`dc_dir'_manifest.txt", read
-    file read `rfh' _line
-    while (r(eof) == 0) {
-        local _ppos = strpos("`_line'", "|")
-        local _ef = trim(substr("`_line'", 1, max(`_ppos'-1, 0)))
-        capture erase "`dc_dir'`_ef'"
-        if (_rc == 0) local cleared = `cleared' + 1
+    capture {
+        tempname rfh
+        file open `rfh' using "`dc_dir'_manifest.txt", read
         file read `rfh' _line
+        while (r(eof) == 0) {
+            local _ppos = strpos("`_line'", "|")
+            if (`_ppos' > 1) {
+                local _ef = trim(substr("`_line'", 1, `_ppos' - 1))
+                capture erase "`dc_dir'`_ef'"
+                if (_rc == 0) local cleared = `cleared' + 1
+            }
+            file read `rfh' _line
+        }
+        file close `rfh'
     }
-    file close `rfh'
 
+    * Always erase manifest (even if corrupted and unreadable)
     capture erase "`dc_dir'_manifest.txt"
 
     di as result "Cleared `cleared' cached data file(s)."
