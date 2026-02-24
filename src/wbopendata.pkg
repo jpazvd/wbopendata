@@ -46,8 +46,8 @@ f w/wbopendata_lendingtype.sthlp
 f w/wbopendata_region.sthlp
 f w/wbopendata_sourceid.sthlp
 f w/wbopendata_topicid.sthlp
-f w/world-c.dta
-f w/world-d.dta
+F w/world-c.dta
+F w/world-d.dta
 f _/_api_read.ado
 f _/_api_read_indicators.ado
 f _/_countrymetadata.ado

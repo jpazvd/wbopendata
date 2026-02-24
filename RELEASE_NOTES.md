@@ -548,7 +548,10 @@ For complete version history including all releases from v1.0.0 (2011) to presen
 ### Version Timeline
 
 ```
-2026 ─┬─ v18.1.1          Search fixes, XML robustness, 92 tests
+2026 ─┬─ v18.3.1          Reset data cache, verbose option
+      ├─ v18.3.0          Cache-aware discovery, configurable TTL
+      ├─ v18.2.0          Data response cache, cache consolidation
+      ├─ v18.1.1          Search fixes, XML robustness, 92 tests
       ├─ v18.1.0          Char metadata, offline testing, 89 tests
       ├─ v18.0.0          Discovery commands, YAML metadata, sync redesign
       ├─ v17.7.1          Test suite expansion, documentation
@@ -587,9 +590,9 @@ For complete version history including all releases from v1.0.0 (2011) to presen
 | Channel | Current | Notes |
 |---------|---------|-------|
 | **[SSC](https://ideas.repec.org/c/boc/bocode/s457234.html)** | v17.7.1 | Stable, install via `ssc install wbopendata` |
-| **GitHub** | v18.1.1 | Latest features, install via `net install` |
+| **GitHub** | v18.3.1 | Latest features, install via `net install` |
 
-> **Note:** The SSC version (v17.7.1) is one release behind the latest GitHub version. For the newest features including discovery commands, sync redesign, and YAML metadata architecture, install from GitHub.
+> **Note:** The SSC version (v17.7.1) is several releases behind the latest GitHub version. For the newest features including discovery commands, data response cache, configurable TTL, and reset data cache, install from GitHub.
 
 ---
 

@@ -419,6 +419,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Key Changes |
 |---------|------|-------------|
+| **18.3.1** | 2026-02-23 | Reset data cache, verbose option |
+| **18.3.0** | 2026-02-23 | Cache-aware discovery, configurable TTL, QA hardening |
+| **18.2.0** | 2026-02-22 | Data response cache, cache consolidation |
+| **18.1.1** | 2026-02-22 | Search fixes, XML robustness, 92 tests |
 | **18.1.0** | 2026-02-10 | Char metadata, offline testing, compound quoting fix, 89 tests |
 | **18.0.0** | 2026-02-09 | Discovery commands, YAML metadata, sync redesign |
 | **17.7.1** | 2026-01-04 | Test suite expansion, bug fixes |
@@ -450,7 +454,7 @@ The SSC (Statistical Software Components) archive at Boston College maintains th
 | SSC Version | Date | Notes |
 |-------------|------|-------|
 | v13.5 | Feb 2016 | Last pre-API-modernization release |
-| v18.1.0 | Feb 2026 | Current development release |
+| v18.3.1 | Feb 2026 | Current development release |
 | v17.7.1 | Jan 2026 | Current SSC release |
 
 For the SSC archive, see: [RePEc:boc:bocode:s457234](https://ideas.repec.org/c/boc/bocode/s457234.html)
