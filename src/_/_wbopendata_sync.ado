@@ -1,6 +1,7 @@
 *******************************************************************************
-*! _wbopendata_sync v2.0.0  22Feb2026
+*! _wbopendata_sync v2.0.1  23Feb2026
 *! Orchestrate metadata sync (Python canonical, Stata fallback, GitHub download)
+*! v2.0.1: Drop all 3 frames on sync (indicators, sources, topics)
 *! v2.0.0: Cache moved to sysdir_plus; inlined download_yaml; frame invalidation
 *******************************************************************************
 
@@ -26,6 +27,8 @@ program define _wbopendata_sync, rclass
     * Invalidate frame cache — YAML is about to change
     if (`c(stata_version)' >= 16) {
         capture frame drop _wbod_indicators
+        capture frame drop _wbod_sources
+        capture frame drop _wbod_topics
     }
 
     local outdir_use "`outdir'"

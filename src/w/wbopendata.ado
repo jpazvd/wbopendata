@@ -1,6 +1,7 @@
 *******************************************************************************
 * wbopendata
-*! v 18.3.1  	 23Feb2026               by Joao Pedro Azevedo
+*! v 18.3.2  	 23Feb2026               by Joao Pedro Azevedo
+*   18.3.2: Frame cache completeness, manifest format documentation
 *   18.3.1: Add verbose option; targeted error handling for cache/metadata operations
 *   18.3.0: YAML metadata lookup on cache hit (no API call); configurable cachedays() TTL; fix cache lookup
 *   18.2.0: Data response cache (7-day TTL, on by default); nocache/cleardatacache options; cache consolidated to sysdir_plus
@@ -896,7 +897,7 @@ local indicator `indicators'
 **********************************************************************************
 
 	if ("`char'" != "nochar") & ("`update'" == "") {
-		char _dta[wbopendata_version]   "18.3.1"
+		char _dta[wbopendata_version]   "18.3.2"
 		char _dta[wbopendata_timestamp] "`c(current_date)' `c(current_time)'"
 		char _dta[wbopendata_user]      "`c(username)'"
 		char _dta[wbopendata_syntax]    `"wbopendata, `0'"'
