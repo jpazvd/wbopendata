@@ -26,6 +26,8 @@ program define _wbopendata_sync, rclass
     * Invalidate frame cache — YAML is about to change
     if (`c(stata_version)' >= 16) {
         capture frame drop _wbod_indicators
+        capture frame drop _wbod_sources
+        capture frame drop _wbod_topics
     }
 
     local outdir_use "`outdir'"
