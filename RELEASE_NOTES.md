@@ -6,6 +6,30 @@
 
 **Minimum requirement:** Stata 14 or later.
 
+## wbopendata v18.3.2 — Cache Architecture Refinement
+
+**Release Date:** February 23, 2026
+
+---
+
+### Highlights
+
+This patch fixes cache architecture completeness and adds documentation for proper cache consolidation operations. All three metadata frames (indicators, sources, topics) are now properly invalidated during sync operations, and cache manifest format is documented to prevent future parsing breaks.
+
+### Changes
+
+| Area | Description |
+| ---- | ----------- |
+| **Frame Cache Invalidation** | All three metadata frames (indicators, sources, topics) now properly dropped on sync |
+| **Cache Manifest** | Documented pipe-delimiter format and TTL assumptions for cache consolidation |
+| **Test Documentation** | Clarified SYNC-05 test purpose as cross-validation (v18.3.0+) |
+
+### Full Changelog
+
+**Compare:** [v18.3.1...v18.3.2](https://github.com/jpazvd/wbopendata/compare/v18.3.1...v18.3.2)
+
+---
+
 ## wbopendata v18.3.1 — Reset Data Cache & Verbose Option
 
 **Release Date:** February 23, 2026

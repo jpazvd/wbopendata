@@ -1,6 +1,7 @@
 *******************************************************************************
 * _query
-*! v 16.7  	23Feb2026               by Joao Pedro Azevedo
+*! v 16.8  	23Feb2026               by Joao Pedro Azevedo
+*   16.8: Document manifest format and cache key assumptions
 *   16.7: Add verbose option, targeted error handling for cache operations
 *   16.6: Fix cache lookup (targeted capture), add cachedays() TTL option
 *   16.5: Data response cache (7-day TTL, on by default, nocache to bypass)
@@ -140,6 +141,10 @@ quietly {
     tempfile temp
 
     * --- Build data cache key (used by both cache lookup and cache save) ---
+    * Cache key format: ind_CODE_CTRY_LANG[_DATE][_srcID].csv or topic_ID_LANG.csv or country_CODE_LANG.csv
+    * NOTE: Cache key filenames must not contain pipe (|) characters, as pipes are used
+    *       as delimiters in the manifest file. This is enforced by converting special chars
+    *       to underscores in the key construction below.
     local _cache_hit = 0
     local _cache_key ""
     local _dc_dir ""
@@ -183,6 +188,9 @@ quietly {
         `noi' di as text "(datacache: key=`_cache_key')"
 
         * Check manifest for TTL — only file I/O is protected by capture
+        * Manifest format: pipe-delimited text file with lines: FILENAME|DATE
+        *   Example: "ind_sp_pop_totl_usa_en.csv|23 Feb 2026"
+        *   TTL is checked by comparing current_date with stored date (requires Stata date format)
         if (fileexists("`_cache_file'") & fileexists("`_manifest'")) {
             local _ttl_days = `cachedays'
             capture {

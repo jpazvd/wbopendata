@@ -9,7 +9,7 @@
 This document outlines the testing protocol for validating `wbopendata` functionality before releases. The automated test suite is in `run_tests.do`.
 
 **Test Suite Version**: 3.1.0
-**Compatible with**: wbopendata v18.3.1+
+**Compatible with**: wbopendata v18.3.2+
 **Last Updated**: February 2026
 **Total Tests**: 92 automated tests across 15 categories
 
@@ -268,7 +268,9 @@ do run_tests.do
 | SYNC-02 | Sync replace (download) | `wbopendata, sync replace` downloads latest metadata |
 | SYNC-03 | Sync replace force (re-download) | `wbopendata, sync replace force` forces re-download |
 | SYNC-04 | Sync when already up-to-date | Reports no updates needed |
-| SYNC-05 | Discovery commands use cache | After sync, discovery commands use cached YAML |
+| SYNC-05 | Cross-validation: sync preview vs. discovery counts | Verify that sync preview counts (ind_count, src_count, top_count) match discovery command return values (n_results, n_sources, n_topics) |
+
+**Note on SYNC-05 (v18.3.0+):** This test verifies internal consistency between the metadata sync preview and discovery commands. It ensures that the indicator/source/topic counts reported by `wbopendata, sync` match what's returned by `wbopendata, search/sources/alltopics`. This is a cross-validation test, not strictly a "cache" test.
 
 ---
 
