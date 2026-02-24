@@ -1,7 +1,7 @@
 # wbopendata Testing Guide
 
 **Test Suite Version:** 3.1.0
-**Compatible with:** wbopendata v18.3.1+
+**Compatible with:** wbopendata v18.3.2+
 **Last Updated:** February 2026
 
 [← Back to README](../README.md) | [Test Protocol](test_protocol.md) | [QA README](README.md) | [FAQ](../doc/FAQ.md)

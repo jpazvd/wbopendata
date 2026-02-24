@@ -1,4 +1,4 @@
-v 18.3.1
+v 18.3.2
 d 'WBOPENDATA': module to access World Bank databases
 d 
 d wbopendata allows Stata users to download over 20,000 indicators 
