@@ -13,7 +13,7 @@
 *   do run_tests.do list         - List all available tests
 *   do run_tests.do norepo       - Skip repo comparison tests (ENV-01 to ENV-04)
 *
-* Test Categories (89 tests total):
+* Test Categories (92 tests total):
 *   0 - Environment Checks (5): ENV-01 to ENV-05 [ENV-01 to ENV-04 require repo path]
 *   1 - Basic Downloads (5): DL-01 to DL-05
 *   2 - Format Options (3): FMT-01 to FMT-03

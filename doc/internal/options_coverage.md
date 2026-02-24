@@ -79,18 +79,18 @@ Last updated: 2026-02-23 (v18.3.1)
 | `CHECKUPDATE` | line 59 | line 298 | sec 3 (line 399) | user-facing |
 | `CLEARCACHE` | line 62 | line 302 | sec 3 (line 408) | user-facing |
 | `CACHEINFO` | line 66 | line 300 | sec 3 (line 404) | user-facing |
-| `NOCACHE` | line 60 | line 322 | — (v18.2+) | user-facing |
-| `CACHEDAYS(integer 7)` | line 61 | line 326 | — (v18.3+) | user-facing |
-| `CLEARDATACACHE` | line 63 | line 305 | — (v18.2+) | user-facing |
-| `RESETDATACACHE` | line 64 | line 331 | — (v18.3.1) | user-facing |
-| `VERBOSE` | line 65 | line 338 | — (v18.3.1) | user-facing |
+| `NOCACHE` | line 60 | line 322 | sec 3 (line ~414) | user-facing |
+| `CACHEDAYS(integer 7)` | line 61 | line 326 | sec 3 (line ~419) | user-facing |
+| `CLEARDATACACHE` | line 63 | line 305 | sec 3 (line ~424) | user-facing |
+| `RESETDATACACHE` | line 64 | line 331 | sec 3 (line ~428) | user-facing |
+| `VERBOSE` | line 65 | line 338 | sec 3 (line ~433) | user-facing |
 
 ## Discovery Commands
 
 | .ado option | sthlp synopsis | sthlp detail | Paper | Category |
 |---|---|---|---|---|
 | `SOURCES` | line 77 | line 372 | sec 3.2 (line 429) | user-facing |
-| `ALLSOURCES` | line 78 | line 377 | — | user-facing |
+| `ALLSOURCES` | line 78 | line 377 | sec 3.2 (line ~458) | user-facing |
 | `ALLTOPICS` | line 79 | line 383 | sec 3.2 (line 432) | user-facing |
 | `SEARCH(string)` | line 80 | line 394 | sec 3.2 (line 435) | user-facing |
 | `LIMIT(string)` | line 86 | line 469 | sec 3.2 (line 456) | user-facing |
@@ -143,13 +143,13 @@ Last updated: 2026-02-23 (v18.3.1)
 | Core data options | 7 | 7/7 | 7/7 |
 | Country attributes | 12 | 12/12 | 12/12 |
 | Individual sub-options | 14 | — (grouped) | — |
-| Sync & cache | 12 | 12/12 | 6/12* |
-| Discovery commands | 10 | 10/10 | 9/10** |
+| Sync & cache | 12 | 12/12 | 12/12 |
+| Discovery commands | 10 | 10/10 | 10/10 |
 | Graph metadata | 3 | 3/3 | 3/3 |
 | Deprecated | 7 | 7/7 | 4/7 |
 | Internal | 8 | — | — |
 
-\* `nocache`, `cachedays`, `cleardatacache`, `resetdatacache`, `verbose`,
-`allsources` are v18.2+/v18.3+ features added after the paper was drafted.
-
-\** `allsources` not mentioned in paper.
+All user-facing options are now documented in both the sthlp and the paper.
+The v18.2+/v18.3+ cache options (`nocache`, `cachedays`, `cleardatacache`,
+`resetdatacache`, `verbose`) and `allsources` were added to the paper in
+the February 2026 update.
