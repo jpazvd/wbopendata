@@ -894,13 +894,14 @@ Table~\ref{tab:test-coverage} summarizes the Layer~1 composition.
 
 \begin{table}[H]
 \centering
-\caption{Test suite composition (92 tests across 15 categories)}
+\caption{Test suite composition (163 tests across two validation layers)}
 \label{tab:test-coverage}
 
 \begin{tabular}{@{}llrl@{}}
 \hline
 Abbr. & Category & Tests & Focus \\
 \hline
+\multicolumn{4}{@{}l}{\textit{Layer~1: Feature validation (\texttt{qa/run\_tests.do})}} \\
 ENV        & Environment       & 5  & Network, API, YAML file presence \\
 DL         & Download modes    & 5  & Indicator, country, multi-indicator \\
 FMT        & Output format     & 3  & Long format, year range, latest \\
@@ -916,8 +917,24 @@ CHAR       & Characteristics   & 6  & Dataset/variable \texttt{char}, persistenc
 ERR        & Error conditions  & 8  & Syntax validation (\texttt{rcof}), API errors, empty \\
 EXT        & Extreme cases     & 4  & Minimal queries, large datasets, edge inputs \\
 DET        & Deterministic     & 6  & Offline fixtures, value pinning, network-free \\
+           & \textit{Subtotal} & \textit{92} & \\
 \hline
-           &                   & 92 & \\
+\multicolumn{4}{@{}l}{\textit{Layer~2: Documentation validation (\texttt{tests/test\_help\_examples.do})}} \\
+HELP-01..24  & Discovery commands     & 25 & Sources, topics, search, info, browse \\
+HELP-25..26  & Deprecated options     & 2  & \texttt{update query}, \texttt{update check} \\
+HELP-27..29c & Cache management       & 5  & Sync, cache info, clear data cache \\
+HELP-29..41a & Data downloads         & 13 & Indicator, country, topic, multi, projection \\
+HELP-41..44  & Linewrap               & 4  & Metadata wrapping, multi-indicator, latest \\
+HELP-45      & Match                  & 1  & \texttt{match(countrycode)} merge \\
+HELP-46..53  & Named examples         & 8  & Click-to-run \texttt{wbopendata\_examples} \\
+HELP-54      & Discovery workflow     & 1  & End-to-end: sources $\to$ search $\to$ download \\
+EX-01..08    & Inline example replay  & 8  & Data assertions, row counts, graph output \\
+EX-09        & Stored results         & 1  & \texttt{r()} values after \texttt{linewrap latest} \\
+EX-10..11    & Characteristic metadata & 2  & \texttt{char \_dta[]}, \texttt{nochar} suppression \\
+EX-12        & Data cache workflow    & 1  & Cache lifecycle: API $\to$ hit $\to$ reset $\to$ re-fetch \\
+             & \textit{Subtotal}      & \textit{71} & \\
+\hline
+             & \textbf{Total}         & \textbf{163} & \\
 \hline
 \end{tabular}
 
