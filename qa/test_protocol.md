@@ -8,10 +8,10 @@
 
 This document outlines the testing protocol for validating `wbopendata` functionality before releases. The automated test suite is in `run_tests.do`.
 
-**Test Suite Version**: 3.0.0
-**Compatible with**: wbopendata v18.1.0+
+**Test Suite Version**: 3.1.0
+**Compatible with**: wbopendata v18.3.2+
 **Last Updated**: February 2026
-**Total Tests**: 89 automated tests across 17 categories
+**Total Tests**: 92 automated tests across 15 categories
 
 > **See also:** [README](README.md) for quick start | [Testing Guide](TESTING_GUIDE.md) for best practices
 
@@ -89,12 +89,12 @@ do run_tests.do
 | 7 | TOPIC/LANG | 2 | Yes | Integration | Topics API path and language option |
 | 8 | Advanced | 6 | Yes | Integration | Projection, nobasic, describe-only, nometadata, adminregion, date |
 | 9 | CACHE/SYNC | 13 | Mixed | Integration | Cache lifecycle and metadata sync operations |
-| 10 | DISC | 7 | No | Certification | Offline discovery commands (search, info, sources, topics) |
+| 10 | DISC | 10 | No | Certification | Offline discovery commands (search, info, sources, topics) |
 | 11 | CHAR | 6 | Yes | Integration | Variable-level char metadata -- v18.1 |
 | 12 | ERR | 8 | Mixed | Gould (2001) | Error conditions: invalid inputs must fail gracefully |
 | 13 | EXT | 4 | Yes | Gould (2001) | Extreme/boundary cases: stress inputs |
 | 14 | DET | 6 | No | Gould (2001) | Deterministic offline tests with CSV fixtures |
-| | **Total** | **89** | | | |
+| | **Total** | **92** | | | |
 
 ---
 
@@ -268,7 +268,9 @@ do run_tests.do
 | SYNC-02 | Sync replace (download) | `wbopendata, sync replace` downloads latest metadata |
 | SYNC-03 | Sync replace force (re-download) | `wbopendata, sync replace force` forces re-download |
 | SYNC-04 | Sync when already up-to-date | Reports no updates needed |
-| SYNC-05 | Discovery commands use cache | After sync, discovery commands use cached YAML |
+| SYNC-05 | Cross-validation: sync preview vs. discovery counts | Verify that sync preview counts (ind_count, src_count, top_count) match discovery command return values (n_results, n_sources, n_topics) |
+
+**Note on SYNC-05 (v18.3.0+):** This test verifies internal consistency between the metadata sync preview and discovery commands. It ensures that the indicator/source/topic counts reported by `wbopendata, sync` match what's returned by `wbopendata, search/sources/alltopics`. This is a cross-validation test, not strictly a "cache" test.
 
 ---
 
@@ -393,7 +395,7 @@ This implements Gould's (2001) Phase 6 principle of using known test datasets wi
 | Multiple indicators (3) | `wbopendata, indicator(A;B;C) clear` | < 60 seconds |
 | YAML first parse (indicators) | `wbopendata, search(population)` (cold) | < 25 seconds |
 | YAML cached search | `wbopendata, search(population)` (warm) | < 0.5 seconds |
-| Full test suite (89 tests) | `do run_tests.do` | < 6 minutes |
+| Full test suite (92 tests) | `do run_tests.do` | < 20 minutes |
 
 ---
 

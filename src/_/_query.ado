@@ -1,7 +1,10 @@
 *******************************************************************************
-* _query   
-*! v 16.4  	10Feb2026               by Joao Pedro Azevedo
-*   16.4: Added nochar option passthrough; variable-level char metadata for indicator variables
+* _query
+*! v 16.8  	23Feb2026               by Joao Pedro Azevedo
+*   16.8: Document manifest format and cache key assumptions
+*   16.7: Add verbose option, targeted error handling for cache operations
+*   16.6: Fix cache lookup (targeted capture), add cachedays() TTL option
+*   16.5: Data response cache (7-day TTL, on by default, nocache to bypass)
 * 	16.3: change API end point to HTTPS
 *******************************************************************************
 
@@ -25,8 +28,17 @@ version 9.0
 						 SOURCE(string)				///
 						 noCHAR					///
 						 OFFLINE(string)		///
+						 NOCACHE				///
+						 CACHEDAYS(integer 7)	///
+						 VERBOSE				///
                  ]
 
+if ("`verbose'" == "") {
+    local noi ""
+}
+else {
+    local noi "noi "
+}
 
 quietly {
 
@@ -128,16 +140,100 @@ quietly {
 
     tempfile temp
 
-    * Offline fixture injection (Phase 6, Gould 2001)
+    * --- Build data cache key (used by both cache lookup and cache save) ---
+    * Cache key format: ind_CODE_CTRY_LANG[_DATE][_srcID].csv or topic_ID_LANG.csv or country_CODE_LANG.csv
+    * NOTE: Cache key filenames must not contain pipe (|) characters, as pipes are used
+    *       as delimiters in the manifest file. This is enforced by converting special chars
+    *       to underscores in the key construction below.
+    local _cache_hit = 0
+    local _cache_key ""
+    local _dc_dir ""
+    local _cache_file ""
+    local _manifest ""
+
+    if ("`offline'" == "" & "`nocache'" == "") {
+        local _dc_dir "`c(sysdir_plus)'_/_wbopendata_datacache/"
+        local _dc_dir : subinstr local _dc_dir "\" "/" , all
+        capture mkdir "`_dc_dir'"
+
+        * Build cache key filename from query parameters
+        if ("`indicator'" != "") {
+            local _ck_ind : subinstr local indicator1 "." "_", all
+            local _ck_ind = lower("`_ck_ind'")
+            local _ck_cty : subinstr local country2 ";" "_", all
+            local _ck_cty = lower("`_ck_cty'")
+            local _ck_date ""
+            if ("`year1'" != "") {
+                local _ck_date : subinstr local year1 "&date=" ""
+                local _ck_date : subinstr local _ck_date ":" "_", all
+                local _ck_date "_`_ck_date'"
+            }
+            if ("`date1'" != "") {
+                local _ck_date : subinstr local date1 "&date=" ""
+                local _ck_date : subinstr local _ck_date ":" "_", all
+                local _ck_date "_`_ck_date'"
+            }
+            local _ck_src ""
+            if ("`source'" != "") local _ck_src "_src40"
+            local _cache_key "ind_`_ck_ind'_`_ck_cty'_`language'`_ck_date'`_ck_src'"
+        }
+        else if ("`topics'" != "") {
+            local _cache_key "topic_`topics1'_`language'"
+        }
+        else {
+            local _cache_key "country_`country1'_`language'"
+        }
+        local _cache_file "`_dc_dir'`_cache_key'.csv"
+        local _manifest "`_dc_dir'_manifest.txt"
+        `noi' di as text "(datacache: key=`_cache_key')"
+
+        * Check manifest for TTL — only file I/O is protected by capture
+        * Manifest format: pipe-delimited text file with lines: FILENAME|DATE
+        *   Example: "ind_sp_pop_totl_usa_en.csv|23 Feb 2026"
+        *   TTL is checked by comparing current_date with stored date (requires Stata date format)
+        if (fileexists("`_cache_file'") & fileexists("`_manifest'")) {
+            local _ttl_days = `cachedays'
+            capture {
+                tempname _mfh
+                file open `_mfh' using "`_manifest'", read
+                file read `_mfh' _mline
+                while (r(eof) == 0) {
+                    local _ppos = strpos(`"`_mline'"', "|")
+                    if (`_ppos' > 0) {
+                        local _mfile = trim(substr(`"`_mline'"', 1, `_ppos' - 1))
+                        local _mlen = length(`"`_mline'"')
+                        local _mdate = trim(substr(`"`_mline'"', `_ppos' + 1, `_mlen' - `_ppos'))
+                    }
+                    else {
+                        local _mfile ""
+                        local _mdate ""
+                    }
+                    if ("`_mfile'" == "`_cache_key'.csv") {
+                        local _cached_dt = date("`_mdate'", "DMY")
+                        local _today_dt = date("`c(current_date)'", "DMY")
+                        if (!missing(`_cached_dt') & !missing(`_today_dt')) {
+                            if (`_today_dt' - `_cached_dt' <= `_ttl_days') {
+                                local _cache_hit = 1
+                            }
+                        }
+                    }
+                    file read `_mfh' _mline
+                }
+                file close `_mfh'
+            }
+            if (_rc != 0) {
+                local _cache_hit = 0
+                capture file close `_mfh'
+                `noi' di as text "(datacache: manifest read failed, rc=" _rc ")"
+            }
+        }
+        `noi' di as text "(datacache: `_cache_key' " cond(`_cache_hit', "HIT", "MISS") ")"
+    }
+
+    * --- Offline fixture injection ---
     * When offline() option is set to a directory path, data is read from
-    * local CSV fixture files instead of the World Bank API. This enables
-    * deterministic testing without network access.
+    * local CSV fixture files instead of the World Bank API.
     if ("`offline'" != "") {
-        * Build fixture filename from indicator or topic
-        * Fixture naming convention: dots→underscores, appended country
-        *   indicator query: {IND_CODE}_{country}.csv  (e.g. SP_POP_TOTL_USA.csv)
-        *   topic query:    topic_{topicid}.csv
-        *   country query:  country_{countrycode}.csv
         if ("`indicator'" != "") {
             local _ind_name = subinstr("`indicator1'", ".", "_", .)
             local _cty_name = subinstr("`country2'", ";", "_", .)
@@ -155,7 +251,7 @@ quietly {
             exit 601
         }
         noi di as text "(offline mode: reading from `_fixture_file')"
-        cap : copy "`_fixture_file'" `temp', replace
+        copy "`_fixture_file'" `temp', replace
         if ("`indicator'" != "") {
             local queryspec2 "indicator `indicator1'"
         }
@@ -163,6 +259,21 @@ quietly {
             local queryspec2 "topic `topics1'"
         }
     }
+    * --- Data cache hit ---
+    else if (`_cache_hit') {
+        noi di as text "(using cached data: `_cache_key'.csv, TTL `cachedays'd)"
+        copy "`_cache_file'" `temp', replace
+        if ("`indicator'" != "") {
+            local queryspec2 "indicator `indicator1'"
+        }
+        else if ("`topics'" != "") {
+            local queryspec2 "topic `topics1'"
+        }
+        else {
+            local queryspec2 "country `country1'"
+        }
+    }
+    * --- Online download from World Bank API ---
     else {
 
 	loc servername "https://api.worldbank.org/v2"  /* Query server v2 */
@@ -209,7 +320,24 @@ quietly {
         }
     }
 
-    } /* end of online/offline branch */
+    * Save successful download to data cache
+    if ("`nocache'" == "" & "`_cache_file'" != "") {
+        cap : copy `temp' "`_cache_file'", replace
+        if (_rc == 0) {
+            cap _wbod_dc_manifest_update "`_manifest'" "`_cache_key'.csv"
+            if (_rc != 0) {
+                `noi' di as text "(datacache: manifest update failed, rc=" _rc ")"
+            }
+            else {
+                `noi' di as text "(datacache: saved `_cache_key'.csv)"
+            }
+        }
+        else {
+            `noi' di as text "(datacache: save failed, rc=" _rc ")"
+        }
+    }
+
+    } /* end of offline/cache/online branch */
 
     cap : insheet using `temp', `clear' name
     local rc3 = _rc
@@ -446,7 +574,57 @@ quietly {
 }
 
     return local time       "`t1'"
+    return local _from_cache "`_cache_hit'"
 
+end
+
+
+*******************************************************************************
+* Helper: update data cache manifest (append/replace entry with current date)
+*******************************************************************************
+program define _wbod_dc_manifest_update
+    version 14.0
+    args manifest_file cache_entry
+
+    local ts "`c(current_date)'"
+    tempfile _tmp_mf
+
+    * Write updated manifest to temp file
+    tempname wfh
+    file open `wfh' using "`_tmp_mf'", write
+
+    * Copy existing entries (except the one we're replacing)
+    if (fileexists("`manifest_file'")) {
+        capture {
+            tempname rfh
+            file open `rfh' using "`manifest_file'", read
+            file read `rfh' _line
+            while (r(eof) == 0) {
+                local _ppos = strpos(`"`_line'"', "|")
+                if (`_ppos' > 0) {
+                    local _ef = trim(substr(`"`_line'"', 1, `_ppos' - 1))
+                }
+                else {
+                    local _ef `"`_line'"'
+                }
+                if (`"`_ef'"' != "`cache_entry'") {
+                    file write `wfh' `"`_line'"' _n
+                }
+                file read `rfh' _line
+            }
+            file close `rfh'
+        }
+        if (_rc != 0) {
+            capture file close `rfh'
+        }
+    }
+
+    * Append new entry
+    file write `wfh' "`cache_entry'|`ts'" _n
+    file close `wfh'
+
+    * Replace manifest
+    copy "`_tmp_mf'" "`manifest_file'", replace
 end
 
 

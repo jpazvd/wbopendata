@@ -1,12 +1,12 @@
 # wbopendata Test Suite (Development)
 
-**Test Suite Version:** 3.0.0
-**Compatible with:** wbopendata v18.1.0+
+**Test Suite Version:** 3.1.0
+**Compatible with:** wbopendata v18.3.2+
 **Last Updated:** February 2026
 
 This document explains how to run the `wbopendata` test suite on any machine.
 
-> **Note:** This is the development test suite with 89 tests across 17 categories. The public release has 44 tests.
+> **Note:** This is the development test suite with 92 tests across 15 categories. The public release has 44 tests.
 
 ---
 
@@ -22,7 +22,7 @@ do run_tests.do
 
 ## Test Categories
 
-The test suite includes **89 tests** organized into 17 categories:
+The test suite includes **92 tests** organized into 15 categories:
 
 | Category | Tests | Description |
 |----------|-------|-------------|
@@ -36,8 +36,8 @@ The test suite includes **89 tests** organized into 17 categories:
 | **TOPIC-01, LANG-01** | Topics & Language | Topics download, language option |
 | **PROJ/FMT-04/DESC/META/CTRY-11/DATE** | Advanced | Projection, nobasic, describe, nometadata, adminregion, date range |
 | **CACHE-01 to CACHE-08, SYNC-01 to SYNC-05** | Cache & Sync | Cache lifecycle and sync operations |
-| **DISC-01 to DISC-07** | Discovery | Sources, topics, search, info commands |
-| **ERR-01 to ERR-24** | Error Handling | Invalid input validation using `rcof` (Gould 2001) |
+| **DISC-01 to DISC-10** | Discovery | Sources, topics, search, info, multi-topic |
+| **ERR-01 to ERR-08** | Error Handling | Invalid input validation using `rcof` (Gould 2001) |
 | **EXT-01+** | Extended | Additional option combinations |
 | **DET-01+** | Deterministic | Offline fixture-based reproducible tests |
 
@@ -56,7 +56,7 @@ cd "C:/GitHub/wbopendata-dev/qa"
 do run_tests.do
 ```
 
-**Result:** All 89 tests run, including ENV tests.
+**Result:** All 92 tests run, including ENV tests.
 
 ### Option 2: Configure Repo Path Manually
 
@@ -67,7 +67,7 @@ global wbopendata_repo "D:/Projects/wbopendata-dev"
 do run_tests.do
 ```
 
-**Result:** All 89 tests run, including ENV tests.
+**Result:** All 92 tests run, including ENV tests.
 
 ### Option 3: Skip Repo-Comparison Tests
 
@@ -200,7 +200,7 @@ C:\GitHub\wbopendata-dev\qa
 . do run_tests.do
 
 ================================================================================
- wbopendata Test Suite v18.1.0
+ wbopendata Test Suite v18.3.1
 ================================================================================
  Date: 10 Feb 2026  Time: 17:44:44
  Stata: 17.0 MP
@@ -237,8 +237,8 @@ C:\GitHub\wbopendata-dev\qa
 ================================================================================
  TEST SUMMARY
 ================================================================================
- Tests run:    89
- Tests passed: 89
+ Tests run:    92
+ Tests passed: 92
  Tests failed: 0
 
  Result: ALL TESTS PASSED
@@ -251,6 +251,7 @@ C:\GitHub\wbopendata-dev\qa
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 3.1.0 | Feb 2026 | 92 tests across 15 categories; data cache tests; DISC-08/09/10; consolidated categories |
 | 3.0.0 | Feb 2026 | 89 tests across 17 categories; ERR/EXT/DET tests; DISC category; offline fixtures |
 | 2.0.0 | Jan 2026 | Independent test suite versioning; generic paths; `norepo` option; auto-detection |
 | 1.0.0 | Jan 2026 | Initial structured test suite with CACHE/SYNC (57 tests) |

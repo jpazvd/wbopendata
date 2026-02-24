@@ -13,7 +13,7 @@
 *   do run_tests.do list         - List all available tests
 *   do run_tests.do norepo       - Skip repo comparison tests (ENV-01 to ENV-04)
 *
-* Test Categories (89 tests total):
+* Test Categories (92 tests total):
 *   0 - Environment Checks (5): ENV-01 to ENV-05 [ENV-01 to ENV-04 require repo path]
 *   1 - Basic Downloads (5): DL-01 to DL-05
 *   2 - Format Options (3): FMT-01 to FMT-03
@@ -36,6 +36,29 @@
 *   Or set environment variable WBOPENDATA_REPO
 *   Or the script will auto-detect from this file's location
 *
+* Cache & Sync Strategy:
+*   The test suite manages metadata cache (YAML files) carefully to balance
+*   correctness with runtime. Sync downloads ~29,000 indicators from the
+*   World Bank API and takes ~2-3 minutes per call.
+*
+*   Startup sequence:
+*     1. clearcache + cleardatacache  — ensure clean slate
+*     2. net install from repo        — puts package YAMLs into sysdir_plus/_/
+*     3. Tests run with package-shipped YAMLs available
+*
+*   Sync calls (4 real, 5 conditional):
+*     REAL (test sync itself):  UPD-06, CACHE-05, SYNC-02, SYNC-03
+*     CONDITIONAL (reuse cache): CACHE-06, CACHE-07, CACHE-08, SYNC-04, SYNC-05
+*     Conditional tests check for _wbopendata_indicators.yaml before syncing;
+*     they only call sync if no cache exists from a prior test.
+*
+*   Post-sync validation (prevent silent false-pass):
+*     Every test that calls sync MUST verify all 3 YAML files exist afterward:
+*       _wbopendata_indicators.yaml, _wbopendata_sources.yaml, _wbopendata_topics.yaml
+*     Use hard asserts (assert _rc == 0), NOT soft patterns like:
+*       if `exists' { assert `exists' == 1 }   <-- WRONG: skips assert if missing
+*     Tests must NOT use unconditional test_pass after sync ("pass regardless").
+*
 * Testing Best Practices Implemented:
 *   1. NO empty capture blocks - always run explicit commands inside cap
 *   2. Check _rc immediately after each command that matters
@@ -43,11 +66,14 @@
 *   4. Verify data with count if !missing() not just assert
 *   5. Provide informative failure messages with actual error codes
 *   6. Remove corrupted auto-generated files before test run
+*   7. Hard-assert YAML files exist after sync (no silent false-pass)
 *
 * Common Issues Fixed:
 *   - r(920) macro length errors from corrupted _parameters.ado
 *   - Empty cap{} blocks that don't set _rc meaningfully
 *   - Tests failing silently without running actual validation
+*   - Sync tests passing when sync only showed preview but didn't download (v18.1.1)
+*   - Redundant sync calls adding ~15 min to test runtime (v18.3.0)
 *******************************************************************************/
 
 clear all
@@ -153,7 +179,7 @@ foreach arg of local args {
         di as text "  SYNC-02  Sync replace (download)"
         di as text "  SYNC-03  Sync replace force (re-download)"
         di as text "  SYNC-04  Sync replace when up-to-date"
-        di as text "  SYNC-05  Discovery commands use cache"
+        di as text "  SYNC-05  Consistency: sync counts match discovery commands"
         di as text ""
         di as text "  Discovery Commands:"
         di as text "  DISC-01  Search basic (keyword returns results)"
@@ -258,10 +284,25 @@ else {
             di as text "Repo path (from cwd): `repo_root'"
         }
         else {
-            * No repo detected
+            * Try adopath: run_tests_dev.do prepends src/w/ which survives clear all
             local repo_root ""
-            local qadir "`cwd_norm'"
-            di as text "Repo path: not detected (logs will save to current directory)"
+            cap findfile wbopendata.ado
+            if _rc == 0 {
+                local _wbo_path = subinstr(r(fn), "\", "/", .)
+                if regexm("`_wbo_path'", "(.+)/src/w/wbopendata\.ado$") {
+                    local _candidate = regexs(1)
+                    cap confirm file "`_candidate'/src/wbopendata.pkg"
+                    if _rc == 0 {
+                        local repo_root "`_candidate'"
+                        local qadir "`_candidate'/qa"
+                        di as text "Repo path (from adopath): `repo_root'"
+                    }
+                }
+            }
+            if "`repo_root'" == "" {
+                local qadir "`cwd_norm'"
+                di as text "Repo path: not detected (logs will save to current directory)"
+            }
         }
     }
 }
@@ -304,6 +345,25 @@ if "`repo_root'" != "" & "`qadir'" != "`repo_root'/qa" {
     di as error "WARNING: qadir (`qadir') differs from expected (`repo_root'/qa)"
     di as error "         History and logs may write to unexpected location"
 }
+
+* Safeguard: warn if fixtures directory is missing (DET/ERR-06 tests need it)
+cap confirm file "`qadir'/fixtures/SP_POP_TOTL_USA.csv"
+if _rc != 0 {
+    di as text _n "Note: Fixture files not found in `qadir'/fixtures/"
+    di as text "      DET-01 to DET-05 and ERR-06 will be skipped."
+    di as text "      To enable: run qa/decompress_fixtures.do first."
+}
+
+* Safeguard: warn if repo not detected (tests will have reduced coverage)
+if "`repo_root'" == "" {
+    di as error _n "WARNING: Repo not detected. ENV tests skipped, fixtures may be missing."
+    di as error "         Log will save to: `qadir'"
+    di as error "         For full coverage, use: do run_tests_dev.do"
+}
+
+* Clear all caches to ensure clean test state before install
+cap noi wbopendata, clearcache
+cap noi wbopendata, cleardatacache
 
 * Install from repo if path is available and user wants repo sync
 if "`repo_root'" != "" & `skip_repo_tests' == 0 {
@@ -385,6 +445,23 @@ if `verbose' == 1 {
 }
 di as text "Date: `date' `start_time'"
 di as text "Stata: `c(stata_version)'"
+local git_branch ""
+if "$repo_root" != "" {
+    cap local git_branch : di _asis `"`: env GIT_BRANCH'"'
+    if "`git_branch'" == "" {
+        tempname gbfh
+        cap shell git -C "$repo_root" rev-parse --abbrev-ref HEAD > "$repo_root/qa/_gitbranch.tmp" 2>&1
+        cap file open `gbfh' using "$repo_root/qa/_gitbranch.tmp", read
+        if _rc == 0 {
+            file read `gbfh' git_branch
+            file close `gbfh'
+        }
+        cap erase "$repo_root/qa/_gitbranch.tmp"
+    }
+}
+if "`git_branch'" != "" {
+    di as text "Branch: `git_branch'"
+}
 di as text "`sep'"
 
 *===============================================================================
@@ -1356,9 +1433,18 @@ run_test "UPD-06" "Sync replace force"
 if $skip_test == 0 {
     cap noi {
         wbopendata, sync replace force
+
+        * Verify YAML files were actually created (prevent silent false-pass)
+        local cache_dir = c(sysdir_plus) + "_/"
+        cap confirm file "`cache_dir'_wbopendata_indicators.yaml"
+        assert _rc == 0
+        cap confirm file "`cache_dir'_wbopendata_sources.yaml"
+        assert _rc == 0
+        cap confirm file "`cache_dir'_wbopendata_topics.yaml"
+        assert _rc == 0
     }
     if _rc == 0 test_pass
-    else test_fail "Sync replace force not working"
+    else test_fail "Sync replace force not working or YAML files not created"
 }
 
 *===============================================================================
@@ -1595,7 +1681,7 @@ if $skip_test == 0 {
         assert "`r(cache_cleared)'" == "1"
 
         * Verify metadata_version.txt is gone
-        local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
+        local cache_dir = c(sysdir_plus) + "_/"
         cap confirm file "`cache_dir'metadata_version.txt"
         local after_exists = (_rc == 0)
 
@@ -1612,32 +1698,26 @@ if $skip_test == 0 {
     cap noi {
         * Clear and recreate cache
         cap wbopendata, clearcache
-        cap qui wbopendata, sync
-        
-        * Check version file persists
-        local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
-        cap confirm file "`cache_dir'metadata_version.txt"
-        local version_exists = (_rc == 0)
-        
-        * Check YAML files persist
+        wbopendata, sync replace
+
+        * Verify all 3 YAML files were created (prevent silent false-pass)
+        local cache_dir = c(sysdir_plus) + "_/"
+
         cap confirm file "`cache_dir'_wbopendata_indicators.yaml"
         local indicators_exists = (_rc == 0)
-        
         cap confirm file "`cache_dir'_wbopendata_sources.yaml"
         local sources_exists = (_rc == 0)
-        
         cap confirm file "`cache_dir'_wbopendata_topics.yaml"
         local topics_exists = (_rc == 0)
-        
-        di as text "Version file exists: " cond(`version_exists', "yes", "no")
+
         di as text "Indicators YAML exists: " cond(`indicators_exists', "yes", "no")
         di as text "Sources YAML exists: " cond(`sources_exists', "yes", "no")
         di as text "Topics YAML exists: " cond(`topics_exists', "yes", "no")
-        
-        * At minimum, version file should exist if sync worked
-        if `version_exists' {
-            assert `version_exists' == 1
-        }
+
+        * All 3 YAML files must exist after sync
+        assert `indicators_exists' == 1
+        assert `sources_exists' == 1
+        assert `topics_exists' == 1
     }
     if _rc == 0 test_pass
     else test_fail "Cache persistence check failed"
@@ -1647,11 +1727,14 @@ if $skip_test == 0 {
 run_test "CACHE-06" "Version file tracking"
 if $skip_test == 0 {
     cap noi {
-        * Ensure cache exists
-        cap qui wbopendata, sync replace
-        
+        * Ensure cache exists (reuse from prior tests if available)
+        local cache_dir = c(sysdir_plus) + "_/"
+        cap confirm file "`cache_dir'_wbopendata_indicators.yaml"
+        if _rc != 0 {
+            cap qui wbopendata, sync replace
+        }
+
         * Read version file
-        local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
         local version_file = "`cache_dir'metadata_version.txt"
         
         cap confirm file "`version_file'"
@@ -1682,11 +1765,14 @@ if $skip_test == 0 {
 run_test "CACHE-07" "Timestamp tracking"
 if $skip_test == 0 {
     cap noi {
-        * Ensure cache exists
-        cap qui wbopendata, sync replace
-        
+        * Ensure cache exists (reuse from prior tests if available)
+        local cache_dir = c(sysdir_plus) + "_/"
+        cap confirm file "`cache_dir'_wbopendata_indicators.yaml"
+        if _rc != 0 {
+            cap qui wbopendata, sync replace
+        }
+
         * Check timestamp file
-        local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
         local timestamp_file = "`cache_dir'cache_timestamp.txt"
         
         cap confirm file "`timestamp_file'"
@@ -1713,9 +1799,13 @@ if $skip_test == 0 {
 run_test "CACHE-08" "Search with cached YAML"
 if $skip_test == 0 {
     cap noi {
-        * Ensure cache exists
-        cap qui wbopendata, sync replace
-        
+        * Ensure cache exists (reuse from prior tests if available)
+        local cache_dir = c(sysdir_plus) + "_/"
+        cap confirm file "`cache_dir'_wbopendata_indicators.yaml"
+        if _rc != 0 {
+            cap qui wbopendata, sync replace
+        }
+
         * Test search command (should use cache if available)
         cap wbopendata, search("GDP")
         local search_rc = _rc
@@ -1773,29 +1863,19 @@ if $skip_test == 0 {
         cap wbopendata, clearcache
 
         * Test sync replace command (actually applies sync)
-        cap wbopendata, sync replace
-        local sync_rc = _rc
-        
-        di as text "sync rc: `sync_rc'"
-        
-        * If sync succeeds, verify cache was created
-        if `sync_rc' == 0 {
-            local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
-            cap confirm file "`cache_dir'metadata_version.txt"
-            local cache_created = (_rc == 0)
-            
-            di as text "Cache created after sync: " cond(`cache_created', "yes", "no")
-            
-            if `cache_created' {
-                assert `cache_created' == 1
-            }
-        }
-        else {
-            di as text "Sync failed (may be network/API issue)"
-        }
+        wbopendata, sync replace
+
+        * Verify YAML files were actually created (prevent silent false-pass)
+        local cache_dir = c(sysdir_plus) + "_/"
+        cap confirm file "`cache_dir'_wbopendata_indicators.yaml"
+        assert _rc == 0
+        cap confirm file "`cache_dir'_wbopendata_sources.yaml"
+        assert _rc == 0
+        cap confirm file "`cache_dir'_wbopendata_topics.yaml"
+        assert _rc == 0
     }
-    * Pass regardless of network issues
-    test_pass
+    if _rc == 0 test_pass
+    else test_fail "Sync replace failed or YAML files not created"
 }
 
 * SYNC-03: Sync replace force (re-download)
@@ -1803,72 +1883,96 @@ run_test "SYNC-03" "Sync replace force command"
 if $skip_test == 0 {
     cap noi {
         * Test sync replace force command (force re-download)
-        cap wbopendata, sync replace force
-        local syncforce_rc = _rc
+        wbopendata, sync replace force
 
-        di as text "sync replace force rc: `syncforce_rc'"
-        
-        * If sync succeeds, verify cache was updated
-        if `syncforce_rc' == 0 {
-            local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
-            cap confirm file "`cache_dir'_wbopendata_indicators.yaml"
-            local yaml_exists = (_rc == 0)
-            
-            di as text "YAML exists after force sync: " cond(`yaml_exists', "yes", "no")
-        }
-        else {
-            di as text "Force sync failed (may be network/API issue)"
-        }
+        * Verify YAML files were actually created (prevent silent false-pass)
+        local cache_dir = c(sysdir_plus) + "_/"
+        cap confirm file "`cache_dir'_wbopendata_indicators.yaml"
+        assert _rc == 0
+        cap confirm file "`cache_dir'_wbopendata_sources.yaml"
+        assert _rc == 0
+        cap confirm file "`cache_dir'_wbopendata_topics.yaml"
+        assert _rc == 0
+
+        * Shape assertions: dry-run preview must report non-zero counts
+        qui wbopendata, sync
+        di as text "  ind_count = `r(ind_count)'"
+        di as text "  src_count = `r(src_count)'"
+        di as text "  top_count = `r(top_count)'"
+        assert r(ind_count) > 0
+        assert r(src_count) > 0
+        assert r(top_count) > 0
     }
-    * Pass regardless of network issues
-    test_pass
+    if _rc == 0 test_pass
+    else test_fail "Sync replace force failed, YAML missing, or empty metadata"
 }
 
 * SYNC-04: Sync replace when already up-to-date
 run_test "SYNC-04" "Sync replace when already up-to-date"
 if $skip_test == 0 {
     cap noi {
-        * Sync once
-        cap qui wbopendata, sync replace
-
-        * Sync again (should detect up-to-date)
-        cap wbopendata, sync replace
-        local sync2_rc = _rc
-        
-        di as text "Second sync rc: `sync2_rc'"
-        
-        * Should succeed without error
-        if `sync2_rc' == 0 {
-            di as result "Sync completed (up-to-date or updated)"
+        * Ensure cache exists (reuse from prior tests if available)
+        local cache_dir = c(sysdir_plus) + "_/"
+        cap confirm file "`cache_dir'_wbopendata_indicators.yaml"
+        if _rc != 0 {
+            cap qui wbopendata, sync replace
         }
+
+        * Sync again (should detect up-to-date and succeed)
+        wbopendata, sync replace
+
+        * Verify YAML files still exist after re-sync
+        cap confirm file "`cache_dir'_wbopendata_indicators.yaml"
+        assert _rc == 0
     }
-    * Pass regardless - behavior may vary
-    test_pass
+    if _rc == 0 test_pass
+    else test_fail "Re-sync when up-to-date failed"
 }
 
-* SYNC-05: Discovery commands use cache
-run_test "SYNC-05" "Discovery commands use cache after sync"
+* SYNC-05: Cross-validate sync preview vs discovery commands
+run_test "SYNC-05" "Consistency: sync counts match discovery commands"
 if $skip_test == 0 {
     cap noi {
-        * Ensure cache exists
-        cap qui wbopendata, sync replace
-        
-        * Test info command
-        cap wbopendata, info("SP.POP.TOTL")
-        local info_rc = _rc
-        
-        di as text "info command rc: `info_rc'"
-        
-        * Info should work
-        if `info_rc' == 0 {
-            di as result "Info command succeeded"
-            if "`r(yaml_source)'" != "" {
-                di as text "YAML source: `r(yaml_source)'"
-            }
+        * Ensure cache exists (reuse from prior tests if available)
+        local cache_dir = c(sysdir_plus) + "_/"
+        cap confirm file "`cache_dir'_wbopendata_indicators.yaml"
+        if _rc != 0 {
+            cap qui wbopendata, sync replace
         }
+
+        * Get baseline counts from sync preview
+        qui wbopendata, sync
+        local sync_ind = r(ind_count)
+        local sync_src = r(src_count)
+        local sync_top = r(top_count)
+
+        di as text "Sync preview: ind=`sync_ind' src=`sync_src' top=`sync_top'"
+
+        * Cross-validate: sources command
+        qui wbopendata, sources
+        local disc_src = r(n_sources)
+        di as text "Discovery sources: `disc_src' (sync: `sync_src')"
+        assert `disc_src' == `sync_src'
+
+        * Cross-validate: alltopics command
+        qui wbopendata, alltopics
+        local disc_top = r(n_topics)
+        di as text "Discovery topics: `disc_top' (sync: `sync_top')"
+        assert `disc_top' == `sync_top'
+
+        * Cross-validate: search(*) total should match indicator count
+        qui _wbopendata_search *, limit(1)
+        local disc_ind = r(n_results)
+        di as text "Discovery indicators: `disc_ind' (sync: `sync_ind')"
+        assert `disc_ind' == `sync_ind'
+
+        * Spot-check: info for a known indicator
+        wbopendata, info("SP.POP.TOTL")
+        assert "`r(indicator)'" == "SP.POP.TOTL"
+        assert "`r(name)'" != ""
     }
-    * Pass regardless of network issues
-    test_pass
+    if _rc == 0 test_pass
+    else test_fail "Sync/discovery count mismatch or info lookup failed"
 }
 
 *===============================================================================
@@ -2722,6 +2826,7 @@ if "$target_test" == "" & "$repo_root" != "" {
         file write history "Duration: `duration_str'" _n
         file write history "Version:  `version'" _n
         if "`wbo_date'" != "" file write history "Build:    `wbo_date'" _n
+        if "`git_branch'" != "" file write history "Branch:   `git_branch'" _n
         file write history "Stata:    `c(stata_version)'" _n
         file write history "Tests:    $tests_run run, $tests_pass passed, $tests_fail failed" _n
         if $tests_fail == 0 {

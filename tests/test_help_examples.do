@@ -6,8 +6,8 @@
 *
 * Usage:   do "C:/GitHub/myados/wbopendata-dev/tests/test_help_examples.do"
 *
-* Date:    05Feb2026
-* Version: 18.0.0
+* Date:    23Feb2026
+* Version: 18.3.1
 *******************************************************************************
 
 clear all
@@ -64,7 +64,9 @@ if (`use_dev') {
 }
 
 which wbopendata
-local wb_path = r(fn)
+capture findfile wbopendata.ado
+local wb_path "`r(fn)'"
+local wb_path : subinstr local wb_path "\" "/", all
 if (`use_dev' & strpos("`wb_path'", "wbopendata-dev/src") == 0) {
     di as error "wbopendata not loaded from dev source: `wb_path'"
     di as text "adopath: " c(adopath)
@@ -73,6 +75,22 @@ if (`use_dev' & strpos("`wb_path'", "wbopendata-dev/src") == 0) {
 if (!`use_dev') {
     di as text "Using installed wbopendata: `wb_path'"
 }
+
+* Version guard: check test expects same version as .ado file
+local _test_version "18.3.1"
+tempname _vfh
+file open `_vfh' using "`wb_path'", read text
+file read `_vfh' _vline  /* line 1: stars */
+file read `_vfh' _vline  /* line 2: * wbopendata */
+file read `_vfh' _vline  /* line 3: *! v 18.3.1 ... */
+file close `_vfh'
+local _ado_version = trim(word(subinstr(`"`_vline'"', "*!", "", 1), 2))
+if ("`_ado_version'" != "`_test_version'") {
+    di as error "Version mismatch: test expects v`_test_version' but wbopendata.ado is v`_ado_version'"
+    di as error "Update the _test_version local in test_help_examples.do"
+    exit 198
+}
+di as text "Version: `_ado_version' (test and .ado match)"
 di _n
 
 * Ensure installed mode has required PLUS files (parameters + check_version)
@@ -119,6 +137,10 @@ if (_rc != 0) {
     di as error "Metadata sync failed (rc=`_rc')"
     exit _rc
 }
+
+* Clear data cache to ensure clean test state
+di as text "Clearing data cache for clean test run..."
+cap noi wbopendata, cleardatacache
 
 *------------------------------------------------------------------------------
 * Test framework
@@ -167,6 +189,33 @@ program define test_skip
     global tests_run = $tests_run - 1
 end
 
+
+*******************************************************************************
+*
+*   INTENTIONALLY SKIPPED sthlp EXAMPLES
+*
+*   The following examples from wbopendata.sthlp are NOT tested here:
+*
+*   1. wbopendata, sync replace        (sthlp ~line 1140)
+*      → Downloads full metadata from GitHub; slow and network-dependent.
+*
+*   2. wbopendata, sync replace force   (sthlp ~line 1145)
+*      → Force-downloads metadata; same reason as above.
+*
+*   3. wbopendata, clearcache           (sthlp ~line 1151)
+*      → Deletes the local YAML metadata cache; would break subsequent tests.
+*
+*   4. update all                       (sthlp ~line 897, deprecated)
+*      → Deprecated option; interactive and destructive.
+*
+*   5. metadataoffline                  (sthlp ~line 899, deprecated)
+*      → Deprecated option; requires pre-staged offline metadata.
+*
+*   Graph-only commands (twoway line/scatter) from linewrap and stored-results
+*   examples are exercised via the named wbopendata_examples wrappers
+*   (EX-07, EX-09) rather than inline, since they require graph rendering.
+*
+*******************************************************************************
 
 *******************************************************************************
 *
@@ -378,6 +427,17 @@ cap noi {
 if _rc == 0 test_pass
 else test_fail "wbopendata, info(SI.POV.DDAY)"
 
+*--- 1.16b Third info example ---
+
+run_test "HELP-19b" "info(SP.POP.TOTL) (sthlp line 468)"
+cap noi {
+    qui wbopendata, info(SP.POP.TOTL)
+    assert "`r(indicator)'" == "SP.POP.TOTL"
+    assert "`r(name)'" != ""
+}
+if _rc == 0 test_pass
+else test_fail "wbopendata, info(SP.POP.TOTL)"
+
 *--- 1.17 Browse all in a source ---
 
 run_test "HELP-20" "search(*) searchsource(2) (sthlp line 482)"
@@ -481,9 +541,30 @@ cap noi {
 if _rc == 0 test_pass
 else test_fail "wbopendata, cacheinfo"
 
-* NOTE: 'sync' (line 919) skipped — downloads from GitHub.
-* NOTE: 'syncforce' (line 924) skipped — force-downloads metadata.
-* NOTE: 'clearcache' (line 930) skipped — deletes local cache.
+run_test "HELP-29a" "sync dry run (sthlp line 267)"
+cap noi {
+    wbopendata, sync
+}
+if _rc == 0 test_pass
+else test_fail "wbopendata, sync"
+
+run_test "HELP-29b" "sync detail (sthlp line 272)"
+cap noi {
+    wbopendata, sync detail
+}
+if _rc == 0 test_pass
+else test_fail "wbopendata, sync detail"
+
+run_test "HELP-29c" "cleardatacache (sthlp line 301, v18.2)"
+cap noi {
+    wbopendata, cleardatacache
+}
+if _rc == 0 test_pass
+else test_fail "wbopendata, cleardatacache"
+
+* NOTE: 'sync replace' (line 282) skipped — downloads from GitHub.
+* NOTE: 'sync replace force' (line 287) skipped — force-downloads metadata.
+* NOTE: 'clearcache' (line 300) skipped — deletes metadata cache.
 
 
 *******************************************************************************
@@ -610,6 +691,14 @@ cap noi {
 }
 if _rc == 0 test_pass
 else test_fail "wbopendata, indicator(...) year(2020) long nobasic clear"
+
+run_test "HELP-41a" "indicator nocache (sthlp line 1155, v18.2)"
+cap noi {
+    wbopendata, indicator(SP.POP.TOTL) clear nocache
+    assert _N > 0
+}
+if _rc == 0 test_pass
+else test_fail "wbopendata, indicator(SP.POP.TOTL) clear nocache"
 
 
 *******************************************************************************
@@ -1143,6 +1232,123 @@ cap noi {
 }
 if _rc == 0 test_pass
 else test_fail "example_basic inline"
+
+
+*******************************************************************************
+*
+*   TIER 10: STORED RESULTS EXAMPLE (sthlp line 790)
+*
+*******************************************************************************
+
+di as result _n _dup(78) "="
+di as result "TIER 10: STORED RESULTS EXAMPLE"
+di as result _dup(78) "="
+
+run_test "EX-09" "Stored results: linewrap + latest + sourcecite (sthlp line 790)"
+cap noi {
+    wbopendata, indicator(SI.POV.DDAY) clear long latest linewrap(name note)
+    assert _N > 0
+    assert `"`r(name1_stack)'"' != ""
+    assert "`r(latest)'" != ""
+    assert "`r(sourcecite1)'" != ""
+    di as text "  r(name1_stack) = " `"`r(name1_stack)'"'
+    di as text "  r(latest) = `r(latest)'"
+    di as text "  r(sourcecite1) = `r(sourcecite1)'"
+}
+if _rc == 0 test_pass
+else test_fail "stored results: linewrap + latest + sourcecite"
+
+
+*******************************************************************************
+*
+*   TIER 11: CHARACTERISTIC METADATA (v18.1+, sthlp line 856)
+*
+*******************************************************************************
+
+di as result _n _dup(78) "="
+di as result "TIER 11: CHARACTERISTIC METADATA"
+di as result _dup(78) "="
+
+run_test "EX-10" "char metadata: default (sthlp line 856)"
+cap noi {
+    wbopendata, indicator(NY.GDP.MKTP.CD) clear long
+    assert _N > 0
+    local dta_ver : char _dta[wbopendata_version]
+    assert "`dta_ver'" != ""
+    local dta_ind : char _dta[wbopendata_indicator]
+    assert "`dta_ind'" != ""
+    local var_ind : char ny_gdp_mktp_cd[indicator]
+    assert "`var_ind'" == "NY.GDP.MKTP.CD"
+    di as text "  _dta[wbopendata_version] = `dta_ver'"
+    di as text "  ny_gdp_mktp_cd[indicator] = `var_ind'"
+}
+if _rc == 0 test_pass
+else test_fail "char metadata: default"
+
+run_test "EX-11" "char metadata: nochar suppresses (sthlp line 866)"
+cap noi {
+    wbopendata, indicator(NY.GDP.MKTP.CD) nochar clear long
+    assert _N > 0
+    local dta_ver : char _dta[wbopendata_version]
+    assert "`dta_ver'" == ""
+    di as text "  _dta[wbopendata_version] = (empty, as expected)"
+}
+if _rc == 0 test_pass
+else test_fail "char metadata: nochar"
+
+
+*******************************************************************************
+*
+*   TIER 12: DATA RESPONSE CACHE WORKFLOW (v18.2+, sthlp Example 9)
+*
+*******************************************************************************
+
+di as result _n _dup(78) "="
+di as result "TIER 12: DATA RESPONSE CACHE WORKFLOW"
+di as result _dup(78) "="
+
+run_test "EX-12" "Data cache: download → cache hit → nocache → clear (sthlp line 1141)"
+cap noi {
+    * 1. Clear any existing data cache
+    wbopendata, cleardatacache
+    di as text "  Step 1: cleardatacache OK"
+
+    * 2. First download — should hit API and populate cache
+    wbopendata, indicator(SP.POP.TOTL) clear
+    assert _N > 0
+    local n1 = _N
+    di as text "  Step 2: first download OK (" _N " obs)"
+
+    * 3. Second download — should use cached data
+    wbopendata, indicator(SP.POP.TOTL) clear
+    assert _N > 0
+    assert _N == `n1'
+    di as text "  Step 3: cached download OK (" _N " obs)"
+
+    * 4. nocache — force fresh download
+    wbopendata, indicator(SP.POP.TOTL) clear nocache
+    assert _N > 0
+    di as text "  Step 4: nocache download OK (" _N " obs)"
+
+    * 5. resetdatacache — expire entries without deleting (sthlp line 1177)
+    wbopendata, resetdatacache
+    di as text "  Step 5: resetdatacache OK"
+
+    * 5b. Re-download after reset — should re-fetch (cache expired)
+    wbopendata, indicator(SP.POP.TOTL) clear
+    assert _N > 0
+    di as text "  Step 5b: post-reset download OK (" _N " obs)"
+
+    * 6. cacheinfo — should show datacache stats
+    wbopendata, cacheinfo
+    di as text "  Step 6: cacheinfo OK"
+
+    * 7. cleardatacache
+    wbopendata, cleardatacache
+    di as text "  Step 7: cleardatacache OK"
+}
+if _rc == 0 test_pass
+else test_fail "Data cache workflow"
 
 
 *******************************************************************************

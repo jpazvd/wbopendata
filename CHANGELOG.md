@@ -20,6 +20,52 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [18.3.2] - 2026-02-23
+
+### Fixed
+- **Frame cache completeness**: All three metadata frames (`_wbod_indicators`, `_wbod_sources`, `_wbod_topics`) now properly invalidated on sync operations
+- **Cache manifest documentation**: Documented pipe-delimiter format and TTL assumptions in `_query.ado` to prevent future parsing failures
+- **Test documentation**: Clarified SYNC-05 test purpose as cross-validation for cache consolidation (v18.3.0+)
+
+---
+
+## [18.3.1] - 2026-02-23
+
+### Added
+- **`resetdatacache`**: Expire all cached data entries without deleting files — fresh data re-fetched on next query
+- **`verbose` option**: Targeted error handling for cache and metadata operations
+
+---
+
+## [18.3.0] - 2026-02-23
+
+### Added
+- **YAML metadata lookup on cache hit**: Discovery commands (`search`, `info`, `sources`, `alltopics`) resolve metadata from cached YAML without API calls when cache is current
+- **Configurable cache TTL**: New `cachedays(#)` option (default 7) controls data response cache time-to-live
+- **QA post-sync validation**: Hard asserts verify YAML files exist after every sync test (prevents silent false-pass)
+- **QA runtime optimization**: Conditional sync in 5 tests — only sync if cache missing from prior test (~50% faster)
+
+### Fixed
+- Cache lookup path resolution for metadata YAML files
+
+---
+
+## [18.2.0] - 2026-02-22
+
+### Added
+- **Data response cache**: API responses cached locally with 7-day TTL; repeated queries return from disk
+- **New options**: `nocache` bypasses data cache; `cleardatacache` removes cached API response files; `cacheinfo` displays data cache statistics
+
+### Changed
+- Cache consolidation: all metadata cache operations moved to `sysdir_plus` (eliminated split-brain with `sysdir_personal`)
+- Simplified YAML path resolver from 5-level to 2-level (`findfile` + fallback)
+- Frame cache invalidated on sync
+
+### Removed
+- 3 orphaned standalone cache files (inlined into `_wbopendata_cache.ado` and `_wbopendata_sync.ado`)
+
+---
+
 ## [18.1.1] - 2026-02-22
 
 ### Added
@@ -382,6 +428,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Key Changes |
 |---------|------|-------------|
+| **18.3.1** | 2026-02-23 | Reset data cache, verbose option |
+| **18.3.0** | 2026-02-23 | Cache-aware discovery, configurable TTL, QA hardening |
+| **18.2.0** | 2026-02-22 | Data response cache, cache consolidation |
+| **18.1.1** | 2026-02-22 | Search fixes, XML robustness, 92 tests |
 | **18.1.0** | 2026-02-10 | Char metadata, offline testing, compound quoting fix, 89 tests |
 | **18.0.0** | 2026-02-09 | Discovery commands, YAML metadata, sync redesign |
 | **17.7.1** | 2026-01-04 | Test suite expansion, bug fixes |
@@ -413,7 +463,7 @@ The SSC (Statistical Software Components) archive at Boston College maintains th
 | SSC Version | Date | Notes |
 |-------------|------|-------|
 | v13.5 | Feb 2016 | Last pre-API-modernization release |
-| v18.1.0 | Feb 2026 | Current development release |
+| v18.3.1 | Feb 2026 | Current development release |
 | v17.7.1 | Jan 2026 | Current SSC release |
 
 For the SSC archive, see: [RePEc:boc:bocode:s457234](https://ideas.repec.org/c/boc/bocode/s457234.html)

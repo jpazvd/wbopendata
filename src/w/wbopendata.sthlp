@@ -1,10 +1,10 @@
 {smcl}
 {hline}
-{* 22Feb2026  }{...}
+{* 23Feb2026  }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
 {right:What's New:  {bf:{help wbopendata_whatsnew:What's New}}}
-{right: {bf:version 18.1.1}}
+{right: {bf:version 18.3.2}}
 {hline}
 
 {title:Title}
@@ -35,6 +35,8 @@
 {synopt :{opt latest}} keep only the latest available value per country (common year across indicators).{p_end}
 {synopt :{opt nometadata}} omits the display of the metadata.{p_end}
 {synopt :{opt year}{cmd:(}{it:date1}{cmd::}{it:date2}{cmd:)}} time interval (in yearly, quarterly or monthly depending on the series).{p_end}
+{synopt :{opt date}{cmd:(}{it:date}{cmd:)}} alternative time specification for monthly/quarterly series (mutually exclusive with {opt year}).{p_end}
+{synopt :{opt source}{cmd:(}{it:#}{cmd:)}} restrict download to a specific World Bank source database (e.g., 2 for WDI).{p_end}
 {synopt :{opt language}{cmd:(}{it:language}{cmd:)}} select the language.{p_end}
 {synopt :{opt full}} adds full list of country attributes.{p_end}
 {synopt :{opt basic}} adds basic country context variables (default as of v17.7).{p_end}
@@ -55,8 +57,13 @@
 {synopt :{opt sync} {opt replace}} apply metadata sync — download latest release from GitHub.{p_end}
 {synopt :{opt sync} {opt replace} {opt force}} force re-download metadata regardless of local version.{p_end}
 {synopt :{opt checkupdate}} check whether newer YAML metadata is available without downloading it.{p_end}
+{synopt :{opt nocache}} bypass the data response cache and force a fresh API download.{p_end}
+{synopt :{opt cachedays(#)}} set cache time-to-live in days (default 7).{p_end}
 {synopt :{opt clearcache}} remove the local metadata cache (forces re-download on next sync).{p_end}
-{synopt :{opt cacheinfo}} display cache location, version, and timestamp for the metadata YAML files.{p_end}
+{synopt :{opt cleardatacache}} remove all cached API response files.{p_end}
+{synopt :{opt resetdatacache}} expire all cached data entries (files kept, re-fetched on next query).{p_end}
+{synopt :{opt verbose}} display diagnostic messages during cache lookups and API queries.{p_end}
+{synopt :{opt cacheinfo}} display cache location, version, and timestamp for the metadata YAML files and data cache.{p_end}
 {synopt :{opt match(varname)}} merge {help wbopendata##attributes:country attributes} into an existing dataset containing WDI (3 digit) countrycodes. Cannot be used with the data download options.{p_end}
 {synopt :{opt projection}} World Bank {help wbopendata_sourceid##sourceid_40:population estimates and projections} (HPP) .{p_end}
 {synopt :{opt describe}} display indicator metadata only (no data download). Requires {opt indicator()}. Supports {opt linewrap()}, {opt maxlength()}, and {opt linewrapformat()} when present.{p_end}
@@ -67,7 +74,8 @@
 {synoptset 27 tabbed}{...}
 {synopthdr:Discovery Commands}
 {synoptline}
-{synopt :{opt sources}} list all World Bank data sources with indicator counts and clickable navigation.{p_end}
+{synopt :{opt sources}} list World Bank data sources with indicator counts and clickable navigation.{p_end}
+{synopt :{opt allsources}} list all World Bank data sources without the default display limit.{p_end}
 {synopt :{opt alltopics}} list all World Bank topics with indicator counts and clickable navigation.{p_end}
 {synopt :{opt search(pattern)}} search indicators by keyword, wildcard, or regex pattern.{p_end}
 {synopt :{opt searchsource(#)}} filter search results to a specific source ID.{p_end}
@@ -182,9 +190,19 @@ and {cmd:r(latest_year)} with the maximum year.{p_end}
 {synopt:{opt nometadata}} omits the display of the metadata information from the series. Metadata information is only available when downloading specific series (indicator option). The metadata available include information on the name of the series, the source, a detailed description 
 of the indicator, and the organization responsible for compiling this indicator.{p_end}
 
-{synopt:{opt year:(date1:date2)}} allow users to select a specific time interval. Date1=Initial date; Date2=Final date. For most indicators Date should be expressed in yearly format, however for specific series quartely and montly series will be supported. Please check data documentation 
+{synopt:{opt year:(date1:date2)}} allow users to select a specific time interval. Date1=Initial date; Date2=Final date. For most indicators Date should be expressed in yearly format, however for specific series quartely and montly series will be supported. Please check data documentation
 at the World Bank Data website to identify which format is supported.{p_end}
-           
+
+{synopt:{opt date(date)}}alternative time specification for monthly or quarterly
+series. Mutually exclusive with {opt year()}; only one may be specified. The date
+string is passed directly to the World Bank API {cmd:date} parameter.{p_end}
+
+{synopt:{opt source(#)}}restrict the data download to a specific World Bank source
+database. The source number corresponds to the Source ID shown by {opt sources}.
+For example, {cmd:source(2)} restricts to the World Development Indicators; {cmd:source(11)}
+to Africa Development Indicators. The {opt projection} option is a shortcut for
+{cmd:source(40)}.{p_end}
+
 {synopt:{opt language(option)}}three languages are supported: The default language is English.{p_end}
 
 {center: English:  {cmd:en}          }
@@ -298,6 +316,41 @@ version, schema version, and last synchronization timestamp.{p_end}
 {synopt :{opt clearcache}}Remove the local metadata cache entirely, forcing a
 full re-download on the next {opt sync replace} or discovery command.{p_end}
 
+{synopt :{opt cleardatacache}}Remove all cached API response files from the data
+cache folder. The next data download will fetch fresh data from the World Bank
+API.{p_end}
+
+{dlgtab:Data response cache (v18.2+)}
+
+{pstd}
+As of v18.2, {cmd:wbopendata} caches API responses locally so that repeated
+queries for the same indicator, country, and language combination return
+instantly from disk instead of re-downloading from the World Bank API. The
+default TTL is 7 days; use {opt cachedays(#)} to change it (v18.3+).{p_end}
+
+{pstd}
+The cache is {bf:on by default}. Use {opt nocache} to bypass it for a single
+query, {opt cleardatacache} to remove all cached files, or
+{opt resetdatacache} to expire all entries without deleting them.{p_end}
+
+{synopt :{opt nocache}}Skip the data cache lookup and force a fresh download
+from the API. The downloaded data still gets saved to the cache for future
+use.{p_end}
+
+{synopt :{opt cachedays(#)}}Set the cache time-to-live in days (default 7).
+Cached API responses older than this many days are automatically re-fetched.
+For example, {opt cachedays(1)} re-downloads data daily; {opt cachedays(30)}
+keeps cached data for a month.{p_end}
+
+{synopt :{opt resetdatacache}}Mark all cached data entries as expired without
+deleting the CSV files. On the next query, fresh data will be fetched from
+the API. This is useful when you want to force a refresh but keep the cached
+files as a safety net.{p_end}
+
+{synopt :{opt verbose}}Display diagnostic messages during cache lookups and
+API queries, including cache hit/miss status and YAML metadata resolution
+steps. Useful for troubleshooting download or caching issues.{p_end}
+
 
 {marker discovery}{...}
 {p 40 20 2}(Go up to {it:{help wbopendata##sections:Sections Menu}}){p_end}
@@ -316,12 +369,17 @@ the World Bank's 71 data sources and 29,000+ indicators.{p_end}
 
 {dlgtab:List Sources}
 
-{synopt :{opt sources}}Lists all World Bank data sources (databases) with clickable navigation.{p_end}
+{synopt :{opt sources}}Lists World Bank data sources (databases) with clickable navigation.{p_end}
 
 {pstd}Displays a table showing source ID, name, indicator count, and a clickable [Browse] link
 to see all indicators in that source. Use {opt limit(#)} to control display.{p_end}
 
 {p 8 12}{stata "wbopendata, sources" :. wbopendata, sources}{p_end}
+
+{synopt :{opt allsources}}Same as {opt sources} but shows all sources without the default
+display limit.{p_end}
+
+{p 8 12}{stata "wbopendata, allsources" :. wbopendata, allsources}{p_end}
 
 {pstd}Returns: {cmd:r(n_sources)}, {cmd:r(n_indicators)}, {cmd:r(source_codes)}, {cmd:r(source_names)}, {cmd:r(cmd)}{p_end}
 
@@ -440,22 +498,20 @@ Column widths automatically adjust to your terminal's {cmd:linesize}.{p_end}
 
 {pstd}A typical discovery workflow:{p_end}
 
-{cmd}
-.     * 1. Browse available sources
-.     wbopendata, sources
-.
-.     * 2. Explore a specific source (World Development Indicators = 2)
-.     wbopendata, searchsource(2) limit(30)
-.
-.     * 3. Search for indicators of interest
-.     wbopendata, search(poverty) searchtopic(11)
-.
-.     * 4. Get detailed info on a specific indicator
-.     wbopendata, info(SI.POV.DDAY)
-.
-.     * 5. Download the data (click [Get] or run directly)
-.     wbopendata, indicator(SI.POV.DDAY) clear long
-{txt}
+{p 8 12}1. Browse available sources:{p_end}
+{p 8 12}{stata "wbopendata, sources" :. wbopendata, sources}{p_end}
+
+{p 8 12}2. Explore a specific source (World Development Indicators = 2):{p_end}
+{p 8 12}{stata "wbopendata, searchsource(2) limit(30)" :. wbopendata, searchsource(2) limit(30)}{p_end}
+
+{p 8 12}3. Search for indicators of interest:{p_end}
+{p 8 12}{stata "wbopendata, search(poverty) searchtopic(11)" :. wbopendata, search(poverty) searchtopic(11)}{p_end}
+
+{p 8 12}4. Get detailed info on a specific indicator:{p_end}
+{p 8 12}{stata "wbopendata, info(SI.POV.DDAY)" :. wbopendata, info(SI.POV.DDAY)}{p_end}
+
+{p 8 12}5. Download the data:{p_end}
+{p 8 12}{stata "wbopendata, indicator(SI.POV.DDAY) clear long" :. wbopendata, indicator(SI.POV.DDAY) clear long}{p_end}
 
 
 {marker attributes}{...}
@@ -1090,30 +1146,52 @@ have been replaced by 2 YAML metadata files serving ~29,000 indicators via the
 
 {p 4 4 2}Preview metadata status (dry run — safe default):{p_end}
 
-{cmd}
-.     wbopendata, sync
-.     wbopendata, sync detail
+{p 8 12}{stata "wbopendata, sync" :. wbopendata, sync}{p_end}
+{p 8 12}{stata "wbopendata, sync detail" :. wbopendata, sync detail}{p_end}
 
 {p 4 4 2}Check for updates:{p_end}
 
-{cmd}
-.     wbopendata, checkupdate
+{p 8 12}{stata "wbopendata, checkupdate" :. wbopendata, checkupdate}{p_end}
 
 {p 4 4 2}Apply metadata sync (download latest from GitHub):{p_end}
 
-{cmd}
-.     wbopendata, sync replace
+{p 8 12}{stata "wbopendata, sync replace" :. wbopendata, sync replace}{p_end}
 
 {p 4 4 2}Force re-download even when versions match:{p_end}
 
-{cmd}
-.     wbopendata, sync replace force
-.     wbopendata, cacheinfo
+{p 8 12}{stata "wbopendata, sync replace force" :. wbopendata, sync replace force}{p_end}
+{p 8 12}{stata "wbopendata, cacheinfo" :. wbopendata, cacheinfo}{p_end}
 
 {p 4 4 2}Clear cached files and metadata when you need a clean slate:{p_end}
 
-{cmd}
-.     wbopendata, clearcache
+{p 8 12}{stata "wbopendata, clearcache" :. wbopendata, clearcache}{p_end}
+
+{pstd}{ul:{bf:Example 9: Data response cache (v18.2+)}}{p_end}
+
+{p 4 4 2}First download hits the API; second download is served from the local cache:{p_end}
+
+{p 8 12}{stata "wbopendata, indicator(SP.POP.TOTL) clear" :. wbopendata, indicator(SP.POP.TOTL) clear}{p_end}
+{p 8 12}(first call downloads from World Bank API; repeat call uses cached data){p_end}
+
+{p 4 4 2}Force a fresh download, bypassing the cache:{p_end}
+
+{p 8 12}{stata "wbopendata, indicator(SP.POP.TOTL) clear nocache" :. wbopendata, indicator(SP.POP.TOTL) clear nocache}{p_end}
+
+{p 4 4 2}Clear all cached data files:{p_end}
+
+{p 8 12}{stata "wbopendata, cleardatacache" :. wbopendata, cleardatacache}{p_end}
+
+{p 4 4 2}Expire all cached entries (files kept, re-fetched on next query):{p_end}
+
+{p 8 12}{stata "wbopendata, resetdatacache" :. wbopendata, resetdatacache}{p_end}
+
+{p 4 4 2}Keep cached data for 30 days instead of the default 7:{p_end}
+
+{p 8 12}{stata "wbopendata, indicator(SP.POP.TOTL) clear cachedays(30)" :. wbopendata, indicator(SP.POP.TOTL) clear cachedays(30)}{p_end}
+
+{p 4 4 2}Show diagnostic messages during cache lookups and API queries:{p_end}
+
+{p 8 12}{stata "wbopendata, indicator(SP.POP.TOTL) clear verbose" :. wbopendata, indicator(SP.POP.TOTL) clear verbose}{p_end}
 
 {marker disclaimer}{...}
 {title:Disclaimer}

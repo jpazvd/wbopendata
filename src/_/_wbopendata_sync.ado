@@ -1,20 +1,19 @@
 *******************************************************************************
-*! _wbopendata_sync v1.0.0  07Feb2026
-*! Orchestrate metadata sync (download, Python canonical, Stata fallback)
+*! _wbopendata_sync v2.0.1  23Feb2026
+*! Orchestrate metadata sync (Python canonical, Stata fallback, GitHub download)
+*! v2.0.1: Drop all 3 frames on sync (indicators, sources, topics)
+*! v2.0.0: Cache moved to sysdir_plus; inlined download_yaml; frame invalidation
 *******************************************************************************
 
 program define _wbopendata_sync, rclass
     version 14.0
     syntax [, FORCE FORCEPYTHON FORCESTATA GITHUBRELEASE(string) PYTHONCMD(string) OUTDIR(string)]
 
-    local cache_base "`c(sysdir_personal)'wbopendata/"
+    local cache_dir "`c(sysdir_plus)'_/"
     * Convert backslashes to forward slashes to avoid escape issues (\a, \t, etc.)
-    local cache_base : subinstr local cache_base "\" "/" , all
-    local cache_dir "`cache_base'cache/"
-    
-    capture mkdir "`cache_base'"
-    capture mkdir "`cache_dir'"
+    local cache_dir : subinstr local cache_dir "\" "/" , all
 
+    * Verify write access to cache directory
     tempname fh
     local test_file "`cache_dir'_test.tmp"
     capture file open `fh' using "`test_file'", write replace
@@ -24,6 +23,13 @@ program define _wbopendata_sync, rclass
     }
     file close `fh'
     capture erase "`test_file'"
+
+    * Invalidate frame cache — YAML is about to change
+    if (`c(stata_version)' >= 16) {
+        capture frame drop _wbod_indicators
+        capture frame drop _wbod_sources
+        capture frame drop _wbod_topics
+    }
 
     local outdir_use "`outdir'"
     if ("`outdir_use'" == "") local outdir_use "`cache_dir'"
@@ -89,7 +95,7 @@ program define _wbopendata_sync, rclass
     local remote_ver ""
     if (_rc == 0) local remote_ver = r(remote_version)
 
-    capture noisily _wbopendata_download_yaml, version("`remote_ver'")
+    capture noisily _wbopendata_download_yaml "`cache_dir'" "`remote_ver'"
     if (_rc == 0) local download_ok = 1
 
     if (`download_ok' == 1) {
@@ -249,4 +255,37 @@ program define _wbopendata_update_sync_history
     file write `fh' "  method: `method'" _n
     file write `fh' "  source: `source'" _n
     file close `fh'
+end
+
+
+*******************************************************************************
+* _wbopendata_download_yaml — Download YAML from GitHub raw content (Pathway C)
+* Inlined from standalone _wbopendata_download_yaml.ado (single caller)
+*******************************************************************************
+program define _wbopendata_download_yaml, rclass
+    version 14.0
+    args cache_dir ver
+
+    if ("`ver'" != "" & "`ver'" != "forced") {
+        local base "https://raw.githubusercontent.com/jpazvd/wbopendata/v`ver'/src/_"
+    }
+    else {
+        local base "https://raw.githubusercontent.com/jpazvd/wbopendata/main/src/_"
+    }
+    local files "indicators sources topics"
+
+    foreach f of local files {
+        local remote "`base'/_wbopendata_`f'.yaml"
+        local dest   "`cache_dir'_wbopendata_`f'.yaml"
+        di as text "Downloading `f'.yaml..."
+        capture copy "`remote'" "`dest'", replace
+        if (_rc != 0) {
+            di as error "Failed to download `f'.yaml (rc = " _rc ")"
+            error 603
+        }
+    }
+
+    if ("`ver'" == "") local ver "forced"
+    di as result "Metadata updated to v`ver'"
+    return scalar sync_success = 1
 end

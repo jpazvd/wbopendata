@@ -1,5 +1,5 @@
 *******************************************************************************
-*! _wbopendata_sync_preview v1.2.0  09Feb2026
+*! _wbopendata_sync_preview v1.3.0  22Feb2026
 *! Display metadata status diagnostic before sync
 *! v1.2.0: Added country metadata count display
 *! v1.1.0: Added detail option for per-source/topic breakdown
@@ -17,9 +17,8 @@ program define _wbopendata_sync_preview, rclass
     *---------------------------------------------------------------------------
     * 1. Resolve cache directory and paths
     *---------------------------------------------------------------------------
-    local cache_base "`c(sysdir_personal)'wbopendata/"
-    local cache_base : subinstr local cache_base "\" "/" , all
-    local cache_dir "`cache_base'cache/"
+    local cache_dir "`c(sysdir_plus)'_/"
+    local cache_dir : subinstr local cache_dir "\" "/" , all
 
     local vf "`cache_dir'metadata_version.txt"
     local tf "`cache_dir'cache_timestamp.txt"
@@ -75,21 +74,16 @@ program define _wbopendata_sync_preview, rclass
     _wbopendata_get_yaml_path, type(indicators)
     local ind_yaml = r(path)
     if (fileexists("`ind_yaml'")) {
-        * Read total_indicators from _metadata section
+        * Count actual indicator entries by counting "    code: " lines
+        * This matches the search parser which drops blank codes
         preserve
         quietly {
             infix str500 rawline 1-500 using "`ind_yaml'", clear
-            gen byte has_total = strpos(rawline, "total_indicators:") > 0
-            sum has_total, meanonly
-            if (r(max) == 1) {
-                keep if has_total
-                keep in 1
-                local line = rawline[1]
-                local colon = strpos("`line'", ":")
-                local val = strtrim(substr("`line'", `colon' + 1, .))
-                local ind_count = real("`val'")
-                if missing(`ind_count') local ind_count = 0
-            }
+            gen _trimmed = strtrim(rawline)
+            keep if strpos(_trimmed, "code: ") == 1
+            gen _val = strtrim(subinstr(_trimmed, "code:", "", 1))
+            drop if _val == "" | _val == "''"
+            local ind_count = _N
         }
         restore
     }
