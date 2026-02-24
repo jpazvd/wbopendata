@@ -1,5 +1,8 @@
 *******************************************************************************
-*! v 16.7  	 22Dec2024        	   by Joao Pedro Azevedo                      *  
+*! v 16.8  	 23Feb2026        	   by Joao Pedro Azevedo                      *
+*		add verbose option
+*******************************************************************************
+*! v 16.7  	 22Dec2024        	   by Joao Pedro Azevedo                      *
 *		add sourcecite return for clean graph source attribution
 *******************************************************************************
 *! v 16.6  	 22Dec2024        	   by Joao Pedro Azevedo                      *  
@@ -19,8 +22,15 @@ program def _query_metadata, rclass
 
 version 9.0
 
-    syntax , INDICATOR(string) [LINEWrap(string) MAXLength(string) LINEWRAPFormat(string) OFFLINE(string)]
-	
+    syntax , INDICATOR(string) [LINEWrap(string) MAXLength(string) LINEWRAPFormat(string) OFFLINE(string) VERBOSE]
+
+	if ("`verbose'" == "") {
+		local noi ""
+	}
+	else {
+		local noi "noi "
+	}
+
 	* linewrap() accepts: name description note source topic all
 	* maxlength() specifies character width(s) for wrapping
 	*   - Single value (e.g., maxlength(50)): applies to all fields
@@ -379,8 +389,9 @@ version 9.0
 
 end
 
+
 /********************************************************************************
-* v 16.2.3  29jun2020        	   by Joao Pedro Azevedo                      *  
+* v 16.2.3  29jun2020        	   by Joao Pedro Azevedo                      *
 *   move to _api_read.ado
 *   change layout
 /********************************************************************************

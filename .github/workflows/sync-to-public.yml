@@ -58,12 +58,8 @@ jobs:
             echo "  tests/ (scripts only)"
           fi
 
-          # Paper (PDF only - LaTeX sources stay private)
-          if [ -d paper ]; then
-            mkdir -p sync-staging/paper
-            find paper -name '*.pdf' -exec cp -v {} sync-staging/paper/ \; 2>/dev/null || true
-            echo "  paper/ (PDF only)"
-          fi
+          # Paper — entire folder stays private (LaTeX, PDFs, figures, docs)
+          echo "  paper/ (skipped — private)"
 
           echo ""
           echo "=== Copying root files ==="
@@ -125,7 +121,7 @@ jobs:
             "sync-staging/logs"
             "sync-staging/scripts"
             "sync-staging/.github"
-            "sync-staging/paper/*.tex"
+            "sync-staging/paper"
             "sync-staging/src/_/__COMPONENT_VERSIONS.yaml"
           )
 
@@ -180,4 +176,4 @@ jobs:
           ssh-keyscan -t ed25519 github.com >> ~/.ssh/known_hosts 2>/dev/null
           export GIT_SSH_COMMAND="ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no"
           git remote add public-for-tags git@github.com:jpazvd/wbopendata.git 2>/dev/null || true
-          git push public-for-tags --tags
+          git push public-for-tags --tags --force

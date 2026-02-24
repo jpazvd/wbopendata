@@ -69,23 +69,23 @@ class YAMLGenerator:
                 continue
             valid_indicators.append(ind)
         
-        # Build YAML structure
+        # Build YAML structure (total_indicators set after dedup below)
         yaml_data = {
             '_metadata': {
                 'version': self.SCHEMA_VERSION,
                 'generated_at': datetime.utcnow().isoformat() + 'Z',
                 'source': 'World Bank Open Data API',
-                'total_indicators': len(valid_indicators),
+                'total_indicators': 0,
                 'compression': 'none',
                 'encoding': 'UTF-8'
             },
             'indicators': {}
         }
-        
-        # Transform each indicator
+
+        # Transform each indicator (dict key = code, so duplicates overwrite)
         for ind in valid_indicators:
             code = str(ind.get("id", "")).strip()
-            
+
             yaml_data['indicators'][code] = {
                 'code': code,
                 'name': ind.get('name', ''),
@@ -99,7 +99,14 @@ class YAMLGenerator:
                 'note': ind.get('note', ''),
                 'limited_data': False
             }
-        
+
+        # Set total_indicators to actual unique count (API may return duplicates)
+        n_unique = len(yaml_data['indicators'])
+        n_dupes = len(valid_indicators) - n_unique
+        if n_dupes > 0:
+            logger.warning(f"API returned {n_dupes} duplicate indicator codes (kept last occurrence)")
+        yaml_data['_metadata']['total_indicators'] = n_unique
+
         # Calculate checksum: serialize the data BEFORE adding the checksum field,
         # using the same parameters as _write_yaml (but excluding the header).
         # This matches how the file will actually be written and allows validation

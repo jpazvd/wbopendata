@@ -42,7 +42,7 @@ jpazvd.github.io%
 % =====================================================================
 \begin{abstract}
 This article examines data provenance in the age of automation, drawing on fifteen years of development and sustained use of \texttt{wbopendata}, the first Stata command to provide programmatic access to an international development data
-repository. Today, \texttt{wbopendata} provides access to over 29{,}000 indicators from 71 databases spanning 296 countries and aggregates, with features including five download modes, multilingual metadata, publication-ready graph formatting, and---as of version~18.0---offline indicator discovery through a YAML-backed metadata architecture and version-controlled metadata synchronization. Its broader contribution lies in treating data acquisition as code: indicator selections, country filters, and time ranges become explicit parameters in analysis scripts rather than undocumented manual downloads---addressing the data provenance dimension of the reproducibility crisis that statistical reforms alone cannot fix. Yet the command has never been more relevant. As AI tools accelerate analytical workflows while enabling plausible fabrication of statistics and citations, anchoring research to authoritative, version-controlled data sources becomes essential infrastructure---not legacy convenience. I document the command's latest syntax and stored results, demonstrate workflows from basic queries to choropleth mapping, and present an 89-scenario test suite. I also discuss risks that frictionless data access can obscure---provenance opacity, coverage gaps masked by convenient defaults, and sustainability pressures---alongside mitigation strategies. I distill three design principles from fifteen years of sustained use: backward compatibility builds trust, domain-specific syntax lowers barriers, and scripted data access makes reproducibility the default rather than the exception.
+repository. Today, \texttt{wbopendata} provides access to over 29{,}000 indicators from 71 databases spanning 296 countries and aggregates, with features including five download modes, multilingual metadata, publication-ready graph formatting, and---as of version~18.0---offline indicator discovery through a YAML-backed metadata architecture and version-controlled metadata synchronization. Its broader contribution lies in treating data acquisition as code: indicator selections, country filters, and time ranges become explicit parameters in analysis scripts rather than undocumented manual downloads---addressing the data provenance dimension of the reproducibility crisis that statistical reforms alone cannot fix. Yet the command has never been more relevant. As AI tools accelerate analytical workflows while enabling plausible fabrication of statistics and citations, anchoring research to authoritative, version-controlled data sources becomes essential infrastructure---not legacy convenience. I document the command's latest syntax and stored results, demonstrate workflows from basic queries to choropleth mapping, and present a 163-scenario, two-layer test suite. I also discuss risks that frictionless data access can obscure---provenance opacity, coverage gaps masked by convenient defaults, and sustainability pressures---alongside mitigation strategies. I distill three design principles from fifteen years of sustained use: backward compatibility builds trust, domain-specific syntax lowers barriers, and scripted data access makes reproducibility the default rather than the exception.
 
 \keywords{Stata, Open Data, World Bank, APIs, reproducible research, development indicators, metadata}
 \end{abstract}
@@ -274,7 +274,7 @@ Languages & 3 (English, Spanish, French) \\
 \end{tabular}
 \end{table}
 
-\texttt{wbopendata} talks directly to the World Bank API (JSON over HTTP), returns tidy Stata datasets, and caches results to minimize repeat downloads. Five pull modes cover country, topic, single-indicator (all countries), single-indicator (selected countries), and multi-indicator requests. Output may be wide or long; \texttt{latest} works in long mode and returns ready-to-use scalars for titles and subtitles. Metadata is always fetched; v17.7 adds basic country context (region, admin region, income level, lending type) by default. Version~18.0 introduces discovery commands for offline catalog browsing, a YAML-backed metadata architecture with over 29{,}000 indicator records, and a sync system for version-controlled metadata updates. Version~18.1 adds variable-level characteristic metadata for self-documenting datasets and deterministic offline testing.
+\texttt{wbopendata} talks directly to the World Bank API (JSON over HTTP), returns tidy Stata datasets, and caches results to minimize repeat downloads. Five pull modes cover country, topic, single-indicator (all countries), single-indicator (selected countries), and multi-indicator requests. Output may be wide or long; \texttt{latest} works in long mode and returns ready-to-use scalars for titles and subtitles. Metadata is always fetched; v17.7 adds basic country context (region, admin region, income level, lending type) by default. Version~18.0 introduces discovery commands for offline catalog browsing, a YAML-backed metadata architecture with over 29{,}000 indicator records, and a sync system for version-controlled metadata updates. Version~18.1 adds variable-level characteristic metadata for self-documenting datasets and deterministic offline testing. Version~18.2 introduces a local data response cache with configurable time-to-live, and version~18.3 adds cache-aware discovery and cache management refinements.
 
 \subsection{Syntax}
 
@@ -408,6 +408,32 @@ version, and last synchronization timestamp.
 \texttt{clearcache} removes the local metadata cache entirely, forcing a
 full re-download on the next sync or discovery command.
 
+\noindent\textit{Data response cache (v18.2+):}
+
+\hangpara
+\texttt{nocache} bypasses the local data response cache for a single query,
+forcing a fresh download from the World Bank API regardless of whether a
+cached response exists.
+
+\hangpara
+\texttt{cachedays(\num)} sets the time-to-live for cached data responses
+in days. The default is~7. For example, \texttt{cachedays(30)} retains
+cached API responses for 30~days before re-fetching.
+
+\hangpara
+\texttt{cleardatacache} removes all cached API response files from the
+local data cache directory.
+
+\hangpara
+\texttt{resetdatacache} expires all cached data entries without deleting
+the underlying files. The next query for any indicator will re-fetch fresh
+data from the API, but the old cache files remain available for inspection.
+
+\hangpara
+\texttt{verbose} enables targeted diagnostic output for cache and metadata
+operations, displaying cache hit/miss status, file paths, and timing
+information.
+
 \subsubsection*{Graph metadata (v17.6+)}
 
 \hangpara
@@ -427,6 +453,10 @@ All discovery outputs feature clickable SMCL links that let users drill down fro
 
 \hangpara
 \texttt{sources} lists all World Bank data sources (databases) with indicator counts and clickable navigation links.
+
+\hangpara
+\texttt{allsources} lists all data sources without the default display limit,
+showing the complete set of 71 databases.
 
 \hangpara
 \texttt{alltopics} lists all 21 World Bank topic categories with indicator counts and clickable navigation links.
@@ -824,58 +854,79 @@ filters (e.g., \texttt{keep if region != "NA"} for individual countries).
 
 \subsection{Testing and error handling}
 
-To ensure reliability, \texttt{wbopendata} ships with a live integration test
-harness that exercises the same workflows encountered by users in practice.
-Tests are executed end-to-end against the live World Bank API, covering
-indicator retrieval, pagination, caching behavior, option handling, and fixes
-for historical issues. The testing philosophy draws on the software
-certification principles of \citet{gould2001certification}; the full
-framework is documented in Appendix~\ref{app:qa}.
+To ensure reliability, \texttt{wbopendata} ships with a two-layer validation
+framework comprising 163~tests that enforce distinct but complementary
+invariants. The testing philosophy draws on the software certification
+principles of \citet{gould2001certification}; the full framework is
+documented in Appendix~\ref{app:qa}.
+
+\textbf{Layer~1: Feature validation} (\texttt{qa/run\_tests.do}).  The
+primary QA suite exercises the command's features end-to-end against the
+live World Bank API, covering indicator retrieval, pagination, caching
+behavior, option handling, and fixes for historical issues.  This layer
+answers the question: \emph{does the code work?}
+
+\textbf{Layer~2: Documentation validation}
+(\texttt{tests/test\_help\_examples.do}).  A second suite validates that
+every example documented in the help file executes without error, ensuring
+that documentation accuracy tracks code changes.  This layer answers a
+different question: \emph{does the documentation match the code?}
+
+Both layers share a common test harness pattern (explicit execution,
+return-code inspection, pass/fail attribution), produce timestamped logs,
+and enforce a version guard that prevents stale tests from running against
+newer code.  Together they ensure that neither features nor documentation
+can drift without detection.
 
 Because Stata lacks the mature continuous integration and mocking frameworks
 available in other statistical environments, the test design prioritizes
 detection of upstream regressions such as schema changes, pagination failures,
-or API endpoint deprecations. The test suite comprises 89 integrated tests
-distributed across 17 categories, covering environment validation, data download
+or API endpoint deprecations. Layer~1 comprises 92 integrated tests
+distributed across 15 categories, covering environment validation, data download
 modes, output formatting, country metadata, regression protection, linewrap
 graph annotation, update commands, topic queries, language options, population
 projections, cache management, metadata synchronization, discovery commands,
 characteristic metadata verification, error condition validation, extreme input
 cases, and deterministic offline testing.
-Table~\ref{tab:test-coverage} summarizes the composition.
+Layer~2 adds 71~tests organized along the same functional categories;
+ten of the fifteen categories are exercised by both layers, while five
+(ENV, REG, ERR, EXT, DET) are tested only in~Layer~1, reflecting
+infrastructure and error-path validation that falls outside help-file
+documentation (Table~\ref{tab:test-coverage}).
 
 \begin{table}[H]
 \centering
-\caption{Test suite composition (89 tests across 17 categories)}
+\caption{Test suite composition (163 tests across two validation layers)}
 \label{tab:test-coverage}
-
-\begin{tabular}{@{}llrl@{}}
+\footnotesize
+\begin{tabular}{@{}llrrl@{}}
 \hline
-Abbr. & Category & Tests & Focus \\
+Abbr. & Category & L1 & L2 & Focus \\
 \hline
-ENV   & Environment       & 5  & Network, API, YAML file presence \\
-DL    & Download modes    & 5  & Indicator, country, multi-indicator \\
-FMT   & Output format     & 7  & Wide, long, latest, nobasic, describe, date \\
-CTRY  & Country options   & 11 & Basic, full, geo, ISO, regions, income, admin \\
-REG   & Regression        & 4  & Historical bug fixes (\#33, \#45, \#46, \#51) \\
-LW    & Linewrap          & 4  & Metadata wrapping, formats, latest scalars \\
-UPD   & Maintenance       & 6  & Legacy update, describe, sync interop \\
-TOPIC & Topic queries     & 1  & Topic download \\
-LANG  & Language          & 1  & Spanish metadata \\
-PROJ  & Projection        & 1  & Population projection data \\
-CACHE & Cache management  & 8  & Init, path resolution, clear, version, timestamps \\
-SYNC  & Sync system       & 5  & Check, download, force, up-to-date, discovery \\
-DISC  & Discovery         & 7  & Sources, topics, search, filter, info \\
-CHAR  & Characteristics   & 6  & Dataset/variable \texttt{char}, persistence, \texttt{nochar} \\
-ERR   & Error conditions  & 8  & Syntax validation (\texttt{rcof}), API errors, empty \\
-EXT   & Extreme cases     & 4  & Minimal queries, large datasets, edge inputs \\
-DET   & Deterministic     & 6  & Offline fixtures, value pinning, network-free \\
+ENV        & Environment       & 5  & -- & Network, API, YAML file presence \\
+DISC       & Discovery         & 10 & 26 & Sources, topics, search, filter, info \\
+DL         & Download modes    & 5  & 14 & Indicator, country, multi-indicator \\
+FMT        & Output format     & 3  & 2  & Long format, year range, latest \\
+CTRY       & Country options   & 10 & 8  & Match, full, geo, ISO, regions, income \\
+TOPIC/LANG & Topics \& language & 2  & 1  & Topic download, Spanish metadata \\
+LW         & Linewrap          & 4  & 7  & Metadata wrapping, formats, scalars \\
+CHAR       & Characteristics   & 6  & 2  & \texttt{char} metadata, persistence, \texttt{nochar} \\
+Advanced   & Advanced features & 6  & 2  & Projection, nobasic, nometadata, date \\
+CACHE/SYNC & Cache \& sync     & 13 & 6  & Cache lifecycle, sync, cross-validation \\
+UPD        & Maintenance       & 6  & 3  & Legacy update, describe, sync interop \\
+REG        & Regression        & 4  & -- & Historical bug fixes (\#33, \#45, \#46, \#51) \\
+ERR        & Error conditions  & 8  & -- & Syntax validation, API errors, empty \\
+EXT        & Extreme cases     & 4  & -- & Minimal queries, large datasets \\
+DET        & Deterministic     & 6  & -- & Offline fixtures, value pinning \\
 \hline
-      &                   & 89 & \\
+           &                   & 92 & 71 & \\
 \hline
 \end{tabular}
 
-\floatnote{\emph{Note:} See Appendix~\ref{app:qa} for full test definitions and execution logic.}
+\floatnote{\emph{Note:} L1~= feature validation (\texttt{qa/run\_tests.do});
+L2~= documentation validation (\texttt{tests/test\_help\_examples.do}).
+Categories marked ``--'' are tested only in~L1.
+See Appendix~\ref{app:qa} for full test definitions.}
 
 \end{table}
 
@@ -968,6 +1019,31 @@ strategy maximizes compatibility across institutional computing environments
 with varying software restrictions while ensuring that at least one pathway
 succeeds. Verbatim outputs of sync diagnostics and cache management commands
 are reported in Appendix~\ref{app:diagnostics:sync}--\ref{app:diagnostics:checkupdate}.
+
+\subsection{Data response cache (v18.2+)}\label{sec:datacache}
+
+Version~18.2 introduces a local data response cache that stores API responses
+on disk, keyed by a hash of the request parameters (indicator codes, country
+filters, year range, and source identifier). When a subsequent query matches
+a cached entry whose age is within the configured time-to-live, the command
+returns the stored response without contacting the World Bank API. This
+eliminates redundant network traffic during iterative analysis and reduces
+sensitivity to transient API outages.
+
+The cache time-to-live defaults to seven days and can be adjusted per query
+with the \texttt{cachedays(\num)} option. Three housekeeping commands provide
+explicit cache control: \texttt{cleardatacache} removes all cached response
+files; \texttt{resetdatacache} marks all entries as expired without deleting
+files, so that the next query re-fetches fresh data while preserving the old
+responses for inspection; and \texttt{nocache} bypasses the cache for a
+single query. The \texttt{verbose} option displays cache hit/miss status
+and file paths during execution.
+
+Beginning with version~18.3, discovery commands (\texttt{search},
+\texttt{info}, \texttt{sources}, \texttt{alltopics}) resolve metadata from
+cached YAML files when the metadata cache is current, avoiding API calls
+entirely for catalog browsing operations. This cache-aware discovery layer
+further reduces network dependency during interactive workflows.
 
 % =====================================================================
 \section{Discussion: reproducibility and constraints in the age of AI}\label{sec:discussion}
@@ -1077,12 +1153,13 @@ This longevity reflects deliberate design choices rather than technical inertia.
 By maintaining backward compatibility across upstream changes, encapsulating
 complexity behind domain-specific syntax, and treating data acquisition as code
 rather than manual preprocessing, \texttt{wbopendata} shifts reproducibility from
-an aspirational norm to a default behavior. Versions~18.0 and~18.1 extend this approach
+an aspirational norm to a default behavior. Versions~18.0 through~18.3 extend this approach
 with offline discovery commands for catalog browsing and indicator search,
 a YAML-backed metadata architecture, version-controlled metadata synchronization,
 publication-ready metadata handling, self-documenting datasets through variable
-characteristics, deterministic offline testing, and an 89-test QA suite across
-17 categories.
+characteristics, a local data response cache with configurable time-to-live,
+deterministic offline testing, and a two-layer validation framework
+with 163~tests across feature and documentation validation.
 
 The command’s pure-Stata implementation ensures compatibility with institutional
 computing environments, while the bundled live test suite and QA framework
@@ -1453,16 +1530,16 @@ framework: live tests surface upstream changes that require attention, while
 deterministic tests provide stable, reproducible baselines.  Together with the
 extreme-case tests (category~EXT), which exercise boundary conditions such as
 minimal queries, large result sets, and edge inputs, these additions bring the
-total suite to 89~tests across 17~categories.
+total suite to 92~tests across 15~categories.
 
 \subsection{Test harness structure}
 
-Automated tests are implemented in a single driver script,
-\texttt{run\_tests.do}, which supports full test runs, single-test execution,
-and verbose (trace) modes. Tests are organized into functional categories that
-correspond to core features of the command, including environment checks,
-download modes, output formatting, country metadata, graph metadata, update
-commands, language options, and advanced features.
+The primary QA suite is implemented in \texttt{qa/run\_tests.do}, which
+supports full test runs, single-test execution, and verbose (trace) modes.
+Tests are organized into functional categories that correspond to core
+features of the command, including environment checks, download modes, output
+formatting, country metadata, graph metadata, update commands, language
+options, and advanced features.
 
 Each test follows a standardized pattern:
 \begin{itemize}
@@ -1475,6 +1552,57 @@ Each test follows a standardized pattern:
 Helper routines manage test execution, result aggregation, and logging, ensuring
 that failures are attributed to specific test identifiers. A complete test run
 produces a timestamped log and updates a cumulative test history file.
+
+\subsubsection{Test category definitions}
+
+Table~\ref{tab:test-coverage} organizes the 163~tests into 15~functional
+categories, ordered by a typical analytical workflow: environment setup,
+data discovery, retrieval, post-processing, infrastructure, and validation.
+Each category is defined below.
+
+\begin{itemize}
+  \item \textbf{ENV} --- \emph{Environment.}  Validates prerequisites: network
+    connectivity, API reachability, and presence of local YAML metadata files.
+  \item \textbf{DISC} --- \emph{Discovery.}  Exercises the indicator search and
+    metadata lookup subsystem: \texttt{sources}, \texttt{alltopics},
+    \texttt{search()}, \texttt{info()}, and their filtering options
+    (\texttt{searchsource}, \texttt{searchtopic}, \texttt{searchfield},
+    \texttt{exact}, \texttt{detail}).
+  \item \textbf{DL} --- \emph{Download modes.}  Tests core data retrieval paths:
+    single-indicator, multi-indicator, country-specific, and topic-based
+    downloads in both wide and long layouts.
+  \item \textbf{FMT} --- \emph{Output format.}  Verifies output structure options
+    including \texttt{long}, \texttt{year()}, and \texttt{latest}.
+  \item \textbf{CTRY} --- \emph{Country options.}  Tests metadata enrichment via
+    \texttt{match()}, \texttt{full}, \texttt{geo}, \texttt{capital},
+    ISO code handling, and regional/income classification variables.
+  \item \textbf{TOPIC/LANG} --- \emph{Topics \& language.}  Covers topic-filtered
+    downloads and non-English metadata retrieval (\texttt{language(es)}).
+  \item \textbf{LW} --- \emph{Linewrap.}  Validates the \texttt{linewrap()} graph
+    annotation system: metadata field wrapping, \texttt{maxlength()},
+    multi-indicator stacking, and \texttt{latest} scalar returns.
+  \item \textbf{CHAR} --- \emph{Characteristics.}  Verifies that Stata
+    \texttt{char} metadata is attached to datasets and variables by default,
+    persists across operations, and is suppressed by \texttt{nochar}.
+  \item \textbf{Advanced} --- \emph{Advanced features.}  Tests specialized
+    options: \texttt{projection}, \texttt{nobasic}, \texttt{nometadata},
+    \texttt{describe}, and date handling.
+  \item \textbf{CACHE/SYNC} --- \emph{Cache \& sync.}  Exercises the full cache
+    lifecycle (\texttt{nocache}, \texttt{cachedays()}, \texttt{cleardatacache},
+    \texttt{resetdatacache}), metadata synchronization (\texttt{sync},
+    \texttt{checkupdate}), and cross-validation between cache layers.
+  \item \textbf{UPD} --- \emph{Maintenance.}  Tests administrative commands
+    including legacy \texttt{update} aliases, \texttt{describe}, and sync
+    interoperability.
+  \item \textbf{REG} --- \emph{Regression.}  Permanent tests for historically
+    resolved bugs (issues \#33, \#45, \#46, \#51), ensuring fixes are never lost.
+  \item \textbf{ERR} --- \emph{Error conditions.}  Validates that invalid inputs
+    produce correct return codes using Stata's \texttt{rcof} certification command.
+  \item \textbf{EXT} --- \emph{Extreme cases.}  Exercises boundary conditions:
+    minimal queries, large result sets, and unusual input combinations.
+  \item \textbf{DET} --- \emph{Deterministic.}  Offline tests using pre-recorded
+    CSV fixtures, enabling exact value pinning independent of network state.
+\end{itemize}
 
 \subsection{Regression testing and cumulative reliability}
 
@@ -1576,6 +1704,37 @@ framework and the form of diagnostics produced during execution.
 \begin{stlog}
 \input{sjlogs/run_tests_summary_excerpt.log.tex}\nullskip
 \end{stlog}
+
+\subsection{Help-file example validation}
+
+A complementary test suite, \texttt{tests/test\_help\_examples.do}, validates
+that every example documented in the help file (\texttt{wbopendata.sthlp})
+executes without error. This suite comprises 71~tests organized in 12~categories:
+
+\begin{itemize}
+  \item \textbf{Categories~1--3}: Discovery commands, deprecated options, and cache
+    management (local YAML lookups, no API calls required).
+  \item \textbf{Categories~4--6}: Live data downloads testing indicator, country,
+    topic, and multi-indicator queries with various option combinations.
+  \item \textbf{Categories~7--8}: Named click-to-run examples and the end-to-end
+    discovery workflow (sources $\to$ search $\to$ info $\to$ download).
+  \item \textbf{Categories~9--12}: Inline example replay with data assertions,
+    stored results verification, characteristic metadata checks, and data
+    response cache workflows.
+\end{itemize}
+
+The script includes a version guard that compares the test version against
+the resolved \texttt{wbopendata.ado} version and exits on mismatch,
+preventing stale tests from running against newer code. Two execution modes
+are supported: \emph{dev} mode (default) manipulates the \texttt{adopath}
+to prioritize development source files; \emph{installed} mode tests the
+\texttt{net install}-ed copy from PLUS. This dual-mode design ensures that
+both development and release configurations are validated.
+
+The help-file suite serves a distinct purpose from the QA suite: while
+\texttt{run\_tests.do} validates \emph{features}, \texttt{test\_help\_examples.do}
+validates \emph{documentation}. If a code change breaks a help-file example,
+this suite detects the divergence before users encounter it.
 
 \subsection{Implications for reproducible analytics}
 
