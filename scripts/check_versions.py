@@ -30,10 +30,13 @@ def extract_version(text):
 
 
 def git_cat(ref, path):
-    p = subprocess.run(["git", "show", f"{ref}:{path}"], capture_output=True, text=True)
+    p = subprocess.run(["git", "show", f"{ref}:{path}"], capture_output=True)
     if p.returncode != 0:
         return None
-    return p.stdout
+    try:
+        return p.stdout.decode("utf-8")
+    except UnicodeDecodeError:
+        return None
 
 
 def main():
@@ -43,6 +46,9 @@ def main():
     base = sys.argv[1]
     p = subprocess.run(["git", "diff", "--name-only", base, "HEAD"], capture_output=True, text=True)
     files = [l.strip() for l in p.stdout.splitlines() if l.strip()]
+    # Only check files that could contain version headers
+    VERSION_EXTS = {'.ado', '.sthlp', '.do'}
+    files = [f for f in files if Path(f).suffix.lower() in VERSION_EXTS]
     failures = []
     for f in files:
         ppath = Path(f)
