@@ -1,4 +1,4 @@
-*******************************************************************************
+﻿*******************************************************************************
 *! __wbopendata_search_cache v3.2.0  21Feb2026
 *! v3.2.0: Fix clickable links: source() -> searchsource(), topic() -> searchtopic()
 *! Search indicators with frame-based session caching (Stata 16+)
@@ -51,7 +51,7 @@ program define __wbopendata_search_cache, rclass
         exit 198
     }
 
-    _wbopendata_get_yaml_path, type(indicators)
+    __wbod_get_yaml_path, type(indicators)
     local yaml_path = r(path)
 
     if (!fileexists("`yaml_path'")) {
@@ -86,7 +86,7 @@ program define __wbopendata_search_cache, rclass
             local regex_pattern = subinstr("`regex_pattern'", ")", "\)", .)
             local regex_pattern = subinstr("`regex_pattern'", "{", "\{", .)
             local regex_pattern = subinstr("`regex_pattern'", "}", "\}", .)
-            * Convert wildcards: * → .*, ? → .
+            * Convert wildcards: * â†’ .*, ? â†’ .
             local regex_pattern = subinstr("`regex_pattern'", "*", ".*", .)
             local regex_pattern = subinstr("`regex_pattern'", "?", ".", .)
         }
@@ -359,7 +359,7 @@ program define __wbopendata_search_cache, rclass
         replace field_source = "N/A" if field_source == ""
     }
 
-    * Smart limit: if total ≤ 30, show all; otherwise use specified limit
+    * Smart limit: if total â‰¤ 30, show all; otherwise use specified limit
     local lim = cond(`n' <= 30, `n', cond(`limit' < `n', `limit', `n'))
 
     * Build header
@@ -544,3 +544,4 @@ program define __wbopendata_search_cache, rclass
     restore
     exit 0
 end
+

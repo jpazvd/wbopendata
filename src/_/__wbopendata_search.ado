@@ -1,4 +1,4 @@
-*******************************************************************************
+﻿*******************************************************************************
 *! __wbopendata_search v2.5.1  22Feb2026
 *! Search indicators from YAML with wildcards, filters, and SMCL nav
 *! v2.5.1: Use searchsource/searchtopic in SMCL clickable links
@@ -51,7 +51,7 @@ program define __wbopendata_search, rclass
         exit 198
     }
 
-    _wbopendata_get_yaml_path, type(indicators)
+    __wbod_get_yaml_path, type(indicators)
     local yaml_path = r(path)
 
     if (!fileexists("`yaml_path'")) {
@@ -86,7 +86,7 @@ program define __wbopendata_search, rclass
             local regex_pattern = subinstr("`regex_pattern'", ")", "\)", .)
             local regex_pattern = subinstr("`regex_pattern'", "{", "\{", .)
             local regex_pattern = subinstr("`regex_pattern'", "}", "\}", .)
-            * Convert wildcards: * → .*, ? → .
+            * Convert wildcards: * â†’ .*, ? â†’ .
             local regex_pattern = subinstr("`regex_pattern'", "*", ".*", .)
             local regex_pattern = subinstr("`regex_pattern'", "?", ".", .)
         }
@@ -386,7 +386,7 @@ program define __wbopendata_search, rclass
         replace field_source = "N/A" if field_source == ""
     }
 
-    * Smart limit: if total ≤ 30, show all; otherwise use specified limit
+    * Smart limit: if total â‰¤ 30, show all; otherwise use specified limit
     local lim = cond(`n' <= 30, `n', cond(`limit' < `n', `limit', `n'))
 
     * Build header
@@ -576,3 +576,4 @@ program define __wbopendata_search, rclass
 
     restore
 end
+
