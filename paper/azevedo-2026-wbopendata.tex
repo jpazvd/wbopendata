@@ -888,57 +888,45 @@ graph annotation, update commands, topic queries, language options, population
 projections, cache management, metadata synchronization, discovery commands,
 characteristic metadata verification, error condition validation, extreme input
 cases, and deterministic offline testing.
-Layer~2 adds 71~tests organized in 12~categories, from
-discovery commands through data cache workflows (Appendix~\ref{app:qa}).
-Table~\ref{tab:test-coverage} summarizes the Layer~1 composition.
+Layer~2 adds 71~tests organized along the same functional categories;
+ten of the fifteen categories are exercised by both layers, while five
+(ENV, REG, ERR, EXT, DET) are tested only in~Layer~1, reflecting
+infrastructure and error-path validation that falls outside help-file
+documentation (Table~\ref{tab:test-coverage}).
 
 \begin{table}[H]
 \centering
 \caption{Test suite composition (163 tests across two validation layers)}
 \label{tab:test-coverage}
-
-\begin{tabular}{@{}llrl@{}}
+\footnotesize
+\begin{tabular}{@{}llrrl@{}}
 \hline
-Abbr. & Category & Tests & Focus \\
+Abbr. & Category & L1 & L2 & Focus \\
 \hline
-\multicolumn{4}{@{}l}{\textit{Layer~1: Feature validation (\texttt{qa/run\_tests.do})}} \\
-ENV        & Environment       & 5  & Network, API, YAML file presence \\
-DL         & Download modes    & 5  & Indicator, country, multi-indicator \\
-FMT        & Output format     & 3  & Long format, year range, latest \\
-CTRY       & Country options   & 10 & Match, full, geo, ISO, regions, income \\
-REG        & Regression        & 4  & Historical bug fixes (\#33, \#45, \#46, \#51) \\
-LW         & Linewrap          & 4  & Metadata wrapping, formats, latest scalars \\
-UPD        & Maintenance       & 6  & Legacy update, describe, sync interop \\
-TOPIC/LANG & Topics \& language & 2  & Topic download, Spanish metadata \\
-Advanced   & Advanced features & 6  & Projection, nobasic, describe, nometadata, date \\
-CACHE/SYNC & Cache \& sync     & 13 & Cache lifecycle, sync operations, cross-validation \\
-DISC       & Discovery         & 10 & Sources, topics, search, filter, info, multi-topic \\
-CHAR       & Characteristics   & 6  & Dataset/variable \texttt{char}, persistence, \texttt{nochar} \\
-ERR        & Error conditions  & 8  & Syntax validation (\texttt{rcof}), API errors, empty \\
-EXT        & Extreme cases     & 4  & Minimal queries, large datasets, edge inputs \\
-DET        & Deterministic     & 6  & Offline fixtures, value pinning, network-free \\
-           & \textit{Subtotal} & \textit{92} & \\
+ENV        & Environment       & 5  & -- & Network, API, YAML file presence \\
+DISC       & Discovery         & 10 & 26 & Sources, topics, search, filter, info \\
+DL         & Download modes    & 5  & 14 & Indicator, country, multi-indicator \\
+FMT        & Output format     & 3  & 2  & Long format, year range, latest \\
+CTRY       & Country options   & 10 & 8  & Match, full, geo, ISO, regions, income \\
+TOPIC/LANG & Topics \& language & 2  & 1  & Topic download, Spanish metadata \\
+LW         & Linewrap          & 4  & 7  & Metadata wrapping, formats, scalars \\
+CHAR       & Characteristics   & 6  & 2  & \texttt{char} metadata, persistence, \texttt{nochar} \\
+Advanced   & Advanced features & 6  & 2  & Projection, nobasic, nometadata, date \\
+CACHE/SYNC & Cache \& sync     & 13 & 6  & Cache lifecycle, sync, cross-validation \\
+UPD        & Maintenance       & 6  & 3  & Legacy update, describe, sync interop \\
+REG        & Regression        & 4  & -- & Historical bug fixes (\#33, \#45, \#46, \#51) \\
+ERR        & Error conditions  & 8  & -- & Syntax validation, API errors, empty \\
+EXT        & Extreme cases     & 4  & -- & Minimal queries, large datasets \\
+DET        & Deterministic     & 6  & -- & Offline fixtures, value pinning \\
 \hline
-\multicolumn{4}{@{}l}{\textit{Layer~2: Documentation validation (\texttt{tests/test\_help\_examples.do})}} \\
-HELP-01..24  & Discovery commands     & 25 & Sources, topics, search, info, browse \\
-HELP-25..26  & Deprecated options     & 2  & \texttt{update query}, \texttt{update check} \\
-HELP-27..29c & Cache management       & 5  & Sync, cache info, clear data cache \\
-HELP-29..41a & Data downloads         & 13 & Indicator, country, topic, multi, projection \\
-HELP-41..44  & Linewrap               & 4  & Metadata wrapping, multi-indicator, latest \\
-HELP-45      & Match                  & 1  & \texttt{match(countrycode)} merge \\
-HELP-46..53  & Named examples         & 8  & Click-to-run \texttt{wbopendata\_examples} \\
-HELP-54      & Discovery workflow     & 1  & End-to-end: sources $\to$ search $\to$ download \\
-EX-01..08    & Inline example replay  & 8  & Data assertions, row counts, graph output \\
-EX-09        & Stored results         & 1  & \texttt{r()} values after \texttt{linewrap latest} \\
-EX-10..11    & Characteristic metadata & 2  & \texttt{char \_dta[]}, \texttt{nochar} suppression \\
-EX-12        & Data cache workflow    & 1  & Cache lifecycle: API $\to$ hit $\to$ reset $\to$ re-fetch \\
-             & \textit{Subtotal}      & \textit{71} & \\
-\hline
-             & \textbf{Total}         & \textbf{163} & \\
+           &                   & 92 & 71 & \\
 \hline
 \end{tabular}
 
-\floatnote{\emph{Note:} See Appendix~\ref{app:qa} for full test definitions and execution logic.}
+\floatnote{\emph{Note:} L1~= feature validation (\texttt{qa/run\_tests.do});
+L2~= documentation validation (\texttt{tests/test\_help\_examples.do}).
+Categories marked ``--'' are tested only in~L1.
+See Appendix~\ref{app:qa} for full test definitions.}
 
 \end{table}
 
@@ -1564,6 +1552,57 @@ Each test follows a standardized pattern:
 Helper routines manage test execution, result aggregation, and logging, ensuring
 that failures are attributed to specific test identifiers. A complete test run
 produces a timestamped log and updates a cumulative test history file.
+
+\subsubsection{Test category definitions}
+
+Table~\ref{tab:test-coverage} organizes the 163~tests into 15~functional
+categories, ordered by a typical analytical workflow: environment setup,
+data discovery, retrieval, post-processing, infrastructure, and validation.
+Each category is defined below.
+
+\begin{itemize}
+  \item \textbf{ENV} --- \emph{Environment.}  Validates prerequisites: network
+    connectivity, API reachability, and presence of local YAML metadata files.
+  \item \textbf{DISC} --- \emph{Discovery.}  Exercises the indicator search and
+    metadata lookup subsystem: \texttt{sources}, \texttt{alltopics},
+    \texttt{search()}, \texttt{info()}, and their filtering options
+    (\texttt{searchsource}, \texttt{searchtopic}, \texttt{searchfield},
+    \texttt{exact}, \texttt{detail}).
+  \item \textbf{DL} --- \emph{Download modes.}  Tests core data retrieval paths:
+    single-indicator, multi-indicator, country-specific, and topic-based
+    downloads in both wide and long layouts.
+  \item \textbf{FMT} --- \emph{Output format.}  Verifies output structure options
+    including \texttt{long}, \texttt{year()}, and \texttt{latest}.
+  \item \textbf{CTRY} --- \emph{Country options.}  Tests metadata enrichment via
+    \texttt{match()}, \texttt{full}, \texttt{geo}, \texttt{capital},
+    ISO code handling, and regional/income classification variables.
+  \item \textbf{TOPIC/LANG} --- \emph{Topics \& language.}  Covers topic-filtered
+    downloads and non-English metadata retrieval (\texttt{language(es)}).
+  \item \textbf{LW} --- \emph{Linewrap.}  Validates the \texttt{linewrap()} graph
+    annotation system: metadata field wrapping, \texttt{maxlength()},
+    multi-indicator stacking, and \texttt{latest} scalar returns.
+  \item \textbf{CHAR} --- \emph{Characteristics.}  Verifies that Stata
+    \texttt{char} metadata is attached to datasets and variables by default,
+    persists across operations, and is suppressed by \texttt{nochar}.
+  \item \textbf{Advanced} --- \emph{Advanced features.}  Tests specialized
+    options: \texttt{projection}, \texttt{nobasic}, \texttt{nometadata},
+    \texttt{describe}, and date handling.
+  \item \textbf{CACHE/SYNC} --- \emph{Cache \& sync.}  Exercises the full cache
+    lifecycle (\texttt{nocache}, \texttt{cachedays()}, \texttt{cleardatacache},
+    \texttt{resetdatacache}), metadata synchronization (\texttt{sync},
+    \texttt{checkupdate}), and cross-validation between cache layers.
+  \item \textbf{UPD} --- \emph{Maintenance.}  Tests administrative commands
+    including legacy \texttt{update} aliases, \texttt{describe}, and sync
+    interoperability.
+  \item \textbf{REG} --- \emph{Regression.}  Permanent tests for historically
+    resolved bugs (issues \#33, \#45, \#46, \#51), ensuring fixes are never lost.
+  \item \textbf{ERR} --- \emph{Error conditions.}  Validates that invalid inputs
+    produce correct return codes using Stata's \texttt{rcof} certification command.
+  \item \textbf{EXT} --- \emph{Extreme cases.}  Exercises boundary conditions:
+    minimal queries, large result sets, and unusual input combinations.
+  \item \textbf{DET} --- \emph{Deterministic.}  Offline tests using pre-recorded
+    CSV fixtures, enabling exact value pinning independent of network state.
+\end{itemize}
 
 \subsection{Regression testing and cumulative reliability}
 
