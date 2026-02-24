@@ -788,3 +788,48 @@ Tests:    92 run, 92 passed, 0 failed
 Result:   ALL TESTS PASSED
 Log:      test_results_v18.3.1_23Feb2026.log
 ======================================================================
+
+======================================================================
+Test Run: 24 Feb 2026
+Started:  06:34:04
+Ended:    06:34:09
+Duration: 0m 5s
+Version:  18.4.0
+Build:    24Feb2026
+Branch:   feat/tsj-naming-compliance
+Stata:    17
+Tests:    92 run, 23 passed, 69 failed
+Result:   FAILED
+Failed:   ENV-03, DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-05, CTRY-06, CTRY-07, CTRY-08, CTRY-09, CTRY-10, REG-33, REG-45, REG-46, LW-01, LW-02, LW-03, LW-04, UPD-01, UPD-02, UPD-03, UPD-04, UPD-05, UPD-06, TOPIC-01, LANG-01, PROJ-01, FMT-04, DESC-01, META-01, CTRY-11, DATE-01, CACHE-05, CACHE-08, SYNC-02, SYNC-03, SYNC-04, SYNC-05, DISC-01, DISC-02, DISC-03, DISC-06, DISC-07, DISC-08, DISC-09, DISC-10, CHAR-01, CHAR-02, CHAR-03, CHAR-04, CHAR-05, CHAR-06, EXT-01, EXT-02, EXT-03, EXT-04, DET-01, DET-02, DET-03, DET-04, DET-05
+Log:      test_results_v18.4.0_24Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 24 Feb 2026
+Started:  06:36:44
+Ended:    06:53:02
+Duration: 16m 18s
+Version:  18.4.0
+Build:    24Feb2026
+Branch:   feat/tsj-naming-compliance
+Stata:    17
+Tests:    92 run, 87 passed, 5 failed
+Result:   FAILED
+Failed:   ENV-03, UPD-06, CACHE-05, SYNC-02, SYNC-03
+Log:      test_results_v18.4.0_24Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 24 Feb 2026
+Started:  10:11:44
+Ended:    10:33:55
+Duration: 22m 11s
+Version:  18.4.0
+Build:    24Feb2026
+Branch:   feat/tsj-naming-compliance
+Stata:    17
+Tests:    92 run, 89 passed, 3 failed
+Result:   FAILED
+Failed:   CACHE-05, SYNC-02, SYNC-03
+Log:      test_results_v18.4.0_24Feb2026.log
+======================================================================
