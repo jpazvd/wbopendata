@@ -80,8 +80,8 @@ f _/__wbod_update_wbopendata.ado
 f _/__wbod_website.ado
 f _/__wbod_write_stats_history.ado
 f _/__wbod_yaml_metadata.ado
-f _/__wbopendata_search.ado
-f _/__wbopendata_search_cache.ado
+f _/__wbod_search.ado
+f _/__wbod_search_cache.ado
 f _/__yaml_collapse.ado
 f _/__yaml_fastread.ado
 f _/__yaml_mataread.ado
