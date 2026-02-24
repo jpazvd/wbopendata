@@ -8,10 +8,10 @@
 
 This document outlines the testing protocol for validating `wbopendata` functionality before releases. The automated test suite is in `run_tests.do`.
 
-**Test Suite Version**: 3.0.0
-**Compatible with**: wbopendata v18.1.0+
+**Test Suite Version**: 3.1.0
+**Compatible with**: wbopendata v18.3.1+
 **Last Updated**: February 2026
-**Total Tests**: 89 automated tests across 17 categories
+**Total Tests**: 92 automated tests across 15 categories
 
 > **See also:** [README](README.md) for quick start | [Testing Guide](TESTING_GUIDE.md) for best practices
 
@@ -89,12 +89,12 @@ do run_tests.do
 | 7 | TOPIC/LANG | 2 | Yes | Integration | Topics API path and language option |
 | 8 | Advanced | 6 | Yes | Integration | Projection, nobasic, describe-only, nometadata, adminregion, date |
 | 9 | CACHE/SYNC | 13 | Mixed | Integration | Cache lifecycle and metadata sync operations |
-| 10 | DISC | 7 | No | Certification | Offline discovery commands (search, info, sources, topics) |
+| 10 | DISC | 10 | No | Certification | Offline discovery commands (search, info, sources, topics) |
 | 11 | CHAR | 6 | Yes | Integration | Variable-level char metadata -- v18.1 |
 | 12 | ERR | 8 | Mixed | Gould (2001) | Error conditions: invalid inputs must fail gracefully |
 | 13 | EXT | 4 | Yes | Gould (2001) | Extreme/boundary cases: stress inputs |
 | 14 | DET | 6 | No | Gould (2001) | Deterministic offline tests with CSV fixtures |
-| | **Total** | **89** | | | |
+| | **Total** | **92** | | | |
 
 ---
 
@@ -393,7 +393,7 @@ This implements Gould's (2001) Phase 6 principle of using known test datasets wi
 | Multiple indicators (3) | `wbopendata, indicator(A;B;C) clear` | < 60 seconds |
 | YAML first parse (indicators) | `wbopendata, search(population)` (cold) | < 25 seconds |
 | YAML cached search | `wbopendata, search(population)` (warm) | < 0.5 seconds |
-| Full test suite (89 tests) | `do run_tests.do` | < 6 minutes |
+| Full test suite (92 tests) | `do run_tests.do` | < 20 minutes |
 
 ---
 
