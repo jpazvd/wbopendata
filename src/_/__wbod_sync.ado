@@ -41,7 +41,7 @@ program define __wbod_sync, rclass
 
     * Check cache staleness (skip if force)
     if ("`force'" == "") {
-        _wbopendata_check_staleness "`cache_dir'"
+        __wbod_check_staleness "`cache_dir'"
     }
 
     if ("`forcestata'" != "") {
@@ -50,30 +50,30 @@ program define __wbod_sync, rclass
             di as error "Stata fallback failed (rc = " _rc ")"
             exit _rc
         }
-        _wbopendata_write_cache_meta "`schema_version'" "`cache_dir'" "stata" "stata"
+        __wbod_write_cache_meta "`schema_version'" "`cache_dir'" "stata" "stata"
         return scalar sync_success = 1
         return local method = "stata"
         exit 0
     }
 
     if ("`forcepython'" != "") {
-        _wbopendata_run_python, outdir("`outdir_use'") pythoncmd("`pythoncmd'")
+        __wbod_run_python, outdir("`outdir_use'") pythoncmd("`pythoncmd'")
         if (_rc != 0) {
             di as error "Python pipeline failed (rc = " _rc ")"
             exit _rc
         }
-        _wbopendata_write_cache_meta "`schema_version'" "`cache_dir'" "python" "python"
+        __wbod_write_cache_meta "`schema_version'" "`cache_dir'" "python" "python"
         return scalar sync_success = 1
         return local method = "python"
         exit 0
     }
 
     * Pathway B: Python canonical
-    capture noisily _wbopendata_check_python, pythoncmd("`pythoncmd'")
+    capture noisily __wbod_check_python, pythoncmd("`pythoncmd'")
     if (_rc == 0) {
-        capture noisily _wbopendata_run_python, outdir("`outdir_use'") pythoncmd("`pythoncmd'")
+        capture noisily __wbod_run_python, outdir("`outdir_use'") pythoncmd("`pythoncmd'")
         if (_rc == 0) {
-            _wbopendata_write_cache_meta "`schema_version'" "`cache_dir'" "python" "python"
+            __wbod_write_cache_meta "`schema_version'" "`cache_dir'" "python" "python"
             return scalar sync_success = 1
             return local method = "python"
             exit 0
@@ -83,7 +83,7 @@ program define __wbod_sync, rclass
     * Pathway A: Stata fallback
     capture noisily __wbod_refresh_yaml, outdir("`outdir_use'") replace
     if (_rc == 0) {
-        _wbopendata_write_cache_meta "`schema_version'" "`cache_dir'" "stata" "stata"
+        __wbod_write_cache_meta "`schema_version'" "`cache_dir'" "stata" "stata"
         return scalar sync_success = 1
         return local method = "stata"
         exit 0
@@ -95,11 +95,11 @@ program define __wbod_sync, rclass
     local remote_ver ""
     if (_rc == 0) local remote_ver = r(remote_version)
 
-    capture noisily _wbopendata_download_yaml "`cache_dir'" "`remote_ver'"
+    capture noisily __wbod_download_yaml "`cache_dir'" "`remote_ver'"
     if (_rc == 0) local download_ok = 1
 
     if (`download_ok' == 1) {
-        _wbopendata_write_cache_meta "`schema_version'" "`cache_dir'" "download" "github"
+        __wbod_write_cache_meta "`schema_version'" "`cache_dir'" "download" "github"
         return scalar sync_success = 1
         return local method = "download"
         exit 0
@@ -110,7 +110,7 @@ program define __wbod_sync, rclass
 end
 
 
-program define _wbopendata_run_python
+program define __wbod_run_python
     version 14.0
     syntax , OUTDIR(string) [PYTHONCMD(string)]
 
@@ -156,7 +156,7 @@ program define _wbopendata_run_python
 end
 
 
-program define _wbopendata_check_python
+program define __wbod_check_python
     version 14.0
     syntax , [PYTHONCMD(string)]
 
@@ -170,7 +170,7 @@ program define _wbopendata_check_python
 end
 
 
-program define _wbopendata_check_staleness
+program define __wbod_check_staleness
     version 14.0
     args cache_dir
 
@@ -200,7 +200,7 @@ program define _wbopendata_check_staleness
 end
 
 
-program define _wbopendata_write_cache_meta
+program define __wbod_write_cache_meta
     version 14.0
     * Use args instead of syntax to avoid path parsing issues with colons
     args version cache_dir method source
@@ -229,11 +229,11 @@ program define _wbopendata_write_cache_meta
     file write `mfh' "  source: `source_val'" _n
     file close `mfh'
 
-    _wbopendata_update_sync_history "`cache_dir'" "`version'" "`method_val'" "`source_val'"
+    __wbod_update_sync_history "`cache_dir'" "`version'" "`method_val'" "`source_val'"
 end
 
 
-program define _wbopendata_update_sync_history
+program define __wbod_update_sync_history
     version 14.0
     * Use args instead of syntax to avoid path parsing issues with colons
     args cache_dir version method source
@@ -259,10 +259,10 @@ end
 
 
 *******************************************************************************
-* _wbopendata_download_yaml â€” Download YAML from GitHub raw content (Pathway C)
-* Inlined from standalone _wbopendata_download_yaml.ado (single caller)
+* __wbod_download_yaml – Download YAML from GitHub raw content (Pathway C)
+* Inlined from standalone __wbod_download_yaml.ado (single caller)
 *******************************************************************************
-program define _wbopendata_download_yaml, rclass
+program define __wbod_download_yaml, rclass
     version 14.0
     args cache_dir ver
 
