@@ -1,7 +1,7 @@
 # wbopendata Test Suite (Development)
 
 **Test Suite Version:** 3.1.0
-**Compatible with:** wbopendata v18.3.1+
+**Compatible with:** wbopendata v18.3.2+
 **Last Updated:** February 2026
 
 This document explains how to run the `wbopendata` test suite on any machine.

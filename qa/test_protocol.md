@@ -9,7 +9,7 @@
 This document outlines the testing protocol for validating `wbopendata` functionality before releases. The automated test suite is in `run_tests.do`.
 
 **Test Suite Version**: 3.1.0
-**Compatible with**: wbopendata v18.3.1+
+**Compatible with**: wbopendata v18.3.2+
 **Last Updated**: February 2026
 **Total Tests**: 92 automated tests across 15 categories
 

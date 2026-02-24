@@ -20,6 +20,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [18.3.2] - 2026-02-23
+
+### Fixed
+- **Frame cache completeness**: All three metadata frames (`_wbod_indicators`, `_wbod_sources`, `_wbod_topics`) now properly invalidated on sync operations
+- **Cache manifest documentation**: Documented pipe-delimiter format and TTL assumptions in `_query.ado` to prevent future parsing failures
+- **Test documentation**: Clarified SYNC-05 test purpose as cross-validation for cache consolidation (v18.3.0+)
+
+---
+
 ## [18.3.1] - 2026-02-23
 
 ### Added

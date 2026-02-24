@@ -4,7 +4,7 @@ Cross-reference of all `.ado` syntax options against documentation in the
 help file (`wbopendata.sthlp`) and the Stata Journal paper
 (`azevedo-2026-wbopendata.tex`).
 
-Last updated: 2026-02-23 (v18.3.1)
+Last updated: 2026-02-23 (v18.3.2)
 
 ---
 
