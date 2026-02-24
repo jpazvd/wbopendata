@@ -1,12 +1,12 @@
 *******************************************************************************
-*! _wbopendata_check_version v1.0.0  20Jan2026
+*! _wbopendata_check_version v1.1.0  22Feb2026
 *! Check remote metadata release tag vs local cache
 *******************************************************************************
 
 program define _wbopendata_check_version, rclass
     version 14.0
 
-    local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
+    local cache_dir = c(sysdir_plus) + "_/"
     local vf = "`cache_dir'metadata_version.txt"
 
     capture confirm file "`vf'"

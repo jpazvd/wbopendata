@@ -1,7 +1,7 @@
 # wbopendata Testing Guide
 
-**Test Suite Version:** 3.0.0
-**Compatible with:** wbopendata v18.1.0+
+**Test Suite Version:** 3.1.0
+**Compatible with:** wbopendata v18.3.1+
 **Last Updated:** February 2026
 
 [← Back to README](../README.md) | [Test Protocol](test_protocol.md) | [QA README](README.md) | [FAQ](../doc/FAQ.md)
@@ -490,6 +490,7 @@ When fixing a bug:
 
 ## Version History
 
+- **18.3.1** (Feb 2026): 92 tests, 15 categories. Added DISC-08/09/10, consolidated categories. Data response cache tests. Test suite v3.1.0.
 - **18.1.0** (Feb 2026): 89 tests, 17 categories. Added CHAR (6), ERR (8), EXT (4), DET (6). Offline deterministic testing via `offline()`. Gould (2001) `rcof` methodology. Test suite v3.0.0.
 - **18.0.0** (Feb 2026): 65 tests, 15 categories. Added CACHE (8), SYNC (5), DISC (7). YAML metadata architecture. `cscript` framework. Auto-detecting repo paths.
 - **17.7.1** (Jan 2026): Expanded to 44 tests; added Topics, Language, Projection, Date, and Advanced Features tests

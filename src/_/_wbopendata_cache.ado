@@ -1,14 +1,25 @@
 *******************************************************************************
-*! _wbopendata_cache v2.0.0  07Feb2026
+*! _wbopendata_cache v3.0.0  22Feb2026
 *! Cache manager for wbopendata metadata
-*! Metadata files (.txt) are installed by `net install` alongside .ado files.
-*! sync/update verifies they exist and checks for newer releases on GitHub.
+*! v3.0.0: Consolidated disk+frame cache ops; moved cache to sysdir_plus
 *******************************************************************************
 
 program define _wbopendata_cache, rclass
     version 14.0
 
-    syntax [, CHECKversion UPDAte FORCe CLEAR INFO]
+    syntax [, CHECKversion UPDAte FORCe CLEAR INFO CLEARDATACACHE RESETDATACACHE]
+
+    if ("`resetdatacache'" != "") {
+        _wbopendata_reset_datacache
+        return local datacache_reset = "1"
+        exit 0
+    }
+
+    if ("`cleardatacache'" != "") {
+        _wbopendata_clear_datacache
+        return local datacache_cleared = "1"
+        exit 0
+    }
 
     if ("`clear'" != "") {
         _wbopendata_clear_cache
@@ -84,35 +95,11 @@ program define _wbopendata_cache, rclass
 end
 
 
-program define _wbopendata_init_cache
-    version 14.0
-    local personal_dir = c(sysdir_personal)
-    local cache_root = c(sysdir_personal) + "wbopendata/"
-    local cache_dir = "`cache_root'" + "cache/"
-    capture mkdir "`cache_root'"
-    capture mkdir "`cache_dir'"
-
-    tempname fh
-    local test_file = "`cache_dir'_test.tmp"
-    capture file open `fh' using "`test_file'", write replace
-    if (_rc != 0) {
-        di as error "Cannot write to cache directory: `cache_dir'"
-        di as text "Current PERSONAL setting: `personal_dir'"
-        di as text "Set a writable PERSONAL directory, then rerun:"
-        di as text `"  . sysdir set PERSONAL ""C:/Users/<username>/ado/personal/"""'
-        di as text "If the path is correct, create it and retry:"
-        di as text `"  . mkdir ""`personal_dir'"""'
-        di as text "  . wbopendata, sync"
-        error 603
-    }
-    file close `fh'
-    capture erase "`test_file'"
-end
-
-
 program define _wbopendata_clear_cache
     version 14.0
-    local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
+    local cache_dir = c(sysdir_plus) + "_/"
+
+    * Clear disk metadata files
     local files "metadata_version.txt cache_timestamp.txt"
     local files "`files' _wbopendata_indicators.yaml"
     local files "`files' _wbopendata_sources.yaml"
@@ -121,12 +108,19 @@ program define _wbopendata_clear_cache
     foreach f of local files {
         capture erase "`cache_dir'`f'"
     }
+
+    * Clear in-memory frame cache (Stata 16+)
+    if (`c(stata_version)' >= 16) {
+        capture frame drop _wbod_indicators
+        capture frame drop _wbod_sources
+        capture frame drop _wbod_topics
+    }
 end
 
 
 program define _wbopendata_cache_info, rclass
     version 14.0
-    local cache_dir = c(sysdir_personal) + "wbopendata/cache/"
+    local cache_dir = c(sysdir_plus) + "_/"
     local vf = "`cache_dir'metadata_version.txt"
     local tf = "`cache_dir'cache_timestamp.txt"
 
@@ -134,6 +128,7 @@ program define _wbopendata_cache_info, rclass
     di as result "wbopendata Cache Status"
     di as text "{hline 60}"
 
+    * Disk cache status
     if (fileexists("`vf'")) {
         tempname fh
         file open `fh' using "`vf'", read
@@ -163,5 +158,124 @@ program define _wbopendata_cache_info, rclass
         return scalar cache_exists = 0
     }
 
+    * Frame cache status (Stata 16+)
+    di as text ""
+    if (`c(stata_version)' >= 16) {
+        capture frame _wbod_indicators: count
+        if (_rc == 0) {
+            di as text "  Frame cache:   " as result "_wbod_indicators (`r(N)' records, LOADED)"
+        }
+        else {
+            di as text "  Frame cache:   " as text "(not loaded — will load on first search)"
+        }
+    }
+    else {
+        di as text "  Frame cache:   " as text "N/A (requires Stata 16+)"
+    }
+
+    * Data cache status
+    di as text ""
+    local dc_dir = c(sysdir_plus) + "_/_wbopendata_datacache/"
+    local dc_dir : subinstr local dc_dir "\" "/" , all
+    if (fileexists("`dc_dir'_manifest.txt")) {
+        local dc_count = 0
+        tempname dfh
+        file open `dfh' using "`dc_dir'_manifest.txt", read
+        file read `dfh' _dline
+        while (r(eof) == 0) {
+            local dc_count = `dc_count' + 1
+            file read `dfh' _dline
+        }
+        file close `dfh'
+        di as text "  Data cache:    " as result "`dc_count' cached queries"
+        di as text `"  Data location: `dc_dir'"'
+    }
+    else {
+        di as text "  Data cache:    " as text "(empty — queries will be cached on first download)"
+    }
+
     di as text "{hline 60}"
+end
+
+
+program define _wbopendata_clear_datacache
+    version 14.0
+    local dc_dir = c(sysdir_plus) + "_/_wbopendata_datacache/"
+    local dc_dir : subinstr local dc_dir "\" "/" , all
+
+    if (!fileexists("`dc_dir'_manifest.txt")) {
+        di as text "Data cache is already empty."
+        exit 0
+    }
+
+    * Count and erase cached CSV files listed in manifest
+    local cleared = 0
+    capture {
+        tempname rfh
+        file open `rfh' using "`dc_dir'_manifest.txt", read
+        file read `rfh' _line
+        while (r(eof) == 0) {
+            local _ppos = strpos(`"`_line'"', "|")
+            if (`_ppos' > 1) {
+                local _ef = trim(substr(`"`_line'"', 1, `_ppos' - 1))
+                capture erase "`dc_dir'`_ef'"
+                if (_rc == 0) local cleared = `cleared' + 1
+            }
+            file read `rfh' _line
+        }
+        file close `rfh'
+    }
+    if (_rc != 0) {
+        capture file close `rfh'
+    }
+
+    * Always erase manifest (even if corrupted and unreadable)
+    capture erase "`dc_dir'_manifest.txt"
+
+    di as result "Cleared `cleared' cached data file(s)."
+end
+
+
+program define _wbopendata_reset_datacache
+    version 14.0
+    local dc_dir = c(sysdir_plus) + "_/_wbopendata_datacache/"
+    local dc_dir : subinstr local dc_dir "\" "/" , all
+
+    if (!fileexists("`dc_dir'_manifest.txt")) {
+        di as text "Data cache is empty — nothing to reset."
+        exit 0
+    }
+
+    * Rewrite all manifest dates to 01 Jan 2000 (forces expiry on next query)
+    local reset_count = 0
+    tempfile _tmp_mf
+    tempname wfh rfh
+    file open `wfh' using "`_tmp_mf'", write
+
+    capture {
+        file open `rfh' using "`dc_dir'_manifest.txt", read
+        file read `rfh' _line
+        while (r(eof) == 0) {
+            local _ppos = strpos(`"`_line'"', "|")
+            if (`_ppos' > 1) {
+                local _ef = trim(substr(`"`_line'"', 1, `_ppos' - 1))
+                file write `wfh' "`_ef'|01 Jan 2000" _n
+                local reset_count = `reset_count' + 1
+            }
+            file read `rfh' _line
+        }
+        file close `rfh'
+    }
+    if (_rc != 0) {
+        capture file close `rfh'
+    }
+
+    file close `wfh'
+
+    if (`reset_count' > 0) {
+        copy "`_tmp_mf'" "`dc_dir'_manifest.txt", replace
+    }
+
+    di as result "Reset TTL for `reset_count' cached data file(s)."
+    di as text   "Cached files kept on disk; fresh data will be fetched on next query."
 end
