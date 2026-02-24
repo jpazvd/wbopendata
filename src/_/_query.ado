@@ -1,6 +1,7 @@
 *******************************************************************************
 * _query
-*! v 16.7  	23Feb2026               by Joao Pedro Azevedo
+*! v 16.8  	23Feb2026               by Joao Pedro Azevedo
+*   16.8: Document manifest format and cache key assumptions
 *   16.7: Add verbose option, targeted error handling for cache operations
 *   16.6: Fix cache lookup (targeted capture), add cachedays() TTL option
 *   16.5: Data response cache (7-day TTL, on by default, nocache to bypass)
