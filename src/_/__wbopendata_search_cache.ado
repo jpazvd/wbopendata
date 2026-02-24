@@ -1,4 +1,4 @@
-﻿*******************************************************************************
+*******************************************************************************
 *! __wbopendata_search_cache v3.2.0  21Feb2026
 *! v3.2.0: Fix clickable links: source() -> searchsource(), topic() -> searchtopic()
 *! Search indicators with frame-based session caching (Stata 16+)

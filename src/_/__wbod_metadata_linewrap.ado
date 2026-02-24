@@ -1,4 +1,4 @@
-﻿*******************************************************************************
+*******************************************************************************
 *! v 1.1  	 22Dec2024        	   by Joao Pedro Azevedo                      *  
 *	Wrapper for linewrap to format metadata for Stata graphs
 *   Multiple output formats: stack, lines, newline, smcl

@@ -1,4 +1,4 @@
-﻿*******************************************************************************
+*******************************************************************************
 *! __wbod_search v3.0.0  04Feb2026
 *! Search indicators - version router
 *! Stata 16+: routes to __wbopendata_search_cache (frame-based caching)

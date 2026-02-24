@@ -1,4 +1,4 @@
-﻿*******************************************************************************
+*******************************************************************************
 *! __wbod_sync_preview v1.3.0  22Feb2026
 *! Display metadata status diagnostic before sync
 *! v1.2.0: Added country metadata count display

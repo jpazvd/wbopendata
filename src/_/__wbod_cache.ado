@@ -1,4 +1,4 @@
-﻿*******************************************************************************
+*******************************************************************************
 *! __wbod_cache v3.0.0  22Feb2026
 *! Cache manager for wbopendata metadata
 *! v3.0.0: Consolidated disk+frame cache ops; moved cache to sysdir_plus

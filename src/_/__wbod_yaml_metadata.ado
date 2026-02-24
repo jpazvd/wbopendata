@@ -1,4 +1,4 @@
-﻿*! __wbod_yaml_metadata - Look up indicator metadata from cached YAML frame
+*! __wbod_yaml_metadata - Look up indicator metadata from cached YAML frame
 *! Returns the same r() values as __wbod_query_metadata for char attribute compat
 *! v1.0.0  23Feb2026  by Joao Pedro Azevedo
 *! Extracted from __wbod_query_metadata.ado for Stata auto-discovery

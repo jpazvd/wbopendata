@@ -1,4 +1,4 @@
-﻿*! 2.0.3 JPA NJC DCE Jul 2012
+*! 2.0.3 JPA NJC DCE Jul 2012
 *! 2.0.2 NJC DCE Oct 2006
 * 2.0.1 NJC 17 March 2006
 * 2.0.0 NJC 12 June 2005

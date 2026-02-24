@@ -1,4 +1,4 @@
-﻿*******************************************************************************
+*******************************************************************************
 *! __yaml_collapse
 *! v 1.8.0   20Feb2026               by Joao Pedro Azevedo (UNICEF)
 *! Post-process: pivot long YAML output to wide format (one row per entity)

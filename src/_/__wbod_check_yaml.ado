@@ -1,4 +1,4 @@
-﻿*******************************************************************************
+*******************************************************************************
 *! __wbod_check_yaml v1.0.0  21Feb2026
 *! Check if yaml.ado is installed with required version
 *! If not, attempt to install from SSC or GitHub

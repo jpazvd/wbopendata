@@ -1,4 +1,4 @@
-﻿program define __wbod_linewrap, rclass 
+program define __wbod_linewrap, rclass 
 *!	__wbod_linewrap  by Mead Over & Joao Pedro Azevedo  Version 2.1 4Jun2023
 *   Renamed from linewrap to __wbod_linewrap for wbopendata package
 *	This program splits a long string into lines of -maxlength- characters each

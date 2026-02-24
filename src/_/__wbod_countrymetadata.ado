@@ -1,4 +1,4 @@
-﻿*******************************************************************************
+*******************************************************************************
 *  _countrymetadata2
 *! v 16.1  	4Jan2026                by Joao Pedro Azevedo
 *	v 16.1: Added handling for basic option to set 8 default country context variables

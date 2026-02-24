@@ -1,4 +1,4 @@
-﻿*******************************************************************************
+*******************************************************************************
 *! __wbod_refresh_yaml v1.0.0  07Feb2026
 *  Stata-only YAML refresh (API calls + YAML emit)
 *  Author: JoÃ£o Pedro Azevedo (World Bank | UNICEF)

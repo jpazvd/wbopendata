@@ -1,4 +1,4 @@
-﻿*******************************************************************************
+*******************************************************************************
 *! __wbod_sync v2.0.1  23Feb2026
 *! Orchestrate metadata sync (Python canonical, Stata fallback, GitHub download)
 *! v2.0.1: Drop all 3 frames on sync (indicators, sources, topics)

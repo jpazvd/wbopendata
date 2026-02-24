@@ -1,4 +1,4 @@
-﻿*! version 1.0.0  09Feb2026
+*! version 1.0.0  09Feb2026
 *! Get topic name by ID from topics YAML
 *! Part of wbopendata sync preview feature
 

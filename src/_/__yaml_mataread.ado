@@ -1,4 +1,4 @@
-﻿*******************************************************************************
+*******************************************************************************
 *! __yaml_mataread
 *! v 1.7.1   21Feb2026               by Joao Pedro Azevedo (UNICEF)
 *! v1.7.1: Fix parent_stack contamination: sibling keys at same indent restore parent

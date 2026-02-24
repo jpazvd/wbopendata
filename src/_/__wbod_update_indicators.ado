@@ -1,4 +1,4 @@
-﻿*******************************************************************************
+*******************************************************************************
 * __wbod_update_indicators                                                                   
 *! v 16.2   04Jan2026				by JoÃ£o Pedro Azevedo
 *		fix: new sthlp files now saved to same directory as wbopendata.ado

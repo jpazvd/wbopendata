@@ -1,4 +1,4 @@
-﻿*******************************************************************************
+*******************************************************************************
 *! __wbod_parameters v2.0.0  04Feb2026
 *! Read wbopendata parameters from YAML (replaces hardcoded return values)
 *! Returns identical r() interface for backward compatibility

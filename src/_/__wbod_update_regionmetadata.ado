@@ -1,4 +1,4 @@
-﻿*******************************************************************************
+*******************************************************************************
 *! v 17.1  	04Jan2026               by Joao Pedro Azevedo
 *		fix: new sthlp files now saved to same directory as wbopendata.ado
 *! v 17  	24Jan2023               by Joao Pedro Azevedo

@@ -1,4 +1,4 @@
-﻿*******************************************************************************
+*******************************************************************************
 * __yaml_tokenize_line
 *! v 1.5.1   18Feb2026               by Joao Pedro Azevedo (UNICEF)
 * Tokenize a YAML line (streaming canonical parser helper)

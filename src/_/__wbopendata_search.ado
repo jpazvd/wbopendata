@@ -1,4 +1,4 @@
-﻿*******************************************************************************
+*******************************************************************************
 *! __wbopendata_search v2.5.1  22Feb2026
 *! Search indicators from YAML with wildcards, filters, and SMCL nav
 *! v2.5.1: Use searchsource/searchtopic in SMCL clickable links

@@ -1,4 +1,4 @@
-﻿*******************************************************************************
+*******************************************************************************
 *! __wbod_info v2.6.0  22Feb2026
 *! Return indicator metadata using shared frame cache (fast after first call)
 *! v2.6.0: Use v2 parser (same as search) for consistent frame cache
