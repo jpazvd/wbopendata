@@ -1,0 +1,35 @@
+. 
+. * Store wrapped metadata from linewrap option
+. * Wrapped values are already quoted strings ready for graph display
+. local name1 "`r(name1_stack)'"
+{\smallskip}
+. local name2 "`r(name2_stack)'"
+{\smallskip}
+. local desc1 "`r(description1_stack)'"
+{\smallskip}
+. local desc2 "`r(description2_stack)'"
+{\smallskip}
+. local src1 "`r(sourcecite1)'"
+{\smallskip}
+. local src2 "`r(sourcecite2)'"
+{\smallskip}
+. local subtitle "`r(latest)'"
+{\smallskip}
+. 
+. * Create publication-ready graph with wrapped metadata for titles and annotati
+> ons
+. set scheme sj
+{\smallskip}
+. twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue\%50)), ///
+>     xtitle(`name1', size(small)) ///
+>     ytitle(`name2', size(small)) ///
+>     title("Poverty and Child Mortality", size(medium)) ///
+>     subtitle("`subtitle'", size(small)) ///
+>     caption("{\lbr}bf:Definitions:{\rbr}" ///
+>             "{\lbr}bf:X-axis:{\rbr} " `desc1' ///
+>             "{\lbr}bf:Y-axis:{\rbr} " `desc2', size(vsmall) span) ///
+>     note("{\lbr}bf:Data Sources:{\rbr}" ///
+>         "{\lbr}bf:X (Poverty):{\rbr} `src1'" ///
+>         "{\lbr}bf:Y (Mortality):{\rbr} `src2'", size(vsmall)) name(linewrap_ex, replace)
+{\smallskip}
+. 

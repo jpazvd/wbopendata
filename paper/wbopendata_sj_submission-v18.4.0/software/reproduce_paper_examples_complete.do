@@ -23,8 +23,8 @@
 
     Outputs:
         reproduce_paper_examples.log      Main execution log
-        figs/ *.pdf                       5 publication-ready figures
-        sjlogs/ *.log.tex                 20 LaTeX-formatted code snippets
+        figs/*.pdf                        5 publication-ready figures
+        sjlogs/*.log.tex                  20 LaTeX-formatted code snippets
 ==============================================================================*/
 
 clear all
@@ -32,21 +32,9 @@ set more off
 set linesize 80
 set rmsg off
 
-* install wbopendata v18.4.0
-net install wbopendata, from("C:\GitHub\myados\wbopendata-dev\paper\wbopendata_sj_submission-v18.4.0\software") replace
-
-* Check and install sjlatex (for sjlog) if needed
-capture which sjlog
-if _rc != 0 {
-    di as text "Installing sjlatex package (provides sjlog)..."
-    net install sjlatex, from("http://www.stata-journal.com/production") replace
-}
-
-* Get current directory (software directory) and derive parent folder
+* Get current directory (software directory)
 local script_dir "`c(pwd)'"
-local parent_dir "`script_dir'"
-local parent_dir = subinstr("`parent_dir'", "\\software", "", .)
-local parent_dir = subinstr("`parent_dir'", "/software", "", .)
+local parent_dir = substr("`script_dir'", 1, strlen("`script_dir'") - strlen("software") - 1)
 
 * Create output directories
 cap mkdir "`parent_dir'/figs"
@@ -57,7 +45,7 @@ local logs_dir "`parent_dir'/sjlogs"
 
 * Start main log
 cap log close
-log using "`script_dir'/reproduce_paper_examples.log", text replace
+log using "reproduce_paper_examples.log", text replace
 
 di as text _n "============================================================"
 di as text "Reproducing Paper Examples (Complete)"
@@ -139,17 +127,14 @@ di as text _n "=== Example 4b: Graph using returned metadata ==="
 
 sjlog using "`logs_dir'/ex_linewrap_graph", replace
 
-* Store wrapped metadata from linewrap option
-* Wrapped values are already quoted strings ready for graph display
-local name1 "`r(name1_stack)'"
-local name2 "`r(name2_stack)'"
-local desc1 "`r(description1_stack)'"
-local desc2 "`r(description2_stack)'"
+local name1 `"`r(name1_stack)'"'
+local name2 `"`r(name2_stack)'"'
+local desc1 `"`r(description1_stack)'"'
+local desc2 `"`r(description2_stack)'"'
 local src1 "`r(sourcecite1)'"
 local src2 "`r(sourcecite2)'"
 local subtitle "`r(latest)'"
 
-* Create publication-ready graph with wrapped metadata for titles and annotations
 set scheme sj
 twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///
     xtitle(`name1', size(small)) ///
@@ -270,50 +255,26 @@ if _rc == 0 {
     Note: Requires worldstat package
 ------------------------------------------------------------------------------*/
 
-di as text _n "=== Example 7: worldstat maps with wrapped metadata ==="
+di as text _n "=== Example 7: worldstat maps ==="
 
 cap which worldstat
 if _rc == 0 {
-    di as text "Note: worldstat is installed, generating maps with wrapped metadata"
+    di as text "Note: worldstat is installed, generating maps"
     
-    * Wrapped indicator metadata for display with figures
-    local gdp_name "GDP per capita (current US$)"
-    local gdp_desc "GDP per capita is gross domestic product divided by midyear population." ///
-                   " Current US$ is a fluctuating scale based on inflation adjustment methodology."
-    local gdp_src "Source: World Bank, World Development Indicators (WDI)"
-    
-    local fert_name "Fertility rate, total (births per woman)"
-    local fert_desc "Total fertility rate represents the number of children that would be born" ///
-                    " to a woman if she were to live to the end of the reproductive years" ///
-                    " and experience age-specific fertility rates of the specified year."
-    local fert_src "Source: World Bank, World Development Indicators (WDI); UN Population Division"
-    
-    * Africa GDP map with wrapped metadata
     sjlog using "`logs_dir'/ex_worldstat_africa", replace
     cap noi worldstat Africa, stat(GDP) year(2009) cname
     sjlog close, replace
     
-    cap noi {
-        graph title("`gdp_name'", size(medium)) ///
-            subtitle("`gdp_desc'", size(small)) ///
-            note("`gdp_src'", size(vsmall))
-        graph export "`figs_dir'/wbopendata_worldstat_africa_gdp.pdf", replace
-    }
+    cap noi graph export "`figs_dir'/wbopendata_worldstat_africa_gdp.pdf", replace
     if _rc == 0 {
         di as text "  ✓ Exported: wbopendata_worldstat_africa_gdp.pdf"
     }
 
-    * World fertility map with wrapped metadata
     sjlog using "`logs_dir'/ex_worldstat_world", replace
     cap noi worldstat world, stat(FERT) fcolor(Pastel2)
     sjlog close, replace
     
-    cap noi {
-        graph title("`fert_name'", size(medium)) ///
-            subtitle("`fert_desc'", size(small)) ///
-            note("`fert_src'", size(vsmall))
-        graph export "`figs_dir'/wbopendata_worldstat_world_fertility.pdf", replace
-    }
+    cap noi graph export "`figs_dir'/wbopendata_worldstat_world_fertility.pdf", replace
     if _rc == 0 {
         di as text "  ✓ Exported: wbopendata_worldstat_world_fertility.pdf"
     }
@@ -502,6 +463,6 @@ di as text "All paper examples reproduced successfully."
 di as text "Date: " c(current_date) " " c(current_time)
 di as text "============================================================"
 
-cap log close
+log close
 set rmsg on
 exit
