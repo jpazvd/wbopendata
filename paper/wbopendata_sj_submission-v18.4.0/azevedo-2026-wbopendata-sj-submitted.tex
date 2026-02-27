@@ -785,7 +785,7 @@ including \texttt{tknz} \citep{elliott2002tknz}, \texttt{linewrap}
 \citep{longfreese2001pecats}. These components support string tokenization,
 metadata wrapping, and category handling without introducing external binaries.
 
-Version~18.0 refactors the implementation into a modular architecture of 34 ado
+Version~18.0 refactors the implementation into a modular architecture of 40 ado
 files, with sub-routines (prefixed \texttt{\_\_wbod\_}) handling YAML parsing,
 search, sync, cache management, and discovery commands. As of version~18.4, all
 internal helpers adopt the \texttt{\_\_wbod\_} namespace (double underscore
@@ -1160,7 +1160,7 @@ This longevity reflects deliberate design choices rather than technical inertia.
 By maintaining backward compatibility across upstream changes, encapsulating
 complexity behind domain-specific syntax, and treating data acquisition as code
 rather than manual preprocessing, \texttt{wbopendata} shifts reproducibility from
-an aspirational norm to a default behavior. Versions~18.0 through~18.3 extend this approach
+an aspirational norm to a default behavior. Versions~18.0 through~18.4 extend this approach
 with offline discovery commands for catalog browsing and indicator search,
 a YAML-backed metadata architecture, version-controlled metadata synchronization,
 publication-ready metadata handling, self-documenting datasets through variable
