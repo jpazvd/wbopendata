@@ -102,8 +102,8 @@ program define _wbopendata_clear_cache
     * Clear disk metadata files
     local files "metadata_version.txt cache_timestamp.txt"
     local files "`files' _wbopendata_indicators.yaml"
-    local files "`files' __wbod_sources.yaml"
-    local files "`files' __wbod_topics.yaml"
+    local files "`files' _wbopendata_sources.yaml"
+    local files "`files' _wbopendata_topics.yaml"
 
     foreach f of local files {
         capture erase "`cache_dir'`f'"

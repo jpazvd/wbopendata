@@ -32,8 +32,8 @@ program define __wbod_refresh_yaml, rclass
 	}
 
 	local out_ind "`outdir'_wbopendata_indicators.yaml"
-	local out_src "`outdir'__wbod_sources.yaml"
-	local out_top "`outdir'__wbod_topics.yaml"
+	local out_src "`outdir'_wbopendata_sources.yaml"
+	local out_top "`outdir'_wbopendata_topics.yaml"
 
 	* Overwrite outputs during refresh; caller handles safety.
 
