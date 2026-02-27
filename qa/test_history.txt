@@ -833,3 +833,32 @@ Result:   FAILED
 Failed:   CACHE-05, SYNC-02, SYNC-03
 Log:      test_results_v18.4.0_24Feb2026.log
 ======================================================================
+
+======================================================================
+Test Run: 24 Feb 2026
+Started:  16:41:13
+Ended:    17:06:05
+Duration: 24m 52s
+Version:  18.4.0
+Build:    24Feb2026
+Branch:   feat/tsj-naming-compliance
+Stata:    17
+Tests:    92 run, 89 passed, 3 failed
+Result:   FAILED
+Failed:   CACHE-05, SYNC-02, SYNC-03
+Log:      test_results_v18.4.0_24Feb2026.log
+======================================================================
+
+======================================================================
+Test Run: 24 Feb 2026
+Started:  19:33:04
+Ended:    19:49:06
+Duration: 16m 2s
+Version:  18.4.0
+Build:    24Feb2026
+Branch:   feat/tsj-naming-compliance
+Stata:    17
+Tests:    92 run, 92 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.4.0_24Feb2026.log
+======================================================================
