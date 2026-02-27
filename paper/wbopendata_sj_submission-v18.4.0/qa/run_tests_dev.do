@@ -1,5 +1,6 @@
 * run_tests_dev.do — Wrapper to run tests against development source files
-* Usage: do "C:/GitHub/myados/wbopendata-dev/qa/run_tests_dev.do"
+* Usage: cd ".../paper/wbopendata_sj_submission-v18.4.0/qa"
+*        do "run_tests_dev.do"
 *
 * This wrapper:
 *   1. Adds dev source directories to the FRONT of adopath
