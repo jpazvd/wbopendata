@@ -340,6 +340,40 @@ global repo_root "`repo_root'"
 global qadir "`qadir'"
 global skip_repo_tests `skip_repo_tests'
 
+*===============================================================================
+* SUBMISSION MODE CONFIGURATION
+*===============================================================================
+* Load submission.cfg if present (enables flexible test execution)
+* This file sets global macros for submission mode, metadata cache overrides, etc.
+
+global submission_mode = 0
+global skip_env_01 = 0
+global skip_env_03 = 0
+global skip_env_04 = 0
+
+* Auto-detect submission.cfg in qadir
+local submission_cfg "`qadir'/submission.cfg"
+cap confirm file "`submission_cfg'"
+if _rc == 0 {
+    di as text "Loading submission configuration from: `submission_cfg'"
+    capture noi do "`submission_cfg'"
+    if _rc != 0 {
+        di as error "Note: submission.cfg exists but failed to load (rc=`=_rc')"
+        di as text "      Proceeding with default settings"
+    }
+    else {
+        di as text "Submission mode enabled:"
+        di as text "  - ENV-01 (version match): `$skip_env_01'"
+        di as text "  - ENV-03 (pkg sync): `$skip_env_03'"
+        di as text "  - ENV-04 (files exist): `$skip_env_04'"
+    }
+}
+else {
+    * Submission.cfg not found; proceed with defaults
+    * ENV tests will check repo path as usual
+    di as text "Submission config not found; using standard test mode"
+}
+
 * Safeguard: warn if qadir doesn't match expected repo_root/qa
 if "`repo_root'" != "" & "`qadir'" != "`repo_root'/qa" {
     di as error "WARNING: qadir (`qadir') differs from expected (`repo_root'/qa)"
@@ -556,8 +590,12 @@ di as text "`sep'"
 * ENV-01: Verify wbopendata version matches repo
 run_test "ENV-01" "wbopendata version matches repo"
 if $skip_test == 0 {
+    * Skip if submission mode flag is set
+    if $skip_env_01 == 1 {
+        test_skip "Submission mode: ENV-01 skipped (repo version check not applicable)"
+    }
     * Skip if no repo path or repo tests disabled
-    if "$repo_root" == "" | $skip_repo_tests == 1 {
+    else if "$repo_root" == "" | $skip_repo_tests == 1 {
         test_skip "Repo path not configured (use 'global wbopendata_repo' or run from repo)"
     }
     else {
@@ -716,8 +754,12 @@ if $skip_test == 0 {
 * ENV-03: Verify wbopendata.pkg lists all src ado files (dynamic scan)
 run_test "ENV-03" "wbopendata.pkg matches src directories"
 if $skip_test == 0 {
+    * Skip if submission mode flag is set
+    if $skip_env_03 == 1 {
+        test_skip "Submission mode: ENV-03 skipped (source file tracking not applicable)"
+    }
     * Skip if no repo path or repo tests disabled
-    if "$repo_root" == "" | $skip_repo_tests == 1 {
+    else if "$repo_root" == "" | $skip_repo_tests == 1 {
         test_skip "Repo path not configured (use 'global wbopendata_repo' or run from repo)"
     }
     else {
@@ -799,8 +841,12 @@ if $skip_test == 0 {
 * ENV-04: Verify all pkg files exist in repo
 run_test "ENV-04" "All pkg files exist in repo"
 if $skip_test == 0 {
+    * Skip if submission mode flag is set
+    if $skip_env_04 == 1 {
+        test_skip "Submission mode: ENV-04 skipped (repo file list verification not applicable)"
+    }
     * Skip if no repo path or repo tests disabled
-    if "$repo_root" == "" | $skip_repo_tests == 1 {
+    else if "$repo_root" == "" | $skip_repo_tests == 1 {
         test_skip "Repo path not configured (use 'global wbopendata_repo' or run from repo)"
     }
     else {

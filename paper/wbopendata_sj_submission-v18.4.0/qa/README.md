@@ -89,11 +89,42 @@ do run_submission_qa.do, mode(all)       // All tests combined
 - **Skips**: ENV-01 (version sync), ENV-03/04 (pkg file checks)
 - **Reason**: Submission only includes compiled ado files, not src/
 - **Status**: These are expected skips for pre-built packages
+- **Configuration**: Controlled by `submission.cfg` (auto-detected)
 
 ### Development Mode (`run_tests_dev.do`)
 - **Tests**: All ENV tests pass (checks src/ sync)
 - **Setup**: Prepends src/ to adopath
 - **Use**: When developing/maintaining the package
+
+## Configuration: submission.cfg
+
+The file `submission.cfg` enables flexible test execution for submission packages:
+
+### What It Does
+- Auto-detected and loaded by `run_tests.do`
+- Sets global flags for submission-specific skips
+- Allows same test suite to work in both contexts:
+  - **Submission mode** (pre-built package): Skips repo-specific tests
+  - **Development mode** (with source): Runs all tests
+
+### Configuration Options
+```stata
+global skip_env_01 = 1    /* Skip: requires repo/src structure */
+global skip_env_03 = 1    /* Skip: requires pkg file structure check */
+global skip_env_04 = 1    /* Skip: requires repo file verification */
+```
+
+### How It Works
+1. `run_tests.do` checks for `qa/submission.cfg` at startup
+2. If found, loads configuration automatically
+3. Tests check `$skip_env_XX` flags before running
+4. Missing config → standard test mode (all tests attempted)
+
+### Customization
+Edit `submission.cfg` to:
+- Skip specific tests (set flags to 1)
+- Enable re-runs from any location
+- Maintain metadata cache in `qa/cache/`
 
 ## Expected Test Results
 
