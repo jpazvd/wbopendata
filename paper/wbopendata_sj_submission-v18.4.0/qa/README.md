@@ -4,26 +4,57 @@ This folder contains the quality assurance (QA) tests for the **wbopendata** pac
 
 ## Quick Start
 
-### Step 1: Setup Fixtures (First Time Only)
-To enable offline/deterministic tests, decompress the fixture archive:
+### Option 1: Automated Setup (Recommended)
 
+**PowerShell:**
+```powershell
+cd qa
+.\run_tests.ps1
+```
+
+**Batch:**
+```cmd
+cd qa
+RUN_TESTS.bat
+```
+
+These scripts automatically:
+1. Copy YAML metadata from `qa/cache/` to your Stata ado directory
+2. Verify fixtures are present
+3. Run the complete test suite
+4. Report results and log location
+
+### Option 2: Manual Setup
+
+**Step 1: Install YAML Metadata (REQUIRED)**
+The tests require YAML metadata files in your Stata ado directory:
+
+**PowerShell:**
+```powershell
+Copy-Item -Path "qa\cache\_wbopendata_*.yaml" -Destination "$env:USERPROFILE\ado\plus\_\" -Force
+```
+
+**Batch/CMD:**
+```cmd
+copy qa\cache\_wbopendata_*.yaml %USERPROFILE%\ado\plus\_\
+```
+
+**From Stata:**
 ```stata
-cd "C:\path\to\qa"
+* The setup script will attempt to sync metadata if internet is available
 do setup_qa_environment.do
 ```
 
-This script:
-- Extracts `fixtures.tar.gz` to `qa/fixtures/`
-- Verifies all required fixture files
-- Validates installed wbopendata package
-- Syncs metadata (YAML) if internet available
+**Step 2: Verify Fixtures**
+Check that `qa/fixtures/` contains CSV test files. If missing, extract `fixtures.tar.gz`.
 
-### Step 2: Run All Tests
+**Step 3: Run Tests**
 ```stata
-do run_submission_qa.do
+cd "path\to\qa"
+do run_tests.do
 ```
 
-### Run Specific Test Suite
+### Run Specific Test Suites
 ```stata
 do run_submission_qa.do, mode(core)      // Core functionality tests (default)
 do run_submission_qa.do, mode(help)      // Help file examples tests
@@ -149,6 +180,69 @@ All scripts use **relative paths** based on:
 - `regexm()` — Parse paths to find repo root
 
 Run from anywhere: `do "...../qa/run_submission_qa.do"`
+
+## Troubleshooting
+
+### Test Failures: CACHE-01, CACHE-02, DISC-08, DISC-10
+
+**Problem:** Tests fail with "assertion is false" related to YAML files
+  
+**Cause:** YAML metadata files not found in Stata's ado directory
+
+**Solution:** Copy YAML files from cache:
+```powershell
+Copy-Item -Path "qa\cache\_wbopendata_*.yaml" -Destination "$env:USERPROFILE\ado\plus\_\" -Force
+```
+
+**Verification:**
+```stata
+dir "`c(sysdir_plus)'_/_wbopendata_*.yaml"
+```
+
+You should see 4 files:
+- `_wbopendata_indicators.yaml` (18 MB)
+- `_wbopendata_sources.yaml` (11 KB)
+- `_wbopendata_topics.yaml` (14 KB)
+- `_wbopendata_parameters.yaml` (5 KB)
+
+### Fixture Tests Skipped (DET-01 to DET-06)
+
+**Problem:** "Fixture not found" warnings  
+
+**Cause:** `qa/fixtures/` directory empty or missing
+
+**Solution:**
+1. Check if `fixtures.tar.gz` exists in `qa/`
+2. Extract: `tar -xzf fixtures.tar.gz` (or use 7-Zip on Windows)
+3. Verify `qa/fixtures/` contains CSV files
+
+### ENV-01, ENV-03, ENV-04 Skipped
+
+**Status:** Expected behavior in submission mode
+
+**Reason:** These tests validate repository source files which are not included in the submission package
+
+**Expected Result:**
+- **88 tests run** (3 skipped)
+- **88 tests passed** (0 failures)
+- Test summary shows: "✓ SUBMISSION MODE: 3 expected skips"
+
+### Cannot Find Stata Executable
+
+**Problem:** Scripts can't locate Stata  
+
+**Solution:**
+1. **Windows:** Add Stata to PATH: `C:\Program Files\Stata18` (adjust version)
+2. **Manual run:** Open Stata → `cd "path\to\qa"` → `do run_tests.do`
+
+### Internet Required for Some Tests
+
+Some tests require internet:
+- **CACHE-05 to CACHE-08:** Metadata sync tests
+- **DISC-08 to DISC-10:** Topic/source browsing (can use cached YAML)
+- **API-01 to API-13:** Live World Bank API queries
+
+**Offline alternative:** Use fixtures-only mode by skipping network tests
 
 ## Installation for Reviewers
 
