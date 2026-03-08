@@ -131,11 +131,49 @@ program define __wbod_info, rclass
         local note ""
     }
 
+    * Parse topic_ids into topic1, topic2, topic3 (matching describe)
+    * topic_ids is semicolon-separated, e.g., "18;5"
+    local topic1 ""
+    local topic2 ""
+    local topic3 ""
+    if ("`topic_ids'" != "") {
+        tokenize "`topic_ids'", parse(";")
+        local topic1 = "`1'"
+        if ("`3'" != "") local topic2 = "`3'"
+        if ("`5'" != "") local topic3 = "`5'"
+    }
+
     * Fallbacks
     if (`"`name'"' == "") local name "N/A"
     if (`"`src_name'"' == "") local src_name "N/A"
-    if (`"`topics'"' == "") local topics "N/A"
     if (`"`desc'"' == "") local desc "N/A"
+
+    * Reconstruct topic names from topic IDs when parser output is empty/incomplete
+    if ((`"`topics'"' == "" | `"`topics'"' == "N/A") & "`topic_ids'" != "") {
+        local topics ""
+        local remaining "`topic_ids'"
+        while ("`remaining'" != "") {
+            local semi = strpos("`remaining'", ";")
+            local next_topic ""
+            if (`semi' > 0) {
+                local next_topic = strtrim(substr("`remaining'", 1, `semi' - 1))
+                local remaining = strtrim(substr("`remaining'", `semi' + 1, .))
+            }
+            else {
+                local next_topic = strtrim("`remaining'")
+                local remaining ""
+            }
+
+            if ("`next_topic'" != "") {
+                quietly __wbod_get_topic_name `next_topic'
+                local next_topic_name `"`r(topic_name)'"'
+                if (`"`next_topic_name'"' == "") local next_topic_name "`next_topic'"
+                if (`"`topics'"' == "") local topics `"`next_topic_name'"'
+                else local topics `"`topics'; `next_topic_name'"'
+            }
+        }
+    }
+    if (`"`topics'"' == "") local topics "N/A"
     
     * Note fallback: if YAML note is empty, use source_org (like describe does)
     if (`"`note'"' == "") {
@@ -153,18 +191,6 @@ program define __wbod_info, rclass
     * Build collection string: "ID source_name" format (for backward compatibility)
     local collection "`src_id' `src_name'"
     if ("`src_id'" == "") local collection `"`src_name'"'
-
-    * Parse topic_ids into topic1, topic2, topic3 (matching describe)
-    * topic_ids is semicolon-separated, e.g., "18;5"
-    local topic1 ""
-    local topic2 ""
-    local topic3 ""
-    if ("`topic_ids'" != "") {
-        tokenize "`topic_ids'", parse(";")
-        local topic1 = "`1'"
-        if ("`3'" != "") local topic2 = "`3'"
-        if ("`5'" != "") local topic3 = "`5'"
-    }
 
     * Get first topic ID for browse links
     local first_topic_id "`topic1'"

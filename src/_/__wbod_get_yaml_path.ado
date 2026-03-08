@@ -15,12 +15,37 @@ program define __wbod_get_yaml_path, rclass
     * Primary: search adopath (covers sysdir_plus/_/, dev src/_/, adopath ++ dirs)
     capture findfile `fname'
     if (_rc == 0) {
-        return local path = "`r(fn)'"
+        local resolved = subinstr(`"`r(fn)'"', "\", "/", .)
+        return local path = "`resolved'"
         exit 0
     }
 
+    * Development fallbacks when running from the repo (for QA and local work)
+    local cwd = subinstr(c(pwd), "\", "/", .)
+
+    local cwd_src = "`cwd'/src/_/`fname'"
+    if (fileexists("`cwd_src'")) {
+        return local path = "`cwd_src'"
+        exit 0
+    }
+
+    local cwd_underscore = "`cwd'/_/`fname'"
+    if (fileexists("`cwd_underscore'")) {
+        return local path = "`cwd_underscore'"
+        exit 0
+    }
+
+    if regexm("`cwd'", "(.+)/[^/]+/?$") {
+        local parent = regexs(1)
+        local parent_src = "`parent'/src/_/`fname'"
+        if (fileexists("`parent_src'")) {
+            return local path = "`parent_src'"
+            exit 0
+        }
+    }
+
     * Fallback: explicit sysdir_plus path (returned even if missing â€” caller checks)
-    local plus = c(sysdir_plus) + "_/`fname'"
+    local plus = subinstr(c(sysdir_plus), "\", "/", .) + "_/`fname'"
     return local path = "`plus'"
 end
 

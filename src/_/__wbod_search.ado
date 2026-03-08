@@ -8,12 +8,35 @@
 program define __wbod_search, rclass
     version 14.0
 
+    syntax [anything(name=keyword)] [, LIMIT(integer 20) SOURCE(string) ///
+        TOPIC(string) FIELD(string) EXACT DETAIL NOcache DEBUG]
+
+    local topic_input "`topic'"
+    local topic_dispatch "`topic'"
+    if ("`topic_dispatch'" != "" & length("`topic_dispatch'") == 1 & real("`topic_dispatch'") != .) {
+        local topic_dispatch = "0`topic_dispatch'"
+    }
+
     * Route to appropriate implementation based on Stata version
     if (`c(stata_version)' >= 16) {
-        __wbopendata_search_cache `0'
+        if (`"`keyword'"' != "") {
+            __wbopendata_search_cache `"`keyword'"', limit(`limit') source("`source'") ///
+                topic("`topic_dispatch'") field("`field'") `exact' `detail' `nocache' `debug'
+        }
+        else {
+            __wbopendata_search_cache, limit(`limit') source("`source'") ///
+                topic("`topic_dispatch'") field("`field'") `exact' `detail' `nocache' `debug'
+        }
     }
     else {
-        __wbopendata_search `0'
+        if (`"`keyword'"' != "") {
+            __wbopendata_search `"`keyword'"', limit(`limit') source("`source'") ///
+                topic("`topic_dispatch'") field("`field'") `exact' `detail' `nocache' `debug'
+        }
+        else {
+            __wbopendata_search, limit(`limit') source("`source'") ///
+                topic("`topic_dispatch'") field("`field'") `exact' `detail' `nocache' `debug'
+        }
     }
 
     * Pass through return values from implementation
@@ -26,7 +49,8 @@ program define __wbod_search, rclass
     return local topics = `"`r(topics)'"'
     return local keyword = "`r(keyword)'"
     return local source_filter = "`r(source_filter)'"
-    return local topic_filter = "`r(topic_filter)'"
+    if ("`topic_input'" != "") return local topic_filter = "`topic_input'"
+    else return local topic_filter = "`r(topic_filter)'"
     return local field_filter = "`r(field_filter)'"
     return local yaml_path = "`r(yaml_path)'"
     return local cmd = "`r(cmd)'"

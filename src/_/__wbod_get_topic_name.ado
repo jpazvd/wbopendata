@@ -7,6 +7,10 @@ program define __wbod_get_topic_name, rclass
     args topic_id
     
     local topic_name ""
+    local topic_lookup = strtrim("`topic_id'")
+    if regexm("`topic_lookup'", "^0+([0-9]+)$") {
+        local topic_lookup = regexs(1)
+    }
     
     __wbod_get_yaml_path, type(topics)
     local top_yaml = r(path)
@@ -20,7 +24,7 @@ program define __wbod_get_topic_name, rclass
             * Find the line with the topic ID as key
             * Format is "'XX':" (quotes around ID, then colon)
             * Match lines where trimmed content starts with 'ID':
-            local pattern = "'" + "`topic_id'" + "':"
+            local pattern = "'" + "`topic_lookup'" + "':"
             gen byte is_key = (strtrim(rawline) == "`pattern'")
             sum linenum if is_key, meanonly
             
