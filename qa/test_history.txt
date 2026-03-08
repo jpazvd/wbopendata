@@ -862,3 +862,47 @@ Tests:    92 run, 92 passed, 0 failed
 Result:   ALL TESTS PASSED
 Log:      test_results_v18.4.0_24Feb2026.log
 ======================================================================
+
+======================================================================
+Test Run:  7 Mar 2026
+Started:  20:10:41
+Ended:    20:30:05
+Duration: 19m 24s
+Version:  18.4.0
+Build:    24Feb2026
+Branch:   feat/tsj-naming-compliance
+Stata:    17
+Tests:    92 run, 88 passed, 4 failed
+Result:   FAILED
+Failed:   CACHE-01, CACHE-02, DISC-08, DISC-10
+Log:      test_results_v18.4.0_7Mar2026.log
+======================================================================
+
+======================================================================
+Test Run:  7 Mar 2026
+Started:  20:36:32
+Ended:    20:54:46
+Duration: 18m 14s
+Version:  18.4.0
+Build:    24Feb2026
+Branch:   feat/tsj-naming-compliance
+Stata:    17
+Tests:    92 run, 90 passed, 2 failed
+Result:   FAILED
+Failed:   CACHE-01, CACHE-02
+Log:      test_results_v18.4.0_7Mar2026.log
+======================================================================
+
+======================================================================
+Test Run:  7 Mar 2026
+Started:  20:57:25
+Ended:    21:15:55
+Duration: 18m 30s
+Version:  18.4.0
+Build:    24Feb2026
+Branch:   feat/tsj-naming-compliance
+Stata:    17
+Tests:    92 run, 92 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.4.0_7Mar2026.log
+======================================================================
