@@ -11,9 +11,15 @@
 *   Expected Skip:  7 (ENV-01/03/04, CACHE-01/02, DISC-08/10)
 *   Expected Fail:  0 (all core functionality tests pass)
 *   
-*   Skipped tests are NORMAL and EXPECTED in submission mode. They cover
-*   repo-only validations plus cache/discovery assertions that can vary by
-*   installation path normalization or metadata state.
+*   Skipped tests are NORMAL and EXPECTED in submission mode. They cover:
+*   (a) development-repository integrity checks that require the full GitHub
+*       source tree (ENV-01, ENV-03, ENV-04), and
+*   (b) a small set of environment-sensitive cache/discovery assertions that can
+*       vary by installed-package path resolution, Windows normalization, or
+*       local metadata/cache state (CACHE-01/02, DISC-08/10).
+*
+*   Submission mode therefore validates the reproducibility of the shipped
+*   paper/examples bundle, not every invariant of the full development repo.
 *   
 * ► DEVELOPMENT MODE (main repo, without submission.cfg):
 *   Tests Run:      91 (all tests attempt to run)
@@ -59,12 +65,14 @@
 *      - Expects 85 passing tests and 0 failures
 *      - Use metadata from qa/cache/ (included in distribution)
 *      - Use fixtures from qa/fixtures/ (included in distribution)
+*      - Validates the submission archive as shipped to reviewers
 *   
 *   2. DEVELOPMENT MODE (no submission.cfg, repo access available):
 *      - Runs all 91 tests
 *      - Expects all 91 tests to pass
 *      - Use metadata from installed package
 *      - Use fixtures from qa/fixtures/
+*      - Validates full repository integrity and software behavior
 *   
 *   3. RESTRICTED MODE (no submission.cfg, no repo access):
 *      - Prompts for repo path or suggests using "norepo" option
@@ -72,10 +80,11 @@
 *
 * First-Time Reviewers:
 *   DO NOT WORRY if you see 7 tests skipped.
-*   This is NORMAL and EXPECTED in submission context. The skipped tests cover
-*   repo-only checks plus a small set of cache/discovery assertions that can
-*   vary by Windows path normalization or metadata state. The package still
-*   passes all applicable tests.
+*   This is NORMAL and EXPECTED in submission context. The skipped tests do not
+*   mean that the paper itself is irreproducible. Three skips are development-
+*   repo checks that are not meaningful in a stripped submission archive; four
+*   more are environment-sensitive assertions that can vary by install path or
+*   metadata/cache state. The package still passes all applicable submission QA.
 *
 * Cache & Sync Strategy:
 *   The test suite manages metadata cache (YAML files) carefully to balance

@@ -159,19 +159,72 @@ Edit `submission.cfg` to:
 
 ## Expected Test Results
 
-### Passing Tests (~79)
-- Framework setup (ENV-02, ENV-05)
-- YAML reading and cache management (CACHE-01 to CACHE-04)
-- Search and discovery (DISC-01 to DISC-11)
-- Data queries (API-01 to API-13)
-- Offline fixture tests (DET-01 to DET-05)
-- Help examples (STHLP-01+)
+### What this QA folder is meant to validate
 
-### Known Skips/Failures
-- **ENV-01**: Version sync check (expected for submission)
-- **ENV-03/04**: Package file sync checks (expected for submission)
-- **CACHE-01/02**: YAML path assertions (can false-fail on mixed path normalization in Windows submission installs)
-- **DISC-08/10**: Browse/topic metadata assertions (can vary by cache/API metadata state)
+This submission QA folder is designed to validate the **reproducibility of the
+submission package**, not the integrity of the full development repository.
+
+That distinction matters:
+
+- **Submission reproducibility checks** verify that a reviewer can run the
+   shipped tests, examples, fixtures, and metadata included in this archive.
+- **Development-repository integrity checks** verify properties of the full
+   `wbopendata-dev` source tree, such as source/package consistency and repo
+   layout. Those checks are appropriate in the main GitHub repository, but not
+   always in a journal submission bundle.
+
+### Expected submission-mode outcome
+
+When this folder is run as a standalone submission package, the expected result is:
+
+- **85 tests run**
+- **85 tests passed**
+- **7 tests skipped intentionally**
+- **0 failures**
+
+### Why 7 tests are skipped in submission mode
+
+The skips fall into two categories.
+
+#### 1. Full-repository checks (expected to require GitHub/source repo context)
+
+These tests are intended to work only when the code is being run from within the
+full `wbopendata-dev` repository:
+
+- **ENV-01** — version/source synchronization check
+- **ENV-03** — package file structure comparison
+- **ENV-04** — git/repository validation
+
+These tests validate the **development repository**, not the paper itself. Their
+absence from a submission-only run does **not** imply that the paper examples or
+manuscript are irreproducible.
+
+#### 2. Environment-sensitive checks (currently skipped in submission mode)
+
+These tests exercise behavior that can vary depending on the local Stata install,
+metadata cache state, and Windows path handling:
+
+- **CACHE-01**
+- **CACHE-02**
+- **DISC-08**
+- **DISC-10**
+
+They are skipped in submission mode because the submission package is designed to
+run against shipped metadata and an installed package context rather than the full
+development tree. In some Windows reviewer environments, these assertions can fail
+even when the package behavior relevant to the paper remains correct.
+
+### Interpretation for reviewers
+
+The correct interpretation is:
+
+- **Full repo QA** answers: “Is the development repository internally consistent?”
+- **Submission QA** answers: “Can the shipped submission materials be executed and
+   validated reproducibly by a reviewer?”
+
+The submission package therefore aims to validate the reproducibility of the paper,
+examples, and bundled QA artifacts, while leaving a small number of repo-specific or
+environment-sensitive checks to the full GitHub repository.
 
 ## Path Portability
 
@@ -186,11 +239,19 @@ Run from anywhere: `do "...../qa/run_submission_qa.do"`
 
 ### Optional Tests Skipped: CACHE-01, CACHE-02, DISC-08, DISC-10
 
-**Problem:** Tests fail with "assertion is false" related to YAML files
+**Problem:** These tests may fail with "assertion is false" even when the
+submission package is otherwise functioning correctly.
   
-**Cause:** YAML metadata files not found in Stata's ado directory
+**Cause:** They depend on a combination of YAML lookup behavior, installed-package
+paths, and local metadata/cache state. In some reviewer setups—especially on
+Windows—path normalization and cache resolution can differ from the full
+development-repo context.
 
-**Solution:** Copy YAML files from cache:
+**Why this does not invalidate the paper:** These are not the core manuscript or
+example-reproduction checks. They are auxiliary software-behavior assertions that are
+more sensitive to execution context.
+
+**If you want to run them anyway:** Copy YAML files from cache:
 ```powershell
 Copy-Item -Path "qa\cache\_wbopendata_*.yaml" -Destination "$env:USERPROFILE\ado\plus\_\" -Force
 ```
@@ -221,13 +282,31 @@ You should see 4 files:
 
 **Status:** Expected behavior in submission mode
 
-**Reason:** These tests validate repository source files which are not included in the submission package
+**Reason:** These tests validate repository source files and git/repo structure that
+exist only in the full `wbopendata-dev` GitHub repository, not in the compiled
+submission package.
+
+**Interpretation:** These are **development integrity checks**, not direct checks of
+paper reproducibility.
 
 **Expected Result:**
 - **85 tests run** (7 skipped)
 - **85 tests passed** (0 failures)
-- Skips cover repo-only checks plus cache/discovery assertions that vary by submission environment
+- Skips cover repo-only checks plus a small set of environment-sensitive assertions
 - Test summary shows: "✓ SUBMISSION MODE: expected skips applied"
+
+### If you want the full non-skipping QA
+
+Run the main development-repository QA from the full source tree instead of the
+submission bundle:
+
+```stata
+cd ".../wbopendata-dev/qa"
+do run_tests.do
+```
+
+That full-repository run is the one expected to exercise the complete development QA
+contract.
 
 ### Cannot Find Stata Executable
 
