@@ -1,7 +1,7 @@
-. wbopendata, language(en) indicator(platypus) long clear
-
+. cap noi wbopendata, language(en) indicator(platypus) long clear
+{\smallskip}
     Sorry... No data was downloaded for indicator platypus.
-
+{\smallskip}
     (1) Please check your internet connection by clicking here, if does not
     work please check with your internet provider or IT support, otherwise...
     (2) Please check your access to the World Bank API by clicking here, if
@@ -17,9 +17,11 @@
     (6) Please send us an email to report this error by clicking here or
     writing to:
             email: data@worldbank.org
-            subject: wbopendata query error at 5 Jan 2026 14:07:20:
+            subject: wbopendata query error at 7 Mar 2026 19:12:19:
     https://api.worldbank.org/v2/en/countries/all/Indicators/platypus?download
-    > format=CSV&HREQ=N&filetype=data
-
-. di as text "Captured return code (expected nonzero): "
-Captured return code (expected nonzero):
+    > format=CSV\&HREQ=N\&filetype=data
+{\smallskip}
+{\smallskip}
+{\smallskip}
+. di as text "  return code (expected nonzero): " _rc
+  return code (expected nonzero): 20

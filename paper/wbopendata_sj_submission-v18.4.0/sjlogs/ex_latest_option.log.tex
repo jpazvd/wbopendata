@@ -1,20 +1,21 @@
-. wbopendata, indicator(SI.POV.DDAY) clear long latest ///
-      linewrap(name note) maxlength(35 70)
-
-    Metadata for indicator SI.POV.DDAY
---------------------------------------------------------------------------------
-    Name: Poverty headcount ratio at $3.00 a day (2021 PPP) (% of
+. wbopendata, indicator(SI.POV.DDAY) clear long latest linewrap(name note) maxle
+> ngth(35 70)
+(using cached data: ind_si_pov_dday_all_en.csv, TTL 7d)
+{\smallskip}
+    {\bftt{Metadata for indicator}} SI.POV.DDAY
+\HLI{80}
+    {\bftt{Name}}: Poverty headcount ratio at $3.00 a day (2021 PPP) (\% of
     population)
---------------------------------------------------------------------------------
-    Collection: 2 World Development Indicators
---------------------------------------------------------------------------------
-    Description: Poverty headcount ratio at $3.00 a day is the percentage of
+\HLI{80}
+    {\bftt{Collection}}: 2 World Development Indicators
+\HLI{80}
+    {\bftt{Description}}: Poverty headcount ratio at $3.00 a day is the percentage of
     the population living on less than $3.00 a day at 2021 purchasing power
     adjusted prices. As a result of revisions in PPP exchange rates, poverty
     rates for individual countries cannot be compared with poverty rates
     reported in earlier editions.
---------------------------------------------------------------------------------
-    Note: World Bank, Poverty and Inequality Platform. Data are based on
+\HLI{80}
+    {\bftt{Note}}: World Bank, Poverty and Inequality Platform. Data are based on
     primary household survey data obtained from government statistical
     agencies and World Bank country departments. Data for high-income
     economies are mostly from the Luxembourg Income Study database. For more
@@ -23,15 +24,29 @@
     primary household survey data obtained from government statistical
     agencies and World Bank country departments. Data for high-income
     economies are mostly from the Luxembourg Income Study database.
---------------------------------------------------------------------------------
-    Topic(s): 11 Poverty ; 2 Aid Effectiveness ; 19 Climate Change
---------------------------------------------------------------------------------
-
-. di as text "latest year: "
-latest year: 2024
-
-. di as text "countries: "
-countries: 186
-
-. di as text "avg year: "
-avg year:    2019.8
+\HLI{80}
+    {\bftt{Topic(}}{\sltt{s}}{\bftt{)}}: 11 Poverty ; 2 Aid Effectiveness ; 19 Climate Change
+\HLI{80}
+{\smallskip}
+{\smallskip}
+{\smallskip}
+. di as text "latest year retrieved:"
+latest year retrieved:
+{\smallskip}
+. return list
+{\smallskip}
+macros:
+               r(name) : "si_pov_dday"
+        r(latest_year) : "2024"
+     r(latest_avgyear) : "   2019.8"
+  r(latest_ncountries) : "186"
+             r(latest) : "Latest Available Year, 186 countries (avg year    .."
+          r(indicator) : "SI.POV.DDAY"
+              r(time1) : "year"
+          r(varlabel1) : "Poverty headcount ratio at $3.00 a day (2021 PPP) .."
+            r(source1) : "2 World Development Indicators"
+         r(indicator1) : "SI.POV.DDAY"
+           r(varname1) : "si_pov_dday"
+        r(sourcecite1) : "World Bank"
+        r(note1_stack) : ""World Bank, Poverty and Inequality Platform. Data.."
+        r(name1_stack) : ""Poverty headcount ratio at $3.00" "a day (2021 PP.."
