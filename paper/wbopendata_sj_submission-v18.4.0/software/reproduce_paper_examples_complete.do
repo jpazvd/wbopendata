@@ -1,3 +1,14 @@
+* Legacy entry point kept for compatibility.
+* Delegate to the portable submission runner and exit.
+local script_dir = subinstr(c(pwd), "\", "/", .)
+local thisfile = subinstr("`c(filename)'", "\", "/", .)
+if regexm("`thisfile'", "(.+)/[^/]+\\.do$") {
+    local script_dir = regexs(1)
+}
+cd "`script_dir'"
+do "reproduce_paper_examples.do"
+exit
+
 /*==============================================================================
     Reproduce Paper Examples (Complete, Self-Contained)
 

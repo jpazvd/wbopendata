@@ -1,5 +1,9 @@
-global REPRO_BASE "C:/GitHub/myados/wbopendata-dev/paper/wbopendata_sj_submission-v18.4.0"
-global REPRO_SOFTWARE "C:/GitHub/myados/wbopendata-dev/paper/wbopendata_sj_submission-v18.4.0/software"
+* Portable runner: works from any machine/location
+local script_dir = subinstr(c(pwd), "\", "/", .)
+local thisfile = subinstr("`c(filename)'", "\", "/", .)
+if regexm("`thisfile'", "(.+)/[^/]+\\.do$") {
+	local script_dir = regexs(1)
+}
 
-cd "$REPRO_SOFTWARE"
-do reproduce_paper_examples.do
+cd "`script_dir'"
+do "reproduce_paper_examples.do"
