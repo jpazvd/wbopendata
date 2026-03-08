@@ -1,27 +1,35 @@
-. * Global map: Fertility rate with Pastel2 color scheme
-. worldstat world, stat(FERT) fcolor(Pastel2)
+.     cap noi worldstat world, stat(FERT) fcolor(Pastel2)
 worldstat is built using the functionality of the module wbopendata.
-checking wbopendata consistency and verifying not already installed...
+checking {\bftt{wbopendata}} consistency and verifying not already installed...
 Accessing shape file for world to create geographical visualisation
 Accessing shape files for map output remotely
 (prefix now "http://damianclarke.net/stata/worldstat")
 Importing FERT from World Bank database
-
-    Metadata for indicator SP.DYN.TFRT.IN
---------------------------------------------------------------------------------
-    Name: Fertility rate, total (births per woman)
---------------------------------------------------------------------------------
-    Collection: 2 World Development Indicators
---------------------------------------------------------------------------------
-    Description: Total fertility rate represents the number of children that
+(using cached data: ind_sp_dyn_tfrt_in_all_en.csv, TTL 7d)
+{\smallskip}
+    {\bftt{Metadata for indicator}} SP.DYN.TFRT.IN
+\HLI{80}
+    {\bftt{Name}}: Fertility rate, total (births per woman)
+\HLI{80}
+    {\bftt{Collection}}: 2 World Development Indicators
+\HLI{80}
+    {\bftt{Description}}: Total fertility rate represents the number of children that
     would be born to a woman if she were to live to the end of her
     childbearing years and bear children in accordance with age-specific
     fertility rates of the specified year.
---------------------------------------------------------------------------------
-    Note: World Population Prospects, United Nations (UN), publisher: UN
+\HLI{80}
+    {\bftt{Note}}: World Population Prospects, United Nations (UN), publisher: UN
     Population Division;
---------------------------------------------------------------------------------
-    Topic(s):  ; 8 Health
---------------------------------------------------------------------------------
-
+\HLI{80}
+    {\bftt{Topic(}}{\sltt{s}}{\bftt{)}}:  ; 8 Health ; 17 Gender
+\HLI{80}
+{\smallskip}
+{\smallskip}
 Visualising data
+{\smallskip}
+{\smallskip}
+{\smallskip}
+For a full list of indicators, see http://worldbank.270a.info/classification/ind
+> icator.html.
+.     sjlog close, replace
+{\smallskip}
