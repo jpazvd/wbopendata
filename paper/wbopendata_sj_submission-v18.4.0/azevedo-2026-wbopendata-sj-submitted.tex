@@ -3,6 +3,10 @@
 % Submission version for Stata Journal
 % =====================================================================
 
+\ifdefined\pdfminorversion
+  \pdfminorversion=7
+\fi
+
 \PassOptionsToPackage{hidelinks}{hyperref}
 \documentclass[bib]{statapress}
 
@@ -1329,7 +1333,7 @@ provided verbatim.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.85\textwidth]{figs/wbopendata_example01.pdf}
-\caption{Mobile cellular subscriptions per 100 people (latest available year). Created by merging \texttt{wbopendata} output with geographic shape data and visualizing using the \texttt{spmap} command \citep{pisati2007spmap}.}
+\caption{Mobile cellular subscriptions per 100 people, latest available year.}
 \label{fig:map}
 \end{figure}
 
@@ -1341,7 +1345,7 @@ provided verbatim.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.85\textwidth]{figs/wbopendata_example04.pdf}
-\caption{Poverty headcount ratio versus GDP per capita (PPP, constant international \$). Regional aggregates are labeled; lowess smoother shows the cross-country relationship.}
+\caption{Poverty headcount ratio versus GDP per capita across countries.}
 \label{fig:scatter}
 \end{figure}
 
@@ -1361,7 +1365,7 @@ that rely on \texttt{wbopendata} internally.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.85\textwidth]{figs/wbopendata_worldstat_africa_gdp.pdf}
-\caption{GDP per capita (constant 2015 US\$) in Africa, 2009. Generated using \texttt{worldstat} \citep{clarke2012worldstat}, which calls \texttt{wbopendata} internally.}
+\caption{GDP per capita in Africa, 2009.}
 \label{fig:worldstat_africa}
 \end{figure}
 
@@ -1373,7 +1377,7 @@ that rely on \texttt{wbopendata} internally.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.85\textwidth]{figs/wbopendata_worldstat_world_fertility.pdf}
-\caption{Fertility rate (births per woman) worldwide. The \texttt{worldstat} command uses \texttt{wbopendata} internally to retrieve World Bank indicators.}
+\caption{Fertility rate, births per woman, worldwide.}
 \label{fig:worldstat_fertility}
 \end{figure}
 
