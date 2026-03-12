@@ -29,7 +29,6 @@
 \HLI{80}
 {\smallskip}
 {\smallskip}
-(using cached data: ind_sh_dyn_mort_all_en.csv, TTL 7d)
 {\smallskip}
     {\bftt{Metadata for indicator}} SH.DYN.MORT
 \HLI{80}
@@ -79,3 +78,19 @@ macros:
   r(description1_stac
     k)                 : ""Poverty headcount ratio at $3.00 a day is the per.."
         r(name1_stack) : ""Poverty headcount ratio at $3.00 a day" "(2021 PP.."
+{\smallskip}
+. * Capture r() values before sjlog close clears them
+. local name1 `"`r(name1_stack)'"'
+{\smallskip}
+. local name2 `"`r(name2_stack)'"'
+{\smallskip}
+. local desc1 `"`r(description1_stack)'"'
+{\smallskip}
+. local desc2 `"`r(description2_stack)'"'
+{\smallskip}
+. local src1 `"`r(sourcecite1)'"'
+{\smallskip}
+. local src2 `"`r(sourcecite2)'"'
+{\smallskip}
+. local subtitle `"`r(latest)'"'
+{\smallskip}

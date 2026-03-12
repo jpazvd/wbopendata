@@ -91,17 +91,18 @@ sjlog using "`logs_dir'/ex_linewrap_returns", replace
 wbopendata, indicator(SI.POV.DDAY; SH.DYN.MORT) clear long latest ///
     linewrap(name description note) maxlength(40 160)
 return list
+* Capture r() values before sjlog close clears them
+local name1 `"`r(name1_stack)'"'
+local name2 `"`r(name2_stack)'"'
+local desc1 `"`r(description1_stack)'"'
+local desc2 `"`r(description2_stack)'"'
+local src1 `"`r(sourcecite1)'"'
+local src2 `"`r(sourcecite2)'"'
+local subtitle `"`r(latest)'"'
 sjlog close, replace
 
 di as text _n "=== Example 4b: graph using returned metadata ==="
 sjlog using "`logs_dir'/ex_linewrap_graph", replace
-local name1 "`r(name1_stack)'"
-local name2 "`r(name2_stack)'"
-local desc1 "`r(description1_stack)'"
-local desc2 "`r(description2_stack)'"
-local src1 "`r(sourcecite1)'"
-local src2 "`r(sourcecite2)'"
-local subtitle "`r(latest)'"
 set scheme sj
 twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue%50)), ///
     xtitle(`name1', size(small)) ///
