@@ -1,5 +1,5 @@
 *******************************************************************************
-*! __wbod_parse_yaml_ind_v2 v1.1.0  21Feb2026
+*! __wbod_parse_yaml_ind_v2 v1.1.1  11Mar2026
 *! Parse YAML indicators file using yaml.ado bulk collapse (faster)
 *! Drop-in replacement for __wbod_parse_yaml_ind.ado
 *! v1.1.0: Strip empty YAML arrays [], add source_org to colfields
