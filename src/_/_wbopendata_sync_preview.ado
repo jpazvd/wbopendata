@@ -1,6 +1,7 @@
 *******************************************************************************
-*! _wbopendata_sync_preview v1.3.0  22Feb2026
+*! _wbopendata_sync_preview v1.3.1  19Apr2026
 *! Display metadata status diagnostic before sync
+*! v1.3.1: Fix action links — add 'replace' so clicks trigger sync not dry-run; add forcestata link
 *! v1.2.0: Added country metadata count display
 *! v1.1.0: Added detail option for per-source/topic breakdown
 *! Author: João Pedro Azevedo (World Bank | UNICEF)
