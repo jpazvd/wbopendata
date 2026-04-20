@@ -1,5 +1,6 @@
 *******************************************************************************
-*! __wbopendata_search_cache v3.2.0  21Feb2026
+*! __wbopendata_search_cache v3.3.0  20Apr2026
+*! v3.3.0: Add page() option with clickable [Prev]/[Next] pagination
 *! v3.2.0: Fix clickable links: source() -> searchsource(), topic() -> searchtopic()
 *! Search indicators with frame-based session caching (Stata 16+)
 *! Uses __wbod_parse_yaml_ind, caches processed dataset in frame for speed
@@ -7,8 +8,8 @@
 
 program define __wbopendata_search_cache, rclass
     version 16.0
-    syntax [anything(name=keyword)] [, LIMIT(integer 20) SOURCE(string) ///
-        TOPIC(string) FIELD(string) EXACT DETAIL NOcache DEBUG]
+    syntax [anything(name=keyword)] [, LIMIT(integer 20) PAGE(integer 1) ///
+        SOURCE(string) TOPIC(string) FIELD(string) EXACT DETAIL NOcache DEBUG]
 
     * Strip surrounding quotes from keyword
     local kw `keyword'
@@ -16,6 +17,7 @@ program define __wbopendata_search_cache, rclass
     local kw = strtrim("`kw'")
     local kw_lower = lower("`kw'")
     local limit = cond(`limit' <= 0, 20, `limit')
+    if (`page' < 1) local page = 1
 
     * Check for multi-keyword AND search (keyword1+keyword2+keyword3)
     local multi_kw = 0
@@ -324,6 +326,8 @@ program define __wbopendata_search_cache, rclass
         restore
         return scalar n_results = 0
         return scalar n_displayed = 0
+        return scalar page = 1
+        return scalar n_pages = 0
         return local keyword = "`kw'"
         return local source_filter = "`source'"
         return local topic_filter = "`topic'"
@@ -337,6 +341,8 @@ program define __wbopendata_search_cache, rclass
         restore
         return scalar n_results = `n'
         return scalar n_displayed = min(`n', `limit')
+        return scalar page = `page'
+        return scalar n_pages = ceil(`n' / `limit')
         return local keyword = "`kw'"
         return local source_filter = "`source'"
         return local topic_filter = "`topic'"
@@ -359,19 +365,27 @@ program define __wbopendata_search_cache, rclass
         replace field_source = "N/A" if field_source == ""
     }
 
-    * Smart limit: if total ≤ 30, show all; otherwise use specified limit
-    local lim = cond(`n' <= 30, `n', cond(`limit' < `n', `limit', `n'))
+    * Pagination: compute total pages, clamp page, determine slice
+    local total_pages = ceil(`n' / `limit')
+    if (`total_pages' < 1) local total_pages = 1
+    if (`page' > `total_pages') local page = `total_pages'
+    local pg_start = (`page' - 1) * `limit' + 1
+    local pg_end = min(`page' * `limit', `n')
+    local lim = `pg_end' - `pg_start' + 1
 
     * Build header
     di as text ""
     if ("`kw'" != "") {
-        di as result "Search results for " as text `""`kw'""' as result " (showing `lim' of `n' matches)"
+        di as result "Search results for " as text `""`kw'""' as result ///
+            " (page `page' of `total_pages' — showing `pg_start'-`pg_end' of `n' matches)"
     }
     else if ("`source'" != "") {
-        di as result "Indicators from source `source'" as text " (showing `lim' of `n')"
+        di as result "Indicators from source `source'" as text ///
+            " (page `page' of `total_pages' — showing `pg_start'-`pg_end' of `n')"
     }
     else if ("`topic'" != "") {
-        di as result "Indicators in topic `topic'" as text " (showing `lim' of `n')"
+        di as result "Indicators in topic `topic'" as text ///
+            " (page `page' of `total_pages' — showing `pg_start'-`pg_end' of `n')"
     }
 
     * Build return values
@@ -389,7 +403,7 @@ program define __wbopendata_search_cache, rclass
         *-----------------------------------------------------------------------
         di as text "{hline}"
 
-        forvalues i = 1/`lim' {
+        forvalues i = `pg_start'/`pg_end' {
             local code = ind_code[`i']
             local nm = field_name[`i']
             local src_id = field_source_id[`i']
@@ -418,9 +432,10 @@ program define __wbopendata_search_cache, rclass
             local topics `"`topics' "`topic_nm'""'
         }
 
-        if (`lim' < `n') {
-            di as text "Showing `lim' of `n' results. Use " as result "limit(#)" as text " to see more."
-        }
+        * Pagination nav (shown only when there is more than one page)
+        __wbod_search_pagenav, page(`page') total_pages(`total_pages') ///
+            keyword(`"`kw'"') source("`source'") topic("`topic'") ///
+            field("`field'") limit(`limit') `exact' `detail'
 
         * Navigation tips for detail format
         di as text ""
@@ -447,7 +462,7 @@ program define __wbopendata_search_cache, rclass
         di as text %-22s "Code" " " %-`name_width's "Name" " " %6s "Source" " " %-`topic_width's "Topic" " " "[Info]" " " "[Get]"
         di as text "{hline}"
 
-        forvalues i = 1/`lim' {
+        forvalues i = `pg_start'/`pg_end' {
             local code = ind_code[`i']
             local nm = field_name[`i']
             local src_id = field_source_id[`i']
@@ -501,9 +516,10 @@ program define __wbopendata_search_cache, rclass
 
         di as text "{hline}"
 
-        if (`lim' < `n') {
-            di as text "Showing `lim' of `n' results. Use " as result "limit(#)" as text " to see more."
-        }
+        * Pagination nav (shown only when there is more than one page)
+        __wbod_search_pagenav, page(`page') total_pages(`total_pages') ///
+            keyword(`"`kw'"') source("`source'") topic("`topic'") ///
+            field("`field'") limit(`limit') `exact' `detail'
 
         * Navigation tips
         di as text ""
@@ -516,6 +532,8 @@ program define __wbopendata_search_cache, rclass
     *---------------------------------------------------------------------------
     return scalar n_results = `n'
     return scalar n_displayed = `lim'
+    return scalar page = `page'
+    return scalar n_pages = `total_pages'
     local first = ind_code[1]
     return local first_code = "`first'"
     return local codes = strtrim("`codes'")
@@ -538,7 +556,7 @@ program define __wbopendata_search_cache, rclass
     if ("`field'" != "")  local cmd "`cmd' field(`field')"
     if ("`exact'" != "")  local cmd "`cmd' exact"
     if ("`detail'" != "") local cmd "`cmd' detail"
-    local cmd "`cmd' limit(`limit')"
+    local cmd "`cmd' limit(`limit') page(`page')"
     return local cmd = "`cmd'"
 
     restore

@@ -92,6 +92,7 @@ version 14.0
 						ALLTOPICS		///
 						SEARCH(string)	///
 						LIMIT(string)	///
+						PAGE(string)	///
 						SEARCHSOURCE(string)	///
 						SEARCHTOPIC(string)	///
 						SEARCHFIELD(string)	///
@@ -118,6 +119,12 @@ local limit_val = 20
 if (`limit_specified') {
 	local limit_val = real("`limit'")
 	if (missing(`limit_val') | `limit_val' <= 0) local limit_val = 20
+}
+
+local page_val = 1
+if ("`page'" != "") {
+	local page_val = real("`page'")
+	if (missing(`page_val') | `page_val' < 1) local page_val = 1
 }
 
 
@@ -173,7 +180,7 @@ local indicator `indicators'
 		}
 		* Search indicators (also handles browse mode when only filter is provided)
 		if ("`search'" != "" | `has_search_filter') {
-			noisily __wbod_search "`search'", limit(`limit_val') ///
+			noisily __wbod_search "`search'", limit(`limit_val') page(`page_val') ///
 				source("`searchsource'") topic("`searchtopic'") ///
 				field("`searchfield'") `exact' `detail'
 			return add

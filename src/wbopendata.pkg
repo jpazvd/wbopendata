@@ -71,6 +71,7 @@ f _/__wbod_query_indicators.ado
 f _/__wbod_query_metadata.ado
 f _/__wbod_refresh_yaml.ado
 f _/__wbod_search.ado
+f _/__wbod_search_pagenav.ado
 f _/__wbopendata_search.ado
 f _/__wbopendata_search_cache.ado
 f _/__wbod_sources.ado

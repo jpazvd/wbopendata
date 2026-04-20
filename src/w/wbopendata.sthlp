@@ -83,7 +83,8 @@
 {synopt :{opt searchfield(fields)}} search in specific fields: code, name, description, source, topic, note, or all.{p_end}
 {synopt :{opt exact}} require exact match (no partial matching).{p_end}
 {synopt :{opt detail}} display search results in wrapped block format (full labels).{p_end}
-{synopt :{opt limit(#)}} maximum results to display (default 20).{p_end}
+{synopt :{opt limit(#)}} maximum results per page (default 20).{p_end}
+{synopt :{opt page(#)}} page of search results to display (default 1). Total pages = ceil(matches / limit); clickable [Prev]/[Next] links appear below the results.{p_end}
 {synopt :{opt info(code)}} display detailed metadata for a specific indicator.{p_end}
 {synoptline}
 {p 4 6 2}
@@ -461,6 +462,13 @@ topic names, and notes. Results include clickable [Info] and [Get] links for eac
 
 {pstd}Without {opt detail}, results display in a compact table format where long names are truncated.
 Column widths automatically adjust to your terminal's {cmd:linesize}.{p_end}
+
+{pstd}{ul:{bf:Paginating large result sets:}} When matches exceed {opt limit(#)}, results are split
+across pages. Use {opt page(#)} to jump to a specific page, or click the [Prev] / [Next] / page-number
+links rendered below the results.{p_end}
+
+{p 8 12}{stata "wbopendata, searchtopic(11) limit(20) page(2)" :. wbopendata, searchtopic(11) limit(20) page(2)}{p_end}
+{p 8 12}{stata "wbopendata, search(poverty) limit(10) page(3)" :. wbopendata, search(poverty) limit(10) page(3)}{p_end}
 
 {synopt :{opt exact}}Require exact code match (case-insensitive, no partial matching).{p_end}
 
