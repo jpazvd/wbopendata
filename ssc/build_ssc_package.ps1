@@ -54,47 +54,54 @@ foreach ($file in $mainFiles) {
 Write-Host "Copying internal functions..." -ForegroundColor Cyan
 $internalFiles = @(
     # Core API and query
-    "_api_read.ado",
-    "_api_read_indicators.ado",
-    "_countrymetadata.ado",
-    "_parameters.ado",
-    "_query.ado",
-    "_query_indicators.ado",
-    "_query_metadata.ado",
-    "_tknz.ado",
-    "_website.ado",
+    "__wbod_api_read.ado",
+    "__wbod_api_read_indicators.ado",
+    "__wbod_countrymetadata.ado",
+    "_wbod_tmpfile1.ado",
+    "_wbod_tmpfile2.ado",
+    "_wbod_tmpfile3.ado",
+    "__wbod_parameters.ado",
+    "__wbod_query.ado",
+    "__wbod_query_indicators.ado",
+    "__wbod_query_metadata.ado",
+    "__wbod_tknz.ado",
+    "__wbod_website.ado",
     # Display helpers
-    "_linewrap.ado",
-    "_metadata_linewrap.ado",
+    "__wbod_linewrap.ado",
+    "__wbod_metadata_linewrap.ado",
     # Update system
-    "_update_countrymetadata.ado",
-    "_update_indicators.ado",
-    "_update_regionmetadata.ado",
-    "_update_wbopendata.ado",
-    # Cache management (NEW v18.0)
-    "_wbopendata_cache.ado",
-    "_wbopendata_cache_clear.ado",
-    "_wbopendata_cache_info.ado",
-    "_wbopendata_check_version.ado",
-    # YAML support (NEW v18.0)
-    "_wbopendata_download_yaml.ado",
-    "_wbopendata_get_yaml_path.ado",
-    "_wbopendata_refresh_yaml.ado",
-    # Discovery commands (NEW v18.0)
-    "_wbopendata_get_source_name.ado",
-    "_wbopendata_get_topic_name.ado",
-    "_wbopendata_info.ado",
-    "_wbopendata_search.ado",
-    "_wbopendata_sources.ado",
-    "_wbopendata_topics.ado",
-    # Sync system (NEW v18.0)
-    "_wbopendata_sync.ado",
-    "_wbopendata_sync_preview.ado",
-    "_wbopendata_write_stats_history.ado",
-    # Internal sub-sub-routines (NEW v18.0)
-    "__wbod_parse_yaml_ind.ado",
+    "__wbod_update_countrymetadata.ado",
+    "__wbod_update_indicators.ado",
+    "__wbod_update_regionmetadata.ado",
+    "__wbod_update_wbopendata.ado",
+    # Cache and version management
+    "__wbod_cache.ado",
+    "__wbod_check_version.ado",
+    "__wbod_check_yaml.ado",
+    # YAML support
+    "__wbod_get_yaml_path.ado",
+    "__wbod_refresh_yaml.ado",
+    "__wbod_yaml_metadata.ado",
+    "__yaml_collapse.ado",
+    "__yaml_fastread.ado",
+    "__yaml_mataread.ado",
+    "__yaml_tokenize_line.ado",
+    # Discovery commands
+    "__wbod_get_source_name.ado",
+    "__wbod_get_topic_name.ado",
+    "__wbod_info.ado",
+    "__wbod_search.ado",
     "__wbopendata_search.ado",
-    "__wbopendata_search_cache.ado"
+    "__wbopendata_search_cache.ado",
+    "__wbod_sources.ado",
+    "__wbod_topics.ado",
+    # Sync system
+    "__wbod_sync.ado",
+    "__wbod_sync_preview.ado",
+    "__wbod_write_stats_history.ado",
+    # YAML parser
+    "__wbod_parse_yaml_ind.ado",
+    "__wbod_parse_yaml_ind_v2.ado"
 )
 
 foreach ($file in $internalFiles) {

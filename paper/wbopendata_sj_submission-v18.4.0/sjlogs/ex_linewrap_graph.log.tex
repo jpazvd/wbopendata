@@ -1,0 +1,14 @@
+. set scheme sj
+{\smallskip}
+. twoway (scatter sh_dyn_mort si_pov_dday, msize(small) mcolor(blue\%50)), ///
+>     xtitle(`name1', size(small)) ///
+>     ytitle(`name2', size(small)) ///
+>     title("Poverty and Child Mortality", size(medium)) ///
+>     subtitle("`subtitle'", size(small)) ///
+>     caption("{\lbr}bf:Definitions:{\rbr}" ///
+>             "{\lbr}bf:X-axis:{\rbr} " `desc1' ///
+>             "{\lbr}bf:Y-axis:{\rbr} " `desc2', size(vsmall) span) ///
+>     note("{\lbr}bf:Data Sources:{\rbr}" ///
+>          "{\lbr}bf:X (Poverty):{\rbr} `src1'" ///
+>          "{\lbr}bf:Y (Mortality):{\rbr} `src2'", size(vsmall)) name(linewrap_ex, replace
+> )
