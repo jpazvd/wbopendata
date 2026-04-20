@@ -335,6 +335,7 @@ local indicator `indicators'
 		noi di `"{stata `"wbopendata, sync detail"':  wbopendata, sync detail}       - Detailed preview with source/topic breakdown"'
 		noi di `"{stata `"wbopendata, sync replace"':  wbopendata, sync replace}     - Apply metadata sync"'
 		noi di `"{stata `"wbopendata, sync replace force"':  wbopendata, sync replace force} - Force re-download metadata"'
+		noi di `"{stata `"wbopendata, sync replace forcestata"':  wbopendata, sync replace forcestata} - Force Stata pathway (bypass Python)"'
 		noi di `"{stata `"wbopendata, cacheinfo"':  wbopendata, cacheinfo}           - Display cache status"'
 		noi di `"{stata `"wbopendata, cleardatacache"':  wbopendata, cleardatacache}   - Clear cached API data"'
 		noi di ""

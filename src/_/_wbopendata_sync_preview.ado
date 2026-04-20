@@ -471,13 +471,13 @@ program define _wbopendata_sync_preview, rclass
     di ""
     di as text "Actions:"
     di ""
-    di `"  {stata wbopendata, sync:  Sync metadata now}"'
-    di `"  {stata wbopendata, sync force:  Force sync (even if fresh)}"'
+    di `"  {stata wbopendata, sync replace:  Sync metadata now}"'
+    di `"  {stata wbopendata, sync replace force:  Force sync (even if fresh)}"'
     if (`python_ok') {
-        di `"  {stata wbopendata, sync forcestata:  Force Stata pathway}"'
+        di `"  {stata wbopendata, sync replace forcestata:  Force Stata pathway}"'
     }
     else {
-        di `"  {stata wbopendata, sync forcepython:  Force Python pathway}"'
+        di `"  {stata wbopendata, sync replace forcepython:  Force Python pathway}"'
     }
     di ""
     di `"  {stata wbopendata, sources:  View sources}"'
