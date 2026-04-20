@@ -107,6 +107,7 @@ version 14.0
 						CLEARDATACACHE	///
 						RESETDATACACHE	///
 						FORCESTATA		///
+						FORCEPYTHON		///
 						VERBOSE			///
                  ]
 
@@ -257,7 +258,8 @@ local indicator `indicators'
 		di as text ""
 		di as text "Proceeding with sync..."
 		di as text ""
-		if ("`forcestata'" != "") __wbod_sync, forcestata
+		if ("`forcestata'" != "") __wbod_sync, forcestata `force'
+		else if ("`forcepython'" != "") __wbod_sync, forcepython `force'
 		else if ("`force'" != "") __wbod_sync, force
 		else __wbod_sync
 		local sync_rc = _rc

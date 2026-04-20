@@ -474,10 +474,8 @@ program define __wbod_sync_preview, rclass
     di ""
     di `"  {stata wbopendata, sync replace:  Sync metadata now}"'
     di `"  {stata wbopendata, sync replace force:  Force sync (even if fresh)}"'
+    di `"  {stata wbopendata, sync replace forcestata:  Force Stata pathway}"'
     if (`python_ok') {
-        di `"  {stata wbopendata, sync replace forcestata:  Force Stata pathway}"'
-    }
-    else {
         di `"  {stata wbopendata, sync replace forcepython:  Force Python pathway}"'
     }
     di ""
