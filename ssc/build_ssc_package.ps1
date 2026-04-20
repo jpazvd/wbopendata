@@ -158,6 +158,27 @@ foreach ($file in $yamlLibFiles) {
     }
 }
 
+# Copy Python files for forcepython pathway
+# Note: update_metadata.do excluded — hardcoded dev paths (C:/GitHub/myados/wbopendata)
+Write-Host "Copying Python files..." -ForegroundColor Cyan
+$pythonFiles = @(
+    "__init__.py",
+    "update_metadata.py",
+    "wb_api_client.py",
+    "yaml_generator.py",
+    "schema_validator.py",
+    "diff_analyzer.py",
+    "git_manager.py"
+)
+
+foreach ($file in $pythonFiles) {
+    if (Test-Path "src\py\$file") {
+        Copy-Item "src\py\$file" "$tempDir\" -Force
+    } else {
+        Write-Host "  WARNING: Missing src\py\$file" -ForegroundColor Red
+    }
+}
+
 # Copy data files
 Write-Host "Copying data files..." -ForegroundColor Cyan
 Copy-Item "src\c\country.txt" "$tempDir\" -Force
