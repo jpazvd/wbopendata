@@ -1,7 +1,9 @@
 {smcl}
-{* *! version 18.3.1  23Feb2026}{...}
+{* *! version 18.4.1  19Apr2026}{...}
 {vieweralsosee "wbopendata" "help wbopendata"}{...}
 {viewerjumpto "What's New" "wbopendata_whatsnew##whatsnew"}{...}
+{viewerjumpto "Version 18.4.1" "wbopendata_whatsnew##v1841"}{...}
+{viewerjumpto "Version 18.3.2" "wbopendata_whatsnew##v1832"}{...}
 {viewerjumpto "Version 18.3.1" "wbopendata_whatsnew##v1831"}{...}
 {viewerjumpto "Version 18.3.0" "wbopendata_whatsnew##v1830"}{...}
 {viewerjumpto "Version 18.2" "wbopendata_whatsnew##v182"}{...}
@@ -23,6 +25,31 @@
 {pstd}
 This file documents recent changes and new features in the {cmd:wbopendata} module.
 For complete documentation, see {help wbopendata:help wbopendata}.
+
+{marker v1841}{...}
+{title:Version 18.4.1 (19Apr2026)}
+
+{pstd}
+{bf:Bug fix: Country context variables restored} - The 8 default country context
+variables ({opt region}, {opt regionname}, {opt adminregion}, {opt adminregionname},
+{opt incomelevel}, {opt incomelevelname}, {opt lendingtype}, {opt lendingtypename})
+were silently missing since v18.0.0 despite being the documented default since v17.7.
+Fixed by re-including the country lookup programs ({cmd:_wbod_tmpfile1/2/3.ado}) in
+the package. Use {opt nobasic} to suppress these variables.
+Users can refresh country metadata from the World Bank API with:
+{cmd:wbopendata, update countrymetadata}
+
+{pstd}
+{bf:Bug fix: Help file truncation} - The database list in {cmd:help wbopendata}
+was truncated mid-word ("Gender Statist lth Nutrition...") due to a SMCL line
+length limit. Fixed by splitting the physical line.
+
+{marker v1832}{...}
+{title:Version 18.3.2 (23Feb2026)}
+
+{pstd}
+{bf:Frame cache completeness} - All three metadata frames ({it:_wbod_indicators}, {it:_wbod_sources}, {it:_wbod_topics})
+are now properly invalidated on sync operations. Cache manifest documentation added; test documentation clarified.
 
 {marker v1831}{...}
 {title:Version 18.3.1 (23Feb2026)}

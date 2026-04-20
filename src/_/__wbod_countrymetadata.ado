@@ -1,0 +1,175 @@
+*******************************************************************************
+*  _countrymetadata2
+*! v 16.1  	4Jan2026                by Joao Pedro Azevedo
+*	v 16.1: Added handling for basic option to set 8 default country context variables
+*! v 16.0.1  	3Jan2026                by Joao Pedro Azevedo   
+*	Bug fix: Deduplicate variable list before order to prevent r(198)
+*******************************************************************************
+*! v 16.0  	27Oct2019               by Joao Pedro Azevedo   
+*	self-standing code to create country attribute table
+* 	support lower case match variables
+*******************************************************************************
+
+program define __wbod_countrymetadata , rclass
+
+	version 9.0
+
+	******************************************************
+
+	syntax ,						///
+			match(varname) 			///
+			[ 						///
+				ISO					///
+				REGIONS				///
+				ADMINR				///
+				INCOME				///
+				LENDING				///
+				geo			///
+				BASIC				///
+				FULL				///
+				countrycode_iso2 	///
+				region 				///
+				region_iso2 		///
+				regionname 			///
+				adminregion 		///
+				adminregion_iso2 	///
+				adminregionname 	///
+				incomelevel 		///
+				incomelevel_iso2 	///
+				incomelevelname 	///
+				lendingtype 		///
+				lendingtype_iso2 	///
+				lendingtypename 	///
+			capital 			///
+			latitude 			///
+			longitude 			///
+			countryname			///
+			lower				///
+		]
+	qui {
+	
+	******************************************************
+	* create lists of metadata by type
+		local tmpisolist " countrycode_iso2 region_iso2 adminregion_iso2 incomelevel_iso2 lendingtype_iso2 "
+		local tmpregionlist " region region_iso2 regionname  "
+		local tmpadminlist " adminregion adminregion_iso2 adminregionname "
+		local tmpincomelist " incomelevel incomelevel_iso2 incomelevelname "
+		local tmplendinglist " lendingtype lendingtype_iso2 lendingtypename "
+		local tmpcapitallist " capital latitude longitude "
+
+	******************************************************
+	* asign list variable values if options are selected			
+		if ("`iso'" == "iso") {
+			foreach word in `tmpisolist' {
+				local `word' "`word'"
+			}
+		}
+		if ("`regions'" == "regions") {
+			foreach word in  `tmpregionlist'  {
+				local `word' "`word'"
+			}
+		}
+		if ("`adminr'" == "adminr") {
+			foreach word in  `tmpadminlist'  {
+				local `word' "`word'"
+			}
+		}
+		if ("`income'" == "income") {
+			foreach word in  `tmpincomelist' {
+				local `word' "`word'"
+			}
+		}
+		if ("`lending'" == "lending") {
+			foreach word in  `tmplendinglist'  {
+				local `word' "`word'"
+			}
+		}
+	if ("`geo'" == "geo") {
+		foreach word in `tmpcapitallist' {
+			local `word' "`word'"
+		}
+	}
+	if ("`basic'" == "basic") {
+		* Basic adds the 8 default country context variables (without iso2 codes)
+		local region "region"
+		local regionname "regionname"
+		local adminregion "adminregion"
+		local adminregionname "adminregionname"
+		local incomelevel "incomelevel"
+		local incomelevelname "incomelevelname"
+		local lendingtype "lendingtype"
+		local lendingtypename "lendingtypename"
+	}
+	if ("`full'" == "full") {
+		local full	" countrycode_iso2  countryname  `tmpregionlist' `tmpadminlist' `tmpincomelist' `tmplendinglist' `tmpcapitallist' "
+			local basic " region regionname  adminregion adminregionname incomelevel incomelevelname lendingtype lendingtypename "
+		}
+
+	******************************************************
+	* create full list of variables
+		else {
+			local basic " `full' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `capitalist' "
+		}
+		
+	******************************************************
+	* add tmp prefix to all local. this will be used in the option of the subroutines
+		
+		foreach var in `full' `basic' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `capitalist' `countrycode_iso2' `countryname' `region'  `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname'  `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude' {
+		
+			local tmp`var' `var'
+		
+		}
+		
+	local tmpcountryname countryname
+		
+	******************************************************
+	* call the subroutines
+	
+		if (wordcount("`tmpcountrycode_iso2' `tmpcountryname' `tmpregion' `tmpregion_iso2' `tmpregionname' ") >= 1) {
+			cap: _wbod_tmpfile1, match(`match') `tmpcountrycode_iso2' `tmpcountryname' `tmpregion' `tmpregion_iso2' `tmpregionname' 
+
+			if (_rc == 0) {
+				local order "`order' `tmpcountrycode_iso2' `tmpcountryname' `tmpregion' `tmpregion_iso2' `tmpregionname'  "
+			}
+			if (_rc != 0) {
+				*noi di in r "variable `tmpcountrycode_iso2' `tmpcountryname' `tmpregion' `tmpregion_iso2' `tmpregionname'  already defined"
+			}
+		}
+
+		if (wordcount("`tmpadminregion' `tmpadminregion_iso2' `tmpadminregionname' `tmpincomelevel' `tmpincomelevel_iso2' `tmpincomelevelname'  ") >= 1) {
+			cap: _wbod_tmpfile2, match(`match') `tmpadminregion' `tmpadminregion_iso2' `tmpadminregionname' `tmpincomelevel' `tmpincomelevel_iso2' `tmpincomelevelname' 
+			if (_rc == 0) {
+				local order "`order' `tmpadminregion' `tmpadminregion_iso2' `tmpadminregionname' `tmpincomelevel' `tmpincomelevel_iso2' `tmpincomelevelname' "
+			}
+			if (_rc != 0) {
+				*noi di in r "variable `tmpadminregion' `tmpadminregion_iso2' `tmpadminregionname' `tmpincomelevel' `tmpincomelevel_iso2' `tmpincomelevelname' "
+			}
+		}
+		
+		if (wordcount("`tmplendingtype' `tmplendingtype_iso2' `tmplendingtypename' `tmpcapital' `tmplongitude' `tmplatitude' ") >= 1) {
+			cap: _wbod_tmpfile3, match(`match') `tmplendingtype' `tmplendingtype_iso2' `tmplendingtypename' `tmpcapital' `tmplongitude' `tmplatitude' 
+				if (_rc == 0) {
+				local order "`order' `tmplendingtype' `tmplendingtype_iso2' `tmplendingtypename' `tmpcapital' `tmplongitude' `tmplatitude'  "
+			}
+			if (_rc != 0) {
+				*noi di in r "variable `tmplendingtype' `tmplendingtype_iso2' `tmplendingtypename' `tmpcapital' `tmplongitude' `tmplatitude'  already defined"
+			}
+		}
+		
+	******************************************************
+	* order variables
+		* Deduplicate before ordering to avoid r(198) from repeated names
+		local order_all = trim("countrycode countryname `order'")
+		local order_clean ""
+		foreach tok of local order_all {
+			if strpos(" `order_clean' ", " `tok' ") == 0 {
+				local order_clean "`order_clean' `tok'"
+			}
+		}
+		cap: order `order_clean'
+	
+	}
+
+end
+
+

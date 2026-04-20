@@ -1,10 +1,10 @@
 {smcl}
 {hline}
-{* 23Feb2026  }{...}
+{* 19Apr2026  }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
 {right:What's New:  {bf:{help wbopendata_whatsnew:What's New}}}
-{right: {bf:version 18.3.2}}
+{right: {bf:version 18.4.1}}
 {hline}
 
 {title:Title}
@@ -125,7 +125,12 @@ Sections are presented under the following headings:
 
 {p 4 4 2}The command exemplifies data acquisition as code: indicator selections, country lists, time ranges, and filters are explicitly parameterized in analysis scripts rather than buried in manual downloads, ensuring that data provenance is explicit and enabling analyses to be reproduced exactly or systematically updated as new data become available.{p_end}
 
-{p 4 4 2}The accessible databases include: World Development Indicators (WDI), Doing Business, Worldwide Governance Indicators, International Debt Statistics, Africa Development Indicators, Education Statistics, Enterprise Surveys, Gender Statistics, Health Nutrition and Population Statistics, Global Financial Inclusion (Findex), Poverty and Equity, Human Capital Index, Climate Change (CCDR), Sustainable Development Goals, and many more.{p_end}
+{p 4 4 2}The accessible databases include: World Development Indicators (WDI),
+Doing Business, Worldwide Governance Indicators, International Debt Statistics,
+Africa Development Indicators, Education Statistics, Enterprise Surveys,
+Gender Statistics, Health Nutrition and Population Statistics,
+Global Financial Inclusion (Findex), Poverty and Equity, Human Capital Index,
+Climate Change (CCDR), Sustainable Development Goals, and many more.{p_end}
 
 {p 4 4 2}Users can choose from one of three {cmd:languages} supported by the database (and Stata), namely, English, Spanish, or French.{p_end}
 
