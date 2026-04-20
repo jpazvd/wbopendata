@@ -106,6 +106,7 @@ version 14.0
 						CACHEDAYS(integer 7)	///
 						CLEARDATACACHE	///
 						RESETDATACACHE	///
+						FORCESTATA		///
 						VERBOSE			///
                  ]
 
@@ -256,7 +257,8 @@ local indicator `indicators'
 		di as text ""
 		di as text "Proceeding with sync..."
 		di as text ""
-		if ("`force'" != "") _wbopendata_sync, force
+		if ("`forcestata'" != "") _wbopendata_sync, forcestata
+		else if ("`force'" != "") _wbopendata_sync, force
 		else _wbopendata_sync
 		local sync_rc = _rc
 		if (`sync_rc' == 0) {
