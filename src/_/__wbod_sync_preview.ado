@@ -4,7 +4,7 @@
 *! v1.3.1: Fix action links — add 'replace' so clicks trigger sync not dry-run; add forcestata link
 *! v1.2.0: Added country metadata count display
 *! v1.1.0: Added detail option for per-source/topic breakdown
-*! Author: JoÃ£o Pedro Azevedo (World Bank | UNICEF)
+*! Author: João Pedro Azevedo (World Bank | UNICEF)
 *! Contact: https://jpazvd.github.io
 *! License: MIT
 *******************************************************************************

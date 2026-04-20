@@ -969,9 +969,9 @@ end
 * _website.ado : screens a text file and converts and http or www "word" to a SMCL 
 *    web compatible code.
 * _parameters.ado: now include detailed count of indicators by SOURCE and TOPIC
-* __wbod_update__wbod renamed version; original: _update__wbod
+* __wbod_update_wbopendata.ado: renamed from _update_wbopendata.ado
 * _indicator: renamed _update_indicators
-* _update__wbod.ado: now checks for changes at the SOURCE or TOPIC level
+* __wbod_update_wbopendata.ado: now checks for changes at the SOURCE or TOPIC level
 * fixed return list when multiple indicators are selected
 * updated help file to allow for the search of indicators by Source and Topics
 **********************************************************************************

@@ -279,7 +279,7 @@ quietly {
 
 			di "`variable'"
 
-			file write `out_`variable'' `"*! _`variable' <`datef' : `time'>			by JoÃ£o Pedro Azevedo"' 	_n
+			file write `out_`variable'' `"*! _`variable' <`datef' : `time'>			by João Pedro Azevedo"' 	_n
 			file write `out_`variable''  "	" _n
 
 			
