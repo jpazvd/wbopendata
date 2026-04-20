@@ -1,8 +1,8 @@
 {smcl}
-{* *! version 18.4.0  19Apr2026}{...}
+{* *! version 18.4.1  19Apr2026}{...}
 {vieweralsosee "wbopendata" "help wbopendata"}{...}
 {viewerjumpto "What's New" "wbopendata_whatsnew##whatsnew"}{...}
-{viewerjumpto "Version 18.4.0" "wbopendata_whatsnew##v1840"}{...}
+{viewerjumpto "Version 18.4.1" "wbopendata_whatsnew##v1841"}{...}
 {viewerjumpto "Version 18.3.1" "wbopendata_whatsnew##v1831"}{...}
 {viewerjumpto "Version 18.3.0" "wbopendata_whatsnew##v1830"}{...}
 {viewerjumpto "Version 18.2" "wbopendata_whatsnew##v182"}{...}
@@ -25,8 +25,8 @@
 This file documents recent changes and new features in the {cmd:wbopendata} module.
 For complete documentation, see {help wbopendata:help wbopendata}.
 
-{marker v1840}{...}
-{title:Version 18.4.0 (19Apr2026)}
+{marker v1841}{...}
+{title:Version 18.4.1 (19Apr2026)}
 
 {pstd}
 {bf:Bug fix: Country context variables restored} - The 8 default country context
