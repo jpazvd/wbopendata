@@ -1,6 +1,7 @@
 *******************************************************************************
-*! __wbod_sync_preview v1.3.0  22Feb2026
+*! __wbod_sync_preview v1.3.1  19Apr2026
 *! Display metadata status diagnostic before sync
+*! v1.3.1: Fix action links — add 'replace' so clicks trigger sync not dry-run; add forcestata link
 *! v1.2.0: Added country metadata count display
 *! v1.1.0: Added detail option for per-source/topic breakdown
 *! Author: JoÃ£o Pedro Azevedo (World Bank | UNICEF)
@@ -471,13 +472,11 @@ program define __wbod_sync_preview, rclass
     di ""
     di as text "Actions:"
     di ""
-    di `"  {stata wbopendata, sync:  Sync metadata now}"'
-    di `"  {stata wbopendata, sync force:  Force sync (even if fresh)}"'
+    di `"  {stata wbopendata, sync replace:  Sync metadata now}"'
+    di `"  {stata wbopendata, sync replace force:  Force sync (even if fresh)}"'
+    di `"  {stata wbopendata, sync replace forcestata:  Force Stata pathway}"'
     if (`python_ok') {
-        di `"  {stata wbopendata, sync forcestata:  Force Stata pathway}"'
-    }
-    else {
-        di `"  {stata wbopendata, sync forcepython:  Force Python pathway}"'
+        di `"  {stata wbopendata, sync replace forcepython:  Force Python pathway}"'
     }
     di ""
     di `"  {stata wbopendata, sources:  View sources}"'

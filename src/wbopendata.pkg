@@ -1,4 +1,4 @@
-v 18.3.2
+v 18.4.1
 d 'WBOPENDATA': module to access World Bank databases
 d 
 d wbopendata allows Stata users to download over 20,000 indicators 
@@ -26,7 +26,7 @@ d KW: open data
 d 
 d Requires: Stata version 14
 d 
-d Distribution-Date: 20260223
+d Distribution-Date: 20260419
 d License: MIT
 d 
 d Author: João Pedro Azevedo
@@ -54,6 +54,9 @@ f _/__wbod_cache.ado
 f _/__wbod_check_version.ado
 f _/__wbod_check_yaml.ado
 f _/__wbod_countrymetadata.ado
+f _/_wbod_tmpfile1.ado
+f _/_wbod_tmpfile2.ado
+f _/_wbod_tmpfile3.ado
 f _/__wbod_get_source_name.ado
 f _/__wbod_get_topic_name.ado
 f _/__wbod_get_yaml_path.ado

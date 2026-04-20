@@ -20,6 +20,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [18.4.1] - 2026-04-19
+
+### Fixed
+
+- **Country context variables restored (Issue #80)**: The 8 default country context variables (`region`, `regionname`, `adminregion`, `adminregionname`, `incomelevel`, `incomelevelname`, `lendingtype`, `lendingtypename`) were silently missing since v18.0.0. Root cause: `_wbod_tmpfile1/2/3.ado` were dropped from the package at v18.0.0; `_countrymetadata.ado` calls them with `cap:` which silently swallows rc=111 (program not found). Fixed by re-adding the generated lookup programs to `src/_/`, `src/wbopendata.pkg`, and `ssc/build_ssc_package.ps1`.
+- **Help file truncation (Kit Baum)**: `wbopendata.sthlp` line 128 was a ~370-character physical line causing SMCL to truncate mid-word ("Gender Statist lth Nutrition..."). Fixed by splitting into multiple physical lines within the `{p}...{p_end}` block.
+- **Sync action links**: Clickable links in `wbopendata, sync` output were missing `replace`, so "Sync metadata now" and "Force Stata pathway" triggered a dry-run instead of an actual sync.
+- **New option `forcestata`**: `wbopendata, sync replace forcestata` bypasses the Python pipeline (which stalls silently on large downloads) and uses the Stata-native API pathway.
+
+---
+
 ## [18.3.2] - 2026-02-23
 
 ### Fixed

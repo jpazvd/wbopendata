@@ -1,6 +1,7 @@
 *******************************************************************************
 * wbopendata
-*! v 18.4.0  	 24Feb2026               by Joao Pedro Azevedo
+*! v 18.4.1  	 19Apr2026               by Joao Pedro Azevedo
+*   18.4.1: Restore country context variables (region/income/lending) missing since v18.0.0; fix sthlp truncation (Kit Baum)
 *   18.4.0: Refactored internal file naming per TSJ feedback (no user-facing changes)
 *   18.3.2: Frame cache completeness, manifest format documentation
 *   18.3.0: YAML metadata lookup on cache hit (no API call); configurable cachedays() TTL; fix cache lookup
@@ -105,6 +106,8 @@ version 14.0
 						CACHEDAYS(integer 7)	///
 						CLEARDATACACHE	///
 						RESETDATACACHE	///
+						FORCESTATA		///
+						FORCEPYTHON		///
 						VERBOSE			///
                  ]
 
@@ -255,7 +258,9 @@ local indicator `indicators'
 		di as text ""
 		di as text "Proceeding with sync..."
 		di as text ""
-		if ("`force'" != "") __wbod_sync, force
+		if ("`forcestata'" != "") __wbod_sync, forcestata `force'
+		else if ("`forcepython'" != "") __wbod_sync, forcepython `force'
+		else if ("`force'" != "") __wbod_sync, force
 		else __wbod_sync
 		local sync_rc = _rc
 		if (`sync_rc' == 0) {
@@ -332,6 +337,7 @@ local indicator `indicators'
 		noi di `"{stata `"wbopendata, sync detail"':  wbopendata, sync detail}       - Detailed preview with source/topic breakdown"'
 		noi di `"{stata `"wbopendata, sync replace"':  wbopendata, sync replace}     - Apply metadata sync"'
 		noi di `"{stata `"wbopendata, sync replace force"':  wbopendata, sync replace force} - Force re-download metadata"'
+		noi di `"{stata `"wbopendata, sync replace forcestata"':  wbopendata, sync replace forcestata} - Force Stata pathway (bypass Python)"'
 		noi di `"{stata `"wbopendata, cacheinfo"':  wbopendata, cacheinfo}           - Display cache status"'
 		noi di `"{stata `"wbopendata, cleardatacache"':  wbopendata, cleardatacache}   - Clear cached API data"'
 		noi di ""
@@ -897,7 +903,7 @@ local indicator `indicators'
 **********************************************************************************
 
 	if ("`char'" != "nochar") & ("`update'" == "") {
-		char _dta[wbopendata_version]   "18.4.0"
+		char _dta[wbopendata_version]   "18.4.1"
 		char _dta[wbopendata_timestamp] "`c(current_date)' `c(current_time)'"
 		char _dta[wbopendata_user]      "`c(username)'"
 		char _dta[wbopendata_syntax]    `"wbopendata, `0'"'
