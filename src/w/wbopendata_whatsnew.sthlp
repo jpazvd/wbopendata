@@ -3,6 +3,7 @@
 {vieweralsosee "wbopendata" "help wbopendata"}{...}
 {viewerjumpto "What's New" "wbopendata_whatsnew##whatsnew"}{...}
 {viewerjumpto "Version 18.4.1" "wbopendata_whatsnew##v1841"}{...}
+{viewerjumpto "Version 18.3.2" "wbopendata_whatsnew##v1832"}{...}
 {viewerjumpto "Version 18.3.1" "wbopendata_whatsnew##v1831"}{...}
 {viewerjumpto "Version 18.3.0" "wbopendata_whatsnew##v1830"}{...}
 {viewerjumpto "Version 18.2" "wbopendata_whatsnew##v182"}{...}
@@ -42,6 +43,13 @@ Users can refresh country metadata from the World Bank API with:
 {bf:Bug fix: Help file truncation} - The database list in {cmd:help wbopendata}
 was truncated mid-word ("Gender Statist lth Nutrition...") due to a SMCL line
 length limit. Fixed by splitting the physical line.
+
+{marker v1832}{...}
+{title:Version 18.3.2 (23Feb2026)}
+
+{pstd}
+{bf:Frame cache completeness} - All three metadata frames ({it:_wbod_indicators}, {it:_wbod_sources}, {it:_wbod_topics})
+are now properly invalidated on sync operations. Cache manifest documentation added; test documentation clarified.
 
 {marker v1831}{...}
 {title:Version 18.3.1 (23Feb2026)}

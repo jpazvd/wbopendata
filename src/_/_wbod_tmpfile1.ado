@@ -1,5 +1,5 @@
 *! _wbod_tmpfile1 <19 Apr 2026 : 19:57:12>                 by João Pedro Azevedo
-*                 auto generated and updated using _update_countrymetadata.ado 
+*                 auto generated and updated using __wbod_update_countrymetadata.ado 
   
  program define _wbod_tmpfile1 
   

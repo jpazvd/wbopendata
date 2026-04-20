@@ -338,6 +338,7 @@ local indicator `indicators'
 		noi di `"{stata `"wbopendata, sync replace"':  wbopendata, sync replace}     - Apply metadata sync"'
 		noi di `"{stata `"wbopendata, sync replace force"':  wbopendata, sync replace force} - Force re-download metadata"'
 		noi di `"{stata `"wbopendata, sync replace forcestata"':  wbopendata, sync replace forcestata} - Force Stata pathway (bypass Python)"'
+		noi di `"{stata `"wbopendata, sync replace forcepython"':  wbopendata, sync replace forcepython} - Force Python pathway"'
 		noi di `"{stata `"wbopendata, cacheinfo"':  wbopendata, cacheinfo}           - Display cache status"'
 		noi di `"{stata `"wbopendata, cleardatacache"':  wbopendata, cleardatacache}   - Clear cached API data"'
 		noi di ""
