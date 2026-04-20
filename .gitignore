@@ -130,20 +130,39 @@ _archive/
 !/paper/**/*.png
 !/paper/**/*.pdf
 !/paper/**/*.py
+!/paper/**/qa/submission.cfg
 
 # Ignore compiled manuscript PDFs (keep locally, don't track)
 paper/jpazvd_wbopendata*.pdf
 
 # Ignore LaTeX temporary files
 *.aux
+*.bbl
+*.bcf
+*.blg
 *.fdb_latexmk
 *.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.nav
 *.out
 *.pp
 *.pp1
+*.run.xml
+*.snm
 *.synctex.gz
 *.tag
+*.xdv
 pdflatex*.fls
+
+# Keep package metadata files tracked
+!*.pkg
+!*.toc
+!**/*.pkg
+!**/*.toc
 
 #######################
 # Include all the files with passwords or tokens here. All files named
