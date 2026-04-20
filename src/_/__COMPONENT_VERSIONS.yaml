@@ -1,73 +1,53 @@
-# Auto-generated component versions
+# Auto-generated component versions for wbopendata
+# Generated: 2026-03-22
+# Generator: scripts/update_component_versions.py
 
-components:
-  archive\__parameters_write.ado: 1.0.0
-  archive\_wbod_parse_yaml_ind.ado: 1.0.0
-  archive\_wbopendata_search_v3.ado: 3
-  doc\wbopendata.md: 16.0.1
-  src\_\__wbod_parse_yaml_ind.ado: 1.0.10
-  src\_\__wbopendata_search.ado: 2.5.0
-  src\_\__wbopendata_search_cache.ado: 3.1.0
-  src\_\_api_read.ado: 16.3
-  src\_\_api_read_indicators.ado: 16.3
-  src\_\_countrymetadata.ado: 16.1
-  src\_\_metadata_linewrap.ado: 1.1
-  src\_\_parameters.ado: 2.0.0
-  src\_\_query.ado: 16.4
-  src\_\_query_indicators.ado: 16.3
-  src\_\_query_metadata.ado: 16.7
-  src\_\_update_countrymetadata.ado: 16.4
-  src\_\_update_indicators.ado: 16.2
-  src\_\_update_regionmetadata.ado: 17.1
-  src\_\_update_wbopendata.ado: 16.3
-  src\_\_wbopendata_cache.ado: 2.0.0
-  src\_\_wbopendata_cache_clear.ado: 1.0.0
-  src\_\_wbopendata_cache_info.ado: 1.0.0
-  src\_\_wbopendata_check_version.ado: 1.0.0
-  src\_\_wbopendata_download_yaml.ado: 1.0.1
-  src\_\_wbopendata_get_yaml_path.ado: 1.2.0
-  src\_\_wbopendata_indicators.yaml: 2.0.0
-  src\_\_wbopendata_info.ado: 2.4.0
-  src\_\_wbopendata_parameters.yaml: 1.0.0
-  src\_\_wbopendata_refresh_yaml.ado: 1.0.0
-  src\_\_wbopendata_search.ado: 3.0.0
-  src\_\_wbopendata_sources.ado: 1.1.1
-  src\_\_wbopendata_sources.yaml: 2.0.0
-  src\_\_wbopendata_sync.ado: 1.0.0
-  src\_\_wbopendata_sync_preview.ado: 1.2.0
-  src\_\_wbopendata_topics.ado: 1.2.1
-  src\_\_wbopendata_topics.yaml: 2.0.0
-  src\_\_wbopendata_write_stats_history.ado: 1.0.0
-  src\_\_website.ado: 15.5
-  src\w\wbopendata.ado: 18.1.1
-  src\w\wbopendata_populate_list.ado: 10
-  src\y\yaml.ado: 1.3.1
-  ssc\v13.5\_\_query.ado: 13.4
-  ssc\v13.5\_\_query_metadata.ado: 13.4
-  ssc\v13.5\w\wbopendata.ado: 13.5
-  ssc\v13.5\w\wbopendata_populate_list.ado: 10
-  tests\_tmp_cache\wbopendata\cache\_wbopendata_indicators.yaml: 2.0.0
-  tests\_tmp_indicators_subset.yaml: 2.0.0
-  tests\_tmp_indicators_subset_100k.yaml: 2.0.0
-  tests\_tmp_indicators_subset_125k.yaml: 2.0.0
-  tests\_tmp_indicators_subset_140k.yaml: 2.0.0
-  tests\_tmp_indicators_subset_145062.yaml: 2.0.0
-  tests\_tmp_indicators_subset_145064.yaml: 2.0.0
-  tests\_tmp_indicators_subset_145065.yaml: 2.0.0
-  tests\_tmp_indicators_subset_145066.yaml: 2.0.0
-  tests\_tmp_indicators_subset_145070.yaml: 2.0.0
-  tests\_tmp_indicators_subset_145077.yaml: 2.0.0
-  tests\_tmp_indicators_subset_145093.yaml: 2.0.0
-  tests\_tmp_indicators_subset_145125.yaml: 2.0.0
-  tests\_tmp_indicators_subset_145250.yaml: 2.0.0
-  tests\_tmp_indicators_subset_145500.yaml: 2.0.0
-  tests\_tmp_indicators_subset_145k.yaml: 2.0.0
-  tests\_tmp_indicators_subset_146k.yaml: 2.0.0
-  tests\_tmp_indicators_subset_148k.yaml: 2.0.0
-  tests\_tmp_indicators_subset_150k.yaml: 2.0.0
-  tests\parity_out\python\_wbopendata_indicators.yaml: 2.0.0
-  tests\parity_out\python\_wbopendata_sources.yaml: 2.0.0
-  tests\parity_out\python\_wbopendata_topics.yaml: 2.0.0
-  tests\parity_out\stata\_wbopendata_indicators.yaml: 2.0.0
-  tests\parity_out\stata\_wbopendata_sources.yaml: 2.0.0
-  tests\parity_out\stata\_wbopendata_topics.yaml: 2.0.0
+# ---- Package-level versions ----
+package:
+  CITATION.cff: 18.3.2
+  src/stata.toc: 18.3.2
+  src/wbopendata.pkg: 18.3.2
+
+# ---- STATA components ----
+stata:
+  src/_/_api_read.ado: 16.3.1
+  src/_/_api_read_indicators.ado: 16.3
+  src/_/_countrymetadata.ado: 16.1
+  src/_/_linewrap.ado: 2.1
+  src/_/_metadata_linewrap.ado: 1.1
+  src/_/_query.ado: 16.8
+  src/_/_query_indicators.ado: 16.3
+  src/_/_query_metadata.ado: 16.8
+  src/_/_update_countrymetadata.ado: 16.4
+  src/_/_update_indicators.ado: 16.2
+  src/_/_update_regionmetadata.ado: 17.1
+  src/_/_update_wbopendata.ado: 16.3
+  src/_/_wbopendata_get_source_name.ado: 1.0.0
+  src/_/_wbopendata_get_topic_name.ado: 1.0.0
+  src/_/_website.ado: 15.5
+  src/_/_yaml_collapse.ado: 1.8.0
+  src/_/_yaml_fastread.ado: 1.5.1
+  src/_/_yaml_mataread.ado: 1.7.1
+  src/_/_yaml_tokenize_line.ado: 1.5.1
+  src/w/wbopendata.ado: 18.3.2
+  src/w/wbopendata_examples.ado: 1.3.0
+  src/w/wbopendata_populate_list.ado: 10
+  src/w/wbopendata_whatsnew.sthlp: 18.3.1
+  src/y/yaml.ado: 1.9.2
+  src/y/yaml.sthlp: 1.9.2
+  src/y/yaml_clear.ado: 1.5.1
+  src/y/yaml_describe.ado: 1.5.1
+  src/y/yaml_dir.ado: 1.5.1
+  src/y/yaml_examples.sthlp: 1.9.2
+  src/y/yaml_frames.ado: 1.5.1
+  src/y/yaml_get.ado: 1.5.1
+  src/y/yaml_list.ado: 1.5.1
+  src/y/yaml_read.ado: 1.9.2
+  src/y/yaml_validate.ado: 1.5.1
+  src/y/yaml_whatsnew.sthlp: 1.9.2
+  src/y/yaml_write.ado: 1.5.1
+
+# ---- PYTHON components ----
+python:
+  src/py/__init__.py: 1.1.0
+

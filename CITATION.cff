@@ -19,8 +19,8 @@ keywords:
   - "open data"
   - "WDI"
 license: MIT
-version: 18.1.0
-date-released: "2026-02-10"  # Latest release date (v18.1.0)
+version: 18.3.2
+date-released: "2026-02-23"  # Latest release date (v18.3.2)
 date-created: "2011"
 contact:
   - family-names: Azevedo
