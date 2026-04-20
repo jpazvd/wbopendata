@@ -307,7 +307,7 @@
          cap: replace countrycode_iso2 = "ZM"     if `match' == "ZMB"  
          cap: replace countrycode_iso2 = "ZW"     if `match' == "ZWE"  
   
-******************  Lable: countrycode_iso2 ******************
+******************  Label: countrycode_iso2 ******************
   
      lab var countrycode_iso2    "Country Code (ISO 2 digits)" 
  }        
@@ -616,7 +616,7 @@
          cap: replace countryname = "Zambia"     if `match' == "ZMB"  
          cap: replace countryname = "Zimbabwe"     if `match' == "ZWE"  
   
-******************  Lable: countryname ******************
+******************  Label: countryname ******************
   
      lab var countryname                 "Country Name" 
  }        
@@ -925,7 +925,7 @@
          cap: replace region = "SSF"     if `match' == "ZMB"  
          cap: replace region = "SSF"     if `match' == "ZWE"  
   
-******************  Lable: region ******************
+******************  Label: region ******************
   
      lab var region                      "Region Code" 
  }        
@@ -1234,7 +1234,7 @@
          cap: replace region_iso2 = "ZG"     if `match' == "ZMB"  
          cap: replace region_iso2 = "ZG"     if `match' == "ZWE"  
   
-******************  Lable: region_iso2 ******************
+******************  Label: region_iso2 ******************
   
      lab var region_iso2                 "Region Code (ISO 2 digits)" 
  }        
@@ -1543,7 +1543,7 @@
          cap: replace regionname = "Sub-Saharan Africa"     if `match' == "ZMB"  
          cap: replace regionname = "Sub-Saharan Africa"     if `match' == "ZWE"  
   
-******************  Lable: regionname ******************
+******************  Label: regionname ******************
   
      lab var regionname          "Region Name" 
  }        

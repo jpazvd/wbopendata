@@ -140,7 +140,7 @@
          cap: replace adminregion = "SSA"     if `match' == "ZMB"  
          cap: replace adminregion = "SSA"     if `match' == "ZWE"  
   
-******************  Lable: adminregion ******************
+******************  Label: adminregion ******************
   
      lab var adminregion                 "Administrative Region Code" 
  }        
@@ -282,7 +282,7 @@
          cap: replace adminregion_iso2 = "ZF"     if `match' == "ZMB"  
          cap: replace adminregion_iso2 = "ZF"     if `match' == "ZWE"  
   
-******************  Lable: adminregion_iso2 ******************
+******************  Label: adminregion_iso2 ******************
   
      lab var adminregion_iso2    "Administrative Region Code (ISO 2 digits)" 
  }        
@@ -424,7 +424,7 @@
          cap: replace adminregionname = "Sub-Saharan Africa (excluding high income)"     if `match' == "ZMB"  
          cap: replace adminregionname = "Sub-Saharan Africa (excluding high income)"     if `match' == "ZWE"  
   
-******************  Lable: adminregionname ******************
+******************  Label: adminregionname ******************
   
      lab var adminregionname         "Administrative Region Name" 
  }        
@@ -733,7 +733,7 @@
          cap: replace incomelevel = "LMC"     if `match' == "ZMB"  
          cap: replace incomelevel = "LMC"     if `match' == "ZWE"  
   
-******************  Lable: incomelevel ******************
+******************  Label: incomelevel ******************
   
      lab var incomelevel                 "Income Level Code" 
  }        
@@ -1042,7 +1042,7 @@
          cap: replace incomelevel_iso2 = "XN"     if `match' == "ZMB"  
          cap: replace incomelevel_iso2 = "XN"     if `match' == "ZWE"  
   
-******************  Lable: incomelevel_iso2 ******************
+******************  Label: incomelevel_iso2 ******************
   
      lab var incomelevel_iso2    "Income Level Code (ISO 2 digits)" 
  }        
@@ -1351,7 +1351,7 @@
          cap: replace incomelevelname = "Lower middle income"     if `match' == "ZMB"  
          cap: replace incomelevelname = "Lower middle income"     if `match' == "ZWE"  
   
-******************  Lable: incomelevelname ******************
+******************  Label: incomelevelname ******************
   
      lab var incomelevelname     "Income Level Name" 
  }        

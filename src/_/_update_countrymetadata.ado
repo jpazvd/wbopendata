@@ -313,7 +313,7 @@ quietly {
 					}
 
 					file write `out_`variable''  "	" _n
-					file write `out_`variable''  "******************  Lable: `varname2' ******************" _n
+					file write `out_`variable''  "******************  Label: `varname2' ******************" _n
 					file write `out_`variable''  "	" _n
 
 					******************************************************

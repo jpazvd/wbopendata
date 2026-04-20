@@ -228,7 +228,7 @@
          cap: replace lendingtype = "IDX"     if `match' == "ZMB"  
          cap: replace lendingtype = "IDB"     if `match' == "ZWE"  
   
-******************  Lable: lendingtype ******************
+******************  Label: lendingtype ******************
   
      lab var lendingtype                 "Lending Type Code" 
  }        
@@ -537,7 +537,7 @@
          cap: replace lendingtype_iso2 = "XI"     if `match' == "ZMB"  
          cap: replace lendingtype_iso2 = "XH"     if `match' == "ZWE"  
   
-******************  Lable: lendingtype_iso2 ******************
+******************  Label: lendingtype_iso2 ******************
   
      lab var lendingtype_iso2    "Lending Type Code (ISO 2 digits)" 
  }        
@@ -767,7 +767,7 @@
          cap: replace lendingtypename = "IDA"     if `match' == "ZMB"  
          cap: replace lendingtypename = "Blend"     if `match' == "ZWE"  
   
-******************  Lable: lendingtypename ******************
+******************  Label: lendingtypename ******************
   
      lab var lendingtypename     "Lending Type Name" 
  }        
@@ -991,7 +991,7 @@
          cap: replace capital = "Lusaka"     if `match' == "ZMB"  
          cap: replace capital = "Harare"     if `match' == "ZWE"  
   
-******************  Lable: capital ******************
+******************  Label: capital ******************
   
      lab var capital                             "Capital Name" 
  }        
@@ -1221,7 +1221,7 @@
          cap: replace longitude = real("28.2937")       if `match' == "ZMB"  
          cap: replace longitude = real("31.0672")       if `match' == "ZWE"  
   
-******************  Lable: longitude ******************
+******************  Label: longitude ******************
   
      lab var longitude           "Capital Longitude" 
  }        
@@ -1451,7 +1451,7 @@
          cap: replace latitude = real("-15.3982")       if `match' == "ZMB"  
          cap: replace latitude = real("-17.8312")       if `match' == "ZWE"  
   
-******************  Lable: latitude ******************
+******************  Label: latitude ******************
   
      lab var latitude                    "Capital Latitude" 
  }        
