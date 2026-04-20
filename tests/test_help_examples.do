@@ -6,8 +6,8 @@
 *
 * Usage:   do "C:/GitHub/myados/wbopendata-dev/tests/test_help_examples.do"
 *
-* Date:    23Feb2026
-* Version: 18.3.1
+* Date:    24Feb2026
+* Version: 18.4.0
 *******************************************************************************
 
 clear all
@@ -77,7 +77,7 @@ if (!`use_dev') {
 }
 
 * Version guard: check test expects same version as .ado file
-local _test_version "18.3.1"
+local _test_version "18.4.1"
 tempname _vfh
 file open `_vfh' using "`wb_path'", read text
 file read `_vfh' _vline  /* line 1: stars */

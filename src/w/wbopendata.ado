@@ -1,8 +1,9 @@
 *******************************************************************************
 * wbopendata
-*! v 18.3.2  	 23Feb2026               by Joao Pedro Azevedo
+*! v 18.4.1  	 19Apr2026               by Joao Pedro Azevedo
+*   18.4.1: Restore country context variables (region/income/lending) missing since v18.0.0; fix sthlp truncation (Kit Baum)
+*   18.4.0: Refactored internal file naming per TSJ feedback (no user-facing changes)
 *   18.3.2: Frame cache completeness, manifest format documentation
-*   18.3.1: Add verbose option; targeted error handling for cache/metadata operations
 *   18.3.0: YAML metadata lookup on cache hit (no API call); configurable cachedays() TTL; fix cache lookup
 *   18.2.0: Data response cache (7-day TTL, on by default); nocache/cleardatacache options; cache consolidated to sysdir_plus
 *   18.1.1: Copilot PR review fixes: strtrim() in sources/topics, simplified download_yaml, improved checksum, path traversal safety
@@ -105,6 +106,8 @@ version 14.0
 						CACHEDAYS(integer 7)	///
 						CLEARDATACACHE	///
 						RESETDATACACHE	///
+						FORCESTATA		///
+						FORCEPYTHON		///
 						VERBOSE			///
                  ]
 
@@ -143,16 +146,16 @@ local indicator `indicators'
 	if ("`sources'" != "" | "`allsources'" != "" | "`alltopics'" != "" | "`search'" != "" | `has_search_filter' | "`info'" != "") {
 		* List sources (sources=20 default, allsources=all)
 		if ("`sources'" != "") {
-			noisily _wbopendata_sources, limit(`limit_val')
+			noisily __wbod_sources, limit(`limit_val')
 			return add
 			exit _rc
 		}
 		if ("`allsources'" != "") {
 			if (`limit_specified') {
-				noisily _wbopendata_sources, limit(`limit_val')
+				noisily __wbod_sources, limit(`limit_val')
 			}
 			else {
-				noisily _wbopendata_sources
+				noisily __wbod_sources
 			}
 			return add
 			exit _rc
@@ -160,17 +163,17 @@ local indicator `indicators'
 		* List all topics
 		if ("`alltopics'" != "") {
 			if (`limit_specified') {
-				noisily _wbopendata_topics, limit(`limit_val')
+				noisily __wbod_topics, limit(`limit_val')
 			}
 			else {
-				noisily _wbopendata_topics
+				noisily __wbod_topics
 			}
 			return add
 			exit _rc
 		}
 		* Search indicators (also handles browse mode when only filter is provided)
 		if ("`search'" != "" | `has_search_filter') {
-			noisily _wbopendata_search "`search'", limit(`limit_val') ///
+			noisily __wbod_search "`search'", limit(`limit_val') ///
 				source("`searchsource'") topic("`searchtopic'") ///
 				field("`searchfield'") `exact' `detail'
 			return add
@@ -178,7 +181,7 @@ local indicator `indicators'
 		}
 		* Get indicator info
 		if ("`info'" != "") {
-			capture noisily _wbopendata_info, indicator("`info'")
+			capture noisily __wbod_info, indicator("`info'")
 			if (_rc == 0) {
 				return add
 			}
@@ -207,26 +210,26 @@ local indicator `indicators'
 	}
 
 	if ("`cleardatacache'" != "") {
-		_wbopendata_cache, cleardatacache
+		__wbod_cache, cleardatacache
 		exit 0
 	}
 
 	if ("`resetdatacache'" != "") {
-		_wbopendata_cache, resetdatacache
+		__wbod_cache, resetdatacache
 		exit 0
 	}
 
 	if ("`sync'" != "" | "`checkupdate'" != "" | "`clearcache'" != "" | "`cacheinfo'" != "") {
 		if ("`clearcache'" != "") {
-			_wbopendata_cache, clear
+			__wbod_cache, clear
 			exit _rc
 		}
 		if ("`cacheinfo'" != "") {
-			_wbopendata_cache, info
+			__wbod_cache, info
 			exit _rc
 		}
 		if ("`checkupdate'" != "") {
-			_wbopendata_cache, checkversion
+			__wbod_cache, checkversion
 			if (r(needs_update)) {
 				di as result "Update available!"
 				di as text "  Local version:  v" r(local_version)
@@ -238,7 +241,7 @@ local indicator `indicators'
 			exit _rc
 		}
 		* sync: always show preview first
-		noi _wbopendata_sync_preview, `detail'
+		noi __wbod_sync_preview, `detail'
 		return add
 		* sync without replace: dryrun (safe default) — stop after preview
 		if ("`replace'" == "") {
@@ -251,16 +254,18 @@ local indicator `indicators'
 			}
 			exit 0
 		}
-		* sync replace: actually apply the sync (force passes through to _wbopendata_sync)
+		* sync replace: actually apply the sync (force passes through to __wbod_sync)
 		di as text ""
 		di as text "Proceeding with sync..."
 		di as text ""
-		if ("`force'" != "") _wbopendata_sync, force
-		else _wbopendata_sync
+		if ("`forcestata'" != "") __wbod_sync, forcestata `force'
+		else if ("`forcepython'" != "") __wbod_sync, forcepython `force'
+		else if ("`force'" != "") __wbod_sync, force
+		else __wbod_sync
 		local sync_rc = _rc
 		if (`sync_rc' == 0) {
 			* Get counts after sync for history
-			quietly _wbopendata_sync_preview
+			quietly __wbod_sync_preview
 			local ind_count = r(ind_count)
 			local src_count = r(src_count)
 			local top_count = r(top_count)
@@ -270,7 +275,7 @@ local indicator `indicators'
 			local by_topic = r(by_topic)
 			if ("`method'" == "") local method = "unknown"
 			* Write stats history with breakdown (suppress rclass warning)
-			capture quietly _wbopendata_write_stats_history, ///
+			capture quietly __wbod_write_stats_history, ///
 				method("`method'") ///
 				indicators(`ind_count') ///
 				sources(`src_count') ///
@@ -290,7 +295,7 @@ local indicator `indicators'
 		}
 		local _lw_opts ""
 		if "`linewrap'" != "" local _lw_opts `"linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")"'
-		noi _query_metadata , indicator("`indicator'") `_lw_opts' offline("`offline'") `verbose'
+		noi __wbod_query_metadata , indicator("`indicator'") `_lw_opts' offline("`offline'") `verbose'
 		return add
 		exit _rc
 	}
@@ -332,6 +337,8 @@ local indicator `indicators'
 		noi di `"{stata `"wbopendata, sync detail"':  wbopendata, sync detail}       - Detailed preview with source/topic breakdown"'
 		noi di `"{stata `"wbopendata, sync replace"':  wbopendata, sync replace}     - Apply metadata sync"'
 		noi di `"{stata `"wbopendata, sync replace force"':  wbopendata, sync replace force} - Force re-download metadata"'
+		noi di `"{stata `"wbopendata, sync replace forcestata"':  wbopendata, sync replace forcestata} - Force Stata pathway (bypass Python)"'
+		noi di `"{stata `"wbopendata, sync replace forcepython"':  wbopendata, sync replace forcepython} - Force Python pathway"'
 		noi di `"{stata `"wbopendata, cacheinfo"':  wbopendata, cacheinfo}           - Display cache status"'
 		noi di `"{stata `"wbopendata, cleardatacache"':  wbopendata, cleardatacache}   - Clear cached API data"'
 		noi di ""
@@ -372,7 +379,7 @@ local indicator `indicators'
 			}
 			noi di as txt "  See {help wbopendata##deprecated:help wbopendata, deprecated options}."
 			noi di as txt ""
-			noi _update_wbopendata, update `query' `check'	`countrymetadata' `all' `force' `short' `detail' `ctrylist'
+			noi __wbod_update_wbopendata, update `query' `check'	`countrymetadata' `all' `force' `short' `detail' `ctrylist'
 			break
 
 		}
@@ -385,7 +392,7 @@ local indicator `indicators'
 			noi di as txt "  Use {cmd:sync replace} to update metadata and {cmd:sources}/{cmd:search()}/{cmd:info()} for discovery."
 			noi di as txt "  See {help wbopendata##deprecated:help wbopendata, deprecated options}."
 			noi di as txt ""
-			noi _update_wbopendata, update force all
+			noi __wbod_update_wbopendata, update force all
 			local update "update"
 			local force  "force"
 			local all    "all"
@@ -399,7 +406,7 @@ local indicator `indicators'
 	
 	qui if ("`match'" != "") {
 
-		_countrymetadata, match(`match') `full' `iso' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `geo' `isolist' `countryname' `region'  `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname'  `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude'
+		__wbod_countrymetadata, match(`match') `full' `iso' `isolist' `regionlist' `adminlist' `incomelist' `lendinglist' `geo' `isolist' `countryname' `region'  `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname'  `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude'
 
 	}
 
@@ -410,7 +417,7 @@ local indicator `indicators'
 
 		if ("`indicator'" != "") & ("`update'" == "") & ("`match'" == "") {
 
-			_tknz "`indicator'" , parse(;)
+			__wbod_tknz "`indicator'" , parse(;)
 
 			forvalues i = 1(1)`s(items)'  {
 
@@ -418,7 +425,7 @@ local indicator `indicators'
 
 				   tempfile file`f'
 
-				   noi _query ,       language("`language'")      		///
+				   noi __wbod_query ,       language("`language'")      		///
 										 country("`country'")         	///
 										 topics("`topics'")           	///
 										 indicator("``i''")             ///
@@ -443,19 +450,19 @@ local indicator `indicators'
 						local _lw_opts ""
 						if "`linewrap'" != "" local _lw_opts `"linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")"'
 						* Try YAML frame lookup on cache hit (no API call needed)
-						* Skip YAML path when linewrap requested — linewrap processing lives in _query_metadata
+						* Skip YAML path when linewrap requested — linewrap processing lives in __wbod_query_metadata
 						local _used_yaml = 0
 						if ("`_from_cache'" == "1" & "`linewrap'" == "") {
 							capture frame _wbod_indicators: count
 							if (_rc == 0 & r(N) > 0) {
-								cap noi _wbod_yaml_metadata, indicator("``i''") frame(_wbod_indicators)
+								cap noi __wbod_yaml_metadata, indicator("``i''") frame(_wbod_indicators)
 								if (_rc == 0 & "`r(_yaml_found)'" == "1") {
 									local _used_yaml = 1
 								}
 							}
 						}
 						if (!`_used_yaml') {
-							cap: noi _query_metadata  , indicator("``i''") `_lw_opts' offline("`offline'") `verbose'
+							cap: noi __wbod_query_metadata  , indicator("``i''") `_lw_opts' offline("`offline'") `verbose'
 						}
 						if ("`verbose'" != "") {
 							noi di as text "(metadata: " cond(`_used_yaml', "YAML frame", "API") " for ``i'')"
@@ -570,7 +577,7 @@ local indicator `indicators'
 							capture local scite `"`r(sourcecite)'"'
 							if (_rc == 0 & `"`scite'"' != "") return local sourcecite`idx' `"`scite'"'
 
-							* --- variable-level char metadata from _query_metadata ---
+							* --- variable-level char metadata from __wbod_query_metadata ---
 							if ("`char'" != "nochar") {
 								local _vname = trim(lower(subinstr(word("``i''",1),".","_",.)))
 								capture confirm variable `_vname'
@@ -622,7 +629,7 @@ local indicator `indicators'
 
 			if ("`update'" == "") & ("`match'" == "") {
 			 
-				noi _query , language("`language'")       	///
+				noi __wbod_query , language("`language'")       	///
 									country("`country'")    ///
 									topics("`topics'")      ///
 									indicator("``i''")      ///
@@ -648,19 +655,19 @@ local indicator `indicators'
 					local _lw_opts ""
 					if "`linewrap'" != "" local _lw_opts `"linewrap("`linewrap'") maxlength("`maxlength'") linewrapformat("`linewrapformat'")"'
 					* Try YAML frame lookup on cache hit (no API call needed)
-					* Skip YAML path when linewrap requested — linewrap processing lives in _query_metadata
+					* Skip YAML path when linewrap requested — linewrap processing lives in __wbod_query_metadata
 					local _used_yaml = 0
 					if ("`_from_cache'" == "1" & "`linewrap'" == "") {
 						capture frame _wbod_indicators: count
 						if (_rc == 0 & r(N) > 0) {
-							cap noi _wbod_yaml_metadata, indicator("``i''") frame(_wbod_indicators)
+							cap noi __wbod_yaml_metadata, indicator("``i''") frame(_wbod_indicators)
 							if (_rc == 0 & "`r(_yaml_found)'" == "1") {
 								local _used_yaml = 1
 							}
 						}
 					}
 					if (!`_used_yaml') {
-						cap: noi _query_metadata  , indicator("``i''") `_lw_opts' offline("`offline'") `verbose'
+						cap: noi __wbod_query_metadata  , indicator("``i''") `_lw_opts' offline("`offline'") `verbose'
 					}
 					if ("`verbose'" != "") {
 						noi di as text "(metadata: " cond(`_used_yaml', "YAML frame", "API") " for ``i'')"
@@ -776,7 +783,7 @@ local indicator `indicators'
 						capture local scite `"`r(sourcecite)'"'
 						if (_rc == 0 & `"`scite'"' != "") return local sourcecite`idx' `"`scite'"'
 
-						* --- variable-level char metadata from _query_metadata ---
+						* --- variable-level char metadata from __wbod_query_metadata ---
 						if ("`char'" != "nochar") {
 							local _vname = trim(lower(subinstr(word("`indicator'",1),".","_",.)))
 							capture confirm variable `_vname'
@@ -888,7 +895,7 @@ local indicator `indicators'
 
 		tostring  countryname countrycode, replace
 
-		_countrymetadata, match(countrycode) `full' `iso' `regions' `adminr' `income' `lending' `geo' `basic' `countrycode_iso2' `region' `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname' `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude' `countryname'
+		__wbod_countrymetadata, match(countrycode) `full' `iso' `regions' `adminr' `income' `lending' `geo' `basic' `countrycode_iso2' `region' `region_iso2' `regionname' `adminregion' `adminregion_iso2' `adminregionname' `incomelevel' `incomelevel_iso2' `incomelevelname' `lendingtype' `lendingtype_iso2' `lendingtypename' `capital' `longitude' `latitude' `countryname'
 
 	}
 
@@ -897,7 +904,7 @@ local indicator `indicators'
 **********************************************************************************
 
 	if ("`char'" != "nochar") & ("`update'" == "") {
-		char _dta[wbopendata_version]   "18.3.2"
+		char _dta[wbopendata_version]   "18.4.1"
 		char _dta[wbopendata_timestamp] "`c(current_date)' `c(current_time)'"
 		char _dta[wbopendata_user]      "`c(username)'"
 		char _dta[wbopendata_syntax]    `"wbopendata, `0'"'
@@ -962,9 +969,9 @@ end
 * _website.ado : screens a text file and converts and http or www "word" to a SMCL 
 *    web compatible code.
 * _parameters.ado: now include detailed count of indicators by SOURCE and TOPIC
-* _wbopendata.ado: renamned _update_wbopendata
+* __wbod_update_wbopendata.ado: renamed from _update_wbopendata.ado
 * _indicator: renamed _update_indicators
-* _update_wbopendata.ado: now checks for changes at the SOURCE or TOPIC level
+* __wbod_update_wbopendata.ado: now checks for changes at the SOURCE or TOPIC level
 * fixed return list when multiple indicators are selected
 * updated help file to allow for the search of indicators by Source and Topics
 **********************************************************************************
@@ -975,7 +982,7 @@ end
 *		country attribute table fully revised and linked to api
 *		update check, update query, and update
 *		auto refresh indicators
-*		revised _wbopendata.ado 		
+*		revised __wbod.ado 		
 *		update query; update check; and update options are included
 * 		country attributes revised
 *		update countrymetadata option created
@@ -990,11 +997,11 @@ end
 **********************************************************************************
 *  v 14.3 	2Feb2019               by Joao Pedro Azevedo 
 * 	Bug Fixed
-*		_wbopendata_update.ado revised; out.txt file no longer created
+*		__wbod_update.ado revised; out.txt file no longer created
 **********************************************************************************
 *  v 14.2 	31Jan2019               by Joao Pedro Azevedo 
 * Bug Fixed
-	* update _wbopendata_update.ado
+	* update __wbod_update.ado
 	* set checksum off
 **********************************************************************************
 *  v 14.1 	19Jan2019               by Joao Pedro Azevedo 
@@ -1003,7 +1010,7 @@ end
      * nopreserve option (return list is can be preserved)
 * 	Bugs fixed
     * latest option
-    * _query_metadata.ado (source id return list) fixed
+    * __wbod_query_metadata.ado (source id return list) fixed
 * 	Revisions
      * examples
      * update help file
