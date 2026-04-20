@@ -1,10 +1,10 @@
 {smcl}
 {hline}
-{* 23Feb2026  }{...}
+{* 19Apr2026  }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
 {right:What's New:  {bf:{help wbopendata_whatsnew:What's New}}}
-{right: {bf:version 18.3.2}}
+{right: {bf:version 18.4.1}}
 {hline}
 
 {title:Title}
