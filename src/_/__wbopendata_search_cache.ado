@@ -51,7 +51,7 @@ program define __wbopendata_search_cache, rclass
         exit 198
     }
 
-    _wbopendata_get_yaml_path, type(indicators)
+    __wbod_get_yaml_path, type(indicators)
     local yaml_path = r(path)
 
     if (!fileexists("`yaml_path'")) {

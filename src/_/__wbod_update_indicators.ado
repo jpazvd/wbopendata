@@ -1,9 +1,9 @@
 *******************************************************************************
 * __wbod_update_indicators                                                                   
-*! v 16.2   04Jan2026				by JoÃ£o Pedro Azevedo
+*! v 16.2   04Jan2026				by João Pedro Azevedo
 *		fix: new sthlp files now saved to same directory as wbopendata.ado
 *		     instead of current working directory
-*! v 16.1   12Apr2020				by JoÃ£o Pedro Azevedo
+*! v 16.1   12Apr2020				by João Pedro Azevedo
 *		increase documentation
 *		change the creation of the medata files for SOURCEID and TOPICID
 *******************************************************************************
@@ -612,10 +612,10 @@ end
 
 
 *******************************************************************************
-* v 16.0   27Oct2019				by JoÃ£o Pedro Azevedo
+* v 16.0   27Oct2019				by João Pedro Azevedo
 *		fix macros
 *******************************************************************************
-* v 15.1   10Mar2019				by JoÃ£o Pedro Azevedo
+* v 15.1   10Mar2019				by João Pedro Azevedo
 *******************************************************************************
 
 
