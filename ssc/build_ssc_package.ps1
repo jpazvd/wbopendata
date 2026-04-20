@@ -1,13 +1,15 @@
-# Build SSC Package for wbopendata v18.0.0
-# Creates ssc_wbopendata.1800.zip with all files listed in ssc/wbopendata.pkg
+# Build SSC Package for wbopendata v18.4.1
+# Creates wbopendata-v18.4.1.zip with all files listed in wbopendata.pkg
 #
-# IMPORTANT: This script uses ssc/wbopendata.pkg (flat paths) NOT the root
-# wbopendata.pkg (which has src/ paths for GitHub net install)
+# IMPORTANT: SSC requires flat paths (no subdirectories). All files are
+# copied to a temp directory and zipped flat.
+# Python files (src/py/) and __COMPONENT_VERSIONS.yaml are excluded from SSC.
 #
 # Usage: .\build_ssc_package.ps1
-# Output: ssc_wbopendata.1800.zip (in ssc/ directory)
+# Output: ssc\wbopendata-v18.4.1.zip
 
-Write-Host "=== Building SSC Package for wbopendata v18.0.0 ===" -ForegroundColor Green
+$version = "18.4.1"
+Write-Host "=== Building SSC Package for wbopendata v$version ===" -ForegroundColor Green
 
 # Navigate to repository root
 Set-Location (Split-Path $PSScriptRoot -Parent)
@@ -17,10 +19,10 @@ $tempDir = "ssc_package_temp"
 if (Test-Path $tempDir) { Remove-Item $tempDir -Recurse -Force }
 New-Item -ItemType Directory -Path $tempDir | Out-Null
 
-# Copy package metadata files (use SSC versions with flat paths)
+# Copy package metadata files directly from src/ (flat paths for SSC)
 Write-Host "`nCopying package metadata..." -ForegroundColor Cyan
-Copy-Item "ssc\stata.toc" "$tempDir\" -Force
-Copy-Item "ssc\wbopendata.pkg" "$tempDir\" -Force
+Copy-Item "src\stata.toc" "$tempDir\" -Force
+Copy-Item "src\wbopendata.pkg" "$tempDir\" -Force
 
 # Copy main wbopendata files from src/w/
 Write-Host "Copying main wbopendata files..." -ForegroundColor Cyan
@@ -50,7 +52,7 @@ foreach ($file in $mainFiles) {
     }
 }
 
-# Copy internal function files from src/_/ (ADO files)
+# Copy internal function files from src/_/
 Write-Host "Copying internal functions..." -ForegroundColor Cyan
 $internalFiles = @(
     # Core API and query
@@ -112,7 +114,8 @@ foreach ($file in $internalFiles) {
     }
 }
 
-# Copy YAML metadata files from src/_/ (NEW v18.0)
+# Copy YAML metadata files from src/_/
+# Note: __COMPONENT_VERSIONS.yaml is an internal manifest — excluded from SSC
 Write-Host "Copying YAML metadata files..." -ForegroundColor Cyan
 $yamlFiles = @(
     "_wbopendata_parameters.yaml",
@@ -129,11 +132,22 @@ foreach ($file in $yamlFiles) {
     }
 }
 
-# Copy YAML library from src/y/ (NEW v18.0)
+# Copy YAML library from src/y/
 Write-Host "Copying YAML library..." -ForegroundColor Cyan
 $yamlLibFiles = @(
     "yaml.ado",
-    "yaml.sthlp"
+    "yaml.sthlp",
+    "yaml_read.ado",
+    "yaml_get.ado",
+    "yaml_write.ado",
+    "yaml_list.ado",
+    "yaml_describe.ado",
+    "yaml_dir.ado",
+    "yaml_clear.ado",
+    "yaml_validate.ado",
+    "yaml_frames.ado",
+    "yaml_examples.sthlp",
+    "yaml_whatsnew.sthlp"
 )
 
 foreach ($file in $yamlLibFiles) {
@@ -154,37 +168,33 @@ $fileCount = (Get-ChildItem "$tempDir" -File).Count
 Write-Host "`n--- Package Summary ---" -ForegroundColor Yellow
 Write-Host "Total files: $fileCount" -ForegroundColor Yellow
 
-# Show file breakdown
-$adoCount = (Get-ChildItem "$tempDir" -Filter "*.ado").Count
+$adoCount   = (Get-ChildItem "$tempDir" -Filter "*.ado").Count
 $sthlpCount = (Get-ChildItem "$tempDir" -Filter "*.sthlp").Count
-$yamlCount = (Get-ChildItem "$tempDir" -Filter "*.yaml").Count
-$dtaCount = (Get-ChildItem "$tempDir" -Filter "*.dta").Count
+$yamlCount  = (Get-ChildItem "$tempDir" -Filter "*.yaml").Count
+$dtaCount   = (Get-ChildItem "$tempDir" -Filter "*.dta").Count
 $otherCount = $fileCount - $adoCount - $sthlpCount - $yamlCount - $dtaCount
-Write-Host "  ADO files:  $adoCount" -ForegroundColor Cyan
+Write-Host "  ADO files:   $adoCount"   -ForegroundColor Cyan
 Write-Host "  STHLP files: $sthlpCount" -ForegroundColor Cyan
-Write-Host "  YAML files: $yamlCount" -ForegroundColor Cyan
-Write-Host "  DTA files:  $dtaCount" -ForegroundColor Cyan
-Write-Host "  Other:      $otherCount" -ForegroundColor Cyan
+Write-Host "  YAML files:  $yamlCount"  -ForegroundColor Cyan
+Write-Host "  DTA files:   $dtaCount"   -ForegroundColor Cyan
+Write-Host "  Other:       $otherCount" -ForegroundColor Cyan
 
 # Create zip file
 Write-Host "`nCreating zip file..." -ForegroundColor Cyan
-$zipPath = "ssc\ssc_wbopendata.1800.zip"
-if (Test-Path $zipPath) {
-    Remove-Item $zipPath -Force
-}
+$zipPath = "ssc\wbopendata-v$version.zip"
+if (Test-Path $zipPath) { Remove-Item $zipPath -Force }
 
 Compress-Archive -Path "$tempDir\*" -DestinationPath $zipPath -CompressionLevel Optimal
 
 # Verify zip
 if (Test-Path $zipPath) {
-    $sizeKB = (Get-Item $zipPath).Length / 1KB
     $sizeMB = (Get-Item $zipPath).Length / 1MB
+    $sizeKB = (Get-Item $zipPath).Length / 1KB
     Write-Host "`n=== Package created successfully! ===" -ForegroundColor Green
     Write-Host "  Location: $zipPath" -ForegroundColor Cyan
     Write-Host "  Size: $([Math]::Round($sizeMB, 2)) MB ($([Math]::Round($sizeKB, 2)) KB)" -ForegroundColor Cyan
     Write-Host "  Files: $fileCount" -ForegroundColor Cyan
-}
-else {
+} else {
     Write-Host "`n=== Failed to create package ===" -ForegroundColor Red
     exit 1
 }
@@ -194,5 +204,5 @@ Remove-Item $tempDir -Recurse -Force
 Write-Host "`nCleaned up temporary files" -ForegroundColor Green
 
 Write-Host "`n=== Package ready for SSC submission ===" -ForegroundColor Green
-Write-Host "NOTE: Python files (src/py/) are excluded from SSC." -ForegroundColor Yellow
-Write-Host "      They are developer tools for metadata updates." -ForegroundColor Yellow
+Write-Host "NOTE: Python files (src/py/) excluded — developer tools only." -ForegroundColor Yellow
+Write-Host "NOTE: __COMPONENT_VERSIONS.yaml excluded — internal manifest only." -ForegroundColor Yellow
