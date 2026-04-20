@@ -1,0 +1,58 @@
+João Pedro Azevedo
+Deputy Director and Chief Statistician
+UNICEF Division of Data, Analytics, Planning and Monitoring
+3 United Nations Plaza
+New York, NY 10017
+jpazevedo@unicef.org
+
+February 26, 2026
+
+The Editors
+The Stata Journal
+editors@stata-journal.com
+
+Dear Editors,
+
+I am pleased to resubmit the revised manuscript, "wbopendata: Programmatic Access
+to World Bank Open Data," for consideration by the Stata Journal.
+
+This resubmission addresses the editorial feedback received on February 23, 2026,
+regarding ado-file naming conventions. All internal ado-files that previously
+used single-underscore prefixes (e.g., _query.ado, _website.ado) have been
+renamed to use the double-underscore __wbod_ prefix pattern (e.g., __wbod_query.ado,
+__wbod_website.ado) to avoid potential conflicts with official Stata routines.
+
+The paper documents wbopendata, a community-contributed Stata command that has
+provided programmatic access to World Bank Open Data since 2011. With over
+150,000 installations on SSC, wbopendata enables researchers to download more
+than 29,000 indicators from 71 World Bank databases spanning 296 countries and
+aggregates. The paper advances the argument that treating data acquisition as
+code---where indicator selections, country filters, and time ranges become
+explicit parameters in analysis scripts---offers a practical response to the data
+provenance dimension of the reproducibility crisis.
+
+The paper documents the current version (18.4), including:
+
+  - Five download modes with multilingual metadata support
+  - A YAML-backed offline metadata architecture for indicator discovery
+  - Version-controlled metadata synchronization
+  - An 89-scenario automated test suite
+  - Three design principles distilled from fifteen years of sustained use
+
+All manuscript, code, and help file references have been updated to reflect the
+new naming convention.
+
+The submission includes the complete software package (ado-files, help files,
+YAML metadata, and support files), a do-file reproducing all paper examples,
+and the corresponding log output.
+
+This paper has not been previously published and is not under review elsewhere.
+
+I am happy to provide any additional materials the editors or reviewers may
+require.
+
+Thank you for considering this submission.
+
+Sincerely,
+
+João Pedro Azevedo

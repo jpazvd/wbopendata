@@ -12,7 +12,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-RE_ADO = re.compile(r"^\s*\*!.*?v\s*([0-9]+(?:\.[0-9]+)*)", re.IGNORECASE)
+RE_ADO = re.compile(r"^\s*\*!.*v\s*([0-9]+(?:\.[0-9]+)*)", re.IGNORECASE)
 RE_LEGACY = re.compile(r"^\s*\*!\s*v?\s*([0-9]+)(?:\s|$)")
 
 ROOT = Path(__file__).resolve().parents[1]

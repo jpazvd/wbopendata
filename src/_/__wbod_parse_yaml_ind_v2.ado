@@ -1,5 +1,5 @@
 *******************************************************************************
-*! __wbod_parse_yaml_ind_v2 v1.1.0  21Feb2026
+*! __wbod_parse_yaml_ind_v2 v1.1.1  11Mar2026
 *! Parse YAML indicators file using yaml.ado bulk collapse (faster)
 *! Drop-in replacement for __wbod_parse_yaml_ind.ado
 *! v1.1.0: Strip empty YAML arrays [], add source_org to colfields
@@ -14,7 +14,7 @@ program define __wbod_parse_yaml_ind_v2
 
     * Check yaml.ado is installed with required version (once per session)
     if ("$WBOD_yaml_checked" != "1") {
-        _wbopendata_check_yaml, minversion(1.9.0)
+        __wbod_check_yaml, minversion(1.9.0)
         global WBOD_yaml_checked "1"
     }
 
@@ -68,3 +68,4 @@ program define __wbod_parse_yaml_ind_v2
              field_unit field_limited_data
     }
 end
+

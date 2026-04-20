@@ -1,0 +1,114 @@
+v 18.3.2
+d 'WBOPENDATA': module to access World Bank databases
+d 
+d wbopendata allows Stata users to download over 20,000 indicators 
+d from 71 World Bank databases, including: World Development Indicators;
+d Global Financial Inclusion (Findex); Education Statistics; Enterprise 
+d Surveys; Gender Statistics; Health Nutrition and Population Statistics; 
+d Human Capital Index; Climate Change (CCDR); Sustainable Development Goals; 
+d and many more. These indicators cover 296 countries and regions, with data 
+d spanning from 1960 to present. Users can choose from three languages 
+d (English, Spanish, or French). Five download options are supported: 
+d (1) country - all indicators for selected years for a single country; 
+d (2) topics - WDI indicators within a specific topic for all years/countries; 
+d (3) indicator - all years for all countries for a single indicator; 
+d (4) indicator and country - selected years/countries for a single indicator; 
+d (5) multiple indicators - all years for selected indicators. Users can 
+d choose wide or long format. NEW in v18.1: YAML-based parameters; deprecated
+d 89 per-indicator help files in favor of discovery commands (sources, alltopics,
+d search, info). NEW in v17.7: Basic country context variables included by default.
+d 
+d KW: World Bank
+d KW: development indicators
+d KW: WDI
+d KW: API
+d KW: open data
+d 
+d Requires: Stata version 14
+d 
+d Distribution-Date: 20260223
+d License: MIT
+d 
+d Author: João Pedro Azevedo
+d Webpage: https://jpazvd.github.io
+d Support: https://github.com/jpazvd/wbopendata 
+d 
+f w/wbopendata.ado
+f w/wbopendata_populate_list.ado
+f w/wbopendata_examples.ado
+f w/wbopendata.sthlp
+f w/wbopendata_whatsnew.sthlp
+f w/wbopendata.dlg
+f w/wbopendata_indicators.sthlp
+f w/wbopendata_adminregion.sthlp
+f w/wbopendata_incomelevel.sthlp
+f w/wbopendata_lendingtype.sthlp
+f w/wbopendata_region.sthlp
+f w/wbopendata_sourceid.sthlp
+f w/wbopendata_topicid.sthlp
+F w/world-c.dta
+F w/world-d.dta
+f _/__wbod_api_read.ado
+f _/__wbod_api_read_indicators.ado
+f _/__wbod_cache.ado
+f _/__wbod_check_version.ado
+f _/__wbod_check_yaml.ado
+f _/__wbod_countrymetadata.ado
+f _/__wbod_get_source_name.ado
+f _/__wbod_get_topic_name.ado
+f _/__wbod_get_yaml_path.ado
+f _/__wbod_info.ado
+f _/__wbod_linewrap.ado
+f _/__wbod_metadata_linewrap.ado
+f _/__wbod_parameters.ado
+f _/__wbod_parse_yaml_ind.ado
+f _/__wbod_parse_yaml_ind_v2.ado
+f _/__wbod_query.ado
+f _/__wbod_query_indicators.ado
+f _/__wbod_query_metadata.ado
+f _/__wbod_refresh_yaml.ado
+f _/__wbod_search.ado
+f _/__wbod_sources.ado
+f _/__wbod_sync.ado
+f _/__wbod_sync_preview.ado
+f _/__wbod_tknz.ado
+f _/__wbod_topics.ado
+f _/__wbod_update_countrymetadata.ado
+f _/__wbod_update_indicators.ado
+f _/__wbod_update_regionmetadata.ado
+f _/__wbod_update_wbopendata.ado
+f _/__wbod_website.ado
+f _/__wbod_write_stats_history.ado
+f _/__wbod_yaml_metadata.ado
+f _/__yaml_collapse.ado
+f _/__yaml_fastread.ado
+f _/__yaml_mataread.ado
+f _/__yaml_tokenize_line.ado
+F _/_wbopendata_parameters.yaml
+F _/_wbopendata_indicators.yaml
+F _/_wbopendata_sources.yaml
+F _/_wbopendata_topics.yaml
+F _/__COMPONENT_VERSIONS.yaml
+f y/yaml.ado
+f y/yaml.sthlp
+f y/yaml_read.ado
+f y/yaml_get.ado
+f y/yaml_write.ado
+f y/yaml_list.ado
+f y/yaml_describe.ado
+f y/yaml_dir.ado
+f y/yaml_clear.ado
+f y/yaml_validate.ado
+f y/yaml_frames.ado
+f y/yaml_examples.sthlp
+f y/yaml_whatsnew.sthlp
+f py/update_metadata.py
+f py/update_metadata.do
+f py/wb_api_client.py
+f py/yaml_generator.py
+f py/schema_validator.py
+f py/git_manager.py
+f py/diff_analyzer.py
+f py/__init__.py
+f c/country.txt
+f i/indicators.txt

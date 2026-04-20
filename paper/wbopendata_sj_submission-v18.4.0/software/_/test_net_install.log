@@ -1,0 +1,305 @@
+
+  ___  ____  ____  ____  ____ ®
+ /__    /   ____/   /   ____/      17.0
+___/   /   /___/   /   /___/       MP—Parallel Edition
+
+ Statistics and Data Science       Copyright 1985-2021 StataCorp LLC
+                                   StataCorp
+                                   4905 Lakeway Drive
+                                   College Station, Texas 77845 USA
+                                   800-STATA-PC        https://www.stata.com
+                                   979-696-4600        stata@stata.com
+
+Stata license: Single-user 8-core  perpetual
+Serial number: 501706320757
+  Licensed to: Joao Pedro Azevedo
+               Personal
+
+Notes:
+      1. Stata is running in batch mode.
+      2. Unicode is supported; see help unicode_advice.
+      3. More than 2 billion observations are allowed; see help obs_advice.
+      4. Maximum number of variables is set to 5,000 but can be increased;
+          see help set_maxvar.
+
+. do C:\GitHub\myados\scripts\test_net_install.do 
+
+. * Test net install for unicefdata
+. clear all
+r; t=0.32 15:03:14
+
+. log using "C:\GitHub\myados\logs\test_net_install.log", replace text
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\GitHub\myados\logs\test_net_install.log
+  log type:  text
+ opened on:   7 Feb 2026, 15:03:14
+r; t=0.04 15:03:14
+
+. 
+. di "Testing net install from src directory..."
+Testing net install from src directory...
+r; t=0.00 15:03:14
+
+. 
+. net from "C:\GitHub\myados\unicefData-dev\stata\src"
+-------------------------------------------------------------------------------
+C:\GitHub\myados\unicefData-dev\stata\src\
+unicefData - UNICEF Data Warehouse Stata Package
+-------------------------------------------------------------------------------
+
+
+This package provides Stata commands to access the UNICEF Data Warehouse
+via the SDMX REST API. Download 748+ indicators covering child health,
+nutrition, education, protection, HIV/AIDS, WASH, and more.
+
+Version: 2.0.0 (2026-01-24)
+
+Major Features:
+- Intelligent SDMX query engine with dimension extraction
+- Automatic dataflow detection from indicator codes
+- Three query modes: auto-detect, bypass, validation
+- Enriched metadata with tier and geographic classifications
+- YAML-based metadata synchronization
+- Comprehensive QA test suite (30/30 tests passing, 100% coverage)
+- Regression testing framework (REGR-01) for API stability
+
+Commands:
+unicefdata - Main data download command with discovery features
+- unicefdata, categories       List indicator categories with counts
+- unicefdata, search(keyword)  Search indicators by keyword
+- unicefdata, flows            List available dataflows
+- unicefdata, indicators(CME)  List indicators in a dataflow
+- unicefdata, info(CODE)       Get indicator details
+get_sdmx - Low-level SDMX fetcher with intelligent query routing
+unicefdata_sync - Synchronize local metadata from SDMX API
+yaml - YAML file parser (dependency)
+
+Requires: Stata 14.0+ (Stata 16+ recommended for frames support)
+
+Author: Joao Pedro Azevedo (jazevedo@unicef.org)
+
+For more information, visit:
+https://github.com/unicef-drp/unicefData
+
+
+PACKAGES you could -net describe-:
+    unicefdata        Download indicators from UNICEF Data Warehouse
+-------------------------------------------------------------------------------
+r; t=0.09 15:03:14
+
+. net describe unicefdata
+
+-------------------------------------------------------------------------------
+package unicefdata from C:\GitHub\myados\unicefData-dev\stata\src
+-------------------------------------------------------------------------------
+
+TITLE
+      unicefData. Download indicators from UNICEF Data Warehouse
+
+DESCRIPTION/AUTHOR(S)
+      
+      Author: Joao Pedro Azevedo
+      Support: jazevedo@unicef.org
+      
+      unicefData downloads indicator data from the UNICEF Data Warehouse
+      using the SDMX REST API. It provides access to 748+ indicators
+      covering child health, nutrition, education, protection, HIV/AIDS,
+      WASH, and more.
+      
+      Features:
+        - Download data by indicator, geography, and time period
+        - Discovery: flows, search, indicators, info
+        - Multiple output formats: long, wide, wide_indicators
+        - Automatic dataflow detection from indicator codes
+        - PT subdataflow support (PT_CM, PT_FGM)
+        - Enriched indicator metadata with dataflow mappings
+        - Indicator tier classification (1-5 tiers)
+        - Geographic type classification (country vs aggregate)
+        - YAML-based metadata with sync capabilities
+        - Comprehensive dataflow dimension metadata (69+ dataflows)
+        - Intelligent SDMX query engine with three modes
+          * Auto-detect: System infers dataflow from indicator
+          * Bypass: User specifies dataflow explicitly
+          * Validation: Dimension extraction for filter validation
+        - Metadata-driven filtering using disaggregations_with_totals (NEW)
+          * Matches Python/R filtering for cross-platform consistency
+          * DISABILITY_STATUS special handling (PD baseline when no _T)
+        - Stata 16+ frames support for better isolation
+      
+      Requires: Stata 14.0+ (Stata 16+ recommended)
+      
+      Distribution-Date: 20260125
+      
+      Quality Assurance:
+        - 30 comprehensive tests (100% passing)
+        - 7 test families: ENV, DL, DIS, FILT, META, EDGE, REGR
+        - Regression baselines for API stability monitoring
+      
+
+INSTALLATION FILES                           (type net install unicefdata)
+      g/get_sdmx.ado
+      g/get_sdmx.sthlp
+      u/unicefdata.ado
+      u/unicefdata.sthlp
+      u/unicefdata_examples.ado
+      u/unicefdata_examples.sthlp
+      u/unicefdata_whatsnew.sthlp
+      u/unicefdata_sync.ado
+      u/unicefdata_sync.sthlp
+      u/unicefdata_setup.ado
+      u/unicefdata_setup.sthlp
+      u/unicefdata_xmltoyaml.ado
+      u/unicefdata_xmltoyaml.sthlp
+      u/unicefdata_xmltoyaml_py.ado
+      u/unicefdata_xmltoyaml_py.sthlp
+      y/yaml.ado
+      y/yaml.sthlp
+      _/_query_metadata.ado
+      _/_query_indicators.ado
+      _/_unicef_build_schema_key.ado
+      _/_unicef_list_dataflows.ado
+      _/_unicef_list_indicators.ado
+      _/_unicef_search_indicators.ado
+      _/_unicef_indicator_info.ado
+      _/_unicef_dataflow_info.ado
+      _/_unicef_fetch_with_fallback.ado
+      _/_set_default_dataflows.ado
+      _/_get_dataflow_direct.ado
+      _/_get_sdmx_rename_year_columns.ado
+      _/__unicef_fetch_paged.ado
+      _/_unicef_get_disagg_totals.ado
+      _/__unicef_get_indicator_filters.ado
+      _/_unicefdata_sync_dataflow_index.ado
+      _/_unicefdata_sync_df_schema.ado
+      _/_unicefdata_sync_ind_meta.ado
+      _/_unicefdata_update_sync_history.ado
+      _/_xmltoyaml_get_schema.ado
+      _/_xmltoyaml_parse.ado
+      _/_xmltoyaml_parse_lines.ado
+      _/_xmltoyaml_parse_python.ado
+      _/_xmltoyaml_parse_stata.ado
+      _/__unicef_parse_indicator_yaml.ado
+      _/__unicef_get_indicator_dataflow.ado
+      _/_metadata_linewrap.ado
+      _/_linewrap.ado
+      u/unicefdata_refresh_all.ado
+      py/unicefdata_xml2yaml.py
+      py/build_dataflow_metadata.py
+      py/build_indicator_dataflow_map.py
+      py/enrich_indicators_metadata.py
+      py/enrich_stata_metadata_complete.py
+      py/validate_yaml_schema.py
+      py/python_xml_helper.py
+      py/stata_schema_sync.py
+
+ANCILLARY FILES                              (type net get unicefdata)
+      _/_unicefdata_dataflows.yaml
+      _/_unicefdata_indicators.yaml
+      _/_unicefdata_codelists.yaml
+      _/_unicefdata_countries.yaml
+      _/_unicefdata_regions.yaml
+      _/_unicefdata_sync_history.yaml
+      _/_dataflow_index.yaml
+      _/_dataflow_indicators_list.txt
+      _/_dataflow_fallback_sequences.yaml
+      _/_unicefdata_indicators_metadata.yaml
+      _/_indicator_dataflow_map.yaml
+      _/_unicefdata_dataflow_metadata.yaml
+-------------------------------------------------------------------------------
+r; t=0.04 15:03:14
+
+. 
+. di "Installing..."
+Installing...
+r; t=0.00 15:03:14
+
+. net install unicefdata, replace force
+checking unicefdata consistency and verifying not already installed...
+
+the following files will be replaced:
+    C:\Users\jpazevedo\ado\plus\g\get_sdmx.ado
+    C:\Users\jpazevedo\ado\plus\g\get_sdmx.sthlp
+    C:\Users\jpazevedo\ado\plus\u\unicefdata.ado
+    C:\Users\jpazevedo\ado\plus\u\unicefdata.sthlp
+    C:\Users\jpazevedo\ado\plus\u\unicefdata_examples.ado
+    C:\Users\jpazevedo\ado\plus\u\unicefdata_examples.sthlp
+    C:\Users\jpazevedo\ado\plus\u\unicefdata_whatsnew.sthlp
+    C:\Users\jpazevedo\ado\plus\u\unicefdata_sync.ado
+    C:\Users\jpazevedo\ado\plus\u\unicefdata_sync.sthlp
+    C:\Users\jpazevedo\ado\plus\u\unicefdata_setup.ado
+    C:\Users\jpazevedo\ado\plus\u\unicefdata_setup.sthlp
+    C:\Users\jpazevedo\ado\plus\u\unicefdata_xmltoyaml.ado
+    C:\Users\jpazevedo\ado\plus\u\unicefdata_xmltoyaml.sthlp
+    C:\Users\jpazevedo\ado\plus\u\unicefdata_xmltoyaml_py.ado
+    C:\Users\jpazevedo\ado\plus\u\unicefdata_xmltoyaml_py.sthlp
+    C:\Users\jpazevedo\ado\plus\y\yaml.ado
+    C:\Users\jpazevedo\ado\plus\y\yaml.sthlp
+    C:\Users\jpazevedo\ado\plus\_\_query_metadata.ado
+    C:\Users\jpazevedo\ado\plus\_\_query_indicators.ado
+    C:\Users\jpazevedo\ado\plus\_\_unicef_build_schema_key.ado
+    C:\Users\jpazevedo\ado\plus\_\_unicef_list_dataflows.ado
+    C:\Users\jpazevedo\ado\plus\_\_unicef_list_indicators.ado
+    C:\Users\jpazevedo\ado\plus\_\_unicef_search_indicators.ado
+    C:\Users\jpazevedo\ado\plus\_\_unicef_indicator_info.ado
+    C:\Users\jpazevedo\ado\plus\_\_unicef_dataflow_info.ado
+    C:\Users\jpazevedo\ado\plus\_\_unicef_fetch_with_fallback.ado
+    C:\Users\jpazevedo\ado\plus\_\_set_default_dataflows.ado
+    C:\Users\jpazevedo\ado\plus\_\_get_dataflow_direct.ado
+    C:\Users\jpazevedo\ado\plus\_\_get_sdmx_rename_year_columns.ado
+    C:\Users\jpazevedo\ado\plus\_\__unicef_fetch_paged.ado
+    C:\Users\jpazevedo\ado\plus\_\_unicef_get_disagg_totals.ado
+    C:\Users\jpazevedo\ado\plus\_\__unicef_get_indicator_filters.ado
+    C:\Users\jpazevedo\ado\plus\_\_unicefdata_sync_dataflow_index.ado
+    C:\Users\jpazevedo\ado\plus\_\_unicefdata_sync_df_schema.ado
+    C:\Users\jpazevedo\ado\plus\_\_unicefdata_sync_ind_meta.ado
+    C:\Users\jpazevedo\ado\plus\_\_unicefdata_update_sync_history.ado
+    C:\Users\jpazevedo\ado\plus\_\_xmltoyaml_get_schema.ado
+    C:\Users\jpazevedo\ado\plus\_\_xmltoyaml_parse.ado
+    C:\Users\jpazevedo\ado\plus\_\_xmltoyaml_parse_lines.ado
+    C:\Users\jpazevedo\ado\plus\_\_xmltoyaml_parse_python.ado
+    C:\Users\jpazevedo\ado\plus\_\_xmltoyaml_parse_stata.ado
+    C:\Users\jpazevedo\ado\plus\_\__unicef_parse_indicator_yaml.ado
+    C:\Users\jpazevedo\ado\plus\_\__unicef_get_indicator_dataflow.ado
+    C:\Users\jpazevedo\ado\plus\_\_metadata_linewrap.ado
+    C:\Users\jpazevedo\ado\plus\_\_linewrap.ado
+    C:\Users\jpazevedo\ado\plus\u\unicefdata_refresh_all.ado
+    C:\Users\jpazevedo\ado\plus\py\unicefdata_xml2yaml.py
+    C:\Users\jpazevedo\ado\plus\py\build_dataflow_metadata.py
+    C:\Users\jpazevedo\ado\plus\py\build_indicator_dataflow_map.py
+    C:\Users\jpazevedo\ado\plus\py\enrich_indicators_metadata.py
+    C:\Users\jpazevedo\ado\plus\py\enrich_stata_metadata_complete.py
+    C:\Users\jpazevedo\ado\plus\py\validate_yaml_schema.py
+    C:\Users\jpazevedo\ado\plus\py\python_xml_helper.py
+    C:\Users\jpazevedo\ado\plus\py\stata_schema_sync.py
+
+installing into C:\Users\jpazevedo\ado\plus\...
+installation complete.
+r; t=2.70 15:03:17
+
+. 
+. di "Checking installed files..."
+Checking installed files...
+r; t=0.00 15:03:17
+
+. adopath
+  [1]  (BASE)      "C:\Program Files\Stata17\ado\base/"
+  [2]  (SITE)      "C:\Program Files\Stata17\ado\site/"
+  [3]              "."
+  [4]  (PERSONAL)  "c:\ado\personal/"
+  [5]  (PLUS)      "C:\Users\jpazevedo\ado\plus/"
+  [6]  (OLDPLACE)  "c:\ado/"
+r; t=0.02 15:03:17
+
+. 
+. log close
+      name:  <unnamed>
+       log:  C:\GitHub\myados\logs\test_net_install.log
+  log type:  text
+ closed on:   7 Feb 2026, 15:03:17
+-------------------------------------------------------------------------------
+r; t=0.00 15:03:17
+
+. 
+end of do-file
+r; t=4.11 15:03:17
