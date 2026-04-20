@@ -345,10 +345,10 @@ end
 
 
 *******************************************************************************
-* v 16.0	28Oct2019				by JoÃ£o Pedro Azevedo
+* v 16.0	28Oct2019				by João Pedro Azevedo
 *       support to HPP population projections
 *******************************************************************************
-* v 15.2   10Mar2019				by JoÃ£o Pedro Azevedo
+* v 15.2   10Mar2019				by João Pedro Azevedo
 *		rename ado : _wbopendata_update.ado  to __wbod_update_indicators.ado
 *******************************************************************************
 * v 14.3  	2Feb2019               	by Joao Pedro Azevedo                     

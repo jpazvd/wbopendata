@@ -1,7 +1,7 @@
 *******************************************************************************
 *! __wbod_write_stats_history v1.0.0  09Feb2026
 *! Write sync statistics to history YAML file
-*! Author: JoÃ£o Pedro Azevedo (World Bank | UNICEF)
+*! Author: João Pedro Azevedo (World Bank | UNICEF)
 *! Contact: https://jpazvd.github.io
 *! License: MIT
 *******************************************************************************

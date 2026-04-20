@@ -906,3 +906,46 @@ Tests:    92 run, 92 passed, 0 failed
 Result:   ALL TESTS PASSED
 Log:      test_results_v18.4.0_7Mar2026.log
 ======================================================================
+
+======================================================================
+Test Run: 20 Apr 2026
+Started:  10:17:56
+Ended:    10:49:53
+Duration: 31m 57s
+Version:  18.4.1
+Build:    19Apr2026
+Branch:   develop
+Stata:    17
+Tests:    92 run, 92 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.4.1_20Apr2026.log
+======================================================================
+
+======================================================================
+Test Run: 20 Apr 2026
+Started:  11:31:38
+Ended:    12:03:33
+Duration: 31m 55s
+Version:  18.4.1
+Build:    19Apr2026
+Branch:   develop
+Stata:    17
+Tests:    92 run, 91 passed, 1 failed
+Result:   FAILED
+Failed:   TOPIC-01
+Log:      test_results_v18.4.1_20Apr2026.log
+======================================================================
+
+======================================================================
+Test Run: 20 Apr 2026
+Started:  12:07:54
+Ended:    12:40:10
+Duration: 32m 16s
+Version:  18.4.1
+Build:    19Apr2026
+Branch:   develop
+Stata:    17
+Tests:    92 run, 92 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.4.1_20Apr2026.log
+======================================================================

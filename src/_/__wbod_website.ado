@@ -1,6 +1,6 @@
 *******************************************************************************
 * __wbod_website                                                                   *
-*! v 15.5   22Dec2024				by JoÃ£o Pedro Azevedo
+*! v 15.5   22Dec2024				by João Pedro Azevedo
 *		fix URL parsing for "http:  domain" patterns (spaces after colon)
 *		return r(url1), r(url2), ... r(nurls) extracted from {browse} tags
 *		refactored: single source of truth - URLs extracted from final SMCL
