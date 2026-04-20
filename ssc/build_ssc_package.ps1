@@ -91,6 +91,8 @@ $internalFiles = @(
     "__wbod_get_topic_name.ado",
     "__wbod_info.ado",
     "__wbod_search.ado",
+    "__wbopendata_search.ado",
+    "__wbopendata_search_cache.ado",
     "__wbod_sources.ado",
     "__wbod_topics.ado",
     # Sync system

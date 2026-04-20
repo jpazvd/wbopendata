@@ -13,9 +13,6 @@ program define __wbod_search, rclass
 
     local topic_input "`topic'"
     local topic_dispatch "`topic'"
-    if ("`topic_dispatch'" != "" & length("`topic_dispatch'") == 1 & real("`topic_dispatch'") != .) {
-        local topic_dispatch = "0`topic_dispatch'"
-    }
 
     * Route to appropriate implementation based on Stata version
     if (`c(stata_version)' >= 16) {
