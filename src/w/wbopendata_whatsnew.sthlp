@@ -1,7 +1,8 @@
 {smcl}
-{* *! version 18.4.1  19Apr2026}{...}
+{* *! version 18.5.0  21Apr2026}{...}
 {vieweralsosee "wbopendata" "help wbopendata"}{...}
 {viewerjumpto "What's New" "wbopendata_whatsnew##whatsnew"}{...}
+{viewerjumpto "Version 18.5.0" "wbopendata_whatsnew##v1850"}{...}
 {viewerjumpto "Version 18.4.1" "wbopendata_whatsnew##v1841"}{...}
 {viewerjumpto "Version 18.3.2" "wbopendata_whatsnew##v1832"}{...}
 {viewerjumpto "Version 18.3.1" "wbopendata_whatsnew##v1831"}{...}
@@ -25,6 +26,24 @@
 {pstd}
 This file documents recent changes and new features in the {cmd:wbopendata} module.
 For complete documentation, see {help wbopendata:help wbopendata}.
+
+{marker v1850}{...}
+{title:Version 18.5.0 (21Apr2026)}
+
+{pstd}
+{bf:New feature: Paginated search results} - Search results (by keyword, topic,
+or source) now support a new {opt page(#)} option so users can navigate beyond
+the first {opt limit(#)} records. Clickable SMCL {opt [Prev]}, {opt [Next]},
+and page-number links are rendered below the results whenever matches exceed
+one page. Small result sets (<=30 matches) continue to render on a single
+page with no pagination nav - the navigation only appears when it is useful.
+
+{pstd}
+New return values: {cmd:r(page)} and {cmd:r(n_pages)} expose the current page
+and total page count for scripting.
+
+{phang2}{cmd:. wbopendata, searchtopic(11) limit(20) page(2)}{p_end}
+{phang2}{cmd:. wbopendata, search(poverty) limit(10) page(3)}{p_end}
 
 {marker v1841}{...}
 {title:Version 18.4.1 (19Apr2026)}

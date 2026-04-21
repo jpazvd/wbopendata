@@ -20,6 +20,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [18.5.0] - 2026-04-21
+
+### Added
+
+- **Paginated search results**: New `page(#)` option on `wbopendata, search()` / `searchsource()` / `searchtopic()` lets users navigate beyond the first `limit(#)` records. Total pages = `ceil(matches / limit)`. Clickable SMCL `[Prev]` / `[Next]` / page-number links are rendered below the results whenever matches exceed one page. Small result sets (≤30 matches) continue to render on a single page with no pagination nav, preserving the pre-pagination UX.
+- **New return scalars**: `r(page)` and `r(n_pages)` exposed for scripting.
+- **Shared helper**: `__wbod_search_pagenav.ado` renders the SMCL pagination navigation for both the Stata 14-15 and Stata 16+ search backends.
+
+### Documentation
+
+- `wbopendata.sthlp`, `wbopendata_whatsnew.sthlp`, and `README.md` updated with `page(#)` documentation and pagination examples.
+
+---
+
 ## [18.4.1] - 2026-04-19
 
 ### Fixed
