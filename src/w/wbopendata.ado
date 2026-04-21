@@ -1,6 +1,7 @@
 *******************************************************************************
 * wbopendata
-*! v 18.4.1  	 19Apr2026               by Joao Pedro Azevedo
+*! v 18.5.0  	 21Apr2026               by Joao Pedro Azevedo
+*   18.5.0: Add page() option to search with clickable [Prev]/[Next] pagination; small result sets (<=30) remain on a single page
 *   18.4.1: Restore country context variables (region/income/lending) missing since v18.0.0; fix sthlp truncation (Kit Baum)
 *   18.4.0: Refactored internal file naming per TSJ feedback (no user-facing changes)
 *   18.3.2: Frame cache completeness, manifest format documentation
@@ -911,7 +912,7 @@ local indicator `indicators'
 **********************************************************************************
 
 	if ("`char'" != "nochar") & ("`update'" == "") {
-		char _dta[wbopendata_version]   "18.4.1"
+		char _dta[wbopendata_version]   "18.5.0"
 		char _dta[wbopendata_timestamp] "`c(current_date)' `c(current_time)'"
 		char _dta[wbopendata_user]      "`c(username)'"
 		char _dta[wbopendata_syntax]    `"wbopendata, `0'"'
