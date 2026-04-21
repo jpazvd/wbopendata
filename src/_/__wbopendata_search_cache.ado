@@ -460,7 +460,7 @@ program define __wbopendata_search_cache, rclass
         }
 
         * Pagination nav (shown only when there is more than one page)
-        __wbod_search_pagenav, page(`page') total_pages(`total_pages') ///
+        __wbod_search_pagenav, page(`page') totalpages(`total_pages') ///
             keyword(`"`kw'"') source("`source'") topic("`topic'") ///
             field("`field'") limit(`limit') `exact' `detail'
 
@@ -544,7 +544,7 @@ program define __wbopendata_search_cache, rclass
         di as text "{hline}"
 
         * Pagination nav (shown only when there is more than one page)
-        __wbod_search_pagenav, page(`page') total_pages(`total_pages') ///
+        __wbod_search_pagenav, page(`page') totalpages(`total_pages') ///
             keyword(`"`kw'"') source("`source'") topic("`topic'") ///
             field("`field'") limit(`limit') `exact' `detail'
 
