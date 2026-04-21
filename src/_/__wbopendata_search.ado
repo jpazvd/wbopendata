@@ -456,10 +456,10 @@ program define __wbopendata_search, rclass
 
             * Display block with wrapped fields
             di as result "`code'" as text "  " ///
-               `"{stata `"`info_cmd'"':[Info]}"' " " ///
-               `"{stata `"`get_cmd'"':[Get]}"'
+               `"{stata "`info_cmd'":[Info]}"' " " ///
+               `"{stata "`get_cmd'":[Get]}"'
             di in smcl `"{p 4 4 4}{result:Name}: `nm'{p_end}"'
-            di in smcl `"{p 4 4 4}{result:Source}: {stata `"`src_cmd'"':`src_id'}  {result:Topic}: {stata `"`topic_cmd'"':`topic_nm'}{p_end}"'
+            di in smcl `"{p 4 4 4}{result:Source}: {stata "`src_cmd'":`src_id'}  {result:Topic}: {stata "`topic_cmd'":`topic_nm'}{p_end}"'
             di as text "{hline}"
 
             * Build return values
@@ -545,10 +545,10 @@ program define __wbopendata_search, rclass
 
             * Display row with SMCL links (Source and Topic are now clickable)
             di as result %-22s "`code'" as text " " %-`name_width's "`nm_disp'" " " ///
-               `"{stata `"`src_cmd'"':`src_disp'}"' " " ///
-               `"{stata `"`topic_cmd'"':`topic_pad'}"' " " ///
-               `"{stata `"`info_cmd'"':[Info]}"' " " ///
-               `"{stata `"`get_cmd'"':[Get]}"'
+               `"{stata "`src_cmd'":`src_disp'}"' " " ///
+               `"{stata "`topic_cmd'":`topic_pad'}"' " " ///
+               `"{stata "`info_cmd'":[Info]}"' " " ///
+               `"{stata "`get_cmd'":[Get]}"'
 
             * Build return values
             local codes "`codes' `code'"

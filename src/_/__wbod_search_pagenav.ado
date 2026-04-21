@@ -16,8 +16,8 @@ program define __wbod_search_pagenav
     * Build the invariant part of the command (all filters minus page).
     * Quote keyword to handle multi-word/regex strings; omit search() entirely
     * for browse-mode calls that only use searchsource()/searchtopic().
-    if (`"`keyword'"' != "") {
-        local base `"wbopendata, search(`"`keyword'"')"'
+    if "`keyword'" != "" {
+        local base `"wbopendata, search(`keyword')"'
     }
     else {
         local base "wbopendata,"
@@ -35,7 +35,7 @@ program define __wbod_search_pagenav
     if (`page' > 1) {
         local prev_p = `page' - 1
         local prev_cmd `"`base' page(`prev_p')"'
-        local prev_link `"{stata `"`prev_cmd'"':[Prev]}"'
+        local prev_link `"{stata "`prev_cmd'":[Prev]}"'
     }
     else {
         local prev_link "[Prev]"
@@ -43,7 +43,7 @@ program define __wbod_search_pagenav
     if (`page' < `total_pages') {
         local next_p = `page' + 1
         local next_cmd `"`base' page(`next_p')"'
-        local next_link `"{stata `"`next_cmd'"':[Next]}"'
+        local next_link `"{stata "`next_cmd'":[Next]}"'
     }
     else {
         local next_link "[Next]"
@@ -61,7 +61,7 @@ program define __wbod_search_pagenav
             }
             else {
                 local p_cmd `"`base' page(`p')"'
-                local plist `"`plist' {stata `"`p_cmd'"':[`p']}"'
+                local plist `"`plist' {stata "`p_cmd'":[`p']}"'
             }
         }
     }
@@ -77,7 +77,7 @@ program define __wbod_search_pagenav
                 }
                 else {
                     local p_cmd `"`base' page(`p')"'
-                    local plist `"`plist' {stata `"`p_cmd'"':[`p']}"'
+                    local plist `"`plist' {stata "`p_cmd'":[`p']}"'
                 }
             }
         }
@@ -90,7 +90,7 @@ program define __wbod_search_pagenav
             }
             else {
                 local p_cmd `"`base' page(`p')"'
-                local plist `"`plist' {stata `"`p_cmd'"':[`p']}"'
+                local plist `"`plist' {stata "`p_cmd'":[`p']}"'
             }
         }
 
@@ -104,7 +104,7 @@ program define __wbod_search_pagenav
             }
             else {
                 local p_cmd `"`base' page(`p')"'
-                local plist `"`plist' {stata `"`p_cmd'"':[`p']}"'
+                local plist `"`plist' {stata "`p_cmd'":[`p']}"'
             }
         }
     }
