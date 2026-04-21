@@ -949,3 +949,18 @@ Tests:    92 run, 92 passed, 0 failed
 Result:   ALL TESTS PASSED
 Log:      test_results_v18.4.1_20Apr2026.log
 ======================================================================
+
+======================================================================
+Test Run: 21 Apr 2026
+Started:  09:39:31
+Ended:    10:02:43
+Duration: 23m 12s
+Version:  18.5.0
+Build:    21Apr2026
+Branch:   claude/add-search-pagination-zUvzv
+Stata:    17
+Tests:    92 run, 84 passed, 8 failed
+Result:   FAILED
+Failed:   CACHE-08, SYNC-05, DISC-01, DISC-02, DISC-03, DISC-07, DISC-08, DISC-09
+Log:      test_results_v18.5.0_21Apr2026.log
+======================================================================
