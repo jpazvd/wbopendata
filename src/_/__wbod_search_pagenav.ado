@@ -48,7 +48,7 @@ program define __wbod_search_pagenav
     else {
         local next_link "[Next]"
     }
-    di as text "`prev_link'  " as result "Page `page' of `total_pages'" as text "  `next_link'"
+    di as text `"`prev_link'  "' as result "Page `page' of `total_pages'" as text `"  `next_link'"'
 
     * Line 2: compact page list. Show all if <=10 pages; otherwise show
     * first 2, a window around current page, and last 2, with ... separators.
@@ -108,5 +108,5 @@ program define __wbod_search_pagenav
             }
         }
     }
-    di as text "Go to page:`plist'"
+    di as text `"Go to page:`plist'"'
 end
