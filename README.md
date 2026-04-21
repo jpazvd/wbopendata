@@ -167,6 +167,7 @@ wbopendata, indicator(NY.GDP.MKTP.CD) clear long nochar
 * NEW: Discovery features - search for indicators
 wbopendata, search(GDP)                    // Search indicators by keyword
 wbopendata, search(education) limit(50)    // Limit results
+wbopendata, searchtopic(11) page(2)        // Navigate paginated results
 
 * NEW: Get detailed info about a specific indicator
 wbopendata, info(NY.GDP.MKTP.CD)
@@ -240,7 +241,8 @@ wbopendata, cacheinfo      // Display cache status
 - **searchfield(string)**: Search in specific fields: `code`, `name`, `description`, `all` (default: `all`)
 - **exact**: Require exact word match (no partial matching)
 - **detail**: Show full indicator details with wrapped text instead of truncated table
-- **limit(integer)**: Limit search results (default: 20)
+- **limit(integer)**: Per-page record count (default: 20)
+- **page(integer)**: Page of results to display (default: 1). When total matches exceed `limit`, clickable `[Prev]` / `[Next]` / page-number links appear below the table. Small result sets (≤30 matches) always render on a single page, so pagination only kicks in when it's useful.
 
 #### Indicator Info
 
@@ -273,6 +275,10 @@ wbopendata, search(GDP*) searchsource(2)          // Wildcard + filter by source
 wbopendata, search(education) searchtopic(4)      // Filter by topic
 wbopendata, search(~^NY\.GDP) searchfield(code)   // Regex search in code field
 wbopendata, search(poverty) detail                // Full details with wrapped text
+
+* Paginate large result sets
+wbopendata, searchtopic(11) limit(20) page(2)     // Records 21-40 in topic 11
+wbopendata, search(poverty) limit(10) page(3)     // Third page of 10 per page
 
 * Get detailed info about a specific indicator
 wbopendata, info(NY.GDP.MKTP.CD)

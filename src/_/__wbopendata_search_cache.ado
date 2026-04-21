@@ -365,27 +365,39 @@ program define __wbopendata_search_cache, rclass
         replace field_source = "N/A" if field_source == ""
     }
 
-    * Pagination: compute total pages, clamp page, determine slice
-    local total_pages = ceil(`n' / `limit')
-    if (`total_pages' < 1) local total_pages = 1
-    if (`page' > `total_pages') local page = `total_pages'
-    local pg_start = (`page' - 1) * `limit' + 1
-    local pg_end = min(`page' * `limit', `n')
+    * Pagination: small result sets display on a single page (matching the
+    * pre-pagination UX); larger sets honor `limit' as per-page size.
+    if (`n' <= 30) {
+        local total_pages = 1
+        local page = 1
+        local pg_start = 1
+        local pg_end = `n'
+    }
+    else {
+        local total_pages = ceil(`n' / `limit')
+        if (`total_pages' < 1) local total_pages = 1
+        if (`page' > `total_pages') local page = `total_pages'
+        local pg_start = (`page' - 1) * `limit' + 1
+        local pg_end = min(`page' * `limit', `n')
+    }
     local lim = `pg_end' - `pg_start' + 1
 
-    * Build header
+    * Build header: show pagination info only when there is more than one page
+    if (`total_pages' > 1) {
+        local hdr_tail "(page `page' of `total_pages' — showing `pg_start'-`pg_end' of `n')"
+    }
+    else {
+        local hdr_tail "(showing `n' of `n')"
+    }
     di as text ""
     if ("`kw'" != "") {
-        di as result "Search results for " as text `""`kw'""' as result ///
-            " (page `page' of `total_pages' — showing `pg_start'-`pg_end' of `n' matches)"
+        di as result "Search results for " as text `""`kw'""' as result " `hdr_tail'"
     }
     else if ("`source'" != "") {
-        di as result "Indicators from source `source'" as text ///
-            " (page `page' of `total_pages' — showing `pg_start'-`pg_end' of `n')"
+        di as result "Indicators from source `source'" as text " `hdr_tail'"
     }
     else if ("`topic'" != "") {
-        di as result "Indicators in topic `topic'" as text ///
-            " (page `page' of `total_pages' — showing `pg_start'-`pg_end' of `n')"
+        di as result "Indicators in topic `topic'" as text " `hdr_tail'"
     }
 
     * Build return values
