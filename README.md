@@ -58,7 +58,7 @@ The access to these databases is made possible by the World Bank's [Open Data In
 ### From GitHub (Recommended)
 
 ```stata
-net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main") replace
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main/src/") replace
 ```
 
 ### From SSC (Stable but older)
