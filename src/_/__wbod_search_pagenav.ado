@@ -29,8 +29,6 @@ program define __wbod_search_pagenav
     if ("`detail'" != "") local base `"`base' detail"'
     local base `"`base' limit(`limit')"'
 
-    di as text ""
-
     * Line 1: [Prev] Page X of Y [Next]
     if (`page' > 1) {
         local prev_p = `page' - 1
