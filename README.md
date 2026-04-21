@@ -61,6 +61,9 @@ The access to these databases is made possible by the World Bank's [Open Data In
 net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main/src/") replace
 ```
 
+> **Upgrading?** Always use `replace`. If you see r(602) about conflicting files, `replace` resolves it.
+> Avoid `net uninstall wbopendata` — it returns r(111) ("criterion matches more than one package") and is not needed.
+
 ### From SSC (Stable but older)
 
 ```stata
@@ -73,16 +76,16 @@ ssc install wbopendata, replace
 
 ```stata
 * Install v18.1.1 specifically
-net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v18.1.1") replace
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v18.1.1/src/") replace
 ```
 
 ### From Local Clone
 ```stata
-* Windows - install from repo root (pkg references src/ paths)
-net install wbopendata, from("C:/GitHub/myados/wbopendata") replace
+* Windows
+net install wbopendata, from("C:/path/to/wbopendata/src/") replace
 
 * Mac/Linux
-net install wbopendata, from("/Users/username/GitHub/wbopendata") replace
+net install wbopendata, from("/path/to/wbopendata/src/") replace
 ```
 
 > **Note:** The **wbopendata project** maintains three `wbopendata.pkg` files:
