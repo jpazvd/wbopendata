@@ -14,8 +14,14 @@ program define __wbod_search_pagenav
     if (`total_pages' <= 1) exit 0
 
     * Build the invariant part of the command (all filters minus page).
-    * Use searchsource/searchtopic so links work as top-level wbopendata calls.
-    local base `"wbopendata, search(`keyword')"'
+    * Quote keyword to handle multi-word/regex strings; omit search() entirely
+    * for browse-mode calls that only use searchsource()/searchtopic().
+    if (`"`keyword'"' != "") {
+        local base `"wbopendata, search(`"`keyword'"')"'
+    }
+    else {
+        local base "wbopendata,"
+    }
     if ("`source'" != "") local base `"`base' searchsource(`source')"'
     if ("`topic'"  != "") local base `"`base' searchtopic(`topic')"'
     if ("`field'"  != "") local base `"`base' searchfield(`field')"'

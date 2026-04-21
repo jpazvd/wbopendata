@@ -84,7 +84,7 @@
 {synopt :{opt exact}} require exact match (no partial matching).{p_end}
 {synopt :{opt detail}} display search results in wrapped block format (full labels).{p_end}
 {synopt :{opt limit(#)}} maximum results per page (default 20).{p_end}
-{synopt :{opt page(#)}} page of search results to display (default 1). Total pages = ceil(matches / limit); clickable [Prev]/[Next] links appear below the results.{p_end}
+{synopt :{opt page(#)}} page of search results to display (default 1). Result sets with 30 or fewer matches are always shown on a single page regardless of {cmd:limit()}; otherwise total pages = ceil(matches / limit). Clickable [Prev]/[Next] links appear below the results when paging is available.{p_end}
 {synopt :{opt info(code)}} display detailed metadata for a specific indicator.{p_end}
 {synoptline}
 {p 4 6 2}
@@ -463,9 +463,10 @@ topic names, and notes. Results include clickable [Info] and [Get] links for eac
 {pstd}Without {opt detail}, results display in a compact table format where long names are truncated.
 Column widths automatically adjust to your terminal's {cmd:linesize}.{p_end}
 
-{pstd}{ul:{bf:Paginating large result sets:}} When matches exceed {opt limit(#)}, results are split
-across pages. Use {opt page(#)} to jump to a specific page, or click the [Prev] / [Next] / page-number
-links rendered below the results.{p_end}
+{pstd}{ul:{bf:Paginating large result sets:}} For larger result sets, {opt limit(#)} controls how many
+results are shown per page. Use {opt page(#)} to jump to a specific page; [Prev] / [Next] / page-number
+links are rendered below the results only when the output spans more than one page. Result sets with
+30 or fewer matches always render on a single page with no pagination controls.{p_end}
 
 {p 8 12}{stata "wbopendata, searchtopic(11) limit(20) page(2)" :. wbopendata, searchtopic(11) limit(20) page(2)}{p_end}
 {p 8 12}{stata "wbopendata, search(poverty) limit(10) page(3)" :. wbopendata, search(poverty) limit(10) page(3)}{p_end}

@@ -338,17 +338,32 @@ program define __wbopendata_search_cache, rclass
     }
 
     if ("`debug'" != "") {
+        * Apply same paging rules as the display path so r() values are consistent.
+        local display_page  = `page'
+        local display_limit = `limit'
+        if (`n' <= 30) {
+            local display_page = 1
+            local n_pages      = 1
+            local n_displayed  = `n'
+        }
+        else {
+            local n_pages = ceil(`n' / `display_limit')
+            if (`display_page' < 1) local display_page = 1
+            if (`display_page' > `n_pages') local display_page = `n_pages'
+            local start       = (`display_page' - 1) * `display_limit' + 1
+            local n_displayed = min(`display_limit', `n' - `start' + 1)
+        }
         restore
-        return scalar n_results = `n'
-        return scalar n_displayed = min(`n', `limit')
-        return scalar page = `page'
-        return scalar n_pages = ceil(`n' / `limit')
-        return local keyword = "`kw'"
+        return scalar n_results   = `n'
+        return scalar n_displayed = `n_displayed'
+        return scalar page        = `display_page'
+        return scalar n_pages     = `n_pages'
+        return local keyword      = "`kw'"
         return local source_filter = "`source'"
-        return local topic_filter = "`topic'"
-        return local field_filter = "`field'"
-        return local yaml_path = "`yaml_path'"
-        return local cache_method = "`cache_method'"
+        return local topic_filter  = "`topic'"
+        return local field_filter  = "`field'"
+        return local yaml_path     = "`yaml_path'"
+        return local cache_method  = "`cache_method'"
         exit 0
     }
 

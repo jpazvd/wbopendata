@@ -125,7 +125,10 @@ if (`limit_specified') {
 local page_val = 1
 if ("`page'" != "") {
 	local page_val = real("`page'")
-	if (missing(`page_val') | `page_val' < 1) local page_val = 1
+	if (missing(`page_val') | `page_val' < 1 | `page_val' != int(`page_val')) {
+		di as err "option page() incorrectly specified -- must be a positive integer"
+		exit 198
+	}
 }
 
 
