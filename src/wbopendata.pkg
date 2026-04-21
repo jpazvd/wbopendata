@@ -94,7 +94,6 @@ F _/_wbopendata_parameters.yaml
 F _/_wbopendata_indicators.yaml
 F _/_wbopendata_sources.yaml
 F _/_wbopendata_topics.yaml
-F _/__COMPONENT_VERSIONS.yaml
 f y/yaml.ado
 f y/yaml.sthlp
 f y/yaml_read.ado
