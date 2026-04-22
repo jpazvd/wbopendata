@@ -33,9 +33,9 @@ For complete documentation, see {help wbopendata:help wbopendata}.
 
 {pstd}
 {bf:New feature: Sync diff} - After {cmd:wbopendata, sync replace} completes,
-a compact diff is displayed showing how many indicators were added or removed
-since the previous sync. Up to 20 example indicator codes are listed for each
-category, with a count of any additional changes beyond the display limit.
+a source-level breakdown table is displayed showing how many indicators were
+added or removed per World Bank data source since the previous sync.
+Sources are sorted by absolute net change (largest impact first).
 
 {phang2}{cmd:. wbopendata, sync replace}{p_end}
 
@@ -43,15 +43,16 @@ category, with a count of any additional changes beyond the display limit.
 Example output after sync:
 
 {phang2}{result:  Changes since last sync}{p_end}
-{phang2}{result:  ----------------------------------------}{p_end}
-{phang2}{result:  Added:           147 indicators}{p_end}
-{phang2}{result:    + EN.ATM.CO2E.GF.KT}{p_end}
-{phang2}{result:    + EN.ATM.CO2E.LF.KT}{p_end}
-{phang2}{result:    ... and 145 more}{p_end}
-{phang2}{result:  Removed:           3 indicators}{p_end}
-{phang2}{result:    - AG.PRD.FOOD.XD}{p_end}
-{phang2}{result:    - AG.PRD.LVSK.XD}{p_end}
-{phang2}{result:    - AG.SRF.TOTL.K2}{p_end}
+{phang2}{result:  ----------------------------------------------------------}{p_end}
+{phang2}{result:  Source                                   Added  Removed  Net}{p_end}
+{phang2}{result:  ----------------------------------------------------------}{p_end}
+{phang2}{result:  World Development Indicators               +82        0  +82}{p_end}
+{phang2}{result:  Health Nutrition and Population Stats      +65        0  +65}{p_end}
+{phang2}{result:  Education Statistics                       +35        0  +35}{p_end}
+{phang2}{result:  LAC Equity Lab                              +3       -3    0}{p_end}
+{phang2}{result:  (6 more sources)}{p_end}
+{phang2}{result:  ----------------------------------------------------------}{p_end}
+{phang2}{result:  TOTAL                                     +188        0 +188}{p_end}
 
 {pstd}
 When the indicator list is unchanged the output reads {result:Indicator list: unchanged}.

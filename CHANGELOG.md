@@ -24,7 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- **Sync diff**: After `wbopendata, sync replace` completes, a compact diff is displayed showing how many indicators were added or removed since the previous sync. Up to 20 example codes are listed for each category (added / removed), with a count of any additional changes beyond the display limit. The feature is implemented in `__wbod_sync_diff.ado` which snapshots the indicator code list before the sync runs and merges it against the new YAML after the sync completes.
+- **Sync diff — source breakdown**: After `wbopendata, sync replace` completes, a source-level breakdown table is displayed showing adds, removes, and net change per World Bank data source (e.g., World Development Indicators, Education Statistics). Sources are sorted by absolute net change so the most-impacted databases appear first. Up to 10 sources are shown by default; a summary line counts any beyond the limit. The total row always shows the overall net. The feature is implemented in `__wbod_sync_diff.ado` which snapshots indicator codes and source names before the sync, then merges against the new YAML after completion. Codes are extracted into `str244` variables (up from `str32`) to prevent silent truncation of long indicator codes that previously caused the same indicator to appear as both added and removed.
 
 ### Internal
 
