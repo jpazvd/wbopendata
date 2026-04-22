@@ -1,5 +1,5 @@
 *******************************************************************************
-*! __wbod_sync_diff v1.0.0  21Apr2026
+*! __wbod_sync_diff v1.0.1  22Apr2026
 *! Snapshot indicator codes before sync; compare and display diff after sync.
 *! Called by wbopendata.ado around the __wbod_sync call.
 *!
@@ -34,6 +34,7 @@ program define __wbod_sync_diff
             replace code = subinstr(code, `"""', "", .)
             drop if code == ""
             keep code
+            duplicates drop code, force
             save "`before'", replace
         }
         restore
@@ -61,6 +62,7 @@ program define __wbod_sync_diff
             replace code = subinstr(code, `"""', "", .)
             drop if code == ""
             keep code
+            duplicates drop code, force
 
             * Merge with before-snapshot
             * _merge==1 : in new YAML only → ADDED
