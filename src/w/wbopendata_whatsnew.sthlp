@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 18.6.0  21Apr2026}{...}
+{* *! version 18.6.0  22Apr2026}{...}
 {vieweralsosee "wbopendata" "help wbopendata"}{...}
 {viewerjumpto "What's New" "wbopendata_whatsnew##whatsnew"}{...}
 {viewerjumpto "Version 18.6.0" "wbopendata_whatsnew##v1860"}{...}

@@ -691,8 +691,11 @@ program define __wbopendata_search, rclass
 
             * All topic IDs for column (8 chars, space-separated, left-aligned)
             local first_tid = word(subinstr("`topic_id'", ";", " ", .), 1)
+            local topic_cmd ""
+            if ("`first_tid'" != "") {
+                local topic_cmd `"wbopendata, search() searchtopic(`first_tid')"'
+            }
             if ("`first_tid'" == "") local first_tid "-"
-            local topic_cmd `"wbopendata, search() searchtopic(`first_tid')"'
             local tid_disp = subinstr("`topic_id'", ";", " ", .)
             if ("`tid_disp'" == "") local tid_disp "-"
             if (strlen("`tid_disp'") > 8) local tid_disp = substr("`tid_disp'", 1, 7) + "+"
@@ -722,10 +725,12 @@ program define __wbopendata_search, rclass
                 }
             }
 
-            * Display row
+            * Display row — topic column is plain text when no valid topic ID
+            local tid_col = cond("`topic_cmd'" != "", ///
+                `"{stata "`topic_cmd'":`tid_disp'}"', "`tid_disp'")
             di as result %-22s "`code'" as text " " %-`name_width's "`nm_disp'" " " ///
                `"{stata "`src_cmd'":`src_disp'}"' " " ///
-               `"{stata "`topic_cmd'":`tid_disp'}"' " " ///
+               `"`tid_col'"' " " ///
                `"{stata "`info_cmd'":[Info]}"' " " ///
                `"{stata "`get_cmd'":[Get]}"'
 

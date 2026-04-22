@@ -17,7 +17,7 @@ program define __wbod_search_pagenav
     * Quote keyword to handle multi-word/regex strings; omit search() entirely
     * for browse-mode calls that only use searchsource()/searchtopic().
     if "`keyword'" != "" {
-        local base `"wbopendata, search(`keyword')"'
+        local base `"wbopendata, search("`keyword'")"'
     }
     else {
         local base "wbopendata,"

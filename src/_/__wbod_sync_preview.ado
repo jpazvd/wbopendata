@@ -25,7 +25,7 @@ program define __wbod_sync_preview, rclass
     if fileexists("`_wbf'") {
         tempname _fh
         capture {
-            file open `_fh' using "`_wbf'", read
+            file open `_fh' using "`_wbf'", read text
             forvalues _ln = 1/5 {
                 file read `_fh' _wbline
                 if regexm("`_wbline'", "v ([0-9]+\.[0-9]+\.[0-9]+)") {
