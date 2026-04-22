@@ -18,16 +18,22 @@ program define __wbod_sync_preview, rclass
     *---------------------------------------------------------------------------
     * 0. Installed package version (from wbopendata.ado header comment)
     *---------------------------------------------------------------------------
+    * Read installed version — scan first 5 lines of wbopendata.ado for *! v X.Y.Z
     local pkg_ver = ""
-    capture {
-        findfile wbopendata.ado
-        local _wbf = r(fn)
+    local _wbf "`c(sysdir_plus)'w/wbopendata.ado"
+    local _wbf : subinstr local _wbf "\" "/" , all
+    if fileexists("`_wbf'") {
         tempname _fh
-        file open `_fh' using "`_wbf'", read
-        file read `_fh' _wbline
-        file close `_fh'
-        if regexm("`_wbline'", "v ([0-9]+\.[0-9]+\.[0-9]+)") {
-            local pkg_ver = regexs(1)
+        capture {
+            file open `_fh' using "`_wbf'", read
+            forvalues _ln = 1/5 {
+                file read `_fh' _wbline
+                if regexm("`_wbline'", "v ([0-9]+\.[0-9]+\.[0-9]+)") {
+                    local pkg_ver = regexs(1)
+                    continue, break
+                }
+            }
+            file close `_fh'
         }
     }
 
