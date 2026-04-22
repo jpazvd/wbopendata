@@ -29,13 +29,16 @@ This file documents recent changes and new features in the {cmd:wbopendata} modu
 For complete documentation, see {help wbopendata:help wbopendata}.
 
 {marker v1860}{...}
-{title:Version 18.6.0 (21Apr2026)}
+{title:Version 18.6.0 (22Apr2026)}
 
 {pstd}
-{bf:New feature: Sync diff} - After {cmd:wbopendata, sync replace} completes,
-a source-level breakdown table is displayed showing how many indicators were
-added or removed per World Bank data source since the previous sync.
-Sources are sorted by absolute net change (largest impact first).
+{bf:New feature: Sync diff by source} - After {cmd:wbopendata, sync replace}
+completes, a source-level breakdown table is displayed showing how many
+indicators were added or removed per World Bank data source since the
+previous sync. Only sources with actual changes are shown (sources with
+no net movement are suppressed). Sources are sorted by absolute net change
+so the most-impacted databases appear first. Up to 10 sources are displayed
+by default; any beyond the limit are counted in a summary line.
 
 {phang2}{cmd:. wbopendata, sync replace}{p_end}
 
@@ -44,18 +47,30 @@ Example output after sync:
 
 {phang2}{result:  Changes since last sync}{p_end}
 {phang2}{result:  ----------------------------------------------------------}{p_end}
-{phang2}{result:  Source                                   Added  Removed  Net}{p_end}
+{phang2}{result:  Source                                  Added  Removed  Net}{p_end}
 {phang2}{result:  ----------------------------------------------------------}{p_end}
-{phang2}{result:  World Development Indicators               +82        0  +82}{p_end}
-{phang2}{result:  Health Nutrition and Population Stats      +65        0  +65}{p_end}
-{phang2}{result:  Education Statistics                       +35        0  +35}{p_end}
-{phang2}{result:  LAC Equity Lab                              +3       -3    0}{p_end}
-{phang2}{result:  (6 more sources)}{p_end}
+{phang2}{result:  Gender Statistics                         188       56 +132}{p_end}
+{phang2}{result:  (Unknown source)                           56        0  +56}{p_end}
+{phang2}{result:  (3 more sources)}{p_end}
 {phang2}{result:  ----------------------------------------------------------}{p_end}
-{phang2}{result:  TOTAL                                     +188        0 +188}{p_end}
+{phang2}{result:  TOTAL                                     244       56 +188}{p_end}
 
 {pstd}
 When the indicator list is unchanged the output reads {result:Indicator list: unchanged}.
+
+{pstd}
+{bf:Improved: Sync detail source table} - {cmd:wbopendata, sync detail} now
+correctly resolves source names for IDs stored with leading zeros in the
+indicator YAML (e.g., {it:'02'} now correctly displays as
+{it:World Development Indicators}). World Bank vintage/archive sources with
+non-standard IDs (prefixed {it:VG*}) are collapsed into a single summary
+line rather than flooding the table with hundreds of 1-indicator entries.
+
+{pstd}
+{bf:Improved: [sync & see breakdown] link} - The {result:[see breakdown]}
+hyperlink next to {result:Change: +N new} in the Remote Status section now
+runs {cmd:wbopendata, sync replace}, so clicking it performs the sync and
+immediately displays the source-level diff table.
 
 {marker v1850}{...}
 {title:Version 18.5.0 (21Apr2026)}
