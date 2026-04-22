@@ -1,22 +1,29 @@
-*! version 1.0.0  09Feb2026
+*! version 1.0.1  22Apr2026
 *! Get source name by ID from sources YAML
 *! Part of wbopendata sync preview feature
+*! v1.0.1: Strip leading zeros from numeric IDs before lookup (02 → 2)
 
 program define __wbod_get_source_name, rclass
     version 14.0
     args source_id
-    
+
     local source_name ""
-    
+
+    * Normalize numeric IDs: strip leading zeros so '02' matches key '2':
+    * Non-numeric IDs (e.g., VGOA_02.) are left unchanged.
+    * Assign via `= `_n'' so Stata formats the number as a plain integer string.
+    local _sid_num = real("`source_id'")
+    if (`_sid_num' < .) local source_id = `_sid_num'
+
     __wbod_get_yaml_path, type(sources)
     local src_yaml = r(path)
-    
+
     if (fileexists("`src_yaml'")) {
         preserve
         quietly {
             infix str500 rawline 1-500 using "`src_yaml'", clear
             gen long linenum = _n
-            
+
             * Find the line with the source ID as key
             * Format is "'XX':" (quotes around ID, then colon)
             * Match lines where trimmed content starts with 'ID':

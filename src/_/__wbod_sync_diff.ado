@@ -121,6 +121,8 @@ program define __wbod_sync_diff
             gen byte is_add = (_merge == 1)
             gen byte is_rem = (_merge == 2)
             collapse (sum) n_add=is_add n_rem=is_rem, by(src_disp)
+            * Drop sources with no changes (_merge==3 unchanged indicators collapse to 0/0)
+            drop if n_add == 0 & n_rem == 0
             gen long net_s = n_add - n_rem
             gen long abs_s = abs(net_s)
             gsort -abs_s -n_add

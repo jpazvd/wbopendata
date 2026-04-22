@@ -339,11 +339,11 @@ program define __wbod_sync_preview, rclass
         if (`has_cache' & `ind_count' > 0) {
             local diff = `api_ind_count' - `ind_count'
             if (`diff' > 0) {
-                di as text "  Change:           " as result "+`diff' new" as text `"   {stata "wbopendata, sync detail":[see breakdown]}"'
+                di as text "  Change:           " as result "+`diff' new" as text `"   {stata "wbopendata, sync replace":[sync & see breakdown]}"'
             }
             else if (`diff' < 0) {
                 local diff_abs = abs(`diff')
-                di as text "  Change:           " as result "`diff_abs' removed" as text `"   {stata "wbopendata, sync detail":[see breakdown]}"'
+                di as text "  Change:           " as result "`diff_abs' removed" as text `"   {stata "wbopendata, sync replace":[sync & see breakdown]}"'
             }
             else {
                 di as text "  Change:           " as result "none (up to date)"
@@ -418,44 +418,56 @@ program define __wbod_sync_preview, rclass
         preserve
         quietly {
             infix str500 rawline 1-500 using "`ind_yaml'", clear
-            
+
             * Extract source_id lines
             keep if strpos(rawline, "source_id:") > 0
-            gen str10 source_id = strtrim(subinstr(rawline, "source_id:", "", 1))
+            gen str20 source_id = strtrim(subinstr(rawline, "source_id:", "", 1))
             replace source_id = subinstr(source_id, "'", "", .)
             replace source_id = subinstr(source_id, `"""', "", .)
-            
+
             * Collapse to get counts
             gen byte one = 1
             collapse (sum) count = one, by(source_id)
+
+            * VG-format IDs (e.g., VGOA_02.) are vintage/archive sources
+            * not present in the 71-entry sources YAML. Filter them out.
+            gen byte is_std = !regexm(source_id, "^VG")
+            sum count if !is_std, meanonly
+            local n_other   = cond(r(N) > 0, r(N),   0)
+            local cnt_other = cond(r(N) > 0, r(sum), 0)
+            keep if is_std
+            drop is_std
             gsort -count
         }
-        
+
         * Display header
         di ""
         di as text "  {col 4}ID{col 10}Source Name{col 55}Indicators"
         di as text "  {hline 60}"
-        
-        * Display each source
+
+        * Display each standard source
         local nrows = _N
         forvalues i = 1/`nrows' {
             local sid = source_id[`i']
             local cnt = count[`i']
-            
+
             * Format count with commas
             local cnt_fmt : di %8.0fc `cnt'
-            
-            * Get source name, default to ID if not found
+
+            * Get source name
             capture noisily __wbod_get_source_name `sid'
             local sname = r(source_name)
-            if ("`sname'" == "") {
-                local sname "Source `sid'"
-            }
-            * Truncate name to fit
+            if ("`sname'" == "") local sname "Source `sid'"
             local sname = substr("`sname'", 1, 40)
 
             local src_cmd `"wbopendata, search() searchsource(`sid')"'
             di as result `"  {col 4}`sid'{col 10}"' `"{stata "`src_cmd'":`sname'}"' as text `"  {col 55}`cnt_fmt'"'
+        }
+
+        * Roll up VG-format vintage sources into a single summary line
+        if (`n_other' > 0) {
+            local cnt_other_fmt : di %8.0fc `cnt_other'
+            di as text `"  {col 4}(VG*){col 10}Vintage/archive sources (`n_other' IDs){col 55}`cnt_other_fmt'"'
         }
 
         di as text "  {hline 60}"
