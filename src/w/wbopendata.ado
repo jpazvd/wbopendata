@@ -1,6 +1,7 @@
 *******************************************************************************
 * wbopendata
-*! v 18.5.0  	 21Apr2026               by Joao Pedro Azevedo
+*! v 18.6.0  	 21Apr2026               by Joao Pedro Azevedo
+*   18.6.0: Show indicator diff (added/removed) after sync replace completes
 *   18.5.0: Add page() option to search with clickable [Prev]/[Next] pagination; small result sets (<=30) remain on a single page
 *   18.4.1: Restore country context variables (region/income/lending) missing since v18.0.0; fix sthlp truncation (Kit Baum)
 *   18.4.0: Refactored internal file naming per TSJ feedback (no user-facing changes)
@@ -269,6 +270,9 @@ local indicator `indicators'
 		di as text ""
 		di as text "Proceeding with sync..."
 		di as text ""
+		* Snapshot current indicator list for post-sync diff
+		tempfile _sync_snap
+		capture quietly __wbod_sync_diff, before("`_sync_snap'")
 		if ("`forcestata'" != "") __wbod_sync, forcestata `force'
 		else if ("`forcepython'" != "") __wbod_sync, forcepython `force'
 		else if ("`force'" != "") __wbod_sync, force
@@ -294,6 +298,8 @@ local indicator `indicators'
 				countries(`ctry_count') ///
 				bysource("`by_source'") ///
 				bytopic("`by_topic'")
+			* Show indicator diff vs pre-sync snapshot
+			capture noisily __wbod_sync_diff, after("`_sync_snap'")
 		}
 		exit `sync_rc'
 	}
