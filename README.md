@@ -98,7 +98,7 @@ net install wbopendata, from("/path/to/wbopendata/src/") replace
 | Channel    | Version        | Indicators | Notes                               |
 |------------|----------------|------------|-------------------------------------|
 | **SSC**    | v17.7.1 (2025) | ~20,000    | Stable, one release behind GitHub   |
-| **GitHub** | v18.1.1 (2026) | 29,000+    | Latest features, active development |
+| **GitHub** | v18.6.0 (2026) | 29,000+    | Latest features, active development |
 
 > **Recommendation:** Install from GitHub for full functionality including `match()`, `linewrap()`, multiple indicators, and 29,000+ indicators.
 
@@ -107,6 +107,10 @@ net install wbopendata, from("/path/to/wbopendata/src/") replace
 
 | Year | Version | Milestone |
 |------|---------|-----------|
+| 2026 | v18.6 | **Sync diff**: shows added/removed indicators after `sync replace` |
+| 2026 | v18.5 | **Paginated search**: `page(#)` option with clickable `[Prev]`/`[Next]` nav |
+| 2026 | v18.4 | Country context variables restored; `forcestata` sync pathway |
+| 2026 | v18.2–18.3 | Data response cache (7-day TTL); configurable `cachedays()`; cache-hit YAML lookup |
 | 2026 | v18.1 | **Characteristic metadata**: persistent `char` provenance on every `.dta`; `nochar` opt-out |
 | 2026 | v18.0 | **Discovery commands**: sources, alltopics, search, info; clickable URLs in metadata |
 | 2026 | v17.7 | Basic country context by default, graph metadata |
@@ -177,7 +181,8 @@ wbopendata, info(NY.GDP.MKTP.CD)
 
 * NEW: Sync and cache management
 wbopendata, checkupdate    // Check if metadata updates are available
-wbopendata, sync           // Sync metadata from GitHub
+wbopendata, sync           // Preview metadata changes (dry run)
+wbopendata, sync replace   // Apply sync; shows diff of added/removed indicators (v18.6+)
 wbopendata, cacheinfo      // Display cache status
 ```
 

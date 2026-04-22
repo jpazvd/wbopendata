@@ -1,7 +1,8 @@
 {smcl}
-{* *! version 18.5.0  21Apr2026}{...}
+{* *! version 18.6.0  21Apr2026}{...}
 {vieweralsosee "wbopendata" "help wbopendata"}{...}
 {viewerjumpto "What's New" "wbopendata_whatsnew##whatsnew"}{...}
+{viewerjumpto "Version 18.6.0" "wbopendata_whatsnew##v1860"}{...}
 {viewerjumpto "Version 18.5.0" "wbopendata_whatsnew##v1850"}{...}
 {viewerjumpto "Version 18.4.1" "wbopendata_whatsnew##v1841"}{...}
 {viewerjumpto "Version 18.3.2" "wbopendata_whatsnew##v1832"}{...}
@@ -26,6 +27,34 @@
 {pstd}
 This file documents recent changes and new features in the {cmd:wbopendata} module.
 For complete documentation, see {help wbopendata:help wbopendata}.
+
+{marker v1860}{...}
+{title:Version 18.6.0 (21Apr2026)}
+
+{pstd}
+{bf:New feature: Sync diff} - After {cmd:wbopendata, sync replace} completes,
+a compact diff is displayed showing how many indicators were added or removed
+since the previous sync. Up to 20 example indicator codes are listed for each
+category, with a count of any additional changes beyond the display limit.
+
+{phang2}{cmd:. wbopendata, sync replace}{p_end}
+
+{pstd}
+Example output after sync:
+
+{phang2}{result:  Changes since last sync}{p_end}
+{phang2}{result:  ----------------------------------------}{p_end}
+{phang2}{result:  Added:           147 indicators}{p_end}
+{phang2}{result:    + EN.ATM.CO2E.GF.KT}{p_end}
+{phang2}{result:    + EN.ATM.CO2E.LF.KT}{p_end}
+{phang2}{result:    ... and 145 more}{p_end}
+{phang2}{result:  Removed:           3 indicators}{p_end}
+{phang2}{result:    - AG.PRD.FOOD.XD}{p_end}
+{phang2}{result:    - AG.PRD.LVSK.XD}{p_end}
+{phang2}{result:    - AG.SRF.TOTL.K2}{p_end}
+
+{pstd}
+When the indicator list is unchanged the output reads {result:Indicator list: unchanged}.
 
 {marker v1850}{...}
 {title:Version 18.5.0 (21Apr2026)}

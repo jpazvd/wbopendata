@@ -27,6 +27,7 @@ d
 d Requires: Stata version 14
 d 
 d Distribution-Date: 20260421
+d NEW in v18.6: sync replace now shows a diff of added/removed indicators.
 d License: MIT
 d 
 d Author: João Pedro Azevedo

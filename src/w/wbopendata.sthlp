@@ -4,7 +4,7 @@
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
 {right:What's New:  {bf:{help wbopendata_whatsnew:What's New}}}
-{right: {bf:version 18.5.0}}
+{right: {bf:version 18.6.0}}
 {hline}
 
 {title:Title}
@@ -304,7 +304,7 @@ run — no files are modified.{p_end}
 {synopt :{opt sync} {opt replace}}Apply the metadata synchronization — downloads
 the latest YAML metadata release from the GitHub repository and updates the
 local cache files. Displays the same preview as {opt sync} before applying
-changes.{p_end}
+changes, then shows a diff of added and removed indicators (v18.6+).{p_end}
 
 {synopt :{opt sync} {opt replace} {opt force}}Force re-download of metadata
 regardless of the local cache version, bypassing staleness checks. Use this

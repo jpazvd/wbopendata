@@ -20,6 +20,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [18.6.0] - 2026-04-21
+
+### Added
+
+- **Sync diff**: After `wbopendata, sync replace` completes, a compact diff is displayed showing how many indicators were added or removed since the previous sync. Up to 20 example codes are listed for each category (added / removed), with a count of any additional changes beyond the display limit. The feature is implemented in `__wbod_sync_diff.ado` which snapshots the indicator code list before the sync runs and merges it against the new YAML after the sync completes.
+
+### Internal
+
+- `qa/run_tests.do`: Log filename now includes `HH:MM` time suffix so multiple runs on the same day each write to a unique file, avoiding Windows file-lock failures when a prior Stata session crashed without closing the log.
+- `src/_/__wbod_sync_preview.ado`: Fixed installed-version extraction — scans the first 5 lines of `wbopendata.ado` for the `*! v X.Y.Z` comment instead of only line 1, which is a decorative banner.
+
+---
+
 ## [18.5.0] - 2026-04-21
 
 ### Added
