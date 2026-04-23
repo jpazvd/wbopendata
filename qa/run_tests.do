@@ -422,7 +422,8 @@ capture {
 local date = c(current_date)
 local start_time = c(current_time)
 local datestr = subinstr("`date'", " ", "", .)
-local logfile "`qadir'/test_results_v`version'_`datestr'.log"
+local timestr = subinstr(substr("`start_time'", 1, 5), ":", "", .)
+local logfile "`qadir'/test_results_v`version'_`datestr'_`timestr'.log"
 local histfile "`qadir'/test_history.txt"
 
 * Separator line

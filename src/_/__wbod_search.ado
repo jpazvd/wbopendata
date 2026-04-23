@@ -8,8 +8,8 @@
 program define __wbod_search, rclass
     version 14.0
 
-    syntax [anything(name=keyword)] [, LIMIT(integer 20) SOURCE(string) ///
-        TOPIC(string) FIELD(string) EXACT DETAIL NOcache DEBUG]
+    syntax [anything(name=keyword)] [, LIMIT(integer 20) PAGE(integer 1) ///
+        SOURCE(string) TOPIC(string) FIELD(string) EXACT DETAIL NOcache DEBUG]
 
     local topic_input "`topic'"
     local topic_dispatch "`topic'"
@@ -17,21 +17,21 @@ program define __wbod_search, rclass
     * Route to appropriate implementation based on Stata version
     if (`c(stata_version)' >= 16) {
         if (`"`keyword'"' != "") {
-            __wbopendata_search_cache `"`keyword'"', limit(`limit') source("`source'") ///
+            __wbopendata_search_cache `"`keyword'"', limit(`limit') page(`page') source("`source'") ///
                 topic("`topic_dispatch'") field("`field'") `exact' `detail' `nocache' `debug'
         }
         else {
-            __wbopendata_search_cache, limit(`limit') source("`source'") ///
+            __wbopendata_search_cache, limit(`limit') page(`page') source("`source'") ///
                 topic("`topic_dispatch'") field("`field'") `exact' `detail' `nocache' `debug'
         }
     }
     else {
         if (`"`keyword'"' != "") {
-            __wbopendata_search `"`keyword'"', limit(`limit') source("`source'") ///
+            __wbopendata_search `"`keyword'"', limit(`limit') page(`page') source("`source'") ///
                 topic("`topic_dispatch'") field("`field'") `exact' `detail' `nocache' `debug'
         }
         else {
-            __wbopendata_search, limit(`limit') source("`source'") ///
+            __wbopendata_search, limit(`limit') page(`page') source("`source'") ///
                 topic("`topic_dispatch'") field("`field'") `exact' `detail' `nocache' `debug'
         }
     }
@@ -39,6 +39,8 @@ program define __wbod_search, rclass
     * Pass through return values from implementation
     return scalar n_results = r(n_results)
     return scalar n_displayed = r(n_displayed)
+    capture return scalar page = r(page)
+    capture return scalar n_pages = r(n_pages)
     return local first_code = "`r(first_code)'"
     return local codes = "`r(codes)'"
     return local names = `"`r(names)'"'

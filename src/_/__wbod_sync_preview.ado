@@ -1,7 +1,8 @@
 *******************************************************************************
-*! __wbod_sync_preview v1.3.1  19Apr2026
+*! __wbod_sync_preview v1.4.1  22Apr2026
 *! Display metadata status diagnostic before sync
-*! v1.3.1: Fix action links — add 'replace' so clicks trigger sync not dry-run; add forcestata link
+*! v1.4.1: Ensure file handle closed on error in capture block
+*! v1.4.0: Add installed version, cache location, inline hyperlinks, clickable detail rows
 *! v1.2.0: Added country metadata count display
 *! v1.1.0: Added detail option for per-source/topic breakdown
 *! Author: João Pedro Azevedo (World Bank | UNICEF)
@@ -14,6 +15,30 @@ program define __wbod_sync_preview, rclass
     syntax [, DETAIL]
 
     local show_detail = ("`detail'" != "")
+
+    *---------------------------------------------------------------------------
+    * 0. Installed package version (from wbopendata.ado header comment)
+    *---------------------------------------------------------------------------
+    * Read installed version — scan first 5 lines of wbopendata.ado for *! v X.Y.Z
+    local pkg_ver = ""
+    local _wbf "`c(sysdir_plus)'w/wbopendata.ado"
+    local _wbf : subinstr local _wbf "\" "/" , all
+    if fileexists("`_wbf'") {
+        tempname _fh
+        capture file open `_fh' using "`_wbf'", read text
+        if _rc == 0 {
+            capture {
+                forvalues _ln = 1/5 {
+                    file read `_fh' _wbline
+                    if regexm("`_wbline'", "v ([0-9]+\.[0-9]+\.[0-9]+)") {
+                        local pkg_ver = regexs(1)
+                        continue, break
+                    }
+                }
+            }
+            capture file close `_fh'
+        }
+    }
 
     *---------------------------------------------------------------------------
     * 1. Resolve cache directory and paths
@@ -258,6 +283,23 @@ program define __wbod_sync_preview, rclass
     *---------------------------------------------------------------------------
     * 7. Display diagnostic
     *---------------------------------------------------------------------------
+    * Compare installed vs GitHub release version (parse MAJOR.MINOR.PATCH)
+    local ver_cmp = 0
+    if ("`pkg_ver'" != "" & "`remote_ver'" != "") {
+        local _iv1 = real(word(subinstr("`pkg_ver'",   ".", " ", .), 1))
+        local _iv2 = real(word(subinstr("`pkg_ver'",   ".", " ", .), 2))
+        local _iv3 = real(word(subinstr("`pkg_ver'",   ".", " ", .), 3))
+        local _rv1 = real(word(subinstr("`remote_ver'",".", " ", .), 1))
+        local _rv2 = real(word(subinstr("`remote_ver'",".", " ", .), 2))
+        local _rv3 = real(word(subinstr("`remote_ver'",".", " ", .), 3))
+        if      (`_iv1' > `_rv1') local ver_cmp =  1
+        else if (`_iv1' < `_rv1') local ver_cmp = -1
+        else if (`_iv2' > `_rv2') local ver_cmp =  1
+        else if (`_iv2' < `_rv2') local ver_cmp = -1
+        else if (`_iv3' > `_rv3') local ver_cmp =  1
+        else if (`_iv3' < `_rv3') local ver_cmp = -1
+    }
+
     di as text ""
     di as text "{hline 70}"
     di as result "wbopendata Metadata Status"
@@ -272,6 +314,7 @@ program define __wbod_sync_preview, rclass
         if ("`cache_method'" != "") {
             di as text "  Sync method:      " as result "`cache_method'"
         }
+        di as text "  Location:         " as text "`cache_dir'"
         di ""
         di as text "  Cached Records"
         di as text "  {hline 40}"
@@ -279,9 +322,9 @@ program define __wbod_sync_preview, rclass
         local src_fmt : di %9.0fc `src_count'
         local top_fmt : di %9.0fc `top_count'
         local ctry_fmt : di %9.0fc `ctry_count'
-        di as text "  Indicators:       " as result "`ind_fmt'"
-        di as text "  Sources:          " as result "`src_fmt'"
-        di as text "  Topics:           " as result "`top_fmt'"
+        di as text "  Indicators:       " as result "`ind_fmt'" as text `"   {stata "wbopendata, sync detail":[breakdown]}"'
+        di as text "  Sources:          " as result "`src_fmt'" as text `"   {stata "wbopendata, sources":[browse]}"'
+        di as text "  Topics:           " as result "`top_fmt'" as text `"   {stata "wbopendata, alltopics":[browse]}"'
         di as text "  Country metadata: " as result "`ctry_fmt'"
     }
     else {
@@ -299,11 +342,11 @@ program define __wbod_sync_preview, rclass
         if (`has_cache' & `ind_count' > 0) {
             local diff = `api_ind_count' - `ind_count'
             if (`diff' > 0) {
-                di as text "  Change:           " as result "+`diff' new"
+                di as text "  Change:           " as result "+`diff' new" as text `"   {stata "wbopendata, sync replace":[sync & see breakdown]}"'
             }
             else if (`diff' < 0) {
                 local diff_abs = abs(`diff')
-                di as text "  Change:           " as result "`diff_abs' removed"
+                di as text "  Change:           " as result "`diff_abs' removed" as text `"   {stata "wbopendata, sync replace":[sync & see breakdown]}"'
             }
             else {
                 di as text "  Change:           " as result "none (up to date)"
@@ -311,17 +354,35 @@ program define __wbod_sync_preview, rclass
         }
     }
 
-    * Show remote version check
-    if (`check_success') {
+    * Package version comparison (always shown if installed version known)
+    if ("`pkg_ver'" != "" | `check_success') {
         di ""
-        di as text "  GitHub Release"
+        di as text "  Package Version"
         di as text "  {hline 40}"
-        di as text "  Latest version:   " as result "v`remote_ver'"
-        if (`needs_update') {
-            di as text "  Status:           " as result "Update available"
+        if ("`pkg_ver'" != "") {
+            di as text "  Installed:        " as result "v`pkg_ver'" as text `"   {stata "help wbopendata_whatsnew":[what's new]}"'
         }
-        else {
-            di as text "  Status:           " as result "Up to date"
+        if (`check_success') {
+            di as text "  GitHub release:   " as result "v`remote_ver'"
+            if ("`pkg_ver'" != "") {
+                if (`ver_cmp' == 1) {
+                    di as text "  Status:           " as result "Installed is ahead of release" as text " (dev/unreleased)"
+                }
+                else if (`ver_cmp' == -1) {
+                    di as text "  Status:           " as result "Update available" as text `"   {stata "wbopendata, sync replace":[sync now]}"'
+                }
+                else {
+                    di as text "  Status:           " as result "Up to date"
+                }
+            }
+            else {
+                if (`needs_update') {
+                    di as text "  Status:           " as result "Update available" as text `"   {stata "wbopendata, sync replace":[sync now]}"'
+                }
+                else {
+                    di as text "  Status:           " as result "Up to date"
+                }
+            }
         }
     }
 
@@ -360,48 +421,61 @@ program define __wbod_sync_preview, rclass
         preserve
         quietly {
             infix str500 rawline 1-500 using "`ind_yaml'", clear
-            
+
             * Extract source_id lines
             keep if strpos(rawline, "source_id:") > 0
-            gen str10 source_id = strtrim(subinstr(rawline, "source_id:", "", 1))
+            gen str20 source_id = strtrim(subinstr(rawline, "source_id:", "", 1))
             replace source_id = subinstr(source_id, "'", "", .)
             replace source_id = subinstr(source_id, `"""', "", .)
-            
+
             * Collapse to get counts
             gen byte one = 1
             collapse (sum) count = one, by(source_id)
+
+            * VG-format IDs (e.g., VGOA_02.) are vintage/archive sources
+            * not present in the 71-entry sources YAML. Filter them out.
+            gen byte is_std = !regexm(source_id, "^VG")
+            sum count if !is_std, meanonly
+            local n_other   = cond(r(N) > 0, r(N),   0)
+            local cnt_other = cond(r(N) > 0, r(sum), 0)
+            keep if is_std
+            drop is_std
             gsort -count
         }
-        
+
         * Display header
         di ""
         di as text "  {col 4}ID{col 10}Source Name{col 55}Indicators"
         di as text "  {hline 60}"
-        
-        * Display each source
+
+        * Display each standard source
         local nrows = _N
         forvalues i = 1/`nrows' {
             local sid = source_id[`i']
             local cnt = count[`i']
-            
+
             * Format count with commas
             local cnt_fmt : di %8.0fc `cnt'
-            
-            * Get source name, default to ID if not found
+
+            * Get source name
             capture noisily __wbod_get_source_name `sid'
             local sname = r(source_name)
-            if ("`sname'" == "") {
-                local sname "Source `sid'"
-            }
-            * Truncate name to fit
+            if ("`sname'" == "") local sname "Source `sid'"
             local sname = substr("`sname'", 1, 40)
-            
-            di as result "  {col 4}`sid'{col 10}" as text "`sname'{col 55}`cnt_fmt'"
+
+            local src_cmd `"wbopendata, search() searchsource(`sid')"'
+            di as result `"  {col 4}`sid'{col 10}"' `"{stata "`src_cmd'":`sname'}"' as text `"  {col 55}`cnt_fmt'"'
         }
-        
+
+        * Roll up VG-format vintage sources into a single summary line
+        if (`n_other' > 0) {
+            local cnt_other_fmt : di %8.0fc `cnt_other'
+            di as text `"  {col 4}(VG*){col 10}Vintage/archive sources (`n_other' IDs){col 55}`cnt_other_fmt'"'
+        }
+
         di as text "  {hline 60}"
         restore
-        
+
         *-----------------------------------------------------------------------
         * Topics breakdown
         *-----------------------------------------------------------------------
@@ -458,8 +532,9 @@ program define __wbod_sync_preview, rclass
                 }
                 * Truncate name to fit
                 local tname = substr("`tname'", 1, 40)
-                
-                di as result "  {col 4}`tid'{col 10}" as text "`tname'{col 55}`cnt_fmt'"
+
+                local top_cmd `"wbopendata, search() searchtopic(`tid')"'
+                di as result `"  {col 4}`tid'{col 10}"' `"{stata "`top_cmd'":`tname'}"' as text `"  {col 55}`cnt_fmt'"'
             }
         }
         
@@ -472,16 +547,18 @@ program define __wbod_sync_preview, rclass
     di ""
     di as text "Actions:"
     di ""
-    di `"  {stata wbopendata, sync replace:  Sync metadata now}"'
-    di `"  {stata wbopendata, sync replace force:  Force sync (even if fresh)}"'
-    di `"  {stata wbopendata, sync replace forcestata:  Force Stata pathway}"'
+    di `"  {stata "wbopendata, sync replace":  Sync metadata now}"'
+    di `"  {stata "wbopendata, sync detail":  View breakdown by source/topic}"'
+    di `"  {stata "wbopendata, sync replace force":  Force sync (even if fresh)}"'
+    di `"  {stata "wbopendata, sync replace forcestata":  Force Stata pathway}"'
     if (`python_ok') {
-        di `"  {stata wbopendata, sync replace forcepython:  Force Python pathway}"'
+        di `"  {stata "wbopendata, sync replace forcepython":  Force Python pathway}"'
     }
     di ""
-    di `"  {stata wbopendata, sources:  View sources}"'
-    di `"  {stata wbopendata, alltopics:  View topics}"'
-    di `"  {stata wbopendata, search(GDP):  Search indicators}"'
+    di `"  {stata "wbopendata, sources":  View sources}"'
+    di `"  {stata "wbopendata, alltopics":  View topics}"'
+    di `"  {stata "wbopendata, search(poverty)":  Search indicators by keyword}"'
+    di `"  {stata "help wbopendata":  Full documentation}"'
     di ""
     di as text "{hline 70}"
 

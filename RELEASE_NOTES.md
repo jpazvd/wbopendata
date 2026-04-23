@@ -6,6 +6,39 @@
 
 **Minimum requirement:** Stata 14 or later.
 
+## wbopendata v18.5.0 — Paginated Search Results
+
+**Release Date:** April 21, 2026
+
+---
+
+### Highlights
+
+Search results (by keyword, source, or topic) can now be navigated across multiple pages. A new `page(#)` option, paired with the existing `limit(#)` per-page size, lets users reach records beyond the first page. Clickable `[Prev]` / `[Next]` / page-number links are rendered below the results whenever matches exceed one page. Small result sets (≤30 matches) continue to render on a single page with no pagination nav, so the UX only gets more complex when it actually needs to.
+
+### Changes
+
+| Area | Description |
+| ---- | ----------- |
+| **`page(#)` option** | New integer option on `search()` / `searchsource()` / `searchtopic()`. Default: `1`. Total pages = `ceil(matches / limit)`. |
+| **Clickable nav** | `[Prev]` / `[Next]` and per-page-number SMCL links rendered below results when `total_pages > 1`. Collapses to `[1] [2] ... [N-1] [N]` for >10 pages. |
+| **Dynamic single-page** | Result sets of ≤30 matches render on a single page with no pagination nav, matching pre-v18.5 behavior. |
+| **Return scalars** | `r(page)` and `r(n_pages)` added for scripting. |
+| **Shared helper** | New `__wbod_search_pagenav.ado` renders pagination nav for both the Stata 14-15 and Stata 16+ search backends. |
+
+### Examples
+
+```stata
+. wbopendata, searchtopic(11) limit(20) page(2)   // records 21-40 in topic 11
+. wbopendata, search(poverty) limit(10) page(3)   // third page, 10 per page
+```
+
+### Full Changelog
+
+**Compare:** [v18.4.1...v18.5.0](https://github.com/jpazvd/wbopendata/compare/v18.4.1...v18.5.0)
+
+---
+
 ## wbopendata v18.3.2 — Cache Architecture Refinement
 
 **Release Date:** February 23, 2026

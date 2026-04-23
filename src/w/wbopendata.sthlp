@@ -1,10 +1,10 @@
 {smcl}
 {hline}
-{* 19Apr2026  }{...}
+{* 22Apr2026  }{...}
 {cmd:help wbopendata}{right:dialog:  {bf:{dialog wbopendata}}}
 {right:Indicator List:  {bf:{help wbopendata_sourceid##indicators:Indicators List}}}
 {right:What's New:  {bf:{help wbopendata_whatsnew:What's New}}}
-{right: {bf:version 18.4.1}}
+{right: {bf:version 18.6.0}}
 {hline}
 
 {title:Title}
@@ -83,7 +83,8 @@
 {synopt :{opt searchfield(fields)}} search in specific fields: code, name, description, source, topic, note, or all.{p_end}
 {synopt :{opt exact}} require exact match (no partial matching).{p_end}
 {synopt :{opt detail}} display search results in wrapped block format (full labels).{p_end}
-{synopt :{opt limit(#)}} maximum results to display (default 20).{p_end}
+{synopt :{opt limit(#)}} maximum results per page (default 20).{p_end}
+{synopt :{opt page(#)}} page of search results to display (default 1). Result sets with 30 or fewer matches are always shown on a single page regardless of {cmd:limit()}; otherwise total pages = ceil(matches / limit). Clickable [Prev]/[Next] links appear below the results when paging is available.{p_end}
 {synopt :{opt info(code)}} display detailed metadata for a specific indicator.{p_end}
 {synoptline}
 {p 4 6 2}
@@ -303,7 +304,7 @@ run — no files are modified.{p_end}
 {synopt :{opt sync} {opt replace}}Apply the metadata synchronization — downloads
 the latest YAML metadata release from the GitHub repository and updates the
 local cache files. Displays the same preview as {opt sync} before applying
-changes.{p_end}
+changes, then shows a diff of added and removed indicators (v18.6+).{p_end}
 
 {synopt :{opt sync} {opt replace} {opt force}}Force re-download of metadata
 regardless of the local cache version, bypassing staleness checks. Use this
@@ -461,6 +462,14 @@ topic names, and notes. Results include clickable [Info] and [Get] links for eac
 
 {pstd}Without {opt detail}, results display in a compact table format where long names are truncated.
 Column widths automatically adjust to your terminal's {cmd:linesize}.{p_end}
+
+{pstd}{ul:{bf:Paginating large result sets:}} For larger result sets, {opt limit(#)} controls how many
+results are shown per page. Use {opt page(#)} to jump to a specific page; [Prev] / [Next] / page-number
+links are rendered below the results only when the output spans more than one page. Result sets with
+30 or fewer matches always render on a single page with no pagination controls.{p_end}
+
+{p 8 12}{stata "wbopendata, searchtopic(11) limit(20) page(2)" :. wbopendata, searchtopic(11) limit(20) page(2)}{p_end}
+{p 8 12}{stata "wbopendata, search(poverty) limit(10) page(3)" :. wbopendata, search(poverty) limit(10) page(3)}{p_end}
 
 {synopt :{opt exact}}Require exact code match (case-insensitive, no partial matching).{p_end}
 
