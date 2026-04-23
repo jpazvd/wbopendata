@@ -1,5 +1,5 @@
 *******************************************************************************
-*! __wbopendata_search v2.6.0  20Apr2026
+*! __wbopendata_search v2.6.1  23Apr2026
 *! Search indicators from YAML with wildcards, filters, and SMCL nav
 *! v2.6.0: Add page() option with clickable [Prev]/[Next] pagination
 *! v2.5.1: Use searchsource/searchtopic in SMCL clickable links
@@ -669,6 +669,10 @@ program define __wbopendata_search, rclass
             local src_id   = field_source_id[`i']
             local topic_nm = field_topic[`i']
             local topic_id = field_topic_ids[`i']
+
+            * Strip leading zeros so '02' looks up src_alias_2 (same fix as __wbod_get_source_name v1.0.1)
+            local _sid_num = real("`src_id'")
+            if (`_sid_num' < .) local src_id = `_sid_num'
 
             * Truncate long name for display
             local nm_disp = "`nm'"
