@@ -1,5 +1,5 @@
 *******************************************************************************
-*! __wbod_sync_diff v1.2.0  22Apr2026
+*! __wbod_sync_diff v1.2.1  22Apr2026
 *! Snapshot indicator codes before sync; compare and display diff after sync.
 *! Called by wbopendata.ado around the __wbod_sync call.
 *!
@@ -15,6 +15,15 @@
 program define __wbod_sync_diff
     version 14.0
     syntax, [BEFORE(string) AFTER(string) LIMIT(integer 10)]
+
+    if ("`before'" != "" & "`after'" != "") {
+        di as err "options before() and after() are mutually exclusive"
+        exit 198
+    }
+    if ("`before'" == "" & "`after'" == "") {
+        di as err "one of before() or after() is required"
+        exit 198
+    }
 
     *---------------------------------------------------------------------------
     * BEFORE: snapshot current indicator codes + source names → .dta file
@@ -144,7 +153,7 @@ program define __wbod_sync_diff
         di as text ""
         di as text "  Changes since last sync"
         di as text "  {hline 58}"
-        di as text "  " %-38s "Source" "  {col 43}Added" "{col 51}Removed" "{col 59}Net"
+        di as text "  " %-38s "Source" "  {col 43}Added" "{col 51}Removed" "{col 57}Net"
         di as text "  {hline 58}"
 
         forvalues i = 1/`show' {
