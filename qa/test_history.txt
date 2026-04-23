@@ -949,3 +949,76 @@ Tests:    92 run, 92 passed, 0 failed
 Result:   ALL TESTS PASSED
 Log:      test_results_v18.4.1_20Apr2026.log
 ======================================================================
+
+======================================================================
+Test Run: 21 Apr 2026
+Started:  09:39:31
+Ended:    10:02:43
+Duration: 23m 12s
+Version:  18.5.0
+Build:    21Apr2026
+Branch:   claude/add-search-pagination-zUvzv
+Stata:    17
+Tests:    92 run, 84 passed, 8 failed
+Result:   FAILED
+Failed:   CACHE-08, SYNC-05, DISC-01, DISC-02, DISC-03, DISC-07, DISC-08, DISC-09
+Log:      test_results_v18.5.0_21Apr2026.log
+======================================================================
+
+======================================================================
+Test Run: 21 Apr 2026
+Started:  19:13:08
+Ended:    19:34:02
+Duration: 20m 54s
+Version:  18.5.0
+Build:    21Apr2026
+Branch:   claude/add-search-pagination-zUvzv
+Stata:    17
+Tests:    92 run, 75 passed, 17 failed
+Result:   FAILED
+Failed:   REG-33, REG-45, LW-01, LW-02, LW-04, UPD-02, UPD-04, UPD-05, TOPIC-01, LANG-01, PROJ-01, DESC-01, CTRY-11, DATE-01, EXT-01, EXT-02, EXT-03
+Log:      test_results_v18.5.0_21Apr2026.log
+======================================================================
+
+======================================================================
+Test Run: 21 Apr 2026
+Started:  20:23:15
+Ended:    20:37:25
+Duration: 14m 10s
+Version:  18.5.0
+Build:    21Apr2026
+Branch:   claude/add-search-pagination-zUvzv
+Stata:    17
+Tests:    92 run, 92 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.5.0_21Apr2026.log
+======================================================================
+
+======================================================================
+Test Run: 22 Apr 2026
+Started:  14:54:42
+Ended:    14:57:26
+Duration: 2m 44s
+Version:  18.6.0
+Build:    21Apr2026
+Branch:   claude/add-search-pagination-zUvzv
+Stata:    17
+Tests:    92 run, 48 passed, 44 failed
+Result:   FAILED
+Failed:   DL-01, DL-02, DL-03, DL-04, DL-05, FMT-01, FMT-02, FMT-03, CTRY-01, CTRY-02, CTRY-03, CTRY-04, CTRY-05, CTRY-06, CTRY-07, CTRY-08, CTRY-09, CTRY-10, REG-33, REG-45, LW-01, LW-02, LW-03, LW-04, UPD-02, UPD-04, UPD-05, TOPIC-01, LANG-01, PROJ-01, FMT-04, DESC-01, META-01, CTRY-11, DATE-01, CHAR-01, CHAR-02, CHAR-03, CHAR-04, CHAR-05, CHAR-06, EXT-01, EXT-02, EXT-03
+Log:      test_results_v18.6.0_22Apr2026.log
+======================================================================
+
+======================================================================
+Test Run: 22 Apr 2026
+Started:  21:25:17
+Ended:    21:41:42
+Duration: 16m 25s
+Version:  18.6.0
+Build:    21Apr2026
+Branch:   claude/add-search-pagination-zUvzv
+Stata:    17
+Tests:    92 run, 92 passed, 0 failed
+Result:   ALL TESTS PASSED
+Log:      test_results_v18.6.0_22Apr2026.log
+======================================================================

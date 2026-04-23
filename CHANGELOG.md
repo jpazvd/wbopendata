@@ -20,6 +20,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [18.6.0] - 2026-04-22
+
+### Added
+
+- **Sync diff — source breakdown**: After `wbopendata, sync replace` completes, a source-level breakdown table is displayed showing adds, removes, and net change per World Bank data source (e.g., World Development Indicators, Education Statistics). Sources are sorted by absolute net change so the most-impacted databases appear first. Up to 10 sources are shown by default; a summary line counts any beyond the limit. The total row always shows the overall net. The feature is implemented in `__wbod_sync_diff.ado` which snapshots indicator codes and source names before the sync, then merges against the new YAML after completion. Codes are extracted into `str244` variables (up from `str32`) to prevent silent truncation of long indicator codes that previously caused the same indicator to appear as both added and removed.
+
+### Internal
+
+- `qa/run_tests.do`: Log filename now includes `HH:MM` time suffix so multiple runs on the same day each write to a unique file, avoiding Windows file-lock failures when a prior Stata session crashed without closing the log.
+- `src/_/__wbod_sync_preview.ado`: Fixed installed-version extraction — scans the first 5 lines of `wbopendata.ado` for the `*! v X.Y.Z` comment instead of only line 1, which is a decorative banner.
+
+---
+
+## [18.5.0] - 2026-04-21
+
+### Added
+
+- **Paginated search results**: New `page(#)` option on `wbopendata, search()` / `searchsource()` / `searchtopic()` lets users navigate beyond the first `limit(#)` records. Total pages = `ceil(matches / limit)`. Clickable SMCL `[Prev]` / `[Next]` / page-number links are rendered below the results whenever matches exceed one page. Small result sets (≤30 matches) continue to render on a single page with no pagination nav, preserving the pre-pagination UX.
+- **New return scalars**: `r(page)` and `r(n_pages)` exposed for scripting.
+- **Shared helper**: `__wbod_search_pagenav.ado` renders the SMCL pagination navigation for both the Stata 14-15 and Stata 16+ search backends.
+
+### Documentation
+
+- `wbopendata.sthlp`, `wbopendata_whatsnew.sthlp`, and `README.md` updated with `page(#)` documentation and pagination examples.
+
+---
+
 ## [18.4.1] - 2026-04-19
 
 ### Fixed
