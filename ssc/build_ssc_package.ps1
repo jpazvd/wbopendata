@@ -1,30 +1,38 @@
-# Build SSC Package for wbopendata v18.0.0
-# Creates ssc_wbopendata.1800.zip with all files listed in ssc/wbopendata.pkg
+# Build SSC Package for wbopendata v18.4.1
+# Creates wbopendata-v18.4.1.zip for submission to Kit Baum (baum@bc.edu)
 #
-# IMPORTANT: This script uses ssc/wbopendata.pkg (flat paths) NOT the root
-# wbopendata.pkg (which has src/ paths for GitHub net install)
+# Directory structure is preserved in the zip (w/, _/, y/, py/, c/, i/).
+# Stata's net/ssc commands install each file into the matching subdirectory
+# under ado/plus/ (e.g. py/ -> ado/plus/py/, _/ -> ado/plus/_/).
 #
-# Usage: .\build_ssc_package.ps1
-# Output: ssc_wbopendata.1800.zip (in ssc/ directory)
+# Excluded from zip:
+#   - py/update_metadata.do  : hardcoded developer paths
+#   - __COMPONENT_VERSIONS.yaml : internal manifest
+#
+# Usage: .\build_ssc_package.ps1  (run from ssc\ or repo root)
+# Output: ssc\wbopendata-v18.4.1.zip
 
-Write-Host "=== Building SSC Package for wbopendata v18.0.0 ===" -ForegroundColor Green
+$version = "18.4.1"
+Write-Host "=== Building SSC Package for wbopendata v$version ===" -ForegroundColor Green
 
 # Navigate to repository root
 Set-Location (Split-Path $PSScriptRoot -Parent)
 
-# Create temporary directory for package files
+# Create temporary directory (preserving subdirectory structure)
 $tempDir = "ssc_package_temp"
 if (Test-Path $tempDir) { Remove-Item $tempDir -Recurse -Force }
-New-Item -ItemType Directory -Path $tempDir | Out-Null
+foreach ($sub in @("", "w", "_", "y", "py", "c", "i")) {
+    New-Item -ItemType Directory -Path (Join-Path $tempDir $sub) -Force | Out-Null
+}
 
-# Copy package metadata files (use SSC versions with flat paths)
+# --- Package metadata (zip root) ---
 Write-Host "`nCopying package metadata..." -ForegroundColor Cyan
-Copy-Item "ssc\stata.toc" "$tempDir\" -Force
-Copy-Item "ssc\wbopendata.pkg" "$tempDir\" -Force
+Copy-Item "src\stata.toc"      "$tempDir\" -Force
+Copy-Item "src\wbopendata.pkg" "$tempDir\" -Force
 
-# Copy main wbopendata files from src/w/
-Write-Host "Copying main wbopendata files..." -ForegroundColor Cyan
-$mainFiles = @(
+# --- w/ : main wbopendata files ---
+Write-Host "Copying w/ files..." -ForegroundColor Cyan
+$wFiles = @(
     "wbopendata.ado",
     "wbopendata_populate_list.ado",
     "wbopendata_examples.ado",
@@ -41,18 +49,14 @@ $mainFiles = @(
     "world-c.dta",
     "world-d.dta"
 )
-
-foreach ($file in $mainFiles) {
-    if (Test-Path "src\w\$file") {
-        Copy-Item "src\w\$file" "$tempDir\" -Force
-    } else {
-        Write-Host "  WARNING: Missing src\w\$file" -ForegroundColor Red
-    }
+foreach ($f in $wFiles) {
+    if (Test-Path "src\w\$f") { Copy-Item "src\w\$f" "$tempDir\w\" -Force }
+    else { Write-Host "  WARNING: missing src\w\$f" -ForegroundColor Red }
 }
 
-# Copy internal function files from src/_/ (ADO files)
-Write-Host "Copying internal functions..." -ForegroundColor Cyan
-$internalFiles = @(
+# --- _/ : internal ADO helpers + YAML metadata ---
+Write-Host "Copying _/ files..." -ForegroundColor Cyan
+$uFiles = @(
     # Core API and query
     "__wbod_api_read.ado",
     "__wbod_api_read_indicators.ado",
@@ -101,98 +105,94 @@ $internalFiles = @(
     "__wbod_write_stats_history.ado",
     # YAML parser
     "__wbod_parse_yaml_ind.ado",
-    "__wbod_parse_yaml_ind_v2.ado"
-)
-
-foreach ($file in $internalFiles) {
-    if (Test-Path "src\_\$file") {
-        Copy-Item "src\_\$file" "$tempDir\" -Force
-    } else {
-        Write-Host "  WARNING: Missing src\_\$file" -ForegroundColor Red
-    }
-}
-
-# Copy YAML metadata files from src/_/ (NEW v18.0)
-Write-Host "Copying YAML metadata files..." -ForegroundColor Cyan
-$yamlFiles = @(
+    "__wbod_parse_yaml_ind_v2.ado",
+    # YAML metadata files (note: __COMPONENT_VERSIONS.yaml excluded)
     "_wbopendata_parameters.yaml",
     "_wbopendata_indicators.yaml",
     "_wbopendata_sources.yaml",
     "_wbopendata_topics.yaml"
 )
-
-foreach ($file in $yamlFiles) {
-    if (Test-Path "src\_\$file") {
-        Copy-Item "src\_\$file" "$tempDir\" -Force
-    } else {
-        Write-Host "  WARNING: Missing src\_\$file" -ForegroundColor Red
-    }
+foreach ($f in $uFiles) {
+    if (Test-Path "src\_\$f") { Copy-Item "src\_\$f" "$tempDir\_\" -Force }
+    else { Write-Host "  WARNING: missing src\_\$f" -ForegroundColor Red }
 }
 
-# Copy YAML library from src/y/ (NEW v18.0)
-Write-Host "Copying YAML library..." -ForegroundColor Cyan
-$yamlLibFiles = @(
-    "yaml.ado",
-    "yaml.sthlp"
+# --- y/ : YAML library ---
+Write-Host "Copying y/ files..." -ForegroundColor Cyan
+$yFiles = @(
+    "yaml.ado", "yaml.sthlp",
+    "yaml_read.ado", "yaml_get.ado", "yaml_write.ado",
+    "yaml_list.ado", "yaml_describe.ado", "yaml_dir.ado",
+    "yaml_clear.ado", "yaml_validate.ado", "yaml_frames.ado",
+    "yaml_examples.sthlp", "yaml_whatsnew.sthlp"
 )
-
-foreach ($file in $yamlLibFiles) {
-    if (Test-Path "src\y\$file") {
-        Copy-Item "src\y\$file" "$tempDir\" -Force
-    } else {
-        Write-Host "  WARNING: Missing src\y\$file" -ForegroundColor Red
-    }
+foreach ($f in $yFiles) {
+    if (Test-Path "src\y\$f") { Copy-Item "src\y\$f" "$tempDir\y\" -Force }
+    else { Write-Host "  WARNING: missing src\y\$f" -ForegroundColor Red }
 }
 
-# Copy data files
-Write-Host "Copying data files..." -ForegroundColor Cyan
-Copy-Item "src\c\country.txt" "$tempDir\" -Force
-Copy-Item "src\i\indicators.txt" "$tempDir\" -Force
+# --- py/ : Python pipeline for forcepython pathway ---
+# Note: update_metadata.do excluded (hardcoded dev paths)
+Write-Host "Copying py/ files..." -ForegroundColor Cyan
+$pyFiles = @(
+    "__init__.py",
+    "update_metadata.py",
+    "wb_api_client.py",
+    "yaml_generator.py",
+    "schema_validator.py",
+    "diff_analyzer.py",
+    "git_manager.py"
+)
+foreach ($f in $pyFiles) {
+    if (Test-Path "src\py\$f") { Copy-Item "src\py\$f" "$tempDir\py\" -Force }
+    else { Write-Host "  WARNING: missing src\py\$f" -ForegroundColor Red }
+}
 
-# Count files and show summary
-$fileCount = (Get-ChildItem "$tempDir" -File).Count
+# --- c/ and i/ : data files ---
+Write-Host "Copying data files..." -ForegroundColor Cyan
+Copy-Item "src\c\country.txt"    "$tempDir\c\" -Force
+Copy-Item "src\i\indicators.txt" "$tempDir\i\" -Force
+
+# --- Summary ---
+$allFiles  = Get-ChildItem "$tempDir" -Recurse -File
+$fileCount = $allFiles.Count
+$adoCount   = ($allFiles | Where-Object { $_.Extension -eq ".ado"   }).Count
+$sthlpCount = ($allFiles | Where-Object { $_.Extension -eq ".sthlp" }).Count
+$yamlCount  = ($allFiles | Where-Object { $_.Extension -eq ".yaml"  }).Count
+$dtaCount   = ($allFiles | Where-Object { $_.Extension -eq ".dta"   }).Count
+$pyCount    = ($allFiles | Where-Object { $_.Extension -eq ".py"    }).Count
+$otherCount = $fileCount - $adoCount - $sthlpCount - $yamlCount - $dtaCount - $pyCount
+
 Write-Host "`n--- Package Summary ---" -ForegroundColor Yellow
 Write-Host "Total files: $fileCount" -ForegroundColor Yellow
-
-# Show file breakdown
-$adoCount = (Get-ChildItem "$tempDir" -Filter "*.ado").Count
-$sthlpCount = (Get-ChildItem "$tempDir" -Filter "*.sthlp").Count
-$yamlCount = (Get-ChildItem "$tempDir" -Filter "*.yaml").Count
-$dtaCount = (Get-ChildItem "$tempDir" -Filter "*.dta").Count
-$otherCount = $fileCount - $adoCount - $sthlpCount - $yamlCount - $dtaCount
-Write-Host "  ADO files:  $adoCount" -ForegroundColor Cyan
+Write-Host "  ADO files:   $adoCount"   -ForegroundColor Cyan
 Write-Host "  STHLP files: $sthlpCount" -ForegroundColor Cyan
-Write-Host "  YAML files: $yamlCount" -ForegroundColor Cyan
-Write-Host "  DTA files:  $dtaCount" -ForegroundColor Cyan
-Write-Host "  Other:      $otherCount" -ForegroundColor Cyan
+Write-Host "  YAML files:  $yamlCount"  -ForegroundColor Cyan
+Write-Host "  DTA files:   $dtaCount"   -ForegroundColor Cyan
+Write-Host "  PY files:    $pyCount"    -ForegroundColor Cyan
+Write-Host "  Other:       $otherCount" -ForegroundColor Cyan
 
-# Create zip file
+# --- Zip ---
 Write-Host "`nCreating zip file..." -ForegroundColor Cyan
-$zipPath = "ssc\ssc_wbopendata.1800.zip"
-if (Test-Path $zipPath) {
-    Remove-Item $zipPath -Force
-}
-
+$zipPath = "ssc\wbopendata-v$version.zip"
+if (Test-Path $zipPath) { Remove-Item $zipPath -Force }
 Compress-Archive -Path "$tempDir\*" -DestinationPath $zipPath -CompressionLevel Optimal
 
-# Verify zip
 if (Test-Path $zipPath) {
-    $sizeKB = (Get-Item $zipPath).Length / 1KB
-    $sizeMB = (Get-Item $zipPath).Length / 1MB
+    $sizeKB = [Math]::Round((Get-Item $zipPath).Length / 1KB, 0)
+    $sizeMB = [Math]::Round((Get-Item $zipPath).Length / 1MB, 2)
     Write-Host "`n=== Package created successfully! ===" -ForegroundColor Green
     Write-Host "  Location: $zipPath" -ForegroundColor Cyan
-    Write-Host "  Size: $([Math]::Round($sizeMB, 2)) MB ($([Math]::Round($sizeKB, 2)) KB)" -ForegroundColor Cyan
-    Write-Host "  Files: $fileCount" -ForegroundColor Cyan
-}
-else {
+    Write-Host "  Size:     $sizeMB MB ($sizeKB KB)" -ForegroundColor Cyan
+    Write-Host "  Files:    $fileCount" -ForegroundColor Cyan
+} else {
     Write-Host "`n=== Failed to create package ===" -ForegroundColor Red
     exit 1
 }
 
-# Clean up temp directory
+# --- Cleanup ---
 Remove-Item $tempDir -Recurse -Force
 Write-Host "`nCleaned up temporary files" -ForegroundColor Green
-
 Write-Host "`n=== Package ready for SSC submission ===" -ForegroundColor Green
-Write-Host "NOTE: Python files (src/py/) are excluded from SSC." -ForegroundColor Yellow
-Write-Host "      They are developer tools for metadata updates." -ForegroundColor Yellow
+Write-Host "NOTE: py/update_metadata.do excluded — hardcoded dev paths." -ForegroundColor Yellow
+Write-Host "NOTE: __COMPONENT_VERSIONS.yaml excluded — internal manifest." -ForegroundColor Yellow

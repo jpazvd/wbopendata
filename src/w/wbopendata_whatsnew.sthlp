@@ -1,7 +1,9 @@
 {smcl}
-{* *! version 18.4.1  19Apr2026}{...}
+{* *! version 18.6.0  22Apr2026}{...}
 {vieweralsosee "wbopendata" "help wbopendata"}{...}
 {viewerjumpto "What's New" "wbopendata_whatsnew##whatsnew"}{...}
+{viewerjumpto "Version 18.6.0" "wbopendata_whatsnew##v1860"}{...}
+{viewerjumpto "Version 18.5.0" "wbopendata_whatsnew##v1850"}{...}
 {viewerjumpto "Version 18.4.1" "wbopendata_whatsnew##v1841"}{...}
 {viewerjumpto "Version 18.3.2" "wbopendata_whatsnew##v1832"}{...}
 {viewerjumpto "Version 18.3.1" "wbopendata_whatsnew##v1831"}{...}
@@ -25,6 +27,68 @@
 {pstd}
 This file documents recent changes and new features in the {cmd:wbopendata} module.
 For complete documentation, see {help wbopendata:help wbopendata}.
+
+{marker v1860}{...}
+{title:Version 18.6.0 (22Apr2026)}
+
+{pstd}
+{bf:New feature: Sync diff by source} - After {cmd:wbopendata, sync replace}
+completes, a source-level breakdown table is displayed showing how many
+indicators were added or removed per World Bank data source since the
+previous sync. Only sources with actual changes are shown (sources with
+no net movement are suppressed). Sources are sorted by absolute net change
+so the most-impacted databases appear first. Up to 10 sources are displayed
+by default; any beyond the limit are counted in a summary line.
+
+{phang2}{cmd:. wbopendata, sync replace}{p_end}
+
+{pstd}
+Example output after sync:
+
+{phang2}{result:  Changes since last sync}{p_end}
+{phang2}{result:  ----------------------------------------------------------}{p_end}
+{phang2}{result:  Source                                  Added  Removed  Net}{p_end}
+{phang2}{result:  ----------------------------------------------------------}{p_end}
+{phang2}{result:  Gender Statistics                         188       56 +132}{p_end}
+{phang2}{result:  (Unknown source)                           56        0  +56}{p_end}
+{phang2}{result:  (3 more sources)}{p_end}
+{phang2}{result:  ----------------------------------------------------------}{p_end}
+{phang2}{result:  TOTAL                                     244       56 +188}{p_end}
+
+{pstd}
+When the indicator list is unchanged the output reads {result:Indicator list: unchanged}.
+
+{pstd}
+{bf:Improved: Sync detail source table} - {cmd:wbopendata, sync detail} now
+correctly resolves source names for IDs stored with leading zeros in the
+indicator YAML (e.g., {it:'02'} now correctly displays as
+{it:World Development Indicators}). World Bank vintage/archive sources with
+non-standard IDs (prefixed {it:VG*}) are collapsed into a single summary
+line rather than flooding the table with hundreds of 1-indicator entries.
+
+{pstd}
+{bf:Improved: [sync & see breakdown] link} - The {result:[see breakdown]}
+hyperlink next to {result:Change: +N new} in the Remote Status section now
+runs {cmd:wbopendata, sync replace}, so clicking it performs the sync and
+immediately displays the source-level diff table.
+
+{marker v1850}{...}
+{title:Version 18.5.0 (21Apr2026)}
+
+{pstd}
+{bf:New feature: Paginated search results} - Search results (by keyword, topic,
+or source) now support a new {opt page(#)} option so users can navigate beyond
+the first {opt limit(#)} records. Clickable SMCL {opt [Prev]}, {opt [Next]},
+and page-number links are rendered below the results whenever matches exceed
+one page. Small result sets (<=30 matches) continue to render on a single
+page with no pagination nav - the navigation only appears when it is useful.
+
+{pstd}
+New return values: {cmd:r(page)} and {cmd:r(n_pages)} expose the current page
+and total page count for scripting.
+
+{phang2}{cmd:. wbopendata, searchtopic(11) limit(20) page(2)}{p_end}
+{phang2}{cmd:. wbopendata, search(poverty) limit(10) page(3)}{p_end}
 
 {marker v1841}{...}
 {title:Version 18.4.1 (19Apr2026)}

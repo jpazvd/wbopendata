@@ -58,8 +58,11 @@ The access to these databases is made possible by the World Bank's [Open Data In
 ### From GitHub (Recommended)
 
 ```stata
-net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main") replace
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main/src/") replace
 ```
+
+> **Upgrading?** Always use `replace`. If you see r(602) about conflicting files, `replace` resolves it.
+> Avoid `net uninstall wbopendata` — it returns r(111) ("criterion matches more than one package") and is not needed.
 
 ### From SSC (Stable but older)
 
@@ -73,16 +76,16 @@ ssc install wbopendata, replace
 
 ```stata
 * Install v18.1.1 specifically
-net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v18.1.1") replace
+net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v18.1.1/src/") replace
 ```
 
 ### From Local Clone
 ```stata
-* Windows - install from repo root (pkg references src/ paths)
-net install wbopendata, from("C:/GitHub/myados/wbopendata") replace
+* Windows
+net install wbopendata, from("C:/path/to/wbopendata/src/") replace
 
 * Mac/Linux
-net install wbopendata, from("/Users/username/GitHub/wbopendata") replace
+net install wbopendata, from("/path/to/wbopendata/src/") replace
 ```
 
 > **Note:** The **wbopendata project** maintains three `wbopendata.pkg` files:
@@ -95,7 +98,7 @@ net install wbopendata, from("/Users/username/GitHub/wbopendata") replace
 | Channel    | Version        | Indicators | Notes                               |
 |------------|----------------|------------|-------------------------------------|
 | **SSC**    | v17.7.1 (2025) | ~20,000    | Stable, one release behind GitHub   |
-| **GitHub** | v18.1.1 (2026) | 29,000+    | Latest features, active development |
+| **GitHub** | v18.6.0 (2026) | 29,000+    | Latest features, active development |
 
 > **Recommendation:** Install from GitHub for full functionality including `match()`, `linewrap()`, multiple indicators, and 29,000+ indicators.
 
@@ -104,6 +107,10 @@ net install wbopendata, from("/Users/username/GitHub/wbopendata") replace
 
 | Year | Version | Milestone |
 |------|---------|-----------|
+| 2026 | v18.6 | **Sync diff**: shows added/removed indicators after `sync replace` |
+| 2026 | v18.5 | **Paginated search**: `page(#)` option with clickable `[Prev]`/`[Next]` nav |
+| 2026 | v18.4 | Country context variables restored; `forcestata` sync pathway |
+| 2026 | v18.2–18.3 | Data response cache (7-day TTL); configurable `cachedays()`; cache-hit YAML lookup |
 | 2026 | v18.1 | **Characteristic metadata**: persistent `char` provenance on every `.dta`; `nochar` opt-out |
 | 2026 | v18.0 | **Discovery commands**: sources, alltopics, search, info; clickable URLs in metadata |
 | 2026 | v17.7 | Basic country context by default, graph metadata |
@@ -167,13 +174,15 @@ wbopendata, indicator(NY.GDP.MKTP.CD) clear long nochar
 * NEW: Discovery features - search for indicators
 wbopendata, search(GDP)                    // Search indicators by keyword
 wbopendata, search(education) limit(50)    // Limit results
+wbopendata, searchtopic(11) page(2)        // Navigate paginated results
 
 * NEW: Get detailed info about a specific indicator
 wbopendata, info(NY.GDP.MKTP.CD)
 
 * NEW: Sync and cache management
 wbopendata, checkupdate    // Check if metadata updates are available
-wbopendata, sync           // Sync metadata from GitHub
+wbopendata, sync           // Preview metadata changes (dry run)
+wbopendata, sync replace   // Apply sync; shows diff of added/removed indicators (v18.6+)
 wbopendata, cacheinfo      // Display cache status
 ```
 
@@ -240,7 +249,8 @@ wbopendata, cacheinfo      // Display cache status
 - **searchfield(string)**: Search in specific fields: `code`, `name`, `description`, `all` (default: `all`)
 - **exact**: Require exact word match (no partial matching)
 - **detail**: Show full indicator details with wrapped text instead of truncated table
-- **limit(integer)**: Limit search results (default: 20)
+- **limit(integer)**: Per-page record count (default: 20)
+- **page(integer)**: Page of results to display (default: 1). When total matches exceed `limit`, clickable `[Prev]` / `[Next]` / page-number links appear below the table. Small result sets (≤30 matches) always render on a single page, so pagination only kicks in when it's useful.
 
 #### Indicator Info
 
@@ -273,6 +283,10 @@ wbopendata, search(GDP*) searchsource(2)          // Wildcard + filter by source
 wbopendata, search(education) searchtopic(4)      // Filter by topic
 wbopendata, search(~^NY\.GDP) searchfield(code)   // Regex search in code field
 wbopendata, search(poverty) detail                // Full details with wrapped text
+
+* Paginate large result sets
+wbopendata, searchtopic(11) limit(20) page(2)     // Records 21-40 in topic 11
+wbopendata, search(poverty) limit(10) page(3)     // Third page of 10 per page
 
 * Get detailed info about a specific indicator
 wbopendata, info(NY.GDP.MKTP.CD)
