@@ -1,6 +1,7 @@
 *******************************************************************************
-*! __wbod_sync_preview v1.4.0  21Apr2026
+*! __wbod_sync_preview v1.4.1  22Apr2026
 *! Display metadata status diagnostic before sync
+*! v1.4.1: Ensure file handle closed on error in capture block
 *! v1.4.0: Add installed version, cache location, inline hyperlinks, clickable detail rows
 *! v1.2.0: Added country metadata count display
 *! v1.1.0: Added detail option for per-source/topic breakdown
@@ -24,16 +25,18 @@ program define __wbod_sync_preview, rclass
     local _wbf : subinstr local _wbf "\" "/" , all
     if fileexists("`_wbf'") {
         tempname _fh
-        capture {
-            file open `_fh' using "`_wbf'", read text
-            forvalues _ln = 1/5 {
-                file read `_fh' _wbline
-                if regexm("`_wbline'", "v ([0-9]+\.[0-9]+\.[0-9]+)") {
-                    local pkg_ver = regexs(1)
-                    continue, break
+        capture file open `_fh' using "`_wbf'", read text
+        if _rc == 0 {
+            capture {
+                forvalues _ln = 1/5 {
+                    file read `_fh' _wbline
+                    if regexm("`_wbline'", "v ([0-9]+\.[0-9]+\.[0-9]+)") {
+                        local pkg_ver = regexs(1)
+                        continue, break
+                    }
                 }
             }
-            file close `_fh'
+            capture file close `_fh'
         }
     }
 

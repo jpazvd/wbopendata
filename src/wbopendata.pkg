@@ -1,4 +1,4 @@
-v 18.6.0
+v 18.6.1
 d 'WBOPENDATA': module to access World Bank databases
 d 
 d wbopendata allows Stata users to download over 20,000 indicators 
@@ -28,6 +28,7 @@ d Requires: Stata version 14
 d 
 d Distribution-Date: 20260422
 d NEW in v18.6: sync replace now shows a diff of added/removed indicators.
+d NEW in v18.6.1: leading-zero source ID fix in search display; file handle safety.
 d License: MIT
 d 
 d Author: João Pedro Azevedo
