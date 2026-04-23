@@ -1,5 +1,5 @@
 *******************************************************************************
-*! __wbopendata_search_cache v3.3.0  20Apr2026
+*! __wbopendata_search_cache v3.3.1  23Apr2026
 *! v3.3.0: Add page() option with clickable [Prev]/[Next] pagination
 *! v3.2.0: Fix clickable links: source() -> searchsource(), topic() -> searchtopic()
 *! Search indicators with frame-based session caching (Stata 16+)
@@ -659,6 +659,10 @@ program define __wbopendata_search_cache, rclass
             local src_id   = field_source_id[`i']
             local topic_nm = field_topic[`i']
             local topic_id = field_topic_ids[`i']
+
+            * Strip leading zeros so '02' looks up src_alias_2 (same fix as __wbod_get_source_name v1.0.1)
+            local _sid_num = real("`src_id'")
+            if (`_sid_num' < .) local src_id = `_sid_num'
 
             * Truncate long name for display
             local nm_disp = "`nm'"
