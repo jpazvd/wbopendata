@@ -40,7 +40,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Search display — leading-zero source IDs**: When a YAML record stored `source_id` as a string with a leading zero (e.g., `'02'`), the alias lookup `` "`src_alias_`src_id''" `` failed because the local table is keyed on bare integers (`src_alias_2`). Both `__wbopendata_search` and `__wbopendata_search_cache` now apply `real()` and reassign before the lookup, matching the fix already in `__wbod_get_source_name` v1.0.1.
 - **`__wbod_sync_preview` file handle safety**: The version-extraction block wrapped `file open`, the read loop, and `file close` inside a single `capture { ... }`. If a `file read` errored, `file close` was skipped and the handle leaked. Split into two captures so `file close` always runs.
 - **Help header date**: `wbopendata.sthlp` showed `21Apr2026`; corrected to `22Apr2026` to match CHANGELOG, Distribution-Date, and whatsnew.
-- **Package version alignment**: `src/wbopendata.pkg` was at `v 18.6.0` despite the v18.6.1 tag; bumped to `v 18.7.0` for the dedup release (this change).
+- **Package version alignment**: `src/wbopendata.pkg` was at `v 18.6.0` despite the v18.6.1 tag; bumped to `v 18.6.1` to match this patch release. (The subsequent bump to `v 18.7.0` is documented in the v18.7.0 entry above.)
 
 ---
 
