@@ -1,7 +1,9 @@
 {smcl}
-{* *! version 18.6.0  22Apr2026}{...}
+{* *! version 18.7.0  25Apr2026}{...}
 {vieweralsosee "wbopendata" "help wbopendata"}{...}
 {viewerjumpto "What's New" "wbopendata_whatsnew##whatsnew"}{...}
+{viewerjumpto "Version 18.7.0" "wbopendata_whatsnew##v1870"}{...}
+{viewerjumpto "Version 18.6.1" "wbopendata_whatsnew##v1861"}{...}
 {viewerjumpto "Version 18.6.0" "wbopendata_whatsnew##v1860"}{...}
 {viewerjumpto "Version 18.5.0" "wbopendata_whatsnew##v1850"}{...}
 {viewerjumpto "Version 18.4.1" "wbopendata_whatsnew##v1841"}{...}
@@ -27,6 +29,59 @@
 {pstd}
 This file documents recent changes and new features in the {cmd:wbopendata} module.
 For complete documentation, see {help wbopendata:help wbopendata}.
+
+{marker v1870}{...}
+{title:Version 18.7.0 (25Apr2026)}
+
+{pstd}
+{bf:Internal refactor: shared search-alias helper} - The hardcoded source-alias
+({it:DoingB}, {it:WDI}, {it:SDGs}, etc.), source-full-name, and topic-name
+lookup tables that were previously duplicated inside both search backends
+({cmd:__wbopendata_search} for Stata 14-15 and {cmd:__wbopendata_search_cache}
+for Stata 16+) have been extracted into a single new helper,
+{cmd:__wbod_search_aliases}. Each backend now calls the helper once before
+its row loop; the helper populates {it:src_alias_*}, {it:src_name_*}, and
+{it:topic_name_*} locals in the caller's scope via {cmd:c_local}, so the
+existing lookup pattern (`src_alias_`src_id'') is unchanged.
+
+{pstd}
+This is a {it:pure refactor} - no user-facing syntax change, no behavioral
+change. Adding a new World Bank source in future releases now requires
+editing a single file (the helper) instead of two backends in lock-step.
+Net change: ~330 lines of duplicated tables removed.
+
+{phang2}{cmd:. wbopendata, search(GDP)}{p_end}
+{phang2}{cmd:. wbopendata, searchsource(2)}      // legend: WDI = World Development Indicators{p_end}
+{phang2}{cmd:. wbopendata, searchtopic(11)}      // legend: [11] Poverty{p_end}
+
+{pstd}
+{bf:Test coverage} - Five new help-example tests added to close gaps from a
+documentation-vs-test audit: pagination ({opt page(N)}, v18.5), {opt cachedays(N)}
+override and {opt verbose} passthrough (v18.2), and {opt allsources} (v17.6).
+Full QA suite: 92/92 PASS. Help examples: 76/76 PASS.
+
+{marker v1861}{...}
+{title:Version 18.6.1 (23Apr2026)}
+
+{pstd}
+{bf:Fix: leading-zero source IDs in search display} - When the indicator YAML
+stored {it:source_id} as a string with a leading zero (e.g., {it:'02'}), the
+alias lookup ("`src_alias_`src_id''") failed because the local table is keyed
+on bare integers ({it:src_alias_2}). Both {cmd:__wbopendata_search} and
+{cmd:__wbopendata_search_cache} now apply {cmd:real()} and reassign before
+the lookup, matching the fix already in {cmd:__wbod_get_source_name} v1.0.1.
+
+{pstd}
+{bf:Fix: file-handle safety in sync_preview} - {cmd:__wbod_sync_preview.ado}
+extracts the installed package version by reading the first lines of
+{it:wbopendata.ado}. The block previously wrapped {cmd:file open}, the read
+loop, and {cmd:file close} in a single {cmd:capture} block, so a {cmd:file read}
+error would leak the open handle. Split into two captures so {cmd:file close}
+always runs.
+
+{pstd}
+{bf:Fix: help header date} - {cmd:wbopendata.sthlp} header date corrected
+from {it:21Apr2026} to {it:22Apr2026} to match the v18.6.0 release.
 
 {marker v1860}{...}
 {title:Version 18.6.0 (22Apr2026)}

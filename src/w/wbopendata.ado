@@ -1,6 +1,8 @@
 *******************************************************************************
 * wbopendata
-*! v 18.6.0  	 21Apr2026               by Joao Pedro Azevedo
+*! v 18.7.0  	 25Apr2026               by Joao Pedro Azevedo
+*   18.7.0: Extract source/topic alias tables to shared __wbod_search_aliases helper (~330 lines dup removed)
+*   18.6.1: Strip leading zeros in search src_id alias lookup; file handle safety in sync_preview
 *   18.6.0: Show indicator diff (added/removed) after sync replace completes
 *   18.5.0: Add page() option to search with clickable [Prev]/[Next] pagination; small result sets (<=30) remain on a single page
 *   18.4.1: Restore country context variables (region/income/lending) missing since v18.0.0; fix sthlp truncation (Kit Baum)
@@ -921,7 +923,7 @@ local indicator `indicators'
 **********************************************************************************
 
 	if ("`char'" != "nochar") & ("`update'" == "") {
-		char _dta[wbopendata_version]   "18.6.0"
+		char _dta[wbopendata_version]   "18.7.0"
 		char _dta[wbopendata_timestamp] "`c(current_date)' `c(current_time)'"
 		char _dta[wbopendata_user]      "`c(username)'"
 		char _dta[wbopendata_syntax]    `"wbopendata, `0'"'
