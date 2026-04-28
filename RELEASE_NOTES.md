@@ -6,6 +6,108 @@
 
 **Minimum requirement:** Stata 14 or later.
 
+## wbopendata v18.7.0 — Shared Search-Alias Helper (Internal Refactor)
+
+**Release Date:** April 25, 2026
+
+---
+
+### Highlights
+
+Pure internal refactor — no user-facing syntax change. The hardcoded source-alias, source-full-name, and topic-name lookup tables previously duplicated inside both search backends (`__wbopendata_search.ado` for Stata 14–15 and `__wbopendata_search_cache.ado` for Stata 16+) have been extracted into a single shared helper, `__wbod_search_aliases.ado`. Each backend now calls the helper once before its row loop; the helper populates the lookup locals in the caller's scope via `c_local`, so the existing `` `src_alias_`src_id'' `` lookup pattern is preserved unchanged.
+
+This closes the maintenance hazard flagged by code review on PR #86: adding a new World Bank source previously required editing both backends in lock-step. Future source additions now require editing the single helper only.
+
+### Changes
+
+| Area | Description |
+| ---- | ----------- |
+| **`__wbod_search_aliases.ado`** | New helper (v1.0.0) with 71 source aliases (`DoingB`, `WDI`, `SDGs`, etc.), 71 source full names, and 21 topic names. Populates locals in caller scope via `c_local`. |
+| **`__wbopendata_search.ado`** | v2.6.1 → v2.7.0. 165-line inline lookup block replaced with a single helper call. |
+| **`__wbopendata_search_cache.ado`** | v3.3.1 → v3.4.0. Same diff. |
+| **Test coverage — pagination** | New HELP-55 / HELP-56 in `tests/test_help_examples.do` exercise the v18.5 `page(N)` option that was documented in the help file but never tested. |
+| **Test coverage — cache & discovery** | New HELP-57 (`cachedays(30)`), HELP-58 (`verbose`), HELP-59 (`allsources`) close further documentation-vs-test audit gaps from v18.2 / v17.6. |
+| **Net code change** | ~330 duplicated lines removed; ~106 lines net deletion across the package. |
+
+### Examples (unchanged from v18.5+)
+
+```stata
+. wbopendata, search(GDP)
+. wbopendata, searchsource(2)              // legend: WDI = World Development Indicators
+. wbopendata, searchtopic(11)              // legend: [11] Poverty
+. wbopendata, searchtopic(11) limit(20) page(2)   // pagination, now tested
+```
+
+### Test Results
+
+- Full QA suite: **92/92 PASS** (run on `feature/dedup-search-aliases` @ `120cd8b`, 26m 15s)
+- Help examples: **76/76 PASS** (including the 5 new HELP-55..59)
+- Alias-helper smoke: **10/10 PASS** (`qa/smoke_search_aliases.do`)
+
+### Full Changelog
+
+**Compare:** [v18.6.1...v18.7.0](https://github.com/jpazvd/wbopendata/compare/v18.6.1...v18.7.0)
+
+---
+
+## wbopendata v18.6.1 — Fixes from PR #85 / #86 Review
+
+**Release Date:** April 23, 2026
+
+---
+
+### Highlights
+
+Three fix commits addressing inline review comments on the v18.6.0 production PRs. No new user-facing functionality; production correctness only.
+
+### Changes
+
+| Area | Description |
+| ---- | ----------- |
+| **Leading-zero source IDs in search display** | When the indicator YAML stored `source_id` as a string with a leading zero (e.g., `'02'`), the alias lookup `` "`src_alias_`src_id''" `` failed because the local table is keyed on bare integers (`src_alias_2`). Both `__wbopendata_search` (v2.6.0 → v2.6.1) and `__wbopendata_search_cache` (v3.3.0 → v3.3.1) now apply `real()` and reassign before the lookup, matching the fix already in `__wbod_get_source_name` v1.0.1. |
+| **`__wbod_sync_preview` file-handle safety** | The version-extraction block previously wrapped `file open`, the read loop, and `file close` in a single `capture` block. A `file read` error would skip the close call and leak the open handle. Split into two captures (`__wbod_sync_preview` v1.4.0 → v1.4.1) so `file close` always runs. |
+| **Help header date** | `wbopendata.sthlp` showed `21Apr2026`; corrected to `22Apr2026` to match the v18.6.0 release date. |
+| **Package version alignment** | `src/wbopendata.pkg` was at `v 18.6.0` despite the v18.6.1 tag; bumped to align. |
+
+### Full Changelog
+
+**Compare:** [v18.6.0...v18.6.1](https://github.com/jpazvd/wbopendata/compare/v18.6.0...v18.6.1)
+
+---
+
+## wbopendata v18.6.0 — Sync Diff by Source
+
+**Release Date:** April 22, 2026
+
+---
+
+### Highlights
+
+After `wbopendata, sync replace` completes, a source-level breakdown table is now displayed showing how many indicators were added or removed per World Bank data source since the previous sync. Sources are sorted by absolute net change so the most-impacted databases appear first; only sources with actual changes are shown. Up to 10 sources are displayed by default; any beyond the limit are summarised in a footer line. The total row always shows the overall net.
+
+### Changes
+
+| Area | Description |
+| ---- | ----------- |
+| **`__wbod_sync_diff.ado`** | New helper (v1.0.0) snapshots indicator codes and source names before sync, then merges against the new YAML after completion. Codes are extracted into `str244` to prevent silent truncation of long indicator codes that previously caused the same indicator to appear as both added and removed. |
+| **Sync diff display** | Source breakdown table appears automatically after `sync replace` succeeds. Sample output: `Gender Statistics  188   56  +132`. |
+| **`sync detail` source table fix** | Now correctly resolves source names for IDs stored with leading zeros in the indicator YAML (e.g., `'02'` → `World Development Indicators`). World Bank vintage/archive sources with non-standard IDs (prefixed `VG*`) are collapsed into a single summary line rather than flooding the table with hundreds of 1-indicator entries. |
+| **`[sync & see breakdown]` link** | The hyperlink next to `Change: +N new` in the Remote Status section now runs `wbopendata, sync replace` so clicking it performs the sync and immediately shows the breakdown. |
+| **QA log filenames** | `qa/run_tests.do` log filename now includes `HH:MM` time suffix so multiple runs on the same day each write to a unique file, avoiding Windows file-lock failures. |
+
+### Examples
+
+```stata
+. wbopendata, sync replace
+*  → followed automatically by the source-level diff table
+```
+
+### Full Changelog
+
+**Compare:** [v18.5.0...v18.6.0](https://github.com/jpazvd/wbopendata/compare/v18.5.0...v18.6.0)
+
+---
+
 ## wbopendata v18.5.0 — Paginated Search Results
 
 **Release Date:** April 21, 2026
