@@ -37,9 +37,9 @@ For complete documentation, see {help wbopendata:help wbopendata}.
 {bf:Internal refactor: shared search-alias helper} - The hardcoded source-alias
 ({it:DoingB}, {it:WDI}, {it:SDGs}, etc.), source-full-name, and topic-name
 lookup tables that were previously duplicated inside both search backends
-({cmd:__wbopendata_search.ado} for Stata 14-15 and {cmd:__wbopendata_search_cache.ado}
+({cmd:__wbopendata_search} for Stata 14-15 and {cmd:__wbopendata_search_cache}
 for Stata 16+) have been extracted into a single new helper,
-{cmd:__wbod_search_aliases.ado}. Each backend now calls the helper once before
+{cmd:__wbod_search_aliases}. Each backend now calls the helper once before
 its row loop; the helper populates {it:src_alias_*}, {it:src_name_*}, and
 {it:topic_name_*} locals in the caller's scope via {cmd:c_local}, so the
 existing lookup pattern (`src_alias_`src_id'') is unchanged.
