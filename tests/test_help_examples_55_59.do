@@ -7,7 +7,9 @@ clear all
 set more off
 capture log close _all
 
-local logname "C:/GitHub/myados/wbopendata-dev/tests/test_help_55_59.log"
+local logdate = subinstr("`c(current_date)'", " ", "", .)
+local logtime = subinstr("`c(current_time)'", ":", "", .)
+local logname "C:/GitHub/myados/wbopendata-dev/tests/test_help_55_59_`logdate'_`logtime'.log"
 log using "`logname'", replace text name(helptest5559)
 
 * Add dev source to FRONT of adopath
