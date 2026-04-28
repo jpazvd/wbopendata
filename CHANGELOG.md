@@ -20,6 +20,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [18.7.0] - 2026-04-25
+
+### Changed
+
+- **Refactor — shared search-alias helper**: The hardcoded source-alias (`DoingB`, `WDI`, etc.), source-full-name, and topic-name lookup tables previously duplicated inside `__wbopendata_search.ado` and `__wbopendata_search_cache.ado` (~165 lines each, ~330 lines total) have been extracted to a new `__wbod_search_aliases.ado` helper. Both backends now call this helper once before their row loop; the helper populates `src_alias_*`, `src_name_*`, and `topic_name_*` locals in the caller's scope via `c_local`. Lookup pattern (`` "`src_alias_`src_id''" ``) is unchanged. This fixes the maintenance hazard flagged by code review on PR #86 — adding a new World Bank source no longer requires editing two files.
+
+### Internal
+
+- `__wbopendata_search` v2.6.1 → v2.7.0; `__wbopendata_search_cache` v3.3.1 → v3.4.0; new `__wbod_search_aliases` v1.0.0.
+- Net change: ~−160 lines across the package.
+
+---
+
+## [18.6.1] - 2026-04-23
+
+### Fixed
+
+- **Search display — leading-zero source IDs**: When a YAML record stored `source_id` as a string with a leading zero (e.g., `'02'`), the alias lookup `` "`src_alias_`src_id''" `` failed because the local table is keyed on bare integers (`src_alias_2`). Both `__wbopendata_search` and `__wbopendata_search_cache` now apply `real()` and reassign before the lookup, matching the fix already in `__wbod_get_source_name` v1.0.1.
+- **`__wbod_sync_preview` file handle safety**: The version-extraction block wrapped `file open`, the read loop, and `file close` inside a single `capture { ... }`. If a `file read` errored, `file close` was skipped and the handle leaked. Split into two captures so `file close` always runs.
+- **Help header date**: `wbopendata.sthlp` showed `21Apr2026`; corrected to `22Apr2026` to match CHANGELOG, Distribution-Date, and whatsnew.
+- **Package version alignment**: `src/wbopendata.pkg` was at `v 18.6.0` despite the v18.6.1 tag; bumped to `v 18.7.0` for the dedup release (this change).
+
+---
+
 ## [18.6.0] - 2026-04-22
 
 ### Added
