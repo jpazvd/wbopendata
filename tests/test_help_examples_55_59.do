@@ -31,7 +31,7 @@ local failed_list ""
 *-------------------------------------------------------------------------------
 * Local helpers (programs would have their own scope, locals work in caller)
 *-------------------------------------------------------------------------------
-local sep = "-" * 70
+local sep "{hline 70}"
 
 *-------------------------------------------------------------------------------
 * HELP-55: searchtopic(11) limit(20) page(2) (v18.5 pagination)
