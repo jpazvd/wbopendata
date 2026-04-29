@@ -98,7 +98,7 @@ net install wbopendata, from("/path/to/wbopendata/src/") replace
 | Channel    | Version        | Indicators | Notes                               |
 |------------|----------------|------------|-------------------------------------|
 | **SSC**    | v17.7.1 (2025) | ~20,000    | Stable, one release behind GitHub   |
-| **GitHub** | v18.6.0 (2026) | 29,000+    | Latest features, active development |
+| **GitHub** | v18.7.0 (2026) | 29,000+    | Latest features, active development |
 
 > **Recommendation:** Install from GitHub for full functionality including `match()`, `linewrap()`, multiple indicators, and 29,000+ indicators.
 
@@ -107,6 +107,7 @@ net install wbopendata, from("/path/to/wbopendata/src/") replace
 
 | Year | Version | Milestone |
 |------|---------|-----------|
+| 2026 | v18.7 | **Internal refactor**: shared `__wbod_search_aliases` helper (~330 dup lines removed); ↑ test coverage |
 | 2026 | v18.6 | **Sync diff**: shows added/removed indicators after `sync replace` |
 | 2026 | v18.5 | **Paginated search**: `page(#)` option with clickable `[Prev]`/`[Next]` nav |
 | 2026 | v18.4 | Country context variables restored; `forcestata` sync pathway |

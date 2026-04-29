@@ -77,7 +77,7 @@ if (!`use_dev') {
 }
 
 * Version guard: check test expects same version as .ado file
-local _test_version "18.4.1"
+local _test_version "18.7.0"
 tempname _vfh
 file open `_vfh' using "`wb_path'", read text
 file read `_vfh' _vline  /* line 1: stars */
@@ -1349,6 +1349,70 @@ cap noi {
 }
 if _rc == 0 test_pass
 else test_fail "Data cache workflow"
+
+
+*******************************************************************************
+*
+*   TIER 12: PAGINATION & ADVANCED OPTIONS (v18.5, v18.2)
+*
+*   Closes coverage gap for sthlp lines 388, 471, 472, 1204, 1208 — features
+*   added in v17.6 / v18.2 / v18.5 that were not exercised by HELP-01..HELP-54.
+*
+*******************************************************************************
+
+di as result _n _dup(78) "="
+di as result "TIER 12: PAGINATION & ADVANCED OPTIONS"
+di as result _dup(78) "="
+
+* HELP-55: page() option for paginated search (v18.5, sthlp line 471)
+run_test "HELP-55" "searchtopic(11) limit(20) page(2) (sthlp line 471, v18.5)"
+cap noi {
+    qui wbopendata, searchtopic(11) limit(20) page(2)
+    assert r(n_results) > 0
+    assert r(page) == 2
+    di as text "  Page 2 of " r(n_pages) " — " r(n_results) " total results in topic 11"
+}
+if _rc == 0 test_pass
+else test_fail "wbopendata, searchtopic(11) limit(20) page(2)"
+
+* HELP-56: page() option with keyword search (v18.5, sthlp line 472)
+run_test "HELP-56" "search(poverty) limit(10) page(3) (sthlp line 472, v18.5)"
+cap noi {
+    qui wbopendata, search(poverty) limit(10) page(3)
+    assert r(n_results) > 0
+    assert r(page) == 3
+    di as text "  Page 3 of " r(n_pages) " — " r(n_results) " total poverty results"
+}
+if _rc == 0 test_pass
+else test_fail "wbopendata, search(poverty) limit(10) page(3)"
+
+* HELP-57: cachedays() override (v18.2, sthlp line 1204)
+run_test "HELP-57" "indicator() clear cachedays(30) (sthlp line 1204, v18.2)"
+cap noi {
+    wbopendata, indicator(SP.POP.TOTL) clear cachedays(30)
+    assert _N > 0
+}
+if _rc == 0 test_pass
+else test_fail "wbopendata, indicator(SP.POP.TOTL) clear cachedays(30)"
+
+* HELP-58: verbose passthrough (v18.2, sthlp line 1208)
+run_test "HELP-58" "indicator() clear verbose (sthlp line 1208, v18.2)"
+cap noi {
+    wbopendata, indicator(SP.POP.TOTL) clear verbose
+    assert _N > 0
+}
+if _rc == 0 test_pass
+else test_fail "wbopendata, indicator(SP.POP.TOTL) clear verbose"
+
+* HELP-59: allsources discovery (sthlp line 388)
+run_test "HELP-59" "allsources (sthlp line 388)"
+cap noi {
+    qui wbopendata, allsources
+    assert r(n_sources) > 0
+    di as text "  allsources returned " r(n_sources) " sources"
+}
+if _rc == 0 test_pass
+else test_fail "wbopendata, allsources"
 
 
 *******************************************************************************
