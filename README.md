@@ -55,7 +55,41 @@ The access to these databases is made possible by the World Bank's [Open Data In
 
 **Minimum requirement:** Stata 14 or later.
 
-### From GitHub (Recommended)
+Three routes install the same package. They differ in which version you get and
+in whether you can choose it — pick on that basis rather than on any of them
+being preferred.
+
+| Route | Version you get | Can pin a past release? |
+| --- | --- | --- |
+| SSC | whatever SSC currently distributes | no |
+| `net install` from GitHub | the branch or tag you name in the URL | **yes** |
+| `github install` | the default branch | no — see below |
+
+**Only `net install` lets you choose a past release**, by naming a tag in the
+URL. That matters for a replication package, which should pin the version it was
+written against rather than acquire whatever has shipped since.
+
+`ssc install` always gives the current SSC distribution and offers no way to ask
+for an earlier one. `github`'s `version()` option looks like it should work but
+does not for this package: GitHub strips the leading `v` when it builds a tag
+archive, so `v18.7.0` unpacks as `wbopendata-18.7.0`, while `github` expects
+`wbopendata-v18.7.0` and stops when that directory is not there. Use the
+`net install` form below to pin a release.
+
+### From SSC
+
+```stata
+ssc install wbopendata, replace
+```
+
+SSC currently distributes **v18.4.1 (19 April 2026)**; see the
+[module record](https://ideas.repec.org/c/boc/bocode/s457234.html). GitHub
+carries later work, so features added after that release are not in the SSC
+copy. SSC is re-published periodically, so this gap opens and closes over time —
+check `ssc describe wbopendata` for the current distribution date rather than
+relying on a number written here.
+
+### From GitHub
 
 ```stata
 net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/main/src/") replace
@@ -64,20 +98,43 @@ net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendat
 > **Upgrading?** Always use `replace`. If you see r(602) about conflicting files, `replace` resolves it.
 > Avoid `net uninstall wbopendata` — it returns r(111) ("criterion matches more than one package") and is not needed.
 
-### From SSC (Stable but older)
-
-```stata
-ssc install wbopendata, replace
-```
-
-> The [SSC version](https://ideas.repec.org/c/boc/bocode/s457234.html) (v17.7.1) is one release behind GitHub. For discovery commands, sync redesign, and YAML metadata, install from GitHub.
-
-### From GitHub (Specific Release)
+### From GitHub, pinned to a release
 
 ```stata
 * Install v18.1.1 specifically
 net install wbopendata, from("https://raw.githubusercontent.com/jpazvd/wbopendata/v18.1.1/src/") replace
 ```
+
+Substituting a tag for `main` installs exactly that release and nothing later.
+This is what a replication package or a shared pipeline wants: installing from
+`main` silently acquires whatever has shipped since the code was written.
+
+### With the `github` command
+
+If you use [`github`](https://github.com/haghish/github) (Haghish's Stata package
+manager), install with the `path()` option:
+
+```stata
+ssc install github
+github install jpazvd/wbopendata, path(src)
+```
+
+`path(src)` is required. `github` builds its install URL as
+`raw.githubusercontent.com/<repo>/master/<path>`, and this package keeps its
+`stata.toc` and `wbopendata.pkg` under `src/`, not at the repository root.
+Without the option the command looks for `stata.toc` at the root and stops with
+`file ... not found` (r(601)).
+
+The `master` in that URL is hardcoded by `github`, and this repository's default
+branch is `main`. It resolves anyway: GitHub keeps serving the previous default
+branch name after a rename, which is verified working for this package. Treat
+that as a convenience rather than a guarantee — a repository created as `main`
+that never had a `master` would not resolve. If the `github` route ever returns
+r(601) on the branch rather than the path, use the direct `net install` line
+above, which names the branch explicitly.
+
+`path()` is a real option but is undocumented in `github`'s own help, so it will
+not appear in `help github`.
 
 ### From Local Clone
 ```stata
@@ -88,19 +145,84 @@ net install wbopendata, from("C:/path/to/wbopendata/src/") replace
 net install wbopendata, from("/path/to/wbopendata/src/") replace
 ```
 
-> **Note:** The **wbopendata project** maintains three `wbopendata.pkg` files:
-> - `wbopendata.pkg` (root): For GitHub/local `net install` — uses `src/` paths
-> - `src/wbopendata.pkg`: For direct `src/`-level installs — uses relative paths
-> - `ssc/wbopendata.pkg` *(in private `wbopendata-dev` only, not in this public repo)*: For SSC submission — uses flat paths (included in zip)
+> **Note:** The package manifest is `src/wbopendata.pkg`, alongside
+> `src/stata.toc`. Every install route above points at `src/`, which is why the
+> `github` command needs `path(src)`. A separate flat-path manifest is generated
+> at SSC-submission time and is not kept in the repository.
 
-### SSC vs GitHub Versions
+### Dependencies
 
-| Channel    | Version        | Indicators | Notes                               |
-|------------|----------------|------------|-------------------------------------|
-| **SSC**    | v17.7.1 (2025) | ~20,000    | Stable, one release behind GitHub   |
-| **GitHub** | v18.7.0 (2026) | 29,000+    | Latest features, active development |
+| Package | Status | Used for |
+| --- | --- | --- |
+| [`yaml`](https://github.com/jpazvd/yaml) | recommended | faster parsing of the indicator and topic metadata catalogs |
+| `alorenz` | optional | Lorenz-curve examples in the help file |
+| `spmap` | optional | map examples in the help file |
+| `linewrap` | optional | help-file examples only; the command uses its own bundled `__wbod_linewrap` |
+| `tknz` | optional | tokenizing helper used by some examples |
 
-> **Recommendation:** Install from GitHub for full functionality including `match()`, `linewrap()`, multiple indicators, and 29,000+ indicators.
+**Nothing here is strictly required — `wbopendata` runs without any of them.**
+If `yaml` cannot be resolved, the catalog parser falls back to a built-in native
+parser that emits the same 11-column result, so either path is a drop-in. What
+you lose is speed, not capability.
+
+Before v18.8.0 a copy of `yaml` was bundled inside this package; from v18.8.0 it
+is resolved externally, so users get one canonical copy rather than a fork that
+drifts. The minimum useful version is **1.9.1**.
+
+**You normally need do nothing.** `wbopendata` checks `yaml` on first use,
+whichever way you installed `wbopendata` itself, and acts on what it finds:
+
+- missing — installs it;
+- present but older than 1.9.1 — upgrades it;
+- present and recent enough — does nothing.
+
+It tries SSC first, then this package's GitHub source, then a second GitHub
+path. If none succeeds it records `native` for the session and uses the built-in
+parser instead of failing. The result is the same; only the parse is slower.
+
+#### What happens per install route
+
+| You installed with | `dependency.do` | Result |
+| --- | --- | --- |
+| `github install` | **run automatically** | dependencies resolved at install time |
+| `net install` | not run | `yaml` installed on first use by the runtime check |
+| `ssc install` | not run | `yaml` installed on first use by the runtime check |
+
+Neither `net install` nor `ssc install` has any dependency mechanism — Stata's
+`.pkg` format has no directive that installs another package, so nothing but the
+runtime check covers them. Only the `github` command reads `dependency.do`, which
+is why the file is kept in the repository root even though most users never
+invoke it directly.
+
+To resolve everything up front instead of on first use — useful when preparing an
+offline machine, or a replication package that must not reach the network mid-run:
+
+```stata
+do "https://raw.githubusercontent.com/jpazvd/wbopendata/main/dependency.do"
+```
+
+That file installs each dependency **only if it is missing**, and prefers SSC over
+GitHub, so re-running it is cheap and it will not overwrite an SSC copy with a
+GitHub one.
+
+### What each channel currently carries
+
+| Channel | Version | Notes |
+|---|---|---|
+| **SSC** | v18.4.1 (19 Apr 2026) | re-published periodically; no way to request an older release |
+| **GitHub** | the tagged releases | any tag installable by name; `main` carries work since the last tag |
+
+Both channels ship the same command. GitHub is ahead between SSC republications
+— by however many releases have been cut since — so features added after the
+current SSC distribution are only on GitHub until the next one. Which matters
+depends on whether you need those features.
+
+Rather than trusting the numbers above, which age, read them from the source:
+
+```stata
+ssc describe wbopendata      // SSC's current distribution date
+which wbopendata             // the version you actually have installed
+```
 
 <details>
 <summary><b>📅 Version History</b> (click to expand)</summary>

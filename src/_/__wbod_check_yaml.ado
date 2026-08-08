@@ -1,23 +1,46 @@
 *******************************************************************************
-*! __wbod_check_yaml v1.0.0  21Feb2026
-*! Check if yaml.ado is installed with required version
+*! __wbod_check_yaml v1.1.2  08Aug2026
+*! Check if the yaml package is installed, complete, and at the required version
 *! If not, attempt to install from SSC or GitHub
+*!
+*! v1.1.2: the incomplete-install recovery advised only "ssc install yaml,
+*!         replace". yaml is not on SSC yet, so that instruction cannot
+*!         succeed, and the routine's own installer already falls back to
+*!         GitHub. Both routes are now offered here, matching the message
+*!         printed when installation fails outright.
+*!
+*! v1.1.1: default minversion 1.9.0 -> 1.9.1 (source_org in the indicators
+*!         preset arrived in yaml v1.9.1; verified still satisfied by yaml
+*!         v2.0.0, whose option surface is unchanged)
+*! v1.1.0: completeness check. As of wbopendata v18.8.0 the yaml package is no
+*!         longer vendored inside wbopendata; it is an external dependency
+*!         resolved here. A yaml install now counts as usable only if yaml.ado
+*!         resolves AND the internal helpers the -indicators- path needs are
+*!         present (protects against partial/broken installs, which the old
+*!         which-yaml-only check silently accepted).
 *******************************************************************************
 
 program define __wbod_check_yaml, rclass
     version 14.0
     syntax [, MINVERSION(string) QUIET]
-    
+
     * Default minimum version required for indicators preset
-    if ("`minversion'" == "") local minversion "1.9.0"
-    
+    if ("`minversion'" == "") local minversion "1.9.1"
+
+    * Internal helpers the yaml package must ship for wbopendata's -indicators-
+    * (bulk + collapse) read path to work. Single-underscore names, matching the
+    * standalone yaml package distributed via SSC / github.com/jpazvd/yaml.
+    local yaml_internals "_yaml_mataread _yaml_fastread _yaml_collapse _yaml_tokenize_line"
+
     local yaml_installed = 0
     local yaml_version = ""
+    local yaml_complete = 0
+    local missing_internals = ""
     local needs_install = 0
     local install_source = ""
-    
+
     *---------------------------------------------------------------------------
-    * Step 1: Check if yaml is installed
+    * Step 1: Check if yaml is installed, at version, and complete
     *---------------------------------------------------------------------------
     capture which yaml
     if (_rc != 0) {
@@ -28,14 +51,14 @@ program define __wbod_check_yaml, rclass
     }
     else {
         local yaml_installed = 1
-        
+
         * Extract version from yaml.ado header
         capture findfile yaml.ado
         if (_rc == 0) {
             local yaml_path = r(fn)
             _wbopendata_parse_yaml_version "`yaml_path'"
             local yaml_version = r(version)
-            
+
             if ("`yaml_version'" != "") {
                 * Compare versions
                 _wbopendata_compare_versions "`yaml_version'" "`minversion'"
@@ -60,8 +83,20 @@ program define __wbod_check_yaml, rclass
                 local needs_install = 1
             }
         }
+
+        * Completeness: even a version-OK yaml is unusable if the internal
+        * helpers are missing (e.g. a partial vendor of only the dispatcher).
+        _wbopendata_check_yaml_complete "`yaml_internals'"
+        local yaml_complete = r(complete)
+        local missing_internals = r(missing)
+        if (!`yaml_complete') {
+            if ("`quiet'" == "") {
+                di as text "(yaml.ado found but internal helpers missing:`missing_internals' - will attempt install)"
+            }
+            local needs_install = 1
+        }
     }
-    
+
     *---------------------------------------------------------------------------
     * Step 2: Install if needed
     *---------------------------------------------------------------------------
@@ -130,19 +165,57 @@ program define __wbod_check_yaml, rclass
             exit 601
         }
         local yaml_installed = 1
-        
+
         * Get installed version
         capture findfile yaml.ado
         if (_rc == 0) {
             _wbopendata_parse_yaml_version "`r(fn)'"
             local yaml_version = r(version)
         }
+
+        * Verify completeness after install: a dispatcher without its internal
+        * helpers is still unusable for the -indicators- read path.
+        _wbopendata_check_yaml_complete "`yaml_internals'"
+        local yaml_complete = r(complete)
+        local missing_internals = r(missing)
+        if (!`yaml_complete') {
+            di as error "yaml package installed but incomplete; missing internal helpers:`missing_internals'"
+            di as error "Please reinstall the full package:"
+            di as text "  . ssc install yaml, replace"
+            di as text "  or"
+            di as text "  . net install yaml, from(https://raw.githubusercontent.com/jpazvd/yaml/main/src) replace"
+            exit 601
+        }
     }
-    
+
     return local installed = "`yaml_installed'"
     return local version = "`yaml_version'"
     return local source = "`install_source'"
+    return local missing = "`missing_internals'"
+    return scalar complete = `yaml_complete'
     return scalar needed_install = `needs_install'
+end
+
+
+*******************************************************************************
+* Helper: check that the yaml package's internal helper ados are on the adopath
+* Returns r(complete) = 1 if all resolve, r(missing) = space-list of any absent
+*******************************************************************************
+program define _wbopendata_check_yaml_complete, rclass
+    version 14.0
+    args internals
+
+    local missing ""
+    foreach prog of local internals {
+        capture findfile `prog'.ado
+        if (_rc != 0) {
+            local missing "`missing' `prog'"
+        }
+    }
+    local missing = trim("`missing'")
+
+    return local missing = "`missing'"
+    return scalar complete = ("`missing'" == "")
 end
 
 

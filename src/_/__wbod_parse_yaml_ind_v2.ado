@@ -1,27 +1,50 @@
 *******************************************************************************
-*! __wbod_parse_yaml_ind_v2 v1.1.1  11Mar2026
-*! Parse YAML indicators file using yaml.ado bulk collapse (faster)
-*! Drop-in replacement for __wbod_parse_yaml_ind.ado
+*! __wbod_parse_yaml_ind_v2 v1.2.1  06Aug2026
+*! Parse YAML indicators file using the yaml package's bulk collapse (faster)
+*! Preferred parser; falls back to __wbod_parse_yaml_ind when yaml is unavailable
+*! v1.2.1: minversion floor 1.9.0 -> 1.9.1 (source_org in the indicators
+*!         preset colfields arrived in yaml v1.9.1)
+*! v1.2.0: Graceful fallback to the built-in native parser if the yaml package
+*!         cannot be resolved/installed or the read fails (works offline on the
+*!         shipped file). Session sentinel $WBOD_yaml_checked in {1, native}.
 *! v1.1.0: Strip empty YAML arrays [], add source_org to colfields
 *!
-*! Uses yaml v1.9.1 indicators preset for ~27% faster parsing
+*! Uses the yaml indicators preset (bulk + collapse) for faster parsing.
 *! Produces identical output variables for compatibility with __wbopendata_search_cache
+*! (same 11-column contract the native parser emits, so either path is a drop-in).
 *******************************************************************************
 
 program define __wbod_parse_yaml_ind_v2
     version 14.0
     args yaml_path
 
-    * Check yaml.ado is installed with required version (once per session)
-    if ("$WBOD_yaml_checked" != "1") {
-        __wbod_check_yaml, minversion(1.9.0)
-        global WBOD_yaml_checked "1"
+    * Resolve the yaml dependency once per session. On success the fast path
+    * is used; if yaml cannot be made available, remember that ("native") and
+    * use wbopendata's built-in parser from here on -- no repeated install
+    * attempts, and search() keeps working offline on the shipped YAML file.
+    if ("$WBOD_yaml_checked" == "") {
+        capture __wbod_check_yaml, minversion(1.9.1)
+        if (_rc == 0)  global WBOD_yaml_checked "1"
+        else           global WBOD_yaml_checked "native"
+    }
+
+    if ("$WBOD_yaml_checked" == "native") {
+        di as text "(yaml package unavailable - using wbopendata's built-in parser)"
+        __wbod_parse_yaml_ind "`yaml_path'"
+        exit
+    }
+
+    * Fast path via the yaml package. If the read itself fails despite the
+    * package being present, fall back rather than hard-erroring.
+    capture yaml read using "`yaml_path'", indicators replace blockscalars strl
+    if (_rc != 0) {
+        di as text "(yaml read failed - using wbopendata's built-in parser)"
+        __wbod_parse_yaml_ind "`yaml_path'"
+        exit
     }
 
     quietly {
-        * Use yaml v1.9.1 indicators preset (bulk + collapse + default colfields)
-        yaml read using "`yaml_path'", indicators replace blockscalars strl
-        
+
         * Rename variables to match __wbod_parse_yaml_ind output format
         * yaml collapse produces: ind_code, code, name, source_id, source_name,
         *                         description, topic_ids, topic_names
