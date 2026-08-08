@@ -1,7 +1,8 @@
 {smcl}
-{* *! version 18.7.0  25Apr2026}{...}
+{* *! version 18.8.0  07Jul2026}{...}
 {vieweralsosee "wbopendata" "help wbopendata"}{...}
 {viewerjumpto "What's New" "wbopendata_whatsnew##whatsnew"}{...}
+{viewerjumpto "Version 18.8.0" "wbopendata_whatsnew##v1880"}{...}
 {viewerjumpto "Version 18.7.0" "wbopendata_whatsnew##v1870"}{...}
 {viewerjumpto "Version 18.6.1" "wbopendata_whatsnew##v1861"}{...}
 {viewerjumpto "Version 18.6.0" "wbopendata_whatsnew##v1860"}{...}
@@ -29,6 +30,39 @@
 {pstd}
 This file documents recent changes and new features in the {cmd:wbopendata} module.
 For complete documentation, see {help wbopendata:help wbopendata}.
+
+{marker v1880}{...}
+{title:Version 18.8.0 (07Jul2026)}
+
+{pstd}
+{bf:yaml is now an external dependency, not bundled} - Earlier releases shipped a
+copy of the {cmd:yaml} package (the {cmd:yaml.ado} dispatcher, its subcommands, and
+the internal parser helpers) inside the wbopendata distribution. That vendored copy
+was incomplete as packaged - {cmd:yaml_read.ado} calls single-underscore internal
+helpers ({cmd:_yaml_mataread}, {cmd:_yaml_collapse}) that were shipped under
+double-underscore names, so the {opt indicators} read path could not resolve them on
+a wbopendata-only install. Two packages also shipping the same {cmd:yaml.ado} risked
+silently downgrading a user's standalone {cmd:yaml} install.
+
+{pstd}
+As of this release the vendored files are removed. {cmd:wbopendata} declares
+{cmd:yaml} as an external runtime dependency and resolves it through
+{cmd:__wbod_check_yaml}, which installs the full package from SSC (falling back to
+{browse "https://github.com/jpazvd/yaml":github.com/jpazvd/yaml}) on first use and
+now verifies that the internal helpers are actually present, not just the dispatcher.
+Users with no network access are unaffected for cached metadata lookups, which use
+the built-in fallback parser.
+
+{pstd}
+{bf:Offline resilience} - if the {cmd:yaml} package cannot be installed (for example on
+a machine with no network access), {cmd:wbopendata, search()} now falls back to a
+built-in, dependency-free parser and keeps working on the shipped metadata file. The
+fast and fallback paths produce the same result.
+
+{pstd}
+{bf:No user-facing change} - the {cmd:wbopendata} command syntax, options, and output
+are unchanged. The four {cmd:_wbopendata_*.yaml} metadata files remain part of the
+distribution.
 
 {marker v1870}{...}
 {title:Version 18.7.0 (25Apr2026)}

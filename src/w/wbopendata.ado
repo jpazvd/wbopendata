@@ -1,6 +1,7 @@
 *******************************************************************************
 * wbopendata
-*! v 18.7.0  	 25Apr2026               by Joao Pedro Azevedo
+*! v 18.8.0  	 07Jul2026               by Joao Pedro Azevedo
+*   18.8.0: De-vendor the yaml package (external dependency via __wbod_check_yaml); completeness check added
 *   18.7.0: Extract source/topic alias tables to shared __wbod_search_aliases helper (~330 lines dup removed)
 *   18.6.1: Strip leading zeros in search src_id alias lookup; file handle safety in sync_preview
 *   18.6.0: Show indicator diff (added/removed) after sync replace completes

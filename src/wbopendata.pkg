@@ -1,4 +1,4 @@
-v 18.7.0
+v 18.8.0
 d 'WBOPENDATA': module to access World Bank databases
 d 
 d wbopendata allows Stata users to download over 20,000 indicators 
@@ -26,10 +26,11 @@ d KW: open data
 d 
 d Requires: Stata version 14
 d 
-d Distribution-Date: 20260425
+d Distribution-Date: 20260707
 d NEW in v18.6: sync replace now shows a diff of added/removed indicators.
 d NEW in v18.6.1: leading-zero source ID fix in search display; file handle safety.
 d NEW in v18.7.0: shared __wbod_search_aliases helper; ~330 lines of duplication removed.
+d NEW in v18.8.0: yaml is now an external dependency (auto-installed from SSC), not bundled.
 d License: MIT
 d 
 d Author: João Pedro Azevedo
@@ -91,27 +92,10 @@ f _/__wbod_update_wbopendata.ado
 f _/__wbod_website.ado
 f _/__wbod_write_stats_history.ado
 f _/__wbod_yaml_metadata.ado
-f _/__yaml_collapse.ado
-f _/__yaml_fastread.ado
-f _/__yaml_mataread.ado
-f _/__yaml_tokenize_line.ado
 F _/_wbopendata_parameters.yaml
 F _/_wbopendata_indicators.yaml
 F _/_wbopendata_sources.yaml
 F _/_wbopendata_topics.yaml
-f y/yaml.ado
-f y/yaml.sthlp
-f y/yaml_read.ado
-f y/yaml_get.ado
-f y/yaml_write.ado
-f y/yaml_list.ado
-f y/yaml_describe.ado
-f y/yaml_dir.ado
-f y/yaml_clear.ado
-f y/yaml_validate.ado
-f y/yaml_frames.ado
-f y/yaml_examples.sthlp
-f y/yaml_whatsnew.sthlp
 f py/update_metadata.py
 f py/update_metadata.do
 f py/wb_api_client.py

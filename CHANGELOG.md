@@ -20,6 +20,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [18.8.0] - 2026-07-07
+
+### Changed
+
+- **De-vendored the `yaml` package**: Earlier releases bundled a copy of the standalone `yaml` package (dispatcher `yaml.ado`, its subcommands, and the internal parser helpers) under `src/y/` and `src/_/__yaml_*.ado`. Those files are removed. `wbopendata` now declares `yaml` as an external runtime dependency resolved by `__wbod_check_yaml` (SSC, with a `github.com/jpazvd/yaml` fallback). The four `_wbopendata_*.yaml` metadata files are wbopendata's own and remain in the distribution.
+- **Offline resilience for `search`**: `__wbod_parse_yaml_ind_v2` (v1.2.0) now falls back to wbopendata's built-in, dependency-free parser (`__wbod_parse_yaml_ind`) when the `yaml` package cannot be installed or the read fails, so `wbopendata, search()` keeps working offline on the shipped metadata file. A session sentinel records the outcome once so a failed install is not retried on every call. Fast and fallback paths produce an identical dataset (verified: 29,189 indicators, same columns).
+
+### Fixed
+
+- **Broken vendored parser path**: the vendored `yaml_read.ado` invoked single-underscore internal helpers (`_yaml_mataread`, `_yaml_collapse`, `_yaml_fastread`, `_yaml_tokenize_line`) while the bundled files were named with a double underscore (`__yaml_*`). The `indicators` (bulk + collapse) read path therefore could not resolve its helpers on a wbopendata-only install, and the version-passing vendored `yaml.ado` v1.9.2 suppressed the auto-install that would have supplied a working copy. Removing the vendored copy and hardening the dependency check resolves this.
+
+### Internal
+
+- **`__wbod_check_yaml` v1.1.0 — completeness check**: a `yaml` install now counts as usable only if `yaml.ado` resolves *and* the internal helpers the `indicators` path needs (`_yaml_mataread`, `_yaml_fastread`, `_yaml_collapse`, `_yaml_tokenize_line`) are present; a partial install triggers (re)installation. New returns `r(complete)` and `r(missing)`.
+- **`scripts/update_component_versions.py`**: emits a `dependencies:` section recording external packages (yaml `>=1.9.1`) not shipped inside wbopendata; `__COMPONENT_VERSIONS.yaml` regenerated to drop the removed yaml component entries.
+
 ## [18.7.0] - 2026-04-25
 
 ### Changed
