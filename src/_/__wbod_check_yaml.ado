@@ -1,7 +1,13 @@
 *******************************************************************************
-*! __wbod_check_yaml v1.1.1  06Aug2026
+*! __wbod_check_yaml v1.1.2  08Aug2026
 *! Check if the yaml package is installed, complete, and at the required version
 *! If not, attempt to install from SSC or GitHub
+*!
+*! v1.1.2: the incomplete-install recovery advised only "ssc install yaml,
+*!         replace". yaml is not on SSC yet, so that instruction cannot
+*!         succeed, and the routine's own installer already falls back to
+*!         GitHub. Both routes are now offered here, matching the message
+*!         printed when installation fails outright.
 *!
 *! v1.1.1: default minversion 1.9.0 -> 1.9.1 (source_org in the indicators
 *!         preset arrived in yaml v1.9.1; verified still satisfied by yaml
@@ -176,6 +182,8 @@ program define __wbod_check_yaml, rclass
             di as error "yaml package installed but incomplete; missing internal helpers:`missing_internals'"
             di as error "Please reinstall the full package:"
             di as text "  . ssc install yaml, replace"
+            di as text "  or"
+            di as text "  . net install yaml, from(https://raw.githubusercontent.com/jpazvd/yaml/main/src) replace"
             exit 601
         }
     }
